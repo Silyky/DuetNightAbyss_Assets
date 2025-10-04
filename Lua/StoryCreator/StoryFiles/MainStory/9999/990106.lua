@@ -1,0 +1,132 @@
+return {
+  storyName = "未命名故事",
+  storyDescription = "",
+  lineData = {
+    {
+      startStory = "1704175979425217047",
+      startPort = "StoryStart",
+      endStory = "1704175979425217049",
+      endPort = "In"
+    },
+    {
+      startStory = "1704175979425217049",
+      startPort = "Success",
+      endStory = "1704175979425217048",
+      endPort = "StoryEnd"
+    }
+  },
+  storyNodeData = {
+    ["1704175979425217047"] = {
+      isStoryNode = true,
+      key = "1704175979425217047",
+      type = "StoryStartNode",
+      name = "StoryStart",
+      pos = {x = -72.63815140569092, y = 227.27272727272728},
+      propsData = {QuestChainId = 990106},
+      questNodeData = {
+        lineData = {},
+        nodeData = {},
+        commentData = {}
+      }
+    },
+    ["1704175979425217048"] = {
+      isStoryNode = true,
+      key = "1704175979425217048",
+      type = "StoryEndNode",
+      name = "StoryEnd",
+      pos = {x = 594.2692042163912, y = 375.9469054577786},
+      propsData = {},
+      questNodeData = {
+        lineData = {},
+        nodeData = {},
+        commentData = {}
+      }
+    },
+    ["1704175979425217049"] = {
+      isStoryNode = true,
+      key = "1704175979425217049",
+      type = "StoryNode",
+      name = "测试任务",
+      pos = {x = 266.5487967914437, y = 331.2987967914442},
+      propsData = {
+        QuestId = 99010601,
+        QuestDescriptionComment = "虚空……",
+        QuestDescription = "Description_100101_0",
+        QuestDeatil = "Description_100101_0",
+        TaskRegionReName = "",
+        TaskSubRegionReName = "",
+        RecommendLevel = -1,
+        bIsStartQuest = false,
+        bIsEndQuest = false,
+        bIsNotifyGameMode = false,
+        bIsStartChapter = false,
+        bIsEndChapter = false,
+        bIsShowOnComplete = true,
+        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnFail = false,
+        bIsDynamicEvent = false,
+        ResurgencePoint = "",
+        bUseQuestCoordinate = false,
+        bDeadTriggerQuestFail = false,
+        IsFairyLand = false,
+        SubRegionId = 0,
+        StoryGuideType = "Point",
+        StoryGuidePointName = ""
+      },
+      questNodeData = {
+        lineData = {
+          {
+            startQuest = "1704175979425217050",
+            startPort = "QuestStart",
+            endQuest = "1704175979425217053",
+            endPort = "In"
+          },
+          {
+            startQuest = "1704175979425217053",
+            startPort = "Out",
+            endQuest = "1704175979425217051",
+            endPort = "Success"
+          }
+        },
+        nodeData = {
+          ["1704175979425217050"] = {
+            key = "1704175979425217050",
+            type = "QuestStartNode",
+            name = "QuestStart",
+            pos = {x = 192.72727272727275, y = 149.54545454545453},
+            propsData = {ModeType = 0}
+          },
+          ["1704175979425217051"] = {
+            key = "1704175979425217051",
+            type = "QuestSuccessNode",
+            name = "QuestSuccess",
+            pos = {x = 866.4463522171484, y = 167.57985974925455},
+            propsData = {ModeType = 0}
+          },
+          ["1704175979425217052"] = {
+            key = "1704175979425217052",
+            type = "QuestFailNode",
+            name = "QuestFail",
+            pos = {x = 1500, y = 340},
+            propsData = {}
+          },
+          ["1704175979425217053"] = {
+            key = "1704175979425217053",
+            type = "ShowGuideToastNode",
+            name = "Toast显示/隐藏信息",
+            pos = {x = 545, y = 142.72727272727266},
+            propsData = {
+              ShowEnable = true,
+              MessageId = 990001,
+              MessageNote = "",
+              LastTime = 5,
+              Style = "Normal"
+            }
+          }
+        },
+        commentData = {}
+      }
+    }
+  },
+  commentData = {}
+}

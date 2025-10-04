@@ -1,0 +1,31322 @@
+local T = {}
+T.RT_1 = {
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong",
+  "Dungeon_ModTab_20"
+}
+T.RT_2 = {
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+}
+T.RT_3 = {
+  [102] = 3
+}
+T.RT_4 = {
+  [1] = "Tag_ATK"
+}
+T.RT_5 = {
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong"
+}
+T.RT_6 = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.2
+}
+T.RT_7 = {
+  [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.2
+}
+}
+T.RT_8 = {
+  [102] = 50
+}
+T.RT_9 = {
+  [1] = "Tag_AtkMode",
+  [2] = "Tag_SpecialEffect"
+}
+T.RT_10 = {AttrName = "CRI", Rate = 0.4}
+T.RT_11 = {
+  [1] = {AttrName = "CRI", Rate = 0.4}
+}
+T.RT_12 = {AttrName = "ATK", Rate = "#1"}
+T.RT_13 = {
+  [1] = {AttrName = "ATK", Rate = "#1"}
+}
+T.RT_14 = {
+  [102] = 1000
+}
+T.RT_15 = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+T.RT_16 = {
+  [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+}
+T.RT_17 = {AttrName = "CRI", Rate = "#1"}
+T.RT_18 = {
+  [1] = {AttrName = "CRI", Rate = "#1"}
+}
+T.RT_19 = {AttrName = "CRD", Rate = "#1"}
+T.RT_20 = {
+  [1] = {AttrName = "CRD", Rate = "#1"}
+}
+T.RT_21 = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+T.RT_22 = {AttrName = "MultiShoot", Rate = "#1"}
+T.RT_23 = {
+  [1] = {AttrName = "MultiShoot", Rate = "#1"}
+}
+T.RT_24 = {
+  [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+}
+T.RT_25 = {AttrName = "SkillRange", Rate = "#1"}
+T.RT_26 = {
+  [1] = {AttrName = "SkillRange", Rate = "#1"}
+}
+T.RT_27 = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+T.RT_28 = {
+  [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+}
+T.RT_29 = {
+  AttrName = "SkillEfficiency",
+  Rate = "#1"
+}
+T.RT_30 = {
+  [1] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#1"
+}
+}
+T.RT_31 = {AttrName = "MaxSp", Rate = "#1"}
+T.RT_32 = {
+  [1] = {AttrName = "MaxSp", Rate = "#1"}
+}
+T.RT_33 = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+T.RT_34 = {
+  [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+}
+T.RT_35 = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+T.RT_36 = {
+  [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+}
+T.RT_37 = {
+  AttrName = "AdditionalRecoverTime",
+  Value = 1
+}
+T.RT_38 = {
+  [1] = {
+  AttrName = "AdditionalRecoverTime",
+  Value = 1
+}
+}
+T.RT_39 = {AttrName = "MaxHp", Rate = "#1"}
+T.RT_40 = {AttrName = "CRD", Rate = 0.5}
+T.RT_41 = {
+  [1] = {AttrName = "CRD", Rate = 0.5}
+}
+T.RT_42 = {2401}
+T.RT_43 = {
+  AttrName = "AttackRange_Normal",
+  Value = 80
+}
+T.RT_44 = {
+  [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = 80
+}
+}
+T.RT_45 = {
+  "Shop_Abyss",
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong"
+}
+T.RT_46 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+T.RT_47 = {
+  [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+}
+T.RT_48 = {
+  [102] = 1
+}
+T.RT_49 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+T.RT_50 = {
+  [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+}
+T.RT_51 = {
+  [1] = "Tag_Hp"
+}
+T.RT_52 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+}
+T.RT_53 = {
+  [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+}
+}
+T.RT_54 = {
+  [1] = "Tag_ES"
+}
+T.RT_55 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#1"
+}
+T.RT_56 = {
+  [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#1"
+}
+}
+T.RT_57 = {
+  [1] = "Tag_SP"
+}
+T.RT_58 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+T.RT_59 = {
+  [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+}
+T.RT_60 = {
+  [1] = "Tag_DEF"
+}
+T.RT_61 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+T.RT_62 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+T.RT_63 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+T.RT_64 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+}
+T.RT_65 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_Hp",
+  [3] = "Tag_DEF"
+}
+T.RT_66 = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+T.RT_67 = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+T.RT_68 = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+T.RT_69 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+}
+T.RT_70 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+T.RT_71 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+T.RT_72 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+T.RT_73 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+}
+T.RT_74 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+T.RT_75 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+T.RT_76 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+T.RT_77 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+}
+T.RT_78 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+T.RT_79 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+T.RT_80 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+T.RT_81 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+}
+T.RT_82 = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+T.RT_83 = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+T.RT_84 = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+T.RT_85 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+}
+T.RT_86 = {
+  [1] = "Tag_CRI"
+}
+T.RT_87 = {
+  [1] = "Tag_CRD"
+}
+T.RT_88 = {
+  [1] = "Tag_TriggerProbability"
+}
+T.RT_89 = {AttrName = "ATK_Slash", Rate = "#1"}
+T.RT_90 = {
+  [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+}
+T.RT_91 = {
+  [1] = "Tag_ATK_Attr"
+}
+T.RT_92 = {AttrName = "ATK_Spike", Rate = "#1"}
+T.RT_93 = {
+  [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+}
+T.RT_94 = {AttrName = "ATK_Smash", Rate = "#1"}
+T.RT_95 = {
+  [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+}
+T.RT_96 = {
+  [1] = "Tag_AttackSpeed"
+}
+T.RT_97 = {
+  [102] = 100
+}
+T.RT_98 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#2"
+}
+T.RT_99 = {
+  [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#2"
+}
+}
+T.RT_100 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SP"
+}
+T.RT_101 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#2"
+}
+T.RT_102 = {
+  [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#2"
+}
+}
+T.RT_103 = {
+  [1] = "Tag_Hp",
+  [2] = "Tag_ES"
+}
+T.RT_104 = {AttrName = "CRI", Rate = "#2"}
+T.RT_105 = {
+  [1] = {AttrName = "ATK", Rate = "#1"},
+  [2] = {AttrName = "CRI", Rate = "#2"}
+}
+T.RT_106 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_CRI"
+}
+T.RT_107 = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+T.RT_108 = {
+  [1] = {AttrName = "CRD", Rate = "#1"},
+  [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+}
+T.RT_109 = {
+  [1] = "Tag_CRD",
+  [2] = "Tag_TriggerProbability"
+}
+T.RT_110 = {
+  [1] = {AttrName = "ATK_Slash", Rate = "#1"},
+  [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+}
+T.RT_111 = {
+  [1] = "Tag_ATK_Attr",
+  [2] = "Tag_TriggerProbability"
+}
+T.RT_112 = {
+  [1] = {AttrName = "ATK_Spike", Rate = "#1"},
+  [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+}
+T.RT_113 = {
+  [1] = {AttrName = "ATK_Smash", Rate = "#1"},
+  [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+}
+T.RT_114 = {
+  [1] = "Tag_AttackRange"
+}
+T.RT_115 = {
+  [1] = "Tag_MultiShoot"
+}
+T.RT_116 = {AttrName = "ATK", Rate = 0.06}
+T.RT_117 = {
+  [1] = {AttrName = "ATK", Rate = 0.06}
+}
+T.RT_118 = {AttrName = "CRI", Rate = 0.048}
+T.RT_119 = {
+  [1] = {AttrName = "CRI", Rate = 0.048}
+}
+T.RT_120 = {AttrName = "CRD", Rate = 0.06}
+T.RT_121 = {
+  [1] = {AttrName = "CRD", Rate = 0.06}
+}
+T.RT_122 = {
+  AttrName = "TriggerProbability",
+  Rate = 0.12
+}
+T.RT_123 = {
+  [1] = {
+  AttrName = "TriggerProbability",
+  Rate = 0.12
+}
+}
+T.RT_124 = {AttrName = "ATK_Slash", Rate = 0.03}
+T.RT_125 = {AttrName = "ATK_Spike", Rate = 0.03}
+T.RT_126 = {AttrName = "ATK_Smash", Rate = 0.03}
+T.RT_127 = {
+  [1] = {AttrName = "ATK_Slash", Rate = 0.03},
+  [2] = {AttrName = "ATK_Spike", Rate = 0.03},
+  [3] = {AttrName = "ATK_Smash", Rate = 0.03}
+}
+T.RT_128 = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.12
+}
+T.RT_129 = {
+  [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.12
+}
+}
+T.RT_130 = {AttrName = "CRI", Rate = 0.096}
+T.RT_131 = {
+  [1] = {AttrName = "CRI", Rate = 0.096}
+}
+T.RT_132 = {AttrName = "CRD", Rate = 0.12}
+T.RT_133 = {
+  [1] = {AttrName = "CRD", Rate = 0.12}
+}
+T.RT_134 = {
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong",
+  "Dungeon_ModTab_30"
+}
+T.RT_135 = {
+  [102] = 10
+}
+T.RT_136 = {
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong",
+  "Dungeon_ModTab_40"
+}
+T.RT_137 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_Hp"
+}
+T.RT_138 = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+T.RT_139 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_DEF"
+}
+T.RT_140 = {
+  [1] = "Tag_SkillIntensity"
+}
+T.RT_141 = {
+  [1] = "Tag_SkillEfficiency"
+}
+T.RT_142 = {
+  [1] = "Tag_SkillRange"
+}
+T.RT_143 = {
+  [1] = "Tag_SkillSustain"
+}
+T.RT_144 = {AttrName = "MaxHp", Rate = "#2"}
+T.RT_145 = {AttrName = "MaxES", Rate = "#2"}
+T.RT_146 = {
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+T.RT_147 = {
+  [1] = {AttrName = "MaxSp", Rate = "#1"},
+  [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+}
+T.RT_148 = {
+  [1] = "Tag_SP",
+  [2] = "Tag_SkillEfficiency"
+}
+T.RT_149 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+}
+T.RT_150 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+T.RT_151 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SkillIntensity"
+}
+T.RT_152 = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+}
+T.RT_153 = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+T.RT_154 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+}
+T.RT_155 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+T.RT_156 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+}
+T.RT_157 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+T.RT_158 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+}
+T.RT_159 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+T.RT_160 = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+}
+T.RT_161 = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+T.RT_162 = {
+  "Shop_ExploreBadge",
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong"
+}
+T.RT_163 = {9}
+T.RT_164 = {
+  [1] = "Tag_SpecialEffect"
+}
+T.RT_165 = {
+  AttrName = "ComboHoldTime",
+  Value = "#1"
+}
+T.RT_166 = {AttrName = "BulletMax", Rate = "#1"}
+T.RT_167 = {
+  [1] = "Tag_BulletMax"
+}
+T.RT_168 = {
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong",
+  "Dungeon_ModTab_50"
+}
+T.RT_169 = {
+  [1] = "$-#Buff[1311001].BuffDamagedRate.Value*100$%",
+  [2] = "$#Buff[1311].AddAttrs[1].Rate*100$%",
+  [3] = "$#PassiveEffect[1311].Vars.LastTime$",
+  [4] = "$math.floor(#Buff[1311].MaxLayer)$"
+}
+T.RT_170 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_DmgReducion",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_171 = {1311}
+T.RT_172 = {
+  [1] = {AttrName = "MaxHp", Rate = "#1"},
+  [2] = {AttrName = "MaxES", Rate = "#2"}
+}
+T.RT_173 = {
+  [1] = "$#Buff[1312].AddAttrs[1].Rate*100$%",
+  [2] = "$#PassiveEffect[1312].Vars.LastTime$"
+}
+T.RT_174 = {
+  [1] = "Tag_SkillIntensity",
+  [2] = "Tag_SpecialEffect"
+}
+T.RT_175 = {1312}
+T.RT_176 = {
+  [1] = "$#Buff[1313].AddAttrs[1].Value*100$%"
+}
+T.RT_177 = {
+  [1] = "Tag_Dmg",
+  [2] = "Tag_SpecialEffect"
+}
+T.RT_178 = {1313}
+T.RT_179 = {
+  [1] = "$#Buff[1314].AddAttrs[1].Value*100$%",
+  [2] = "$#Buff[1314].MaxLayer*#Buff[1314].AddAttrs[1].Value*100$%"
+}
+T.RT_180 = {1314}
+T.RT_181 = {
+  [1] = "$#Buff[1315].AddAttrs[1].Value*100$%"
+}
+T.RT_182 = {1315}
+T.RT_183 = {
+  [1] = "$#Buff[1316].AddAttrs[1].Rate*100$%",
+  [2] = "$#Buff[1316].AddAttrs[1].Rate*#Buff[1316].MaxLayer*100$%"
+}
+T.RT_184 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SpecialEffect"
+}
+T.RT_185 = {1316}
+T.RT_186 = {
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong",
+  "Dungeon_ModTab_60"
+}
+T.RT_187 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+T.RT_188 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+}
+T.RT_189 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SkillIntensity",
+  [3] = "Tag_SkillRange"
+}
+T.RT_190 = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+T.RT_191 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+}
+T.RT_192 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+T.RT_193 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+}
+T.RT_194 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+T.RT_195 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+}
+T.RT_196 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+T.RT_197 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+}
+T.RT_198 = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+T.RT_199 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+}
+T.RT_200 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+T.RT_201 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+}
+T.RT_202 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SkillIntensity",
+  [3] = "Tag_SkillSustain"
+}
+T.RT_203 = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+T.RT_204 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+}
+T.RT_205 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+T.RT_206 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+}
+T.RT_207 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+T.RT_208 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+}
+T.RT_209 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+T.RT_210 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+}
+T.RT_211 = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+T.RT_212 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+}
+T.RT_213 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+T.RT_214 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+}
+T.RT_215 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_Hp",
+  [3] = "Tag_DEF",
+  [4] = "Tag_StrongValue"
+}
+T.RT_216 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+T.RT_217 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+}
+T.RT_218 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_Hp",
+  [3] = "Tag_DEF",
+  [4] = "Tag_EnmityValue"
+}
+T.RT_219 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "BonusDamage_Dark",
+  Value = "#4"
+}
+T.RT_220 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "BonusDamage_Dark",
+  Value = "#4"
+}
+}
+T.RT_221 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_Hp",
+  [3] = "Tag_DEF",
+  [4] = "Tag_BonusDmg",
+  [5] = "Tag_SpecialEffect"
+}
+T.RT_222 = {1420, 201}
+T.RT_223 = {
+  [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+}
+T.RT_224 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_Hp",
+  [3] = "Tag_DEF",
+  [4] = "Tag_SPReduce",
+  [5] = "Tag_SpecialEffect"
+}
+T.RT_225 = {1430}
+T.RT_226 = {
+  [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+}
+T.RT_227 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_Hp",
+  [3] = "Tag_DEF",
+  [4] = "Tag_Dmg",
+  [5] = "Tag_SpecialEffect"
+}
+T.RT_228 = {1440}
+T.RT_229 = {
+  AllowModMultiplier = "Water",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+T.RT_230 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+}
+T.RT_231 = {
+  AllowModMultiplier = "Water",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+T.RT_232 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+}
+T.RT_233 = {
+  AllowModMultiplier = "Water",
+  AttrName = "BonusDamage_Water",
+  Value = "#4"
+}
+T.RT_234 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "BonusDamage_Water",
+  Value = "#4"
+}
+}
+T.RT_235 = {1420, 202}
+T.RT_236 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+T.RT_237 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+}
+T.RT_238 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+T.RT_239 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+}
+T.RT_240 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "BonusDamage_Fire",
+  Value = "#4"
+}
+T.RT_241 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "BonusDamage_Fire",
+  Value = "#4"
+}
+}
+T.RT_242 = {1420, 203}
+T.RT_243 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+T.RT_244 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+}
+T.RT_245 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+T.RT_246 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+}
+T.RT_247 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "BonusDamage_Thunder",
+  Value = "#4"
+}
+T.RT_248 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "BonusDamage_Thunder",
+  Value = "#4"
+}
+}
+T.RT_249 = {1420, 204}
+T.RT_250 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+T.RT_251 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+}
+T.RT_252 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+T.RT_253 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+}
+T.RT_254 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "BonusDamage_Wind",
+  Value = "#4"
+}
+T.RT_255 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "BonusDamage_Wind",
+  Value = "#4"
+}
+}
+T.RT_256 = {1420, 205}
+T.RT_257 = {
+  AllowModMultiplier = "Light",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+T.RT_258 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+}
+T.RT_259 = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+T.RT_260 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+}
+T.RT_261 = {
+  AllowModMultiplier = "Light",
+  AttrName = "BonusDamage_Light",
+  Value = "#4"
+}
+T.RT_262 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+  [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+  [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "BonusDamage_Light",
+  Value = "#4"
+}
+}
+T.RT_263 = {
+  "Shop_Main",
+  "Forging",
+  "MonsterStrong",
+  "Dungeon_ModTab_65"
+}
+T.RT_264 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+}
+T.RT_265 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+T.RT_266 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+}
+T.RT_267 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_StrongValue"
+}
+T.RT_268 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+T.RT_269 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+}
+T.RT_270 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SkillRange"
+}
+T.RT_271 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+T.RT_272 = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+T.RT_273 = {
+  [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+}
+T.RT_274 = {
+  [1] = "Tag_DEF",
+  [2] = "Tag_SkillEfficiency"
+}
+T.RT_275 = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+T.RT_276 = {
+  [1] = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+}
+T.RT_277 = {
+  [2] = 4
+}
+T.RT_278 = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+T.RT_279 = {
+  [1] = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+}
+T.RT_280 = {
+  [1] = "Tag_StrongValue"
+}
+T.RT_281 = {
+  [3] = 4
+}
+T.RT_282 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+}
+T.RT_283 = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+T.RT_284 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+}
+T.RT_285 = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+T.RT_286 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+}
+T.RT_287 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SkillEfficiency"
+}
+T.RT_288 = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxSp",
+  Rate = "#1"
+}
+T.RT_289 = {
+  [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxSp",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+}
+T.RT_290 = {
+  [1] = "Tag_SP",
+  [2] = "Tag_SkillIntensity"
+}
+T.RT_291 = {
+  [1] = 4
+}
+T.RT_292 = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+T.RT_293 = {
+  [1] = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+}
+T.RT_294 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+T.RT_295 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+}
+T.RT_296 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+T.RT_297 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+}
+T.RT_298 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_SkillSustain"
+}
+T.RT_299 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+T.RT_300 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+}
+T.RT_301 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+T.RT_302 = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+T.RT_303 = {
+  [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+}
+T.RT_304 = {
+  [1] = "Tag_Hp",
+  [2] = "Tag_SkillRange"
+}
+T.RT_305 = {AttrName = "SkillRange", Rate = 1}
+T.RT_306 = {
+  [1] = {AttrName = "SkillRange", Rate = 1}
+}
+T.RT_307 = {
+  [4] = 4
+}
+T.RT_308 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+}
+T.RT_309 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+T.RT_310 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+}
+T.RT_311 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+}
+T.RT_312 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+T.RT_313 = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+T.RT_314 = {
+  [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+}
+T.RT_315 = {
+  [1] = "Tag_DEF",
+  [2] = "Tag_SkillSustain"
+}
+T.RT_316 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+T.RT_317 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+}
+T.RT_318 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+T.RT_319 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+}
+T.RT_320 = {
+  [1] = "Tag_ATK",
+  [2] = "Tag_EnmityValue"
+}
+T.RT_321 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+}
+T.RT_322 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxSp",
+  Rate = "#1"
+}
+T.RT_323 = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+T.RT_324 = {
+  [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxSp",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+}
+T.RT_325 = {
+  [1] = "Tag_SP",
+  [2] = "Tag_SkillSustain"
+}
+T.RT_326 = {
+  AttrName = "EnmityValue",
+  Value = 1
+}
+T.RT_327 = {
+  [1] = {
+  AttrName = "EnmityValue",
+  Value = 1
+}
+}
+T.RT_328 = {
+  [1] = "Tag_EnmityValue"
+}
+T.RT_329 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+}
+T.RT_330 = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+T.RT_331 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+}
+T.RT_332 = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+T.RT_333 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+}
+T.RT_334 = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+T.RT_335 = {
+  [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+  [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+}
+T.RT_336 = {
+  [1] = "Tag_Hp",
+  [2] = "Tag_SkillIntensity"
+}
+T.RT_337 = {
+  [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+  [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+}
+T.RT_338 = {1801}
+T.RT_339 = {1802}
+T.RT_340 = {1803}
+T.RT_341 = {1804}
+T.RT_342 = {1805}
+T.RT_343 = {1806}
+T.RT_344 = {1807}
+T.RT_345 = {1808}
+T.RT_346 = {1809}
+T.RT_347 = {1810}
+T.RT_348 = {1811}
+T.RT_349 = {1812}
+T.RT_350 = {
+  [1] = "$#PassiveEffect[1911].Vars.LastTime$",
+  [2] = "$#Buff[1911].AddAttrs[1].Value*100$%",
+  [3] = "$math.floor(#Buff[1911].MaxLayer)$"
+}
+T.RT_351 = {
+  [1] = "Tag_SkillIntensity",
+  [2] = "Tag_CRI",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_352 = {1911}
+T.RT_353 = {
+  [1] = "$#PassiveEffect[1921].Vars.SkillSpeedRate*100$%",
+  [2] = "$#PassiveEffect[1921].Vars.SkillRangeRate*100$%"
+}
+T.RT_354 = {
+  [1] = "Tag_SkillIntensity",
+  [2] = "Tag_SkillRange",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_355 = {1921}
+T.RT_356 = {
+  [1] = "$#SkillEffects[1922].TaskEffects[1].LastTime$",
+  [2] = "$#Buff[1922].AddAttrs[1].Rate*100$%"
+}
+T.RT_357 = {
+  [1] = "Tag_SkillIntensity",
+  [2] = "Tag_ATK",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_358 = {1922}
+T.RT_359 = {
+  [1] = "$#PassiveEffect[1931].Vars.LastTime$",
+  [2] = "$#Buff[1931].AddAttrs[1].Rate*100$%",
+  [3] = "$math.floor(#Buff[1931].MaxLayer)$"
+}
+T.RT_360 = {1931}
+T.RT_361 = {
+  [1] = "$#PassiveEffect[1941].Vars.LastTime$",
+  [2] = "$#Buff[1941].AddAttrs[1].Value*100$%",
+  [3] = "$math.floor(#Buff[1941].MaxLayer)$"
+}
+T.RT_362 = {
+  [1] = "Tag_SkillIntensity",
+  [2] = "Tag_Dmg",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_363 = {1941}
+T.RT_364 = {
+  [1] = "$#PassiveEffect[1951].Vars.LastTime$",
+  [2] = "$#Buff[1951].AddAttrs[1].Rate*100$%"
+}
+T.RT_365 = {
+  [1] = "Tag_SkillIntensity",
+  [2] = "Tag_SkillIntensity",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_366 = {1951}
+T.RT_367 = {
+  [1] = "$#SkillEffects[1952].TaskEffects[1].LastTime$",
+  [2] = "$#Buff[1952].AddAttrs[1].Value*100$%"
+}
+T.RT_368 = {
+  [1] = "Tag_SkillSustain",
+  [2] = "Tag_EnmityValue",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_369 = {1952}
+T.RT_370 = {
+  [1] = "$#PassiveEffect[1961001].Vars.BuffRate*100$%",
+  [2] = "$#PassiveEffect[1961001].Vars.BuffRateExtra*100$%"
+}
+T.RT_371 = {
+  [1] = "Tag_SkillSustain",
+  [2] = "Tag_Dmg",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_372 = {1961}
+T.RT_373 = {
+  [1] = "$#PassiveEffect[1962].Vars.BuffRate*100$%",
+  [2] = "$#Buff[1962].AddAttrs[1].SupLimitRate*100$%"
+}
+T.RT_374 = {
+  [1] = "Tag_SkillSustain",
+  [2] = "Tag_ATK",
+  [3] = "Tag_SpecialEffect"
+}
+T.RT_375 = {1962}
+T.RT_376 = {
+  [1] = "Tag_AttackSpeed",
+  [2] = "Tag_SpecialEffect"
+}
+T.RT_377 = {
+  [1] = "Tag_FallAttack"
+}
+T.RT_378 = {
+  [1] = "Tag_SlideAttack"
+}
+T.RT_379 = {AttrName = "GrRate", Value = "#1"}
+T.RT_380 = {
+  [1] = {AttrName = "GrRate", Value = "#1"}
+}
+T.RT_381 = {
+  [1] = "Tag_Dmg"
+}
+T.RT_382 = {AttrName = "JtRate", Value = "#1"}
+T.RT_383 = {
+  [1] = {AttrName = "JtRate", Value = "#1"}
+}
+T.RT_384 = {AttrName = "JhRate", Value = "#1"}
+T.RT_385 = {
+  [1] = {AttrName = "JhRate", Value = "#1"}
+}
+T.RT_386 = {AttrName = "SqRate", Value = "#1"}
+T.RT_387 = {
+  [1] = {AttrName = "SqRate", Value = "#1"}
+}
+T.RT_388 = {
+  AttrName = "TriggerHpRate",
+  Value = "#1"
+}
+T.RT_389 = {
+  [1] = {
+  AttrName = "TriggerHpRate",
+  Value = "#1"
+}
+}
+T.RT_390 = {
+  AttrName = "TriggerEsRate",
+  Value = "#1"
+}
+T.RT_391 = {
+  [1] = {
+  AttrName = "TriggerEsRate",
+  Value = "#1"
+}
+}
+T.RT_392 = {
+  AttrName = "BulletSpeed",
+  Rate = "#1"
+}
+T.RT_393 = {
+  [1] = {
+  AttrName = "BulletSpeed",
+  Rate = "#1"
+}
+}
+T.RT_394 = {
+  1,
+  1,
+  2,
+  2,
+  3
+}
+T.RT_395 = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+T.RT_396 = {
+  [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+}
+T.RT_397 = {
+  [1] = "$#PassiveEffect[6111].Vars.CompareBase$",
+  [2] = "$#Buff[6111].AddAttrs[1].Value*100$%"
+}
+T.RT_398 = {6111}
+T.RT_399 = {AttrName = "MaxSp", Rate = 1}
+T.RT_400 = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+}
+T.RT_401 = {
+  [1] = {AttrName = "MaxSp", Rate = 1},
+  [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+  [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+}
+T.RT_402 = {
+  [1] = "$#PassiveEffect[6113].Vars.CompareBase$",
+  [2] = "$#Buff[6114].AddAttrs[1].Value*100$%"
+}
+T.RT_403 = {6113}
+T.RT_404 = {
+  [1] = "$#PassiveEffect[6121].Vars.CompareBase$",
+  [2] = "$#Buff[6121].AddAttrs[1].Rate*100$%"
+}
+T.RT_405 = {6121}
+T.RT_406 = {
+  [1] = "$#PassiveEffect[6123].Vars.CompareBase$",
+  [2] = "$#Buff[6124].AddAttrs[1].Rate*100$%"
+}
+T.RT_407 = {6123}
+T.RT_408 = {
+  [1] = "$#PassiveEffect[6131].Vars.CompareBase$",
+  [2] = "$#Buff[6131].AddAttrs[1].Rate*100$%"
+}
+T.RT_409 = {6131}
+T.RT_410 = {
+  [1] = "$#PassiveEffect[6133].Vars.CompareBase$",
+  [2] = "$#Buff[6134].AddAttrs[1].Rate*100$%"
+}
+T.RT_411 = {6133}
+T.RT_412 = {
+  [1] = "$#PassiveEffect[6141].Vars.CompareBase$",
+  [2] = "$#Buff[6141].AddAttrs[1].Rate*100$%"
+}
+T.RT_413 = {6141}
+T.RT_414 = {
+  [1] = "$#PassiveEffect[6143].Vars.CompareBase$",
+  [2] = "$#Buff[6144].AddAttrs[1].Value*100$%"
+}
+T.RT_415 = {6143}
+T.RT_416 = {
+  [1] = "$#PassiveEffect[6151].Vars.CompareBase$",
+  [2] = "$#Buff[6151].AddAttrs[1].Rate*100$%"
+}
+T.RT_417 = {6151}
+T.RT_418 = {
+  [1] = "$#PassiveEffect[6153].Vars.CompareBase$",
+  [2] = "$#Buff[6154].AddAttrs[1].Value*100$%"
+}
+T.RT_419 = {6153}
+T.RT_420 = {
+  [1] = "$#PassiveEffect[6161].Vars.CompareBase$",
+  [2] = "$#Buff[6161].AddAttrs[1].Value*100$%"
+}
+T.RT_421 = {6161}
+T.RT_422 = {
+  [1] = "$#PassiveEffect[6163].Vars.CompareBase$",
+  [2] = "$#Buff[6164].AddAttrs[1].Value*100$%"
+}
+T.RT_423 = {6163}
+local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
+  return x
+end
+return ReadOnly("Mod", {
+  [1] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 20,
+    Cost = 2,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.Mod_Phoenix01",
+    Id = 1,
+    IsNotOpen = true,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1001",
+    Polarity = 1,
+    Rarity = 1,
+    ReducePolarityEffect = {1, 1},
+    RepeatGroup = 1001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [11001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 2,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 11001,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [11002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 2,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 11002,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1002",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [11003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 2,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ES"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 11003,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [11004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 11004,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [11007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 1,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 11007,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1007",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [11401] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 11401,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [11402] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 11402,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [11403] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 11403,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [11404] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 11404,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [11405] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 11405,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [11406] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 11406,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [12001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 3,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 12001,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 2001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [12002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 12002,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 2002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [12003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 12003,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 2003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [12006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 12006,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2006",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 2006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [12101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 21,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 12101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [12102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 22,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 12102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2102",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [12103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 23,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 12103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2103",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [13001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 3,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 13001,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 3001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [13002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 13002,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3002",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 3002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [13003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 13003,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 3003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [13006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 13006,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3006",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 3006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [13101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 31,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 13101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3101",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [13102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 32,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 13102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3102",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [13103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 33,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 13103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3103",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [14001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 14001,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 4001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [14002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 14002,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 4002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [14003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 14003,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 4003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [14004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 14004,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 4004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [14006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 14006,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2006",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 4006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [15001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 15001,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 5001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [15002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 15002,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3002",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 5002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [15003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 15003,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 5003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [15004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 15004,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 5004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [15006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 1
+    },
+    CollectRewardExp = 20,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 15006,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3006",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 5006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [21005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 21005,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1005",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [21006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_ES"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 21006,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1006",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [21401] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 21401,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [21402] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 21402,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [21403] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 21403,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [21404] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 21404,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [21405] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 21405,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [21406] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 21406,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [22007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"},
+      [2] = {AttrName = "CRI", Rate = "#2"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 22007,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2007",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 2007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [22008] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 22008,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2008",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 2008,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [22111] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 21,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 22111,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2111",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 2110,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [22112] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 22,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 22112,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2112",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 2110,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [22113] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 23,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 22113,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2113",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 2110,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [23007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"},
+      [2] = {AttrName = "CRI", Rate = "#2"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 23007,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3007",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 3007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [23008] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 23008,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3008",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 3008,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [23111] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 31,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 23111,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3111",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 3110,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [23112] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 32,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 23112,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3112",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 3110,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [23113] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_20"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 33,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 23113,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3113",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 3110,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [24001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24001,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24002,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24003,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24004,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24005,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2005",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24006,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2006",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 41,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 42,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2102",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [24103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 43,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 24103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2103",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [25001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25001,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25002,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3002",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25003,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25004,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_MultiShoot"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25005,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25006,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3006",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 51,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3101",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 52,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3102",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [25103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 53,
+    BreakDown = {
+      [102] = 3
+    },
+    CollectRewardExp = 40,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 25103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3103",
+    Polarity = -1,
+    Rarity = 2,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [31001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1001",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1002",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ES"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1003",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31005,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1005",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_ES"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31006,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1006",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31007,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1007",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31008] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      }
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31008,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1008",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1008,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31009] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_ES"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31009,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1009",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1009,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31010] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31010,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1010",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1010,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31011] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31011,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1011",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1011,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31012] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31012,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1012",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1012,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31013] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ES",
+      [2] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31013,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1013",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1013,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31014] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ES",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31014,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1014",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1014,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31015] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 31015,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1015",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1015,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [31201] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31201,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1201",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31202] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31202,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1202",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31203] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 3,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31203,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1203",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31204] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31204,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31215] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#1"
+},
+      [2] = {AttrName = "MaxHp", Rate = "#2"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31215,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1215",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1215,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31216] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#1"
+},
+      [2] = {AttrName = "MaxES", Rate = "#2"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31216,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1216",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1216,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31217] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = "#1"},
+      [2] = {AttrName = "MaxHp", Rate = "#2"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31217,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1217",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1217,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31218] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = "#1"},
+      [2] = {AttrName = "MaxES", Rate = "#2"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 31218,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1218",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1218,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [31301] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = "#1"},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 31301,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1301",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [31321] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
+    Id = 31321,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_31321",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [31322] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
+    Id = 31322,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_31322",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [31323] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
+    Id = 31323,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_31323",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [31324] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
+    Id = 31324,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_31324",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [31325] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
+    Id = 31325,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_31325",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [31326] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
+    Id = 31326,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_31326",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [31401] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 31401,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [31402] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 31402,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [31403] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 31403,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [31404] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 31404,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [31405] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 31405,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [31406] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 31406,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1400",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [31502] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1502].TaskEffects[1].Rate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31502,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1502",
+    PassiveEffects = {1502},
+    PassiveEffectsDesc = "MOD_DESC_1502",
+    Polarity = 1,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31512] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.ceil(#PassiveEffect[1512].Vars.MaxCount)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31512,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1512",
+    PassiveEffects = {1512},
+    PassiveEffectsDesc = "MOD_DESC_1512",
+    Polarity = 3,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31513] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1513].TaskEffects[1].Rate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31513,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1513",
+    PassiveEffects = {1513},
+    PassiveEffectsDesc = "MOD_DESC_1513",
+    Polarity = 1,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31521] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "HitMontageRate",
+        Value = 0.5
+      }
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31521,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1521",
+    PassiveEffectsDesc = "MOD_DESC_1500",
+    Polarity = 4,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31522] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1522].Vars.BuffRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31522,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1522",
+    PassiveEffects = {1522},
+    PassiveEffectsDesc = "MOD_DESC_1522",
+    Polarity = 2,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31523] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1523].Vars.CoolDown$"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31523,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1523",
+    PassiveEffects = {1523},
+    PassiveEffectsDesc = "MOD_DESC_1523",
+    Polarity = 2,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31524] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1524].Vars.TriggerProb*100$%",
+      [2] = "$-#PassiveEffect[1524].Vars.BuffRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31524,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1524",
+    PassiveEffects = {1524},
+    PassiveEffectsDesc = "MOD_DESC_1524",
+    Polarity = 2,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31525] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1525].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[1525].Vars.CoolDown$"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31525,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1525",
+    PassiveEffects = {1525},
+    PassiveEffectsDesc = "MOD_DESC_1525",
+    Polarity = 2,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31526] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[1526].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31526,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1526",
+    PassiveEffects = {1526},
+    PassiveEffectsDesc = "MOD_DESC_1526",
+    Polarity = 1,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31531] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "MaxAvoidExecuteTimes",
+        Value = 1
+      }
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31531,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1531",
+    PassiveEffectsDesc = "MOD_DESC_1500",
+    Polarity = 4,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [31532] = {
+    AccessKey = {
+      "Shop_ExploreBadge",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddCharModCost = 2.5,
+    ApplicationType = 1,
+    ApplySlot = {
+      9
+    },
+    CollectRewardExp = 50,
+    Cost = 2,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1532001].TaskEffects[1].Rate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 31532,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1532",
+    PassiveEffects = {1532},
+    PassiveEffectsDesc = "MOD_DESC_1532",
+    Polarity = 1,
+    Rarity = 3,
+    RepeatGroup = 1500,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [32004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 32004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [32005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 32005,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2005",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [32101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 21,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 32101,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [32102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 22,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 32102,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2102",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [32103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 23,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 32103,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2103",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [32201] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "ComboHoldTime",
+  Value = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Combo"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 32201,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2201",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [32202] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "ExtraComboProb",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(32202,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Combo",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 32202,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2202",
+    PassiveEffectsDesc = "MOD_ATTR_ExtraComboProb",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [32301] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[2301].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Combo",
+      [2] = "Tag_CRI",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 32301,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2301",
+    PassiveEffects = {2301},
+    PassiveEffectsDesc = "MOD_DESC_2301",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [32302] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[2302].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Combo",
+      [2] = "Tag_TriggerProbability",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 32302,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2302",
+    PassiveEffects = {2302},
+    PassiveEffectsDesc = "MOD_DESC_2302",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 2302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [33004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 33004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [33005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_MultiShoot"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 33005,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [33101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 31,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 33101,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3101",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [33102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 32,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 33102,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3102",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [33103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 33,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 33103,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3103",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [33201] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "MagazineCapacity",
+        Rate = "#1"
+      }
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_MagazineCapacity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33201,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3201",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33202] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "BulletMax", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_BulletMax"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33202,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3202",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33203] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeed_Reload",
+        Rate = "#1"
+      }
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed_Reload"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33203,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3203",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33204] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_30"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "BulletConver",
+        Rate = "#1"
+      }
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_BulletConver"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33204,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3204",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33311] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[3311].TaskEffects[1].Rate*100$%",
+      [2] = "$#TargetFilter[#SkillEffects[3311].TargetFilter].LuaFilterParaments.Radius/100$"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33311,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3311",
+    PassiveEffects = {3311},
+    PassiveEffectsDesc = "MOD_DESC_3311",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3311,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33321] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[3321].AddAttrs[1].Value*100$%",
+      [2] = "$#PassiveEffect[3321].Vars.LastTime$",
+      [3] = "$math.floor(#Buff[3321].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_TriggerProbability",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33321,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3321",
+    PassiveEffects = {3321},
+    PassiveEffectsDesc = "MOD_DESC_3321",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3321,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33322] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 3,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[3322].Vars.TriggerProb*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33322,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3322",
+    PassiveEffects = {3322},
+    PassiveEffectsDesc = "MOD_DESC_3322",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3322,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33331] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 7,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[3331].Vars.LastTime$",
+      [2] = "$#Buff[3331].AddAttrs[1].Value*100$%",
+      [3] = "$math.floor(#Buff[3331].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_MultiShoot",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33331,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3331",
+    PassiveEffects = {3331},
+    PassiveEffectsDesc = "MOD_DESC_3331",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3331,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33332] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 5,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[3332].Vars.TriggerProb*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33332,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3332",
+    PassiveEffects = {3332},
+    PassiveEffectsDesc = "MOD_DESC_3332",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3332,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [33411] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackRange_Bullet",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 34,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackRange_Bullet"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 33411,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3411",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 3411,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [34001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 13,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 13,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34005,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2005",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 13,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34006,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2006",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 41,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34101,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 42,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34102,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2102",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [34103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 43,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 34103,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2103",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [35001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3002",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 13,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 13,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_MultiShoot"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35005,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 13,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35006,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3006",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 51,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35101,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3101",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 52,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35102,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3102",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [35103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 53,
+    BreakDown = {
+      [102] = 10
+    },
+    CollectRewardExp = 50,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 35103,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3103",
+    Polarity = -1,
+    Rarity = 3,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [41001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 41001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1001",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [41002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 41002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1002",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [41003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ES"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 41003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1003",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [41004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxSp",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 41004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [41007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 41007,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1007",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [41213] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+},
+      [2] = {AttrName = "SkillRange", Rate = "#2"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 41213,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1213",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1213,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [41214] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = "#1"},
+      [2] = {
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 41214,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1214",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1214,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [41311] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[1311001].BuffDamagedRate.Value*100$%",
+      [2] = "$#Buff[1311].AddAttrs[1].Rate*100$%",
+      [3] = "$#PassiveEffect[1311].Vars.LastTime$",
+      [4] = "$math.floor(#Buff[1311].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_DmgReducion",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 41311,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1311",
+    PassiveEffects = {
+      1311
+    },
+    PassiveEffectsDesc = "MOD_DESC_1311",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1311,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [41312] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MaxHp", Rate = "#1"},
+      [2] = {AttrName = "MaxES", Rate = "#2"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1312].AddAttrs[1].Rate*100$%",
+      [2] = "$#PassiveEffect[1312].Vars.LastTime$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 41312,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1312",
+    PassiveEffects = {
+      1312
+    },
+    PassiveEffectsDesc = "MOD_DESC_1312",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1312,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [41313] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1313].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 41313,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1313",
+    PassiveEffects = {
+      1313
+    },
+    PassiveEffectsDesc = "MOD_DESC_1313",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1313,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [41314] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1314].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1314].MaxLayer*#Buff[1314].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 41314,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1314",
+    PassiveEffects = {
+      1314
+    },
+    PassiveEffectsDesc = "MOD_DESC_1314",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1314,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [41315] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1315].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 41315,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1315",
+    PassiveEffects = {
+      1315
+    },
+    PassiveEffectsDesc = "MOD_DESC_1315",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1315,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [41316] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1316].AddAttrs[1].Rate*100$%",
+      [2] = "$#Buff[1316].AddAttrs[1].Rate*#Buff[1316].MaxLayer*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 41316,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1316",
+    PassiveEffects = {
+      1316
+    },
+    PassiveEffectsDesc = "MOD_DESC_1316",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1316,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [41321] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
+    Id = 41321,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1321",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41322] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
+    Id = 41322,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1322",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41323] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
+    Id = 41323,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1323",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41324] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
+    Id = 41324,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1324",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41325] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
+    Id = 41325,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1325",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41326] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
+    Id = 41326,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1326",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41331] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
+    Id = 41331,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1331",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41332] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
+    Id = 41332,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1332",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41333] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
+    Id = 41333,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1333",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41334] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
+    Id = 41334,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1334",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41335] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
+    Id = 41335,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1335",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41336] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_60"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
+    Id = 41336,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1336",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [41411] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 41411,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41412] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 41412,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41413] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "BonusDamage_Dark",
+  Value = "#4"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(41413,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 41413,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 201
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41414] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 41414,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41415] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 41415,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41421] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 41421,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41422] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 41422,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41423] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "BonusDamage_Water",
+  Value = "#4"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(41423,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 41423,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 202
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41424] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 41424,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41425] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 41425,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41431] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 41431,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41432] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 41432,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41433] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "BonusDamage_Fire",
+  Value = "#4"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(41433,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 41433,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 203
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41434] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 41434,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41435] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 41435,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41441] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 41441,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41442] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 41442,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41443] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "BonusDamage_Thunder",
+  Value = "#4"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(41443,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 41443,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 204
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41444] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 41444,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41445] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 41445,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41451] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 41451,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41452] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 41452,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41453] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "BonusDamage_Wind",
+  Value = "#4"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(41453,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 41453,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 205
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41454] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 41454,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41455] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 41455,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41461] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 41461,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41462] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 41462,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41463] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "BonusDamage_Light",
+  Value = "#4"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(41463,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 41463,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 205
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41464] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 41464,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41465] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_50"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 41465,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [41711] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41711].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 41711,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1711",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1711,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41712] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41712].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 41712,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1712",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1712,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41713] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41713].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 41713,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1713",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1713,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41714] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41714].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_DEF",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 41714,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1714",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1714,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41715] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41715)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41715,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1715",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 2,
+    PolarityNeedNum = {
+      [2] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1715,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41716] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41716)$"
+    },
+    FilterTag = {
+      [1] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41716,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1716",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1716,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41721] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41721].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 41721,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1721",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1721,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41722] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41722].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 41722,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1722",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1722,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41723] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41723].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 41723,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1723",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1723,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41724] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxSp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41724].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SP",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 41724,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1724",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1724,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41725] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41725)$"
+    },
+    FilterTag = {
+      [1] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41725,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1725",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 1,
+    PolarityNeedNum = {
+      [1] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1725,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41726] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41726)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41726,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1726",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1726,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41731] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41731].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 41731,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1731",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1731,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41732] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 13,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41732].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 41732,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1732",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1732,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41733] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41733].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 41733,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1733",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1733,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41734] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41734].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 41734,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1734",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1734,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41735] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41735)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41735,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1735",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 2,
+    PolarityNeedNum = {
+      [2] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1735,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41736] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = 1}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41736)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41736,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1736",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 4,
+    PolarityNeedNum = {
+      [4] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1736,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41741] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41741].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 41741,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1741",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1741,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41742] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41742].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 41742,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1742",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1742,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41743] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 13,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41743].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 41743,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1743",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1743,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41744] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 13,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41744].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_DEF",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 41744,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1744",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1744,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41745] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = 1}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41745)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41745,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1745",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 1,
+    PolarityNeedNum = {
+      [1] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1745,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41746] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41746)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41746,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1746",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 2,
+    PolarityNeedNum = {
+      [2] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1746,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41751] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41751].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 41751,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1751",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1751,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41752] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41752].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 41752,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1752",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1752,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41753] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 13,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41753].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 41753,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1753",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1753,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41754] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxSp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41754].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SP",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 41754,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1754",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1754,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41755] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "EnmityValue",
+  Value = 1
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41755)$"
+    },
+    FilterTag = {
+      [1] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41755,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1755",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1755,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41756] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41756)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41756,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1756",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 4,
+    PolarityNeedNum = {
+      [4] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1756,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41761] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41761].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 41761,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1761",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 1761,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41762] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41762].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 41762,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1762",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 1762,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41763] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 13,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41763].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 41763,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1763",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 1763,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41764] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_65"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 13,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[41764].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 41764,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1764",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1764,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [41765] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41765)$"
+    },
+    FilterTag = {
+      [1] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41765,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1765",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 1,
+    PolarityNeedNum = {
+      [1] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1765,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41766] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(41766)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 41766,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1766",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 4,
+    RepeatGroup = 1766,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [41801] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41801,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1801",
+    PassiveEffects = {
+      1801
+    },
+    PassiveEffectsDesc = "MOD_DESC_1801",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41802] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41802,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1802",
+    PassiveEffects = {
+      1802
+    },
+    PassiveEffectsDesc = "MOD_DESC_1802",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41803] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41803,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1803",
+    PassiveEffects = {
+      1803
+    },
+    PassiveEffectsDesc = "MOD_DESC_1803",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41804] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41804,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1804",
+    PassiveEffects = {
+      1804
+    },
+    PassiveEffectsDesc = "MOD_DESC_1804",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41805] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41805,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1805",
+    PassiveEffects = {
+      1805
+    },
+    PassiveEffectsDesc = "MOD_DESC_1805",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41806] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41806,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1806",
+    PassiveEffects = {
+      1806
+    },
+    PassiveEffectsDesc = "MOD_DESC_1806",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41807] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41807,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1807",
+    PassiveEffects = {
+      1807
+    },
+    PassiveEffectsDesc = "MOD_DESC_1807",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41808] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41808,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1808",
+    PassiveEffects = {
+      1808
+    },
+    PassiveEffectsDesc = "MOD_DESC_1808",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41809] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41809,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1809",
+    PassiveEffects = {
+      1809
+    },
+    PassiveEffectsDesc = "MOD_DESC_1809",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41810] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41810,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1810",
+    PassiveEffects = {
+      1810
+    },
+    PassiveEffectsDesc = "MOD_DESC_1810",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41811] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41811,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1811",
+    PassiveEffects = {
+      1811
+    },
+    PassiveEffectsDesc = "MOD_DESC_1811",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41812] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 41812,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1812",
+    PassiveEffects = {
+      1812
+    },
+    PassiveEffectsDesc = "MOD_DESC_1812",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [41911] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1911].Vars.LastTime$",
+      [2] = "$#Buff[1911].AddAttrs[1].Value*100$%",
+      [3] = "$math.floor(#Buff[1911].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_CRI",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Anubis01_Purple.T_Mod_Anubis01_Purple",
+    Id = 41911,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1911",
+    PassiveEffects = {
+      1911
+    },
+    PassiveEffectsDesc = "MOD_DESC_1911",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Anubis01"
+  },
+  [41921] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1921].Vars.SkillSpeedRate*100$%",
+      [2] = "$#PassiveEffect[1921].Vars.SkillRangeRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SkillRange",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
+    Id = 41921,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1921",
+    PassiveEffects = {
+      1921
+    },
+    PassiveEffectsDesc = "MOD_DESC_1921",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    SummonInherit = 1,
+    TypeName = "MOD_Type_Name_Bahamut01"
+  },
+  [41922] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1922].TaskEffects[1].LastTime$",
+      [2] = "$#Buff[1922].AddAttrs[1].Rate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_ATK",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
+    Id = 41922,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1922",
+    PassiveEffects = {
+      1922
+    },
+    PassiveEffectsDesc = "MOD_DESC_1922",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Bahamut01"
+  },
+  [41931] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1931].Vars.LastTime$",
+      [2] = "$#Buff[1931].AddAttrs[1].Rate*100$%",
+      [3] = "$math.floor(#Buff[1931].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_ATK",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Ifrit01.T_Mod_Ifrit01",
+    Id = 41931,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1931",
+    PassiveEffects = {
+      1931
+    },
+    PassiveEffectsDesc = "MOD_DESC_1931",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Ifrit01"
+  },
+  [41941] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1941].Vars.LastTime$",
+      [2] = "$#Buff[1941].AddAttrs[1].Value*100$%",
+      [3] = "$math.floor(#Buff[1941].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_Dmg",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Summanus01.T_Mod_Summanus01",
+    Id = 41941,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1941",
+    PassiveEffects = {
+      1941
+    },
+    PassiveEffectsDesc = "MOD_DESC_1941",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Summanus01"
+  },
+  [41951] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1951].Vars.LastTime$",
+      [2] = "$#Buff[1951].AddAttrs[1].Rate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
+    Id = 41951,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1951",
+    PassiveEffects = {
+      1951
+    },
+    PassiveEffectsDesc = "MOD_DESC_1951",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Hastur01"
+  },
+  [41952] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1952].TaskEffects[1].LastTime$",
+      [2] = "$#Buff[1952].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain",
+      [2] = "Tag_EnmityValue",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
+    Id = 41952,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1952",
+    PassiveEffects = {
+      1952
+    },
+    PassiveEffectsDesc = "MOD_DESC_1952",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Hastur01"
+  },
+  [41961] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1961001].Vars.BuffRate*100$%",
+      [2] = "$#PassiveEffect[1961001].Vars.BuffRateExtra*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain",
+      [2] = "Tag_Dmg",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
+    Id = 41961,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1961",
+    PassiveEffects = {
+      1961
+    },
+    PassiveEffectsDesc = "MOD_DESC_1961",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Yatagarasu01"
+  },
+  [41962] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1962].Vars.BuffRate*100$%",
+      [2] = "$#Buff[1962].AddAttrs[1].SupLimitRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain",
+      [2] = "Tag_ATK",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
+    Id = 41962,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1962",
+    PassiveEffects = {
+      1962
+    },
+    PassiveEffectsDesc = "MOD_DESC_1962",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Yatagarasu01"
+  },
+  [42001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 42001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [42002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 42002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [42003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 42003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [42006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 42006,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2006",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 2006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [42203] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "ComboHoldTime",
+  Value = "#1"
+},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 14,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Combo",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42203,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2203",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 2203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42311] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 15,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[2311].Vars.LastTime$",
+      [2] = "$#Buff[2311].AddAttrs[1].Value*100$%",
+      [3] = "$math.floor(#Buff[2311].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_AttackSpeed",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42311,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2311",
+    PassiveEffects = {2311},
+    PassiveEffectsDesc = "MOD_DESC_2311",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 2311,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42312] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[2312].Vars.LastTime$",
+      [2] = "$#Buff[2312].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_MoveSpeed",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42312,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2312",
+    PassiveEffects = {2312},
+    PassiveEffectsDesc = "MOD_DESC_2312",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 2312,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42321] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[2321].Vars.LastTime$",
+      [2] = "$#Buff[2321].AddAttrs[1].Value*100$%",
+      [3] = "$math.floor(#Buff[2321].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_CRD",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42321,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2321",
+    PassiveEffects = {2321},
+    PassiveEffectsDesc = "MOD_DESC_2321",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 2321,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42322] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 6,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[2322].Vars.LastTime$",
+      [2] = "$#Buff[2322].AddAttrs[1].Value/100$",
+      [3] = "$math.floor(#Buff[2322].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_AttackRange",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42322,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2322",
+    PassiveEffects = {2322},
+    PassiveEffectsDesc = "MOD_DESC_2322",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 2322,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42401] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "FallAttackRate",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_FallAttack"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42401,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2401",
+    PassiveEffects = {
+      2401
+    },
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 2401,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42403] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "SlideAttackRate",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SlideAttack"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42403,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2403",
+    PassiveEffects = {2403},
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 2403,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42411] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeed_FallAttack",
+        Rate = "#1"
+      }
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_FallAttack"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42411,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2411",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 2411,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42412] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeed_HeavyAttack",
+        Rate = "#1"
+      }
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_HeavyAttack"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42412,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2412",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 2412,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42413] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeed_SlideAttack",
+        Rate = "#1"
+      }
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SlideAttack"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42413,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2413",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 2413,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42421] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[2421].Vars.TriggerProb*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SlideAttack",
+      [2] = "Tag_Combo",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42421,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2421",
+    PassiveEffects = {2421},
+    PassiveEffectsDesc = "MOD_DESC_2421",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 2421,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42501] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "GrRate", Value = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(42501,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42501,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2501",
+    PassiveEffects = {2501},
+    PassiveEffectsDesc = "MOD_DESC_2501",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2501,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42502] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "JtRate", Value = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(42502,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42502,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2502",
+    PassiveEffects = {2502},
+    PassiveEffectsDesc = "MOD_DESC_2502",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2502,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42503] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "JhRate", Value = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(42503,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42503,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2503",
+    PassiveEffects = {2503},
+    PassiveEffectsDesc = "MOD_DESC_2503",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2503,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42504] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "SqRate", Value = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(42504,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42504,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2504",
+    PassiveEffects = {2504},
+    PassiveEffectsDesc = "MOD_DESC_2504",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2504,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42511] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerHpRate",
+  Value = "#1"
+}
+    },
+    ApplicationType = 22,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42511,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2511",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2511,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [42512] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerEsRate",
+  Value = "#1"
+}
+    },
+    ApplicationType = 21,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 42512,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2512",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 2512,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [43001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3002",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Dungeon_ModTab_40"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43006,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3006",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 3006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43008] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 14,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43008,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3008",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 3008,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43123] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"},
+      [2] = {
+        AttrName = "MagazineCapacity",
+        Rate = "#2"
+      }
+    },
+    ApplicationType = 33,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr",
+      [2] = "Tag_MagazineCapacity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43123,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3123",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 3120,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43301] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[3301].AddAttrs[1].Value*100$%",
+      [2] = "$#PassiveEffect[3301].Vars.LastTime$"
+    },
+    FilterTag = {
+      [1] = "Tag_AttackSpeed",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43301,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3301",
+    PassiveEffects = {3301},
+    PassiveEffectsDesc = "MOD_DESC_3301",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 3301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43341] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[3341].Vars.BuffRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43341,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3341",
+    PassiveEffects = {3341},
+    PassiveEffectsDesc = "MOD_DESC_3341",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 3341,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43401] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "ExplodeBulletRate",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 34,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 15,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(43401,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43401,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3401",
+    PassiveEffects = {3401},
+    PassiveEffectsDesc = "MOD_DESC_3401",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 3401,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43402] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+        AttrName = "RayCreatureRate",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 35,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 15,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(43402,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43402,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3402",
+    PassiveEffects = {3402},
+    PassiveEffectsDesc = "MOD_DESC_3402",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 3402,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43403] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "RayLength", Rate = "#1"}
+    },
+    ApplicationType = 35,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43403,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3403",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 3403,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43404] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "BulletSpeed",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43404,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3404",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 3404,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43405] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "BulletSpeed",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43405,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3405",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 3405,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43501] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "GrRate", Value = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(43501,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43501,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3501",
+    PassiveEffects = {3501},
+    PassiveEffectsDesc = "MOD_DESC_2501",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3501,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43502] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "JtRate", Value = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(43502,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43502,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3502",
+    PassiveEffects = {3502},
+    PassiveEffectsDesc = "MOD_DESC_2502",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3502,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43503] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "JhRate", Value = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(43503,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43503,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3503",
+    PassiveEffects = {3503},
+    PassiveEffectsDesc = "MOD_DESC_2503",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3503,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43504] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "SqRate", Value = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(43504,1)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43504,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3504",
+    PassiveEffects = {3504},
+    PassiveEffectsDesc = "MOD_DESC_2504",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3504,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43511] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerHpRate",
+  Value = "#1"
+}
+    },
+    ApplicationType = 32,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43511,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3511",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3511,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43512] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerEsRate",
+  Value = "#1"
+}
+    },
+    ApplicationType = 31,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 9,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Dmg"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
+    Id = 43512,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3512",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3512,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fafnir01"
+  },
+  [43601] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"},
+      [2] = {
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#2"
+      }
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 8,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43601,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3601",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 3601,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43602] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+},
+      [2] = {AttrName = "ATK", Rate = "#2"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43602,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3602",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 3602,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43603] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "BulletMax", Rate = "#1"},
+      [2] = {
+        AttrName = "AttackSpeed_Reload",
+        Rate = "#2"
+      }
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_BulletMax"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43603,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3603",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 3603,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [43604] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[3604].Vars.BuffRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_MultiShoot"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 43604,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3604",
+    PassiveEffects = {3604},
+    PassiveEffectsDesc = "MOD_DESC_3604",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 3604,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [44001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 4001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 4002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 4003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 16,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 4004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 16,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44005,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2005",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 4005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 16,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44006,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2006",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 4006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 41,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44101,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 42,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44102,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2102",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [44103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 43,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 44103,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2103",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [45001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45001,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 5001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45002,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3002",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 5002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 12,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45003,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 5003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 16,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45004,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 5004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 16,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_MultiShoot"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45005,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = 4,
+    Rarity = 4,
+    RepeatGroup = 5005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 16,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45006,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3006",
+    Polarity = 2,
+    Rarity = 4,
+    RepeatGroup = 5006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 51,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45101,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3101",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 52,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45102,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3102",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [45103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 53,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 11,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 45103,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3103",
+    Polarity = 1,
+    Rarity = 4,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [51002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxHp",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51002},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 51002,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1002",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [51003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "MaxES",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51003},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ES"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 51003,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1003",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [51007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Normal",
+  AttrName = "DEF",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51007},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 51007,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1007",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [51301] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = "#1"},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51301},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 14,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_SP",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 51301,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1301",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [51311] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51311},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 9,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[1311001].BuffDamagedRate.Value*100$%",
+      [2] = "$#Buff[1311].AddAttrs[1].Rate*100$%",
+      [3] = "$#PassiveEffect[1311].Vars.LastTime$",
+      [4] = "$math.floor(#Buff[1311].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_DmgReducion",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 51311,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1311",
+    PassiveEffects = {
+      1311
+    },
+    PassiveEffectsDesc = "MOD_DESC_1311",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1311,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [51312] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MaxHp", Rate = "#1"},
+      [2] = {AttrName = "MaxES", Rate = "#2"}
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51312},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 7,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1312].AddAttrs[1].Rate*100$%",
+      [2] = "$#PassiveEffect[1312].Vars.LastTime$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 51312,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1312",
+    PassiveEffects = {
+      1312
+    },
+    PassiveEffectsDesc = "MOD_DESC_1312",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1312,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [51313] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51313},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1313].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 51313,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1313",
+    PassiveEffects = {
+      1313
+    },
+    PassiveEffectsDesc = "MOD_DESC_1313",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1313,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [51314] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51314},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1314].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1314].MaxLayer*#Buff[1314].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 51314,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1314",
+    PassiveEffects = {
+      1314
+    },
+    PassiveEffectsDesc = "MOD_DESC_1314",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1314,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [51315] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51315},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1315].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 51315,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1315",
+    PassiveEffects = {
+      1315
+    },
+    PassiveEffectsDesc = "MOD_DESC_1315",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1315,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [51316] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51316},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 6,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1316].AddAttrs[1].Rate*100$%",
+      [2] = "$#Buff[1316].AddAttrs[1].Rate*#Buff[1316].MaxLayer*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
+    Id = 51316,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1316",
+    PassiveEffects = {
+      1316
+    },
+    PassiveEffectsDesc = "MOD_DESC_1316",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1316,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Sphinx01"
+  },
+  [51321] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51321},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 15,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
+    Id = 51321,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1321",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51322] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51322},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 15,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
+    Id = 51322,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1322",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51323] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51323},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 15,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
+    Id = 51323,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1323",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51324] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51324},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 15,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
+    Id = 51324,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1324",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51325] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51325},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 15,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
+    Id = 51325,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1325",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51326] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillRange",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51326},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 15,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
+    Id = 51326,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1326",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51331] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK_Dark",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51331},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
+    Id = 51331,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1331",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51332] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK_Water",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51332},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
+    Id = 51332,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1332",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51333] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK_Fire",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51333},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
+    Id = 51333,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1333",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51334] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK_Thunder",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51334},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
+    Id = 51334,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1334",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51335] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK_Wind",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51335},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
+    Id = 51335,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1335",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51336] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK_Light",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51336},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
+    Id = 51336,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1336",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1320,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Griffin01"
+  },
+  [51411] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51411},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 51411,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51412] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51412},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 51412,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51413] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "BonusDamage_Dark",
+  Value = "#4"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51413},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(51413,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 51413,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 201
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51414] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51414},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 51414,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51415] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51415},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
+    Id = 51415,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51421] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51421},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 51421,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51422] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51422},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 51422,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51423] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Water",
+  AttrName = "BonusDamage_Water",
+  Value = "#4"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51423},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(51423,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 51423,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 202
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51424] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51424},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 51424,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51425] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Water",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51425},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
+    Id = 51425,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51431] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51431},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 51431,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51432] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51432},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 51432,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51433] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "BonusDamage_Fire",
+  Value = "#4"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51433},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(51433,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 51433,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 203
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51434] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51434},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 51434,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51435] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51435},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
+    Id = 51435,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51441] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51441},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 51441,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51442] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51442},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 51442,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51443] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "BonusDamage_Thunder",
+  Value = "#4"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51443},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(51443,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 51443,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 204
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51444] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51444},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 51444,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51445] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51445},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
+    Id = 51445,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51451] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51451},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 51451,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51452] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51452},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 51452,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51453] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "BonusDamage_Wind",
+  Value = "#4"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51453},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(51453,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 51453,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 205
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51454] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51454},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 51454,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51455] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51455},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
+    Id = 51455,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51461] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "StrongValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51461},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 51461,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1401",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51462] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#4"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51462},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 51462,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1402",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51463] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+},
+      [4] = {
+  AllowModMultiplier = "Light",
+  AttrName = "BonusDamage_Light",
+  Value = "#4"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51463},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[1420].Vars.BuffRate*100$%",
+      [2] = "$GetModValue(51463,4)*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_BonusDmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 51463,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1403",
+    PassiveEffects = {
+      1420, 205
+    },
+    PassiveEffectsDesc = "MOD_DESC_1420",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51464] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51464},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1430001].AddAttrs[1].Value$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_SPReduce",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 51464,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1404",
+    PassiveEffects = {
+      1430
+    },
+    PassiveEffectsDesc = "MOD_DESC_1430",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51465] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#2"
+},
+      [3] = {
+  AllowModMultiplier = "Light",
+  AttrName = "DEF",
+  Rate = "#3"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51465},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 18,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1440001].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp",
+      [3] = "Tag_DEF",
+      [4] = "Tag_Dmg",
+      [5] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
+    Id = 51465,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1405",
+    PassiveEffects = {
+      1440
+    },
+    PassiveEffectsDesc = "MOD_DESC_1440",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1400,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Typhon01"
+  },
+  [51711] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51711},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51711].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 51711,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1711",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1711,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51712] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51712},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 7,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51712].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 51712,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1712",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1712,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51713] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51713},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51713].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 51713,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1713",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1713,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51714] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "DEF",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Dark",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51714},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51714].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_DEF",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
+    Id = 51714,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1714",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1714,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51715] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51715)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51715,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1715",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 2,
+    PolarityNeedNum = {
+      [2] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1715,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51716] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51716)$"
+    },
+    FilterTag = {
+      [1] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51716,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1716",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1716,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51721] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51721},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51721].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 51721,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1721",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1721,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51722] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51722},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51722].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 51722,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1722",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1722,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51723] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51723},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51723].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 51723,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1723",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1723,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51724] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Water",
+  AttrName = "MaxSp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Water",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51724},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51724].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SP",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
+    Id = 51724,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1724",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1724,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51725] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51725)$"
+    },
+    FilterTag = {
+      [1] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51725,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1725",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 1,
+    PolarityNeedNum = {
+      [1] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1725,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51726] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51726)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51726,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1726",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1726,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51731] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51731},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51731].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 51731,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1731",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1731,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51732] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51732},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51732].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 51732,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1732",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1732,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51733] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillEfficiency",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51733},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51733].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 51733,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1733",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1733,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51734] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Fire",
+  AttrName = "SkillRange",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51734},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51734].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
+    Id = 51734,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1734",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1734,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51735] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51735)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51735,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1735",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 2,
+    PolarityNeedNum = {
+      [2] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1735,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51736] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = 1}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51736)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51736,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1736",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 4,
+    PolarityNeedNum = {
+      [4] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1736,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51741] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "MaxHp",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51741},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51741].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_Hp"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 51741,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1741",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1741,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51742] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "StrongValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51742},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 7,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51742].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 51742,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1742",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1742,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51743] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51743},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51743].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 51743,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1743",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1743,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51744] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "DEF",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Thunder",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51744},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51744].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_DEF",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
+    Id = 51744,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1744",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1744,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51745] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = 1}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51745)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51745,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1745",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 1,
+    PolarityNeedNum = {
+      [1] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1745,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51746] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = 1
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51746)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51746,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1746",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 2,
+    PolarityNeedNum = {
+      [2] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1746,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51751] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "DEF",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51751},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51751].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_DEF"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 51751,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1751",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1751,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51752] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51752},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 7,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51752].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 51752,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1752",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1752,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51753] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51753},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51753].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 51753,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1753",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1753,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51754] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "MaxSp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Wind",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51754},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51754].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SP",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
+    Id = 51754,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1754",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1754,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51755] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "EnmityValue",
+  Value = 1
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51755)$"
+    },
+    FilterTag = {
+      [1] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51755,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1755",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1755,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51756] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51756)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51756,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1756",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 4,
+    PolarityNeedNum = {
+      [4] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1756,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51761] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51761},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 8,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51761].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 51761,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1761",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 1761,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51762] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "EnmityValue",
+  Value = "#2"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51762},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 7,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51762].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_EnmityValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 51762,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1762",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1762,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51763] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "ATK",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillSustain",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51763},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51763].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 51763,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1763",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 1763,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51764] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AllowModMultiplier = "Light",
+  AttrName = "MaxHp",
+  Rate = "#1"
+},
+      [2] = {
+  AllowModMultiplier = "Light",
+  AttrName = "SkillIntensity",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51764},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$math.floor(#Mod[51764].RepeatModLevel)$"
+    },
+    FilterTag = {
+      [1] = "Tag_Hp",
+      [2] = "Tag_SkillIntensity"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
+    Id = 51764,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1764",
+    PassiveEffectsDesc = "MOD_DESC_1700",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1764,
+    RepeatModLevel = 5,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Mephisto01"
+  },
+  [51765] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "StrongValue",
+  Value = 1
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51765)$"
+    },
+    FilterTag = {
+      [1] = "Tag_StrongValue"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51765,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1765",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 1,
+    PolarityNeedNum = {
+      [1] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1765,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51766] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = 1
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      9
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModPolarity(51766)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Id = 51766,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1766",
+    PassiveEffectsDesc = "MOD_DESC_1710",
+    Polarity = 3,
+    PolarityNeedNum = {
+      [3] = 4
+    },
+    Rarity = 5,
+    RepeatGroup = 1766,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_FeatheredSnake01"
+  },
+  [51801] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51801},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51801,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1801",
+    PassiveEffects = {
+      1801
+    },
+    PassiveEffectsDesc = "MOD_DESC_1801",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51802] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51802},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51802,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1802",
+    PassiveEffects = {
+      1802
+    },
+    PassiveEffectsDesc = "MOD_DESC_1802",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51803] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51803},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51803,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1803",
+    PassiveEffects = {
+      1803
+    },
+    PassiveEffectsDesc = "MOD_DESC_1803",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51804] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51804},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51804,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1804",
+    PassiveEffects = {
+      1804
+    },
+    PassiveEffectsDesc = "MOD_DESC_1804",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51805] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51805},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51805,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1805",
+    PassiveEffects = {
+      1805
+    },
+    PassiveEffectsDesc = "MOD_DESC_1805",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51806] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51806},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51806,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1806",
+    PassiveEffects = {
+      1806
+    },
+    PassiveEffectsDesc = "MOD_DESC_1806",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51807] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51807},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51807,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1807",
+    PassiveEffects = {
+      1807
+    },
+    PassiveEffectsDesc = "MOD_DESC_1807",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51808] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51808},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51808,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1808",
+    PassiveEffects = {
+      1808
+    },
+    PassiveEffectsDesc = "MOD_DESC_1808",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51809] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51809},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51809,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1809",
+    PassiveEffects = {
+      1809
+    },
+    PassiveEffectsDesc = "MOD_DESC_1809",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51810] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51810},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51810,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1810",
+    PassiveEffects = {
+      1810
+    },
+    PassiveEffectsDesc = "MOD_DESC_1810",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51811] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51811},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51811,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1811",
+    PassiveEffects = {
+      1811
+    },
+    PassiveEffectsDesc = "MOD_DESC_1811",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51812] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51812},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[1800].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[1800].AddAttrs[1].Value*300$%"
+    },
+    FilterTag = {
+      [1] = "Tag_Dmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
+    Id = 51812,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1812",
+    PassiveEffects = {
+      1812
+    },
+    PassiveEffectsDesc = "MOD_DESC_1812",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1800,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Jormungand01"
+  },
+  [51911] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51911},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1911].Vars.LastTime$",
+      [2] = "$#Buff[1911].AddAttrs[1].Value*100$%",
+      [3] = "$math.floor(#Buff[1911].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_CRI",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Anubis01_Purple.T_Mod_Anubis01_Purple",
+    Id = 51911,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1911",
+    PassiveEffects = {
+      1911
+    },
+    PassiveEffectsDesc = "MOD_DESC_1911",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Anubis01"
+  },
+  [51921] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51921},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1921].Vars.SkillSpeedRate*100$%",
+      [2] = "$#PassiveEffect[1921].Vars.SkillRangeRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SkillRange",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
+    Id = 51921,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1921",
+    PassiveEffects = {
+      1921
+    },
+    PassiveEffectsDesc = "MOD_DESC_1921",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    SummonInherit = 1,
+    TypeName = "MOD_Type_Name_Bahamut01"
+  },
+  [51922] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51922},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1922].TaskEffects[1].LastTime$",
+      [2] = "$#Buff[1922].AddAttrs[1].Rate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_ATK",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
+    Id = 51922,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1922",
+    PassiveEffects = {
+      1922
+    },
+    PassiveEffectsDesc = "MOD_DESC_1922",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Bahamut01"
+  },
+  [51931] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51931},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1931].Vars.LastTime$",
+      [2] = "$#Buff[1931].AddAttrs[1].Rate*100$%",
+      [3] = "$math.floor(#Buff[1931].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_ATK",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Ifrit01.T_Mod_Ifrit01",
+    Id = 51931,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1931",
+    PassiveEffects = {
+      1931
+    },
+    PassiveEffectsDesc = "MOD_DESC_1931",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Ifrit01"
+  },
+  [51941] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51941},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1941].Vars.LastTime$",
+      [2] = "$#Buff[1941].AddAttrs[1].Value*100$%",
+      [3] = "$math.floor(#Buff[1941].MaxLayer)$"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_Dmg",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Summanus01.T_Mod_Summanus01",
+    Id = 51941,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1941",
+    PassiveEffects = {
+      1941
+    },
+    PassiveEffectsDesc = "MOD_DESC_1941",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Summanus01"
+  },
+  [51951] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51951},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1951].Vars.LastTime$",
+      [2] = "$#Buff[1951].AddAttrs[1].Rate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SkillIntensity",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
+    Id = 51951,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1951",
+    PassiveEffects = {
+      1951
+    },
+    PassiveEffectsDesc = "MOD_DESC_1951",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Hastur01"
+  },
+  [51952] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51952},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[1952].TaskEffects[1].LastTime$",
+      [2] = "$#Buff[1952].AddAttrs[1].Value*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain",
+      [2] = "Tag_EnmityValue",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
+    Id = 51952,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1952",
+    PassiveEffects = {
+      1952
+    },
+    PassiveEffectsDesc = "MOD_DESC_1952",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Hastur01"
+  },
+  [51961] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51961},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1961001].Vars.BuffRate*100$%",
+      [2] = "$#PassiveEffect[1961001].Vars.BuffRateExtra*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain",
+      [2] = "Tag_ATK",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
+    Id = 51961,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1961",
+    PassiveEffects = {
+      1961
+    },
+    PassiveEffectsDesc = "MOD_DESC_1961",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Yatagarasu01"
+  },
+  [51962] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {51962},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 17,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[1962].Vars.BuffRate*100$%",
+      [2] = "$#Buff[1962].AddAttrs[1].SupLimitRate*100$%"
+    },
+    FilterTag = {
+      [1] = "Tag_SkillSustain",
+      [2] = "Tag_Dmg",
+      [3] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
+    Id = 51962,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1962",
+    PassiveEffects = {
+      1962
+    },
+    PassiveEffectsDesc = "MOD_DESC_1962",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 1900,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Yatagarasu01"
+  },
+  [52001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52001},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52001,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 2001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [52004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52004},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 15,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52004,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 2004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [52005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52005},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52005,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2005",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 2005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [52007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"},
+      [2] = {AttrName = "CRI", Rate = "#2"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52007},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52007,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2007",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 2007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [52008] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52008},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52008,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2008",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 2008,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [52101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 21,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52101},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52101,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [52102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 22,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52102},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52102,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2102",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [52103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 23,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {52103},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 52103,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2103",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 2100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [53001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53001},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 5,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53001,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 3001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [53004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53004},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53004,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 3004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [53005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53005},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 10,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_MultiShoot"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53005,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 3005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [53007] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"},
+      [2] = {AttrName = "CRI", Rate = "#2"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53007},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 7,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53007,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3007",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 3007,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [53008] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"},
+      [2] = {
+  AttrName = "TriggerProbability",
+  Rate = "#2"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53008},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 6,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_CRD",
+      [2] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53008,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3008",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 3008,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [53101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 31,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53101},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53101,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3101",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [53102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 32,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53102},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53102,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3102",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [53103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 33,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {53103},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 4,
+    CostChange = 1,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 53103,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3103",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 3100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [54001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54001},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54001,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 4001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54002},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 12,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54002,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 4002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54003},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 12,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54003,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 4003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54004},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 16,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54004,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 4004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54005},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 16,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_AttackRange"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54005,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2005",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 4005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 4,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54006},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 16,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54006,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2006",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 4006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 41,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54101},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54101,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 42,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54102},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54102,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2102",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [54103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 43,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {54103},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus02.T_Mod_Cerberus02",
+    Id = 54103,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2103",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 4100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus02"
+  },
+  [55001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55001},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55001,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 5001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55002},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 12,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_CRI"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55002,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3002",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 5002,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55003] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55003},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 12,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_CRD"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55003,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 5003,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55004] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55004},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 16,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_AttackSpeed"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55004,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 5004,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55005] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55005},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 16,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_MultiShoot"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55005,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = 4,
+    Rarity = 5,
+    RepeatGroup = 5005,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55006] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 5,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55006},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 16,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_TriggerProbability"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55006,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3006",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 5006,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55101] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+    },
+    ApplicationType = 51,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55101},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55101,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3101",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55102] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+    },
+    ApplicationType = 52,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55102},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55102,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3102",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [55103] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+    },
+    ApplicationType = 53,
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {55103},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CollectRewardExp = 200,
+    Cost = 11,
+    CostChange = 2,
+    FilterTag = {
+      [1] = "Tag_ATK_Attr"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith02.T_Mod_Lilith02",
+    Id = 55103,
+    MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3103",
+    Polarity = 1,
+    Rarity = 5,
+    RepeatGroup = 5100,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith02"
+  },
+  [56111] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6111].Vars.CompareBase$",
+      [2] = "$#Buff[6111].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56111,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6111",
+    PassiveEffects = {
+      6111
+    },
+    PassiveEffectsDesc = "MOD_DESC_6111",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56112] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6111].Vars.CompareBase$",
+      [2] = "$#Buff[6111].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56112,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6112",
+    PassiveEffects = {
+      6111
+    },
+    PassiveEffectsDesc = "MOD_DESC_6111",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56113] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6113].Vars.CompareBase$",
+      [2] = "$#Buff[6114].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56113,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6113",
+    PassiveEffects = {
+      6113
+    },
+    PassiveEffectsDesc = "MOD_DESC_6113",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56114] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 11,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6113].Vars.CompareBase$",
+      [2] = "$#Buff[6114].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56114,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6114",
+    PassiveEffects = {
+      6113
+    },
+    PassiveEffectsDesc = "MOD_DESC_6113",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56121] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6121].Vars.CompareBase$",
+      [2] = "$#Buff[6121].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56121,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6121",
+    PassiveEffects = {
+      6121
+    },
+    PassiveEffectsDesc = "MOD_DESC_6121",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56122] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6121].Vars.CompareBase$",
+      [2] = "$#Buff[6121].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56122,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6122",
+    PassiveEffects = {
+      6121
+    },
+    PassiveEffectsDesc = "MOD_DESC_6121",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56123] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6123].Vars.CompareBase$",
+      [2] = "$#Buff[6124].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56123,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6123",
+    PassiveEffects = {
+      6123
+    },
+    PassiveEffectsDesc = "MOD_DESC_6123",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56124] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 12,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6123].Vars.CompareBase$",
+      [2] = "$#Buff[6124].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56124,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6124",
+    PassiveEffects = {
+      6123
+    },
+    PassiveEffectsDesc = "MOD_DESC_6123",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56131] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6131].Vars.CompareBase$",
+      [2] = "$#Buff[6131].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56131,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6131",
+    PassiveEffects = {
+      6131
+    },
+    PassiveEffectsDesc = "MOD_DESC_6131",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56132] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6131].Vars.CompareBase$",
+      [2] = "$#Buff[6131].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56132,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6132",
+    PassiveEffects = {
+      6131
+    },
+    PassiveEffectsDesc = "MOD_DESC_6131",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56133] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6133].Vars.CompareBase$",
+      [2] = "$#Buff[6134].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56133,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6133",
+    PassiveEffects = {
+      6133
+    },
+    PassiveEffectsDesc = "MOD_DESC_6133",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56134] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 13,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6133].Vars.CompareBase$",
+      [2] = "$#Buff[6134].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56134,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6134",
+    PassiveEffects = {
+      6133
+    },
+    PassiveEffectsDesc = "MOD_DESC_6133",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56141] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6141].Vars.CompareBase$",
+      [2] = "$#Buff[6141].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56141,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6141",
+    PassiveEffects = {
+      6141
+    },
+    PassiveEffectsDesc = "MOD_DESC_6141",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56142] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6141].Vars.CompareBase$",
+      [2] = "$#Buff[6141].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56142,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6142",
+    PassiveEffects = {
+      6141
+    },
+    PassiveEffectsDesc = "MOD_DESC_6141",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56143] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6143].Vars.CompareBase$",
+      [2] = "$#Buff[6144].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56143,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6143",
+    PassiveEffects = {
+      6143
+    },
+    PassiveEffectsDesc = "MOD_DESC_6143",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56144] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 14,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6143].Vars.CompareBase$",
+      [2] = "$#Buff[6144].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56144,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6144",
+    PassiveEffects = {
+      6143
+    },
+    PassiveEffectsDesc = "MOD_DESC_6143",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56151] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6151].Vars.CompareBase$",
+      [2] = "$#Buff[6151].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56151,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6151",
+    PassiveEffects = {
+      6151
+    },
+    PassiveEffectsDesc = "MOD_DESC_6151",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56152] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6151].Vars.CompareBase$",
+      [2] = "$#Buff[6151].AddAttrs[1].Rate*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56152,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6152",
+    PassiveEffects = {
+      6151
+    },
+    PassiveEffectsDesc = "MOD_DESC_6151",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56153] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6153].Vars.CompareBase$",
+      [2] = "$#Buff[6154].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56153,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6153",
+    PassiveEffects = {
+      6153
+    },
+    PassiveEffectsDesc = "MOD_DESC_6153",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56154] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 15,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6153].Vars.CompareBase$",
+      [2] = "$#Buff[6154].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56154,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6154",
+    PassiveEffects = {
+      6153
+    },
+    PassiveEffectsDesc = "MOD_DESC_6153",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56161] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6161].Vars.CompareBase$",
+      [2] = "$#Buff[6161].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56161,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6161",
+    PassiveEffects = {
+      6161
+    },
+    PassiveEffectsDesc = "MOD_DESC_6161",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56162] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6161].Vars.CompareBase$",
+      [2] = "$#Buff[6161].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56162,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6162",
+    PassiveEffects = {
+      6161
+    },
+    PassiveEffectsDesc = "MOD_DESC_6161",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56163] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6163].Vars.CompareBase$",
+      [2] = "$#Buff[6164].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56163,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6163",
+    PassiveEffects = {
+      6163
+    },
+    PassiveEffectsDesc = "MOD_DESC_6163",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [56164] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 1},
+      [2] = {
+  AttrName = "SkillEfficiency",
+  Rate = 1
+},
+      [3] = {
+  AttrName = "DamagedRate",
+  Value = -0.3
+}
+    },
+    ApplicationType = 16,
+    ApplySlot = {
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    },
+    CollectRewardExp = 200,
+    Cost = 19,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[6163].Vars.CompareBase$",
+      [2] = "$#Buff[6164].AddAttrs[1].Value*100$%"
+    },
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    Id = 56164,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    Name = "MOD_NAME_6164",
+    PassiveEffects = {
+      6163
+    },
+    PassiveEffectsDesc = "MOD_DESC_6163",
+    Polarity = 2,
+    Rarity = 5,
+    RepeatGroup = 1300,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Siren01"
+  },
+  [101001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.2
+}
+    },
+    ApplicationType = 101,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 101001,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1010101] = 1010201
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_101001",
+    PassiveEffectsDesc = "MOD_DESC_101001",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [101002] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = 0.4}
+    },
+    ApplicationType = 101,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 101002,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1010102] = 1010202
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_101002",
+    PassiveEffectsDesc = "MOD_DESC_101002",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [101003] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "TriggerProbability",
+        Rate = 0.6
+      }
+    },
+    ApplicationType = 101,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 101003,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1010102] = 1010302
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_101003",
+    PassiveEffectsDesc = "MOD_DESC_101003",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [102001] = {
+    AccessKey = {
+      "Shop_Fishing",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = 0.5}
+    },
+    ApplicationType = 102,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 102001,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1020102] = 1020202
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_102001",
+    PassiveEffectsDesc = "MOD_DESC_102001",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [102002] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = 0.4}
+    },
+    ApplicationType = 102,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 102002,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1020103] = 1020203
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_102002",
+    PassiveEffects = {
+      2401
+    },
+    PassiveEffectsDesc = "MOD_DESC_102002",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [102003] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = 80
+}
+    },
+    ApplicationType = 102,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 102003,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1020101] = 1020201
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_102003",
+    PassiveEffectsDesc = "MOD_DESC_102003",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [102004] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = 0.4}
+    },
+    ApplicationType = 102,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 102004,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1020102] = 1020302
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_102004",
+    PassiveEffectsDesc = "MOD_DESC_102004",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [103001] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.2
+}
+    },
+    ApplicationType = 103,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 103001,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1030101] = 1030201
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_103001",
+    PassiveEffectsDesc = "MOD_DESC_103001",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [103002] = {
+    AccessKey = {
+      "Shop_Abyss",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = 0.5}
+    },
+    ApplicationType = 103,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 103002,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1030102] = 1030202
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_103002",
+    PassiveEffectsDesc = "MOD_DESC_103002",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [103003] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = 80
+}
+    },
+    ApplicationType = 103,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 103003,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1030101] = 1030301
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_103003",
+    PassiveEffectsDesc = "MOD_DESC_103003",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [104001] = {
+    AccessKey = {
+      "Shop_Fishing",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.2
+}
+    },
+    ApplicationType = 104,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 104001,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1040104] = 1040204
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_104001",
+    PassiveEffectsDesc = "MOD_DESC_104001",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [104002] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.2
+}
+    },
+    ApplicationType = 104,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 104002,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1040101] = 1040201
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_104002",
+    PassiveEffectsDesc = "MOD_DESC_104002",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [104003] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = 0.5}
+    },
+    ApplicationType = 104,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 104003,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1040102] = 1040202
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_104003",
+    PassiveEffectsDesc = "MOD_DESC_104003",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [106001] = {
+    AccessKey = {
+      "Shop_Abyss",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = 80
+}
+    },
+    ApplicationType = 106,
+    BreakDown = {
+      [102] = 50
+    },
+    CollectRewardExp = 100,
+    Cost = 30,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 106001,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [1060102] = 1060202
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_106001",
+    PassiveEffectsDesc = "MOD_DESC_106001",
+    Polarity = 3,
+    Rarity = 4,
+    RepeatGroup = 106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Fenrir01"
+  },
+  [150401] = {
+    AccessKey = {
+      "Shop_Abyss",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1504,
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 1,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 150401,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [150402] = 150423
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_150401",
+    PassiveEffectsDesc = "MOD_DESC_106001",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 150401,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Suyi01"
+  },
+  [150402] = {
+    AccessKey = {
+      "Shop_Abyss",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
+    ApplicationType = 1504,
+    BreakDown = {
+      [102] = 100
+    },
+    CollectRewardExp = 200,
+    Cost = 1,
+    CostChange = -1,
+    FilterTag = {
+      [1] = "Tag_AtkMode",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
+    Id = 150402,
+    IsNotOpen = true,
+    MaxLevel = 5,
+    ModActivateSkills = {
+      [150402] = 150424
+    },
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_150402",
+    PassiveEffectsDesc = "MOD_DESC_106001",
+    Polarity = 3,
+    Rarity = 5,
+    RepeatGroup = 150401,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Suyi01"
+  },
+  [10101101] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101102] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101103] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10101103].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101103},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101104] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101011041].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10101104].Vars.Dis*0.01$"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101104,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101104},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101105] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[10101105].Vars.DamagedRate*100$%",
+      [2] = "$#PassiveEffect[10101105].Vars.Dis*0.01$"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101105,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101105},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101105,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101106] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10101106].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101106,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101106},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101201] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101201,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101202] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101202,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101203] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10101203].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101203,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101203},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101204] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10101204].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101204,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101204},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101205] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101012051].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10101205].Vars.CD$",
+      [3] = "$#PassiveEffect[10101205].Vars.Layer$"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101205,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101205},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101205,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101301] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+},
+      [2] = {
+        AttrName = "AttackRange_Normal",
+        Value = "#2"
+      }
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101301,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101302] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101013021].TaskEffects[2].Rate*100$%",
+      [2] = "$#PassiveEffect[10101302].Vars.CD$",
+      [3] = "$#PassiveEffect[10101302].Vars.HpPercent*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101302,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101302},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101303] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10101303].Vars.DamageRate*100$%",
+      [2] = "$#PassiveEffect[10101303].Vars.Layer$"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101303,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101303},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101303,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10101304] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10101304].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10101304,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10101304},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10101304,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102101] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102102] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102103] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10102103].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102103},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102104] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101021041].TaskEffects[1].Value$",
+      [2] = "$#PassiveEffect[10102104].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102104,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102104},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102105] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10102105].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102105,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102105},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102105,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102106] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10102110].AddAttrs[1].Rate*100$%",
+      [2] = "$#Buff[10102109].AddAttrs[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102106,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102106},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102201] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102201,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102202] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102202,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102203] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10102203].Vars.Probability*100$%",
+      [2] = "$#PassiveEffect[10102203].Vars.Percent*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102203,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102203},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102204] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101022041].TaskEffects[1].SpChange$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102204,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102204},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102205] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[10102205].Vars.Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102205,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102205},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102205,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102301] = {
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102301,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102302] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102302,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102303] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10102303].Vars.DamageRate*100$%",
+      [2] = "$#PassiveEffect[10102303].Vars.Dis*0.01$",
+      [3] = "$#PassiveEffect[10102303].Vars.DamageRate*5000$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102303,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102303},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102303,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10102304] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[10102102].BuffDamagedRate.Value*100$%",
+      [2] = "$#Buff[10102101].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10102304,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10102304},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10102304,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103101] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103102] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103103] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103104] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101031041].TaskEffects[1].SpChange$",
+      [2] = "$#PassiveEffect[10103104].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103104,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103104},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103105] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101031051].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10103105].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103105,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103105},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103105,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103106] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10103106].AddAttrs[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103106,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103106},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103201] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103201,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103202] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[10103202].Vars.Rate*100$%",
+      [2] = "$#PassiveEffect[10103202].Vars.SpPercent*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103202,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103202},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103203] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10103203].DotDatas[1].Value$",
+      [2] = "$#PassiveEffect[10103203].Vars.CD$",
+      [3] = "$#PassiveEffect[10103203].Vars.SpPercent*100$%",
+      [4] = "$#PassiveEffect[10103203].Vars.LastTime$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103203,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103203},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103204] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10103204].Vars.Layer$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103204,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103204},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103205] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10103205].DotDatas[1].Value$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103205,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103205},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103205,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103301] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillIntensity",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103301,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103302] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10103302].Vars.Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103302,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103302},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103303] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10103904].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103303,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103303},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103303,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10103304] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10103304].Vars.TimeLimit$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10103304,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10103304},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10103304,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104101] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10104101].Vars.Probability*100$%",
+      [2] = "$#PassiveEffect[10104101].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104101},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104102] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10104102].AddAttrs[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10104102].Vars.LastTime$",
+      [3] = "$#Buff[10104102].MaxLayer$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104102},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104103] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10104103].AddAttrs[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10104103].Vars.LastTime$",
+      [3] = "$#Buff[10104103].MaxLayer$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104103},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104104] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10104104].Vars.HealRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104104,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104104},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104105] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101041051].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104105,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104105},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104105,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104106] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101041061].TaskEffects[1].SpChange$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104106,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104106},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104201] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10104201].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104201,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104201},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104202] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10104202].Vars.Probability*100$%",
+      [2] = "$#PassiveEffect[10104202].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104202,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104202},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104203] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[10104203].Vars.Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104203,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104203},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104204] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10104204].AddAttrs[1].Value*100$%",
+      [2] = "$#PassiveEffect[10104204].Vars.LastTime$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104204,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104204},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104205] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104205,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104205},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104205,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104301] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10104301].Vars.MaxLayer$",
+      [2] = "$#PassiveEffect[10104301].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104301,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104301},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104302] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10104302].AddAttrs[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104302,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104302},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104303] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101043031].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104303,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10104303},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104303,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10104304] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10104304,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10104304,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105101] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10105101].AddAttrs[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10105101].Vars.LastTime$",
+      [3] = "$#PassiveEffect[10105101].Vars.B105BuffLayers$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105101},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105102] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101051022].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10105102].Vars.B105BuffLayers$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105102},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105103] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[10105103].BuffDamagedRate.Value*100$%",
+      [2] = "$#PassiveEffect[10105103].Vars.LastTime$",
+      [3] = "$#PassiveEffect[10105103].Vars.B105BuffLayers$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105103},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105104] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105104,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105105] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillSpeed", Rate = "#1"}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(10105105,1)*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105105,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105105,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105106] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10105106].Vars.CD$",
+      [2] = "$#SkillEffects[101051062].TaskEffects[1].Rate*100$%",
+      [3] = "$#PassiveEffect[10105106].Vars.B105BuffLayers$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105106,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105106},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105201] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10105201].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105201,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105201},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105202] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = "#1"
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105202,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105203] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "MaxAvoidExecuteTimes",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105203,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105204] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10105204].Vars.CD$",
+      [2] = "$#SkillEffects[101051062].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105204,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105204},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105205] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10105205].Vars.CD$",
+      [2] = "$#PassiveEffect[10105205].Vars.B105BuffLayers$",
+      [3] = "$#PassiveEffect[10105205].Vars.CheckLayersNum$",
+      [4] = "$#SkillEffects[101052052].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105205,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105205},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105205,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105301] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10105301].Vars.SpPerDodge*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105301,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105301},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105302] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105302,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105303] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$GetModValue(10105303,1)*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105303,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105303,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10105304] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10105304].AddAttrs[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10105304].Vars.LastTime$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10105304,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10105304},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10105304,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106101] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106102] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10106102].Vars.TriggerProb*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106102},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106103] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10106103].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106103},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106104] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10106101].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10106102].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106104,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106104},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106105] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10106103].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10106104].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106105,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106105},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106105,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106106] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10106105].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10106106].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106106,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106106},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106201] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10106201].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106201,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106201},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106201,
+    Sound = "SOUND_ITEM_MOD",
+    SummonInherit = 1,
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106202] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10106202].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106202,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106202},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106203] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillEfficiency",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106203,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106204] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10106107].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10106108].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106204,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106204},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106205] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AdditionalRecoverTime",
+  Value = 1
+}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[10106109].BuffDamagedRate.Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106205,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106205},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106205,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106301] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10106110].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10106111].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106301,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106301},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106302] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10106112].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10106113].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106302,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106302},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106303] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10106303].Vars.CD$",
+      [2] = "$#PassiveEffect[10106303].Vars.FireTime$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106303,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106303},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106303,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10106304] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10106304].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10106304,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10106304},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10106304,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107101] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "SkillSustain",
+  Rate = "#1"
+}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107101,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107101,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107102] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107101].DotDatas[1].Value$",
+      [2] = "$#Buff[10107102].DotDatas[1].Value$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107102,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107102},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107102,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107103] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107103].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10107104].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107103,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107103},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107103,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107104] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxHp", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107104,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107104,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107105] = {
+    AddAttrs = {
+      [1] = {AttrName = "DEF", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107105].AddAttrs[1].Value*100$%",
+      [2] = "$#PassiveEffect[10107105].Vars.LastTime$",
+      [3] = "$#PassiveEffect[10107105].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107105,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107105},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107105,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107106] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101071061].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10107106].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107106,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107106},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107106,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107201] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107106].AddAttrs[1].Rate*100$%",
+      [2] = "$#Buff[10107107].AddAttrs[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107201,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107201},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107201,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107202] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10107202].Vars.DamageRateMin*100$%",
+      [2] = "$#PassiveEffect[10107202].Vars.DamageRateMax*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107202,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107202},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107202,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107203] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107108].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10107109].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107203,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107203},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107203,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107204] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107110].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10107111].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107204,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107204},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107204,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107205] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[101072051].TaskEffects[1].Value$",
+      [2] = "$#PassiveEffect[10107205].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107205,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107205},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107205,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107301] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "OnceDamagedPercent",
+        Value = "#1"
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107112].DotDatas[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10107301].Vars.HpPercentOnce*100$%",
+      [3] = "$#PassiveEffect[10107301].Vars.LastTime$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107301,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107301},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107301,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107302] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10107302].Vars.Ratio*100$%",
+      [2] = "$#PassiveEffect[10107302].Vars.LastTime$",
+      [3] = "$#PassiveEffect[10107302].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107302,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107302},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107302,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107303] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[10107303].Vars.RateMin*100$%",
+      [2] = "$#PassiveEffect[10107303].Vars.RateMax*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107303,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107303},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107303,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [10107304] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[10107115].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10107116].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 10107304,
+    MaxLevel = 3,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    PassiveEffects = {10107304},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 10107304,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [20101001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20101001].Vars.HpPercent*100$%",
+      [2] = "$#PassiveEffect[20101001].Vars.LastTime$",
+      [3] = "$-#Buff[20101001].BuffDamagedRate.Value*100$%",
+      [4] = "$#PassiveEffect[20101001].Vars.CDValue$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20101001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20101001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20101001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20102001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201020012].TaskEffects[1].SpChange$",
+      [2] = "$#PassiveEffect[20102001].Vars.SPCD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20102001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20102001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20102001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20103001] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "MaxAvoidExecuteTimes",
+        Value = 2
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20103001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20103001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20104001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201040011].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20104001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20104001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20104001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20105001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201050011].TaskEffects[1].SpChange$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20105001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20105001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20105001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20106001] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SpRecoverValue",
+        Value = 4
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20106001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20106001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20107001] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AdditionalRecoverTime",
+  Value = 1
+}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20107001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20107001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20108001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20108001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20108001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20108001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20108001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20109001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20109001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20109001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20109001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20109001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20110001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20110001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20110001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20110001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20110001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20111001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20111001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20111001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20111001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20111001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20112001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20112001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20112001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20112001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20112001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20113001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20113001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20113001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20113001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20113001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20114001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20114001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20114001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20114001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20114001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20115001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20115001].Vars.Rate*100$%",
+      [2] = "$#PassiveEffect[20115001].Vars.RateMin*100$%",
+      [3] = "$#PassiveEffect[20115001].Vars.Decreased*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20115001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20115001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20115001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20116001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[20116001].BuffDamagedRate.Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20116001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20116001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20116001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20117001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20117001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20117001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20117001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20118001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20118001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20118001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20118001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20118001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20119001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[20119001].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[20119001].AddAttrs[1].Value*700$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20119001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20119001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20119001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20120001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[20120001].AddAttrs[1].Value*100$%",
+      [2] = "$#PassiveEffect[20120001].Vars.LastTime$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20120001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20120001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20120001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20121001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20121001].Vars.TriggerDamage$",
+      [2] = "$#SkillEffects[201210011].TaskEffects[1].Value$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20121001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20121001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20121001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20130001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201300012].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[20130001].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20130001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20130001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20130001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20131001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201310012].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[20131001].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20131001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20131001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20131001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20132001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201320012].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[20132001].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20132001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20132001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20132001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20133001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201330011].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[20133001].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20133001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20133001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20133001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20134001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201340012].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[20134001].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20134001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20134001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20134001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20135001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#SkillEffects[201350012].TaskEffects[1].Rate*100$%",
+      [2] = "$#PassiveEffect[20135001].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20135001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20135001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20135001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20151001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#Buff[20151001].AddAttrs[1].Rate*100$%",
+      [2] = "$#Buff[20151001].AddAttrs[2].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20151001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20151001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20151001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20152001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[20152001].Vars.DamageRate*100$%",
+      [2] = "$#Buff[20152001].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20152001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20152001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20152001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20153001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$-#PassiveEffect[20153001].Vars.DamageRate*100$%",
+      [2] = "$#Buff[20153001].AddAttrs[1].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20153001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20153001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20153001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20154001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#Buff[20154001].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[20154001].AddAttrs[2].Value*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20154001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20154001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20154001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20156001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20156001].Vars.TNTrigger*100$%",
+      [2] = "$#SkillEffects[201560011].TaskEffects[1].SpChange$",
+      [3] = "$#PassiveEffect[20156001].Vars.CD$"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20156001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20156001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20156001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20157001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20157001].Vars.TNTrigger*100$%",
+      [2] = "$#PassiveEffect[20157001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20157001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20157001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20157001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20161001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20161001].Vars.DamageRateDown*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20161001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20161001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20161001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20171001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20171001].Vars.DamagedRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20171001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20171001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20171001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20172001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20172001].Vars.DamageRate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20172001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20172001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20172001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20181001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20181001].Vars.TriggerProb1*100$%",
+      [2] = "$#SkillEffects[201810011].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20181001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20181001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20181001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20182001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20182001].Vars.TriggerProb1*100$%",
+      [2] = "$#SkillEffects[201820011].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20182001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20182001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20182001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20183001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20183001].Vars.TriggerProb1*100$%",
+      [2] = "$#SkillEffects[201830011].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20183001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20183001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20183001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [20184001] = {
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    DescValues = {
+      [1] = "$#PassiveEffect[20184001].Vars.TriggerProb1*100$%",
+      [2] = "$#SkillEffects[201840011].TaskEffects[1].Rate*100$%"
+    },
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 20184001,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    PassiveEffects = {20184001},
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 20184001,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30101011] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SkillIntensity",
+        Rate = 0.048
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 30101011,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1201",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101011,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [30101021] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SkillEfficiency",
+        Rate = 0.03
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 30101021,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1202",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101021,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [30101031] = {
+    AddAttrs = {
+      [1] = {AttrName = "SkillRange", Rate = 0.054}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 30101031,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1203",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101031,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [30101041] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SkillSustain",
+        Rate = 0.054
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 30101041,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1204",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101041,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [30101051] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = "#1"}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30101051,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1101",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101051,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30101062] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "EnmityValue",
+        Value = 0.108
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30101062,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1492",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101062,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30101072] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SkillIntensity",
+        Rate = 0.096
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
+    Id = 30101072,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1201",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101072,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Pan01"
+  },
+  [30101082] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "StrongValue",
+        Value = 0.108
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30101082,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1491",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101082,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30101092] = {
+    AddAttrs = {
+      [1] = {AttrName = "DamageRate", Value = 0.12}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30101092,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1491",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30101092,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30102011] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxHp", Rate = 0.048}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30102011,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1002",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30102011,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30102021] = {
+    AddAttrs = {
+      [1] = {AttrName = "DEF", Rate = 0.048}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30102021,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1007",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30102021,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30102031] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxES", Rate = 0.048}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30102031,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30102031,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30102041] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxSp", Rate = 0.1}
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30102041,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30102041,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30102052] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SpRecoverValue",
+        Value = 3
+      }
+    },
+    ApplicationType = 1,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_CHAR",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
+    Id = 30102052,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_1004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30102052,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Phoenix01"
+  },
+  [30103011] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = 0.06}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103011,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103011,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103021] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = 0.048}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103021,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2002",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103021,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103031] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = 0.06}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103031,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103031,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103041] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = 0.12
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103041,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2101",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103041,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103051] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = 0.03},
+      [2] = {AttrName = "ATK_Spike", Rate = 0.03},
+      [3] = {AttrName = "ATK_Smash", Rate = 0.03}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103051,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2201",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103051,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103062] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackRange_Normal",
+  Value = 80
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103062,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2005",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103062,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103072] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.12
+}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103072,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103072,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103082] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = 0.096}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103082,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103082,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30103092] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = 0.12}
+    },
+    ApplicationType = 2,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_MELEE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
+    Id = 30103092,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_2003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30103092,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Cerberus01"
+  },
+  [30104011] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK", Rate = 0.06}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104011,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104011,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [30104021] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = 0.048}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104021,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104021,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [30104031] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = 0.06}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104031,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3003",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104031,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [30104041] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "TriggerProbability",
+  Rate = 0.12
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104041,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3001",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104041,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [30104051] = {
+    AddAttrs = {
+      [1] = {AttrName = "ATK_Slash", Rate = 0.03},
+      [2] = {AttrName = "ATK_Spike", Rate = 0.03},
+      [3] = {AttrName = "ATK_Smash", Rate = 0.03}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Barbatos01.T_Mod_Barbatos01",
+    Id = 30104051,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3202",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104051,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Barbatos01"
+  },
+  [30104062] = {
+    AddAttrs = {
+      [1] = {
+  AttrName = "AttackSpeed_Normal",
+  Rate = 0.12
+}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104062,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3004",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104062,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [30104072] = {
+    AddAttrs = {
+      [1] = {AttrName = "MultiShoot", Rate = 0.18}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104072,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104072,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [30104082] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRI", Rate = 0.096}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104082,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104082,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  },
+  [30104092] = {
+    AddAttrs = {
+      [1] = {AttrName = "CRD", Rate = 0.12}
+    },
+    ApplicationType = 3,
+    BreakDown = {
+      [102] = 1000
+    },
+    Cost = 1,
+    CostChange = 1,
+    FunctionDes = "MOD_FUNCTION_RANGE",
+    GMNot = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
+    Id = 30104092,
+    MaxLevel = 1,
+    ModDescribe = "MOD_DES_1001",
+    Name = "MOD_NAME_3005",
+    Polarity = -1,
+    Rarity = 1,
+    RepeatGroup = 30104092,
+    Sound = "SOUND_ITEM_MOD",
+    TypeName = "MOD_Type_Name_Lilith01"
+  }
+})

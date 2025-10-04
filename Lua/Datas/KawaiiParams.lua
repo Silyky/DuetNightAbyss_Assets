@@ -1,0 +1,795 @@
+local T = {}
+T.RT_1 = {
+  Damping = 0.9,
+  LimitAngle = 0,
+  Radius = 3.0,
+  Stiffness = 0.7,
+  Width = 5,
+  WordDampingLocation = 0.9,
+  WordDampingRotation = 0.5
+}
+T.RT_2 = {
+  Damping = 0.8,
+  LimitAngle = 0,
+  Radius = 3.0,
+  Stiffness = 0.6,
+  Width = 5,
+  WordDampingLocation = 0.9,
+  WordDampingRotation = 0.5
+}
+T.RT_3 = {
+  Damping = 0.8,
+  LimitAngle = 0,
+  Radius = 3.0,
+  Stiffness = 0.8,
+  Width = 5,
+  WordDampingLocation = 0.9,
+  WordDampingRotation = 0.5
+}
+T.RT_4 = {
+  Damping = 0.9,
+  LimitAngle = 0,
+  Radius = 3.0,
+  Stiffness = 0.8,
+  Width = 5,
+  WordDampingLocation = 0.9,
+  WordDampingRotation = 0.5
+}
+T.RT_5 = {
+  Damping = 0.1,
+  LimitAngle = 0,
+  Radius = 3.0,
+  Stiffness = 0.8,
+  Width = 5,
+  WordDampingLocation = 0.9,
+  WordDampingRotation = 0.5
+}
+T.RT_6 = {
+  Damping = 0.6,
+  LimitAngle = 0,
+  Radius = 3.0,
+  Stiffness = 0.3,
+  Width = 5,
+  WordDampingLocation = 0.9,
+  WordDampingRotation = 0.5
+}
+local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
+  return x
+end
+return ReadOnly("KawaiiParams", {
+  [1001] = {
+    KawaiiId = 1001,
+    KawaiiParament = {
+      EnterJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.7,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      EnterSecJump = {
+        Damping = 0.9,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.7,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Idle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      InAir = {
+        Damping = 0.9,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.7,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Land = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      LevelEnter = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunLoop = {
+        Damping = 0.9,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.65,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStart = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      SlideToIdle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      StartSlide = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      }
+    },
+    KawaiiType = "hair"
+  },
+  [1002] = {
+    KawaiiId = 1002,
+    KawaiiParament = {
+      EnterJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.7,
+        WordDampingRotation = 0.5
+      },
+      EnterSecJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.5,
+        Width = 5,
+        WordDampingLocation = 0.7,
+        WordDampingRotation = 0.5
+      },
+      Idle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      InAir = {
+        Damping = 0.7,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.5,
+        Width = 5,
+        WordDampingLocation = 0.7,
+        WordDampingRotation = 0.5
+      },
+      Land = {
+        Damping = 0.9,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      LevelEnter = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.7,
+        WordDampingRotation = 0.5
+      },
+      RunLoop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStart = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      SlideToIdle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      StartSlide = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      }
+    },
+    KawaiiType = "cloak"
+  },
+  [1003] = {
+    KawaiiId = 1003,
+    KawaiiParament = {
+      EnterJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      EnterSecJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Idle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      InAir = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Land = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      LevelEnter = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunLoop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStart = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      SlideToIdle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      StartSlide = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      }
+    },
+    KawaiiType = "skirt"
+  },
+  [1004] = {
+    KawaiiId = 1004,
+    KawaiiParament = {
+      EnterJump = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      EnterSecJump = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Idle = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      InAir = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Land = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      LevelEnter = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunLoop = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStart = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStop = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      SlideToIdle = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      StartSlide = {
+        Damping = 0.1,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      }
+    },
+    KawaiiType = "hair"
+  },
+  [1005] = {
+    KawaiiId = 1005,
+    KawaiiParament = {
+      EnterJump = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      EnterSecJump = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Idle = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      InAir = {
+        Damping = 0.7,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.5,
+        Width = 5,
+        WordDampingLocation = 0.8,
+        WordDampingRotation = 0.5
+      },
+      Land = {
+        Damping = 0.7,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      LevelEnter = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunLoop = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.8,
+        WordDampingRotation = 0.5
+      },
+      RunStart = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStop = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      SlideToIdle = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      StartSlide = {
+        Damping = 0.6,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.3,
+        Width = 5,
+        WordDampingLocation = 0.7,
+        WordDampingRotation = 0.5
+      }
+    },
+    KawaiiType = "cloak"
+  },
+  [1006] = {
+    KawaiiId = 1006,
+    KawaiiParament = {
+      EnterJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      EnterSecJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Idle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      InAir = {
+        Damping = 0.9,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.9,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Land = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      LevelEnter = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunLoop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStart = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStop = {
+        Damping = 0.9,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      SlideToIdle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      StartSlide = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.8,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      }
+    },
+    KawaiiType = "hair"
+  },
+  [1007] = {
+    KawaiiId = 1007,
+    KawaiiParament = {
+      EnterJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      EnterSecJump = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Idle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      InAir = {
+        Damping = 0.7,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      Land = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      LevelEnter = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunLoop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStart = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      RunStop = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      SlideToIdle = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      },
+      StartSlide = {
+        Damping = 0.8,
+        LimitAngle = 0,
+        Radius = 3.0,
+        Stiffness = 0.6,
+        Width = 5,
+        WordDampingLocation = 0.9,
+        WordDampingRotation = 0.5
+      }
+    },
+    KawaiiType = "cloak"
+  }
+})

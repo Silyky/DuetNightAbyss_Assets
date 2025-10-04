@@ -1,0 +1,19792 @@
+local T = {}
+T.RT_1 = {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+T.RT_2 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+}
+T.RT_3 = {
+  Type = "Interactive"
+}
+T.RT_4 = {Type = "Manual"}
+T.RT_5 = {Function = "OpenUI"}
+T.RT_6 = {
+  {Function = "OpenUI"}
+}
+T.RT_7 = {
+  Type = "InteractBreak"
+}
+T.RT_8 = {
+  Type = "InteractDone"
+}
+T.RT_9 = {
+  Function = "DeactiveGuide"
+}
+T.RT_10 = {Param = 0, Type = "Time"}
+T.RT_11 = {
+  Function = "CloseMechanism"
+}
+T.RT_12 = {
+  DoorType = 0,
+  Function = "SetConditionDoorState"
+}
+T.RT_13 = {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+T.RT_14 = {Type = "TriggerBox"}
+T.RT_15 = {
+  NextStateId = 104012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_16 = {
+  NextStateId = 104013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_17 = {
+  Function = "OpenMechanism"
+}
+T.RT_18 = {
+  {
+  Function = "OpenMechanism"
+},
+  {
+  DoorType = 0,
+  Function = "SetConditionDoorState"
+},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_19 = {
+  DoorType = 1,
+  Function = "SetConditionDoorState"
+}
+T.RT_20 = {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+T.RT_21 = {
+  NextStateId = 104011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_22 = {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+T.RT_23 = {
+  {
+  Function = "CloseMechanism"
+},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+}
+T.RT_24 = {
+  ActiveRange = 1500,
+  Type = "DistanceActive"
+}
+T.RT_25 = {Param = 1, Type = "Time"}
+T.RT_26 = {
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_27 = {
+  NextStateId = 1060401,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_28 = {
+  NextStateId = 1060402,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_29 = {
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_30 = {
+  NextStateId = 1060400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_31 = {
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_32 = {
+  NextStateId = 1060801,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_33 = {
+  NextStateId = 1060802,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_34 = {
+  NextStateId = 1060800,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_35 = {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+T.RT_36 = {
+  {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+}
+T.RT_37 = {
+  NextStateId = 1061101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_38 = {
+  NextStateId = 1061102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_39 = {
+  NextStateId = 1061103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_40 = {
+  NextStateId = 1061104,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_41 = {
+  NextStateId = 1061105,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_42 = {
+  NextStateId = 1061100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_43 = {Param = 2, Type = "Time"}
+T.RT_44 = {
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_45 = {
+  NextStateId = 1061201,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_46 = {
+  InteractiveId = 918,
+  Type = "Interactive"
+}
+T.RT_47 = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_48 = {Param = 3, Type = "Time"}
+T.RT_49 = {
+  InteractiveId = 919,
+  Type = "Interactive"
+}
+T.RT_50 = {
+  {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_51 = {
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+}
+T.RT_52 = {
+  NextStateId = 1061231,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_53 = {
+  NextStateId = 1061232,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_54 = {
+  NextStateId = 1061230,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_55 = {
+  InteractiveId = 922,
+  Type = "Interactive"
+}
+T.RT_56 = {
+  {
+  Function = "OpenMechanism"
+},
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_57 = {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+T.RT_58 = {
+  InteractiveId = 923,
+  Type = "Interactive"
+}
+T.RT_59 = {
+  InteractiveId = 924,
+  Type = "Interactive"
+}
+T.RT_60 = {
+  NextStateId = 1061251,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_61 = {
+  NextStateId = 1061301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_62 = {
+  NextStateId = 1061302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_63 = {
+  NextStateId = 1061300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_64 = {
+  DeActiveRange = 5000,
+  Type = "DistanceDeActive"
+}
+T.RT_65 = {
+  ActiveRange = 4000,
+  Type = "DistanceActive"
+}
+T.RT_66 = {
+  NextStateId = 1061311,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_67 = {
+  NextStateId = 1061313,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_68 = {
+  NextStateId = 1061310,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_69 = {
+  NextStateId = 1061312,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_70 = {
+  NextStateId = 1061400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_71 = {
+  DeActiveRange = 1600,
+  Type = "DistanceDeActive"
+}
+T.RT_72 = {
+  NextStateId = 1061601,
+  TypeNextState = {
+    DeActiveRange = 1600,
+    Type = "DistanceDeActive"
+  }
+}
+T.RT_73 = {
+  NextStateId = 1061900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_74 = {
+  NextStateId = 1062002,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_75 = {
+  Function = "CombatPropActive"
+}
+T.RT_76 = {
+  {
+  Function = "CombatPropActive"
+},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_77 = {
+  DeActiveRange = 3000,
+  Type = "DistanceDeActive"
+}
+T.RT_78 = {
+  NextStateId = 1070102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_79 = {
+  Function = "CombatPropDeActive"
+}
+T.RT_80 = {
+  {
+  Function = "CombatPropDeActive"
+},
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_81 = {
+  ActiveRange = 3000,
+  Type = "DistanceActive"
+}
+T.RT_82 = {
+  {
+  Function = "CombatPropDeActive"
+},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+}
+T.RT_83 = {
+  NextStateId = 1070160,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_84 = {Param = 4, Type = "Time"}
+T.RT_85 = {
+  NextStateId = 1070200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_86 = {
+  {
+  Function = "CombatPropDeActive"
+},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_87 = {
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_88 = {
+  NextStateId = 109010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_89 = {
+  {
+  Function = "OpenMechanism"
+}
+}
+T.RT_90 = {
+  NextStateId = 111011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_91 = {
+  NextStateId = 111010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_92 = {Type = "Hit"}
+T.RT_93 = {
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_94 = {
+  NextStateId = 111014,
+  TypeNextState = {
+    Type = "Hit"
+  }
+}
+T.RT_95 = {NeedCountDown = true, Type = "CustomTime"}
+T.RT_96 = {
+  NextStateId = 111013,
+  TypeNextState = {
+    NeedCountDown = true, Type = "CustomTime"
+  }
+}
+T.RT_97 = {
+  NextStateId = 111012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_98 = {
+  NextStateId = 111020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_99 = {
+  Function = "ActiveGuide"
+}
+T.RT_100 = {
+  NextStateId = 111030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_101 = {
+  NeedCountDown = false,
+  Param = 1,
+  Type = "Time"
+}
+T.RT_102 = {
+  NextStateId = 111040,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_103 = {
+  NextStateId = 111042,
+  TypeNextState = {
+    Type = "Hit"
+  }
+}
+T.RT_104 = {
+  NextStateId = 111041,
+  TypeNextState = {
+    NeedCountDown = true, Type = "CustomTime"
+  }
+}
+T.RT_105 = {
+  {
+  Function = "CombatPropDeActive"
+},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_106 = {
+  {
+  Function = "CombatPropActive"
+},
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_107 = {
+  NextStateId = 112010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_108 = {Function = "StopFX", Tag = "GearR1"}
+T.RT_109 = {Function = "StopFX", Tag = "GearR2"}
+T.RT_110 = {Function = "StopFX", Tag = "GearR3"}
+T.RT_111 = {Function = "StopFX", Tag = "GearR4"}
+T.RT_112 = {Function = "StopFX", Tag = "GearS"}
+T.RT_113 = {
+  NextStateId = 11301231,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_114 = {
+  NextStateId = 11301232,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_115 = {
+  NextStateId = 11301230,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_116 = {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+T.RT_117 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+}
+T.RT_118 = {
+  NextStateId = 1150301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_119 = {
+  NextStateId = 1150302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_120 = {
+  NextStateId = 1150303,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_121 = {
+  NextStateId = 1150300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_122 = {
+  NextStateId = 116011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_123 = {
+  NextStateId = 116012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_124 = {
+  NextStateId = 116013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_125 = {
+  NextStateId = 116014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_126 = {
+  NextStateId = 116015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_127 = {
+  NextStateId = 116010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_128 = {
+  NextStateId = 1170102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_129 = {
+  NextStateId = 118002,
+  TypeNextState = {
+    Type = "TriggerBox"
+  }
+}
+T.RT_130 = {
+  NextStateId = 118004,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_131 = {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+T.RT_132 = {
+  {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+}
+T.RT_133 = {
+  NextStateId = 118001,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_134 = {
+  [1] = {
+  NextStateId = 118001,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_135 = {
+  NextStateId = 118011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_136 = {
+  NextStateId = 118026,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_137 = {
+  NextStateId = 118015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_138 = {
+  {
+  Function = "OpenMechanism"
+},
+  {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+}
+T.RT_139 = {
+  NextStateId = 118013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_140 = {
+  [1] = {
+  NextStateId = 118013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+  [2] = {
+  NextStateId = 118015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_141 = {
+  Function = "CombatPropInvincible"
+}
+T.RT_142 = {
+  {
+  Function = "CombatPropInvincible"
+}
+}
+T.RT_143 = {
+  Function = "CombatPropUnInvincible"
+}
+T.RT_144 = {
+  {
+  Function = "CombatPropUnInvincible"
+}
+}
+T.RT_145 = {
+  EffectId = 900031,
+  Function = "PlayFX",
+  Tag = "Bomb"
+}
+T.RT_146 = {
+  Function = "DestroySelf"
+}
+T.RT_147 = {
+  {
+  Function = "DestroySelf"
+}
+}
+T.RT_148 = {
+  NextStateId = 13,
+  TypeNextState = {
+    Type = "Interactive"
+  }
+}
+T.RT_149 = {
+  NextStateId = 1210021,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_150 = {
+  {
+  Function = "CombatPropDeActive"
+}
+}
+T.RT_151 = {
+  {
+  Function = "CombatPropActive"
+}
+}
+T.RT_152 = {
+  InteractiveId = 103,
+  Type = "Interactive"
+}
+T.RT_153 = {
+  NextStateId = 1210182,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_154 = {Param = 5, Type = "Time"}
+T.RT_155 = {
+  NextStateId = 1210220,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_156 = {
+  NextStateId = 1210240,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_157 = {
+  {
+  Function = "OpenMechanism"
+},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_158 = {
+  NextStateId = 15,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_159 = {
+  InteractiveId = 300,
+  Type = "Interactive"
+}
+T.RT_160 = {
+  NextStateId = 1310042,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_161 = {
+  NextStateId = 1310071,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_162 = {
+  NextStateId = 1310073,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_163 = {
+  NextStateId = 1310070,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_164 = {
+  InteractiveId = 301,
+  Type = "Interactive"
+}
+T.RT_165 = {
+  NextStateId = 1310082,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+T.RT_166 = {
+  [1] = {
+  NextStateId = 1310082,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+}
+T.RT_167 = {
+  NextStateId = 1310092,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+T.RT_168 = {
+  [1] = {
+  NextStateId = 1310092,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+}
+T.RT_169 = {
+  NextStateId = 1310094,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_170 = {
+  NextStateId = 1310095,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_171 = {
+  NextStateId = 1310170,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_172 = {
+  [1] = {
+  NextStateId = 1310170,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_173 = {Param = 6, Type = "Time"}
+T.RT_174 = {Param = 10, Type = "Time"}
+T.RT_175 = {Function = "Rotate", IsForward = true}
+T.RT_176 = {
+  {Function = "Rotate", IsForward = true}
+}
+T.RT_177 = {
+  NextStateId = 1500110,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_178 = {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = true
+}
+T.RT_179 = {
+  {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = true
+}
+}
+T.RT_180 = {
+  NextStateId = 242,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_181 = {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = false
+}
+T.RT_182 = {
+  InteractiveId = 912,
+  Type = "Interactive"
+}
+T.RT_183 = {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+}
+T.RT_184 = {
+  {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+},
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_185 = {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+}
+T.RT_186 = {
+  {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_187 = {
+  NextStateId = 244,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_188 = {Param = 0.1, Type = "Time"}
+T.RT_189 = {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+T.RT_190 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+}
+T.RT_191 = {
+  NextStateId = 26,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_192 = {
+  [1] = {
+  NextStateId = 26,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_193 = {
+  {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+}
+T.RT_194 = {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = true
+}
+T.RT_195 = {
+  Function = "ShowToast",
+  ToastText = "UI_TELEPORTPOINT_INTERACTIVE"
+}
+T.RT_196 = {
+  InteractiveId = 909,
+  StateChangeParam = true,
+  Type = "Interactive"
+}
+T.RT_197 = {
+  {
+  Function = "CombatPropDeActive"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_198 = {
+  ActiveRange = 1000,
+  Type = "DistanceActive"
+}
+T.RT_199 = {
+  {
+  Function = "CombatPropActive"
+},
+  {
+  Function = "ActiveGuide"
+}
+}
+T.RT_200 = {
+  NextStateId = 3900130,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_201 = {
+  EffectId = 900035,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+T.RT_202 = {
+  {
+  Function = "CombatPropDeActive"
+},
+  {
+  EffectId = 900035,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+}
+T.RT_203 = {
+  InteractiveId = 111,
+  Type = "Interactive"
+}
+T.RT_204 = {
+  {
+  Function = "CombatPropActive"
+},
+  {
+  Function = "OpenMechanism"
+}
+}
+T.RT_205 = {
+  EffectId = 900036,
+  Function = "PlayFX",
+  Tag = "Unlock"
+}
+T.RT_206 = {Function = "StopFX", Tag = "Lock"}
+T.RT_207 = {
+  {
+  Function = "CombatPropDeActive"
+},
+  {
+  EffectId = 900036,
+  Function = "PlayFX",
+  Tag = "Unlock"
+},
+  {Function = "StopFX", Tag = "Lock"}
+}
+T.RT_208 = {
+  NextStateId = 3900180,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_209 = {
+  [2] = {
+  NextStateId = 3900180,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_210 = {
+  {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+}
+}
+T.RT_211 = {
+  {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+}
+}
+T.RT_212 = {
+  Function = "ChangeTrapSkillOpen",
+  Open = false
+}
+T.RT_213 = {
+  Function = "ChangeTrapSkillOpen",
+  Open = true
+}
+T.RT_214 = {
+  NextStateId = 3901501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_215 = {
+  NextStateId = 3901502,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_216 = {
+  NextStateId = 3901500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_217 = {
+  NextStateId = 3901511,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_218 = {
+  NextStateId = 3901510,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_219 = {
+  {
+  Function = "CombatPropActive"
+},
+  {
+  Function = "ChangeTrapSkillOpen",
+  Open = false
+},
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_220 = {
+  NextStateId = 3901600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_221 = {
+  {
+  Function = "CombatPropActive"
+},
+  {
+  Function = "ChangeTrapSkillOpen",
+  Open = true
+},
+  {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_222 = {
+  NeedCountDown = true,
+  Param = 45,
+  Type = "Time"
+}
+T.RT_223 = {
+  NextStateId = 3901702,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_224 = {
+  NextStateId = 3901700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_225 = {
+  NextStateId = 3901803,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_226 = {
+  [1] = {
+  NextStateId = 3901803,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_227 = {
+  {
+  Function = "CombatPropInvincible"
+},
+  {
+  Function = "CombatPropDeActive"
+}
+}
+T.RT_228 = {
+  NextStateId = 3902000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_229 = {
+  {
+  Function = "CombatPropUnInvincible"
+},
+  {
+  Function = "CombatPropActive"
+}
+}
+T.RT_230 = {
+  DeActiveRange = 2000,
+  Type = "DistanceDeActive"
+}
+T.RT_231 = {
+  NextStateId = 3902301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_232 = {
+  NextStateId = 3902302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_233 = {
+  NextStateId = 3902300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_234 = {Param = 15, Type = "Time"}
+T.RT_235 = {
+  NextStateId = 3902400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_236 = {
+  [1] = {
+  NextStateId = 3902400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_237 = {
+  NextStateId = 3902501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_238 = {
+  NextStateId = 3902502,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_239 = {
+  NextStateId = 3902500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_240 = {
+  NextStateId = 3902701,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_241 = {
+  NextStateId = 3902702,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_242 = {
+  NextStateId = 3902703,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_243 = {
+  NextStateId = 3902700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_244 = {
+  NextStateId = 3902704,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_245 = {
+  NextStateId = 3902705,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_246 = {
+  NextStateId = 3902706,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_247 = {
+  NextStateId = 3902707,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_248 = {
+  [1] = {
+  NextStateId = 3902707,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_249 = {
+  NextStateId = 3902710,
+  TypeNextState = {
+    Param = 10, Type = "Time"
+  }
+}
+T.RT_250 = {
+  NextStateId = 3902727,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_251 = {
+  [1] = {
+  NextStateId = 3902727,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_252 = {
+  NextStateId = 3902720,
+  TypeNextState = {
+    Param = 1, Type = "Time"
+  }
+}
+T.RT_253 = {
+  [1] = {
+  NextStateId = 3902720,
+  TypeNextState = {
+    Param = 1, Type = "Time"
+  }
+}
+}
+T.RT_254 = {
+  NextStateId = 3902750,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_255 = {
+  NextStateId = 3902757,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_256 = {
+  [1] = {
+  NextStateId = 3902757,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_257 = {
+  NextStateId = 3902792,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_258 = {
+  NextStateId = 3902790,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_259 = {
+  ActiveRange = 300,
+  Type = "DistanceActive"
+}
+T.RT_260 = {
+  NextStateId = 3902901,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_261 = {
+  NextStateId = 3902902,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_262 = {
+  NextStateId = 3902900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_263 = {
+  NextStateId = 3903000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_264 = {
+  [1] = {
+  NextStateId = 3903000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_265 = {
+  NextStateId = 3903101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_266 = {
+  NextStateId = 3903102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_267 = {
+  [1] = {
+  NextStateId = 3903101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+  [2] = {
+  NextStateId = 3903102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_268 = {
+  NextStateId = 3903201,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_269 = {
+  NextStateId = 3903202,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_270 = {
+  NextStateId = 3903203,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_271 = {
+  NextStateId = 3903206,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_272 = {
+  NextStateId = 3903204,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_273 = {
+  NextStateId = 3903200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_274 = {
+  NextStateId = 3903205,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_275 = {
+  NextStateId = 3903603,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_276 = {
+  NextStateId = 3903604,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_277 = {
+  NextStateId = 3904401,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_278 = {
+  DeActiveRange = 1000,
+  Type = "DistanceDeActive"
+}
+T.RT_279 = {
+  InteractiveId = 910,
+  StateChangeParam = true,
+  Type = "Interactive"
+}
+T.RT_280 = {
+  NextStateId = 4900103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_281 = {
+  NextStateId = 4900102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_282 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+}
+T.RT_283 = {
+  EffectId = 900024,
+  Function = "PlayFX",
+  Tag = "JHA"
+}
+T.RT_284 = {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+T.RT_285 = {
+  {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+}
+T.RT_286 = {
+  NextStateId = 4900712,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_287 = {Function = "StopFX", Tag = "JHB"}
+T.RT_288 = {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+}
+T.RT_289 = {Function = "StopFX", Tag = "JHA"}
+T.RT_290 = {
+  NextStateId = 4900710,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_291 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+T.RT_292 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+},
+  {Function = "StopFX", Tag = "JHA"},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+  {Function = "StopFX", Tag = "JHB"},
+  {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+}
+T.RT_293 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+}
+T.RT_294 = {
+  EffectId = 900021,
+  Function = "PlayFX",
+  Tag = "DGA"
+}
+T.RT_295 = {
+  EffectId = 900020,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+T.RT_296 = {
+  {
+  EffectId = 900020,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+}
+T.RT_297 = {
+  NextStateId = 4900732,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_298 = {Function = "StopFX", Tag = "DGB"}
+T.RT_299 = {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+}
+T.RT_300 = {Function = "StopFX", Tag = "DGA"}
+T.RT_301 = {
+  NextStateId = 4900730,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_302 = {
+  {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+}
+T.RT_303 = {
+  EventsNextState = {
+    {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+  },
+  NextStateId = 4900752,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_304 = {
+  {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+  {Function = "StopFX", Tag = "DGB"},
+  {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_305 = {
+  NextStateId = 4920011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_306 = {
+  {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = true
+},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_307 = {
+  NextStateId = 4920010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_308 = {
+  NextStateId = 4920012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_309 = {
+  NextStateId = 4920014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_310 = {
+  NextStateId = 4920015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_311 = {
+  EffectId = 900033,
+  Function = "PlayFX",
+  Tag = "Training"
+}
+T.RT_312 = {
+  NextStateId = 494001,
+  TypeNextState = {
+    Param = 0, Type = "Time"
+  }
+}
+T.RT_313 = {
+  [1] = {
+  NextStateId = 494001,
+  TypeNextState = {
+    Param = 0, Type = "Time"
+  }
+}
+}
+T.RT_314 = {
+  {
+  Function = "OpenMechanism"
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_315 = {
+  NextStateId = 495000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_316 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "DeactiveGuide"
+},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+}
+T.RT_317 = {
+  NextStateId = 501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_318 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+}
+T.RT_319 = {
+  NextStateId = 500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_320 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+  {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_321 = {
+  NextStateId = 510,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_322 = {Function = "StopFX", Tag = "Trap1"}
+T.RT_323 = {Function = "StopFX", Tag = "Trap2"}
+T.RT_324 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Idle"
+}
+T.RT_325 = {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Start"
+}
+T.RT_326 = {
+  {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Start"
+}
+}
+T.RT_327 = {
+  NextStateId = 581,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_328 = {
+  NextStateId = 582,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_329 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+}
+T.RT_330 = {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+T.RT_331 = {
+  {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+}
+T.RT_332 = {
+  NextStateId = 5531,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_333 = {
+  NextStateId = 5431,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_334 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "DeactiveGuide"
+},
+  {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+  {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+  {Function = "StopFX", Tag = "JHA"},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_335 = {
+  NextStateId = 541,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_336 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "DeactiveGuide"
+}
+}
+T.RT_337 = {
+  NextStateId = 542,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_338 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "DeactiveGuide"
+},
+  {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+  {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+  {Function = "StopFX", Tag = "DGA"},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_339 = {
+  NextStateId = 543,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_340 = {
+  [1] = {
+  NextStateId = 543,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_341 = {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Niagara"
+}
+T.RT_342 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "End"
+}
+T.RT_343 = {
+  NextStateId = 591011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_344 = {
+  NextStateId = 591012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_345 = {
+  NextStateId = 591014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_346 = {
+  NextStateId = 591021,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_347 = {
+  NextStateId = 591020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_348 = {
+  NextStateId = 592011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_349 = {
+  NextStateId = 592012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_350 = {
+  NextStateId = 592014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_351 = {
+  NextStateId = 595013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_352 = {
+  NextStateId = 595014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_353 = {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "DeActive"
+}
+T.RT_354 = {
+  {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "DeActive"
+}
+}
+T.RT_355 = {
+  NextStateId = 601,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_356 = {
+  NextStateId = 600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_357 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  Function = "DeactiveGuide"
+},
+  {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+}
+T.RT_358 = {Function = "StopFX", Tag = "Bling"}
+T.RT_359 = {
+  {
+  Function = "OpenMechanism"
+},
+  {Function = "StopFX", Tag = "Bling"},
+  {
+  Function = "DestroySelf"
+}
+}
+T.RT_360 = {
+  EffectId = 900028,
+  Function = "PlayFX",
+  Tag = "Bomb"
+}
+T.RT_361 = {
+  {
+  EffectId = 900028,
+  Function = "PlayFX",
+  Tag = "Bomb"
+}
+}
+T.RT_362 = {
+  EffectId = 900029,
+  Function = "PlayFX",
+  Tag = "Star"
+}
+T.RT_363 = {
+  {
+  EffectId = 900029,
+  Function = "PlayFX",
+  Tag = "Star"
+},
+  {Function = "StopFX", Tag = "Bling"}
+}
+T.RT_364 = {
+  InteractiveId = 91510,
+  Type = "Interactive"
+}
+T.RT_365 = {Function = "StopFX", Tag = "Star"}
+T.RT_366 = {
+  {
+  Function = "OpenMechanism"
+},
+  {Function = "StopFX", Tag = "Star"},
+  {
+  Function = "DestroySelf"
+}
+}
+T.RT_367 = {
+  {
+  EffectId = 900031,
+  Function = "PlayFX",
+  Tag = "Bomb"
+},
+  {Function = "StopFX", Tag = "Bling"}
+}
+T.RT_368 = {
+  EffectId = 900032,
+  Function = "PlayFX",
+  Tag = "Star"
+}
+T.RT_369 = {
+  {
+  EffectId = 900032,
+  Function = "PlayFX",
+  Tag = "Star"
+}
+}
+T.RT_370 = {
+  InteractiveId = 91505,
+  Type = "Interactive"
+}
+T.RT_371 = {
+  NextStateId = 610023,
+  TypeNextState = {
+    InteractiveId = 91505,
+    Type = "Interactive"
+  }
+}
+T.RT_372 = {
+  [1] = {
+  NextStateId = 610023,
+  TypeNextState = {
+    InteractiveId = 91505,
+    Type = "Interactive"
+  }
+}
+}
+T.RT_373 = {Function = "GiveReward"}
+T.RT_374 = {
+  Function = "CreateSpecialMonster",
+  RuleId = 2
+}
+T.RT_375 = {
+  {Function = "GiveReward"},
+  {
+  Function = "CreateSpecialMonster",
+  RuleId = 2
+}
+}
+T.RT_376 = {
+  {Function = "StopFX", Tag = "Bling"},
+  {
+  Function = "DestroySelf"
+}
+}
+T.RT_377 = {
+  CallBackName = "OnNotifyBegin",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "Rise"
+}
+T.RT_378 = {
+  {
+  CallBackName = "OnNotifyBegin",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "Rise"
+}
+}
+T.RT_379 = {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+T.RT_380 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+  {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+}
+T.RT_381 = {
+  NextStateId = 701061,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_382 = {
+  [1] = {
+  NextStateId = 701061,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_383 = {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Unlock"
+}
+T.RT_384 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+  {Function = "StopFX", Tag = "Lock"},
+  {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Unlock"
+},
+  {
+  Function = "ActiveGuide"
+}
+}
+T.RT_385 = {
+  InteractiveId = 70000,
+  Type = "Interactive"
+}
+T.RT_386 = {
+  InteractiveId = 70002,
+  Type = "Interactive"
+}
+T.RT_387 = {
+  NextStateId = 701102,
+  TypeNextState = {
+    InteractiveId = 70002,
+    Type = "Interactive"
+  }
+}
+T.RT_388 = {
+  {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+  {
+  Function = "ActiveGuide"
+}
+}
+T.RT_389 = {
+  InteractiveId = 70003,
+  Type = "Interactive"
+}
+T.RT_390 = {
+  NextStateId = 701132,
+  TypeNextState = {
+    InteractiveId = 70003,
+    Type = "Interactive"
+  }
+}
+T.RT_391 = {
+  EffectId = 212,
+  Function = "PlayFX",
+  Tag = "Start"
+}
+T.RT_392 = {
+  Color = "6E57FFFF",
+  DeadTime = true,
+  Function = "ChangeFX",
+  Tag = "Niagara"
+}
+T.RT_393 = {
+  {
+  Function = "OpenMechanism"
+},
+  {
+  EffectId = 212,
+  Function = "PlayFX",
+  Tag = "Start"
+},
+  {
+  Color = "6E57FFFF",
+  DeadTime = true,
+  Function = "ChangeFX",
+  Tag = "Niagara"
+}
+}
+T.RT_394 = {Function = "StopFX", Tag = "Niagara"}
+T.RT_395 = {Function = "StopFX", Tag = "Start"}
+T.RT_396 = {
+  EffectId = 214,
+  Function = "PlayFX",
+  NotAttached = true,
+  Tag = "ok"
+}
+T.RT_397 = {
+  {Function = "StopFX", Tag = "Niagara"},
+  {Function = "StopFX", Tag = "Start"},
+  {
+  EffectId = 214,
+  Function = "PlayFX",
+  NotAttached = true,
+  Tag = "ok"
+},
+  {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = true
+}
+}
+T.RT_398 = {
+  {Function = "StopFX", Tag = "Niagara"}
+}
+T.RT_399 = {
+  Function = "InteractiveEffect"
+}
+T.RT_400 = {
+  Function = "AfterInteractiveEffect"
+}
+T.RT_401 = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_402 = {
+  InteractiveId = 109,
+  Type = "Interactive"
+}
+T.RT_403 = {Function = "Rotate", IsForward = false}
+T.RT_404 = {
+  {Function = "Rotate", IsForward = false}
+}
+T.RT_405 = {
+  InteractiveId = 108,
+  Type = "Interactive"
+}
+T.RT_406 = {
+  {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+}
+T.RT_407 = {
+  NextStateId = 704010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_408 = {
+  {Function = "StopFX", Tag = "Lock"},
+  {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Niagara"
+}
+}
+T.RT_409 = {
+  NextStateId = 704020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_410 = {
+  NextStateId = 704031,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_411 = {
+  NextStateId = 704032,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_412 = {
+  NextStateId = 704033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_413 = {
+  NextStateId = 704034,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_414 = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_415 = {Function = "StopFX", Tag = "Die"}
+T.RT_416 = {
+  NextStateId = 705033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_417 = {
+  [1] = {
+  NextStateId = 705033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_418 = {
+  Type = "LeaveTriggerBox"
+}
+T.RT_419 = {
+  NextStateId = 708001,
+  TypeNextState = {
+    Type = "Interactive"
+  }
+}
+T.RT_420 = {
+  [1] = {
+  NextStateId = 708001,
+  TypeNextState = {
+    Type = "Interactive"
+  }
+}
+}
+T.RT_421 = {
+  EffectId = 231,
+  Function = "PlayFX",
+  Tag = "inter"
+}
+T.RT_422 = {
+  {
+  EffectId = 231,
+  Function = "PlayFX",
+  Tag = "inter"
+}
+}
+T.RT_423 = {Function = "StopFX", Tag = "Inter"}
+T.RT_424 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+}
+T.RT_425 = {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+T.RT_426 = {
+  {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+}
+T.RT_427 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+}
+T.RT_428 = {
+  {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+  {
+  EffectId = 900021,
+  Function = "PlayFX",
+  Tag = "DGA"
+},
+  {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+}
+T.RT_429 = {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "End"
+}
+T.RT_430 = {
+  {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "End"
+},
+  {Function = "StopFX", Tag = "DGA"}
+}
+T.RT_431 = {
+  {Function = "StopFX", Tag = "DGA"},
+  {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+}
+T.RT_432 = {
+  EventsNextState = {
+    {
+  CallBackName = "OnNotifyBegin",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "Rise"
+}
+  },
+  NextStateId = 780080,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_433 = {
+  [1] = {
+  EventsNextState = {
+    {
+  CallBackName = "OnNotifyBegin",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "Rise"
+}
+  },
+  NextStateId = 780080,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_434 = {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/Dyn_Minigame_Tanceqi.Dyn_Minigame_Tanceqi'",
+  SectionName = "Idle"
+}
+T.RT_435 = {
+  {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/Dyn_Minigame_Tanceqi.Dyn_Minigame_Tanceqi'",
+  SectionName = "Idle"
+}
+}
+T.RT_436 = {
+  NextStateId = 780100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_437 = {
+  [1] = {
+  NextStateId = 780100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_438 = {
+  NextStateId = 780162,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_439 = {
+  [1] = {
+  NextStateId = 780162,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_440 = {
+  NextStateId = 801130,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_441 = {
+  NextStateId = 810010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_442 = {
+  [1] = {
+  NextStateId = 810010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_443 = {ConditionID = 20021501, Type = "Condition"}
+T.RT_444 = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+T.RT_445 = {
+  [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+}
+T.RT_446 = {
+  NextStateId = 904,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_447 = {
+  {
+  Function = "CloseMechanism"
+}
+}
+T.RT_448 = {
+  NextStateId = 9043,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_449 = {
+  [1] = {
+  NextStateId = 9043,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+}
+T.RT_450 = {
+  NextStateId = 90430,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_451 = {
+  NextStateId = 90432,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_452 = {
+  NextStateId = 90434,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_453 = {
+  NextStateId = 90436,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+T.RT_454 = {
+  NextStateId = 90438,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
+  return x
+end
+return ReadOnly("MechanismState", {
+  [1] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 2,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1
+  },
+  [2] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 2
+  },
+  [3] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 3
+  },
+  [4] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 5,
+        TypeNextState = {
+          DeActiveRange = 1000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 4
+  },
+  [5] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 4,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 5
+  },
+  [6] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "DeActive"
+}
+        },
+        NextStateId = 7,
+        TypeNextState = {
+          DeActiveRange = 1000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 6
+  },
+  [7] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnNotifyBegin",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "Rise"
+}
+        },
+        NextStateId = 6,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 7
+  },
+  [10] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 10
+  },
+  [11] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 10,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 11
+  },
+  [12] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 13,
+  TypeNextState = {
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 12
+  },
+  [13] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 14,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 15,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 13
+  },
+  [14] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 13,
+  TypeNextState = {
+    Type = "Interactive"
+  }
+},
+      [2] = {
+  NextStateId = 15,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 14
+  },
+  [15] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 15
+  },
+  [25] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 26,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 25
+  },
+  [26] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+        Function = "SetBubbleWidget",
+        Show = true
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 27,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 26
+  },
+  [27] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 27
+  },
+  [28] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 29,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 28
+  },
+  [29] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 28,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 29
+  },
+  [30] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+            EffectId = 200,
+            Function = "PlayFX",
+            NeedFinish = true,
+            Tag = "NiagaraA"
+          }
+        },
+        NextStateId = 31,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 30
+  },
+  [31] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+        EffectId = 201,
+        Function = "PlayFX",
+        Tag = "NiagaraB"
+      }
+    },
+    StateId = 31
+  },
+  [32] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  Function = "ShowToast",
+  ToastText = "UI_TELEPORTPOINT_INTERACTIVE"
+}
+        },
+        NextStateId = 33,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 32
+  },
+  [33] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 33
+  },
+  [34] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 35,
+        TypeNextState = {
+          InteractiveId = 909,
+          StateChangeParam = true,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 34
+  },
+  [35] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 35
+  },
+  [36] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 34,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      }
+    },
+    StateId = 36
+  },
+  [37] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 39,
+        TypeNextState = {
+          InteractiveId = 909,
+          StateChangeParam = false,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 37
+  },
+  [38] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 38
+  },
+  [39] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 37,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      }
+    },
+    StateId = 39
+  },
+  [40] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 41,
+        TypeNextState = {
+          InteractiveId = 909,
+          StateChangeParam = true,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 42,
+        TypeNextState = {
+          InteractiveId = 910,
+          StateChangeParam = true,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 40
+  },
+  [41] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 41
+  },
+  [42] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 42
+  },
+  [43] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 44,
+        TypeNextState = {
+          InteractiveId = 910,
+          StateChangeParam = true,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 43
+  },
+  [44] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 44
+  },
+  [45] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 46,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 45
+  },
+  [46] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 46
+  },
+  [52] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 53,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 52
+  },
+  [53] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 52,
+        TypeNextState = {
+          DeActiveRange = 2000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 53
+  },
+  [54] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Idle"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 55,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 54
+  },
+  [55] = {
+    EventsCurrentState = {
+      {
+        Function = "PlayMontage",
+        Mesh = "Mesh",
+        MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+        SectionName = "Start"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 56,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 55
+  },
+  [56] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 55,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 56
+  },
+  [57] = {
+    EventsCurrentState = {
+      {
+        EffectId = 208,
+        Function = "PlayFX",
+        Tag = "ABC"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 58,
+        TypeNextState = {
+          ActiveRange = 300,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 57
+  },
+  [58] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "ABC"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Niagara"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 59,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 58
+  },
+  [59] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 59
+  },
+  [60] = {StateId = 60},
+  [61] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 62,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 61
+  },
+  [62] = {
+    EventsCurrentState = {
+      {
+        Function = "PlayMontage",
+        Mesh = "Mesh",
+        MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+        SectionName = "Start"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 63,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 62
+  },
+  [63] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "End"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 62,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 63
+  },
+  [64] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 65,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 64
+  },
+  [65] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 65
+  },
+  [66] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 67,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 66
+  },
+  [67] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 66,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 67
+  },
+  [100] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "OpenUI"}
+        },
+        NextStateId = 101,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 100
+  },
+  [101] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 100,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 102,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 101
+  },
+  [102] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 100,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 102
+  },
+  [238] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 239,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 238
+  },
+  [239] = {
+    EventsCurrentState = {
+      {
+  Function = "ActiveGuide"
+},
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateId = 239
+  },
+  [240] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 241,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 243,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 240
+  },
+  [241] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 242,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 240,
+        TypeNextState = {
+          InteractiveId = 911,
+          StateChangeParam = true,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 241
+  },
+  [242] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 240,
+        TypeNextState = {
+          InteractiveId = 912,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 242
+  },
+  [243] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 242,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 240,
+        TypeNextState = {
+          InteractiveId = 913,
+          StateChangeParam = true,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 243
+  },
+  [244] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 245,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 244
+  },
+  [245] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 244,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 245
+  },
+  [246] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 245,
+        TypeNextState = {
+          Param = 0.1, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 244,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 246
+  },
+  [300] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+        EffectId = 10199001,
+        Function = "PlayFX",
+        Tag = "Fire"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "OpenUI"}
+        },
+        NextStateId = 301,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 300
+  },
+  [301] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 300,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 302,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 301
+  },
+  [302] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = true
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {Function = "StopFX", Tag = "Fire"}
+    },
+    StateId = 302
+  },
+  [500] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 502,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 500
+  },
+  [501] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 502,
+        TypeNextState = {
+          ActiveRange = 1500,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+  NextStateId = 500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 501
+  },
+  [502] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 503,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 502
+  },
+  [503] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 502,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 504,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 503
+  },
+  [504] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 504
+  },
+  [510] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 512,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 510
+  },
+  [511] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 512,
+        TypeNextState = {
+          ActiveRange = 1500,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+  NextStateId = 510,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 511
+  },
+  [512] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 513,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 510,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 512
+  },
+  [513] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 512,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 514,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 513
+  },
+  [514] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 511,
+        TypeNextState = {
+          Param = 6, Type = "Time"
+        }
+      }
+    },
+    StateId = 514
+  },
+  [515] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 511,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 510,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 515
+  },
+  [541] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Start"
+}
+        },
+        NextStateId = 551,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+  NextStateId = 581,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 541
+  },
+  [542] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 552,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 582,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 542
+  },
+  [543] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+        },
+        NextStateId = 553,
+        TypeNextState = {
+          ActiveRange = 1500,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+        NextStateId = 583,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 543
+  },
+  [551] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  EffectId = 900024,
+  Function = "PlayFX",
+  Tag = "JHA"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 561,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 581,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 551
+  },
+  [552] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 562,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 582,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 552
+  },
+  [553] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  EffectId = 900021,
+  Function = "PlayFX",
+  Tag = "DGA"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 563,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 553
+  },
+  [561] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 551,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 571,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 561
+  },
+  [562] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 552,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 572,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 562
+  },
+  [563] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 553,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900020,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 573,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 563
+  },
+  [571] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 541,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 581,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 571
+  },
+  [572] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 542,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 582,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 572
+  },
+  [573] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 543,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 573
+  },
+  [581] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 541,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 581
+  },
+  [582] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 542,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 582
+  },
+  [583] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "End"
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 543,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 583
+  },
+  [600] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 602,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 601,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 600
+  },
+  [601] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 602,
+        TypeNextState = {
+          ActiveRange = 1500,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+  NextStateId = 600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 601
+  },
+  [602] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 603,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 602
+  },
+  [603] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 602,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 604,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 603
+  },
+  [604] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 601,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 604
+  },
+  [900] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 901,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 900
+  },
+  [901] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 900,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 901
+  },
+  [902] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 903,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 902
+  },
+  [903] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 904,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 903
+  },
+  [904] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 905,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+        NextStateId = 907,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 904
+  },
+  [905] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 904,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+        NextStateId = 906,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 905
+  },
+  [906] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 907,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+        NextStateId = 905,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 906
+  },
+  [907] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 906,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+  NextStateId = 904,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 907
+  },
+  [908] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+},
+      {
+  DoorType = 1,
+  Function = "SetConditionDoorState"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 909,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 908
+  },
+  [909] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  DoorType = 0,
+  Function = "SetConditionDoorState"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 908,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 909
+  },
+  [1801] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1802,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1801
+  },
+  [1802] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateId = 1802
+  },
+  [2501] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 310, Type = "Condition"}
+      }
+    },
+    StateId = 2501
+  },
+  [2502] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 311, Type = "Condition"}
+      }
+    },
+    StateId = 2502
+  },
+  [2503] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 312, Type = "Condition"}
+      }
+    },
+    StateId = 2503
+  },
+  [2504] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 313, Type = "Condition"}
+      }
+    },
+    StateId = 2504
+  },
+  [2505] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 314, Type = "Condition"}
+      }
+    },
+    StateId = 2505
+  },
+  [2506] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 315, Type = "Condition"}
+      }
+    },
+    StateId = 2506
+  },
+  [2507] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 316, Type = "Condition"}
+      }
+    },
+    StateId = 2507
+  },
+  [2508] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 317, Type = "Condition"}
+      }
+    },
+    StateId = 2508
+  },
+  [2509] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 318, Type = "Condition"}
+      }
+    },
+    StateId = 2509
+  },
+  [2510] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 319, Type = "Condition"}
+      }
+    },
+    StateId = 2510
+  },
+  [2511] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 320, Type = "Condition"}
+      }
+    },
+    StateId = 2511
+  },
+  [2512] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 321, Type = "Condition"}
+      }
+    },
+    StateId = 2512
+  },
+  [2513] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 26,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 2513
+  },
+  [5431] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {Function = "StopFX", Tag = "DGB"}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 5531,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 5731,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 5431
+  },
+  [5531] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  EffectId = 900021,
+  Function = "PlayFX",
+  Tag = "DGA"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 5731,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 5431,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 5531
+  },
+  [5731] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 5431,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 5531,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 5731
+  },
+  [9041] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 9042,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 9041
+  },
+  [9042] = {StateId = 9042},
+  [9043] = {
+    StateEvent = {
+      [1] = {
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 9043
+  },
+  [9044] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 9045,
+        TypeNextState = {
+          InteractiveId = 118,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 9044
+  },
+  [9045] = {StateId = 9045},
+  [90430] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 9043,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 90430
+  },
+  [90432] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 9043,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 90432
+  },
+  [90434] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 9043,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 90434
+  },
+  [90436] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 9043,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 90436
+  },
+  [90438] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 9043,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 90438
+  },
+  [104010] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+},
+      {
+  DoorType = 0,
+  Function = "SetConditionDoorState"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 104011,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+  NextStateId = 104012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 104013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 104010
+  },
+  [104011] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  DoorType = 0,
+  Function = "SetConditionDoorState"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 104010,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+  NextStateId = 104012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 104013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 104011
+  },
+  [104012] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+},
+      {
+  DoorType = 1,
+  Function = "SetConditionDoorState"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 104011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 104013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 104012
+  },
+  [104013] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+},
+      {
+        DoorType = 2,
+        Function = "SetConditionDoorState"
+      },
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 104011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 104012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 104013
+  },
+  [104070] = {
+    EventsCurrentState = {
+      {
+  Function = "CloseMechanism"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 104071,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 104070
+  },
+  [104071] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  DoorType = 0,
+  Function = "SetConditionDoorState"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 104070,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 104071
+  },
+  [105010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 105011,
+        TypeNextState = {
+          ActiveRange = 1500,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 105010
+  },
+  [105011] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 105012,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 105011
+  },
+  [105012] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 105010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 105012
+  },
+  [106050] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 106051,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 106050
+  },
+  [106051] = {StateId = 106051},
+  [108010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 108011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 108010
+  },
+  [108011] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 108010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 108011
+  },
+  [109010] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 109011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 109013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 109010
+  },
+  [109011] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 109010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 109012,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 109011
+  },
+  [109012] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 109010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 109011,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 109012
+  },
+  [109013] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 109010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 109014,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 109013
+  },
+  [109014] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 109010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 109014
+  },
+  [110080] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 110081,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 110080
+  },
+  [110081] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 110080,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 110081
+  },
+  [111010] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 111013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 111015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 111010
+  },
+  [111011] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 111012,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 111011
+  },
+  [111012] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 111011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111012
+  },
+  [111013] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 111014,
+  TypeNextState = {
+    Type = "Hit"
+  }
+}
+    },
+    StateId = 111013
+  },
+  [111014] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 111013,
+  TypeNextState = {
+    NeedCountDown = true, Type = "CustomTime"
+  }
+},
+      [3] = {
+        NextStateId = 111015,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      },
+      [4] = {
+  NextStateId = 111012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111014
+  },
+  [111015] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 111013,
+  TypeNextState = {
+    NeedCountDown = true, Type = "CustomTime"
+  }
+},
+      [3] = {
+  NextStateId = 111014,
+  TypeNextState = {
+    Type = "Hit"
+  }
+},
+      [4] = {
+  NextStateId = 111012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111015
+  },
+  [111016] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111017,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 111016
+  },
+  [111017] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111016,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 111017
+  },
+  [111020] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111021,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 111020
+  },
+  [111021] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 111022,
+        TypeNextState = {
+          NeedCountDown = true,
+          Param = 30,
+          Type = "Time"
+        }
+      }
+    },
+    StateId = 111021
+  },
+  [111022] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 111023,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 111022
+  },
+  [111023] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111023
+  },
+  [111030] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 111030
+  },
+  [111031] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111032,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      },
+      [2] = {
+  NextStateId = 111030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111031
+  },
+  [111032] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111033,
+        TypeNextState = {
+          NeedCountDown = false,
+          Param = 1,
+          Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 111030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111032
+  },
+  [111033] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111034,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      },
+      [2] = {
+  NextStateId = 111030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111033
+  },
+  [111034] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111031,
+        TypeNextState = {
+          NeedCountDown = false,
+          Param = 1,
+          Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 111030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 111034
+  },
+  [111040] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 111041,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 111040
+  },
+  [111041] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111040,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 111042,
+  TypeNextState = {
+    Type = "Hit"
+  }
+}
+    },
+    StateId = 111041
+  },
+  [111042] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111040,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 111041,
+  TypeNextState = {
+    NeedCountDown = true, Type = "CustomTime"
+  }
+},
+      [3] = {
+        NextStateId = 111043,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 111042
+  },
+  [111043] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 111040,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 111041,
+  TypeNextState = {
+    NeedCountDown = true, Type = "CustomTime"
+  }
+},
+      [3] = {
+  NextStateId = 111042,
+  TypeNextState = {
+    Type = "Hit"
+  }
+}
+    },
+    StateId = 111043
+  },
+  [112010] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 112011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 112010
+  },
+  [112011] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 112010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 112012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 112011
+  },
+  [112012] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 112010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 112013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 112012
+  },
+  [112013] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateId = 112013
+  },
+  [115010] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 115011,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 115012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 115010
+  },
+  [115011] = {StateId = 115011},
+  [115012] = {StateId = 115012},
+  [116010] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 116011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 116012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 116013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 116014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 116015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 116010
+  },
+  [116011] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 116010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 116012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 116013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 116014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 116015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 116011
+  },
+  [116012] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 116010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 116011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 116013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 116014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 116015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 116012
+  },
+  [116013] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 116010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 116011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 116012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 116014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 116015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 116013
+  },
+  [116014] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 116010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 116011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 116012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 116013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 116015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 116014
+  },
+  [116015] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 116010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 116011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 116012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 116013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 116014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 116015
+  },
+  [118001] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 118002,
+  TypeNextState = {
+    Type = "TriggerBox"
+  }
+},
+      [2] = {
+  NextStateId = 118004,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 118005,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118001
+  },
+  [118002] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 118003,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 118004,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118002
+  },
+  [118003] = {
+    EventsCurrentState = {
+      {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 118001,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 118004,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 118002,
+  TypeNextState = {
+    Type = "TriggerBox"
+  }
+}
+    },
+    StateId = 118003
+  },
+  [118004] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 118001,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118004
+  },
+  [118005] = {
+    EventsCurrentState = {
+      {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 118001,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118005
+  },
+  [118010] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 118011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 118026,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118010
+  },
+  [118011] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 118012,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 118015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 118026,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118011
+  },
+  [118012] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 118013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 118015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118012
+  },
+  [118013] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 118014,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 118015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118013
+  },
+  [118014] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 118013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 118015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118014
+  },
+  [118015] = {
+    EventsCurrentState = {
+      {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 118015
+  },
+  [118016] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 118017,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      }
+    },
+    StateId = 118016
+  },
+  [118017] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 118016,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118017
+  },
+  [118018] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 118019,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118018
+  },
+  [118019] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 118018,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 118020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118019
+  },
+  [118020] = {StateId = 118020},
+  [118021] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 118022,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118021
+  },
+  [118022] = {StateId = 118022},
+  [118023] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropInvincible"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 118024,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118023
+  },
+  [118024] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropUnInvincible"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  EffectId = 900031,
+  Function = "PlayFX",
+  Tag = "Bomb"
+}
+        },
+        NextStateId = 118025,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118024
+  },
+  [118025] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 118025
+  },
+  [118026] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 118010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 118011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 118026
+  },
+  [390011] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateId = 390011
+  },
+  [390012] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 390011,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 390012
+  },
+  [390060] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 390061,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 390060
+  },
+  [390061] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+}
+    },
+    StateId = 390061
+  },
+  [492061] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 492062,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 492061
+  },
+  [492062] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 492062
+  },
+  [493011] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropInvincible"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 493012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 493011
+  },
+  [493012] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 493013,
+        TypeNextState = {Param = 3.5, Type = "Time"}
+      }
+    },
+    StateId = 493012
+  },
+  [493013] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropUnInvincible"
+},
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 493013
+  },
+  [494000] = {
+    EventsCurrentState = {
+      {
+  EffectId = 900033,
+  Function = "PlayFX",
+  Tag = "Training"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 494001,
+  TypeNextState = {
+    Param = 0, Type = "Time"
+  }
+}
+    },
+    StateId = 494000
+  },
+  [494001] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 494002,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 494001
+  },
+  [494002] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 494001,
+  TypeNextState = {
+    Param = 0, Type = "Time"
+  }
+}
+    },
+    StateId = 494002
+  },
+  [494003] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  EffectId = 900033,
+  Function = "PlayFX",
+  Tag = "Training"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 494004,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 494003
+  },
+  [494004] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 494003,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 494004
+  },
+  [495000] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 495001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 495000
+  },
+  [495001] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 495002,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 495000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 495001
+  },
+  [495002] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 495003,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      },
+      [2] = {
+        NextStateId = 495001,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      }
+    },
+    StateId = 495002
+  },
+  [495003] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 495004,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 495003
+  },
+  [495004] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 495000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 495004
+  },
+  [496001] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 496002,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 496001
+  },
+  [496002] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 496003,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 496002
+  },
+  [496003] = {
+    EventsCurrentState = {
+      Function = "CombatPropInvincible"
+    },
+    StateId = 496003
+  },
+  [496031] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropInvincible"
+},
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 496032,
+        TypeNextState = {
+          ActiveRange = 7000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 496031
+  },
+  [496032] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropUnInvincible"
+},
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 496031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3902000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 496032
+  },
+  [496033] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropInvincible"
+},
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateId = 496033
+  },
+  [520110] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 521011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 520110
+  },
+  [520111] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          Function = "StopFX", Tag = "Trap1"
+        },
+        NextStateId = 521012,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          Function = "StopFX", Tag = "Trap1"
+        },
+        NextStateId = 521010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 520111
+  },
+  [520112] = {
+    EventsCurrentState = {
+      {
+        EffectId = 212,
+        Function = "PlayFX",
+        Tag = "Trap2"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          Function = "StopFX", Tag = "Trap2"
+        },
+        NextStateId = 521011,
+        TypeNextState = {
+          Param = 5, Type = "Time"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          Function = "StopFX", Tag = "Trap2"
+        },
+        NextStateId = 521010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 520112
+  },
+  [591010] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 591011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 591010
+  },
+  [591011] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 591012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 591011
+  },
+  [591012] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 591013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 591014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 591012
+  },
+  [591013] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 591014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 591013
+  },
+  [591014] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 591011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 591012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 591014
+  },
+  [591020] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 591021,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 591020
+  },
+  [591021] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 591020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 591022,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 591021
+  },
+  [591022] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 591020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 591021,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 591022
+  },
+  [592010] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 592011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 592010
+  },
+  [592011] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 592012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 592011
+  },
+  [592012] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 592013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 592014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 592012
+  },
+  [592013] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 592014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 592013
+  },
+  [592014] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 592011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 592012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 592014
+  },
+  [595010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 595011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 595012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 595010
+  },
+  [595011] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 595013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 595014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 595011
+  },
+  [595012] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 595014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 595013,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 595012
+  },
+  [595013] = {StateId = 595013},
+  [595014] = {StateId = 595014},
+  [596010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 596011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 596012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 596010
+  },
+  [596011] = {StateId = 596011},
+  [596012] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 596013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 596012
+  },
+  [596013] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 596014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 596013
+  },
+  [596014] = {StateId = 596014},
+  [600110] = {
+    EventsCurrentState = {
+      {
+        Function = "PlayMontage",
+        Mesh = "Mesh",
+        MontagePath = "AnimMontage'/Game/Asset/Scene/common/InterProps/Animation/Tele/Ani_Tele02_Montage2.Ani_Tele02_Montage2'",
+        SectionName = "Idle"
+      },
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+        EffectId = 10199004,
+        Function = "PlayFX",
+        Tag = "BirdIdle"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 600111,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 600110
+  },
+  [600111] = {
+    EventsCurrentState = {
+      {
+        Function = "PlayMontage",
+        Mesh = "Mesh",
+        MontagePath = "AnimMontage'/Game/Asset/Scene/common/InterProps/Animation/Tele/Ani_Tele02_Montage2.Ani_Tele02_Montage2'",
+        SectionName = "Open"
+      },
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "BirdIdle"},
+      {
+        EffectId = 10199005,
+        Function = "PlayFX",
+        Tag = "BirdFly"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 600112,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 600111
+  },
+  [600112] = {StateId = 600112},
+  [610010] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+            Function = "CreateSpecialMonster",
+            RuleId = 1
+          }
+        },
+        NextStateId = 610011,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610010
+  },
+  [610011] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Bling"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610011
+  },
+  [610012] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  EffectId = 900028,
+  Function = "PlayFX",
+  Tag = "Bomb"
+}
+        },
+        NextStateId = 610013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900028,
+  Function = "PlayFX",
+  Tag = "Bomb"
+}
+        },
+        NextStateId = 610014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 610012
+  },
+  [610013] = {
+    EventsCurrentState = {
+      {
+  EffectId = 900029,
+  Function = "PlayFX",
+  Tag = "Star"
+},
+      {Function = "StopFX", Tag = "Bling"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 610015,
+        TypeNextState = {
+          InteractiveId = 91510,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610013
+  },
+  [610014] = {
+    EventsCurrentState = {
+      {
+        EffectId = 900030,
+        Function = "PlayFX",
+        Tag = "Star"
+      },
+      {Function = "StopFX", Tag = "Bling"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 610015,
+        TypeNextState = {
+          InteractiveId = 91511,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610014
+  },
+  [610015] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Star"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610015
+  },
+  [610016] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 610017,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610016
+  },
+  [610017] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {Function = "StopFX", Tag = "Bling"}
+    },
+    StateId = 610017
+  },
+  [610018] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+            Function = "CreateSpecialMonster",
+            RuleId = 3
+          }
+        },
+        NextStateId = 610019,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610018
+  },
+  [610019] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Body"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610019
+  },
+  [610020] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  EffectId = 900031,
+  Function = "PlayFX",
+  Tag = "Bomb"
+},
+          {Function = "StopFX", Tag = "Bling"}
+        },
+        NextStateId = 610021,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900031,
+  Function = "PlayFX",
+  Tag = "Bomb"
+},
+          {Function = "StopFX", Tag = "Bling"}
+        },
+        NextStateId = 610022,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 610020
+  },
+  [610021] = {
+    EventsCurrentState = {
+      {
+  EffectId = 900032,
+  Function = "PlayFX",
+  Tag = "Star"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 610023,
+  TypeNextState = {
+    InteractiveId = 91505,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 610021
+  },
+  [610022] = {
+    EventsCurrentState = {
+      {
+  EffectId = 900032,
+  Function = "PlayFX",
+  Tag = "Star"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 610023,
+  TypeNextState = {
+    InteractiveId = 91505,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 610022
+  },
+  [610023] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Star"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610023
+  },
+  [610024] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"},
+          {
+  Function = "CreateSpecialMonster",
+  RuleId = 2
+}
+        },
+        NextStateId = 610025,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 610024
+  },
+  [610025] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Bling"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610025
+  },
+  [610026] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"},
+          {
+  Function = "CreateSpecialMonster",
+  RuleId = 2
+}
+        },
+        NextStateId = 610027,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 610026
+  },
+  [610027] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Bling"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610027
+  },
+  [610028] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
+        NextStateId = 610029,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 610028
+  },
+  [610029] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610029
+  },
+  [610030] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 610031,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610030
+  },
+  [610031] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Bling"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610031
+  },
+  [610032] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 610033,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610032
+  },
+  [610033] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Bling"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610033
+  },
+  [610040] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 610041,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610040
+  },
+  [610041] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Bling"}
+    },
+    StateId = 610041
+  },
+  [610042] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  EffectId = 900028,
+  Function = "PlayFX",
+  Tag = "Bomb"
+}
+        },
+        NextStateId = 610043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 610042
+  },
+  [610043] = {
+    EventsCurrentState = {
+      {
+  EffectId = 900029,
+  Function = "PlayFX",
+  Tag = "Star"
+},
+      {Function = "StopFX", Tag = "Bling"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 610044,
+        TypeNextState = {
+          InteractiveId = 91510,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 610043
+  },
+  [610044] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Star"}
+    },
+    StateId = 610044
+  },
+  [701000] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 701000
+  },
+  [701001] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701002,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 701001
+  },
+  [701002] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701003,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 701002
+  },
+  [701003] = {StateId = 701003},
+  [701004] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701002,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 701004
+  },
+  [701030] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 701032,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 701030
+  },
+  [701031] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+        EffectId = 211,
+        Function = "PlayFX",
+        Tag = "Loop"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701032,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 701031
+  },
+  [701032] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {Function = "StopFX", Tag = "Loop"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701033,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 701032
+  },
+  [701033] = {StateId = 701033},
+  [701060] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 701061,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 701060
+  },
+  [701061] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {Function = "StopFX", Tag = "Lock"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Unlock"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701062,
+        TypeNextState = {
+          InteractiveId = 70000,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 701061
+  },
+  [701062] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701063,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 701062
+  },
+  [701063] = {StateId = 701063},
+  [701100] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 701102,
+  TypeNextState = {
+    InteractiveId = 70002,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 701100
+  },
+  [701101] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 701102,
+  TypeNextState = {
+    InteractiveId = 70002,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 701101
+  },
+  [701102] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701103,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 701102
+  },
+  [701103] = {StateId = 701103},
+  [701130] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701131,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 701132,
+  TypeNextState = {
+    InteractiveId = 70003,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 701130
+  },
+  [701131] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 701132,
+  TypeNextState = {
+    InteractiveId = 70003,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 701131
+  },
+  [701132] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701133,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 701132
+  },
+  [701133] = {StateId = 701133},
+  [701300] = {
+    EventsCurrentState = {
+      {
+        ColorLogoMul = 1.5,
+        Function = "ChangeFX",
+        PositionMove = 0,
+        Tag = "Niagara"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701301,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 701300
+  },
+  [701301] = {
+    EventsCurrentState = {
+      {
+        ColorLogoMul = 10,
+        Function = "ChangeFX",
+        PositionMove = 1,
+        Tag = "Niagara"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701302,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 701300,
+        TypeNextState = {
+          DeActiveRange = 1000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 701301
+  },
+  [701302] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  EffectId = 212,
+  Function = "PlayFX",
+  Tag = "Start"
+},
+      {
+  Color = "6E57FFFF",
+  DeadTime = true,
+  Function = "ChangeFX",
+  Tag = "Niagara"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701303,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 701302
+  },
+  [701303] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Niagara"},
+      {Function = "StopFX", Tag = "Start"},
+      {
+  EffectId = 214,
+  Function = "PlayFX",
+  NotAttached = true,
+  Tag = "ok"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701304,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 701303
+  },
+  [701304] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Niagara"}
+    },
+    StateId = 701304
+  },
+  [701310] = {
+    EventsCurrentState = {
+      {
+        EffectId = 201,
+        Function = "PlayFX",
+        Tag = "Trap"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701311,
+        TypeNextState = {
+          ActiveRange = 300,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 701310
+  },
+  [701311] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Trap"},
+      {
+        EffectId = 202,
+        Function = "PlayFX",
+        NotAttached = true,
+        Tag = "Die"
+      },
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701312,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 701311
+  },
+  [701312] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateId = 701312
+  },
+  [701400] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  Function = "InteractiveEffect"
+}
+        },
+        NextStateId = 701401,
+        TypeNextState = {
+          ActiveRange = 220,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 701400
+  },
+  [701401] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 701402,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 701401
+  },
+  [701402] = {
+    EventsCurrentState = {
+      {
+  Function = "AfterInteractiveEffect"
+}
+    },
+    StateId = 701402
+  },
+  [702000] = {
+    EventsCurrentState = {
+      {
+        ColorLogoMul = 7,
+        Function = "ChangeFX",
+        PositionMove = 0,
+        Tag = "Niagara"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 702001,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 702000
+  },
+  [702001] = {
+    EventsCurrentState = {
+      {
+        ColorLogoMul = 20,
+        Function = "ChangeFX",
+        PositionMove = 1,
+        Tag = "Niagara"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 702002,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 702000,
+        TypeNextState = {
+          DeActiveRange = 1000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 702001
+  },
+  [702002] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  EffectId = 212,
+  Function = "PlayFX",
+  Tag = "Start"
+},
+      {
+  Color = "6E57FFFF",
+  DeadTime = true,
+  Function = "ChangeFX",
+  Tag = "Niagara"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 702003,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 702002
+  },
+  [702003] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Niagara"},
+      {Function = "StopFX", Tag = "Start"},
+      {
+  EffectId = 214,
+  Function = "PlayFX",
+  NotAttached = true,
+  Tag = "ok"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 702004,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 702003
+  },
+  [702004] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Niagara"}
+    },
+    StateId = 702004
+  },
+  [703010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 703011,
+        TypeNextState = {
+          InteractiveId = 103,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703010
+  },
+  [703011] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 703010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703011
+  },
+  [703012] = {StateId = 703012},
+  [703020] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703021,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703027,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703020
+  },
+  [703021] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703022,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703020,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703021
+  },
+  [703022] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703023,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703021,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703022
+  },
+  [703023] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703024,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703022,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703023
+  },
+  [703024] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703025,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703023,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703024
+  },
+  [703025] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703026,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703024,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703025
+  },
+  [703026] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703027,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703025,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703026
+  },
+  [703027] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 703020,
+        TypeNextState = {
+          InteractiveId = 109,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 703026,
+        TypeNextState = {
+          InteractiveId = 108,
+          Type = "Interactive"
+        }
+      },
+      [3] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703027
+  },
+  [703030] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 703031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703030
+  },
+  [703031] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 703012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 703031
+  },
+  [704000] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 704001,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 704000
+  },
+  [704001] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 704000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 704001
+  },
+  [704010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 704011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 704012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 704010
+  },
+  [704011] = {
+    EventsCurrentState = {
+      {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 704012,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 704010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 704011
+  },
+  [704012] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Lock"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Niagara"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 704011,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 704010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 704012
+  },
+  [704020] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Lock"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Niagara"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 704021,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 704020
+  },
+  [704021] = {
+    EventsCurrentState = {
+      {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 704022,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 704020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 704021
+  },
+  [704022] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Lock"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Niagara"
+}
+    },
+    StateEvent = {
+      [2] = {
+  NextStateId = 704020,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 704022
+  },
+  [704030] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704031,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704032,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 704033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 704034,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 704030
+  },
+  [704031] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704032,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 7040311,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 704031
+  },
+  [704032] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 7040321,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 704032
+  },
+  [704033] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704034,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 7040331,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 704033
+  },
+  [704034] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 7040341,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+  NextStateId = 704033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 704034
+  },
+  [705010] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Start"},
+      {Function = "StopFX", Tag = "Die"},
+      {Function = "StopFX", Tag = "End"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 705011,
+        TypeNextState = {
+          ActiveRange = 300,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 705010
+  },
+  [705011] = {
+    EventsCurrentState = {
+      {
+        EffectId = 217,
+        Function = "PlayFX",
+        Tag = "Start"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 705012,
+        TypeNextState = {
+          ActiveRange = 100,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+        NextStateId = 705010,
+        TypeNextState = {
+          DeActiveRange = 300,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 705011
+  },
+  [705012] = {
+    EventsCurrentState = {
+      {
+        DeadTime = true,
+        Function = "ChangeFX",
+        Tag = "Start"
+      },
+      {
+        EffectId = 219,
+        Function = "PlayFX",
+        Tag = "Die"
+      },
+      {
+        EffectId = 218,
+        Function = "PlayFX",
+        Tag = "End"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 705013,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
+      [2] = {
+        NextStateId = 705010,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      }
+    },
+    StateId = 705012
+  },
+  [705013] = {
+    EventsCurrentState = {
+      {
+        DeadTime = true,
+        Function = "ChangeFX",
+        Tag = "End"
+      },
+      {Function = "StopFX", Tag = "Start"},
+      {Function = "StopFX", Tag = "Die"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 705010,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 705013
+  },
+  [705030] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+        },
+        NextStateId = 705031,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 705032,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 705030
+  },
+  [705031] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 705033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 705031
+  },
+  [705032] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 705033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 705032
+  },
+  [705033] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 705033
+  },
+  [705040] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 701060,
+        TypeNextState = {
+          InteractiveId = 100017,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 705041,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 705040
+  },
+  [705041] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 701061,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 705041
+  },
+  [705050] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 705051,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 705050
+  },
+  [705051] = {
+    EventsCurrentState = {
+      {
+        Function = "PlayMontage",
+        Mesh = "SkeletalMesh",
+        MontagePath = "AnimMontage'/Game/Asset/Scene/common/InterProps/Animation/Com_Hay/Ani_Com_Hay02A_Shake_Montage.Ani_Com_Hay02A_Shake_Montage'"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 705052,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 705051
+  },
+  [705052] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 705050,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 705052
+  },
+  [705060] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 705061,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 705060
+  },
+  [705061] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 705062,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 705061
+  },
+  [705062] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 705060,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 705062
+  },
+  [705070] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 705071,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 705070
+  },
+  [705071] = {StateId = 705071},
+  [706000] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 706001,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      }
+    },
+    StateId = 706000
+  },
+  [706001] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 706000,
+        TypeNextState = {
+          Type = "LeaveTriggerBox"
+        }
+      }
+    },
+    StateId = 706001
+  },
+  [706010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 706011,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 706010
+  },
+  [706011] = {StateId = 706011},
+  [706020] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 706021,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      }
+    },
+    StateId = 706020
+  },
+  [706021] = {
+    EventsCurrentState = {
+      {
+        Function = "RemoveTag",
+        Tag = "TrafficwayPan1"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 706022,
+        TypeNextState = {
+          Type = "LeaveTriggerBox"
+        }
+      }
+    },
+    StateId = 706021
+  },
+  [706022] = {
+    EventsCurrentState = {
+      {
+        Function = "AddTag",
+        Tag = "TrafficwayPan1",
+        Time = 2
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 706020,
+        TypeNextState = {
+          Param = 0.1, Type = "Time"
+        }
+      }
+    },
+    StateId = 706022
+  },
+  [706030] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 706031,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      }
+    },
+    StateId = 706030
+  },
+  [706031] = {StateId = 706031},
+  [707030] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 707030
+  },
+  [707031] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707032,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 707031
+  },
+  [707032] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707033,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 707032
+  },
+  [707033] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707034,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 707033
+  },
+  [707034] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707035,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 707034
+  },
+  [707035] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707036,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 707035
+  },
+  [707036] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707037,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 707036
+  },
+  [707037] = {StateId = 707037},
+  [707040] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707041,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 707040
+  },
+  [707041] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707042,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 707041
+  },
+  [707042] = {StateId = 707042},
+  [707950] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707951,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 707950
+  },
+  [707951] = {StateId = 707951},
+  [707960] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707961,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 707960
+  },
+  [707961] = {StateId = 707961},
+  [707970] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 708001,
+  TypeNextState = {
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 707970
+  },
+  [707980] = {
+    EventsCurrentState = {
+      {
+        EffectId = 230,
+        Function = "PlayFX",
+        Tag = "fp"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+            EffectId = 232,
+            Function = "PlayFX",
+            Tag = "wind"
+          }
+        },
+        NextStateId = 707981,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 707980
+  },
+  [707981] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "fp"}
+    },
+    StateId = 707981
+  },
+  [707990] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 707991,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 707990
+  },
+  [707991] = {
+    EventsCurrentState = {
+      {
+  EffectId = 231,
+  Function = "PlayFX",
+  Tag = "inter"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 707992,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 707991
+  },
+  [707992] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Inter"}
+    },
+    StateId = 707992
+  },
+  [708000] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 708001,
+  TypeNextState = {
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 708000
+  },
+  [708001] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 708002,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 708001
+  },
+  [708002] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 708000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 708002
+  },
+  [708100] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 708101,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 708100
+  },
+  [708101] = {
+    EventsCurrentState = {
+      {
+  EffectId = 231,
+  Function = "PlayFX",
+  Tag = "inter"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 708102,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 708101
+  },
+  [708102] = {
+    EventsCurrentState = {
+      {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+},
+      {Function = "StopFX", Tag = "Inter"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 708103,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 708102
+  },
+  [708103] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {Function = "StopFX", Tag = "Lock"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Unlock"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 708104,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 708103
+  },
+  [708104] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+},
+      {Function = "StopFX", Tag = "Inter"}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 708105,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 708104
+  },
+  [708105] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {Function = "StopFX", Tag = "Lock"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Unlock"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 708106,
+        TypeNextState = {
+          InteractiveId = 70000,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 708105
+  },
+  [708106] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 708107,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 708106
+  },
+  [708107] = {StateId = 708107},
+  [780020] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780021,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 780020
+  },
+  [780021] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateId = 780021
+  },
+  [780030] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780030
+  },
+  [780031] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+        },
+        NextStateId = 780032,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 780031
+  },
+  [780032] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900021,
+  Function = "PlayFX",
+  Tag = "DGA"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "End"
+},
+          {Function = "StopFX", Tag = "DGA"}
+        },
+        NextStateId = 780033,
+        TypeNextState = {
+          Param = 4, Type = "Time"
+        }
+      }
+    },
+    StateId = 780032
+  },
+  [780033] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+}
+        },
+        NextStateId = 780034,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 780033
+  },
+  [780034] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900021,
+  Function = "PlayFX",
+  Tag = "DGA"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "End"
+},
+          {Function = "StopFX", Tag = "DGA"}
+        },
+        NextStateId = 780035,
+        TypeNextState = {
+          Param = 4, Type = "Time"
+        }
+      }
+    },
+    StateId = 780034
+  },
+  [780035] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Start"
+},
+          {
+  EffectId = 900020,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 780036,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 780035
+  },
+  [780036] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh_0",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 780036
+  },
+  [780040] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780041,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 780040
+  },
+  [780041] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780040,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 780042,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 780041
+  },
+  [780042] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 780042
+  },
+  [780050] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780051,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 780050
+  },
+  [780051] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 780051
+  },
+  [780060] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780061,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780060
+  },
+  [780061] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780060,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780061
+  },
+  [780080] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "DeActive"
+}
+        },
+        NextStateId = 780081,
+        TypeNextState = {
+          Param = 15, Type = "Time"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "DeActive"
+}
+        },
+        NextStateId = 780082,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780080
+  },
+  [780081] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  EventsNextState = {
+    {
+  CallBackName = "OnNotifyBegin",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "Rise"
+}
+  },
+  NextStateId = 780080,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 780081
+  },
+  [780082] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  EventsNextState = {
+    {
+  CallBackName = "OnNotifyBegin",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
+  SectionName = "Rise"
+}
+  },
+  NextStateId = 780080,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 780082
+  },
+  [780090] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/Dyn_Minigame_Tanceqi.Dyn_Minigame_Tanceqi'",
+  SectionName = "Idle"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780091,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780090
+  },
+  [780091] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/Dyn_Minigame_Tanceqi.Dyn_Minigame_Tanceqi'",
+  SectionName = "Idle"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780092,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 780090,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780091
+  },
+  [780092] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780091,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 780093,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 780092
+  },
+  [780093] = {
+    EventsCurrentState = {
+      {
+        Function = "PlayMontage",
+        Mesh = "Mesh",
+        MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/Dyn_Minigame_Tanceqi.Dyn_Minigame_Tanceqi'",
+        SectionName = "Loop"
+      }
+    },
+    StateId = 780093
+  },
+  [780100] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780101,
+        TypeNextState = {
+          Param = 15, Type = "Time"
+        }
+      },
+      [2] = {
+        NextStateId = 780102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780100
+  },
+  [780101] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 780100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 780101
+  },
+  [780102] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 780100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 780102
+  },
+  [780110] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Idle"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  CallBackName = "OnStart",
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Start"
+}
+        },
+        NextStateId = 780111,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780110
+  },
+  [780111] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  EffectId = 900024,
+  Function = "PlayFX",
+  Tag = "JHA"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780112,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 780110,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780111
+  },
+  [780112] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780111,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 780113,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 780112
+  },
+  [780113] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 780113
+  },
+  [780130] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780131,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780130
+  },
+  [780131] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780132,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 780130,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780131
+  },
+  [780132] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780131,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 780133,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 780132
+  },
+  [780133] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 780133
+  },
+  [780140] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780141,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780140
+  },
+  [780141] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+}
+    },
+    StateId = 780141
+  },
+  [780150] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780151,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780150
+  },
+  [780151] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780152,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780151
+  },
+  [780152] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "CloseMechanism"
+}
+    },
+    StateId = 780152
+  },
+  [780160] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  EffectId = 900035,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780161,
+        TypeNextState = {
+          InteractiveId = 111,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 780163,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780160
+  },
+  [780161] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 780162,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 780161
+  },
+  [780162] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  EffectId = 900036,
+  Function = "PlayFX",
+  Tag = "Unlock"
+},
+      {Function = "StopFX", Tag = "Lock"}
+    },
+    StateId = 780162
+  },
+  [780163] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 780162,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 780163
+  },
+  [780210] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780211,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 780210
+  },
+  [780211] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780210,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        EventsNextState = {
+          {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 780212,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 780211
+  },
+  [780212] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateId = 780212
+  },
+  [780230] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780231,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780230
+  },
+  [780231] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780230,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780231
+  },
+  [780240] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780241,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780240
+  },
+  [780241] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780240,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780241
+  },
+  [780250] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780251,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780250
+  },
+  [780251] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780250,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780251
+  },
+  [780340] = {
+    EventsCurrentState = {
+      {
+  EffectId = 208,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780341,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 780340
+  },
+  [780341] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Lock"},
+      {
+  EffectId = 209,
+  Function = "PlayFX",
+  Tag = "Niagara"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780342,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 780341
+  },
+  [780342] = {StateId = 780342},
+  [780420] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780421,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 780420
+  },
+  [780421] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780420,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 780421
+  },
+  [801130] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 801131,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 801132,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 801130
+  },
+  [801131] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 801130,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 801131
+  },
+  [801132] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 801130,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 801131,
+        TypeNextState = {
+          InteractiveId = 402,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 801132
+  },
+  [809010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 809011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 809010
+  },
+  [809011] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 809010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 809011
+  },
+  [810010] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 810011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 810012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 810013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 810010
+  },
+  [810011] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 810010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 810011
+  },
+  [810012] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 810010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 810012
+  },
+  [810013] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 810010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 810013
+  },
+  [900000] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "OpenUI"}
+        },
+        NextStateId = 900001,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 900000
+  },
+  [900001] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 900000,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 900001
+  },
+  [901000] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  Function = "ShowToast",
+  ToastText = "UI_TELEPORTPOINT_INTERACTIVE"
+},
+          {
+  Function = "InteractiveEffect"
+},
+          {
+            EffectId = 220,
+            Function = "PlayFX",
+            NeedFinish = false,
+            Tag = "Niagara1"
+          },
+          {
+            EffectId = 221,
+            Function = "PlayFX",
+            NeedFinish = false,
+            Tag = "Niagara2"
+          }
+        },
+        NextStateId = 901001,
+        TypeNextState = {
+          ActiveRange = 1500,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 901000
+  },
+  [901001] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 901002,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 901001
+  },
+  [901002] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+        EffectId = 222,
+        Function = "PlayFX",
+        Tag = "A"
+      },
+      {
+        EffectId = 223,
+        Function = "PlayFX",
+        Tag = "B"
+      },
+      {
+  Function = "AfterInteractiveEffect"
+}
+    },
+    StateId = 901002
+  },
+  [904312] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 90430,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 90430,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 904312
+  },
+  [904332] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 90432,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 90432,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 904332
+  },
+  [904352] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 90434,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 90434,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 904352
+  },
+  [904372] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 90436,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 90436,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 904372
+  },
+  [904392] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 90438,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 90438,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 904392
+  },
+  [1060400] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1060401,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1060402,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1060400
+  },
+  [1060401] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1060400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1060402,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1060401
+  },
+  [1060402] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1060400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1060401,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1060402
+  },
+  [1060800] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1060801,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1060802,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1060800
+  },
+  [1060801] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1060800,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1060802,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1060801
+  },
+  [1060802] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1060800,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1060801,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1060802
+  },
+  [1061000] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061001,
+        TypeNextState = {
+          ActiveRange = 1500,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 1061000
+  },
+  [1061001] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061002,
+        TypeNextState = {Param = 8, Type = "Time"}
+      }
+    },
+    StateId = 1061001
+  },
+  [1061002] = {StateId = 1061002},
+  [1061100] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 1061104,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 1061105,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061100
+  },
+  [1061101] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 1061104,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 1061105,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061101
+  },
+  [1061102] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 1061104,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 1061105,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061102
+  },
+  [1061103] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 1061104,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 1061105,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061103
+  },
+  [1061104] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 1061103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 1061105,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061104
+  },
+  [1061105] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061106,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061105
+  },
+  [1061106] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061100,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061106
+  },
+  [1061200] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061201,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061200
+  },
+  [1061201] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061202,
+        TypeNextState = {
+          InteractiveId = 918,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061201
+  },
+  [1061202] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061203,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061202
+  },
+  [1061203] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061204,
+        TypeNextState = {
+          InteractiveId = 919,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061203
+  },
+  [1061204] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061205,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061204
+  },
+  [1061205] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061206,
+        TypeNextState = {
+          InteractiveId = 920,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061205
+  },
+  [1061206] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061207,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061206
+  },
+  [1061207] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061201,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 1061203,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061207
+  },
+  [1061210] = {
+    EventsCurrentState = {
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateId = 1061210
+  },
+  [1061211] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061212,
+        TypeNextState = {
+          InteractiveId = 918,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061211
+  },
+  [1061212] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061210,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061212
+  },
+  [1061220] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061221,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061220
+  },
+  [1061221] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061210,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1061222,
+        TypeNextState = {
+          InteractiveId = 918,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061221
+  },
+  [1061222] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061223,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+        NextStateId = 1061220,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061222
+  },
+  [1061223] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061224,
+        TypeNextState = {
+          InteractiveId = 919,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061223
+  },
+  [1061224] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 1061224
+  },
+  [1061230] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061231,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061232,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061230
+  },
+  [1061231] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061232,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061230,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061231
+  },
+  [1061232] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061230,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061231,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061232
+  },
+  [1061240] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061241,
+        TypeNextState = {
+          InteractiveId = 922,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061240
+  },
+  [1061241] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061240,
+        TypeNextState = {
+          Type = "InteractBreak"
+        }
+      },
+      [2] = {
+        NextStateId = 1061242,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 1061241
+  },
+  [1061242] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061243,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061242
+  },
+  [1061243] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061244,
+        TypeNextState = {
+          InteractiveId = 923,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061243
+  },
+  [1061244] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061245,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061244
+  },
+  [1061245] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061246,
+        TypeNextState = {
+          InteractiveId = 924,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061245
+  },
+  [1061246] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061243,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061246
+  },
+  [1061250] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061251,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061250
+  },
+  [1061251] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061252,
+        TypeNextState = {
+          InteractiveId = 922,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061251
+  },
+  [1061252] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061253,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1061251,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061252
+  },
+  [1061253] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061254,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061253
+  },
+  [1061254] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061255,
+        TypeNextState = {
+          InteractiveId = 923,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061254
+  },
+  [1061255] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061256,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061255
+  },
+  [1061256] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061257,
+        TypeNextState = {
+          InteractiveId = 924,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061256
+  },
+  [1061257] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061254,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061257
+  },
+  [1061260] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061261,
+        TypeNextState = {
+          InteractiveId = 922,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061260
+  },
+  [1061261] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061262,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061261
+  },
+  [1061262] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061263,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061262
+  },
+  [1061263] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061264,
+        TypeNextState = {
+          InteractiveId = 923,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061263
+  },
+  [1061264] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061265,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061264
+  },
+  [1061265] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061266,
+        TypeNextState = {
+          InteractiveId = 924,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1061265
+  },
+  [1061266] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061263,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061266
+  },
+  [1061300] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061300
+  },
+  [1061301] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 10613011,
+        TypeNextState = {
+          DeActiveRange = 5000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 1061301
+  },
+  [1061302] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 10613021,
+        TypeNextState = {
+          DeActiveRange = 5000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 1061302
+  },
+  [1061310] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Light"}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061311,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061313,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061310
+  },
+  [1061311] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061310,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061312,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061313,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061311
+  },
+  [1061312] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061310,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061311,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061313,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061312
+  },
+  [1061313] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061310,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061311,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1061312,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061313
+  },
+  [1061400] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061401,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061400
+  },
+  [1061401] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1061402,
+        TypeNextState = {
+          ActiveRange = 10000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 1061401
+  },
+  [1061402] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1061401,
+        TypeNextState = {
+          DeActiveRange = 10000,
+          Type = "DistanceDeActive"
+        }
+      }
+    },
+    StateId = 1061402
+  },
+  [1061500] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061500
+  },
+  [1061501] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061501
+  },
+  [1061600] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061601,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061600
+  },
+  [1061601] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061602,
+        TypeNextState = {
+          ActiveRange = 1200,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 1061601
+  },
+  [1061602] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061601,
+  TypeNextState = {
+    DeActiveRange = 1600,
+    Type = "DistanceDeActive"
+  }
+},
+      [2] = {
+        NextStateId = 1061603,
+        TypeNextState = {
+          NeedCountDown = true,
+          Param = 6,
+          Type = "Time"
+        }
+      }
+    },
+    StateId = 1061602
+  },
+  [1061603] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061601,
+  TypeNextState = {
+    DeActiveRange = 1600,
+    Type = "DistanceDeActive"
+  }
+},
+      [2] = {
+        NextStateId = 1061602,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 1061603
+  },
+  [1061900] = {
+    EventsCurrentState = {
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061901,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061900
+  },
+  [1061901] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061902,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1061900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061901
+  },
+  [1061902] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061903,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1061900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061902
+  },
+  [1061903] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061904,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1061900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061903
+  },
+  [1061904] = {
+    EventsCurrentState = {
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061901,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1061900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1061904
+  },
+  [1062000] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1062001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1062002,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1062000
+  },
+  [1062001] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1062002,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1062001
+  },
+  [1062002] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1062000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1062002
+  },
+  [1062100] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1062101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1062100
+  },
+  [1062101] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1062102,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1062101
+  },
+  [1062102] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1062100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1062102
+  },
+  [1070100] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070101,
+        TypeNextState = {
+          DeActiveRange = 3000,
+          Type = "DistanceDeActive"
+        }
+      },
+      [2] = {
+  NextStateId = 1070102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1070100
+  },
+  [1070101] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070100,
+        TypeNextState = {
+          ActiveRange = 3000,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+  NextStateId = 1070102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1070101
+  },
+  [1070102] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1070101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1070102
+  },
+  [1070160] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070161,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1070160
+  },
+  [1070161] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1070160,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1070162,
+        TypeNextState = {
+          ActiveRange = 3000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 1070161
+  },
+  [1070162] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1070160,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1070161,
+        TypeNextState = {
+          DeActiveRange = 3000,
+          Type = "DistanceDeActive"
+        }
+      },
+      [3] = {
+        NextStateId = 1070163,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 1070162
+  },
+  [1070163] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1070160,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1070162,
+        TypeNextState = {
+          Param = 4, Type = "Time"
+        }
+      }
+    },
+    StateId = 1070163
+  },
+  [1070200] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1070200
+  },
+  [1070201] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070202,
+        TypeNextState = {
+          ActiveRange = 5000,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+  NextStateId = 1070200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1070201
+  },
+  [1070202] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070201,
+        TypeNextState = {
+          DeActiveRange = 5000,
+          Type = "DistanceDeActive"
+        }
+      },
+      [2] = {
+        NextStateId = 1070203,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      }
+    },
+    StateId = 1070202
+  },
+  [1070203] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070204,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1070200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1070203
+  },
+  [1070204] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070205,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1070200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1070204
+  },
+  [1070205] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1070202,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1070200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1070205
+  },
+  [1150300] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1150301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1150302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1150303,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1150300
+  },
+  [1150301] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1150300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1150302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1150303,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1150301
+  },
+  [1150302] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1150300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1150301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1150303,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1150302
+  },
+  [1150303] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1150300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1150301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 1150302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1150303
+  },
+  [1170100] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1170101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1170102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1170100
+  },
+  [1170101] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1170100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1170102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1170101
+  },
+  [1170102] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateId = 1170102
+  },
+  [1210021] = {StateId = 1210021},
+  [1210022] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210023,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      },
+      [2] = {
+  NextStateId = 1210021,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1210022
+  },
+  [1210023] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210022,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1210021,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1210023
+  },
+  [1210130] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210131,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1210130
+  },
+  [1210131] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210130,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210131
+  },
+  [1210140] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210141,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210140
+  },
+  [1210141] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210142,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1210140,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210141
+  },
+  [1210142] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateId = 1210142
+  },
+  [1210150] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210151,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210150
+  },
+  [1210151] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 4,
+  Function = "ChangeColor"
+}
+    },
+    StateId = 1210151
+  },
+  [1210170] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210171,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1210172,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210170
+  },
+  [1210171] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210170,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210171
+  },
+  [1210172] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateId = 1210172
+  },
+  [1210180] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210181,
+        TypeNextState = {
+          InteractiveId = 103,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 1210182,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1210180
+  },
+  [1210181] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210180,
+        TypeNextState = {
+          Param = 3, Type = "Time"
+        }
+      },
+      [2] = {
+  NextStateId = 1210182,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1210181
+  },
+  [1210182] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateId = 1210182
+  },
+  [1210183] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210184,
+        TypeNextState = {
+          InteractiveId = 103,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1210183
+  },
+  [1210184] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210185,
+        TypeNextState = {
+          Param = 5, Type = "Time"
+        }
+      }
+    },
+    StateId = 1210184
+  },
+  [1210185] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210186,
+        TypeNextState = {
+          InteractiveId = 103,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1210185
+  },
+  [1210186] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210183,
+        TypeNextState = {
+          Param = 5, Type = "Time"
+        }
+      }
+    },
+    StateId = 1210186
+  },
+  [1210200] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1210202,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210200
+  },
+  [1210201] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210201
+  },
+  [1210202] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210200,
+        TypeNextState = {
+          Param = 5, Type = "Time"
+        }
+      }
+    },
+    StateId = 1210202
+  },
+  [1210220] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210221,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210220
+  },
+  [1210221] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210222,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1210220,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1210221
+  },
+  [1210222] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1210220,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1210222
+  },
+  [1210230] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210231,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210230
+  },
+  [1210231] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210230,
+        TypeNextState = {
+          Param = 5, Type = "Time"
+        }
+      }
+    },
+    StateId = 1210231
+  },
+  [1210240] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210241,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210240
+  },
+  [1210241] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1210240,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1210242,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210241
+  },
+  [1210242] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1210240,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1210242
+  },
+  [1210250] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropUnInvincible"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210251,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210250
+  },
+  [1210251] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropInvincible"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210250,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210251
+  },
+  [1210252] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 1210252
+  },
+  [1310010] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310010
+  },
+  [1310011] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310011
+  },
+  [1310014] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310014
+  },
+  [1310015] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310015
+  },
+  [1310030] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310031,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310030
+  },
+  [1310031] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310031
+  },
+  [1310040] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310041,
+        TypeNextState = {
+          InteractiveId = 300,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1310040
+  },
+  [1310041] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310042,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310041
+  },
+  [1310042] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310042
+  },
+  [1310043] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310044,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310043
+  },
+  [1310044] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310043,
+        TypeNextState = {
+          InteractiveId = 300,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1310044
+  },
+  [1310045] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310040,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1310042,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310045
+  },
+  [1310070] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310071,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1310073,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310070
+  },
+  [1310071] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310070,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1310072,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+  NextStateId = 1310073,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310071
+  },
+  [1310072] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310070,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1310071,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310072
+  },
+  [1310073] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310071,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310073
+  },
+  [1310080] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310081,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310080
+  },
+  [1310081] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310082,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 1310081
+  },
+  [1310082] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310083,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310082
+  },
+  [1310083] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310084,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310085,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310083
+  },
+  [1310084] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310082,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 1310084
+  },
+  [1310085] = {StateId = 1310085},
+  [1310090] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310091,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310090
+  },
+  [1310091] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310092,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 1310091
+  },
+  [1310092] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310093,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1310094,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310092
+  },
+  [1310093] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310092,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 1310094,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 1310096,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [4] = {
+  NextStateId = 1310095,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310093
+  },
+  [1310094] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310095,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310094
+  },
+  [1310095] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310092,
+  TypeNextState = {
+    InteractiveId = 301,
+    Type = "Interactive"
+  }
+}
+    },
+    StateId = 1310095
+  },
+  [1310096] = {StateId = 1310096},
+  [1310150] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310151,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310150
+  },
+  [1310151] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310150,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310151
+  },
+  [1310170] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310172,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310170
+  },
+  [1310171] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310170,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310171
+  },
+  [1310172] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310173,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310171,
+        TypeNextState = {
+          Param = 6, Type = "Time"
+        }
+      },
+      [3] = {
+  NextStateId = 1310170,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310172
+  },
+  [1310173] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 1310170,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 1310173
+  },
+  [1310180] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310181,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310180
+  },
+  [1310181] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310182,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310181
+  },
+  [1310182] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310183,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310182
+  },
+  [1310183] = {StateId = 1310183},
+  [1310190] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310191,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310190
+  },
+  [1310191] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateId = 1310191
+  },
+  [1310200] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310201,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310200
+  },
+  [1310201] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310200,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      },
+      [2] = {
+        NextStateId = 1310202,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310201
+  },
+  [1310202] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310202
+  },
+  [1310211] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 1310212,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310211
+  },
+  [1310212] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 1310213,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310212
+  },
+  [1310213] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 1310214,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310213
+  },
+  [1310214] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 1310211,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310214
+  },
+  [1310230] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 1310231,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310230
+  },
+  [1310231] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 1310230,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310231
+  },
+  [1310250] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310251,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310250
+  },
+  [1310251] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 1310251
+  },
+  [1310260] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310261,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310260
+  },
+  [1310261] = {StateId = 1310261},
+  [1310290] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310291,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310290
+  },
+  [1310291] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 1310291
+  },
+  [1310310] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310311,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310310
+  },
+  [1310311] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310310,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310311
+  },
+  [1310320] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310321,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310320
+  },
+  [1310321] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310320,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310321
+  },
+  [1310330] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310331,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310330
+  },
+  [1310331] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310330,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310331
+  },
+  [1310340] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310341,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310340
+  },
+  [1310341] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310340,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310341
+  },
+  [1310350] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310351,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310350
+  },
+  [1310351] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310350,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310351
+  },
+  [1310360] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310361,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310360
+  },
+  [1310361] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310360,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310361
+  },
+  [1310370] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310371,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310370
+  },
+  [1310371] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310370,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310371
+  },
+  [1310380] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310381,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310380
+  },
+  [1310381] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310380,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310381
+  },
+  [1310390] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310391,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310390
+  },
+  [1310391] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310390,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310391
+  },
+  [1310450] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310451,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310450
+  },
+  [1310451] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310450,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310451
+  },
+  [1310460] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310461,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310460
+  },
+  [1310461] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310460,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310461
+  },
+  [1310470] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310471,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310470
+  },
+  [1310471] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310470,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310471
+  },
+  [1310480] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310481,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310480
+  },
+  [1310481] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310480,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310481
+  },
+  [1310490] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310491,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310490
+  },
+  [1310491] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310490,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310491
+  },
+  [1310500] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310500
+  },
+  [1310501] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310501
+  },
+  [1310510] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310511,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310510
+  },
+  [1310511] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310510,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310511
+  },
+  [1500110] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1500111,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1500110
+  },
+  [1500111] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1500110,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1500112,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1500111
+  },
+  [1500112] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1500110,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 1500113,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1500112
+  },
+  [1500113] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1500110,
+        TypeNextState = {
+          Param = 2, Type = "Time"
+        }
+      }
+    },
+    StateId = 1500113
+  },
+  [1610011] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1610012,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      },
+      [2] = {
+        NextStateId = 1610012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1610011
+  },
+  [1610012] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1610011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1610012
+  },
+  [3900111] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ActiveGuide"
+},
+      {
+        Function = "PlayMontage",
+        Mesh = "Mesh",
+        MontagePath = "AnimMontage'/Game/Asset/Scene/EN002_Haiboliya/Common/Prop/Animation/Shouwei_Maer_Montage.Shouwei_Maer_Montage'",
+        SectionName = "Start"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900112,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900111
+  },
+  [3900112] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900111,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900112
+  },
+  [3900113] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900111,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 3900113
+  },
+  [3900121] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900122,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900121
+  },
+  [3900122] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900121,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900122
+  },
+  [3900123] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900121,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 3900123
+  },
+  [3900130] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "DeactiveGuide"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900131,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900130
+  },
+  [3900131] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ActiveGuide"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3900130,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3900132,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900131
+  },
+  [3900132] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3900130,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3900133,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900132
+  },
+  [3900133] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3900130,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3900133
+  },
+  [3900141] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  EffectId = 900035,
+  Function = "PlayFX",
+  Tag = "Lock"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900142,
+        TypeNextState = {
+          InteractiveId = 111,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 3900141
+  },
+  [3900142] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900143,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900142
+  },
+  [3900143] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  EffectId = 900036,
+  Function = "PlayFX",
+  Tag = "Unlock"
+},
+      {Function = "StopFX", Tag = "Lock"}
+    },
+    StateId = 3900143
+  },
+  [3900151] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateId = 3900151
+  },
+  [3900152] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900151,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900152
+  },
+  [3900180] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900181,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900180
+  },
+  [3900181] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900182,
+        TypeNextState = {Param = 60, Type = "Time"}
+      },
+      [2] = {
+  NextStateId = 3900180,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3900181
+  },
+  [3900182] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [2] = {
+  NextStateId = 3900180,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3900182
+  },
+  [3900183] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [2] = {
+  NextStateId = 3900180,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3900183
+  },
+  [3900200] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900131,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 3900200
+  },
+  [3900700] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900701,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900700
+  },
+  [3900701] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3900700,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3900701
+  },
+  [3901500] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3901502,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901500
+  },
+  [3901501] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3901502,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901501
+  },
+  [3901502] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3901501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901502
+  },
+  [3901510] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901511,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901510
+  },
+  [3901511] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901510,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3901512,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3901511
+  },
+  [3901512] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901510,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3901511,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901512
+  },
+  [3901600] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = false
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3901601,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 3901603,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 3901605,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3901600
+  },
+  [3901601] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3901602,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 3901601
+  },
+  [3901602] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = true
+},
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901602
+  },
+  [3901603] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3901604,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 3901603
+  },
+  [3901604] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = true
+},
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3901603,
+        TypeNextState = {
+          NeedCountDown = true,
+          Param = 45,
+          Type = "Time"
+        }
+      }
+    },
+    StateId = 3901604
+  },
+  [3901605] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901600,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3901606,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 3901605
+  },
+  [3901606] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+},
+      {
+  Function = "ChangeTrapSkillOpen",
+  Open = true
+},
+      {
+  ColorId = 3,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3901600,
+        TypeNextState = {
+          NeedCountDown = true,
+          Param = 45,
+          Type = "Time"
+        }
+      }
+    },
+    StateId = 3901606
+  },
+  [3901700] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3901701,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3901702,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901700
+  },
+  [3901701] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901702,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3901700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901701
+  },
+  [3901702] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901702
+  },
+  [3901800] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3901801,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 3901802,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 3901800
+  },
+  [3901801] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901803,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901801
+  },
+  [3901802] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3901803,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3901802
+  },
+  [3901803] = {StateId = 3901803},
+  [3902000] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropInvincible"
+},
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902000
+  },
+  [3902001] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropUnInvincible"
+},
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902002,
+        TypeNextState = {
+          ActiveRange = 2000,
+          Type = "DistanceActive"
+        }
+      },
+      [2] = {
+  NextStateId = 3902000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902001
+  },
+  [3902002] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropUnInvincible"
+},
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902001,
+        TypeNextState = {
+          DeActiveRange = 2000,
+          Type = "DistanceDeActive"
+        }
+      },
+      [2] = {
+  NextStateId = 3902000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902002
+  },
+  [3902100] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902100
+  },
+  [3902101] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902101
+  },
+  [3902300] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902300
+  },
+  [3902301] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902301
+  },
+  [3902302] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902302
+  },
+  [3902400] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902401,
+        TypeNextState = {
+          Param = 15, Type = "Time"
+        }
+      },
+      [2] = {
+        NextStateId = 3902402,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902400
+  },
+  [3902401] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902401
+  },
+  [3902402] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902400,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902402
+  },
+  [3902500] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902502,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902500
+  },
+  [3902501] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902502,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902501
+  },
+  [3902502] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902501,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902500,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902502
+  },
+  [3902700] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902701,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902702,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3902703,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+        NextStateId = 3902708,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902700
+  },
+  [3902701] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902702,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3902703,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 3902704,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 3902705,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [6] = {
+  NextStateId = 3902706,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902701
+  },
+  [3902702] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902701,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3902703,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 3902704,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 3902705,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [6] = {
+  NextStateId = 3902706,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902702
+  },
+  [3902703] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902701,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902702,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3902700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 3902704,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 3902705,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [6] = {
+  NextStateId = 3902706,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902703
+  },
+  [3902704] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902707,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902704
+  },
+  [3902705] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902707,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902705
+  },
+  [3902706] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902707,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902706
+  },
+  [3902707] = {StateId = 3902707},
+  [3902708] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902700,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902708
+  },
+  [3902710] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902711,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 3902712,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 3902713,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902710
+  },
+  [3902711] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902710,
+  TypeNextState = {
+    Param = 10, Type = "Time"
+  }
+},
+      [2] = {
+        NextStateId = 3902714,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902711
+  },
+  [3902712] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902710,
+  TypeNextState = {
+    Param = 10, Type = "Time"
+  }
+},
+      [2] = {
+        NextStateId = 3902715,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902712
+  },
+  [3902713] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902710,
+  TypeNextState = {
+    Param = 10, Type = "Time"
+  }
+},
+      [2] = {
+        NextStateId = 3902716,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902713
+  },
+  [3902714] = {StateId = 3902714},
+  [3902715] = {StateId = 3902715},
+  [3902716] = {StateId = 3902716},
+  [3902720] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902721,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 3902722,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 3902723,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [4] = {
+        NextStateId = 3902724,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [5] = {
+        NextStateId = 3902725,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [6] = {
+        NextStateId = 3902726,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902720
+  },
+  [3902721] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902727,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902721
+  },
+  [3902722] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902727,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902722
+  },
+  [3902723] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902727,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902723
+  },
+  [3902724] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902720,
+  TypeNextState = {
+    Param = 1, Type = "Time"
+  }
+}
+    },
+    StateId = 3902724
+  },
+  [3902725] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902720,
+  TypeNextState = {
+    Param = 1, Type = "Time"
+  }
+}
+    },
+    StateId = 3902725
+  },
+  [3902726] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902720,
+  TypeNextState = {
+    Param = 1, Type = "Time"
+  }
+}
+    },
+    StateId = 3902726
+  },
+  [3902727] = {StateId = 3902727},
+  [3902750] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902751,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 3902752,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 3902753,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902750
+  },
+  [3902751] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902750,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3902754,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902751
+  },
+  [3902752] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902750,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3902755,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902752
+  },
+  [3902753] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902750,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 3902756,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902753
+  },
+  [3902754] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902757,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902754
+  },
+  [3902755] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902757,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902755
+  },
+  [3902756] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902757,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902756
+  },
+  [3902757] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902758,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902757
+  },
+  [3902758] = {StateId = 3902758},
+  [3902790] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902791,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 3902794,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 3902797,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902790
+  },
+  [3902791] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902792,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902790,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902791
+  },
+  [3902792] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902793,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902792
+  },
+  [3902793] = {StateId = 3902793},
+  [3902794] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902795,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3902790,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3902792,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902794
+  },
+  [3902795] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902796,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902795
+  },
+  [3902796] = {StateId = 3902796},
+  [3902797] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902798,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3902790,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3902792,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902797
+  },
+  [3902798] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902799,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902798
+  },
+  [3902799] = {StateId = 3902799},
+  [3902800] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902801,
+        TypeNextState = {
+          ActiveRange = 300,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 3902800
+  },
+  [3902801] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902802,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 3902801
+  },
+  [3902802] = {StateId = 3902802},
+  [3902803] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902800,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3902803
+  },
+  [3902900] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902901,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902902,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 3902903,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 3902900
+  },
+  [3902901] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902902,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902901
+  },
+  [3902902] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3902901,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3902900,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3902902
+  },
+  [3902903] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 3902900,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      }
+    },
+    StateId = 3902903
+  },
+  [3903000] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903001,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 3903000
+  },
+  [3903001] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903002,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 3903001
+  },
+  [3903002] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903002
+  },
+  [3903003] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903000,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903003
+  },
+  [3903100] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3903102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903100
+  },
+  [3903101] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903103,
+        TypeNextState = {
+          ActiveRange = 500,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 3903101
+  },
+  [3903102] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903103,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 3903102
+  },
+  [3903103] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903104,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 3903103
+  },
+  [3903104] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903101,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3903102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903104
+  },
+  [3903200] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903201,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3903202,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3903203,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+        NextStateId = 3903208,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [5] = {
+  NextStateId = 3903206,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [6] = {
+  NextStateId = 3903204,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903200
+  },
+  [3903201] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3903202,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3903203,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 3903204,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 3903205,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [6] = {
+  NextStateId = 3903206,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903201
+  },
+  [3903202] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903201,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3903200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3903203,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 3903204,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 3903205,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [6] = {
+  NextStateId = 3903206,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903202
+  },
+  [3903203] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903201,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 3903202,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3903200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 3903204,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [5] = {
+  NextStateId = 3903205,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [6] = {
+  NextStateId = 3903206,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903203
+  },
+  [3903204] = {StateId = 3903204},
+  [3903205] = {StateId = 3903205},
+  [3903206] = {StateId = 3903206},
+  [3903208] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903200,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903208
+  },
+  [3903600] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903601,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3903603,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 3903604,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903600
+  },
+  [3903601] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903602,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3903603,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903601
+  },
+  [3903602] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903603,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903602
+  },
+  [3903603] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3903604,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903603
+  },
+  [3903604] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903605,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3903604
+  },
+  [3903605] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3903600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3903603,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3903605
+  },
+  [3904200] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904200
+  },
+  [3904201] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904202,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904201
+  },
+  [3904202] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904203,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904202
+  },
+  [3904203] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904204,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904203
+  },
+  [3904204] = {StateId = 3904204},
+  [3904300] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904300
+  },
+  [3904301] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904301
+  },
+  [3904302] = {StateId = 3904302},
+  [3904400] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 3904401,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3904400
+  },
+  [3904401] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904402,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904401
+  },
+  [3904402] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904403,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904402
+  },
+  [3904403] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904404,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
+    },
+    StateId = 3904403
+  },
+  [3904404] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904405,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904404
+  },
+  [3904405] = {
+    StateEvent = {
+      [1] = {NextStateId = 3904406}
+    },
+    StateId = 3904405
+  },
+  [3904500] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904500
+  },
+  [3904501] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904502,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 3904501
+  },
+  [3904502] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  NextStateId = 3904401,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 3904502
+  },
+  [3904601] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904602,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904601
+  },
+  [3904602] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 3904601,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 3904602
+  },
+  [4900101] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4900103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 4900102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900101
+  },
+  [4900102] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 4900103,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900102
+  },
+  [4900103] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 4900102,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900103
+  },
+  [4900104] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropDeActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 4900101,
+        TypeNextState = {
+          ActiveRange = 1000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 4900104
+  },
+  [4900710] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900024,
+  Function = "PlayFX",
+  Tag = "JHA"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 4900711,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 4900712,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900710
+  },
+  [4900711] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4900710,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 4900712,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900711
+  },
+  [4900712] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4900710,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900712
+  },
+  [4900730] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900021,
+  Function = "PlayFX",
+  Tag = "DGA"
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  EffectId = 900020,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara"
+}
+        },
+        NextStateId = 4900731,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 4900732,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900730
+  },
+  [4900731] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/DG_MiniGame_Montage.DG_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  EffectId = 900022,
+  Function = "PlayFX",
+  Tag = "DGB"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4900730,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 4900732,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900731
+  },
+  [4900732] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+},
+      {Function = "StopFX", Tag = "DGA"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4900730,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900732
+  },
+  [4900750] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+            EffectId = 900023,
+            Function = "PlayFX",
+            NeedFinish = false,
+            Tag = "Niagara1"
+          }
+        },
+        NextStateId = 4900751,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+  EventsNextState = {
+    {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+  },
+  NextStateId = 4900752,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4900750
+  },
+  [4900751] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900024,
+  Function = "PlayFX",
+  Tag = "JHA"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  EventsNextState = {
+    {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+  },
+  NextStateId = 4900752,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        EventsNextState = {
+          {
+            EffectId = 900023,
+            Function = "PlayFX",
+            NeedFinish = false,
+            Tag = "Niagara2"
+          }
+        },
+        NextStateId = 4900750,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 4900751
+  },
+  [4900752] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateId = 4900752
+  },
+  [4900761] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+        },
+        NextStateId = 4900762,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 4900761
+  },
+  [4900762] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+        },
+        NextStateId = 4900763,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 4900762
+  },
+  [4900763] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+        },
+        NextStateId = 4900764,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 4900763
+  },
+  [4900764] = {
+    EventsCurrentState = {
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {Function = "StopFX", Tag = "DGB"},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+}
+        },
+        NextStateId = 4900761,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 4900764
+  },
+  [4900801] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 4900802,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 4900801
+  },
+  [4900802] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 4900801,
+        TypeNextState = {
+          Type = "InteractDone"
+        }
+      }
+    },
+    StateId = 4900802
+  },
+  [4920010] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = false
+},
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "CombatPropActive"
+},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4920011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+        NextStateId = 4920013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 4920010
+  },
+  [4920011] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = true
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4920010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 4920012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 4920014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [4] = {
+  NextStateId = 4920015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4920011
+  },
+  [4920012] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = false
+},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "ActiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 4920010,
+        TypeNextState = {
+          InteractiveId = 912,
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+  NextStateId = 4920011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4920012
+  },
+  [4920013] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "ForceStop",
+  Value = true
+},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4920012,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 4920010,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4920013
+  },
+  [4920014] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4920011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 4920015,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4920014
+  },
+  [4920015] = {
+    EventsCurrentState = {
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 4920011,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 4920014,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 4920015
+  },
+  [6100171] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {Function = "StopFX", Tag = "Bling"}
+    },
+    StateId = 6100171
+  },
+  [7040311] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704032,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 7040311
+  },
+  [7040321] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 704031,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 7040321
+  },
+  [7040331] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704034,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+  NextStateId = 704032,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 7040331
+  },
+  [7040341] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 704030,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 704033,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 7040341
+  },
+  [9020001] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "OpenUI"}
+        },
+        NextStateId = 9020002,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 9020001
+  },
+  [9020002] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 9020001,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 9020002
+  },
+  [9020003] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020003
+  },
+  [9020004] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020004
+  },
+  [9020005] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020005
+  },
+  [9020006] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020006
+  },
+  [9020007] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020007
+  },
+  [9020008] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020008
+  },
+  [9020009] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020009
+  },
+  [9020010] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 9020001,
+  TypeNextState = {
+    ConditionID = 20021501, Type = "Condition"
+  }
+}
+    },
+    StateId = 9020010
+  },
+  [10613011] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061302,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 1061301,
+        TypeNextState = {
+          ActiveRange = 4000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 10613011
+  },
+  [10613021] = {
+    StateEvent = {
+      [1] = {
+  NextStateId = 1061300,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 1061301,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [3] = {
+        NextStateId = 1061302,
+        TypeNextState = {
+          ActiveRange = 4000,
+          Type = "DistanceActive"
+        }
+      }
+    },
+    StateId = 10613021
+  },
+  [11301170] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301171,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301170
+  },
+  [11301171] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301170,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301171
+  },
+  [11301180] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301181,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 11301180
+  },
+  [11301181] = {StateId = 11301181},
+  [11301190] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301191,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 11301190
+  },
+  [11301191] = {StateId = 11301191},
+  [11301200] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301201,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
+      [2] = {
+        NextStateId = 11301202,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301200
+  },
+  [11301201] = {StateId = 11301201},
+  [11301202] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301202
+  },
+  [11301210] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301211,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 11301210
+  },
+  [11301211] = {StateId = 11301211},
+  [11301220] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301221,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301220
+  },
+  [11301221] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301222,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301221
+  },
+  [11301222] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301223,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301222
+  },
+  [11301223] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301224,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301223
+  },
+  [11301224] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301225,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301224
+  },
+  [11301225] = {StateId = 11301225},
+  [11301230] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "GearR1"},
+      {Function = "StopFX", Tag = "GearR2"},
+      {Function = "StopFX", Tag = "GearR3"},
+      {Function = "StopFX", Tag = "GearR4"},
+      {Function = "StopFX", Tag = "GearS"}
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 11301231,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 11301232,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 11301230
+  },
+  [11301231] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "GearR1"},
+      {Function = "StopFX", Tag = "GearR2"},
+      {Function = "StopFX", Tag = "GearR3"},
+      {Function = "StopFX", Tag = "GearR4"},
+      {
+        EffectId = 900071,
+        Function = "PlayFX",
+        Tag = "GearS"
+      }
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 11301230,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 11301232,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 11301231
+  },
+  [11301232] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "GearS"},
+      {
+        EffectId = 900067,
+        Function = "PlayFX",
+        Tag = "GearR1"
+      },
+      {
+        EffectId = 900068,
+        Function = "PlayFX",
+        Tag = "GearR2"
+      },
+      {
+        EffectId = 900069,
+        Function = "PlayFX",
+        Tag = "GearR3"
+      },
+      {
+        EffectId = 900070,
+        Function = "PlayFX",
+        Tag = "GearR4"
+      }
+    },
+    StateEvent = {
+      [1] = {
+  NextStateId = 11301230,
+  TypeNextState = {
+    Type = "Manual"
+  }
+},
+      [2] = {
+  NextStateId = 11301231,
+  TypeNextState = {
+    Type = "Manual"
+  }
+}
+    },
+    StateId = 11301232
+  },
+  [11301250] = {
+    EventsCurrentState = {
+      {
+        EffectId = 900065,
+        Function = "PlayFX",
+        Tag = "Boss"
+      }
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301251,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301250
+  },
+  [11301260] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301261,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301260
+  },
+  [11301261] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301260,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301261
+  },
+  [11301270] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301271,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 11301270
+  },
+  [11301271] = {StateId = 11301271},
+  [11301280] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301281,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 11301280
+  },
+  [11301281] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 11301280,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 11301281
+  }
+})

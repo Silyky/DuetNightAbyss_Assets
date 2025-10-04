@@ -1,0 +1,14 @@
+__pycache__/
+.cursor/
+Script/
+Parsed_Json/
+Parsed_Lua/
+Parsed_Lua_Fix/
+Lua/BluePrints/
+Lua/EMCache/
+Lua/NetworkEngine/
+Lua/Test/
+Lua/Utils/
+Lua/StoryCreator/StoryLogic/
+Lua/Datas/DesignLevel_data/
+Lua/*.lua

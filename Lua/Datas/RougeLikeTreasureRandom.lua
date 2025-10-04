@@ -1,0 +1,438 @@
+local T = {}
+T.RT_1 = {
+  2,
+  3,
+  10304,
+  10305,
+  10310
+}
+T.RT_2 = {1}
+T.RT_3 = {
+  2,
+  10304,
+  10305,
+  10310
+}
+T.RT_4 = {2}
+T.RT_5 = {3}
+T.RT_6 = {1, 2}
+T.RT_7 = {2, 3}
+T.RT_8 = {
+  1,
+  2,
+  3
+}
+T.RT_9 = {
+  2,
+  3,
+  4,
+  10211,
+  102,
+  10108,
+  10304,
+  10305,
+  10310
+}
+local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
+  return x
+end
+return ReadOnly("RougeLikeTreasureRandom", {
+  [-1] = {TreasureRandom = -1},
+  [1] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 1,
+    TreasureRarity = {
+      1
+    }
+  },
+  [2] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 2,
+    TreasureRarity = {
+      2
+    }
+  },
+  [3] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 3,
+    TreasureRarity = {
+      3
+    }
+  },
+  [4] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 4,
+    TreasureRarity = {
+      1, 2
+    }
+  },
+  [5] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 5,
+    TreasureRarity = {
+      2, 3
+    }
+  },
+  [6] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 6,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [7] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 7,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [8] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 8,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [9] = {
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 9,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [10] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 10,
+    TreasureRarity = {
+      1
+    }
+  },
+  [11] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 11,
+    TreasureRarity = {
+      2
+    }
+  },
+  [12] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 12,
+    TreasureRarity = {
+      3
+    }
+  },
+  [13] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 13,
+    TreasureRarity = {
+      1, 2
+    }
+  },
+  [14] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 14,
+    TreasureRarity = {
+      2, 3
+    }
+  },
+  [15] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 15,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [16] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 16,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [17] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 17,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [18] = {
+    ExcludeGroup = {
+      2,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 2,
+    TreasureRandom = 18,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [19] = {
+    Designated = 10308,
+    ExcludeGroup = {
+      2,
+      3,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 3,
+    TreasureRandom = 19,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [20] = {
+    LimitGroup = {
+      2,
+      4,
+      10108,
+      10308,
+      10309,
+      101,
+      103,
+      104
+    },
+    RandomType = 2,
+    TreasureRandom = 20,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [21] = {
+    ExcludeGroup = {
+      2,
+      3,
+      4,
+      10211,
+      102,
+      10108,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 21,
+    TreasureRarity = {
+      1, 2
+    }
+  },
+  [22] = {
+    ExcludeGroup = {
+      2,
+      3,
+      4,
+      10211,
+      102,
+      10108,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 22,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [23] = {
+    ExcludeGroup = {
+      2,
+      3,
+      4,
+      10211,
+      102,
+      10108,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 23,
+    TreasureRarity = {
+      2, 3
+    }
+  },
+  [24] = {
+    ExcludeGroup = {
+      2,
+      3,
+      4,
+      10211,
+      102,
+      10108,
+      10304,
+      10305,
+      10310
+    },
+    RandomType = 1,
+    TreasureRandom = 24,
+    TreasureRarity = {
+      3
+    }
+  },
+  [25] = {
+    LimitGroup = {10108},
+    RandomType = 1,
+    TreasureRandom = 25,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [26] = {
+    LimitGroup = {103},
+    RandomType = 1,
+    TreasureRandom = 26,
+    TreasureRarity = {
+      1,
+      2,
+      3
+    }
+  },
+  [27] = {
+    LimitGroup = {10310},
+    RandomType = 2,
+    TreasureRandom = 27,
+    TreasureRarity = {
+      3
+    }
+  }
+})

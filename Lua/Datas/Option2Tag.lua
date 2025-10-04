@@ -1,0 +1,158 @@
+local T = {}
+T.RT_1 = {
+  [1] = "SystemLanguage",
+  [2] = "SystemVoice",
+  [3] = "VoiceResource"
+}
+local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
+  return x
+end
+return ReadOnly("Option2Tag", {
+  ControlMobile = {
+    [1] = "HorizontalSensitivity",
+    [2] = "VerticalSensitivity",
+    [3] = "HorizontalSensitivityOnShooting",
+    [4] = "VerticalSensitivityOnShooting",
+    [5] = "GamePadHorizontalSensitivity",
+    [6] = "GamePadVerticalSensitivity",
+    [7] = "GamePadHorizontalSensitivityOnShooting",
+    [8] = "GamePadVerticalSensitivityOnShooting",
+    [9] = "SpringArmRate",
+    [10] = "CameraYawFollow",
+    [11] = "SkillFaceTo",
+    [12] = "AimAssist",
+    [13] = "UpdateOpenLockAim",
+    [14] = "FallAttackDirection",
+    [15] = "EnableMobileRotation",
+    [16] = "LongPressLockShooting",
+    [17] = "DamageTextAmount",
+    [18] = "DamageTextScale",
+    [19] = "HideBackWeapons",
+    [20] = "ShowMonsterName",
+    [21] = "ShowBuffEnemy",
+    [22] = "ShowBuffFriend",
+    [23] = "ForceFeedback"
+  },
+  ControlPC = {
+    [1] = "HorizontalSensitivity",
+    [2] = "VerticalSensitivity",
+    [3] = "HorizontalSensitivityOnShooting",
+    [4] = "VerticalSensitivityOnShooting",
+    [5] = "GamePadHorizontalSensitivity",
+    [6] = "GamePadVerticalSensitivity",
+    [7] = "GamePadHorizontalSensitivityOnShooting",
+    [8] = "GamePadVerticalSensitivityOnShooting",
+    [9] = "SpringArmRate",
+    [10] = "CameraYawFollow",
+    [11] = "SkillFaceTo",
+    [12] = "AimAssist",
+    [13] = "UpdateOpenLockAim",
+    [14] = "FallAttackDirection",
+    [15] = "DamageTextAmount",
+    [16] = "DamageTextScale",
+    [17] = "HideBackWeapons",
+    [18] = "ShowMonsterName",
+    [19] = "ShowBuffEnemy",
+    [20] = "ShowBuffFriend",
+    [21] = "ForceFeedback"
+  },
+  LanguageMobile = {
+    [1] = "SystemLanguage",
+    [2] = "SystemVoice",
+    [3] = "VoiceResource"
+  },
+  LanguagePC = {
+    [1] = "SystemLanguage",
+    [2] = "SystemVoice",
+    [3] = "VoiceResource"
+  },
+  OtherMobile = {
+    [1] = "AutoJoin",
+    [2] = "HidePlayer",
+    [3] = "ReleaseStuck",
+    [4] = "CustomerService",
+    [5] = "ExchangeCode",
+    [6] = "TermsOfService",
+    [7] = "PrivacyPolicy",
+    [8] = "ChildPrivacy",
+    [9] = "ThirdPartySDK",
+    [10] = "UserPolicy",
+    [11] = "LogOffAccount",
+    [12] = "UserCentre"
+  },
+  OtherPC = {
+    [1] = "ImmersionModel",
+    [2] = "AutoJoin",
+    [3] = "HidePlayer",
+    [4] = "ReleaseStuck",
+    [5] = "CustomerService",
+    [6] = "ExchangeCode",
+    [7] = "TermsOfService",
+    [8] = "PrivacyPolicy",
+    [9] = "ChildPrivacy",
+    [10] = "ThirdPartySDK",
+    [11] = "UserPolicy",
+    [12] = "LogOffAccount",
+    [13] = "UserCentre"
+  },
+  ViewMobile = {
+    [1] = "OverallPreset",
+    [2] = "ScreenFilter",
+    [3] = "Fps",
+    [4] = "ShadowQuality",
+    [5] = "EffectQuality",
+    [6] = "HUDSize",
+    [7] = "VerticalSync",
+    [8] = "TeammateEffects",
+    [9] = "ContentPerformance",
+    [10] = "AntiAliasing",
+    [11] = "MaterialQuality",
+    [12] = "MaterialFilter",
+    [13] = "DynamicReflection",
+    [14] = "RefractiveQuality",
+    [15] = "AmbientOcclusion",
+    [16] = "VolumetricLight",
+    [17] = "DepthEffect",
+    [18] = "PostEffect",
+    [19] = "ScreenQuality"
+  },
+  ViewPC = {
+    [1] = "OverallPreset",
+    [2] = "ScreenFilter",
+    [3] = "InterfaceMode",
+    [4] = "DLSS",
+    [5] = "FSR",
+    [6] = "Fps",
+    [7] = "ShadowQuality",
+    [8] = "EffectQuality",
+    [9] = "HUDSize",
+    [10] = "VerticalSync",
+    [11] = "TeammateEffects",
+    [12] = "ContentPerformance",
+    [13] = "AntiAliasing",
+    [14] = "MaterialQuality",
+    [15] = "MaterialFilter",
+    [16] = "DynamicReflection",
+    [17] = "RefractiveQuality",
+    [18] = "AmbientOcclusion",
+    [19] = "VolumetricLight",
+    [20] = "LocalWindDetail",
+    [21] = "DepthEffect",
+    [22] = "DepthQuality",
+    [23] = "PostEffect",
+    [24] = "ScreenQuality"
+  },
+  VoiceMobile = {
+    [1] = "TotalVolume",
+    [2] = "MusicVolume",
+    [3] = "VoiceVolume",
+    [4] = "SoundVolume"
+  },
+  VoicePC = {
+    [1] = "TotalVolume",
+    [2] = "MuteBackstage",
+    [3] = "MusicVolume",
+    [4] = "VoiceVolume",
+    [5] = "SoundVolume"
+  }
+})

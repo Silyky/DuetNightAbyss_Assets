@@ -1,0 +1,10 @@
+local Data = {
+        },
+        UI_SystemNotice_TestContent = {
+          ContentFR = "法语测试文本",
+          TextMapId = "UI_SystemNotice_TestContent"
+        },
+        UI_SystemNotice_Title = {
+          ContentFR = "法语测试文本",
+          TextMapId = "UI_SystemNotice_Title"
+        },

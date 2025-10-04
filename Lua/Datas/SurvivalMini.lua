@@ -1,0 +1,1044 @@
+local T = {}
+T.RT_1 = {0.8, 0.2}
+T.RT_2 = {201}
+T.RT_3 = {202}
+T.RT_4 = {203}
+T.RT_5 = {204}
+T.RT_6 = {205}
+T.RT_7 = {206}
+T.RT_8 = {
+  [1] = {201},
+  [2] = {202},
+  [3] = {203},
+  [4] = {204},
+  [5] = {205},
+  [6] = {206}
+}
+T.RT_9 = {1, 0.2}
+T.RT_10 = {100201}
+T.RT_11 = {100202}
+T.RT_12 = {100203}
+T.RT_13 = {100204}
+T.RT_14 = {100205}
+T.RT_15 = {100206}
+T.RT_16 = {
+  [1] = {100201},
+  [2] = {100202},
+  [3] = {100203},
+  [4] = {100204},
+  [5] = {100205},
+  [6] = {100206}
+}
+local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
+  return x
+end
+return ReadOnly("SurvivalMini", {
+  [60501] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 60501,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [60502] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 60502,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [62501] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 62501,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [62502] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 62502,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [64501] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 64501,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [64502] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 64502,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90401] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90401,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90402] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90402,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90403] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90403,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90404] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90404,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90405] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90405,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90406] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90406,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90407] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90407,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90408] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90408,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90409] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90409,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90410] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90410,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90411] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90411,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90412] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90412,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90413] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90413,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90414] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90414,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90415] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90415,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90416] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90416,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90417] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90417,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90418] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90418,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90419] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90419,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90420] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90420,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90421] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90421,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90422] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90422,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90423] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90423,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90424] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90424,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90425] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90425,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90426] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90426,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90427] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90427,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90428] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90428,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90429] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90429,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90430] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90430,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90431] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90431,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90432] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90432,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90433] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90433,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90434] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90434,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90435] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90435,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90436] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90436,
+    MonsterSpawnId = {
+      [1] = {201},
+      [2] = {202},
+      [3] = {203},
+      [4] = {204},
+      [5] = {205},
+      [6] = {206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90437] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90437,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90438] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90438,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90439] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90439,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90440] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90440,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90441] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90441,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  },
+  [90442] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.8, 0.2
+    },
+    DungeonId = 90442,
+    MonsterSpawnId = {
+      [1] = {100201},
+      [2] = {100202},
+      [3] = {100203},
+      [4] = {100204},
+      [5] = {100205},
+      [6] = {100206}
+    },
+    TreasureMonsterId = 9500001,
+    TreasureMonsterSpawnMinWave = 2,
+    TreasureMonsterSpawnProbability = {
+      1, 0.2
+    }
+  }
+})
