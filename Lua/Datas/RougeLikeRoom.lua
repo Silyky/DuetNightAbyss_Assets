@@ -1,30 +1,3 @@
-local T = {}
-T.RT_1 = {5170}
-T.RT_2 = {5169, 5172}
-T.RT_3 = {5171}
-T.RT_4 = {5010}
-T.RT_5 = {5012}
-T.RT_6 = {5017}
-T.RT_7 = {5067}
-T.RT_8 = {5013}
-T.RT_9 = {5018}
-T.RT_10 = {5068}
-T.RT_11 = {5014}
-T.RT_12 = {5176, 5064}
-T.RT_13 = {5065}
-T.RT_14 = {3}
-T.RT_15 = {5031}
-T.RT_16 = {5032}
-T.RT_17 = {5061}
-T.RT_18 = {5019}
-T.RT_19 = {5020}
-T.RT_20 = {5021}
-T.RT_21 = {5022}
-T.RT_22 = {5023}
-T.RT_23 = {5071}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeRoom", {
   [101] = {
     ArtDataPath = "/Game/Maps/Datas/Data_Art/Ailixian/Ailixian_Rou01_Bat02_Art.Ailixian_Rou01_Bat02_Art",

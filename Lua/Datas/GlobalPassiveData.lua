@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {Count = "#1"}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("GlobalPassiveData", {
   [1] = {
     BPPath = "/Game/BluePrints/Combat/PassiveEffect/BP_AbyssPassive_Test.BP_AbyssPassive_Test",

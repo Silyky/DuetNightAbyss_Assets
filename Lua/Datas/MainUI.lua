@@ -1,11 +1,3 @@
-local T = {}
-T.RT_1 = {2}
-T.RT_2 = {2, 5}
-T.RT_3 = {1}
-T.RT_4 = {1, 5}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MainUI", {
   [1] = {
     ActionName = "OpenArmory",

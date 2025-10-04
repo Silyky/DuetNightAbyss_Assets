@@ -1,25 +1,3 @@
-local T = {}
-T.RT_1 = {
-  AimSpeed = 0.3,
-  MaxPitch = 16,
-  MaxYaw = 12
-}
-T.RT_2 = {
-  AimRadius = 1.5,
-  AimSpeed = 0.15,
-  MaxPitch = 8,
-  MaxYaw = 8,
-  PitchWeight = 15,
-  YawWeight = 20
-}
-T.RT_3 = {
-  AimSpeed = 0.25,
-  MaxPitch = 24,
-  MaxYaw = 24
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("HelpAim", {
   Crossbow_01 = {
     AimTargetFilter = {

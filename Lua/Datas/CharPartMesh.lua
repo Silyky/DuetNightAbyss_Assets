@@ -1,10 +1,3 @@
-local T = {}
-T.RT_1 = {1101}
-T.RT_2 = {2101}
-T.RT_3 = {2301}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("CharPartMesh", {
   [90001] = {
     AccessoryId = 90001,

@@ -1,12 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "-12.024712,-308.135498,331.143066,0.000059,-24.19873,90.004784,4.0,1.5,false,DoNotOverride,1.2",
-  [2] = 0.4,
-  [3] = 7
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("FishingCamera", {
   [1] = {
     Boy = {

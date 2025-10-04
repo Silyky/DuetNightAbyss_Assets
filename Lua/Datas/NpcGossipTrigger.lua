@@ -1,16 +1,3 @@
-local T = {}
-T.RT_1 = {
-  "ShowNpc_Scene1",
-  "ShowNpc_Scene2",
-  "ShowNpc_Scene3"
-}
-T.RT_2 = {
-  "ShowNpc_Scene1",
-  "ShowNpc_Scene2"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("NpcGossipTrigger", {
   [910101] = {
     BubbleWaitTime = 10,

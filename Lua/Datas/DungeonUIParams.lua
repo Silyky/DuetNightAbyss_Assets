@@ -1,17 +1,3 @@
-local T = {}
-T.RT_1 = {
-  CoDefence_1 = "DUNGEON_DEFENCE_114",
-  CoDefence_2 = "DUNGEON_DEFENCE_115",
-  CoDefence_3 = "DUNGEON_DEFENCE_116",
-  CoDefence_4 = "DUNGEON_DEFENCE_117",
-  CoDefence_5 = "DUNGEON_DEFENCE_118",
-  CoDefence_6 = "DUNGEON_DEFENCE_119",
-  CoDefence_7 = "DUNGEON_DEFENCE_120",
-  TotalPointNums = 3
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DungeonUIParams", {
   [1000] = {
     UIName = {

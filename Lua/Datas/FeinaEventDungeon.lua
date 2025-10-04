@@ -1,22 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = 3,
-  [2] = 6,
-  [3] = 8
-}
-T.RT_2 = {
-  [1] = "FeinaEvent_DungeonTask_1",
-  [2] = "FeinaEvent_DungeonTask_2",
-  [3] = "FeinaEvent_DungeonTask_3"
-}
-T.RT_3 = {
-  [1] = 110101,
-  [2] = 110102,
-  [3] = 110103
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("FeinaEventDungeon", {
   [60001] = {
     DungeonDes = "FeinaEvent_DungeonDes_1",

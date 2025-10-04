@@ -1,11 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [10033] = 86400
-}
-T.RT_2 = {200227}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("EventMain", {
   [101001] = {
     EventBgBPPathMobile = "/Game/UI/WBP/Activity/Widget/SevenDay/BG/WBP_Activity_SevenDay_BG_Saiqi.WBP_Activity_SevenDay_BG_Saiqi",

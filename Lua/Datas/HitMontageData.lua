@@ -1,20 +1,3 @@
-local T = {}
-T.RT_1 = {"HitFlyDie"}
-T.RT_2 = {"Die"}
-T.RT_3 = {"DisarmHit"}
-T.RT_4 = {"HeavyHit"}
-T.RT_5 = {"HitFly"}
-T.RT_6 = {"LightHit1", "LightHit2"}
-T.RT_7 = {
-  "LightHitRanged"
-}
-T.RT_8 = {"HitLight"}
-T.RT_9 = {"HeavyHit1", "HeavyHit2"}
-T.RT_10 = {"LightHit1"}
-T.RT_11 = {KillSelf = 0}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("HitMontageData", {
   AnimalCommon = {
     DeadDissolveTime = 2,

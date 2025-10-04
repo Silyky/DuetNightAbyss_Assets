@@ -1,10 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "vo_gain"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("CharVoice2Gacha", {
   [1101] = {
     [1] = {

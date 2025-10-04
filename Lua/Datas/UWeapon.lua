@@ -1,19 +1,3 @@
-local T = {}
-T.RT_1 = {
-  -1,
-  -1,
-  -1,
-  -1
-}
-T.RT_2 = {
-  0,
-  0,
-  0,
-  0
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("UWeapon", {
   [110101] = {
     BigIcon = "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",

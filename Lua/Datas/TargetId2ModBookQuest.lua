@@ -1,11 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = 2,
-  [2] = 7
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("TargetId2ModBookQuest", {
   [30201] = {
     [1] = 3

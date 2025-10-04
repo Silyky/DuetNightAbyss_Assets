@@ -1,25 +1,3 @@
-local T = {}
-T.RT_1 = {
-  7.2,
-  11.9,
-  7.2,
-  1
-}
-T.RT_2 = {
-  6.5,
-  10.5,
-  22.5,
-  1
-}
-T.RT_3 = {
-  13.8,
-  4.3,
-  22.6,
-  1
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MonsterStrongAffixes", {
   ["Mon.Strong.Blood"] = {
     AffixesBuffIds = {6000405},

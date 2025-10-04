@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {0, 100}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RegionMapIconRange", {
   UI_BOSS = {
     IconScaleInterval = {

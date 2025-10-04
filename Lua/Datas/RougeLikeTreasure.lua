@@ -1,11 +1,3 @@
-local T = {}
-T.RT_1 = {10}
-T.RT_2 = {20}
-T.RT_3 = {49}
-T.RT_4 = {40}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeTreasure", {
   [10101] = {
     CanSell = 1,

@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {Breakable = true, Radius = 60}
-T.RT_2 = {"Controlled"}
-T.RT_3 = {"Controlled", "Hit"}
-T.RT_4 = {
-  "Interactive"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("PlayerStateLimit", {
   Avoid = {
     ActionMode = 0,

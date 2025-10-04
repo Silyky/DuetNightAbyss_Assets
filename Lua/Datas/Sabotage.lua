@@ -1,18 +1,3 @@
-local T = {}
-T.RT_1 = {SabotageStaticId = 1000000001}
-T.RT_2 = {SabotageStaticId = 1000000002}
-T.RT_3 = {SabotageStaticId = 1000000003}
-T.RT_4 = {
-  [1] = {SabotageStaticId = 1000000001},
-  [2] = {SabotageStaticId = 1000000002},
-  [3] = {SabotageStaticId = 1000000003}
-}
-T.RT_5 = {
-  [3] = {SabotageStaticId = 1000000003}
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Sabotage", {
   [30005] = {
     DungeonId = 30005,

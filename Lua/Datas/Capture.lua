@@ -1,21 +1,3 @@
-local T = {}
-T.RT_1 = {CaptureMonsterId = 7001005, Weight = 1}
-T.RT_2 = {CaptureMonsterId = 7003005, Weight = 1}
-T.RT_3 = {CaptureMonsterId = 7002005, Weight = 4}
-T.RT_4 = {
-  [1] = {CaptureMonsterId = 7001005, Weight = 1},
-  [2] = {CaptureMonsterId = 7003005, Weight = 1},
-  [3] = {CaptureMonsterId = 7002005, Weight = 4}
-}
-T.RT_5 = {CaptureMonsterId = 7002005, Weight = 1}
-T.RT_6 = {
-  [1] = {CaptureMonsterId = 7001005, Weight = 1},
-  [2] = {CaptureMonsterId = 7003005, Weight = 1},
-  [3] = {CaptureMonsterId = 7002005, Weight = 1}
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Capture", {
   [30002] = {
     Capture = {

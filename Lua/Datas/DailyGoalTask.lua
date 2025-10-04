@@ -1,11 +1,3 @@
-local T = {}
-T.RT_1 = {7201}
-T.RT_2 = {7203}
-T.RT_3 = {7209}
-T.RT_4 = {7207}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DailyGoalTask", {
   [10000101] = {
     DailyGoalTaskId = 10000101,

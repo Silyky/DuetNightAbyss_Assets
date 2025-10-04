@@ -1,12 +1,3 @@
-local T = {}
-T.RT_1 = {WEEK = 8}
-T.RT_2 = {WEEK = 1}
-T.RT_3 = {WEEK = 4}
-T.RT_4 = {12099}
-T.RT_5 = {MONTH = 1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ShopItem", {
   [110101] = {
     IsSpPopup = 1,

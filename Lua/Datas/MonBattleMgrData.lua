@@ -1,12 +1,3 @@
-local T = {}
-T.RT_1 = {
-  Count = 1,
-  SkillCd = 5,
-  SkillId = 600404
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MonBattleMgrData", {
   [305] = {
     BattleGroupId = 305,

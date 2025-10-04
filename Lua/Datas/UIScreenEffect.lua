@@ -1,14 +1,3 @@
-local T = {}
-T.RT_1 = {
-  HaveShield = 0,
-  Time = "Now",
-  Value2Strength = 1
-}
-T.RT_2 = {"Battle"}
-T.RT_3 = {1006}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("UIScreenEffect", {
   [1001] = {
     LastTime = -1,

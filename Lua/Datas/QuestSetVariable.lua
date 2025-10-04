@@ -1,11 +1,3 @@
-local T = {}
-T.RT_1 = {Name = "IQ1002", Value = 1}
-T.RT_2 = {
-  [1] = {Name = "IQ1002", Value = 1}
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("QuestSetVariable", {
   [10020101] = {
     Start = {

@@ -1,16 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "TERM_Common_OverES"
-}
-T.RT_2 = {
-  [1] = "TERM_Common_AdditionalDmg"
-}
-T.RT_3 = {
-  [1] = "TERM_Common_Taunt"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Desc2ProperTerm", {
   [404] = {
   [1] = "TERM_Common_OverES"

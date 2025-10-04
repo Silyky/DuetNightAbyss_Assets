@@ -1,10 +1,3 @@
-local T = {}
-T.RT_1 = {"Hit"}
-T.RT_2 = {"Skill"}
-T.RT_3 = {"Controlled"}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MonsterStateLimit", {
   Birth = {ActionMode = 1, SourceTag = "Birth"},
   CaptureSuccess = {

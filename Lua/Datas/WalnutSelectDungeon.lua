@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {2, 3}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("WalnutSelectDungeon", {
   [1] = {
     DungeonId = {

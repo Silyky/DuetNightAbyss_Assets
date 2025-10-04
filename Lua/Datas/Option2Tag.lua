@@ -1,12 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "SystemLanguage",
-  [2] = "SystemVoice",
-  [3] = "VoiceResource"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Option2Tag", {
   ControlMobile = {
     [1] = "HorizontalSensitivity",

@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {MaxLen = 1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Item2DraftIdMap", {
   CharAccessory = {
     [10001] = {

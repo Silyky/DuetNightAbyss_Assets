@@ -1,14 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [102401] = 1010201,
-  [105101] = 1020301
-}
-T.RT_2 = {
-  [101101] = 1010101
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("TestCharGroup", {
   [1101] = {
     CharGroupId = 1101,

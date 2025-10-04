@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = 500
-}
-T.RT_2 = {
-  [1] = 101
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("AttrUnlock", {
   [110101] = {
     Amount = {

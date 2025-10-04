@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {
-  1001,
-  1002,
-  1003,
-  1005
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("FailureGuidanceCombination", {
   [100001] = {
     CombinationId = 100001,

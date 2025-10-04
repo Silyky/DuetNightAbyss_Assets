@@ -1,33 +1,3 @@
-local T = {}
-T.RT_1 = {0.5, 0.5}
-T.RT_2 = {
-  0.5,
-  0,
-  2
-}
-T.RT_3 = {"All"}
-T.RT_4 = {0, 0}
-T.RT_5 = {
-  "RDT_RarelyData",
-  "RDT_CommonData"
-}
-T.RT_6 = {
-  "RDT_QuestData",
-  "RDT_CommonData",
-  "RDT_None"
-}
-T.RT_7 = {
-  "RDT_QuestData"
-}
-T.RT_8 = {
-  "RDT_QuestData",
-  "RDT_CommonData"
-}
-T.RT_9 = {Type = "Off"}
-T.RT_10 = {Type = "On"}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("UniversalConfig", {
   [1] = {
     DisableBattleWheel = true,

@@ -1,25 +1,3 @@
-local T = {}
-T.RT_1 = {
-  2,
-  6,
-  10,
-  14,
-  18,
-  22
-}
-T.RT_2 = {
-  0,
-  3,
-  6,
-  9,
-  12,
-  15,
-  18,
-  21
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MiniGameBattery2", {
   [1] = {
     BatteryId = 1,

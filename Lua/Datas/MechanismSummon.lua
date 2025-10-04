@@ -1,25 +1,3 @@
-local T = {}
-T.RT_1 = {
-  X = -75,
-  Y = 0,
-  Z = -150
-}
-T.RT_2 = {
-  ActiveCommonUI = 1,
-  Offset = {
-    X = -75,
-    Y = 0,
-    Z = -150
-  },
-  ScaleRateX = 2,
-  ScaleRateY = 1.5,
-  ShowLevel = false
-}
-T.RT_3 = {ActiveCommonUI = 0}
-T.RT_4 = {ActiveCommonUI = 1, HeightOffset = 100}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MechanismSummon", {
   [1] = {
     UnitBPPath = "/Game/BluePrints/Combat/MechanismSummon/BP_MechanismSummon_Test1.BP_MechanismSummon_Test1",

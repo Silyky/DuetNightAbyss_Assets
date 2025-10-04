@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {"CharTitle"}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ConditionalRewardEvent", {
   [107001] = {
     EventId = 107001,

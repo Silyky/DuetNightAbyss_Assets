@@ -1,15 +1,3 @@
-local T = {}
-T.RT_1 = {112}
-T.RT_2 = {125}
-T.RT_3 = {130}
-T.RT_4 = {135}
-T.RT_5 = {140}
-T.RT_6 = {145}
-T.RT_7 = {155}
-T.RT_8 = {160}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ModDungeonMonReward", {
   [1001] = {
     DungeonDropReward = 131001,

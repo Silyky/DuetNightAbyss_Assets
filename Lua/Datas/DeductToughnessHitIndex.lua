@@ -1,24 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = 50
-}
-T.RT_2 = {
-  [1] = 25,
-  [2] = 50,
-  [3] = 75
-}
-T.RT_3 = {
-  [1] = 0
-}
-T.RT_4 = {
-  [1] = 0,
-  [2] = 25,
-  [3] = 50,
-  [4] = 75
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DeductToughnessHitIndex", {
   [118] = {
   [1] = 0,

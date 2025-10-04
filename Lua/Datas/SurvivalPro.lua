@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {100506}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SurvivalPro", {
   [91401] = {
     BuffDescribe = {

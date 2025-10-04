@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [49603] = 15,
-  [49604] = 2
-}
-T.RT_2 = {100, 200}
-T.RT_3 = {1000000002, 1000000001}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Synthesis", {
   [91301] = {
     BlastMonInterval = 60,

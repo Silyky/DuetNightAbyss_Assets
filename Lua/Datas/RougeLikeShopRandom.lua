@@ -1,20 +1,3 @@
-local T = {}
-T.RT_1 = {6, 7}
-T.RT_2 = {1, 2}
-T.RT_3 = {8, 10}
-T.RT_4 = {2, 3}
-T.RT_5 = {3, 4}
-T.RT_6 = {7, 9}
-T.RT_7 = {5, 6}
-T.RT_8 = {
-  1,
-  2,
-  3
-}
-T.RT_9 = {4, 5}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeShopRandom", {
   [1] = {
     Blessing = {

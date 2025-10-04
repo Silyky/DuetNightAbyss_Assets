@@ -1,30 +1,3 @@
-local T = {}
-T.RT_1 = {10150}
-T.RT_2 = {201}
-T.RT_3 = {10100}
-T.RT_4 = {10116}
-T.RT_5 = {30101}
-T.RT_6 = {1400101}
-T.RT_7 = {10200}
-T.RT_8 = {1900101}
-T.RT_9 = {11000}
-T.RT_10 = {10600}
-T.RT_11 = {10201}
-T.RT_12 = {50930}
-T.RT_13 = {10800}
-T.RT_14 = {9000}
-T.RT_15 = {10051601}
-T.RT_16 = {1400201}
-T.RT_17 = {2300101}
-T.RT_18 = {11600}
-T.RT_19 = {22000}
-T.RT_20 = {1500102}
-T.RT_21 = {23000}
-T.RT_22 = {100101}
-T.RT_23 = {22500}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("BattlePassTask", {
   [100001001] = {
     BattlePassId = 100001,

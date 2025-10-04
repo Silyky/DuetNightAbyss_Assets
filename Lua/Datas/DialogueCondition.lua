@@ -1,25 +1,3 @@
-local T = {}
-T.RT_1 = {QuestChainId = 100306}
-T.RT_2 = {
-  QuestChainFinish = {
-    QuestChainId = 100306
-  }
-}
-T.RT_3 = {
-  QuestChainUnFinish = {
-    QuestChainId = 100306
-  }
-}
-T.RT_4 = {}
-T.RT_5 = {TalkTriggerId = 500080}
-T.RT_6 = {
-  ImprComp = {
-    TalkTriggerId = 500080
-  }
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DialogueCondition", {
   [51007572] = {
   ImprComp = {

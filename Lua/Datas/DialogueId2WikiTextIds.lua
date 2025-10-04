@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = 20101105
-}
-T.RT_2 = {
-  [1] = 40500504
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DialogueId2WikiTextIds", {
   [10010101] = {
     [1] = 20100101

@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {SelectedTargetId = 3301}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SystemGuide", {
   [1001] = {
     EnterDungeon = 19,

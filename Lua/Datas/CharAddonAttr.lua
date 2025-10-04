@@ -1,37 +1,3 @@
-local T = {}
-T.RT_1 = {AttrName = "ATK", Rate = 0.2}
-T.RT_2 = {AttrName = "ATK", Rate = 0.3}
-T.RT_3 = {
-  AttrName = "SkillEfficiency",
-  Rate = 0.05
-}
-T.RT_4 = {
-  AttrName = "SkillEfficiency",
-  Rate = 0.075
-}
-T.RT_5 = {
-  AttrName = "SkillSustain",
-  Rate = 0.06
-}
-T.RT_6 = {
-  AttrName = "SkillSustain",
-  Rate = 0.09
-}
-T.RT_7 = {AttrName = "SkillRange", Rate = 0.12}
-T.RT_8 = {AttrName = "SkillRange", Rate = 0.18}
-T.RT_9 = {
-  AttrName = "SkillIntensity",
-  Rate = 0.08
-}
-T.RT_10 = {
-  AttrName = "SkillIntensity",
-  Rate = 0.12
-}
-T.RT_11 = {AttrName = "MaxHp", Rate = 0.2}
-T.RT_12 = {AttrName = "MaxHp", Rate = 0.3}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("CharAddonAttr", {
   [110101] = {
     AddAttrs = {

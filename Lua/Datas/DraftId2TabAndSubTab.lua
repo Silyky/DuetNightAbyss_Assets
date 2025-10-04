@@ -1,32 +1,3 @@
-local T = {}
-T.RT_1 = {SubTabType = 3, TabType = "Weapon"}
-T.RT_2 = {SubTabType = 2, TabType = "Weapon"}
-T.RT_3 = {SubTabType = 11, TabType = "Resource"}
-T.RT_4 = {
-  SubTabType = 18,
-  TabType = "CharAccessory"
-}
-T.RT_5 = {
-  SubTabType = 17,
-  TabType = "CharAccessory"
-}
-T.RT_6 = {
-  SubTabType = 16,
-  TabType = "CharAccessory"
-}
-T.RT_7 = {
-  SubTabType = 15,
-  TabType = "CharAccessory"
-}
-T.RT_8 = {SubTabType = 8, TabType = "Mod"}
-T.RT_9 = {SubTabType = 7, TabType = "Mod"}
-T.RT_10 = {SubTabType = 6, TabType = "Mod"}
-T.RT_11 = {SubTabType = 5, TabType = "Mod"}
-T.RT_12 = {SubTabType = 10, TabType = "Resource"}
-T.RT_13 = {SubTabType = 12, TabType = "Resource"}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DraftId2TabAndSubTab", {
   [1001] = {SubTabType = 10, TabType = "Resource"},
   [1002] = {SubTabType = 10, TabType = "Resource"},

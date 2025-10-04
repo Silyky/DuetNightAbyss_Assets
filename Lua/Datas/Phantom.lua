@@ -1,28 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "/Game/AssetDesign/AI/Player/Heitao/BT_Phantom_Heitao.BT_Phantom_Heitao"
-}
-T.RT_2 = {
-  [1] = "/Game/AssetDesign/AI/Player/BattleNPC/Nvzhu/BT_Phantom_Nvzhu.BT_Phantom_Nvzhu"
-}
-T.RT_3 = {
-  [1] = "/Game/AssetDesign/AI/Player/Kezhou/BT_Phantom_Kezhou.BT_Phantom_Kezhou"
-}
-T.RT_4 = {
-  [1] = "/Game/AssetDesign/AI/Player/Nvzhu/BT_Phantom_Nvzhu_Light.BT_Phantom_Nvzhu_Light"
-}
-T.RT_5 = {
-  [1] = "/Game/AssetDesign/AI/Player/Lise/BT_Phantom_Lise.BT_Phantom_Lise"
-}
-T.RT_6 = {
-  [1] = "/Game/AssetDesign/AI/Player/Yuming/BT_Phantom_Yuming.BT_Phantom_Yuming"
-}
-T.RT_7 = {
-  [1] = "/Game/AssetDesign/AI/Player/Baiheng/BT_Phantom_Baiheng.BT_Phantom_Baiheng"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Phantom", {
   [1] = {
     BT = {

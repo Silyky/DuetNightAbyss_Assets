@@ -1,19 +1,3 @@
-local T = {}
-T.RT_1 = {
-  "UI_Armory_Meleeweapon"
-}
-T.RT_2 = {
-  "UI_Armory_LongrangeUltra"
-}
-T.RT_3 = {
-  "UI_Armory_Longrange"
-}
-T.RT_4 = {
-  "UI_Armory_MeleeweaponUltra"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ModTag", {
   [1] = {
     ApplicationType = 1,

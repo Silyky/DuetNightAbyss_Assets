@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {30101}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("FishingRod", {
   [101] = {
     AutoFishingLevel = 2,

@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {
-  Hit = "Combat/Hit/",
-  Locomotion = "Locomotion/",
-  Skill = "Combat/Skill/",
-  SpecialIdle = "SpecialIdle/"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("AssetPathSplitRules", {
   [101] = {
     IsPreloadMesh = true,

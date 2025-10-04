@@ -1,15 +1,3 @@
-local T = {}
-T.RT_1 = {
-  Path = "WidgetBlueprint'/Game/UI/WBP/Dungeon/Defense/WBP_Dungeon_DefenseWaveStart.WBP_Dungeon_DefenseWaveStart'"
-}
-T.RT_2 = {
-  [1] = {
-  Path = "WidgetBlueprint'/Game/UI/WBP/Dungeon/Defense/WBP_Dungeon_DefenseWaveStart.WBP_Dungeon_DefenseWaveStart'"
-}
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("CommonAssetByDungeon", {
   [1] = {
     AssetPath = {

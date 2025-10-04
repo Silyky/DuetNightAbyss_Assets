@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {Width = 2}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("BuffNextPass", {
   Dafu_Passive_Ranged = {
     MaterialPath = "/Game/Asset/Char/Player/Char026_Dafu/Materials/MI_Dafu_EffectOL01.MI_Dafu_EffectOL01",

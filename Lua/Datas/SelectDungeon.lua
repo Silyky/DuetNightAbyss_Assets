@@ -1,10 +1,3 @@
-local T = {}
-T.RT_1 = {3002}
-T.RT_2 = {3003}
-T.RT_3 = {3001, 125}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SelectDungeon", {
   [1] = {
     ChapterContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",

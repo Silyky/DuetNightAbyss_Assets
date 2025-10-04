@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [200225] = 1
-}
-T.RT_2 = {
-  [200224] = 1
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ConditionId2QuestChainId", {
   [99] = {
     [200228] = 1

@@ -1,10 +1,3 @@
-local T = {}
-T.RT_1 = {33, 35}
-T.RT_2 = {18}
-T.RT_3 = {18, 22}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Exterminate", {
   [30008] = {
     DungeonId = 30008,

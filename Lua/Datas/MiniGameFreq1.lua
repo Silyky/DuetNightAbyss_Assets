@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {1, 0}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MiniGameFreq1", {
   [1] = {
     BindingRealtion = {

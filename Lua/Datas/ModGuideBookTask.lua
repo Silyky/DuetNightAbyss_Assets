@@ -1,16 +1,3 @@
-local T = {}
-T.RT_1 = {4}
-T.RT_2 = {
-  30601,
-  30602,
-  30603,
-  30604,
-  30605,
-  30606
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ModGuideBookTask", {
   [1] = {
     DisplayId = "01",

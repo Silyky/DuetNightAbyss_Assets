@@ -1,21 +1,3 @@
-local T = {}
-T.RT_1 = {1}
-T.RT_2 = {2}
-T.RT_3 = {3}
-T.RT_4 = {1, 2}
-T.RT_5 = {2, 3}
-T.RT_6 = {
-  1,
-  2,
-  3
-}
-T.RT_7 = {4}
-T.RT_8 = {6}
-T.RT_9 = {5}
-T.RT_10 = {7}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeBlessingRandom", {
   [-1] = {BlessingRandom = -1},
   [1] = {

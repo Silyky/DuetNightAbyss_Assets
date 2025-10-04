@@ -1,12 +1,3 @@
-local T = {}
-T.RT_1 = {0, 25}
-T.RT_2 = {25, 50}
-T.RT_3 = {50, 75}
-T.RT_4 = {75, 100}
-T.RT_5 = {100, 125}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("BulletAccuracy", {
   [2] = {
     Accuracys = {

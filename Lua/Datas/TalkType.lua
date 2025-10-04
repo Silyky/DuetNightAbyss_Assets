@@ -1,9 +1,3 @@
-local T = {}
-T.RT_1 = {bComplexCameraBlend = true, bNeedStage = true}
-T.RT_2 = {bBlendDialogueCamera = true, bNeedStage = true}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("TalkType", {
   AudioOnly = {
     BasicType = "Audio",

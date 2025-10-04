@@ -1,14 +1,3 @@
-local T = {}
-T.RT_1 = {
-  1,
-  5,
-  2,
-  3,
-  4
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SiftModel", {
   [666] = {
     SiftModelId = 666,

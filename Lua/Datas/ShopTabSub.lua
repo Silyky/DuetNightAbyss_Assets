@@ -1,11 +1,3 @@
-local T = {}
-T.RT_1 = {215}
-T.RT_2 = {99, 100}
-T.RT_3 = {211}
-T.RT_4 = {210, 101}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ShopTabSub", {
   [1101] = {
     MainTabId = 110,

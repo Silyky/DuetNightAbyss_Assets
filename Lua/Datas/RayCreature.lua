@@ -1,30 +1,3 @@
-local T = {}
-T.RT_1 = {110355}
-T.RT_2 = {
-  0,
-  0,
-  1
-}
-T.RT_3 = {110356}
-T.RT_4 = {
-  SpawnSocket = "Player_Part_Mouth",
-  UseLocation = "Char"
-}
-T.RT_5 = {"Bullet"}
-T.RT_6 = {
-  1,
-  0,
-  1
-}
-T.RT_7 = {
-  SpawnSocket = "gunpoint_01",
-  UseLocation = "Weapon"
-}
-T.RT_8 = {2050631}
-T.RT_9 = {2050632}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RayCreature", {
   [110301] = {
     AimUpdateEndLoc = true,

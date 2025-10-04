@@ -1,39 +1,3 @@
-local T = {}
-T.RT_1 = {5064}
-T.RT_2 = {10, 15}
-T.RT_3 = {150}
-T.RT_4 = {5041, 5064}
-T.RT_5 = {
-  "Term_Rou_10101_MoltenBlaze"
-}
-T.RT_6 = {20, 35}
-T.RT_7 = {300}
-T.RT_8 = {40, 60}
-T.RT_9 = {600}
-T.RT_10 = {5042, 5064}
-T.RT_11 = {5065}
-T.RT_12 = {
-  "Term_Rou_10102_MiniSeaborneMoons"
-}
-T.RT_13 = {5025, 5065}
-T.RT_14 = {5034}
-T.RT_15 = {
-  "Term_Rou_10103_Radiance"
-}
-T.RT_16 = {
-  "Term_Rou_10104_Lumiseed"
-}
-T.RT_17 = {20}
-T.RT_18 = {
-  "Term_Rou_10105_Nocturne"
-}
-T.RT_19 = {
-  "Term_Rou_10106_Glimmerfly"
-}
-T.RT_20 = {5007, 5064}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeBlessing", {
   [101] = {
     BlessingGroup = 1,

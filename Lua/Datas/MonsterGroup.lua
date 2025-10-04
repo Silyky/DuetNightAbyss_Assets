@@ -1,20 +1,3 @@
-local T = {}
-T.RT_1 = {UnitId = 7002001, UnitProb = 1}
-T.RT_2 = {UnitId = 6001001, UnitProb = 1}
-T.RT_3 = {UnitId = 6001601, UnitProb = 1}
-T.RT_4 = {UnitId = 6002601, UnitProb = 1}
-T.RT_5 = {UnitId = 7012601, UnitProb = 0.5}
-T.RT_6 = {UnitId = 7015601, UnitProb = 1}
-T.RT_7 = {UnitId = 7011601, UnitProb = 0.5}
-T.RT_8 = {UnitId = 7003601, UnitProb = 0.5}
-T.RT_9 = {UnitId = 7013601, UnitProb = 0.5}
-T.RT_10 = {UnitId = 8002601, UnitProb = 0.5}
-T.RT_11 = {UnitId = 8001601, UnitProb = 1}
-T.RT_12 = {UnitId = 9001601, UnitProb = 0.5}
-T.RT_13 = {UnitId = 9002601, UnitProb = 1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MonsterGroup", {
   [11] = {
     GroupId = 11,

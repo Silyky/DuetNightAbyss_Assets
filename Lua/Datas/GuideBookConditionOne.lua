@@ -1,27 +1,3 @@
-local T = {}
-T.RT_1 = {
-  CompleteUIGuideId = 72,
-  FinishQuestChain = 200215,
-  GuideId = 72,
-  GuideNoteId = 84,
-  GuideNoteTab = 5,
-  RewardId = 7000,
-  SysGuideId = 2044
-}
-T.RT_2 = {
-  [1] = {
-  CompleteUIGuideId = 72,
-  FinishQuestChain = 200215,
-  GuideId = 72,
-  GuideNoteId = 84,
-  GuideNoteTab = 5,
-  RewardId = 7000,
-  SysGuideId = 2044
-}
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("GuideBookConditionOne", {
   FinishQuest = {
     [10010106] = {

@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {410201}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("PartyNpc", {
   [1101] = {
     AvatarIconPath = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar_Icon/T_Icon_Heitao.T_Icon_Heitao'",

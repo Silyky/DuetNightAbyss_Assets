@@ -1,29 +1,3 @@
-local T = {}
-T.RT_1 = {
-  3,
-  6,
-  9,
-  12
-}
-T.RT_2 = {
-  "Term_Rou_10101_MoltenBlaze"
-}
-T.RT_3 = {
-  "Term_Rou_10103_Radiance"
-}
-T.RT_4 = {
-  "Term_Rou_10105_Nocturne"
-}
-T.RT_5 = {
-  "Term_Rou_10106_Glimmerfly"
-}
-T.RT_6 = {
-  "Term_Rou_10106_Glimmerfly",
-  "Term_Rou_10106_LargerGlimmerfly"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("BlessingGroup", {
   [1] = {
     ActivateDesc = {

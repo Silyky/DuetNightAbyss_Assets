@@ -1,12 +1,3 @@
-local T = {}
-T.RT_1 = {
-  0,
-  0,
-  -90
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SquadCameraData", {
   Char_Boy = {
     CameraFocal = 38.6,

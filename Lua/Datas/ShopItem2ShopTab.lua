@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ShopItem2ShopTab", {
   [110] = {
     [1101] = {

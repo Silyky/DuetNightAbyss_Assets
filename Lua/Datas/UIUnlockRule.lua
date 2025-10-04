@@ -1,19 +1,3 @@
-local T = {}
-T.RT_1 = {2, 5}
-T.RT_2 = {
-  "UI_Disabled_Des_Armory",
-  "UI_Disabled_InStoryMode"
-}
-T.RT_3 = {4, 5}
-T.RT_4 = {8028}
-T.RT_5 = {
-  "UI_Disabled_Des_Play",
-  "UI_Disabled_InStoryMode"
-}
-T.RT_6 = {1, 5}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("UIUnlockRule", {
   Abyss = {
     ConditionId = 8002,

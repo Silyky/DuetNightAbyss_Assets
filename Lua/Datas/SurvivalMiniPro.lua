@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {501}
-T.RT_2 = {512}
-T.RT_3 = {100501}
-T.RT_4 = {612}
-T.RT_5 = {601}
-T.RT_6 = {100601}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SurvivalMiniPro", {
   [60701] = {
     DungeonId = 60701,

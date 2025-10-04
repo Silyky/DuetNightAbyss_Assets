@@ -1,26 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "$(#Buff[2010001].LockHp.Rate)*100$%",
-  [2] = "$#GlobalPassiveData[20100].Vars.LastTime$",
-  [3] = "$(#Buff[2010003].AddAttrs[1].Value)*100$%",
-  [4] = "$#Buff[2010003].MaxLayer$"
-}
-T.RT_2 = {
-  [1] = "$(#Buff[2010201].MaxLayer)*(#Buff[2010201].BuffDamagedRate.Value)*-100$%",
-  [2] = "$(#Buff[2010201].BuffDamagedRate.Value)*-100$%"
-}
-T.RT_3 = {2010201}
-T.RT_4 = {
-  BuffList = {
-    2010201
-  }
-}
-T.RT_5 = {80}
-T.RT_6 = {40}
-T.RT_7 = {1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("AbyssBuff", {
   [10] = {
     AbyssBuffDes = "Buff_Content_100",

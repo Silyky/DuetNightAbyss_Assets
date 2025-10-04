@@ -1,18 +1,3 @@
-local T = {}
-T.RT_1 = {101101, 101103}
-T.RT_2 = {97}
-T.RT_3 = {102101}
-T.RT_4 = {102104}
-T.RT_5 = {101401}
-T.RT_6 = {103201}
-T.RT_7 = {101402}
-T.RT_8 = {101901}
-T.RT_9 = {101101}
-T.RT_10 = {101105}
-T.RT_11 = {101103}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SpecialQuestConfig", {
   [101] = {
     FailCustomEvent = "Hunt3Fail",

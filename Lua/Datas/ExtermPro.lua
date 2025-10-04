@@ -1,23 +1,3 @@
-local T = {}
-T.RT_1 = {9998, 10001}
-T.RT_2 = {9998, 9999}
-T.RT_3 = {10804}
-T.RT_4 = {0, 5}
-T.RT_5 = {9998, 10002}
-T.RT_6 = {10805}
-T.RT_7 = {10810}
-T.RT_8 = {10812}
-T.RT_9 = {10813}
-T.RT_10 = {10814}
-T.RT_11 = {10815}
-T.RT_12 = {9998, 10005}
-T.RT_13 = {10816}
-T.RT_14 = {55, 60}
-T.RT_15 = {25, 30}
-T.RT_16 = {10809}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ExtermPro", {
   [61101] = {
     DungeonId = 61101,

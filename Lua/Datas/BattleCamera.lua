@@ -1,10 +1,3 @@
-local T = {}
-T.RT_1 = {"10.0"}
-T.RT_2 = {"3.0"}
-T.RT_3 = {"1.0"}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("BattleCamera", {
   CameraFadeAngleEnd = {
     ParamentName = "CameraFadeAngleEnd",

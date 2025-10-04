@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {50551}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("QuestChain", {
   [100101] = {
     ChapterBeginEndIconPath = "Texture2D'/Game/UI/Texture/Dynamic/Image/Chapter/T_Chapter_Icon01.T_Chapter_Icon01'",

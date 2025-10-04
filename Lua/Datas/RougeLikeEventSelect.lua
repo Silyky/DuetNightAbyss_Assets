@@ -1,22 +1,3 @@
-local T = {}
-T.RT_1 = {3}
-T.RT_2 = {13}
-T.RT_3 = {6}
-T.RT_4 = {100}
-T.RT_5 = {4}
-T.RT_6 = {150}
-T.RT_7 = {11}
-T.RT_8 = {5}
-T.RT_9 = {12}
-T.RT_10 = {300}
-T.RT_11 = {2}
-T.RT_12 = {14}
-T.RT_13 = {10}
-T.RT_14 = {250}
-T.RT_15 = {200}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeEventSelect", {
   [1011] = {
     IconType = 1,

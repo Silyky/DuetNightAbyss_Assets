@@ -1,16 +1,3 @@
-local T = {}
-T.RT_1 = {
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DungeonRandomEvent", {
   [1] = {
     Dungeons = {

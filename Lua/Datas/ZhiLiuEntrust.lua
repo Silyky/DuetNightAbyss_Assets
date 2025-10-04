@@ -1,13 +1,3 @@
-local T = {}
-T.RT_1 = {
-  6001001,
-  6002001,
-  6003001,
-  6004001
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ZhiLiuEntrust", {
   [101] = {
     ChildClass = 1,

@@ -1,22 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = 10200119
-}
-T.RT_2 = {
-  [1] = 10200105,
-  [2] = 10200110
-}
-T.RT_3 = {
-  [1] = 10200146,
-  [2] = 10200125,
-  [3] = 10200129
-}
-T.RT_4 = {
-  [1] = 10200106
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("TargetId2StarterQuest", {
   [9000] = {
     [1] = 10200130

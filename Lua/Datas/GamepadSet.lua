@@ -1,22 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "Combo1"
-}
-T.RT_2 = {
-  [1] = "WB_Key_L"
-}
-T.RT_3 = {
-  [1] = "WB_Key_R"
-}
-T.RT_4 = {
-  [1] = "WB_Key_Direc"
-}
-T.RT_5 = {
-  [1] = "Combo2"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("GamepadSet", {
   ActiveGuide = {
     ActionName = "ActiveGuide",

@@ -1,23 +1,3 @@
-local T = {}
-T.RT_1 = {301}
-T.RT_2 = {302, 307}
-T.RT_3 = {303}
-T.RT_4 = {304, 307}
-T.RT_5 = {305}
-T.RT_6 = {306, 308}
-T.RT_7 = {
-  [1] = {301},
-  [2] = {302, 307},
-  [3] = {303},
-  [4] = {304, 307},
-  [5] = {305},
-  [6] = {306, 308}
-}
-T.RT_8 = {0.6, 0.2}
-T.RT_9 = {0.9, 0.1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Defence", {
   [20002] = {
     ButcherMonsterId = 8501002,

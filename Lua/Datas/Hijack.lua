@@ -1,9 +1,3 @@
-local T = {}
-T.RT_1 = {-1, 23}
-T.RT_2 = {1, -1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Hijack", {
   [30006] = {
     CheckpointEilteMonsterNum = {-1, -1},

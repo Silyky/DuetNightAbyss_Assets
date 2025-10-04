@@ -1,9 +1,3 @@
-local T = {}
-T.RT_1 = {10301}
-T.RT_2 = {10302}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("FishingAchievement", {
   [1001] = {
     Describe = "UI_Achievement_Fishing_Des_1001",

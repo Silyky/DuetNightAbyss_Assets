@@ -1,31 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = "DamageType",
-  [2] = "DamageTag",
-  [3] = "ExceptDamageTag"
-}
-T.RT_2 = {
-  [1] = "List(DamageType)",
-  [2] = "List(String)",
-  [3] = "List(String)"
-}
-T.RT_3 = {
-  [1] = "LimitTime"
-}
-T.RT_4 = {
-  [1] = "float"
-}
-T.RT_5 = {
-  [1] = "BuffType",
-  [2] = "CampFilter"
-}
-T.RT_6 = {
-  [1] = "List(Int)",
-  [2] = "String"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("BattleAchiTargetArgs", {
   AddOverEnergyShield = {
     TargetType = "AddOverEnergyShield"

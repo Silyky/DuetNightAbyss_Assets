@@ -1,31 +1,3 @@
-local T = {}
-T.RT_1 = {
-  "UI_OPTION_Swicth_Close",
-  "UI_OPTION_Swicth_Open"
-}
-T.RT_2 = {
-  "UI_EffectQuality_ExtremelyLow",
-  "UI_EffectQuality_Low",
-  "UI_EffectQuality_Middle",
-  "UI_EffectQuality_High",
-  "UI_EffectQuality_ExtremelyHigh"
-}
-T.RT_3 = {0, 10}
-T.RT_4 = {1, 20}
-T.RT_5 = {
-  "90%",
-  "95%",
-  "100%"
-}
-T.RT_6 = {
-  "UI_OPTION_Swicth_Close",
-  "UI_EffectQuality_Low",
-  "UI_EffectQuality_Middle",
-  "UI_EffectQuality_High"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Option", {
   AimAssist = {
     Cache = "AimAssist",

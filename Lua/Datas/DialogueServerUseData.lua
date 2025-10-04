@@ -1,18 +1,3 @@
-local T = {}
-T.RT_1 = {ImprPlusId = 1008}
-T.RT_2 = {ImprPlusId = 1006}
-T.RT_3 = {ImprPlusId = 1016}
-T.RT_4 = {ImprPlusId = 1003}
-T.RT_5 = {ImprPlusId = 1005}
-T.RT_6 = {ImprPlusId = 1004}
-T.RT_7 = {ImprPlusId = 1001}
-T.RT_8 = {ImprPlusId = 1002}
-T.RT_9 = {ImprPlusId = 1007}
-T.RT_10 = {ImprPlusId = 1010}
-T.RT_11 = {ImprPlusId = 1009}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DialogueServerUseData", {
   [10030406] = {ImprPlusId = 1008},
   [10030408] = {ImprPlusId = 1010},

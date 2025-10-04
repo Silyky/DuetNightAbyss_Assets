@@ -1,29 +1,3 @@
-local T = {}
-T.RT_1 = {
-  [1] = 0.2
-}
-T.RT_2 = {
-  [1] = 2
-}
-T.RT_3 = {
-  [1] = 4,
-  [2] = 4
-}
-T.RT_4 = {
-  [1] = 5,
-  [2] = 5
-}
-T.RT_5 = {1}
-T.RT_6 = {1, 6}
-T.RT_7 = {
-  [1] = 300
-}
-T.RT_8 = {
-  [1] = 6
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeServerBuild", {
   [1] = {
     Id = 1,

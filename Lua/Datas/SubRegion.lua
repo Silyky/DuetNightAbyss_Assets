@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {-500, 2500}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SubRegion", {
   [100101] = {
     RegionId = 1001,

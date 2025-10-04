@@ -1,15 +1,3 @@
-local T = {}
-T.RT_1 = {}
-T.RT_2 = {
-  AbyssShop = {},
-  ExploreBadgeShop = {},
-  FishingShop = {},
-  Rouge = {},
-  Shop = {}
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("ShopItem2ShopSubId", {
   Char = {
     AbyssShop = {},

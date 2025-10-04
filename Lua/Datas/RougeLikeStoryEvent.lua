@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {1, 0.1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RougeLikeStoryEvent", {
   [1] = {
     EventCondition = {5167},

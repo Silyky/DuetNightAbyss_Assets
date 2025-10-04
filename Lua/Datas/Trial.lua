@@ -1,12 +1,3 @@
-local T = {}
-T.RT_1 = {
-  1,
-  2,
-  3
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Trial", {
   [1103] = {
     CharTrialId = 1103,

@@ -1,15 +1,3 @@
-local T = {}
-T.RT_1 = {"FX_Dead"}
-T.RT_2 = {"Fish"}
-T.RT_3 = {"Prop"}
-T.RT_4 = {
-  0,
-  0,
-  -5
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("EffectCreature", {
   [1] = {
     EffectCreatureId = 1,

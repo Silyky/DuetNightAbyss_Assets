@@ -1,39 +1,3 @@
-local T = {}
-T.RT_1 = {
-  -1,
-  -1,
-  -1,
-  -1,
-  -1,
-  -1,
-  -1,
-  -1
-}
-T.RT_2 = {
-  0,
-  0,
-  0,
-  0,
-  1,
-  2,
-  3,
-  4
-}
-T.RT_3 = {101}
-T.RT_4 = {102}
-T.RT_5 = {103}
-T.RT_6 = {104}
-T.RT_7 = {105}
-T.RT_8 = {106}
-T.RT_9 = {201}
-T.RT_10 = {202}
-T.RT_11 = {203}
-T.RT_12 = {204}
-T.RT_13 = {205}
-T.RT_14 = {206}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("Weapon", {
   [10101] = {
     BigIcon = "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",

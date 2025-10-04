@@ -1,33 +1,3 @@
-local T = {}
-T.RT_1 = {
-  501301,
-  501302,
-  501303,
-  501304,
-  501305,
-  501306,
-  501307,
-  501308,
-  501309,
-  501310,
-  501311,
-  501312,
-  501313,
-  501314,
-  501316
-}
-T.RT_2 = {200101}
-T.RT_3 = {60902}
-T.RT_4 = {1400101}
-T.RT_5 = {
-  30606,
-  30607,
-  30608
-}
-T.RT_6 = {1400201}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("StarterQuestDetail", {
   [10200101] = {
     JumpUIId = 8,

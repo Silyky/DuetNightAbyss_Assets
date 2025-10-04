@@ -1,14 +1,3 @@
-local T = {}
-T.RT_1 = {4020}
-T.RT_2 = {4170}
-T.RT_3 = {8002}
-T.RT_4 = {4030}
-T.RT_5 = {3003}
-T.RT_6 = {3002}
-T.RT_7 = {3001, 125}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("InterfaceJump", {
   [1] = {
     InterfaceJumpId = 1,

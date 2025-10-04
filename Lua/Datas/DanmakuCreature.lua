@@ -1,34 +1,3 @@
-local T = {}
-T.RT_1 = {850052}
-T.RT_2 = {Radius = 32, ShapeType = "Sphere"}
-T.RT_3 = {"Bullet"}
-T.RT_4 = {IsTest = true}
-T.RT_5 = {
-  BeginScale = 0,
-  EndScale = 1.5,
-  ScaleDuration = 0.5
-}
-T.RT_6 = {Radius = 50, ShapeType = "Sphere"}
-T.RT_7 = {8500152}
-T.RT_8 = {
-  BeginScale = 0,
-  EndScale = 0.5,
-  ScaleDuration = 0.5
-}
-T.RT_9 = {8501148}
-T.RT_10 = {8501149}
-T.RT_11 = {Radius = 30, ShapeType = "Sphere"}
-T.RT_12 = {850441}
-T.RT_13 = {
-  BeginScale = 0,
-  EndScale = 1,
-  ScaleDuration = 1
-}
-T.RT_14 = {850917}
-T.RT_15 = {850918}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DanmakuCreature", {
   [30401] = {
     BPPath = "/Game/BluePrints/Combat/Danmaku/BP_DanmakuCreatures/BP_DanmakuCreature_BossTuosi_Skill07.BP_DanmakuCreature_BossTuosi_Skill07",

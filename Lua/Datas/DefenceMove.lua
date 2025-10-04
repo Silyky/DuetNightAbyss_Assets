@@ -1,20 +1,3 @@
-local T = {}
-T.RT_1 = {0, 0}
-T.RT_2 = {311}
-T.RT_3 = {312}
-T.RT_4 = {313}
-T.RT_5 = {314}
-T.RT_6 = {90171, 901710}
-T.RT_7 = {90172, 901720}
-T.RT_8 = {90173, 901730}
-T.RT_9 = {90174, 901740}
-T.RT_10 = {90175, 901750}
-T.RT_11 = {90176, 901760}
-T.RT_12 = {90177, 901770}
-T.RT_13 = {90178, 901780}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("DefenceMove", {
   [90161] = {
     ButcherMonsterId = 8501002,

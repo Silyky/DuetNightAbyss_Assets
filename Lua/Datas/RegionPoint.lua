@@ -1,15 +1,3 @@
-local T = {}
-T.RT_1 = {-3172, -5484}
-T.RT_2 = {101107}
-T.RT_3 = {
-  101701,
-  101702,
-  101703
-}
-T.RT_4 = {101108}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("RegionPoint", {
   [2001] = {
     Icon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Homebase.T_Gp_Homebase",

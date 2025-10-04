@@ -1,27 +1,3 @@
-local T = {}
-T.RT_1 = {"Default"}
-T.RT_2 = {
-  DamageType = {
-    "Default"
-  }
-}
-T.RT_3 = {"Melee"}
-T.RT_4 = {
-  DamageTag = {
-    "Melee"
-  }
-}
-T.RT_5 = {"Ranged"}
-T.RT_6 = {
-  DamageTag = {
-    "Ranged"
-  }
-}
-T.RT_7 = {LimitTime = 3}
-T.RT_8 = {AllPhantom = 1}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("BattleAchiTargetType", {
   [1] = {
     Id = 1,

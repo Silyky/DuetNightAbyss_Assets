@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {851400101}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("MonsterRushDungeon", {
   [40201] = {
     Description = "无关卡效果",

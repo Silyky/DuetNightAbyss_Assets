@@ -1,18 +1,3 @@
-local T = {}
-T.RT_1 = {DisableEscClose = 1}
-T.RT_2 = {
-  [1] = "UI_COMMONPOP_TEXT_100099_2"
-}
-T.RT_3 = {
-  [1] = "UI_SHOP_SOLDOUT"
-}
-T.RT_4 = {
-  [1] = "UI_REGISTER_OVERLENGTH",
-  [2] = "UI_REGISTER_ILLEGALINPUT"
-}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("CommonPopupUIContext", {
   [100000] = {
     ExtraParams = {

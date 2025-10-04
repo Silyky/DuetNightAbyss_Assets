@@ -1,36 +1,3 @@
-local T = {}
-T.RT_1 = {Skill = 150003}
-T.RT_2 = {Skill = 160101}
-T.RT_3 = {Attr = 160101}
-T.RT_4 = {Attr = 160102}
-T.RT_5 = {
-  [1] = {Skill = 160101},
-  [2] = {Attr = 160101},
-  [3] = {Attr = 160102}
-}
-T.RT_6 = {Skill = 160102}
-T.RT_7 = {Attr = 160103}
-T.RT_8 = {Attr = 160104}
-T.RT_9 = {
-  [1] = {Skill = 160102},
-  [2] = {Attr = 160103},
-  [3] = {Attr = 160104}
-}
-T.RT_10 = {Skill = 160103}
-T.RT_11 = {Skill = 160104}
-T.RT_12 = {Skill = 100005}
-T.RT_13 = {
-  [1] = {Skill = 160103},
-  [2] = {Skill = 160104},
-  [3] = {Skill = 100005}
-}
-T.RT_14 = {Skill = 210003}
-T.RT_15 = {Skill = 310003}
-T.RT_16 = {Skill = 310001}
-T.RT_17 = {Skill = 410003}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("SkillTree", {
   [1101] = {
     CharID = 1101,

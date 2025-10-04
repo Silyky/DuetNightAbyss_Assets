@@ -1,8 +1,3 @@
-local T = {}
-T.RT_1 = {}
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
 return ReadOnly("FlowExport", {
   ["032D57A84AC9692F53E1FB85E499AE07"] = {
     Connect = {},
