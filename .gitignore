@@ -2,8 +2,6 @@ __pycache__/
 .cursor/
 Script/
 Parsed_Json/
-Parsed_Lua/
-Parsed_Lua_Fix/
 Lua/BluePrints/
 Lua/EMCache/
 Lua/NetworkEngine/
