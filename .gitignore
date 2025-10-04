@@ -12,3 +12,5 @@ Lua/Utils/
 Lua/StoryCreator/StoryLogic/
 Lua/Datas/DesignLevel_data/
 Lua/*.lua
+UI/Materials/
+UI/WBP/
