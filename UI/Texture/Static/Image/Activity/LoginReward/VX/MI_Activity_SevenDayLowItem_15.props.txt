@@ -1,0 +1,390 @@
+Parent = Material3'/EM/Content/UI/WBP/Common/VX/MainInterfaceUI/M_SpecialFullScreen_01.M_SpecialFullScreen_01'
+ScalarParameterValues[32] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=1Strength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=1Desaturation }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=1MapExp }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=2Strength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=2Desaturation }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=2Exp }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=2LerpMax }
+        ParameterValue = 15
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=2Map_Pow }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=3Strength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=4Strength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=4Exp }
+        ParameterValue = 0.329734
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=4LerpMax }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Param_1 }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=5Strength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=5MapExp }
+        ParameterValue = 0.571785
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=5SphereHardness }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=5SphereRadius }
+        ParameterValue = 49.6891
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=CenterRadius }
+        ParameterValue = -0.646545
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=CenterHardness }
+        ParameterValue = 0.856766
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=CenterSharpness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Param_2 }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Param_3 }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Param_4 }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=K }
+        ParameterValue = 0.314286
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=Param }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=Rot }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Scale }
+        ParameterValue = 0.313094
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Strength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=RatioSpeed (S) }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=RatioTelling (S) }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=TurblentStrength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=1Map }
+        ParameterValue = Texture2D'/EM/Content/Asset/Scene/common/3Texture/T_Space_3.T_Space_3'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=2Map }
+        ParameterValue = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Noise/T_SpecialFullScreen_02.T_SpecialFullScreen_02'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=3Map }
+        ParameterValue = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Noise/T_SpecialFullScreen_04.T_SpecialFullScreen_04'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=4Map }
+        ParameterValue = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Noise/T_SpecialFullScreen_03.T_SpecialFullScreen_03'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=5Map }
+        ParameterValue = Texture2D'/EM/Content/Asset/Scene/common/3Texture/T_Sparkles.T_Sparkles'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=CenterLight_Map }
+        ParameterValue = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Noise/VX_T_Noise_0064.VX_T_Noise_0064'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Flare/VX_T_Flare_0021.VX_T_Flare_0021'
+        ParameterName = None
+    }
+}
+VectorParameterValues[17] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=1MapUV }
+        ParameterValue = { R=1, G=0.01, B=0, A=0.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=ColorMax }
+        ParameterValue = { R=0.357143, G=0.582499, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=ColorMin }
+        ParameterValue = { R=1, G=1, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=2MapUV }
+        ParameterValue = { R=2, G=0.015, B=-0.05, A=0.3 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=2Color }
+        ParameterValue = { R=2.33102, G=4.75092, B=5, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=3MapUV }
+        ParameterValue = { R=1, G=0.0008, B=0, A=0.3 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=3Color_Min }
+        ParameterValue = { R=0.07265, G=0, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=3Color_Max }
+        ParameterValue = { R=0.036086, G=0.23372, B=0.812, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = { Name=4MapUV }
+        ParameterValue = { R=2, G=0.02, B=0, A=2 }
+        ParameterName = None
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = { Name=4Color_Min }
+        ParameterValue = { R=1, G=0.660351, B=0.149908, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = { Name=4Color_Max }
+        ParameterValue = { R=1, G=0.802083, B=0.93799, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = { Name=5MapUV }
+        ParameterValue = { R=1, G=0.005, B=0.1, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = { Name=5Color }
+        ParameterValue = { R=1, G=0.458101, B=0.13141, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[13] =
+    {
+        ParameterInfo = { Name=CenterUV }
+        ParameterValue = { R=1, G=0.002, B=0, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[14] =
+    {
+        ParameterInfo = { Name=CenterLightColor }
+        ParameterValue = { R=2, G=1.96203, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[15] =
+    {
+        ParameterInfo = { Name=TurblentMask }
+        ParameterValue = { R=0.001, G=1, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[16] =
+    {
+        ParameterInfo = { Name=TurblentUV }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[8] =
+{
+    CachedReferencedTextures[0] = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Mask/T_SpecialFullScreen07.T_SpecialFullScreen07'
+    CachedReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    CachedReferencedTextures[3] = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Noise/VX_T_Noise_0044.VX_T_Noise_0044'
+    CachedReferencedTextures[4] = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Noise/VX_T_Noise_0064.VX_T_Noise_0064'
+    CachedReferencedTextures[5] = Texture2D'/EM/Content/Asset/Scene/common/3Texture/T_Sparkles.T_Sparkles'
+    CachedReferencedTextures[6] = Texture2D'/EM/Content/UI/WBP/Common/VX/UIVX/Texture/Noise/VX_T_Noise_0004.VX_T_Noise_0004'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = VX_T_Flare_0021
+    }
+}
