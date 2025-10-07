@@ -329,12 +329,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "Ymir",
+      "WeaponDescribe": "\"Zero\". The origin. The start of everything.",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "Upon using Helix Leap or [Faintlight], Berenica gains 1 stack that increases Skill Efficiency by 8.0% for 12s, up to 3 stacks.",
@@ -706,12 +705,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Venial Sinscales",
-      "WeaponDescribe": "As the years roll by, earthlings sufferingly become mediocritized.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
+      "WeaponName": "UI_WEAPON_NAME_110301",
+      "WeaponDescribe": "UI_WEAPON_DESC_110301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "[Immersion] gained from [Duo] is increased to 1.5% of Max Sanity.",
@@ -1063,12 +1061,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "Samael",
+      "WeaponDescribe": "\"The Goddess spoke again to the Seventh Saint, ‘With this sword, I forge this covenant with you and your descendants. Those with unwavering determination shall receive my blessing, and with it, this sword's protection.'\"",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "Using [In the Name of Patience] increases Character ATK by 35.0% for 15s.",
@@ -1386,14 +1383,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "Increases [Interwoven Cries] Effect Trigger Probability by 15.0% and its max Trigger Probability to 65.0%.",
       "After [Solar Eclipse] deals damage, the target takes 75.0% increased damage from [Lunar Hunt] for 3s.\\nAfter [Lunar Hunt] deals damage, the target takes 75.0% increased damage from [Solar Eclipse] for 3s.",
@@ -1730,12 +1719,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_150301",
+      "WeaponDescribe": "UI_WEAPON_DESC_150301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "Increases the effect percentage of [Sword Intent]/[String Intent] applied to [Life's A Fleeting, Shifting Tide] by 0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.04%/0.04%/0.04%/0.04%/0.04%.\\n\\nWhen there is/are 1/2 enemy/enemies within 20 metres, the mutual conversion point between [Sword Intent] and [String Intent] is increased to 3/2 points when Kezhou deals weapon damage.",
@@ -1805,12 +1793,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Elpides Abound",
-      "WeaponDescribe": "I buried a seed in the frozen earth, hoping for a harvest moon that may never come.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_150304",
+      "WeaponDescribe": "UI_WEAPON_DESC_150304",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     }
   },
   "1601": {
@@ -2079,14 +2066,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "While under [Incandescence], [Dawn Beyond Night]'s Swordwaves deal 70.0% more damage.",
       "Using [Flare] generates a [Dark Side of the Moon] field with a 10-metre radius, lasting 10s. Continuously reduces the Movement Speed of enemies within by 50.0%.",
@@ -2382,14 +2361,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "Targets granted the ability to deal additional elemental damage by [Boisterous Tea Party] gain an effect that increases their PEN stats by 6.0% for each type of additional damage effect they possess.",
       "Increases the stack cap of [Taleweaver Quill] to 45. When using [\"On a Warm Afternoon\"], Fina gains 2 additional stacks of [Taleweaver Quill] and gains 1 additional stack of [Taleweaver Quill] per second during [Boisterous Tea Party].",
@@ -2693,14 +2664,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Siren's Kiss",
-      "WeaponDescribe": "Kiss me! Snog me! Before tomorrow arrives, before young hearts grow old, and before death do us part.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "When triggering Bonus Effect, inflicts 1 additional stack of [Poison of Love] on the target.",
       "Increases the maximum number of [Aurelia Aurita] allowed on the field to 5 and the stack cap of [Poison of Love] to 8.",
@@ -2896,15 +2859,7 @@
           }
         ]
       }
-    ],
-    "Weapon": {
-      "WeaponName": "Siren's Kiss",
-      "WeaponDescribe": "Kiss me! Snog me! Before tomorrow arrives, before young hearts grow old, and before death do us part.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    }
+    ]
   },
   "2301": {
     "Profile": {
@@ -3185,14 +3140,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Shackle of Lonewolf",
-      "WeaponDescribe": "May reckless revelries compensate for your loneliness.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Guzi",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "Increases the number of [Tentacles] summoned through [Brawl For Justice!] to 12 and the maximum number of [Tentacles] that can exist at the same time to 24.",
       "When [Tentacle] deals damage, there is a 10.0% chance to reload 1 projectile for Tabethe. This effect can only be triggered once every second.",
@@ -3511,14 +3458,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "When Fushu or her nearby teammates are applied with [Nine-Needle Therapy], they ignore the target's DEF by 30.0% when dealing Skill Damage.",
       "Increases the maximum number of [Yunchi] allowed on the field at the same time to 3.",
@@ -3821,12 +3760,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "Hansel and Gretel",
+      "WeaponDescribe": "\"What do you even see in me? I have nothing to sell to you. I had nothing from the very beginning.\" \"No, Lynn. You do. What I want is your ‘dream'.\"",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "Grants 6 stacks of [Preload] when battle starts, and increases Morale by 35.0% for 60s.",
@@ -4138,14 +4076,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "Increases Hilda's Dodge Attempts by 2 and the effect [Elegant Anger] grants by 30%.",
       "Increases the length of [Hyperthermal Purgejet] by 50%.\\nWhen [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that increases damage taken from Hilda by 85.0% for 2s.",
@@ -4446,14 +4376,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "If a [Tot Popper] is detonated by a different type of [Tot Popper], restores 1 point of Sanity for Yale and Oliver; if detonated by the same type, restores 2.",
       "The Movement Speed decrease effect inflicted on enemies in [Nightmare Lab] is increased to 60.0%.",
@@ -4756,14 +4678,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Punitive Inferno",
-      "WeaponDescribe": "Burn, burn, burn! This chastening fire will consume all evil in the world.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chengjie",
-      "GUIPathVariableType": "Claymore"
-    },
     "Intron": [
       "Increases damage dealt to enemies within a 6-metre radius around Hellfire by 30.0%.",
       "Increases the HP recovery granted by [Retributive Resolve] to 0.4%.",
@@ -5022,14 +4936,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "Damage from [Spinblades] has a 30.0% chance to inflict 1 additional stack of [Laceration].",
       "Attacks from [Burgundy Twirl] can block incoming projectiles. Each stack of [Inebriation] reduces Damage Taken by 3.0%.",
@@ -5343,14 +5249,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "When [Margie's Combustible Bin] consumes [Jackpot!] stacks, there's a 30.0% chance to regain the consumed stacks.",
       "When using [Margie's Treasure Shovel], there's a 12.0% chance to deal additional damage to 1 random enemy within range once.",
@@ -5660,14 +5558,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[Electric Charge] deals AoE Damage within a 3-metre radius.",
       "When an enemy with [Electric Charge] is defeated, their [Electric Charge] is transferred to another random target within a 20-metre radius.\\nThe transferred [Electric Charge] retains its remaining duration, allowing the effect to continue on the new target.",
@@ -6013,14 +5903,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "When using [Thunder's Oracle Peal], the effect of [Four Realms Align] is additionally triggered once to generate several strikes of [Zhen-Xun Convergence].",
       "When using the Ultimate Skill, increases the [Talisman] retention chance by 3.5. The max number of stacks provided by [Mutual Generation] is increased to 6.",
@@ -6335,14 +6217,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Venial Sinscales",
-      "WeaponDescribe": "As the years roll by, earthlings sufferingly become mediocritized.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "When in [Xuanjiao Manifest] state, gains 1 extra [Reverse Scale] each time [Precipitous Thunderfall] is used.\\nUsing [Starstorm Descent] increases Weapon Attack Range by 0.6 and Skill Range by 30.0% for Yuming and the nearby teammate(s) for 8s.",
       "When Yuming or his teammates unleash [Fish-Dragon Dance], unleashes 2 additional strikes of [Fish-Dragon Dance] within a 10-metre range around the location of the target, with priority given to different target locations.",
@@ -6653,14 +6527,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Ingenious Tactics",
-      "WeaponDescribe": "The best defence is a good offence — but of course, don't forget the importance of adequate rest.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Huimou",
-      "GUIPathVariableType": "Sword"
-    },
     "Intron": [
       "When [Barrier] absorbs damage from projectiles, inflicts 1 stack of [Overwork Grudge] on the attacker for 3s, up to 2 stacks. [Overwork Grudge] is only stackable in this way.",
       "Each Randy's level increases his Ultra Shield cap by 50 points.",
@@ -6975,14 +6841,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "When taking damage from [Divine Conqueror] and [Legion's Punishment], [Chaotic Thunderorb]'s damage taken transfer ratio is increased by 8.0%.",
       "Increases [Might of Thunder] point cap to 600.\\nEach point of [Might of Thunder] increases [Legion's Punishment] damage by 0.1%.\\nEach point of [Might of Thunder] increases the damage taken transfer ratio of [Chaotic Thunderorb] by 300.0%.",
@@ -7314,12 +7172,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Elpides Abound",
-      "WeaponDescribe": "I buried a seed in the frozen earth, hoping for a harvest moon that may never come.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_510101",
+      "WeaponDescribe": "UI_WEAPON_DESC_510101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "Decreases the losing speed of [Passion For Work] by 50%.",
@@ -7614,14 +7471,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "Exiting [Stealth] state increases the weapon CRIT Chance by 60.0% for 24s.",
       "When [Fang for Fang] or [Ravenous Gnaw] generates [Fang Spike], there is a 50.0% chance to generate 1 additional [Fang Spike].",
@@ -7963,12 +7812,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "Elpides Abound",
-      "WeaponDescribe": "I buried a seed in the frozen earth, hoping for a harvest moon that may never come.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "Icarus",
+      "WeaponDescribe": "Fly. Fly... Even with false wings, like tiny flower seeds riding gentle winds, fly over the battlements, fly over the frozen earth, fly through the long night, and soar towards that scorching daylight, that warm sun.\"",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "Using [Chrysalis Dreamweave] or [Phototaxis] restores 10.0% of Psyche's Max HP and increases Psyche's damage by 35.0% for 12s.",
@@ -8275,14 +8123,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "Increases Damage dealt by teammates within the range of [Emerald Effusion] by 10.0%.",
       "During [Emerald Effusion] state, the [Azoth Projectile] Daphne gains per second increases to 3.",
@@ -8558,14 +8398,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "Blade Amberglow",
-      "WeaponDescribe": "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "While under [Incandescence], [Dawn Beyond Night]'s Swordwaves deal 70.0% more damage.",
       "Using [Flare] generates a [Dark Side of the Moon] field with a 10-metre radius, lasting 10s. Continuously reduces the Movement Speed of enemies within by 50.0%.",

@@ -329,12 +329,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_110101",
+      "WeaponDescribe": "UI_WEAPON_DESC_110101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "GRADEUP_1101_01",
@@ -706,12 +705,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10203",
-      "WeaponDescribe": "UI_WEAPON_DESC_10203",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
+      "WeaponName": "UI_WEAPON_NAME_110301",
+      "WeaponDescribe": "UI_WEAPON_DESC_110301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "GRADEUP_1103_01",
@@ -1063,12 +1061,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_150101",
+      "WeaponDescribe": "UI_WEAPON_DESC_150101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "GRADEUP_1501_01",
@@ -1386,14 +1383,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_1502_01",
       "GRADEUP_1502_02",
@@ -1730,12 +1719,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_150301",
+      "WeaponDescribe": "UI_WEAPON_DESC_150301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "GRADEUP_1503_01",
@@ -1805,12 +1793,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10204",
-      "WeaponDescribe": "UI_WEAPON_DESC_10204",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_150304",
+      "WeaponDescribe": "UI_WEAPON_DESC_150304",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     }
   },
   "1601": {
@@ -2079,14 +2066,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_1601_01",
       "GRADEUP_1601_02",
@@ -2382,14 +2361,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_1801_01",
       "GRADEUP_1801_02",
@@ -2693,14 +2664,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10201",
-      "WeaponDescribe": "UI_WEAPON_DESC_10201",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "GRADEUP_2101_01",
       "GRADEUP_2101_02",
@@ -2896,15 +2859,7 @@
           }
         ]
       }
-    ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10201",
-      "WeaponDescribe": "UI_WEAPON_DESC_10201",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    }
+    ]
   },
   "2301": {
     "Profile": {
@@ -3185,14 +3140,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10102",
-      "WeaponDescribe": "UI_WEAPON_DESC_10102",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Guzi",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_2301_01",
       "GRADEUP_2301_02",
@@ -3511,14 +3458,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_2401_01",
       "GRADEUP_2401_02",
@@ -3821,12 +3760,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_310101",
+      "WeaponDescribe": "UI_WEAPON_DESC_310101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "GRADEUP_3101_01",
@@ -4138,14 +4076,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_3102_01",
       "GRADEUP_3102_02",
@@ -4446,14 +4376,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_3103_01",
       "GRADEUP_3103_02",
@@ -4756,14 +4678,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10301",
-      "WeaponDescribe": "UI_WEAPON_DESC_10301",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chengjie",
-      "GUIPathVariableType": "Claymore"
-    },
     "Intron": [
       "GRADEUP_3201_01",
       "GRADEUP_3201_02",
@@ -5022,14 +4936,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_3202_01",
       "GRADEUP_3202_02",
@@ -5343,14 +5249,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_3301_01",
       "GRADEUP_3301_02",
@@ -5660,14 +5558,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_4101_01",
       "GRADEUP_4101_02",
@@ -6013,14 +5903,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_4102_01",
       "GRADEUP_4102_02",
@@ -6335,14 +6217,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10203",
-      "WeaponDescribe": "UI_WEAPON_DESC_10203",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "GRADEUP_4201_01",
       "GRADEUP_4201_02",
@@ -6653,14 +6527,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10104",
-      "WeaponDescribe": "UI_WEAPON_DESC_10104",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Huimou",
-      "GUIPathVariableType": "Sword"
-    },
     "Intron": [
       "GRADEUP_4202_01",
       "GRADEUP_4202_02",
@@ -6975,14 +6841,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_4301_01",
       "GRADEUP_4301_02",
@@ -7314,12 +7172,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10204",
-      "WeaponDescribe": "UI_WEAPON_DESC_10204",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_510101",
+      "WeaponDescribe": "UI_WEAPON_DESC_510101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "GRADEUP_5101_01",
@@ -7614,14 +7471,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_5102_01",
       "GRADEUP_5102_02",
@@ -7963,12 +7812,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10204",
-      "WeaponDescribe": "UI_WEAPON_DESC_10204",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_530101",
+      "WeaponDescribe": "UI_WEAPON_DESC_530101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "GRADEUP_5301_01",
@@ -8275,14 +8123,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_5401_01",
       "GRADEUP_5401_02",
@@ -8558,14 +8398,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_10101",
-      "WeaponDescribe": "UI_WEAPON_DESC_10101",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "GRADEUP_1601_01",
       "GRADEUP_1601_02",

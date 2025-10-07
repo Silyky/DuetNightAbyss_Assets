@@ -329,12 +329,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "이미르",
+      "WeaponDescribe": "'제로'. 원초. 모든 것의 시작점.",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "스파이럴 점프와 [잔광] 시전 시, 자신은 1단계의 스킬 효율 8.0% 상승 효과를 획득한다. 지속 시간 12초, 최대 3단계 중첩.",
@@ -706,12 +705,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "죄의 역린",
-      "WeaponDescribe": "날씨와 계절이 바뀌고, 세월은 흘러간다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
+      "WeaponName": "UI_WEAPON_NAME_110301",
+      "WeaponDescribe": "UI_WEAPON_DESC_110301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "[듀엣]으로 획득한 [몰입도]는 최대 정신력의 1.5%까지 상승한다.",
@@ -1063,12 +1061,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "사마엘",
+      "WeaponDescribe": "\"여신은 그 일곱 번째 성자에게 말했다. '이 검으로 네 계승자와 계약을 맺을 것이다. 인내의 의지를 가진 자는 나의 축복을 받아, 검의 가호를 받게 될 것이다.' 라고.\"",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "[인내의 이름으로] 시전 시, 자신의 공격력이 35.0% 상승한다. 지속 시간 15초.",
@@ -1386,14 +1383,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[뒤엉킨 울음] 효과 확률 상승 15.0%, 확률 상한 65.0%까지 증가.",
       "[일식]으로 대미지를 입힌 후, 대상이 3초 내 받는 [달 사냥] 대미지 상승 75.0%. \\n[달 사냥]으로 대미지를 입힌 후, 대상이 3초 내 받는 [일식]의 대미지 상승 75.0%.",
@@ -1730,12 +1719,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_150301",
+      "WeaponDescribe": "UI_WEAPON_DESC_150301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "[인생무상]의 [검의 의지], [현의 의지]마다 수익 배율 0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.04%/0.04%/0.04%/0.04%/0.04% 증가. 주변 20m 내 1/2명의 적만 있으면 무기 대미지를 입힐 때마다 전환되는 [검의 의지], [현의 의지]가 3/2 된다.",
@@ -1805,12 +1793,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "희망의 풍작",
-      "WeaponDescribe": "얼어붙은 땅에 씨앗을 심어, 오지 않을지도 모르는 수확을 기도한다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_150304",
+      "WeaponDescribe": "UI_WEAPON_DESC_150304",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     }
   },
   "1601": {
@@ -2079,14 +2066,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "자신이 [백열] 보유 시 [조석]의 검기 대미지가 70.0% 상승한다.",
       "[빛보라] 발동 시, 반경 10m의 [달의 어두운 면] 영역을 1개 생성한다. 지속 시간 10초. 영역 내의 적에게 이동 속도 50.0% 효과를 부여한다.",
@@ -2382,14 +2361,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[떠들썩한 티타임]에 부여된 추가 대미지를 보유한 대상은, 1개의 속성 추가 대미지 효과를 보유하고 있을 때마다, 모든 속성 관통 6.0% 상승.",
       "[붓 끝에 핀 꽃]의 최대 중첩 단계가 45단계까지 상승하고, [\"어느 따뜻한 오후에\"] 시전 시 추가로 2단계의 [붓 끝에 핀 꽃]을 획득하고, [떠들썩한 티타임] 영역 지속 기간 동안 매초 추가로 1단계의 [붓 끝에 핀 꽃]을 획득한다.",
@@ -2693,14 +2664,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "세이렌의 입맞춤",
-      "WeaponDescribe": "입맞춤하라! 깊게 입맞춤하라! 내일이 오기 전에, 젊은 마음이 늙기 전에, 죽음이 둘을 갈라놓기 전에.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "추가 효과 발동 시 [사랑의 독] 1단계 추가 부여.",
       "동시에 존재할 수 있는 [소환물·달의 해파리]가 최대 5개로 상승한다. [사랑의 독]의 최대 중첩 단계가 8단계로 상승한다.",
@@ -2896,15 +2859,7 @@
           }
         ]
       }
-    ],
-    "Weapon": {
-      "WeaponName": "세이렌의 입맞춤",
-      "WeaponDescribe": "입맞춤하라! 깊게 입맞춤하라! 내일이 오기 전에, 젊은 마음이 늙기 전에, 죽음이 둘을 갈라놓기 전에.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    }
+    ]
   },
   "2301": {
     "Profile": {
@@ -3185,14 +3140,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "고독의 족쇄",
-      "WeaponDescribe": "자유로운 축제가 그대가 가진 고독의 공백을 메꿀 수 있기를.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Guzi",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[정의의 집단 구타!]가 소환하는 [소환물·촉수]의 개수가 12개로 상승하며, 동시에 존재할 수 있는 최대 수량이 24개로 상승한다.",
       "[소환물·촉수] 공격으로 대미지를 입힐 시, 10.0% 확률로 [타비사]의 탄약을 1발 보충한다. 매초 최대 1회 발동.",
@@ -3511,14 +3458,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[아홉 침의 치료]를 보유한 대상은, 스킬 대미지를 입힐 시 대상의 30.0% 방어를 무시한다.",
       "동시에 존재할 수 있는 [소환물·운리] 수량이 3개까지 상승한다.",
@@ -3821,12 +3760,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "헨젤과 그레텔",
+      "WeaponDescribe": "\"도대체 내 어디가 마음에 드는 건데? 나는 너에게 줄 수 있는 게 없어. 가진 게 아무것도 없거든.\"\\n\"그렇지 않아, 린. 너한테 있는 거야. 내가 원하는 건 너의 '꿈'이거든.\"",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "전투 개시 시 [예비 장전] 6단계를 획득하고, 격양 35.0% 상승 효과를 획득한다. \\n지속 시간 60초.",
@@ -4138,14 +4076,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "회피 횟수+2, [우아한 분노] 효과 배율 30% 증가.",
       "[고온 정화 화염] 길이가 50% 상승한다. 대미지를 입힐 시 대상에게 [힐다]로부터 입은 대미지 85.0% 상승 효과를 부여한다. 지속 시간 2초.",
@@ -4446,14 +4376,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[귀요미]가 다른 유형의 [귀요미]에 의해 폭발할 경우 자신이 정신력을 1 회복하며, 같은 유형의 [귀요미]에 의해 폭발할 경우 정신력을 2 회복한다.",
       "[악몽의 실험실] 이동 속도 감소 효과가 60.0%까지 상승한다.",
@@ -4756,14 +4678,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "징벌의 지옥불",
-      "WeaponDescribe": "끝없이 불타오르라! 심판의 불이 세상의 악을 불태우리라.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chengjie",
-      "GUIPathVariableType": "Claymore"
-    },
     "Intron": [
       "자신 주위 6m 범위 내의 적에게 입히는 대미지가 30.0% 상승한다.",
       "[징벌의 결의]의 HP 지속 회복 효과가 0.4%까지 상승.",
@@ -5022,14 +4936,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[회전 비수] 대미지가 30.0% 확률로 [찢어짐] 1단계를 추가로 부여한다.",
       "감홍빛 회전의 공격이 적의 투사체를 막아낼 수 있다. [붉은 취기]를 1단계 보유할 때마다 받는 대미지가 3.0% 감소한다.",
@@ -5343,14 +5249,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[마르제의 가연 쓰레기통]을 시전해 [보물이다!] 제거 시 30.0% 확률로 제거한 [보물이다!]가 반환된다.",
       "[마르제의 만능 보물 탐색 삽] 시전 시 12.0% 확률로 범위 내 무작위 1명의 적에게 추가 대미지를 1회 입힌다.",
@@ -5660,14 +5558,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[전하]로 입힌 대미지는 반경 3m의 범위 대미지로 전환된다.",
       "[전하]를 보유한 적 처치 시, [전하]를 남은 시간에 따라 주변 20m 내의 다른 대상에게 전달한다.",
@@ -6013,14 +5903,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[진동 소리] 시전 시, [사방으로 부는 번개 바람]은 추가로 1회 여러 개의 [번개 바람의 만남] 효과를 생성한다.",
       "종결 스킬 시전 시, [샘표] 보존 확률이 3.5 증가한다. [상생]의 최대 중첩 단계는 6까지 증가한다.",
@@ -6335,14 +6217,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "죄의 역린",
-      "WeaponDescribe": "날씨와 계절이 바뀌고, 세월은 흘러간다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "[현교 빙의] 상태에서, [옥산붕]을 시전할 때마다, 추가로 1발의 [역린]을 획득한다. [적막한 은하수] 시전 시 추가로 자신과 근처 팀원에게 무기 공격 범위 0.6 상승과 스킬 범위 30.0% 상승 효과를 부여한다. 지속 시간 8초.",
       "자신과 다른 팀원이 [어룡무] 생성 시, 대상 위치 주위 10m 범위 내 대상을 선택하고 추가로 2개의 [어룡무]를 생성한다. 다른 대상을 우선적으로 선택한다.",
@@ -6653,14 +6527,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "기발한 전술",
-      "WeaponDescribe": "공격은 최선의 방어다. 단, 충분한 휴식도 중요하다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Huimou",
-      "GUIPathVariableType": "Sword"
-    },
     "Intron": [
       "[방어벽]이 투사체를 막아 대미지를 흡수할 시 투사체를 던진 대상에게 [과로의 원한] 1단계를 부여한다. 지속 시간 #3초. 해당 방법으로만 [과로의 원한] 중첩 가능. 최대 2단계 중첩.",
       "자신의 레벨에 기반하여 레벨당 최대 오버로드 실드가 50 증가한다.",
@@ -6975,14 +6841,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[소환물·혼돈의 번개구]가 [신의 권력]과 [군단 징벌]의 대미지를 입을 때, 대미지 전달 비율이 8.0% 증가한다.",
       "[만물의 힘] 상한이 600까지 증가한다. [군단 징벌]이 대미지를 입힐 시, [만물의 힘] 1당 [군단 징벌]의 대미지가 0.1% 상승한다. [소환물·혼돈의 번개구]가 대미지를 전달할 때, [만물의 힘] 1당 [소환물·혼돈의 번개구]의 대미지 전달 비율이 300.0% 증가한다.",
@@ -7314,12 +7172,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "희망의 풍작",
-      "WeaponDescribe": "얼어붙은 땅에 씨앗을 심어, 오지 않을지도 모르는 수확을 기도한다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_510101",
+      "WeaponDescribe": "UI_WEAPON_DESC_510101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "[일에 대한 열정] 감소 속도가 50% 감소한다.",
@@ -7614,14 +7471,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "자발적으로 [종적 감추기] 상태에서 나갈 때, 무기 크리티컬 확률 60.0% 상승 효과를 획득한다. 지속 시간 24초.",
       "[이에는 이]와 [물어뜯기] 효과로 [송곳니의 가시] 생성 시, 50.0% 확률로 1발을 추가로 생성한다.",
@@ -7963,12 +7812,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "희망의 풍작",
-      "WeaponDescribe": "얼어붙은 땅에 씨앗을 심어, 오지 않을지도 모르는 수확을 기도한다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "이카루스",
+      "WeaponDescribe": "날아올라라, 날아올라라. 거짓된 날개일지라도, 작은 꽃씨처럼, 부드러운 바람을 타고, 성벽을 넘어, 얼어붙은 땅을 지나, 긴 밤을 건너, 뜨거운 흰 낮, 따스한 태양을 향해 날아갈 수 있을 것이다.",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "[고치의 꿈]과 [빛 쫓기] 시전 시, 자신은 10.0%의 최대 HP를 회복하고, 입히는 대미지 35.0% 상승 효과를 획득하며, 지속 시간 12초.",
@@ -8275,14 +8123,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[흩뿌려진 비취옥] 범위 내 아군이 입히는 대미지 10.0% 상승.",
       "[흩뿌려진 비취옥] 지속 기간, 매초 획득하는 [아조트탄]이 1발까지 증가한다.",
@@ -8558,14 +8398,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "빛나는 붉은 칼날",
-      "WeaponDescribe": "베레니카가 휴대하는 무기. 황금 장식이 달린 한손도의 도신을 이룬 검은 금속이 흔히 볼 수 있는 재질이 아닌 것으로 보아, 아무리 봐도 연옥도의 평범한 주민이 가질 수 있는 무기가 아니다.",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "자신이 [백열] 보유 시 [조석]의 검기 대미지가 70.0% 상승한다.",
       "[빛보라] 발동 시, 반경 10m의 [달의 어두운 면] 영역을 1개 생성한다. 지속 시간 10초. 영역 내의 적에게 이동 속도 50.0% 효과를 부여한다.",

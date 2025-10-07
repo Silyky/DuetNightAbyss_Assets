@@ -329,12 +329,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "伊彌爾",
+      "WeaponDescribe": "「零」。原初。一切的起點。",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "螺旋跳躍和釋放「殘光」後，自身獲得1層技能效益提高8.0%，持續12秒，最多疊加3層。",
@@ -706,12 +705,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "罪愆的逆鱗",
-      "WeaponDescribe": "月寒日暖，來煎人壽。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
+      "WeaponName": "UI_WEAPON_NAME_110301",
+      "WeaponDescribe": "UI_WEAPON_DESC_110301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "「二重唱」獲得的「沉浸度」提高至最大神智的1.5%。",
@@ -1063,12 +1061,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "薩麥爾",
+      "WeaponDescribe": "“女神又對那第七位聖者說：‘我以此劍與你和你的繼承者立下契約。擁有堅忍之意誌者，將蒙我賜福，得此劍加護。’”",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "釋放[以堅忍之名]時，自身獲得攻擊提高35.0%，持續15秒。",
@@ -1386,14 +1383,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「啼鳴交織」效果概率增加15.0%，概率上限增加至65.0%。",
       "「日食」造成傷害後，目標在3秒內受到「月獵」的傷害提高75.0%；「月獵」造成傷害後，目標在3秒內受到「日食」的傷害提高75.0%。",
@@ -1730,12 +1719,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_150301",
+      "WeaponDescribe": "UI_WEAPON_DESC_150301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "「浮生多變化」的每點「劍意值」「弦意值」收益倍率增加0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.04%/0.04%/0.04%/0.04%/0.04%，自身周圍20米內僅有1/2名敵人時，每次造成武器傷害時轉化的「劍意值」「弦意值」變為3/2點。",
@@ -1805,12 +1793,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "希冀的豐稔",
-      "WeaponDescribe": "我在凍土中埋下一粒種子，祈盼著也許不會到來的收穫月。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_150304",
+      "WeaponDescribe": "UI_WEAPON_DESC_150304",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     }
   },
   "1601": {
@@ -2079,14 +2066,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "自身帶有[白熾]時，[晨昏]的劍氣傷害提高70.0%。",
       "釋放[飛芒]時，生成1個半徑10米[月之暗面]領域，持續10秒。領域內的敵人被持續附加移動速度降低50.0%的效果。",
@@ -2382,14 +2361,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "帶有「喧鬧下午茶」附加的追加傷害的目標，每帶有1種屬性的追加傷害效果，全屬性穿透提高6.0%。",
       "「夢筆生花」最多疊加層數提高至45層，釋放「「在一個暖和的午後」」時額外獲得2層「夢筆生花」，「喧鬧下午茶」領域持續期間每秒額外獲得1層「夢筆生花」。",
@@ -2693,14 +2664,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "塞壬的擁吻",
-      "WeaponDescribe": "親吻吧！深深地親吻吧！在明日來臨之前，在年輕的心蒼老之前，在死亡將二人分離之前。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "觸發額外效果時，額外附加1層「愛之毒」。",
       "「召喚物·海月水母」同時最多存在數量提高至5個，「愛之毒」最多疊加層數提高至8層。",
@@ -2896,15 +2859,7 @@
           }
         ]
       }
-    ],
-    "Weapon": {
-      "WeaponName": "塞壬的擁吻",
-      "WeaponDescribe": "親吻吧！深深地親吻吧！在明日來臨之前，在年輕的心蒼老之前，在死亡將二人分離之前。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    }
+    ]
   },
   "2301": {
     "Profile": {
@@ -3185,14 +3140,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "孤子的縛鎖",
-      "WeaponDescribe": "願恣意的狂歡可以填補你所有孤獨的缺口。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Guzi",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「正義群毆！」召喚的「召喚物·觸手」個數提高至12個，同時最多存在數量提高至24個。",
       "「召喚物·觸手」攻擊造成傷害時，有10.0%概率為「塔比瑟」補充1枚彈藥，每秒最多觸發1次。",
@@ -3511,14 +3458,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "帶有「九針治未」的目標，造成技能傷害時無視目標30.0%防禦。",
       "「召喚物·雲螭」同時最多存在數量提高至3個。",
@@ -3821,12 +3760,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "漢塞爾與格雷特",
+      "WeaponDescribe": "「你到底看上我什麼？我沒有什麼東西可以出賣給你。我從一開始就一無所有。」 「不，琳恩。你有的。我想要的是，你的『夢想』。」",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "進入戰鬥時，獲得6層「預裝填」。同時獲得昂揚提高35.0%，持續60秒。",
@@ -4138,14 +4076,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "閃避次數+2，「優雅怒意」效果倍率增加30%。",
       "「高溫祛汙焰束」長度提高50%，造成傷害時為目標附加受到來自「希爾妲」的傷害提高85.0%效果，持續2秒。",
@@ -4446,14 +4376,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「小可愛」如果被不同類型的「小可愛」引爆，自身回復1點神智；如果被同類型的「小可愛」引爆，自身回復2點神智。",
       "「噩夢實驗室」的移動速度降低效果提高至60.0%。",
@@ -4756,14 +4678,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "懲戒的煉火",
-      "WeaponDescribe": "燃燒，燃燒，燃燒！這裁決之煉火將焚盡世間邪惡。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chengjie",
-      "GUIPathVariableType": "Claymore"
-    },
     "Intron": [
       "對自身周圍6米範圍內的敵人造成的傷害提高30.0%。",
       "「懲戒決意」的生命值持續回複效果提高至0.4%。",
@@ -5022,14 +4936,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "來自[匕首輪]的傷害有30.0%概率額外附加1層[裂傷]。",
       "來自甘紅回旋的攻擊可抵擋敵方投射物，每層持有1層[赤醺]，受到的傷害降低3.0%。",
@@ -5343,14 +5249,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "釋放「瑪爾潔的可燃垃圾箱」移除「撿到寶了！」後，有30.0%的概率返還移除的「撿到寶了！」。",
       "釋放「瑪爾潔的萬能尋寶鏟」時，有12.0%概率對範圍內的隨機1個敵人額外造成1次傷害。",
@@ -5660,14 +5558,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「電荷」造成的傷害變為半徑3米的範圍傷害。",
       "帶有「電荷」的敵人被擊敗時，將「電荷」按照剩餘時間傳遞給其周圍20米內的其他目標。",
@@ -6013,14 +5903,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "釋放「震有聲」時，「雷風齊四方」額外觸發1次生成若乾個「雷風相與」的效果。",
       "釋放終結技時，保留「泉符」的概率增加3.5。「相生」的最多疊加層數增加至6。",
@@ -6335,14 +6217,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "罪愆的逆鱗",
-      "WeaponDescribe": "月寒日暖，來煎人壽。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "「玄蛟附身」狀態中，每釋放次「玉山崩」時，額外獲得1枚「逆鱗」。釋放「星河寥落」時額外為自身及附近隊友附加武器攻擊範圍提高0.6和技能範圍提高30.0%的效果，持續8秒。",
       "自身及其他隊友生成「魚龍舞」時，在目標位置周圍10米範圍內選取目標額外生成2道「魚龍舞」，優先選擇不同目標。",
@@ -6653,14 +6527,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "慧謀的攻守",
-      "WeaponDescribe": "進攻是最好的防守——當然 ，別忘了，充足的休息也是很重要的。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Huimou",
-      "GUIPathVariableType": "Sword"
-    },
     "Intron": [
       "「屏障」抵擋投射物吸收其傷害時，對傷害來源附加1層「過勞怨念」，持續3秒，僅此方式可疊加「過勞怨念」，最多疊加2層。",
       "基於自身等級，每級增加自身50點超限護盾上限。",
@@ -6975,14 +6841,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「召喚物·紊亂雷球」受到「奪神權柄」和「軍團懲戒」的傷害時，傷害傳遞比例增加8.0%。",
       "「萬鈞之勢」上限增加至600點，「軍團懲戒」造成傷害時，每有1點「萬鈞之勢」令「軍團懲戒」的傷害提高0.1%；「召喚物·紊亂雷球」傳遞傷害時，每有1點「萬鈞之勢」令「召喚物·紊亂雷球」傳遞傷害的比例增加300.0%。",
@@ -7314,12 +7172,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "希冀的豐稔",
-      "WeaponDescribe": "我在凍土中埋下一粒種子，祈盼著也許不會到來的收穫月。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_510101",
+      "WeaponDescribe": "UI_WEAPON_DESC_510101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "「工作熱情」下降速度降低50%。",
@@ -7614,14 +7471,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "主動退出「匿蹤」狀態時，獲得武器暴擊率提高60.0%效果，持續24秒。",
       "「以牙還牙」和「噬咬」效果生成「獠牙之刺」時，有50.0%概率額外生成1枚。",
@@ -7963,12 +7812,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "希冀的豐稔",
-      "WeaponDescribe": "我在凍土中埋下一粒種子，祈盼著也許不會到來的收穫月。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "伊卡洛斯",
+      "WeaponDescribe": "飛吧，飛吧。即使是虛假的翅膀，也能如小小的花種，乘著輕柔的風，飛越城牆，飛越凍土，飛越長夜，飛向那熾熱的白晝，那溫暖的太陽。",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "釋放「抽繭成夢」和「逐光」時，回複自身10.0%的最大生命，並獲得造成的傷害提高35.0%效果，持續12秒。",
@@ -8275,14 +8123,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「翠玉彌散」範圍內的友方目標，造成的傷害提高10.0%。",
       "「翠玉彌散」持續期間，每秒獲得「阿佐特彈」增加至3發。",
@@ -8558,14 +8398,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "輝珀刃",
-      "WeaponDescribe": "貝蕾妮卡攜帶的武器。綴有黃金裝飾的單手刀，刀身的黑色金屬並非隨處可見的尋常材質——很顯然，這並不是淨界島上的村民可能擁有的武器。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "自身帶有[白熾]時，[晨昏]的劍氣傷害提高70.0%。",
       "釋放[飛芒]時，生成1個半徑10米[月之暗面]領域，持續10秒。領域內的敵人被持續附加移動速度降低50.0%的效果。",

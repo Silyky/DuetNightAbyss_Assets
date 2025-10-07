@@ -329,12 +329,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "ユミル",
+      "WeaponDescribe": "「ゼロ」。原初。すべての根源。",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "スピンジャンプまたは「ルミネセンス」を発動すると、12秒間スキル効率が8.0%アップする（最大3回まで重ねがけ可）。",
@@ -706,12 +705,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "罪業の逆鱗",
-      "WeaponDescribe": "日が昇り月が沈み、季節は巡り、人は老いる。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
+      "WeaponName": "UI_WEAPON_NAME_110301",
+      "WeaponDescribe": "UI_WEAPON_DESC_110301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "「デュエット」で獲得する「イマージョン」が最大SPの1.5%までアップする。",
@@ -1063,12 +1061,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "サマエル",
+      "WeaponDescribe": "「女神は7人目の聖者に告げる。『私はこの剣により、汝と汝の後継らと契約を結びましょう。ペイシェンスの意志を有しているならば、得られるはずです。この剣に宿る私の祝福を』」",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "[堅忍の名のもとに]発動時、攻撃力35.0%アップ、15秒継続。",
@@ -1386,14 +1383,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「百鳥の輪唱」効果確率が15.0%アップする（確率上限が65.0%までアップ）。",
       "「日食」でダメージを与えると、3秒以内に目標が受ける「月食」ダメージが75.0%アップする。\\n「月食」でダメージを与えると、3秒以内に目標が受ける「日食」ダメージが75.0%アップする。",
@@ -1730,12 +1719,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "UI_WEAPON_NAME_150301",
+      "WeaponDescribe": "UI_WEAPON_DESC_150301",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "「無常たる浮世」の「剣意」と「弦意」バフ倍率が0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.04%/0.04%/0.04%/0.04%/0.04%アップする。\\n自身の20メートル以内に敵1体しかいない場合は、武器ダメージで転換された「剣意」は3点となる。\\n自身の20メートル以内に敵2体しかいない場合は、武器ダメージで転換された「弦意」は2点となる。",
@@ -1805,12 +1793,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "ホープアバンダンス",
-      "WeaponDescribe": "私は凍土に種を蒔いた。いつ来るとも知れぬ収穫の日を、迎えられるよう祈って。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_150304",
+      "WeaponDescribe": "UI_WEAPON_DESC_150304",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     }
   },
   "1601": {
@@ -2079,14 +2066,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "自身が[白熱]を持つ時、[晨昏]の剣気ダメージが70.0%アップする。",
       "[飛芒]を発動すると半径10mの[月の裏]領域を生成し、10秒間継続。領域内の敵は移動速度ダウン50.0%を継続して受ける。",
@@ -2382,14 +2361,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「あるうららかな午後のこと」の追加ダメージ効果を持つ目標の全属性貫通が、1つの属性追加ダメージ効果につき6.0%アップする。",
       "「夢に咲く花」が最大45スタックまで重ねがけ可能。「あるうららかな午後」を発動する時、追加で「夢に咲く花」を2スタック得る。「にぎやかなお茶会」領域展開中、1秒ごとに「夢に咲く花」を追加で1スタック得る。",
@@ -2693,14 +2664,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "セイレーンのくちづけ",
-      "WeaponDescribe": "くちづけを、芯まで深く唇を重ねたいの。明日が来る前に、乙女の心が老いる前に、死がふたりを分かつ前に。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "追加効果を発動すると「愛の毒」1トークンを追加で付加。",
       "「召喚ユニット‐クラゲ」がフィールドに同時に存在できる数が最大5匹まで、「愛の毒」の重ねがけできる回数が最大8回までになる。",
@@ -2896,15 +2859,7 @@
           }
         ]
       }
-    ],
-    "Weapon": {
-      "WeaponName": "セイレーンのくちづけ",
-      "WeaponDescribe": "くちづけを、芯まで深く唇を重ねたいの。明日が来る前に、乙女の心が老いる前に、死がふたりを分かつ前に。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Sairen",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Sairen",
-      "GUIPathVariableType": "Polearm"
-    }
+    ]
   },
   "2301": {
     "Profile": {
@@ -3185,14 +3140,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "孤独の鎖",
-      "WeaponDescribe": "思うがままの狂宴が、あなたの孤独を埋めてくれますように。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Guzi",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Guzi",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「正義のタコ殴りだ！」で召喚できる「召喚ユニット‐触手」の数が12本になり、フィールドに同時に24本まで存在できる。",
       "「召喚ユニット‐触手」の攻撃でダメージを与えると、10.0%の確率で「タビテ」の弾薬が1発補充される。1秒ごとに1回のみ発動可能。",
@@ -3511,14 +3458,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「九針擁護」を持つ目標がスキルダメージを与える時、目標の防御力を30.0%無視する。",
       "フィールドに同時に存在する「召喚ユニット‐雲龍」の最大数が3体まで増加。",
@@ -3821,12 +3760,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
+      "WeaponName": "ヘンゼル&グレーテル",
+      "WeaponDescribe": "「いったいアタシの何を気に入ったってんだ？お前なんざにくれてやれるものなんて微塵もねぇ。はなからアタシはなんにも持っちゃいねぇのにさ」\\n「いえ、リーン。あなたは持っている。私が欲しいのは、あなたの『夢』よ」",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "戦闘開始時、「予装填」を6トークン獲得し、同時に高揚が35.0%アップ。この効果は60秒持続。",
@@ -4138,14 +4076,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "回避回数+2、「華麗なる怒り」効果倍率30%アップ。",
       "「高温洗浄フレイム」の長さが50%アップする。ダメージを与えると、その目標は2秒間「ヒルダ」から受けるダメージが85.0%アップする。",
@@ -4446,14 +4376,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「キュートちゃん」が異なる種類の「キュートちゃん」によって誘爆されると、自身のSPが1Pt回復する。同じ種類の「キュートちゃん」によって誘爆されると、イェール＆オリバーのSPが2回復する。",
       "「悪夢の実験室」の移動速度ダウン効果が60.0%までアップ。",
@@ -4756,14 +4678,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "プルガトリウム",
-      "WeaponDescribe": "燃えろ、燃えろ、燃え尽きろ！裁きの煉火はこの世の邪悪すべてを燃やし尽くすであろう。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Chengjie",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Chengjie",
-      "GUIPathVariableType": "Claymore"
-    },
     "Intron": [
       "ヘルファイアの6メートル範囲内の敵に対して、与ダメージが30.0%アップ。",
       "「パニッシュディシジョン」のHP持続回復効果が0.4%までアップする。",
@@ -5022,14 +4936,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "[回転ダガー]のダメージは30.0%の確率で追加の[裂傷]1スタックを付与。",
       "[紅蓮回転斬]の攻撃は敵の飛び道具を防御可能。[紅酔]1層ごとに被ダメージが3.0%ダウン。",
@@ -5343,14 +5249,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「マギーの燃えるゴミ箱」を発動して「お宝はっけーん！」を解除すると、30.0%の確率で解除された「お宝はっけーん！」が復活する。",
       "「マギーの万能シャベル」を放つと、12.0%の確率で範囲内のランダムな敵1体にダメージを与える。",
@@ -5660,14 +5558,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「エレキテル」の与ダメージ半径が3メートルに拡大。",
       "「電荷」を持っている敵が倒されると、残り時間に応じて周囲20メートル内の他の目標に伝播する。",
@@ -6013,14 +5903,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「雷鳴招来」を発動する時、「雷風四方陣」が追加でいくつかの「雷風相和」を1回生成する。",
       "必殺技を発動する時、「泉の符」の保留確率が3.5アップする。「相生」は最大6まで重ねがけ可。",
@@ -6335,14 +6217,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "罪業の逆鱗",
-      "WeaponDescribe": "日が昇り月が沈み、季節は巡り、人は老いる。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Polearm_Zuiqian",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Polearm_Zuiqian",
-      "GUIPathVariableType": "Polearm"
-    },
     "Intron": [
       "「ミズチ憑依」状態では、「玉山崩れ」を発動するたびに追加で1枚の「逆鱗」を得る。\\n「星川凋零」を発動する時、8秒間追加で自身および近くにいる隊員の武器攻撃範囲を0.6、スキル範囲を30.0%アップさせる。",
       "自身および他の隊員が「魚竜演舞」を生成する時、目標位置を中心とする10メートル範囲内の目標を選択して2つの追加「魚竜演舞」を生成する。",
@@ -6653,14 +6527,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "ストラタジャム",
-      "WeaponDescribe": "攻撃は最大の防御である。――だが、忘れてはならない。最重要事項は休息である。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Sword_Huimou",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Sword_Huimou",
-      "GUIPathVariableType": "Sword"
-    },
     "Intron": [
       "「バリア」が投射物を防いでそのダメージを吸収する際、ダメージ源に「残業の怨み」を1トークン付加、3秒持続。「残業の怨み」はこの方法でのみ重ねがけが可能、最大2トークンまで重ねがけ可能。",
       "自身のレベルに基づき、レベルごとに過負荷シールドの上限が50Ptアップする。",
@@ -6975,14 +6841,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「召喚ユニット・サンダーボール」が「エクスディウム」もしくは「軍団懲戒」からのダメージを受けると、リンクされた敵へのダメージ伝達率が8.0%アップ、最大で4回までアップ可能。",
       "「雷霆万鈞」の上限が600までアップする。「軍団懲戒」がダメージを与える時、「雷霆万鈞」1ptごとにダメージが0.1%アップする。また、「召喚ユニット‐サンダーボール」がダメージを伝達する時、「雷霆万鈞」1ptごとにダメージ伝達率が300.0%アップする。",
@@ -7314,12 +7172,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "ホープアバンダンス",
-      "WeaponDescribe": "私は凍土に種を蒔いた。いつ来るとも知れぬ収穫の日を、迎えられるよう祈って。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "UI_WEAPON_NAME_510101",
+      "WeaponDescribe": "UI_WEAPON_DESC_510101",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "「ヤル気」の減少速度が50%ダウンする。",
@@ -7614,14 +7471,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "自ら「潜行」状態を解除する時、24秒間武器のクリティカル率が60.0%アップする。",
       "「歯には歯を」と「嚙みつく」の効果によって「ファングスラスト」を生成する時、50.0%の確率で追加で1本生成する。",
@@ -7963,12 +7812,11 @@
       }
     ],
     "Weapon": {
-      "WeaponName": "ホープアバンダンス",
-      "WeaponDescribe": "私は凍土に種を蒔いた。いつ来るとも知れぬ収穫の日を、迎えられるよう祈って。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Scythe_Xiji",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Scythe_Xiji",
-      "GUIPathVariableType": "Scythe"
+      "WeaponName": "イカルス",
+      "WeaponDescribe": "飛べ、飛ぶのだ。たとえ偽りの翼であっても、小さな花の種のように優しい風に乗って飛べるはず。城壁を越え、凍土を越えて、長い夜さえも飛び越えて、あの灼熱の昼へと向かって、あの暖かい太陽へと向かって。",
+      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
     },
     "Intron": [
       "「繭から紡ぐ夢」および「フロウライト」を発動する時、自身の最大HPの10.0%を回復して12秒間与ダメージが35.0%アップする。",
@@ -8275,14 +8123,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "「ジェイドミラージュ」範囲内の味方の与ダメージが10.0%アップする。",
       "「ジェイドミラージュ」持続時間中、1秒ごとに獲得する「アゾット弾」が3発まで増加。",
@@ -8558,14 +8398,6 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "アンバーエッジ",
-      "WeaponDescribe": "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Broadsword_Huipo",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Huipo",
-      "GUIPathVariableType": "Broadsword"
-    },
     "Intron": [
       "自身が[白熱]を持つ時、[晨昏]の剣気ダメージが70.0%アップする。",
       "[飛芒]を発動すると半径10mの[月の裏]領域を生成し、10秒間継続。領域内の敵は移動速度ダウン50.0%を継続して受ける。",
