@@ -1096,7 +1096,7 @@ return ReadOnly("ShopItem", {
     IsSpPopup = 1,
     ItemId = 140201,
     ItemType = "Skin",
-    Price = 50,
+    Price = 25,
     PriceType = 111,
     PurchaseLimit = 1,
     Sequence = 97,

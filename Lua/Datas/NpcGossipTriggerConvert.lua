@@ -287,34 +287,34 @@ return ReadOnly("NpcGossipTriggerConvert", {
       [85102] = true
     },
     [920105] = {
-  [82101] = true,
-  [83201] = true
-},
+      [82101] = true,
+      [83201] = true
+    },
     [920106] = {
-  [82101] = true,
-  [82301] = true
-},
+      [82101] = true,
+      [82301] = true
+    },
     [920107] = {},
     [920108] = {
       [82301] = true,
       [83201] = true
     },
     [920109] = {
-  [82101] = true,
-  [82301] = true
-},
+      [82101] = true,
+      [82301] = true
+    },
     [920110] = {
-  [81501] = true,
-  [82301] = true
-},
+      [81501] = true,
+      [82301] = true
+    },
     [920111] = {
       [83201] = true,
       [84301] = true
     },
     [920112] = {
-  [82101] = true,
-  [83201] = true
-},
+      [82101] = true,
+      [83201] = true
+    },
     [920113] = {
       [83201] = true,
       [84202] = true
@@ -324,29 +324,29 @@ return ReadOnly("NpcGossipTriggerConvert", {
       [85102] = true
     },
     [920115] = {
-  [81503] = true,
-  [84201] = true
-},
+      [81503] = true,
+      [84201] = true
+    },
     [920116] = {
       [83201] = true,
       [84201] = true
     },
     [920117] = {
-  [84202] = true,
-  [84301] = true
-},
+      [84202] = true,
+      [84301] = true
+    },
     [920118] = {
-  [83101] = true,
-  [84202] = true
-},
+      [83101] = true,
+      [84202] = true
+    },
     [920119] = {
       [81101] = true,
       [84202] = true
     },
     [920120] = {
-  [84301] = true,
-  [85401] = true
-},
+      [84301] = true,
+      [85401] = true
+    },
     [920121] = {},
     [920122] = {},
     [920123] = {
@@ -354,13 +354,13 @@ return ReadOnly("NpcGossipTriggerConvert", {
       [85102] = true
     },
     [920124] = {
-  [84202] = true,
-  [84301] = true
-},
+      [84202] = true,
+      [84301] = true
+    },
     [920125] = {
-  [85102] = true,
-  [85301] = true
-},
+      [85102] = true,
+      [85301] = true
+    },
     [920126] = {},
     [920127] = {
       [85101] = true,
@@ -391,9 +391,9 @@ return ReadOnly("NpcGossipTriggerConvert", {
       [85101] = true
     },
     [920134] = {
-  [83101] = true,
-  [84202] = true
-},
+      [83101] = true,
+      [84202] = true
+    },
     [920135] = {
       [83101] = true,
       [84301] = true
@@ -411,13 +411,13 @@ return ReadOnly("NpcGossipTriggerConvert", {
       [83102] = true
     },
     [920139] = {
-  [83102] = true,
-  [83301] = true
-},
+      [83102] = true,
+      [83301] = true
+    },
     [920140] = {
-  [81801] = true,
-  [85102] = true
-},
+      [81801] = true,
+      [85102] = true
+    },
     [920141] = {
       [81801] = true,
       [85101] = true
@@ -428,19 +428,19 @@ return ReadOnly("NpcGossipTriggerConvert", {
     },
     [920143] = {},
     [920144] = {
-  [81801] = true,
-  [85102] = true
-},
+      [81801] = true,
+      [85102] = true
+    },
     [920145] = {
-  [85102] = true,
-  [85301] = true
-},
+      [85102] = true,
+      [85301] = true
+    },
     [920146] = {},
     [920147] = {},
     [920148] = {
-  [83102] = true,
-  [83301] = true
-},
+      [83102] = true,
+      [83301] = true
+    },
     [920149] = {
       [81801] = true,
       [83301] = true
@@ -475,9 +475,9 @@ return ReadOnly("NpcGossipTriggerConvert", {
       [85401] = true
     },
     [920158] = {
-  [84301] = true,
-  [85401] = true
-},
+      [84301] = true,
+      [85401] = true
+    },
     [920159] = {
       [81103] = true,
       [85401] = true
@@ -529,18 +529,18 @@ return ReadOnly("NpcGossipTriggerConvert", {
       [83102] = true
     },
     [920176] = {
-  [81503] = true,
-  [84201] = true
-},
+      [81503] = true,
+      [84201] = true
+    },
     [920177] = {
       [81501] = true,
       [81503] = true
     },
     [920178] = {},
     [920179] = {
-  [81501] = true,
-  [82301] = true
-},
+      [81501] = true,
+      [82301] = true
+    },
     [920180] = {
       [81501] = true,
       [83101] = true
@@ -549,200 +549,334 @@ return ReadOnly("NpcGossipTriggerConvert", {
   },
   TriggerPointMap = {
     [910101] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910102] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910103] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910104] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910105] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910106] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910107] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910108] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910109] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910110] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910111] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910112] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910113] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910114] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910115] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910116] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910117] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910118] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910119] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910120] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910121] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910122] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
     [910123] = {
-  ShowNpc_Scene1 = true,
-  ShowNpc_Scene2 = true,
-  ShowNpc_Scene3 = true
-},
-    [920101] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920102] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920103] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920104] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920105] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920106] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+      ShowNpc_Scene1 = true,
+      ShowNpc_Scene2 = true,
+      ShowNpc_Scene3 = true
+    },
+    [920101] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920102] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920103] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920104] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920105] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920106] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920107] = {},
-    [920108] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920109] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920110] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920111] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920112] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920113] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920114] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920115] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920116] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920117] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920118] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920119] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920120] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920108] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920109] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920110] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920111] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920112] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920113] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920114] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920115] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920116] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920117] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920118] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920119] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920120] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920121] = {},
     [920122] = {},
-    [920123] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920124] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920125] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920123] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920124] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920125] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920126] = {},
-    [920127] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920128] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920129] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920130] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920131] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920132] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920133] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920134] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920135] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920136] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920137] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920138] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920139] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920140] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920141] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920142] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920127] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920128] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920129] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920130] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920131] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920132] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920133] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920134] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920135] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920136] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920137] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920138] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920139] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920140] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920141] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920142] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920143] = {},
-    [920144] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920145] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920146] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920147] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920148] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920149] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920150] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920151] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920144] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920145] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920146] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920147] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920148] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920149] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920150] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920151] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920152] = {},
-    [920153] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920154] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920155] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920156] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920157] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920158] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920159] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920160] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920161] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920153] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920154] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920155] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920156] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920157] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920158] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920159] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920160] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920161] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920162] = {},
-    [920163] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920163] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920164] = {},
-    [920165] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920166] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920165] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920166] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920167] = {},
-    [920168] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920169] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920168] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920169] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920170] = {},
     [920171] = {},
-    [920172] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920173] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920172] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920173] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920174] = {},
-    [920175] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920176] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920177] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920175] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920176] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920177] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920178] = {},
-    [920179] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
-    [920180] = {ShowNpc_Scene1 = true, ShowNpc_Scene2 = true},
+    [920179] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
+    [920180] = {
+      ShowNpc_Scene1 = true, ShowNpc_Scene2 = true
+    },
     [920181] = {}
   }
 })

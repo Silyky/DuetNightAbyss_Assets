@@ -3,42 +3,54 @@ return ReadOnly("Target", {
   [101] = {
     TargetId = 101,
     TargetParam = {
-      [1] = {"10"}
+      [1] = {
+        "10"
+      }
     },
     TargetType = 10001
   },
   [102] = {
     TargetId = 102,
     TargetParam = {
-      [1] = {"20"}
+      [1] = {
+        "20"
+      }
     },
     TargetType = 10001
   },
   [103] = {
     TargetId = 103,
     TargetParam = {
-      [1] = {"30"}
+      [1] = {
+        "30"
+      }
     },
     TargetType = 10001
   },
   [104] = {
     TargetId = 104,
     TargetParam = {
-      [1] = {"40"}
+      [1] = {
+        "40"
+      }
     },
     TargetType = 10001
   },
   [105] = {
     TargetId = 105,
     TargetParam = {
-      [1] = {"50"}
+      [1] = {
+        "50"
+      }
     },
     TargetType = 10001
   },
   [106] = {
     TargetId = 106,
     TargetParam = {
-      [1] = {"60"}
+      [1] = {
+        "60"
+      }
     },
     TargetType = 10001
   },
@@ -46,14 +58,18 @@ return ReadOnly("Target", {
   [301] = {
     TargetId = 301,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 10003
   },
   [302] = {
     TargetId = 302,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10003
   },
@@ -832,7 +848,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9001,
     TargetParam = {
-      [1] = {"1"},
+      [1] = {
+        "1"
+      },
       [2] = {
         "102",
         "103",
@@ -848,7 +866,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9002,
     TargetParam = {
-      [1] = {"1"},
+      [1] = {
+        "1"
+      },
       [2] = {
         "103",
         "104",
@@ -863,7 +883,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9003,
     TargetParam = {
-      [1] = {"1"},
+      [1] = {
+        "1"
+      },
       [2] = {"104", "105"}
     },
     TargetType = 9001
@@ -874,7 +896,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9004,
     TargetParam = {
-      [1] = {"1"},
+      [1] = {
+        "1"
+      },
       [2] = {"105"}
     },
     TargetType = 9001
@@ -892,7 +916,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9101,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 9002
   },
@@ -902,7 +928,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9102,
     TargetParam = {
-      [1] = {"2"}
+      [1] = {
+        "2"
+      }
     },
     TargetType = 9002
   },
@@ -912,7 +940,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9103,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 9002
   },
@@ -922,7 +952,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9104,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 9002
   },
@@ -932,7 +964,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9111,
     TargetParam = {
-      [1] = {"6"}
+      [1] = {
+        "6"
+      }
     },
     TargetType = 9005
   },
@@ -942,7 +976,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9112,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 9005
   },
@@ -975,7 +1011,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9201,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 9003
   },
@@ -985,7 +1023,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9202,
     TargetParam = {
-      [1] = {"2"}
+      [1] = {
+        "2"
+      }
     },
     TargetType = 9003
   },
@@ -995,7 +1035,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9203,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 9003
   },
@@ -1005,7 +1047,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9204,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 9003
   },
@@ -1015,7 +1059,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9205,
     TargetParam = {
-      [1] = {"5"}
+      [1] = {
+        "5"
+      }
     },
     TargetType = 9003
   },
@@ -1025,7 +1071,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9206,
     TargetParam = {
-      [1] = {"6"}
+      [1] = {
+        "6"
+      }
     },
     TargetType = 9003
   },
@@ -1035,7 +1083,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9207,
     TargetParam = {
-      [1] = {"7"}
+      [1] = {
+        "7"
+      }
     },
     TargetType = 9003
   },
@@ -1167,7 +1217,9 @@ return ReadOnly("Target", {
     },
     TargetId = 9500,
     TargetParam = {
-      [1] = {"1"},
+      [1] = {
+        "1"
+      },
       [2] = {"100"}
     },
     TargetType = 9009
@@ -1175,14 +1227,18 @@ return ReadOnly("Target", {
   [10101] = {
     TargetId = 10101,
     TargetParam = {
-      [1] = {"101"}
+      [1] = {
+        "101"
+      }
     },
     TargetType = 10101
   },
   [10102] = {
     TargetId = 10102,
     TargetParam = {
-      [1] = {"102"}
+      [1] = {
+        "102"
+      }
     },
     TargetType = 10101
   },
@@ -1264,17 +1320,17 @@ return ReadOnly("Target", {
     TargetId = 10110,
     TargetParam = {
       [1] = {
-  "5021010",
-  "5021011",
-  "5021020",
-  "5021021",
-  "5021030",
-  "5021031",
-  "5021040",
-  "5021041",
-  "5021050",
-  "5021051"
-}
+        "5021010",
+        "5021011",
+        "5021020",
+        "5021021",
+        "5021030",
+        "5021031",
+        "5021040",
+        "5021041",
+        "5021050",
+        "5021051"
+      }
     },
     TargetType = 10101
   },
@@ -1419,7 +1475,9 @@ return ReadOnly("Target", {
   [10120] = {
     TargetId = 10120,
     TargetParam = {
-      [1] = {"206"}
+      [1] = {
+        "206"
+      }
     },
     TargetType = 10101
   },
@@ -1498,14 +1556,18 @@ return ReadOnly("Target", {
   [10201] = {
     TargetId = 10201,
     TargetParam = {
-      [1] = {"101"}
+      [1] = {
+        "101"
+      }
     },
     TargetType = 10102
   },
   [10202] = {
     TargetId = 10202,
     TargetParam = {
-      [1] = {"102"}
+      [1] = {
+        "102"
+      }
     },
     TargetType = 10102
   },
@@ -1533,7 +1595,9 @@ return ReadOnly("Target", {
   [10206] = {
     TargetId = 10206,
     TargetParam = {
-      [1] = {"206"}
+      [1] = {
+        "206"
+      }
     },
     TargetType = 10102
   },
@@ -1561,22 +1625,28 @@ return ReadOnly("Target", {
   [10301] = {
     TargetId = 10301,
     TargetParam = {
-      [1] = {"Fish"},
+      [1] = {
+        "Fish"
+      },
       [2] = {
-  "1",
-  "2",
-  "3",
-  "4",
-  "5"
-}
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      }
     },
     TargetType = 10103
   },
   [10302] = {
     TargetId = 10302,
     TargetParam = {
-      [1] = {"Fish"},
-      [2] = {"5"}
+      [1] = {
+        "Fish"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10103
   },
@@ -1585,12 +1655,12 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"Read"},
       [2] = {
-  "1",
-  "2",
-  "3",
-  "4",
-  "5"
-}
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      }
     },
     TargetType = 10103
   },
@@ -1674,214 +1744,306 @@ return ReadOnly("Target", {
   [30301] = {
     TargetId = 30301,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10303
   },
   [30302] = {
     TargetId = 30302,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 10303
   },
   [30303] = {
     TargetId = 30303,
     TargetParam = {
-      [1] = {"5"}
+      [1] = {
+        "5"
+      }
     },
     TargetType = 10303
   },
   [30304] = {
     TargetId = 30304,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 10303
   },
   [30305] = {
     TargetId = 30305,
     TargetParam = {
-      [1] = {"2"}
+      [1] = {
+        "2"
+      }
     },
     TargetType = 10303
   },
   [30401] = {
     TargetId = 30401,
     TargetParam = {
-      [1] = {"7"}
+      [1] = {
+        "7"
+      }
     },
     TargetType = 10304
   },
   [30402] = {
     TargetId = 30402,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10304
   },
   [30403] = {
     TargetId = 30403,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 10304
   },
   [30404] = {
     TargetId = 30404,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 10304
   },
   [30405] = {
     TargetId = 30405,
     TargetParam = {
-      [1] = {"5"}
+      [1] = {
+        "5"
+      }
     },
     TargetType = 10304
   },
   [30501] = {
     TargetId = 30501,
     TargetParam = {
-      [1] = {"Melee"},
-      [2] = {"7"}
+      [1] = {
+        "Melee"
+      },
+      [2] = {
+        "7"
+      }
     },
     TargetType = 10305
   },
   [30502] = {
     TargetId = 30502,
     TargetParam = {
-      [1] = {"Ranged"},
-      [2] = {"7"}
+      [1] = {
+        "Ranged"
+      },
+      [2] = {
+        "7"
+      }
     },
     TargetType = 10305
   },
   [30503] = {
     TargetId = 30503,
     TargetParam = {
-      [1] = {"Melee"},
-      [2] = {"7"}
+      [1] = {
+        "Melee"
+      },
+      [2] = {
+        "7"
+      }
     },
     TargetType = 10305
   },
   [30504] = {
     TargetId = 30504,
     TargetParam = {
-      [1] = {"Ranged"},
-      [2] = {"3"}
+      [1] = {
+        "Ranged"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10305
   },
   [30601] = {
     TargetId = 30601,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"3"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10306
   },
   [30602] = {
     TargetId = 30602,
     TargetParam = {
-      [1] = {"2"},
-      [2] = {"3"}
+      [1] = {
+        "2"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10306
   },
   [30603] = {
     TargetId = 30603,
     TargetParam = {
-      [1] = {"3"},
-      [2] = {"3"}
+      [1] = {
+        "3"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10306
   },
   [30604] = {
     TargetId = 30604,
     TargetParam = {
-      [1] = {"4"},
-      [2] = {"3"}
+      [1] = {
+        "4"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10306
   },
   [30605] = {
     TargetId = 30605,
     TargetParam = {
-      [1] = {"5"},
-      [2] = {"3"}
+      [1] = {
+        "5"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10306
   },
   [30606] = {
     TargetId = 30606,
     TargetParam = {
-      [1] = {"3"},
-      [2] = {"5"}
+      [1] = {
+        "3"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10306
   },
   [30607] = {
     TargetId = 30607,
     TargetParam = {
-      [1] = {"4"},
-      [2] = {"5"}
+      [1] = {
+        "4"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10306
   },
   [30608] = {
     TargetId = 30608,
     TargetParam = {
-      [1] = {"5"},
-      [2] = {"5"}
+      [1] = {
+        "5"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10306
   },
   [30609] = {
     TargetId = 30609,
     TargetParam = {
-      [1] = {"5"},
-      [2] = {"10"}
+      [1] = {
+        "5"
+      },
+      [2] = {
+        "10"
+      }
     },
     TargetType = 10306
   },
   [30610] = {
     TargetId = 30610,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"1"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "1"
+      }
     },
     TargetType = 10306
   },
   [30611] = {
     TargetId = 30611,
     TargetParam = {
-      [1] = {"2"},
-      [2] = {"1"}
+      [1] = {
+        "2"
+      },
+      [2] = {
+        "1"
+      }
     },
     TargetType = 10306
   },
   [30612] = {
     TargetId = 30612,
     TargetParam = {
-      [1] = {"3"},
-      [2] = {"1"}
+      [1] = {
+        "3"
+      },
+      [2] = {
+        "1"
+      }
     },
     TargetType = 10306
   },
   [30613] = {
     TargetId = 30613,
     TargetParam = {
-      [1] = {"4"},
-      [2] = {"1"}
+      [1] = {
+        "4"
+      },
+      [2] = {
+        "1"
+      }
     },
     TargetType = 10306
   },
   [30614] = {
     TargetId = 30614,
     TargetParam = {
-      [1] = {"5"},
-      [2] = {"1"}
+      [1] = {
+        "5"
+      },
+      [2] = {
+        "1"
+      }
     },
     TargetType = 10306
   },
@@ -1909,123 +2071,165 @@ return ReadOnly("Target", {
   [40201] = {
     TargetId = 40201,
     TargetParam = {
-      [1] = {"20"}
+      [1] = {
+        "20"
+      }
     },
     TargetType = 10402
   },
   [40202] = {
     TargetId = 40202,
     TargetParam = {
-      [1] = {"30"}
+      [1] = {
+        "30"
+      }
     },
     TargetType = 10402
   },
   [40203] = {
     TargetId = 40203,
     TargetParam = {
-      [1] = {"40"}
+      [1] = {
+        "40"
+      }
     },
     TargetType = 10402
   },
   [40204] = {
     TargetId = 40204,
     TargetParam = {
-      [1] = {"10"}
+      [1] = {
+        "10"
+      }
     },
     TargetType = 10402
   },
   [40205] = {
     TargetId = 40205,
     TargetParam = {
-      [1] = {"50"}
+      [1] = {
+        "50"
+      }
     },
     TargetType = 10402
   },
   [40206] = {
     TargetId = 40206,
     TargetParam = {
-      [1] = {"60"}
+      [1] = {
+        "60"
+      }
     },
     TargetType = 10402
   },
   [40301] = {
     TargetId = 40301,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 10403
   },
   [40302] = {
     TargetId = 40302,
     TargetParam = {
-      [1] = {"2"}
+      [1] = {
+        "2"
+      }
     },
     TargetType = 10403
   },
   [40303] = {
     TargetId = 40303,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10403
   },
   [40304] = {
     TargetId = 40304,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 10403
   },
   [40305] = {
     TargetId = 40305,
     TargetParam = {
-      [1] = {"5"}
+      [1] = {
+        "5"
+      }
     },
     TargetType = 10403
   },
   [40306] = {
     TargetId = 40306,
     TargetParam = {
-      [1] = {"6"}
+      [1] = {
+        "6"
+      }
     },
     TargetType = 10403
   },
   [40401] = {
     TargetId = 40401,
     TargetParam = {
-      [1] = {"Ranged"},
-      [2] = {"3"}
+      [1] = {
+        "Ranged"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10404
   },
   [40501] = {
     TargetId = 40501,
     TargetParam = {
-      [1] = {"10101"}
+      [1] = {
+        "10101"
+      }
     },
     TargetType = 10405
   },
   [40601] = {
     TargetId = 40601,
     TargetParam = {
-      [1] = {"4"},
-      [2] = {"5"}
+      [1] = {
+        "4"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10406
   },
   [40602] = {
     TargetId = 40602,
     TargetParam = {
-      [1] = {"5"},
-      [2] = {"5"}
+      [1] = {
+        "5"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10406
   },
   [40701] = {
     TargetId = 40701,
     TargetParam = {
-      [1] = {"10101"},
-      [2] = {"5"}
+      [1] = {
+        "10101"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10407
   },
@@ -2034,16 +2238,22 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"6", "32"},
       [2] = {"65"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
   [50119] = {
     TargetId = 50119,
     TargetParam = {
-      [1] = {"1008"},
+      [1] = {
+        "1008"
+      },
       [2] = {"610014"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2052,7 +2262,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"1003"},
       [2] = {"610025"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2061,7 +2273,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"1009"},
       [2] = {"610027"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2069,8 +2283,12 @@ return ReadOnly("Target", {
     TargetId = 50122,
     TargetParam = {
       [1] = {"1010"},
-      [2] = {"610011"},
-      [3] = {"0"}
+      [2] = {
+        "610011"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2078,26 +2296,40 @@ return ReadOnly("Target", {
     TargetId = 50123,
     TargetParam = {
       [1] = {"1005"},
-      [2] = {"610017"},
-      [3] = {"0"}
+      [2] = {
+        "610017"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
   [50124] = {
     TargetId = 50124,
     TargetParam = {
-      [1] = {"1008"},
+      [1] = {
+        "1008"
+      },
       [2] = {"610015"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
   [50125] = {
     TargetId = 50125,
     TargetParam = {
-      [1] = {"1007"},
-      [2] = {"610011"},
-      [3] = {"0"}
+      [1] = {
+        "1007"
+      },
+      [2] = {
+        "610011"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2105,8 +2337,12 @@ return ReadOnly("Target", {
     TargetId = 50126,
     TargetParam = {
       [1] = {"1012"},
-      [2] = {"610011"},
-      [3] = {"0"}
+      [2] = {
+        "610011"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2114,8 +2350,12 @@ return ReadOnly("Target", {
     TargetId = 50127,
     TargetParam = {
       [1] = {"1004"},
-      [2] = {"610011"},
-      [3] = {"0"}
+      [2] = {
+        "610011"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2123,8 +2363,12 @@ return ReadOnly("Target", {
     TargetId = 50128,
     TargetParam = {
       [1] = {"1017"},
-      [2] = {"610017"},
-      [3] = {"0"}
+      [2] = {
+        "610017"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2132,8 +2376,12 @@ return ReadOnly("Target", {
     TargetId = 50129,
     TargetParam = {
       [1] = {"1018"},
-      [2] = {"610017"},
-      [3] = {"0"}
+      [2] = {
+        "610017"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2141,17 +2389,27 @@ return ReadOnly("Target", {
     TargetId = 50130,
     TargetParam = {
       [1] = {"1002"},
-      [2] = {"610019"},
-      [3] = {"0"}
+      [2] = {
+        "610019"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
   [50131] = {
     TargetId = 50131,
     TargetParam = {
-      [1] = {"1006"},
-      [2] = {"610019"},
-      [3] = {"0"}
+      [1] = {
+        "1006"
+      },
+      [2] = {
+        "610019"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -2159,10 +2417,10 @@ return ReadOnly("Target", {
     TargetId = 50308,
     TargetParam = {
       [1] = {
-  "90305",
-  "90306",
-  "90310"
-},
+        "90305",
+        "90306",
+        "90310"
+      },
       [2] = {"180.0"}
     },
     TargetType = 10503
@@ -2171,23 +2429,25 @@ return ReadOnly("Target", {
     TargetId = 50309,
     TargetParam = {
       [1] = {
-  "90501",
-  "90502",
-  "90503",
-  "90504",
-  "90505",
-  "90506",
-  "90507",
-  "90508",
-  "90509",
-  "90510",
-  "90511",
-  "90512",
-  "90513",
-  "90514",
-  "90515"
-},
-      [2] = {"180"}
+        "90501",
+        "90502",
+        "90503",
+        "90504",
+        "90505",
+        "90506",
+        "90507",
+        "90508",
+        "90509",
+        "90510",
+        "90511",
+        "90512",
+        "90513",
+        "90514",
+        "90515"
+      },
+      [2] = {
+        "180"
+      }
     },
     TargetType = 10503
   },
@@ -2259,14 +2519,18 @@ return ReadOnly("Target", {
         "90606",
         "90607"
       },
-      [2] = {"3"}
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10504
   },
   [50901] = {
     TargetId = 50901,
     TargetParam = {
-      [1] = {"Defence"}
+      [1] = {
+        "Defence"
+      }
     },
     TargetType = 10509
   },
@@ -2274,22 +2538,26 @@ return ReadOnly("Target", {
     TargetId = 50902,
     TargetParam = {
       [1] = {
-  "DefenceMove"
-}
+        "DefenceMove"
+      }
     },
     TargetType = 10509
   },
   [50903] = {
     TargetId = 50903,
     TargetParam = {
-      [1] = {"Excavation"}
+      [1] = {
+        "Excavation"
+      }
     },
     TargetType = 10509
   },
   [50904] = {
     TargetId = 50904,
     TargetParam = {
-      [1] = {"Capture"}
+      [1] = {
+        "Capture"
+      }
     },
     TargetType = 10509
   },
@@ -2297,8 +2565,8 @@ return ReadOnly("Target", {
     TargetId = 50905,
     TargetParam = {
       [1] = {
-  "SurvivalMini"
-}
+        "SurvivalMini"
+      }
     },
     TargetType = 10509
   },
@@ -2306,22 +2574,26 @@ return ReadOnly("Target", {
     TargetId = 50906,
     TargetParam = {
       [1] = {
-  "SurvivalMiniPro"
-}
+        "SurvivalMiniPro"
+      }
     },
     TargetType = 10509
   },
   [50907] = {
     TargetId = 50907,
     TargetParam = {
-      [1] = {"Sabotage"}
+      [1] = {
+        "Sabotage"
+      }
     },
     TargetType = 10509
   },
   [50908] = {
     TargetId = 50908,
     TargetParam = {
-      [1] = {"Hijack"}
+      [1] = {
+        "Hijack"
+      }
     },
     TargetType = 10509
   },
@@ -2329,22 +2601,26 @@ return ReadOnly("Target", {
     TargetId = 50909,
     TargetParam = {
       [1] = {
-  "Exterminate"
-}
+        "Exterminate"
+      }
     },
     TargetType = 10509
   },
   [50910] = {
     TargetId = 50910,
     TargetParam = {
-      [1] = {"Rescue"}
+      [1] = {
+        "Rescue"
+      }
     },
     TargetType = 10509
   },
   [50920] = {
     TargetId = 50920,
     TargetParam = {
-      [1] = {"Defence"}
+      [1] = {
+        "Defence"
+      }
     },
     TargetType = 10514
   },
@@ -2352,22 +2628,26 @@ return ReadOnly("Target", {
     TargetId = 50921,
     TargetParam = {
       [1] = {
-  "DefenceMove"
-}
+        "DefenceMove"
+      }
     },
     TargetType = 10514
   },
   [50922] = {
     TargetId = 50922,
     TargetParam = {
-      [1] = {"Excavation"}
+      [1] = {
+        "Excavation"
+      }
     },
     TargetType = 10514
   },
   [50923] = {
     TargetId = 50923,
     TargetParam = {
-      [1] = {"Capture"}
+      [1] = {
+        "Capture"
+      }
     },
     TargetType = 10514
   },
@@ -2375,8 +2655,8 @@ return ReadOnly("Target", {
     TargetId = 50924,
     TargetParam = {
       [1] = {
-  "SurvivalMini"
-}
+        "SurvivalMini"
+      }
     },
     TargetType = 10514
   },
@@ -2384,22 +2664,26 @@ return ReadOnly("Target", {
     TargetId = 50925,
     TargetParam = {
       [1] = {
-  "SurvivalMiniPro"
-}
+        "SurvivalMiniPro"
+      }
     },
     TargetType = 10514
   },
   [50926] = {
     TargetId = 50926,
     TargetParam = {
-      [1] = {"Sabotage"}
+      [1] = {
+        "Sabotage"
+      }
     },
     TargetType = 10514
   },
   [50927] = {
     TargetId = 50927,
     TargetParam = {
-      [1] = {"Hijack"}
+      [1] = {
+        "Hijack"
+      }
     },
     TargetType = 10514
   },
@@ -2407,15 +2691,17 @@ return ReadOnly("Target", {
     TargetId = 50928,
     TargetParam = {
       [1] = {
-  "Exterminate"
-}
+        "Exterminate"
+      }
     },
     TargetType = 10514
   },
   [50929] = {
     TargetId = 50929,
     TargetParam = {
-      [1] = {"Rescue"}
+      [1] = {
+        "Rescue"
+      }
     },
     TargetType = 10514
   },
@@ -2423,20 +2709,20 @@ return ReadOnly("Target", {
     TargetId = 50930,
     TargetParam = {
       [1] = {
-  "Defence",
-  "DefenceMove",
-  "Excavation",
-  "Capture",
-  "SurvivalMini",
-  "SurvivalMiniPro",
-  "Sabotage",
-  "Hijack",
-  "Exterminate",
-  "Rescue",
-  "ExtermPro",
-  "SabotagePro",
-  "Synthesis"
-}
+        "Defence",
+        "DefenceMove",
+        "Excavation",
+        "Capture",
+        "SurvivalMini",
+        "SurvivalMiniPro",
+        "Sabotage",
+        "Hijack",
+        "Exterminate",
+        "Rescue",
+        "ExtermPro",
+        "SabotagePro",
+        "Synthesis"
+      }
     },
     TargetType = 10514
   },
@@ -2444,20 +2730,20 @@ return ReadOnly("Target", {
     TargetId = 50931,
     TargetParam = {
       [1] = {
-  "Defence",
-  "DefenceMove",
-  "Excavation",
-  "Capture",
-  "SurvivalMini",
-  "SurvivalMiniPro",
-  "Sabotage",
-  "Hijack",
-  "Exterminate",
-  "Rescue",
-  "ExtermPro",
-  "SabotagePro",
-  "Synthesis"
-}
+        "Defence",
+        "DefenceMove",
+        "Excavation",
+        "Capture",
+        "SurvivalMini",
+        "SurvivalMiniPro",
+        "Sabotage",
+        "Hijack",
+        "Exterminate",
+        "Rescue",
+        "ExtermPro",
+        "SabotagePro",
+        "Synthesis"
+      }
     },
     TargetType = 10515
   },
@@ -2662,77 +2948,99 @@ return ReadOnly("Target", {
   [60101] = {
     TargetId = 60101,
     TargetParam = {
-      [1] = {"20"}
+      [1] = {
+        "20"
+      }
     },
     TargetType = 10601
   },
   [60102] = {
     TargetId = 60102,
     TargetParam = {
-      [1] = {"30"}
+      [1] = {
+        "30"
+      }
     },
     TargetType = 10601
   },
   [60103] = {
     TargetId = 60103,
     TargetParam = {
-      [1] = {"40"}
+      [1] = {
+        "40"
+      }
     },
     TargetType = 10601
   },
   [60104] = {
     TargetId = 60104,
     TargetParam = {
-      [1] = {"10"}
+      [1] = {
+        "10"
+      }
     },
     TargetType = 10601
   },
   [60105] = {
     TargetId = 60105,
     TargetParam = {
-      [1] = {"50"}
+      [1] = {
+        "50"
+      }
     },
     TargetType = 10601
   },
   [60106] = {
     TargetId = 60106,
     TargetParam = {
-      [1] = {"60"}
+      [1] = {
+        "60"
+      }
     },
     TargetType = 10601
   },
   [60201] = {
     TargetId = 60201,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 10602
   },
   [60202] = {
     TargetId = 60202,
     TargetParam = {
-      [1] = {"2"}
+      [1] = {
+        "2"
+      }
     },
     TargetType = 10602
   },
   [60203] = {
     TargetId = 60203,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10602
   },
   [60206] = {
     TargetId = 60206,
     TargetParam = {
-      [1] = {"6"}
+      [1] = {
+        "6"
+      }
     },
     TargetType = 10602
   },
   [60301] = {
     TargetId = 60301,
     TargetParam = {
-      [1] = {"1101"}
+      [1] = {
+        "1101"
+      }
     },
     TargetType = 10603
   },
@@ -2747,65 +3055,87 @@ return ReadOnly("Target", {
   [60501] = {
     TargetId = 60501,
     TargetParam = {
-      [1] = {"1101"}
+      [1] = {
+        "1101"
+      }
     },
     TargetType = 10605
   },
   [60601] = {
     TargetId = 60601,
     TargetParam = {
-      [1] = {"4"},
-      [2] = {"3"}
+      [1] = {
+        "4"
+      },
+      [2] = {
+        "3"
+      }
     },
     TargetType = 10606
   },
   [60602] = {
     TargetId = 60602,
     TargetParam = {
-      [1] = {"5"},
-      [2] = {"6"}
+      [1] = {
+        "5"
+      },
+      [2] = {
+        "6"
+      }
     },
     TargetType = 10606
   },
   [60701] = {
     TargetId = 60701,
     TargetParam = {
-      [1] = {"1101"}
+      [1] = {
+        "1101"
+      }
     },
     TargetType = 10607
   },
   [60801] = {
     TargetId = 60801,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 10608
   },
   [60802] = {
     TargetId = 60802,
     TargetParam = {
-      [1] = {"5"}
+      [1] = {
+        "5"
+      }
     },
     TargetType = 10608
   },
   [60901] = {
     TargetId = 60901,
     TargetParam = {
-      [1] = {"2"}
+      [1] = {
+        "2"
+      }
     },
     TargetType = 10609
   },
   [60902] = {
     TargetId = 60902,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10609
   },
   [60903] = {
     TargetId = 60903,
     TargetParam = {
-      [1] = {"6"}
+      [1] = {
+        "6"
+      }
     },
     TargetType = 10609
   },
@@ -3088,7 +3418,9 @@ return ReadOnly("Target", {
   [70153] = {
     TargetId = 70153,
     TargetParam = {
-      [1] = {"60004"}
+      [1] = {
+        "60004"
+      }
     },
     TargetType = 10502
   },
@@ -3104,39 +3436,57 @@ return ReadOnly("Target", {
     TargetId = 81501,
     TargetParam = {
       [1] = {"80502", "80101"},
-      [2] = {"2"}
+      [2] = {
+        "2"
+      }
     },
     TargetType = 10518
   },
   [90101] = {
     TargetId = 90101,
     TargetParam = {
-      [1] = {"Resource"},
-      [2] = {"5"}
+      [1] = {
+        "Resource"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10901
   },
   [90102] = {
     TargetId = 90102,
     TargetParam = {
-      [1] = {"Resource"},
-      [2] = {"4"}
+      [1] = {
+        "Resource"
+      },
+      [2] = {
+        "4"
+      }
     },
     TargetType = 10901
   },
   [90103] = {
     TargetId = 90103,
     TargetParam = {
-      [1] = {"Weapon"},
-      [2] = {"4"}
+      [1] = {
+        "Weapon"
+      },
+      [2] = {
+        "4"
+      }
     },
     TargetType = 10901
   },
   [90104] = {
     TargetId = 90104,
     TargetParam = {
-      [1] = {"Weapon"},
-      [2] = {"5"}
+      [1] = {
+        "Weapon"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 10901
   },
@@ -3150,12 +3500,12 @@ return ReadOnly("Target", {
         "Mod"
       },
       [2] = {
-  "1",
-  "2",
-  "3",
-  "4",
-  "5"
-}
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      }
     },
     TargetType = 10901
   },
@@ -3186,54 +3536,82 @@ return ReadOnly("Target", {
   [200201] = {
     TargetId = 200201,
     TargetParam = {
-      [1] = {"1011"},
-      [2] = {"Chaos"},
-      [3] = {"20"}
+      [1] = {
+        "1011"
+      },
+      [2] = {
+        "Chaos"
+      },
+      [3] = {
+        "20"
+      }
     },
     TargetType = 12002
   },
   [200202] = {
     TargetId = 200202,
     TargetParam = {
-      [1] = {"1011"},
+      [1] = {
+        "1011"
+      },
       [2] = {"Benefit"},
-      [3] = {"30"}
+      [3] = {
+        "30"
+      }
     },
     TargetType = 12002
   },
   [200203] = {
     TargetId = 200203,
     TargetParam = {
-      [1] = {"1011"},
+      [1] = {
+        "1011"
+      },
       [2] = {"Wisdom"},
-      [3] = {"30"}
+      [3] = {
+        "30"
+      }
     },
     TargetType = 12002
   },
   [200204] = {
     TargetId = 200204,
     TargetParam = {
-      [1] = {"1011"},
+      [1] = {
+        "1011"
+      },
       [2] = {"Morality"},
-      [3] = {"30"}
+      [3] = {
+        "30"
+      }
     },
     TargetType = 12002
   },
   [200205] = {
     TargetId = 200205,
     TargetParam = {
-      [1] = {"1011"},
+      [1] = {
+        "1011"
+      },
       [2] = {"Empathy"},
-      [3] = {"30"}
+      [3] = {
+        "30"
+      }
     },
     TargetType = 12002
   },
   [200206] = {
     TargetId = 200206,
     TargetParam = {
-      [1] = {"1011"},
-      [2] = {"Chaos"},
-      [3] = {"30"}
+      [1] = {
+        "1011"
+      },
+      [2] = {
+        "Chaos"
+      },
+      [3] = {
+        "30"
+      }
     },
     TargetType = 12002
   },
@@ -3268,7 +3646,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"70500"},
       [2] = {"11"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3277,7 +3657,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"70505"},
       [2] = {"705052"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3299,8 +3681,12 @@ return ReadOnly("Target", {
     TargetId = 501301,
     TargetParam = {
       [1] = {"70100"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3308,8 +3694,12 @@ return ReadOnly("Target", {
     TargetId = 501302,
     TargetParam = {
       [1] = {"70101"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3317,8 +3707,12 @@ return ReadOnly("Target", {
     TargetId = 501303,
     TargetParam = {
       [1] = {"70102"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3326,8 +3720,12 @@ return ReadOnly("Target", {
     TargetId = 501304,
     TargetParam = {
       [1] = {"70105"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3335,8 +3733,12 @@ return ReadOnly("Target", {
     TargetId = 501305,
     TargetParam = {
       [1] = {"70106"},
-      [2] = {"701063"},
-      [3] = {"0"}
+      [2] = {
+        "701063"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3344,8 +3746,12 @@ return ReadOnly("Target", {
     TargetId = 501306,
     TargetParam = {
       [1] = {"70107"},
-      [2] = {"701063"},
-      [3] = {"0"}
+      [2] = {
+        "701063"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3353,8 +3759,12 @@ return ReadOnly("Target", {
     TargetId = 501307,
     TargetParam = {
       [1] = {"70108"},
-      [2] = {"701063"},
-      [3] = {"0"}
+      [2] = {
+        "701063"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3362,8 +3772,12 @@ return ReadOnly("Target", {
     TargetId = 501308,
     TargetParam = {
       [1] = {"70109"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3372,7 +3786,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"70110"},
       [2] = {"701103"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3380,8 +3796,12 @@ return ReadOnly("Target", {
     TargetId = 501310,
     TargetParam = {
       [1] = {"70111"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3389,8 +3809,12 @@ return ReadOnly("Target", {
     TargetId = 501311,
     TargetParam = {
       [1] = {"70112"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3398,8 +3822,12 @@ return ReadOnly("Target", {
     TargetId = 501312,
     TargetParam = {
       [1] = {"70113"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3407,8 +3835,12 @@ return ReadOnly("Target", {
     TargetId = 501313,
     TargetParam = {
       [1] = {"70114"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3416,8 +3848,12 @@ return ReadOnly("Target", {
     TargetId = 501314,
     TargetParam = {
       [1] = {"70115"},
-      [2] = {"701003"},
-      [3] = {"0"}
+      [2] = {
+        "701003"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3426,7 +3862,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"70199"},
       [2] = {"701133"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3435,7 +3873,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"70200"},
       [2] = {"702003"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3444,7 +3884,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"70130"},
       [2] = {"701303"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3453,7 +3895,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"70103"},
       [2] = {"701033"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10501
   },
@@ -3511,8 +3955,12 @@ return ReadOnly("Target", {
         "1570001",
         "1580002"
       },
-      [2] = {"901001"},
-      [3] = {"0"}
+      [2] = {
+        "901001"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
@@ -3530,8 +3978,12 @@ return ReadOnly("Target", {
         "1240555",
         "1240556"
       },
-      [2] = {"901001"},
-      [3] = {"0"}
+      [2] = {
+        "901001"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
@@ -3544,8 +3996,12 @@ return ReadOnly("Target", {
         "1730176",
         "1720679"
       },
-      [2] = {"901001"},
-      [3] = {"0"}
+      [2] = {
+        "901001"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
@@ -3553,8 +4009,12 @@ return ReadOnly("Target", {
     TargetId = 520004,
     TargetParam = {
       [1] = {"1270033", "1440066"},
-      [2] = {"901001"},
-      [3] = {"0"}
+      [2] = {
+        "901001"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
@@ -3569,8 +4029,12 @@ return ReadOnly("Target", {
         "1650075",
         "1650076"
       },
-      [2] = {"901001"},
-      [3] = {"0"}
+      [2] = {
+        "901001"
+      },
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
@@ -3579,7 +4043,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"1640555"},
       [2] = {"1061242"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
@@ -3588,7 +4054,9 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"1640560"},
       [2] = {"1061253"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
@@ -3597,35 +4065,45 @@ return ReadOnly("Target", {
     TargetParam = {
       [1] = {"1650555"},
       [2] = {"1061262"},
-      [3] = {"0"}
+      [3] = {
+        "0"
+      }
     },
     TargetType = 10520
   },
   [521001] = {
     TargetId = 521001,
     TargetParam = {
-      [1] = {"6"}
+      [1] = {
+        "6"
+      }
     },
     TargetType = 10521
   },
   [521002] = {
     TargetId = 521002,
     TargetParam = {
-      [1] = {"5"}
+      [1] = {
+        "5"
+      }
     },
     TargetType = 10521
   },
   [521003] = {
     TargetId = 521003,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 10521
   },
   [521004] = {
     TargetId = 521004,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10521
   },
@@ -3645,28 +4123,36 @@ return ReadOnly("Target", {
   [1070301] = {
     TargetId = 1070301,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 10703
   },
   [1070302] = {
     TargetId = 1070302,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10703
   },
   [1070303] = {
     TargetId = 1070303,
     TargetParam = {
-      [1] = {"4"}
+      [1] = {
+        "4"
+      }
     },
     TargetType = 10703
   },
   [1070304] = {
     TargetId = 1070304,
     TargetParam = {
-      [1] = {"6"}
+      [1] = {
+        "6"
+      }
     },
     TargetType = 10703
   },
@@ -3675,24 +4161,36 @@ return ReadOnly("Target", {
   [1400301] = {
     TargetId = 1400301,
     TargetParam = {
-      [1] = {"3"},
-      [2] = {"1"}
+      [1] = {
+        "3"
+      },
+      [2] = {
+        "1"
+      }
     },
     TargetType = 14003
   },
   [1400302] = {
     TargetId = 1400302,
     TargetParam = {
-      [1] = {"3"},
-      [2] = {"5"}
+      [1] = {
+        "3"
+      },
+      [2] = {
+        "5"
+      }
     },
     TargetType = 14003
   },
   [1400303] = {
     TargetId = 1400303,
     TargetParam = {
-      [1] = {"3"},
-      [2] = {"10"}
+      [1] = {
+        "3"
+      },
+      [2] = {
+        "10"
+      }
     },
     TargetType = 14003
   },
@@ -3713,81 +4211,135 @@ return ReadOnly("Target", {
   [1500101] = {
     TargetId = 1500101,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"1"},
-      [3] = {"7"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "1"
+      },
+      [3] = {
+        "7"
+      }
     },
     TargetType = 15001
   },
   [1500102] = {
     TargetId = 1500102,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"2"},
-      [3] = {"3"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "2"
+      },
+      [3] = {
+        "3"
+      }
     },
     TargetType = 15001
   },
   [1500103] = {
     TargetId = 1500103,
     TargetParam = {
-      [1] = {"2"},
-      [2] = {"2"},
-      [3] = {"3"}
+      [1] = {
+        "2"
+      },
+      [2] = {
+        "2"
+      },
+      [3] = {
+        "3"
+      }
     },
     TargetType = 15001
   },
   [1500104] = {
     TargetId = 1500104,
     TargetParam = {
-      [1] = {"3"},
-      [2] = {"2"},
-      [3] = {"3"}
+      [1] = {
+        "3"
+      },
+      [2] = {
+        "2"
+      },
+      [3] = {
+        "3"
+      }
     },
     TargetType = 15001
   },
   [1500105] = {
     TargetId = 1500105,
     TargetParam = {
-      [1] = {"5"},
-      [2] = {"2"},
-      [3] = {"3"}
+      [1] = {
+        "5"
+      },
+      [2] = {
+        "2"
+      },
+      [3] = {
+        "3"
+      }
     },
     TargetType = 15001
   },
   [1500106] = {
     TargetId = 1500106,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"3"},
-      [3] = {"3"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "3"
+      },
+      [3] = {
+        "3"
+      }
     },
     TargetType = 15001
   },
   [1500107] = {
     TargetId = 1500107,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"3"},
-      [3] = {"5"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "3"
+      },
+      [3] = {
+        "5"
+      }
     },
     TargetType = 15001
   },
   [1500108] = {
     TargetId = 1500108,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"3"},
-      [3] = {"10"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "3"
+      },
+      [3] = {
+        "10"
+      }
     },
     TargetType = 15001
   },
   [1500109] = {
     TargetId = 1500109,
     TargetParam = {
-      [1] = {"1"},
-      [2] = {"1"},
-      [3] = {"5"}
+      [1] = {
+        "1"
+      },
+      [2] = {
+        "1"
+      },
+      [3] = {
+        "5"
+      }
     },
     TargetType = 15001
   },
@@ -3796,14 +4348,18 @@ return ReadOnly("Target", {
   [1800101] = {
     TargetId = 1800101,
     TargetParam = {
-      [1] = {"1006"}
+      [1] = {
+        "1006"
+      }
     },
     TargetType = 18001
   },
   [1800102] = {
     TargetId = 1800102,
     TargetParam = {
-      [1] = {"1007"}
+      [1] = {
+        "1007"
+      }
     },
     TargetType = 18001
   },
@@ -3836,17 +4392,27 @@ return ReadOnly("Target", {
   [2200101] = {
     TargetId = 2200101,
     TargetParam = {
-      [1] = {"108001"},
-      [2] = {"False"},
-      [3] = {"6"}
+      [1] = {
+        "108001"
+      },
+      [2] = {
+        "False"
+      },
+      [3] = {
+        "6"
+      }
     },
     TargetType = 22001
   },
   [2200102] = {
     TargetId = 2200102,
     TargetParam = {
-      [1] = {"108001"},
-      [2] = {"False"},
+      [1] = {
+        "108001"
+      },
+      [2] = {
+        "False"
+      },
       [3] = {"9"}
     },
     TargetType = 22001
@@ -3854,8 +4420,12 @@ return ReadOnly("Target", {
   [2200103] = {
     TargetId = 2200103,
     TargetParam = {
-      [1] = {"108001"},
-      [2] = {"False"},
+      [1] = {
+        "108001"
+      },
+      [2] = {
+        "False"
+      },
       [3] = {"12"}
     },
     TargetType = 22001
@@ -3863,9 +4433,13 @@ return ReadOnly("Target", {
   [2200104] = {
     TargetId = 2200104,
     TargetParam = {
-      [1] = {"108001"},
+      [1] = {
+        "108001"
+      },
       [2] = {"True"},
-      [3] = {"3"}
+      [3] = {
+        "3"
+      }
     },
     TargetType = 22001
   },
@@ -3887,7 +4461,9 @@ return ReadOnly("Target", {
   [2200501] = {
     TargetId = 2200501,
     TargetParam = {
-      [1] = {"60004"}
+      [1] = {
+        "60004"
+      }
     },
     TargetType = 10502
   },
@@ -3906,8 +4482,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5061001,
     TargetParam = {
-      [1] = {"90311"},
-      [2] = {"300"}
+      [1] = {
+        "90311"
+      },
+      [2] = {
+        "300"
+      }
     },
     TargetType = 10503
   },
@@ -3917,8 +4497,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5061002,
     TargetParam = {
-      [1] = {"90311"},
-      [2] = {"180"}
+      [1] = {
+        "90311"
+      },
+      [2] = {
+        "180"
+      }
     },
     TargetType = 10503
   },
@@ -3928,8 +4512,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5061003,
     TargetParam = {
-      [1] = {"90311"},
-      [2] = {"90"}
+      [1] = {
+        "90311"
+      },
+      [2] = {
+        "90"
+      }
     },
     TargetType = 10503
   },
@@ -3939,8 +4527,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5062001,
     TargetParam = {
-      [1] = {"90507"},
-      [2] = {"300"}
+      [1] = {
+        "90507"
+      },
+      [2] = {
+        "300"
+      }
     },
     TargetType = 10503
   },
@@ -3950,8 +4542,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5062002,
     TargetParam = {
-      [1] = {"90507"},
-      [2] = {"180"}
+      [1] = {
+        "90507"
+      },
+      [2] = {
+        "180"
+      }
     },
     TargetType = 10503
   },
@@ -3961,8 +4557,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5062003,
     TargetParam = {
-      [1] = {"90507"},
-      [2] = {"90"}
+      [1] = {
+        "90507"
+      },
+      [2] = {
+        "90"
+      }
     },
     TargetType = 10503
   },
@@ -3972,8 +4572,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5063001,
     TargetParam = {
-      [1] = {"90807"},
-      [2] = {"420"}
+      [1] = {
+        "90807"
+      },
+      [2] = {
+        "420"
+      }
     },
     TargetType = 10503
   },
@@ -3983,8 +4587,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5063002,
     TargetParam = {
-      [1] = {"90807"},
-      [2] = {"300"}
+      [1] = {
+        "90807"
+      },
+      [2] = {
+        "300"
+      }
     },
     TargetType = 10503
   },
@@ -3994,8 +4602,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5063003,
     TargetParam = {
-      [1] = {"90807"},
-      [2] = {"180"}
+      [1] = {
+        "90807"
+      },
+      [2] = {
+        "180"
+      }
     },
     TargetType = 10503
   },
@@ -4005,8 +4617,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5064001,
     TargetParam = {
-      [1] = {"90907"},
-      [2] = {"420"}
+      [1] = {
+        "90907"
+      },
+      [2] = {
+        "420"
+      }
     },
     TargetType = 10503
   },
@@ -4016,8 +4632,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5064002,
     TargetParam = {
-      [1] = {"90907"},
-      [2] = {"300"}
+      [1] = {
+        "90907"
+      },
+      [2] = {
+        "300"
+      }
     },
     TargetType = 10503
   },
@@ -4027,8 +4647,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5064003,
     TargetParam = {
-      [1] = {"90907"},
-      [2] = {"180"}
+      [1] = {
+        "90907"
+      },
+      [2] = {
+        "180"
+      }
     },
     TargetType = 10503
   },
@@ -4038,8 +4662,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5065001,
     TargetParam = {
-      [1] = {"91007"},
-      [2] = {"300"}
+      [1] = {
+        "91007"
+      },
+      [2] = {
+        "300"
+      }
     },
     TargetType = 10503
   },
@@ -4049,8 +4677,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5065002,
     TargetParam = {
-      [1] = {"91007"},
-      [2] = {"180"}
+      [1] = {
+        "91007"
+      },
+      [2] = {
+        "180"
+      }
     },
     TargetType = 10503
   },
@@ -4060,8 +4692,12 @@ return ReadOnly("Target", {
     },
     TargetId = 5065003,
     TargetParam = {
-      [1] = {"91007"},
-      [2] = {"90"}
+      [1] = {
+        "91007"
+      },
+      [2] = {
+        "90"
+      }
     },
     TargetType = 10503
   },
@@ -4069,11 +4705,13 @@ return ReadOnly("Target", {
     TargetId = 10020201,
     TargetParam = {
       [1] = {
-  "90305",
-  "90306",
-  "90310"
-},
-      [2] = {"3600"}
+        "90305",
+        "90306",
+        "90310"
+      },
+      [2] = {
+        "3600"
+      }
     },
     TargetType = 10503
   },
@@ -4081,23 +4719,25 @@ return ReadOnly("Target", {
     TargetId = 10020301,
     TargetParam = {
       [1] = {
-  "90501",
-  "90502",
-  "90503",
-  "90504",
-  "90505",
-  "90506",
-  "90507",
-  "90508",
-  "90509",
-  "90510",
-  "90511",
-  "90512",
-  "90513",
-  "90514",
-  "90515"
-},
-      [2] = {"3600"}
+        "90501",
+        "90502",
+        "90503",
+        "90504",
+        "90505",
+        "90506",
+        "90507",
+        "90508",
+        "90509",
+        "90510",
+        "90511",
+        "90512",
+        "90513",
+        "90514",
+        "90515"
+      },
+      [2] = {
+        "3600"
+      }
     },
     TargetType = 10503
   },
@@ -4105,14 +4745,18 @@ return ReadOnly("Target", {
   [10051701] = {
     TargetId = 10051701,
     TargetParam = {
-      [1] = {"1"}
+      [1] = {
+        "1"
+      }
     },
     TargetType = 10517
   },
   [10051702] = {
     TargetId = 10051702,
     TargetParam = {
-      [1] = {"3"}
+      [1] = {
+        "3"
+      }
     },
     TargetType = 10517
   },
@@ -4163,24 +4807,26 @@ return ReadOnly("Target", {
     TargetId = 20020509,
     TargetParam = {
       [1] = {
-  "5021010",
-  "5021011",
-  "5021020",
-  "5021021",
-  "5021030",
-  "5021031",
-  "5021040",
-  "5021041",
-  "5021050",
-  "5021051"
-}
+        "5021010",
+        "5021011",
+        "5021020",
+        "5021021",
+        "5021030",
+        "5021031",
+        "5021040",
+        "5021041",
+        "5021050",
+        "5021051"
+      }
     },
     TargetType = 10101
   },
   [20022803] = {
     TargetId = 20022803,
     TargetParam = {
-      [1] = {"Weapon"},
+      [1] = {
+        "Weapon"
+      },
       [2] = {"4", "5"}
     },
     TargetType = 10901

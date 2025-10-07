@@ -8,19 +8,35 @@ return ReadOnly("GamepadMap", {
       [4] = "BulletJump"
     },
     GamepadIcon = {
-      [1] = {"LB", "RS"},
-      [2] = {"LB", "RS"},
-      [3] = {"B", "LS"},
-      [4] = {"B", "LS"}
+      [1] = {
+        "LB", "RS"
+      },
+      [2] = {
+        "LB", "RS"
+      },
+      [3] = {
+        "B", "LS"
+      },
+      [4] = {
+        "B", "LS"
+      }
     }
   },
   Attack = {
     ActionName = "Attack",
     GamepadIcon = {
-      [1] = {"X"},
-      [2] = {"RB"},
-      [3] = {"X"},
-      [4] = {"X"}
+      [1] = {
+        "X"
+      },
+      [2] = {
+        "RB"
+      },
+      [3] = {
+        "X"
+      },
+      [4] = {
+        "X"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Left",
@@ -32,10 +48,18 @@ return ReadOnly("GamepadMap", {
   Avoid = {
     ActionName = "Avoid",
     GamepadIcon = {
-      [1] = {"B"},
-      [2] = {"B"},
-      [3] = {"A"},
-      [4] = {"RB"}
+      [1] = {
+        "B"
+      },
+      [2] = {
+        "B"
+      },
+      [3] = {
+        "A"
+      },
+      [4] = {
+        "RB"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Right",
@@ -47,10 +71,18 @@ return ReadOnly("GamepadMap", {
   BulletJump = {
     ActionName = "BulletJump",
     GamepadIcon = {
-      [1] = {"LS"},
-      [2] = {"LS"},
-      [3] = {"LS"},
-      [4] = {"LS"}
+      [1] = {
+        "LS"
+      },
+      [2] = {
+        "LS"
+      },
+      [3] = {
+        "LS"
+      },
+      [4] = {
+        "LS"
+      }
     },
     GamepadKey = {
       [1] = "LeftThumbstick",
@@ -68,10 +100,18 @@ return ReadOnly("GamepadMap", {
       [4] = "DownSelect"
     },
     GamepadIcon = {
-      [1] = {"LB", "Down"},
-      [2] = {"LB", "Down"},
-      [3] = {"B", "Down"},
-      [4] = {"B", "Down"}
+      [1] = {
+        "LB", "Down"
+      },
+      [2] = {
+        "LB", "Down"
+      },
+      [3] = {
+        "B", "Down"
+      },
+      [4] = {
+        "B", "Down"
+      }
     }
   },
   ChangeCameraLengthUp = {
@@ -83,10 +123,18 @@ return ReadOnly("GamepadMap", {
       [4] = "UpSelect"
     },
     GamepadIcon = {
-      [1] = {"LB", "Up"},
-      [2] = {"LB", "Up"},
-      [3] = {"B", "Up"},
-      [4] = {"B", "Up"}
+      [1] = {
+        "LB", "Up"
+      },
+      [2] = {
+        "LB", "Up"
+      },
+      [3] = {
+        "B", "Up"
+      },
+      [4] = {
+        "B", "Up"
+      }
     }
   },
   ChargeBullet = {
@@ -98,19 +146,35 @@ return ReadOnly("GamepadMap", {
       [4] = "Fire"
     },
     GamepadIcon = {
-      [1] = {"LB", "RT"},
-      [2] = {"LB", "RT"},
-      [3] = {"B", "RT"},
-      [4] = {"B", "RT"}
+      [1] = {
+        "LB", "RT"
+      },
+      [2] = {
+        "LB", "RT"
+      },
+      [3] = {
+        "B", "RT"
+      },
+      [4] = {
+        "B", "RT"
+      }
     }
   },
   DownSelect = {
     ActionName = "DownSelect",
     GamepadIcon = {
-      [1] = {"Down"},
-      [2] = {"Down"},
-      [3] = {"Down"},
-      [4] = {"Down"}
+      [1] = {
+        "Down"
+      },
+      [2] = {
+        "Down"
+      },
+      [3] = {
+        "Down"
+      },
+      [4] = {
+        "Down"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Down",
@@ -122,10 +186,18 @@ return ReadOnly("GamepadMap", {
   Fire = {
     ActionName = "Fire",
     GamepadIcon = {
-      [1] = {"RT"},
-      [2] = {"RT"},
-      [3] = {"RT"},
-      [4] = {"RT"}
+      [1] = {
+        "RT"
+      },
+      [2] = {
+        "RT"
+      },
+      [3] = {
+        "RT"
+      },
+      [4] = {
+        "RT"
+      }
     },
     GamepadKey = {
       [1] = "RightTrigger",
@@ -137,10 +209,18 @@ return ReadOnly("GamepadMap", {
   GamepadOpenSystem = {
     ActionName = "GamepadOpenSystem",
     GamepadIcon = {
-      [1] = {"Right"},
-      [2] = {"Right"},
-      [3] = {"Right"},
-      [4] = {"Right"}
+      [1] = {
+        "Right"
+      },
+      [2] = {
+        "Right"
+      },
+      [3] = {
+        "Right"
+      },
+      [4] = {
+        "Right"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Right",
@@ -152,10 +232,18 @@ return ReadOnly("GamepadMap", {
   GamepadUseSkill = {
     ActionName = "GamepadUseSkill",
     GamepadIcon = {
-      [1] = {"LB"},
-      [2] = {"LB"},
-      [3] = {"B"},
-      [4] = {"B"}
+      [1] = {
+        "LB"
+      },
+      [2] = {
+        "LB"
+      },
+      [3] = {
+        "B"
+      },
+      [4] = {
+        "B"
+      }
     },
     GamepadKey = {
       [1] = "LeftShoulder",
@@ -167,10 +255,18 @@ return ReadOnly("GamepadMap", {
   Interactive = {
     ActionName = "Interactive",
     GamepadIcon = {
-      [1] = {"Y"},
-      [2] = {"Y"},
-      [3] = {"Y"},
-      [4] = {"Y"}
+      [1] = {
+        "Y"
+      },
+      [2] = {
+        "Y"
+      },
+      [3] = {
+        "Y"
+      },
+      [4] = {
+        "Y"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Top",
@@ -188,19 +284,35 @@ return ReadOnly("GamepadMap", {
       [4] = "GamepadOpenSystem"
     },
     GamepadIcon = {
-      [1] = {"LB", "Right"},
-      [2] = {"LB", "Right"},
-      [3] = {"B", "Right"},
-      [4] = {"B", "Right"}
+      [1] = {
+        "LB", "Right"
+      },
+      [2] = {
+        "LB", "Right"
+      },
+      [3] = {
+        "B", "Right"
+      },
+      [4] = {
+        "B", "Right"
+      }
     }
   },
   Jump = {
     ActionName = "Jump",
     GamepadIcon = {
-      [1] = {"A"},
-      [2] = {"A"},
-      [3] = {"RB"},
-      [4] = {"A"}
+      [1] = {
+        "A"
+      },
+      [2] = {
+        "A"
+      },
+      [3] = {
+        "RB"
+      },
+      [4] = {
+        "A"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Bottom",
@@ -212,10 +324,18 @@ return ReadOnly("GamepadMap", {
   LeaveCannon = {
     ActionName = "LeaveCannon",
     GamepadIcon = {
-      [1] = {"Y"},
-      [2] = {"Y"},
-      [3] = {"X"},
-      [4] = {"X"}
+      [1] = {
+        "Y"
+      },
+      [2] = {
+        "Y"
+      },
+      [3] = {
+        "X"
+      },
+      [4] = {
+        "X"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Top",
@@ -227,10 +347,18 @@ return ReadOnly("GamepadMap", {
   LockMonster = {
     ActionName = "LockMonster",
     GamepadIcon = {
-      [1] = {"RS"},
-      [2] = {"RS"},
-      [3] = {"RS"},
-      [4] = {"RS"}
+      [1] = {
+        "RS"
+      },
+      [2] = {
+        "RS"
+      },
+      [3] = {
+        "RS"
+      },
+      [4] = {
+        "RS"
+      }
     },
     GamepadKey = {
       [1] = "RightThumbstick",
@@ -242,10 +370,18 @@ return ReadOnly("GamepadMap", {
   OpenArmory = {
     ActionName = "OpenArmory",
     GamepadIcon = {
-      [1] = {"Right", "X"},
-      [2] = {"Right", "X"},
-      [3] = {"Right", "X"},
-      [4] = {"Right", "X"}
+      [1] = {
+        "Right", "X"
+      },
+      [2] = {
+        "Right", "X"
+      },
+      [3] = {
+        "Right", "X"
+      },
+      [4] = {
+        "Right", "X"
+      }
     },
     SystemInput = {
       [1] = "Attack",
@@ -257,10 +393,18 @@ return ReadOnly("GamepadMap", {
   OpenBag = {
     ActionName = "OpenBag",
     GamepadIcon = {
-      [1] = {"Right", "B"},
-      [2] = {"Right", "B"},
-      [3] = {"Right", "B"},
-      [4] = {"Right", "B"}
+      [1] = {
+        "Right", "B"
+      },
+      [2] = {
+        "Right", "B"
+      },
+      [3] = {
+        "Right", "B"
+      },
+      [4] = {
+        "Right", "B"
+      }
     },
     SystemInput = {
       [1] = "Avoid",
@@ -272,10 +416,18 @@ return ReadOnly("GamepadMap", {
   OpenBattlePass = {
     ActionName = "OpenBattlePass",
     GamepadIcon = {
-      [1] = {"Right", "LB"},
-      [2] = {"Right", "LB"},
-      [3] = {"Right", "LB"},
-      [4] = {"Right", "LB"}
+      [1] = {
+        "Right", "LB"
+      },
+      [2] = {
+        "Right", "LB"
+      },
+      [3] = {
+        "Right", "LB"
+      },
+      [4] = {
+        "Right", "LB"
+      }
     },
     SystemInput = {
       [1] = "GamepadUseSkill",
@@ -287,10 +439,18 @@ return ReadOnly("GamepadMap", {
   OpenBattleWheel = {
     ActionName = "OpenBattleWheel",
     GamepadIcon = {
-      [1] = {"LT"},
-      [2] = {"LT"},
-      [3] = {"LT"},
-      [4] = {"LT"}
+      [1] = {
+        "LT"
+      },
+      [2] = {
+        "LT"
+      },
+      [3] = {
+        "LT"
+      },
+      [4] = {
+        "LT"
+      }
     },
     GamepadKey = {
       [1] = "LeftTrigger",
@@ -302,19 +462,35 @@ return ReadOnly("GamepadMap", {
   OpenChat = {
     ActionName = "OpenChat",
     GamepadIcon = {
-      [1] = {"View"},
-      [2] = {"View"},
-      [3] = {"View"},
-      [4] = {"View"}
+      [1] = {
+        "View"
+      },
+      [2] = {
+        "View"
+      },
+      [3] = {
+        "View"
+      },
+      [4] = {
+        "View"
+      }
     }
   },
   OpenEvent = {
     ActionName = "OpenEvent",
     GamepadIcon = {
-      [1] = {"Right", "Y"},
-      [2] = {"Right", "Y"},
-      [3] = {"Right", "Y"},
-      [4] = {"Right", "Y"}
+      [1] = {
+        "Right", "Y"
+      },
+      [2] = {
+        "Right", "Y"
+      },
+      [3] = {
+        "Right", "Y"
+      },
+      [4] = {
+        "Right", "Y"
+      }
     },
     SystemInput = {
       [1] = "Interactive",
@@ -326,10 +502,18 @@ return ReadOnly("GamepadMap", {
   OpenForge = {
     ActionName = "OpenForge",
     GamepadIcon = {
-      [1] = {"Right", "RT"},
-      [2] = {"Right", "RT"},
-      [3] = {"Right", "RT"},
-      [4] = {"Right", "RT"}
+      [1] = {
+        "Right", "RT"
+      },
+      [2] = {
+        "Right", "RT"
+      },
+      [3] = {
+        "Right", "RT"
+      },
+      [4] = {
+        "Right", "RT"
+      }
     },
     SystemInput = {
       [1] = "Fire",
@@ -341,10 +525,18 @@ return ReadOnly("GamepadMap", {
   OpenGacha = {
     ActionName = "OpenGacha",
     GamepadIcon = {
-      [1] = {"Right", "RB"},
-      [2] = {"Right", "RB"},
-      [3] = {"Right", "RB"},
-      [4] = {"Right", "RB"}
+      [1] = {
+        "Right", "RB"
+      },
+      [2] = {
+        "Right", "RB"
+      },
+      [3] = {
+        "Right", "RB"
+      },
+      [4] = {
+        "Right", "RB"
+      }
     },
     SystemInput = {
       [1] = "Slide",
@@ -362,19 +554,35 @@ return ReadOnly("GamepadMap", {
       [4] = "ShowTeamInfo"
     },
     GamepadIcon = {
-      [1] = {"LB", "Left"},
-      [2] = {"LB", "Left"},
-      [3] = {"B", "Left"},
-      [4] = {"B", "Left"}
+      [1] = {
+        "LB", "Left"
+      },
+      [2] = {
+        "LB", "Left"
+      },
+      [3] = {
+        "B", "Left"
+      },
+      [4] = {
+        "B", "Left"
+      }
     }
   },
   OpenMap = {
     ActionName = "OpenMap",
     GamepadIcon = {
-      [1] = {"View"},
-      [2] = {"View"},
-      [3] = {"View"},
-      [4] = {"View"}
+      [1] = {
+        "View"
+      },
+      [2] = {
+        "View"
+      },
+      [3] = {
+        "View"
+      },
+      [4] = {
+        "View"
+      }
     },
     GamepadKey = {
       [1] = "Special_Left",
@@ -386,10 +594,18 @@ return ReadOnly("GamepadMap", {
   OpenMenu = {
     ActionName = "OpenMenu",
     GamepadIcon = {
-      [1] = {"Menu"},
-      [2] = {"Menu"},
-      [3] = {"Menu"},
-      [4] = {"Menu"}
+      [1] = {
+        "Menu"
+      },
+      [2] = {
+        "Menu"
+      },
+      [3] = {
+        "Menu"
+      },
+      [4] = {
+        "Menu"
+      }
     },
     GamepadKey = {
       [1] = "Special_Right",
@@ -401,10 +617,18 @@ return ReadOnly("GamepadMap", {
   OpenPlay = {
     ActionName = "OpenPlay",
     GamepadIcon = {
-      [1] = {"Right", "A"},
-      [2] = {"Right", "A"},
-      [3] = {"Right", "A"},
-      [4] = {"Right", "A"}
+      [1] = {
+        "Right", "A"
+      },
+      [2] = {
+        "Right", "A"
+      },
+      [3] = {
+        "Right", "A"
+      },
+      [4] = {
+        "Right", "A"
+      }
     },
     SystemInput = {
       [1] = "Jump",
@@ -416,10 +640,18 @@ return ReadOnly("GamepadMap", {
   OpenTask = {
     ActionName = "OpenTask",
     GamepadIcon = {
-      [1] = {"Right", "LT"},
-      [2] = {"Right", "LT"},
-      [3] = {"Right", "LT"},
-      [4] = {"Right", "LT"}
+      [1] = {
+        "Right", "LT"
+      },
+      [2] = {
+        "Right", "LT"
+      },
+      [3] = {
+        "Right", "LT"
+      },
+      [4] = {
+        "Right", "LT"
+      }
     },
     SystemInput = {
       [1] = "OpenBattleWheel",
@@ -431,10 +663,18 @@ return ReadOnly("GamepadMap", {
   QuitChallenge = {
     ActionName = "QuitChallenge",
     GamepadIcon = {
-      [1] = {"Right", "RS"},
-      [2] = {"Right", "RS"},
-      [3] = {"Right", "RS"},
-      [4] = {"Right", "RS"}
+      [1] = {
+        "Right", "RS"
+      },
+      [2] = {
+        "Right", "RS"
+      },
+      [3] = {
+        "Right", "RS"
+      },
+      [4] = {
+        "Right", "RS"
+      }
     },
     SystemInput = {
       [1] = "LockMonster",
@@ -446,10 +686,18 @@ return ReadOnly("GamepadMap", {
   Recovery = {
     ActionName = "Recovery",
     GamepadIcon = {
-      [1] = {"Y"},
-      [2] = {"Y"},
-      [3] = {"Y"},
-      [4] = {"Y"}
+      [1] = {
+        "Y"
+      },
+      [2] = {
+        "Y"
+      },
+      [3] = {
+        "Y"
+      },
+      [4] = {
+        "Y"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Top",
@@ -461,10 +709,18 @@ return ReadOnly("GamepadMap", {
   RougeOpenBag = {
     ActionName = "RougeOpenBag",
     GamepadIcon = {
-      [1] = {"Right"},
-      [2] = {"Right"},
-      [3] = {"Right"},
-      [4] = {"Right"}
+      [1] = {
+        "Right"
+      },
+      [2] = {
+        "Right"
+      },
+      [3] = {
+        "Right"
+      },
+      [4] = {
+        "Right"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Right",
@@ -476,10 +732,18 @@ return ReadOnly("GamepadMap", {
   ShowTeamInfo = {
     ActionName = "ShowTeamInfo",
     GamepadIcon = {
-      [1] = {"Left"},
-      [2] = {"Left"},
-      [3] = {"Left"},
-      [4] = {"Left"}
+      [1] = {
+        "Left"
+      },
+      [2] = {
+        "Left"
+      },
+      [3] = {
+        "Left"
+      },
+      [4] = {
+        "Left"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Left",
@@ -497,10 +761,18 @@ return ReadOnly("GamepadMap", {
       [4] = "Slide"
     },
     GamepadIcon = {
-      [1] = {"LB", "X"},
-      [2] = {"LB", "X"},
-      [3] = {"B", "LB"},
-      [4] = {"B", "LB"}
+      [1] = {
+        "LB", "X"
+      },
+      [2] = {
+        "LB", "X"
+      },
+      [3] = {
+        "B", "LB"
+      },
+      [4] = {
+        "B", "LB"
+      }
     }
   },
   Skill2 = {
@@ -512,10 +784,18 @@ return ReadOnly("GamepadMap", {
       [4] = "Avoid"
     },
     GamepadIcon = {
-      [1] = {"LB", "Y"},
-      [2] = {"LB", "Y"},
-      [3] = {"B", "RB"},
-      [4] = {"B", "RB"}
+      [1] = {
+        "LB", "Y"
+      },
+      [2] = {
+        "LB", "Y"
+      },
+      [3] = {
+        "B", "RB"
+      },
+      [4] = {
+        "B", "RB"
+      }
     }
   },
   Skill3 = {
@@ -527,19 +807,35 @@ return ReadOnly("GamepadMap", {
       [4] = "Interactive"
     },
     GamepadIcon = {
-      [1] = {"LB", "B"},
-      [2] = {"LB", "B"},
-      [3] = {"B", "Y"},
-      [4] = {"B", "Y"}
+      [1] = {
+        "LB", "B"
+      },
+      [2] = {
+        "LB", "B"
+      },
+      [3] = {
+        "B", "Y"
+      },
+      [4] = {
+        "B", "Y"
+      }
     }
   },
   Slide = {
     ActionName = "Slide",
     GamepadIcon = {
-      [1] = {"RB"},
-      [2] = {"X"},
-      [3] = {"LB"},
-      [4] = {"LB"}
+      [1] = {
+        "RB"
+      },
+      [2] = {
+        "X"
+      },
+      [3] = {
+        "LB"
+      },
+      [4] = {
+        "LB"
+      }
     },
     GamepadKey = {
       [1] = "RightShoulder",
@@ -551,10 +847,18 @@ return ReadOnly("GamepadMap", {
   StoryInteractive = {
     ActionName = "StoryInteractive",
     GamepadIcon = {
-      [1] = {"A"},
-      [2] = {"A"},
-      [3] = {"A"},
-      [4] = {"A"}
+      [1] = {
+        "A"
+      },
+      [2] = {
+        "A"
+      },
+      [3] = {
+        "A"
+      },
+      [4] = {
+        "A"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Bottom",
@@ -566,10 +870,18 @@ return ReadOnly("GamepadMap", {
   StoryInteractiveClose = {
     ActionName = "StoryInteractiveClose",
     GamepadIcon = {
-      [1] = {"B"},
-      [2] = {"B"},
-      [3] = {"B"},
-      [4] = {"B"}
+      [1] = {
+        "B"
+      },
+      [2] = {
+        "B"
+      },
+      [3] = {
+        "B"
+      },
+      [4] = {
+        "B"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Right",
@@ -581,10 +893,18 @@ return ReadOnly("GamepadMap", {
   TalkAutoPlay = {
     ActionName = "TalkAutoPlay",
     GamepadIcon = {
-      [1] = {"Y"},
-      [2] = {"Y"},
-      [3] = {"Y"},
-      [4] = {"Y"}
+      [1] = {
+        "Y"
+      },
+      [2] = {
+        "Y"
+      },
+      [3] = {
+        "Y"
+      },
+      [4] = {
+        "Y"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Top",
@@ -596,10 +916,18 @@ return ReadOnly("GamepadMap", {
   TalkClick = {
     ActionName = "TalkClick",
     GamepadIcon = {
-      [1] = {"A"},
-      [2] = {"A"},
-      [3] = {"A"},
-      [4] = {"A"}
+      [1] = {
+        "A"
+      },
+      [2] = {
+        "A"
+      },
+      [3] = {
+        "A"
+      },
+      [4] = {
+        "A"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Bottom",
@@ -611,10 +939,18 @@ return ReadOnly("GamepadMap", {
   TalkDownSelect = {
     ActionName = "TalkDownSelect",
     GamepadIcon = {
-      [1] = {"Down"},
-      [2] = {"Down"},
-      [3] = {"Down"},
-      [4] = {"Down"}
+      [1] = {
+        "Down"
+      },
+      [2] = {
+        "Down"
+      },
+      [3] = {
+        "Down"
+      },
+      [4] = {
+        "Down"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Down",
@@ -626,10 +962,18 @@ return ReadOnly("GamepadMap", {
   TalkExit = {
     ActionName = "TalkExit",
     GamepadIcon = {
-      [1] = {"B"},
-      [2] = {"B"},
-      [3] = {"B"},
-      [4] = {"B"}
+      [1] = {
+        "B"
+      },
+      [2] = {
+        "B"
+      },
+      [3] = {
+        "B"
+      },
+      [4] = {
+        "B"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Right",
@@ -641,10 +985,18 @@ return ReadOnly("GamepadMap", {
   TalkOption = {
     ActionName = "TalkOption",
     GamepadIcon = {
-      [1] = {"A"},
-      [2] = {"A"},
-      [3] = {"A"},
-      [4] = {"A"}
+      [1] = {
+        "A"
+      },
+      [2] = {
+        "A"
+      },
+      [3] = {
+        "A"
+      },
+      [4] = {
+        "A"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Bottom",
@@ -656,10 +1008,18 @@ return ReadOnly("GamepadMap", {
   TalkReview = {
     ActionName = "TalkReview",
     GamepadIcon = {
-      [1] = {"View"},
-      [2] = {"View"},
-      [3] = {"View"},
-      [4] = {"View"}
+      [1] = {
+        "View"
+      },
+      [2] = {
+        "View"
+      },
+      [3] = {
+        "View"
+      },
+      [4] = {
+        "View"
+      }
     },
     GamepadKey = {
       [1] = "Special_Left",
@@ -671,10 +1031,18 @@ return ReadOnly("GamepadMap", {
   TalkSkip = {
     ActionName = "TalkSkip",
     GamepadIcon = {
-      [1] = {"A"},
-      [2] = {"A"},
-      [3] = {"A"},
-      [4] = {"A"}
+      [1] = {
+        "A"
+      },
+      [2] = {
+        "A"
+      },
+      [3] = {
+        "A"
+      },
+      [4] = {
+        "A"
+      }
     },
     GamepadKey = {
       [1] = "FaceButton_Bottom",
@@ -686,10 +1054,18 @@ return ReadOnly("GamepadMap", {
   TalkUpSelect = {
     ActionName = "TalkUpSelect",
     GamepadIcon = {
-      [1] = {"Up"},
-      [2] = {"Up"},
-      [3] = {"Up"},
-      [4] = {"Up"}
+      [1] = {
+        "Up"
+      },
+      [2] = {
+        "Up"
+      },
+      [3] = {
+        "Up"
+      },
+      [4] = {
+        "Up"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Up",
@@ -701,10 +1077,18 @@ return ReadOnly("GamepadMap", {
   TalkWiki = {
     ActionName = "TalkWiki",
     GamepadIcon = {
-      [1] = {"Right"},
-      [2] = {"Right"},
-      [3] = {"Right"},
-      [4] = {"Right"}
+      [1] = {
+        "Right"
+      },
+      [2] = {
+        "Right"
+      },
+      [3] = {
+        "Right"
+      },
+      [4] = {
+        "Right"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Right",
@@ -716,10 +1100,18 @@ return ReadOnly("GamepadMap", {
   TrainingCharacterSkills = {
     ActionName = "TrainingCharacterSkills",
     GamepadIcon = {
-      [1] = {"Up"},
-      [2] = {"Up"},
-      [3] = {"Up"},
-      [4] = {"Up"}
+      [1] = {
+        "Up"
+      },
+      [2] = {
+        "Up"
+      },
+      [3] = {
+        "Up"
+      },
+      [4] = {
+        "Up"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Up",
@@ -731,10 +1123,18 @@ return ReadOnly("GamepadMap", {
   TrainingKillMonsters = {
     ActionName = "TrainingKillMonsters",
     GamepadIcon = {
-      [1] = {"Down"},
-      [2] = {"Down"},
-      [3] = {"Down"},
-      [4] = {"Down"}
+      [1] = {
+        "Down"
+      },
+      [2] = {
+        "Down"
+      },
+      [3] = {
+        "Down"
+      },
+      [4] = {
+        "Down"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Down",
@@ -746,10 +1146,18 @@ return ReadOnly("GamepadMap", {
   TrainingOpenSetup = {
     ActionName = "TrainingOpenSetup",
     GamepadIcon = {
-      [1] = {"Left"},
-      [2] = {"Left"},
-      [3] = {"Left"},
-      [4] = {"Left"}
+      [1] = {
+        "Left"
+      },
+      [2] = {
+        "Left"
+      },
+      [3] = {
+        "Left"
+      },
+      [4] = {
+        "Left"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Left",
@@ -761,10 +1169,18 @@ return ReadOnly("GamepadMap", {
   UpSelect = {
     ActionName = "UpSelect",
     GamepadIcon = {
-      [1] = {"Up"},
-      [2] = {"Up"},
-      [3] = {"Up"},
-      [4] = {"Up"}
+      [1] = {
+        "Up"
+      },
+      [2] = {
+        "Up"
+      },
+      [3] = {
+        "Up"
+      },
+      [4] = {
+        "Up"
+      }
     },
     GamepadKey = {
       [1] = "DPad_Up",

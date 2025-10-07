@@ -1,8 +1,12 @@
 return ReadOnly("BattlePet", {
   [401] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Dark", Rate = "#1"},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK_Dark", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     EffectCreatureId = 4011,
     PassiveEffectDesc = "PET_401_PASSIVE",
@@ -16,8 +20,12 @@ return ReadOnly("BattlePet", {
   },
   [402] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Water", Rate = "#1"},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK_Water", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     EffectCreatureId = 4021,
     PassiveEffectDesc = "PET_402_PASSIVE",
@@ -31,8 +39,12 @@ return ReadOnly("BattlePet", {
   },
   [403] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Fire", Rate = "#1"},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK_Fire", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     EffectCreatureId = 4031,
     PassiveEffectDesc = "PET_403_PASSIVE",
@@ -47,10 +59,12 @@ return ReadOnly("BattlePet", {
   [404] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     EffectCreatureId = 4041,
     PassiveEffectDesc = "PET_404_PASSIVE",
@@ -64,8 +78,12 @@ return ReadOnly("BattlePet", {
   },
   [405] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Wind", Rate = "#1"},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK_Wind", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     EffectCreatureId = 4051,
     PassiveEffectDesc = "PET_405_PASSIVE",
@@ -79,8 +97,12 @@ return ReadOnly("BattlePet", {
   },
   [406] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Light", Rate = "#1"},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK_Light", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     EffectCreatureId = 4061,
     PassiveEffectDesc = "PET_406_PASSIVE",
@@ -115,9 +137,9 @@ return ReadOnly("BattlePet", {
   [408] = {
     AddAttrs = {
       [1] = {
-  AttrName = "JumpVelocityModifier",
-  Value = "#1"
-},
+        AttrName = "JumpVelocityModifier",
+        Value = "#1"
+      },
       [2] = {
         AttrName = "BulletJumpVelocityModifier",
         Value = "#2"
@@ -140,8 +162,12 @@ return ReadOnly("BattlePet", {
   },
   [409] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"},
-      [2] = {AttrName = "MaxHp", Rate = "#2"},
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      },
       [3] = {AttrName = "Def", Rate = "#3"}
     },
     EffectCreatureId = 4091,
@@ -157,7 +183,9 @@ return ReadOnly("BattlePet", {
   },
   [411] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Dark", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Dark", Rate = "#1"
+      }
     },
     AddModMultiplier = {
       Normal = "#2"
@@ -174,7 +202,9 @@ return ReadOnly("BattlePet", {
   },
   [412] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Water", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Water", Rate = "#1"
+      }
     },
     AddModMultiplier = {
       Normal = "#2"
@@ -191,7 +221,9 @@ return ReadOnly("BattlePet", {
   },
   [413] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Fire", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Fire", Rate = "#1"
+      }
     },
     AddModMultiplier = {
       Normal = "#2"
@@ -209,9 +241,9 @@ return ReadOnly("BattlePet", {
   [414] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-}
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      }
     },
     AddModMultiplier = {
       Normal = "#2"
@@ -228,7 +260,9 @@ return ReadOnly("BattlePet", {
   },
   [415] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Wind", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Wind", Rate = "#1"
+      }
     },
     AddModMultiplier = {
       Normal = "#2"
@@ -245,7 +279,9 @@ return ReadOnly("BattlePet", {
   },
   [416] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Light", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Light", Rate = "#1"
+      }
     },
     AddModMultiplier = {
       Normal = "#2"
@@ -262,7 +298,9 @@ return ReadOnly("BattlePet", {
   },
   [421] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Dark", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Dark", Rate = "#1"
+      }
     },
     AddModMultiplier = {Dark = "#2"},
     EffectCreatureId = 4211,
@@ -277,7 +315,9 @@ return ReadOnly("BattlePet", {
   },
   [422] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Water", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Water", Rate = "#1"
+      }
     },
     AddModMultiplier = {Water = "#2"},
     EffectCreatureId = 4221,
@@ -292,7 +332,9 @@ return ReadOnly("BattlePet", {
   },
   [423] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Fire", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Fire", Rate = "#1"
+      }
     },
     AddModMultiplier = {Fire = "#2"},
     EffectCreatureId = 4231,
@@ -308,9 +350,9 @@ return ReadOnly("BattlePet", {
   [424] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-}
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      }
     },
     AddModMultiplier = {Thunder = "#2"},
     EffectCreatureId = 4241,
@@ -325,7 +367,9 @@ return ReadOnly("BattlePet", {
   },
   [425] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Wind", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Wind", Rate = "#1"
+      }
     },
     AddModMultiplier = {Wind = "#2"},
     EffectCreatureId = 4251,
@@ -340,7 +384,9 @@ return ReadOnly("BattlePet", {
   },
   [426] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Light", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Light", Rate = "#1"
+      }
     },
     AddModMultiplier = {Light = "#2"},
     EffectCreatureId = 4261,
@@ -476,9 +522,9 @@ return ReadOnly("BattlePet", {
   [1006] = {
     AddAttrs = {
       [1] = {
-  AttrName = "JumpVelocityModifier",
-  Value = "#1"
-}
+        AttrName = "JumpVelocityModifier",
+        Value = "#1"
+      }
     },
     PassiveEffectDesc = "AFFIX_1006_DESC",
     PassiveEffectDescParameter = {
@@ -531,7 +577,9 @@ return ReadOnly("BattlePet", {
   },
   [1010] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     PassiveEffectDesc = "AFFIX_1010_DESC",
     PassiveEffectDescParameter = {

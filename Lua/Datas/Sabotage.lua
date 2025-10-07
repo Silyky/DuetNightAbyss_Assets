@@ -3,9 +3,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 30005,
     SabotageCountDownTime = 180,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     SabotageRewardRemainTimes = {
       0,
@@ -21,9 +27,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 60601,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -33,9 +45,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 60602,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -45,9 +63,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 62601,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -57,9 +81,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 62602,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -69,9 +99,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 64601,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -81,9 +117,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 64602,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -93,9 +135,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90501,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -105,9 +153,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90502,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -117,9 +171,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90503,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -129,9 +189,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90504,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -141,7 +207,9 @@ return ReadOnly("Sabotage", {
     DungeonId = 90505,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [3] = {SabotageStaticId = 1000000003}
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -151,7 +219,9 @@ return ReadOnly("Sabotage", {
     DungeonId = 90506,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [3] = {SabotageStaticId = 1000000003}
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -161,7 +231,9 @@ return ReadOnly("Sabotage", {
     DungeonId = 90507,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [3] = {SabotageStaticId = 1000000003}
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -171,9 +243,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90508,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -183,9 +261,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90509,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -195,9 +279,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90510,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -207,9 +297,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90511,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -219,9 +315,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90512,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -231,9 +333,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90513,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -243,9 +351,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90514,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -255,9 +369,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90515,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -267,9 +387,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90516,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -279,9 +405,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90517,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -291,9 +423,15 @@ return ReadOnly("Sabotage", {
     DungeonId = 90518,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [1] = {SabotageStaticId = 1000000001},
-      [2] = {SabotageStaticId = 1000000002},
-      [3] = {SabotageStaticId = 1000000003}
+      [1] = {
+        SabotageStaticId = 1000000001
+      },
+      [2] = {
+        SabotageStaticId = 1000000002
+      },
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -303,7 +441,9 @@ return ReadOnly("Sabotage", {
     DungeonId = 90521,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [3] = {SabotageStaticId = 1000000003}
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -313,7 +453,9 @@ return ReadOnly("Sabotage", {
     DungeonId = 90522,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [3] = {SabotageStaticId = 1000000003}
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,
@@ -323,7 +465,9 @@ return ReadOnly("Sabotage", {
     DungeonId = 90523,
     SabotageCountDownTime = -1,
     SabotageMon = {
-      [3] = {SabotageStaticId = 1000000003}
+      [3] = {
+        SabotageStaticId = 1000000003
+      }
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnDelayMax = 100,

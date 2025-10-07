@@ -1633,13 +1633,13 @@ return ReadOnly("UIChildGuide", {
     ChildGuideId = 7001,
     GuideInfo1 = {
       GuideContent = {
-  PC = "UIGuide_SIDEWAYSJUMP",
-  Phone = "UIGuide_SIDEWAYSJUMP"
-},
+        PC = "UIGuide_SIDEWAYSJUMP",
+        Phone = "UIGuide_SIDEWAYSJUMP"
+      },
       GuidePicture = {
-  PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'",
-  Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'"
-}
+        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'",
+        Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'"
+      }
     },
     GuideTitle = "UIGUIDE_TITLE_SIDEWAYSJUMP",
     GuideType = "ImageText"
@@ -1770,13 +1770,13 @@ return ReadOnly("UIChildGuide", {
     ChildGuideId = 7401,
     GuideInfo1 = {
       GuideContent = {
-  PC = "UIGuide_SIDEWAYSJUMP",
-  Phone = "UIGuide_SIDEWAYSJUMP"
-},
+        PC = "UIGuide_SIDEWAYSJUMP",
+        Phone = "UIGuide_SIDEWAYSJUMP"
+      },
       GuidePicture = {
-  PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'",
-  Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'"
-}
+        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'",
+        Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'"
+      }
     },
     GuideTitle = "UIGUIDE_TITLE_DailyGoalUI",
     GuideType = "ImageText"
@@ -1785,13 +1785,13 @@ return ReadOnly("UIChildGuide", {
     ChildGuideId = 7501,
     GuideInfo1 = {
       GuideContent = {
-  PC = "UIGuide_SIDEWAYSJUMP",
-  Phone = "UIGuide_SIDEWAYSJUMP"
-},
+        PC = "UIGuide_SIDEWAYSJUMP",
+        Phone = "UIGuide_SIDEWAYSJUMP"
+      },
       GuidePicture = {
-  PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'",
-  Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'"
-}
+        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'",
+        Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/Level/T_Guide_Img_SidewayJump_01.T_Guide_Img_SidewayJump_01'"
+      }
     },
     GuideTitle = "UIGUIDE_TITLE_ModArchiveUI",
     GuideType = "ImageText"

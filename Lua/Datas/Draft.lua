@@ -18,20 +18,20 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 20008,
-  Num = 4,
-  Type = "Resource"
-},
+        Id = 20008,
+        Num = 4,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -51,25 +51,25 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20023,
-  Num = 4,
-  Type = "Resource"
-},
+        Id = 20023,
+        Num = 4,
+        Type = "Resource"
+      },
       [2] = {
         Id = 20008,
         Num = 6,
         Type = "Resource"
       },
       [3] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -94,10 +94,10 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -122,10 +122,10 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 20028,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20028,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -145,25 +145,25 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20010,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20010,
+        Num = 100,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20009,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20002,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 50,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20011,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -183,25 +183,25 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20010,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20010,
+        Num = 100,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20012,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20005,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 50,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20011,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -221,10 +221,10 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20013,
-  Num = 15,
-  Type = "Resource"
-},
+        Id = 20013,
+        Num = 15,
+        Type = "Resource"
+      },
       [2] = {
         Id = 20014,
         Num = 5,
@@ -236,10 +236,10 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [4] = {
-  Id = 20018,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20018,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -259,25 +259,25 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20013,
-  Num = 15,
-  Type = "Resource"
-},
+        Id = 20013,
+        Num = 15,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20017,
-  Num = 5,
-  Type = "Resource"
-},
+        Id = 20017,
+        Num = 5,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20020,
-  Num = 5,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 5,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20018,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20018,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -355,10 +355,10 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 20023,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20023,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -383,20 +383,20 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 20023,
-  Num = 4,
-  Type = "Resource"
-},
+        Id = 20023,
+        Num = 4,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20008,
-  Num = 4,
-  Type = "Resource"
-},
+        Id = 20008,
+        Num = 4,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20010,
-  Num = 100,
-  Type = "Resource"
-}
+        Id = 20010,
+        Num = 100,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -421,10 +421,10 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 20023,
-  Num = 3,
-  Type = "Resource"
-},
+        Id = 20023,
+        Num = 3,
+        Type = "Resource"
+      },
       [3] = {
         Id = 20008,
         Num = 3,
@@ -454,10 +454,10 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20010,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20010,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
         Id = 20013,
         Num = 6,
@@ -492,10 +492,10 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20010,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20010,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
         Id = 20032,
         Num = 3,
@@ -530,15 +530,15 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20010,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20010,
+        Num = 100,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20023,
-  Num = 3,
-  Type = "Resource"
-},
+        Id = 20023,
+        Num = 3,
+        Type = "Resource"
+      },
       [3] = {
         Id = 4010004,
         Num = 5,
@@ -573,10 +573,10 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 20023,
-  Num = 1,
-  Type = "Resource"
-},
+        Id = 20023,
+        Num = 1,
+        Type = "Resource"
+      },
       [3] = {
         Id = 4010004,
         Num = 1,
@@ -606,10 +606,10 @@ return ReadOnly("Draft", {
     Rarity = 4,
     Resource = {
       [1] = {
-  Id = 20010,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20010,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
         Id = 20023,
         Num = 2,
@@ -644,10 +644,10 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20023,
-  Num = 1,
-  Type = "Resource"
-},
+        Id = 20023,
+        Num = 1,
+        Type = "Resource"
+      },
       [2] = {
         Id = 20008,
         Num = 1,
@@ -1576,10 +1576,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 41001,
-  Num = 5,
-  Type = "Mod"
-}
+        Id = 41001,
+        Num = 5,
+        Type = "Mod"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -1597,10 +1597,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 41001,
-  Num = 5,
-  Type = "Mod"
-}
+        Id = 41001,
+        Num = 5,
+        Type = "Mod"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -3529,10 +3529,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 42001,
-  Num = 3,
-  Type = "Mod"
-}
+        Id = 42001,
+        Num = 3,
+        Type = "Mod"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -3644,10 +3644,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 42001,
-  Num = 3,
-  Type = "Mod"
-},
+        Id = 42001,
+        Num = 3,
+        Type = "Mod"
+      },
       [2] = {
         Id = 32101,
         Num = 5,
@@ -3670,10 +3670,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 42001,
-  Num = 3,
-  Type = "Mod"
-},
+        Id = 42001,
+        Num = 3,
+        Type = "Mod"
+      },
       [2] = {
         Id = 32102,
         Num = 5,
@@ -3696,10 +3696,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 42001,
-  Num = 3,
-  Type = "Mod"
-},
+        Id = 42001,
+        Num = 3,
+        Type = "Mod"
+      },
       [2] = {
         Id = 32103,
         Num = 5,
@@ -3722,10 +3722,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 43001,
-  Num = 3,
-  Type = "Mod"
-}
+        Id = 43001,
+        Num = 3,
+        Type = "Mod"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -3842,10 +3842,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 43001,
-  Num = 3,
-  Type = "Mod"
-},
+        Id = 43001,
+        Num = 3,
+        Type = "Mod"
+      },
       [2] = {
         Id = 33101,
         Num = 5,
@@ -3868,10 +3868,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 43001,
-  Num = 3,
-  Type = "Mod"
-},
+        Id = 43001,
+        Num = 3,
+        Type = "Mod"
+      },
       [2] = {
         Id = 33102,
         Num = 5,
@@ -3894,10 +3894,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 43001,
-  Num = 3,
-  Type = "Mod"
-},
+        Id = 43001,
+        Num = 3,
+        Type = "Mod"
+      },
       [2] = {
         Id = 33103,
         Num = 5,
@@ -4298,20 +4298,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20012,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4329,20 +4329,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4360,20 +4360,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4391,20 +4391,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4422,20 +4422,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20002,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20012,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4453,20 +4453,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4484,20 +4484,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4515,20 +4515,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4546,20 +4546,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20020,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20020,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4577,20 +4577,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20018,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20018,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4608,20 +4608,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20020,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4639,20 +4639,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20020,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4670,20 +4670,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4701,20 +4701,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4742,15 +4742,15 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [3] = {
-  Id = 20005,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 50,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20002,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20002,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4768,15 +4768,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4794,15 +4794,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4820,15 +4820,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4846,15 +4846,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20028,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20028,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4882,15 +4882,15 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [3] = {
-  Id = 20005,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 100,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20002,
-  Num = 100,
-  Type = "Resource"
-}
+        Id = 20002,
+        Num = 100,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4908,15 +4908,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4934,20 +4934,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20020,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20020,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4965,15 +4965,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20028,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20028,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -4991,25 +4991,25 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 4010009,
-  Num = 40,
-  Type = "Resource"
-},
+        Id = 4010009,
+        Num = 40,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 4010006,
-  Num = 60,
-  Type = "Resource"
-},
+        Id = 4010006,
+        Num = 60,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20011,
+        Num = 100,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20012,
-  Num = 100,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 100,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5027,25 +5027,25 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 4010001,
-  Num = 15,
-  Type = "Resource"
-},
+        Id = 4010001,
+        Num = 15,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 4010003,
-  Num = 15,
-  Type = "Resource"
-},
+        Id = 4010003,
+        Num = 15,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5073,15 +5073,15 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [3] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5104,20 +5104,20 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 4010001,
-  Num = 15,
-  Type = "Resource"
-},
+        Id = 4010001,
+        Num = 15,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20011,
+        Num = 75,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5145,15 +5145,15 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [3] = {
-  Id = 20002,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 100,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20011,
-  Num = 100,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 100,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5171,25 +5171,25 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 4010009,
-  Num = 40,
-  Type = "Resource"
-},
+        Id = 4010009,
+        Num = 40,
+        Type = "Resource"
+      },
       [2] = {
         Id = 4010010,
         Num = 40,
         Type = "Resource"
       },
       [3] = {
-  Id = 20009,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 100,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20005,
-  Num = 100,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 100,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5207,25 +5207,25 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 4010006,
-  Num = 60,
-  Type = "Resource"
-},
+        Id = 4010006,
+        Num = 60,
+        Type = "Resource"
+      },
       [2] = {
         Id = 4010012,
         Num = 20,
         Type = "Resource"
       },
       [3] = {
-  Id = 20012,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 100,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20009,
-  Num = 100,
-  Type = "Resource"
-}
+        Id = 20009,
+        Num = 100,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5427,20 +5427,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20020,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20014,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20014,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5458,20 +5458,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20020,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5489,20 +5489,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5520,20 +5520,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5551,20 +5551,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20005,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5582,20 +5582,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5613,20 +5613,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5644,20 +5644,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20002,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20012,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5675,20 +5675,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5706,20 +5706,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5737,20 +5737,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5768,20 +5768,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20020,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20020,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5799,20 +5799,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5830,20 +5830,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20020,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5861,20 +5861,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20020,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5892,15 +5892,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 50,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20018,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20018,
+        Num = 50,
+        Type = "Resource"
+      },
       [3] = {
         Id = 20017,
         Num = 50,
@@ -5923,20 +5923,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20012,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5954,20 +5954,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -5985,20 +5985,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6026,15 +6026,15 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [3] = {
-  Id = 20011,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20011,
+        Num = 50,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20012,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6052,15 +6052,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20028,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20028,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6078,15 +6078,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6104,15 +6104,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20029,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20029,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20032,
-  Num = 2,
-  Type = "Resource"
-}
+        Id = 20032,
+        Num = 2,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6130,20 +6130,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20014,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20014,
+        Num = 75,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20019,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20019,
+        Num = 75,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20017,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6161,25 +6161,25 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 4010003,
-  Num = 15,
-  Type = "Resource"
-},
+        Id = 4010003,
+        Num = 15,
+        Type = "Resource"
+      },
       [2] = {
         Id = 4010002,
         Num = 30,
         Type = "Resource"
       },
       [3] = {
-  Id = 20002,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 75,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20011,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6197,10 +6197,10 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6218,10 +6218,10 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6239,10 +6239,10 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6260,25 +6260,25 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 4010009,
-  Num = 40,
-  Type = "Resource"
-},
+        Id = 4010009,
+        Num = 40,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 4010006,
-  Num = 60,
-  Type = "Resource"
-},
+        Id = 4010006,
+        Num = 60,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20011,
-  Num = 100,
-  Type = "Resource"
-},
+        Id = 20011,
+        Num = 100,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20012,
-  Num = 100,
-  Type = "Resource"
-}
+        Id = 20012,
+        Num = 100,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6296,25 +6296,25 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 4020003,
-  Num = 30,
-  Type = "Resource"
-},
+        Id = 4020003,
+        Num = 30,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 4010005,
-  Num = 30,
-  Type = "Resource"
-},
+        Id = 4010005,
+        Num = 30,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20009,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 50,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20005,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6332,15 +6332,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20028,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20028,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6358,10 +6358,10 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6384,20 +6384,20 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 4020003,
-  Num = 30,
-  Type = "Resource"
-},
+        Id = 4020003,
+        Num = 30,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20002,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20002,
+        Num = 50,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20011,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20011,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6420,20 +6420,20 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [2] = {
-  Id = 4010005,
-  Num = 30,
-  Type = "Resource"
-},
+        Id = 4010005,
+        Num = 30,
+        Type = "Resource"
+      },
       [3] = {
-  Id = 20012,
-  Num = 50,
-  Type = "Resource"
-},
+        Id = 20012,
+        Num = 50,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20009,
-  Num = 50,
-  Type = "Resource"
-}
+        Id = 20009,
+        Num = 50,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6451,20 +6451,20 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20020,
-  Num = 5,
-  Type = "Resource"
-},
+        Id = 20020,
+        Num = 5,
+        Type = "Resource"
+      },
       [2] = {
         Id = 20018,
         Num = 5,
         Type = "Resource"
       },
       [3] = {
-  Id = 20017,
-  Num = 5,
-  Type = "Resource"
-}
+        Id = 20017,
+        Num = 5,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6482,15 +6482,15 @@ return ReadOnly("Draft", {
     Rarity = 3,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 1,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 1,
+        Type = "Resource"
+      },
       [2] = {
-  Id = 20028,
-  Num = 1,
-  Type = "Resource"
-}
+        Id = 20028,
+        Num = 1,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6518,15 +6518,15 @@ return ReadOnly("Draft", {
         Type = "Resource"
       },
       [3] = {
-  Id = 20009,
-  Num = 75,
-  Type = "Resource"
-},
+        Id = 20009,
+        Num = 75,
+        Type = "Resource"
+      },
       [4] = {
-  Id = 20005,
-  Num = 75,
-  Type = "Resource"
-}
+        Id = 20005,
+        Num = 75,
+        Type = "Resource"
+      }
     },
     ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
@@ -6544,10 +6544,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12068,
         Num = 1,
@@ -6575,10 +6575,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12040,
         Num = 1,
@@ -6606,10 +6606,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12070,
         Num = 1,
@@ -6637,10 +6637,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12001,
         Num = 1,
@@ -6668,10 +6668,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12085,
         Num = 1,
@@ -6699,10 +6699,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12022,
         Num = 1,
@@ -6730,10 +6730,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12072,
         Num = 1,
@@ -6761,10 +6761,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12024,
         Num = 1,
@@ -6791,10 +6791,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12053,
         Num = 1,
@@ -6822,10 +6822,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12110,
         Num = 1,
@@ -6853,10 +6853,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12042,
         Num = 1,
@@ -6884,10 +6884,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12074,
         Num = 1,
@@ -6915,10 +6915,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12112,
         Num = 1,
@@ -6946,10 +6946,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12055,
         Num = 1,
@@ -6976,10 +6976,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12044,
         Num = 1,
@@ -7012,10 +7012,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12082,
         Num = 1,
@@ -7048,10 +7048,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12087,
         Num = 1,
@@ -7084,10 +7084,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12026,
         Num = 1,
@@ -7115,10 +7115,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12057,
         Num = 1,
@@ -7145,10 +7145,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12114,
         Num = 1,
@@ -7176,10 +7176,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12090,
         Num = 1,
@@ -7207,10 +7207,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12003,
         Num = 1,
@@ -7243,10 +7243,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12116,
         Num = 1,
@@ -7279,10 +7279,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20027,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12092,
         Num = 1,
@@ -7315,10 +7315,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12028,
         Num = 1,
@@ -7351,10 +7351,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12119,
         Num = 1,
@@ -7387,10 +7387,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12095,
         Num = 1,
@@ -7423,10 +7423,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12122,
         Num = 1,
@@ -7454,10 +7454,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12031,
         Num = 1,
@@ -7485,10 +7485,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12098,
         Num = 1,
@@ -7516,10 +7516,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12006,
         Num = 1,
@@ -7552,10 +7552,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12059,
         Num = 1,
@@ -7587,10 +7587,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12124,
         Num = 1,
@@ -7623,10 +7623,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12047,
         Num = 1,
@@ -7654,10 +7654,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12076,
         Num = 1,
@@ -7690,10 +7690,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12127,
         Num = 1,
@@ -7726,10 +7726,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12009,
         Num = 1,
@@ -7762,10 +7762,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12100,
         Num = 1,
@@ -7798,10 +7798,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12033,
         Num = 1,
@@ -7834,10 +7834,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12130,
         Num = 1,
@@ -7870,10 +7870,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12012,
         Num = 1,
@@ -7906,10 +7906,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12079,
         Num = 1,
@@ -7942,10 +7942,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12015,
         Num = 1,
@@ -7978,10 +7978,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12050,
         Num = 1,
@@ -8014,10 +8014,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12065,
         Num = 1,
@@ -8049,10 +8049,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12062,
         Num = 1,
@@ -8084,10 +8084,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12106,
         Num = 1,
@@ -8120,10 +8120,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12036,
         Num = 1,
@@ -8156,10 +8156,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12018,
         Num = 1,
@@ -8192,10 +8192,10 @@ return ReadOnly("Draft", {
     Rarity = 5,
     Resource = {
       [1] = {
-  Id = 20028,
-  Num = 2,
-  Type = "Resource"
-},
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
       [2] = {
         Id = 12103,
         Num = 1,

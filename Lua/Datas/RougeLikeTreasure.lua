@@ -507,7 +507,9 @@ return ReadOnly("RougeLikeTreasure", {
     Name = "RLTreasure_Name_10211",
     RLArchiveId = 24,
     ServerBuild = {
-      [1] = {49},
+      [1] = {
+        49
+      },
       [2] = {27}
     },
     ShopPrices = 400,
@@ -599,7 +601,9 @@ return ReadOnly("RougeLikeTreasure", {
     RLArchiveId = 28,
     ServerBuild = {
       [1] = {39},
-      [2] = {40}
+      [2] = {
+        40
+      }
     },
     ShopPrices = 400,
     ShopWeight = 500,
@@ -1070,7 +1074,9 @@ return ReadOnly("RougeLikeTreasure", {
     Name = "RLTreasure_Name_12101",
     RLArchiveId = 42,
     ServerBuild = {
-      [1] = {49},
+      [1] = {
+        49
+      },
       [2] = {30},
       [3] = {31}
     },
@@ -1096,7 +1102,9 @@ return ReadOnly("RougeLikeTreasure", {
     Name = "RLTreasure_Name_12102",
     RLArchiveId = 43,
     ServerBuild = {
-      [1] = {49},
+      [1] = {
+        49
+      },
       [2] = {28},
       [3] = {29}
     },
@@ -1124,7 +1132,9 @@ return ReadOnly("RougeLikeTreasure", {
     Name = "RLTreasure_Name_12201",
     RLArchiveId = 44,
     ServerBuild = {
-      [1] = {49},
+      [1] = {
+        49
+      },
       [2] = {50},
       [3] = {33}
     },

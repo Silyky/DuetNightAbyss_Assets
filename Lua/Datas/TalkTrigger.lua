@@ -474,17 +474,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110120,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     },
     Type = "Impression"
   },
@@ -494,17 +494,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110121,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     },
     Type = "Impression"
   },
@@ -529,17 +529,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110123,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010305
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010306
   }
 }
-}
+      }
     }
   },
   [110124] = {
@@ -556,17 +556,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110125,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010305
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010306
   }
 }
-}
+      }
     }
   },
   [110126] = {
@@ -575,17 +575,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110126,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010109
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010301
   }
 }
-}
+      }
     }
   },
   [110127] = {
@@ -594,17 +594,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110127,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010109
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010301
   }
 }
-}
+      }
     }
   },
   [110128] = {
@@ -613,17 +613,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110128,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     }
   },
   [110129] = {
@@ -632,17 +632,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110129,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     }
   },
   [110130] = {
@@ -651,17 +651,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110130,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     }
   },
   [110131] = {
@@ -670,17 +670,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110131,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     }
   },
   [110132] = {
@@ -700,17 +700,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110133,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     }
   },
   [110134] = {
@@ -719,17 +719,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110134,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     }
   },
   [110135] = {
@@ -738,17 +738,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 110135,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 11010107
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 11010108
   }
 }
-}
+      }
     }
   },
   [110136] = {
@@ -820,17 +820,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 300100,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 10030104
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 10030105
   }
 }
-}
+      }
     }
   },
   [300101] = {
@@ -839,17 +839,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 300101,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 10030104
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 10030105
   }
 }
-}
+      }
     }
   },
   [300102] = {
@@ -858,17 +858,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 300102,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 10030104
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 10030105
   }
 }
-}
+      }
     }
   },
   [300103] = {
@@ -877,17 +877,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 300103,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 10030104
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 10030105
   }
 }
-}
+      }
     }
   },
   [300104] = {
@@ -896,17 +896,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 300104,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 10030104
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 10030105
   }
 }
-}
+      }
     }
   },
   [300105] = {
@@ -915,17 +915,17 @@ return ReadOnly("TalkTrigger", {
     TalkTriggerId = 300105,
     TriggerCondition = {
       And = {
-  {
+        {
   QuestStart = {
     QuestId = 10030104
   }
 },
-  {
+        {
   QuestUnstart = {
     QuestId = 10030105
   }
 }
-}
+      }
     }
   },
   [300106] = {
@@ -976,7 +976,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 500001,
     TalkTriggerId = 500001,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20021200}
+      QuestFinish = {
+        QuestId = 20021200
+      }
     }
   },
   [500002] = {
@@ -1069,7 +1071,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 500018,
     TalkTriggerId = 500018,
     TriggerCondition = {
-      ImprUncomp = {TalkTriggerId = 510033}
+      ImprUncomp = {
+        TalkTriggerId = 510033
+      }
     }
   },
   [500019] = {
@@ -1178,7 +1182,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 500037,
     TalkTriggerId = 500037,
     TriggerCondition = {
-      ImprUncomp = {TalkTriggerId = 510033}
+      ImprUncomp = {
+        TalkTriggerId = 510033
+      }
     }
   },
   [500038] = {
@@ -1214,7 +1220,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 500043,
     TalkTriggerId = 500043,
     TriggerCondition = {
-      QuestChainFinish = {QuestChainId = 100208}
+      QuestChainFinish = {
+        QuestChainId = 100208
+      }
     }
   },
   [500044] = {
@@ -1271,7 +1279,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 500051,
     TalkTriggerId = 500051,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20021004}
+      QuestFinish = {
+        QuestId = 20021004
+      }
     }
   },
   [500052] = {
@@ -1436,7 +1446,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 510026,
     TalkTriggerId = 510026,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20021200}
+      QuestFinish = {
+        QuestId = 20021200
+      }
     },
     Type = "Impression"
   },
@@ -1688,7 +1700,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 510112,
     TalkTriggerId = 510112,
     TriggerCondition = {
-      QuestChainFinish = {QuestChainId = 100204}
+      QuestChainFinish = {
+        QuestChainId = 100204
+      }
     },
     Type = "Impression"
   },
@@ -1697,7 +1711,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 510113,
     TalkTriggerId = 510113,
     TriggerCondition = {
-      QuestChainFinish = {QuestChainId = 100204}
+      QuestChainFinish = {
+        QuestChainId = 100204
+      }
     },
     Type = "Impression"
   },
@@ -1706,7 +1722,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 510114,
     TalkTriggerId = 510114,
     TriggerCondition = {
-      QuestChainFinish = {QuestChainId = 100204}
+      QuestChainFinish = {
+        QuestChainId = 100204
+      }
     },
     Type = "Impression"
   },
@@ -3670,7 +3688,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100032,
     TalkTriggerId = 5100032,
     TriggerCondition = {
-      ImprComp = {TalkTriggerId = 510023}
+      ImprComp = {
+        TalkTriggerId = 510023
+      }
     }
   },
   [5100042] = {
@@ -3693,7 +3713,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100043,
     TalkTriggerId = 5100043,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20020309}
+      QuestFinish = {
+        QuestId = 20020309
+      }
     }
   },
   [5100072] = {
@@ -3717,7 +3739,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100083,
     TalkTriggerId = 5100083,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20020309}
+      QuestFinish = {
+        QuestId = 20020309
+      }
     }
   },
   [5100092] = {
@@ -3815,7 +3839,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100232,
     TalkTriggerId = 5100232,
     TriggerCondition = {
-      ImprComp = {TalkTriggerId = 510023}
+      ImprComp = {
+        TalkTriggerId = 510023
+      }
     }
   },
   [5100341] = {
@@ -3823,7 +3849,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100341,
     TalkTriggerId = 5100341,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20020608}
+      QuestFinish = {
+        QuestId = 20020608
+      }
     }
   },
   [5100342] = {
@@ -3831,7 +3859,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100342,
     TalkTriggerId = 5100342,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20020608}
+      QuestFinish = {
+        QuestId = 20020608
+      }
     }
   },
   [5100371] = {
@@ -3839,7 +3869,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100371,
     TalkTriggerId = 5100371,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20020706}
+      QuestFinish = {
+        QuestId = 20020706
+      }
     }
   },
   [5100372] = {
@@ -3847,7 +3879,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100372,
     TalkTriggerId = 5100372,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20020706}
+      QuestFinish = {
+        QuestId = 20020706
+      }
     }
   },
   [5100411] = {
@@ -3863,7 +3897,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100421,
     TalkTriggerId = 5100421,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20021004}
+      QuestFinish = {
+        QuestId = 20021004
+      }
     }
   },
   [5100491] = {
@@ -3887,7 +3923,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5100511,
     TalkTriggerId = 5100511,
     TriggerCondition = {
-      QuestFinish = {QuestId = 20021301}
+      QuestFinish = {
+        QuestId = 20021301
+      }
     }
   },
   [5100521] = {
@@ -4023,7 +4061,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5101042,
     TalkTriggerId = 5101042,
     TriggerCondition = {
-      ImprComp = {TalkTriggerId = 510104}
+      ImprComp = {
+        TalkTriggerId = 510104
+      }
     }
   },
   [5101043] = {
@@ -4055,7 +4095,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 5101044,
     TalkTriggerId = 5101044,
     TriggerCondition = {
-      ImprComp = {TalkTriggerId = 510104}
+      ImprComp = {
+        TalkTriggerId = 510104
+      }
     }
   },
   [5101052] = {
@@ -4144,7 +4186,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 8200021,
     TalkTriggerId = 8200021,
     TriggerCondition = {
-      ExploreGroupComp = {ExploreGroupId = 7013098}
+      ExploreGroupComp = {
+        ExploreGroupId = 7013098
+      }
     },
     Type = "Impression"
   },
@@ -4185,7 +4229,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 8200031,
     TalkTriggerId = 8200031,
     TriggerCondition = {
-      ExploreGroupComp = {ExploreGroupId = 7013101}
+      ExploreGroupComp = {
+        ExploreGroupId = 7013101
+      }
     },
     Type = "Impression"
   },
@@ -4262,7 +4308,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 9023011,
     TalkTriggerId = 9023011,
     TriggerCondition = {
-      QuestChainUnFinish = {QuestChainId = 100306}
+      QuestChainUnFinish = {
+        QuestChainId = 100306
+      }
     }
   },
   [9023012] = {
@@ -4270,7 +4318,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 9023012,
     TalkTriggerId = 9023012,
     TriggerCondition = {
-      QuestChainFinish = {QuestChainId = 100306}
+      QuestChainFinish = {
+        QuestChainId = 100306
+      }
     }
   },
   [9024011] = {
@@ -4278,7 +4328,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 9024011,
     TalkTriggerId = 9024011,
     TriggerCondition = {
-      QuestChainUnFinish = {QuestChainId = 100306}
+      QuestChainUnFinish = {
+        QuestChainId = 100306
+      }
     }
   },
   [9024012] = {
@@ -4286,7 +4338,9 @@ return ReadOnly("TalkTrigger", {
     TalkId = 9024012,
     TalkTriggerId = 9024012,
     TriggerCondition = {
-      QuestChainFinish = {QuestChainId = 100306}
+      QuestChainFinish = {
+        QuestChainId = 100306
+      }
     }
   },
   [10010104] = {

@@ -404,139 +404,405 @@ return ReadOnly("Item2DraftIdMap", {
     }
   },
   Mod = {
-    [32101] = {MaxLen = 1},
-    [32102] = {MaxLen = 1},
-    [32103] = {MaxLen = 1},
-    [33005] = {MaxLen = 1},
-    [33101] = {MaxLen = 1},
-    [33102] = {MaxLen = 1},
-    [33103] = {MaxLen = 1},
-    [41001] = {MaxLen = 1},
-    [41002] = {MaxLen = 1},
-    [41003] = {MaxLen = 1},
-    [41004] = {MaxLen = 1},
-    [41007] = {MaxLen = 1},
-    [41313] = {MaxLen = 1},
-    [41314] = {MaxLen = 1},
-    [41315] = {MaxLen = 1},
-    [41316] = {MaxLen = 1},
-    [41321] = {MaxLen = 1},
-    [41322] = {MaxLen = 1},
-    [41323] = {MaxLen = 1},
-    [41324] = {MaxLen = 1},
-    [41325] = {MaxLen = 1},
-    [41326] = {MaxLen = 1},
-    [41331] = {MaxLen = 1},
-    [41332] = {MaxLen = 1},
-    [41333] = {MaxLen = 1},
-    [41334] = {MaxLen = 1},
-    [41335] = {MaxLen = 1},
-    [41336] = {MaxLen = 1},
-    [41411] = {MaxLen = 1},
-    [41412] = {MaxLen = 1},
-    [41413] = {MaxLen = 1},
-    [41414] = {MaxLen = 1},
-    [41415] = {MaxLen = 1},
-    [41421] = {MaxLen = 1},
-    [41422] = {MaxLen = 1},
-    [41423] = {MaxLen = 1},
-    [41424] = {MaxLen = 1},
-    [41425] = {MaxLen = 1},
-    [41431] = {MaxLen = 1},
-    [41432] = {MaxLen = 1},
-    [41433] = {MaxLen = 1},
-    [41434] = {MaxLen = 1},
-    [41435] = {MaxLen = 1},
-    [41441] = {MaxLen = 1},
-    [41442] = {MaxLen = 1},
-    [41443] = {MaxLen = 1},
-    [41444] = {MaxLen = 1},
-    [41445] = {MaxLen = 1},
-    [41451] = {MaxLen = 1},
-    [41452] = {MaxLen = 1},
-    [41453] = {MaxLen = 1},
-    [41454] = {MaxLen = 1},
-    [41455] = {MaxLen = 1},
-    [41461] = {MaxLen = 1},
-    [41462] = {MaxLen = 1},
-    [41463] = {MaxLen = 1},
-    [41464] = {MaxLen = 1},
-    [41465] = {MaxLen = 1},
-    [41711] = {MaxLen = 1},
-    [41712] = {MaxLen = 1},
-    [41713] = {MaxLen = 1},
-    [41714] = {MaxLen = 1},
-    [41721] = {MaxLen = 1},
-    [41722] = {MaxLen = 1},
-    [41723] = {MaxLen = 1},
-    [41724] = {MaxLen = 1},
-    [41731] = {MaxLen = 1},
-    [41732] = {MaxLen = 1},
-    [41733] = {MaxLen = 1},
-    [41734] = {MaxLen = 1},
-    [41741] = {MaxLen = 1},
-    [41742] = {MaxLen = 1},
-    [41743] = {MaxLen = 1},
-    [41744] = {MaxLen = 1},
-    [41751] = {MaxLen = 1},
-    [41752] = {MaxLen = 1},
-    [41753] = {MaxLen = 1},
-    [41754] = {MaxLen = 1},
-    [41761] = {MaxLen = 1},
-    [41762] = {MaxLen = 1},
-    [41763] = {MaxLen = 1},
-    [41764] = {MaxLen = 1},
-    [41801] = {MaxLen = 1},
-    [41802] = {MaxLen = 1},
-    [41803] = {MaxLen = 1},
-    [41804] = {MaxLen = 1},
-    [41805] = {MaxLen = 1},
-    [41806] = {MaxLen = 1},
-    [41807] = {MaxLen = 1},
-    [41808] = {MaxLen = 1},
-    [41809] = {MaxLen = 1},
-    [41810] = {MaxLen = 1},
-    [41811] = {MaxLen = 1},
-    [41812] = {MaxLen = 1},
-    [41911] = {MaxLen = 1},
-    [41921] = {MaxLen = 1},
-    [41922] = {MaxLen = 1},
-    [41931] = {MaxLen = 1},
-    [41941] = {MaxLen = 1},
-    [41951] = {MaxLen = 1},
-    [41952] = {MaxLen = 1},
-    [41961] = {MaxLen = 1},
-    [41962] = {MaxLen = 1},
-    [42001] = {MaxLen = 1},
-    [42002] = {MaxLen = 1},
-    [42003] = {MaxLen = 1},
-    [42006] = {MaxLen = 1},
-    [42311] = {MaxLen = 1},
-    [42322] = {MaxLen = 1},
-    [43001] = {MaxLen = 1},
-    [43002] = {MaxLen = 1},
-    [43003] = {MaxLen = 1},
-    [43006] = {MaxLen = 1},
-    [43301] = {MaxLen = 1},
-    [43341] = {MaxLen = 1},
-    [44001] = {MaxLen = 1},
-    [44002] = {MaxLen = 1},
-    [44003] = {MaxLen = 1},
-    [44004] = {MaxLen = 1},
-    [44005] = {MaxLen = 1},
-    [44006] = {MaxLen = 1},
-    [44101] = {MaxLen = 1},
-    [44102] = {MaxLen = 1},
-    [44103] = {MaxLen = 1},
-    [45001] = {MaxLen = 1},
-    [45002] = {MaxLen = 1},
-    [45003] = {MaxLen = 1},
-    [45004] = {MaxLen = 1},
-    [45005] = {MaxLen = 1},
-    [45006] = {MaxLen = 1},
-    [45101] = {MaxLen = 1},
-    [45102] = {MaxLen = 1},
-    [45103] = {MaxLen = 1},
+    [32101] = {
+      MaxLen = 1
+    },
+    [32102] = {
+      MaxLen = 1
+    },
+    [32103] = {
+      MaxLen = 1
+    },
+    [33005] = {
+      MaxLen = 1
+    },
+    [33101] = {
+      MaxLen = 1
+    },
+    [33102] = {
+      MaxLen = 1
+    },
+    [33103] = {
+      MaxLen = 1
+    },
+    [41001] = {
+      MaxLen = 1
+    },
+    [41002] = {
+      MaxLen = 1
+    },
+    [41003] = {
+      MaxLen = 1
+    },
+    [41004] = {
+      MaxLen = 1
+    },
+    [41007] = {
+      MaxLen = 1
+    },
+    [41313] = {
+      MaxLen = 1
+    },
+    [41314] = {
+      MaxLen = 1
+    },
+    [41315] = {
+      MaxLen = 1
+    },
+    [41316] = {
+      MaxLen = 1
+    },
+    [41321] = {
+      MaxLen = 1
+    },
+    [41322] = {
+      MaxLen = 1
+    },
+    [41323] = {
+      MaxLen = 1
+    },
+    [41324] = {
+      MaxLen = 1
+    },
+    [41325] = {
+      MaxLen = 1
+    },
+    [41326] = {
+      MaxLen = 1
+    },
+    [41331] = {
+      MaxLen = 1
+    },
+    [41332] = {
+      MaxLen = 1
+    },
+    [41333] = {
+      MaxLen = 1
+    },
+    [41334] = {
+      MaxLen = 1
+    },
+    [41335] = {
+      MaxLen = 1
+    },
+    [41336] = {
+      MaxLen = 1
+    },
+    [41411] = {
+      MaxLen = 1
+    },
+    [41412] = {
+      MaxLen = 1
+    },
+    [41413] = {
+      MaxLen = 1
+    },
+    [41414] = {
+      MaxLen = 1
+    },
+    [41415] = {
+      MaxLen = 1
+    },
+    [41421] = {
+      MaxLen = 1
+    },
+    [41422] = {
+      MaxLen = 1
+    },
+    [41423] = {
+      MaxLen = 1
+    },
+    [41424] = {
+      MaxLen = 1
+    },
+    [41425] = {
+      MaxLen = 1
+    },
+    [41431] = {
+      MaxLen = 1
+    },
+    [41432] = {
+      MaxLen = 1
+    },
+    [41433] = {
+      MaxLen = 1
+    },
+    [41434] = {
+      MaxLen = 1
+    },
+    [41435] = {
+      MaxLen = 1
+    },
+    [41441] = {
+      MaxLen = 1
+    },
+    [41442] = {
+      MaxLen = 1
+    },
+    [41443] = {
+      MaxLen = 1
+    },
+    [41444] = {
+      MaxLen = 1
+    },
+    [41445] = {
+      MaxLen = 1
+    },
+    [41451] = {
+      MaxLen = 1
+    },
+    [41452] = {
+      MaxLen = 1
+    },
+    [41453] = {
+      MaxLen = 1
+    },
+    [41454] = {
+      MaxLen = 1
+    },
+    [41455] = {
+      MaxLen = 1
+    },
+    [41461] = {
+      MaxLen = 1
+    },
+    [41462] = {
+      MaxLen = 1
+    },
+    [41463] = {
+      MaxLen = 1
+    },
+    [41464] = {
+      MaxLen = 1
+    },
+    [41465] = {
+      MaxLen = 1
+    },
+    [41711] = {
+      MaxLen = 1
+    },
+    [41712] = {
+      MaxLen = 1
+    },
+    [41713] = {
+      MaxLen = 1
+    },
+    [41714] = {
+      MaxLen = 1
+    },
+    [41721] = {
+      MaxLen = 1
+    },
+    [41722] = {
+      MaxLen = 1
+    },
+    [41723] = {
+      MaxLen = 1
+    },
+    [41724] = {
+      MaxLen = 1
+    },
+    [41731] = {
+      MaxLen = 1
+    },
+    [41732] = {
+      MaxLen = 1
+    },
+    [41733] = {
+      MaxLen = 1
+    },
+    [41734] = {
+      MaxLen = 1
+    },
+    [41741] = {
+      MaxLen = 1
+    },
+    [41742] = {
+      MaxLen = 1
+    },
+    [41743] = {
+      MaxLen = 1
+    },
+    [41744] = {
+      MaxLen = 1
+    },
+    [41751] = {
+      MaxLen = 1
+    },
+    [41752] = {
+      MaxLen = 1
+    },
+    [41753] = {
+      MaxLen = 1
+    },
+    [41754] = {
+      MaxLen = 1
+    },
+    [41761] = {
+      MaxLen = 1
+    },
+    [41762] = {
+      MaxLen = 1
+    },
+    [41763] = {
+      MaxLen = 1
+    },
+    [41764] = {
+      MaxLen = 1
+    },
+    [41801] = {
+      MaxLen = 1
+    },
+    [41802] = {
+      MaxLen = 1
+    },
+    [41803] = {
+      MaxLen = 1
+    },
+    [41804] = {
+      MaxLen = 1
+    },
+    [41805] = {
+      MaxLen = 1
+    },
+    [41806] = {
+      MaxLen = 1
+    },
+    [41807] = {
+      MaxLen = 1
+    },
+    [41808] = {
+      MaxLen = 1
+    },
+    [41809] = {
+      MaxLen = 1
+    },
+    [41810] = {
+      MaxLen = 1
+    },
+    [41811] = {
+      MaxLen = 1
+    },
+    [41812] = {
+      MaxLen = 1
+    },
+    [41911] = {
+      MaxLen = 1
+    },
+    [41921] = {
+      MaxLen = 1
+    },
+    [41922] = {
+      MaxLen = 1
+    },
+    [41931] = {
+      MaxLen = 1
+    },
+    [41941] = {
+      MaxLen = 1
+    },
+    [41951] = {
+      MaxLen = 1
+    },
+    [41952] = {
+      MaxLen = 1
+    },
+    [41961] = {
+      MaxLen = 1
+    },
+    [41962] = {
+      MaxLen = 1
+    },
+    [42001] = {
+      MaxLen = 1
+    },
+    [42002] = {
+      MaxLen = 1
+    },
+    [42003] = {
+      MaxLen = 1
+    },
+    [42006] = {
+      MaxLen = 1
+    },
+    [42311] = {
+      MaxLen = 1
+    },
+    [42322] = {
+      MaxLen = 1
+    },
+    [43001] = {
+      MaxLen = 1
+    },
+    [43002] = {
+      MaxLen = 1
+    },
+    [43003] = {
+      MaxLen = 1
+    },
+    [43006] = {
+      MaxLen = 1
+    },
+    [43301] = {
+      MaxLen = 1
+    },
+    [43341] = {
+      MaxLen = 1
+    },
+    [44001] = {
+      MaxLen = 1
+    },
+    [44002] = {
+      MaxLen = 1
+    },
+    [44003] = {
+      MaxLen = 1
+    },
+    [44004] = {
+      MaxLen = 1
+    },
+    [44005] = {
+      MaxLen = 1
+    },
+    [44006] = {
+      MaxLen = 1
+    },
+    [44101] = {
+      MaxLen = 1
+    },
+    [44102] = {
+      MaxLen = 1
+    },
+    [44103] = {
+      MaxLen = 1
+    },
+    [45001] = {
+      MaxLen = 1
+    },
+    [45002] = {
+      MaxLen = 1
+    },
+    [45003] = {
+      MaxLen = 1
+    },
+    [45004] = {
+      MaxLen = 1
+    },
+    [45005] = {
+      MaxLen = 1
+    },
+    [45006] = {
+      MaxLen = 1
+    },
+    [45101] = {
+      MaxLen = 1
+    },
+    [45102] = {
+      MaxLen = 1
+    },
+    [45103] = {
+      MaxLen = 1
+    },
     [51002] = {
       DraftIds = {
         [1] = 151002
@@ -1337,7 +1603,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [206] = {MaxLen = 1},
+    [206] = {
+      MaxLen = 1
+    },
     [207] = {
       DraftIds = {
         [1] = 1052
@@ -1374,7 +1642,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [10001] = {MaxLen = 1},
+    [10001] = {
+      MaxLen = 1
+    },
     [10002] = {
       DraftIds = {
         [1] = 2011
@@ -1393,7 +1663,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 4
     },
-    [10005] = {MaxLen = 1},
+    [10005] = {
+      MaxLen = 1
+    },
     [10006] = {
       DraftIds = {
         [1] = 2021
@@ -1412,7 +1684,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 4
     },
-    [10009] = {MaxLen = 1},
+    [10009] = {
+      MaxLen = 1
+    },
     [10010] = {
       DraftIds = {
         [1] = 2031
@@ -1431,7 +1705,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 4
     },
-    [10013] = {MaxLen = 1},
+    [10013] = {
+      MaxLen = 1
+    },
     [10014] = {
       DraftIds = {
         [1] = 2041
@@ -1450,7 +1726,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 4
     },
-    [10017] = {MaxLen = 1},
+    [10017] = {
+      MaxLen = 1
+    },
     [10018] = {
       DraftIds = {
         [1] = 2051
@@ -1469,7 +1747,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 4
     },
-    [10021] = {MaxLen = 1},
+    [10021] = {
+      MaxLen = 1
+    },
     [10022] = {
       DraftIds = {
         [1] = 2061
@@ -1488,7 +1768,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 4
     },
-    [10200] = {MaxLen = 1},
+    [10200] = {
+      MaxLen = 1
+    },
     [10201] = {
       DraftIds = {
         [1] = 310201
@@ -1501,7 +1783,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [10203] = {MaxLen = 1},
+    [10203] = {
+      MaxLen = 1
+    },
     [10204] = {
       DraftIds = {
         [1] = 310204
@@ -1514,7 +1798,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [10206] = {MaxLen = 1},
+    [10206] = {
+      MaxLen = 1
+    },
     [10207] = {
       DraftIds = {
         [1] = 310207
@@ -1527,7 +1813,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [10209] = {MaxLen = 1},
+    [10209] = {
+      MaxLen = 1
+    },
     [10210] = {
       DraftIds = {
         [1] = 310210
@@ -1540,7 +1828,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [11001] = {MaxLen = 1},
+    [11001] = {
+      MaxLen = 1
+    },
     [11002] = {
       DraftIds = {
         [1] = 4001
@@ -1553,7 +1843,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [11004] = {MaxLen = 1},
+    [11004] = {
+      MaxLen = 1
+    },
     [11005] = {
       DraftIds = {
         [1] = 4003
@@ -1566,7 +1858,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [11007] = {MaxLen = 1},
+    [11007] = {
+      MaxLen = 1
+    },
     [11008] = {
       DraftIds = {
         [1] = 4005
@@ -1579,7 +1873,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [11010] = {MaxLen = 1},
+    [11010] = {
+      MaxLen = 1
+    },
     [11011] = {
       DraftIds = {
         [1] = 4007
@@ -1592,7 +1888,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [11013] = {MaxLen = 1},
+    [11013] = {
+      MaxLen = 1
+    },
     [11014] = {
       DraftIds = {
         [1] = 4009
@@ -1605,7 +1903,9 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [11016] = {MaxLen = 1},
+    [11016] = {
+      MaxLen = 1
+    },
     [11017] = {
       DraftIds = {
         [1] = 4011
@@ -1618,160 +1918,444 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [12001] = {MaxLen = 1},
-    [12002] = {MaxLen = 1},
-    [12003] = {MaxLen = 1},
-    [12004] = {MaxLen = 1},
-    [12005] = {MaxLen = 1},
-    [12006] = {MaxLen = 1},
-    [12007] = {MaxLen = 1},
-    [12008] = {MaxLen = 1},
-    [12009] = {MaxLen = 1},
-    [12010] = {MaxLen = 1},
-    [12011] = {MaxLen = 1},
-    [12012] = {MaxLen = 1},
-    [12013] = {MaxLen = 1},
-    [12014] = {MaxLen = 1},
-    [12015] = {MaxLen = 1},
-    [12016] = {MaxLen = 1},
-    [12017] = {MaxLen = 1},
-    [12018] = {MaxLen = 1},
-    [12019] = {MaxLen = 1},
-    [12020] = {MaxLen = 1},
-    [12022] = {MaxLen = 1},
-    [12023] = {MaxLen = 1},
-    [12024] = {MaxLen = 1},
-    [12025] = {MaxLen = 1},
-    [12026] = {MaxLen = 1},
-    [12027] = {MaxLen = 1},
-    [12028] = {MaxLen = 1},
-    [12029] = {MaxLen = 1},
-    [12030] = {MaxLen = 1},
-    [12031] = {MaxLen = 1},
-    [12032] = {MaxLen = 1},
-    [12033] = {MaxLen = 1},
-    [12034] = {MaxLen = 1},
-    [12035] = {MaxLen = 1},
-    [12036] = {MaxLen = 1},
-    [12037] = {MaxLen = 1},
-    [12038] = {MaxLen = 1},
-    [12040] = {MaxLen = 1},
-    [12041] = {MaxLen = 1},
-    [12042] = {MaxLen = 1},
-    [12043] = {MaxLen = 1},
-    [12044] = {MaxLen = 1},
-    [12045] = {MaxLen = 1},
-    [12046] = {MaxLen = 1},
-    [12047] = {MaxLen = 1},
-    [12048] = {MaxLen = 1},
-    [12050] = {MaxLen = 1},
-    [12051] = {MaxLen = 1},
-    [12052] = {MaxLen = 1},
-    [12053] = {MaxLen = 1},
-    [12054] = {MaxLen = 1},
-    [12055] = {MaxLen = 1},
-    [12056] = {MaxLen = 1},
-    [12057] = {MaxLen = 1},
-    [12058] = {MaxLen = 1},
-    [12059] = {MaxLen = 1},
-    [12060] = {MaxLen = 1},
-    [12061] = {MaxLen = 1},
-    [12062] = {MaxLen = 1},
-    [12063] = {MaxLen = 1},
-    [12064] = {MaxLen = 1},
-    [12065] = {MaxLen = 1},
-    [12066] = {MaxLen = 1},
-    [12067] = {MaxLen = 1},
-    [12068] = {MaxLen = 1},
-    [12069] = {MaxLen = 1},
-    [12070] = {MaxLen = 1},
-    [12071] = {MaxLen = 1},
-    [12072] = {MaxLen = 1},
-    [12073] = {MaxLen = 1},
-    [12074] = {MaxLen = 1},
-    [12075] = {MaxLen = 1},
-    [12076] = {MaxLen = 1},
-    [12077] = {MaxLen = 1},
-    [12078] = {MaxLen = 1},
-    [12079] = {MaxLen = 1},
-    [12080] = {MaxLen = 1},
-    [12081] = {MaxLen = 1},
-    [12082] = {MaxLen = 1},
-    [12083] = {MaxLen = 1},
-    [12084] = {MaxLen = 1},
-    [12085] = {MaxLen = 1},
-    [12086] = {MaxLen = 1},
-    [12087] = {MaxLen = 1},
-    [12088] = {MaxLen = 1},
-    [12089] = {MaxLen = 1},
-    [12090] = {MaxLen = 1},
-    [12091] = {MaxLen = 1},
-    [12092] = {MaxLen = 1},
-    [12093] = {MaxLen = 1},
-    [12094] = {MaxLen = 1},
-    [12095] = {MaxLen = 1},
-    [12096] = {MaxLen = 1},
-    [12097] = {MaxLen = 1},
-    [12098] = {MaxLen = 1},
-    [12099] = {MaxLen = 1},
-    [12100] = {MaxLen = 1},
-    [12101] = {MaxLen = 1},
-    [12102] = {MaxLen = 1},
-    [12103] = {MaxLen = 1},
-    [12104] = {MaxLen = 1},
-    [12105] = {MaxLen = 1},
-    [12106] = {MaxLen = 1},
-    [12107] = {MaxLen = 1},
-    [12108] = {MaxLen = 1},
-    [12110] = {MaxLen = 1},
-    [12111] = {MaxLen = 1},
-    [12112] = {MaxLen = 1},
-    [12113] = {MaxLen = 1},
-    [12114] = {MaxLen = 1},
-    [12115] = {MaxLen = 1},
-    [12116] = {MaxLen = 1},
-    [12117] = {MaxLen = 1},
-    [12118] = {MaxLen = 1},
-    [12119] = {MaxLen = 1},
-    [12120] = {MaxLen = 1},
-    [12121] = {MaxLen = 1},
-    [12122] = {MaxLen = 1},
-    [12123] = {MaxLen = 1},
-    [12124] = {MaxLen = 1},
-    [12125] = {MaxLen = 1},
-    [12126] = {MaxLen = 1},
-    [12127] = {MaxLen = 1},
-    [12128] = {MaxLen = 1},
-    [12129] = {MaxLen = 1},
-    [12130] = {MaxLen = 1},
-    [12131] = {MaxLen = 1},
-    [12132] = {MaxLen = 1},
-    [20002] = {MaxLen = 1},
-    [20005] = {MaxLen = 1},
+    [12001] = {
+      MaxLen = 1
+    },
+    [12002] = {
+      MaxLen = 1
+    },
+    [12003] = {
+      MaxLen = 1
+    },
+    [12004] = {
+      MaxLen = 1
+    },
+    [12005] = {
+      MaxLen = 1
+    },
+    [12006] = {
+      MaxLen = 1
+    },
+    [12007] = {
+      MaxLen = 1
+    },
+    [12008] = {
+      MaxLen = 1
+    },
+    [12009] = {
+      MaxLen = 1
+    },
+    [12010] = {
+      MaxLen = 1
+    },
+    [12011] = {
+      MaxLen = 1
+    },
+    [12012] = {
+      MaxLen = 1
+    },
+    [12013] = {
+      MaxLen = 1
+    },
+    [12014] = {
+      MaxLen = 1
+    },
+    [12015] = {
+      MaxLen = 1
+    },
+    [12016] = {
+      MaxLen = 1
+    },
+    [12017] = {
+      MaxLen = 1
+    },
+    [12018] = {
+      MaxLen = 1
+    },
+    [12019] = {
+      MaxLen = 1
+    },
+    [12020] = {
+      MaxLen = 1
+    },
+    [12022] = {
+      MaxLen = 1
+    },
+    [12023] = {
+      MaxLen = 1
+    },
+    [12024] = {
+      MaxLen = 1
+    },
+    [12025] = {
+      MaxLen = 1
+    },
+    [12026] = {
+      MaxLen = 1
+    },
+    [12027] = {
+      MaxLen = 1
+    },
+    [12028] = {
+      MaxLen = 1
+    },
+    [12029] = {
+      MaxLen = 1
+    },
+    [12030] = {
+      MaxLen = 1
+    },
+    [12031] = {
+      MaxLen = 1
+    },
+    [12032] = {
+      MaxLen = 1
+    },
+    [12033] = {
+      MaxLen = 1
+    },
+    [12034] = {
+      MaxLen = 1
+    },
+    [12035] = {
+      MaxLen = 1
+    },
+    [12036] = {
+      MaxLen = 1
+    },
+    [12037] = {
+      MaxLen = 1
+    },
+    [12038] = {
+      MaxLen = 1
+    },
+    [12040] = {
+      MaxLen = 1
+    },
+    [12041] = {
+      MaxLen = 1
+    },
+    [12042] = {
+      MaxLen = 1
+    },
+    [12043] = {
+      MaxLen = 1
+    },
+    [12044] = {
+      MaxLen = 1
+    },
+    [12045] = {
+      MaxLen = 1
+    },
+    [12046] = {
+      MaxLen = 1
+    },
+    [12047] = {
+      MaxLen = 1
+    },
+    [12048] = {
+      MaxLen = 1
+    },
+    [12050] = {
+      MaxLen = 1
+    },
+    [12051] = {
+      MaxLen = 1
+    },
+    [12052] = {
+      MaxLen = 1
+    },
+    [12053] = {
+      MaxLen = 1
+    },
+    [12054] = {
+      MaxLen = 1
+    },
+    [12055] = {
+      MaxLen = 1
+    },
+    [12056] = {
+      MaxLen = 1
+    },
+    [12057] = {
+      MaxLen = 1
+    },
+    [12058] = {
+      MaxLen = 1
+    },
+    [12059] = {
+      MaxLen = 1
+    },
+    [12060] = {
+      MaxLen = 1
+    },
+    [12061] = {
+      MaxLen = 1
+    },
+    [12062] = {
+      MaxLen = 1
+    },
+    [12063] = {
+      MaxLen = 1
+    },
+    [12064] = {
+      MaxLen = 1
+    },
+    [12065] = {
+      MaxLen = 1
+    },
+    [12066] = {
+      MaxLen = 1
+    },
+    [12067] = {
+      MaxLen = 1
+    },
+    [12068] = {
+      MaxLen = 1
+    },
+    [12069] = {
+      MaxLen = 1
+    },
+    [12070] = {
+      MaxLen = 1
+    },
+    [12071] = {
+      MaxLen = 1
+    },
+    [12072] = {
+      MaxLen = 1
+    },
+    [12073] = {
+      MaxLen = 1
+    },
+    [12074] = {
+      MaxLen = 1
+    },
+    [12075] = {
+      MaxLen = 1
+    },
+    [12076] = {
+      MaxLen = 1
+    },
+    [12077] = {
+      MaxLen = 1
+    },
+    [12078] = {
+      MaxLen = 1
+    },
+    [12079] = {
+      MaxLen = 1
+    },
+    [12080] = {
+      MaxLen = 1
+    },
+    [12081] = {
+      MaxLen = 1
+    },
+    [12082] = {
+      MaxLen = 1
+    },
+    [12083] = {
+      MaxLen = 1
+    },
+    [12084] = {
+      MaxLen = 1
+    },
+    [12085] = {
+      MaxLen = 1
+    },
+    [12086] = {
+      MaxLen = 1
+    },
+    [12087] = {
+      MaxLen = 1
+    },
+    [12088] = {
+      MaxLen = 1
+    },
+    [12089] = {
+      MaxLen = 1
+    },
+    [12090] = {
+      MaxLen = 1
+    },
+    [12091] = {
+      MaxLen = 1
+    },
+    [12092] = {
+      MaxLen = 1
+    },
+    [12093] = {
+      MaxLen = 1
+    },
+    [12094] = {
+      MaxLen = 1
+    },
+    [12095] = {
+      MaxLen = 1
+    },
+    [12096] = {
+      MaxLen = 1
+    },
+    [12097] = {
+      MaxLen = 1
+    },
+    [12098] = {
+      MaxLen = 1
+    },
+    [12099] = {
+      MaxLen = 1
+    },
+    [12100] = {
+      MaxLen = 1
+    },
+    [12101] = {
+      MaxLen = 1
+    },
+    [12102] = {
+      MaxLen = 1
+    },
+    [12103] = {
+      MaxLen = 1
+    },
+    [12104] = {
+      MaxLen = 1
+    },
+    [12105] = {
+      MaxLen = 1
+    },
+    [12106] = {
+      MaxLen = 1
+    },
+    [12107] = {
+      MaxLen = 1
+    },
+    [12108] = {
+      MaxLen = 1
+    },
+    [12110] = {
+      MaxLen = 1
+    },
+    [12111] = {
+      MaxLen = 1
+    },
+    [12112] = {
+      MaxLen = 1
+    },
+    [12113] = {
+      MaxLen = 1
+    },
+    [12114] = {
+      MaxLen = 1
+    },
+    [12115] = {
+      MaxLen = 1
+    },
+    [12116] = {
+      MaxLen = 1
+    },
+    [12117] = {
+      MaxLen = 1
+    },
+    [12118] = {
+      MaxLen = 1
+    },
+    [12119] = {
+      MaxLen = 1
+    },
+    [12120] = {
+      MaxLen = 1
+    },
+    [12121] = {
+      MaxLen = 1
+    },
+    [12122] = {
+      MaxLen = 1
+    },
+    [12123] = {
+      MaxLen = 1
+    },
+    [12124] = {
+      MaxLen = 1
+    },
+    [12125] = {
+      MaxLen = 1
+    },
+    [12126] = {
+      MaxLen = 1
+    },
+    [12127] = {
+      MaxLen = 1
+    },
+    [12128] = {
+      MaxLen = 1
+    },
+    [12129] = {
+      MaxLen = 1
+    },
+    [12130] = {
+      MaxLen = 1
+    },
+    [12131] = {
+      MaxLen = 1
+    },
+    [12132] = {
+      MaxLen = 1
+    },
+    [20002] = {
+      MaxLen = 1
+    },
+    [20005] = {
+      MaxLen = 1
+    },
     [20008] = {
       DraftIds = {
         [1] = 1008
       },
       MaxLen = 2
     },
-    [20009] = {MaxLen = 1},
-    [20010] = {MaxLen = 1},
-    [20011] = {MaxLen = 1},
-    [20012] = {MaxLen = 1},
-    [20013] = {MaxLen = 1},
-    [20014] = {MaxLen = 1},
-    [20017] = {MaxLen = 1},
-    [20018] = {MaxLen = 1},
-    [20019] = {MaxLen = 1},
-    [20020] = {MaxLen = 1},
-    [20021] = {MaxLen = 1},
+    [20009] = {
+      MaxLen = 1
+    },
+    [20010] = {
+      MaxLen = 1
+    },
+    [20011] = {
+      MaxLen = 1
+    },
+    [20012] = {
+      MaxLen = 1
+    },
+    [20013] = {
+      MaxLen = 1
+    },
+    [20014] = {
+      MaxLen = 1
+    },
+    [20017] = {
+      MaxLen = 1
+    },
+    [20018] = {
+      MaxLen = 1
+    },
+    [20019] = {
+      MaxLen = 1
+    },
+    [20020] = {
+      MaxLen = 1
+    },
+    [20021] = {
+      MaxLen = 1
+    },
     [20023] = {
       DraftIds = {
         [1] = 1007
       },
       MaxLen = 2
     },
-    [20024] = {MaxLen = 1},
+    [20024] = {
+      MaxLen = 1
+    },
     [20027] = {
       DraftIds = {
         [1] = 1001
@@ -1808,8 +2392,12 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 2
     },
-    [30001] = {MaxLen = 1},
-    [30002] = {MaxLen = 1},
+    [30001] = {
+      MaxLen = 1
+    },
+    [30002] = {
+      MaxLen = 1
+    },
     [40001] = {
       DraftIds = {
         [1] = 1014
@@ -1847,25 +2435,63 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 3
     },
-    [3000012] = {MaxLen = 1},
-    [3000013] = {MaxLen = 1},
-    [3000014] = {MaxLen = 1},
-    [3000015] = {MaxLen = 1},
-    [3000016] = {MaxLen = 1},
-    [3000017] = {MaxLen = 1},
-    [4010001] = {MaxLen = 1},
-    [4010002] = {MaxLen = 1},
-    [4010003] = {MaxLen = 1},
-    [4010004] = {MaxLen = 1},
-    [4010005] = {MaxLen = 1},
-    [4010006] = {MaxLen = 1},
-    [4010007] = {MaxLen = 1},
-    [4010008] = {MaxLen = 1},
-    [4010009] = {MaxLen = 1},
-    [4010010] = {MaxLen = 1},
-    [4010011] = {MaxLen = 1},
-    [4010012] = {MaxLen = 1},
-    [4020003] = {MaxLen = 1}
+    [3000012] = {
+      MaxLen = 1
+    },
+    [3000013] = {
+      MaxLen = 1
+    },
+    [3000014] = {
+      MaxLen = 1
+    },
+    [3000015] = {
+      MaxLen = 1
+    },
+    [3000016] = {
+      MaxLen = 1
+    },
+    [3000017] = {
+      MaxLen = 1
+    },
+    [4010001] = {
+      MaxLen = 1
+    },
+    [4010002] = {
+      MaxLen = 1
+    },
+    [4010003] = {
+      MaxLen = 1
+    },
+    [4010004] = {
+      MaxLen = 1
+    },
+    [4010005] = {
+      MaxLen = 1
+    },
+    [4010006] = {
+      MaxLen = 1
+    },
+    [4010007] = {
+      MaxLen = 1
+    },
+    [4010008] = {
+      MaxLen = 1
+    },
+    [4010009] = {
+      MaxLen = 1
+    },
+    [4010010] = {
+      MaxLen = 1
+    },
+    [4010011] = {
+      MaxLen = 1
+    },
+    [4010012] = {
+      MaxLen = 1
+    },
+    [4020003] = {
+      MaxLen = 1
+    }
   },
   Weapon = {
     [10101] = {

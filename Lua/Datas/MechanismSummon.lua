@@ -124,10 +124,10 @@ return ReadOnly("MechanismSummon", {
     BloodUIParmas = {
       ActiveCommonUI = 1,
       Offset = {
-  X = -75,
-  Y = 0,
-  Z = -150
-},
+        X = -75,
+        Y = 0,
+        Z = -150
+      },
       ScaleRateX = 2,
       ScaleRateY = 1.5,
       ShowLevel = false
@@ -158,10 +158,10 @@ return ReadOnly("MechanismSummon", {
     BloodUIParmas = {
       ActiveCommonUI = 1,
       Offset = {
-  X = -75,
-  Y = 0,
-  Z = -150
-},
+        X = -75,
+        Y = 0,
+        Z = -150
+      },
       ScaleRateX = 2,
       ScaleRateY = 1.5,
       ShowLevel = false

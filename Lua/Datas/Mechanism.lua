@@ -285,8 +285,8 @@ return ReadOnly("Mechanism", {
     UnitId = 106,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -297,8 +297,8 @@ return ReadOnly("Mechanism", {
     UnitId = 107,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -309,8 +309,8 @@ return ReadOnly("Mechanism", {
     UnitId = 108,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -321,8 +321,8 @@ return ReadOnly("Mechanism", {
     UnitId = 109,
     UnitParams = {
       Tag = {
-  "Weapon20508Bullut"
-}
+        "Weapon20508Bullut"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -333,8 +333,8 @@ return ReadOnly("Mechanism", {
     UnitId = 110,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -346,8 +346,8 @@ return ReadOnly("Mechanism", {
     UnitId = 111,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -1898,12 +1898,12 @@ return ReadOnly("Mechanism", {
   [39011] = {
     AccessoryIds = {
       Random = {
-  700307,
-  700308,
-  700309,
-  700310,
-  700311
-},
+        700307,
+        700308,
+        700309,
+        700310,
+        700311
+      },
       RandomNum = 3
     },
     BattleRoleId = 40003,
@@ -2216,10 +2216,10 @@ return ReadOnly("Mechanism", {
     UnitId = 39032,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -2242,10 +2242,10 @@ return ReadOnly("Mechanism", {
     UnitId = 39033,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -2268,10 +2268,10 @@ return ReadOnly("Mechanism", {
     UnitId = 39034,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -2900,43 +2900,43 @@ return ReadOnly("Mechanism", {
     UnitId = 49603,
     UnitParams = {
       SkillId = {
-  [0] = {
-  5,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000301] = {
-  7,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000302] = {
-  4,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000303] = {
-  1,
-  "Self",
-  "Target",
-  "Self"
-},
-  [500000304] = {
-  1,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000305] = {
-  2,
-  "Target",
-  "Target",
-  "Self"
-}
-}
+        [0] = {
+          5,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000301] = {
+          7,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000302] = {
+          4,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000303] = {
+          1,
+          "Self",
+          "Target",
+          "Self"
+        },
+        [500000304] = {
+          1,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000305] = {
+          2,
+          "Target",
+          "Target",
+          "Self"
+        }
+      }
     },
     UnitRealType = "DefenceCore"
   },
@@ -2953,43 +2953,43 @@ return ReadOnly("Mechanism", {
     UnitId = 49604,
     UnitParams = {
       SkillId = {
-  [0] = {
-  5,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000301] = {
-  7,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000302] = {
-  4,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000303] = {
-  1,
-  "Self",
-  "Target",
-  "Self"
-},
-  [500000304] = {
-  1,
-  "Target",
-  "Target",
-  "Self"
-},
-  [500000305] = {
-  2,
-  "Target",
-  "Target",
-  "Self"
-}
-}
+        [0] = {
+          5,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000301] = {
+          7,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000302] = {
+          4,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000303] = {
+          1,
+          "Self",
+          "Target",
+          "Self"
+        },
+        [500000304] = {
+          1,
+          "Target",
+          "Target",
+          "Self"
+        },
+        [500000305] = {
+          2,
+          "Target",
+          "Target",
+          "Self"
+        }
+      }
     },
     UnitRealType = "DefenceCore"
   },
@@ -6305,8 +6305,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121002,
     UnitParams = {
       Tag = {
-  "Weapon20508Bullut"
-}
+        "Weapon20508Bullut"
+      }
     },
     UnitRealType = "AromaTrigger"
   },
@@ -6333,8 +6333,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121004,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "SweetPlant"
   },
@@ -6375,8 +6375,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121007,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6391,8 +6391,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121008,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6428,8 +6428,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121011,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6441,8 +6441,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121012,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Runes"
   },
@@ -6455,8 +6455,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121013,
     UnitParams = {
       Tag = {
-  "Weapon20508Bullut"
-}
+        "Weapon20508Bullut"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6474,8 +6474,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121014,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6494,8 +6494,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121016,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6531,8 +6531,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121019,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6550,8 +6550,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121020,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6569,8 +6569,8 @@ return ReadOnly("Mechanism", {
     UnitId = 121021,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6924,8 +6924,8 @@ return ReadOnly("Mechanism", {
     UnitId = 131019,
     UnitParams = {
       Tag = {
-  "DongGuoWysSkill01"
-}
+        "DongGuoWysSkill01"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -6943,8 +6943,8 @@ return ReadOnly("Mechanism", {
     UnitId = 131020,
     UnitParams = {
       Tag = {
-  "DongGuoWysSkill01"
-}
+        "DongGuoWysSkill01"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -7008,8 +7008,8 @@ return ReadOnly("Mechanism", {
     UnitId = 131026,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -7863,12 +7863,12 @@ return ReadOnly("Mechanism", {
   [390111] = {
     AccessoryIds = {
       Random = {
-  700307,
-  700308,
-  700309,
-  700310,
-  700311
-},
+        700307,
+        700308,
+        700309,
+        700310,
+        700311
+      },
       RandomNum = 3
     },
     BattleRoleId = 40003,
@@ -8073,10 +8073,10 @@ return ReadOnly("Mechanism", {
     UnitId = 390271,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -8093,10 +8093,10 @@ return ReadOnly("Mechanism", {
     UnitId = 390272,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -8113,10 +8113,10 @@ return ReadOnly("Mechanism", {
     UnitId = 390273,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -8137,10 +8137,10 @@ return ReadOnly("Mechanism", {
     UnitId = 390274,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -8163,10 +8163,10 @@ return ReadOnly("Mechanism", {
     UnitId = 390275,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -8189,10 +8189,10 @@ return ReadOnly("Mechanism", {
     UnitId = 390276,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -8218,10 +8218,10 @@ return ReadOnly("Mechanism", {
     UnitId = 390279,
     UnitParams = {
       Tag = {
-  "FeinaColorRed",
-  "FeinaColorBlue",
-  "FeinaColorGreen"
-}
+        "FeinaColorRed",
+        "FeinaColorBlue",
+        "FeinaColorGreen"
+      }
     },
     UnitRealType = "Mechanism"
   },
@@ -10045,8 +10045,8 @@ return ReadOnly("Mechanism", {
     UnitId = 1210141,
     UnitParams = {
       Tag = {
-  "Prop42002Ray"
-}
+        "Prop42002Ray"
+      }
     },
     UnitRealType = "Mechanism"
   },

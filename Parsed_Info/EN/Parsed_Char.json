@@ -75,6 +75,20 @@
         "SkillDesc": "Berenica dashes forward, dealing AoE Damage 4 times along the way.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Heitao01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "20"
+          },
+          {
+            "Key": "DMG",
+            "Value": "347.0%/424.0%/501.0%/578.0%/655.0%/732.0%/809.0%/886.0%/963.0%/1040.0%/1117.0%/1194.0%/1271.0%/1348.0%/1425.0%/1502.0%/1579.0%/1656.0%/1733.0%/1810.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "3.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Creeping Tendrils x3, Vehicle Armour x1"
@@ -130,6 +144,76 @@
         "SkillDesc": "Switches the melee weapon to [Ymir] and casts 1 Swordwave.\\nWhen performing Normal Attack using [Ymir], unleashes Swordwaves in the attacking direction and constantly consumes Sanity, during which Benerica is immune to Hitstun when taking damage. Once Sanity drops to 0 or the skill is used again, [Ymir] is sheathed.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Heitao02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[110101].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "1-Hit DMG",
+            "Value": "19.0%/21.0%/23.0%/25.0%/27.0%/29.0%/31.0%/33.0%/35.0%/37.0%/39.0%/41.0%/43.0%/45.0%/47.0%/49.0%/51.0%/53.0%/55.0%/57.0%"
+          },
+          {
+            "Key": "2-Hit DMG",
+            "Value": "20.0%/23.0%/26.0%/29.0%/32.0%/35.0%/38.0%/41.0%/44.0%/47.0%/50.0%/53.0%/56.0%/59.0%/62.0%/65.0%/68.0%/71.0%/74.0%/77.0%"
+          },
+          {
+            "Key": "3-Hit DMG",
+            "Value": "26.0%/29.0%/32.0%/35.0%/38.0%/41.0%/44.0%/47.0%/50.0%/53.0%/56.0%/59.0%/62.0%/65.0%/68.0%/71.0%/74.0%/77.0%/80.0%/83.0%"
+          },
+          {
+            "Key": "4-Hit DMG",
+            "Value": "35.0%/39.0%/43.0%/47.0%/51.0%/55.0%/59.0%/63.0%/67.0%/71.0%/75.0%/79.0%/83.0%/87.0%/91.0%/95.0%/99.0%/103.0%/107.0%/111.0%"
+          },
+          {
+            "Key": "5-Hit DMG",
+            "Value": "42.0%/46.0%/50.0%/54.0%/58.0%/62.0%/66.0%/70.0%/74.0%/78.0%/82.0%/86.0%/90.0%/94.0%/98.0%/102.0%/106.0%/110.0%/114.0%/118.0%"
+          },
+          {
+            "Key": "Normal Hit DMG Radius",
+            "Value": "3.0m"
+          },
+          {
+            "Key": "Charged Attack DMG",
+            "Value": "113.0%"
+          },
+          {
+            "Key": "Sliding Attack DMG",
+            "Value": "51.0%"
+          },
+          {
+            "Key": "1-Hit Swordwave DMG",
+            "Value": "209.0%/232.0%/255.0%/278.0%/301.0%/324.0%/347.0%/370.0%/393.0%/416.0%/439.0%/462.0%/485.0%/508.0%/531.0%/554.0%/577.0%/600.0%/623.0%/646.0%"
+          },
+          {
+            "Key": "2-Hit Swordwave DMG",
+            "Value": "259.0%/288.0%/317.0%/346.0%/375.0%/404.0%/433.0%/462.0%/491.0%/520.0%/549.0%/578.0%/607.0%/636.0%/665.0%/694.0%/723.0%/752.0%/781.0%/810.0%"
+          },
+          {
+            "Key": "3-Hit Swordwave DMG",
+            "Value": "291.0%/324.0%/357.0%/390.0%/423.0%/456.0%/489.0%/522.0%/555.0%/588.0%/621.0%/654.0%/687.0%/720.0%/753.0%/786.0%/819.0%/852.0%/885.0%/918.0%"
+          },
+          {
+            "Key": "4-Hit Swordwave DMG",
+            "Value": "400.0%/444.0%/488.0%/532.0%/576.0%/620.0%/664.0%/708.0%/752.0%/796.0%/840.0%/884.0%/928.0%/972.0%/1016.0%/1060.0%/1104.0%/1148.0%/1192.0%/1236.0%"
+          },
+          {
+            "Key": "5-Hit Swordwave DMG",
+            "Value": "434.0%/482.0%/530.0%/578.0%/626.0%/674.0%/722.0%/770.0%/818.0%/866.0%/914.0%/962.0%/1010.0%/1058.0%/1106.0%/1154.0%/1202.0%/1250.0%/1298.0%/1346.0%"
+          },
+          {
+            "Key": "Skill DMG",
+            "Value": "209.0%/232.0%/255.0%/278.0%/301.0%/324.0%/347.0%/370.0%/393.0%/416.0%/439.0%/462.0%/485.0%/508.0%/531.0%/554.0%/577.0%/600.0%/623.0%/646.0%"
+          },
+          {
+            "Key": "Swordwave Width",
+            "Value": "12.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Creeping Tendrils x3, Vehicle Armour x1"
@@ -185,6 +269,16 @@
         "SkillDesc": "When dealing damage with [Faintlight] or Sword, there is a chance to restore Sanity for Berenica.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Heitao03",
+        "SkillParams": [
+          {
+            "Key": "Sanity Recovery",
+            "Value": "2"
+          },
+          {
+            "Key": "Effect Trigger Probability",
+            "Value": "17.0%/20.0%/23.0%/26.0%/29.0%/32.0%/35.0%/38.0%/41.0%/44.0%/47.0%/50.0%/53.0%/56.0%/59.0%/62.0%/65.0%/68.0%/71.0%/74.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Creeping Tendrils x3, Vehicle Armour x1"
@@ -243,12 +337,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Upon using Helix Leap or [Faintlight], Berenica gains 1 stack that increases Skill Efficiency by 8% for 12s, up to 3 stacks.",
-      "Increases damage dealt to targets with a HP percentage lower than Berenica by 30%.",
+      "Upon using Helix Leap or [Faintlight], Berenica gains 1 stack that increases Skill Efficiency by 8.0% for 12s, up to 3 stacks.",
+      "Increases damage dealt to targets with a HP percentage lower than Berenica by 30.0%.",
       "[Faintlight] Level +2; [Recuperation] Level +1.",
-      "Increases Berenica's Attack by 20% per Combo Level.",
+      "Increases Berenica's Attack by 20.0% per Combo Level.",
       "[Netherflames] Level +2; [Recuperation] Level +1.",
-      "When in [Netherflames] state, each attack has a chance to unleash 1 additional Swordwave. The probability equals to 25% of [Ymir]'s Trigger Probability."
+      "When in [Netherflames] state, each attack has a chance to unleash 1 additional Swordwave. The probability equals to 25.0% of [Ymir]'s Trigger Probability."
     ]
   },
   "1103": {
@@ -322,6 +416,40 @@
         "SkillDesc": "Deals Umbro Damage to enemies in front and inflicts 5 stacks of [Adagio] on them, up to 10 stacks. The remaining time of the effect is refreshed with each new stack gained.\\nWhen in [Bestial Fury] state, this skill is replaced with [Aria].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Tuosi01_1",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "20"
+          },
+          {
+            "Key": "DMG",
+            "Value": "164.0%/199.0%/234.0%/269.0%/304.0%/339.0%/374.0%/409.0%/444.0%/479.0%/514.0%/549.0%/584.0%/619.0%/654.0%/689.0%/724.0%/759.0%/794.0%/829.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Adagio] Duration",
+            "Value": "8.0s"
+          },
+          {
+            "Key": "[Aria] Sanity Cost",
+            "Value": "20"
+          },
+          {
+            "Key": "[Aria] DMG",
+            "Value": "249.0%/305.0%/361.0%/417.0%/473.0%/529.0%/585.0%/641.0%/697.0%/753.0%/809.0%/865.0%/921.0%/977.0%/1033.0%/1089.0%/1145.0%/1201.0%/1257.0%/1313.0%"
+          },
+          {
+            "Key": "[Presto] Skill Range Boost",
+            "Value": "30.0%"
+          },
+          {
+            "Key": "[Presto] Duration",
+            "Value": "5.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -377,6 +505,64 @@
         "SkillDesc": "Enters [Bestial Fury] state and continuously consumes Sanity; when Sanity drops to 0, [Bestial Fury] state ends.\\nWeapons can not be used during [Bestial Fury] state. \\nMelee Attack is replaced with [Furious Claws], performing up to four consecutive attacks to deal Umbro Damage. When used in the air, Phantasio performs Plunging Attack and deals Umbro damage to enemies within range.\\nRanged Attack is replaced with [Mournful Howl], firing an energy beam to deal Umbro Damage.\\nWhen the 3-hit of [Furious Claws] and [Mournful Howl] deal damage, triggers [Duo]; when the 4-hit of [Furious Claws] and the Plunging Attack deal damage, triggers [Fermata].",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Tuosi02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[110302].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "[Furious Claws] 1-Hit DMG",
+            "Value": "725.0%/886.0%/1047.0%/1208.0%/1369.0%/1530.0%/1691.0%/1852.0%/2013.0%/2174.0%/2335.0%/2496.0%/2657.0%/2818.0%/2979.0%/3140.0%/3301.0%/3462.0%/3623.0%/3784.0%"
+          },
+          {
+            "Key": "[Furious Claws] 2-Hit DMG",
+            "Value": "725.0%/886.0%/1047.0%/1208.0%/1369.0%/1530.0%/1691.0%/1852.0%/2013.0%/2174.0%/2335.0%/2496.0%/2657.0%/2818.0%/2979.0%/3140.0%/3301.0%/3462.0%/3623.0%/3784.0%"
+          },
+          {
+            "Key": "[Furious Claws] 3-Hit DMG",
+            "Value": "486.0%/593.0%/700.0%/807.0%/914.0%/1021.0%/1128.0%/1235.0%/1342.0%/1449.0%/1556.0%/1663.0%/1770.0%/1877.0%/1984.0%/2091.0%/2198.0%/2305.0%/2412.0%/2519.0%"
+          },
+          {
+            "Key": "[Furious Claws] 4-Hit DMG",
+            "Value": "1872.0%/2288.0%/2704.0%/3120.0%/3536.0%/3952.0%/4368.0%/4784.0%/5200.0%/5616.0%/6032.0%/6448.0%/6864.0%/7280.0%/7696.0%/8112.0%/8528.0%/8944.0%/9360.0%/9776.0%"
+          },
+          {
+            "Key": "[Furious Claws] Plunge DMG",
+            "Value": "1935.0%/2364.0%/2793.0%/3222.0%/3651.0%/4080.0%/4509.0%/4938.0%/5367.0%/5796.0%/6225.0%/6654.0%/7083.0%/7512.0%/7941.0%/8370.0%/8799.0%/9228.0%/9657.0%/10086.0%"
+          },
+          {
+            "Key": "[Furious Claws] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Mournful Howl] Beam DMG",
+            "Value": "428.0%/522.0%/616.0%/710.0%/804.0%/898.0%/992.0%/1086.0%/1180.0%/1274.0%/1368.0%/1462.0%/1556.0%/1650.0%/1744.0%/1838.0%/1932.0%/2026.0%/2120.0%/2214.0%"
+          },
+          {
+            "Key": "[Mournful Howl] Beam Length",
+            "Value": "20.0m"
+          },
+          {
+            "Key": "[Immersion] Granted by [Duo]",
+            "Value": "1.5%Max Sanity"
+          },
+          {
+            "Key": "DMG Boost per stack of [Adagio]",
+            "Value": "91.0%/112.0%/133.0%/154.0%/175.0%/196.0%/217.0%/238.0%/259.0%/280.0%/301.0%/322.0%/343.0%/364.0%/385.0%/406.0%/427.0%/448.0%/469.0%/490.0%"
+          },
+          {
+            "Key": "[Fermata] Sanity Recovery",
+            "Value": "10"
+          },
+          {
+            "Key": "[Immersion] Granted by [Fermata]",
+            "Value": "6.0%Max Sanity"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -432,6 +618,44 @@
         "SkillDesc": "When in [Bestial Fury] state, increases Attack based on Phantasio's Max Sanity.\\nPhantasio gains [Immersion] by using skills, with the [Immersion] cap equal to Phantasio's Max Sanity. Using [Recitativo] or [Aria] gains a certain amount of [Immersion]; when in [Bestial Fury] state, continuously gains [Immersion] per second.\\nWhen [Immersion] reaches its maximum in [Bestial Fury] state, Phantasio enters [Bestial Fury: Devotion] state.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Tuosi03",
+        "SkillParams": [
+          {
+            "Key": "[Bestial Fury] ATK Boost",
+            "Value": "25.0%Max Sanity/30.0%Max Sanity/35.0%Max Sanity/40.0%Max Sanity/45.0%Max Sanity/50.0%Max Sanity/55.0%Max Sanity/60.0%Max Sanity/65.0%Max Sanity/70.0%Max Sanity/75.0%Max Sanity/80.0%Max Sanity/85.0%Max Sanity/90.0%Max Sanity/95.0%Max Sanity/100.0%Max Sanity/105.0%Max Sanity/110.0%Max Sanity/115.0%Max Sanity/120.0%Max Sanity"
+          },
+          {
+            "Key": "[Bestial Fury] Max ATK Boost",
+            "Value": "315"
+          },
+          {
+            "Key": "[Immersion] Granted by [Recitativo]",
+            "Value": "20"
+          },
+          {
+            "Key": "[Immersion] Granted by [Aria]",
+            "Value": "20"
+          },
+          {
+            "Key": "[Immersion] Granted by [Bestial Fury] per second",
+            "Value": "30"
+          },
+          {
+            "Key": "[Bestial Fury: Devotion] ATK Boost",
+            "Value": "25.0%Max Sanity/30.0%Max Sanity/35.0%Max Sanity/40.0%Max Sanity/45.0%Max Sanity/50.0%Max Sanity/55.0%Max Sanity/60.0%Max Sanity/65.0%Max Sanity/70.0%Max Sanity/75.0%Max Sanity/80.0%Max Sanity/85.0%Max Sanity/90.0%Max Sanity/95.0%Max Sanity/100.0%Max Sanity/105.0%Max Sanity/110.0%Max Sanity/115.0%Max Sanity/120.0%Max Sanity"
+          },
+          {
+            "Key": "[Bestial Fury: Devotion] Max ATK Boost",
+            "Value": "315"
+          },
+          {
+            "Key": "[Bestial Fury: Devotion] Immersion Cost per second",
+            "Value": "30"
+          },
+          {
+            "Key": "Skill SPD Boost",
+            "Value": "30.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -491,9 +715,9 @@
     },
     "Intron": [
       "[Immersion] gained from [Duo] is increased to 1.5% of Max Sanity.",
-      "When using the 3-hit of [Furious Claws] and [Mournful Howl], decreases Damage Taken by 25% and increases the chance of inflicting [Adagio] through [Concerto] to 100%.",
+      "When using the 3-hit of [Furious Claws] and [Mournful Howl], decreases Damage Taken by 25.0% and increases the chance of inflicting [Adagio] through [Concerto] to 100%.",
       "[Recitativo] Level +2, [On Stage] Level +1.",
-      "When dealing damage with the 4-hit of [Furious Claws] and Plunging Attack, increases the damage taken by the target who is inflicted with 10 stacks of [Adagio] by 90%.",
+      "When dealing damage with the 4-hit of [Furious Claws] and Plunging Attack, increases the damage taken by the target who is inflicted with 10 stacks of [Adagio] by 90.0%.",
       "[Curtain Up] Level +2, [On Stage] Level +1.",
       "Enables [Presto] to increase Morale by #5. Each time Phantasio gains [Immersion] from [Duo], [Presto]'s duration is extended by 0.2 0.2s."
     ]
@@ -573,6 +797,20 @@
         "SkillDesc": "Lunges forward, dealing Lumino AoE DMG 3 times along the path, then slams down to deal more Lumino AoE damage.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Baonu01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "15"
+          },
+          {
+            "Key": "DMG",
+            "Value": "274.0%×3+/334.0%×3+/394.0%×3+/454.0%×3+/514.0%×3+/574.0%×3+/634.0%×3+/694.0%×3+/754.0%×3+/814.0%×3+/874.0%×3+/934.0%×3+/994.0%×3+/1054.0%×3+/1114.0%×3+/1174.0%×3+/1234.0%×3+/1294.0%×3+/1354.0%×3+/1414.0%×3+667.0%/815.0%/963.0%/1111.0%/1259.0%/1407.0%/1555.0%/1703.0%/1851.0%/1999.0%/2147.0%/2295.0%/2443.0%/2591.0%/2739.0%/2887.0%/3035.0%/3183.0%/3331.0%/3479.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "6.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Creeping Tendrils x3, Vehicle Armour x1"
@@ -628,6 +866,76 @@
         "SkillDesc": "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], Sanity drains continuously. When Sanity reaches 0 or the skill is used again, [Samael] is withdrawn.\\n Normal Attacks with [Samael] chain up to 4 hits.\\n While wielding [Samael], hold the skill button to charge — Sanity is consumed over time. Releasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.\\n While charging, gains [Impatience], generating combo points every 0.5s.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Baonu02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "1-Hit DMG",
+            "Value": "346.0%/385.0%/424.0%/463.0%/502.0%/541.0%/580.0%/619.0%/658.0%/697.0%/736.0%/775.0%/814.0%/853.0%/892.0%/931.0%/970.0%/1009.0%/1048.0%/1087.0%"
+          },
+          {
+            "Key": "2-Hit DMG",
+            "Value": "409.0%/454.0%/499.0%/544.0%/589.0%/634.0%/679.0%/724.0%/769.0%/814.0%/859.0%/904.0%/949.0%/994.0%/1039.0%/1084.0%/1129.0%/1174.0%/1219.0%/1264.0%"
+          },
+          {
+            "Key": "3-Hit DMG",
+            "Value": "200.0%×2/223.0%×2/246.0%×2/269.0%×2/292.0%×2/315.0%×2/338.0%×2/361.0%×2/384.0%×2/407.0%×2/430.0%×2/453.0%×2/476.0%×2/499.0%×2/522.0%×2/545.0%×2/568.0%×2/591.0%×2/614.0%×2/637.0%×2"
+          },
+          {
+            "Key": "4-Hit DMG",
+            "Value": "189.0%+/210.0%+/231.0%+/252.0%+/273.0%+/294.0%+/315.0%+/336.0%+/357.0%+/378.0%+/399.0%+/420.0%+/441.0%+/462.0%+/483.0%+/504.0%+/525.0%+/546.0%+/567.0%+/588.0%+566.0%/629.0%/692.0%/755.0%/818.0%/881.0%/944.0%/1007.0%/1070.0%/1133.0%/1196.0%/1259.0%/1322.0%/1385.0%/1448.0%/1511.0%/1574.0%/1637.0%/1700.0%/1763.0%"
+          },
+          {
+            "Key": "Normal Hit DMG Radius",
+            "Value": "3.0m"
+          },
+          {
+            "Key": "Plunge DMG",
+            "Value": "51.0%"
+          },
+          {
+            "Key": "Sliding Attack DMG",
+            "Value": "73.0%"
+          },
+          {
+            "Key": "Charged Attack DMG",
+            "Value": "848.0%/943.0%/1038.0%/1133.0%/1228.0%/1323.0%/1418.0%/1513.0%/1608.0%/1703.0%/1798.0%/1893.0%/1988.0%/2083.0%/2178.0%/2273.0%/2368.0%/2463.0%/2558.0%/2653.0%"
+          },
+          {
+            "Key": "Charged Attack Damage: Level S",
+            "Value": "179.0%+/199.0%+/219.0%+/239.0%+/259.0%+/279.0%+/299.0%+/319.0%+/339.0%+/359.0%+/379.0%+/399.0%+/419.0%+/439.0%+/459.0%+/479.0%+/499.0%+/519.0%+/539.0%+/559.0%+848.0%/943.0%/1038.0%/1133.0%/1228.0%/1323.0%/1418.0%/1513.0%/1608.0%/1703.0%/1798.0%/1893.0%/1988.0%/2083.0%/2178.0%/2273.0%/2368.0%/2463.0%/2558.0%/2653.0%"
+          },
+          {
+            "Key": "Charged Attack AoE",
+            "Value": "6.0m×6.0m"
+          },
+          {
+            "Key": "Continuously Consumes Sanity while Charging",
+            "Value": "25"
+          },
+          {
+            "Key": "SKILL_DESC_1501HeavyAttackLoopSp",
+            "Value": "15"
+          },
+          {
+            "Key": "Gains Combo Points while Charging",
+            "Value": "10"
+          },
+          {
+            "Key": "Reduced Damage Taken under [Impatience]",
+            "Value": "30.0%"
+          },
+          {
+            "Key": "Skill DMG",
+            "Value": "481.0%/587.0%/693.0%/799.0%/905.0%/1011.0%/1117.0%/1223.0%/1329.0%/1435.0%/1541.0%/1647.0%/1753.0%/1859.0%/1965.0%/2071.0%/2177.0%/2283.0%/2389.0%/2495.0%"
+          },
+          {
+            "Key": "Skill DMG Radius",
+            "Value": "10.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Creeping Tendrils x3, Vehicle Armour x1"
@@ -683,6 +991,28 @@
         "SkillDesc": "When Combo Level increases, deals Lumino DMG to nearby enemies and enhances [Samael].\\n At Combo Levels C/B/A/S, [Samael] gains Enhancement Lv.1/2/3/4 respectively. If Combo Level drops, the current Enhancement Level persists for a short time.\\n While [Samael] is enhanced, the user's Consonance Weapon gains increased ATK Range and Trigger Probability based on the Enhancement Level.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Baonu03",
+        "SkillParams": [
+          {
+            "Key": "DMG",
+            "Value": "204.0%/248.0%/292.0%/336.0%/380.0%/424.0%/468.0%/512.0%/556.0%/600.0%/644.0%/688.0%/732.0%/776.0%/820.0%/864.0%/908.0%/952.0%/996.0%/1040.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "+Weapon Attack Range",
+            "Value": "1.2×[Samael] Enhancement Level"
+          },
+          {
+            "Key": "Trigger Probability Boost",
+            "Value": "14.0%×[Samael] Enhancement Level/18.0%×[Samael] Enhancement Level/22.0%×[Samael] Enhancement Level/26.0%×[Samael] Enhancement Level/30.0%×[Samael] Enhancement Level/34.0%×[Samael] Enhancement Level/38.0%×[Samael] Enhancement Level/42.0%×[Samael] Enhancement Level/46.0%×[Samael] Enhancement Level/50.0%×[Samael] Enhancement Level/54.0%×[Samael] Enhancement Level/58.0%×[Samael] Enhancement Level/62.0%×[Samael] Enhancement Level/66.0%×[Samael] Enhancement Level/70.0%×[Samael] Enhancement Level/74.0%×[Samael] Enhancement Level/78.0%×[Samael] Enhancement Level/82.0%×[Samael] Enhancement Level/86.0%×[Samael] Enhancement Level/90.0%×[Samael] Enhancement Level"
+          },
+          {
+            "Key": "[Samael] Enhancement Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Creeping Tendrils x3, Vehicle Armour x1"
@@ -741,12 +1071,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Using [In the Name of Patience] increases Character ATK by 35% for 15s.",
-      "When damage triggers a bonus effect, there is a 100% chance to gain 1 additional combo point.",
+      "Using [In the Name of Patience] increases Character ATK by 35.0% for 15s.",
+      "When damage triggers a bonus effect, there is a 100.0% chance to gain 1 additional combo point.",
       "[In the Name of Patience] Level +2, [Hmph!!] Level +1",
       "When Combo Level increases, gains 5 additional combo points.",
       "[That's It!] Level +2, [Hmph!!] Level +1",
-      "After using [That's It!] or [Samael]'s Charged Attack, gains 30% additional Lumino Damage for 15 seconds."
+      "After using [That's It!] or [Samael]'s Charged Attack, gains 30.0% additional Lumino Damage for 15 seconds."
     ]
   },
   "1502": {
@@ -819,6 +1149,44 @@
         "SkillDesc": "Creates 1 [Lunar Hunt] and replaces this skill with [Solar Eclipse]. \\n [Lunar Hunt]: Deals Umbro Damage to all enemies within range upon spawn and reduces their Movement Speed.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Nifu01_1",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "12"
+          },
+          {
+            "Key": "[Solar Eclipse] DMG",
+            "Value": "1132.0%/1384.0%/1636.0%/1888.0%/2140.0%/2392.0%/2644.0%/2896.0%/3148.0%/3400.0%/3652.0%/3904.0%/4156.0%/4408.0%/4660.0%/4912.0%/5164.0%/5416.0%/5668.0%/5920.0%"
+          },
+          {
+            "Key": "[Solar Eclipse] DMG Radius",
+            "Value": "3.0m"
+          },
+          {
+            "Key": "[Lunar Hunt] DMG",
+            "Value": "1132.0%/1384.0%/1636.0%/1888.0%/2140.0%/2392.0%/2644.0%/2896.0%/3148.0%/3400.0%/3652.0%/3904.0%/4156.0%/4408.0%/4660.0%/4912.0%/5164.0%/5416.0%/5668.0%/5920.0%"
+          },
+          {
+            "Key": "[Lunar Hunt] DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Solar Eclipse] Decreases ATK by",
+            "Value": "25.0%"
+          },
+          {
+            "Key": "[Solar Eclipse] Decreases ATK for",
+            "Value": "3.0s"
+          },
+          {
+            "Key": "[Lunar Hunt] Decreases Movement SPD by",
+            "Value": "30.0%"
+          },
+          {
+            "Key": "[Lunar Hunt] Decreases Movement SPD for",
+            "Value": "3.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -874,6 +1242,36 @@
         "SkillDesc": "Enters [Funeral Rite] state. If Lady Nifle's Skill Range exceeds 100%, converts the excess portion into Skill Damage at a certain percentage, and the Skill Range will be reduced to and remain at 100% until the [Funeral Rite] state ends.\\n\\nWhile in [Funeral Rite] state:\\nIncreases Lady Nifle's Ranged Weapon Trigger Probability;\\nDoes not consume Sanity when summoning [Solar Eclipse] and increases the damage dealt by [Solar Eclipse];\\nDoes not consume Sanity when summoning [Lunar Hunt] and pulls all targets on hit towards the center.\\n\\nThe [Funeral Rite] state ends after a certain period of time or after summoning [Lunar Hunt] and [Solar Eclipse] 6 times.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Nifu02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "120"
+          },
+          {
+            "Key": "Trigger Probability Boost",
+            "Value": "60.0%"
+          },
+          {
+            "Key": "[Funeral Rite] Duration",
+            "Value": "12.0s"
+          },
+          {
+            "Key": "[Funeral Rite] Skill Range\\nConversion Percentage",
+            "Value": "100.0%"
+          },
+          {
+            "Key": "Enhanced [Solar Eclipse]\\nDMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "Enhanced [Solar Eclipse]\\nDMG Boost Percentage",
+            "Value": "2264.0%/2768.0%/3272.0%/3776.0%/4280.0%/4784.0%/5288.0%/5792.0%/6296.0%/6800.0%/7304.0%/7808.0%/8312.0%/8816.0%/9320.0%/9824.0%/10328.0%/10832.0%/11336.0%/11840.0%"
+          },
+          {
+            "Key": "Enhanced [Lunar Hunt] DMG Radius",
+            "Value": "10.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -929,6 +1327,16 @@
         "SkillDesc": "Based on Lady Nifle's Ranged Weapon Trigger Probability, there is a chance to summon 1 additional [Lunar Hunt] when summoning [Solar Eclipse] at the same location, and vice versa.\\n\\nThe additional summoned [Solar Eclipse] and [Lunar Hunt] will not be enhanced by [Misty Sea Requiem].",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Nifu03",
+        "SkillParams": [
+          {
+            "Key": "[Interwoven Cries]\\nEffect Trigger Probability",
+            "Value": "75.0%Ranged Weapon Trigger Probability"
+          },
+          {
+            "Key": "[Interwoven Cries] Effect\\nMax Trigger Probability",
+            "Value": "65.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -987,12 +1395,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Increases [Interwoven Cries] Effect Trigger Probability by 15% and its max Trigger Probability to 65%.",
-      "After [Solar Eclipse] deals damage, the target takes 75% increased damage from [Lunar Hunt] for 3s.\\nAfter [Lunar Hunt] deals damage, the target takes 75% increased damage from [Solar Eclipse] for 3s.",
+      "Increases [Interwoven Cries] Effect Trigger Probability by 15.0% and its max Trigger Probability to 65.0%.",
+      "After [Solar Eclipse] deals damage, the target takes 75.0% increased damage from [Lunar Hunt] for 3s.\\nAfter [Lunar Hunt] deals damage, the target takes 75.0% increased damage from [Solar Eclipse] for 3s.",
       "[Solar Eclipse] Level +2; [Interwoven Cries] Level +1.",
-      "Increases Lady Nifle's Healing Received by 50% and Sanity Recovery by 25%.",
+      "Increases Lady Nifle's Healing Received by 50.0% and Sanity Recovery by 25.0%.",
       "[Misty Sea Requiem] Level +2; [Interwoven Cries] Level +1.",
-      "When dealing damage using a ranged weapon, there's a 25% chance to summon either [Lunar Hunt] or [Solar Eclipse] at the target's location. This effect can only be triggered once every second."
+      "When dealing damage using a ranged weapon, there's a 25.0% chance to summon either [Lunar Hunt] or [Solar Eclipse] at the target's location. This effect can only be triggered once every second."
     ]
   },
   "1503": {
@@ -1064,6 +1472,28 @@
         "SkillDesc": "Deals Lumino Damage to enemies within range 3 times and increases Kezhou's Ranged Weapon Attack Speed.\\n\\nWhile in [Aspect Manifestation] state, increases Kezhou's Melee Weapon Attack Speed, during which Kezhou is immune to Hitstun when taking damage.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Kezhou01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "50"
+          },
+          {
+            "Key": "DMG",
+            "Value": "54.0%/66.0%/78.0%/90.0%/102.0%/114.0%/126.0%/138.0%/150.0%/162.0%/174.0%/186.0%/198.0%/210.0%/222.0%/234.0%/246.0%/258.0%/270.0%/282.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "ATK SPD Boost",
+            "Value": "21.0%/27.0%/33.0%/39.0%/45.0%/51.0%/57.0%/63.0%/69.0%/75.0%/81.0%/87.0%/93.0%/99.0%/105.0%/111.0%/117.0%/123.0%/129.0%/135.0%"
+          },
+          {
+            "Key": "Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1119,6 +1549,68 @@
         "SkillDesc": "Enters [Aspect Manifestation] state and summons [Edges of All Times] to rain from the sky, dealing Lumino Damage to enemies within range.\\n\\nWhile in [Aspect Manifestation] state, Kezhou's Melee Weapon becomes [Phanosword]. When triggering Bonus Effect using [Phanosword], generates 1 [Phanoplume].\\nWhile in [Aspect Manifestation] state, this skill is replaced with [Feathers Chase Dust In Dreams].",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Kezhou02_On",
+        "SkillParams": [
+          {
+            "Key": "[Lightswords Slice Starry Streams] Sanity Cost",
+            "Value": "100"
+          },
+          {
+            "Key": "[Feathers Chase Dust In Dreams] Sanity Cost",
+            "Value": "100"
+          },
+          {
+            "Key": "[Edges of All Times] DMG",
+            "Value": "432.0%/528.0%/624.0%/720.0%/816.0%/912.0%/1008.0%/1104.0%/1200.0%/1296.0%/1392.0%/1488.0%/1584.0%/1680.0%/1776.0%/1872.0%/1968.0%/2064.0%/2160.0%/2256.0%"
+          },
+          {
+            "Key": "[Phanosword] ATK Range Boost",
+            "Value": "1.0m"
+          },
+          {
+            "Key": "[Edges of All Times] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Phanoplume] Path DMG",
+            "Value": "74.0%/91.0%/108.0%/125.0%/142.0%/159.0%/176.0%/193.0%/210.0%/227.0%/244.0%/261.0%/278.0%/295.0%/312.0%/329.0%/346.0%/363.0%/380.0%/397.0%"
+          },
+          {
+            "Key": "[Phanoplume] Effect Percentage",
+            "Value": "3.7%Melee Weapon Trigger Probability/4.4%Melee Weapon Trigger Probability/5.1%Melee Weapon Trigger Probability/5.8%Melee Weapon Trigger Probability/6.5%Melee Weapon Trigger Probability/7.2%Melee Weapon Trigger Probability/7.9%Melee Weapon Trigger Probability/8.6%Melee Weapon Trigger Probability/9.3%Melee Weapon Trigger Probability/10.0%Melee Weapon Trigger Probability/10.7%Melee Weapon Trigger Probability/11.4%Melee Weapon Trigger Probability/12.1%Melee Weapon Trigger Probability/12.8%Melee Weapon Trigger Probability/13.5%Melee Weapon Trigger Probability/14.2%Melee Weapon Trigger Probability/14.9%Melee Weapon Trigger Probability/15.6%Melee Weapon Trigger Probability/16.3%Melee Weapon Trigger Probability/17.0%Melee Weapon Trigger Probability"
+          },
+          {
+            "Key": "[Feathers Chase Dust In Dreams] DMG",
+            "Value": "821.0%/1002.0%/1183.0%/1364.0%/1545.0%/1726.0%/1907.0%/2088.0%/2269.0%/2450.0%/2631.0%/2812.0%/2993.0%/3174.0%/3355.0%/3536.0%/3717.0%/3898.0%/4079.0%/4260.0%"
+          },
+          {
+            "Key": "[Feathers Chase Dust In Dreams] DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "Sword Normal Attack DMG",
+            "Value": "67.0%/83.0%/99.0%/115.0%/131.0%/147.0%/163.0%/179.0%/195.0%/211.0%/227.0%/243.0%/259.0%/275.0%/291.0%/307.0%/323.0%/339.0%/355.0%/371.0%"
+          },
+          {
+            "Key": "Polearm Normal Attack DMG",
+            "Value": "78.0%/96.0%/114.0%/132.0%/150.0%/168.0%/186.0%/204.0%/222.0%/240.0%/258.0%/276.0%/294.0%/312.0%/330.0%/348.0%/366.0%/384.0%/402.0%/420.0%"
+          },
+          {
+            "Key": "Greatsword Normal Attack DMG",
+            "Value": "76.0%/92.0%/108.0%/124.0%/140.0%/156.0%/172.0%/188.0%/204.0%/220.0%/236.0%/252.0%/268.0%/284.0%/300.0%/316.0%/332.0%/348.0%/364.0%/380.0%"
+          },
+          {
+            "Key": "Dual Blades Normal Attack DMG",
+            "Value": "46.0%/55.0%/64.0%/73.0%/82.0%/91.0%/100.0%/109.0%/118.0%/127.0%/136.0%/145.0%/154.0%/163.0%/172.0%/181.0%/190.0%/199.0%/208.0%/217.0%"
+          },
+          {
+            "Key": "Plunging/Sliding/Charged Attack DMG",
+            "Value": "16.0%/21.0%/26.0%/31.0%/36.0%/41.0%/46.0%/51.0%/56.0%/61.0%/66.0%/71.0%/76.0%/81.0%/86.0%/91.0%/96.0%/101.0%/106.0%/111.0%"
+          },
+          {
+            "Key": "DMG When Switching Attack Mode",
+            "Value": "145.0%/178.0%/211.0%/244.0%/277.0%/310.0%/343.0%/376.0%/409.0%/442.0%/475.0%/508.0%/541.0%/574.0%/607.0%/640.0%/673.0%/706.0%/739.0%/772.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1174,6 +1666,20 @@
         "SkillDesc": "Begins with 50 points each of [Sword Intent] and [String Intent] (maximum 100).\\n [Sword Intent] increases Melee Weapon Damage Dealt and Melee Weapon Trigger Probability, and reduces the Sanity Cost of [Lightswords Slice Starry Streams]. At maximum [Sword Intent], Sanity Cost is further reduced by 20.\\n [String Intent] increases Ranged Weapon Damage Dealt and Ranged Weapon Trigger Probability, and reduces the Sanity Cost of [Feathers Chase Dust In Dreams]. At maximum [String Intent], Sanity Cost is further reduced by 20.\\n Each time damage is dealt with a ranged weapon, 1 point of [String Intent] converts into [Sword Intent]. Each time damage is dealt with a melee weapon, 1 point of [Sword Intent] converts into [String Intent].",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Kezhou03",
+        "SkillParams": [
+          {
+            "Key": "[Sword Intent]/[String Intent] Effect Percentage",
+            "Value": "0.63%/0.76%/0.89%/1.02%/1.15%/1.28%/1.41%/1.54%/1.67%/1.8%/1.93%/2.06%/2.19%/2.32%/2.45%/2.58%/2.71%/2.84%/2.97%/3.1%"
+          },
+          {
+            "Key": "[Lightswords Slice Starry Streams] Sanity Cost Decrease",
+            "Value": "0.3×[Sword Intent]"
+          },
+          {
+            "Key": "[Feathers Chase Dust In Dreams] Sanity Cost Decrease",
+            "Value": "$-#Buff[150302].BuffSpModify[150321].Value$×[String Intent]"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1232,12 +1738,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Increases the effect percentage of [Sword Intent]/[String Intent] applied to [Life's A Fleeting, Shifting Tide] by 0%.\\n\\nWhen there is/are 1/2 enemy/enemies within 20 metres, the mutual conversion point between [Sword Intent] and [String Intent] is increased to 3/2 points when Kezhou deals weapon damage.",
+      "Increases the effect percentage of [Sword Intent]/[String Intent] applied to [Life's A Fleeting, Shifting Tide] by 0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.04%/0.04%/0.04%/0.04%/0.04%.\\n\\nWhen there is/are 1/2 enemy/enemies within 20 metres, the mutual conversion point between [Sword Intent] and [String Intent] is increased to 3/2 points when Kezhou deals weapon damage.",
       "Restores 2 points of Sanity once every 1s when triggering Bonus Effect.",
       "[Wanderings of Youth] Level +2; [Life's A Fleeting, Shifting Tide] Level +1.",
-      "When using [Lightswords Slice Starry Streams], Kezhou gains [Blessed by Wind and Moon]: Grants immunity to Hitstun and reduces Damage Taken by 25% for 25s.",
+      "When using [Lightswords Slice Starry Streams], Kezhou gains [Blessed by Wind and Moon]: Grants immunity to Hitstun and reduces Damage Taken by 25.0% for 25s.",
       "[Lightswords Slice Starry Streams] Level +2;\\n[Life's A Fleeting, Shifting Tide] Level +1.",
-      "When triggering Bonus Effect, Kezhou gains 1 stack that increases his PEN stats by 9% for 5s, up to 6 stacks."
+      "When triggering Bonus Effect, Kezhou gains 1 stack that increases his PEN stats by 9.0% for 5s, up to 6 stacks."
     ]
   },
   "1504": {
@@ -1364,6 +1870,20 @@
         "SkillDesc": "Unleashes 2 Swordwaves, dealing Lumino DMG to enemies on hit and guaranteed to trigger Lumino bonus effects.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Zhujue01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "15"
+          },
+          {
+            "Key": "Swordwave DMG",
+            "Value": "476.0%/583.0%/690.0%/797.0%/904.0%/1011.0%/1118.0%/1225.0%/1332.0%/1439.0%/1546.0%/1653.0%/1760.0%/1867.0%/1974.0%/2081.0%/2188.0%/2295.0%/2402.0%/2509.0%"
+          },
+          {
+            "Key": "Swordwave Width",
+            "Value": "10.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1419,6 +1939,32 @@
         "SkillDesc": "Deals Lumino DMG to nearby enemies and grants self and allies both Ultra Shields and [Incandescence].",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Zhujue02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "35"
+          },
+          {
+            "Key": "DMG",
+            "Value": "702.0%/859.0%/1016.0%/1173.0%/1330.0%/1487.0%/1644.0%/1801.0%/1958.0%/2115.0%/2272.0%/2429.0%/2586.0%/2743.0%/2900.0%/3057.0%/3214.0%/3371.0%/3528.0%/3685.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "Ultra Shield",
+            "Value": "5.0%Shield"
+          },
+          {
+            "Key": "Duration",
+            "Value": "12.0s"
+          },
+          {
+            "Key": "Weapon DMG Boost",
+            "Value": "15.0%/19.0%/23.0%/27.0%/31.0%/35.0%/39.0%/43.0%/47.0%/51.0%/55.0%/59.0%/63.0%/67.0%/71.0%/75.0%/79.0%/83.0%/87.0%/91.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1474,6 +2020,16 @@
         "SkillDesc": "When a Lumino bonus effect is triggered, deals an additional Lumino AoE Damage at the target's location.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Zhujue03",
+        "SkillParams": [
+          {
+            "Key": "DMG",
+            "Value": "201.0%/257.0%/313.0%/369.0%/425.0%/481.0%/537.0%/593.0%/649.0%/705.0%/761.0%/817.0%/873.0%/929.0%/985.0%/1041.0%/1097.0%/1153.0%/1209.0%/1265.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "3.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1532,12 +2088,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "While under [Incandescence], [Dawn Beyond Night]'s Swordwaves deal 70% more damage.",
-      "Using [Flare] generates a [Dark Side of the Moon] field with a 10-metre radius, lasting 10s. Continuously reduces the Movement Speed of enemies within by 50%.",
+      "While under [Incandescence], [Dawn Beyond Night]'s Swordwaves deal 70.0% more damage.",
+      "Using [Flare] generates a [Dark Side of the Moon] field with a 10-metre radius, lasting 10s. Continuously reduces the Movement Speed of enemies within by 50.0%.",
       "[Blazing Blade] Level +2, [Diffusion] Level +1.",
-      "Using a skill grants +9% ATK Speed for 12s, stacking up to 4 times.",
+      "Using a skill grants +9.0% ATK Speed for 12s, stacking up to 4 times.",
       "[Flare] Level +2, [Diffusion] Level +1.",
-      "[Incandescence] additionally grants +54% CRIT Chance."
+      "[Incandescence] additionally grants +54.0% CRIT Chance."
     ]
   },
   "1801": {
@@ -1605,6 +2161,28 @@
         "SkillDesc": "Deals Lumino Damage to enemies within range and decreases their Movement Speed. When using this skill in [Boisterous Tea Party], the damage is increased, and the damage range is expanded to the same range of [Boisterous Tea Party].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Feina01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "15"
+          },
+          {
+            "Key": "DMG",
+            "Value": "45.0%/54.0%/63.0%/72.0%/81.0%/90.0%/99.0%/108.0%/117.0%/126.0%/135.0%/144.0%/153.0%/162.0%/171.0%/180.0%/189.0%/198.0%/207.0%/216.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "DMG Dealt in [Boisterous Tea Party]",
+            "Value": "59.0%/73.0%/87.0%/101.0%/115.0%/129.0%/143.0%/157.0%/171.0%/185.0%/199.0%/213.0%/227.0%/241.0%/255.0%/269.0%/283.0%/297.0%/311.0%/325.0%"
+          },
+          {
+            "Key": "Movement SPD Decrease Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1660,6 +2238,32 @@
         "SkillDesc": "Creates a [Boisterous Tea Party] field in front of Fina. [Boisterous Tea Party] continuously consumes Sanity and ends when Sanity drops to 0 or when this skill is held.\\n\\nDuring [Boisterous Tea Party], using the skill again will switch the field effects in the order of the [Tea Party Guests] — [Nightingale], [Hound], [Unicorn], and [Butterfly].\\nUsing the skill again outside the range of [Boisterous Tea Party] will relocate it to Fina's current location.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Feina02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[180102].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "[Boisterous Tea Party] Effect Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "DoT",
+            "Value": "349.0%/428.0%/507.0%/586.0%/665.0%/744.0%/823.0%/902.0%/981.0%/1060.0%/1139.0%/1218.0%/1297.0%/1376.0%/1455.0%/1534.0%/1613.0%/1692.0%/1771.0%/1850.0%"
+          },
+          {
+            "Key": "Additional DMG",
+            "Value": "5.1%/6.2%/7.3%/8.4%/9.5%/10.6%/11.7%/12.8%/13.9%/15.0%/16.1%/17.2%/18.3%/19.4%/20.5%/21.6%/22.7%/23.8%/24.9%/26.0%"
+          },
+          {
+            "Key": "Additional DMG Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1715,6 +2319,20 @@
         "SkillDesc": "Fina gains the ability to deal additional Lumino Damage throughout the battle. When using [\"On a Warm Afternoon\"], gains 3 stacks of [Taleweaver Quill]. During [Boisterous Tea Party], gains 1 stack of [Taleweaver Quill] per second, up to 30 stacks.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Feina03",
+        "SkillParams": [
+          {
+            "Key": "Additional DMG\\nThroughout the Battle",
+            "Value": "6.0%/7.0%/8.0%/9.0%/10.0%/11.0%/12.0%/13.0%/14.0%/15.0%/16.0%/17.0%/18.0%/19.0%/20.0%/21.0%/22.0%/23.0%/24.0%/25.0%"
+          },
+          {
+            "Key": "[Taleweaver Quill] Additional DMG\\nper stack",
+            "Value": "0.37%/0.44%/0.51%/0.58%/0.65%/0.72%/0.79%/0.86%/0.93%/1.0%/1.07%/1.14%/1.21%/1.28%/1.35%/1.42%/1.49%/1.56%/1.63%/1.7%"
+          },
+          {
+            "Key": "[Taleweaver Quill] Duration",
+            "Value": "15.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -1773,12 +2391,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Targets granted the ability to deal additional elemental damage by [Boisterous Tea Party] gain an effect that increases their PEN stats by 6% for each type of additional damage effect they possess.",
+      "Targets granted the ability to deal additional elemental damage by [Boisterous Tea Party] gain an effect that increases their PEN stats by 6.0% for each type of additional damage effect they possess.",
       "Increases the stack cap of [Taleweaver Quill] to 45. When using [\"On a Warm Afternoon\"], Fina gains 2 additional stacks of [Taleweaver Quill] and gains 1 additional stack of [Taleweaver Quill] per second during [Boisterous Tea Party].",
       "[\"On a Warm Afternoon\"] Level +2; [\"Bad Sorcerers Hate Sunlight!\"] Level +1.",
-      "Each stack of [Taleweaver Quill] increases Fina's Skill Damage by 2% and Skill Range by 1%.",
+      "Each stack of [Taleweaver Quill] increases Fina's Skill Damage by 2.0% and Skill Range by 1.0%.",
       "[\"Let the Tea Party Begin!\"] Level +2; [\"Bad Sorcerers Hate Sunlight!\"] Level +1.",
-      "During [Boisterous Tea Party], when Fina deals weapon damage, for each Bonus Effect the target is suffering, the CRIT Chance of this attack is increased by 24%, and the elemental type of the damage is converted to the target's weakness type."
+      "During [Boisterous Tea Party], when Fina deals weapon damage, for each Bonus Effect the target is suffering, the CRIT Chance of this attack is increased by 24.0%, and the elemental type of the damage is converted to the target's weakness type."
     ]
   },
   "2101": {
@@ -1866,6 +2484,24 @@
         "SkillDesc": "Summons 1 [Aurelia Aurita]. A maximum of 3 can exist at the same time.",
         "SkillBtnDesc": "Summon",
         "SkillBtnIcon": "Skill_Shuimu01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "35"
+          },
+          {
+            "Key": "Summon Duration",
+            "Value": "14.0s"
+          },
+          {
+            "Key": "Summon DMG",
+            "Value": "769.0%/940.0%/1111.0%/1282.0%/1453.0%/1624.0%/1795.0%/1966.0%/2137.0%/2308.0%/2479.0%/2650.0%/2821.0%/2992.0%/3163.0%/3334.0%/3505.0%/3676.0%/3847.0%/4018.0%"
+          },
+          {
+            "Key": "Summon DMG Radius",
+            "Value": "10.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Legion Nameplate x3, Fuel Reagent x1"
@@ -1921,6 +2557,24 @@
         "SkillDesc": "Deals Hydro Damage to nearby enemies; the damage is increased based on the number of [Poison of Love] stacks inflicted on the enemies.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Shuimu02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "75"
+          },
+          {
+            "Key": "DMG",
+            "Value": "924.0%/1129.0%/1334.0%/1539.0%/1744.0%/1949.0%/2154.0%/2359.0%/2564.0%/2769.0%/2974.0%/3179.0%/3384.0%/3589.0%/3794.0%/3999.0%/4204.0%/4409.0%/4614.0%/4819.0%"
+          },
+          {
+            "Key": "DMG Boost\\nper stack of [Poison of Love]",
+            "Value": "358.0%/438.0%/518.0%/598.0%/678.0%/758.0%/838.0%/918.0%/998.0%/1078.0%/1158.0%/1238.0%/1318.0%/1398.0%/1478.0%/1558.0%/1638.0%/1718.0%/1798.0%/1878.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "20.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Legion Nameplate x3, Fuel Reagent x1"
@@ -1976,6 +2630,20 @@
         "SkillDesc": "When dealing damage with a melee weapon or [Aurelia Aurita]'s attack, inflicts 1 stack of [Poison of Love] on the target, up to 6 stacks.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Shuimu03",
+        "SkillParams": [
+          {
+            "Key": "[Poison of Love] Duration",
+            "Value": "15.0s"
+          },
+          {
+            "Key": "[Poison of Love] DMG",
+            "Value": "71.0%/88.0%/105.0%/122.0%/139.0%/156.0%/173.0%/190.0%/207.0%/224.0%/241.0%/258.0%/275.0%/292.0%/309.0%/326.0%/343.0%/360.0%/377.0%/394.0%"
+          },
+          {
+            "Key": "[Poison of Love] Transfer Radius",
+            "Value": "10.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Legion Nameplate x3, Fuel Reagent x1"
@@ -2037,9 +2705,9 @@
       "When triggering Bonus Effect, inflicts 1 additional stack of [Poison of Love] on the target.",
       "Increases the maximum number of [Aurelia Aurita] allowed on the field to 5 and the stack cap of [Poison of Love] to 8.",
       "[Aurelian Caress] Level +2; [Truelove Trial] Level +1.",
-      "Takes 30% less damage from targets inflicted with [Poison of Love].",
+      "Takes 30.0% less damage from targets inflicted with [Poison of Love].",
       "[Lada Lovedew] Level +2; [Truelove Trial] Level +1.",
-      "When defeating a target inflicted with [Poison of Love], Rebecca gains 1 stack that increases Attack by 3% for 15s, up to 50 stacks. The remaining time of the effect is refreshed with each new stack gained."
+      "When defeating a target inflicted with [Poison of Love], Rebecca gains 1 stack that increases Attack by 3.0% for 15s, up to 50 stacks. The remaining time of the effect is refreshed with each new stack gained."
     ]
   },
   "2102": {
@@ -2312,6 +2980,24 @@
         "SkillDesc": "Commands all [Tentacles] to attack 1 time and increases the Damage Dealt from this attack.\\nGrants Tabethe and her nearby teammate(s) the ability to deal additional Hydro Damage.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Zhangyu01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "[Tentacle] DMG Boost",
+            "Value": "37.0%/44.0%/51.0%/58.0%/65.0%/72.0%/79.0%/86.0%/93.0%/100.0%/107.0%/114.0%/121.0%/128.0%/135.0%/142.0%/149.0%/156.0%/163.0%/170.0%"
+          },
+          {
+            "Key": "Skill DMG Boost",
+            "Value": "11.0%/13.0%/15.0%/17.0%/19.0%/21.0%/23.0%/25.0%/27.0%/29.0%/31.0%/33.0%/35.0%/37.0%/39.0%/41.0%/43.0%/45.0%/47.0%/49.0%"
+          },
+          {
+            "Key": "Skill DMG Boost Duration",
+            "Value": "8.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Legion Nameplate x3, Fuel Reagent x1"
@@ -2367,6 +3053,20 @@
         "SkillDesc": "Summons 9 [Tentacles] around Tabethe.",
         "SkillBtnDesc": "Summon",
         "SkillBtnIcon": "Skill_Zhangyu02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "50"
+          },
+          {
+            "Key": "Summon DMG",
+            "Value": "53.0%/66.0%/79.0%/92.0%/105.0%/118.0%/131.0%/144.0%/157.0%/170.0%/183.0%/196.0%/209.0%/222.0%/235.0%/248.0%/261.0%/274.0%/287.0%/300.0%"
+          },
+          {
+            "Key": "Summon Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Legion Nameplate x3, Fuel Reagent x1"
@@ -2422,6 +3122,20 @@
         "SkillDesc": "Dealing CRIT Damage using a ranged weapon has a chance to summon 1 [Tentacle] near the target, which can only be triggered once per second.\\nA maximum of 18 [Tentacles] can exist at the same time.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Zhangyu03",
+        "SkillParams": [
+          {
+            "Key": "Effect Trigger Probability",
+            "Value": "6.5%/8.0%/9.5%/11.0%/12.5%/14.0%/15.5%/17.0%/18.5%/20.0%/21.5%/23.0%/24.5%/26.0%/27.5%/29.0%/30.5%/32.0%/33.5%/35.0%"
+          },
+          {
+            "Key": "Summon DMG",
+            "Value": "53.0%/66.0%/79.0%/92.0%/105.0%/118.0%/131.0%/144.0%/157.0%/170.0%/183.0%/196.0%/209.0%/222.0%/235.0%/248.0%/261.0%/274.0%/287.0%/300.0%"
+          },
+          {
+            "Key": "Summon Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Legion Nameplate x3, Fuel Reagent x1"
@@ -2481,11 +3195,11 @@
     },
     "Intron": [
       "Increases the number of [Tentacles] summoned through [Brawl For Justice!] to 12 and the maximum number of [Tentacles] that can exist at the same time to 24.",
-      "When [Tentacle] deals damage, there is a 10% chance to reload 1 projectile for Tabethe. This effect can only be triggered once every second.",
+      "When [Tentacle] deals damage, there is a 10.0% chance to reload 1 projectile for Tabethe. This effect can only be triggered once every second.",
       "[Tabethe's Specialty!] Level +2; [Have Tricks, Will Travel!] Level +1.",
-      "For each [Tentacle] on the field, increases Tabethe's CRIT Chance by 2%.",
+      "For each [Tentacle] on the field, increases Tabethe's CRIT Chance by 2.0%.",
       "[Brawl For Justice!] Level +2; [Have Tricks, Will Travel!] Level +1.",
-      "Enemies captured by [Tentacle] take Hydro Damage equivalent to 280% of [Tentacle]'s ATK once every 2s."
+      "Enemies captured by [Tentacle] take Hydro Damage equivalent to 280.0% of [Tentacle]'s ATK once every 2s."
     ]
   },
   "2401": {
@@ -2564,6 +3278,32 @@
         "SkillDesc": "Summons 1 [Yunchi]. A maximum of 2 [Yunchi] can exist at the same time.",
         "SkillBtnDesc": "Summon",
         "SkillBtnIcon": "Skill_Baiheng01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "50"
+          },
+          {
+            "Key": "Summon DMG",
+            "Value": "226.0%/275.0%/324.0%/373.0%/422.0%/471.0%/520.0%/569.0%/618.0%/667.0%/716.0%/765.0%/814.0%/863.0%/912.0%/961.0%/1010.0%/1059.0%/1108.0%/1157.0%"
+          },
+          {
+            "Key": "Summon Effect Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "Summon Duration",
+            "Value": "10.0s"
+          },
+          {
+            "Key": "Summon Healing",
+            "Value": "0.6%ATK+/0.7%ATK+/0.8%ATK+/0.9%ATK+/1.0%ATK+/1.1%ATK+/1.2%ATK+/1.3%ATK+/1.4%ATK+/1.5%ATK+/1.6%ATK+/1.7%ATK+/1.8%ATK+/1.9%ATK+/2.0%ATK+/2.1%ATK+/2.2%ATK+/2.3%ATK+/2.4%ATK+/2.5%ATK+5"
+          },
+          {
+            "Key": "Sanity Recovery",
+            "Value": "12"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Legion Nameplate x3, Fuel Reagent x1"
@@ -2619,6 +3359,44 @@
         "SkillDesc": "Deals Hydro Damage to nearby enemies. Grants Fushu an Ultra Shield and increases her ATK Speed. In addition, Fushu's nearby teammates also receive an Ultra Shield and gain [Nine-Needle Therapy].",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Baiheng02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "75"
+          },
+          {
+            "Key": "[Holistic Harmony] DMG",
+            "Value": "524.0%/640.0%/756.0%/872.0%/988.0%/1104.0%/1220.0%/1336.0%/1452.0%/1568.0%/1684.0%/1800.0%/1916.0%/2032.0%/2148.0%/2264.0%/2380.0%/2496.0%/2612.0%/2728.0%"
+          },
+          {
+            "Key": "[Holistic Harmony] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "Ultra Shield",
+            "Value": "2.7%ATK+/3.3%ATK+/3.9%ATK+/4.5%ATK+/5.1%ATK+/5.7%ATK+/6.3%ATK+/6.9%ATK+/7.5%ATK+/8.1%ATK+/8.7%ATK+/9.3%ATK+/9.9%ATK+/10.5%ATK+/11.1%ATK+/11.7%ATK+/12.3%ATK+/12.9%ATK+/13.5%ATK+/14.1%ATK+80"
+          },
+          {
+            "Key": "ATK SPD Boost",
+            "Value": "$math.abs(#Buff[240123].AddAttrs[1].Value)*100$%"
+          },
+          {
+            "Key": "ATK SPD Boost Duration",
+            "Value": "12.0s"
+          },
+          {
+            "Key": "[Nine-Needle Therapy] Skill DMG Boost",
+            "Value": "12.0%Skill DMG/14.0%Skill DMG/16.0%Skill DMG/18.0%Skill DMG/20.0%Skill DMG/22.0%Skill DMG/24.0%Skill DMG/26.0%Skill DMG/28.0%Skill DMG/30.0%Skill DMG/32.0%Skill DMG/34.0%Skill DMG/36.0%Skill DMG/38.0%Skill DMG/40.0%Skill DMG/42.0%Skill DMG/44.0%Skill DMG/46.0%Skill DMG/48.0%Skill DMG/50.0%Skill DMG"
+          },
+          {
+            "Key": "Skill DMG Boost Cap",
+            "Value": "120.0%"
+          },
+          {
+            "Key": "[Nine-Needle Therapy] Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Legion Nameplate x3, Fuel Reagent x1"
@@ -2674,6 +3452,16 @@
         "SkillDesc": "Using a Combat Sill or Ultimate Skill (either it's Fushu or her nearby teammates) gains 1 stack that increases Skill Speed, up to 10 stacks. The remaining time of the effect is refreshed with each new stack gained.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Baiheng03",
+        "SkillParams": [
+          {
+            "Key": "Skill SPD Boost per stack",
+            "Value": "3.9%/4.8%/5.7%/6.6%/7.5%/8.4%/9.3%/10.2%/11.1%/12.0%/12.9%/13.8%/14.7%/15.6%/16.5%/17.4%/18.3%/19.2%/20.1%/21.0%"
+          },
+          {
+            "Key": "Skill SPD Boost Duration",
+            "Value": "6"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Legion Nameplate x3, Fuel Reagent x1"
@@ -2732,12 +3520,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "When Fushu or her nearby teammates are applied with [Nine-Needle Therapy], they ignore the target's DEF by 30% when dealing Skill Damage.",
+      "When Fushu or her nearby teammates are applied with [Nine-Needle Therapy], they ignore the target's DEF by 30.0% when dealing Skill Damage.",
       "Increases the maximum number of [Yunchi] allowed on the field at the same time to 3.",
       "[Subcelestial Solace] Level +2; [Archaeus Revival] Level +1.",
       "Increase the stack cap of [Archaeus Revival] to 3.",
       "[Holistic Harmony] Level +2; [Archaeus Revival] Level +1.",
-      "During the ATK Speed boost effect granted by [Holistic Harmony], Fushu deals 220% additional Hydro Damage."
+      "During the ATK Speed boost effect granted by [Holistic Harmony], Fushu deals 220.0% additional Hydro Damage."
     ]
   },
   "3101": {
@@ -2815,6 +3603,32 @@
         "SkillDesc": "Deals Pyro Damage to enemies in front and inflicts [Laceration].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Linen01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "12"
+          },
+          {
+            "Key": "DMG",
+            "Value": "196.0%/239.0%/282.0%/325.0%/368.0%/411.0%/454.0%/497.0%/540.0%/583.0%/626.0%/669.0%/712.0%/755.0%/798.0%/841.0%/884.0%/927.0%/970.0%/1013.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "20.0m"
+          },
+          {
+            "Key": "[Laceration] DMG",
+            "Value": "8.0s"
+          },
+          {
+            "Key": "[Laceration] DMG",
+            "Value": "66.0%/80.0%/94.0%/108.0%/122.0%/136.0%/150.0%/164.0%/178.0%/192.0%/206.0%/220.0%/234.0%/248.0%/262.0%/276.0%/290.0%/304.0%/318.0%/332.0%"
+          },
+          {
+            "Key": "[Lacerated Wound] Count Cap",
+            "Value": "10"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -2870,6 +3684,28 @@
         "SkillDesc": "Switches the ranged weapon to [Hansel and Gretel]. In this state, Lynn can shoot and use skills, but cannot move.\\nShooting deals damage to all enemies in front, during which Lynn gains 1 stack that increases Lynn's ATK Speed every 0.2s, up to 35 stacks.\\nUsing [Hansel and Gretel] continuously consumes Sanity, during which Lynn is immune to Hitstun when taking damage. When Sanity drops to 0 or the skill is used again, sheathes [Hansel and Gretel].",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Linen02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[310121].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "Shooting DMG",
+            "Value": "127.0%/141.0%/155.0%/169.0%/183.0%/197.0%/211.0%/225.0%/239.0%/253.0%/267.0%/281.0%/295.0%/309.0%/323.0%/337.0%/351.0%/365.0%/379.0%/393.0%"
+          },
+          {
+            "Key": "Max Firing Range",
+            "Value": "50.0m"
+          },
+          {
+            "Key": "ATK SPD Boost per stack",
+            "Value": "3.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -2925,6 +3761,16 @@
         "SkillDesc": "When not shooting, Lynn gains 1 stack of [Preload] per second, up to 6 stacks.\\nWhen shooting, consumes all stacks of [Preload] to gain [Suppressing Fire] for a period of time.\\n[Suppressing Fire]: Increases the damage based on the number of the consumed [Preload] stacks. \\nCannot gain [Preload] stack during [Suppressing Fire].",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Linen03",
+        "SkillParams": [
+          {
+            "Key": "[Suppressing Fire] Duration",
+            "Value": "6.0s"
+          },
+          {
+            "Key": "DMG Boost per stack",
+            "Value": "70.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -2983,10 +3829,10 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Grants 6 stacks of [Preload] when battle starts, and increases Morale by 35% for 60s.",
-      "During [Gunpowder Revelry], reduces Damage Taken by 30%, and decreases the interval of gaining the ATK Speed boost to 0.06s.",
+      "Grants 6 stacks of [Preload] when battle starts, and increases Morale by 35.0% for 60s.",
+      "During [Gunpowder Revelry], reduces Damage Taken by 30.0%, and decreases the interval of gaining the ATK Speed boost to 0.06s.",
       "[Deadly Blossom] Level +2; [Tactical Rapid Fire] Level +1.",
-      "Increases damage dealt to targets with a HP percentage lower than 70% by 35%.",
+      "Increases damage dealt to targets with a HP percentage lower than 70.0% by 35.0%.",
       "[Gunpowder Revelry] Level +2; [Tactical Rapid Fire] Level +1.",
       "During [Gunpowder Revelry], when triggering Bonus Effect using [Hansel and Gretel], inflicts [Laceration] on the target(s) for 8s."
     ]
@@ -3067,6 +3913,32 @@
         "SkillDesc": "Commands all [Dirtexpellers] to continuously revolve around Hilda and fire [Hyperthermal Purgejets], during which the duration timer for all [Light Dirtexpellers] pauses.\\n[Hyperthermal Purgejets] deal Pyro Damage to enemies, and defeating an enemy has a chance to restore Sanity for Hilda during the [Hyperthermal Purgejets] firing.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Xier01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[310204].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "DMG",
+            "Value": "73.0%/88.0%/103.0%/118.0%/133.0%/148.0%/163.0%/178.0%/193.0%/208.0%/223.0%/238.0%/253.0%/268.0%/283.0%/298.0%/313.0%/328.0%/343.0%/358.0%"
+          },
+          {
+            "Key": "Sanity Recovery Probability",
+            "Value": "13.0%/16.0%/19.0%/22.0%/25.0%/28.0%/31.0%/34.0%/37.0%/40.0%/43.0%/46.0%/49.0%/52.0%/55.0%/58.0%/61.0%/64.0%/67.0%/70.0%"
+          },
+          {
+            "Key": "Sanity Recovery",
+            "Value": "5"
+          },
+          {
+            "Key": "[Hyperthermal Purgejet] Length",
+            "Value": "15.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -3122,6 +3994,36 @@
         "SkillDesc": "Deals Pyro Damage to surrounding enemies and inflicts [Disarm] on them. For each target hit, summons 1 [Light Dirtexpeller] around Hilda and resets the duration timer for all [Light Dirtexpellers].\\nCarries 2 [Heavy Dirtexpellers] around. [Heavy Dirtexpellers] and [Light Dirtexpellers] automatically target and shoot nearby enemies once every 3s, dealing Pyro Damage.\\nA maximum of 6 [Light Dirtexpellers] can exist at the same time.",
         "SkillBtnDesc": "Summon",
         "SkillBtnIcon": "Skill_Xier02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "DMG",
+            "Value": "353.0%/431.0%/509.0%/587.0%/665.0%/743.0%/821.0%/899.0%/977.0%/1055.0%/1133.0%/1211.0%/1289.0%/1367.0%/1445.0%/1523.0%/1601.0%/1679.0%/1757.0%/1835.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "20.0m"
+          },
+          {
+            "Key": "[Light Dirtexpeller] DMG",
+            "Value": "229.0%/280.0%/331.0%/382.0%/433.0%/484.0%/535.0%/586.0%/637.0%/688.0%/739.0%/790.0%/841.0%/892.0%/943.0%/994.0%/1045.0%/1096.0%/1147.0%/1198.0%"
+          },
+          {
+            "Key": "[Heavy Dirtexpeller] DMG",
+            "Value": "352.0%/431.0%/510.0%/589.0%/668.0%/747.0%/826.0%/905.0%/984.0%/1063.0%/1142.0%/1221.0%/1300.0%/1379.0%/1458.0%/1537.0%/1616.0%/1695.0%/1774.0%/1853.0%"
+          },
+          {
+            "Key": "[Dirtexpeller] Targeting Radius",
+            "Value": "15.0m"
+          },
+          {
+            "Key": "[Light Dirtexpeller] Duration",
+            "Value": "12.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -3177,6 +4079,16 @@
         "SkillDesc": "Carries 2 [Heavy Dirtexpellers] that automatically target and shoot nearby enemies once every 3s, dealing Pyro Damage.\\nWhen dodging, Hilda reloads her ranged weapon Magazine to maximum and gains [Elegant Anger] for a period of time.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Xier03",
+        "SkillParams": [
+          {
+            "Key": "[Elegant Anger] Effect",
+            "Value": "13.0%/16.0%/19.0%/22.0%/25.0%/28.0%/31.0%/34.0%/37.0%/40.0%/43.0%/46.0%/49.0%/52.0%/55.0%/58.0%/61.0%/64.0%/67.0%/70.0%"
+          },
+          {
+            "Key": "[Elegant Anger] Duration",
+            "Value": "6"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -3236,11 +4148,11 @@
     },
     "Intron": [
       "Increases Hilda's Dodge Attempts by 2 and the effect [Elegant Anger] grants by 30%.",
-      "Increases the length of [Hyperthermal Purgejet] by 50%.\\nWhen [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that increases damage taken from Hilda by 85% for 2s.",
+      "Increases the length of [Hyperthermal Purgejet] by 50%.\\nWhen [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that increases damage taken from Hilda by 85.0% for 2s.",
       "[Pyrolytic Cleaning] Level +2; [Automatic Sanitizing] Level +1.",
-      "When using [Wholehearted Service], summons 2 additional [Light Dirtexpellers], and decreases the target's damage by 25% for 12s.",
+      "When using [Wholehearted Service], summons 2 additional [Light Dirtexpellers], and decreases the target's damage by 25.0% for 12s.",
       "[Wholehearted Service] Level +2; [Automatic Sanitizing] Level +1.",
-      "Increases Hilda's PEN stats by 55% during [Pyrolytic Cleaning]."
+      "Increases Hilda's PEN stats by 55.0% during [Pyrolytic Cleaning]."
     ]
   },
   "3103": {
@@ -3313,6 +4225,28 @@
         "SkillDesc": "Drops a bomb named [Tot Popper], assuming the form of either [Tot Popper: Yale's Make] or [Tot Popper: Oliver's Make]. Upon landing, the bomb explodes after 2s, dealing Pyro Damage to enemies within a cross-shaped area and detonating any other [Tot Poppers] within range. A maximum of 10 [Tot Poppers] can exist at the same time.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Yeer01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "15"
+          },
+          {
+            "Key": "[Tot Popper: Yale's Make] DMG",
+            "Value": "502.0%/614.0%/726.0%/838.0%/950.0%/1062.0%/1174.0%/1286.0%/1398.0%/1510.0%/1622.0%/1734.0%/1846.0%/1958.0%/2070.0%/2182.0%/2294.0%/2406.0%/2518.0%/2630.0%"
+          },
+          {
+            "Key": "[Tot Popper: Oliver's Make] DMG",
+            "Value": "836.0%/1022.0%/1208.0%/1394.0%/1580.0%/1766.0%/1952.0%/2138.0%/2324.0%/2510.0%/2696.0%/2882.0%/3068.0%/3254.0%/3440.0%/3626.0%/3812.0%/3998.0%/4184.0%/4370.0%"
+          },
+          {
+            "Key": "Cross-Shaped Area Length",
+            "Value": "15.0m"
+          },
+          {
+            "Key": "Cross-Shaped Area Width",
+            "Value": "4.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -3368,6 +4302,36 @@
         "SkillDesc": "Generates [Nightmare Lab] around Yale and Oliver. Using the skill again can close [Nightmare Lab] in advance.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Yeer02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "[Nightmare Lab] Duration",
+            "Value": "15.0s"
+          },
+          {
+            "Key": "[Nightmare Lab] Radius",
+            "Value": "20.0m"
+          },
+          {
+            "Key": "[Nightmare Lab] M.SPD Decrease",
+            "Value": "40.0%"
+          },
+          {
+            "Key": "[Nightmare Lab] Explosion DMG",
+            "Value": "695.0%/850.0%/1005.0%/1160.0%/1315.0%/1470.0%/1625.0%/1780.0%/1935.0%/2090.0%/2245.0%/2400.0%/2555.0%/2710.0%/2865.0%/3020.0%/3175.0%/3330.0%/3485.0%/3640.0%"
+          },
+          {
+            "Key": "Explosion DMG Bonus per [Tot Popper] Detonated",
+            "Value": "278.0%/340.0%/402.0%/464.0%/526.0%/588.0%/650.0%/712.0%/774.0%/836.0%/898.0%/960.0%/1022.0%/1084.0%/1146.0%/1208.0%/1270.0%/1332.0%/1394.0%/1456.0%"
+          },
+          {
+            "Key": "Sanity Recovery per [Tot Popper] Detonated",
+            "Value": "2"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -3423,6 +4387,16 @@
         "SkillDesc": "When a [Tot Popper] is deployed, if it's no less than 2 metres above the ground, it deals Pyro Damage to nearby enemies upon landing.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Yeer03",
+        "SkillParams": [
+          {
+            "Key": "[Tot Popper] Landing DMG",
+            "Value": "213.0%/259.0%/305.0%/351.0%/397.0%/443.0%/489.0%/535.0%/581.0%/627.0%/673.0%/719.0%/765.0%/811.0%/857.0%/903.0%/949.0%/995.0%/1041.0%/1087.0%"
+          },
+          {
+            "Key": "[Tot Popper] Landing Radius",
+            "Value": "6.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -3482,9 +4456,9 @@
     },
     "Intron": [
       "If a [Tot Popper] is detonated by a different type of [Tot Popper], restores 1 point of Sanity for Yale and Oliver; if detonated by the same type, restores 2.",
-      "The Movement Speed decrease effect inflicted on enemies in [Nightmare Lab] is increased to 60%.",
+      "The Movement Speed decrease effect inflicted on enemies in [Nightmare Lab] is increased to 60.0%.",
       "[Tot Popper] Level +2; [The Rules of Bomb] Level +1.",
-      "When deploying a [Tot Popper] in [Nightmare Lab], there's a 45% chance to deploy 1 additional [Tot Popper].",
+      "When deploying a [Tot Popper] in [Nightmare Lab], there's a 45.0% chance to deploy 1 additional [Tot Popper].",
       "[Nightmare's Grasp] Level +2; [The Rules of Bomb] Level +1.",
       "When Yale and Oliver is applied with [Bombing Frenzy], each deployed [Tot Popper] combines the features of both types, dealing higher damage and posing greater Stance reduction."
     ]
@@ -3565,6 +4539,36 @@
         "SkillDesc": "Enters [Retribution] state.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Haier01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "75"
+          },
+          {
+            "Key": "[Retribution] Duration",
+            "Value": "15.0s"
+          },
+          {
+            "Key": "[Retribution] DoT",
+            "Value": "24.0% Max HP/28.0% Max HP/32.0% Max HP/36.0% Max HP/40.0% Max HP/44.0% Max HP/48.0% Max HP/52.0% Max HP/56.0% Max HP/60.0% Max HP/64.0% Max HP/68.0% Max HP/72.0% Max HP/76.0% Max HP/80.0% Max HP/84.0% Max HP/88.0% Max HP/92.0% Max HP/96.0% Max HP/100.0% Max HP"
+          },
+          {
+            "Key": "[Retribution] DoT Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Puncture Retribution] DMG",
+            "Value": "36.0% Max HP+/45.0% Max HP+/54.0% Max HP+/63.0% Max HP+/72.0% Max HP+/81.0% Max HP+/90.0% Max HP+/99.0% Max HP+/108.0% Max HP+/117.0% Max HP+/126.0% Max HP+/135.0% Max HP+/144.0% Max HP+/153.0% Max HP+/162.0% Max HP+/171.0% Max HP+/180.0% Max HP+/189.0% Max HP+/198.0% Max HP+/207.0% Max HP+128.0/155.0/182.0/209.0/236.0/263.0/290.0/317.0/344.0/371.0/398.0/425.0/452.0/479.0/506.0/533.0/560.0/587.0/614.0/641.0"
+          },
+          {
+            "Key": "[Puncture Retribution] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Retribution] Duration Extension",
+            "Value": "1.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -3620,6 +4624,24 @@
         "SkillDesc": "Deals Pyro Damage to surrounding enemies and taunts them.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Haier02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "50"
+          },
+          {
+            "Key": "DMG",
+            "Value": "67.0% Max HP+/82.0% Max HP+/97.0% Max HP+/112.0% Max HP+/127.0% Max HP+/142.0% Max HP+/157.0% Max HP+/172.0% Max HP+/187.0% Max HP+/202.0% Max HP+/217.0% Max HP+/232.0% Max HP+/247.0% Max HP+/262.0% Max HP+/277.0% Max HP+/292.0% Max HP+/307.0% Max HP+/322.0% Max HP+/337.0% Max HP+/352.0% Max HP+110.0/133.0/156.0/179.0/202.0/225.0/248.0/271.0/294.0/317.0/340.0/363.0/386.0/409.0/432.0/455.0/478.0/501.0/524.0/547.0"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "20.0m"
+          },
+          {
+            "Key": "Taunt Duration",
+            "Value": "5.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -3675,6 +4697,16 @@
         "SkillDesc": "Increases Max HP and continuously restores HP.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Haier03",
+        "SkillParams": [
+          {
+            "Key": "Max HP Boost",
+            "Value": "39.0%/48.0%/57.0%/66.0%/75.0%/84.0%/93.0%/102.0%/111.0%/120.0%/129.0%/138.0%/147.0%/156.0%/165.0%/174.0%/183.0%/192.0%/201.0%/210.0%"
+          },
+          {
+            "Key": "HP Recovery per second",
+            "Value": "0.3% Max HP"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -3733,7 +4765,7 @@
       "GUIPathVariableType": "Claymore"
     },
     "Intron": [
-      "Increases damage dealt to enemies within a 6-metre radius around Hellfire by 30%.",
+      "Increases damage dealt to enemies within a 6-metre radius around Hellfire by 30.0%.",
       "Increases the HP recovery granted by [Retributive Resolve] to 0.4%.",
       "[Raging Inferno] Level +2; [Retributive Resolve] Level +1.",
       "Decreases the interval of dealing [Puncture Retribution] Pyro Damage to 1.4s.",
@@ -3785,6 +4817,28 @@
         "SkillDesc": "Deals Pyro DMG to enemies in front and gains 1 stack of [Inebriation]. Tap repeatedly or hold the Attack button to unleash a flurry of attacks. Holding the button triggers [Burgundy Twirl], dealing Pyro DMG to nearby enemies and launching all [Spinblades].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Haier01",
+        "SkillParams": [
+          {
+            "Key": "[Burgundy Flurry] Sanity Cost per Strike",
+            "Value": "1"
+          },
+          {
+            "Key": "[Burgundy Flurry] Damage",
+            "Value": "100.0%"
+          },
+          {
+            "Key": "[Burgundy Flurry] Range",
+            "Value": "3.0m"
+          },
+          {
+            "Key": "Skill Speed Bonus per [Inebriation] Stack",
+            "Value": "6.0%"
+          },
+          {
+            "Key": "+[Spinblade] Spin Speed & Launch Speed per [Inebriation] Stack",
+            "Value": "20.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -3840,6 +4894,24 @@
         "SkillDesc": "Deals Pyro DMG to enemies in front and summons 8 [Spinblades] to orbit the user, dealing damage to enemies along their path.",
         "SkillBtnDesc": "Summon",
         "SkillBtnIcon": "Skill_Haier02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "40"
+          },
+          {
+            "Key": "[Spinblade] Damage",
+            "Value": "15.0%"
+          },
+          {
+            "Key": "[Spinblade] Duration",
+            "Value": "20.0s"
+          },
+          {
+            "Key": "[Spinblade] Launch Speed",
+            "Value": "20.0m/s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -3895,6 +4967,12 @@
         "SkillDesc": "Damage from [Spinblades] inflicts 1 stack of [Laceration], stacking up to 20 times.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Passive",
+        "SkillParams": [
+          {
+            "Key": "[Laceration] Damage Bonus",
+            "Value": "10.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Carapace x3, Statue Debris x1"
@@ -3953,10 +5031,10 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Damage from [Spinblades] has a 30% chance to inflict 1 additional stack of [Laceration].",
-      "Attacks from [Burgundy Twirl] can block incoming projectiles. Each stack of [Inebriation] reduces Damage Taken by 3%.",
+      "Damage from [Spinblades] has a 30.0% chance to inflict 1 additional stack of [Laceration].",
+      "Attacks from [Burgundy Twirl] can block incoming projectiles. Each stack of [Inebriation] reduces Damage Taken by 3.0%.",
       "[Burgundy Twirl] Level +2, [Claret Waltz] Level +1.",
-      "Damage from [Laceration] detonation is increased by 30%.",
+      "Damage from [Laceration] detonation is increased by 30.0%.",
       "[Claret Waltz] Level +2, [Burgundy Twirl] Level +1.",
       "All weapon and skill damage (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration]."
     ]
@@ -4036,6 +5114,28 @@
         "SkillDesc": "Attack enemies within range in front, dealing Pyro Damage and stunning them. When using this skill by holding, Margie makes a continuous attack.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Maer01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Effect Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "DMG",
+            "Value": "157.0%/191.0%/225.0%/259.0%/293.0%/327.0%/361.0%/395.0%/429.0%/463.0%/497.0%/531.0%/565.0%/599.0%/633.0%/667.0%/701.0%/735.0%/769.0%/803.0%"
+          },
+          {
+            "Key": "Stun Duration",
+            "Value": "2.0s"
+          },
+          {
+            "Key": "Max Targets",
+            "Value": "6"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -4091,6 +5191,48 @@
         "SkillDesc": "Casts 3 [Margie's Combustible Bins] forward. They immediately explode upon hitting any target or obstacle, dealing AoE Pyro Damage and consuming a certain stacks of [Jackpot!] for enhancement:\\nWhen consuming 3 stacks of [Jackpot!]: Increases the explosion range and damage.\\nWhen consuming 6 stacks of [Jackpot!]: Creates a Zealous Zone after the explosion, dealing Pyro Damage once every 2s to enemies within the zone.\\nWhen consuming 9 stacks of [Jackpot!]: Deals additional AoE Pyro Damage 2 times after the explosion.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Maer02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "50"
+          },
+          {
+            "Key": "Explosion DMG",
+            "Value": "126.0%/154.0%/182.0%/210.0%/238.0%/266.0%/294.0%/322.0%/350.0%/378.0%/406.0%/434.0%/462.0%/490.0%/518.0%/546.0%/574.0%/602.0%/630.0%/658.0%"
+          },
+          {
+            "Key": "Explosion Range",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "Enhanced Explosion DMG",
+            "Value": "187.0%/228.0%/269.0%/310.0%/351.0%/392.0%/433.0%/474.0%/515.0%/556.0%/597.0%/638.0%/679.0%/720.0%/761.0%/802.0%/843.0%/884.0%/925.0%/966.0%"
+          },
+          {
+            "Key": "Enhanced Explosion Range",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "Zealous Zone DMG",
+            "Value": "49.0%/59.0%/69.0%/79.0%/89.0%/99.0%/109.0%/119.0%/129.0%/139.0%/149.0%/159.0%/169.0%/179.0%/189.0%/199.0%/209.0%/219.0%/229.0%/239.0%"
+          },
+          {
+            "Key": "Zealous Zone Range",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "Zealous Zone Duration",
+            "Value": "10.0s"
+          },
+          {
+            "Key": "Additional DMG",
+            "Value": "127.0%/154.0%/181.0%/208.0%/235.0%/262.0%/289.0%/316.0%/343.0%/370.0%/397.0%/424.0%/451.0%/478.0%/505.0%/532.0%/559.0%/586.0%/613.0%/640.0%"
+          },
+          {
+            "Key": "Additional DMG Range",
+            "Value": "6.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -4146,6 +5288,12 @@
         "SkillDesc": "When Margie or her nearby teammate(s) pick up any item, Margie gains 1 stack of [Jackpot!] that persists, which increases Margie's Skill Damage, up to 20 stacks.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Maer03",
+        "SkillParams": [
+          {
+            "Key": "Skill DMG Boost per stack",
+            "Value": "2.4%/2.8%/3.2%/3.6%/4.0%/4.4%/4.8%/5.2%/5.6%/6.0%/6.4%/6.8%/7.2%/7.6%/8.0%/8.4%/8.8%/9.2%/9.6%/10.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Carapace x3, Statue Debris x1"
@@ -4204,12 +5352,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "When [Margie's Combustible Bin] consumes [Jackpot!] stacks, there's a 30% chance to regain the consumed stacks.",
-      "When using [Margie's Treasure Shovel], there's a 12% chance to deal additional damage to 1 random enemy within range once.",
+      "When [Margie's Combustible Bin] consumes [Jackpot!] stacks, there's a 30.0% chance to regain the consumed stacks.",
+      "When using [Margie's Treasure Shovel], there's a 12.0% chance to deal additional damage to 1 random enemy within range once.",
       "[Margie's Treasure Shovel] Level +2; [Margie's Recycling Sack] Level +1.",
       "Increases the duration of Zealous Zone created by [Margie's Combustible Bin] to 20s.",
       "[Margie's Combustible Bin] Level +2; [Margie's Recycling Sack] Level +1.",
-      "When [Margie's Combustible Bin] deals damage, damage dealt to the target from Margie is increased by 60% for 5s."
+      "When [Margie's Combustible Bin] deals damage, damage dealt to the target from Margie is increased by 60.0% for 5s."
     ]
   },
   "4101": {
@@ -4283,6 +5431,28 @@
         "SkillDesc": "Rhythm leaps forward, dealing Electro Damage to enemies along the path.\\nWhen the [Electric Energy] point is no less than 30, consumes 30 points to increase the leap speed and [Volt Rush]'s damage, and grants an effect that increases the damage dealt by Rhythm.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Lise01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "20"
+          },
+          {
+            "Key": "DMG",
+            "Value": "388.0%/474.0%/560.0%/646.0%/732.0%/818.0%/904.0%/990.0%/1076.0%/1162.0%/1248.0%/1334.0%/1420.0%/1506.0%/1592.0%/1678.0%/1764.0%/1850.0%/1936.0%/2022.0%"
+          },
+          {
+            "Key": "[Volt Rush] DMG Boost",
+            "Value": "650.0%/793.0%/936.0%/1079.0%/1222.0%/1365.0%/1508.0%/1651.0%/1794.0%/1937.0%/2080.0%/2223.0%/2366.0%/2509.0%/2652.0%/2795.0%/2938.0%/3081.0%/3224.0%/3367.0%"
+          },
+          {
+            "Key": "DMG Boost",
+            "Value": "90.0%"
+          },
+          {
+            "Key": "DMG Boost Duration",
+            "Value": "9.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4338,6 +5508,48 @@
         "SkillDesc": "Deals Electro Damage to enemies within range and enters [Electro Surge] state, during which it continuously consumes Sanity.\\n[Electro Surge] state ends when Sanity drops to 0 or when the skill is used again.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Lise02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[410111].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "DMG",
+            "Value": "413.0%/506.0%/599.0%/692.0%/785.0%/878.0%/971.0%/1064.0%/1157.0%/1250.0%/1343.0%/1436.0%/1529.0%/1622.0%/1715.0%/1808.0%/1901.0%/1994.0%/2087.0%/2180.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Electro Surge] Effect Radius",
+            "Value": "50.0m"
+          },
+          {
+            "Key": "[Electro Surge] DMG",
+            "Value": "126.0%/155.0%/184.0%/213.0%/242.0%/271.0%/300.0%/329.0%/358.0%/387.0%/416.0%/445.0%/474.0%/503.0%/532.0%/561.0%/590.0%/619.0%/648.0%/677.0%"
+          },
+          {
+            "Key": "[Positive Charge] Effect Radius",
+            "Value": "20.0m"
+          },
+          {
+            "Key": "[Electric Charge] DMG",
+            "Value": "1552.0%/1896.0%/2240.0%/2584.0%/2928.0%/3272.0%/3616.0%/3960.0%/4304.0%/4648.0%/4992.0%/5336.0%/5680.0%/6024.0%/6368.0%/6712.0%/7056.0%/7400.0%/7744.0%/8088.0%"
+          },
+          {
+            "Key": "Movement SPD Boost",
+            "Value": "25.0%"
+          },
+          {
+            "Key": "[Electric Charge] Duration",
+            "Value": "6.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4393,6 +5605,12 @@
         "SkillDesc": "When consuming Sanity, converts a percentage of consumed Sanity into [Electric Energy]. The upper limit of [Electric Energy] is equal to the max Sanity.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Lise03",
+        "SkillParams": [
+          {
+            "Key": "Conversion Percentage",
+            "Value": "37.0%/44.0%/51.0%/58.0%/65.0%/72.0%/79.0%/86.0%/93.0%/100.0%/107.0%/114.0%/121.0%/128.0%/135.0%/142.0%/149.0%/156.0%/163.0%/170.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4454,7 +5672,7 @@
       "[Electric Charge] deals AoE Damage within a 3-metre radius.",
       "When an enemy with [Electric Charge] is defeated, their [Electric Charge] is transferred to another random target within a 20-metre radius.\\nThe transferred [Electric Charge] retains its remaining duration, allowing the effect to continue on the new target.",
       "[Volt Rush] Level +2, [Tactical Preservation] Level +1.",
-      "At the start of battle, Rhythm gains [Electric Energy] equal to 50% of her Max Sanity.",
+      "At the start of battle, Rhythm gains [Electric Energy] equal to 50.0% of her Max Sanity.",
       "[Electro Vortex] Level +2, [Tactical Preservation] Level +1.",
       "The number of enemies [Electro Surge] deals damage to per second is increased to 2."
     ]
@@ -4530,6 +5748,32 @@
         "SkillDesc": "Press: \\nZhiliu uses [Celestial Revelation: Zhen], dealing Electro Damage to enemies within range in front, which grants Zhiliu 1 [Talisman: Zhen].\\n\\nHold:\\nZhiliu uses [Celestial Revelation: Xun], dealing Electro Damage to enemies within range in front, which grants Zhiliu Ultra Shield and 1 [Talisman: Xun].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Zhiliu01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "15"
+          },
+          {
+            "Key": "[Celestial Revelation: Zhen] DMG",
+            "Value": "210.0%/256.0%/302.0%/348.0%/394.0%/440.0%/486.0%/532.0%/578.0%/624.0%/670.0%/716.0%/762.0%/808.0%/854.0%/900.0%/946.0%/992.0%/1038.0%/1084.0%"
+          },
+          {
+            "Key": "[Celestial Revelation: Zhen] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Celestial Revelation: Xun] DMG",
+            "Value": "347.0%/424.0%/501.0%/578.0%/655.0%/732.0%/809.0%/886.0%/963.0%/1040.0%/1117.0%/1194.0%/1271.0%/1348.0%/1425.0%/1502.0%/1579.0%/1656.0%/1733.0%/1810.0%"
+          },
+          {
+            "Key": "[Celestial Revelation: Xun] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Celestial Revelation: Xun] Ultra Shield",
+            "Value": "4.0%Max Shield"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4585,6 +5829,80 @@
         "SkillDesc": "When Zhiliu has fewer than 2 [Talismans], deals Electro Damage to enemies within range. \\nWhen Zhiliu has 2 [Talismans], this skill is replaced with another skill based on the type of [Talismans].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Zhiliu02_1",
+        "SkillParams": [
+          {
+            "Key": "[Heaven-Earth Divination] Sanity Cost",
+            "Value": "20"
+          },
+          {
+            "Key": "[Thunder's Oracle Peal] Sanity Cost",
+            "Value": "45"
+          },
+          {
+            "Key": "[Myriad Things Thrive] Sanity Cost",
+            "Value": "60"
+          },
+          {
+            "Key": "[Fortune's Clarity] Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "[Heaven-Earth Divination] DMG",
+            "Value": "502.0%/615.0%/728.0%/841.0%/954.0%/1067.0%/1180.0%/1293.0%/1406.0%/1519.0%/1632.0%/1745.0%/1858.0%/1971.0%/2084.0%/2197.0%/2310.0%/2423.0%/2536.0%/2649.0%"
+          },
+          {
+            "Key": "[Heaven-Earth Divination] DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Thunder's Oracle Peal] DMG",
+            "Value": "2435.0%/2975.0%/3515.0%/4055.0%/4595.0%/5135.0%/5675.0%/6215.0%/6755.0%/7295.0%/7835.0%/8375.0%/8915.0%/9455.0%/9995.0%/10535.0%/11075.0%/11615.0%/12155.0%/12695.0%"
+          },
+          {
+            "Key": "[Thunder's Oracle Peal] DMG Range",
+            "Value": "12.0m×6.0m"
+          },
+          {
+            "Key": "[Myriad Things Thrive] DMG",
+            "Value": "630.0%×3+/770.0%×3+/910.0%×3+/1050.0%×3+/1190.0%×3+/1330.0%×3+/1470.0%×3+/1610.0%×3+/1750.0%×3+/1890.0%×3+/2030.0%×3+/2170.0%×3+/2310.0%×3+/2450.0%×3+/2590.0%×3+/2730.0%×3+/2870.0%×3+/3010.0%×3+/3150.0%×3+/3290.0%×3+1893.0%/2313.0%/2733.0%/3153.0%/3573.0%/3993.0%/4413.0%/4833.0%/5253.0%/5673.0%/6093.0%/6513.0%/6933.0%/7353.0%/7773.0%/8193.0%/8613.0%/9033.0%/9453.0%/9873.0%"
+          },
+          {
+            "Key": "[Myriad Things Thrive] DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Four Realms Align] Radius",
+            "Value": "20.0m"
+          },
+          {
+            "Key": "[Four Realms Align] Duration",
+            "Value": "24.0s"
+          },
+          {
+            "Key": "[Zhen-Xun Convergence] DMG",
+            "Value": "872.0%/1066.0%/1260.0%/1454.0%/1648.0%/1842.0%/2036.0%/2230.0%/2424.0%/2618.0%/2812.0%/3006.0%/3200.0%/3394.0%/3588.0%/3782.0%/3976.0%/4170.0%/4364.0%/4558.0%"
+          },
+          {
+            "Key": "[Zhen-Xun Convergence] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Fortune's Clarity] DMG",
+            "Value": "724.0%/886.0%/1048.0%/1210.0%/1372.0%/1534.0%/1696.0%/1858.0%/2020.0%/2182.0%/2344.0%/2506.0%/2668.0%/2830.0%/2992.0%/3154.0%/3316.0%/3478.0%/3640.0%/3802.0%"
+          },
+          {
+            "Key": "[Fortune's Clarity] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Fortune's Clarity] Skill DMG Boost",
+            "Value": "39.0%/48.0%/57.0%/66.0%/75.0%/84.0%/93.0%/102.0%/111.0%/120.0%/129.0%/138.0%/147.0%/156.0%/165.0%/174.0%/183.0%/192.0%/201.0%/210.0%"
+          },
+          {
+            "Key": "[Fortune's Clarity] Duration",
+            "Value": "24.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4640,6 +5958,12 @@
         "SkillDesc": "Obtains [Talismans] through [Celestial Revelation], up to 2 [Talismans]. When the number of [Talismans] exceeds the limit, the earliest obtained [Talisman] will be removed.\\nWhen consuming [Talisman] after using [Thunder's Oracle Peal], [Myriad Things Thrive], or [Fortune's Clarity], each [Talisman] has a chance to be retained based on Zhiliu's Melee Weapon Trigger Probability.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Zhiliu03",
+        "SkillParams": [
+          {
+            "Key": "Effect Trigger Probability",
+            "Value": "14.0%+/18.0%+/22.0%+/26.0%+/30.0%+/34.0%+/38.0%+/42.0%+/46.0%+/50.0%+/54.0%+/58.0%+/62.0%+/66.0%+/70.0%+/74.0%+/78.0%+/82.0%+/86.0%+/90.0%+50.0%×Melee Weapon Trigger Probability"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4701,9 +6025,9 @@
       "When using [Thunder's Oracle Peal], the effect of [Four Realms Align] is additionally triggered once to generate several strikes of [Zhen-Xun Convergence].",
       "When using the Ultimate Skill, increases the [Talisman] retention chance by 3.5. The max number of stacks provided by [Mutual Generation] is increased to 6.",
       "[Celestial Revelation] Level +2, [Talismans Coalescence] Level +1.",
-      "When using [Celestial Revelation], increases ATK for Zhiliu and the nearby teammate(s) by 30% for 16s.",
+      "When using [Celestial Revelation], increases ATK for Zhiliu and the nearby teammate(s) by 30.0% for 16s.",
       "[Heaven-Earth Divination] Level +2, [Talismans Coalescence] Level +1.",
-      "When within [Four Realms Align]'s range, increases Zhiliu's PEN stats by 55%."
+      "When within [Four Realms Align]'s range, increases Zhiliu's PEN stats by 55.0%."
     ]
   },
   "4201": {
@@ -4782,6 +6106,40 @@
         "SkillDesc": "Yuming leaps into the air, and the next Plunging Attack is replaced with [Starlight Descent]. Using this skill in [Xuanjiao Manifest] state grants Yuming 1 [Reverse Scale].\\nWhen the amount of [Reverse Scale] reaches its maxium, [Starlight Descent] is enhanced to [Starstorm Descent].",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Yuming01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "18"
+          },
+          {
+            "Key": "[Starlight Descent] DMG",
+            "Value": "147.0%/180.0%/213.0%/246.0%/279.0%/312.0%/345.0%/378.0%/411.0%/444.0%/477.0%/510.0%/543.0%/576.0%/609.0%/642.0%/675.0%/708.0%/741.0%/774.0%"
+          },
+          {
+            "Key": "[Starstorm Descent] DMG",
+            "Value": "1.47%/1.8%/2.13%/2.46%/2.79%/3.12%/3.45%/3.78%/4.11%/4.44%/4.77%/5.1%/5.43%/5.76%/6.09%/6.42%/6.75%/7.08%/7.41%/7.74%"
+          },
+          {
+            "Key": "[Starlight Descent] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Raging Thunder] DMG",
+            "Value": "86.0%/106.0%/126.0%/146.0%/166.0%/186.0%/206.0%/226.0%/246.0%/266.0%/286.0%/306.0%/326.0%/346.0%/366.0%/386.0%/406.0%/426.0%/446.0%/466.0%"
+          },
+          {
+            "Key": "[Raging Thunder] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "DMG Boost",
+            "Value": "9.0%/12.0%/15.0%/18.0%/21.0%/24.0%/27.0%/30.0%/33.0%/36.0%/39.0%/42.0%/45.0%/48.0%/51.0%/54.0%/57.0%/60.0%/63.0%/66.0%"
+          },
+          {
+            "Key": "DMG Boost Duration",
+            "Value": "8.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4837,6 +6195,32 @@
         "SkillDesc": "Deals Electro Damage to enemies in front and enters [Xuanjiao Manifest] state.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Yuming02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "100"
+          },
+          {
+            "Key": "Skill DMG",
+            "Value": "359.0%/438.0%/517.0%/596.0%/675.0%/754.0%/833.0%/912.0%/991.0%/1070.0%/1149.0%/1228.0%/1307.0%/1386.0%/1465.0%/1544.0%/1623.0%/1702.0%/1781.0%/1860.0%"
+          },
+          {
+            "Key": "Skill DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Xuanjiao Manifest] DMG",
+            "Value": "147.0%/180.0%/213.0%/246.0%/279.0%/312.0%/345.0%/378.0%/411.0%/444.0%/477.0%/510.0%/543.0%/576.0%/609.0%/642.0%/675.0%/708.0%/741.0%/774.0%"
+          },
+          {
+            "Key": "[Xuanjiao] Max DMG Absorption",
+            "Value": "37.0% Max HP/44.0% Max HP/51.0% Max HP/58.0% Max HP/65.0% Max HP/72.0% Max HP/79.0% Max HP/86.0% Max HP/93.0% Max HP/100.0% Max HP/107.0% Max HP/114.0% Max HP/121.0% Max HP/128.0% Max HP/135.0% Max HP/142.0% Max HP/149.0% Max HP/156.0% Max HP/163.0% Max HP/170.0% Max HP"
+          },
+          {
+            "Key": "[Fish-Dragon Dance] DMG",
+            "Value": "443.0%/542.0%/641.0%/740.0%/839.0%/938.0%/1037.0%/1136.0%/1235.0%/1334.0%/1433.0%/1532.0%/1631.0%/1730.0%/1829.0%/1928.0%/2027.0%/2126.0%/2225.0%/2324.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4892,6 +6276,16 @@
         "SkillDesc": "When dealing Skill Damage, inflicts 1 stack of [Thunderous Onslaught] on the target, up to 3 stacks.\\n[Thunderous Onslaught]: reduces Electro Resistance.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Yuming03",
+        "SkillParams": [
+          {
+            "Key": "Electro Resistance Decrease",
+            "Value": "5.2%/6.4%/7.6%/8.8%/10.0%/11.2%/12.4%/13.6%/14.8%/16.0%/17.2%/18.4%/19.6%/20.8%/22.0%/23.2%/24.4%/25.6%/26.8%/28.0%"
+          },
+          {
+            "Key": "[Thunderous Onslaught] Duration",
+            "Value": "3.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -4950,12 +6344,12 @@
       "GUIPathVariableType": "Polearm"
     },
     "Intron": [
-      "When in [Xuanjiao Manifest] state, gains 1 extra [Reverse Scale] each time [Precipitous Thunderfall] is used.\\nUsing [Starstorm Descent] increases Weapon Attack Range by 60 and Skill Range by 30% for Yuming and the nearby teammate(s) for 8s.",
+      "When in [Xuanjiao Manifest] state, gains 1 extra [Reverse Scale] each time [Precipitous Thunderfall] is used.\\nUsing [Starstorm Descent] increases Weapon Attack Range by 0.6 and Skill Range by 30.0% for Yuming and the nearby teammate(s) for 8s.",
       "When Yuming or his teammates unleash [Fish-Dragon Dance], unleashes 2 additional strikes of [Fish-Dragon Dance] within a 10-metre range around the location of the target, with priority given to different target locations.",
       "[Precipitous Thunderfall] Level +2; [Soaring Sky-High] Level +1.",
-      "Plunging Attack deals additional damage equal to 18% of Yuming's Skill Damage, with a maximum of 36%.",
+      "Plunging Attack deals additional damage equal to 18.0% of Yuming's Skill Damage, with a maximum of 36.0%.",
       "[Grimscales] Level +2; [Soaring Sky-High] Level +1.",
-      "When [Starlight Descent] or [Starstorm Descent] deals damage, the damage is increased by 90% for each stack of [Thunderous Onslaught] inflicted on the target.\\nWhen using [Starstorm Descent], restores [Xuanjiao]'s Damage Absorption by 1.8%."
+      "When [Starlight Descent] or [Starstorm Descent] deals damage, the damage is increased by 90.0% for each stack of [Thunderous Onslaught] inflicted on the target.\\nWhen using [Starstorm Descent], restores [Xuanjiao]'s Damage Absorption by 1.8%."
     ]
   },
   "4202": {
@@ -5034,6 +6428,32 @@
         "SkillDesc": "Deploys a [Barrier] in front of Randy and deals Electro Damage to nearby enemies.\\n[Barrier] consumes Sanity over time, during which Randy cannot move or use any weapon and is immune to Hitstun when taking damage. [Barrier] inflicts [Overwork Grudge] on nearby enemies.\\nWhen this skill is used again, the [Barrier] is retracted.",
         "SkillBtnDesc": "DEF",
         "SkillBtnIcon": "Skill_Landi01_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[420211].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "DMG",
+            "Value": "42.0%DEF+/50.0%DEF+/58.0%DEF+/66.0%DEF+/74.0%DEF+/82.0%DEF+/90.0%DEF+/98.0%DEF+/106.0%DEF+/114.0%DEF+/122.0%DEF+/130.0%DEF+/138.0%DEF+/146.0%DEF+/154.0%DEF+/162.0%DEF+/170.0%DEF+/178.0%DEF+/186.0%DEF+/194.0%DEF+17.0/22.0/27.0/32.0/37.0/42.0/47.0/52.0/57.0/62.0/67.0/72.0/77.0/82.0/87.0/92.0/97.0/102.0/107.0/112.0"
+          },
+          {
+            "Key": "Effect Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Overwork Grudge] ATK Decrease",
+            "Value": "15.0%"
+          },
+          {
+            "Key": "[Overwork Grudge] DoT",
+            "Value": "23.0%DEF/29.0%DEF/35.0%DEF/41.0%DEF/47.0%DEF/53.0%DEF/59.0%DEF/65.0%DEF/71.0%DEF/77.0%DEF/83.0%DEF/89.0%DEF/95.0%DEF/101.0%DEF/107.0%DEF/113.0%DEF/119.0%DEF/125.0%DEF/131.0%DEF/137.0%DEF"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Clot x3, Blessing Trinketry x1"
@@ -5089,6 +6509,32 @@
         "SkillDesc": "Throws 1 [Bespoke Shield] forward, causing [Impact] 1 time when it halts. [Bespoke Shield] triggers [Impact] once every 3s when it's on the field.\\n[Impact] deals damage only against target's Shield based on Randy's DEF, and grants an Ultra Shield based on Randy's DEF to teammate(s) within range.\\nFor targets with 0 Shield point, [Impact] paralyses them.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Landi02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "[Impact] DMG",
+            "Value": "119.0%DEF+/144.0%DEF+/169.0%DEF+/194.0%DEF+/219.0%DEF+/244.0%DEF+/269.0%DEF+/294.0%DEF+/319.0%DEF+/344.0%DEF+/369.0%DEF+/394.0%DEF+/419.0%DEF+/444.0%DEF+/469.0%DEF+/494.0%DEF+/519.0%DEF+/544.0%DEF+/569.0%DEF+/594.0%DEF+30.0/37.0/44.0/51.0/58.0/65.0/72.0/79.0/86.0/93.0/100.0/107.0/114.0/121.0/128.0/135.0/142.0/149.0/156.0/163.0"
+          },
+          {
+            "Key": "Ultra Shield from [Impact]",
+            "Value": "0.37%DEF+/0.44%DEF+/0.51%DEF+/0.58%DEF+/0.65%DEF+/0.72%DEF+/0.79%DEF+/0.86%DEF+/0.93%DEF+/1.0%DEF+/1.07%DEF+/1.14%DEF+/1.21%DEF+/1.28%DEF+/1.35%DEF+/1.42%DEF+/1.49%DEF+/1.56%DEF+/1.63%DEF+/1.7%DEF+10"
+          },
+          {
+            "Key": "[Bespoke Shield] Duration",
+            "Value": "12"
+          },
+          {
+            "Key": "Paralysis Duration",
+            "Value": "2"
+          },
+          {
+            "Key": "Effect Radius",
+            "Value": "6.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Clot x3, Blessing Trinketry x1"
@@ -5144,6 +6590,20 @@
         "SkillDesc": "When Randy successfully grants an Ultra Shield to a teammate, applies 1 stack that increases their DEF based on Randy's DEF to them, up to 10 stacks.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Landi03",
+        "SkillParams": [
+          {
+            "Key": "DEF Boost per stack",
+            "Value": "0.37%DEF/0.44%DEF/0.51%DEF/0.58%DEF/0.65%DEF/0.72%DEF/0.79%DEF/0.86%DEF/0.93%DEF/1.0%DEF/1.07%DEF/1.14%DEF/1.21%DEF/1.28%DEF/1.35%DEF/1.42%DEF/1.49%DEF/1.56%DEF/1.63%DEF/1.7%DEF"
+          },
+          {
+            "Key": "DEF Boost Cap per stack",
+            "Value": "20"
+          },
+          {
+            "Key": "Duration",
+            "Value": "10"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Filthoid Clot x3, Blessing Trinketry x1"
@@ -5207,7 +6667,7 @@
       "[Legitimate Slackness] Level +2; [Shared Shield] Level +1.",
       "Target hit by [Impact] immediately takes the damage of [Overwork Grudge] inflicted on the target 1 time.",
       "[Special Gift] Level +2; [Shared Shield] Level +1.",
-      "When dealing non-periodic damage, deals additional Electro Damage equivalent to 1200% of Randy's [Shield Points+Ultra Shield Points] 1 time."
+      "When dealing non-periodic damage, deals additional Electro Damage equivalent to 1200.0% of Randy's [Shield Points+Ultra Shield Points] 1 time."
     ]
   },
   "4301": {
@@ -5286,6 +6746,32 @@
         "SkillDesc": "Deals Electro Damage to enemies within range in front and creates a field of [Legion's Punishment] at the locations.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Xibi01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "[Divine Conqueror] DMG",
+            "Value": "29.0% Max HP+/34.0% Max HP+/39.0% Max HP+/44.0% Max HP+/49.0% Max HP+/54.0% Max HP+/59.0% Max HP+/64.0% Max HP+/69.0% Max HP+/74.0% Max HP+/79.0% Max HP+/84.0% Max HP+/89.0% Max HP+/94.0% Max HP+/99.0% Max HP+/104.0% Max HP+/109.0% Max HP+/114.0% Max HP+/119.0% Max HP+/124.0% Max HP+33.0/41.0/49.0/57.0/65.0/73.0/81.0/89.0/97.0/105.0/113.0/121.0/129.0/137.0/145.0/153.0/161.0/169.0/177.0/185.0"
+          },
+          {
+            "Key": "[Divine Conqueror] DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Legion's Punishment] DMG",
+            "Value": "21.0% Max HP+/25.0% Max HP+/29.0% Max HP+/33.0% Max HP+/37.0% Max HP+/41.0% Max HP+/45.0% Max HP+/49.0% Max HP+/53.0% Max HP+/57.0% Max HP+/61.0% Max HP+/65.0% Max HP+/69.0% Max HP+/73.0% Max HP+/77.0% Max HP+/81.0% Max HP+/85.0% Max HP+/89.0% Max HP+/93.0% Max HP+/97.0% Max HP+26.0/32.0/38.0/44.0/50.0/56.0/62.0/68.0/74.0/80.0/86.0/92.0/98.0/104.0/110.0/116.0/122.0/128.0/134.0/140.0"
+          },
+          {
+            "Key": "[Legion's Punishment] Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Might of Thunder] Cost",
+            "Value": "20"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -5341,6 +6827,44 @@
         "SkillDesc": "Summons [Chaotic Thunderorb]. A maximum of 1 can exist at the same time. \\nConsumes [Might of Thunder] to summon an enhanced [Chaotic Thunderorb]. The interval for the enhanced [Chaotic Thunderorb] to trigger [Devastating Storm] is reduced to 2s, and its Link Damage is increased.",
         "SkillBtnDesc": "Summon",
         "SkillBtnIcon": "Skill_Xibi02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "50"
+          },
+          {
+            "Key": "[Chaotic Thunderorb] Duration",
+            "Value": "30.0s"
+          },
+          {
+            "Key": "[Chaotic Thunderorb] Effect Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "Link DMG",
+            "Value": "2.4% Max HP+/2.8% Max HP+/3.2% Max HP+/3.6% Max HP+/4.0% Max HP+/4.4% Max HP+/4.8% Max HP+/5.2% Max HP+/5.6% Max HP+/6.0% Max HP+/6.4% Max HP+/6.8% Max HP+/7.2% Max HP+/7.6% Max HP+/8.0% Max HP+/8.4% Max HP+/8.8% Max HP+/9.2% Max HP+/9.6% Max HP+/10.0% Max HP+6.0/7.0/8.0/9.0/10.0/11.0/12.0/13.0/14.0/15.0/16.0/17.0/18.0/19.0/20.0/21.0/22.0/23.0/24.0/25.0"
+          },
+          {
+            "Key": "Enhanced Link DMG",
+            "Value": "3.9% Max HP+/4.8% Max HP+/5.7% Max HP+/6.6% Max HP+/7.5% Max HP+/8.4% Max HP+/9.3% Max HP+/10.2% Max HP+/11.1% Max HP+/12.0% Max HP+/12.9% Max HP+/13.8% Max HP+/14.7% Max HP+/15.6% Max HP+/16.5% Max HP+/17.4% Max HP+/18.3% Max HP+/19.2% Max HP+/20.1% Max HP+/21.0% Max HP+8.0/11.0/14.0/17.0/20.0/23.0/26.0/29.0/32.0/35.0/38.0/41.0/44.0/47.0/50.0/53.0/56.0/59.0/62.0/65.0"
+          },
+          {
+            "Key": "DMG Taken Transfer",
+            "Value": "18.0%/22.0%/26.0%/30.0%/34.0%/38.0%/42.0%/46.0%/50.0%/54.0%/58.0%/62.0%/66.0%/70.0%/74.0%/78.0%/82.0%/86.0%/90.0%/94.0%"
+          },
+          {
+            "Key": "[Devastating Storm] DMG",
+            "Value": "19.0% Max HP+/24.0% Max HP+/29.0% Max HP+/34.0% Max HP+/39.0% Max HP+/44.0% Max HP+/49.0% Max HP+/54.0% Max HP+/59.0% Max HP+/64.0% Max HP+/69.0% Max HP+/74.0% Max HP+/79.0% Max HP+/84.0% Max HP+/89.0% Max HP+/94.0% Max HP+/99.0% Max HP+/104.0% Max HP+/109.0% Max HP+/114.0% Max HP+59.0/73.0/87.0/101.0/115.0/129.0/143.0/157.0/171.0/185.0/199.0/213.0/227.0/241.0/255.0/269.0/283.0/297.0/311.0/325.0"
+          },
+          {
+            "Key": "[Devastating Storm] DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Might of Thunder] Cost",
+            "Value": "100"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -5396,6 +6920,12 @@
         "SkillDesc": "When the damage dealt triggers Bonus Effect, Sibylle gains certain points of [Might of Thunder], up to 300 points.\\n[Divine Conqueror] and [Stormcaller] can be empowered by consuming [Might of Thunder] points.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Xibi03",
+        "SkillParams": [
+          {
+            "Key": "[Might of Thunder] Point Gained",
+            "Value": "6.0/7.0/8.0/9.0/10.0/11.0/12.0/13.0/14.0/15.0/16.0/17.0/18.0/19.0/20.0/21.0/22.0/23.0/24.0/25.0"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Filthoid Clot x3, Blessing Trinketry x1"
@@ -5454,10 +6984,10 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "When taking damage from [Divine Conqueror] and [Legion's Punishment], [Chaotic Thunderorb]'s damage taken transfer ratio is increased by 8%.",
-      "Increases [Might of Thunder] point cap to 600.\\nEach point of [Might of Thunder] increases [Legion's Punishment] damage by 0.1%.\\nEach point of [Might of Thunder] increases the damage taken transfer ratio of [Chaotic Thunderorb] by 300%.",
+      "When taking damage from [Divine Conqueror] and [Legion's Punishment], [Chaotic Thunderorb]'s damage taken transfer ratio is increased by 8.0%.",
+      "Increases [Might of Thunder] point cap to 600.\\nEach point of [Might of Thunder] increases [Legion's Punishment] damage by 0.1%.\\nEach point of [Might of Thunder] increases the damage taken transfer ratio of [Chaotic Thunderorb] by 300.0%.",
       "[Divine Conqueror] Level +2; [Might of Thunder] Level +1.",
-      "When [Legion's Punishment] deals damage, there is a 20% chance to trigger its effect once.",
+      "When [Legion's Punishment] deals damage, there is a 20.0% chance to trigger its effect once.",
       "[Stormcaller] Level +2; [Might of Thunder] Level +1.",
       "When an enemy is first linked to [Chaotic Thunderorb], Sibylle deals an additional instance of [Legion's Punishment] damage to the target. This damage is amplified to 350% of the original damage multiplier and is guaranteed to trigger Bonus Effect: Electro."
     ]
@@ -5546,6 +7076,48 @@
         "SkillDesc": "Commands [Filbert] to charge forwards, dealing Anemo Damage to enemies in the path. Upon hitting any obstacles, deals AoE Anemo Damage at the endpoint. When using this skill, heals Truffle and Filbert and her nearby teammates and increases their damage.\\nWhen Truffle rides on [Filbert], this skill is replaced with [Trotters Charge-Charge].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Songlu01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "20"
+          },
+          {
+            "Key": "Path DMG",
+            "Value": "14.0% Max HP+/18.0% Max HP+/22.0% Max HP+/26.0% Max HP+/30.0% Max HP+/34.0% Max HP+/38.0% Max HP+/42.0% Max HP+/46.0% Max HP+/50.0% Max HP+/54.0% Max HP+/58.0% Max HP+/62.0% Max HP+/66.0% Max HP+/70.0% Max HP+/74.0% Max HP+/78.0% Max HP+/82.0% Max HP+/86.0% Max HP+/90.0% Max HP+15.0/19.0/23.0/27.0/31.0/35.0/39.0/43.0/47.0/51.0/55.0/59.0/63.0/67.0/71.0/75.0/79.0/83.0/87.0/91.0"
+          },
+          {
+            "Key": "Endpoint DMG",
+            "Value": "14.0% Max HP+/18.0% Max HP+/22.0% Max HP+/26.0% Max HP+/30.0% Max HP+/34.0% Max HP+/38.0% Max HP+/42.0% Max HP+/46.0% Max HP+/50.0% Max HP+/54.0% Max HP+/58.0% Max HP+/62.0% Max HP+/66.0% Max HP+/70.0% Max HP+/74.0% Max HP+/78.0% Max HP+/82.0% Max HP+/86.0% Max HP+/90.0% Max HP+15.0/19.0/23.0/27.0/31.0/35.0/39.0/43.0/47.0/51.0/55.0/59.0/63.0/67.0/71.0/75.0/79.0/83.0/87.0/91.0"
+          },
+          {
+            "Key": "Endpoint DMG Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "Healing",
+            "Value": "1.6% Max HP+30"
+          },
+          {
+            "Key": "DMG Boost",
+            "Value": "26.0%/33.0%/40.0%/47.0%/54.0%/61.0%/68.0%/75.0%/82.0%/89.0%/96.0%/103.0%/110.0%/117.0%/124.0%/131.0%/138.0%/145.0%/152.0%/159.0%"
+          },
+          {
+            "Key": "DMG Boost Duration",
+            "Value": "6.0s"
+          },
+          {
+            "Key": "[Trotters Charge-Charge]\\nSanity Cost per second",
+            "Value": "6"
+          },
+          {
+            "Key": "[Trotters Charge-Charge]\\nEndpoint DMG",
+            "Value": "119.0% Max HP+/146.0% Max HP+/173.0% Max HP+/200.0% Max HP+/227.0% Max HP+/254.0% Max HP+/281.0% Max HP+/308.0% Max HP+/335.0% Max HP+/362.0% Max HP+/389.0% Max HP+/416.0% Max HP+/443.0% Max HP+/470.0% Max HP+/497.0% Max HP+/524.0% Max HP+/551.0% Max HP+/578.0% Max HP+/605.0% Max HP+/632.0% Max HP+125.0/152.0/179.0/206.0/233.0/260.0/287.0/314.0/341.0/368.0/395.0/422.0/449.0/476.0/503.0/530.0/557.0/584.0/611.0/638.0"
+          },
+          {
+            "Key": "[Trotters Charge-Charge]\\nEndpoint DMG Radius",
+            "Value": "6.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Repulsive Crystal x3, Luno Memento x1"
@@ -5601,6 +7173,28 @@
         "SkillDesc": "Truffle rides on [Filbert] and gains 100 points of [Passion For Work] and a Movement Speed boost, dealing Anemo Damage to enemies in the path when moving.\\nWhen riding on [Filbert], Truffle is unable to use any weapon but can command [Filbert] to attack. When this skill is used again, Truffle dismounts and unleashes [Trotters Trot-Trot] once.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Songlu02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "60"
+          },
+          {
+            "Key": "Path DMG",
+            "Value": "119.0% Max HP+/146.0% Max HP+/173.0% Max HP+/200.0% Max HP+/227.0% Max HP+/254.0% Max HP+/281.0% Max HP+/308.0% Max HP+/335.0% Max HP+/362.0% Max HP+/389.0% Max HP+/416.0% Max HP+/443.0% Max HP+/470.0% Max HP+/497.0% Max HP+/524.0% Max HP+/551.0% Max HP+/578.0% Max HP+/605.0% Max HP+/632.0% Max HP+125.0/152.0/179.0/206.0/233.0/260.0/287.0/314.0/341.0/368.0/395.0/422.0/449.0/476.0/503.0/530.0/557.0/584.0/611.0/638.0"
+          },
+          {
+            "Key": "Filbert 1-Hit DMG",
+            "Value": "126.0% Max HP+/155.0% Max HP+/184.0% Max HP+/213.0% Max HP+/242.0% Max HP+/271.0% Max HP+/300.0% Max HP+/329.0% Max HP+/358.0% Max HP+/387.0% Max HP+/416.0% Max HP+/445.0% Max HP+/474.0% Max HP+/503.0% Max HP+/532.0% Max HP+/561.0% Max HP+/590.0% Max HP+/619.0% Max HP+/648.0% Max HP+/677.0% Max HP+132.0/161.0/190.0/219.0/248.0/277.0/306.0/335.0/364.0/393.0/422.0/451.0/480.0/509.0/538.0/567.0/596.0/625.0/654.0/683.0"
+          },
+          {
+            "Key": "Filbert 2-Hit DMG",
+            "Value": "158.0% Max HP+/193.0% Max HP+/228.0% Max HP+/263.0% Max HP+/298.0% Max HP+/333.0% Max HP+/368.0% Max HP+/403.0% Max HP+/438.0% Max HP+/473.0% Max HP+/508.0% Max HP+/543.0% Max HP+/578.0% Max HP+/613.0% Max HP+/648.0% Max HP+/683.0% Max HP+/718.0% Max HP+/753.0% Max HP+/788.0% Max HP+/823.0% Max HP+156.0/192.0/228.0/264.0/300.0/336.0/372.0/408.0/444.0/480.0/516.0/552.0/588.0/624.0/660.0/696.0/732.0/768.0/804.0/840.0"
+          },
+          {
+            "Key": "Filbert Plunge DMG",
+            "Value": "122.0% Max HP+/150.0% Max HP+/178.0% Max HP+/206.0% Max HP+/234.0% Max HP+/262.0% Max HP+/290.0% Max HP+/318.0% Max HP+/346.0% Max HP+/374.0% Max HP+/402.0% Max HP+/430.0% Max HP+/458.0% Max HP+/486.0% Max HP+/514.0% Max HP+/542.0% Max HP+/570.0% Max HP+/598.0% Max HP+/626.0% Max HP+/654.0% Max HP+128.0/156.0/184.0/212.0/240.0/268.0/296.0/324.0/352.0/380.0/408.0/436.0/464.0/492.0/520.0/548.0/576.0/604.0/632.0/660.0"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Repulsive Crystal x3, Luno Memento x1"
@@ -5656,6 +7250,20 @@
         "SkillDesc": "Gains 1 stack of [Heavyweight] for every second Truffle keeps moving, up to 10 stacks.\\n[Heavyweight]: Increases Damage Dealt and decreases Damage Taken.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Songlu03",
+        "SkillParams": [
+          {
+            "Key": "DMG Boost per stack",
+            "Value": "3.7%/4.4%/5.1%/5.8%/6.5%/7.2%/7.9%/8.6%/9.3%/10.0%/10.7%/11.4%/12.1%/12.8%/13.5%/14.2%/14.9%/15.6%/16.3%/17.0%"
+          },
+          {
+            "Key": "DMG Taken Decrease per stack",
+            "Value": "$math.abs(#Buff[510103].BuffDamagedRate.Value)*100$%"
+          },
+          {
+            "Key": "Duration",
+            "Value": "15.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Repulsive Crystal x3, Luno Memento x1"
@@ -5715,11 +7323,11 @@
     },
     "Intron": [
       "Decreases the losing speed of [Passion For Work] by 50%.",
-      "When using a skill, applies an Attack boost equivalent to 3% of Truffle's Max HP to her teammates for 10s, with a maximum boost of 300.",
+      "When using a skill, applies an Attack boost equivalent to 3.0% of Truffle's Max HP to her teammates for 10s, with a maximum boost of 300.",
       "[Trotters Trot-Trot] Level +2; [Chop-Chop, Commissaries!] Level +1.",
       "Increases the stack cap of [Heavyweight] to 20. When Truffle starts mounting [Filbert], gains 20 stacks of [Heavyweight].",
       "[Tummy Full, Hands Full] Level +2; [Chop-Chop, Commissaries!] Level +1.",
-      "After picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest], Truffle gains 1 stack that increases her Skill Damage by 45% for 15s, up to 3 stacks."
+      "After picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest], Truffle gains 1 stack that increases her Skill Damage by 45.0% for 15s, up to 3 stacks."
     ]
   },
   "5102": {
@@ -5793,6 +7401,16 @@
         "SkillDesc": "Enters [Stealth] state and exits [Relentless Hunt] state. \\nGenerates 2 [Fang Spikes] to attack nearby enemies when exiting [Stealth] state or using [Stealthy Prowl] again in [Stealth] state.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Aote01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "[Stealth] Duration",
+            "Value": "7.0s/8.0s/9.0s/10.0s/11.0s/12.0s/13.0s/14.0s/15.0s/16.0s/17.0s/18.0s/19.0s/20.0s/21.0s/22.0s/23.0s/24.0s/25.0s/26.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Repulsive Crystal x3, Luno Memento x1"
@@ -5848,6 +7466,36 @@
         "SkillDesc": "Retracts all [Fang Spikes] and enters [Relentless Hunt] state.\\nFor each [Fang Spike] retracted, Outsider loses certain HP, which is converted into an equivalent amount of Ultra Shield, and it additionally extends the duration of [Relentless Hunt] state.\\nWhen losing HP due to this effect, the minimum HP will not drop below 1.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Aote02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "60"
+          },
+          {
+            "Key": "[Relentless Hunt] Duration",
+            "Value": "5.0s"
+          },
+          {
+            "Key": "Each [Fang Spike] Extends [Relentless Hunt] Duration by",
+            "Value": "2.0s"
+          },
+          {
+            "Key": "[Relentless Hunt] Max Extended Duration",
+            "Value": "50.0s"
+          },
+          {
+            "Key": "HP Lost for Each [Fang Spike] Retracted",
+            "Value": "10.0% Max HP"
+          },
+          {
+            "Key": "ATK SPD Boost",
+            "Value": "18.0%/21.0%/24.0%/27.0%/30.0%/33.0%/36.0%/39.0%/42.0%/45.0%/48.0%/51.0%/54.0%/57.0%/60.0%/63.0%/66.0%/69.0%/72.0%/75.0%"
+          },
+          {
+            "Key": "Malaise Boost",
+            "Value": "9.0%/10.0%/11.0%/12.0%/13.0%/14.0%/15.0%/16.0%/17.0%/18.0%/19.0%/20.0%/21.0%/22.0%/23.0%/24.0%/25.0%/26.0%/27.0%/28.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Repulsive Crystal x3, Luno Memento x1"
@@ -5903,6 +7551,20 @@
         "SkillDesc": "When taking damage, Outsider generates 1 [Fang Spike] to attack the damage dealer. This effect can only be triggered once per second.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Aote03",
+        "SkillParams": [
+          {
+            "Key": "DMG Taken From [Outsider] Boost",
+            "Value": "18.0%/22.0%/26.0%/30.0%/34.0%/38.0%/42.0%/46.0%/50.0%/54.0%/58.0%/62.0%/66.0%/70.0%/74.0%/78.0%/82.0%/86.0%/90.0%/94.0%"
+          },
+          {
+            "Key": "[Throatcutter] Duration",
+            "Value": "15.0s"
+          },
+          {
+            "Key": "[Fang Spike] DMG",
+            "Value": "675.0%/824.0%/973.0%/1122.0%/1271.0%/1420.0%/1569.0%/1718.0%/1867.0%/2016.0%/2165.0%/2314.0%/2463.0%/2612.0%/2761.0%/2910.0%/3059.0%/3208.0%/3357.0%/3506.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Repulsive Crystal x3, Luno Memento x1"
@@ -5961,12 +7623,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Exiting [Stealth] state increases the weapon CRIT Chance by 60% for 24s.",
-      "When [Fang for Fang] or [Ravenous Gnaw] generates [Fang Spike], there is a 50% chance to generate 1 additional [Fang Spike].",
+      "Exiting [Stealth] state increases the weapon CRIT Chance by 60.0% for 24s.",
+      "When [Fang for Fang] or [Ravenous Gnaw] generates [Fang Spike], there is a 50.0% chance to generate 1 additional [Fang Spike].",
       "[Stealthy Prowl] Level +2, [Fang Spike] Level +1.",
-      "When in [Stealth] state, increases Movement Speed by 35%.",
+      "When in [Stealth] state, increases Movement Speed by 35.0%.",
       "[Predator's Pounce] Level +2, [Fang Spike] Level +1.",
-      "When in [Relentless Hunt] state, Outsider deals additional Anemo Damage by 20%."
+      "When in [Relentless Hunt] state, Outsider deals additional Anemo Damage by 20.0%."
     ]
   },
   "5301": {
@@ -6059,6 +7721,40 @@
         "SkillDesc": "Creates 1 [Phantasm] and then flashes forward. This skill can be used at any time without interrupting Psyche's current action. In [Flamboyance] state, this skill is replaced with [Phototaxis].",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Saiqi01_1",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "[Phantasm] SPD Decrease",
+            "Value": "20.0%"
+          },
+          {
+            "Key": "[Phantasm] DMG",
+            "Value": "68.1%/83.2%/98.3%/113.4%/128.5%/143.6%/158.7%/173.8%/188.9%/204.0%/219.1%/234.2%/249.3%/264.4%/279.5%/294.6%/309.7%/324.8%/339.9%/355.0%"
+          },
+          {
+            "Key": "[Phantasm] Effect Radius",
+            "Value": "6.0m"
+          },
+          {
+            "Key": "[Phototaxis] Sanity Cost",
+            "Value": "30"
+          },
+          {
+            "Key": "[Ethereal Powder] DMG",
+            "Value": "42.4%/51.8%/61.2%/70.6%/80.0%/89.4%/98.8%/108.2%/117.6%/127.0%/136.4%/145.8%/155.2%/164.6%/174.0%/183.4%/192.8%/202.2%/211.6%/221.0%"
+          },
+          {
+            "Key": "[Powder Stigma] DMG",
+            "Value": "12.7%/15.4%/18.1%/20.8%/23.5%/26.2%/28.9%/31.6%/34.3%/37.0%/39.7%/42.4%/45.1%/47.8%/50.5%/53.2%/55.9%/58.6%/61.3%/64.0%"
+          },
+          {
+            "Key": "[Powder Stigma] Duration",
+            "Value": "10.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Repulsive Crystal x3, Luno Memento x1"
@@ -6114,6 +7810,32 @@
         "SkillDesc": "Enters [Flamboyance] state and gains the ability to fly.\\nWhen in [Flamboyance] state, Psyche can only use skills and shoot. [Flamboyance] state continuously consumes Sanity, and when Sanity drops to 0 or this skill is used again, [Flamboyance] state ends.\\n\\nWhen Psyche's HP percentage is above 15%, [Flamboyance] state consumes HP insteand of Sanity. The consumed HP will be converted into Ultra Shield at a certain percentage.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Saiqi02_On",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "10"
+          },
+          {
+            "Key": "Sanity Cost per second",
+            "Value": "$math.abs(#Buff[530100].DotDatas[1].Value)$"
+          },
+          {
+            "Key": "Shooting DMG",
+            "Value": "66.4%/73.8%/81.2%/88.6%/96.0%/103.4%/110.8%/118.2%/125.6%/133.0%/140.4%/147.8%/155.2%/162.6%/170.0%/177.4%/184.8%/192.2%/199.6%/207.0%"
+          },
+          {
+            "Key": "Shooting DMG Radius",
+            "Value": "3.0m"
+          },
+          {
+            "Key": "HP Loss per second",
+            "Value": "5.0% Max HP"
+          },
+          {
+            "Key": "Ultra Shield Conversion Percentage",
+            "Value": "150%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Repulsive Crystal x3, Luno Memento x1"
@@ -6169,6 +7891,28 @@
         "SkillDesc": "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Damage Boost, or Malaise Boost.\\nIncreases Psyche's damage for each buff she gains, up to 12 buffs.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Saiqi03",
+        "SkillParams": [
+          {
+            "Key": "ATK Boost",
+            "Value": "7.9%/9.8%/11.7%/13.6%/15.5%/17.4%/19.3%/21.2%/23.1%/25.0%/26.9%/28.8%/30.7%/32.6%/34.5%/36.4%/38.3%/40.2%/42.1%/44.0%"
+          },
+          {
+            "Key": "Skill DMG Boost",
+            "Value": "7.9%/9.8%/11.7%/13.6%/15.5%/17.4%/19.3%/21.2%/23.1%/25.0%/26.9%/28.8%/30.7%/32.6%/34.5%/36.4%/38.3%/40.2%/42.1%/44.0%"
+          },
+          {
+            "Key": "Malaise Boost",
+            "Value": "3.7%/4.4%/5.1%/5.8%/6.5%/7.2%/7.9%/8.6%/9.3%/10.0%/10.7%/11.4%/12.1%/12.8%/13.5%/14.2%/14.9%/15.6%/16.3%/17.0%"
+          },
+          {
+            "Key": "Duration",
+            "Value": "10.0s"
+          },
+          {
+            "Key": "DMG Boost Per Buff",
+            "Value": "1.2%/1.4%/1.6%/1.8%/2.0%/2.2%/2.4%/2.6%/2.8%/3.0%/3.2%/3.4%/3.6%/3.8%/4.0%/4.2%/4.4%/4.6%/4.8%/5.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Repulsive Crystal x3, Luno Memento x1"
@@ -6227,12 +7971,12 @@
       "GUIPathVariableType": "Scythe"
     },
     "Intron": [
-      "Using [Chrysalis Dreamweave] or [Phototaxis] restores 10% of Psyche's Max HP and increases Psyche's damage by 35% for 12s.",
-      "When [Ethereal Powder] or [Powder Stigma] deals damage, there's a 35% chance to generate 1 [Phantasm] at the target's location.",
+      "Using [Chrysalis Dreamweave] or [Phototaxis] restores 10.0% of Psyche's Max HP and increases Psyche's damage by 35.0% for 12s.",
+      "When [Ethereal Powder] or [Powder Stigma] deals damage, there's a 35.0% chance to generate 1 [Phantasm] at the target's location.",
       "[Chrysalis Dreamweave] Level +2; [Amberlight] Level +1.",
-      "When in [Flamboyance] state, Psyche gains [Eclosion].\\n[Eclosion]: Grants immunity to Hitstun, decreases Damage Taken by 25%, and increases Auto Pick-up Range by 15.",
+      "When in [Flamboyance] state, Psyche gains [Eclosion].\\n[Eclosion]: Grants immunity to Hitstun, decreases Damage Taken by 25.0%, and increases Auto Pick-up Range by 15.",
       "[Fluorescent Eclosion] Level +2; [Amberlight] Level +1.",
-      "During [Flamboyance] state, increases Psyche's PEN stats by 50%."
+      "During [Flamboyance] state, increases Psyche's PEN stats by 50.0%."
     ]
   },
   "5401": {
@@ -6310,6 +8054,24 @@
         "SkillDesc": "Daphne enters the [Emerald Effusion] state, during which an alchemical mist permeates the area around Daphne, continuously healing Daphne and the teammate(s) within range and decreasing the Movement Speed of the enemies in the mist.\\nDuring [Emerald Effusion] state, Daphne gains 2 [Azoth Projectiles] per second.",
         "SkillBtnDesc": "Healing",
         "SkillBtnIcon": "Skill_Dafu01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "50"
+          },
+          {
+            "Key": "HP Recovery per second",
+            "Value": "0.24%ATK+/0.28%ATK+/0.32%ATK+/0.36%ATK+/0.4%ATK+/0.44%ATK+/0.48%ATK+/0.52%ATK+/0.56%ATK+/0.6%ATK+/0.64%ATK+/0.68%ATK+/0.72%ATK+/0.76%ATK+/0.8%ATK+/0.84%ATK+/0.88%ATK+/0.92%ATK+/0.96%ATK+/1.0%ATK+3"
+          },
+          {
+            "Key": "Duration",
+            "Value": "15.0s"
+          },
+          {
+            "Key": "Effect Radius",
+            "Value": "6.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Repulsive Crystal x3, Luno Memento x1"
@@ -6365,6 +8127,44 @@
         "SkillDesc": "Heals and applies [Purification Formula] to Daphne and the nearby teammate(s). Temporarily immobilises and inflicts 1 stack of [Decay Formula] on enemies around, up to 3 stacks.\\nDaphne gains [Azoth Projectiles] equal to the total number of affected teammates and enemies, up to 12 projectiles.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Dafu02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "60"
+          },
+          {
+            "Key": "Healing",
+            "Value": "2.5%ATK+/3.0%ATK+/3.5%ATK+/4.0%ATK+/4.5%ATK+/5.0%ATK+/5.5%ATK+/6.0%ATK+/6.5%ATK+/7.0%ATK+/7.5%ATK+/8.0%ATK+/8.5%ATK+/9.0%ATK+/9.5%ATK+/10.0%ATK+/10.5%ATK+/11.0%ATK+/11.5%ATK+/12.0%ATK+35"
+          },
+          {
+            "Key": "[Purification Formula] Duration",
+            "Value": "12.0s"
+          },
+          {
+            "Key": "Additional DMG",
+            "Value": "27.0%/34.0%/41.0%/48.0%/55.0%/62.0%/69.0%/76.0%/83.0%/90.0%/97.0%/104.0%/111.0%/118.0%/125.0%/132.0%/139.0%/146.0%/153.0%/160.0%"
+          },
+          {
+            "Key": "Effect Radius for Opponents",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "[Decay Formula] Duration",
+            "Value": "12.0s"
+          },
+          {
+            "Key": "DoT",
+            "Value": "43.0%/53.0%/63.0%/73.0%/83.0%/93.0%/103.0%/113.0%/123.0%/133.0%/143.0%/153.0%/163.0%/173.0%/183.0%/193.0%/203.0%/213.0%/223.0%/233.0%"
+          },
+          {
+            "Key": "ATK Reduce",
+            "Value": "15.0%"
+          },
+          {
+            "Key": "Immobilization Duration",
+            "Value": "3.0s"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Repulsive Crystal x3, Luno Memento x1"
@@ -6420,6 +8220,12 @@
         "SkillDesc": "Increases Daphne's Ranged Weapon Trigger Probability when she possesses [Azoth Projectile].\\nDaphne can hold up to 30 [Azoth Projectiles], and each ranged weapon attack consumes 1 [Azoth Projectile].",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Dafu03",
+        "SkillParams": [
+          {
+            "Key": "Trigger Probability Boost",
+            "Value": "37.0%/44.0%/51.0%/58.0%/65.0%/72.0%/79.0%/86.0%/93.0%/100.0%/107.0%/114.0%/121.0%/128.0%/135.0%/142.0%/149.0%/156.0%/163.0%/170.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1120, Repulsive Crystal x3, Luno Memento x1"
@@ -6478,12 +8284,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "Increases Damage dealt by teammates within the range of [Emerald Effusion] by 10%.",
+      "Increases Damage dealt by teammates within the range of [Emerald Effusion] by 10.0%.",
       "During [Emerald Effusion] state, the [Azoth Projectile] Daphne gains per second increases to 3.",
       "[Emerald Effusion] Level +2; [Azoth Projectile] Level +1.",
       "Restores 1 points of Sanity for each [Azoth Projectile] consumed.",
       "[Repulsion Synthesis] Level +2; [Azoth Projectile] Level +1.",
-      "When a teammate applied with [Purification Formula] deals damage to an enemy inflicted with [Decay Formula], Daphne gains 1 stack that increases Damage Dealt by 7% for 12s, up to 3 stacks. This effect can only be triggered once per second."
+      "When a teammate applied with [Purification Formula] deals damage to an enemy inflicted with [Decay Formula], Daphne gains 1 stack that increases Damage Dealt by 7.0% for 12s, up to 3 stacks. This effect can only be triggered once per second."
     ]
   },
   "160101": {
@@ -6543,6 +8349,20 @@
         "SkillDesc": "Unleashes 2 Swordwaves, dealing Lumino DMG to enemies on hit and guaranteed to trigger Lumino bonus effects.",
         "SkillBtnDesc": "DMG",
         "SkillBtnIcon": "Skill_Zhujue01",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "15"
+          },
+          {
+            "Key": "Swordwave DMG",
+            "Value": "476.0%/583.0%/690.0%/797.0%/904.0%/1011.0%/1118.0%/1225.0%/1332.0%/1439.0%/1546.0%/1653.0%/1760.0%/1867.0%/1974.0%/2081.0%/2188.0%/2295.0%/2402.0%/2509.0%"
+          },
+          {
+            "Key": "Swordwave Width",
+            "Value": "10.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -6598,6 +8418,32 @@
         "SkillDesc": "Deals Lumino DMG to nearby enemies and grants self and allies both Ultra Shields and [Incandescence].",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Zhujue02",
+        "SkillParams": [
+          {
+            "Key": "Sanity Cost",
+            "Value": "35"
+          },
+          {
+            "Key": "DMG",
+            "Value": "702.0%/859.0%/1016.0%/1173.0%/1330.0%/1487.0%/1644.0%/1801.0%/1958.0%/2115.0%/2272.0%/2429.0%/2586.0%/2743.0%/2900.0%/3057.0%/3214.0%/3371.0%/3528.0%/3685.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "10.0m"
+          },
+          {
+            "Key": "Ultra Shield",
+            "Value": "5.0%Shield"
+          },
+          {
+            "Key": "Duration",
+            "Value": "12.0s"
+          },
+          {
+            "Key": "Weapon DMG Boost",
+            "Value": "15.0%/19.0%/23.0%/27.0%/31.0%/35.0%/39.0%/43.0%/47.0%/51.0%/55.0%/59.0%/63.0%/67.0%/71.0%/75.0%/79.0%/83.0%/87.0%/91.0%"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -6653,6 +8499,16 @@
         "SkillDesc": "When a Lumino bonus effect is triggered, deals an additional Lumino AoE Damage at the target's location.",
         "SkillBtnDesc": "Passive",
         "SkillBtnIcon": "Skill_Zhujue03",
+        "SkillParams": [
+          {
+            "Key": "DMG",
+            "Value": "201.0%/257.0%/313.0%/369.0%/425.0%/481.0%/537.0%/593.0%/649.0%/705.0%/761.0%/817.0%/873.0%/929.0%/985.0%/1041.0%/1097.0%/1153.0%/1209.0%/1265.0%"
+          },
+          {
+            "Key": "DMG Radius",
+            "Value": "3.0m"
+          }
+        ],
         "Resources": {
           "ForLevel_2": {
             "Items": "Phoxene x1400, Creeping Tendrils x3, Vehicle Armour x1"
@@ -6711,12 +8567,12 @@
       "GUIPathVariableType": "Broadsword"
     },
     "Intron": [
-      "While under [Incandescence], [Dawn Beyond Night]'s Swordwaves deal 70% more damage.",
-      "Using [Flare] generates a [Dark Side of the Moon] field with a 10-metre radius, lasting 10s. Continuously reduces the Movement Speed of enemies within by 50%.",
+      "While under [Incandescence], [Dawn Beyond Night]'s Swordwaves deal 70.0% more damage.",
+      "Using [Flare] generates a [Dark Side of the Moon] field with a 10-metre radius, lasting 10s. Continuously reduces the Movement Speed of enemies within by 50.0%.",
       "[Blazing Blade] Level +2, [Diffusion] Level +1.",
-      "Using a skill grants +9% ATK Speed for 12s, stacking up to 4 times.",
+      "Using a skill grants +9.0% ATK Speed for 12s, stacking up to 4 times.",
       "[Flare] Level +2, [Diffusion] Level +1.",
-      "[Incandescence] additionally grants +54% CRIT Chance."
+      "[Incandescence] additionally grants +54.0% CRIT Chance."
     ]
   }
 }

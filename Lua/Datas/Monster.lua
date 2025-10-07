@@ -63,7 +63,9 @@ return ReadOnly("Monster", {
     SupplyMechId = {90081},
     SupplyMechLevel = {40},
     SupplyMechOffset = {
-      [1] = {1000, 1000}
+      [1] = {
+        1000, 1000
+      }
     },
     TeamMoveGroup = 7002,
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_TestSimpleMon_JT_Pizhuo.BP_TestSimpleMon_JT_Pizhuo",
@@ -292,11 +294,11 @@ return ReadOnly("Monster", {
   [115] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertChannels = {
@@ -384,12 +386,14 @@ return ReadOnly("Monster", {
   },
   [119] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -11312,11 +11316,11 @@ return ReadOnly("Monster", {
     },
     DMMIParams = {
       DMMIColor = {
-  10,
-  9.49,
-  0,
-  1
-},
+        10,
+        9.49,
+        0,
+        1
+      },
       DMMILineWidth = 0.5
     },
     DeadEffectId = 3,
@@ -12437,11 +12441,11 @@ return ReadOnly("Monster", {
   [7002001] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12487,11 +12491,11 @@ return ReadOnly("Monster", {
   [7002004] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 202,
@@ -12537,11 +12541,11 @@ return ReadOnly("Monster", {
   [7002005] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 201,
@@ -12570,11 +12574,11 @@ return ReadOnly("Monster", {
     },
     DMMIParams = {
       DMMIColor = {
-  10,
-  9.49,
-  0,
-  1
-},
+        10,
+        9.49,
+        0,
+        1
+      },
       DMMILineWidth = 0.5
     },
     DeadEffectId = 3,
@@ -12613,11 +12617,11 @@ return ReadOnly("Monster", {
   [7002006] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12660,11 +12664,11 @@ return ReadOnly("Monster", {
   [7002007] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12711,11 +12715,11 @@ return ReadOnly("Monster", {
   [7002011] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12766,11 +12770,11 @@ return ReadOnly("Monster", {
   [7002012] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12821,11 +12825,11 @@ return ReadOnly("Monster", {
   [7002013] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12878,11 +12882,11 @@ return ReadOnly("Monster", {
   [7002014] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12933,11 +12937,11 @@ return ReadOnly("Monster", {
   [7002015] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -12989,11 +12993,11 @@ return ReadOnly("Monster", {
   [7002016] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13044,11 +13048,11 @@ return ReadOnly("Monster", {
   [7002017] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13099,11 +13103,11 @@ return ReadOnly("Monster", {
   [7002018] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13154,11 +13158,11 @@ return ReadOnly("Monster", {
   [7002019] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13209,11 +13213,11 @@ return ReadOnly("Monster", {
   [7002020] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13264,11 +13268,11 @@ return ReadOnly("Monster", {
   [7002021] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13319,11 +13323,11 @@ return ReadOnly("Monster", {
   [7002022] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13375,11 +13379,11 @@ return ReadOnly("Monster", {
   [7002023] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13430,11 +13434,11 @@ return ReadOnly("Monster", {
   [7002024] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13485,11 +13489,11 @@ return ReadOnly("Monster", {
   [7002101] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13530,11 +13534,11 @@ return ReadOnly("Monster", {
   [7002102] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 7002102,
@@ -13575,11 +13579,11 @@ return ReadOnly("Monster", {
   [7002201] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13632,11 +13636,11 @@ return ReadOnly("Monster", {
   [7002301] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13690,11 +13694,11 @@ return ReadOnly("Monster", {
   [7002601] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -13738,12 +13742,14 @@ return ReadOnly("Monster", {
   },
   [7003001] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -13792,12 +13798,14 @@ return ReadOnly("Monster", {
   },
   [7003004] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 202,
@@ -13846,12 +13854,14 @@ return ReadOnly("Monster", {
   },
   [7003005] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 201,
@@ -13880,11 +13890,11 @@ return ReadOnly("Monster", {
     },
     DMMIParams = {
       DMMIColor = {
-  10,
-  9.49,
-  0,
-  1
-},
+        10,
+        9.49,
+        0,
+        1
+      },
       DMMILineWidth = 0.5
     },
     DeadEffectId = 3,
@@ -13923,12 +13933,14 @@ return ReadOnly("Monster", {
   },
   [7003006] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -13974,12 +13986,14 @@ return ReadOnly("Monster", {
   },
   [7003007] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 7008001,
@@ -14028,12 +14042,14 @@ return ReadOnly("Monster", {
   },
   [7003011] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14084,12 +14100,14 @@ return ReadOnly("Monster", {
   },
   [7003012] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14141,12 +14159,14 @@ return ReadOnly("Monster", {
   },
   [7003013] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14199,12 +14219,14 @@ return ReadOnly("Monster", {
   },
   [7003014] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14256,12 +14278,14 @@ return ReadOnly("Monster", {
   },
   [7003015] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14312,12 +14336,14 @@ return ReadOnly("Monster", {
   },
   [7003016] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14368,12 +14394,14 @@ return ReadOnly("Monster", {
   },
   [7003017] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14424,12 +14452,14 @@ return ReadOnly("Monster", {
   },
   [7003018] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14480,12 +14510,14 @@ return ReadOnly("Monster", {
   },
   [7003019] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14536,12 +14568,14 @@ return ReadOnly("Monster", {
   },
   [7003020] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14593,12 +14627,14 @@ return ReadOnly("Monster", {
   },
   [7003021] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14649,12 +14685,14 @@ return ReadOnly("Monster", {
   },
   [7003022] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14705,12 +14743,14 @@ return ReadOnly("Monster", {
   },
   [7003023] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14761,12 +14801,14 @@ return ReadOnly("Monster", {
   },
   [7003024] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14817,12 +14859,14 @@ return ReadOnly("Monster", {
   },
   [7003051] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 7003051,
@@ -14870,12 +14914,14 @@ return ReadOnly("Monster", {
   },
   [7003101] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 7002102,
@@ -14916,12 +14962,14 @@ return ReadOnly("Monster", {
   },
   [7003201] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -14974,12 +15022,14 @@ return ReadOnly("Monster", {
   },
   [7003301] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -15033,12 +15083,14 @@ return ReadOnly("Monster", {
   },
   [7003601] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -15087,11 +15139,11 @@ return ReadOnly("Monster", {
   [7004001] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15138,11 +15190,11 @@ return ReadOnly("Monster", {
   [7004004] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 202,
@@ -15189,11 +15241,11 @@ return ReadOnly("Monster", {
   [7004006] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15237,11 +15289,11 @@ return ReadOnly("Monster", {
   [7004011] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15293,11 +15345,11 @@ return ReadOnly("Monster", {
   [7004012] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15349,11 +15401,11 @@ return ReadOnly("Monster", {
   [7004013] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15407,11 +15459,11 @@ return ReadOnly("Monster", {
   [7004014] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15463,11 +15515,11 @@ return ReadOnly("Monster", {
   [7004015] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15520,11 +15572,11 @@ return ReadOnly("Monster", {
   [7004016] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15576,11 +15628,11 @@ return ReadOnly("Monster", {
   [7004017] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15632,11 +15684,11 @@ return ReadOnly("Monster", {
   [7004018] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15688,11 +15740,11 @@ return ReadOnly("Monster", {
   [7004019] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15744,11 +15796,11 @@ return ReadOnly("Monster", {
   [7004020] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15800,11 +15852,11 @@ return ReadOnly("Monster", {
   [7004021] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15856,11 +15908,11 @@ return ReadOnly("Monster", {
   [7004022] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15913,11 +15965,11 @@ return ReadOnly("Monster", {
   [7004023] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -15969,11 +16021,11 @@ return ReadOnly("Monster", {
   [7004024] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -16025,11 +16077,11 @@ return ReadOnly("Monster", {
   [7004051] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -16074,11 +16126,11 @@ return ReadOnly("Monster", {
   [7004052] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 7003051,
@@ -16124,11 +16176,11 @@ return ReadOnly("Monster", {
   [7004101] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -16170,11 +16222,11 @@ return ReadOnly("Monster", {
   [7004102] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 7002102,
@@ -16216,11 +16268,11 @@ return ReadOnly("Monster", {
   [7004201] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -16274,11 +16326,11 @@ return ReadOnly("Monster", {
   [7004301] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -16333,11 +16385,11 @@ return ReadOnly("Monster", {
   [7004601] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -16391,11 +16443,11 @@ return ReadOnly("Monster", {
     CapsuleScale = 1.25,
     DMMIParams = {
       DMMIColor = {
-  10,
-  9.49,
-  0,
-  1
-},
+        10,
+        9.49,
+        0,
+        1
+      },
       DMMILineWidth = 0.5
     },
     DeadEffectId = 3,
@@ -16504,11 +16556,11 @@ return ReadOnly("Monster", {
     CapsuleScale = 1.25,
     DMMIParams = {
       DMMIColor = {
-  10,
-  9.49,
-  0,
-  1
-},
+        10,
+        9.49,
+        0,
+        1
+      },
       DMMILineWidth = 0.5
     },
     DisableTicklod = true,
@@ -20449,11 +20501,11 @@ return ReadOnly("Monster", {
   [7012001] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20500,11 +20552,11 @@ return ReadOnly("Monster", {
   [7012004] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 202,
@@ -20551,11 +20603,11 @@ return ReadOnly("Monster", {
   [7012005] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20603,11 +20655,11 @@ return ReadOnly("Monster", {
   [7012011] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20658,11 +20710,11 @@ return ReadOnly("Monster", {
   [7012012] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20713,11 +20765,11 @@ return ReadOnly("Monster", {
   [7012013] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20769,11 +20821,11 @@ return ReadOnly("Monster", {
   [7012014] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20824,11 +20876,11 @@ return ReadOnly("Monster", {
   [7012015] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20880,11 +20932,11 @@ return ReadOnly("Monster", {
   [7012016] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20935,11 +20987,11 @@ return ReadOnly("Monster", {
   [7012017] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -20990,11 +21042,11 @@ return ReadOnly("Monster", {
   [7012018] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21045,11 +21097,11 @@ return ReadOnly("Monster", {
   [7012019] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21100,11 +21152,11 @@ return ReadOnly("Monster", {
   [7012020] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21155,11 +21207,11 @@ return ReadOnly("Monster", {
   [7012021] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21210,11 +21262,11 @@ return ReadOnly("Monster", {
   [7012022] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21266,11 +21318,11 @@ return ReadOnly("Monster", {
   [7012023] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21321,11 +21373,11 @@ return ReadOnly("Monster", {
   [7012024] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21376,11 +21428,11 @@ return ReadOnly("Monster", {
   [7012101] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21426,11 +21478,11 @@ return ReadOnly("Monster", {
   [7012102] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 7002102,
@@ -21473,11 +21525,11 @@ return ReadOnly("Monster", {
   [7012201] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21530,11 +21582,11 @@ return ReadOnly("Monster", {
   [7012301] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21588,11 +21640,11 @@ return ReadOnly("Monster", {
   [7012601] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -21637,12 +21689,14 @@ return ReadOnly("Monster", {
   },
   [7013001] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -21692,12 +21746,14 @@ return ReadOnly("Monster", {
   },
   [7013004] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 202,
@@ -21747,12 +21803,14 @@ return ReadOnly("Monster", {
   },
   [7013011] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -21804,12 +21862,14 @@ return ReadOnly("Monster", {
   },
   [7013012] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -21862,12 +21922,14 @@ return ReadOnly("Monster", {
   },
   [7013013] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -21921,12 +21983,14 @@ return ReadOnly("Monster", {
   },
   [7013014] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -21979,12 +22043,14 @@ return ReadOnly("Monster", {
   },
   [7013015] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22036,12 +22102,14 @@ return ReadOnly("Monster", {
   },
   [7013016] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22093,12 +22161,14 @@ return ReadOnly("Monster", {
   },
   [7013017] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22150,12 +22220,14 @@ return ReadOnly("Monster", {
   },
   [7013018] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22207,12 +22279,14 @@ return ReadOnly("Monster", {
   },
   [7013019] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22264,12 +22338,14 @@ return ReadOnly("Monster", {
   },
   [7013020] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22322,12 +22398,14 @@ return ReadOnly("Monster", {
   },
   [7013021] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22379,12 +22457,14 @@ return ReadOnly("Monster", {
   },
   [7013022] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22436,12 +22516,14 @@ return ReadOnly("Monster", {
   },
   [7013023] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22493,12 +22575,14 @@ return ReadOnly("Monster", {
   },
   [7013024] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22550,12 +22634,14 @@ return ReadOnly("Monster", {
   },
   [7013201] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22608,12 +22694,14 @@ return ReadOnly("Monster", {
   },
   [7013301] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22667,12 +22755,14 @@ return ReadOnly("Monster", {
   },
   [7013601] = {
     AccessoryIds = {
-      Normal = {700004},
+      Normal = {
+        700004
+      },
       Random = {
-  700001,
-  700002,
-  700003
-},
+        700001,
+        700002,
+        700003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -22722,11 +22812,11 @@ return ReadOnly("Monster", {
   [7014001] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -22774,11 +22864,11 @@ return ReadOnly("Monster", {
   [7014004] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 202,
@@ -22826,11 +22916,11 @@ return ReadOnly("Monster", {
   [7014011] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -22883,11 +22973,11 @@ return ReadOnly("Monster", {
   [7014012] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -22940,11 +23030,11 @@ return ReadOnly("Monster", {
   [7014013] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -22999,11 +23089,11 @@ return ReadOnly("Monster", {
   [7014014] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23056,11 +23146,11 @@ return ReadOnly("Monster", {
   [7014015] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23114,11 +23204,11 @@ return ReadOnly("Monster", {
   [7014016] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23171,11 +23261,11 @@ return ReadOnly("Monster", {
   [7014017] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23228,11 +23318,11 @@ return ReadOnly("Monster", {
   [7014018] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23285,11 +23375,11 @@ return ReadOnly("Monster", {
   [7014019] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23342,11 +23432,11 @@ return ReadOnly("Monster", {
   [7014020] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23399,11 +23489,11 @@ return ReadOnly("Monster", {
   [7014021] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23456,11 +23546,11 @@ return ReadOnly("Monster", {
   [7014022] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23514,11 +23604,11 @@ return ReadOnly("Monster", {
   [7014023] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23571,11 +23661,11 @@ return ReadOnly("Monster", {
   [7014024] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23628,11 +23718,11 @@ return ReadOnly("Monster", {
   [7014201] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23686,11 +23776,11 @@ return ReadOnly("Monster", {
   [7014301] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -23745,11 +23835,11 @@ return ReadOnly("Monster", {
   [7014601] = {
     AccessoryIds = {
       Random = {
-  700007,
-  700008,
-  700009,
-  700010
-},
+        700007,
+        700008,
+        700009,
+        700010
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -24774,11 +24864,11 @@ return ReadOnly("Monster", {
   [8001001] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -24827,11 +24917,11 @@ return ReadOnly("Monster", {
   [8001004] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 202,
@@ -24880,11 +24970,11 @@ return ReadOnly("Monster", {
   [8001011] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -24943,11 +25033,11 @@ return ReadOnly("Monster", {
   [8001012] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25007,11 +25097,11 @@ return ReadOnly("Monster", {
   [8001013] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25075,11 +25165,11 @@ return ReadOnly("Monster", {
   [8001014] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25139,11 +25229,11 @@ return ReadOnly("Monster", {
   [8001015] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25202,11 +25292,11 @@ return ReadOnly("Monster", {
   [8001016] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25265,11 +25355,11 @@ return ReadOnly("Monster", {
   [8001017] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25328,11 +25418,11 @@ return ReadOnly("Monster", {
   [8001018] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25391,11 +25481,11 @@ return ReadOnly("Monster", {
   [8001019] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25454,11 +25544,11 @@ return ReadOnly("Monster", {
   [8001020] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25518,11 +25608,11 @@ return ReadOnly("Monster", {
   [8001021] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25581,11 +25671,11 @@ return ReadOnly("Monster", {
   [8001022] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25644,11 +25734,11 @@ return ReadOnly("Monster", {
   [8001023] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25707,11 +25797,11 @@ return ReadOnly("Monster", {
   [8001024] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25770,11 +25860,11 @@ return ReadOnly("Monster", {
   [8001201] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25834,11 +25924,11 @@ return ReadOnly("Monster", {
   [8001301] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25900,11 +25990,11 @@ return ReadOnly("Monster", {
   [8001601] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -25952,11 +26042,11 @@ return ReadOnly("Monster", {
   [8002001] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26001,11 +26091,11 @@ return ReadOnly("Monster", {
   [8002004] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 202,
@@ -26050,11 +26140,11 @@ return ReadOnly("Monster", {
   [8002011] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26109,11 +26199,11 @@ return ReadOnly("Monster", {
   [8002012] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26168,11 +26258,11 @@ return ReadOnly("Monster", {
   [8002013] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26232,11 +26322,11 @@ return ReadOnly("Monster", {
   [8002014] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26291,11 +26381,11 @@ return ReadOnly("Monster", {
   [8002015] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26351,11 +26441,11 @@ return ReadOnly("Monster", {
   [8002016] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26410,11 +26500,11 @@ return ReadOnly("Monster", {
   [8002017] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26469,11 +26559,11 @@ return ReadOnly("Monster", {
   [8002018] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26528,11 +26618,11 @@ return ReadOnly("Monster", {
   [8002019] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26587,11 +26677,11 @@ return ReadOnly("Monster", {
   [8002020] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26646,11 +26736,11 @@ return ReadOnly("Monster", {
   [8002021] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26705,11 +26795,11 @@ return ReadOnly("Monster", {
   [8002022] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26765,11 +26855,11 @@ return ReadOnly("Monster", {
   [8002023] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26824,11 +26914,11 @@ return ReadOnly("Monster", {
   [8002024] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26883,11 +26973,11 @@ return ReadOnly("Monster", {
   [8002051] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 7003051,
@@ -26932,11 +27022,11 @@ return ReadOnly("Monster", {
   [8002061] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -26983,11 +27073,11 @@ return ReadOnly("Monster", {
   [8002062] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27034,11 +27124,11 @@ return ReadOnly("Monster", {
   [8002201] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27095,11 +27185,11 @@ return ReadOnly("Monster", {
   [8002301] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27157,11 +27247,11 @@ return ReadOnly("Monster", {
   [8002601] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27205,11 +27295,11 @@ return ReadOnly("Monster", {
   [8003001] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27254,11 +27344,11 @@ return ReadOnly("Monster", {
   [8003004] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 202,
@@ -27303,11 +27393,11 @@ return ReadOnly("Monster", {
   [8003011] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27362,11 +27452,11 @@ return ReadOnly("Monster", {
   [8003012] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27422,11 +27512,11 @@ return ReadOnly("Monster", {
   [8003013] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27486,11 +27576,11 @@ return ReadOnly("Monster", {
   [8003014] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27546,11 +27636,11 @@ return ReadOnly("Monster", {
   [8003015] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27605,11 +27695,11 @@ return ReadOnly("Monster", {
   [8003016] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27664,11 +27754,11 @@ return ReadOnly("Monster", {
   [8003017] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27723,11 +27813,11 @@ return ReadOnly("Monster", {
   [8003018] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27782,11 +27872,11 @@ return ReadOnly("Monster", {
   [8003019] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27841,11 +27931,11 @@ return ReadOnly("Monster", {
   [8003020] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27901,11 +27991,11 @@ return ReadOnly("Monster", {
   [8003021] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -27960,11 +28050,11 @@ return ReadOnly("Monster", {
   [8003022] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -28019,11 +28109,11 @@ return ReadOnly("Monster", {
   [8003023] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -28078,11 +28168,11 @@ return ReadOnly("Monster", {
   [8003024] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -28137,11 +28227,11 @@ return ReadOnly("Monster", {
   [8003201] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -28198,11 +28288,11 @@ return ReadOnly("Monster", {
   [8003301] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -28260,11 +28350,11 @@ return ReadOnly("Monster", {
   [8003601] = {
     AccessoryIds = {
       Random = {
-  800001,
-  800002,
-  800003,
-  800004
-},
+        800001,
+        800002,
+        800003,
+        800004
+      },
       RandomNum = 3
     },
     AlertId = 101,
@@ -28359,10 +28449,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -28397,10 +28487,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 8500002,
@@ -28422,10 +28520,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -28460,10 +28558,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 8500601,
@@ -29501,7 +29607,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -29544,7 +29652,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -29579,10 +29689,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 8502002,
@@ -29605,7 +29723,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -29640,10 +29760,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 8502601,
@@ -29751,10 +29879,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 8503002,
@@ -29812,10 +29948,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 8503601,
@@ -29834,10 +29978,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.3,
-  0.4,
-  0.3
-},
+        0.3,
+        0.4,
+        0.3
+      },
       ShowES = true
     },
     CameraLockOnBones = {
@@ -29879,10 +30023,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.3,
-  0.4,
-  0.3
-},
+        0.3,
+        0.4,
+        0.3
+      },
       ShowES = true
     },
     CameraLockOnBones = {
@@ -29982,7 +30126,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30024,7 +30170,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30058,10 +30206,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 8505002,
@@ -30084,7 +30240,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30118,10 +30276,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 8505601,
@@ -30244,10 +30410,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30320,10 +30486,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30566,7 +30732,9 @@ return ReadOnly("Monster", {
     },
     BossUIValues = {
       IsBossPart = true,
-      PhaseValues = {0.5, 0.5},
+      PhaseValues = {
+        0.5, 0.5
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30604,7 +30772,9 @@ return ReadOnly("Monster", {
     },
     BossUIValues = {
       IsBossPart = true,
-      PhaseValues = {0.75, 0.25},
+      PhaseValues = {
+        0.75, 0.25
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30713,7 +30883,9 @@ return ReadOnly("Monster", {
     },
     BossUIValues = {
       IsBossPart = true,
-      PhaseValues = {0.5, 0.5},
+      PhaseValues = {
+        0.5, 0.5
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -30751,7 +30923,9 @@ return ReadOnly("Monster", {
     },
     BossUIValues = {
       IsBossPart = true,
-      PhaseValues = {0.75, 0.25},
+      PhaseValues = {
+        0.75, 0.25
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -32025,11 +32199,11 @@ return ReadOnly("Monster", {
     Camp = "Monster",
     DMMIParams = {
       DMMIColor = {
-  10,
-  9.49,
-  0,
-  1
-},
+        10,
+        9.49,
+        0,
+        1
+      },
       DMMILineWidth = 0.5
     },
     DisableTicklod = true,
@@ -33461,10 +33635,10 @@ return ReadOnly("Monster", {
   [9001001] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33510,10 +33684,10 @@ return ReadOnly("Monster", {
   [9001004] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 202,
@@ -33559,10 +33733,10 @@ return ReadOnly("Monster", {
   [9001011] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33613,10 +33787,10 @@ return ReadOnly("Monster", {
   [9001012] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33667,10 +33841,10 @@ return ReadOnly("Monster", {
   [9001013] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33722,10 +33896,10 @@ return ReadOnly("Monster", {
   [9001014] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33776,10 +33950,10 @@ return ReadOnly("Monster", {
   [9001015] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33831,10 +34005,10 @@ return ReadOnly("Monster", {
   [9001016] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33885,10 +34059,10 @@ return ReadOnly("Monster", {
   [9001017] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33939,10 +34113,10 @@ return ReadOnly("Monster", {
   [9001018] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -33993,10 +34167,10 @@ return ReadOnly("Monster", {
   [9001019] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34047,10 +34221,10 @@ return ReadOnly("Monster", {
   [9001020] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34101,10 +34275,10 @@ return ReadOnly("Monster", {
   [9001021] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34155,10 +34329,10 @@ return ReadOnly("Monster", {
   [9001022] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34210,10 +34384,10 @@ return ReadOnly("Monster", {
   [9001023] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34264,10 +34438,10 @@ return ReadOnly("Monster", {
   [9001024] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34318,10 +34492,10 @@ return ReadOnly("Monster", {
   [9001201] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34374,10 +34548,10 @@ return ReadOnly("Monster", {
   [9001301] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34431,10 +34605,10 @@ return ReadOnly("Monster", {
   [9001601] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34479,10 +34653,10 @@ return ReadOnly("Monster", {
   [9002001] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34531,10 +34705,10 @@ return ReadOnly("Monster", {
   [9002004] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 202,
@@ -34583,10 +34757,10 @@ return ReadOnly("Monster", {
   [9002011] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34637,10 +34811,10 @@ return ReadOnly("Monster", {
   [9002012] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34692,10 +34866,10 @@ return ReadOnly("Monster", {
   [9002013] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34747,10 +34921,10 @@ return ReadOnly("Monster", {
   [9002014] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34802,10 +34976,10 @@ return ReadOnly("Monster", {
   [9002015] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34856,10 +35030,10 @@ return ReadOnly("Monster", {
   [9002016] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34910,10 +35084,10 @@ return ReadOnly("Monster", {
   [9002017] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -34964,10 +35138,10 @@ return ReadOnly("Monster", {
   [9002018] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35018,10 +35192,10 @@ return ReadOnly("Monster", {
   [9002019] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35072,10 +35246,10 @@ return ReadOnly("Monster", {
   [9002020] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35127,10 +35301,10 @@ return ReadOnly("Monster", {
   [9002021] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35181,10 +35355,10 @@ return ReadOnly("Monster", {
   [9002022] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35235,10 +35409,10 @@ return ReadOnly("Monster", {
   [9002023] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35289,10 +35463,10 @@ return ReadOnly("Monster", {
   [9002024] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35343,10 +35517,10 @@ return ReadOnly("Monster", {
   [9002201] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35399,10 +35573,10 @@ return ReadOnly("Monster", {
   [9002301] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -35456,10 +35630,10 @@ return ReadOnly("Monster", {
   [9002601] = {
     AccessoryIds = {
       Random = {
-  900001,
-  900002,
-  900003
-},
+        900001,
+        900002,
+        900003
+      },
       RandomNum = 2
     },
     AlertId = 101,
@@ -37066,7 +37240,9 @@ return ReadOnly("Monster", {
   },
   [9006001] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37106,7 +37282,9 @@ return ReadOnly("Monster", {
   },
   [9006002] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     AnimCoverPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/ABP_Mon_SQ_Qizha_Sum01.ABP_Mon_SQ_Qizha_Sum01_C",
@@ -37149,7 +37327,9 @@ return ReadOnly("Monster", {
   },
   [9006003] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     AnimCoverPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/ABP_Mon_SQ_Qizha_Sum01.ABP_Mon_SQ_Qizha_Sum01_C",
@@ -37193,7 +37373,9 @@ return ReadOnly("Monster", {
   },
   [9006004] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37237,7 +37419,9 @@ return ReadOnly("Monster", {
   },
   [9006011] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37280,7 +37464,9 @@ return ReadOnly("Monster", {
   },
   [9006012] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37323,7 +37509,9 @@ return ReadOnly("Monster", {
   },
   [9006013] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37368,7 +37556,9 @@ return ReadOnly("Monster", {
   },
   [9006014] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37414,7 +37604,9 @@ return ReadOnly("Monster", {
   },
   [9006015] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37457,7 +37649,9 @@ return ReadOnly("Monster", {
   },
   [9006016] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37500,7 +37694,9 @@ return ReadOnly("Monster", {
   },
   [9006017] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37543,7 +37739,9 @@ return ReadOnly("Monster", {
   },
   [9006018] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37586,7 +37784,9 @@ return ReadOnly("Monster", {
   },
   [9006019] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37629,7 +37829,9 @@ return ReadOnly("Monster", {
   },
   [9006020] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37672,7 +37874,9 @@ return ReadOnly("Monster", {
   },
   [9006021] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37715,7 +37919,9 @@ return ReadOnly("Monster", {
   },
   [9006022] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37758,7 +37964,9 @@ return ReadOnly("Monster", {
   },
   [9006023] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37801,7 +38009,9 @@ return ReadOnly("Monster", {
   },
   [9006024] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37845,7 +38055,9 @@ return ReadOnly("Monster", {
   },
   [9006201] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37890,7 +38102,9 @@ return ReadOnly("Monster", {
   },
   [9006301] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37937,7 +38151,9 @@ return ReadOnly("Monster", {
   },
   [9006601] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37976,7 +38192,9 @@ return ReadOnly("Monster", {
   },
   [9007001] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38012,7 +38230,9 @@ return ReadOnly("Monster", {
   },
   [9007004] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 202,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38048,7 +38268,9 @@ return ReadOnly("Monster", {
   },
   [9007011] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38089,7 +38311,9 @@ return ReadOnly("Monster", {
   },
   [9007012] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38131,7 +38355,9 @@ return ReadOnly("Monster", {
   },
   [9007013] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38173,7 +38399,9 @@ return ReadOnly("Monster", {
   },
   [9007014] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38215,7 +38443,9 @@ return ReadOnly("Monster", {
   },
   [9007015] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38256,7 +38486,9 @@ return ReadOnly("Monster", {
   },
   [9007016] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38297,7 +38529,9 @@ return ReadOnly("Monster", {
   },
   [9007017] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38338,7 +38572,9 @@ return ReadOnly("Monster", {
   },
   [9007018] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38379,7 +38615,9 @@ return ReadOnly("Monster", {
   },
   [9007019] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38420,7 +38658,9 @@ return ReadOnly("Monster", {
   },
   [9007020] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38462,7 +38702,9 @@ return ReadOnly("Monster", {
   },
   [9007021] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38503,7 +38745,9 @@ return ReadOnly("Monster", {
   },
   [9007022] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38544,7 +38788,9 @@ return ReadOnly("Monster", {
   },
   [9007023] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38585,7 +38831,9 @@ return ReadOnly("Monster", {
   },
   [9007024] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38626,7 +38874,9 @@ return ReadOnly("Monster", {
   },
   [9007051] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 104,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/SP/BT_9Niaopao_SP_51.BT_9Niaopao_SP_51",
@@ -38661,7 +38911,9 @@ return ReadOnly("Monster", {
   },
   [9007201] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38704,7 +38956,9 @@ return ReadOnly("Monster", {
   },
   [9007301] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38748,7 +39002,9 @@ return ReadOnly("Monster", {
   },
   [9007601] = {
     AccessoryIds = {
-      Normal = {900003}
+      Normal = {
+        900003
+      }
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -39808,10 +40064,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -39846,10 +40102,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901001,
@@ -39871,10 +40135,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -39909,10 +40173,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901002,
@@ -39934,10 +40206,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -39972,10 +40244,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901003,
@@ -39997,10 +40277,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40035,10 +40315,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901004,
@@ -40060,10 +40348,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40098,10 +40386,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901005,
@@ -40123,10 +40419,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.5,
-  0.35,
-  0.15
-},
+        0.5,
+        0.35,
+        0.15
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40161,10 +40457,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901006,
@@ -40225,10 +40529,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 9901011,
@@ -40286,10 +40598,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 9901012,
@@ -40347,10 +40667,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 9901013,
@@ -40408,10 +40736,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 9901014,
@@ -40469,10 +40805,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 9901015,
@@ -40530,10 +40874,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_02_Shijingzhe/BP_Boss_Shijingzhe_Hard.BP_Boss_Shijingzhe_Hard",
     UnitId = 9901016,
@@ -40553,7 +40905,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40588,10 +40942,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901021,
@@ -40614,7 +40976,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40649,10 +41013,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901022,
@@ -40675,7 +41047,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40710,10 +41084,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901023,
@@ -40736,7 +41118,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40771,10 +41155,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901024,
@@ -40797,7 +41189,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40832,10 +41226,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901025,
@@ -40858,7 +41260,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40893,10 +41297,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901026,
@@ -40919,7 +41331,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -40954,10 +41368,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901031,
@@ -40980,7 +41402,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41015,10 +41439,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901032,
@@ -41041,7 +41473,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41076,10 +41510,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901033,
@@ -41102,7 +41544,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41137,10 +41581,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901034,
@@ -41163,7 +41615,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41198,10 +41652,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901035,
@@ -41224,7 +41686,9 @@ return ReadOnly("Monster", {
       IsBossPart = true,
       PartScaleCoefficientX = 3,
       PartScaleCoefficientY = 0.6,
-      PhaseValues = {0.9, 0.1},
+      PhaseValues = {
+        0.9, 0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41259,10 +41723,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901036,
@@ -41284,10 +41756,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41321,10 +41793,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_09_Tuosi/BP_Boss_Tuosi.BP_Boss_Tuosi",
     UnitId = 9901041,
@@ -41343,10 +41823,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41380,10 +41860,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_09_Tuosi/BP_Boss_Tuosi.BP_Boss_Tuosi",
     UnitId = 9901042,
@@ -41402,10 +41890,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41439,10 +41927,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_09_Tuosi/BP_Boss_Tuosi.BP_Boss_Tuosi",
     UnitId = 9901043,
@@ -41461,10 +41957,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41498,10 +41994,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_09_Tuosi/BP_Boss_Tuosi.BP_Boss_Tuosi",
     UnitId = 9901044,
@@ -41520,10 +42024,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41557,10 +42061,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_09_Tuosi/BP_Boss_Tuosi.BP_Boss_Tuosi",
     UnitId = 9901045,
@@ -41579,10 +42091,10 @@ return ReadOnly("Monster", {
     BossUIValues = {
       IsBossPart = true,
       PhaseValues = {
-  0.45,
-  0.45,
-  0.1
-},
+        0.45,
+        0.45,
+        0.1
+      },
       ShowES = false
     },
     CameraLockOnBones = {
@@ -41616,10 +42128,18 @@ return ReadOnly("Monster", {
       60
     },
     SupplyMechOffset = {
-      [1] = {1000, 1000},
-      [2] = {1050, 1050},
-      [3] = {-1000, -1000},
-      [4] = {-1050, -1050}
+      [1] = {
+        1000, 1000
+      },
+      [2] = {
+        1050, 1050
+      },
+      [3] = {
+        -1000, -1000
+      },
+      [4] = {
+        -1050, -1050
+      }
     },
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_09_Tuosi/BP_Boss_Tuosi.BP_Boss_Tuosi",
     UnitId = 9901046,
@@ -42543,11 +43063,11 @@ return ReadOnly("Monster", {
     CapsuleScale = 1.25,
     DMMIParams = {
       DMMIColor = {
-  10,
-  9.49,
-  0,
-  1
-},
+        10,
+        9.49,
+        0,
+        1
+      },
       DMMILineWidth = 0.5
     },
     DeadEffectId = 3,

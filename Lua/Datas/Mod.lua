@@ -49,10 +49,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -95,10 +95,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -141,10 +141,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -186,10 +186,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -232,10 +232,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -278,20 +278,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -336,20 +336,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -394,20 +394,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -452,20 +452,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -510,20 +510,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -568,20 +568,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -624,7 +624,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -655,7 +657,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -686,7 +690,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -718,9 +724,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -752,7 +758,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 21,
     BreakDown = {
@@ -784,7 +792,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 22,
     BreakDown = {
@@ -816,7 +826,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 23,
     BreakDown = {
@@ -847,7 +859,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -878,7 +892,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -909,7 +925,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -941,9 +959,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -975,7 +993,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 31,
     BreakDown = {
@@ -1007,7 +1027,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 32,
     BreakDown = {
@@ -1039,7 +1061,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 33,
     BreakDown = {
@@ -1070,7 +1094,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -1101,7 +1127,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -1132,7 +1160,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -1164,9 +1194,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -1198,9 +1228,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -1231,7 +1261,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -1262,7 +1294,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -1293,7 +1327,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -1325,9 +1361,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -1359,9 +1395,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -1393,15 +1429,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -1444,15 +1480,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -1496,20 +1532,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -1554,20 +1590,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -1612,20 +1648,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -1670,20 +1706,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -1728,20 +1764,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -1786,20 +1822,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -1842,8 +1878,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"},
-      [2] = {AttrName = "CRI", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "CRI", Rate = "#2"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -1875,11 +1915,13 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"},
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -1912,11 +1954,13 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"},
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 21,
     BreakDown = {
@@ -1949,11 +1993,13 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"},
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 22,
     BreakDown = {
@@ -1986,11 +2032,13 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"},
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 23,
     BreakDown = {
@@ -2022,8 +2070,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"},
-      [2] = {AttrName = "CRI", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "CRI", Rate = "#2"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -2055,11 +2107,13 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"},
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -2092,11 +2146,13 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"},
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 31,
     BreakDown = {
@@ -2129,11 +2185,13 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"},
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 32,
     BreakDown = {
@@ -2166,11 +2224,13 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_20"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"},
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 33,
     BreakDown = {
@@ -2202,7 +2262,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -2233,7 +2295,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -2264,7 +2328,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -2296,9 +2362,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -2330,9 +2396,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = "#1"
-}
+        AttrName = "AttackRange_Normal",
+        Value = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -2364,9 +2430,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -2397,7 +2463,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 41,
     BreakDown = {
@@ -2428,7 +2496,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 42,
     BreakDown = {
@@ -2459,7 +2529,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 43,
     BreakDown = {
@@ -2490,7 +2562,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -2521,7 +2595,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -2552,7 +2628,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -2584,9 +2662,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -2617,7 +2695,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -2649,9 +2729,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -2682,7 +2762,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 51,
     BreakDown = {
@@ -2713,7 +2795,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 52,
     BreakDown = {
@@ -2744,7 +2828,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 53,
     BreakDown = {
@@ -2777,10 +2863,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -2823,10 +2909,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -2869,10 +2955,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -2915,10 +3001,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -2961,15 +3047,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3013,15 +3099,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3065,10 +3151,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3111,10 +3197,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
         AllowModMultiplier = "Normal",
         AttrName = "MaxHp",
@@ -3163,15 +3249,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3215,15 +3301,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3267,15 +3353,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3319,15 +3405,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3371,15 +3457,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3423,15 +3509,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3475,15 +3561,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3526,9 +3612,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3570,9 +3656,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillEfficiency",
-  Rate = "#1"
-}
+        AttrName = "SkillEfficiency",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3613,7 +3699,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = "#1"}
+      [1] = {
+        AttrName = "SkillRange", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3655,9 +3743,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3699,10 +3787,12 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillEfficiency",
-  Rate = "#1"
-},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+        AttrName = "SkillEfficiency",
+        Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3744,10 +3834,12 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillEfficiency",
-  Rate = "#1"
-},
-      [2] = {AttrName = "MaxES", Rate = "#2"}
+        AttrName = "SkillEfficiency",
+        Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxES", Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3788,8 +3880,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = "#1"},
-      [2] = {AttrName = "MaxHp", Rate = "#2"}
+      [1] = {
+        AttrName = "MaxSp", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxHp", Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3830,8 +3926,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = "#1"},
-      [2] = {AttrName = "MaxES", Rate = "#2"}
+      [1] = {
+        AttrName = "MaxSp", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxES", Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3872,11 +3972,13 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = "#1"},
+      [1] = {
+        AttrName = "MaxSp", Rate = "#1"
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -3920,15 +4022,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK_Dark",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK_Dark",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -3972,15 +4074,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK_Water",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK_Water",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -4024,15 +4126,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK_Fire",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK_Fire",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -4076,15 +4178,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -4128,15 +4230,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK_Wind",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK_Wind",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -4180,15 +4282,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK_Light",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK_Light",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -4232,20 +4334,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -4290,20 +4392,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -4348,20 +4450,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -4406,20 +4508,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -4464,20 +4566,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -4522,20 +4624,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -4969,9 +5071,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -5003,9 +5105,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = "#1"
-}
+        AttrName = "AttackRange_Normal",
+        Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -5037,7 +5139,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_30"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 21,
     BreakDown = {
@@ -5069,7 +5173,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_30"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 22,
     BreakDown = {
@@ -5101,7 +5207,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_30"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 23,
     BreakDown = {
@@ -5134,9 +5242,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "ComboHoldTime",
-  Value = "#1"
-}
+        AttrName = "ComboHoldTime",
+        Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -5278,9 +5386,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -5311,7 +5419,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -5343,7 +5453,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_30"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 31,
     BreakDown = {
@@ -5375,7 +5487,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_30"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 32,
     BreakDown = {
@@ -5407,7 +5521,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_30"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 33,
     BreakDown = {
@@ -5474,7 +5590,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_30"
     },
     AddAttrs = {
-      [1] = {AttrName = "BulletMax", Rate = "#1"}
+      [1] = {
+        AttrName = "BulletMax", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -5781,7 +5899,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -5812,7 +5932,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -5843,7 +5965,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -5875,9 +5999,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -5909,9 +6033,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = "#1"
-}
+        AttrName = "AttackRange_Normal",
+        Value = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -5943,9 +6067,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -5976,7 +6100,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 41,
     BreakDown = {
@@ -6007,7 +6133,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 42,
     BreakDown = {
@@ -6038,7 +6166,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 43,
     BreakDown = {
@@ -6069,7 +6199,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -6100,7 +6232,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -6131,7 +6265,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -6163,9 +6299,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -6196,7 +6332,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -6228,9 +6366,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -6261,7 +6399,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 51,
     BreakDown = {
@@ -6292,7 +6432,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 52,
     BreakDown = {
@@ -6323,7 +6465,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 53,
     BreakDown = {
@@ -6356,10 +6500,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "ATK",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "ATK",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -6402,10 +6546,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -6448,10 +6592,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -6494,10 +6638,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxSp",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -6540,10 +6684,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -6585,9 +6729,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-},
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      },
       [2] = {AttrName = "SkillRange", Rate = "#2"}
     },
     ApplicationType = 1,
@@ -6629,7 +6773,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = "#1"},
+      [1] = {
+        AttrName = "SkillRange", Rate = "#1"
+      },
       [2] = {
         AttrName = "SkillIntensity",
         Rate = "#2"
@@ -6724,8 +6870,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#1"},
-      [2] = {AttrName = "MaxES", Rate = "#2"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxES", Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -6963,20 +7113,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK_Dark",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK_Dark",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -7021,20 +7171,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK_Water",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK_Water",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -7079,20 +7229,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK_Fire",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK_Fire",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -7137,20 +7287,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -7195,20 +7345,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK_Wind",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK_Wind",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -7253,20 +7403,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK_Light",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK_Light",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -7311,20 +7461,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK_Dark",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK_Dark",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -7369,20 +7519,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK_Water",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK_Water",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -7427,20 +7577,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK_Fire",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK_Fire",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -7485,20 +7635,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -7543,20 +7693,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK_Wind",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK_Wind",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -7601,20 +7751,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK_Light",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK_Light",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -7659,25 +7809,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -7723,25 +7873,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -7787,25 +7937,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "BonusDamage_Dark",
-  Value = "#4"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "BonusDamage_Dark",
+        Value = "#4"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -7860,20 +8010,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -7927,20 +8077,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -7994,25 +8144,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Water",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -8058,25 +8208,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Water",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -8122,25 +8272,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Water",
-  AttrName = "BonusDamage_Water",
-  Value = "#4"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "BonusDamage_Water",
+        Value = "#4"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -8195,20 +8345,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -8262,20 +8412,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -8329,25 +8479,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -8393,25 +8543,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -8457,25 +8607,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "BonusDamage_Fire",
-  Value = "#4"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "BonusDamage_Fire",
+        Value = "#4"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -8530,20 +8680,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -8597,20 +8747,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -8664,25 +8814,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -8728,25 +8878,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -8792,25 +8942,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "BonusDamage_Thunder",
-  Value = "#4"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "BonusDamage_Thunder",
+        Value = "#4"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -8865,20 +9015,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -8932,20 +9082,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -8999,25 +9149,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -9063,25 +9213,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -9127,25 +9277,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "BonusDamage_Wind",
-  Value = "#4"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "BonusDamage_Wind",
+        Value = "#4"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -9200,20 +9350,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -9267,20 +9417,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -9334,25 +9484,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Light",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -9398,25 +9548,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Light",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -9462,25 +9612,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Light",
-  AttrName = "BonusDamage_Light",
-  Value = "#4"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "BonusDamage_Light",
+        Value = "#4"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -9535,20 +9685,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -9602,20 +9752,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -9669,10 +9819,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -9720,15 +9870,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "StrongValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "StrongValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -9777,15 +9927,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillRange",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillRange",
+        Rate = "#2"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -9834,15 +9984,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -9885,9 +10035,9 @@ return ReadOnly("Mod", {
   [41715] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = 1
-}
+        AttrName = "SkillSustain",
+        Rate = 1
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -9926,9 +10076,9 @@ return ReadOnly("Mod", {
   [41716] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = 1
-}
+        AttrName = "StrongValue",
+        Value = 1
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -9973,15 +10123,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -10030,15 +10180,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillRange",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillRange",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -10087,15 +10237,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -10144,15 +10294,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxSp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -10195,9 +10345,9 @@ return ReadOnly("Mod", {
   [41725] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = 1
-}
+        AttrName = "StrongValue",
+        Value = 1
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -10236,9 +10386,9 @@ return ReadOnly("Mod", {
   [41726] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -10283,15 +10433,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -10340,15 +10490,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -10397,15 +10547,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -10454,15 +10604,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillRange",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillRange",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -10505,9 +10655,9 @@ return ReadOnly("Mod", {
   [41735] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -10545,7 +10695,9 @@ return ReadOnly("Mod", {
   },
   [41736] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = 1}
+      [1] = {
+        AttrName = "SkillRange", Rate = 1
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -10590,15 +10742,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -10647,15 +10799,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "StrongValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "StrongValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -10704,15 +10856,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -10761,15 +10913,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -10811,7 +10963,9 @@ return ReadOnly("Mod", {
   },
   [41745] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = 1}
+      [1] = {
+        AttrName = "SkillRange", Rate = 1
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -10850,9 +11004,9 @@ return ReadOnly("Mod", {
   [41746] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -10897,15 +11051,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -10954,15 +11108,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "EnmityValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "EnmityValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -11011,15 +11165,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -11068,15 +11222,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxSp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -11119,9 +11273,9 @@ return ReadOnly("Mod", {
   [41755] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = 1
-}
+        AttrName = "EnmityValue",
+        Value = 1
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -11160,9 +11314,9 @@ return ReadOnly("Mod", {
   [41756] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = 1
-}
+        AttrName = "SkillSustain",
+        Rate = 1
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -11207,10 +11361,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -11258,15 +11412,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "EnmityValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "EnmityValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -11315,15 +11469,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -11372,15 +11526,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -11423,9 +11577,9 @@ return ReadOnly("Mod", {
   [41765] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = 1
-}
+        AttrName = "StrongValue",
+        Value = 1
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -11464,9 +11618,9 @@ return ReadOnly("Mod", {
   [41766] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = 1
-}
+        AttrName = "SkillSustain",
+        Rate = 1
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -12074,9 +12228,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -12129,9 +12283,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -12184,9 +12338,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -12238,9 +12392,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -12293,9 +12447,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -12348,9 +12502,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -12402,9 +12556,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -12456,9 +12610,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -12510,9 +12664,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -12564,7 +12718,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_40"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -12596,7 +12752,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_40"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -12628,7 +12786,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_40"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -12661,9 +12821,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -12695,13 +12855,13 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "ComboHoldTime",
-  Value = "#1"
-},
+        AttrName = "ComboHoldTime",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -13085,7 +13245,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "GrRate", Value = "#1"}
+      [1] = {
+        AttrName = "GrRate", Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -13121,7 +13283,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "JtRate", Value = "#1"}
+      [1] = {
+        AttrName = "JtRate", Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -13157,7 +13321,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "JhRate", Value = "#1"}
+      [1] = {
+        AttrName = "JhRate", Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -13193,7 +13359,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "SqRate", Value = "#1"}
+      [1] = {
+        AttrName = "SqRate", Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -13230,9 +13398,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerHpRate",
-  Value = "#1"
-}
+        AttrName = "TriggerHpRate",
+        Value = "#1"
+      }
     },
     ApplicationType = 22,
     BreakDown = {
@@ -13264,9 +13432,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerEsRate",
-  Value = "#1"
-}
+        AttrName = "TriggerEsRate",
+        Value = "#1"
+      }
     },
     ApplicationType = 21,
     BreakDown = {
@@ -13298,7 +13466,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_40"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13330,7 +13500,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_40"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13362,7 +13534,9 @@ return ReadOnly("Mod", {
       "Dungeon_ModTab_40"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13395,9 +13569,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13428,11 +13602,13 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"},
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13464,7 +13640,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"},
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      },
       [2] = {
         AttrName = "MagazineCapacity",
         Rate = "#2"
@@ -13679,9 +13857,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "BulletSpeed",
-  Rate = "#1"
-}
+        AttrName = "BulletSpeed",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13713,9 +13891,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "BulletSpeed",
-  Rate = "#1"
-}
+        AttrName = "BulletSpeed",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13746,7 +13924,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "GrRate", Value = "#1"}
+      [1] = {
+        AttrName = "GrRate", Value = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13782,7 +13962,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "JtRate", Value = "#1"}
+      [1] = {
+        AttrName = "JtRate", Value = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13818,7 +14000,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "JhRate", Value = "#1"}
+      [1] = {
+        AttrName = "JhRate", Value = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13854,7 +14038,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "SqRate", Value = "#1"}
+      [1] = {
+        AttrName = "SqRate", Value = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -13891,9 +14077,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerHpRate",
-  Value = "#1"
-}
+        AttrName = "TriggerHpRate",
+        Value = "#1"
+      }
     },
     ApplicationType = 32,
     BreakDown = {
@@ -13925,9 +14111,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerEsRate",
-  Value = "#1"
-}
+        AttrName = "TriggerEsRate",
+        Value = "#1"
+      }
     },
     ApplicationType = 31,
     BreakDown = {
@@ -13958,7 +14144,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"},
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      },
       [2] = {
         AttrName = "AttackSpeed_Normal",
         Rate = "#2"
@@ -13994,9 +14182,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-},
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      },
       [2] = {AttrName = "ATK", Rate = "#2"}
     },
     ApplicationType = 3,
@@ -14028,7 +14216,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "BulletMax", Rate = "#1"},
+      [1] = {
+        AttrName = "BulletMax", Rate = "#1"
+      },
       [2] = {
         AttrName = "AttackSpeed_Reload",
         Rate = "#2"
@@ -14063,7 +14253,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -14099,7 +14291,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -14130,7 +14324,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -14161,7 +14357,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -14193,9 +14391,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -14227,9 +14425,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = "#1"
-}
+        AttrName = "AttackRange_Normal",
+        Value = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -14261,9 +14459,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -14294,7 +14492,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 41,
     BreakDown = {
@@ -14325,7 +14525,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 42,
     BreakDown = {
@@ -14356,7 +14558,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 43,
     BreakDown = {
@@ -14387,7 +14591,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -14418,7 +14624,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -14449,7 +14657,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -14481,9 +14691,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -14514,7 +14724,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -14546,9 +14758,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -14579,7 +14791,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 51,
     BreakDown = {
@@ -14610,7 +14824,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 52,
     BreakDown = {
@@ -14641,7 +14857,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 53,
     BreakDown = {
@@ -14673,10 +14891,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxHp",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -14727,10 +14945,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "MaxES",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "MaxES",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -14781,10 +14999,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Normal",
-  AttrName = "DEF",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Normal",
+        AttrName = "DEF",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -14834,11 +15052,13 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = "#1"},
+      [1] = {
+        AttrName = "MaxSp", Rate = "#1"
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -14948,8 +15168,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#1"},
-      [2] = {AttrName = "MaxES", Rate = "#2"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "MaxES", Rate = "#2"
+      }
     },
     ApplicationType = 1,
     ApplySlot = {
@@ -15231,20 +15455,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK_Dark",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK_Dark",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -15297,20 +15521,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK_Water",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK_Water",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -15363,20 +15587,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK_Fire",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK_Fire",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -15429,20 +15653,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -15495,20 +15719,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK_Wind",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK_Wind",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -15561,20 +15785,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK_Light",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK_Light",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillRange",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillRange",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -15627,20 +15851,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK_Dark",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK_Dark",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -15693,20 +15917,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK_Water",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK_Water",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -15759,20 +15983,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK_Fire",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK_Fire",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -15825,20 +16049,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK_Thunder",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK_Thunder",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -15891,20 +16115,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK_Wind",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK_Wind",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -15957,20 +16181,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK_Light",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK_Light",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillSustain",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillSustain",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -16023,25 +16247,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -16095,25 +16319,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -16167,25 +16391,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "BonusDamage_Dark",
-  Value = "#4"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "BonusDamage_Dark",
+        Value = "#4"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -16248,20 +16472,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -16323,20 +16547,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -16398,25 +16622,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Water",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -16470,25 +16694,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Water",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -16542,25 +16766,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Water",
-  AttrName = "BonusDamage_Water",
-  Value = "#4"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "BonusDamage_Water",
+        Value = "#4"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -16623,20 +16847,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -16698,20 +16922,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Water",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -16773,25 +16997,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -16845,25 +17069,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -16917,25 +17141,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "BonusDamage_Fire",
-  Value = "#4"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "BonusDamage_Fire",
+        Value = "#4"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -16998,20 +17222,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -17073,20 +17297,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -17148,25 +17372,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -17220,25 +17444,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -17292,25 +17516,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "BonusDamage_Thunder",
-  Value = "#4"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "BonusDamage_Thunder",
+        Value = "#4"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -17373,20 +17597,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -17448,20 +17672,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -17523,25 +17747,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -17595,25 +17819,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -17667,25 +17891,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "BonusDamage_Wind",
-  Value = "#4"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "BonusDamage_Wind",
+        Value = "#4"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -17748,20 +17972,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -17823,20 +18047,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -17898,25 +18122,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Light",
-  AttrName = "StrongValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "StrongValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -17970,25 +18194,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Light",
-  AttrName = "EnmityValue",
-  Value = "#4"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "EnmityValue",
+        Value = "#4"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -18042,25 +18266,25 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      },
       [4] = {
-  AllowModMultiplier = "Light",
-  AttrName = "BonusDamage_Light",
-  Value = "#4"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "BonusDamage_Light",
+        Value = "#4"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -18123,20 +18347,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -18198,20 +18422,20 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#2"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      },
       [3] = {
-  AllowModMultiplier = "Light",
-  AttrName = "DEF",
-  Rate = "#3"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "DEF",
+        Rate = "#3"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -18273,10 +18497,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -18332,15 +18556,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "StrongValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "StrongValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -18397,15 +18621,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillRange",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillRange",
+        Rate = "#2"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -18462,15 +18686,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "DEF",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Dark",
+        AttrName = "DEF",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Dark",
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Dark",
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -18522,9 +18746,9 @@ return ReadOnly("Mod", {
   [51715] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = 1
-}
+        AttrName = "SkillSustain",
+        Rate = 1
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -18563,9 +18787,9 @@ return ReadOnly("Mod", {
   [51716] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = 1
-}
+        AttrName = "StrongValue",
+        Value = 1
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -18609,15 +18833,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxHp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -18674,15 +18898,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillRange",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillRange",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -18739,15 +18963,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -18804,15 +19028,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Water",
-  AttrName = "MaxSp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Water",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Water",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Water",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -18864,9 +19088,9 @@ return ReadOnly("Mod", {
   [51725] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = 1
-}
+        AttrName = "StrongValue",
+        Value = 1
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -18905,9 +19129,9 @@ return ReadOnly("Mod", {
   [51726] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -18951,15 +19175,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -19016,15 +19240,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -19081,15 +19305,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillEfficiency",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillEfficiency",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -19146,15 +19370,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Fire",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Fire",
-  AttrName = "SkillRange",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Fire",
+        AttrName = "SkillRange",
+        Rate = "#2"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -19206,9 +19430,9 @@ return ReadOnly("Mod", {
   [51735] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -19246,7 +19470,9 @@ return ReadOnly("Mod", {
   },
   [51736] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = 1}
+      [1] = {
+        AttrName = "SkillRange", Rate = 1
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -19290,15 +19516,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "MaxHp",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "MaxHp",
+        Rate = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -19355,15 +19581,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "StrongValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "StrongValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -19420,15 +19646,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -19485,15 +19711,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "DEF",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Thunder",
+        AttrName = "DEF",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Thunder",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Thunder",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -19544,7 +19770,9 @@ return ReadOnly("Mod", {
   },
   [51745] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = 1}
+      [1] = {
+        AttrName = "SkillRange", Rate = 1
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -19583,9 +19811,9 @@ return ReadOnly("Mod", {
   [51746] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -19629,15 +19857,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "DEF",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "DEF",
+        Rate = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -19694,15 +19922,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "EnmityValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "EnmityValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -19759,15 +19987,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -19824,15 +20052,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "MaxSp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Wind",
+        AttrName = "MaxSp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Wind",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Wind",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -19884,9 +20112,9 @@ return ReadOnly("Mod", {
   [51755] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = 1
-}
+        AttrName = "EnmityValue",
+        Value = 1
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -19925,9 +20153,9 @@ return ReadOnly("Mod", {
   [51756] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = 1
-}
+        AttrName = "SkillSustain",
+        Rate = 1
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -19971,10 +20199,10 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -20030,15 +20258,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "EnmityValue",
-  Value = "#2"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "EnmityValue",
+        Value = "#2"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -20095,15 +20323,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "ATK",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "ATK",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillSustain",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillSustain",
+        Rate = "#2"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -20160,15 +20388,15 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AllowModMultiplier = "Light",
-  AttrName = "MaxHp",
-  Rate = "#1"
-},
+        AllowModMultiplier = "Light",
+        AttrName = "MaxHp",
+        Rate = "#1"
+      },
       [2] = {
-  AllowModMultiplier = "Light",
-  AttrName = "SkillIntensity",
-  Rate = "#2"
-}
+        AllowModMultiplier = "Light",
+        AttrName = "SkillIntensity",
+        Rate = "#2"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -20220,9 +20448,9 @@ return ReadOnly("Mod", {
   [51765] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = 1
-}
+        AttrName = "StrongValue",
+        Value = 1
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -20261,9 +20489,9 @@ return ReadOnly("Mod", {
   [51766] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = 1
-}
+        AttrName = "SkillSustain",
+        Rate = 1
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -20979,9 +21207,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -21043,9 +21271,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -21107,9 +21335,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -21170,9 +21398,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -21234,9 +21462,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -21298,9 +21526,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -21361,9 +21589,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -21424,9 +21652,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -21487,9 +21715,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -21549,7 +21777,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -21590,9 +21820,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -21633,9 +21863,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = "#1"
-}
+        AttrName = "AttackRange_Normal",
+        Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -21675,8 +21905,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"},
-      [2] = {AttrName = "CRI", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "CRI", Rate = "#2"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -21717,11 +21951,13 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"},
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -21762,7 +21998,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 21,
     BreakDown = {
@@ -21802,7 +22040,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 22,
     BreakDown = {
@@ -21842,7 +22082,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 23,
     BreakDown = {
@@ -21882,7 +22124,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -21923,9 +22167,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -21965,7 +22209,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -22005,8 +22251,12 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"},
-      [2] = {AttrName = "CRI", Rate = "#2"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      },
+      [2] = {
+        AttrName = "CRI", Rate = "#2"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -22047,11 +22297,13 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"},
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbability",
-  Rate = "#2"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#2"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -22092,7 +22344,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 31,
     BreakDown = {
@@ -22132,7 +22386,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 32,
     BreakDown = {
@@ -22172,7 +22428,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 33,
     BreakDown = {
@@ -22212,7 +22470,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -22252,7 +22512,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -22292,7 +22554,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -22333,9 +22597,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -22376,9 +22640,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = "#1"
-}
+        AttrName = "AttackRange_Normal",
+        Value = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -22419,9 +22683,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 4,
     BreakDown = {
@@ -22461,7 +22725,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 41,
     BreakDown = {
@@ -22501,7 +22767,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 42,
     BreakDown = {
@@ -22541,7 +22809,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 43,
     BreakDown = {
@@ -22581,7 +22851,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -22621,7 +22893,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -22661,7 +22935,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -22702,9 +22978,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -22744,7 +23020,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -22785,9 +23063,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 5,
     BreakDown = {
@@ -22827,7 +23105,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = "#1"
+      }
     },
     ApplicationType = 51,
     BreakDown = {
@@ -22867,7 +23147,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Spike", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Spike", Rate = "#1"
+      }
     },
     ApplicationType = 52,
     BreakDown = {
@@ -22907,7 +23189,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "ATK_Smash", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK_Smash", Rate = "#1"
+      }
     },
     ApplicationType = 53,
     BreakDown = {
@@ -22943,9 +23227,9 @@ return ReadOnly("Mod", {
   [56111] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -22983,15 +23267,17 @@ return ReadOnly("Mod", {
   },
   [56112] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -23030,9 +23316,9 @@ return ReadOnly("Mod", {
   [56113] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -23070,15 +23356,17 @@ return ReadOnly("Mod", {
   },
   [56114] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 11,
     ApplySlot = {
@@ -23117,9 +23405,9 @@ return ReadOnly("Mod", {
   [56121] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -23157,15 +23445,17 @@ return ReadOnly("Mod", {
   },
   [56122] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -23204,9 +23494,9 @@ return ReadOnly("Mod", {
   [56123] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -23244,15 +23534,17 @@ return ReadOnly("Mod", {
   },
   [56124] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 12,
     ApplySlot = {
@@ -23291,9 +23583,9 @@ return ReadOnly("Mod", {
   [56131] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -23331,15 +23623,17 @@ return ReadOnly("Mod", {
   },
   [56132] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -23378,9 +23672,9 @@ return ReadOnly("Mod", {
   [56133] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -23418,15 +23712,17 @@ return ReadOnly("Mod", {
   },
   [56134] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 13,
     ApplySlot = {
@@ -23465,9 +23761,9 @@ return ReadOnly("Mod", {
   [56141] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -23505,15 +23801,17 @@ return ReadOnly("Mod", {
   },
   [56142] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -23552,9 +23850,9 @@ return ReadOnly("Mod", {
   [56143] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -23592,15 +23890,17 @@ return ReadOnly("Mod", {
   },
   [56144] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 14,
     ApplySlot = {
@@ -23639,9 +23939,9 @@ return ReadOnly("Mod", {
   [56151] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -23679,15 +23979,17 @@ return ReadOnly("Mod", {
   },
   [56152] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -23726,9 +24028,9 @@ return ReadOnly("Mod", {
   [56153] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -23766,15 +24068,17 @@ return ReadOnly("Mod", {
   },
   [56154] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 15,
     ApplySlot = {
@@ -23813,9 +24117,9 @@ return ReadOnly("Mod", {
   [56161] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -23853,15 +24157,17 @@ return ReadOnly("Mod", {
   },
   [56162] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -23900,9 +24206,9 @@ return ReadOnly("Mod", {
   [56163] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -23940,15 +24246,17 @@ return ReadOnly("Mod", {
   },
   [56164] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = 1},
+      [1] = {
+        AttrName = "MaxSp", Rate = 1
+      },
       [2] = {
-  AttrName = "SkillEfficiency",
-  Rate = 1
-},
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
       [3] = {
-  AttrName = "DamagedRate",
-  Value = -0.3
-}
+        AttrName = "DamagedRate",
+        Value = -0.3
+      }
     },
     ApplicationType = 16,
     ApplySlot = {
@@ -23992,9 +24300,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = 0.2
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = 0.2
+      }
     },
     ApplicationType = 101,
     BreakDown = {
@@ -24025,7 +24333,9 @@ return ReadOnly("Mod", {
   },
   [101002] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = 0.4}
+      [1] = {
+        AttrName = "CRI", Rate = 0.4
+      }
     },
     ApplicationType = 101,
     BreakDown = {
@@ -24097,7 +24407,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = 0.5}
+      [1] = {
+        AttrName = "CRD", Rate = 0.5
+      }
     },
     ApplicationType = 102,
     BreakDown = {
@@ -24133,7 +24445,9 @@ return ReadOnly("Mod", {
       "MonsterStrong"
     },
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = 0.4}
+      [1] = {
+        AttrName = "CRI", Rate = 0.4
+      }
     },
     ApplicationType = 102,
     BreakDown = {
@@ -24168,9 +24482,9 @@ return ReadOnly("Mod", {
   [102003] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = 80
-}
+        AttrName = "AttackRange_Normal",
+        Value = 80
+      }
     },
     ApplicationType = 102,
     BreakDown = {
@@ -24201,7 +24515,9 @@ return ReadOnly("Mod", {
   },
   [102004] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = 0.4}
+      [1] = {
+        AttrName = "CRI", Rate = 0.4
+      }
     },
     ApplicationType = 102,
     BreakDown = {
@@ -24238,9 +24554,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = 0.2
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = 0.2
+      }
     },
     ApplicationType = 103,
     BreakDown = {
@@ -24309,9 +24625,9 @@ return ReadOnly("Mod", {
   [103003] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = 80
-}
+        AttrName = "AttackRange_Normal",
+        Value = 80
+      }
     },
     ApplicationType = 103,
     BreakDown = {
@@ -24351,9 +24667,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = 0.2
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = 0.2
+      }
     },
     ApplicationType = 104,
     BreakDown = {
@@ -24385,9 +24701,9 @@ return ReadOnly("Mod", {
   [104002] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = 0.2
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = 0.2
+      }
     },
     ApplicationType = 104,
     BreakDown = {
@@ -24418,7 +24734,9 @@ return ReadOnly("Mod", {
   },
   [104003] = {
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = 0.5}
+      [1] = {
+        AttrName = "CRD", Rate = 0.5
+      }
     },
     ApplicationType = 104,
     BreakDown = {
@@ -24458,9 +24776,9 @@ return ReadOnly("Mod", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = 80
-}
+        AttrName = "AttackRange_Normal",
+        Value = 80
+      }
     },
     ApplicationType = 106,
     BreakDown = {
@@ -24563,7 +24881,9 @@ return ReadOnly("Mod", {
   },
   [10101101] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -24587,9 +24907,9 @@ return ReadOnly("Mod", {
   [10101102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -24710,7 +25030,9 @@ return ReadOnly("Mod", {
   },
   [10101201] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -24733,7 +25055,9 @@ return ReadOnly("Mod", {
   },
   [10101202] = {
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -24831,9 +25155,9 @@ return ReadOnly("Mod", {
   [10101301] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-},
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      },
       [2] = {
         AttrName = "AttackRange_Normal",
         Value = "#2"
@@ -24935,7 +25259,9 @@ return ReadOnly("Mod", {
   },
   [10102101] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -24959,9 +25285,9 @@ return ReadOnly("Mod", {
   [10102102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -25082,7 +25408,9 @@ return ReadOnly("Mod", {
   },
   [10102201] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -25105,7 +25433,9 @@ return ReadOnly("Mod", {
   },
   [10102202] = {
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -25201,7 +25531,9 @@ return ReadOnly("Mod", {
   },
   [10102301] = {
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -25225,9 +25557,9 @@ return ReadOnly("Mod", {
   [10102302] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = "#1"
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -25301,7 +25633,9 @@ return ReadOnly("Mod", {
   },
   [10103101] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = "#1"}
+      [1] = {
+        AttrName = "SkillRange", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -25325,9 +25659,9 @@ return ReadOnly("Mod", {
   [10103102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -25351,9 +25685,9 @@ return ReadOnly("Mod", {
   [10103103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillEfficiency",
-  Rate = "#1"
-}
+        AttrName = "SkillEfficiency",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -25450,7 +25784,9 @@ return ReadOnly("Mod", {
   },
   [10103201] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxSp", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -25574,9 +25910,9 @@ return ReadOnly("Mod", {
   [10103301] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -26109,7 +26445,9 @@ return ReadOnly("Mod", {
   },
   [10105104] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxSp", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxSp", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -26209,9 +26547,9 @@ return ReadOnly("Mod", {
   [10105202] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = "#1"
-}
+        AttrName = "AttackRange_Normal",
+        Value = "#1"
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -26336,7 +26674,9 @@ return ReadOnly("Mod", {
   },
   [10105302] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -26413,7 +26753,9 @@ return ReadOnly("Mod", {
   },
   [10106101] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = "#1"}
+      [1] = {
+        AttrName = "SkillRange", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -26609,9 +26951,9 @@ return ReadOnly("Mod", {
   [10106203] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillEfficiency",
-  Rate = "#1"
-}
+        AttrName = "SkillEfficiency",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -26660,9 +27002,9 @@ return ReadOnly("Mod", {
   [10106205] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AdditionalRecoverTime",
-  Value = 1
-}
+        AttrName = "AdditionalRecoverTime",
+        Value = 1
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -26789,9 +27131,9 @@ return ReadOnly("Mod", {
   [10107101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -26864,7 +27206,9 @@ return ReadOnly("Mod", {
   },
   [10107104] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -27327,9 +27671,9 @@ return ReadOnly("Mod", {
   [20107001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AdditionalRecoverTime",
-  Value = 1
-}
+        AttrName = "AdditionalRecoverTime",
+        Value = 1
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -28264,7 +28608,9 @@ return ReadOnly("Mod", {
   },
   [30101051] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     ApplicationType = 1,
     BreakDown = {
@@ -28506,7 +28852,9 @@ return ReadOnly("Mod", {
   },
   [30103011] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.06}
+      [1] = {
+        AttrName = "ATK", Rate = 0.06
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28529,7 +28877,9 @@ return ReadOnly("Mod", {
   },
   [30103021] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = 0.048}
+      [1] = {
+        AttrName = "CRI", Rate = 0.048
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28552,7 +28902,9 @@ return ReadOnly("Mod", {
   },
   [30103031] = {
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = 0.06}
+      [1] = {
+        AttrName = "CRD", Rate = 0.06
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28576,9 +28928,9 @@ return ReadOnly("Mod", {
   [30103041] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = 0.12
-}
+        AttrName = "TriggerProbability",
+        Rate = 0.12
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28601,9 +28953,15 @@ return ReadOnly("Mod", {
   },
   [30103051] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = 0.03},
-      [2] = {AttrName = "ATK_Spike", Rate = 0.03},
-      [3] = {AttrName = "ATK_Smash", Rate = 0.03}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = 0.03
+      },
+      [2] = {
+        AttrName = "ATK_Spike", Rate = 0.03
+      },
+      [3] = {
+        AttrName = "ATK_Smash", Rate = 0.03
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28627,9 +28985,9 @@ return ReadOnly("Mod", {
   [30103062] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRange_Normal",
-  Value = 80
-}
+        AttrName = "AttackRange_Normal",
+        Value = 80
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28653,9 +29011,9 @@ return ReadOnly("Mod", {
   [30103072] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = 0.12
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = 0.12
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28678,7 +29036,9 @@ return ReadOnly("Mod", {
   },
   [30103082] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = 0.096}
+      [1] = {
+        AttrName = "CRI", Rate = 0.096
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28701,7 +29061,9 @@ return ReadOnly("Mod", {
   },
   [30103092] = {
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = 0.12}
+      [1] = {
+        AttrName = "CRD", Rate = 0.12
+      }
     },
     ApplicationType = 2,
     BreakDown = {
@@ -28724,7 +29086,9 @@ return ReadOnly("Mod", {
   },
   [30104011] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.06}
+      [1] = {
+        AttrName = "ATK", Rate = 0.06
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -28747,7 +29111,9 @@ return ReadOnly("Mod", {
   },
   [30104021] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = 0.048}
+      [1] = {
+        AttrName = "CRI", Rate = 0.048
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -28770,7 +29136,9 @@ return ReadOnly("Mod", {
   },
   [30104031] = {
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = 0.06}
+      [1] = {
+        AttrName = "CRD", Rate = 0.06
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -28794,9 +29162,9 @@ return ReadOnly("Mod", {
   [30104041] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = 0.12
-}
+        AttrName = "TriggerProbability",
+        Rate = 0.12
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -28819,9 +29187,15 @@ return ReadOnly("Mod", {
   },
   [30104051] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK_Slash", Rate = 0.03},
-      [2] = {AttrName = "ATK_Spike", Rate = 0.03},
-      [3] = {AttrName = "ATK_Smash", Rate = 0.03}
+      [1] = {
+        AttrName = "ATK_Slash", Rate = 0.03
+      },
+      [2] = {
+        AttrName = "ATK_Spike", Rate = 0.03
+      },
+      [3] = {
+        AttrName = "ATK_Smash", Rate = 0.03
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -28845,9 +29219,9 @@ return ReadOnly("Mod", {
   [30104062] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed_Normal",
-  Rate = 0.12
-}
+        AttrName = "AttackSpeed_Normal",
+        Rate = 0.12
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -28893,7 +29267,9 @@ return ReadOnly("Mod", {
   },
   [30104082] = {
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = 0.096}
+      [1] = {
+        AttrName = "CRI", Rate = 0.096
+      }
     },
     ApplicationType = 3,
     BreakDown = {
@@ -28916,7 +29292,9 @@ return ReadOnly("Mod", {
   },
   [30104092] = {
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = 0.12}
+      [1] = {
+        AttrName = "CRD", Rate = 0.12
+      }
     },
     ApplicationType = 3,
     BreakDown = {

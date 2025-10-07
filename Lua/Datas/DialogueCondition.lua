@@ -1,14 +1,14 @@
 return ReadOnly("DialogueCondition", {
   [51007572] = {
-  ImprComp = {
-    TalkTriggerId = 500080
-  }
-},
+    ImprComp = {
+      TalkTriggerId = 500080
+    }
+  },
   [51007574] = {
-  ImprComp = {
-    TalkTriggerId = 500080
-  }
-},
+    ImprComp = {
+      TalkTriggerId = 500080
+    }
+  },
   [800305081] = {
     IsBoy = {}
   },
@@ -19,43 +19,43 @@ return ReadOnly("DialogueCondition", {
     QuestChainFinish = {QuestChainId = 110109}
   },
   [902000011] = {
-  QuestChainFinish = {
-    QuestChainId = 100306
-  }
-},
+    QuestChainFinish = {
+      QuestChainId = 100306
+    }
+  },
   [902000012] = {
-  QuestChainFinish = {
-    QuestChainId = 100306
-  }
-},
+    QuestChainFinish = {
+      QuestChainId = 100306
+    }
+  },
   [902100011] = {
-  QuestChainUnFinish = {
-    QuestChainId = 100306
-  }
-},
+    QuestChainUnFinish = {
+      QuestChainId = 100306
+    }
+  },
   [902100012] = {
-  QuestChainUnFinish = {
-    QuestChainId = 100306
-  }
-},
+    QuestChainUnFinish = {
+      QuestChainId = 100306
+    }
+  },
   [902100013] = {
-  QuestChainUnFinish = {
-    QuestChainId = 100306
-  }
-},
+    QuestChainUnFinish = {
+      QuestChainId = 100306
+    }
+  },
   [902100015] = {
-  QuestChainFinish = {
-    QuestChainId = 100306
-  }
-},
+    QuestChainFinish = {
+      QuestChainId = 100306
+    }
+  },
   [902100016] = {
-  QuestChainFinish = {
-    QuestChainId = 100306
-  }
-},
+    QuestChainFinish = {
+      QuestChainId = 100306
+    }
+  },
   [902100017] = {
-  QuestChainFinish = {
-    QuestChainId = 100306
+    QuestChainFinish = {
+      QuestChainId = 100306
+    }
   }
-}
 })

@@ -1539,8 +1539,8 @@ return ReadOnly("SystemUI", {
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Menu/PC/WBP_Menu_Battle_P.WBP_Menu_Battle_P'",
     Params = {
       BlockedUIName = {
-  "QuestBeginEnd"
-}
+        "QuestBeginEnd"
+      }
     },
     UIName = "MenuLevel",
     ZOrder = 52
@@ -1552,8 +1552,8 @@ return ReadOnly("SystemUI", {
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Menu/PC/WBP_Menu_World_P.WBP_Menu_World_P'",
     Params = {
       BlockedUIName = {
-  "QuestBeginEnd"
-}
+        "QuestBeginEnd"
+      }
     },
     UIName = "MenuWorld",
     ZOrder = 52

@@ -2466,10 +2466,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 0,
       Emissive = {
-  1,
-  0,
-  0.564
-}
+        1,
+        0,
+        0.564
+      }
     },
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM"
   },
@@ -2485,10 +2485,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 0,
       Emissive = {
-  0,
-  1,
-  1
-}
+        0,
+        1,
+        1
+      }
     },
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM"
   },
@@ -2551,10 +2551,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 1,
       Emissive = {
-  0,
-  1,
-  1
-}
+        0,
+        1,
+        1
+      }
     },
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM"
   },
@@ -2587,10 +2587,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 1,
       Emissive = {
-  0,
-  1,
-  1
-}
+        0,
+        1,
+        1
+      }
     },
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM"
   },
@@ -4102,10 +4102,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 0,
       Emissive = {
-  1,
-  0,
-  0.564
-}
+        1,
+        0,
+        0.564
+      }
     },
     RunStopStartTime = 0.23,
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM",
@@ -4138,10 +4138,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 0,
       Emissive = {
-  0,
-  1,
-  1
-}
+        0,
+        1,
+        1
+      }
     },
     RunStopStartTime = 0.23,
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM",
@@ -4174,10 +4174,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 1,
       Emissive = {
-  0,
-  1,
-  1
-}
+        0,
+        1,
+        1
+      }
     },
     RunStopStartTime = 0.23,
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM",
@@ -4429,10 +4429,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  100,
-  40,
-  0
-}
+        100,
+        40,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -4447,10 +4447,10 @@ return ReadOnly("Model", {
     },
     PenalizeParam = {
       PenalizeOffset = {
-  0,
-  0,
-  110
-},
+        0,
+        0,
+        110
+      },
       PenalizeSocket = "head"
     },
     SkeletonMeshPath = "Asset/Char/Player/Char035_Eve/Mesh/Eve_Summoned_Queen.Eve_Summoned_Queen",
@@ -5395,10 +5395,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  40,
-  0,
-  0
-}
+        40,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5451,10 +5451,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  40,
-  0,
-  0
-}
+        40,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5482,10 +5482,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  80,
-  0,
-  0
-}
+        80,
+        0,
+        0
+      }
     },
     DamageFXSockets = {"hit2"},
     HitMontageRule = "BossSaiqi",
@@ -5556,10 +5556,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  80,
-  0,
-  0
-}
+        80,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5586,10 +5586,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  80,
-  0,
-  0
-}
+        80,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5613,10 +5613,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  100,
-  40,
-  0
-}
+        100,
+        40,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5630,10 +5630,10 @@ return ReadOnly("Model", {
     },
     PenalizeParam = {
       PenalizeOffset = {
-  0,
-  0,
-  110
-},
+        0,
+        0,
+        110
+      },
       PenalizeSocket = "head"
     },
     SkeletonMeshPath = "Asset/Char/Monster/Boss05_Lianhuo/Mesh/Boss05_Lianhuo_SM.Boss05_Lianhuo_SM"
@@ -5653,10 +5653,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  40,
-  0,
-  0
-}
+        40,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5680,10 +5680,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  40,
-  0,
-  0
-}
+        40,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5711,10 +5711,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  70,
-  100,
-  0
-}
+        70,
+        100,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5727,10 +5727,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 0,
       Emissive = {
-  0,
-  1,
-  1
-}
+        0,
+        1,
+        1
+      }
     },
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM"
   },
@@ -5744,10 +5744,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  70,
-  100,
-  0
-}
+        70,
+        100,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5760,10 +5760,10 @@ return ReadOnly("Model", {
     OverrideMaterialParam = {
       CutsOpacity = 1,
       Emissive = {
-  0,
-  1,
-  1
-}
+        0,
+        1,
+        1
+      }
     },
     SkeletonMeshPath = "Asset/Char/Player/Char025_Tuosi/Mesh/Tuosi02B_SM.Tuosi02B_SM"
   },
@@ -5826,10 +5826,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  80,
-  0,
-  0
-}
+        80,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5875,10 +5875,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  40,
-  0,
-  0
-}
+        40,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -5904,10 +5904,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  40,
-  0,
-  0
-}
+        40,
+        0,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -6020,10 +6020,10 @@ return ReadOnly("Model", {
     CondemnBoneName = {
       CondemnSocket = "Root",
       LocationOffset = {
-  100,
-  40,
-  0
-}
+        100,
+        40,
+        0
+      }
     },
     DamageFXSockets = {
       "hit1"
@@ -6035,10 +6035,10 @@ return ReadOnly("Model", {
     MontagePrefix = "Boss_Juque_",
     PenalizeParam = {
       PenalizeOffset = {
-  0,
-  0,
-  110
-},
+        0,
+        0,
+        110
+      },
       PenalizeSocket = "head"
     },
     SkeletonMeshPath = "Asset/Char/Monster/Boss18_Juque/Mesh/Boss_Juque_SM.Boss_Juque_SM"

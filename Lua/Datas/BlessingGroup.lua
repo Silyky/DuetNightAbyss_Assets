@@ -15,14 +15,14 @@ return ReadOnly("BlessingGroup", {
     BigIcon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
     ExplanationId = {
       [1] = {
-  "Term_Rou_10101_MoltenBlaze"
-},
+        "Term_Rou_10101_MoltenBlaze"
+      },
       [2] = {
-  "Term_Rou_10101_MoltenBlaze"
-},
+        "Term_Rou_10101_MoltenBlaze"
+      },
       [3] = {
-  "Term_Rou_10101_MoltenBlaze"
-},
+        "Term_Rou_10101_MoltenBlaze"
+      },
       [4] = {
         "Term_Rou_10101_MoltenBlazeSabre",
         "Term_Rou_10101_MoltenBlaze"
@@ -87,15 +87,15 @@ return ReadOnly("BlessingGroup", {
     BigIcon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
     ExplanationId = {
       [2] = {
-  "Term_Rou_10103_Radiance"
-},
+        "Term_Rou_10103_Radiance"
+      },
       [3] = {
         "Term_Rou_10103_Radiance",
         "Term_Rou_10103_Emission"
       },
       [4] = {
-  "Term_Rou_10103_Radiance"
-}
+        "Term_Rou_10103_Radiance"
+      }
     },
     GroupEffectDesc = "RLBlessingGroup_Desc_3",
     GroupEffectNum = 4,
@@ -158,14 +158,14 @@ return ReadOnly("BlessingGroup", {
     BigIcon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
     ExplanationId = {
       [1] = {
-  "Term_Rou_10105_Nocturne"
-},
+        "Term_Rou_10105_Nocturne"
+      },
       [2] = {
-  "Term_Rou_10105_Nocturne"
-},
+        "Term_Rou_10105_Nocturne"
+      },
       [3] = {
-  "Term_Rou_10105_Nocturne"
-},
+        "Term_Rou_10105_Nocturne"
+      },
       [4] = {
         "Term_Rou_10105_Powder",
         "Term_Rou_10105_WindWings",
@@ -195,19 +195,19 @@ return ReadOnly("BlessingGroup", {
     BigIcon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
     ExplanationId = {
       [1] = {
-  "Term_Rou_10106_Glimmerfly"
-},
+        "Term_Rou_10106_Glimmerfly"
+      },
       [2] = {
-  "Term_Rou_10106_Glimmerfly",
-  "Term_Rou_10106_LargerGlimmerfly"
-},
+        "Term_Rou_10106_Glimmerfly",
+        "Term_Rou_10106_LargerGlimmerfly"
+      },
       [3] = {
-  "Term_Rou_10106_Glimmerfly",
-  "Term_Rou_10106_LargerGlimmerfly"
-},
+        "Term_Rou_10106_Glimmerfly",
+        "Term_Rou_10106_LargerGlimmerfly"
+      },
       [4] = {
-  "Term_Rou_10106_Glimmerfly"
-}
+        "Term_Rou_10106_Glimmerfly"
+      }
     },
     GroupEffectDesc = "RLBlessingGroup_Desc_6",
     GroupEffectNum = 4,

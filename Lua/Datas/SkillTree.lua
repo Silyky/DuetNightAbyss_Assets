@@ -68,7 +68,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 150203},
       [2] = {Skill = 150204},
-      [3] = {Skill = 150003}
+      [3] = {
+        Skill = 150003
+      }
     }
   },
   [1503] = {
@@ -86,25 +88,45 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 150303},
       [2] = {Skill = 150304},
-      [3] = {Skill = 150003}
+      [3] = {
+        Skill = 150003
+      }
     }
   },
   [1601] = {
     CharID = 1601,
     Skill1 = {
-      [1] = {Skill = 160101},
-      [2] = {Attr = 160101},
-      [3] = {Attr = 160102}
+      [1] = {
+        Skill = 160101
+      },
+      [2] = {
+        Attr = 160101
+      },
+      [3] = {
+        Attr = 160102
+      }
     },
     Skill2 = {
-      [1] = {Skill = 160102},
-      [2] = {Attr = 160103},
-      [3] = {Attr = 160104}
+      [1] = {
+        Skill = 160102
+      },
+      [2] = {
+        Attr = 160103
+      },
+      [3] = {
+        Attr = 160104
+      }
     },
     Skill3 = {
-      [1] = {Skill = 160103},
-      [2] = {Skill = 160104},
-      [3] = {Skill = 100005}
+      [1] = {
+        Skill = 160103
+      },
+      [2] = {
+        Skill = 160104
+      },
+      [3] = {
+        Skill = 100005
+      }
     }
   },
   [1801] = {
@@ -140,7 +162,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 210103},
       [2] = {Skill = 210104},
-      [3] = {Skill = 210003}
+      [3] = {
+        Skill = 210003
+      }
     }
   },
   [2102] = {
@@ -154,7 +178,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 210203},
       [2] = {Skill = 210204},
-      [3] = {Skill = 210003}
+      [3] = {
+        Skill = 210003
+      }
     }
   },
   [2301] = {
@@ -208,7 +234,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 310103},
       [2] = {Skill = 310104},
-      [3] = {Skill = 310003}
+      [3] = {
+        Skill = 310003
+      }
     }
   },
   [3102] = {
@@ -226,7 +254,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 310203},
       [2] = {Skill = 310204},
-      [3] = {Skill = 310003}
+      [3] = {
+        Skill = 310003
+      }
     }
   },
   [3103] = {
@@ -244,7 +274,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 310303},
       [2] = {Skill = 310304},
-      [3] = {Skill = 310001}
+      [3] = {
+        Skill = 310001
+      }
     }
   },
   [3201] = {
@@ -262,7 +294,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 320103},
       [2] = {Skill = 320104},
-      [3] = {Skill = 310001}
+      [3] = {
+        Skill = 310001
+      }
     }
   },
   [3202] = {
@@ -280,7 +314,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 320203},
       [2] = {Skill = 320204},
-      [3] = {Skill = 310001}
+      [3] = {
+        Skill = 310001
+      }
     }
   },
   [3301] = {
@@ -334,7 +370,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 410203},
       [2] = {Skill = 410204},
-      [3] = {Skill = 410003}
+      [3] = {
+        Skill = 410003
+      }
     }
   },
   [4201] = {
@@ -388,7 +426,9 @@ return ReadOnly("SkillTree", {
     Skill3 = {
       [1] = {Skill = 430103},
       [2] = {Skill = 430104},
-      [3] = {Skill = 410003}
+      [3] = {
+        Skill = 410003
+      }
     }
   },
   [5101] = {
@@ -466,19 +506,37 @@ return ReadOnly("SkillTree", {
   [160101] = {
     CharID = 160101,
     Skill1 = {
-      [1] = {Skill = 160101},
-      [2] = {Attr = 160101},
-      [3] = {Attr = 160102}
+      [1] = {
+        Skill = 160101
+      },
+      [2] = {
+        Attr = 160101
+      },
+      [3] = {
+        Attr = 160102
+      }
     },
     Skill2 = {
-      [1] = {Skill = 160102},
-      [2] = {Attr = 160103},
-      [3] = {Attr = 160104}
+      [1] = {
+        Skill = 160102
+      },
+      [2] = {
+        Attr = 160103
+      },
+      [3] = {
+        Attr = 160104
+      }
     },
     Skill3 = {
-      [1] = {Skill = 160103},
-      [2] = {Skill = 160104},
-      [3] = {Skill = 100005}
+      [1] = {
+        Skill = 160103
+      },
+      [2] = {
+        Skill = 160104
+      },
+      [3] = {
+        Skill = 100005
+      }
     }
   }
 })

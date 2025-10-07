@@ -29,7 +29,9 @@ return ReadOnly("AbyssBuff", {
     GlobalPassiveLv = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Abyss/T_Abyss_Buff_Mon_Survive02.T_Abyss_Buff_Mon_Survive02",
     MonsterBuff = {
-      BuffList = {2010201}
+      BuffList = {
+        2010201
+      }
     },
     MonsterBuffLayer = {
       80
@@ -80,7 +82,9 @@ return ReadOnly("AbyssBuff", {
     GlobalPassiveLv = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Abyss/T_Abyss_Buff_Mon_Survive02.T_Abyss_Buff_Mon_Survive02",
     MonsterBuff = {
-      BuffList = {2010201}
+      BuffList = {
+        2010201
+      }
     },
     MonsterBuffLayer = {
       80

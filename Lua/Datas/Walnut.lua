@@ -6,12 +6,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Heitao.T_Walnut_Char_Heitao",
     Id = {
@@ -62,12 +74,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Tuosi01.T_Walnut_Char_Tuosi01",
     Id = {
@@ -118,12 +142,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Baonu.T_Walnut_Char_Baonu",
     Id = {
@@ -173,12 +209,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Nifu.T_Walnut_Char_Nifu",
     Id = {
@@ -228,12 +276,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Shuimu.T_Walnut_Char_Shuimu",
     Id = {
@@ -284,12 +344,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Zhangyu.T_Walnut_Char_Zhangyu",
     Id = {
@@ -339,12 +411,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Linen.T_Walnut_Char_Linen",
     Id = {
@@ -395,12 +479,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Yeer.T_Walnut_Char_Yeer",
     Id = {
@@ -451,12 +547,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Haier.T_Walnut_Char_Haier",
     Id = {
@@ -506,12 +614,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Maer.T_Walnut_Char_Maer",
     Id = {
@@ -562,12 +682,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Lise.T_Walnut_Char_Lise",
     Id = {
@@ -617,12 +749,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Landi.T_Walnut_Char_Landi",
     Id = {
@@ -672,12 +816,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Xibi.T_Walnut_Char_Xibi",
     Id = {
@@ -728,12 +884,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Songlu.T_Walnut_Char_Songlu",
     Id = {
@@ -783,12 +951,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Aote.T_Walnut_Char_Aote",
     Id = {
@@ -839,12 +1019,24 @@ return ReadOnly("Walnut", {
       "Text_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Saiqi.T_Walnut_Char_Saiqi",
     Id = {
@@ -894,12 +1086,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {10},
-      [2] = {2},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        10
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Dafu.T_Walnut_Char_Dafu",
     Id = {
@@ -949,12 +1153,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Broadsword_Huipo.T_Walnut_Broadsword_Huipo",
     Id = {
@@ -1004,12 +1220,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Sword_Zhuiyi.T_Walnut_Sword_Zhuiyi",
     Id = {
@@ -1059,12 +1287,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Sword_Huimou.T_Walnut_Sword_Huimou",
     Id = {
@@ -1114,12 +1354,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Polearm_Sairen.T_Walnut_Polearm_Sairen",
     Id = {
@@ -1169,12 +1421,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Polearm_Chixing.T_Walnut_Polearm_Chixing",
     Id = {
@@ -1224,12 +1488,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Claymore_Rimian.T_Walnut_Claymore_Rimian",
     Id = {
@@ -1279,12 +1555,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Claymore_Chixing.T_Walnut_Claymore_Chixing",
     Id = {
@@ -1334,12 +1622,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Dualblade_Shixiang.T_Walnut_Dualblade_Shixiang",
     Id = {
@@ -1389,12 +1689,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Dualblade_Yousha.T_Walnut_Dualblade_Yousha",
     Id = {
@@ -1444,12 +1756,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Swordwhip_Buyu.T_Walnut_Swordwhip_Buyu",
     Id = {
@@ -1499,12 +1823,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Swordwhip_Chixing.T_Walnut_Swordwhip_Chixing",
     Id = {
@@ -1554,12 +1890,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Katana_Feiqie.T_Walnut_Katana_Feiqie",
     Id = {
@@ -1609,12 +1957,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Katana_Chixing.T_Walnut_Katana_Chixing",
     Id = {
@@ -1664,12 +2024,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Pistol_Wuxu.T_Walnut_Pistol_Wuxu",
     Id = {
@@ -1719,12 +2091,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Pistol_Chixing.T_Walnut_Pistol_Chixing",
     Id = {
@@ -1774,12 +2158,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Crossbow_Chixing.T_Walnut_Crossbow_Chixing",
     Id = {
@@ -1829,12 +2225,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Crossbow_Lanse.T_Walnut_Crossbow_Lanse",
     Id = {
@@ -1884,12 +2292,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Cannon_Chixing.T_Walnut_Cannon_Chixing",
     Id = {
@@ -1939,12 +2359,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Canon_Yinbai.T_Walnut_Canon_Yinbai",
     Id = {
@@ -1994,12 +2426,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Shotgun_Chixing.T_Walnut_Shotgun_Chixing",
     Id = {
@@ -2049,12 +2493,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Shotgun_Banzi.T_Walnut_Shotgun_Banzi",
     Id = {
@@ -2104,12 +2560,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Chixing.T_Walnut_Machinegun_Chixing",
     Id = {
@@ -2159,12 +2627,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Qiqing.T_Walnut_Machinegun_Qiqing",
     Id = {
@@ -2214,12 +2694,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Bow_Shashi.T_Walnut_Bow_Shashi",
     Id = {
@@ -2269,12 +2761,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Bow_Chixing.T_Walnut_Bow_Chixing",
     Id = {
@@ -2325,12 +2829,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Broadsword_Guzi.T_Walnut_Broadsword_Guzi",
     Id = {
@@ -2381,12 +2897,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Sword_Liulang.T_Walnut_Sword_Liulang",
     Id = {
@@ -2437,12 +2965,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Polearm_Chunjue.T_Walnut_Polearm_Chunjue",
     Id = {
@@ -2492,12 +3032,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Polearm_Xiji.T_Walnut_Polearm_Xiji",
     Id = {
@@ -2548,12 +3100,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Claymore_Chengjie.T_Walnut_Claymore_Chengjie",
     Id = {
@@ -2604,12 +3168,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Dualblade_Liujin.T_Walnut_Dualblade_Liujin",
     Id = {
@@ -2660,12 +3236,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Swordwhip_Canghu.T_Walnut_Swordwhip_Canghu",
     Id = {
@@ -2716,12 +3304,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Katana_Yuli.T_Walnut_Katana_Yuli",
     Id = {
@@ -2772,12 +3372,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Pistol_Gaoyu.T_Walnut_Pistol_Gaoyu",
     Id = {
@@ -2828,12 +3440,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Crossbow_Gaoyu.T_Walnut_Crossbow_Gaoyu",
     Id = {
@@ -2884,12 +3508,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Cannon_Qunxing.T_Walnut_Cannon_Qunxing",
     Id = {
@@ -2940,12 +3576,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Cannon_Guixu.T_Walnut_Cannon_Guixu",
     Id = {
@@ -2996,12 +3644,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Shotgun_Shengcai.T_Walnut_Shotgun_Shengcai",
     Id = {
@@ -3052,12 +3712,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Shotgun_Baopo.T_Walnut_Shotgun_Baopo",
     Id = {
@@ -3108,12 +3780,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Fangzhu.T_Walnut_Machinegun_Fangzhu",
     Id = {
@@ -3164,12 +3848,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Poxiao.T_Walnut_Machinegun_Poxiao",
     Id = {
@@ -3220,12 +3916,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Yinlang.T_Walnut_Machinegun_Yinlang",
     Id = {
@@ -3275,12 +3983,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Bow_Hugaung.T_Walnut_Bow_Hugaung",
     Id = {
@@ -3331,12 +4051,24 @@ return ReadOnly("Walnut", {
       "Text_HardBoss"
     },
     Count = {
-      [1] = {1},
-      [2] = {1},
-      [3] = {1},
-      [4] = {1},
-      [5] = {1},
-      [6] = {1}
+      [1] = {
+        1
+      },
+      [2] = {
+        1
+      },
+      [3] = {
+        1
+      },
+      [4] = {
+        1
+      },
+      [5] = {
+        1
+      },
+      [6] = {
+        1
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Bow_Yinbu.T_Walnut_Bow_Yinbu",
     Id = {
@@ -3386,12 +4118,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Black",
     Id = {
@@ -3441,12 +4185,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Blue",
     Id = {
@@ -3496,12 +4252,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Red",
     Id = {
@@ -3551,12 +4319,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Purple",
     Id = {
@@ -3606,12 +4386,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01",
     Id = {
@@ -3661,12 +4453,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Orange",
     Id = {
@@ -3716,12 +4520,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Black",
     Id = {
@@ -3771,12 +4587,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Blue",
     Id = {
@@ -3826,12 +4654,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Red",
     Id = {
@@ -3881,12 +4721,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Purple",
     Id = {
@@ -3936,12 +4788,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01",
     Id = {
@@ -3991,12 +4855,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Griffin01_Orange",
     Id = {
@@ -4046,12 +4922,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Black",
     Id = {
@@ -4101,12 +4989,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Black",
     Id = {
@@ -4156,12 +5056,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Black",
     Id = {
@@ -4211,12 +5123,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Black",
     Id = {
@@ -4266,12 +5190,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Black",
     Id = {
@@ -4321,12 +5257,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Blue",
     Id = {
@@ -4376,12 +5324,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Blue",
     Id = {
@@ -4431,12 +5391,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Blue",
     Id = {
@@ -4486,12 +5458,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Blue",
     Id = {
@@ -4541,12 +5525,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Blue",
     Id = {
@@ -4596,12 +5592,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01",
     Id = {
@@ -4651,12 +5659,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01",
     Id = {
@@ -4706,12 +5726,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01",
     Id = {
@@ -4761,12 +5793,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01",
     Id = {
@@ -4816,12 +5860,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01",
     Id = {
@@ -4871,12 +5927,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Purple",
     Id = {
@@ -4926,12 +5994,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Purple",
     Id = {
@@ -4981,12 +6061,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Purple",
     Id = {
@@ -5036,12 +6128,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Purple",
     Id = {
@@ -5091,12 +6195,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Purple",
     Id = {
@@ -5146,12 +6262,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Green",
     Id = {
@@ -5201,12 +6329,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Green",
     Id = {
@@ -5256,12 +6396,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Green",
     Id = {
@@ -5311,12 +6463,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Green",
     Id = {
@@ -5366,12 +6530,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Green",
     Id = {
@@ -5421,12 +6597,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Orange",
     Id = {
@@ -5476,12 +6664,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Orange",
     Id = {
@@ -5531,12 +6731,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Orange",
     Id = {
@@ -5586,12 +6798,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Orange",
     Id = {
@@ -5641,12 +6865,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Typhon01_Orange",
     Id = {
@@ -5696,12 +6932,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Black",
     Id = {
@@ -5751,12 +6999,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Black",
     Id = {
@@ -5806,12 +7066,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Black",
     Id = {
@@ -5861,12 +7133,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Black",
     Id = {
@@ -5916,12 +7200,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01",
     Id = {
@@ -5971,12 +7267,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01",
     Id = {
@@ -6026,12 +7334,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01",
     Id = {
@@ -6081,12 +7401,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01",
     Id = {
@@ -6136,12 +7468,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Red",
     Id = {
@@ -6191,12 +7535,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Red",
     Id = {
@@ -6246,12 +7602,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Red",
     Id = {
@@ -6301,12 +7669,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Red",
     Id = {
@@ -6356,12 +7736,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Purple",
     Id = {
@@ -6411,12 +7803,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Purple",
     Id = {
@@ -6466,12 +7870,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Purple",
     Id = {
@@ -6521,12 +7937,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Purple",
     Id = {
@@ -6576,12 +8004,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Green",
     Id = {
@@ -6631,12 +8071,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Green",
     Id = {
@@ -6686,12 +8138,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Green",
     Id = {
@@ -6741,12 +8205,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Green",
     Id = {
@@ -6796,12 +8272,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Orange",
     Id = {
@@ -6851,12 +8339,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Orange",
     Id = {
@@ -6906,12 +8406,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Orange",
     Id = {
@@ -6961,12 +8473,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Mephisto01_Orange",
     Id = {
@@ -7016,12 +8540,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Anubis01_Purple",
     Id = {
@@ -7071,12 +8607,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Bahamut01",
     Id = {
@@ -7126,12 +8674,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Bahamut01",
     Id = {
@@ -7181,12 +8741,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Ifrit01",
     Id = {
@@ -7236,12 +8808,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Summanus01",
     Id = {
@@ -7291,12 +8875,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Hastur01",
     Id = {
@@ -7346,12 +8942,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Hastur01",
     Id = {
@@ -7401,12 +9009,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Yatagarasu01",
     Id = {
@@ -7456,12 +9076,24 @@ return ReadOnly("Walnut", {
       "Shop_Abyss"
     },
     Count = {
-      [1] = {1},
-      [2] = {100},
-      [3] = {50},
-      [4] = {30},
-      [5] = {20},
-      [6] = {10}
+      [1] = {
+        1
+      },
+      [2] = {
+        100
+      },
+      [3] = {
+        50
+      },
+      [4] = {
+        30
+      },
+      [5] = {
+        20
+      },
+      [6] = {
+        10
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Yatagarasu01",
     Id = {

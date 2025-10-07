@@ -287,16 +287,16 @@ return ReadOnly("GuideBookConditionOne", {
       }
     },
     [200215] = {
-  [1] = {
-  CompleteUIGuideId = 72,
-  FinishQuestChain = 200215,
-  GuideId = 72,
-  GuideNoteId = 84,
-  GuideNoteTab = 5,
-  RewardId = 7000,
-  SysGuideId = 2044
-}
-},
+      [1] = {
+        CompleteUIGuideId = 72,
+        FinishQuestChain = 200215,
+        GuideId = 72,
+        GuideNoteId = 84,
+        GuideNoteTab = 5,
+        RewardId = 7000,
+        SysGuideId = 2044
+      }
+    },
     [200220] = {
       [1] = {
         FinishQuestChain = 200220,
@@ -811,16 +811,16 @@ return ReadOnly("GuideBookConditionOne", {
       }
     },
     [2044] = {
-  [1] = {
-  CompleteUIGuideId = 72,
-  FinishQuestChain = 200215,
-  GuideId = 72,
-  GuideNoteId = 84,
-  GuideNoteTab = 5,
-  RewardId = 7000,
-  SysGuideId = 2044
-}
-},
+      [1] = {
+        CompleteUIGuideId = 72,
+        FinishQuestChain = 200215,
+        GuideId = 72,
+        GuideNoteId = 84,
+        GuideNoteTab = 5,
+        RewardId = 7000,
+        SysGuideId = 2044
+      }
+    },
     [2052] = {
       [1] = {
         GuideId = 71,

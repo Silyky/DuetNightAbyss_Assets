@@ -20,10 +20,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -43,10 +43,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -66,10 +66,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -89,10 +89,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -112,10 +112,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -135,17 +135,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [1502] = {
-  0,
-  35,
-  10
-}
+        0,
+        35,
+        10
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -175,10 +175,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -208,10 +208,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -241,10 +241,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -264,10 +264,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -287,17 +287,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -317,10 +317,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -340,10 +340,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -363,17 +363,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [1502] = {
-  0,
-  35,
-  10
-}
+        0,
+        35,
+        10
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -403,17 +403,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [1502] = {
-  0,
-  35,
-  10
-}
+        0,
+        35,
+        10
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -469,10 +469,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -580,10 +580,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -717,10 +717,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -906,10 +906,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1043,10 +1043,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1180,10 +1180,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1317,10 +1317,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1454,10 +1454,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1565,10 +1565,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1692,10 +1692,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1715,10 +1715,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1738,17 +1738,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [1801] = {
-  0,
-  0,
-  5
-}
+        0,
+        0,
+        5
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1768,10 +1768,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1791,10 +1791,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1814,10 +1814,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1837,17 +1837,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [1801] = {
-  0,
-  0,
-  5
-}
+        0,
+        0,
+        5
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1867,10 +1867,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1890,10 +1890,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1913,10 +1913,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1936,10 +1936,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1959,10 +1959,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1982,10 +1982,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2005,10 +2005,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2028,10 +2028,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2051,10 +2051,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2074,10 +2074,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2145,10 +2145,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2249,10 +2249,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2368,10 +2368,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2439,10 +2439,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -2518,70 +2518,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Boy = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       200,
@@ -2611,70 +2611,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Girl = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       185,
@@ -2704,70 +2704,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Loli = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       160,
@@ -2797,70 +2797,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Man = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       210,
@@ -2890,70 +2890,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Switch_Boy = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       74,
@@ -2983,70 +2983,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Switch_Girl = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       70,
@@ -3068,10 +3068,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -3083,70 +3083,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Switch_Loli = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       70,
@@ -3176,70 +3176,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Switch_Man = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       70,
@@ -3269,70 +3269,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Switch_Woman = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       70,
@@ -3362,70 +3362,70 @@ return ReadOnly("ArmoryCameraData", {
   Char_Head_Woman = {
     AccessoryLocationOffset = {
       [10016] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10017] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10018] = {
-  17,
-  30,
-  15
-},
+        17,
+        30,
+        15
+      },
       [10019] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10037] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10038] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10039] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10040] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10041] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10042] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10043] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10044] = {
-  17,
-  30,
-  8
-},
+        17,
+        30,
+        8
+      },
       [10045] = {
-  17,
-  30,
-  8
-}
+        17,
+        30,
+        8
+      }
     },
     BackwardLocation = {
       180,
@@ -3553,10 +3553,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -3586,10 +3586,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -3689,10 +3689,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  5
-}
+        0,
+        0,
+        5
+      }
     },
     Rotation = {
       0,
@@ -3712,17 +3712,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  5
-}
+        0,
+        0,
+        5
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  30,
-  0
-}
+        0,
+        30,
+        0
+      }
     },
     Rotation = {
       0,
@@ -3742,17 +3742,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  5
-}
+        0,
+        0,
+        5
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  18,
-  0
-}
+        0,
+        18,
+        0
+      }
     },
     Rotation = {
       0,
@@ -3772,10 +3772,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  30,
-  0
-}
+        0,
+        30,
+        0
+      }
     },
     Rotation = {
       0,
@@ -3825,10 +3825,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  18,
-  0
-},
+        0,
+        18,
+        0
+      },
       [3102] = {
         30,
         0,
@@ -3842,10 +3842,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     RotationOffset = {
       [3102] = {
-  0,
-  0,
-  -70
-}
+        0,
+        0,
+        -70
+      }
     },
     Time = 1.2
   },
@@ -3860,10 +3860,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  5
-}
+        0,
+        0,
+        5
+      }
     },
     Rotation = {
       0,
@@ -3931,10 +3931,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  5
-}
+        0,
+        0,
+        5
+      }
     },
     Rotation = {
       0,
@@ -3986,10 +3986,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [3102] = {
-  170,
-  57,
-  -3
-}
+        170,
+        57,
+        -3
+      }
     },
     Rotation = {
       0,
@@ -3998,10 +3998,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     RotationOffset = {
       [3102] = {
-  0,
-  0,
-  -70
-}
+        0,
+        0,
+        -70
+      }
     },
     Time = 1.2
   },
@@ -4016,15 +4016,15 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  5
-},
+        0,
+        0,
+        5
+      },
       [3102] = {
-  170,
-  57,
-  -3
-}
+        170,
+        57,
+        -3
+      }
     },
     Rotation = {
       0,
@@ -4033,10 +4033,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     RotationOffset = {
       [3102] = {
-  0,
-  0,
-  -70
-}
+        0,
+        0,
+        -70
+      }
     },
     Time = 1.2
   },
@@ -4087,10 +4087,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -4198,10 +4198,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -4498,10 +4498,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -4609,10 +4609,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -4746,17 +4746,17 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [1502] = {
-  0,
-  35,
-  10
-}
+        0,
+        35,
+        10
+      }
     },
     MobileLocationOffset = {
       [0] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -4792,10 +4792,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -11,
-  0,
-  0
-}
+        -11,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -4815,10 +4815,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -4838,10 +4838,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -4877,10 +4877,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  5.5,
-  40,
-  0
-}
+        5.5,
+        40,
+        0
+      }
     },
     Rotation = {
       0,
@@ -4910,10 +4910,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -4943,10 +4943,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -4966,10 +4966,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -11,
-  0,
-  0
-}
+        -11,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -4989,10 +4989,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -5012,10 +5012,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -5051,10 +5051,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  5.5,
-  40,
-  0
-}
+        5.5,
+        40,
+        0
+      }
     },
     Rotation = {
       0,
@@ -5084,10 +5084,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -5117,10 +5117,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     MobileLocationOffset = {
       [0] = {
-  -3,
-  0,
-  0
-}
+        -3,
+        0,
+        0
+      }
     },
     Rotation = {
       0,
@@ -5202,10 +5202,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -5339,10 +5339,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -5450,10 +5450,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -5489,10 +5489,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -5576,10 +5576,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -5715,10 +5715,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -5874,10 +5874,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -6011,10 +6011,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -6122,10 +6122,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -6161,10 +6161,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -6248,10 +6248,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -6387,10 +6387,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -8438,10 +8438,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  15
-}
+        0,
+        0,
+        15
+      }
     },
     Rotation = {
       0,
@@ -8575,10 +8575,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  15
-}
+        0,
+        0,
+        15
+      }
     },
     Rotation = {
       0,
@@ -8686,10 +8686,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  15
-}
+        0,
+        0,
+        15
+      }
     },
     Rotation = {
       0,
@@ -8725,10 +8725,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  15
-}
+        0,
+        0,
+        15
+      }
     },
     Rotation = {
       0,
@@ -8812,10 +8812,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  15
-}
+        0,
+        0,
+        15
+      }
     },
     Rotation = {
       0,
@@ -8951,10 +8951,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  15
-}
+        0,
+        0,
+        15
+      }
     },
     Rotation = {
       0,
@@ -9110,10 +9110,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -9247,10 +9247,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -9358,10 +9358,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -9397,10 +9397,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -9484,10 +9484,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -9623,10 +9623,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -11122,10 +11122,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -11259,10 +11259,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -11370,10 +11370,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -11409,10 +11409,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -11496,10 +11496,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -11635,10 +11635,10 @@ return ReadOnly("ArmoryCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,

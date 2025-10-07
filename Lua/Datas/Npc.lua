@@ -7862,7 +7862,9 @@ return ReadOnly("Npc", {
   },
   [700342] = {
     AccessoryIds = {
-      Normal = {950014}
+      Normal = {
+        950014
+      }
     },
     Camp = "NPC",
     CollisionLevel = 999,
@@ -7911,7 +7913,9 @@ return ReadOnly("Npc", {
   },
   [700345] = {
     AccessoryIds = {
-      Normal = {950014}
+      Normal = {
+        950014
+      }
     },
     Camp = "NPC",
     CollisionLevel = 999,

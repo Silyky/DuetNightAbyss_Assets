@@ -13,10 +13,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_DUNGEON_HOSTAGE",
     DEF = 300,
@@ -46,10 +50,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_101",
     CondemnWeapon = 30,
@@ -93,10 +101,14 @@ return ReadOnly("BattleChar", {
       "Boy"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_101",
     CondemnWeapon = 30,
@@ -140,10 +152,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_102",
     CondemnWeapon = 30,
@@ -187,10 +203,14 @@ return ReadOnly("BattleChar", {
       "Boy"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_102",
     CondemnWeapon = 30,
@@ -234,10 +254,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_Npc_Name_Aware",
     CondemnWeapon = 30,
@@ -276,10 +300,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_Npc_Name_Dafu",
     CondemnWeapon = 30,
@@ -322,10 +350,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_101",
     CondemnWeapon = 30,
@@ -369,10 +401,14 @@ return ReadOnly("BattleChar", {
       "Boy"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_101",
     CondemnWeapon = 30,
@@ -416,10 +452,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharGradeDescription = {
       [1] = "GRADEUP_4101_01",
@@ -503,10 +543,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharGradeDescription = {
       [1] = "GRADEUP_4201_01",
@@ -589,10 +633,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharGradeDescription = {
       [1] = "GRADEUP_2401_01",
@@ -673,10 +721,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharGradeDescription = {
       [1] = "GRADEUP_1503_01",
@@ -761,10 +813,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       110101,
@@ -866,10 +922,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_1102",
     CondemnWeapon = 30,
@@ -918,10 +978,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       110301,
@@ -1028,10 +1092,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_101",
     CondemnWeapon = 30,
@@ -1076,10 +1144,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_1202",
     CondemnWeapon = 30,
@@ -1126,10 +1198,14 @@ return ReadOnly("BattleChar", {
       "Loli"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 65,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       150101,
@@ -1235,10 +1311,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       150201,
@@ -1340,10 +1420,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       150301,
@@ -1455,10 +1539,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_1504",
     CondemnWeapon = 30,
@@ -1509,10 +1597,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "莉兹贝尔",
     CondemnWeapon = 30,
@@ -1570,10 +1662,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       160101,
@@ -1675,10 +1771,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       180101,
@@ -1779,10 +1879,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       210101,
@@ -1886,10 +1990,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_2101",
     CharUIId = 1,
@@ -1950,10 +2058,14 @@ return ReadOnly("BattleChar", {
       "Loli"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 65,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       230101,
@@ -2052,10 +2164,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       240101,
@@ -2162,10 +2278,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       310101,
@@ -2271,10 +2391,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       310201,
@@ -2376,10 +2500,14 @@ return ReadOnly("BattleChar", {
       "Boy"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       310301,
@@ -2479,10 +2607,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       320101,
@@ -2580,10 +2712,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharGradeDescription = {
       [1] = "GRADEUP_3202_01",
@@ -2668,10 +2804,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       330101,
@@ -2770,10 +2910,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       410101,
@@ -2874,10 +3018,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       410201,
@@ -2982,10 +3130,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       420101,
@@ -3095,10 +3247,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       420201,
@@ -3197,10 +3353,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 87,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       430101,
@@ -3306,10 +3466,14 @@ return ReadOnly("BattleChar", {
       "Loli"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 65,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       510101,
@@ -3418,10 +3582,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       510201,
@@ -3523,10 +3691,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       530101,
@@ -3639,10 +3811,14 @@ return ReadOnly("BattleChar", {
       "Woman"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       540101,
@@ -3744,10 +3920,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_5402",
     CondemnWeapon = 30,
@@ -3794,10 +3974,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_1801",
     DEF = 315,
@@ -3828,10 +4012,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "Cp2CharacterName03",
     CondemnWeapon = 30,
@@ -3881,10 +4069,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_Npc_Name_Bulu",
     CondemnWeapon = 30,
@@ -3934,10 +4126,14 @@ return ReadOnly("BattleChar", {
       "Man"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 96.5,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_Npc_Name_Bulu",
     CondemnWeapon = 30,
@@ -3987,10 +4183,14 @@ return ReadOnly("BattleChar", {
       "Girl"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharName = "UI_CHAR_NAME_101",
     CondemnWeapon = 30,
@@ -4036,10 +4236,14 @@ return ReadOnly("BattleChar", {
       "Boy"
     },
     CapsuleInfo = {
-      Crouch = {45, 200},
+      Crouch = {
+        45, 200
+      },
       OriHalfHeight = 80,
       OriRadius = 20,
-      Slide = {45, 200}
+      Slide = {
+        45, 200
+      }
     },
     CharAddonAttr = {
       160101,

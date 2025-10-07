@@ -40323,7 +40323,7 @@ local Data = {
           TextMapId = "SkinGacha_Des_Normal"
         },
         SkinGacha_Des_Special = {
-          TextMapContent = "每<highlight>10</>次寻觅必定获取紫色或紫色以上品质道具，至多<highlight>90</>次寻觅必定获取虹色棱镜*<highlight>25</>。",
+          TextMapContent = "每<highlight>10</>次寻觅必定获取紫色或紫色以上品质道具，至多<highlight>90</>次寻觅必定获取金色品质道具。",
           TextMapId = "SkinGacha_Des_Special"
         },
         SkinGacha_Name_Normal_1 = {
@@ -40335,11 +40335,11 @@ local Data = {
           TextMapId = "SkinGacha_Name_Special_1"
         },
         SkinGacha_Warning_Normal = {
-          TextMapContent = "<Title>必定获取金色品质道具</>\n正在进行的寻觅 <highlight>%d</>/90\n\n<Title>常驻万华概率说明</>\n经由寻觅获取金色品质道具的基础概率为<highlight>0.3%%</>，综合概率（含保底）为<highlight>1.42%%</>，至多<highlight>90</>次寻觅必定获取金色品质道具，其中各道具概率如下：\n纱幕与耳语：<highlight>0.285%%</>\n阳光磨坊：<highlight>0.285%%</>\n踏浪舞曲：<highlight>0.427%%</>\n唤日急板：<highlight>0.427%%</>\n经由寻觅获取紫色品质道具的基础概率为<highlight>5.1%%</>，综合概率（含保底）为<highlight>12.46%%</>，至多<highlight>10</>次寻觅必定获取紫色品质道具；\n通过保底获取紫色品质道具的概率为<highlight>99.7%%</>，获取金色品质道具的概率为<highlight>0.3%%</>。\n当触发概率提升、保底等情况时的概率，请以具体规则为准。\n\n<Title>重复获取说明</>\n如果重复获取已拥有的形象，将转化为水色棱镜；重复流光品质角色形象将转化为水色棱镜*<highlight>60</>，重复流光品质武器形象将转化为水色棱镜*<highlight>40</>，重复月华品质形象将转化为水色棱镜*<highlight>4</>，重复萤烛品质形象将转化为水色棱镜*<highlight>1</>。\n\n<Title>万华继承说明</>\n在<highlight>星光回旋曲</>中的寻觅次数将独立计算，不与其他活动万华合并计算。",
+          TextMapContent = "<Title>必定获取金色品质道具</>\n正在进行的寻觅 <highlight>%d</>/90\n\n<Title>常驻万华概率说明</>\n经由寻觅获取金色品质道具的基础概率为<highlight>0.3%%</>，综合概率（含保底）为<highlight>1.42%%</>，至多<highlight>90</>次寻觅必定获取金色品质道具，其中各道具概率如下：\n踏浪舞曲：<highlight>0.427%%</>\n唤日急板：<highlight>0.427%%</>\n纱幕与耳语：<highlight>0.285%%</>\n阳光磨坊：<highlight>0.285%%</>\n\n经由寻觅获取紫色品质道具的基础概率为<highlight>5.1%%</>，综合概率（含保底）为<highlight>12.46%%</>，至多<highlight>10</>次寻觅必定获取紫色品质道具；\n通过保底获取紫色品质道具的概率为<highlight>99.7%%</>，获取金色品质道具的概率为<highlight>0.3%%</>。\n当触发概率提升、保底等情况时的概率，请以具体规则为准。\n\n<Title>重复获取说明</>\n如果重复获取已拥有的外观，将转化为水色棱镜；重复金色品质角色形象将转化为水色棱镜*<highlight>60</>，重复金色品质武器形象将转化为水色棱镜*<highlight>40</>，重复紫色品质外观将转化为水色棱镜*<highlight>4</>，重复蓝色品质外观将转化为水色棱镜*<highlight>1</>。\n\n<Title>万华继承说明</>\n在<highlight>星光回旋曲</>中的寻觅次数将独立计算，不与其他活动万华合并计算。",
           TextMapId = "SkinGacha_Warning_Normal"
         },
         SkinGacha_Warning_Special = {
-          TextMapContent = "<Title>必定获取华彩砂砾</>\n正在进行的寻觅 <highlight>%d</>/90\n\n<Title>活动限定万华概率说明</>\n经由寻觅获取金色或金色以上品质道具的基础概率为<highlight>0.3%%</>，综合概率（含保底）为<highlight>1.42%%</>，至多<highlight>90</>次寻觅必定获取虹色棱镜*<highlight>25</>；各道具概率如下：\n虹色棱镜*25：<highlight>1.282%%</>\n虹色棱镜*50：<highlight>0.071%%</>\n梦中的舞会：<highlight>0.071%%</>\n经由寻觅获取紫色品质道具的基础概率为<highlight>5.1%%</>，综合概率（含保底）为<highlight>12.46%%</>，至多<highlight>10</>次寻觅必定获取紫色品质道具；\n通过保底获取紫色品质道具的概率为<highlight>99.7%%</>，获取金色品质道具的概率为<highlight>0.3%%</>。\n当触发概率提升、保底等情况时的概率，请以具体规则为准。\n\n<Title>重复获取说明</>\n如果重复获取流光品质形象·梦中的舞会，将转化为虹色棱镜*<highlight>50</>。\n如果重复获取其余已拥有的形象，将转化为水色棱镜；重复流光品质角色形象将转化为水色棱镜*<highlight>60</>，重复流光品质武器形象将转化为水色棱镜*<highlight>40</>，重复月华品质形象将转化为水色棱镜*<highlight>4</>，重复萤烛品质形象将转化为水色棱镜*<highlight>1</>。\n\n<Title>万华继承说明</>\n在<highlight>夏梦纷飞集</>中的寻觅次数将独立计算，不与其他活动万华合并计算。",
+          TextMapContent = "<Title>必定获取金色品质道具</>\n正在进行的寻觅 <highlight>%d</>/90\n\n<Title>活动限定万华概率说明</>\n经由寻觅获取金色品质道具的基础概率为<highlight>0.3%%</>，综合概率（含保底）为<highlight>1.42%%</>，至多<highlight>90</>次寻觅必定获取金色品质道具，其中各道具概率如下：\n梦中的舞会：<highlight>0.641%%</>\n虹色棱镜*25：<highlight>0.641%%</>\n虹色棱镜*50：<highlight>0.142%%</>\n经由寻觅获取紫色品质道具的基础概率为<highlight>5.1%%</>，综合概率（含保底）为<highlight>12.46%%</>，至多<highlight>10</>次寻觅必定获取紫色品质道具；\n通过保底获取紫色品质道具的概率为<highlight>99.7%%</>，获取金色品质道具的概率为<highlight>0.3%%</>。\n当触发概率提升、保底等情况时的概率，请以具体规则为准。\n\n<Title>重复获取说明</>\n如果重复获取金色品质形象梦中的舞会，将转化为虹色棱镜*<highlight>25</>。\n如果重复获取其余已拥有的外观，将转化为水色棱镜；重复紫色品质外观将转化为水色棱镜*<highlight>4</>，重复蓝色品质外观将转化为水色棱镜*<highlight>1</>。\n\n<Title>万华继承说明</>\n在<highlight>夏梦纷飞集</>中的寻觅次数将独立计算，不与其他活动万华合并计算。",
           TextMapId = "SkinGacha_Warning_Special"
         },
         SkinTrialEvent_Title_Saiqi = {
@@ -65771,7 +65771,7 @@ local Data = {
           TextMapId = "UI_SkinGacha_Guarantee_Normal"
         },
         UI_SkinGacha_Guarantee_Special = {
-          TextMapContent = "至多<highlight>%d</>次寻觅必定获取%s",
+          TextMapContent = "至多<highlight>%d</>次寻觅必定获取金色品质道具",
           TextMapId = "UI_SkinGacha_Guarantee_Special"
         },
         UI_SkinGacha_Item_Blue = {

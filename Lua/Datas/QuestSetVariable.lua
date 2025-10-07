@@ -2,14 +2,18 @@ return ReadOnly("QuestSetVariable", {
   [10020101] = {
     Start = {
       Info = {
-        [1] = {Name = "IQ1002", Value = 1}
+        [1] = {
+          Name = "IQ1002", Value = 1
+        }
       },
       QuestId = 10020101,
       QuestStartorSuccess = "Start"
     },
     Success = {
       Info = {
-        [1] = {Name = "IQ1002", Value = 1}
+        [1] = {
+          Name = "IQ1002", Value = 1
+        }
       },
       QuestId = 10020101,
       QuestStartorSuccess = "Success"

@@ -329,10 +329,10 @@ return ReadOnly("PersonalPageCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -466,10 +466,10 @@ return ReadOnly("PersonalPageCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1130,10 +1130,10 @@ return ReadOnly("PersonalPageCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,
@@ -1527,10 +1527,10 @@ return ReadOnly("PersonalPageCameraData", {
     },
     LocationOffset = {
       [2101] = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     Rotation = {
       0,

@@ -27,12 +27,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -60,12 +60,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -87,12 +87,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -114,12 +114,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -147,15 +147,15 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-},
+        Id = {
+          1,
+          2,
+          3
+        }
+      },
       [2] = {
-  Text = "PlayerLevel_Growth_Unlock_Content"
-}
+        Text = "PlayerLevel_Growth_Unlock_Content"
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock",
@@ -175,12 +175,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -198,12 +198,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -221,12 +221,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -244,12 +244,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -267,12 +267,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -298,12 +298,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -321,12 +321,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -344,12 +344,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -367,8 +367,8 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Text = "PlayerLevel_Growth_Unlock_Content"
-},
+        Text = "PlayerLevel_Growth_Unlock_Content"
+      },
       [2] = {
         Text = "PlayerLevel_HardBoss_Unlock_Content2"
       }
@@ -391,12 +391,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -414,12 +414,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -437,12 +437,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -460,12 +460,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -483,12 +483,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -514,12 +514,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -545,12 +545,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -568,8 +568,8 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Text = "PlayerLevel_Growth_Unlock_Content"
-},
+        Text = "PlayerLevel_Growth_Unlock_Content"
+      },
       [2] = {
         Text = "PlayerLevel_HardBoss_Unlock_Content3"
       }
@@ -592,12 +592,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -615,12 +615,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -638,12 +638,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -661,12 +661,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -684,12 +684,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -715,12 +715,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -738,12 +738,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -769,15 +769,15 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-},
+        Id = {
+          1,
+          2,
+          3
+        }
+      },
       [2] = {
-  Text = "PlayerLevel_Growth_Unlock_Content"
-},
+        Text = "PlayerLevel_Growth_Unlock_Content"
+      },
       [3] = {
         Text = "PlayerLevel_HardBoss_Unlock_Content4"
       }
@@ -818,12 +818,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -849,12 +849,12 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Id = {
-    1,
-    2,
-    3
-  }
-}
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
     },
     NodeTitle = {
       [1] = "UI_NewWalnut_Unlock"
@@ -904,8 +904,8 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Text = "PlayerLevel_Growth_Unlock_Content"
-},
+        Text = "PlayerLevel_Growth_Unlock_Content"
+      },
       [2] = {
         Text = "PlayerLevel_HardBoss_Unlock_Content5"
       }
@@ -960,8 +960,8 @@ return ReadOnly("PlayerLevelUp", {
     ModExtractMax = 2000,
     NodeContent = {
       [1] = {
-  Text = "PlayerLevel_Growth_Unlock_Content"
-},
+        Text = "PlayerLevel_Growth_Unlock_Content"
+      },
       [2] = {
         Text = "PlayerLevel_HardBoss_Unlock_Content6"
       }

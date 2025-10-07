@@ -1,9 +1,15 @@
 return ReadOnly("Capture", {
   [30002] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000001,
     DungeonId = 30002,
@@ -12,9 +18,15 @@ return ReadOnly("Capture", {
   },
   [30004] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000002,
     DungeonId = 30004,
@@ -23,9 +35,15 @@ return ReadOnly("Capture", {
   },
   [60401] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000015,
     DungeonId = 60401,
@@ -34,9 +52,15 @@ return ReadOnly("Capture", {
   },
   [60402] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000016,
     DungeonId = 60402,
@@ -45,9 +69,15 @@ return ReadOnly("Capture", {
   },
   [62401] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000017,
     DungeonId = 62401,
@@ -56,9 +86,15 @@ return ReadOnly("Capture", {
   },
   [62402] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000018,
     DungeonId = 62402,
@@ -67,9 +103,15 @@ return ReadOnly("Capture", {
   },
   [64401] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000019,
     DungeonId = 64401,
@@ -78,9 +120,15 @@ return ReadOnly("Capture", {
   },
   [64402] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000020,
     DungeonId = 64402,
@@ -89,9 +137,15 @@ return ReadOnly("Capture", {
   },
   [90301] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000003,
     DungeonId = 90301,
@@ -100,9 +154,15 @@ return ReadOnly("Capture", {
   },
   [90302] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000004,
     DungeonId = 90302,
@@ -111,9 +171,15 @@ return ReadOnly("Capture", {
   },
   [90303] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000005,
     DungeonId = 90303,
@@ -122,9 +188,15 @@ return ReadOnly("Capture", {
   },
   [90304] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 4}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 4
+      }
     },
     CaptureCreatorId = 1100000006,
     DungeonId = 90304,
@@ -133,9 +205,15 @@ return ReadOnly("Capture", {
   },
   [90305] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000007,
     DungeonId = 90305,
@@ -144,9 +222,15 @@ return ReadOnly("Capture", {
   },
   [90306] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000008,
     DungeonId = 90306,
@@ -155,9 +239,15 @@ return ReadOnly("Capture", {
   },
   [90307] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000009,
     DungeonId = 90307,
@@ -166,9 +256,15 @@ return ReadOnly("Capture", {
   },
   [90308] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000010,
     DungeonId = 90308,
@@ -177,9 +273,15 @@ return ReadOnly("Capture", {
   },
   [90309] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000011,
     DungeonId = 90309,
@@ -188,9 +290,15 @@ return ReadOnly("Capture", {
   },
   [90310] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000012,
     DungeonId = 90310,
@@ -199,9 +307,15 @@ return ReadOnly("Capture", {
   },
   [90311] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000013,
     DungeonId = 90311,
@@ -210,9 +324,15 @@ return ReadOnly("Capture", {
   },
   [90312] = {
     Capture = {
-      [1] = {CaptureMonsterId = 7001005, Weight = 1},
-      [2] = {CaptureMonsterId = 7003005, Weight = 1},
-      [3] = {CaptureMonsterId = 7002005, Weight = 1}
+      [1] = {
+        CaptureMonsterId = 7001005, Weight = 1
+      },
+      [2] = {
+        CaptureMonsterId = 7003005, Weight = 1
+      },
+      [3] = {
+        CaptureMonsterId = 7002005, Weight = 1
+      }
     },
     CaptureCreatorId = 1100000014,
     DungeonId = 90312,

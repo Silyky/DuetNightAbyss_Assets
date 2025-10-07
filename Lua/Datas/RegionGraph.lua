@@ -30,12 +30,12 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 100102,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   100101,
   "TargetPoint_Balcony_Connect1",
   1
 }
-}
+      }
     }
   },
   [100103] = {
@@ -47,12 +47,12 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 100103,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   100101,
   "TargetPoint_Balcony_Connect1",
   1
 }
-}
+      }
     }
   },
   [100104] = {SubRegionStart = 100104},
@@ -63,69 +63,69 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101101,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101107,
   "TargetPoint_Tavern",
   1
 },
-  {
+        {
   210101,
   "TargetPoint_HomeBase",
   1
 },
-  {
+        {
   101105,
   "TargetPoint_OutSiderHome",
   1
 },
-  {
+        {
   101106,
   "TargetPoint_Sanatorium",
   1
 },
-  {
+        {
   101701,
   "TargetPoint_Sewer",
   1,
   312
 },
-  {
+        {
   101702,
   "TargetPoint_SewPoorEnter",
   1
 },
-  {
+        {
   101301,
   "TargetPoint_Kuangkeng",
   1
 },
-  {
+        {
   101901,
   "TargetPoint_Theater",
   1
 },
-  {
+        {
   101110,
   "Cp2LeaveSickPoint",
   1
 },
-  {
+        {
   101111,
   "LC_EnterFlow",
   1
 },
-  {
+        {
   101108,
   "TargetPoint_Traff2SecEnter",
   1
 },
-  {
+        {
   101108,
   "TargetPoint_Traff2SecLeave",
   1,
   321
 }
-}
+      }
     }
   },
   [101103] = {
@@ -135,69 +135,69 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101103,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101107,
   "TargetPoint_Tavern",
   1
 },
-  {
+        {
   210101,
   "TargetPoint_HomeBase",
   1
 },
-  {
+        {
   101105,
   "TargetPoint_OutSiderHome",
   1
 },
-  {
+        {
   101106,
   "TargetPoint_Sanatorium",
   1
 },
-  {
+        {
   101701,
   "TargetPoint_Sewer",
   1,
   312
 },
-  {
+        {
   101702,
   "TargetPoint_SewPoorEnter",
   1
 },
-  {
+        {
   101301,
   "TargetPoint_Kuangkeng",
   1
 },
-  {
+        {
   101901,
   "TargetPoint_Theater",
   1
 },
-  {
+        {
   101110,
   "Cp2LeaveSickPoint",
   1
 },
-  {
+        {
   101111,
   "LC_EnterFlow",
   1
 },
-  {
+        {
   101108,
   "TargetPoint_Traff2SecEnter",
   1
 },
-  {
+        {
   101108,
   "TargetPoint_Traff2SecLeave",
   1,
   321
 }
-}
+      }
     }
   },
   [101105] = {
@@ -287,12 +287,12 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101301,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101103,
   "TargetPoint_Enter_2_TrafficWay",
   1
 }
-}
+      }
     }
   },
   [101303] = {
@@ -305,12 +305,12 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101303,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101103,
   "TargetPoint_Enter_2_TrafficWay",
   1
 }
-}
+      }
     }
   },
   [101304] = {
@@ -323,12 +323,12 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101304,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101103,
   "TargetPoint_Enter_2_TrafficWay",
   1
 }
-}
+      }
     }
   },
   [101305] = {
@@ -341,12 +341,12 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101305,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101103,
   "TargetPoint_Enter_2_TrafficWay",
   1
 }
-}
+      }
     }
   },
   [101701] = {
@@ -358,17 +358,17 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101701,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101101,
   "TargetPoint_Sew1_2_IcelakeCity",
   1
 },
-  {
+        {
   101101,
   "TargetPoint_Sew2_2_IcelakeCity",
   1
 }
-}
+      }
     }
   },
   [101702] = {
@@ -380,17 +380,17 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101702,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101101,
   "TargetPoint_Sew1_2_IcelakeCity",
   1
 },
-  {
+        {
   101101,
   "TargetPoint_Sew2_2_IcelakeCity",
   1
 }
-}
+      }
     }
   },
   [101703] = {
@@ -402,17 +402,17 @@ return ReadOnly("RegionGraph", {
     SubRegionStart = 101703,
     SubRegionTarget = {
       RegionTarget = {
-  {
+        {
   101101,
   "TargetPoint_Sew1_2_IcelakeCity",
   1
 },
-  {
+        {
   101101,
   "TargetPoint_Sew2_2_IcelakeCity",
   1
 }
-}
+      }
     }
   },
   [101901] = {

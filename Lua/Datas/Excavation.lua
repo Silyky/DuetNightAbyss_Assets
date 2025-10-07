@@ -14,15 +14,15 @@ return ReadOnly("Excavation", {
         Weight = 4
       },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 3
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 3
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 3
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 3
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -44,20 +44,20 @@ return ReadOnly("Excavation", {
     DungeonId = 60301,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 10
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 10
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 0
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 0
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -79,20 +79,20 @@ return ReadOnly("Excavation", {
     DungeonId = 60302,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 5
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 5
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 5
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 5
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -114,20 +114,20 @@ return ReadOnly("Excavation", {
     DungeonId = 62301,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 10
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 10
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 0
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 0
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -149,20 +149,20 @@ return ReadOnly("Excavation", {
     DungeonId = 62302,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 5
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 5
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 5
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 5
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -184,20 +184,20 @@ return ReadOnly("Excavation", {
     DungeonId = 64301,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 10
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 10
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 0
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 0
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -219,20 +219,20 @@ return ReadOnly("Excavation", {
     DungeonId = 64302,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 5
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 5
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 5
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 5
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -254,20 +254,20 @@ return ReadOnly("Excavation", {
     DungeonId = 90201,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 10
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 10
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 0
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 0
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -289,20 +289,20 @@ return ReadOnly("Excavation", {
     DungeonId = 90202,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 5
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 5
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 5
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 5
+      },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 0
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 0
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -332,10 +332,10 @@ return ReadOnly("Excavation", {
         Weight = 6
       },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 2
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 2
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -357,20 +357,20 @@ return ReadOnly("Excavation", {
     DungeonId = 90204,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 0
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 0
+      },
       [2] = {
         ExcavationMechId = 49002,
         MonsterSpawnId = 10402,
         Weight = 8
       },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 2
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 2
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -392,20 +392,20 @@ return ReadOnly("Excavation", {
     DungeonId = 90205,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 0
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 0
+      },
       [2] = {
         ExcavationMechId = 49002,
         MonsterSpawnId = 10402,
         Weight = 7
       },
       [3] = {
-  ExcavationMechId = 49003,
-  MonsterSpawnId = 10403,
-  Weight = 3
-}
+        ExcavationMechId = 49003,
+        MonsterSpawnId = 10403,
+        Weight = 3
+      }
     },
     ExcavationItemId = 2009,
     ExcavationRandomId = 10405,
@@ -427,15 +427,15 @@ return ReadOnly("Excavation", {
     DungeonId = 90206,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 0
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 0
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 3
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 3
+      },
       [3] = {
         ExcavationMechId = 49003,
         MonsterSpawnId = 10403,
@@ -462,15 +462,15 @@ return ReadOnly("Excavation", {
     DungeonId = 90207,
     Excavation = {
       [1] = {
-  ExcavationMechId = 49001,
-  MonsterSpawnId = 10401,
-  Weight = 0
-},
+        ExcavationMechId = 49001,
+        MonsterSpawnId = 10401,
+        Weight = 0
+      },
       [2] = {
-  ExcavationMechId = 49002,
-  MonsterSpawnId = 10402,
-  Weight = 0
-},
+        ExcavationMechId = 49002,
+        MonsterSpawnId = 10402,
+        Weight = 0
+      },
       [3] = {
         ExcavationMechId = 49003,
         MonsterSpawnId = 10403,

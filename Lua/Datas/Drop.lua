@@ -9,19 +9,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Hp",
-  Op = "Min",
-  Type = "PlayerAttr",
-  ValueNum = 0.25,
-  ValueType = "Percent"
-},
+        Name = "Hp",
+        Op = "Min",
+        Type = "PlayerAttr",
+        ValueNum = 0.25,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Hp_Full.T_Hp_Full",
     IconShowCondition = {
@@ -53,19 +53,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Sp",
-  Op = "Min",
-  Type = "PlayerAttr",
-  ValueNum = 0.25,
-  ValueType = "Percent"
-},
+        Name = "Sp",
+        Op = "Min",
+        Type = "PlayerAttr",
+        ValueNum = 0.25,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Mp.T_Drop_Mp",
     IconShowCondition = {
@@ -99,19 +99,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Bullet",
-  Op = "Min",
-  Type = "RangedWeaponAttr",
-  ValueNum = 0.2,
-  ValueType = "Percent"
-},
+        Name = "Bullet",
+        Op = "Min",
+        Type = "RangedWeaponAttr",
+        ValueNum = 0.2,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Ammo.T_Drop_Ammo",
     IconShowCondition = {
@@ -236,19 +236,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Bullet",
-  Op = "Min",
-  Type = "RangedWeaponAttr",
-  ValueNum = 0.2,
-  ValueType = "Percent"
-},
+        Name = "Bullet",
+        Op = "Min",
+        Type = "RangedWeaponAttr",
+        ValueNum = 0.2,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Ammo.T_Drop_Ammo",
     IconShowCondition = {
@@ -747,19 +747,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Hp",
-  Op = "Min",
-  Type = "PlayerAttr",
-  ValueNum = 0.25,
-  ValueType = "Percent"
-},
+        Name = "Hp",
+        Op = "Min",
+        Type = "PlayerAttr",
+        ValueNum = 0.25,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Hp_Full.T_Hp_Full",
     IconShowCondition = {
@@ -793,19 +793,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Sp",
-  Op = "Min",
-  Type = "PlayerAttr",
-  ValueNum = 0.25,
-  ValueType = "Percent"
-},
+        Name = "Sp",
+        Op = "Min",
+        Type = "PlayerAttr",
+        ValueNum = 0.25,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Mp.T_Drop_Mp",
     IconShowCondition = {
@@ -841,19 +841,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Bullet",
-  Op = "Min",
-  Type = "RangedWeaponAttr",
-  ValueNum = 0.2,
-  ValueType = "Percent"
-},
+        Name = "Bullet",
+        Op = "Min",
+        Type = "RangedWeaponAttr",
+        ValueNum = 0.2,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Ammo.T_Drop_Ammo",
     IconShowCondition = {
@@ -884,19 +884,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Hp",
-  Op = "Min",
-  Type = "PlayerAttr",
-  ValueNum = 0.25,
-  ValueType = "Percent"
-},
+        Name = "Hp",
+        Op = "Min",
+        Type = "PlayerAttr",
+        ValueNum = 0.25,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Hp_Full.T_Hp_Full",
     IconShowCondition = {
@@ -929,19 +929,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Sp",
-  Op = "Min",
-  Type = "PlayerAttr",
-  ValueNum = 0.25,
-  ValueType = "Percent"
-},
+        Name = "Sp",
+        Op = "Min",
+        Type = "PlayerAttr",
+        ValueNum = 0.25,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Mp.T_Drop_Mp",
     IconShowCondition = {
@@ -976,19 +976,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Bullet",
-  Op = "Min",
-  Type = "RangedWeaponAttr",
-  ValueNum = 0.2,
-  ValueType = "Percent"
-},
+        Name = "Bullet",
+        Op = "Min",
+        Type = "RangedWeaponAttr",
+        ValueNum = 0.2,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Ammo.T_Drop_Ammo",
     IconShowCondition = {
@@ -1018,19 +1018,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Hp",
-  Op = "Min",
-  Type = "PlayerAttr",
-  ValueNum = 0.25,
-  ValueType = "Percent"
-},
+        Name = "Hp",
+        Op = "Min",
+        Type = "PlayerAttr",
+        ValueNum = 0.25,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Hp_Full.T_Hp_Full",
     IconShowCondition = {
@@ -4763,19 +4763,19 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Supply.T_Gp_Supply",
     GuideShowCondition = {
       [1] = {
-  Name = "Bullet",
-  Op = "Min",
-  Type = "RangedWeaponAttr",
-  ValueNum = 0.2,
-  ValueType = "Percent"
-},
+        Name = "Bullet",
+        Op = "Min",
+        Type = "RangedWeaponAttr",
+        ValueNum = 0.2,
+        ValueType = "Percent"
+      },
       [2] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 20,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 20,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Drop_Ammo.T_Drop_Ammo",
     IconShowCondition = {
@@ -7539,12 +7539,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -7572,12 +7572,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -7605,12 +7605,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -7638,12 +7638,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -7671,12 +7671,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -7704,12 +7704,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -7737,12 +7737,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -7770,12 +7770,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -7803,12 +7803,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -7836,12 +7836,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -7869,12 +7869,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -7902,12 +7902,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -7935,12 +7935,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -7968,12 +7968,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8001,12 +8001,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8034,12 +8034,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8067,12 +8067,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8100,12 +8100,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8133,12 +8133,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8166,12 +8166,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8199,12 +8199,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8232,12 +8232,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8265,12 +8265,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8298,12 +8298,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8331,12 +8331,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Gray.T_Gp_ModArchive_Gray",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8364,12 +8364,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -8397,12 +8397,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -8430,12 +8430,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -8463,12 +8463,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -8496,12 +8496,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -8529,12 +8529,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -8562,12 +8562,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -8595,12 +8595,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -8628,12 +8628,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8661,12 +8661,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8694,12 +8694,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8727,12 +8727,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8760,12 +8760,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -8793,12 +8793,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8826,12 +8826,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8859,12 +8859,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8892,12 +8892,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8925,12 +8925,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Green.T_Gp_ModArchive_Green",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -8958,12 +8958,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -8991,12 +8991,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9024,12 +9024,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9057,12 +9057,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9090,12 +9090,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9123,12 +9123,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9156,12 +9156,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9189,12 +9189,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9222,12 +9222,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9255,12 +9255,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9288,12 +9288,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9321,12 +9321,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9354,12 +9354,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9387,12 +9387,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9420,12 +9420,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -9453,12 +9453,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9486,12 +9486,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9519,12 +9519,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9552,12 +9552,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9585,12 +9585,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9618,12 +9618,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9651,12 +9651,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9684,12 +9684,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -9717,12 +9717,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
     IconShowCondition = {
@@ -9750,12 +9750,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
     IconShowCondition = {
@@ -9783,12 +9783,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
     IconShowCondition = {
@@ -9816,12 +9816,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
     IconShowCondition = {
@@ -9849,12 +9849,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
     IconShowCondition = {
@@ -9882,12 +9882,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
     IconShowCondition = {
@@ -9915,12 +9915,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
     IconShowCondition = {
@@ -9948,12 +9948,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -9981,12 +9981,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -10014,12 +10014,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -10047,12 +10047,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -10080,12 +10080,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -10113,12 +10113,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -10146,12 +10146,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10179,12 +10179,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10212,12 +10212,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10245,12 +10245,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10278,12 +10278,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10311,12 +10311,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10344,12 +10344,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10377,12 +10377,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10410,12 +10410,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10443,12 +10443,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     IconShowCondition = {
@@ -10476,12 +10476,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -10509,12 +10509,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -10542,12 +10542,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -10575,12 +10575,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -10608,12 +10608,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -10641,12 +10641,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -10674,12 +10674,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -10707,12 +10707,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -10740,12 +10740,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -10773,12 +10773,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -10806,12 +10806,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -10839,12 +10839,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -10872,12 +10872,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -10905,12 +10905,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -10938,12 +10938,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -10971,12 +10971,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11004,12 +11004,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11037,12 +11037,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11070,12 +11070,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11103,12 +11103,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11136,12 +11136,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11169,12 +11169,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11202,12 +11202,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11235,12 +11235,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Blue.T_Gp_ModArchive_Blue",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -11268,12 +11268,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -11301,12 +11301,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -11334,12 +11334,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -11367,12 +11367,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -11400,12 +11400,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -11433,12 +11433,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -11466,12 +11466,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Pan01.T_Mod_Pan01",
     IconShowCondition = {
@@ -11499,12 +11499,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -11532,12 +11532,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -11565,12 +11565,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -11598,12 +11598,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -11631,12 +11631,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -11664,12 +11664,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -11697,12 +11697,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
     IconShowCondition = {
@@ -11730,12 +11730,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
     IconShowCondition = {
@@ -11763,12 +11763,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
     IconShowCondition = {
@@ -11796,12 +11796,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
     IconShowCondition = {
@@ -11829,12 +11829,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
     IconShowCondition = {
@@ -11862,12 +11862,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
     IconShowCondition = {
@@ -11895,12 +11895,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
     IconShowCondition = {
@@ -11928,12 +11928,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
     IconShowCondition = {
@@ -11961,12 +11961,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
     IconShowCondition = {
@@ -11994,12 +11994,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
     IconShowCondition = {
@@ -12027,12 +12027,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
     IconShowCondition = {
@@ -12060,12 +12060,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
     IconShowCondition = {
@@ -12093,12 +12093,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -12126,12 +12126,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -12159,12 +12159,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -12192,12 +12192,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -12225,12 +12225,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -12258,12 +12258,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -12291,12 +12291,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -12324,12 +12324,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -12357,12 +12357,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -12390,12 +12390,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -12423,12 +12423,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -12456,12 +12456,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -12489,12 +12489,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -12522,12 +12522,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -12555,12 +12555,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -12588,12 +12588,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -12621,12 +12621,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -12654,12 +12654,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -12687,12 +12687,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -12720,12 +12720,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -12753,12 +12753,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -12786,12 +12786,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -12819,12 +12819,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -12852,12 +12852,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -12885,12 +12885,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -12918,12 +12918,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -12951,12 +12951,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -12984,12 +12984,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -13017,12 +13017,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -13050,12 +13050,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -13083,12 +13083,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -13116,12 +13116,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -13149,12 +13149,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -13182,12 +13182,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -13215,12 +13215,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -13248,12 +13248,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -13281,12 +13281,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -13314,12 +13314,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -13347,12 +13347,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -13380,12 +13380,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -13413,12 +13413,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -13446,12 +13446,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -13479,12 +13479,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -13512,12 +13512,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -13545,12 +13545,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -13578,12 +13578,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -13611,12 +13611,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -13644,12 +13644,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -13677,12 +13677,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -13710,12 +13710,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -13743,12 +13743,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -13776,12 +13776,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -13809,12 +13809,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -13842,12 +13842,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -13875,12 +13875,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -13908,12 +13908,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -13941,12 +13941,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -13974,12 +13974,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14007,12 +14007,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14040,12 +14040,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14073,12 +14073,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14106,12 +14106,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14139,12 +14139,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14172,12 +14172,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14205,12 +14205,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14238,12 +14238,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -14271,12 +14271,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Anubis01_Purple.T_Mod_Anubis01_Purple",
     IconShowCondition = {
@@ -14304,12 +14304,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
     IconShowCondition = {
@@ -14337,12 +14337,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
     IconShowCondition = {
@@ -14370,12 +14370,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Ifrit01.T_Mod_Ifrit01",
     IconShowCondition = {
@@ -14403,12 +14403,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Summanus01.T_Mod_Summanus01",
     IconShowCondition = {
@@ -14436,12 +14436,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
     IconShowCondition = {
@@ -14469,12 +14469,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
     IconShowCondition = {
@@ -14502,12 +14502,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
     IconShowCondition = {
@@ -14535,12 +14535,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
     IconShowCondition = {
@@ -14568,12 +14568,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -14601,12 +14601,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -14634,12 +14634,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -14667,12 +14667,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -14700,12 +14700,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14733,12 +14733,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14766,12 +14766,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14799,12 +14799,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14832,12 +14832,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14865,12 +14865,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14898,12 +14898,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14931,12 +14931,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14964,12 +14964,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -14997,12 +14997,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15030,12 +15030,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15063,12 +15063,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15096,12 +15096,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15129,12 +15129,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15162,12 +15162,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15195,12 +15195,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15228,12 +15228,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     IconShowCondition = {
@@ -15261,12 +15261,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15294,12 +15294,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15327,12 +15327,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15360,12 +15360,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15393,12 +15393,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15426,12 +15426,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15459,12 +15459,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15492,12 +15492,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15525,12 +15525,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15558,12 +15558,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15591,12 +15591,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15624,12 +15624,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15657,12 +15657,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15690,12 +15690,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15723,12 +15723,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15756,12 +15756,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15789,12 +15789,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15822,12 +15822,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15855,12 +15855,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fafnir01.T_Mod_Fafnir01",
     IconShowCondition = {
@@ -15888,12 +15888,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15921,12 +15921,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15954,12 +15954,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -15987,12 +15987,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Purple.T_Gp_ModArchive_Purple",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -16020,12 +16020,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -16053,12 +16053,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -16086,12 +16086,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.T_Mod_Phoenix01",
     IconShowCondition = {
@@ -16119,12 +16119,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
     IconShowCondition = {
@@ -16152,12 +16152,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -16185,12 +16185,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -16218,12 +16218,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -16251,12 +16251,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -16284,12 +16284,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -16317,12 +16317,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Sphinx01.T_Mod_Sphinx01",
     IconShowCondition = {
@@ -16350,12 +16350,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
     IconShowCondition = {
@@ -16383,12 +16383,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
     IconShowCondition = {
@@ -16416,12 +16416,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
     IconShowCondition = {
@@ -16449,12 +16449,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
     IconShowCondition = {
@@ -16482,12 +16482,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
     IconShowCondition = {
@@ -16515,12 +16515,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
     IconShowCondition = {
@@ -16548,12 +16548,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Black.T_Mod_Griffin01_Black",
     IconShowCondition = {
@@ -16581,12 +16581,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Blue.T_Mod_Griffin01_Blue",
     IconShowCondition = {
@@ -16614,12 +16614,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Red.T_Mod_Griffin01_Red",
     IconShowCondition = {
@@ -16647,12 +16647,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Purple.T_Mod_Griffin01_Purple",
     IconShowCondition = {
@@ -16680,12 +16680,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Green.T_Mod_Griffin01_Green",
     IconShowCondition = {
@@ -16713,12 +16713,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Griffin01_Orange.T_Mod_Griffin01_Orange",
     IconShowCondition = {
@@ -16746,12 +16746,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -16779,12 +16779,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -16812,12 +16812,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -16845,12 +16845,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -16878,12 +16878,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Black.T_Mod_Typhon01_Black",
     IconShowCondition = {
@@ -16911,12 +16911,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -16944,12 +16944,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -16977,12 +16977,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -17010,12 +17010,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -17043,12 +17043,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Blue.T_Mod_Typhon01_Blue",
     IconShowCondition = {
@@ -17076,12 +17076,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -17109,12 +17109,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -17142,12 +17142,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -17175,12 +17175,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -17208,12 +17208,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Red.T_Mod_Typhon01_Red",
     IconShowCondition = {
@@ -17241,12 +17241,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -17274,12 +17274,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -17307,12 +17307,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -17340,12 +17340,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -17373,12 +17373,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Purple.T_Mod_Typhon01_Purple",
     IconShowCondition = {
@@ -17406,12 +17406,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -17439,12 +17439,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -17472,12 +17472,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -17505,12 +17505,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -17538,12 +17538,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Green.T_Mod_Typhon01_Green",
     IconShowCondition = {
@@ -17571,12 +17571,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -17604,12 +17604,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -17637,12 +17637,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -17670,12 +17670,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -17703,12 +17703,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Typhon01_Orange.T_Mod_Typhon01_Orange",
     IconShowCondition = {
@@ -17736,12 +17736,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -17769,12 +17769,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -17802,12 +17802,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -17835,12 +17835,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Black.T_Mod_Mephisto01_Black",
     IconShowCondition = {
@@ -17868,12 +17868,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -17901,12 +17901,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -17934,12 +17934,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -17967,12 +17967,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Blue.T_Mod_Mephisto01_Blue",
     IconShowCondition = {
@@ -18000,12 +18000,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -18033,12 +18033,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -18066,12 +18066,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -18099,12 +18099,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Red.T_Mod_Mephisto01_Red",
     IconShowCondition = {
@@ -18132,12 +18132,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -18165,12 +18165,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -18198,12 +18198,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -18231,12 +18231,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Purple.T_Mod_Mephisto01_Purple",
     IconShowCondition = {
@@ -18264,12 +18264,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -18297,12 +18297,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -18330,12 +18330,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -18363,12 +18363,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Green.T_Mod_Mephisto01_Green",
     IconShowCondition = {
@@ -18396,12 +18396,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -18429,12 +18429,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -18462,12 +18462,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -18495,12 +18495,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Mephisto01_Orange.T_Mod_Mephisto01_Orange",
     IconShowCondition = {
@@ -18528,12 +18528,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18561,12 +18561,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18594,12 +18594,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18627,12 +18627,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18660,12 +18660,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18693,12 +18693,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18726,12 +18726,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18759,12 +18759,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18792,12 +18792,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18825,12 +18825,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18858,12 +18858,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18891,12 +18891,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Jormungand01.T_Mod_Jormungand01",
     IconShowCondition = {
@@ -18924,12 +18924,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Anubis01_Purple.T_Mod_Anubis01_Purple",
     IconShowCondition = {
@@ -18957,12 +18957,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
     IconShowCondition = {
@@ -18990,12 +18990,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Bahamut01.T_Mod_Bahamut01",
     IconShowCondition = {
@@ -19023,12 +19023,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Ifrit01.T_Mod_Ifrit01",
     IconShowCondition = {
@@ -19056,12 +19056,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Summanus01.T_Mod_Summanus01",
     IconShowCondition = {
@@ -19089,12 +19089,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
     IconShowCondition = {
@@ -19122,12 +19122,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Hastur01.T_Mod_Hastur01",
     IconShowCondition = {
@@ -19155,12 +19155,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
     IconShowCondition = {
@@ -19188,12 +19188,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Yatagarasu01.T_Mod_Yatagarasu01",
     IconShowCondition = {
@@ -19221,12 +19221,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19254,12 +19254,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19287,12 +19287,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19320,12 +19320,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19353,12 +19353,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19386,12 +19386,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19419,12 +19419,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19452,12 +19452,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Cerberus01.T_Mod_Cerberus01",
     IconShowCondition = {
@@ -19485,12 +19485,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -19518,12 +19518,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -19551,12 +19551,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -19584,12 +19584,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -19617,12 +19617,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -19650,12 +19650,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -19683,12 +19683,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {
@@ -19716,12 +19716,12 @@ return ReadOnly("Drop", {
     GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_ModArchive_Yellow.T_Gp_ModArchive_Yellow",
     GuideShowCondition = {
       [1] = {
-  Name = "Distance",
-  Op = "Min",
-  Type = "MainPlayer",
-  ValueNum = 50,
-  ValueType = "Number"
-}
+        Name = "Distance",
+        Op = "Min",
+        Type = "MainPlayer",
+        ValueNum = 50,
+        ValueType = "Number"
+      }
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Lilith01.T_Mod_Lilith01",
     IconShowCondition = {

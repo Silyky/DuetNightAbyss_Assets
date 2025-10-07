@@ -8849,13 +8849,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Claymore/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "weapon_01",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "weapon_01",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NextNodeId = 1030212,
@@ -8869,13 +8869,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Claymore/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "weapon_01",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "weapon_01",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NextNodeId = 1030213,
@@ -8889,13 +8889,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Claymore/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "weapon_01",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "weapon_01",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NextNodeId = 1030211,
@@ -9144,13 +9144,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NextNodeId = 1060112,
@@ -9164,13 +9164,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NextNodeId = 1060113,
@@ -9184,13 +9184,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NextNodeId = 1060114,
@@ -9204,13 +9204,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NextNodeId = 1060111,
@@ -9224,13 +9224,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NodeId = 1060121,
@@ -9242,13 +9242,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NodeId = 1060131,
@@ -9260,13 +9260,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NodeId = 1060141,
@@ -9278,13 +9278,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     ExtraNextNodeId = 1060222,
@@ -9303,13 +9303,13 @@ return ReadOnly("SkillNode", {
     CanExtractZVelocity = true,
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     ExtraNextNodeId = 1060223,
@@ -9322,13 +9322,13 @@ return ReadOnly("SkillNode", {
     AnimSubPath = "Combat/Weapon/Katana/",
     ChangeHandHold = {
       HandHold = {
-  SocketA = "Root",
-  SocketB = "root_hook_arm_r"
-},
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     DisableBlendBone = true,
     NodeId = 1060223,

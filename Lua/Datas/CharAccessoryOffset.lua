@@ -3,14 +3,14 @@ return ReadOnly("CharAccessoryOffset", {
     ModelId = 1101,
     OffsetParameter = {
       [1] = {
-  Player_Part_Head = {
-    Location = {
-  0,
-  0,
-  0.5
-}
-  }
-},
+        Player_Part_Head = {
+          Location = {
+            0,
+            0,
+            0.5
+          }
+        }
+      },
       [2] = {
         Player_Part_Eye_R = {
           Rotation = {
@@ -40,24 +40,24 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [4] = {
-  Player_Part_Waist_R = {
-    Location = {
-  -2,
-  -4,
-  -4
-},
-    Rotation = {
-  0,
-  0,
-  -20
-},
-    scale = {
-  0.6,
-  0.6,
-  0.6
-}
-  }
-},
+        Player_Part_Waist_R = {
+          Location = {
+            -2,
+            -4,
+            -4
+          },
+          Rotation = {
+            0,
+            0,
+            -20
+          },
+          scale = {
+            0.6,
+            0.6,
+            0.6
+          }
+        }
+      },
       [5] = {
         Player_Part_Nose = {
           scale = {
@@ -68,14 +68,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Mouth = {
-    scale = {
-  0.95,
-  0.95,
-  0.95
-}
-  }
-},
+        Player_Part_Mouth = {
+          scale = {
+            0.95,
+            0.95,
+            0.95
+          }
+        }
+      },
       [7] = {
         Player_Part_Cloak = {
           Location = {
@@ -91,21 +91,21 @@ return ReadOnly("CharAccessoryOffset", {
     ModelId = 1102,
     OffsetParameter = {
       [1] = {
-  Player_Part_Head = {
-    Location = {
-  0,
-  0,
-  0.5
-}
-  }
-},
+        Player_Part_Head = {
+          Location = {
+            0,
+            0,
+            0.5
+          }
+        }
+      },
       [2] = {
         Player_Part_Face = {
           Location = {
-  0,
-  0,
-  0
-}
+            0,
+            0,
+            0
+          }
         }
       },
       [3] = {
@@ -123,41 +123,41 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [4] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [5] = {
-  Player_Part_Head_R = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_R = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [6] = {
         Player_Part_Head_L = {
           Location = {
-  0,
-  0,
-  0
-}
+            0,
+            0,
+            0
+          }
         }
       },
       [7] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [8] = {
         Player_Part_Waist = {
           Location = {
@@ -178,58 +178,58 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [9] = {
-  Player_Part_Waist_R = {
-    Location = {
-  -2,
-  -4,
-  -4
-},
-    Rotation = {
-  0,
-  0,
-  -20
-},
-    scale = {
-  0.6,
-  0.6,
-  0.6
-}
-  }
-},
+        Player_Part_Waist_R = {
+          Location = {
+            -2,
+            -4,
+            -4
+          },
+          Rotation = {
+            0,
+            0,
+            -20
+          },
+          scale = {
+            0.6,
+            0.6,
+            0.6
+          }
+        }
+      },
       [10] = {
-  Player_Part_Mouth = {
-    scale = {
-  0.95,
-  0.95,
-  0.95
-}
-  }
-},
+        Player_Part_Mouth = {
+          scale = {
+            0.95,
+            0.95,
+            0.95
+          }
+        }
+      },
       [11] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [12] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [13] = {
         Player_Part_Cloak = {
           Location = {
-  0,
-  0,
-  0
-}
+            0,
+            0,
+            0
+          }
         }
       }
     }
@@ -273,21 +273,21 @@ return ReadOnly("CharAccessoryOffset", {
       [3] = {
         Player_Part_Eye_L = {
           Location = {
-  0,
-  2.5,
-  0
-}
+            0,
+            2.5,
+            0
+          }
         }
       },
       [4] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  30
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            30
+          }
+        }
+      },
       [5] = {
         Player_Part_Waist = {
           Location = {
@@ -308,28 +308,28 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Waist_L = {
-    Location = {
-  2,
-  0,
-  0
-},
-    scale = {
-  1.25,
-  1.25,
-  1.25
-}
-  }
-},
+        Player_Part_Waist_L = {
+          Location = {
+            2,
+            0,
+            0
+          },
+          scale = {
+            1.25,
+            1.25,
+            1.25
+          }
+        }
+      },
       [7] = {
-  Player_Part_Mouth = {
-    Location = {
-  0,
-  1.5,
-  0
-}
-  }
-},
+        Player_Part_Mouth = {
+          Location = {
+            0,
+            1.5,
+            0
+          }
+        }
+      },
       [8] = {
         Player_Part_Head_B = {
           Location = {
@@ -342,10 +342,10 @@ return ReadOnly("CharAccessoryOffset", {
       [9] = {
         Player_Part_Head_Pair = {
           Location = {
-  0,
-  0,
-  -0.5
-}
+            0,
+            0,
+            -0.5
+          }
         }
       }
     }
@@ -391,14 +391,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [4] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  -25
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            -25
+          }
+        }
+      },
       [5] = {
         Player_Part_Mouth = {
           Location = {
@@ -453,10 +453,10 @@ return ReadOnly("CharAccessoryOffset", {
       [4] = {
         Player_Part_Eye_L = {
           Location = {
-  0,
-  1,
-  0
-}
+            0,
+            1,
+            0
+          }
         }
       },
       [5] = {
@@ -474,14 +474,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  20
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            20
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -521,47 +521,47 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [9] = {
-  Player_Part_Waist_L = {
-    Rotation = {
-  0,
-  0,
-  -10
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Waist_L = {
+          Rotation = {
+            0,
+            0,
+            -10
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [10] = {
         Player_Part_Mouth = {
           Location = {
-  0,
-  0,
-  -0.5
-},
+            0,
+            0,
+            -0.5
+          },
           scale = {
-  0.9,
-  0.9,
-  0.9
-}
+            0.9,
+            0.9,
+            0.9
+          }
         }
       },
       [11] = {
-  Player_Part_Cloak = {
-    Location = {
-  0,
-  -2,
-  4
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-}
+        Player_Part_Cloak = {
+          Location = {
+            0,
+            -2,
+            4
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      }
     }
   },
   [1503] = {
@@ -570,26 +570,26 @@ return ReadOnly("CharAccessoryOffset", {
       [1] = {
         Player_Part_Head = {
           Location = {
-  0,
-  0,
-  1
-}
+            0,
+            0,
+            1
+          }
         }
       },
       [2] = {
-  Player_Part_Nose = {
-    Location = {
-  0,
-  2,
-  0.2
-},
-    scale = {
-  1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Nose = {
+          Location = {
+            0,
+            2,
+            0.2
+          },
+          scale = {
+            1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [3] = {
         Player_Part_Eye_R = {
           Location = {
@@ -619,23 +619,23 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [5] = {
-  Player_Part_Head_L = {
-    Location = {
-  2,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_L = {
+          Location = {
+            2,
+            2,
+            0
+          }
+        }
+      },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  30
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            30
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -694,21 +694,21 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [10] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  1,
-  0
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            1,
+            0
+          }
+        }
+      },
       [11] = {
         Player_Part_Head_B = {
           Location = {
-  0,
-  2.5,
-  0
-}
+            0,
+            2.5,
+            0
+          }
         }
       },
       [12] = {
@@ -733,10 +733,10 @@ return ReadOnly("CharAccessoryOffset", {
       [1] = {
         Player_Part_Head = {
           Location = {
-  0,
-  -2,
-  0
-}
+            0,
+            -2,
+            0
+          }
         }
       },
       [2] = {
@@ -756,10 +756,10 @@ return ReadOnly("CharAccessoryOffset", {
       [3] = {
         Player_Part_Nose = {
           Location = {
-  0,
-  0,
-  0
-}
+            0,
+            0,
+            0
+          }
         }
       },
       [4] = {
@@ -779,30 +779,30 @@ return ReadOnly("CharAccessoryOffset", {
       [5] = {
         Player_Part_Eye_L = {
           Location = {
-  0,
-  0,
-  -0.5
-}
+            0,
+            0,
+            -0.5
+          }
         }
       },
       [6] = {
-  Player_Part_Head_L = {
-    Location = {
-  2.5,
-  0.5,
-  0
-}
-  }
-},
+        Player_Part_Head_L = {
+          Location = {
+            2.5,
+            0.5,
+            0
+          }
+        }
+      },
       [7] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [8] = {
         Player_Part_Waist = {
           Location = {
@@ -841,21 +841,21 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [11] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  1.5,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            1.5,
+            0
+          }
+        }
+      },
       [12] = {
         Player_Part_Head_Pair = {
           Location = {
-  0,
-  -2,
-  0
-}
+            0,
+            -2,
+            0
+          }
         }
       },
       [13] = {
@@ -919,14 +919,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [5] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  10
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            10
+          }
+        }
+      },
       [6] = {
         Player_Part_Head_L = {
           Location = {
@@ -942,14 +942,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [7] = {
-  Player_Part_Mouth = {
-    Location = {
-  0,
-  -0.2,
-  0
-}
-  }
-},
+        Player_Part_Mouth = {
+          Location = {
+            0,
+            -0.2,
+            0
+          }
+        }
+      },
       [8] = {
         Player_Part_Head_Pair = {
           Location = {
@@ -979,51 +979,51 @@ return ReadOnly("CharAccessoryOffset", {
     ModelId = 2101,
     OffsetParameter = {
       [1] = {
-  Player_Part_Head = {
-    Location = {
-  0,
-  0,
-  2
-}
-  }
-},
+        Player_Part_Head = {
+          Location = {
+            0,
+            0,
+            2
+          }
+        }
+      },
       [2] = {
-  Player_Part_Eye_R = {
-    Location = {
-  0,
-  0,
-  -1
-},
-    Rotation = {
-  0,
-  0,
-  10
-},
-    scale = {
-  0.9,
-  0.9,
-  0.9
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            0,
+            0,
+            -1
+          },
+          Rotation = {
+            0,
+            0,
+            10
+          },
+          scale = {
+            0.9,
+            0.9,
+            0.9
+          }
+        }
+      },
       [3] = {
-  Player_Part_Eye_L = {
-    Location = {
-  -0.5,
-  1,
-  -1
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            -0.5,
+            1,
+            -1
+          }
+        }
+      },
       [4] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  -5,
-  20
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            -5,
+            20
+          }
+        }
+      },
       [5] = {
         Player_Part_Waist = {
           Location = {
@@ -1067,28 +1067,28 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [8] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  0,
-  2
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            0,
+            2
+          }
+        }
+      },
       [9] = {
-  Player_Part_Cloak = {
-    Location = {
-  0,
-  -2,
-  4
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-}
+        Player_Part_Cloak = {
+          Location = {
+            0,
+            -2,
+            4
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      }
     }
   },
   [2301] = {
@@ -1132,21 +1132,21 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [4] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  -25
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            -25
+          }
+        }
+      },
       [5] = {
         Player_Part_Mouth = {
           Location = {
-  0,
-  0,
-  -0.5
-}
+            0,
+            0,
+            -0.5
+          }
         }
       }
     }
@@ -1183,24 +1183,24 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [3] = {
-  Player_Part_Eye_R = {
-    Location = {
-  0,
-  0.5,
-  -1
-},
-    Rotation = {
-  5,
-  0,
-  5
-},
-    scale = {
-  0.85,
-  0.85,
-  0.85
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            0,
+            0.5,
+            -1
+          },
+          Rotation = {
+            5,
+            0,
+            5
+          },
+          scale = {
+            0.85,
+            0.85,
+            0.85
+          }
+        }
+      },
       [4] = {
         Player_Part_Eye_L = {
           Location = {
@@ -1230,14 +1230,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  15
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            15
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -1314,14 +1314,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [12] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [13] = {
         Player_Part_Cloak = {
           Location = {
@@ -1389,14 +1389,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [4] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0,
-  -1
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0,
+            -1
+          }
+        }
+      },
       [5] = {
         Player_Part_Head_L = {
           Location = {
@@ -1412,14 +1412,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  20
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            20
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -1440,24 +1440,24 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [8] = {
-  Player_Part_Waist_R = {
-    Location = {
-  -2,
-  -4,
-  -4
-},
-    Rotation = {
-  0,
-  0,
-  -20
-},
-    scale = {
-  0.6,
-  0.6,
-  0.6
-}
-  }
-},
+        Player_Part_Waist_R = {
+          Location = {
+            -2,
+            -4,
+            -4
+          },
+          Rotation = {
+            0,
+            0,
+            -20
+          },
+          scale = {
+            0.6,
+            0.6,
+            0.6
+          }
+        }
+      },
       [9] = {
         Player_Part_Waist_L = {
           Location = {
@@ -1506,28 +1506,28 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [12] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [13] = {
-  Player_Part_Cloak = {
-    Location = {
-  0,
-  -2,
-  4
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-}
+        Player_Part_Cloak = {
+          Location = {
+            0,
+            -2,
+            4
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      }
     }
   },
   [3102] = {
@@ -1599,14 +1599,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  15
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            15
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -1676,26 +1676,26 @@ return ReadOnly("CharAccessoryOffset", {
       [11] = {
         Player_Part_Head_Pair = {
           Location = {
-  0,
-  0,
-  -1
-}
+            0,
+            0,
+            -1
+          }
         }
       },
       [12] = {
-  Player_Part_Cloak = {
-    Location = {
-  0,
-  -3,
-  4
-},
-    scale = {
-  1.15,
-  1.15,
-  1.15
-}
-  }
-}
+        Player_Part_Cloak = {
+          Location = {
+            0,
+            -3,
+            4
+          },
+          scale = {
+            1.15,
+            1.15,
+            1.15
+          }
+        }
+      }
     }
   },
   [3103] = {
@@ -1767,14 +1767,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  10
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            10
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -1925,14 +1925,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [5] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  -5,
-  20
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            -5,
+            20
+          }
+        }
+      },
       [6] = {
         Player_Part_Waist = {
           Location = {
@@ -1953,38 +1953,38 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [7] = {
-  Player_Part_Waist_R = {
-    Location = {
-  -2,
-  -4,
-  -4
-},
-    Rotation = {
-  0,
-  0,
-  -20
-},
-    scale = {
-  0.6,
-  0.6,
-  0.6
-}
-  }
-},
+        Player_Part_Waist_R = {
+          Location = {
+            -2,
+            -4,
+            -4
+          },
+          Rotation = {
+            0,
+            0,
+            -20
+          },
+          scale = {
+            0.6,
+            0.6,
+            0.6
+          }
+        }
+      },
       [8] = {
-  Player_Part_Waist_L = {
-    Location = {
-  -1,
-  0,
-  0
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Waist_L = {
+          Location = {
+            -1,
+            0,
+            0
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [9] = {
         Player_Part_Mouth = {
           Location = {
@@ -2000,23 +2000,23 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [10] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            2,
+            0
+          }
+        }
+      },
       [11] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  1,
-  0
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            1,
+            0
+          }
+        }
+      },
       [12] = {
         Player_Part_Cloak = {
           Location = {
@@ -2079,30 +2079,30 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [4] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  10
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            10
+          }
+        }
+      },
       [5] = {
-  Player_Part_Mouth = {
-    Location = {
-  0,
-  -0.2,
-  0
-}
-  }
-},
+        Player_Part_Mouth = {
+          Location = {
+            0,
+            -0.2,
+            0
+          }
+        }
+      },
       [6] = {
         Player_Part_Head_B = {
           Location = {
-  0,
-  0,
-  1
-}
+            0,
+            0,
+            1
+          }
         }
       },
       [7] = {
@@ -2148,14 +2148,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [3] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0,
-  -1
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0,
+            -1
+          }
+        }
+      },
       [4] = {
         Player_Part_Head_Fx = {
           Location = {
@@ -2245,32 +2245,32 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [5] = {
-  Player_Part_Head_R = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_R = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [6] = {
-  Player_Part_Head_L = {
-    Location = {
-  2,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_L = {
+          Location = {
+            2,
+            2,
+            0
+          }
+        }
+      },
       [7] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  15
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            15
+          }
+        }
+      },
       [8] = {
         Player_Part_Waist = {
           Location = {
@@ -2329,14 +2329,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [11] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  1.5,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            1.5,
+            0
+          }
+        }
+      },
       [12] = {
         Player_Part_Head_Pair = {
           scale = {
@@ -2370,19 +2370,19 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [2] = {
-  Player_Part_Nose = {
-    Location = {
-  0,
-  2,
-  0.2
-},
-    scale = {
-  1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Nose = {
+          Location = {
+            0,
+            2,
+            0.2
+          },
+          scale = {
+            1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [3] = {
         Player_Part_Eye_R = {
           Location = {
@@ -2430,19 +2430,19 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [7] = {
-  Player_Part_Waist_L = {
-    Location = {
-  2,
-  0,
-  0
-},
-    scale = {
-  1.25,
-  1.25,
-  1.25
-}
-  }
-},
+        Player_Part_Waist_L = {
+          Location = {
+            2,
+            0,
+            0
+          },
+          scale = {
+            1.25,
+            1.25,
+            1.25
+          }
+        }
+      },
       [8] = {
         Player_Part_Mouth = {
           Location = {
@@ -2455,10 +2455,10 @@ return ReadOnly("CharAccessoryOffset", {
       [9] = {
         Player_Part_Head_B = {
           Location = {
-  0,
-  1,
-  0
-}
+            0,
+            1,
+            0
+          }
         }
       }
     }
@@ -2476,19 +2476,19 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [2] = {
-  Player_Part_Nose = {
-    Location = {
-  0,
-  2,
-  0.2
-},
-    scale = {
-  1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Nose = {
+          Location = {
+            0,
+            2,
+            0.2
+          },
+          scale = {
+            1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [3] = {
         Player_Part_Eye_R = {
           Location = {
@@ -2511,39 +2511,39 @@ return ReadOnly("CharAccessoryOffset", {
       [4] = {
         Player_Part_Eye_L = {
           Location = {
-  0,
-  2,
-  0
-}
+            0,
+            2,
+            0
+          }
         }
       },
       [5] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  30
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            30
+          }
+        }
+      },
       [6] = {
-  Player_Part_Mouth = {
-    Location = {
-  0,
-  1.5,
-  0
-}
-  }
-},
+        Player_Part_Mouth = {
+          Location = {
+            0,
+            1.5,
+            0
+          }
+        }
+      },
       [7] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            2,
+            0
+          }
+        }
+      },
       [8] = {
         Player_Part_Head_Pair = {
           Location = {
@@ -2566,10 +2566,10 @@ return ReadOnly("CharAccessoryOffset", {
       [1] = {
         Player_Part_Head = {
           Location = {
-  0,
-  0,
-  -0.5
-}
+            0,
+            0,
+            -0.5
+          }
         }
       },
       [2] = {
@@ -2606,14 +2606,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [4] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0.5,
-  -1
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0.5,
+            -1
+          }
+        }
+      },
       [5] = {
         Player_Part_Head_L = {
           Location = {
@@ -2629,14 +2629,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  -5,
-  20
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            -5,
+            20
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -2657,38 +2657,38 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [8] = {
-  Player_Part_Waist_R = {
-    Location = {
-  -2,
-  -4,
-  -4
-},
-    Rotation = {
-  0,
-  0,
-  -20
-},
-    scale = {
-  0.6,
-  0.6,
-  0.6
-}
-  }
-},
+        Player_Part_Waist_R = {
+          Location = {
+            -2,
+            -4,
+            -4
+          },
+          Rotation = {
+            0,
+            0,
+            -20
+          },
+          scale = {
+            0.6,
+            0.6,
+            0.6
+          }
+        }
+      },
       [9] = {
-  Player_Part_Waist_L = {
-    Location = {
-  -1,
-  0,
-  0
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Waist_L = {
+          Location = {
+            -1,
+            0,
+            0
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [10] = {
         Player_Part_Mouth = {
           Location = {
@@ -2709,37 +2709,37 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [11] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            2,
+            0
+          }
+        }
+      },
       [12] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [13] = {
-  Player_Part_Cloak = {
-    Location = {
-  0,
-  -3,
-  4
-},
-    scale = {
-  1.15,
-  1.15,
-  1.15
-}
-  }
-}
+        Player_Part_Cloak = {
+          Location = {
+            0,
+            -3,
+            4
+          },
+          scale = {
+            1.15,
+            1.15,
+            1.15
+          }
+        }
+      }
     }
   },
   [5101] = {
@@ -2760,44 +2760,44 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [2] = {
-  Player_Part_Eye_R = {
-    Location = {
-  -1,
-  -2.2,
-  -3
-},
-    Rotation = {
-  3,
-  0,
-  5
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            -1,
+            -2.2,
+            -3
+          },
+          Rotation = {
+            3,
+            0,
+            5
+          }
+        }
+      },
       [3] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  -1,
-  -3
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            -1,
+            -3
+          }
+        }
+      },
       [4] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  -25
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            -25
+          }
+        }
+      },
       [5] = {
         Player_Part_Mouth = {
           Location = {
-  0,
-  -2,
-  -2
-}
+            0,
+            -2,
+            -2
+          }
         }
       }
     }
@@ -2815,19 +2815,19 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [2] = {
-  Player_Part_Nose = {
-    Location = {
-  0,
-  2,
-  0.2
-},
-    scale = {
-  1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Nose = {
+          Location = {
+            0,
+            2,
+            0.2
+          },
+          scale = {
+            1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [3] = {
         Player_Part_Eye_R = {
           Location = {
@@ -2866,14 +2866,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_L = {
-    Location = {
-  2,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_L = {
+          Location = {
+            2,
+            2,
+            0
+          }
+        }
+      },
       [7] = {
         Player_Part_Mouth = {
           Location = {
@@ -2886,10 +2886,10 @@ return ReadOnly("CharAccessoryOffset", {
       [8] = {
         Player_Part_Head_B = {
           Location = {
-  0,
-  -2,
-  -2
-}
+            0,
+            -2,
+            -2
+          }
         }
       }
     }
@@ -2900,45 +2900,45 @@ return ReadOnly("CharAccessoryOffset", {
       [1] = {
         Player_Part_Nose = {
           Location = {
-  0,
-  0,
-  -0.5
-},
+            0,
+            0,
+            -0.5
+          },
           scale = {
-  0.9,
-  0.9,
-  0.9
-}
+            0.9,
+            0.9,
+            0.9
+          }
         }
       },
       [2] = {
-  Player_Part_Eye_R = {
-    Location = {
-  0,
-  0,
-  -1
-},
-    Rotation = {
-  0,
-  0,
-  8
-},
-    scale = {
-  0.8,
-  0.8,
-  0.8
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            0,
+            0,
+            -1
+          },
+          Rotation = {
+            0,
+            0,
+            8
+          },
+          scale = {
+            0.8,
+            0.8,
+            0.8
+          }
+        }
+      },
       [3] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0.5,
-  -1
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0.5,
+            -1
+          }
+        }
+      },
       [4] = {
         Player_Part_Mouth = {
           Location = {
@@ -2970,10 +2970,10 @@ return ReadOnly("CharAccessoryOffset", {
       [1] = {
         Player_Part_Head = {
           Location = {
-  0,
-  1,
-  0
-}
+            0,
+            1,
+            0
+          }
         }
       },
       [2] = {
@@ -2991,51 +2991,51 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [3] = {
-  Player_Part_Eye_R = {
-    Location = {
-  0,
-  0.5,
-  -1
-},
-    Rotation = {
-  5,
-  0,
-  5
-},
-    scale = {
-  0.85,
-  0.85,
-  0.85
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            0,
+            0.5,
+            -1
+          },
+          Rotation = {
+            5,
+            0,
+            5
+          },
+          scale = {
+            0.85,
+            0.85,
+            0.85
+          }
+        }
+      },
       [4] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0.5,
-  -1
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0.5,
+            -1
+          }
+        }
+      },
       [5] = {
-  Player_Part_Head_L = {
-    Location = {
-  2,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_L = {
+          Location = {
+            2,
+            2,
+            0
+          }
+        }
+      },
       [6] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  15
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            15
+          }
+        }
+      },
       [7] = {
         Player_Part_Waist = {
           Location = {
@@ -3056,38 +3056,38 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [8] = {
-  Player_Part_Waist_R = {
-    Location = {
-  -2,
-  -4,
-  -4
-},
-    Rotation = {
-  0,
-  0,
-  -20
-},
-    scale = {
-  0.6,
-  0.6,
-  0.6
-}
-  }
-},
+        Player_Part_Waist_R = {
+          Location = {
+            -2,
+            -4,
+            -4
+          },
+          Rotation = {
+            0,
+            0,
+            -20
+          },
+          scale = {
+            0.6,
+            0.6,
+            0.6
+          }
+        }
+      },
       [9] = {
-  Player_Part_Waist_L = {
-    Rotation = {
-  0,
-  0,
-  -10
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-},
+        Player_Part_Waist_L = {
+          Rotation = {
+            0,
+            0,
+            -10
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      },
       [10] = {
         Player_Part_Mouth = {
           Location = {
@@ -3103,37 +3103,37 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [11] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [12] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [13] = {
-  Player_Part_Cloak = {
-    Location = {
-  0,
-  -2,
-  4
-},
-    scale = {
-  1.1,
-  1.1,
-  1.1
-}
-  }
-}
+        Player_Part_Cloak = {
+          Location = {
+            0,
+            -2,
+            4
+          },
+          scale = {
+            1.1,
+            1.1,
+            1.1
+          }
+        }
+      }
     }
   },
   [160101] = {
@@ -3196,32 +3196,32 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [5] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0,
-  0
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0,
+            0
+          }
+        }
+      },
       [6] = {
-  Player_Part_Head_L = {
-    Location = {
-  2.5,
-  0.5,
-  0
-}
-  }
-},
+        Player_Part_Head_L = {
+          Location = {
+            2.5,
+            0.5,
+            0
+          }
+        }
+      },
       [7] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  0,
-  10
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            0,
+            10
+          }
+        }
+      },
       [8] = {
         Player_Part_Waist = {
           Location = {
@@ -3270,14 +3270,14 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [11] = {
-  Player_Part_Head_B = {
-    Location = {
-  0,
-  2,
-  0
-}
-  }
-},
+        Player_Part_Head_B = {
+          Location = {
+            0,
+            2,
+            0
+          }
+        }
+      },
       [12] = {
         Player_Part_Head_Pair = {
           Location = {
@@ -3307,51 +3307,51 @@ return ReadOnly("CharAccessoryOffset", {
     ModelId = 210199,
     OffsetParameter = {
       [1] = {
-  Player_Part_Head = {
-    Location = {
-  0,
-  0,
-  2
-}
-  }
-},
+        Player_Part_Head = {
+          Location = {
+            0,
+            0,
+            2
+          }
+        }
+      },
       [2] = {
-  Player_Part_Eye_R = {
-    Location = {
-  0,
-  0,
-  -1
-},
-    Rotation = {
-  0,
-  0,
-  10
-},
-    scale = {
-  0.9,
-  0.9,
-  0.9
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            0,
+            0,
+            -1
+          },
+          Rotation = {
+            0,
+            0,
+            10
+          },
+          scale = {
+            0.9,
+            0.9,
+            0.9
+          }
+        }
+      },
       [3] = {
-  Player_Part_Eye_L = {
-    Location = {
-  -0.5,
-  1,
-  -1
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            -0.5,
+            1,
+            -1
+          }
+        }
+      },
       [4] = {
-  Player_Part_Head_Fx = {
-    Location = {
-  0,
-  -5,
-  20
-}
-  }
-},
+        Player_Part_Head_Fx = {
+          Location = {
+            0,
+            -5,
+            20
+          }
+        }
+      },
       [5] = {
         Player_Part_Head_B = {
           Location = {
@@ -3367,42 +3367,42 @@ return ReadOnly("CharAccessoryOffset", {
         }
       },
       [6] = {
-  Player_Part_Head_Pair = {
-    Location = {
-  0,
-  0,
-  2
-}
-  }
-}
+        Player_Part_Head_Pair = {
+          Location = {
+            0,
+            0,
+            2
+          }
+        }
+      }
     }
   },
   [510199] = {
     ModelId = 510199,
     OffsetParameter = {
       [1] = {
-  Player_Part_Eye_R = {
-    Location = {
-  -1,
-  -2.2,
-  -3
-},
-    Rotation = {
-  3,
-  0,
-  5
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            -1,
+            -2.2,
+            -3
+          },
+          Rotation = {
+            3,
+            0,
+            5
+          }
+        }
+      },
       [2] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  -1,
-  -3
-}
-  }
-},
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            -1,
+            -3
+          }
+        }
+      },
       [3] = {
         Player_Part_Head_Fx = {
           Location = {
@@ -3418,33 +3418,33 @@ return ReadOnly("CharAccessoryOffset", {
     ModelId = 530199,
     OffsetParameter = {
       [1] = {
-  Player_Part_Eye_R = {
-    Location = {
-  0,
-  0,
-  -1
-},
-    Rotation = {
-  0,
-  0,
-  8
-},
-    scale = {
-  0.8,
-  0.8,
-  0.8
-}
-  }
-},
+        Player_Part_Eye_R = {
+          Location = {
+            0,
+            0,
+            -1
+          },
+          Rotation = {
+            0,
+            0,
+            8
+          },
+          scale = {
+            0.8,
+            0.8,
+            0.8
+          }
+        }
+      },
       [2] = {
-  Player_Part_Eye_L = {
-    Location = {
-  0,
-  0.5,
-  -1
-}
-  }
-}
+        Player_Part_Eye_L = {
+          Location = {
+            0,
+            0.5,
+            -1
+          }
+        }
+      }
     }
   }
 })

@@ -17,7 +17,9 @@ return ReadOnly("SurvivalPro", {
       [2] = {100503},
       [3] = {100504},
       [4] = {100505},
-      [5] = {100506}
+      [5] = {
+        100506
+      }
     },
     RoundTime = 180,
     SpLoopRule = {1},

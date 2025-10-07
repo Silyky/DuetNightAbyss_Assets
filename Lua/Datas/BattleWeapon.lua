@@ -16,10 +16,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "ATK",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2,
     CRI = 0.25,
@@ -47,11 +47,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Sword_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Sword_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -64,9 +66,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 20,
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     CRD = 2.15,
     CRI = 0.22,
@@ -100,11 +102,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Sword_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Sword_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -151,11 +155,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Sword_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Sword_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -202,11 +208,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Sword_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Sword_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -219,9 +227,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 20,
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed",
+        Rate = "#1"
+      }
     },
     CRD = 2.1,
     CRI = 0.23,
@@ -252,11 +260,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Sword_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Sword_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -269,10 +279,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 21,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillRange",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillRange",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.2,
     CRI = 0.22,
@@ -304,11 +314,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Polearm_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Polearm_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -321,9 +333,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 18,
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed",
+        Rate = "#1"
+      }
     },
     CRD = 2.15,
     CRI = 0.24,
@@ -353,11 +365,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Polearm_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Polearm_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -370,10 +384,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 20,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2,
     CRI = 0.3,
@@ -408,11 +422,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Polearm_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Polearm_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -462,11 +478,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Scythe_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Scythe_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -499,11 +517,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Scythe_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Scythe_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -516,10 +536,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2,
     CRI = 0.25,
@@ -547,11 +567,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Scythe_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Scythe_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -584,11 +606,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Scythe_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Scythe_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -621,11 +645,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Scythe_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Scythe_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -658,11 +684,13 @@ return ReadOnly("BattleWeapon", {
       1020104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Scythe_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Scythe_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -675,10 +703,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "MaxHp",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "MaxHp",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.05,
     CRI = 0.24,
@@ -713,11 +741,13 @@ return ReadOnly("BattleWeapon", {
       1030104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -729,7 +759,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Slash = 18,
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     CRD = 2.05,
     CRI = 0.2,
@@ -759,11 +791,13 @@ return ReadOnly("BattleWeapon", {
       1030104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -776,10 +810,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 17,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.1,
     CRI = 0.24,
@@ -807,11 +841,13 @@ return ReadOnly("BattleWeapon", {
       1030104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -862,11 +898,13 @@ return ReadOnly("BattleWeapon", {
       1030104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -879,9 +917,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 21,
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed",
+        Rate = "#1"
+      }
     },
     CRD = 2.1,
     CRI = 0.16,
@@ -912,11 +950,13 @@ return ReadOnly("BattleWeapon", {
       1040104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Dualblade01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Dualblade01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -925,14 +965,14 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root", SocketB = "hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Dualblade02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root", SocketB = "hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Dualblade02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {1040102}
   },
@@ -940,7 +980,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Smash = 18,
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     CRD = 2.15,
     CRI = 0.24,
@@ -970,11 +1012,13 @@ return ReadOnly("BattleWeapon", {
       1040104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Dualblade01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Dualblade01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -983,14 +1027,14 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root", SocketB = "hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Dualblade02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root", SocketB = "hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Dualblade02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {1040202}
   },
@@ -999,10 +1043,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 20,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillRange",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillRange",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.35,
     CRI = 0.2,
@@ -1030,11 +1074,13 @@ return ReadOnly("BattleWeapon", {
       1040104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Dualblade01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Dualblade01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1043,14 +1089,14 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root", SocketB = "hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Dualblade02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root", SocketB = "hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Dualblade02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {1040302}
   },
@@ -1059,10 +1105,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 21,
     AddAttrs = {
       [1] = {
-  AttrName = "MaxHp",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "MaxHp",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.25,
     CRI = 0.2,
@@ -1094,11 +1140,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Swordwhip_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Swordwhip_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1111,10 +1159,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 18,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.1,
     CRI = 0.3,
@@ -1148,11 +1196,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Swordwhip_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Swordwhip_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1165,10 +1215,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.15,
     CRI = 0.18,
@@ -1196,11 +1246,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Swordwhip_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Swordwhip_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1213,9 +1265,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 17,
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     CRD = 2.35,
     CRI = 0.26,
@@ -1246,11 +1298,13 @@ return ReadOnly("BattleWeapon", {
       1010104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Swordwhip_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Swordwhip_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1262,7 +1316,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Slash = 19,
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     CRD = 2.25,
     CRI = 0.22,
@@ -1292,11 +1348,13 @@ return ReadOnly("BattleWeapon", {
       1060104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1305,15 +1363,15 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root",
-    SocketB = "root_hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Katana02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root",
+          SocketB = "root_hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Katana02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {1060102}
   },
@@ -1322,10 +1380,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 17,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillRange",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillRange",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.15,
     CRI = 0.23,
@@ -1353,11 +1411,13 @@ return ReadOnly("BattleWeapon", {
       1060104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1366,15 +1426,15 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root",
-    SocketB = "root_hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Katana02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root",
+          SocketB = "root_hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Katana02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {1060202}
   },
@@ -1383,10 +1443,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 20,
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "ATK",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     CRD = 2.5,
     CRI = 0.2,
@@ -1417,11 +1477,13 @@ return ReadOnly("BattleWeapon", {
       1060104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Melee",
@@ -1430,15 +1492,15 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root",
-    SocketB = "root_hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Katana02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root",
+          SocketB = "root_hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Katana02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {
       1060302
@@ -1449,9 +1511,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 16,
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     BulletConver = 0.4,
     BulletInit = -1,
@@ -1487,12 +1549,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2010101,
     WeaponSkillList = {2010101, 2010102},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1505,10 +1571,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 15,
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "ATK",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 0.4,
     BulletInit = -1,
@@ -1545,12 +1611,16 @@ return ReadOnly("BattleWeapon", {
       2019901, 2019902
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1562,7 +1632,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Spike = 18,
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     BulletConver = 0.4,
     BulletInit = -1,
@@ -1602,12 +1674,16 @@ return ReadOnly("BattleWeapon", {
       2019901, 2019902
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1620,10 +1696,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 21,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 0.6,
     BulletInit = -1,
@@ -1661,8 +1737,12 @@ return ReadOnly("BattleWeapon", {
       2020101, 2020102
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1681,8 +1761,12 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 20202,
     WeaponMeshResourceId = 2020201,
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1695,10 +1779,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 0.6,
     BulletInit = -1,
@@ -1737,8 +1821,12 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2020301,
     WeaponSkillList = {2020301, 2020302},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1757,8 +1845,12 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 20204,
     WeaponMeshResourceId = 2020401,
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1770,7 +1862,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Slash = 18,
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     BulletConver = 0.6,
     BulletInit = -1,
@@ -1812,8 +1906,12 @@ return ReadOnly("BattleWeapon", {
       2020101, 2020102
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1832,8 +1930,12 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 20206,
     WeaponMeshResourceId = 2020601,
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1874,8 +1976,12 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2020301,
     WeaponSkillList = {2020701, 2020702},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1894,8 +2000,12 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 20208,
     WeaponMeshResourceId = 2020401,
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
-      UnbindHand = {SocketA = "hook_back", SocketB = "root_point"}
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
+      UnbindHand = {
+        SocketA = "hook_back", SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1946,14 +2056,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2030101,
     WeaponSkillList = {2030201, 2030202},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       HandHoldIK = {
-  SocketA = "arms_handle_b"
-},
+        SocketA = "arms_handle_b"
+      },
       UnbindHand = {
-  SocketA = "hook_cannon_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_cannon_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -1965,7 +2077,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Slash = 15,
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     BulletConver = 0.45,
     BulletIcon = "Battle_Bullet_Cannon",
@@ -2009,14 +2123,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2030201,
     WeaponSkillList = {2030301, 2030302},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       HandHoldIK = {
-  SocketA = "arms_handle_b"
-},
+        SocketA = "arms_handle_b"
+      },
       UnbindHand = {
-  SocketA = "hook_cannon_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_cannon_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2029,10 +2145,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 18,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillRange",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillRange",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 0.35,
     BulletIcon = "Battle_Bullet_Cannon",
@@ -2064,14 +2180,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2030301,
     WeaponSkillList = {2030101, 2030102},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       HandHoldIK = {
-  SocketA = "arms_handle_b"
-},
+        SocketA = "arms_handle_b"
+      },
       UnbindHand = {
-  SocketA = "hook_cannon_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_cannon_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2083,7 +2201,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Slash = 16,
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     BulletConver = 0.3,
     BulletIcon = "Battle_Bullet_Cannon",
@@ -2117,14 +2237,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2030401,
     WeaponSkillList = {2030401, 2030402},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       HandHoldIK = {
-  SocketA = "arms_handle_b"
-},
+        SocketA = "arms_handle_b"
+      },
       UnbindHand = {
-  SocketA = "hook_cannon_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_cannon_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2137,9 +2259,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed",
+        Rate = "#1"
+      }
     },
     BulletConver = 3.3,
     BulletIcon = "Battle_Bullet_Cannon",
@@ -2178,14 +2300,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2030501,
     WeaponSkillList = {2030501, 2030502},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       HandHoldIK = {
-  SocketA = "arms_handle_b"
-},
+        SocketA = "arms_handle_b"
+      },
       UnbindHand = {
-  SocketA = "hook_cannon_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_cannon_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2198,10 +2322,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 18,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 0.5,
     BulletIcon = "Battle_Bullet_Shotgun",
@@ -2237,12 +2361,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2040101,
     WeaponSkillList = {2040101, 2040102},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2254,7 +2382,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Smash = 16,
     AddAttrs = {
-      [1] = {AttrName = "CRI", Rate = "#1"}
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
     },
     BulletConver = 0.25,
     BulletInit = -1,
@@ -2295,12 +2425,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2040201,
     WeaponSkillList = {2040201, 2040202},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2312,7 +2446,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Slash = 17,
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     BulletConver = 0.25,
     BulletInit = -1,
@@ -2350,12 +2486,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2040301,
     WeaponSkillList = {2040301, 2040302},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2368,10 +2508,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 15,
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "ATK",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 0.3,
     BulletInit = -1,
@@ -2413,12 +2553,16 @@ return ReadOnly("BattleWeapon", {
       2040503
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2458,12 +2602,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2040401,
     WeaponSkillList = {2040601, 2040602},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2476,10 +2624,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 17,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 2,
     BulletInit = -1,
@@ -2514,12 +2662,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2050101,
     WeaponSkillList = {2050101, 2050102},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2532,9 +2684,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 15,
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     BulletConver = 1.6,
     BulletIcon = "Battle_Bullet_Laser",
@@ -2581,12 +2733,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2050201,
     WeaponSkillList = {2050201, 2050202},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2599,9 +2755,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbability",
-  Rate = "#1"
-}
+        AttrName = "TriggerProbability",
+        Rate = "#1"
+      }
     },
     BulletConver = 1.5,
     BulletIcon = "Battle_Bullet_Laser",
@@ -2644,12 +2800,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2050301,
     WeaponSkillList = {2050301, 2050302},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2661,7 +2821,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Spike = 18,
     AddAttrs = {
-      [1] = {AttrName = "MultiShoot", Rate = "#1"}
+      [1] = {
+        AttrName = "MultiShoot", Rate = "#1"
+      }
     },
     BulletConver = 1.1,
     BulletIcon = "Battle_Bullet_Laser",
@@ -2702,12 +2864,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2050401,
     WeaponSkillList = {2050401, 2050402},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2748,12 +2914,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2050201,
     WeaponSkillList = {2050501, 2050502},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2793,12 +2963,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2040301,
     WeaponSkillList = {2050601, 2050602},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2810,7 +2984,9 @@ return ReadOnly("BattleWeapon", {
     ATKLevelGrow = "ATKS",
     ATK_Slash = 16,
     AddAttrs = {
-      [1] = {AttrName = "CRD", Rate = "#1"}
+      [1] = {
+        AttrName = "CRD", Rate = "#1"
+      }
     },
     BulletConver = 0.1,
     BulletInit = -1,
@@ -2852,12 +3028,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2050701,
     WeaponSkillList = {2050701},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2870,10 +3050,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 15,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillRange",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillRange",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 1.5,
     BulletIcon = "Battle_Bullet_Laser",
@@ -2922,12 +3102,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2050901,
     WeaponSkillList = {2050301, 2050902},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -2940,10 +3124,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 18,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 0.1,
     BulletInit = -1,
@@ -2989,12 +3173,16 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2051001,
     WeaponSkillList = {2051001},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
       UnbindHand = {
-  SocketA = "hook_shotgun_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -3007,9 +3195,9 @@ return ReadOnly("BattleWeapon", {
     ATK_Spike = 17,
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeed",
-  Rate = "#1"
-}
+        AttrName = "AttackSpeed",
+        Rate = "#1"
+      }
     },
     BulletConver = 0.5,
     BulletIcon = "Battle_Bullet_Arrow",
@@ -3047,11 +3235,13 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2060101,
     WeaponSkillList = {2060101, 2060102},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
       UnbindHand = {
-  SocketA = "hook_Bow_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_Bow_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -3065,10 +3255,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 18,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 4.75,
     BulletIcon = "Battle_Bullet_Arrow",
@@ -3113,11 +3303,13 @@ return ReadOnly("BattleWeapon", {
       2060201
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
       UnbindHand = {
-  SocketA = "hook_Bow_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_Bow_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -3131,10 +3323,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Slash = 15,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillRange",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillRange",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 1.25,
     BulletIcon = "Battle_Bullet_Arrow",
@@ -3179,11 +3371,13 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 2060301,
     WeaponSkillList = {2060301, 2060302},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
       UnbindHand = {
-  SocketA = "hook_Bow_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_Bow_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -3197,10 +3391,10 @@ return ReadOnly("BattleWeapon", {
     ATK_Smash = 19,
     AddAttrs = {
       [1] = {
-  AttrName = "SkillRange",
-  IsCharAttr = 1,
-  Rate = "#1"
-}
+        AttrName = "SkillRange",
+        IsCharAttr = 1,
+        Rate = "#1"
+      }
     },
     BulletConver = 4.75,
     BulletIcon = "Battle_Bullet_Arrow",
@@ -3239,11 +3433,13 @@ return ReadOnly("BattleWeapon", {
       2060201
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_l"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
       UnbindHand = {
-  SocketA = "hook_Bow_back",
-  SocketB = "root_point"
-}
+        SocketA = "hook_Bow_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ranged",
@@ -3278,11 +3474,13 @@ return ReadOnly("BattleWeapon", {
       110124
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "Root",
-  SocketB = "hook_upperarm_l_02"
-}
+        SocketA = "Root",
+        SocketB = "hook_upperarm_l_02"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3333,11 +3531,13 @@ return ReadOnly("BattleWeapon", {
       110325
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "Root",
-  SocketB = "hook_upperarm_l_02"
-}
+        SocketA = "Root",
+        SocketB = "hook_upperarm_l_02"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3375,11 +3575,13 @@ return ReadOnly("BattleWeapon", {
       110325
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "Root",
-  SocketB = "hook_upperarm_l_02"
-}
+        SocketA = "Root",
+        SocketB = "hook_upperarm_l_02"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3415,11 +3617,13 @@ return ReadOnly("BattleWeapon", {
       150126
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3449,11 +3653,13 @@ return ReadOnly("BattleWeapon", {
       1503104
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Sword_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Sword_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3483,11 +3689,13 @@ return ReadOnly("BattleWeapon", {
       1503124
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Polearm_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Polearm_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3517,11 +3725,13 @@ return ReadOnly("BattleWeapon", {
       1503144
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3551,11 +3761,13 @@ return ReadOnly("BattleWeapon", {
       1503164
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Dualblade01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Dualblade01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3565,14 +3777,14 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root", SocketB = "hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Dualblade02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root", SocketB = "hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Dualblade02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {150315}
   },
@@ -3606,11 +3818,13 @@ return ReadOnly("BattleWeapon", {
     WeaponMeshResourceId = 150101,
     WeaponSkillList = {150441, 150422},
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Claymore_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Claymore_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3646,11 +3860,13 @@ return ReadOnly("BattleWeapon", {
       150514
     },
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Katana01_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Katana01_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3660,15 +3876,15 @@ return ReadOnly("BattleWeapon", {
     },
     WipCharmsAttachRules = {
       [1] = {
-  HandHold = {
-    SocketA = "Root",
-    SocketB = "root_hook_arm_l"
-  },
-  UnbindHand = {
-    SocketA = "root_Katana02_back",
-    SocketB = "root_point"
-  }
-}
+        HandHold = {
+          SocketA = "Root",
+          SocketB = "root_hook_arm_l"
+        },
+        UnbindHand = {
+          SocketA = "root_Katana02_back",
+          SocketB = "root_point"
+        }
+      }
     },
     WipCharmsResIds = {
       1060302
@@ -3770,7 +3986,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 510101,
     WeaponSkillList = {510104, 510105},
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "root"}
+      HandHold = {
+        SocketA = "root", SocketB = "root"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3824,7 +4042,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 530101,
     WeaponSkillList = {530122},
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "root"}
+      HandHold = {
+        SocketA = "root", SocketB = "root"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3848,7 +4068,9 @@ return ReadOnly("BattleWeapon", {
       540251
     },
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "root"}
+      HandHold = {
+        SocketA = "root", SocketB = "root"
+      }
     },
     WeaponTag = {
       "Ultra",
@@ -3867,7 +4089,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 600201,
     WeaponMeshResourceId = 600202,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -3883,7 +4107,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700001,
     WeaponMeshResourceId = 700001,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -3901,7 +4127,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700101,
     WeaponMeshResourceId = 700102,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -3917,7 +4145,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700201,
     WeaponMeshResourceId = 700202,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -3935,7 +4165,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700301,
     WeaponMeshResourceId = 700302,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -3952,7 +4184,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700401,
     WeaponMeshResourceId = 700404,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -3965,7 +4199,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700402,
     WeaponMeshResourceId = 700403,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_l"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_l"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -3979,7 +4215,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700403,
     WeaponMeshResourceId = 700402,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -3994,7 +4232,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 700801,
     WeaponMeshResourceId = 700802,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4010,7 +4250,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 701001,
     WeaponMeshResourceId = 701002,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4025,7 +4267,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 701002,
     WeaponMeshResourceId = 701003,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "root"}
+      HandHold = {
+        SocketA = "root", SocketB = "root"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4039,7 +4283,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 701201,
     WeaponMeshResourceId = 701201,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4057,7 +4303,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 701301,
     WeaponMeshResourceId = 701301,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4076,7 +4324,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 800101,
     WeaponMeshResourceId = 800102,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4091,7 +4341,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 800102,
     WeaponMeshResourceId = 800103,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4106,7 +4358,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 800201,
     WeaponMeshResourceId = 800202,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4120,7 +4374,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 800301,
     WeaponMeshResourceId = 800302,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4133,7 +4389,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 850001,
     WeaponMeshResourceId = 850002,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4146,7 +4404,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 850201,
     WeaponMeshResourceId = 850202,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4159,7 +4419,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 850401,
     WeaponMeshResourceId = 850402,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4172,7 +4434,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 850501,
     WeaponMeshResourceId = 850502,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4184,11 +4448,13 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 850701,
     WeaponMeshResourceId = 850702,
     WeaponSockets = {
-      HandHold = {SocketA = "Root", SocketB = "hook_arm_r"},
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
       UnbindHand = {
-  SocketA = "root_Sword_back",
-  SocketB = "root_point"
-}
+        SocketA = "root_Sword_back",
+        SocketB = "root_point"
+      }
     },
     WeaponTag = {"Melee", "Sword"}
   },
@@ -4199,7 +4465,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 851301,
     WeaponMeshResourceId = 851302,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4212,8 +4480,12 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 851401,
     WeaponMeshResourceId = 851402,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4225,8 +4497,12 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 851701,
     WeaponMeshResourceId = 851702,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"},
-      HandHoldIK = {SocketA = "butt"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4239,7 +4515,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 900101,
     WeaponMeshResourceId = 900101,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4253,7 +4531,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 900102,
     WeaponMeshResourceId = 900101,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_l"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_l"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4268,7 +4548,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 900201,
     WeaponMeshResourceId = 900202,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4284,7 +4566,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 900701,
     WeaponMeshResourceId = 900702,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4300,7 +4584,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 950101,
     WeaponMeshResourceId = 950102,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4315,7 +4601,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 950102,
     WeaponMeshResourceId = 950102,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_l"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_l"
+      }
     },
     WeaponTag = {
       "Mon",
@@ -4330,7 +4618,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 1000101,
     WeaponMeshResourceId = 1000102,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"
@@ -4343,7 +4633,9 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 1000201,
     WeaponMeshResourceId = 1000202,
     WeaponSockets = {
-      HandHold = {SocketA = "root", SocketB = "hook_arm_r"}
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
+      }
     },
     WeaponTag = {
       "Mon", "Melee"

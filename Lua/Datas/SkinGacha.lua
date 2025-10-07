@@ -49,12 +49,6 @@ return ReadOnly("SkinGacha", {
     GachaType = "GACHA_SKIN_TYPE_SPECIAL",
     GachaWarning = "SkinGacha_Warning_Special",
     ProbabilityId = 1001,
-    RewardUpCount = 25,
-    RewardUpDisplay = "Texture2D'/Game/UI/Texture/Dynamic/Image/Gacha/SingleIcon/T_Gacha_SuperCoin01.T_Gacha_SuperCoin01'",
-    RewardUpId = {
-      [111] = 9000
-    },
-    RewardUpType = 6,
     Sequence = 2,
     Star3ItemId = 99983,
     Star4ItemId = 99982,

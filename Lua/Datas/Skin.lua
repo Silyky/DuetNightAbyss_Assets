@@ -515,7 +515,7 @@ return ReadOnly("Skin", {
     NpcSkinModelId = 8530199,
     Rarity = 5,
     RegainItemId = 111,
-    RegainItemNum = 50,
+    RegainItemNum = 25,
     SkinDescribe = "UI_Skin_Des_530101",
     SkinId = 530101,
     SkinModelId = 530199,

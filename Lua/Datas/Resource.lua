@@ -7228,8 +7228,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1101},
-      [5] = {PhantomCharId = 1101}
+      [2] = {
+        PhantomCharId = 1101
+      },
+      [5] = {
+        PhantomCharId = 1101
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7260,8 +7264,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1103},
-      [5] = {PhantomCharId = 1103}
+      [2] = {
+        PhantomCharId = 1103
+      },
+      [5] = {
+        PhantomCharId = 1103
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7292,8 +7300,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1501},
-      [5] = {PhantomCharId = 1501}
+      [2] = {
+        PhantomCharId = 1501
+      },
+      [5] = {
+        PhantomCharId = 1501
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7324,8 +7336,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1502},
-      [5] = {PhantomCharId = 1502}
+      [2] = {
+        PhantomCharId = 1502
+      },
+      [5] = {
+        PhantomCharId = 1502
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7356,8 +7372,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1503},
-      [5] = {PhantomCharId = 1503}
+      [2] = {
+        PhantomCharId = 1503
+      },
+      [5] = {
+        PhantomCharId = 1503
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7388,8 +7408,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1504},
-      [5] = {PhantomCharId = 1504}
+      [2] = {
+        PhantomCharId = 1504
+      },
+      [5] = {
+        PhantomCharId = 1504
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7420,8 +7444,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1601},
-      [5] = {PhantomCharId = 1601}
+      [2] = {
+        PhantomCharId = 1601
+      },
+      [5] = {
+        PhantomCharId = 1601
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7452,8 +7480,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 1801},
-      [5] = {PhantomCharId = 1801}
+      [2] = {
+        PhantomCharId = 1801
+      },
+      [5] = {
+        PhantomCharId = 1801
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7484,8 +7516,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 2101},
-      [5] = {PhantomCharId = 2101}
+      [2] = {
+        PhantomCharId = 2101
+      },
+      [5] = {
+        PhantomCharId = 2101
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7516,8 +7552,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 2102},
-      [5] = {PhantomCharId = 2102}
+      [2] = {
+        PhantomCharId = 2102
+      },
+      [5] = {
+        PhantomCharId = 2102
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7548,8 +7588,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 2301},
-      [5] = {PhantomCharId = 2301}
+      [2] = {
+        PhantomCharId = 2301
+      },
+      [5] = {
+        PhantomCharId = 2301
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7580,8 +7624,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 2401},
-      [5] = {PhantomCharId = 2401}
+      [2] = {
+        PhantomCharId = 2401
+      },
+      [5] = {
+        PhantomCharId = 2401
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7612,8 +7660,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 3101},
-      [5] = {PhantomCharId = 3101}
+      [2] = {
+        PhantomCharId = 3101
+      },
+      [5] = {
+        PhantomCharId = 3101
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7644,8 +7696,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 3102},
-      [5] = {PhantomCharId = 3102}
+      [2] = {
+        PhantomCharId = 3102
+      },
+      [5] = {
+        PhantomCharId = 3102
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7676,8 +7732,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 3103},
-      [5] = {PhantomCharId = 3103}
+      [2] = {
+        PhantomCharId = 3103
+      },
+      [5] = {
+        PhantomCharId = 3103
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7708,8 +7768,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 3201},
-      [5] = {PhantomCharId = 3201}
+      [2] = {
+        PhantomCharId = 3201
+      },
+      [5] = {
+        PhantomCharId = 3201
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7756,8 +7820,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 3301},
-      [5] = {PhantomCharId = 3301}
+      [2] = {
+        PhantomCharId = 3301
+      },
+      [5] = {
+        PhantomCharId = 3301
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7788,8 +7856,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 4101},
-      [5] = {PhantomCharId = 4101}
+      [2] = {
+        PhantomCharId = 4101
+      },
+      [5] = {
+        PhantomCharId = 4101
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7820,8 +7892,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 4102},
-      [5] = {PhantomCharId = 4102}
+      [2] = {
+        PhantomCharId = 4102
+      },
+      [5] = {
+        PhantomCharId = 4102
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7852,8 +7928,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 4201},
-      [5] = {PhantomCharId = 4201}
+      [2] = {
+        PhantomCharId = 4201
+      },
+      [5] = {
+        PhantomCharId = 4201
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7884,8 +7964,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 4202},
-      [5] = {PhantomCharId = 4202}
+      [2] = {
+        PhantomCharId = 4202
+      },
+      [5] = {
+        PhantomCharId = 4202
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7916,8 +8000,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 4301},
-      [5] = {PhantomCharId = 4301}
+      [2] = {
+        PhantomCharId = 4301
+      },
+      [5] = {
+        PhantomCharId = 4301
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7948,8 +8036,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 5101},
-      [5] = {PhantomCharId = 5101}
+      [2] = {
+        PhantomCharId = 5101
+      },
+      [5] = {
+        PhantomCharId = 5101
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -7980,8 +8072,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 5102},
-      [5] = {PhantomCharId = 5102}
+      [2] = {
+        PhantomCharId = 5102
+      },
+      [5] = {
+        PhantomCharId = 5102
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -8012,8 +8108,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 5301},
-      [5] = {PhantomCharId = 5301}
+      [2] = {
+        PhantomCharId = 5301
+      },
+      [5] = {
+        PhantomCharId = 5301
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",
@@ -8044,8 +8144,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 5401},
-      [5] = {PhantomCharId = 5401}
+      [2] = {
+        PhantomCharId = 5401
+      },
+      [5] = {
+        PhantomCharId = 5401
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",

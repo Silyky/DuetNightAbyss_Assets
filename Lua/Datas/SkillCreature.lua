@@ -111,7 +111,9 @@ return ReadOnly("SkillCreature", {
     },
     ParabolaInfo = {
       Ecc = 0.96,
-      EccRange = {0.92, 1},
+      EccRange = {
+        0.92, 1
+      },
       K = 0.5,
       Length = 2000
     },
@@ -143,7 +145,9 @@ return ReadOnly("SkillCreature", {
     },
     ParabolaInfo = {
       Ecc = 0.96,
-      EccRange = {0.92, 1},
+      EccRange = {
+        0.92, 1
+      },
       K = 0.5,
       Length = 2000
     },
@@ -175,7 +179,9 @@ return ReadOnly("SkillCreature", {
     },
     ParabolaInfo = {
       Ecc = 0.96,
-      EccRange = {0.92, 1},
+      EccRange = {
+        0.92, 1
+      },
       K = 0.5,
       Length = 2000
     },
@@ -1428,7 +1434,9 @@ return ReadOnly("SkillCreature", {
     HitEnemy = {150414},
     LoopExecuteSkillEffects = {
       Interval = 0.25,
-      SkillEffects = {26}
+      SkillEffects = {
+        26
+      }
     },
     ShapeInfo = {
       BoxHeight = 150,
@@ -1927,7 +1935,9 @@ return ReadOnly("SkillCreature", {
     IsNotDestroyInFall = true,
     LoopExecuteSkillEffects = {
       Interval = 2,
-      SkillEffects = {330125}
+      SkillEffects = {
+        330125
+      }
     },
     ShapeInfo = {
       BoxHeight = 30,
@@ -1985,7 +1995,9 @@ return ReadOnly("SkillCreature", {
     IsNotDestroyInFall = true,
     LoopExecuteSkillEffects = {
       Interval = 2,
-      SkillEffects = {330125}
+      SkillEffects = {
+        330125
+      }
     },
     ShapeInfo = {
       BoxHeight = 30,
@@ -2010,7 +2022,9 @@ return ReadOnly("SkillCreature", {
     HitEnemy = {410114},
     LoopExecuteSkillEffects = {
       Interval = 0.25,
-      SkillEffects = {26}
+      SkillEffects = {
+        26
+      }
     },
     ShapeInfo = {
       BoxHeight = 150,
@@ -2037,7 +2051,9 @@ return ReadOnly("SkillCreature", {
     HitEnemy = {410115},
     LoopExecuteSkillEffects = {
       Interval = 0.25,
-      SkillEffects = {26}
+      SkillEffects = {
+        26
+      }
     },
     ShapeInfo = {
       BoxHeight = 150,

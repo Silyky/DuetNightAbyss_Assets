@@ -64,7 +64,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [801] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxES", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 801,
     CombatConditionId = 502,
@@ -74,8 +76,12 @@ return ReadOnly("PureLogicBuff", {
   },
   [802] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = "#2"},
-      [2] = {AttrName = "MaxES", Rate = "#1"}
+      [1] = {
+        AttrName = "DEF", Rate = "#2"
+      },
+      [2] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 802,
     CombatConditionId = 502,
@@ -85,9 +91,15 @@ return ReadOnly("PureLogicBuff", {
   },
   [803] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#3"},
-      [2] = {AttrName = "DEF", Rate = "#2"},
-      [3] = {AttrName = "MaxES", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#3"
+      },
+      [2] = {
+        AttrName = "DEF", Rate = "#2"
+      },
+      [3] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 803,
     CombatConditionId = 502,
@@ -98,9 +110,15 @@ return ReadOnly("PureLogicBuff", {
   [804] = {
     AddAttrs = {
       [1] = {AttrName = "ATK", Rate = "#4"},
-      [2] = {AttrName = "MaxHp", Rate = "#3"},
-      [3] = {AttrName = "DEF", Rate = "#2"},
-      [4] = {AttrName = "MaxES", Rate = "#1"}
+      [2] = {
+        AttrName = "MaxHp", Rate = "#3"
+      },
+      [3] = {
+        AttrName = "DEF", Rate = "#2"
+      },
+      [4] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 804,
     CombatConditionId = 502,
@@ -181,10 +199,10 @@ return ReadOnly("PureLogicBuff", {
   [1800] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffId = 1800,
     MaxLayer = 3,
@@ -245,9 +263,9 @@ return ReadOnly("PureLogicBuff", {
   [6114] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Value = 1
-}
+        AttrName = "WeaponCRIModifierRate",
+        Value = 1
+      }
     },
     BuffId = 6114,
     MergeRule1 = "Global",
@@ -255,7 +273,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [6121] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 1}
+      [1] = {
+        AttrName = "ATK", Rate = 1
+      }
     },
     BuffId = 6121,
     MergeRule1 = "Personal",
@@ -276,9 +296,9 @@ return ReadOnly("PureLogicBuff", {
   [6124] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6124,
     MergeRule1 = "Global",
@@ -286,7 +306,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [6131] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 1}
+      [1] = {
+        AttrName = "ATK", Rate = 1
+      }
     },
     BuffId = 6131,
     MergeRule1 = "Personal",
@@ -307,9 +329,9 @@ return ReadOnly("PureLogicBuff", {
   [6134] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6134,
     MergeRule1 = "Global",
@@ -318,9 +340,9 @@ return ReadOnly("PureLogicBuff", {
   [6141] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6141,
     MergeRule1 = "Personal",
@@ -341,9 +363,9 @@ return ReadOnly("PureLogicBuff", {
   [6144] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = 1
-}
+        AttrName = "EnmityValue",
+        Value = 1
+      }
     },
     BuffId = 6144,
     MergeRule1 = "Global",
@@ -352,9 +374,9 @@ return ReadOnly("PureLogicBuff", {
   [6151] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6151,
     MergeRule1 = "Personal",
@@ -375,9 +397,9 @@ return ReadOnly("PureLogicBuff", {
   [6154] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = 1
-}
+        AttrName = "EnmityValue",
+        Value = 1
+      }
     },
     BuffId = 6154,
     MergeRule1 = "Global",
@@ -413,9 +435,9 @@ return ReadOnly("PureLogicBuff", {
   [6164] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Value = 1
-}
+        AttrName = "WeaponCRIModifierRate",
+        Value = 1
+      }
     },
     BuffId = 6164,
     MergeRule1 = "Global",
@@ -455,7 +477,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [100002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 100002,
     MaxLayer = 2,
@@ -573,7 +597,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [110002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 110002,
     CombatConditionId = 1001,
@@ -595,7 +621,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [110004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 110004,
     CombatConditionId = 1001,
@@ -695,7 +723,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [150002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 150002,
     CombatConditionId = 1006,
@@ -717,7 +747,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [150004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 150004,
     CombatConditionId = 1006,
@@ -761,22 +793,24 @@ return ReadOnly("PureLogicBuff", {
   [150301] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150301,
     BuffSpModify = {
-      [150302] = {Value = -0.3}
+      [150302] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150305
@@ -788,22 +822,24 @@ return ReadOnly("PureLogicBuff", {
   [150302] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150302,
     BuffSpModify = {
-      [150321] = {Value = -0.3}
+      [150321] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150306
@@ -815,7 +851,9 @@ return ReadOnly("PureLogicBuff", {
   [150305] = {
     BuffId = 150305,
     BuffSpModify = {
-      [150302] = {Value = -20}
+      [150302] = {
+        Value = -20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -823,7 +861,9 @@ return ReadOnly("PureLogicBuff", {
   [150306] = {
     BuffId = 150306,
     BuffSpModify = {
-      [150321] = {Value = -20}
+      [150321] = {
+        Value = -20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -831,22 +871,24 @@ return ReadOnly("PureLogicBuff", {
   [150307] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150307,
     BuffSpModify = {
-      [150302] = {Value = -0.3}
+      [150302] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150305
@@ -858,22 +900,24 @@ return ReadOnly("PureLogicBuff", {
   [150308] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150308,
     BuffSpModify = {
-      [150321] = {Value = -0.3}
+      [150321] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150306
@@ -903,10 +947,10 @@ return ReadOnly("PureLogicBuff", {
   [150312] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 150312,
     BuffType = {
@@ -1113,18 +1157,18 @@ return ReadOnly("PureLogicBuff", {
   [150371] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150371,
     MaxLayer = 100,
@@ -1134,18 +1178,18 @@ return ReadOnly("PureLogicBuff", {
   [150372] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150372,
     MaxLayer = 100,
@@ -1155,18 +1199,18 @@ return ReadOnly("PureLogicBuff", {
   [150373] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150373,
     MaxLayer = 100,
@@ -1176,18 +1220,18 @@ return ReadOnly("PureLogicBuff", {
   [150374] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150374,
     MaxLayer = 100,
@@ -1340,7 +1384,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [201021] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.3}
+      [1] = {
+        AttrName = "ATK", Rate = 0.3
+      }
     },
     BuffId = 201021,
     BuffType = {
@@ -1375,7 +1421,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [210002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 210002,
     CombatConditionId = 1002,
@@ -1397,7 +1445,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [210004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 210004,
     CombatConditionId = 1002,
@@ -1513,7 +1563,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [310002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 310002,
     CombatConditionId = 1003,
@@ -1535,7 +1587,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [310004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 310004,
     CombatConditionId = 1003,
@@ -1566,9 +1620,9 @@ return ReadOnly("PureLogicBuff", {
   [310206] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.55
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.55
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 310206,
@@ -1707,7 +1761,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [410002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 410002,
     CombatConditionId = 1004,
@@ -1729,7 +1785,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [410004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 410004,
     CombatConditionId = 1004,
@@ -1765,9 +1823,9 @@ return ReadOnly("PureLogicBuff", {
   [410242] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.55
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.55
+      }
     },
     BuffId = 410242,
     MergeRule1 = "Personal",
@@ -1883,7 +1941,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [510002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 510002,
     CombatConditionId = 1005,
@@ -1905,7 +1965,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [510004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 510004,
     CombatConditionId = 1005,
@@ -2295,9 +2357,9 @@ return ReadOnly("PureLogicBuff", {
   [1030222] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 1
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = 1
+      }
     },
     BuffId = 1030222,
     BuffType = {
@@ -2309,9 +2371,9 @@ return ReadOnly("PureLogicBuff", {
   [1040141] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 1
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = 1
+      }
     },
     BuffId = 1040141,
     BuffType = {
@@ -2345,10 +2407,10 @@ return ReadOnly("PureLogicBuff", {
   [1440001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffId = 1440001,
     MergeRule1 = "Global",
@@ -2985,7 +3047,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [10102110] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.3}
+      [1] = {
+        AttrName = "ATK", Rate = 0.3
+      }
     },
     BuffId = 10102110,
     BuffType = {
@@ -3047,7 +3111,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [10104302] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 10104302,
     BuffType = {
@@ -3147,10 +3213,10 @@ return ReadOnly("PureLogicBuff", {
   [10106101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106101,
     BuffType = {
@@ -3162,10 +3228,10 @@ return ReadOnly("PureLogicBuff", {
   [10106102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106102,
     BuffType = {
@@ -3177,10 +3243,10 @@ return ReadOnly("PureLogicBuff", {
   [10106103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106103,
     BuffType = {
@@ -3192,10 +3258,10 @@ return ReadOnly("PureLogicBuff", {
   [10106104] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106104,
     BuffType = {
@@ -3207,10 +3273,10 @@ return ReadOnly("PureLogicBuff", {
   [10106105] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106105,
     BuffType = {
@@ -3222,10 +3288,10 @@ return ReadOnly("PureLogicBuff", {
   [10106106] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106106,
     BuffType = {
@@ -3237,10 +3303,10 @@ return ReadOnly("PureLogicBuff", {
   [10106107] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106107,
     BuffType = {
@@ -3252,10 +3318,10 @@ return ReadOnly("PureLogicBuff", {
   [10106108] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106108,
     BuffType = {
@@ -3267,9 +3333,9 @@ return ReadOnly("PureLogicBuff", {
   [10106110] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = "#1"
-}
+        AttrName = "AlmightyDamageRate",
+        Value = "#1"
+      }
     },
     BuffId = 10106110,
     BuffType = {
@@ -3281,9 +3347,9 @@ return ReadOnly("PureLogicBuff", {
   [10106111] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = "#1"
-}
+        AttrName = "AlmightyDamageRate",
+        Value = "#1"
+      }
     },
     BuffId = 10106111,
     BuffType = {
@@ -3295,9 +3361,9 @@ return ReadOnly("PureLogicBuff", {
   [10106112] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = "#1"
-}
+        AttrName = "StrongValue",
+        Value = "#1"
+      }
     },
     BuffId = 10106112,
     BuffType = {
@@ -3309,9 +3375,9 @@ return ReadOnly("PureLogicBuff", {
   [10106113] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = "#1"
-}
+        AttrName = "StrongValue",
+        Value = "#1"
+      }
     },
     BuffId = 10106113,
     BuffType = {
@@ -3343,10 +3409,10 @@ return ReadOnly("PureLogicBuff", {
     },
     DotDatas = {
       [1] = {
-  Interval = 3,
-  Type = "SpChange",
-  Value = "#1"
-}
+        Interval = 3,
+        Type = "SpChange",
+        Value = "#1"
+      }
     },
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -3358,10 +3424,10 @@ return ReadOnly("PureLogicBuff", {
     },
     DotDatas = {
       [1] = {
-  Interval = 3,
-  Type = "SpChange",
-  Value = "#1"
-}
+        Interval = 3,
+        Type = "SpChange",
+        Value = "#1"
+      }
     },
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -3369,10 +3435,10 @@ return ReadOnly("PureLogicBuff", {
   [10107103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107103,
     BuffType = {
@@ -3384,10 +3450,10 @@ return ReadOnly("PureLogicBuff", {
   [10107104] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107104,
     BuffType = {
@@ -3399,9 +3465,9 @@ return ReadOnly("PureLogicBuff", {
   [10107106] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 10107106,
     BuffType = {
@@ -3413,9 +3479,9 @@ return ReadOnly("PureLogicBuff", {
   [10107107] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 10107107,
     BuffType = {
@@ -3427,10 +3493,10 @@ return ReadOnly("PureLogicBuff", {
   [10107108] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107108,
     BuffType = {
@@ -3442,10 +3508,10 @@ return ReadOnly("PureLogicBuff", {
   [10107109] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107109,
     BuffType = {
@@ -3457,10 +3523,10 @@ return ReadOnly("PureLogicBuff", {
   [10107110] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107110,
     BuffType = {
@@ -3472,10 +3538,10 @@ return ReadOnly("PureLogicBuff", {
   [10107111] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107111,
     BuffType = {
@@ -3487,10 +3553,10 @@ return ReadOnly("PureLogicBuff", {
   [10107113] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107113,
     BuffType = {
@@ -3502,10 +3568,10 @@ return ReadOnly("PureLogicBuff", {
   [10107114] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107114,
     BuffType = {
@@ -3517,9 +3583,9 @@ return ReadOnly("PureLogicBuff", {
   [10107115] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = "#1"
-}
+        AttrName = "EnmityValue",
+        Value = "#1"
+      }
     },
     BuffId = 10107115,
     BuffType = {
@@ -3531,9 +3597,9 @@ return ReadOnly("PureLogicBuff", {
   [10107116] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = "#1"
-}
+        AttrName = "EnmityValue",
+        Value = "#1"
+      }
     },
     BuffId = 10107116,
     BuffType = {
@@ -3638,10 +3704,10 @@ return ReadOnly("PureLogicBuff", {
   [20152001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Rouge",
-  Value = 0.75
-}
+        AttrName = "DamageRate",
+        RateZone = "Rouge",
+        Value = 0.75
+      }
     },
     BuffId = 20152001,
     BuffType = {
@@ -3655,10 +3721,10 @@ return ReadOnly("PureLogicBuff", {
   [20153001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Rouge",
-  Value = 0.75
-}
+        AttrName = "DamageRate",
+        RateZone = "Rouge",
+        Value = 0.75
+      }
     },
     BuffId = 20153001,
     BuffType = {
@@ -3723,7 +3789,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [30101002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 30101002,
     BuffType = {
@@ -3749,7 +3817,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [30102002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 30102002,
     BuffType = {

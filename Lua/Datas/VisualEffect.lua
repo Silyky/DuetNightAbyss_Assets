@@ -12,10 +12,10 @@ return ReadOnly("VisualEffect", {
     EffectMaxNum = 5,
     EffectParam = {
       Rotation = {
-  90,
-  0,
-  0
-}
+        90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Dead.NS_Common_Dead",
     FXPriorityType = 10,
@@ -145,10 +145,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 31,
     EffectParam = {
       Location = {
-  0,
-  0,
-  70
-}
+        0,
+        0,
+        70
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Condemned_Hit_01.NS_Heitao_Condemned_Hit_01",
     FXPriorityType = 90,
@@ -162,10 +162,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 32,
     EffectParam = {
       Location = {
-  0,
-  0,
-  70
-}
+        0,
+        0,
+        70
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Heitao/NS_Heitao_Condemned_Hit_02.NS_Heitao_Condemned_Hit_02",
     FXPriorityType = 90,
@@ -353,10 +353,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 112,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  180
-}
+        0,
+        0,
+        180
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Nvzhu/NS_Nvzhu_Beidong_Dodge.NS_Nvzhu_Beidong_Dodge",
     PlayLocation = {
@@ -563,10 +563,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 231,
     EffectParam = {
       Location = {
-  0,
-  0,
-  60
-}
+        0,
+        0,
+        60
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_PetPan_Interact.NS_PetPan_Interact",
     PlayLocation = {
@@ -593,10 +593,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 241,
     EffectParam = {
       Location = {
-  50,
-  50,
-  120
-}
+        50,
+        50,
+        120
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_PartySkill_StickyBomb.NS_PartySkill_StickyBomb",
     FXPriorityType = 90,
@@ -609,10 +609,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 242,
     EffectParam = {
       Location = {
-  50,
-  50,
-  120
-}
+        50,
+        50,
+        120
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_PartySkill_StickyBomb_Blast.NS_PartySkill_StickyBomb_Blast",
     FXPriorityType = 90,
@@ -662,10 +662,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 247,
     EffectParam = {
       Rotation = {
-  0,
-  90,
-  0
-}
+        0,
+        90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_ParkourStun.NS_ParkourStun",
     FXPriorityType = 90,
@@ -678,10 +678,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 248,
     EffectParam = {
       Rotation = {
-  0,
-  90,
-  0
-}
+        0,
+        90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_ParkourStunHammer.NS_ParkourStunHammer",
     PlayLocation = {
@@ -774,7 +774,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1000,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -782,7 +782,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -790,7 +790,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -798,7 +798,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -806,7 +806,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -819,7 +819,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1001,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -827,7 +827,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -835,7 +835,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -843,7 +843,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -851,7 +851,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -864,7 +864,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1002,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -872,7 +872,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -880,7 +880,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -888,7 +888,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -896,7 +896,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -909,7 +909,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1003,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -917,7 +917,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -925,7 +925,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -933,7 +933,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -941,7 +941,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -954,7 +954,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1004,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -962,7 +962,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -970,7 +970,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -978,7 +978,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -986,7 +986,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -999,7 +999,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1005,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1007,7 +1007,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1015,7 +1015,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1023,7 +1023,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1031,7 +1031,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1044,7 +1044,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1006,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1052,7 +1052,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1060,7 +1060,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1068,7 +1068,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1076,7 +1076,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1089,7 +1089,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1007,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1097,7 +1097,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1105,7 +1105,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1113,7 +1113,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1121,7 +1121,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1134,7 +1134,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1008,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1142,7 +1142,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1150,7 +1150,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1158,7 +1158,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1166,7 +1166,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1179,7 +1179,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1011,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1187,7 +1187,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1195,7 +1195,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1203,7 +1203,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1211,7 +1211,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1224,7 +1224,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1012,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1232,7 +1232,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1240,7 +1240,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1248,7 +1248,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1256,7 +1256,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1269,7 +1269,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1021,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1277,7 +1277,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1285,7 +1285,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1293,7 +1293,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1301,7 +1301,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1314,7 +1314,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1022,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1322,7 +1322,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1330,7 +1330,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1338,7 +1338,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1346,7 +1346,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1359,7 +1359,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1023,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1367,7 +1367,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1375,7 +1375,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1383,7 +1383,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1391,7 +1391,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1404,7 +1404,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1024,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1412,7 +1412,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1420,7 +1420,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1428,7 +1428,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1436,7 +1436,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1449,7 +1449,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1025,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1457,7 +1457,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1465,7 +1465,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1473,7 +1473,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1481,7 +1481,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1494,7 +1494,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1026,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1502,7 +1502,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1510,7 +1510,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1518,7 +1518,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1526,7 +1526,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1539,7 +1539,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1031,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1547,7 +1547,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1555,7 +1555,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1563,7 +1563,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1571,7 +1571,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1584,7 +1584,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1040,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1592,7 +1592,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1600,7 +1600,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1608,7 +1608,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1616,7 +1616,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1629,7 +1629,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1041,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1637,7 +1637,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1645,7 +1645,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1653,7 +1653,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1661,7 +1661,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1674,7 +1674,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1042,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1682,7 +1682,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1690,7 +1690,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1698,7 +1698,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1706,7 +1706,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1719,7 +1719,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1043,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1727,7 +1727,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1735,7 +1735,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1743,7 +1743,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1751,7 +1751,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1764,7 +1764,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1044,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1772,7 +1772,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1780,7 +1780,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1788,7 +1788,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1796,7 +1796,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1809,7 +1809,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1045,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1817,7 +1817,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1825,7 +1825,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1833,7 +1833,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1841,7 +1841,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1854,7 +1854,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 1046,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1862,7 +1862,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1870,7 +1870,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1878,7 +1878,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1886,7 +1886,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_Buff.NS_Common_Buff",
     FXPriorityType = 70,
@@ -1899,7 +1899,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2000,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1907,7 +1907,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1915,7 +1915,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1923,7 +1923,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1931,7 +1931,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -1944,7 +1944,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2001,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1952,7 +1952,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -1960,7 +1960,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -1968,7 +1968,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -1976,7 +1976,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -1989,7 +1989,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2002,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -1997,7 +1997,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2005,7 +2005,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2013,7 +2013,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2021,7 +2021,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2034,7 +2034,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2003,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2042,7 +2042,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2050,7 +2050,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2058,7 +2058,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2066,7 +2066,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2079,7 +2079,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2004,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2087,7 +2087,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2095,7 +2095,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2103,7 +2103,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2111,7 +2111,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2124,7 +2124,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2005,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2132,7 +2132,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2140,7 +2140,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2148,7 +2148,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2156,7 +2156,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2169,7 +2169,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2006,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2177,7 +2177,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2185,7 +2185,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2193,7 +2193,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2201,7 +2201,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2214,7 +2214,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2011,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2222,7 +2222,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2230,7 +2230,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2238,7 +2238,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2246,7 +2246,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2259,7 +2259,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2012,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2267,7 +2267,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2275,7 +2275,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2283,7 +2283,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2291,7 +2291,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2304,7 +2304,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2021,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2312,7 +2312,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2320,7 +2320,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2328,7 +2328,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2336,7 +2336,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2349,7 +2349,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2022,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2357,7 +2357,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2365,7 +2365,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2373,7 +2373,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2381,7 +2381,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2394,7 +2394,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2023,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2402,7 +2402,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2410,7 +2410,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2418,7 +2418,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2426,7 +2426,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2439,7 +2439,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2024,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2447,7 +2447,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2455,7 +2455,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2463,7 +2463,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2471,7 +2471,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2484,7 +2484,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2025,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2492,7 +2492,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2500,7 +2500,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2508,7 +2508,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2516,7 +2516,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2529,7 +2529,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 2031,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -2537,7 +2537,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -2545,7 +2545,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -2553,7 +2553,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -2561,7 +2561,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_Common_DeBuff.NS_Common_DeBuff",
     FXPriorityType = 70,
@@ -2574,15 +2574,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2101,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-},
+        0,
+        -90,
+        0
+      },
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Water.NS_Water",
     FXPriorityType = 70,
@@ -2594,15 +2594,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2102,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-},
+        0,
+        -90,
+        0
+      },
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Fire.NS_Fire",
     FXPriorityType = 70,
@@ -2614,15 +2614,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2103,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-},
+        0,
+        -90,
+        0
+      },
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Thunder.NS_Thunder",
     FXPriorityType = 70,
@@ -2634,15 +2634,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2104,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-},
+        0,
+        -90,
+        0
+      },
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Wind.NS_Wind",
     FXPriorityType = 70,
@@ -2654,15 +2654,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2105,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-},
+        0,
+        -90,
+        0
+      },
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Fire.NS_Fire",
     FXPriorityType = 70,
@@ -2747,10 +2747,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 4041,
     EffectParam = {
       Location = {
-  0,
-  0,
-  110
-}
+        0,
+        0,
+        110
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Zhamao_Shield.NS_Zhamao_Shield",
     FXPriorityType = 90,
@@ -2764,10 +2764,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 4042,
     EffectParam = {
       Location = {
-  0,
-  0,
-  110
-}
+        0,
+        0,
+        110
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Zhamao_Shield02.NS_Zhamao_Shield02",
     FXPriorityType = 90,
@@ -2832,10 +2832,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 4081,
     EffectParam = {
       Location = {
-  0,
-  0,
-  110
-}
+        0,
+        0,
+        110
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Zhenzhu_Buff.NS_Zhenzhu_Buff",
     FXPriorityType = 90,
@@ -3121,10 +3121,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 4931,
     EffectParam = {
       Location = {
-  0,
-  0,
-  110
-}
+        0,
+        0,
+        110
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_YYD_Shield.NS_YYD_Shield",
     FXPriorityType = 90,
@@ -3159,10 +3159,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5001,
     EffectParam = {
       Location = {
-  0,
-  0,
-  4.85
-}
+        0,
+        0,
+        4.85
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Fuyou_Idle.NS_Fuyou_Idle",
     FXPriorityType = 90,
@@ -3180,10 +3180,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5002,
     EffectParam = {
       Location = {
-  0,
-  0,
-  4.85
-}
+        0,
+        0,
+        4.85
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Fuyou_Idle.NS_Fuyou_Idle",
     FXPriorityType = 90,
@@ -3201,10 +3201,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5003,
     EffectParam = {
       Location = {
-  0,
-  0,
-  4.85
-}
+        0,
+        0,
+        4.85
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Fuyou_Idle.NS_Fuyou_Idle",
     FXPriorityType = 90,
@@ -3222,10 +3222,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5441,
     EffectParam = {
       Rotation = {
-  90,
-  0,
-  0
-}
+        90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3271,10 +3271,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5444,
     EffectParam = {
       Rotation = {
-  90,
-  0,
-  0
-}
+        90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3306,10 +3306,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5446,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3327,10 +3327,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5447,
     EffectParam = {
       Rotation = {
-  -90,
-  0,
-  0
-}
+        -90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3348,10 +3348,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5448,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3369,10 +3369,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5449,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3404,10 +3404,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5462,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3425,10 +3425,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5463,
     EffectParam = {
       Rotation = {
-  90,
-  0,
-  0
-}
+        90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3474,10 +3474,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 5466,
     EffectParam = {
       Rotation = {
-  -90,
-  0,
-  0
-}
+        -90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     FXPriorityType = 90,
@@ -3589,10 +3589,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 6033,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/Wuyou/NS_NE_Wuyou03_Skill01_Knife.NS_NE_Wuyou03_Skill01_Knife",
     FXPriorityType = 90
@@ -3601,10 +3601,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 6041,
     EffectParam = {
       scale = {
-  0.6,
-  0.6,
-  0.6
-}
+        0.6,
+        0.6,
+        0.6
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/Wuyou/NS_NE_Wuyou04_Skill01_Range.NS_NE_Wuyou04_Skill01_Range",
     FXPriorityType = 90
@@ -3758,10 +3758,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 20101,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  180
-}
+        0,
+        0,
+        180
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/NPC/Awaer/NS_Awa_Skill01_Bullet.NS_Awa_Skill01_Bullet",
     FXPriorityType = 90
@@ -3778,10 +3778,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 20103,
     EffectParam = {
       Location = {
-  0,
-  0,
-  100
-}
+        0,
+        0,
+        100
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/NPC/Awaer/NS_Awa_Skill02_Aura.NS_Awa_Skill02_Aura",
     FXPriorityType = 90,
@@ -3862,10 +3862,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 110301,
     EffectParam = {
       Location = {
-  0,
-  50,
-  10
-}
+        0,
+        50,
+        10
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Tuosi/NS_Tuosi02_Shoot.NS_Tuosi02_Shoot",
     FXPriorityType = 90,
@@ -3892,10 +3892,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 110303,
     EffectParam = {
       Location = {
-  -20,
-  0,
-  0
-}
+        -20,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Tuosi/NS_Tuosi01_Debuff.NS_Tuosi01_Debuff",
     FXPriorityType = 90,
@@ -3931,10 +3931,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 110312,
     EffectParam = {
       Location = {
-  0,
-  50,
-  10
-}
+        0,
+        50,
+        10
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Tuosi/NS_Tuosi02_ShootPro.NS_Tuosi02_ShootPro",
     FXPriorityType = 90,
@@ -3986,10 +3986,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 110331,
     EffectParam = {
       Location = {
-  -20,
-  0,
-  0
-}
+        -20,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Tuosi/NS_Tuosi01_Debuff02.NS_Tuosi01_Debuff02",
     FXPriorityType = 90,
@@ -4105,10 +4105,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150201,
     EffectParam = {
       Location = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Nifu/NS_Nifu_Skill01_1.NS_Nifu_Skill01_1",
     FXPriorityType = 90,
@@ -4121,10 +4121,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150202,
     EffectParam = {
       Location = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Nifu/NS_Nifu_Skill01_3.NS_Nifu_Skill01_3",
     FXPriorityType = 90,
@@ -4137,10 +4137,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150203,
     EffectParam = {
       Location = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Nifu/NS_Nifu_Skill01_2.NS_Nifu_Skill01_2",
     FXPriorityType = 90,
@@ -4153,10 +4153,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150204,
     EffectParam = {
       Location = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Nifu/NS_Nifu_Skill01_4.NS_Nifu_Skill01_4",
     FXPriorityType = 90,
@@ -4187,10 +4187,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150306,
     EffectParam = {
       scale = {
-  0.7,
-  0.7,
-  0.7
-}
+        0.7,
+        0.7,
+        0.7
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Banzi/NS_Banzi_Explode.NS_Banzi_Explode",
     FXPriorityType = 90
@@ -4201,15 +4201,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 150307,
     EffectParam = {
       Rotation = {
-  90,
-  90,
-  90
-},
+        90,
+        90,
+        90
+      },
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Kezhou/NS_Kezhou_WeaponDecal_Batch.NS_Kezhou_WeaponDecal_Batch",
     FXPriorityType = 90,
@@ -4228,15 +4228,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 150309,
     EffectParam = {
       Rotation = {
-  90,
-  90,
-  90
-},
+        90,
+        90,
+        90
+      },
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Kezhou/NS_Kezhou_WeaponDecal_Dualblade_Batch.NS_Kezhou_WeaponDecal_Dualblade_Batch",
     FXPriorityType = 90,
@@ -4275,10 +4275,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150312,
     EffectParam = {
       Location = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Kezhou/NS_Kezhou_Skill01_Burst.NS_Kezhou_Skill01_Burst",
     FXPriorityType = 90
@@ -4287,10 +4287,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150313,
     EffectParam = {
       Location = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Kezhou/NS_Kezhou_Skill01_ShootBurst.NS_Kezhou_Skill01_ShootBurst",
     FXPriorityType = 90
@@ -4349,10 +4349,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150325,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Kezhou/NS_Kezhou_Skill02_Loop.NS_Kezhou_Skill02_Loop",
     FXPriorityType = 90,
@@ -4413,10 +4413,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 150432,
     EffectParam = {
       scale = {
-  0.7,
-  0.7,
-  0.7
-}
+        0.7,
+        0.7,
+        0.7
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Jishu_Explode_Small.NS_Jishu_Explode_Small",
     FXPriorityType = 90,
@@ -4489,7 +4489,7 @@ return ReadOnly("VisualEffect", {
     EffectId = 160122,
     EffectParam = {
       BodyShapeOffset = {
-  {
+        {
   BattleCharTag = "Girl",
   Location = {
     0,
@@ -4497,7 +4497,7 @@ return ReadOnly("VisualEffect", {
     0
   }
 },
-  {
+        {
   BattleCharTag = "Loli",
   Location = {
     0,
@@ -4505,7 +4505,7 @@ return ReadOnly("VisualEffect", {
     -30
   }
 },
-  {
+        {
   BattleCharTag = "Woman",
   Location = {
     0,
@@ -4513,7 +4513,7 @@ return ReadOnly("VisualEffect", {
     5
   }
 },
-  {
+        {
   BattleCharTag = "Man",
   Location = {
     0,
@@ -4521,7 +4521,7 @@ return ReadOnly("VisualEffect", {
     15
   }
 }
-}
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Nvzhu/NS_NVzhu_Skill02_BuffLoop.NS_NVzhu_Skill02_BuffLoop",
     FXPriorityType = 90,
@@ -4623,10 +4623,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 210221,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Feina/NS_Feina_Skill02_WaterCircle.NS_Feina_Skill02_WaterCircle",
     FXPriorityType = 90,
@@ -4639,10 +4639,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 210222,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Shuimu/NS_Shuimu_skill02_sequence_02.NS_Shuimu_skill02_sequence_02",
     FXPriorityType = 90,
@@ -4787,15 +4787,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 240121,
     EffectParam = {
       Location = {
-  0,
-  0,
-  0
-},
+        0,
+        0,
+        0
+      },
       Rotation = {
-  -90,
-  0,
-  90
-}
+        -90,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_Buff.NS_Baiheng_Buff",
     FXPriorityType = 90,
@@ -4809,15 +4809,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 240122,
     EffectParam = {
       Location = {
-  0,
-  0,
-  0
-},
+        0,
+        0,
+        0
+      },
       Rotation = {
-  -90,
-  0,
-  90
-}
+        -90,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Baiheng/NS_Baiheng_BuffSelf.NS_Baiheng_BuffSelf",
     FXPriorityType = 90,
@@ -4965,20 +4965,20 @@ return ReadOnly("VisualEffect", {
     EffectId = 310128,
     EffectParam = {
       Location = {
-  9,
-  0,
-  -15
-},
+        9,
+        0,
+        -15
+      },
       Rotation = {
-  90,
-  0,
-  -90
-},
+        90,
+        0,
+        -90
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Gun.NS_Linen_Buff_Gun",
     FXPriorityType = 90,
@@ -4988,20 +4988,20 @@ return ReadOnly("VisualEffect", {
     EffectId = 310129,
     EffectParam = {
       Location = {
-  9,
-  0,
-  -15
-},
+        9,
+        0,
+        -15
+      },
       Rotation = {
-  90,
-  0,
-  -90
-},
+        90,
+        0,
+        -90
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Linen/NS_Linen_Buff_Gun.NS_Linen_Buff_Gun",
     FXPriorityType = 90,
@@ -5142,10 +5142,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 310214,
     EffectParam = {
       scale = {
-  0.6,
-  0.6,
-  0.6
-}
+        0.6,
+        0.6,
+        0.6
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Xier/NS_Xier_Skill01_Weapon.NS_Xier_Skill01_Weapon",
     FXPriorityType = 90,
@@ -5271,10 +5271,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 320104,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Body_Buff.NS_Haier_Body_Buff",
     FXPriorityType = 90,
@@ -5418,10 +5418,10 @@ return ReadOnly("VisualEffect", {
     EffectParam = {
       BaseObBloodUI = 1,
       Location = {
-  0,
-  0,
-  20
-}
+        0,
+        0,
+        20
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Lise/NS_lise_zheng.NS_lise_zheng",
     FXPriorityType = 90,
@@ -5434,10 +5434,10 @@ return ReadOnly("VisualEffect", {
     EffectParam = {
       BaseObBloodUI = 1,
       Location = {
-  0,
-  0,
-  20
-}
+        0,
+        0,
+        20
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Lise/NS_lise_fuji.NS_lise_fuji",
     FXPriorityType = 90,
@@ -5524,10 +5524,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410131,
     EffectParam = {
       Location = {
-  0,
-  0,
-  100
-}
+        0,
+        0,
+        100
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Lise/NS_lise_Buff_Over.NS_lise_Buff_Over",
     FXPriorityType = 90,
@@ -5550,10 +5550,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410201,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_04_Boom_Spawn.NS_Zhiliu_Skill02_04_Boom_Spawn",
     FXPriorityType = 90
@@ -5576,10 +5576,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410203,
     EffectParam = {
       Location = {
-  0,
-  0,
-  100
-}
+        0,
+        0,
+        100
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill01_02_Dun.NS_Zhiliu_Skill01_02_Dun",
     NotFollowRotation = true,
@@ -5593,10 +5593,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410204,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_04_Boom_Spawn_Range.NS_Zhiliu_Skill02_04_Boom_Spawn_Range",
     FXPriorityType = 90
@@ -5632,10 +5632,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410220,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_01_Dian.NS_Zhiliu_Skill02_01_Dian"
   },
@@ -5643,10 +5643,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410224,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_01_Zadi_Range.NS_Zhiliu_Skill02_01_Zadi_Range",
     FXPriorityType = 90,
@@ -5656,10 +5656,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410225,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_01_Zadi.NS_Zhiliu_Skill02_01_Zadi",
     FXPriorityType = 90
@@ -5668,10 +5668,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410226,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_01_Dilie.NS_Zhiliu_Skill02_01_Dilie"
   },
@@ -5679,10 +5679,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410227,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_01_Stone.NS_Zhiliu_Skill02_01_Stone"
   },
@@ -5690,10 +5690,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 410228,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Zhiliu/NS_Zhiliu_Skill02_01_Fazhen.NS_Zhiliu_Skill02_01_Fazhen"
   },
@@ -5779,10 +5779,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 420222,
     EffectParam = {
       Rotation = {
-  0,
-  90,
-  0
-}
+        0,
+        90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Landi/NS_Landi_Skill02_Shield_01.NS_Landi_Skill02_Shield_01",
     FXPriorityType = 100,
@@ -5922,15 +5922,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 510101,
     EffectParam = {
       Location = {
-  0,
-  0,
-  15
-},
+        0,
+        0,
+        15
+      },
       Rotation = {
-  0,
-  0,
-  90
-}
+        0,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill01_Explo.NS_Songlu_Skill01_Explo",
     FXPriorityType = 90,
@@ -5945,10 +5945,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 510102,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  90
-}
+        0,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Running.NS_Songlu_Skill02_Running",
     FXPriorityType = 90,
@@ -5963,10 +5963,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 510103,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  90
-}
+        0,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Trail01.NS_Songlu_Skill02_Trail01",
     FXPriorityType = 90,
@@ -5980,10 +5980,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 510104,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  90
-}
+        0,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Trail02.NS_Songlu_Skill02_Trail02",
     FXPriorityType = 90,
@@ -6069,10 +6069,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 510113,
     EffectParam = {
       Location = {
-  0,
-  0,
-  -100
-}
+        0,
+        0,
+        -100
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill01_PPRun.NS_Songlu_Skill01_PPRun",
     FXPriorityType = 90
@@ -6081,15 +6081,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 510121,
     EffectParam = {
       Location = {
-  0,
-  0,
-  15
-},
+        0,
+        0,
+        15
+      },
       Rotation = {
-  0,
-  0,
-  90
-}
+        0,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Explo.NS_Songlu_Skill02_Explo",
     FXPriorityType = 90,
@@ -6104,15 +6104,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 510201,
     EffectParam = {
       Location = {
-  0,
-  0,
-  0
-},
+        0,
+        0,
+        0
+      },
       Rotation = {
-  -90,
-  0,
-  90
-}
+        -90,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Aote/NS_Aote_BuffSelf.NS_Aote_BuffSelf",
     FXPriorityType = 90,
@@ -6160,10 +6160,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 530101,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill1_Rune.NS_Saiqi_Skill1_Rune",
     FXPriorityType = 90,
@@ -6178,10 +6178,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 530102,
     EffectParam = {
       scale = {
-  1.2,
-  1.2,
-  1.2
-}
+        1.2,
+        1.2,
+        1.2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Butterfly_Bullet.NS_Saiqi_Butterfly_Bullet",
     FXPriorityType = 90,
@@ -6255,10 +6255,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 530112,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill01_InBuff.NS_Saiqi_Skill01_InBuff",
     FXPriorityType = 90,
@@ -6345,10 +6345,10 @@ return ReadOnly("VisualEffect", {
     EffectMaxNum = 5,
     EffectParam = {
       scale = {
-  2.5,
-  2.5,
-  2.5
-}
+        2.5,
+        2.5,
+        2.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Butterfly_Destroy.NS_Saiqi_Butterfly_Destroy",
     FXPriorityType = 45,
@@ -6402,10 +6402,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 540122,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/NPC/Dafu/NS_Dafu_Skill01_Smoke.NS_Dafu_Skill01_Smoke",
     FXPriorityType = 45,
@@ -6533,10 +6533,10 @@ return ReadOnly("VisualEffect", {
     EffectMaxNum = 12,
     EffectParam = {
       Location = {
-  0,
-  0,
-  10
-}
+        0,
+        0,
+        10
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Common_Spawn.NS_Common_Spawn",
     NotFollowRotation = true,
@@ -6952,10 +6952,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 700104,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  0
-}
+        0,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_OpenFire.NS_Jt_Ranger_OpenFire",
     FXPriorityType = 80,
@@ -7187,10 +7187,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 701301,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Jt/NS_Jt_Ranger_Bullet_Thunder.NS_Jt_Ranger_Bullet_Thunder",
     FXPriorityType = 80,
@@ -7365,10 +7365,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850001,
     EffectParam = {
       scale = {
-  1.25,
-  1.25,
-  1.25
-}
+        1.25,
+        1.25,
+        1.25
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Common/Monster/NS_knifehit_mon_normal.NS_knifehit_mon_normal",
     FXPriorityType = 90,
@@ -7385,10 +7385,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850002,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Common/Monster/NS_hit_mon_thunder.NS_hit_mon_thunder",
     FXPriorityType = 90,
@@ -7446,10 +7446,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850051,
     EffectParam = {
       scale = {
-  1.25,
-  1.25,
-  1.25
-}
+        1.25,
+        1.25,
+        1.25
+      }
     },
     FXPriorityType = 90,
     SoundID = 850051
@@ -7755,10 +7755,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850309,
     EffectParam = {
       Location = {
-  120,
-  0,
-  0
-}
+        120,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Breaks_Right.NS_Boss_Shijingzhe_Breaks_Right",
     FXPriorityType = 90,
@@ -7772,10 +7772,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850310,
     EffectParam = {
       Location = {
-  120,
-  0,
-  0
-}
+        120,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/NS_Boss_Shijingzhe_Breaks_Right.NS_Boss_Shijingzhe_Breaks_Right",
     FXPriorityType = 90,
@@ -7803,10 +7803,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850312,
     EffectParam = {
       scale = {
-  1.35,
-  1.35,
-  1.35
-}
+        1.35,
+        1.35,
+        1.35
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Common/Player/NS_gunhit_char_01.NS_gunhit_char_01",
     FXPriorityType = 90,
@@ -7821,10 +7821,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850313,
     EffectParam = {
       scale = {
-  1.35,
-  1.35,
-  1.35
-}
+        1.35,
+        1.35,
+        1.35
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Common/Player/NS_gunhit_char_01.NS_gunhit_char_01",
     FXPriorityType = 90,
@@ -7934,10 +7934,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850321,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Shijingzhe/Yundonghui/NS_Boss_Shijingzhe_Skill14_Crystal.NS_Boss_Shijingzhe_Skill14_Crystal",
     FXPriorityType = 90,
@@ -8004,10 +8004,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850405,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Saiqi/NS_Saiqi_Skill01_InBuff.NS_Saiqi_Skill01_InBuff",
     FXPriorityType = 90,
@@ -8034,10 +8034,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850501,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/LianHuo/NS_Boss_LianHuo_Skill05_FireBall.NS_Boss_LianHuo_Skill05_FireBall",
     FXPriorityType = 90,
@@ -8166,10 +8166,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850905,
     EffectParam = {
       Location = {
-  1250,
-  0,
-  -120
-},
+        1250,
+        0,
+        -120
+      },
       OnGround = true
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill04_Ground2.NS_Boss_Tuosi_Skill04_Ground2",
@@ -8182,10 +8182,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850906,
     EffectParam = {
       Location = {
-  1250,
-  0,
-  -120
-},
+        1250,
+        0,
+        -120
+      },
       OnGround = true
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill04_Decal.NS_Boss_Tuosi_Skill04_Decal",
@@ -8199,16 +8199,16 @@ return ReadOnly("VisualEffect", {
     EffectId = 850907,
     EffectParam = {
       Location = {
-  1050,
-  0,
-  -90
-},
+        1050,
+        0,
+        -90
+      },
       OnGround = true,
       Rotation = {
-  0,
-  0,
-  0
-}
+        0,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill06_Ground3.NS_Boss_Tuosi_Skill06_Ground3",
     FXPriorityType = 100,
@@ -8220,16 +8220,16 @@ return ReadOnly("VisualEffect", {
     EffectId = 850908,
     EffectParam = {
       Location = {
-  1050,
-  0,
-  -90
-},
+        1050,
+        0,
+        -90
+      },
       OnGround = true,
       Rotation = {
-  0,
-  0,
-  0
-}
+        0,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill06_Decal.NS_Boss_Tuosi_Skill06_Decal",
     FXPriorityType = 100,
@@ -8242,16 +8242,16 @@ return ReadOnly("VisualEffect", {
     EffectId = 850909,
     EffectParam = {
       Location = {
-  900,
-  -700,
-  -90
-},
+        900,
+        -700,
+        -90
+      },
       OnGround = true,
       Rotation = {
-  0,
-  0,
-  -45
-}
+        0,
+        0,
+        -45
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill06_Ground3.NS_Boss_Tuosi_Skill06_Ground3",
     FXPriorityType = 100,
@@ -8263,16 +8263,16 @@ return ReadOnly("VisualEffect", {
     EffectId = 850910,
     EffectParam = {
       Location = {
-  900,
-  -700,
-  -90
-},
+        900,
+        -700,
+        -90
+      },
       OnGround = true,
       Rotation = {
-  0,
-  0,
-  -45
-}
+        0,
+        0,
+        -45
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill06_Decal.NS_Boss_Tuosi_Skill06_Decal",
     FXPriorityType = 100,
@@ -8285,16 +8285,16 @@ return ReadOnly("VisualEffect", {
     EffectId = 850911,
     EffectParam = {
       Location = {
-  900,
-  700,
-  -90
-},
+        900,
+        700,
+        -90
+      },
       OnGround = true,
       Rotation = {
-  0,
-  0,
-  45
-}
+        0,
+        0,
+        45
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill06_Ground3.NS_Boss_Tuosi_Skill06_Ground3",
     FXPriorityType = 100,
@@ -8306,16 +8306,16 @@ return ReadOnly("VisualEffect", {
     EffectId = 850912,
     EffectParam = {
       Location = {
-  900,
-  700,
-  -90
-},
+        900,
+        700,
+        -90
+      },
       OnGround = true,
       Rotation = {
-  0,
-  0,
-  45
-}
+        0,
+        0,
+        45
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill06_Decal.NS_Boss_Tuosi_Skill06_Decal",
     FXPriorityType = 100,
@@ -8328,10 +8328,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850913,
     EffectParam = {
       Location = {
-  1875,
-  0,
-  -180
-},
+        1875,
+        0,
+        -180
+      },
       OnGround = true
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill04_Ground2.NS_Boss_Tuosi_Skill04_Ground2",
@@ -8344,10 +8344,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850914,
     EffectParam = {
       Location = {
-  1875,
-  0,
-  -180
-},
+        1875,
+        0,
+        -180
+      },
       OnGround = true
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill04_Decal.NS_Boss_Tuosi_Skill04_Decal",
@@ -8361,10 +8361,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850915,
     EffectParam = {
       Location = {
-  625,
-  0,
-  -180
-},
+        625,
+        0,
+        -180
+      },
       OnGround = true
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill04_Ground2.NS_Boss_Tuosi_Skill04_Ground2",
@@ -8377,10 +8377,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850916,
     EffectParam = {
       Location = {
-  625,
-  0,
-  -180
-},
+        625,
+        0,
+        -180
+      },
       OnGround = true
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill04_Decal.NS_Boss_Tuosi_Skill04_Decal",
@@ -8447,10 +8447,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 850921,
     EffectParam = {
       Rotation = {
-  90,
-  0,
-  0
-}
+        90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill09_TP.NS_Boss_Tuosi_Skill09_TP",
     FXPriorityType = 100,
@@ -8485,10 +8485,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851001,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Heilong/NS_Boss_Heilong_Skill04_02_Boom.NS_Boss_Heilong_Skill04_02_Boom",
     FXPriorityType = 90,
@@ -8498,10 +8498,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851002,
     EffectParam = {
       scale = {
-  0.8,
-  0.8,
-  0.8
-}
+        0.8,
+        0.8,
+        0.8
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Heilong/NS_Boss_Heilong_Skill04_DimianRing.NS_Boss_Heilong_Skill04_DimianRing",
     FXPriorityType = 90
@@ -8536,10 +8536,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851005,
     EffectParam = {
       scale = {
-  2.5,
-  2.5,
-  2.5
-}
+        2.5,
+        2.5,
+        2.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Heilong/NS_Boss_Heilong_Skill05_Dabaofa02.NS_Boss_Heilong_Skill05_Dabaofa02",
     FXPriorityType = 90
@@ -8548,10 +8548,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851006,
     EffectParam = {
       scale = {
-  0.7,
-  0.7,
-  0.7
-}
+        0.7,
+        0.7,
+        0.7
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Heilong/NS_Boss_Heilong_Skill05_longjing_Boom.NS_Boss_Heilong_Skill05_longjing_Boom",
     FXPriorityType = 90,
@@ -8561,10 +8561,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851007,
     EffectParam = {
       scale = {
-  0.7,
-  0.7,
-  0.7
-}
+        0.7,
+        0.7,
+        0.7
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Shield_Creature.NS_Strong_Shield_Creature",
     FXPriorityType = 90
@@ -8573,10 +8573,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851008,
     EffectParam = {
       scale = {
-  1.2,
-  1.2,
-  1.2
-}
+        1.2,
+        1.2,
+        1.2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Heilong/NS_Boss_Heilong_Skill07_FireStrom.NS_Boss_Heilong_Skill07_FireStrom",
     SoundID = 851013
@@ -8594,10 +8594,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851011,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Heilong/NS_Boss_Heilong_Skill07_Groud.NS_Boss_Heilong_Skill07_Groud"
   },
@@ -8605,10 +8605,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851012,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Heilong/NS_Boss_Heilong_Skill07_Groud02.NS_Boss_Heilong_Skill07_Groud02",
     SoundID = 851011
@@ -8710,10 +8710,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851214,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Linen/NS_Boss_Linen_Skill03_MissileBullet.NS_Boss_Linen_Skill03_MissileBullet",
     FXPriorityType = 90,
@@ -8723,10 +8723,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851215,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Linen/NS_Boss_Linen_Skill03_Explode.NS_Boss_Linen_Skill03_Explode",
     FXPriorityType = 90,
@@ -9182,20 +9182,20 @@ return ReadOnly("VisualEffect", {
     EffectId = 851601,
     EffectParam = {
       Location = {
-  1000,
-  0,
-  0
-},
+        1000,
+        0,
+        0
+      },
       Rotation = {
-  0,
-  180,
-  180
-},
+        0,
+        180,
+        180
+      },
       scale = {
-  4,
-  4,
-  4
-}
+        4,
+        4,
+        4
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill05_knife_bullet.NS_Boss_Lizhanzhe_Skill05_knife_bullet",
     FXPriorityType = 90
@@ -9257,10 +9257,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851606,
     EffectParam = {
       scale = {
-  4,
-  4,
-  4
-}
+        4,
+        4,
+        4
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Zhuoxin_Skill01_Bullet.NS_Gr_Zhuoxin_Skill01_Bullet",
     FXPriorityType = 80
@@ -9269,10 +9269,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851607,
     EffectParam = {
       scale = {
-  4,
-  4,
-  4
-}
+        4,
+        4,
+        4
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Zhuoxin_Skill01_Explode.NS_Gr_Zhuoxin_Skill01_Explode",
     FXPriorityType = 40
@@ -9281,10 +9281,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851608,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Zhuoxin_Skill01_Bullet.NS_Gr_Zhuoxin_Skill01_Bullet",
     FXPriorityType = 80
@@ -9293,10 +9293,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851609,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Zhuoxin_Skill01_Explode.NS_Gr_Zhuoxin_Skill01_Explode",
     FXPriorityType = 40
@@ -9410,20 +9410,20 @@ return ReadOnly("VisualEffect", {
     EffectId = 851618,
     EffectParam = {
       Location = {
-  1000,
-  0,
-  0
-},
+        1000,
+        0,
+        0
+      },
       Rotation = {
-  0,
-  180,
-  180
-},
+        0,
+        180,
+        180
+      },
       scale = {
-  4,
-  4,
-  4
-}
+        4,
+        4,
+        4
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Lizhanzhe/NS_Boss_Lizhanzhe_Skill05_knife_bullet.NS_Boss_Lizhanzhe_Skill05_knife_bullet"
   },
@@ -9433,10 +9433,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851701,
     EffectParam = {
       scale = {
-  0.7,
-  0.7,
-  0.7
-}
+        0.7,
+        0.7,
+        0.7
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Yuming/NS_Boss_Yuming_Attack_Shockwave.NS_Boss_Yuming_Attack_Shockwave",
     PlayFXCD = 0.1,
@@ -9508,10 +9508,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851903,
     EffectParam = {
       scale = {
-  5,
-  5,
-  5
-}
+        5,
+        5,
+        5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill08_AroundBurst.NS_Boss_Tuosi_Skill08_AroundBurst",
     FXPriorityType = 100,
@@ -9521,10 +9521,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851904,
     EffectParam = {
       scale = {
-  3,
-  3,
-  3
-}
+        3,
+        3,
+        3
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill08_AroundBurst.NS_Boss_Tuosi_Skill08_AroundBurst",
     FXPriorityType = 100,
@@ -9534,10 +9534,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851905,
     EffectParam = {
       scale = {
-  1.2,
-  1.2,
-  1.2
-}
+        1.2,
+        1.2,
+        1.2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill08_AroundBurst.NS_Boss_Tuosi_Skill08_AroundBurst",
     FXPriorityType = 100,
@@ -9547,10 +9547,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851906,
     EffectParam = {
       scale = {
-  3,
-  3,
-  3
-}
+        3,
+        3,
+        3
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Boss/Tuosi/NS_Boss_Tuosi_Skill08_AroundBurst.NS_Boss_Tuosi_Skill08_AroundBurst",
     FXPriorityType = 100,
@@ -9561,10 +9561,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 851908,
     EffectParam = {
       scale = {
-  5,
-  5,
-  5
-}
+        5,
+        5,
+        5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Jt/NS_BlastRobot_Blast.NS_BlastRobot_Blast",
     FXPriorityType = 100
@@ -9646,22 +9646,22 @@ return ReadOnly("VisualEffect", {
     EffectId = 900010,
     EffectParam = {
       color = {
-  0.25,
-  0.75,
-  1,
-  1
-}
+        0.25,
+        0.75,
+        1,
+        1
+      }
     }
   },
   [900011] = {
     EffectId = 900011,
     EffectParam = {
       color = {
-  0.25,
-  0.75,
-  1,
-  1
-}
+        0.25,
+        0.75,
+        1,
+        1
+      }
     }
   },
   [900012] = {
@@ -9781,10 +9781,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 900020,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Common/NS_Kongzhitai_Diguo_Interactive.NS_Kongzhitai_Diguo_Interactive",
     PlayLocation = {
@@ -9795,10 +9795,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 900021,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Common/NS_Kongzhitai_Diguo_Active.NS_Kongzhitai_Diguo_Active",
     PlayLocation = {
@@ -9809,10 +9809,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 900022,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Common/NS_Kongzhitai_Diguo_Running.NS_Kongzhitai_Diguo_Running",
     PlayLocation = {
@@ -9891,10 +9891,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 900029,
     EffectParam = {
       Location = {
-  0,
-  -10,
-  20
-}
+        0,
+        -10,
+        20
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_Bling.NS_Harvest_Bling",
     PlayLocation = {
@@ -9905,10 +9905,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 900030,
     EffectParam = {
       Location = {
-  0,
-  -10,
-  20
-}
+        0,
+        -10,
+        20
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Common/NS_Harvest_BlingRare.NS_Harvest_BlingRare",
     PlayLocation = {
@@ -10414,10 +10414,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 950402,
     EffectParam = {
       scale = {
-  0.8,
-  0.8,
-  0.8
-}
+        0.8,
+        0.8,
+        0.8
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/Wuyou/NS_NE_Wuyou01_Skill02_Bullet.NS_NE_Wuyou01_Skill02_Bullet",
     SoundID = 950401
@@ -10492,10 +10492,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 1000405,
     EffectParam = {
       Location = {
-  0,
-  0,
-  -100
-}
+        0,
+        0,
+        -100
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Hx/NS_HX_Bian_B_Skill04_Blade.NS_HX_Bian_B_Skill04_Blade",
     FXPriorityType = 80
@@ -10509,10 +10509,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 1000407,
     EffectParam = {
       Location = {
-  0,
-  0,
-  60
-}
+        0,
+        0,
+        60
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Hx/NS_HX_Bian_die03.NS_HX_Bian_die03",
     FXPriorityType = 90
@@ -10770,10 +10770,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 1020199,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Polearm/Pifu/NS_Polearm_Xyxy.NS_Polearm_Xyxy",
     FXPriorityType = 90,
@@ -11045,10 +11045,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2010101,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Pistol/Pistol_Wuxu/NS_Wuxu_OpenFire_01.NS_Wuxu_OpenFire_01",
     FXPriorityType = 90,
@@ -11062,10 +11062,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2010102,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Pistol/Pistol_Wuxu/NS_Wuxu_OpenFire_02.NS_Wuxu_OpenFire_02",
     FXPriorityType = 90,
@@ -11111,10 +11111,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2010122,
     EffectParam = {
       Rotation = {
-  0,
-  90,
-  0
-}
+        0,
+        90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Pistol/Pistol_Wuxu/NDC_Wuxu_Explode.NDC_Wuxu_Explode",
     FXPriorityType = 90,
@@ -11148,10 +11148,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2020101,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Crossbow/NS_Chixing_Bullet.NS_Chixing_Bullet",
     FXPriorityType = 90
@@ -11183,10 +11183,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2030102,
     EffectParam = {
       Rotation = {
-  0,
-  90,
-  0
-}
+        0,
+        90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chixing_Explode.NS_Chixing_Explode",
     FXPriorityType = 90,
@@ -11210,10 +11210,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2030202,
     EffectParam = {
       Rotation = {
-  0,
-  90,
-  0
-}
+        0,
+        90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Cannon/NDC_Jishu_Explode_Small.NDC_Jishu_Explode_Small",
     FXPriorityType = 90,
@@ -11270,10 +11270,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2030401,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  0
-}
+        0,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Qiege/NS_Qiege_Hit03.NS_Qiege_Hit03",
     FXPriorityType = 90,
@@ -11375,10 +11375,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2040404,
     EffectParam = {
       Rotation = {
-  -90,
-  0,
-  0
-}
+        -90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Qiege/NS_Qiege_Attact2.NS_Qiege_Attact2",
     FXPriorityType = 90
@@ -11388,10 +11388,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2040405,
     EffectParam = {
       Rotation = {
-  -90,
-  0,
-  0
-}
+        -90,
+        0,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Qiege/NS_Qiege_Attact2.NS_Qiege_Attact2",
     FXPriorityType = 90
@@ -11456,10 +11456,10 @@ return ReadOnly("VisualEffect", {
     EffectParam = {
       Life = 0.2,
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Smg/Common/NS_Smg_Common_Shoot.NS_Smg_Common_Shoot",
     FXPriorityType = 90,
@@ -11475,10 +11475,10 @@ return ReadOnly("VisualEffect", {
     EffectParam = {
       Life = 0.2,
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Smg/Fangzhu/NS_Smg_Fangzhu_Laser_01.NS_Smg_Fangzhu_Laser_01",
     FXPriorityType = 90,
@@ -11721,10 +11721,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 2051005,
     EffectParam = {
       Rotation = {
-  0,
-  -90,
-  0
-}
+        0,
+        -90,
+        0
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Shotgun/Ruohua/NS_Ruohua_OpenFire.NS_Ruohua_OpenFire",
     FXPriorityType = 90,
@@ -11755,15 +11755,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2060101,
     EffectParam = {
       Location = {
-  50,
-  0,
-  0
-},
+        50,
+        0,
+        0
+      },
       scale = {
-  0.5,
-  0.5,
-  0.5
-}
+        0.5,
+        0.5,
+        0.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_01.NS_Bow_Bullet_01",
     FXPriorityType = 90,
@@ -11779,15 +11779,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2060102,
     EffectParam = {
       Location = {
-  0,
-  0,
-  -30
-},
+        0,
+        0,
+        -30
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_OpenFire_Shooting_01_Batch.NS_Bow_OpenFire_Shooting_01_Batch",
     FXPriorityType = 90,
@@ -11803,15 +11803,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2060103,
     EffectParam = {
       Location = {
-  0,
-  0,
-  -30
-},
+        0,
+        0,
+        -30
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_OpenFire_HeavyShooting_01.NS_Bow_OpenFire_HeavyShooting_01",
     FXPriorityType = 90,
@@ -11827,15 +11827,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2060111,
     EffectParam = {
       Location = {
-  50,
-  0,
-  0
-},
+        50,
+        0,
+        0
+      },
       scale = {
-  0.5,
-  0.5,
-  0.5
-}
+        0.5,
+        0.5,
+        0.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_02.NS_Bow_Bullet_02",
     FXPriorityType = 90,
@@ -11851,15 +11851,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2060112,
     EffectParam = {
       Location = {
-  50,
-  0,
-  0
-},
+        50,
+        0,
+        0
+      },
       scale = {
-  0.5,
-  0.5,
-  0.5
-}
+        0.5,
+        0.5,
+        0.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_Bullet_03.NS_Bow_Bullet_03",
     FXPriorityType = 90,
@@ -11874,15 +11874,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 2060131,
     EffectParam = {
       Location = {
-  0,
-  0,
-  -30
-},
+        0,
+        0,
+        -30
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Bow/NS_Bow_OpenFire_HeavyShooting_02.NS_Bow_OpenFire_HeavyShooting_02",
     FXPriorityType = 90,
@@ -12104,10 +12104,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10104103,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_Liuming_Seed_Explode.NS_Rou_Liuming_Seed_Explode",
     FXPriorityType = 90,
@@ -12118,10 +12118,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10104104,
     EffectParam = {
       scale = {
-  3,
-  3,
-  3
-}
+        3,
+        3,
+        3
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_Liuming_Seed_Explode.NS_Rou_Liuming_Seed_Explode",
     FXPriorityType = 90,
@@ -12145,10 +12145,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10104106,
     EffectParam = {
       Location = {
-  0,
-  0,
-  100
-}
+        0,
+        0,
+        100
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_Liuming_Seed_Idle_Batch.NS_Rou_Liuming_Seed_Idle_Batch",
     FXPriorityType = 90,
@@ -12180,10 +12180,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10105205,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Bullet.NS_Rou_105_Bullet",
     FXPriorityType = 90,
@@ -12193,10 +12193,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10105302,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Bullet.NS_Rou_105_Bullet",
     FXPriorityType = 90
@@ -12207,10 +12207,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10105901,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Wind.NS_Rou_105_Wind",
     FXPriorityType = 70,
@@ -12223,10 +12223,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10105902,
     EffectParam = {
       scale = {
-  4,
-  4,
-  4
-}
+        4,
+        4,
+        4
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Wind.NS_Rou_105_Wind",
     FXPriorityType = 70,
@@ -12238,10 +12238,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10106101,
     EffectParam = {
       scale = {
-  3,
-  3,
-  3
-}
+        3,
+        3,
+        3
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Bullet.NS_Rou_106_Bullet",
     FXPriorityType = 90,
@@ -12266,10 +12266,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10106104,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Bullet.NS_Rou_106_Bullet",
     FXPriorityType = 90,
@@ -12279,10 +12279,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 10106105,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_106_Blast.NS_Rou_106_Blast",
     FXPriorityType = 90,
@@ -12301,15 +12301,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 10109102,
     EffectParam = {
       Location = {
-  -15,
-  0,
-  0
-},
+        -15,
+        0,
+        0
+      },
       scale = {
-  0.8,
-  0.8,
-  0.8
-}
+        0.8,
+        0.8,
+        0.8
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_109_FireMan.NS_Rou_109_FireMan",
     FXPriorityType = 90,
@@ -12331,15 +12331,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 10109104,
     EffectParam = {
       Location = {
-  -15,
-  0,
-  0
-},
+        -15,
+        0,
+        0
+      },
       scale = {
-  0.8,
-  0.8,
-  0.8
-}
+        0.8,
+        0.8,
+        0.8
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_109_FireMan.NS_Rou_109_FireMan",
     FXPriorityType = 90,
@@ -12507,10 +12507,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 20130001,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  -90
-}
+        0,
+        0,
+        -90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/Rou_20130_bullet.Rou_20130_bullet",
     FXPriorityType = 90,
@@ -12522,10 +12522,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 20131001,
     EffectParam = {
       scale = {
-  3,
-  3,
-  3
-}
+        3,
+        3,
+        3
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/Rou_20131_blast.Rou_20131_blast",
     FXPriorityType = 90
@@ -12534,10 +12534,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 20132001,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Bullet.NS_Rou_105_Bullet",
     FXPriorityType = 90,
@@ -12605,10 +12605,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 304000001,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     PlayLocation = {
@@ -12625,10 +12625,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 304000002,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     PlayLocation = {
@@ -12645,10 +12645,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 304000003,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     PlayLocation = {
@@ -12665,10 +12665,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 304000004,
     EffectParam = {
       scale = {
-  2,
-  2,
-  2
-}
+        2,
+        2,
+        2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_ShiningPet.NS_ShiningPet",
     PlayLocation = {
@@ -12698,15 +12698,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 304000006,
     EffectParam = {
       Location = {
-  0,
-  0,
-  200
-},
+        0,
+        0,
+        200
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Temple/NS_hitball_temple03.NS_hitball_temple03",
     PlayLocation = {
@@ -12717,15 +12717,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 304000007,
     EffectParam = {
       Location = {
-  0,
-  0,
-  200
-},
+        0,
+        0,
+        200
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Temple/NS_hitball_temple01.NS_hitball_temple01",
     PlayLocation = {
@@ -12736,15 +12736,15 @@ return ReadOnly("VisualEffect", {
     EffectId = 304000008,
     EffectParam = {
       Location = {
-  0,
-  0,
-  200
-},
+        0,
+        0,
+        200
+      },
       scale = {
-  1,
-  1,
-  1
-}
+        1,
+        1,
+        1
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Scene/Temple/NS_hitball_temple02.NS_hitball_temple02",
     PlayLocation = {
@@ -12792,10 +12792,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 600000104,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Frozen_Snow.NS_Strong_Frozen_Snow",
     FXPriorityType = 80,
@@ -12815,10 +12815,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 600000301,
     EffectParam = {
       Rotation = {
-  0,
-  0,
-  90
-}
+        0,
+        0,
+        90
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Poison_AOE.NS_Poison_AOE",
     FXPriorityType = 80,
@@ -12855,10 +12855,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 600000405,
     EffectParam = {
       scale = {
-  1.2,
-  1.2,
-  1.2
-}
+        1.2,
+        1.2,
+        1.2
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Thunder_Warning.NS_Strong_Thunder_Warning",
     FXPriorityType = 80,
@@ -12871,10 +12871,10 @@ return ReadOnly("VisualEffect", {
     EffectId = 600000501,
     EffectParam = {
       scale = {
-  1.5,
-  1.5,
-  1.5
-}
+        1.5,
+        1.5,
+        1.5
+      }
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/A_Common/NS_Strong_Blood_Bullet.NS_Strong_Blood_Bullet",
     FXPriorityType = 80

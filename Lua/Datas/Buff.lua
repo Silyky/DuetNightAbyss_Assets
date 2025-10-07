@@ -48,9 +48,9 @@ return ReadOnly("Buff", {
   [5] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-}
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      }
     },
     AddPassiveEffect = {1},
     BuffAnimInstance = "Ride",
@@ -71,7 +71,9 @@ return ReadOnly("Buff", {
   },
   [11] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 11,
     BuffType = {
@@ -84,7 +86,9 @@ return ReadOnly("Buff", {
   },
   [12] = {
     AddAttrs = {
-      [1] = {AttrName = "Def", Rate = "#1"}
+      [1] = {
+        AttrName = "Def", Rate = "#1"
+      }
     },
     BuffId = 12,
     BuffType = {
@@ -98,9 +102,9 @@ return ReadOnly("Buff", {
   [13] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 13,
     BuffType = {
@@ -114,9 +118,9 @@ return ReadOnly("Buff", {
   [14] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     BuffId = 14,
     BuffType = {
@@ -129,7 +133,9 @@ return ReadOnly("Buff", {
   },
   [21] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 21,
     BuffType = {
@@ -142,7 +148,9 @@ return ReadOnly("Buff", {
   },
   [22] = {
     AddAttrs = {
-      [1] = {AttrName = "Def", Rate = "#1"}
+      [1] = {
+        AttrName = "Def", Rate = "#1"
+      }
     },
     BuffId = 22,
     BuffType = {
@@ -272,7 +280,9 @@ return ReadOnly("Buff", {
   },
   [96] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.3}
+      [1] = {
+        AttrName = "ATK", Rate = 0.3
+      }
     },
     BuffDamagedRate = {
       Value = -0.3
@@ -620,13 +630,17 @@ return ReadOnly("Buff", {
     },
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -668,9 +682,9 @@ return ReadOnly("Buff", {
   [303] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 1
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = 1
+      }
     },
     BuffEffects = {
       1000
@@ -780,7 +794,9 @@ return ReadOnly("Buff", {
   },
   [402] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffEffects = {4022},
     BuffId = 402,
@@ -828,14 +844,14 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
-  BaseAttr = "MaxHp",
-  DamageTag = {
-    "Hot"
-  },
-  Interval = 1,
-  Rate = "#1",
-  Type = "Hot"
-}
+        BaseAttr = "MaxHp",
+        DamageTag = {
+          "Hot"
+        },
+        Interval = 1,
+        Rate = "#1",
+        Type = "Hot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -843,7 +859,9 @@ return ReadOnly("Buff", {
   },
   [411] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = "#1"}
+      [1] = {
+        AttrName = "DEF", Rate = "#1"
+      }
     },
     BuffId = 411,
     BuffType = {
@@ -856,7 +874,9 @@ return ReadOnly("Buff", {
   },
   [412] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffEffects = {4122},
     BuffId = 412,
@@ -871,9 +891,9 @@ return ReadOnly("Buff", {
   [413] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSustain",
-  Rate = "#1"
-}
+        AttrName = "SkillSustain",
+        Rate = "#1"
+      }
     },
     BuffId = 413,
     BuffType = {
@@ -886,7 +906,9 @@ return ReadOnly("Buff", {
   },
   [415] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = "#1"}
+      [1] = {
+        AttrName = "DEF", Rate = "#1"
+      }
     },
     BuffEffects = {4152},
     BuffId = 415,
@@ -919,9 +941,9 @@ return ReadOnly("Buff", {
   [421] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = "#1"
-}
+        AttrName = "StrongValue",
+        Value = "#1"
+      }
     },
     BuffEffects = {4212},
     BuffId = 421,
@@ -956,9 +978,9 @@ return ReadOnly("Buff", {
   [423] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Value = "#1"
+      }
     },
     BuffEffects = {4232},
     BuffId = 423,
@@ -973,11 +995,11 @@ return ReadOnly("Buff", {
   [424] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Skill",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffEffects = {4242},
     BuffId = 424,
@@ -992,9 +1014,9 @@ return ReadOnly("Buff", {
   [425] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = "#1"
-}
+        AttrName = "EnmityValue",
+        Value = "#1"
+      }
     },
     BuffEffects = {4252},
     BuffId = 425,
@@ -1029,7 +1051,9 @@ return ReadOnly("Buff", {
   },
   [801] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxES", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 801,
     CombatConditionId = 502,
@@ -1039,8 +1063,12 @@ return ReadOnly("Buff", {
   },
   [802] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = "#2"},
-      [2] = {AttrName = "MaxES", Rate = "#1"}
+      [1] = {
+        AttrName = "DEF", Rate = "#2"
+      },
+      [2] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 802,
     CombatConditionId = 502,
@@ -1050,9 +1078,15 @@ return ReadOnly("Buff", {
   },
   [803] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#3"},
-      [2] = {AttrName = "DEF", Rate = "#2"},
-      [3] = {AttrName = "MaxES", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#3"
+      },
+      [2] = {
+        AttrName = "DEF", Rate = "#2"
+      },
+      [3] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 803,
     CombatConditionId = 502,
@@ -1063,9 +1097,15 @@ return ReadOnly("Buff", {
   [804] = {
     AddAttrs = {
       [1] = {AttrName = "ATK", Rate = "#4"},
-      [2] = {AttrName = "MaxHp", Rate = "#3"},
-      [3] = {AttrName = "DEF", Rate = "#2"},
-      [4] = {AttrName = "MaxES", Rate = "#1"}
+      [2] = {
+        AttrName = "MaxHp", Rate = "#3"
+      },
+      [3] = {
+        AttrName = "DEF", Rate = "#2"
+      },
+      [4] = {
+        AttrName = "MaxES", Rate = "#1"
+      }
     },
     BuffId = 804,
     CombatConditionId = 502,
@@ -1104,10 +1144,10 @@ return ReadOnly("Buff", {
   [1311] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     BuffId = 1311,
     BuffType = {
@@ -1122,9 +1162,9 @@ return ReadOnly("Buff", {
   [1312] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 1312,
     BuffType = {
@@ -1138,10 +1178,10 @@ return ReadOnly("Buff", {
   [1313] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffId = 1313,
     BuffType = {
@@ -1155,10 +1195,10 @@ return ReadOnly("Buff", {
   [1314] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffId = 1314,
     BuffType = {
@@ -1188,10 +1228,10 @@ return ReadOnly("Buff", {
   [1316] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     BuffId = 1316,
     MaxLayer = 3,
@@ -1249,10 +1289,10 @@ return ReadOnly("Buff", {
   [1800] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffId = 1800,
     MaxLayer = 3,
@@ -1262,9 +1302,9 @@ return ReadOnly("Buff", {
   [1911] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Value = "#1"
+      }
     },
     BuffId = 1911,
     BuffType = {
@@ -1296,7 +1336,9 @@ return ReadOnly("Buff", {
   },
   [1931] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 1931,
     BuffType = {
@@ -1311,11 +1353,11 @@ return ReadOnly("Buff", {
   [1941] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Skill",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffId = 1941,
     BuffType = {
@@ -1330,9 +1372,9 @@ return ReadOnly("Buff", {
   [1951] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 1951,
     BuffType = {
@@ -1346,9 +1388,9 @@ return ReadOnly("Buff", {
   [1952] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = "#1"
-}
+        AttrName = "EnmityValue",
+        Value = "#1"
+      }
     },
     BuffId = 1952,
     BuffType = {
@@ -1434,9 +1476,9 @@ return ReadOnly("Buff", {
   [2311] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1473,9 +1515,9 @@ return ReadOnly("Buff", {
   [2321] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1496,9 +1538,9 @@ return ReadOnly("Buff", {
   [2322] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRangeModifierValue",
-  Value = "#1"
-}
+        AttrName = "AttackRangeModifierValue",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1517,9 +1559,9 @@ return ReadOnly("Buff", {
   [3301] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1539,9 +1581,9 @@ return ReadOnly("Buff", {
   [3311] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1561,9 +1603,9 @@ return ReadOnly("Buff", {
   [3321] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1584,9 +1626,9 @@ return ReadOnly("Buff", {
   [3331] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1634,9 +1676,9 @@ return ReadOnly("Buff", {
   [6114] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Value = 1
-}
+        AttrName = "WeaponCRIModifierRate",
+        Value = 1
+      }
     },
     BuffId = 6114,
     MergeRule1 = "Global",
@@ -1644,7 +1686,9 @@ return ReadOnly("Buff", {
   },
   [6121] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 1}
+      [1] = {
+        AttrName = "ATK", Rate = 1
+      }
     },
     BuffId = 6121,
     MergeRule1 = "Personal",
@@ -1665,9 +1709,9 @@ return ReadOnly("Buff", {
   [6124] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6124,
     MergeRule1 = "Global",
@@ -1675,7 +1719,9 @@ return ReadOnly("Buff", {
   },
   [6131] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 1}
+      [1] = {
+        AttrName = "ATK", Rate = 1
+      }
     },
     BuffId = 6131,
     MergeRule1 = "Personal",
@@ -1696,9 +1742,9 @@ return ReadOnly("Buff", {
   [6134] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6134,
     MergeRule1 = "Global",
@@ -1707,9 +1753,9 @@ return ReadOnly("Buff", {
   [6141] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6141,
     MergeRule1 = "Personal",
@@ -1730,9 +1776,9 @@ return ReadOnly("Buff", {
   [6144] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = 1
-}
+        AttrName = "EnmityValue",
+        Value = 1
+      }
     },
     BuffId = 6144,
     MergeRule1 = "Global",
@@ -1741,9 +1787,9 @@ return ReadOnly("Buff", {
   [6151] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
     },
     BuffId = 6151,
     MergeRule1 = "Personal",
@@ -1764,9 +1810,9 @@ return ReadOnly("Buff", {
   [6154] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = 1
-}
+        AttrName = "EnmityValue",
+        Value = 1
+      }
     },
     BuffId = 6154,
     MergeRule1 = "Global",
@@ -1802,9 +1848,9 @@ return ReadOnly("Buff", {
   [6164] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Value = 1
-}
+        AttrName = "WeaponCRIModifierRate",
+        Value = 1
+      }
     },
     BuffId = 6164,
     MergeRule1 = "Global",
@@ -1812,7 +1858,9 @@ return ReadOnly("Buff", {
   },
   [10102] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffEffects = {
       1025
@@ -1829,10 +1877,10 @@ return ReadOnly("Buff", {
   [10201] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Stackable = 1,
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Stackable = 1,
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1853,11 +1901,11 @@ return ReadOnly("Buff", {
   [10203] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Skill",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffEffects = {
       1002
@@ -1875,13 +1923,13 @@ return ReadOnly("Buff", {
   [10204] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-},
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "EnmityValue",
-  Value = "#2"
-}
+        AttrName = "EnmityValue",
+        Value = "#2"
+      }
     },
     BuffEffects = {
       1008
@@ -1917,9 +1965,9 @@ return ReadOnly("Buff", {
   [10304] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 10304,
     BuffInitEffects = {
@@ -1936,7 +1984,9 @@ return ReadOnly("Buff", {
   },
   [10501] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#1"
+      }
     },
     BuffId = 10501,
     BuffType = {
@@ -1951,11 +2001,11 @@ return ReadOnly("Buff", {
   [10502] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Skill",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffEffects = {
       1002
@@ -1972,9 +2022,9 @@ return ReadOnly("Buff", {
   [10503] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackRangeModifierValue",
-  Value = "#1"
-}
+        AttrName = "AttackRangeModifierValue",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -1992,9 +2042,9 @@ return ReadOnly("Buff", {
   [10504] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -2010,7 +2060,9 @@ return ReadOnly("Buff", {
   },
   [10602] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -2031,9 +2083,9 @@ return ReadOnly("Buff", {
   [10603] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -2074,10 +2126,10 @@ return ReadOnly("Buff", {
   [20201] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Stackable = 1,
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Stackable = 1,
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -2105,10 +2157,10 @@ return ReadOnly("Buff", {
   [20205] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Stackable = 1,
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Stackable = 1,
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -2160,12 +2212,12 @@ return ReadOnly("Buff", {
         Value = "#1"
       },
       [2] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      }
     },
     BuffId = 20302,
     BuffType = {
@@ -2180,10 +2232,10 @@ return ReadOnly("Buff", {
   [20303] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     AddPassiveEffect = {
       104
@@ -2204,10 +2256,10 @@ return ReadOnly("Buff", {
   [20304] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Stackable = 1,
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Stackable = 1,
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -2228,10 +2280,10 @@ return ReadOnly("Buff", {
   [20305] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Stackable = 1,
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Stackable = 1,
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -2271,11 +2323,11 @@ return ReadOnly("Buff", {
   [20502] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Weapon",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Weapon",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffEffects = {
       1002
@@ -2292,10 +2344,10 @@ return ReadOnly("Buff", {
   [20509] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     BuffEffects = {
       1001
@@ -2313,10 +2365,10 @@ return ReadOnly("Buff", {
   [20510] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     BuffEffects = {
       1001
@@ -2334,11 +2386,11 @@ return ReadOnly("Buff", {
   [20603] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Skill",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffEffects = {
       1002
@@ -2366,7 +2418,9 @@ return ReadOnly("Buff", {
   },
   [100002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 100002,
     MaxLayer = 2,
@@ -2484,7 +2538,9 @@ return ReadOnly("Buff", {
   },
   [110002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 110002,
     CombatConditionId = 1001,
@@ -2506,7 +2562,9 @@ return ReadOnly("Buff", {
   },
   [110004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 110004,
     CombatConditionId = 1001,
@@ -2568,9 +2626,9 @@ return ReadOnly("Buff", {
   [110111] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillEfficiency",
-  Value = 0.08
-}
+        AttrName = "SkillEfficiency",
+        Value = 0.08
+      }
     },
     BuffId = 110111,
     BuffType = {
@@ -2585,10 +2643,10 @@ return ReadOnly("Buff", {
   [110112] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = 0.2,
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = 0.2,
+        Stackable = 1
+      }
     },
     BuffId = 110112,
     MaxLayer = 4,
@@ -2799,19 +2857,19 @@ return ReadOnly("Buff", {
   [110303] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  BaseUseValue = 1,
-  Rate = "#1",
-  SupLimitValue = 315
-},
+        AttrName = "ATK",
+        BaseUseValue = 1,
+        Rate = "#1",
+        SupLimitValue = 315
+      },
       [2] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      },
       [3] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.1
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.1
+      }
     },
     BuffId = 110303,
     BuffType = {
@@ -2830,7 +2888,9 @@ return ReadOnly("Buff", {
   },
   [110311] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Value = 0.3}
+      [1] = {
+        AttrName = "SkillRange", Value = 0.3
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 110311,
@@ -2861,12 +2921,14 @@ return ReadOnly("Buff", {
   [110331] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  BaseUseValue = 1,
-  Rate = "#1",
-  SupLimitValue = 315
-},
-      [2] = {AttrName = "SkillSpeed", Rate = 0.3}
+        AttrName = "ATK",
+        BaseUseValue = 1,
+        Rate = "#1",
+        SupLimitValue = 315
+      },
+      [2] = {
+        AttrName = "SkillSpeed", Rate = 0.3
+      }
     },
     BuffEffects = {
       110302
@@ -2896,7 +2958,9 @@ return ReadOnly("Buff", {
   },
   [110341] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Value = 0.3},
+      [1] = {
+        AttrName = "SkillRange", Value = 0.3
+      },
       [2] = {
         AttrName = "StrongValue",
         Value = 0.9
@@ -2919,13 +2983,13 @@ return ReadOnly("Buff", {
   [110399] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      },
       [2] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.1
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.1
+      }
     },
     BuffId = 110399,
     BuffType = {
@@ -2990,9 +3054,9 @@ return ReadOnly("Buff", {
   [110431] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DarkDamagedRate",
-  Value = 0.5
-}
+        AttrName = "DarkDamagedRate",
+        Value = 0.5
+      }
     },
     BuffId = 110431,
     BuffType = {
@@ -3007,10 +3071,10 @@ return ReadOnly("Buff", {
   [110441] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Stackable = 1,
-  Value = 0.33
-}
+        AttrName = "SkillIntensity",
+        Stackable = 1,
+        Value = 0.33
+      }
     },
     BuffId = 110441,
     BuffType = {
@@ -3061,9 +3125,9 @@ return ReadOnly("Buff", {
     },
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-}
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      }
     },
     AllowSkillSustainModify = true,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_120211.BP_Buff_120211",
@@ -3157,7 +3221,9 @@ return ReadOnly("Buff", {
   },
   [150002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 150002,
     CombatConditionId = 1006,
@@ -3179,7 +3245,9 @@ return ReadOnly("Buff", {
   },
   [150004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 150004,
     CombatConditionId = 1006,
@@ -3347,9 +3415,9 @@ return ReadOnly("Buff", {
   [150214] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.3
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.3
+      }
     },
     BuffId = 150214,
     BuffType = {
@@ -3448,22 +3516,24 @@ return ReadOnly("Buff", {
   [150301] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150301,
     BuffSpModify = {
-      [150302] = {Value = -0.3}
+      [150302] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150305
@@ -3475,22 +3545,24 @@ return ReadOnly("Buff", {
   [150302] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150302,
     BuffSpModify = {
-      [150321] = {Value = -0.3}
+      [150321] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150306
@@ -3502,7 +3574,9 @@ return ReadOnly("Buff", {
   [150305] = {
     BuffId = 150305,
     BuffSpModify = {
-      [150302] = {Value = -20}
+      [150302] = {
+        Value = -20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -3510,7 +3584,9 @@ return ReadOnly("Buff", {
   [150306] = {
     BuffId = 150306,
     BuffSpModify = {
-      [150321] = {Value = -20}
+      [150321] = {
+        Value = -20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -3518,22 +3594,24 @@ return ReadOnly("Buff", {
   [150307] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150307,
     BuffSpModify = {
-      [150302] = {Value = -0.3}
+      [150302] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150305
@@ -3545,22 +3623,24 @@ return ReadOnly("Buff", {
   [150308] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150308,
     BuffSpModify = {
-      [150321] = {Value = -0.3}
+      [150321] = {
+        Value = -0.3
+      }
     },
     LayerExtraBuff = {
       [100] = 150306
@@ -3572,10 +3652,10 @@ return ReadOnly("Buff", {
   [150311] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 150311,
     BuffType = {
@@ -3590,10 +3670,10 @@ return ReadOnly("Buff", {
   [150312] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 150312,
     BuffType = {
@@ -3948,18 +4028,18 @@ return ReadOnly("Buff", {
   [150371] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150371,
     MaxLayer = 100,
@@ -3969,18 +4049,18 @@ return ReadOnly("Buff", {
   [150372] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150372,
     MaxLayer = 100,
@@ -3990,18 +4070,18 @@ return ReadOnly("Buff", {
   [150373] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Melee",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Melee",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Melee",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Melee",
+        Value = "#2"
+      }
     },
     BuffId = 150373,
     MaxLayer = 100,
@@ -4011,18 +4091,18 @@ return ReadOnly("Buff", {
   [150374] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Ranged",
-  RateZone = "Normal",
-  Stackable = 1,
-  Value = "#1"
-},
+        AttrName = "DamageRate",
+        DamageTag = "Ranged",
+        RateZone = "Normal",
+        Stackable = 1,
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "TriggerProbModifierRate",
-  Stackable = 1,
-  Type = "Ranged",
-  Value = "#2"
-}
+        AttrName = "TriggerProbModifierRate",
+        Stackable = 1,
+        Type = "Ranged",
+        Value = "#2"
+      }
     },
     BuffId = 150374,
     MaxLayer = 100,
@@ -4225,11 +4305,11 @@ return ReadOnly("Buff", {
   [160101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Weapon",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Weapon",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffEffects = {
@@ -4248,9 +4328,9 @@ return ReadOnly("Buff", {
   [160102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.5
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.5
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 160102,
@@ -4288,11 +4368,11 @@ return ReadOnly("Buff", {
         Value = 0.54
       },
       [2] = {
-  AttrName = "DamageRate",
-  DamageTag = "Weapon",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Weapon",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffEffects = {
@@ -4368,12 +4448,12 @@ return ReadOnly("Buff", {
   [180111] = {
     AddAttrs = {
       [1] = {
-  AllowSkillIntensity = 1,
-  AttrName = "BonusDamage",
-  Stackable = 1,
-  Type = "Light",
-  Value = "#1"
-}
+        AllowSkillIntensity = 1,
+        AttrName = "BonusDamage",
+        Stackable = 1,
+        Type = "Light",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 180111,
@@ -4387,13 +4467,17 @@ return ReadOnly("Buff", {
     EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-  0.0068,
-  0.0492,
-  0.2,
-  0
-},
-      FresnelColorRange = {Default = 0.4},
-      FresnelColorStrength = {Default = 130}
+        0.0068,
+        0.0492,
+        0.2,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.4
+      },
+      FresnelColorStrength = {
+        Default = 130
+      }
     },
     IconPriority = 8,
     IsShowInBillboard = true,
@@ -4407,12 +4491,12 @@ return ReadOnly("Buff", {
   [180112] = {
     AddAttrs = {
       [1] = {
-  AllowSkillIntensity = 1,
-  AttrName = "BonusDamage",
-  Stackable = 1,
-  Type = "Light",
-  Value = "#1"
-}
+        AllowSkillIntensity = 1,
+        AttrName = "BonusDamage",
+        Stackable = 1,
+        Type = "Light",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 180112,
@@ -4426,13 +4510,17 @@ return ReadOnly("Buff", {
     EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-  0.0068,
-  0.0492,
-  0.2,
-  0
-},
-      FresnelColorRange = {Default = 0.4},
-      FresnelColorStrength = {Default = 130}
+        0.0068,
+        0.0492,
+        0.2,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.4
+      },
+      FresnelColorStrength = {
+        Default = 130
+      }
     },
     IconPriority = 8,
     IsShowInBillboard = true,
@@ -4446,9 +4534,9 @@ return ReadOnly("Buff", {
   [180113] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.4
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.4
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 180113,
@@ -4466,12 +4554,12 @@ return ReadOnly("Buff", {
   [180114] = {
     AddAttrs = {
       [1] = {
-  AllowSkillIntensity = 1,
-  AttrName = "BonusDamage",
-  Stackable = 1,
-  Type = "Light",
-  Value = "#1"
-},
+        AllowSkillIntensity = 1,
+        AttrName = "BonusDamage",
+        Stackable = 1,
+        Type = "Light",
+        Value = "#1"
+      },
       [2] = {
         AttrName = "SkillIntensity",
         Stackable = 1,
@@ -4495,13 +4583,17 @@ return ReadOnly("Buff", {
     EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-  0.0068,
-  0.0492,
-  0.2,
-  0
-},
-      FresnelColorRange = {Default = 0.4},
-      FresnelColorStrength = {Default = 130}
+        0.0068,
+        0.0492,
+        0.2,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.4
+      },
+      FresnelColorStrength = {
+        Default = 130
+      }
     },
     IconPriority = 8,
     IsShowInBillboard = true,
@@ -4578,16 +4670,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Fire",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Fire",
-  Immediately = 1,
-  Interval = 2,
-  Rate = "#1",
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Fire",
+        Immediately = 1,
+        Interval = 2,
+        Rate = "#1",
+        Type = "Dot"
+      }
     },
     FXMID = {
       ParamType = "Fire"
@@ -4620,16 +4712,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Thunder",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Thunder",
-  Immediately = 1,
-  Interval = 2,
-  Rate = "#1",
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Thunder",
+        Immediately = 1,
+        Interval = 2,
+        Rate = "#1",
+        Type = "Dot"
+      }
     },
     FXMID = {
       ParamType = "Thunder"
@@ -4662,16 +4754,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Wind",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Wind",
-  Immediately = 1,
-  Interval = 2,
-  Rate = "#1",
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Wind",
+        Immediately = 1,
+        Interval = 2,
+        Rate = "#1",
+        Type = "Dot"
+      }
     },
     FXMID = {
       ParamType = "Wind"
@@ -4683,10 +4775,10 @@ return ReadOnly("Buff", {
   [180131] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Water",
-  Value = "#1"
-}
+        AttrName = "BonusDamage",
+        Type = "Water",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       202
@@ -4709,10 +4801,10 @@ return ReadOnly("Buff", {
   [180132] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Fire",
-  Value = "#1"
-}
+        AttrName = "BonusDamage",
+        Type = "Fire",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       203
@@ -4735,10 +4827,10 @@ return ReadOnly("Buff", {
   [180133] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Thunder",
-  Value = "#1"
-}
+        AttrName = "BonusDamage",
+        Type = "Thunder",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       204
@@ -4761,10 +4853,10 @@ return ReadOnly("Buff", {
   [180134] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Wind",
-  Value = "#1"
-}
+        AttrName = "BonusDamage",
+        Type = "Wind",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       205
@@ -4787,14 +4879,14 @@ return ReadOnly("Buff", {
   [180135] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Water",
-  Value = "#1"
-},
+        AttrName = "BonusDamage",
+        Type = "Water",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.06
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.06
+      }
     },
     AddPassiveEffect = {
       202
@@ -4816,14 +4908,14 @@ return ReadOnly("Buff", {
   [180136] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Fire",
-  Value = "#1"
-},
+        AttrName = "BonusDamage",
+        Type = "Fire",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.06
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.06
+      }
     },
     AddPassiveEffect = {
       203
@@ -4845,14 +4937,14 @@ return ReadOnly("Buff", {
   [180137] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Thunder",
-  Value = "#1"
-},
+        AttrName = "BonusDamage",
+        Type = "Thunder",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.06
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.06
+      }
     },
     AddPassiveEffect = {
       204
@@ -4874,14 +4966,14 @@ return ReadOnly("Buff", {
   [180138] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Wind",
-  Value = "#1"
-},
+        AttrName = "BonusDamage",
+        Type = "Wind",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.06
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.06
+      }
     },
     AddPassiveEffect = {
       205
@@ -4990,7 +5082,9 @@ return ReadOnly("Buff", {
   },
   [201021] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.3}
+      [1] = {
+        AttrName = "ATK", Rate = 0.3
+      }
     },
     BuffId = 201021,
     BuffType = {
@@ -5057,7 +5151,9 @@ return ReadOnly("Buff", {
   },
   [210002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 210002,
     CombatConditionId = 1002,
@@ -5079,7 +5175,9 @@ return ReadOnly("Buff", {
   },
   [210004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 210004,
     CombatConditionId = 1002,
@@ -5099,18 +5197,18 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Water",
-  Immediately = 1,
-  Interval = 2,
-  PlaySe = 152,
-  Rate = "#1",
-  Stackable = 1,
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Water",
+        Immediately = 1,
+        Interval = 2,
+        PlaySe = 152,
+        Rate = "#1",
+        Stackable = 1,
+        Type = "Dot"
+      }
     },
     FXMID = {
       ParamType = "ShuimuDot"
@@ -5136,18 +5234,18 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Water",
-  Immediately = 1,
-  Interval = 2,
-  PlaySe = 152,
-  Rate = "#1",
-  Stackable = 1,
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Water",
+        Immediately = 1,
+        Interval = 2,
+        PlaySe = 152,
+        Rate = "#1",
+        Stackable = 1,
+        Type = "Dot"
+      }
     },
     FXMID = {
       ParamType = "ShuimuDot"
@@ -5255,11 +5353,11 @@ return ReadOnly("Buff", {
   [230101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Skill",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       202
@@ -5365,10 +5463,10 @@ return ReadOnly("Buff", {
   [240121] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  RateUseValue = 1,
-  SupLimitRate = 1.2
-}
+        AttrName = "SkillIntensity",
+        RateUseValue = 1,
+        SupLimitRate = 1.2
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 240121,
@@ -5389,10 +5487,10 @@ return ReadOnly("Buff", {
   [240122] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  RateUseValue = 1,
-  SupLimitRate = 1.2
-}
+        AttrName = "SkillIntensity",
+        RateUseValue = 1,
+        SupLimitRate = 1.2
+      }
     },
     AddPassiveEffect = {240104},
     AllowSkillSustainModify = true,
@@ -5414,9 +5512,9 @@ return ReadOnly("Buff", {
   [240123] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 240123,
@@ -5427,13 +5525,17 @@ return ReadOnly("Buff", {
     EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-  0.108477,
-  0.9003,
-  1,
-  0
-},
-      FresnelColorRange = {Default = 0.5},
-      FresnelColorStrength = {Default = 3, FresnelColor = 3}
+        0.108477,
+        0.9003,
+        1,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.5
+      },
+      FresnelColorStrength = {
+        Default = 3, FresnelColor = 3
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -5447,9 +5549,9 @@ return ReadOnly("Buff", {
   [240124] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-},
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      },
       [2] = {
         AttrName = "BonusDamage",
         Type = "Water",
@@ -5467,13 +5569,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Weapon_Spd_Up",
     FresnelParams = {
       FresnelColor = {
-  0.108477,
-  0.9003,
-  1,
-  0
-},
-      FresnelColorRange = {Default = 0.5},
-      FresnelColorStrength = {Default = 3, FresnelColor = 3}
+        0.108477,
+        0.9003,
+        1,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.5
+      },
+      FresnelColorStrength = {
+        Default = 3, FresnelColor = 3
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -5505,10 +5611,10 @@ return ReadOnly("Buff", {
   [240133] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSpeed",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "SkillSpeed",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 240133,
@@ -5524,10 +5630,10 @@ return ReadOnly("Buff", {
   [240134] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillSpeed",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "SkillSpeed",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 240134,
@@ -5543,10 +5649,10 @@ return ReadOnly("Buff", {
   [240141] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Stackable = 1,
-  Value = 0.33
-}
+        AttrName = "SkillIntensity",
+        Stackable = 1,
+        Value = 0.33
+      }
     },
     BuffId = 240141,
     BuffType = {
@@ -5621,7 +5727,9 @@ return ReadOnly("Buff", {
   },
   [310002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 310002,
     CombatConditionId = 1003,
@@ -5643,7 +5751,9 @@ return ReadOnly("Buff", {
   },
   [310004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 310004,
     CombatConditionId = 1003,
@@ -5712,11 +5822,11 @@ return ReadOnly("Buff", {
     },
     DotDatas = {
       [1] = {
-  DotDelay = 1.5,
-  Interval = 1,
-  Type = "SpChange",
-  Value = -20
-}
+        DotDelay = 1.5,
+        Interval = 1,
+        Type = "SpChange",
+        Value = -20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -5754,11 +5864,11 @@ return ReadOnly("Buff", {
     },
     DotDatas = {
       [1] = {
-  DotDelay = 1.5,
-  Interval = 1,
-  Type = "SpChange",
-  Value = -20
-}
+        DotDelay = 1.5,
+        Interval = 1,
+        Type = "SpChange",
+        Value = -20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -5883,11 +5993,11 @@ return ReadOnly("Buff", {
     BuffId = 310204,
     DotDatas = {
       [1] = {
-  DotDelay = 0.5,
-  Interval = 1,
-  Type = "SpChange",
-  Value = -15
-}
+        DotDelay = 0.5,
+        Interval = 1,
+        Type = "SpChange",
+        Value = -15
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -5912,19 +6022,19 @@ return ReadOnly("Buff", {
   [310206] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.55
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.55
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 310206,
     DotDatas = {
       [1] = {
-  DotDelay = 0.5,
-  Interval = 1,
-  Type = "SpChange",
-  Value = -15
-}
+        DotDelay = 0.5,
+        Interval = 1,
+        Type = "SpChange",
+        Value = -15
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -5933,9 +6043,9 @@ return ReadOnly("Buff", {
   [310211] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MaxAvoidExecuteTimes",
-  Value = 2
-}
+        AttrName = "MaxAvoidExecuteTimes",
+        Value = 2
+      }
     },
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_310201.BP_Buff_310201",
     BuffId = 310211,
@@ -5945,10 +6055,10 @@ return ReadOnly("Buff", {
   [310212] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_310201.BP_Buff_310201",
@@ -5964,10 +6074,10 @@ return ReadOnly("Buff", {
   [310213] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 310213,
@@ -6027,9 +6137,9 @@ return ReadOnly("Buff", {
   [310304] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillEfficiency",
-  Value = 0.08
-}
+        AttrName = "SkillEfficiency",
+        Value = 0.08
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 310304,
@@ -6072,9 +6182,9 @@ return ReadOnly("Buff", {
   [310321] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.4
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.4
+      }
     },
     BuffId = 310321,
     BuffInitEffects = {
@@ -6093,9 +6203,9 @@ return ReadOnly("Buff", {
   [310323] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.6
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.6
+      }
     },
     BuffId = 310323,
     BuffInitEffects = {
@@ -6117,7 +6227,9 @@ return ReadOnly("Buff", {
   },
   [320100] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#1"
+      }
     },
     BuffId = 320100,
     BuffType = {
@@ -6146,7 +6258,9 @@ return ReadOnly("Buff", {
   },
   [320101] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#1"
+      }
     },
     BuffId = 320101,
     BuffType = {
@@ -6226,16 +6340,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Fire",
-  Immediately = 1,
-  Interval = 2,
-  Rate = "#1",
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Fire",
+        Immediately = 1,
+        Interval = 2,
+        Rate = "#1",
+        Type = "Dot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6314,10 +6428,10 @@ return ReadOnly("Buff", {
   [330101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     BuffId = 330101,
     BuffType = {
@@ -6403,7 +6517,9 @@ return ReadOnly("Buff", {
   },
   [410002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 410002,
     CombatConditionId = 1004,
@@ -6425,7 +6541,9 @@ return ReadOnly("Buff", {
   },
   [410004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 410004,
     CombatConditionId = 1004,
@@ -6517,21 +6635,21 @@ return ReadOnly("Buff", {
   [410123] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.25
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.25
+      },
       [2] = {
-  AttrName = "SlideVelocityModifier",
-  Value = 0.25
-},
+        AttrName = "SlideVelocityModifier",
+        Value = 0.25
+      },
       [3] = {
-  AttrName = "BulletJumpVelocityModifier",
-  Value = 0.25
-},
+        AttrName = "BulletJumpVelocityModifier",
+        Value = 0.25
+      },
       [4] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.25
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.25
+      }
     },
     BuffId = 410123,
     BuffType = {
@@ -6565,21 +6683,21 @@ return ReadOnly("Buff", {
   [410124] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.25
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.25
+      },
       [2] = {
-  AttrName = "SlideVelocityModifier",
-  Value = 0.25
-},
+        AttrName = "SlideVelocityModifier",
+        Value = 0.25
+      },
       [3] = {
-  AttrName = "BulletJumpVelocityModifier",
-  Value = 0.25
-},
+        AttrName = "BulletJumpVelocityModifier",
+        Value = 0.25
+      },
       [4] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.25
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.25
+      }
     },
     BuffId = 410124,
     BuffType = {
@@ -6692,11 +6810,11 @@ return ReadOnly("Buff", {
   [410231] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  DamageTag = "Skill",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffEffects = {
@@ -6713,7 +6831,9 @@ return ReadOnly("Buff", {
   },
   [410241] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.3}
+      [1] = {
+        AttrName = "ATK", Rate = 0.3
+      }
     },
     BuffEffects = {
       1001
@@ -6730,9 +6850,9 @@ return ReadOnly("Buff", {
   [410242] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = 0.55
-}
+        AttrName = "AlmightyDamageRate",
+        Value = 0.55
+      }
     },
     BuffId = 410242,
     MergeRule1 = "Personal",
@@ -6743,10 +6863,10 @@ return ReadOnly("Buff", {
     BuffId = 410243,
     DotDatas = {
       [1] = {
-  Interval = 1,
-  Type = "SpChange",
-  Value = -6
-}
+        Interval = 1,
+        Type = "SpChange",
+        Value = -6
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -6761,9 +6881,9 @@ return ReadOnly("Buff", {
   [410252] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.6
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.6
+      }
     },
     BuffId = 410252,
     MergeRule1 = "Global",
@@ -6798,10 +6918,10 @@ return ReadOnly("Buff", {
   [420112] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffEffects = {
@@ -7026,16 +7146,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Thunder",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Thunder",
-  Immediately = 1,
-  Interval = 2,
-  Rate = "#1",
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Thunder",
+        Immediately = 1,
+        Interval = 2,
+        Rate = "#1",
+        Type = "Dot"
+      }
     },
     IsShowInBillboard = true,
     MaxLayer = 2,
@@ -7084,7 +7204,9 @@ return ReadOnly("Buff", {
   },
   [510002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.4}
+      [1] = {
+        AttrName = "ATK", Rate = 0.4
+      }
     },
     BuffId = 510002,
     CombatConditionId = 1005,
@@ -7106,7 +7228,9 @@ return ReadOnly("Buff", {
   },
   [510004] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.5}
+      [1] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 510004,
     CombatConditionId = 1005,
@@ -7117,10 +7241,10 @@ return ReadOnly("Buff", {
   [510101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffEffects = {
@@ -7147,10 +7271,10 @@ return ReadOnly("Buff", {
   [510103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffDamagedRate = {
@@ -7164,13 +7288,17 @@ return ReadOnly("Buff", {
     EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-  10.88886,
-  2.91666,
-  20,
-  0
-},
-      FresnelColorRange = {Default = 0.4},
-      FresnelColorStrength = {Default = 1.5, FresnelColor = 1.5}
+        10.88886,
+        2.91666,
+        20,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.4
+      },
+      FresnelColorStrength = {
+        Default = 1.5, FresnelColor = 1.5
+      }
     },
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -7286,10 +7414,10 @@ return ReadOnly("Buff", {
     DisableSkills = {"Attack", "FallAttack"},
     DotDatas = {
       [1] = {
-  Interval = 1,
-  Type = "SpChange",
-  Value = -6
-}
+        Interval = 1,
+        Type = "SpChange",
+        Value = -6
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -7302,10 +7430,10 @@ return ReadOnly("Buff", {
   [510131] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffDamagedRate = {
@@ -7319,13 +7447,17 @@ return ReadOnly("Buff", {
     EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-  10.88886,
-  2.91666,
-  20,
-  0
-},
-      FresnelColorRange = {Default = 0.4},
-      FresnelColorStrength = {Default = 1.5, FresnelColor = 1.5}
+        10.88886,
+        2.91666,
+        20,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.4
+      },
+      FresnelColorStrength = {
+        Default = 1.5, FresnelColor = 1.5
+      }
     },
     IsShowInBillboard = true,
     MaxLayer = 20,
@@ -7434,13 +7566,13 @@ return ReadOnly("Buff", {
   [510221] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-},
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "EnmityValue",
-  Value = "#2"
-}
+        AttrName = "EnmityValue",
+        Value = "#2"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 510221,
@@ -7463,13 +7595,13 @@ return ReadOnly("Buff", {
   [510222] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Value = "#1"
-},
+        AttrName = "AttackSpeedModifierRate",
+        Value = "#1"
+      },
       [2] = {
-  AttrName = "EnmityValue",
-  Value = "#2"
-},
+        AttrName = "EnmityValue",
+        Value = "#2"
+      },
       [3] = {
         AttrName = "BonusDamage",
         Type = "Wind",
@@ -7661,9 +7793,9 @@ return ReadOnly("Buff", {
   [530131] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = "#1"
-}
+        AttrName = "EnmityValue",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 530131,
@@ -7680,7 +7812,9 @@ return ReadOnly("Buff", {
   },
   [530132] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 530132,
@@ -7698,9 +7832,9 @@ return ReadOnly("Buff", {
   [530133] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffId = 530133,
@@ -7740,11 +7874,11 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Common_Buff_Aura",
     DotDatas = {
       [1] = {
-  EffectId = 540112,
-  Immediately = 1,
-  Interval = 1,
-  Type = "SkillEffect"
-}
+        EffectId = 540112,
+        Immediately = 1,
+        Interval = 1,
+        Type = "SkillEffect"
+      }
     },
     HaloDatas = {
       [1] = {
@@ -7753,11 +7887,11 @@ return ReadOnly("Buff", {
         Camp = "Friend"
       },
       [2] = {
-  AllowSkillRange = 1,
-  AuraRange = 600,
-  BuffId = 540112,
-  Camp = "Enemy"
-}
+        AllowSkillRange = 1,
+        AuraRange = 600,
+        BuffId = 540112,
+        Camp = "Enemy"
+      }
     },
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -7779,16 +7913,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Atk_Down",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  DamageTag = {
-    "Dot", "Skill"
-  },
-  DamageType = "Wind",
-  Immediately = 1,
-  Interval = 2,
-  Rate = "#1",
-  Type = "Dot"
-}
+        AllowSkillIntensity = 1,
+        DamageTag = {
+          "Dot", "Skill"
+        },
+        DamageType = "Wind",
+        Immediately = 1,
+        Interval = 2,
+        Rate = "#1",
+        Type = "Dot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7798,10 +7932,10 @@ return ReadOnly("Buff", {
   [540103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 540103,
     BuffInitEffects = {
@@ -7834,18 +7968,18 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  Condition = 2,
-  DamageTag = {
-    "Hot"
-  },
-  DefaultHealFX = 1,
-  Immediately = 1,
-  Interval = 1,
-  Rate = "#1",
-  Type = "Hot",
-  Value = 3
-}
+        AllowSkillIntensity = 1,
+        Condition = 2,
+        DamageTag = {
+          "Hot"
+        },
+        DefaultHealFX = 1,
+        Immediately = 1,
+        Interval = 1,
+        Rate = "#1",
+        Type = "Hot",
+        Value = 3
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7854,9 +7988,9 @@ return ReadOnly("Buff", {
   [540112] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.3
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.3
+      }
     },
     BuffId = 540112,
     BuffInitEffects = {
@@ -7880,11 +8014,11 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Common_Buff_Aura",
     DotDatas = {
       [1] = {
-  EffectId = 540112,
-  Immediately = 1,
-  Interval = 1,
-  Type = "SkillEffect"
-}
+        EffectId = 540112,
+        Immediately = 1,
+        Interval = 1,
+        Type = "SkillEffect"
+      }
     },
     HaloDatas = {
       [1] = {
@@ -7893,11 +8027,11 @@ return ReadOnly("Buff", {
         Camp = "Friend"
       },
       [2] = {
-  AllowSkillRange = 1,
-  AuraRange = 600,
-  BuffId = 540112,
-  Camp = "Enemy"
-}
+        AllowSkillRange = 1,
+        AuraRange = 600,
+        BuffId = 540112,
+        Camp = "Enemy"
+      }
     },
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -7922,18 +8056,18 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
-  AllowSkillIntensity = 1,
-  Condition = 2,
-  DamageTag = {
-    "Hot"
-  },
-  DefaultHealFX = 1,
-  Immediately = 1,
-  Interval = 1,
-  Rate = "#1",
-  Type = "Hot",
-  Value = 3
-}
+        AllowSkillIntensity = 1,
+        Condition = 2,
+        DamageTag = {
+          "Hot"
+        },
+        DefaultHealFX = 1,
+        Immediately = 1,
+        Interval = 1,
+        Rate = "#1",
+        Type = "Hot",
+        Value = 3
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7942,10 +8076,10 @@ return ReadOnly("Buff", {
   [540121] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Wind",
-  Value = "#1"
-}
+        AttrName = "BonusDamage",
+        Type = "Wind",
+        Value = "#1"
+      }
     },
     AllowSkillSustainModify = true,
     BuffEffects = {
@@ -7966,10 +8100,10 @@ return ReadOnly("Buff", {
   [540122] = {
     AddAttrs = {
       [1] = {
-  AttrName = "BonusDamage",
-  Type = "Wind",
-  Value = "#1"
-}
+        AttrName = "BonusDamage",
+        Type = "Wind",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {540102},
     AllowSkillSustainModify = true,
@@ -8151,14 +8285,14 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
-  DamageTag = {
-    "Hot"
-  },
-  DefaultHealFX = 0,
-  Interval = 1,
-  Rate = 0.025,
-  Type = "Hot"
-}
+        DamageTag = {
+          "Hot"
+        },
+        DefaultHealFX = 0,
+        Interval = 1,
+        Rate = 0.025,
+        Type = "Hot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -8183,14 +8317,14 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
-  DamageTag = {
-    "Dot",
-    "PhantomAvoid"
-  },
-  Interval = 1,
-  Rate = 0.8,
-  Type = "Dot"
-}
+        DamageTag = {
+          "Dot",
+          "PhantomAvoid"
+        },
+        Interval = 1,
+        Rate = 0.8,
+        Type = "Dot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -8236,10 +8370,12 @@ return ReadOnly("Buff", {
   [700501] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 0.5
-},
-      [2] = {AttrName = "ATK", Rate = 0.5},
+        AttrName = "MoveSpeedAddRate",
+        Value = 0.5
+      },
+      [2] = {
+        AttrName = "ATK", Rate = 0.5
+      },
       [3] = {
         AttrName = "DamagedRate",
         IndividualRateZone = 1,
@@ -8300,10 +8436,12 @@ return ReadOnly("Buff", {
   [700602] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 0.5
-},
-      [2] = {AttrName = "ATK", Rate = 0.5}
+        AttrName = "MoveSpeedAddRate",
+        Value = 0.5
+      },
+      [2] = {
+        AttrName = "ATK", Rate = 0.5
+      }
     },
     BuffId = 700602,
     BuffType = {
@@ -8352,11 +8490,11 @@ return ReadOnly("Buff", {
     },
     DMMIParams = {
       DMMIColor = {
-  50,
-  7.0434,
-  2.06,
-  1
-},
+        50,
+        7.0434,
+        2.06,
+        1
+      },
       DMMILineWidth = 0.5
     },
     MergeRule1 = "Global",
@@ -8395,11 +8533,11 @@ return ReadOnly("Buff", {
     },
     DMMIParams = {
       DMMIColor = {
-  50,
-  7.0434,
-  2.06,
-  1
-},
+        50,
+        7.0434,
+        2.06,
+        1
+      },
       DMMILineWidth = 0.5
     },
     MergeRule1 = "Global",
@@ -8477,14 +8615,14 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
-  DamageTag = {
-    "Hot"
-  },
-  DefaultHealFX = 0,
-  Interval = 1,
-  Rate = 0.025,
-  Type = "Hot"
-}
+        DamageTag = {
+          "Hot"
+        },
+        DefaultHealFX = 0,
+        Interval = 1,
+        Rate = 0.025,
+        Type = "Hot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -8532,9 +8670,9 @@ return ReadOnly("Buff", {
   [850204] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.5
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.5
+      }
     },
     BuffEffects = {
       2031
@@ -8637,10 +8775,10 @@ return ReadOnly("Buff", {
   [850307] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = 0.2,
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = 0.2,
+        Stackable = 1
+      }
     },
     BuffId = 850307,
     BuffType = {
@@ -9435,7 +9573,9 @@ return ReadOnly("Buff", {
         AttrName = "MoveSpeedAddRate",
         Value = 0.3
       },
-      [2] = {AttrName = "SkillSpeed", Rate = 0.3}
+      [2] = {
+        AttrName = "SkillSpeed", Rate = 0.3
+      }
     },
     BuffId = 900302,
     BuffType = {
@@ -9518,9 +9658,9 @@ return ReadOnly("Buff", {
   [950001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 0.5
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = 0.5
+      }
     },
     BuffId = 950001,
     BuffType = {
@@ -9533,7 +9673,9 @@ return ReadOnly("Buff", {
   },
   [950101] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillSpeed", Rate = 0.4}
+      [1] = {
+        AttrName = "SkillSpeed", Rate = 0.4
+      }
     },
     BuffId = 950101,
     BuffType = {
@@ -9656,9 +9798,9 @@ return ReadOnly("Buff", {
   [1030111] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.4
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.4
+      }
     },
     BuffId = 1030111,
     BuffType = {
@@ -9686,9 +9828,9 @@ return ReadOnly("Buff", {
   [1030222] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 1
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = 1
+      }
     },
     BuffId = 1030222,
     BuffType = {
@@ -9700,9 +9842,9 @@ return ReadOnly("Buff", {
   [1040141] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = 1
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = 1
+      }
     },
     BuffId = 1040141,
     BuffType = {
@@ -9748,10 +9890,10 @@ return ReadOnly("Buff", {
   [1440001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Normal",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Normal",
+        Value = "#1"
+      }
     },
     BuffId = 1440001,
     MergeRule1 = "Global",
@@ -9788,13 +9930,17 @@ return ReadOnly("Buff", {
     CannotBeHitted = true,
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -9844,7 +9990,9 @@ return ReadOnly("Buff", {
   },
   [2010011] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.12}
+      [1] = {
+        AttrName = "ATK", Rate = 0.12
+      }
     },
     BuffId = 2010011,
     BuffType = {
@@ -9865,10 +10013,10 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Common_Buff_Aura",
     HaloDatas = {
       [1] = {
-  AuraRange = 2000,
-  BuffId = 2010102,
-  Camp = "OtherFriend"
-}
+        AuraRange = 2000,
+        BuffId = 2010102,
+        Camp = "OtherFriend"
+      }
     },
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -9955,9 +10103,9 @@ return ReadOnly("Buff", {
   [2010301] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 0.1
-}
+        AttrName = "SkillIntensity",
+        Rate = 0.1
+      }
     },
     BuffId = 2010301,
     BuffType = {
@@ -9991,9 +10139,9 @@ return ReadOnly("Buff", {
   [2010304] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 0.2
-}
+        AttrName = "SkillIntensity",
+        Rate = 0.2
+      }
     },
     BuffId = 2010304,
     BuffType = {
@@ -10044,7 +10192,9 @@ return ReadOnly("Buff", {
   },
   [2011111] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = 0.5}
+      [1] = {
+        AttrName = "DEF", Rate = 0.5
+      }
     },
     BuffId = 2011111,
     BuffType = {
@@ -10053,10 +10203,10 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Def_Up",
     HaloDatas = {
       [1] = {
-  AuraRange = 2000,
-  BuffId = 2010102,
-  Camp = "OtherFriend"
-}
+        AuraRange = 2000,
+        BuffId = 2010102,
+        Camp = "OtherFriend"
+      }
     },
     IconPriority = 201,
     IsShowInBillboard = true,
@@ -10065,7 +10215,9 @@ return ReadOnly("Buff", {
   },
   [2011112] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = -0.1}
+      [1] = {
+        AttrName = "DEF", Rate = -0.1
+      }
     },
     BuffDamagedRate = {
       Value = -0.25
@@ -10112,7 +10264,9 @@ return ReadOnly("Buff", {
   },
   [2011122] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.12}
+      [1] = {
+        AttrName = "ATK", Rate = 0.12
+      }
     },
     BuffId = 2011122,
     BuffType = {
@@ -10127,7 +10281,9 @@ return ReadOnly("Buff", {
   },
   [2011212] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.1}
+      [1] = {
+        AttrName = "ATK", Rate = 0.1
+      }
     },
     BuffDamagedRate = {
       Value = -0.25
@@ -10215,10 +10371,10 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Common_Buff_Aura",
     HaloDatas = {
       [1] = {
-  AuraRange = 2000,
-  BuffId = 2010102,
-  Camp = "OtherFriend"
-}
+        AuraRange = 2000,
+        BuffId = 2010102,
+        Camp = "OtherFriend"
+      }
     },
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -10227,7 +10383,9 @@ return ReadOnly("Buff", {
   },
   [2011312] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.1}
+      [1] = {
+        AttrName = "ATK", Rate = 0.1
+      }
     },
     BuffDamagedRate = {
       Value = -0.25
@@ -10257,7 +10415,9 @@ return ReadOnly("Buff", {
   },
   [2011321] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.12}
+      [1] = {
+        AttrName = "ATK", Rate = 0.12
+      }
     },
     BuffId = 2011321,
     BuffType = {
@@ -10309,9 +10469,9 @@ return ReadOnly("Buff", {
   [4010001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 0.1
-}
+        AttrName = "SkillIntensity",
+        Rate = 0.1
+      }
     },
     BuffId = 4010001,
     BuffType = {
@@ -10326,9 +10486,9 @@ return ReadOnly("Buff", {
   [4010002] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = 0.2
-}
+        AttrName = "SkillIntensity",
+        Rate = 0.2
+      }
     },
     BuffId = 4010002,
     BuffType = {
@@ -10376,7 +10536,9 @@ return ReadOnly("Buff", {
   },
   [4010005] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 1}
+      [1] = {
+        AttrName = "ATK", Rate = 1
+      }
     },
     BuffId = 4010005,
     BuffType = {
@@ -10511,7 +10673,9 @@ return ReadOnly("Buff", {
   },
   [4010013] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 1}
+      [1] = {
+        AttrName = "ATK", Rate = 1
+      }
     },
     BuffId = 4010013,
     BuffType = {
@@ -10567,7 +10731,9 @@ return ReadOnly("Buff", {
   },
   [4010016] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 1}
+      [1] = {
+        AttrName = "ATK", Rate = 1
+      }
     },
     BuffEffects = {6042},
     BuffId = 4010016,
@@ -10619,10 +10785,10 @@ return ReadOnly("Buff", {
     DeadNotRemove = true,
     DotDatas = {
       [1] = {
-  Interval = 3,
-  Type = "SpChange",
-  Value = 1
-}
+        Interval = 3,
+        Type = "SpChange",
+        Value = 1
+      }
     },
     IsShowInBillboard = true,
     MaxLayer = 5,
@@ -10791,10 +10957,10 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Hot_Energy",
     DotDatas = {
       [1] = {
-  Interval = 3,
-  Type = "SpChange",
-  Value = 1
-}
+        Interval = 3,
+        Type = "SpChange",
+        Value = 1
+      }
     },
     IsShowInBillboard = true,
     MaxLayer = 5,
@@ -10948,14 +11114,14 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
-  DamageTag = {
-    "Dot",
-    "PhantomAvoid"
-  },
-  Interval = 1,
-  Rate = 0.8,
-  Type = "Dot"
-}
+        DamageTag = {
+          "Dot",
+          "PhantomAvoid"
+        },
+        Interval = 1,
+        Rate = 0.8,
+        Type = "Dot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10967,21 +11133,21 @@ return ReadOnly("Buff", {
   [5000100] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      },
       [2] = {
-  AttrName = "SlideVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "SlideVelocityModifier",
+        Value = 0.5
+      },
       [3] = {
-  AttrName = "BulletJumpVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "BulletJumpVelocityModifier",
+        Value = 0.5
+      },
       [4] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.5
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.5
+      }
     },
     BuffId = 5000100,
     BuffType = {
@@ -10998,21 +11164,21 @@ return ReadOnly("Buff", {
   [5000101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      },
       [2] = {
-  AttrName = "SlideVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "SlideVelocityModifier",
+        Value = 0.5
+      },
       [3] = {
-  AttrName = "BulletJumpVelocityModifier",
-  Value = 1.5
-},
+        AttrName = "BulletJumpVelocityModifier",
+        Value = 1.5
+      },
       [4] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.5
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.5
+      }
     },
     BuffId = 5000101,
     BuffType = {
@@ -11029,21 +11195,21 @@ return ReadOnly("Buff", {
   [5000102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      },
       [2] = {
-  AttrName = "SlideVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "SlideVelocityModifier",
+        Value = 0.5
+      },
       [3] = {
-  AttrName = "BulletJumpVelocityModifier",
-  Value = 1.5
-},
+        AttrName = "BulletJumpVelocityModifier",
+        Value = 1.5
+      },
       [4] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.5
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.5
+      }
     },
     BuffEffects = {10301004},
     BuffId = 5000102,
@@ -11169,21 +11335,21 @@ return ReadOnly("Buff", {
   [5000206] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WalkSpeedModifier",
-  Value = 0.5
-},
+        AttrName = "WalkSpeedModifier",
+        Value = 0.5
+      },
       [2] = {
-  AttrName = "SlideVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "SlideVelocityModifier",
+        Value = 0.5
+      },
       [3] = {
-  AttrName = "BulletJumpVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "BulletJumpVelocityModifier",
+        Value = 0.5
+      },
       [4] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.5
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.5
+      }
     },
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Paoku_Common.BP_Buff_Paoku_Common",
     BuffId = 5000206,
@@ -11219,9 +11385,9 @@ return ReadOnly("Buff", {
   [5000208] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MaxAvoidExecuteTimes",
-  Value = 2
-},
+        AttrName = "MaxAvoidExecuteTimes",
+        Value = 2
+      },
       [2] = {
         AttrName = "AvoidChargeCd",
         Rate = -0.5
@@ -11249,17 +11415,17 @@ return ReadOnly("Buff", {
         Value = 0.2
       },
       [2] = {
-  AttrName = "SlideVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "SlideVelocityModifier",
+        Value = 0.5
+      },
       [3] = {
-  AttrName = "BulletJumpVelocityModifier",
-  Value = 0.5
-},
+        AttrName = "BulletJumpVelocityModifier",
+        Value = 0.5
+      },
       [4] = {
-  AttrName = "JumpVelocityModifier",
-  Value = 0.5
-}
+        AttrName = "JumpVelocityModifier",
+        Value = 0.5
+      }
     },
     BuffId = 5000301,
     BuffType = {
@@ -11375,10 +11541,10 @@ return ReadOnly("Buff", {
   [6000004] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  RateZone = "Level",
-  Value = 0.5
-}
+        AttrName = "DamagedRate",
+        RateZone = "Level",
+        Value = 0.5
+      }
     },
     BuffId = 6000004,
     BuffType = {
@@ -11728,9 +11894,9 @@ return ReadOnly("Buff", {
   [6000053] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DarkDamagedRate",
-  Value = 0.5
-}
+        AttrName = "DarkDamagedRate",
+        Value = 0.5
+      }
     },
     BuffId = 6000053,
     BuffType = {
@@ -12018,9 +12184,15 @@ return ReadOnly("Buff", {
   },
   [6000112] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = 0.5},
-      [2] = {AttrName = "ATK", Rate = 0.5},
-      [3] = {AttrName = "SkillSpeed", Rate = 0.4},
+      [1] = {
+        AttrName = "DEF", Rate = 0.5
+      },
+      [2] = {
+        AttrName = "ATK", Rate = 0.5
+      },
+      [3] = {
+        AttrName = "SkillSpeed", Rate = 0.4
+      },
       [4] = {
         AttrName = "MoveSpeedAddRate",
         Value = 0.4
@@ -12117,13 +12289,17 @@ return ReadOnly("Buff", {
     },
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -12139,13 +12315,17 @@ return ReadOnly("Buff", {
     },
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -12161,13 +12341,17 @@ return ReadOnly("Buff", {
     },
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -12357,13 +12541,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Frozen",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99915,
     IsShowInBillboard = true,
@@ -12383,13 +12571,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Burst",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99929,
     IsShowInBillboard = true,
@@ -12409,13 +12601,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Poison",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99949,
     IsShowInBillboard = true,
@@ -12435,13 +12631,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Thunder",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99958,
     IsShowInBillboard = true,
@@ -12461,13 +12661,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Blood",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99939,
     IsShowInBillboard = true,
@@ -12487,13 +12691,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Fade",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99938,
     IsShowInBillboard = true,
@@ -12513,13 +12721,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Shield",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99914,
     IsShowInBillboard = true,
@@ -12539,13 +12751,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Revenge",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99935,
     IsShowInBillboard = true,
@@ -12565,13 +12781,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_IceOrb",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99919,
     IsShowInBillboard = true,
@@ -12591,13 +12811,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Reflect",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99925,
     IsShowInBillboard = true,
@@ -12617,13 +12841,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Kamikaze",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99945,
     IsShowInBillboard = true,
@@ -12643,13 +12871,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_ThunderLaser",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99959,
     IsShowInBillboard = true,
@@ -12669,13 +12901,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Vampire",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99969,
     IsShowInBillboard = true,
@@ -12708,13 +12944,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Frozen",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99915,
     IsShowInBillboard = true,
@@ -12734,13 +12974,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Burst",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99929,
     IsShowInBillboard = true,
@@ -12760,13 +13004,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Poison",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99949,
     IsShowInBillboard = true,
@@ -12786,13 +13034,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Thunder",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99958,
     IsShowInBillboard = true,
@@ -12812,13 +13064,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Blood",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99939,
     IsShowInBillboard = true,
@@ -12840,13 +13096,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Fade",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99938,
     IsShowInBillboard = true,
@@ -12866,13 +13126,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Shield",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99914,
     IsShowInBillboard = true,
@@ -12892,13 +13156,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Revenge",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99935,
     IsShowInBillboard = true,
@@ -12918,13 +13186,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_IceOrb",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99919,
     IsShowInBillboard = true,
@@ -12944,13 +13216,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Reflect",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99925,
     IsShowInBillboard = true,
@@ -12970,13 +13246,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Kamikaze",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99945,
     IsShowInBillboard = true,
@@ -12996,13 +13276,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_ThunderLaser",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99959,
     IsShowInBillboard = true,
@@ -13022,13 +13306,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Vampire",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99969,
     IsShowInBillboard = true,
@@ -13061,13 +13349,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Frozen",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99915,
     IsShowInBillboard = true,
@@ -13087,13 +13379,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Burst",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99929,
     IsShowInBillboard = true,
@@ -13113,13 +13409,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Poison",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99949,
     IsShowInBillboard = true,
@@ -13139,13 +13439,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Thunder",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99958,
     IsShowInBillboard = true,
@@ -13165,13 +13469,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Blood",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99939,
     IsShowInBillboard = true,
@@ -13191,13 +13499,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Fade",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99938,
     IsShowInBillboard = true,
@@ -13217,13 +13529,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Shield",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99914,
     IsShowInBillboard = true,
@@ -13243,13 +13559,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Revenge",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99935,
     IsShowInBillboard = true,
@@ -13269,13 +13589,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_IceOrb",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99919,
     IsShowInBillboard = true,
@@ -13295,13 +13619,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Reflect",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99925,
     IsShowInBillboard = true,
@@ -13321,13 +13649,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Kamikaze",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99945,
     IsShowInBillboard = true,
@@ -13347,13 +13679,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_ThunderLaser",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99959,
     IsShowInBillboard = true,
@@ -13373,13 +13709,17 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Elite_Vampire",
     FresnelParams = {
       FresnelColor = {
-  1,
-  0.2,
-  0,
-  0
-},
-      FresnelColorRange = {Default = 0.65},
-      FresnelColorStrength = {Default = 20, FresnelColor = 20}
+        1,
+        0.2,
+        0,
+        0
+      },
+      FresnelColorRange = {
+        Default = 0.65
+      },
+      FresnelColorStrength = {
+        Default = 20, FresnelColor = 20
+      }
     },
     IconPriority = 99969,
     IsShowInBillboard = true,
@@ -13430,10 +13770,10 @@ return ReadOnly("Buff", {
   [10101101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  RateZone = "Rouge",
-  Value = 0.025
-}
+        AttrName = "DamagedRate",
+        RateZone = "Rouge",
+        Value = 0.025
+      }
     },
     BuffId = 10101101,
     BuffType = {
@@ -13451,10 +13791,10 @@ return ReadOnly("Buff", {
   [10101102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  RateZone = "Rouge",
-  Value = 0.025
-}
+        AttrName = "DamagedRate",
+        RateZone = "Rouge",
+        Value = 0.025
+      }
     },
     BuffId = 10101102,
     BuffType = {
@@ -13463,16 +13803,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Rou_BG01_01",
     DotDatas = {
       [1] = {
-  DamageTag = {
-    "Dot", "RouB101"
-  },
-  EnableIcon = 1,
-  Immediately = 1,
-  Interval = 1,
-  Rate = 0.35,
-  Stackable = 1,
-  Type = "Dot"
-}
+        DamageTag = {
+          "Dot", "RouB101"
+        },
+        EnableIcon = 1,
+        Immediately = 1,
+        Interval = 1,
+        Rate = 0.35,
+        Stackable = 1,
+        Type = "Dot"
+      }
     },
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -13485,10 +13825,10 @@ return ReadOnly("Buff", {
   [10101103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  RateZone = "Rouge",
-  Value = 0.025
-}
+        AttrName = "DamagedRate",
+        RateZone = "Rouge",
+        Value = 0.025
+      }
     },
     AddPassiveEffect = {10101902},
     BuffId = 10101103,
@@ -13498,16 +13838,16 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Rou_BG01_01",
     DotDatas = {
       [1] = {
-  DamageTag = {
-    "Dot", "RouB101"
-  },
-  EnableIcon = 1,
-  Immediately = 1,
-  Interval = 1,
-  Rate = 0.35,
-  Stackable = 1,
-  Type = "Dot"
-}
+        DamageTag = {
+          "Dot", "RouB101"
+        },
+        EnableIcon = 1,
+        Immediately = 1,
+        Interval = 1,
+        Rate = 0.35,
+        Stackable = 1,
+        Type = "Dot"
+      }
     },
     IsShowInBillboard = true,
     MaxLayer = 20,
@@ -13551,10 +13891,10 @@ return ReadOnly("Buff", {
   [10102101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Rouge",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Rouge",
+        Value = "#1"
+      }
     },
     BuffId = 10102101,
     BuffType = {
@@ -13669,7 +14009,9 @@ return ReadOnly("Buff", {
   },
   [10102110] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 0.3}
+      [1] = {
+        AttrName = "ATK", Rate = 0.3
+      }
     },
     BuffId = 10102110,
     BuffType = {
@@ -13838,10 +14180,10 @@ return ReadOnly("Buff", {
   [10104102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     BuffId = 10104102,
     BuffType = {
@@ -13856,10 +14198,10 @@ return ReadOnly("Buff", {
   [10104103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "ATK",
-  Rate = "#1",
-  Stackable = 1
-}
+        AttrName = "ATK",
+        Rate = "#1",
+        Stackable = 1
+      }
     },
     BuffId = 10104103,
     BuffType = {
@@ -13874,10 +14216,10 @@ return ReadOnly("Buff", {
   [10104204] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Rouge",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Rouge",
+        Value = "#1"
+      }
     },
     BuffId = 10104204,
     BuffType = {
@@ -13890,7 +14232,9 @@ return ReadOnly("Buff", {
   },
   [10104302] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 10104302,
     BuffType = {
@@ -13927,7 +14271,9 @@ return ReadOnly("Buff", {
   },
   [10105101] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 10105101,
     BuffType = {
@@ -13966,9 +14312,9 @@ return ReadOnly("Buff", {
   [10105303] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Value = "#1"
+      }
     },
     BuffId = 10105303,
     BuffType = {
@@ -13979,7 +14325,9 @@ return ReadOnly("Buff", {
   },
   [10105304] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 10105304,
     BuffType = {
@@ -14071,10 +14419,10 @@ return ReadOnly("Buff", {
   [10106101] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106101,
     BuffType = {
@@ -14086,10 +14434,10 @@ return ReadOnly("Buff", {
   [10106102] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106102,
     BuffType = {
@@ -14101,10 +14449,10 @@ return ReadOnly("Buff", {
   [10106103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106103,
     BuffType = {
@@ -14116,10 +14464,10 @@ return ReadOnly("Buff", {
   [10106104] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106104,
     BuffType = {
@@ -14131,10 +14479,10 @@ return ReadOnly("Buff", {
   [10106105] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106105,
     BuffType = {
@@ -14146,10 +14494,10 @@ return ReadOnly("Buff", {
   [10106106] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106106,
     BuffType = {
@@ -14161,10 +14509,10 @@ return ReadOnly("Buff", {
   [10106107] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106107,
     BuffType = {
@@ -14176,10 +14524,10 @@ return ReadOnly("Buff", {
   [10106108] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MultiShootModifierRate",
-  Type = "Ranged",
-  Value = "#1"
-}
+        AttrName = "MultiShootModifierRate",
+        Type = "Ranged",
+        Value = "#1"
+      }
     },
     BuffId = 10106108,
     BuffType = {
@@ -14207,9 +14555,9 @@ return ReadOnly("Buff", {
   [10106110] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = "#1"
-}
+        AttrName = "AlmightyDamageRate",
+        Value = "#1"
+      }
     },
     BuffId = 10106110,
     BuffType = {
@@ -14221,9 +14569,9 @@ return ReadOnly("Buff", {
   [10106111] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AlmightyDamageRate",
-  Value = "#1"
-}
+        AttrName = "AlmightyDamageRate",
+        Value = "#1"
+      }
     },
     BuffId = 10106111,
     BuffType = {
@@ -14235,9 +14583,9 @@ return ReadOnly("Buff", {
   [10106112] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = "#1"
-}
+        AttrName = "StrongValue",
+        Value = "#1"
+      }
     },
     BuffId = 10106112,
     BuffType = {
@@ -14249,9 +14597,9 @@ return ReadOnly("Buff", {
   [10106113] = {
     AddAttrs = {
       [1] = {
-  AttrName = "StrongValue",
-  Value = "#1"
-}
+        AttrName = "StrongValue",
+        Value = "#1"
+      }
     },
     BuffId = 10106113,
     BuffType = {
@@ -14304,10 +14652,10 @@ return ReadOnly("Buff", {
     },
     DotDatas = {
       [1] = {
-  Interval = 3,
-  Type = "SpChange",
-  Value = "#1"
-}
+        Interval = 3,
+        Type = "SpChange",
+        Value = "#1"
+      }
     },
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -14319,10 +14667,10 @@ return ReadOnly("Buff", {
     },
     DotDatas = {
       [1] = {
-  Interval = 3,
-  Type = "SpChange",
-  Value = "#1"
-}
+        Interval = 3,
+        Type = "SpChange",
+        Value = "#1"
+      }
     },
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -14330,10 +14678,10 @@ return ReadOnly("Buff", {
   [10107103] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107103,
     BuffType = {
@@ -14345,10 +14693,10 @@ return ReadOnly("Buff", {
   [10107104] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107104,
     BuffType = {
@@ -14360,10 +14708,10 @@ return ReadOnly("Buff", {
   [10107105] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Rouge",
-  Value = "#1"
-}
+        AttrName = "DamageRate",
+        RateZone = "Rouge",
+        Value = "#1"
+      }
     },
     BuffId = 10107105,
     BuffType = {
@@ -14380,9 +14728,9 @@ return ReadOnly("Buff", {
   [10107106] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 10107106,
     BuffType = {
@@ -14394,9 +14742,9 @@ return ReadOnly("Buff", {
   [10107107] = {
     AddAttrs = {
       [1] = {
-  AttrName = "SkillIntensity",
-  Rate = "#1"
-}
+        AttrName = "SkillIntensity",
+        Rate = "#1"
+      }
     },
     BuffId = 10107107,
     BuffType = {
@@ -14408,10 +14756,10 @@ return ReadOnly("Buff", {
   [10107108] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107108,
     BuffType = {
@@ -14423,10 +14771,10 @@ return ReadOnly("Buff", {
   [10107109] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRIModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRIModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107109,
     BuffType = {
@@ -14438,10 +14786,10 @@ return ReadOnly("Buff", {
   [10107110] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107110,
     BuffType = {
@@ -14453,10 +14801,10 @@ return ReadOnly("Buff", {
   [10107111] = {
     AddAttrs = {
       [1] = {
-  AttrName = "WeaponCRDModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "WeaponCRDModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107111,
     BuffType = {
@@ -14473,14 +14821,14 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
-  BaseAttr = "MaxHp",
-  DamageTag = {
-    "Hot"
-  },
-  Interval = 1,
-  Rate = "#1",
-  Type = "Hot"
-}
+        BaseAttr = "MaxHp",
+        DamageTag = {
+          "Hot"
+        },
+        Interval = 1,
+        Rate = "#1",
+        Type = "Hot"
+      }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -14492,10 +14840,10 @@ return ReadOnly("Buff", {
   [10107113] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107113,
     BuffType = {
@@ -14507,10 +14855,10 @@ return ReadOnly("Buff", {
   [10107114] = {
     AddAttrs = {
       [1] = {
-  AttrName = "AttackSpeedModifierRate",
-  Type = "Melee",
-  Value = "#1"
-}
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Melee",
+        Value = "#1"
+      }
     },
     BuffId = 10107114,
     BuffType = {
@@ -14522,9 +14870,9 @@ return ReadOnly("Buff", {
   [10107115] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = "#1"
-}
+        AttrName = "EnmityValue",
+        Value = "#1"
+      }
     },
     BuffId = 10107115,
     BuffType = {
@@ -14536,9 +14884,9 @@ return ReadOnly("Buff", {
   [10107116] = {
     AddAttrs = {
       [1] = {
-  AttrName = "EnmityValue",
-  Value = "#1"
-}
+        AttrName = "EnmityValue",
+        Value = "#1"
+      }
     },
     BuffId = 10107116,
     BuffType = {
@@ -14746,9 +15094,9 @@ return ReadOnly("Buff", {
   [10503001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "TriggerProbModifierRate",
-  Value = "#1"
-}
+        AttrName = "TriggerProbModifierRate",
+        Value = "#1"
+      }
     },
     AddPassiveEffect = {
       104
@@ -14855,10 +15203,10 @@ return ReadOnly("Buff", {
   [20152001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Rouge",
-  Value = 0.75
-}
+        AttrName = "DamageRate",
+        RateZone = "Rouge",
+        Value = 0.75
+      }
     },
     BuffId = 20152001,
     BuffType = {
@@ -14871,10 +15219,10 @@ return ReadOnly("Buff", {
   [20153001] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamageRate",
-  RateZone = "Rouge",
-  Value = 0.75
-}
+        AttrName = "DamageRate",
+        RateZone = "Rouge",
+        Value = 0.75
+      }
     },
     BuffId = 20153001,
     BuffType = {
@@ -15017,7 +15365,9 @@ return ReadOnly("Buff", {
   },
   [30101002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 30101002,
     BuffType = {
@@ -15029,7 +15379,9 @@ return ReadOnly("Buff", {
   },
   [30102001] = {
     AddAttrs = {
-      [1] = {AttrName = "MaxHp", Rate = "#1"}
+      [1] = {
+        AttrName = "MaxHp", Rate = "#1"
+      }
     },
     BuffId = 30102001,
     BuffType = {
@@ -15041,7 +15393,9 @@ return ReadOnly("Buff", {
   },
   [30102002] = {
     AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = "#1"}
+      [1] = {
+        AttrName = "ATK", Rate = "#1"
+      }
     },
     BuffId = 30102002,
     BuffType = {
@@ -15142,7 +15496,9 @@ return ReadOnly("Buff", {
   },
   [30400005] = {
     AddAttrs = {
-      [1] = {AttrName = "DEF", Rate = -0.1}
+      [1] = {
+        AttrName = "DEF", Rate = -0.1
+      }
     },
     BuffId = 30400005,
     BuffType = {
@@ -15387,10 +15743,10 @@ return ReadOnly("Buff", {
   [40101006] = {
     AddAttrs = {
       [1] = {
-  AttrName = "DamagedRate",
-  RateZone = "Level",
-  Value = 0.5
-}
+        AttrName = "DamagedRate",
+        RateZone = "Level",
+        Value = 0.5
+      }
     },
     BuffId = 40101006,
     BuffType = {
@@ -15511,9 +15867,9 @@ return ReadOnly("Buff", {
   [99999999] = {
     AddAttrs = {
       [1] = {
-  AttrName = "MoveSpeedAddRate",
-  Value = -0.5
-}
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.5
+      }
     },
     BuffId = 99999999,
     MaxLayer = 2,

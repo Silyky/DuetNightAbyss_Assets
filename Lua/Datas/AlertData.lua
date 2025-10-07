@@ -82,23 +82,23 @@ return ReadOnly("AlertData", {
     AlertId = 101,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -116,23 +116,23 @@ return ReadOnly("AlertData", {
     AlertId = 102,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -183,23 +183,23 @@ return ReadOnly("AlertData", {
     AlertId = 104,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastDis = 0,
@@ -277,23 +277,23 @@ return ReadOnly("AlertData", {
     AlertId = 202,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -309,23 +309,23 @@ return ReadOnly("AlertData", {
     AlertId = 203,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -352,14 +352,14 @@ return ReadOnly("AlertData", {
         AlertRangeUpSpeed = 30
       },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -418,14 +418,14 @@ return ReadOnly("AlertData", {
         AlertRangeUpSpeed = 30
       },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -442,23 +442,23 @@ return ReadOnly("AlertData", {
     AlertId = 6003001,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 6003001,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 6003001,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -475,23 +475,23 @@ return ReadOnly("AlertData", {
     AlertId = 7001001,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -506,23 +506,23 @@ return ReadOnly("AlertData", {
     AlertId = 7002102,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -536,23 +536,23 @@ return ReadOnly("AlertData", {
     AlertId = 7002103,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = 0,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 9999
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = 0,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 9999
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = 0,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 9999
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = 0,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 9999
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -566,23 +566,23 @@ return ReadOnly("AlertData", {
     AlertId = 7003051,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = 0,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 1,
-  AlertRangeUpSpeed = 9999
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = 0,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 1,
+        AlertRangeUpSpeed = 9999
+      },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = 0,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 9999
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = 0,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 9999
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -605,14 +605,14 @@ return ReadOnly("AlertData", {
         AlertRangeUpSpeed = 40
       },
       [2] = {
-  AlertRange = {
-    120, 240
-  },
-  AlertRangeDownSpeed = -24,
-  AlertRangeHearId = 2,
-  AlertRangeSightId = 2,
-  AlertRangeUpSpeed = 60
-}
+        AlertRange = {
+          120, 240
+        },
+        AlertRangeDownSpeed = -24,
+        AlertRangeHearId = 2,
+        AlertRangeSightId = 2,
+        AlertRangeUpSpeed = 60
+      }
     },
     AlertResetChange = 0,
     BroadCastAlertValue = 40,
@@ -649,14 +649,14 @@ return ReadOnly("AlertData", {
     AlertId = 9501001,
     AlertRanges = {
       [1] = {
-  AlertRange = {
-    0, 120
-  },
-  AlertRangeDownSpeed = -40,
-  AlertRangeHearId = 1,
-  AlertRangeSightId = 6003001,
-  AlertRangeUpSpeed = 40
-},
+        AlertRange = {
+          0, 120
+        },
+        AlertRangeDownSpeed = -40,
+        AlertRangeHearId = 1,
+        AlertRangeSightId = 6003001,
+        AlertRangeUpSpeed = 40
+      },
       [2] = {
         AlertRange = {
           120, 240

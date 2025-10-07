@@ -89,9 +89,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 110302,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [110303] = {
@@ -116,9 +122,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 110303,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [110311] = {
@@ -137,9 +149,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 110311,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [201101] = {
@@ -168,10 +186,10 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 3,
-  [2] = 3,
-  [3] = 3
-}
+        [1] = 3,
+        [2] = 3,
+        [3] = 3
+      }
     }
   },
   [201103] = {
@@ -326,10 +344,10 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 3,
-  [2] = 3,
-  [3] = 3
-}
+        [1] = 3,
+        [2] = 3,
+        [3] = 3
+      }
     }
   },
   [203102] = {
@@ -556,10 +574,10 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 3,
-  [2] = 3,
-  [3] = 3
-}
+        [1] = 3,
+        [2] = 3,
+        [3] = 3
+      }
     }
   },
   [205401] = {
@@ -615,11 +633,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 3,
-  [2] = 3,
-  [3] = 3,
-  [4] = 3
-}
+        [1] = 3,
+        [2] = 3,
+        [3] = 3,
+        [4] = 3
+      }
     }
   },
   [401103] = {
@@ -791,11 +809,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 3,
-  [2] = 3,
-  [3] = 3,
-  [4] = 3
-}
+        [1] = 3,
+        [2] = 3,
+        [3] = 3,
+        [4] = 3
+      }
     }
   },
   [403102] = {
@@ -1047,11 +1065,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 3,
-  [2] = 3,
-  [3] = 3,
-  [4] = 3
-}
+        [1] = 3,
+        [2] = 3,
+        [3] = 3,
+        [4] = 3
+      }
     }
   },
   [405401] = {
@@ -1096,9 +1114,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 501101,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -1110,11 +1134,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 3,
-  [4] = 3
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 3,
+        [4] = 3
+      }
     }
   },
   [501103] = {
@@ -1139,9 +1163,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 501103,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [501502] = {
@@ -1166,9 +1196,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 501502,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [501503] = {
@@ -1193,9 +1229,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 501503,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [501801] = {
@@ -1220,9 +1262,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 501801,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [502101] = {
@@ -1247,9 +1295,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 502101,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [502301] = {
@@ -1274,9 +1328,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 502301,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [502401] = {
@@ -1301,9 +1361,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 502401,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [503101] = {
@@ -1328,9 +1394,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 503101,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -1342,11 +1414,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 3,
-  [4] = 3
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 3,
+        [4] = 3
+      }
     }
   },
   [503102] = {
@@ -1371,9 +1443,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 503102,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [503103] = {
@@ -1398,9 +1476,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 503103,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [503201] = {
@@ -1425,9 +1509,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 503201,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [503301] = {
@@ -1452,9 +1542,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 503301,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [504101] = {
@@ -1479,9 +1575,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 504101,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [504102] = {
@@ -1506,9 +1608,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 504102,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [504201] = {
@@ -1533,9 +1641,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 504201,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [504202] = {
@@ -1560,9 +1674,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 504202,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [504301] = {
@@ -1587,9 +1707,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 504301,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [505101] = {
@@ -1614,9 +1740,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 505101,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [505102] = {
@@ -1641,9 +1773,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 505102,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [505301] = {
@@ -1668,9 +1806,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 505301,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -1682,11 +1826,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 3,
-  [4] = 3
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 3,
+        [4] = 3
+      }
     }
   },
   [505401] = {
@@ -1711,9 +1855,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 505401,
     SkillLevel = 4,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [530101] = {
@@ -1731,11 +1881,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 3,
-  [2] = 3,
-  [3] = 3,
-  [4] = 3
-}
+        [1] = 3,
+        [2] = 3,
+        [3] = 3,
+        [4] = 3
+      }
     }
   },
   [601101] = {
@@ -1762,9 +1912,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 601101,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -1776,11 +1932,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [601103] = {
@@ -1807,9 +1963,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 601103,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [601502] = {
@@ -1836,9 +1998,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 601502,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [601503] = {
@@ -1865,9 +2033,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 601503,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [601801] = {
@@ -1894,9 +2068,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 601801,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [602101] = {
@@ -1923,9 +2103,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 602101,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [602301] = {
@@ -1952,9 +2138,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 602301,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [602401] = {
@@ -1981,9 +2173,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 602401,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [603101] = {
@@ -2010,9 +2208,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 603101,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -2024,11 +2228,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [603102] = {
@@ -2055,9 +2259,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 603102,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [603103] = {
@@ -2084,9 +2294,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 603103,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [603201] = {
@@ -2113,9 +2329,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 603201,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [603301] = {
@@ -2142,9 +2364,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 603301,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [604101] = {
@@ -2171,9 +2399,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 604101,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [604102] = {
@@ -2200,9 +2434,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 604102,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [604201] = {
@@ -2229,9 +2469,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 604201,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [604202] = {
@@ -2258,9 +2504,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 604202,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [604301] = {
@@ -2287,9 +2539,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 604301,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [605101] = {
@@ -2316,9 +2574,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 605101,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [605102] = {
@@ -2345,9 +2609,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 605102,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [605301] = {
@@ -2374,9 +2644,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 605301,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -2388,11 +2664,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [605401] = {
@@ -2419,9 +2695,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 605401,
     SkillLevel = 6,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2
+      },
+      [3] = {
+        2
+      }
     }
   },
   [701101] = {
@@ -2450,9 +2732,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 701101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -2464,11 +2752,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [701103] = {
@@ -2497,9 +2785,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 701103,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [701502] = {
@@ -2528,9 +2822,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 701502,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [701503] = {
@@ -2559,9 +2859,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 701503,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [701801] = {
@@ -2590,9 +2896,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 701801,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [702101] = {
@@ -2621,9 +2933,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 702101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [702301] = {
@@ -2652,9 +2970,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 702301,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [702401] = {
@@ -2683,9 +3007,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 702401,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [703101] = {
@@ -2714,9 +3044,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 703101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -2728,11 +3064,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [703102] = {
@@ -2761,9 +3097,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 703102,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [703103] = {
@@ -2792,9 +3134,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 703103,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [703201] = {
@@ -2823,9 +3171,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 703201,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [703301] = {
@@ -2854,9 +3208,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 703301,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [704101] = {
@@ -2885,9 +3245,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 704101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [704102] = {
@@ -2916,9 +3282,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 704102,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [704201] = {
@@ -2947,9 +3319,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 704201,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [704202] = {
@@ -2978,9 +3356,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 704202,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [704301] = {
@@ -3009,9 +3393,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 704301,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [705101] = {
@@ -3040,9 +3430,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 705101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [705102] = {
@@ -3071,9 +3467,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 705102,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [705301] = {
@@ -3102,25 +3504,31 @@ return ReadOnly("CharTemplate", {
     RuleId = 705301,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
-  [1] = 45002,
-  [2] = 45103,
-  [3] = 45004,
-  [4] = 35005
-}
+        [1] = 45002,
+        [2] = 45103,
+        [3] = 45004,
+        [4] = 35005
+      }
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [705401] = {
@@ -3149,9 +3557,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 705401,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [801101] = {
@@ -3180,9 +3594,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 801101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -3194,11 +3614,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [801103] = {
@@ -3227,9 +3647,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 801103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [801502] = {
@@ -3258,9 +3684,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 801502,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [801503] = {
@@ -3289,9 +3721,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 801503,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [801801] = {
@@ -3320,9 +3758,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 801801,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [802101] = {
@@ -3351,9 +3795,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 802101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [802301] = {
@@ -3382,9 +3832,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 802301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [802401] = {
@@ -3413,9 +3869,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 802401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [803101] = {
@@ -3444,9 +3906,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 803101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -3458,11 +3926,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [803102] = {
@@ -3491,9 +3959,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 803102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [803103] = {
@@ -3522,9 +3996,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 803103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [803201] = {
@@ -3553,9 +4033,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 803201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [803301] = {
@@ -3584,9 +4070,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 803301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [804101] = {
@@ -3615,9 +4107,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 804101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [804102] = {
@@ -3646,9 +4144,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 804102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [804201] = {
@@ -3677,9 +4181,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 804201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [804202] = {
@@ -3708,9 +4218,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 804202,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [804301] = {
@@ -3739,9 +4255,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 804301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [805101] = {
@@ -3770,9 +4292,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 805101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [805102] = {
@@ -3801,9 +4329,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 805102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [805301] = {
@@ -3832,9 +4366,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 805301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -3846,11 +4386,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [805401] = {
@@ -3879,9 +4419,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 805401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [901101] = {
@@ -3910,9 +4456,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 901101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -3924,11 +4476,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [901103] = {
@@ -3957,9 +4509,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 901103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [901502] = {
@@ -3988,9 +4546,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 901502,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [901503] = {
@@ -4019,9 +4583,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 901503,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [901801] = {
@@ -4050,9 +4620,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 901801,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [902101] = {
@@ -4081,9 +4657,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 902101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [902301] = {
@@ -4112,9 +4694,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 902301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [902401] = {
@@ -4143,9 +4731,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 902401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [903101] = {
@@ -4174,9 +4768,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 903101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -4188,11 +4788,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [903102] = {
@@ -4221,9 +4821,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 903102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [903103] = {
@@ -4252,9 +4858,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 903103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [903201] = {
@@ -4283,9 +4895,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 903201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [903301] = {
@@ -4314,9 +4932,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 903301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [904101] = {
@@ -4345,9 +4969,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 904101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [904102] = {
@@ -4376,9 +5006,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 904102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [904201] = {
@@ -4407,9 +5043,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 904201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [904202] = {
@@ -4438,9 +5080,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 904202,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [904301] = {
@@ -4469,9 +5117,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 904301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [905101] = {
@@ -4500,9 +5154,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 905101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [905102] = {
@@ -4531,9 +5191,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 905102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [905301] = {
@@ -4562,9 +5228,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 905301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -4576,11 +5248,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [905401] = {
@@ -4609,9 +5281,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 905401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1001101] = {
@@ -4640,9 +5318,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1001101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -4654,11 +5338,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1001103] = {
@@ -4687,9 +5371,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1001103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1001502] = {
@@ -4718,9 +5408,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1001502,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1001503] = {
@@ -4749,9 +5445,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1001503,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1001801] = {
@@ -4780,9 +5482,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1001801,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1002101] = {
@@ -4811,9 +5519,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1002101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1002301] = {
@@ -4842,9 +5556,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1002301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1002401] = {
@@ -4873,9 +5593,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1002401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1003101] = {
@@ -4904,9 +5630,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1003101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -4918,11 +5650,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1003102] = {
@@ -4951,9 +5683,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1003102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1003103] = {
@@ -4982,9 +5720,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1003103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1003201] = {
@@ -5013,9 +5757,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1003201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1003301] = {
@@ -5044,9 +5794,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1003301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1004101] = {
@@ -5075,9 +5831,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1004101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1004102] = {
@@ -5106,9 +5868,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1004102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1004201] = {
@@ -5137,9 +5905,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1004201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1004202] = {
@@ -5168,9 +5942,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1004202,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1004301] = {
@@ -5199,9 +5979,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1004301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1005101] = {
@@ -5230,9 +6016,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1005101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1005102] = {
@@ -5261,9 +6053,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1005102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1005301] = {
@@ -5292,9 +6090,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1005301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -5306,11 +6110,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1005401] = {
@@ -5339,9 +6143,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1005401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1101101] = {
@@ -5370,9 +6180,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1101101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -5384,11 +6200,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1101103] = {
@@ -5417,9 +6233,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1101103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1101502] = {
@@ -5448,9 +6270,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1101502,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1101503] = {
@@ -5479,9 +6307,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1101503,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1101801] = {
@@ -5510,9 +6344,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1101801,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1102101] = {
@@ -5541,9 +6381,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1102101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1102301] = {
@@ -5572,9 +6418,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1102301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1102401] = {
@@ -5603,9 +6455,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1102401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1103101] = {
@@ -5634,9 +6492,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1103101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -5648,11 +6512,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1103102] = {
@@ -5681,9 +6545,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1103102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1103103] = {
@@ -5712,9 +6582,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1103103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1103201] = {
@@ -5743,9 +6619,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1103201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1103301] = {
@@ -5774,9 +6656,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1103301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1104101] = {
@@ -5805,9 +6693,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1104101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1104102] = {
@@ -5836,9 +6730,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1104102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1104201] = {
@@ -5867,9 +6767,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1104201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1104202] = {
@@ -5898,9 +6804,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1104202,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1104301] = {
@@ -5929,9 +6841,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1104301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1105101] = {
@@ -5960,9 +6878,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1105101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1105102] = {
@@ -5991,9 +6915,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1105102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1105301] = {
@@ -6022,9 +6952,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1105301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -6036,11 +6972,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1105401] = {
@@ -6069,9 +7005,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1105401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1201101] = {
@@ -6100,9 +7042,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1201101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -6114,11 +7062,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1201103] = {
@@ -6147,9 +7095,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1201103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1201502] = {
@@ -6178,9 +7132,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1201502,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1201503] = {
@@ -6209,9 +7169,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1201503,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1201801] = {
@@ -6240,9 +7206,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1201801,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1202101] = {
@@ -6271,9 +7243,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1202101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1202301] = {
@@ -6302,9 +7280,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1202301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1202401] = {
@@ -6333,9 +7317,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1202401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1203101] = {
@@ -6364,9 +7354,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1203101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -6378,11 +7374,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1203102] = {
@@ -6411,9 +7407,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1203102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1203103] = {
@@ -6442,9 +7444,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1203103,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1203201] = {
@@ -6473,9 +7481,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1203201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1203301] = {
@@ -6504,9 +7518,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1203301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1204101] = {
@@ -6535,9 +7555,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1204101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1204102] = {
@@ -6566,9 +7592,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1204102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1204201] = {
@@ -6597,9 +7629,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1204201,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1204202] = {
@@ -6628,9 +7666,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1204202,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1204301] = {
@@ -6659,9 +7703,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1204301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1205101] = {
@@ -6690,9 +7740,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1205101,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1205102] = {
@@ -6721,9 +7777,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1205102,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [1205301] = {
@@ -6752,9 +7814,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1205301,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     },
     UltraWeaponModId = {
       [1] = {
@@ -6766,11 +7834,11 @@ return ReadOnly("CharTemplate", {
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [1205401] = {
@@ -6799,9 +7867,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 1205401,
     SkillLevel = 10,
     SkillTreeUnlock = {
-      [1] = {2, 3},
-      [2] = {2, 3},
-      [3] = {2, 3}
+      [1] = {
+        2, 3
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2, 3
+      }
     }
   },
   [70210101] = {
@@ -6831,9 +7905,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 70210101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [70210102] = {
@@ -6863,9 +7943,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 70210102,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [70510101] = {
@@ -6895,9 +7981,15 @@ return ReadOnly("CharTemplate", {
     RuleId = 70510101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     }
   },
   [70530101] = {
@@ -6927,25 +8019,31 @@ return ReadOnly("CharTemplate", {
     RuleId = 70530101,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
-  [1] = 45002,
-  [2] = 45103,
-  [3] = 45004,
-  [4] = 35005
-}
+        [1] = 45002,
+        [2] = 45103,
+        [3] = 45004,
+        [4] = 35005
+      }
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   },
   [70530102] = {
@@ -6974,25 +8072,31 @@ return ReadOnly("CharTemplate", {
     RuleId = 70530102,
     SkillLevel = 8,
     SkillTreeUnlock = {
-      [1] = {2},
-      [2] = {2, 3},
-      [3] = {2}
+      [1] = {
+        2
+      },
+      [2] = {
+        2, 3
+      },
+      [3] = {
+        2
+      }
     },
     UltraWeaponModId = {
       [1] = {
-  [1] = 45002,
-  [2] = 45103,
-  [3] = 45004,
-  [4] = 35005
-}
+        [1] = 45002,
+        [2] = 45103,
+        [3] = 45004,
+        [4] = 35005
+      }
     },
     UltraWeaponModLevel = {
       [1] = {
-  [1] = 5,
-  [2] = 5,
-  [3] = 5,
-  [4] = 5
-}
+        [1] = 5,
+        [2] = 5,
+        [3] = 5,
+        [4] = 5
+      }
     }
   }
 })

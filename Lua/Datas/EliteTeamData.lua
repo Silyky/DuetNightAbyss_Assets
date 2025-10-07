@@ -36,10 +36,10 @@ return ReadOnly("EliteTeamData", {
     EliteId = 2,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, 0
-  }
-}
+        OffsetXY = {
+          0, 0
+        }
+      }
     }
   },
   [10101] = {
@@ -62,20 +62,20 @@ return ReadOnly("EliteTeamData", {
     },
     Offsets = {
       [1] = {
-  OffsetXY = {
-    260, 0
-  }
-}
+        OffsetXY = {
+          260, 0
+        }
+      }
     }
   },
   [230101] = {
     EliteId = 230101,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, 0
-  }
-}
+        OffsetXY = {
+          0, 0
+        }
+      }
     }
   },
   [230102] = {
@@ -165,10 +165,10 @@ return ReadOnly("EliteTeamData", {
     },
     Offsets = {
       [1] = {
-  OffsetXY = {
-    260, 0
-  }
-}
+        OffsetXY = {
+          260, 0
+        }
+      }
     }
   },
   [410101] = {
@@ -195,10 +195,10 @@ return ReadOnly("EliteTeamData", {
     EliteId = 430101,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    200, 0
-  }
-}
+        OffsetXY = {
+          200, 0
+        }
+      }
     }
   },
   [510101] = {
@@ -251,15 +251,15 @@ return ReadOnly("EliteTeamData", {
         OffsetXY = {300, 0}
       },
       [2] = {
-  OffsetXY = {
-    0, 300
-  }
-},
+        OffsetXY = {
+          0, 300
+        }
+      },
       [3] = {
-  OffsetXY = {
-    0, -300
-  }
-}
+        OffsetXY = {
+          0, -300
+        }
+      }
     }
   },
   [700201] = {
@@ -274,10 +274,10 @@ return ReadOnly("EliteTeamData", {
     EliteId = 700202,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    200, 0
-  }
-}
+        OffsetXY = {
+          200, 0
+        }
+      }
     }
   },
   [700801] = {
@@ -296,84 +296,84 @@ return ReadOnly("EliteTeamData", {
     EliteId = 800201,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, 300
-  }
-},
+        OffsetXY = {
+          0, 300
+        }
+      },
       [2] = {
-  OffsetXY = {
-    0, -300
-  }
-}
+        OffsetXY = {
+          0, -300
+        }
+      }
     }
   },
   [800202] = {
     EliteId = 800202,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, 300
-  }
-},
+        OffsetXY = {
+          0, 300
+        }
+      },
       [2] = {
-  OffsetXY = {
-    0, -300
-  }
-},
+        OffsetXY = {
+          0, -300
+        }
+      },
       [3] = {
-  OffsetXY = {
-    0, 600
-  }
-},
+        OffsetXY = {
+          0, 600
+        }
+      },
       [4] = {
-  OffsetXY = {
-    0, -600
-  }
-}
+        OffsetXY = {
+          0, -600
+        }
+      }
     }
   },
   [850061] = {
     EliteId = 850061,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0,
-    0,
-    0
-  }
-}
+        OffsetXY = {
+          0,
+          0,
+          0
+        }
+      }
     }
   },
   [850081] = {
     EliteId = 850081,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0,
-    0,
-    0
-  }
-}
+        OffsetXY = {
+          0,
+          0,
+          0
+        }
+      }
     }
   },
   [850401] = {
     EliteId = 850401,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, -500
-  }
-}
+        OffsetXY = {
+          0, -500
+        }
+      }
     }
   },
   [850402] = {
     EliteId = 850402,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, 500
-  }
-}
+        OffsetXY = {
+          0, 500
+        }
+      }
     }
   },
   [850403] = {
@@ -424,12 +424,12 @@ return ReadOnly("EliteTeamData", {
     EliteId = 850901,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0,
-    0,
-    0
-  }
-}
+        OffsetXY = {
+          0,
+          0,
+          0
+        }
+      }
     }
   },
   [851001] = {
@@ -447,15 +447,15 @@ return ReadOnly("EliteTeamData", {
     EliteId = 851002,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, 500
-  }
-},
+        OffsetXY = {
+          0, 500
+        }
+      },
       [2] = {
-  OffsetXY = {
-    0, -500
-  }
-},
+        OffsetXY = {
+          0, -500
+        }
+      },
       [3] = {
         OffsetXY = {500, 0}
       },
@@ -468,15 +468,15 @@ return ReadOnly("EliteTeamData", {
     EliteId = 851801,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0, 600
-  }
-},
+        OffsetXY = {
+          0, 600
+        }
+      },
       [2] = {
-  OffsetXY = {
-    0, -600
-  }
-},
+        OffsetXY = {
+          0, -600
+        }
+      },
       [3] = {
         OffsetXY = {600, 0}
       },
@@ -501,10 +501,10 @@ return ReadOnly("EliteTeamData", {
     EliteId = 900301,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    200, 0
-  }
-}
+        OffsetXY = {
+          200, 0
+        }
+      }
     }
   },
   [900601] = {
@@ -553,12 +553,12 @@ return ReadOnly("EliteTeamData", {
     EliteId = 6000009,
     Offsets = {
       [1] = {
-  OffsetXY = {
-    0,
-    0,
-    0
-  }
-},
+        OffsetXY = {
+          0,
+          0,
+          0
+        }
+      },
       [2] = {
         OffsetXY = {
           1500,

@@ -171,11 +171,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 13,
-  TypeNextState = {
-    Type = "Interactive"
-  }
-}
+        NextStateId = 13,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 12
   },
@@ -197,11 +197,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 15,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 15,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 13
   },
@@ -217,17 +217,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 13,
-  TypeNextState = {
-    Type = "Interactive"
-  }
-},
+        NextStateId = 13,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      },
       [2] = {
-  NextStateId = 15,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 15,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 14
   },
@@ -257,11 +257,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 26,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 26,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 25
   },
@@ -959,11 +959,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 242,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 242,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 240,
         TypeNextState = {
@@ -1004,11 +1004,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 242,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 242,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 240,
         TypeNextState = {
@@ -1056,11 +1056,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 244,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 244,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 245
   },
@@ -1084,11 +1084,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 244,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 244,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 246
   },
@@ -1178,11 +1178,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 501,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 500
   },
@@ -1212,11 +1212,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 500,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 501
   },
@@ -1245,11 +1245,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 500,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 502
   },
@@ -1296,17 +1296,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 501,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 500,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 504
   },
@@ -1361,11 +1361,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 510,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 510,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 511
   },
@@ -1394,11 +1394,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 510,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 510,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 512
   },
@@ -1476,11 +1476,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 510,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 510,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 515
   },
@@ -1526,11 +1526,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 581,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 581,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 541
   },
@@ -1550,11 +1550,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 582,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 582,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 542
   },
@@ -1645,11 +1645,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 581,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 581,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 551
   },
@@ -1674,11 +1674,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 582,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 582,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 552
   },
@@ -1840,17 +1840,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 541,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 541,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 581,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 581,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 571
   },
@@ -1867,17 +1867,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 542,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 542,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 582,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 582,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 572
   },
@@ -1910,11 +1910,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 543,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 543,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 573
   },
@@ -1943,11 +1943,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 541,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 541,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 581
   },
@@ -1964,11 +1964,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 542,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 542,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 582
   },
@@ -1992,11 +1992,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 543,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 543,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 583
   },
@@ -2023,11 +2023,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 601,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 601,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 600
   },
@@ -2057,11 +2057,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 600,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 601
   },
@@ -2090,11 +2090,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 600,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 602
   },
@@ -2141,17 +2141,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 601,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 601,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 600,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 604
   },
@@ -2201,11 +2201,11 @@ return ReadOnly("MechanismState", {
   [903] = {
     StateEvent = {
       [1] = {
-  NextStateId = 904,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 904,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 903
   },
@@ -2289,11 +2289,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 904,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 904,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 907
   },
@@ -2617,11 +2617,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 26,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 26,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 2513
   },
@@ -2655,11 +2655,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 5531,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 5531,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 5731,
         TypeNextState = {
@@ -2707,11 +2707,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 5431,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 5431,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 5531
   },
@@ -2744,17 +2744,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 5431,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 5431,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 5531,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 5531,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 5731
   },
@@ -2796,55 +2796,55 @@ return ReadOnly("MechanismState", {
   [90430] = {
     StateEvent = {
       [1] = {
-  NextStateId = 9043,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 9043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 90430
   },
   [90432] = {
     StateEvent = {
       [1] = {
-  NextStateId = 9043,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 9043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 90432
   },
   [90434] = {
     StateEvent = {
       [1] = {
-  NextStateId = 9043,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 9043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 90434
   },
   [90436] = {
     StateEvent = {
       [1] = {
-  NextStateId = 9043,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 9043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 90436
   },
   [90438] = {
     StateEvent = {
       [1] = {
-  NextStateId = 9043,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 9043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 90438
   },
@@ -2870,17 +2870,17 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 104012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 104012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 104013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 104013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 104010
   },
@@ -2906,17 +2906,17 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 104012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 104012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 104013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 104013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 104011
   },
@@ -2936,17 +2936,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 104011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 104011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 104013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 104013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 104012
   },
@@ -2966,17 +2966,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 104011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 104011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 104012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 104012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 104013
   },
@@ -3117,11 +3117,11 @@ return ReadOnly("MechanismState", {
   [109011] = {
     StateEvent = {
       [1] = {
-  NextStateId = 109010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 109010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 109012,
         TypeNextState = {
@@ -3134,11 +3134,11 @@ return ReadOnly("MechanismState", {
   [109012] = {
     StateEvent = {
       [1] = {
-  NextStateId = 109010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 109010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 109011,
         TypeNextState = {
@@ -3151,11 +3151,11 @@ return ReadOnly("MechanismState", {
   [109013] = {
     StateEvent = {
       [1] = {
-  NextStateId = 109010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 109010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 109014,
         TypeNextState = {
@@ -3168,11 +3168,11 @@ return ReadOnly("MechanismState", {
   [109014] = {
     StateEvent = {
       [1] = {
-  NextStateId = 109010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 109010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 109014
   },
@@ -3210,11 +3210,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 111013,
         TypeNextState = {
@@ -3239,11 +3239,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 111012,
         TypeNextState = {
@@ -3265,17 +3265,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 111011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111012
   },
@@ -3288,17 +3288,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 111014,
-  TypeNextState = {
-    Type = "Hit"
-  }
-}
+        NextStateId = 111014,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
     },
     StateId = 111013
   },
@@ -3314,17 +3314,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 111013,
-  TypeNextState = {
-    NeedCountDown = true, Type = "CustomTime"
-  }
-},
+        NextStateId = 111013,
+        TypeNextState = {
+          NeedCountDown = true, Type = "CustomTime"
+        }
+      },
       [3] = {
         NextStateId = 111015,
         TypeNextState = {
@@ -3332,11 +3332,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [4] = {
-  NextStateId = 111012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111014
   },
@@ -3352,29 +3352,29 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 111013,
-  TypeNextState = {
-    NeedCountDown = true, Type = "CustomTime"
-  }
-},
+        NextStateId = 111013,
+        TypeNextState = {
+          NeedCountDown = true, Type = "CustomTime"
+        }
+      },
       [3] = {
-  NextStateId = 111014,
-  TypeNextState = {
-    Type = "Hit"
-  }
-},
+        NextStateId = 111014,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      },
       [4] = {
-  NextStateId = 111012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111015
   },
@@ -3447,11 +3447,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111020,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 111022,
         TypeNextState = {
@@ -3475,11 +3475,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111020,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 111023,
         TypeNextState = {
@@ -3501,11 +3501,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111020,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111023
   },
@@ -3544,11 +3544,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 111030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111031
   },
@@ -3572,11 +3572,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 111030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111032
   },
@@ -3595,11 +3595,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 111030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111033
   },
@@ -3623,11 +3623,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 111030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 111030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 111034
   },
@@ -3657,17 +3657,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111040,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111040,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 111042,
-  TypeNextState = {
-    Type = "Hit"
-  }
-}
+        NextStateId = 111042,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
     },
     StateId = 111041
   },
@@ -3680,17 +3680,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111040,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111040,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 111041,
-  TypeNextState = {
-    NeedCountDown = true, Type = "CustomTime"
-  }
-},
+        NextStateId = 111041,
+        TypeNextState = {
+          NeedCountDown = true, Type = "CustomTime"
+        }
+      },
       [3] = {
         NextStateId = 111043,
         TypeNextState = {
@@ -3709,23 +3709,23 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 111040,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 111040,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 111041,
-  TypeNextState = {
-    NeedCountDown = true, Type = "CustomTime"
-  }
-},
+        NextStateId = 111041,
+        TypeNextState = {
+          NeedCountDown = true, Type = "CustomTime"
+        }
+      },
       [3] = {
-  NextStateId = 111042,
-  TypeNextState = {
-    Type = "Hit"
-  }
-}
+        NextStateId = 111042,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
     },
     StateId = 111043
   },
@@ -3764,11 +3764,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 112010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 112010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 112012,
         TypeNextState = {
@@ -3793,11 +3793,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 112010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 112010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 112013,
         TypeNextState = {
@@ -3851,210 +3851,210 @@ return ReadOnly("MechanismState", {
   [116010] = {
     StateEvent = {
       [1] = {
-  NextStateId = 116011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 116012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 116013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 116014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 116015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 116015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 116010
   },
   [116011] = {
     StateEvent = {
       [1] = {
-  NextStateId = 116010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 116012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 116013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 116014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 116015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 116015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 116011
   },
   [116012] = {
     StateEvent = {
       [1] = {
-  NextStateId = 116010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 116011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 116013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 116014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 116015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 116015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 116012
   },
   [116013] = {
     StateEvent = {
       [1] = {
-  NextStateId = 116010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 116011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 116012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 116014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 116015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 116015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 116013
   },
   [116014] = {
     StateEvent = {
       [1] = {
-  NextStateId = 116010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 116011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 116012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 116013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 116015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 116015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 116014
   },
   [116015] = {
     StateEvent = {
       [1] = {
-  NextStateId = 116010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 116011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 116012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 116013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 116013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 116014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 116014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 116015
   },
@@ -4067,17 +4067,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 118002,
-  TypeNextState = {
-    Type = "TriggerBox"
-  }
-},
+        NextStateId = 118002,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      },
       [2] = {
-  NextStateId = 118004,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 118004,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 118005,
         TypeNextState = {
@@ -4102,11 +4102,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 118004,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118004,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118002
   },
@@ -4119,23 +4119,23 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 118001,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 118001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 118004,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 118004,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 118002,
-  TypeNextState = {
-    Type = "TriggerBox"
-  }
-}
+        NextStateId = 118002,
+        TypeNextState = {
+          Type = "TriggerBox"
+        }
+      }
     },
     StateId = 118003
   },
@@ -4148,11 +4148,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 118001,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118004
   },
@@ -4165,11 +4165,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 118001,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118005
   },
@@ -4182,17 +4182,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 118011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 118011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 118026,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118026,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118010
   },
@@ -4211,17 +4211,17 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 118015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 118015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 118026,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118026,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118011
   },
@@ -4237,17 +4237,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 118013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 118013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 118015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118012
   },
@@ -4266,11 +4266,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 118015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118013
   },
@@ -4286,17 +4286,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 118013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 118013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 118015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118014
   },
@@ -4446,11 +4446,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 118011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 118011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 118026
   },
@@ -4583,11 +4583,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 494001,
-  TypeNextState = {
-    Param = 0, Type = "Time"
-  }
-}
+        NextStateId = 494001,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
     },
     StateId = 494000
   },
@@ -4620,11 +4620,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 494001,
-  TypeNextState = {
-    Param = 0, Type = "Time"
-  }
-}
+        NextStateId = 494001,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
     },
     StateId = 494002
   },
@@ -4690,11 +4690,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 495000,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 495000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 495001
   },
@@ -4739,11 +4739,11 @@ return ReadOnly("MechanismState", {
   [495004] = {
     StateEvent = {
       [1] = {
-  NextStateId = 495000,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 495000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 495004
   },
@@ -4823,11 +4823,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3902000,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 496032
   },
@@ -4909,22 +4909,22 @@ return ReadOnly("MechanismState", {
   [591010] = {
     StateEvent = {
       [1] = {
-  NextStateId = 591011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 591011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 591010
   },
   [591011] = {
     StateEvent = {
       [1] = {
-  NextStateId = 591012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 591012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 591011
   },
@@ -4937,61 +4937,61 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 591014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 591014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 591012
   },
   [591013] = {
     StateEvent = {
       [1] = {
-  NextStateId = 591014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 591014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 591013
   },
   [591014] = {
     StateEvent = {
       [1] = {
-  NextStateId = 591011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 591011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 591012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 591012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 591014
   },
   [591020] = {
     StateEvent = {
       [1] = {
-  NextStateId = 591021,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 591021,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 591020
   },
   [591021] = {
     StateEvent = {
       [1] = {
-  NextStateId = 591020,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 591020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 591022,
         TypeNextState = {
@@ -5004,39 +5004,39 @@ return ReadOnly("MechanismState", {
   [591022] = {
     StateEvent = {
       [1] = {
-  NextStateId = 591020,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 591020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 591021,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 591021,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 591022
   },
   [592010] = {
     StateEvent = {
       [1] = {
-  NextStateId = 592011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 592011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 592010
   },
   [592011] = {
     StateEvent = {
       [1] = {
-  NextStateId = 592012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 592012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 592011
   },
@@ -5049,39 +5049,39 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 592014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 592014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 592012
   },
   [592013] = {
     StateEvent = {
       [1] = {
-  NextStateId = 592014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 592014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 592013
   },
   [592014] = {
     StateEvent = {
       [1] = {
-  NextStateId = 592011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 592011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 592012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 592012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 592014
   },
@@ -5105,34 +5105,34 @@ return ReadOnly("MechanismState", {
   [595011] = {
     StateEvent = {
       [1] = {
-  NextStateId = 595013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 595013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 595014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 595014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 595011
   },
   [595012] = {
     StateEvent = {
       [1] = {
-  NextStateId = 595014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 595014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 595013,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 595013,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 595012
   },
@@ -5446,12 +5446,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 610023,
-  TypeNextState = {
-    InteractiveId = 91505,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 610023,
+        TypeNextState = {
+          InteractiveId = 91505,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 610021
   },
@@ -5465,12 +5465,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 610023,
-  TypeNextState = {
-    InteractiveId = 91505,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 610023,
+        TypeNextState = {
+          InteractiveId = 91505,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 610022
   },
@@ -5826,11 +5826,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 701061,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 701061,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 701060
   },
@@ -5895,12 +5895,12 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 701102,
-  TypeNextState = {
-    InteractiveId = 70002,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 701102,
+        TypeNextState = {
+          InteractiveId = 70002,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 701100
   },
@@ -5917,12 +5917,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 701102,
-  TypeNextState = {
-    InteractiveId = 70002,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 701102,
+        TypeNextState = {
+          InteractiveId = 70002,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 701101
   },
@@ -5959,12 +5959,12 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 701132,
-  TypeNextState = {
-    InteractiveId = 70003,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 701132,
+        TypeNextState = {
+          InteractiveId = 70003,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 701130
   },
@@ -5981,12 +5981,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 701132,
-  TypeNextState = {
-    InteractiveId = 70003,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 701132,
+        TypeNextState = {
+          InteractiveId = 70003,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 701131
   },
@@ -6328,11 +6328,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703010
   },
@@ -6350,11 +6350,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703011
   },
@@ -6382,11 +6382,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703020
   },
@@ -6413,11 +6413,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703021
   },
@@ -6444,11 +6444,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703022
   },
@@ -6475,11 +6475,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703023
   },
@@ -6506,11 +6506,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703024
   },
@@ -6537,11 +6537,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703025
   },
@@ -6568,11 +6568,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703026
   },
@@ -6599,11 +6599,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703027
   },
@@ -6616,22 +6616,22 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703030
   },
   [703031] = {
     StateEvent = {
       [1] = {
-  NextStateId = 703012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 703012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 703031
   },
@@ -6690,11 +6690,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 704010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 704011
   },
@@ -6715,11 +6715,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 704010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 704012
   },
@@ -6758,11 +6758,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 704020,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 704021
   },
@@ -6777,57 +6777,57 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [2] = {
-  NextStateId = 704020,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704020,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 704022
   },
   [704030] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704031,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704032,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704032,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 704033,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 704034,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704034,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 704030
   },
   [704031] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704032,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704032,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 7040311,
         TypeNextState = {
@@ -6840,17 +6840,17 @@ return ReadOnly("MechanismState", {
   [704032] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704033,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 7040321,
         TypeNextState = {
@@ -6863,17 +6863,17 @@ return ReadOnly("MechanismState", {
   [704033] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704034,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704034,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 7040331,
         TypeNextState = {
@@ -6886,11 +6886,11 @@ return ReadOnly("MechanismState", {
   [704034] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 7040341,
         TypeNextState = {
@@ -6898,11 +6898,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 704033,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 704034
   },
@@ -7067,11 +7067,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 705033,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 705033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 705031
   },
@@ -7099,11 +7099,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 705033,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 705033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 705032
   },
@@ -7157,11 +7157,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 701061,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 701061,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 705041
   },
@@ -7470,11 +7470,11 @@ return ReadOnly("MechanismState", {
   [707970] = {
     StateEvent = {
       [1] = {
-  NextStateId = 708001,
-  TypeNextState = {
-    Type = "Interactive"
-  }
-}
+        NextStateId = 708001,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 707970
   },
@@ -7547,11 +7547,11 @@ return ReadOnly("MechanismState", {
   [708000] = {
     StateEvent = {
       [1] = {
-  NextStateId = 708001,
-  TypeNextState = {
-    Type = "Interactive"
-  }
-}
+        NextStateId = 708001,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 708000
   },
@@ -8126,20 +8126,20 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  EventsNextState = {
-    {
+        EventsNextState = {
+          {
   CallBackName = "OnNotifyBegin",
   Function = "PlayMontage",
   Mesh = "Mesh",
   MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
   SectionName = "Rise"
 }
-  },
-  NextStateId = 780080,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        },
+        NextStateId = 780080,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 780081
   },
@@ -8151,20 +8151,20 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  EventsNextState = {
-    {
+        EventsNextState = {
+          {
   CallBackName = "OnNotifyBegin",
   Function = "PlayMontage",
   Mesh = "Mesh",
   MontagePath = "AnimMontage'/Game/BluePrints/Item/CombatProp/LaserMontage.LaserMontage'",
   SectionName = "Rise"
 }
-  },
-  NextStateId = 780080,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        },
+        NextStateId = 780080,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 780082
   },
@@ -8287,11 +8287,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 780100,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 780100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 780101
   },
@@ -8303,11 +8303,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 780100,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 780100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 780102
   },
@@ -8666,11 +8666,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 780162,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 780162,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 780161
   },
@@ -8699,11 +8699,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 780162,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 780162,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 780163
   },
@@ -8917,11 +8917,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 801130,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 801130,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 801131
   },
@@ -8933,11 +8933,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 801130,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 801130,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 801131,
         TypeNextState = {
@@ -8996,33 +8996,33 @@ return ReadOnly("MechanismState", {
   [810011] = {
     StateEvent = {
       [1] = {
-  NextStateId = 810010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 810010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 810011
   },
   [810012] = {
     StateEvent = {
       [1] = {
-  NextStateId = 810010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 810010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 810012
   },
   [810013] = {
     StateEvent = {
       [1] = {
-  NextStateId = 810010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 810010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 810013
   },
@@ -9133,85 +9133,85 @@ return ReadOnly("MechanismState", {
   [904312] = {
     StateEvent = {
       [1] = {
-  NextStateId = 90430,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 90430,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 90430,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 90430,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 904312
   },
   [904332] = {
     StateEvent = {
       [1] = {
-  NextStateId = 90432,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 90432,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 90432,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 90432,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 904332
   },
   [904352] = {
     StateEvent = {
       [1] = {
-  NextStateId = 90434,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 90434,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 90434,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 90434,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 904352
   },
   [904372] = {
     StateEvent = {
       [1] = {
-  NextStateId = 90436,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 90436,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 90436,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 90436,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 904372
   },
   [904392] = {
     StateEvent = {
       [1] = {
-  NextStateId = 90438,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 90438,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 90438,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 90438,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 904392
   },
@@ -9227,17 +9227,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1060401,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1060401,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1060402,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1060402,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1060400
   },
@@ -9250,17 +9250,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1060400,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1060400,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1060402,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1060402,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1060401
   },
@@ -9276,68 +9276,68 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1060400,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1060400,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1060401,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1060401,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1060402
   },
   [1060800] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1060801,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1060801,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1060802,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1060802,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1060800
   },
   [1060801] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1060800,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1060800,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1060802,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1060802,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1060801
   },
   [1060802] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1060800,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1060800,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1060801,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1060801,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1060802
   },
@@ -9372,35 +9372,35 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061101,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061103,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061103,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 1061104,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061104,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 1061105,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061105,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061100
   },
@@ -9413,35 +9413,35 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061100,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061103,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061103,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 1061104,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061104,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 1061105,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061105,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061101
   },
@@ -9454,35 +9454,35 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061100,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061101,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061103,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061103,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 1061104,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061104,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 1061105,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061105,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061102
   },
@@ -9495,35 +9495,35 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061100,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061101,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 1061104,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061104,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 1061105,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061105,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061103
   },
@@ -9536,35 +9536,35 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061100,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061101,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 1061103,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061103,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 1061105,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061105,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061104
   },
@@ -9594,11 +9594,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061100,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061100,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061106
   },
@@ -9614,11 +9614,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061201,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061200
   },
@@ -9638,11 +9638,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061201
   },
@@ -9661,11 +9661,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061202
   },
@@ -9685,17 +9685,17 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061203
   },
@@ -9708,11 +9708,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061204
   },
@@ -9726,11 +9726,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061205
   },
@@ -9743,11 +9743,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061206
   },
@@ -9763,17 +9763,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061201,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 1061203,
         TypeNextState = {
@@ -9936,17 +9936,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061231,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061231,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061232,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061232,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061230
   },
@@ -9959,17 +9959,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061232,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061232,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061230,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061230,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061231
   },
@@ -9982,17 +9982,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061230,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061230,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061231,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061231,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061232
   },
@@ -10141,11 +10141,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061251,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061251,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061250
   },
@@ -10182,11 +10182,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061251,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061251,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061252
   },
@@ -10402,34 +10402,34 @@ return ReadOnly("MechanismState", {
   [1061300] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061300
   },
   [1061301] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 10613011,
         TypeNextState = {
@@ -10443,17 +10443,17 @@ return ReadOnly("MechanismState", {
   [1061302] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 10613021,
         TypeNextState = {
@@ -10470,86 +10470,86 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061311,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061311,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061313,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061313,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061310
   },
   [1061311] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061310,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061310,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061312,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061312,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061313,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061313,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061311
   },
   [1061312] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061310,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061310,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061311,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061311,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061313,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061313,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061312
   },
   [1061313] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061310,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061310,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061311,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061311,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1061312,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061312,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061313
   },
@@ -10567,11 +10567,11 @@ return ReadOnly("MechanismState", {
   [1061401] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061400,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061400,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1061402,
         TypeNextState = {
@@ -10585,11 +10585,11 @@ return ReadOnly("MechanismState", {
   [1061402] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061400,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061400,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1061401,
         TypeNextState = {
@@ -10666,12 +10666,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061601,
-  TypeNextState = {
-    DeActiveRange = 1600,
-    Type = "DistanceDeActive"
-  }
-},
+        NextStateId = 1061601,
+        TypeNextState = {
+          DeActiveRange = 1600,
+          Type = "DistanceDeActive"
+        }
+      },
       [2] = {
         NextStateId = 1061603,
         TypeNextState = {
@@ -10692,12 +10692,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1061601,
-  TypeNextState = {
-    DeActiveRange = 1600,
-    Type = "DistanceDeActive"
-  }
-},
+        NextStateId = 1061601,
+        TypeNextState = {
+          DeActiveRange = 1600,
+          Type = "DistanceDeActive"
+        }
+      },
       [2] = {
         NextStateId = 1061602,
         TypeNextState = {
@@ -10739,11 +10739,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061900,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061900,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061901
   },
@@ -10762,11 +10762,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061900,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061900,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061902
   },
@@ -10785,11 +10785,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061900,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061900,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061903
   },
@@ -10808,11 +10808,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1061900,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1061900,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1061904
   },
@@ -10825,22 +10825,22 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1062002,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1062002,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1062000
   },
   [1062001] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1062002,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1062002,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1062001
   },
@@ -10907,11 +10907,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1070102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1070102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1070100
   },
@@ -10934,11 +10934,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1070102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1070102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1070101
   },
@@ -11000,11 +11000,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1070160,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1070160,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1070162,
         TypeNextState = {
@@ -11027,11 +11027,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1070160,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1070160,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1070161,
         TypeNextState = {
@@ -11060,11 +11060,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1070160,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1070160,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1070162,
         TypeNextState = {
@@ -11113,11 +11113,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1070200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1070200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1070201
   },
@@ -11166,11 +11166,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1070200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1070200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1070203
   },
@@ -11192,11 +11192,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1070200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1070200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1070204
   },
@@ -11218,103 +11218,103 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1070200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1070200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1070205
   },
   [1150300] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1150301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1150302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1150303,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1150303,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1150300
   },
   [1150301] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1150300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1150302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1150303,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1150303,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1150301
   },
   [1150302] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1150300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1150301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1150303,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1150303,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1150302
   },
   [1150303] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1150300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1150301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1150301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 1150302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1150302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1150303
   },
@@ -11332,11 +11332,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1170102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1170102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1170100
   },
@@ -11349,11 +11349,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1170102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1170102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1170101
   },
@@ -11375,11 +11375,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1210021,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1210021,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1210022
   },
@@ -11392,11 +11392,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1210021,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1210021,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1210023
   },
@@ -11566,11 +11566,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1210182,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1210182,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1210180
   },
@@ -11583,11 +11583,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1210182,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1210182,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1210181
   },
@@ -11729,22 +11729,22 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1210220,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1210220,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1210221
   },
   [1210222] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1210220,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1210220,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1210222
   },
@@ -11804,11 +11804,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1210240,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1210240,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1210242,
         TypeNextState = {
@@ -11821,11 +11821,11 @@ return ReadOnly("MechanismState", {
   [1210242] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1210240,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1210240,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1210242
   },
@@ -11975,11 +11975,11 @@ return ReadOnly("MechanismState", {
   [1310041] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1310042,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310042,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310041
   },
@@ -12031,11 +12031,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1310042,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310042,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310045
   },
@@ -12047,17 +12047,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310071,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1310071,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1310073,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310073,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310070
   },
@@ -12069,11 +12069,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310070,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1310070,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1310072,
         TypeNextState = {
@@ -12081,39 +12081,39 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 1310073,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310073,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310071
   },
   [1310072] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1310070,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1310070,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1310071,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310071,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310072
   },
   [1310073] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1310071,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310071,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310073
   },
@@ -12141,12 +12141,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310082,
-  TypeNextState = {
-    InteractiveId = 301,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 1310082,
+        TypeNextState = {
+          InteractiveId = 301,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 1310081
   },
@@ -12181,12 +12181,12 @@ return ReadOnly("MechanismState", {
   [1310084] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1310082,
-  TypeNextState = {
-    InteractiveId = 301,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 1310082,
+        TypeNextState = {
+          InteractiveId = 301,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 1310084
   },
@@ -12215,12 +12215,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310092,
-  TypeNextState = {
-    InteractiveId = 301,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 1310092,
+        TypeNextState = {
+          InteractiveId = 301,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 1310091
   },
@@ -12233,11 +12233,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1310094,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310094,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310092
   },
@@ -12250,11 +12250,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 1310094,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1310094,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 1310096,
         TypeNextState = {
@@ -12262,11 +12262,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [4] = {
-  NextStateId = 1310095,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310095,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310093
   },
@@ -12278,11 +12278,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310095,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310095,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310094
   },
@@ -12294,12 +12294,12 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310092,
-  TypeNextState = {
-    InteractiveId = 301,
-    Type = "Interactive"
-  }
-}
+        NextStateId = 1310092,
+        TypeNextState = {
+          InteractiveId = 301,
+          Type = "Interactive"
+        }
+      }
     },
     StateId = 1310095
   },
@@ -12345,11 +12345,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310170,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310170,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310171
   },
@@ -12373,11 +12373,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
-  NextStateId = 1310170,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310170,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310172
   },
@@ -12389,11 +12389,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 1310170,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 1310170,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 1310173
   },
@@ -12999,11 +12999,11 @@ return ReadOnly("MechanismState", {
   [1500111] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1500110,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1500110,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1500112,
         TypeNextState = {
@@ -13016,11 +13016,11 @@ return ReadOnly("MechanismState", {
   [1500112] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1500110,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1500110,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 1500113,
         TypeNextState = {
@@ -13227,11 +13227,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3900130,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3900130,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3900132,
         TypeNextState = {
@@ -13253,11 +13253,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3900130,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3900130,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3900133,
         TypeNextState = {
@@ -13279,11 +13279,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3900130,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3900130,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3900133
   },
@@ -13400,11 +13400,11 @@ return ReadOnly("MechanismState", {
         TypeNextState = {Param = 60, Type = "Time"}
       },
       [2] = {
-  NextStateId = 3900180,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3900180,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3900181
   },
@@ -13419,11 +13419,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [2] = {
-  NextStateId = 3900180,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3900180,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3900182
   },
@@ -13438,11 +13438,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [2] = {
-  NextStateId = 3900180,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3900180,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3900183
   },
@@ -13515,17 +13515,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901501,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3901502,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901502,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901500
   },
@@ -13537,17 +13537,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901500,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3901502,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901502,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901501
   },
@@ -13559,17 +13559,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901500,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3901501,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901502
   },
@@ -13581,11 +13581,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901511,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901511,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901510
   },
@@ -13597,11 +13597,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901510,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901510,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3901512,
         TypeNextState = {
@@ -13619,17 +13619,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901510,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901510,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3901511,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901511,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901512
   },
@@ -13688,11 +13688,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901600,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3901602,
         TypeNextState = {
@@ -13721,11 +13721,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901600,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901602
   },
@@ -13745,11 +13745,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901600,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3901604,
         TypeNextState = {
@@ -13804,11 +13804,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901600,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901600,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3901606,
         TypeNextState = {
@@ -13861,11 +13861,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3901702,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901702,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901700
   },
@@ -13877,17 +13877,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901702,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3901702,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3901700,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901700,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901701
   },
@@ -13899,11 +13899,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901700,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901700,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901702
   },
@@ -13941,11 +13941,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901803,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901803,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901801
   },
@@ -13959,11 +13959,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3901803,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3901803,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3901802
   },
@@ -14005,11 +14005,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3902000,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902001
   },
@@ -14031,11 +14031,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3902000,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902002
   },
@@ -14079,51 +14079,51 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3902301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902300
   },
   [3902301] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902301
   },
   [3902302] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902302
   },
@@ -14157,11 +14157,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3902400,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902400,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902401
   },
@@ -14173,11 +14173,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3902400,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902400,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902402
   },
@@ -14189,74 +14189,74 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3902501,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902502,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902502,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902500
   },
   [3902501] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902502,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902502,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902500,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902501
   },
   [3902502] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902501,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902501,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902500,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902500,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902502
   },
   [3902700] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902701,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902701,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902702,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902702,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3902703,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902703,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
         NextStateId = 3902708,
         TypeNextState = {
@@ -14269,156 +14269,156 @@ return ReadOnly("MechanismState", {
   [3902701] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902700,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902700,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902702,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902702,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3902703,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902703,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 3902704,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902704,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 3902705,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902705,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [6] = {
-  NextStateId = 3902706,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902706,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902701
   },
   [3902702] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902701,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902701,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902700,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902700,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3902703,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902703,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 3902704,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902704,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 3902705,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902705,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [6] = {
-  NextStateId = 3902706,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902706,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902702
   },
   [3902703] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902701,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902701,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902702,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902702,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3902700,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902700,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 3902704,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902704,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 3902705,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902705,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [6] = {
-  NextStateId = 3902706,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902706,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902703
   },
   [3902704] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902707,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902707,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902704
   },
   [3902705] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902707,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902707,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902705
   },
   [3902706] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902707,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902707,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902706
   },
@@ -14426,11 +14426,11 @@ return ReadOnly("MechanismState", {
   [3902708] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902700,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902700,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902708
   },
@@ -14460,11 +14460,11 @@ return ReadOnly("MechanismState", {
   [3902711] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902710,
-  TypeNextState = {
-    Param = 10, Type = "Time"
-  }
-},
+        NextStateId = 3902710,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      },
       [2] = {
         NextStateId = 3902714,
         TypeNextState = {
@@ -14477,11 +14477,11 @@ return ReadOnly("MechanismState", {
   [3902712] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902710,
-  TypeNextState = {
-    Param = 10, Type = "Time"
-  }
-},
+        NextStateId = 3902710,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      },
       [2] = {
         NextStateId = 3902715,
         TypeNextState = {
@@ -14494,11 +14494,11 @@ return ReadOnly("MechanismState", {
   [3902713] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902710,
-  TypeNextState = {
-    Param = 10, Type = "Time"
-  }
-},
+        NextStateId = 3902710,
+        TypeNextState = {
+          Param = 10, Type = "Time"
+        }
+      },
       [2] = {
         NextStateId = 3902716,
         TypeNextState = {
@@ -14555,66 +14555,66 @@ return ReadOnly("MechanismState", {
   [3902721] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902727,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902727,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902721
   },
   [3902722] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902727,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902727,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902722
   },
   [3902723] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902727,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902727,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902723
   },
   [3902724] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902720,
-  TypeNextState = {
-    Param = 1, Type = "Time"
-  }
-}
+        NextStateId = 3902720,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
     },
     StateId = 3902724
   },
   [3902725] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902720,
-  TypeNextState = {
-    Param = 1, Type = "Time"
-  }
-}
+        NextStateId = 3902720,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
     },
     StateId = 3902725
   },
   [3902726] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902720,
-  TypeNextState = {
-    Param = 1, Type = "Time"
-  }
-}
+        NextStateId = 3902720,
+        TypeNextState = {
+          Param = 1, Type = "Time"
+        }
+      }
     },
     StateId = 3902726
   },
@@ -14645,11 +14645,11 @@ return ReadOnly("MechanismState", {
   [3902751] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902750,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902750,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3902754,
         TypeNextState = {
@@ -14662,11 +14662,11 @@ return ReadOnly("MechanismState", {
   [3902752] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902750,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902750,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3902755,
         TypeNextState = {
@@ -14679,11 +14679,11 @@ return ReadOnly("MechanismState", {
   [3902753] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902750,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902750,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 3902756,
         TypeNextState = {
@@ -14696,33 +14696,33 @@ return ReadOnly("MechanismState", {
   [3902754] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902757,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902757,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902754
   },
   [3902755] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902757,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902757,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902755
   },
   [3902756] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902757,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902757,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902756
   },
@@ -14764,17 +14764,17 @@ return ReadOnly("MechanismState", {
   [3902791] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902792,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902792,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902790,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902790,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902791
   },
@@ -14799,17 +14799,17 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3902790,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902790,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3902792,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902792,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902794
   },
@@ -14834,17 +14834,17 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3902790,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902790,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3902792,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902792,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902797
   },
@@ -14903,17 +14903,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 3902901,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902901,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902902,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902902,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 3902903,
         TypeNextState = {
@@ -14926,34 +14926,34 @@ return ReadOnly("MechanismState", {
   [3902901] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902902,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902902,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902900,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902900,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902901
   },
   [3902902] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3902901,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3902901,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3902900,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3902900,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3902902
   },
@@ -14998,39 +14998,39 @@ return ReadOnly("MechanismState", {
   [3903002] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903000,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903002
   },
   [3903003] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903000,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903000,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903003
   },
   [3903100] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903101,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3903102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903100
   },
@@ -15071,40 +15071,40 @@ return ReadOnly("MechanismState", {
   [3903104] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903101,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903101,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3903102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903104
   },
   [3903200] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903201,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3903202,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903202,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3903203,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903203,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
         NextStateId = 3903208,
         TypeNextState = {
@@ -15112,140 +15112,140 @@ return ReadOnly("MechanismState", {
         }
       },
       [5] = {
-  NextStateId = 3903206,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903206,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [6] = {
-  NextStateId = 3903204,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903204,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903200
   },
   [3903201] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3903202,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903202,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3903203,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903203,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 3903204,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903204,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 3903205,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903205,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [6] = {
-  NextStateId = 3903206,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903206,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903201
   },
   [3903202] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903201,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3903200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3903203,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903203,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 3903204,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903204,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 3903205,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903205,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [6] = {
-  NextStateId = 3903206,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903206,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903202
   },
   [3903203] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903201,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903201,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 3903202,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903202,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3903200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 3903204,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903204,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [5] = {
-  NextStateId = 3903205,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903205,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [6] = {
-  NextStateId = 3903206,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903206,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903203
   },
@@ -15255,11 +15255,11 @@ return ReadOnly("MechanismState", {
   [3903208] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903200,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903200,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903208
   },
@@ -15272,17 +15272,17 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3903603,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 3903603,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 3903604,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903604,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903600
   },
@@ -15295,33 +15295,33 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3903603,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903603,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903601
   },
   [3903602] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903603,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903603,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903602
   },
   [3903603] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3903604,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903604,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903603
   },
@@ -15345,11 +15345,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3903603,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3903603,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3903605
   },
@@ -15424,11 +15424,11 @@ return ReadOnly("MechanismState", {
   [3904400] = {
     StateEvent = {
       [1] = {
-  NextStateId = 3904401,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3904401,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3904400
   },
@@ -15513,11 +15513,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 3904401,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 3904401,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 3904502
   },
@@ -15551,39 +15551,39 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4900103,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4900103,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 4900102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900101
   },
   [4900102] = {
     StateEvent = {
       [1] = {
-  NextStateId = 4900103,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900103,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900102
   },
   [4900103] = {
     StateEvent = {
       [1] = {
-  NextStateId = 4900102,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900102,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900103
   },
@@ -15648,11 +15648,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 4900712,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900712,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900710
   },
@@ -15681,17 +15681,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4900710,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4900710,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 4900712,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900712,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900711
   },
@@ -15722,11 +15722,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4900710,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900710,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900712
   },
@@ -15774,11 +15774,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 4900732,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900732,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900730
   },
@@ -15807,17 +15807,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4900730,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4900730,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 4900732,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900732,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900731
   },
@@ -15848,11 +15848,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4900730,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4900730,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900732
   },
@@ -15894,19 +15894,19 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  EventsNextState = {
-    {
+        EventsNextState = {
+          {
   Function = "PlayMontage",
   Mesh = "Mesh",
   MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
   SectionName = "End"
 }
-  },
-  NextStateId = 4900752,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        },
+        NextStateId = 4900752,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4900750
   },
@@ -15941,19 +15941,19 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  EventsNextState = {
-    {
+        EventsNextState = {
+          {
   Function = "PlayMontage",
   Mesh = "Mesh",
   MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
   SectionName = "End"
 }
-  },
-  NextStateId = 4900752,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        },
+        NextStateId = 4900752,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         EventsNextState = {
           {
@@ -16196,11 +16196,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4920011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4920011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
         NextStateId = 4920013,
         TypeNextState = {
@@ -16227,29 +16227,29 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4920010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4920010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 4920012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4920012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 4920014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4920014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [4] = {
-  NextStateId = 4920015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4920015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4920011
   },
@@ -16277,11 +16277,11 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
-  NextStateId = 4920011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4920011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4920012
   },
@@ -16302,17 +16302,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4920012,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4920012,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 4920010,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4920010,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4920013
   },
@@ -16325,17 +16325,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4920011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4920011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 4920015,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4920015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4920014
   },
@@ -16348,17 +16348,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 4920011,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 4920011,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 4920014,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 4920014,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 4920015
   },
@@ -16376,80 +16376,80 @@ return ReadOnly("MechanismState", {
   [7040311] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704032,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704032,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 7040311
   },
   [7040321] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704033,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 704031,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 7040321
   },
   [7040331] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704034,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704034,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
-  NextStateId = 704032,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704032,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 7040331
   },
   [7040341] = {
     StateEvent = {
       [1] = {
-  NextStateId = 704030,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 704030,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 704033,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 704033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 7040341
   },
@@ -16495,11 +16495,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020003
   },
@@ -16513,11 +16513,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020004
   },
@@ -16531,11 +16531,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020005
   },
@@ -16549,11 +16549,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020006
   },
@@ -16567,11 +16567,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020007
   },
@@ -16585,11 +16585,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020008
   },
@@ -16603,11 +16603,11 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020009
   },
@@ -16621,28 +16621,28 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 9020001,
-  TypeNextState = {
-    ConditionID = 20021501, Type = "Condition"
-  }
-}
+        NextStateId = 9020001,
+        TypeNextState = {
+          ConditionID = 20021501, Type = "Condition"
+        }
+      }
     },
     StateId = 9020010
   },
   [10613011] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061302,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061302,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 1061301,
         TypeNextState = {
@@ -16656,17 +16656,17 @@ return ReadOnly("MechanismState", {
   [10613021] = {
     StateEvent = {
       [1] = {
-  NextStateId = 1061300,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061300,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 1061301,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 1061301,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [3] = {
         NextStateId = 1061302,
         TypeNextState = {
@@ -16830,17 +16830,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 11301231,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 11301231,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 11301232,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 11301232,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 11301230
   },
@@ -16858,17 +16858,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 11301230,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 11301230,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 11301232,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 11301232,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 11301231
   },
@@ -16898,17 +16898,17 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
-  NextStateId = 11301230,
-  TypeNextState = {
-    Type = "Manual"
-  }
-},
+        NextStateId = 11301230,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
       [2] = {
-  NextStateId = 11301231,
-  TypeNextState = {
-    Type = "Manual"
-  }
-}
+        NextStateId = 11301231,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
     },
     StateId = 11301232
   },

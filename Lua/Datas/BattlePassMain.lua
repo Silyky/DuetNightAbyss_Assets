@@ -27,18 +27,18 @@ return ReadOnly("BattlePassMain", {
     RewardMailId = 100401,
     SkyBoxColor = {
       BaseColor2 = {
-  0.064562,
-  0.108577,
-  0.177083,
-  1
-},
+        0.064562,
+        0.108577,
+        0.177083,
+        1
+      },
       ColorCurve = 1,
       StarColor = {
-  0.226286,
-  0.398611,
-  1,
-  1
-}
+        0.226286,
+        0.398611,
+        1,
+        1
+      }
     },
     WeeklyMaxExp = 10000
   },
@@ -70,18 +70,18 @@ return ReadOnly("BattlePassMain", {
     RewardMailId = 100401,
     SkyBoxColor = {
       BaseColor2 = {
-  0.064562,
-  0.108577,
-  0.177083,
-  1
-},
+        0.064562,
+        0.108577,
+        0.177083,
+        1
+      },
       ColorCurve = 1,
       StarColor = {
-  0.226286,
-  0.398611,
-  1,
-  1
-}
+        0.226286,
+        0.398611,
+        1,
+        1
+      }
     },
     WeeklyMaxExp = 10000
   }

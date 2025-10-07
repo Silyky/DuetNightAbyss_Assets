@@ -169,137 +169,287 @@ return ReadOnly("RougeLikeConverts", {
   },
   RougeLikeRandomMap = {
     [1] = {
-      [1] = {RoomTypeWeight = 1000}
+      [1] = {
+        RoomTypeWeight = 1000
+      }
     },
     [2] = {
-      [2] = {RoomTypeWeight = 1000}
+      [2] = {
+        RoomTypeWeight = 1000
+      }
     },
     [3] = {
-      [3] = {RoomTypeWeight = 1000}
+      [3] = {
+        RoomTypeWeight = 1000
+      }
     },
     [4] = {
-      [4] = {RoomTypeWeight = 1000}
+      [4] = {
+        RoomTypeWeight = 1000
+      }
     },
     [5] = {
-      [5] = {RoomTypeWeight = 1000}
+      [5] = {
+        RoomTypeWeight = 1000
+      }
     },
     [6] = {
-      [6] = {RoomTypeWeight = 1000}
+      [6] = {
+        RoomTypeWeight = 1000
+      }
     },
     [21] = {
-      [1] = {RoomTypeWeight = 500},
-      [6] = {RoomTypeWeight = 500}
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
     },
     [22] = {
-      [1] = {RoomTypeWeight = 500},
-      [3] = {RoomTypeWeight = 500}
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [3] = {
+        RoomTypeWeight = 500
+      }
     },
     [23] = {
-      [1] = {RoomTypeWeight = 500},
-      [4] = {RoomTypeWeight = 500}
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      }
     },
     [24] = {
-      [3] = {RoomTypeWeight = 500},
-      [6] = {RoomTypeWeight = 500}
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
     },
     [25] = {
-      [4] = {RoomTypeWeight = 500},
-      [6] = {RoomTypeWeight = 500}
+      [4] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
     },
     [26] = {
-      [3] = {RoomTypeWeight = 500},
-      [4] = {RoomTypeWeight = 500}
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      }
     },
     [41] = {
-  [1] = {RoomTypeWeight = 500},
-  [3] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [42] = {
-  [1] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [43] = {
-  [1] = {RoomTypeWeight = 500},
-  [3] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      }
+    },
     [44] = {
-  [3] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [61] = {
-  [1] = {RoomTypeWeight = 500},
-  [3] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [62] = {
-  [1] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [63] = {
-  [1] = {RoomTypeWeight = 500},
-  [3] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      }
+    },
     [64] = {
-  [3] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [65] = {
-  [1] = {RoomTypeWeight = 500},
-  [3] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [66] = {
-      [1] = {RoomTypeWeight = 200},
-      [3] = {RoomTypeWeight = 600},
-      [6] = {RoomTypeWeight = 200}
+      [1] = {
+        RoomTypeWeight = 200
+      },
+      [3] = {
+        RoomTypeWeight = 600
+      },
+      [6] = {
+        RoomTypeWeight = 200
+      }
     },
     [67] = {
-      [1] = {RoomTypeWeight = 200},
-      [3] = {RoomTypeWeight = 200},
-      [6] = {RoomTypeWeight = 600}
+      [1] = {
+        RoomTypeWeight = 200
+      },
+      [3] = {
+        RoomTypeWeight = 200
+      },
+      [6] = {
+        RoomTypeWeight = 600
+      }
     },
     [68] = {
-      [1] = {RoomTypeWeight = 600},
-      [3] = {RoomTypeWeight = 200},
-      [6] = {RoomTypeWeight = 200}
+      [1] = {
+        RoomTypeWeight = 600
+      },
+      [3] = {
+        RoomTypeWeight = 200
+      },
+      [6] = {
+        RoomTypeWeight = 200
+      }
     },
     [81] = {
-  [1] = {RoomTypeWeight = 500},
-  [3] = {RoomTypeWeight = 500},
-  [4] = {RoomTypeWeight = 500},
-  [6] = {RoomTypeWeight = 500}
-},
+      [1] = {
+        RoomTypeWeight = 500
+      },
+      [3] = {
+        RoomTypeWeight = 500
+      },
+      [4] = {
+        RoomTypeWeight = 500
+      },
+      [6] = {
+        RoomTypeWeight = 500
+      }
+    },
     [82] = {
-      [1] = {RoomTypeWeight = 600},
-      [3] = {RoomTypeWeight = 200},
-      [4] = {RoomTypeWeight = 200},
-      [6] = {RoomTypeWeight = 600}
+      [1] = {
+        RoomTypeWeight = 600
+      },
+      [3] = {
+        RoomTypeWeight = 200
+      },
+      [4] = {
+        RoomTypeWeight = 200
+      },
+      [6] = {
+        RoomTypeWeight = 600
+      }
     },
     [83] = {
-      [1] = {RoomTypeWeight = 600},
-      [3] = {RoomTypeWeight = 600},
-      [4] = {RoomTypeWeight = 200},
-      [6] = {RoomTypeWeight = 200}
+      [1] = {
+        RoomTypeWeight = 600
+      },
+      [3] = {
+        RoomTypeWeight = 600
+      },
+      [4] = {
+        RoomTypeWeight = 200
+      },
+      [6] = {
+        RoomTypeWeight = 200
+      }
     },
     [84] = {
-      [1] = {RoomTypeWeight = 600},
-      [3] = {RoomTypeWeight = 200},
-      [4] = {RoomTypeWeight = 600},
-      [6] = {RoomTypeWeight = 400}
+      [1] = {
+        RoomTypeWeight = 600
+      },
+      [3] = {
+        RoomTypeWeight = 200
+      },
+      [4] = {
+        RoomTypeWeight = 600
+      },
+      [6] = {
+        RoomTypeWeight = 400
+      }
     },
     [85] = {
-      [1] = {RoomTypeWeight = 600},
-      [3] = {RoomTypeWeight = 400},
-      [4] = {RoomTypeWeight = 600},
-      [6] = {RoomTypeWeight = 200}
+      [1] = {
+        RoomTypeWeight = 600
+      },
+      [3] = {
+        RoomTypeWeight = 400
+      },
+      [4] = {
+        RoomTypeWeight = 600
+      },
+      [6] = {
+        RoomTypeWeight = 200
+      }
     }
   },
   RougeLikeRoomMap = {

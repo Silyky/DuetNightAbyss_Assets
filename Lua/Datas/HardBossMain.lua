@@ -3,30 +3,30 @@ return ReadOnly("HardBossMain", {
     AirWallStaticId = 1610010620,
     CameraParam = {
       Boy = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Girl = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Loli = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Man = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Woman = {
-  163,
-  10,
-  122
-}
+        163,
+        10,
+        122
+      }
     },
     DifficultyId = {
       1001,
@@ -50,25 +50,25 @@ return ReadOnly("HardBossMain", {
     PosDisplayName = "BP_HardBoss_PlayerStart",
     SettlementOffset = {
       [1] = {
-  0,
-  40,
-  0
-},
+        0,
+        40,
+        0
+      },
       [2] = {
-  -150,
-  -70,
-  0
-},
+        -150,
+        -70,
+        0
+      },
       [3] = {
-  -70,
-  170,
-  0
-},
+        -70,
+        170,
+        0
+      },
       [4] = {
-  -70,
-  -165,
-  0
-}
+        -70,
+        -165,
+        0
+      }
     },
     StorylinePath = "HardBoss/Xibi",
     TeleportId = 9000,
@@ -79,30 +79,30 @@ return ReadOnly("HardBossMain", {
     AirWallStaticId = 1440064,
     CameraParam = {
       Boy = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Girl = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Loli = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Man = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Woman = {
-  163,
-  10,
-  122
-}
+        163,
+        10,
+        122
+      }
     },
     DifficultyId = {
       1011,
@@ -126,25 +126,25 @@ return ReadOnly("HardBossMain", {
     PosDisplayName = "BP_HardBoss_PlayerStart",
     SettlementOffset = {
       [1] = {
-  0,
-  40,
-  0
-},
+        0,
+        40,
+        0
+      },
       [2] = {
-  -150,
-  -70,
-  0
-},
+        -150,
+        -70,
+        0
+      },
       [3] = {
-  -70,
-  170,
-  0
-},
+        -70,
+        170,
+        0
+      },
       [4] = {
-  -70,
-  -165,
-  0
-}
+        -70,
+        -165,
+        0
+      }
     },
     StorylinePath = "HardBoss/Shijingzhe",
     TeleportId = 9001,
@@ -155,30 +155,30 @@ return ReadOnly("HardBossMain", {
     AirWallStaticId = 1240025,
     CameraParam = {
       Boy = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Girl = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Loli = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Man = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Woman = {
-  163,
-  10,
-  122
-}
+        163,
+        10,
+        122
+      }
     },
     DifficultyId = {
       1021,
@@ -202,25 +202,25 @@ return ReadOnly("HardBossMain", {
     PosDisplayName = "BP_HardBoss_PlayerStart",
     SettlementOffset = {
       [1] = {
-  0,
-  40,
-  0
-},
+        0,
+        40,
+        0
+      },
       [2] = {
-  -150,
-  -70,
-  0
-},
+        -150,
+        -70,
+        0
+      },
       [3] = {
-  -70,
-  170,
-  0
-},
+        -70,
+        170,
+        0
+      },
       [4] = {
-  -70,
-  -165,
-  0
-}
+        -70,
+        -165,
+        0
+      }
     },
     StorylinePath = "HardBoss/Saiqi",
     TeleportId = 9002,
@@ -231,30 +231,30 @@ return ReadOnly("HardBossMain", {
     AirWallStaticId = 1660120,
     CameraParam = {
       Boy = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Girl = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Loli = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Man = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Woman = {
-  163,
-  10,
-  122
-}
+        163,
+        10,
+        122
+      }
     },
     DifficultyId = {
       1031,
@@ -278,25 +278,25 @@ return ReadOnly("HardBossMain", {
     PosDisplayName = "BP_HardBoss_PlayerStart",
     SettlementOffset = {
       [1] = {
-  0,
-  40,
-  0
-},
+        0,
+        40,
+        0
+      },
       [2] = {
-  -150,
-  -70,
-  0
-},
+        -150,
+        -70,
+        0
+      },
       [3] = {
-  -70,
-  170,
-  0
-},
+        -70,
+        170,
+        0
+      },
       [4] = {
-  -70,
-  -165,
-  0
-}
+        -70,
+        -165,
+        0
+      }
     },
     StorylinePath = "HardBoss/Haier",
     TeleportId = 9003,
@@ -307,30 +307,30 @@ return ReadOnly("HardBossMain", {
     AirWallStaticId = 1969947,
     CameraParam = {
       Boy = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Girl = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Loli = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Man = {
-  163,
-  10,
-  122
-},
+        163,
+        10,
+        122
+      },
       Woman = {
-  163,
-  10,
-  122
-}
+        163,
+        10,
+        122
+      }
     },
     DifficultyId = {
       1041,
@@ -354,25 +354,25 @@ return ReadOnly("HardBossMain", {
     PosDisplayName = "BP_HardBoss_PlayerStart",
     SettlementOffset = {
       [1] = {
-  0,
-  40,
-  0
-},
+        0,
+        40,
+        0
+      },
       [2] = {
-  -150,
-  -70,
-  0
-},
+        -150,
+        -70,
+        0
+      },
       [3] = {
-  -70,
-  170,
-  0
-},
+        -70,
+        170,
+        0
+      },
       [4] = {
-  -70,
-  -165,
-  0
-}
+        -70,
+        -165,
+        0
+      }
     },
     StorylinePath = "HardBoss/Linen",
     TeleportId = 9004,

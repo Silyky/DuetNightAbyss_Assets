@@ -5,7 +5,9 @@ return ReadOnly("BattleAchiTargetType", {
   },
   [1001] = {
     Args = {
-      DamageType = {"Default"}
+      DamageType = {
+        "Default"
+      }
     },
     Id = 1001,
     TargetType = "Heal"
@@ -75,7 +77,9 @@ return ReadOnly("BattleAchiTargetType", {
   },
   [1021] = {
     Args = {
-      DamageType = {"Default"}
+      DamageType = {
+        "Default"
+      }
     },
     Id = 1021,
     TargetType = "Heal"
@@ -96,14 +100,18 @@ return ReadOnly("BattleAchiTargetType", {
   },
   [1024] = {
     Args = {
-      DamageTag = {"Melee"}
+      DamageTag = {
+        "Melee"
+      }
     },
     Id = 1024,
     TargetType = "Damage"
   },
   [1025] = {
     Args = {
-      DamageTag = {"Ranged"}
+      DamageTag = {
+        "Ranged"
+      }
     },
     Id = 1025,
     TargetType = "Damage"
@@ -197,14 +205,18 @@ return ReadOnly("BattleAchiTargetType", {
   },
   [2011] = {
     Args = {
-      DamageTag = {"Melee"}
+      DamageTag = {
+        "Melee"
+      }
     },
     Id = 2011,
     TargetType = "OnTargetKilled"
   },
   [2012] = {
     Args = {
-      DamageTag = {"Ranged"}
+      DamageTag = {
+        "Ranged"
+      }
     },
     Id = 2012,
     TargetType = "OnTargetKilled"
@@ -494,7 +506,9 @@ return ReadOnly("BattleAchiTargetType", {
   },
   [3043] = {
     Args = {
-      DamageType = {"Default"}
+      DamageType = {
+        "Default"
+      }
     },
     Id = 3043,
     RoleIdConstraints = {
