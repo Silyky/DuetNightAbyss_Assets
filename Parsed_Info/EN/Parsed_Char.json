@@ -548,7 +548,7 @@
           },
           {
             "Key": "[Immersion] Granted by [Duo]",
-            "Value": "1.5%Max Sanity"
+            "Value": "0.6%Max Sanity"
           },
           {
             "Key": "DMG Boost per stack of [Adagio]",
@@ -1330,11 +1330,11 @@
         "SkillParams": [
           {
             "Key": "[Interwoven Cries]\\nEffect Trigger Probability",
-            "Value": "75.0%Ranged Weapon Trigger Probability"
+            "Value": "14.0%Ranged Weapon Trigger Probability/18.0%Ranged Weapon Trigger Probability/22.0%Ranged Weapon Trigger Probability/26.0%Ranged Weapon Trigger Probability/30.0%Ranged Weapon Trigger Probability/34.0%Ranged Weapon Trigger Probability/38.0%Ranged Weapon Trigger Probability/42.0%Ranged Weapon Trigger Probability/46.0%Ranged Weapon Trigger Probability/50.0%Ranged Weapon Trigger Probability/54.0%Ranged Weapon Trigger Probability/58.0%Ranged Weapon Trigger Probability/62.0%Ranged Weapon Trigger Probability/66.0%Ranged Weapon Trigger Probability/70.0%Ranged Weapon Trigger Probability/74.0%Ranged Weapon Trigger Probability/78.0%Ranged Weapon Trigger Probability/82.0%Ranged Weapon Trigger Probability/86.0%Ranged Weapon Trigger Probability/90.0%Ranged Weapon Trigger Probability"
           },
           {
             "Key": "[Interwoven Cries] Effect\\nMax Trigger Probability",
-            "Value": "65.0%"
+            "Value": "50.0%"
           }
         ],
         "Resources": {
@@ -2633,7 +2633,7 @@
         "SkillParams": [
           {
             "Key": "[Poison of Love] Duration",
-            "Value": "15.0s"
+            "Value": "6.0s"
           },
           {
             "Key": "[Poison of Love] DMG",
@@ -3768,7 +3768,7 @@
           },
           {
             "Key": "DMG Boost per stack",
-            "Value": "70.0%"
+            "Value": "5.1%/6.2%/7.3%/8.4%/9.5%/10.6%/11.7%/12.8%/13.9%/15.0%/16.1%/17.2%/18.3%/19.4%/20.5%/21.6%/22.7%/23.8%/24.9%/26.0%"
           }
         ],
         "Resources": {
@@ -7261,7 +7261,7 @@
           },
           {
             "Key": "Duration",
-            "Value": "15.0s"
+            "Value": "18.0s"
           }
         ],
         "Resources": {
