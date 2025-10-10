@@ -1,9 +1,7 @@
 return ReadOnly("ModGuideBookTask", {
   [1] = {
     DisplayId = "01",
-    JumpTaskTypeParam = {
-      4
-    },
+    JumpTaskTypeParam = 4,
     QuestPhaseId = 1,
     Target = 1,
     TargetId = {30404},
@@ -15,9 +13,7 @@ return ReadOnly("ModGuideBookTask", {
   },
   [2] = {
     DisplayId = "02",
-    JumpTaskTypeParam = {
-      4
-    },
+    JumpTaskTypeParam = 4,
     QuestPhaseId = 1,
     Target = 1,
     TargetId = {
@@ -75,9 +71,7 @@ return ReadOnly("ModGuideBookTask", {
   },
   [6] = {
     DisplayId = "06",
-    JumpTaskTypeParam = {
-      4
-    },
+    JumpTaskTypeParam = 4,
     QuestPhaseId = 2,
     Target = 1,
     TargetId = {30405},
@@ -89,9 +83,7 @@ return ReadOnly("ModGuideBookTask", {
   },
   [7] = {
     DisplayId = "07",
-    JumpTaskTypeParam = {
-      4
-    },
+    JumpTaskTypeParam = 4,
     QuestPhaseId = 2,
     Target = 4,
     TargetId = {

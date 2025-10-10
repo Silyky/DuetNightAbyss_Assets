@@ -32,12 +32,8 @@ return ReadOnly("DanmakuCreature", {
       DelayTime = 3,
       WarnEventCd = 1
     },
-    HitEnemy = {
-      850052
-    },
-    HitScene = {
-      850052
-    },
+    HitEnemy = 850052,
+    HitScene = 850052,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_electircball_yb_002.m_electircball_yb_002",
     ScaleInfo = {
       BeginScale = 0,
@@ -61,9 +57,7 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = 1,
     DanmakuCreatureId = 100002,
-    HitScene = {
-      850052
-    },
+    HitScene = 850052,
     ShapeInfo = {
       Radius = 32, ShapeType = "Sphere"
     },
@@ -81,12 +75,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = 1,
     DanmakuCreatureId = 850041,
-    HitEnemy = {
-      850052
-    },
-    HitScene = {
-      8500152
-    },
+    HitEnemy = 850052,
+    HitScene = 8500152,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_electircball_yb_002.m_electircball_yb_002",
     ScaleInfo = {
       BeginScale = 0,
@@ -107,12 +97,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = 1,
     DanmakuCreatureId = 850051,
-    HitEnemy = {
-      850052
-    },
-    HitScene = {
-      8500152
-    },
+    HitEnemy = 850052,
+    HitScene = 8500152,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_electircball_yb_002.m_electircball_yb_002",
     ScaleInfo = {
       BeginScale = 0,
@@ -134,12 +120,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850101,
     GravityCoefficient = 0.4,
-    HitEnemy = {
-      8501148
-    },
-    HitScene = {
-      8501149
-    },
+    HitEnemy = 8501148,
+    HitScene = 8501149,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 1,
     ShapeInfo = {
@@ -157,12 +139,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850102,
     GravityCoefficient = 0.4,
-    HitEnemy = {
-      8501148
-    },
-    HitScene = {
-      8501149
-    },
+    HitEnemy = 8501148,
+    HitScene = 8501149,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 1,
     ShapeInfo = {
@@ -180,12 +158,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850201,
     GravityCoefficient = 0.6,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
@@ -202,12 +176,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850202,
     GravityCoefficient = 0.4,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
@@ -224,12 +194,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850203,
     GravityCoefficient = 0.3,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
@@ -246,12 +212,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850402,
     DelayInfo = {AttachRotation = true, DelayTime = 2},
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ScaleInfo = {
       BeginScale = 0,
@@ -272,12 +234,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = -1,
     DanmakuCreatureId = 850414,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ScaleInfo = {
       BeginScale = 0,
@@ -299,12 +257,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850416,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -327,12 +281,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850417,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -355,12 +305,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850418,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -382,12 +328,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = -1,
     DanmakuCreatureId = 850419,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ScaleInfo = {
       BeginScale = 0,
@@ -408,12 +350,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = -1,
     DanmakuCreatureId = 850420,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ScaleInfo = {
       BeginScale = 0,
@@ -434,12 +372,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = 2,
     DanmakuCreatureId = 850421,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_002.m_saiqibossball_002",
     ScaleInfo = {
       BeginScale = 0,
@@ -462,12 +396,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = 2,
     DanmakuCreatureId = 850422,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_002.m_saiqibossball_002",
     ScaleInfo = {
       BeginScale = 0,
@@ -488,12 +418,8 @@ return ReadOnly("DanmakuCreature", {
     BoundCount = 1,
     BreakCount = 2,
     DanmakuCreatureId = 850423,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_002.m_saiqibossball_002",
     ScaleInfo = {
       BeginScale = 0,
@@ -515,12 +441,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850424,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -543,12 +465,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850425,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -571,12 +489,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850426,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -599,12 +513,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850427,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -627,12 +537,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850428,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -655,12 +561,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850429,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -683,12 +585,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850430,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -711,12 +609,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850431,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -739,12 +633,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850432,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -767,12 +657,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850433,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -795,12 +681,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     DanmakuCreatureId = 850434,
     GravityCoefficient = 7,
-    HitEnemy = {
-      850441
-    },
-    HitScene = {
-      850441
-    },
+    HitEnemy = 850441,
+    HitScene = 850441,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_saiqibossball_003.m_saiqibossball_003",
     ParabolaDelay = 3,
     ScaleInfo = {
@@ -823,12 +705,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     CanHitDurScale = true,
     DanmakuCreatureId = 850901,
-    HitEnemy = {
-      850917
-    },
-    HitScene = {
-      850918
-    },
+    HitEnemy = 850917,
+    HitScene = 850918,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_ball_Taki_001.m_ball_Taki_001",
     ScaleInfo = {
       BeginScale = 0,
@@ -850,12 +728,8 @@ return ReadOnly("DanmakuCreature", {
     BreakCount = -1,
     CanHitDurScale = true,
     DanmakuCreatureId = 850902,
-    HitEnemy = {
-      850917
-    },
-    HitScene = {
-      850918
-    },
+    HitEnemy = 850917,
+    HitScene = 850918,
     MatPath = "/Game/Asset/Effect/Material/Lightning/m_ball_Taki_001.m_ball_Taki_001",
     ScaleInfo = {
       BeginScale = 0,

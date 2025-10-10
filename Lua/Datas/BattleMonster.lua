@@ -123,9 +123,7 @@ return ReadOnly("BattleMonster", {
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {
-      700301
-    }
+    SkillList = 700301
   },
   [100] = {
     ATK = 10,
@@ -226,9 +224,7 @@ return ReadOnly("BattleMonster", {
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {
-      700301
-    },
+    SkillList = 700301,
     TN = 150,
     TNRecoverS = 2,
     TNRecoverTimeB = 5,

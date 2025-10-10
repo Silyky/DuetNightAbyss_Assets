@@ -14,9 +14,7 @@ return ReadOnly("MainUI", {
   [2] = {
     ActionName = "OpenBag",
     EnterId = 2,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Bag.T_Entrance_Bag",
     Name = "MAIN_UI_BAG",
     Sequence = 20,
@@ -28,9 +26,7 @@ return ReadOnly("MainUI", {
   },
   [3] = {
     EnterId = 3,
-    EscShowCondition = {
-      1
-    },
+    EscShowCondition = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Invite.T_Entrance_Invite",
     Name = "MAIN_UI_NPCSWITCH",
     Sequence = 225,
@@ -42,9 +38,7 @@ return ReadOnly("MainUI", {
   },
   [4] = {
     EnterId = 4,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Store.T_Entrance_Store",
     Name = "MAIN_UI_SHOP",
     ReddotNode = "Shop",
@@ -55,9 +49,7 @@ return ReadOnly("MainUI", {
   [5] = {
     ActionName = "OpenGacha",
     EnterId = 5,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Gacha.T_Entrance_Gacha",
     Name = "MAIN_UI_GACHA",
     ReddotNode = "Gacha",
@@ -71,9 +63,7 @@ return ReadOnly("MainUI", {
   [6] = {
     ActionName = "OpenForge",
     EnterId = 6,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Forging.T_Entrance_Forging",
     Name = "MAIN_UI_FORGE",
     ReddotNode = "ForgeEntry",
@@ -86,9 +76,7 @@ return ReadOnly("MainUI", {
   },
   [7] = {
     EnterId = 7,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Achievement.T_Entrance_Achievement",
     Name = "MAIN_UI_ACHIEVEMENT",
     ReddotNode = "AchieveMain",
@@ -99,9 +87,7 @@ return ReadOnly("MainUI", {
   [8] = {
     ActionName = "OpenPlay",
     EnterId = 8,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Pve.T_Entrance_Pve",
     Name = "MAIN_UI_PLAY",
     ReddotNode = "Play",
@@ -115,9 +101,7 @@ return ReadOnly("MainUI", {
   [9] = {
     ActionName = "OpenTask",
     EnterId = 9,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Task.T_Entrance_Task",
     Name = "MAIN_UI_QUEST",
     ReddotNode = "Quest",
@@ -127,9 +111,7 @@ return ReadOnly("MainUI", {
   },
   [10] = {
     EnterId = 10,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     EscShowType = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Mail.T_Entrance_Mail",
     Name = "MAIN_UI_MAIL",
@@ -148,9 +130,7 @@ return ReadOnly("MainUI", {
   },
   [12] = {
     EnterId = 12,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     EscShowType = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Announcement.T_Entrance_Announcement",
     Name = "MAIN_UI_NOTICE",
@@ -162,9 +142,7 @@ return ReadOnly("MainUI", {
   [13] = {
     ActionName = "OpenGuideBook",
     EnterId = 13,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_GuideBook.T_Entrance_GuideBook",
     Name = "MAIN_UI_GUIDEBOOK",
     ReddotNode = "NewGuideNote",
@@ -174,9 +152,7 @@ return ReadOnly("MainUI", {
   },
   [14] = {
     EnterId = 14,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Friend.T_Entrance_Friend",
     Name = "MAIN_UI_FRIEND",
     ReddotNode = "NewFriendRequest",
@@ -186,9 +162,7 @@ return ReadOnly("MainUI", {
   },
   [15] = {
     EnterId = 15,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     EscShowType = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Camera.T_Entrance_Camera",
     Name = "MAIN_UI_PHOTOCAMERA",
@@ -219,9 +193,7 @@ return ReadOnly("MainUI", {
   [18] = {
     ActionName = "OpenBattlePass",
     EnterId = 18,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_BattlePass.T_Entrance_BattlePass",
     Name = "MAIN_UI_BATTLEPASS",
     ReddotNode = "BattlePassMain",
@@ -235,9 +207,7 @@ return ReadOnly("MainUI", {
   [19] = {
     ActionName = "OpenEvent",
     EnterId = 19,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Activity.T_Entrance_Activity",
     Name = "MAIN_UI_GAMEEVENT",
     ReddotNode = "ActivityHub",
@@ -251,9 +221,7 @@ return ReadOnly("MainUI", {
   [20] = {
     ActionName = "OpenMap",
     EnterId = 20,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Map.T_Entrance_Map",
     Name = "MAIN_UI_MAP",
     ReddotNode = "Map",
@@ -263,9 +231,7 @@ return ReadOnly("MainUI", {
   },
   [21] = {
     EnterId = 21,
-    EscShowCondition = {
-      1
-    },
+    EscShowCondition = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Entertainment",
     Name = "MAIN_UI_ENTERTAINMENT",
     ReddotNode = "Entertainment",
@@ -278,9 +244,7 @@ return ReadOnly("MainUI", {
   },
   [22] = {
     EnterId = 22,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Wiki",
     Name = "MAIN_UI_WIKI",
     ReddotNode = "WikiReward",
@@ -290,9 +254,7 @@ return ReadOnly("MainUI", {
   },
   [23] = {
     EnterId = 23,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Walnut.T_Entrance_Walnut",
     Name = "MAIN_UI_WALNUTBAG",
     ReddotNode = "WalnutBagItems",
@@ -302,9 +264,7 @@ return ReadOnly("MainUI", {
   },
   [24] = {
     EnterId = 24,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Archive.T_Entrance_Archive",
     Name = "MAIN_UI_ARCHIVE",
     ReddotNode = "Archive",
@@ -314,9 +274,7 @@ return ReadOnly("MainUI", {
   },
   [25] = {
     EnterId = 25,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_ModArchive.T_Entrance_ModArchive",
     Name = "MAIN_UI_MODGUIDEBOOK",
     ReddotNode = "ModArchive",
@@ -329,9 +287,7 @@ return ReadOnly("MainUI", {
   },
   [26] = {
     EnterId = 26,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     EscShowType = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Set.T_Entrance_Set",
     Name = "UI_Esc_CommonSet",
@@ -340,9 +296,7 @@ return ReadOnly("MainUI", {
   },
   [27] = {
     EnterId = 27,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_RelatedProduct.T_Entrance_RelatedProduct'",
     IfNoUI = true,
     Link = "RelatedProduct",
@@ -351,9 +305,7 @@ return ReadOnly("MainUI", {
   },
   [28] = {
     EnterId = 28,
-    EscShowCondition = {
-      2
-    },
+    EscShowCondition = 2,
     EscShowType = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_TrainingLevel.T_Entrance_TrainingLevel",
     Name = "MAIN_UI_PlayLevel",

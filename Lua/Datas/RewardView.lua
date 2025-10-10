@@ -9,12 +9,8 @@ return ReadOnly("RewardView", {
       [2] = 10101
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        2
-      }
+      [1] = 10000,
+      [2] = 2
     },
     RewardViewId = 1016,
     Type = {
@@ -34,12 +30,8 @@ return ReadOnly("RewardView", {
       [3] = 2026
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -63,12 +55,8 @@ return ReadOnly("RewardView", {
       [3] = 1007
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -92,12 +80,8 @@ return ReadOnly("RewardView", {
       [3] = 2035
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -121,12 +105,8 @@ return ReadOnly("RewardView", {
       [3] = 2036
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -150,12 +130,8 @@ return ReadOnly("RewardView", {
       [3] = 2039
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -177,12 +153,8 @@ return ReadOnly("RewardView", {
       [2] = 10102
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        2
-      }
+      [1] = 10000,
+      [2] = 2
     },
     RewardViewId = 1022,
     Type = {
@@ -202,12 +174,8 @@ return ReadOnly("RewardView", {
       [3] = 2028
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -231,12 +199,8 @@ return ReadOnly("RewardView", {
       [3] = 1011
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -260,12 +224,8 @@ return ReadOnly("RewardView", {
       [3] = 2032
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -289,12 +249,8 @@ return ReadOnly("RewardView", {
       [3] = 2037
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -318,12 +274,8 @@ return ReadOnly("RewardView", {
       [3] = 1020
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -345,12 +297,8 @@ return ReadOnly("RewardView", {
       [2] = 10103
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        2
-      }
+      [1] = 10000,
+      [2] = 2
     },
     RewardViewId = 1028,
     Type = {
@@ -370,12 +318,8 @@ return ReadOnly("RewardView", {
       [3] = 2027
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -399,12 +343,8 @@ return ReadOnly("RewardView", {
       [3] = 1015
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -428,12 +368,8 @@ return ReadOnly("RewardView", {
       [3] = 2034
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -457,12 +393,8 @@ return ReadOnly("RewardView", {
       [3] = 2040
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -486,12 +418,8 @@ return ReadOnly("RewardView", {
       [3] = 2042
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -513,12 +441,8 @@ return ReadOnly("RewardView", {
       [2] = 10104
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        2
-      }
+      [1] = 10000,
+      [2] = 2
     },
     RewardViewId = 1034,
     Type = {
@@ -538,12 +462,8 @@ return ReadOnly("RewardView", {
       [3] = 2030
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -567,12 +487,8 @@ return ReadOnly("RewardView", {
       [3] = 1012
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -596,12 +512,8 @@ return ReadOnly("RewardView", {
       [3] = 2038
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -625,12 +537,8 @@ return ReadOnly("RewardView", {
       [3] = 2044
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -654,12 +562,8 @@ return ReadOnly("RewardView", {
       [3] = 2043
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -681,12 +585,8 @@ return ReadOnly("RewardView", {
       [2] = 10101
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        2
-      }
+      [1] = 10000,
+      [2] = 2
     },
     RewardViewId = 1040,
     Type = {
@@ -706,12 +606,8 @@ return ReadOnly("RewardView", {
       [3] = 2033
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -735,12 +631,8 @@ return ReadOnly("RewardView", {
       [3] = 1002
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -764,12 +656,8 @@ return ReadOnly("RewardView", {
       [3] = 2031
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -793,12 +681,8 @@ return ReadOnly("RewardView", {
       [3] = 2041
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -822,12 +706,8 @@ return ReadOnly("RewardView", {
       [3] = 1001
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        3
-      },
+      [1] = 10000,
+      [2] = 3,
       [3] = {
         3, 5
       }
@@ -850,9 +730,7 @@ return ReadOnly("RewardView", {
       [7] = 2012
     },
     Quantity = {
-      [1] = {
-        30
-      }
+      [1] = 30
     },
     RewardViewId = 50510,
     Type = {
@@ -874,9 +752,7 @@ return ReadOnly("RewardView", {
       [5] = 2008
     },
     Quantity = {
-      [1] = {
-        30
-      }
+      [1] = 30
     },
     RewardViewId = 50518,
     Type = {
@@ -900,29 +776,15 @@ return ReadOnly("RewardView", {
       [9] = 101
     },
     Quantity = {
-      [1] = {
-        20
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        1
-      },
+      [1] = 20,
+      [2] = 1,
+      [3] = 1,
       [4] = {150},
-      [5] = {
-        5
-      },
-      [6] = {
-        1
-      },
+      [5] = 5,
+      [6] = 1,
       [7] = {100},
-      [8] = {
-        1
-      },
-      [9] = {
-        1000
-      }
+      [8] = 1,
+      [9] = 1000
     },
     RewardViewId = 50577,
     Type = {
@@ -1161,9 +1023,7 @@ return ReadOnly("RewardView", {
       [1] = 20013
     },
     Quantity = {
-      [1] = {
-        4
-      }
+      [1] = 4
     },
     RewardViewId = 90102,
     Type = {
@@ -1190,9 +1050,7 @@ return ReadOnly("RewardView", {
       [1] = 20013
     },
     Quantity = {
-      [1] = {
-        5
-      }
+      [1] = 5
     },
     RewardViewId = 90104,
     Type = {
@@ -1224,9 +1082,7 @@ return ReadOnly("RewardView", {
       [1] = 20013
     },
     Quantity = {
-      [1] = {
-        6
-      }
+      [1] = 6
     },
     RewardViewId = 90106,
     Type = {
@@ -1241,9 +1097,7 @@ return ReadOnly("RewardView", {
       [1] = 20013
     },
     Quantity = {
-      [1] = {
-        9
-      }
+      [1] = 9
     },
     RewardViewId = 90108,
     Type = {
@@ -1258,9 +1112,7 @@ return ReadOnly("RewardView", {
       [1] = 20013
     },
     Quantity = {
-      [1] = {
-        10
-      }
+      [1] = 10
     },
     RewardViewId = 90110,
     Type = {
@@ -1279,15 +1131,9 @@ return ReadOnly("RewardView", {
       [3] = 20024
     },
     Quantity = {
-      [1] = {
-        10
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        1
-      }
+      [1] = 10,
+      [2] = 1,
+      [3] = 1
     },
     RewardViewId = 90112,
     Type = {
@@ -1308,15 +1154,9 @@ return ReadOnly("RewardView", {
       [3] = 20024
     },
     Quantity = {
-      [1] = {
-        10
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      }
+      [1] = 10,
+      [2] = 2,
+      [3] = 2
     },
     RewardViewId = 90114,
     Type = {
@@ -3703,9 +3543,7 @@ return ReadOnly("RewardView", {
       [1] = 102
     },
     Quantity = {
-      [1] = {
-        120
-      }
+      [1] = 120
     },
     RewardViewId = 90330,
     Type = {
@@ -3765,9 +3603,7 @@ return ReadOnly("RewardView", {
       [1] = 102
     },
     Quantity = {
-      [1] = {
-        400
-      }
+      [1] = 400
     },
     RewardViewId = 90334,
     Type = {
@@ -3880,18 +3716,10 @@ return ReadOnly("RewardView", {
       [4] = 10209
     },
     Quantity = {
-      [1] = {
-        2
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      },
-      [4] = {
-        2
-      }
+      [1] = 2,
+      [2] = 2,
+      [3] = 2,
+      [4] = 2
     },
     RewardViewId = 90352,
     Type = {
@@ -3923,30 +3751,14 @@ return ReadOnly("RewardView", {
       [8] = 10210
     },
     Quantity = {
-      [1] = {
-        1
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        1
-      },
-      [4] = {
-        1
-      },
-      [5] = {
-        1
-      },
-      [6] = {
-        1
-      },
-      [7] = {
-        1
-      },
-      [8] = {
-        1
-      }
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1,
+      [7] = 1,
+      [8] = 1
     },
     RewardViewId = 90353,
     Type = {
@@ -3982,30 +3794,14 @@ return ReadOnly("RewardView", {
       [8] = 10210
     },
     Quantity = {
-      [1] = {
-        2
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      },
-      [4] = {
-        2
-      },
-      [5] = {
-        1
-      },
-      [6] = {
-        1
-      },
-      [7] = {
-        1
-      },
-      [8] = {
-        1
-      }
+      [1] = 2,
+      [2] = 2,
+      [3] = 2,
+      [4] = 2,
+      [5] = 1,
+      [6] = 1,
+      [7] = 1,
+      [8] = 1
     },
     RewardViewId = 90354,
     Type = {
@@ -4041,30 +3837,14 @@ return ReadOnly("RewardView", {
       [8] = 10210
     },
     Quantity = {
-      [1] = {
-        3
-      },
-      [2] = {
-        3
-      },
-      [3] = {
-        3
-      },
-      [4] = {
-        3
-      },
-      [5] = {
-        1
-      },
-      [6] = {
-        1
-      },
-      [7] = {
-        1
-      },
-      [8] = {
-        1
-      }
+      [1] = 3,
+      [2] = 3,
+      [3] = 3,
+      [4] = 3,
+      [5] = 1,
+      [6] = 1,
+      [7] = 1,
+      [8] = 1
     },
     RewardViewId = 90355,
     Type = {
@@ -4100,30 +3880,14 @@ return ReadOnly("RewardView", {
       [8] = 10210
     },
     Quantity = {
-      [1] = {
-        2
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      },
-      [4] = {
-        2
-      },
-      [5] = {
-        2
-      },
-      [6] = {
-        2
-      },
-      [7] = {
-        2
-      },
-      [8] = {
-        2
-      }
+      [1] = 2,
+      [2] = 2,
+      [3] = 2,
+      [4] = 2,
+      [5] = 2,
+      [6] = 2,
+      [7] = 2,
+      [8] = 2
     },
     RewardViewId = 90356,
     Type = {
@@ -4468,9 +4232,7 @@ return ReadOnly("RewardView", {
       [1] = 10009
     },
     Quantity = {
-      [1] = {
-        5
-      }
+      [1] = 5
     },
     RewardViewId = 90401,
     Type = {
@@ -4485,9 +4247,7 @@ return ReadOnly("RewardView", {
       [1] = 10005
     },
     Quantity = {
-      [1] = {
-        5
-      }
+      [1] = 5
     },
     RewardViewId = 90402,
     Type = {
@@ -4502,9 +4262,7 @@ return ReadOnly("RewardView", {
       [1] = 10013
     },
     Quantity = {
-      [1] = {
-        5
-      }
+      [1] = 5
     },
     RewardViewId = 90403,
     Type = {
@@ -4519,9 +4277,7 @@ return ReadOnly("RewardView", {
       [1] = 10001
     },
     Quantity = {
-      [1] = {
-        5
-      }
+      [1] = 5
     },
     RewardViewId = 90404,
     Type = {
@@ -4536,9 +4292,7 @@ return ReadOnly("RewardView", {
       [1] = 10021
     },
     Quantity = {
-      [1] = {
-        5
-      }
+      [1] = 5
     },
     RewardViewId = 90405,
     Type = {
@@ -4553,9 +4307,7 @@ return ReadOnly("RewardView", {
       [1] = 10017
     },
     Quantity = {
-      [1] = {
-        5
-      }
+      [1] = 5
     },
     RewardViewId = 90406,
     Type = {
@@ -4572,12 +4324,8 @@ return ReadOnly("RewardView", {
       [2] = 10010
     },
     Quantity = {
-      [1] = {
-        3
-      },
-      [2] = {
-        1
-      }
+      [1] = 3,
+      [2] = 1
     },
     RewardViewId = 90407,
     Type = {
@@ -4595,12 +4343,8 @@ return ReadOnly("RewardView", {
       [2] = 10006
     },
     Quantity = {
-      [1] = {
-        3
-      },
-      [2] = {
-        1
-      }
+      [1] = 3,
+      [2] = 1
     },
     RewardViewId = 90408,
     Type = {
@@ -4618,12 +4362,8 @@ return ReadOnly("RewardView", {
       [2] = 10014
     },
     Quantity = {
-      [1] = {
-        3
-      },
-      [2] = {
-        1
-      }
+      [1] = 3,
+      [2] = 1
     },
     RewardViewId = 90409,
     Type = {
@@ -4641,12 +4381,8 @@ return ReadOnly("RewardView", {
       [2] = 10002
     },
     Quantity = {
-      [1] = {
-        3
-      },
-      [2] = {
-        1
-      }
+      [1] = 3,
+      [2] = 1
     },
     RewardViewId = 90410,
     Type = {
@@ -4664,12 +4400,8 @@ return ReadOnly("RewardView", {
       [2] = 10022
     },
     Quantity = {
-      [1] = {
-        3
-      },
-      [2] = {
-        1
-      }
+      [1] = 3,
+      [2] = 1
     },
     RewardViewId = 90411,
     Type = {
@@ -4687,12 +4419,8 @@ return ReadOnly("RewardView", {
       [2] = 10018
     },
     Quantity = {
-      [1] = {
-        3
-      },
-      [2] = {
-        1
-      }
+      [1] = 3,
+      [2] = 1
     },
     RewardViewId = 90412,
     Type = {
@@ -4710,12 +4438,8 @@ return ReadOnly("RewardView", {
       [2] = 10010
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        2
-      }
+      [1] = 5,
+      [2] = 2
     },
     RewardViewId = 90413,
     Type = {
@@ -4733,12 +4457,8 @@ return ReadOnly("RewardView", {
       [2] = 10006
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        2
-      }
+      [1] = 5,
+      [2] = 2
     },
     RewardViewId = 90414,
     Type = {
@@ -4756,12 +4476,8 @@ return ReadOnly("RewardView", {
       [2] = 10014
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        2
-      }
+      [1] = 5,
+      [2] = 2
     },
     RewardViewId = 90415,
     Type = {
@@ -4779,12 +4495,8 @@ return ReadOnly("RewardView", {
       [2] = 10002
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        2
-      }
+      [1] = 5,
+      [2] = 2
     },
     RewardViewId = 90416,
     Type = {
@@ -4802,12 +4514,8 @@ return ReadOnly("RewardView", {
       [2] = 10022
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        2
-      }
+      [1] = 5,
+      [2] = 2
     },
     RewardViewId = 90417,
     Type = {
@@ -4825,12 +4533,8 @@ return ReadOnly("RewardView", {
       [2] = 10018
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        2
-      }
+      [1] = 5,
+      [2] = 2
     },
     RewardViewId = 90418,
     Type = {
@@ -4848,12 +4552,8 @@ return ReadOnly("RewardView", {
       [2] = 10010
     },
     Quantity = {
-      [1] = {
-        7
-      },
-      [2] = {
-        3
-      }
+      [1] = 7,
+      [2] = 3
     },
     RewardViewId = 90419,
     Type = {
@@ -4871,12 +4571,8 @@ return ReadOnly("RewardView", {
       [2] = 10006
     },
     Quantity = {
-      [1] = {
-        7
-      },
-      [2] = {
-        3
-      }
+      [1] = 7,
+      [2] = 3
     },
     RewardViewId = 90420,
     Type = {
@@ -4894,12 +4590,8 @@ return ReadOnly("RewardView", {
       [2] = 10014
     },
     Quantity = {
-      [1] = {
-        7
-      },
-      [2] = {
-        3
-      }
+      [1] = 7,
+      [2] = 3
     },
     RewardViewId = 90421,
     Type = {
@@ -4917,12 +4609,8 @@ return ReadOnly("RewardView", {
       [2] = 10002
     },
     Quantity = {
-      [1] = {
-        7
-      },
-      [2] = {
-        3
-      }
+      [1] = 7,
+      [2] = 3
     },
     RewardViewId = 90422,
     Type = {
@@ -4940,12 +4628,8 @@ return ReadOnly("RewardView", {
       [2] = 10022
     },
     Quantity = {
-      [1] = {
-        7
-      },
-      [2] = {
-        3
-      }
+      [1] = 7,
+      [2] = 3
     },
     RewardViewId = 90423,
     Type = {
@@ -4963,12 +4647,8 @@ return ReadOnly("RewardView", {
       [2] = 10018
     },
     Quantity = {
-      [1] = {
-        7
-      },
-      [2] = {
-        3
-      }
+      [1] = 7,
+      [2] = 3
     },
     RewardViewId = 90424,
     Type = {
@@ -4988,15 +4668,9 @@ return ReadOnly("RewardView", {
       [3] = 10011
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        1
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 1
     },
     RewardViewId = 90425,
     Type = {
@@ -5017,15 +4691,9 @@ return ReadOnly("RewardView", {
       [3] = 10007
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        1
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 1
     },
     RewardViewId = 90426,
     Type = {
@@ -5046,15 +4714,9 @@ return ReadOnly("RewardView", {
       [3] = 10015
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        1
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 1
     },
     RewardViewId = 90427,
     Type = {
@@ -5075,15 +4737,9 @@ return ReadOnly("RewardView", {
       [3] = 10003
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        1
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 1
     },
     RewardViewId = 90428,
     Type = {
@@ -5104,15 +4760,9 @@ return ReadOnly("RewardView", {
       [3] = 10023
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        1
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 1
     },
     RewardViewId = 90429,
     Type = {
@@ -5133,15 +4783,9 @@ return ReadOnly("RewardView", {
       [3] = 10019
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        1
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 1
     },
     RewardViewId = 90430,
     Type = {
@@ -5162,15 +4806,9 @@ return ReadOnly("RewardView", {
       [3] = 10011
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 2
     },
     RewardViewId = 90431,
     Type = {
@@ -5191,15 +4829,9 @@ return ReadOnly("RewardView", {
       [3] = 10007
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 2
     },
     RewardViewId = 90432,
     Type = {
@@ -5220,15 +4852,9 @@ return ReadOnly("RewardView", {
       [3] = 10015
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 2
     },
     RewardViewId = 90433,
     Type = {
@@ -5249,15 +4875,9 @@ return ReadOnly("RewardView", {
       [3] = 10003
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 2
     },
     RewardViewId = 90434,
     Type = {
@@ -5278,15 +4898,9 @@ return ReadOnly("RewardView", {
       [3] = 10023
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 2
     },
     RewardViewId = 90435,
     Type = {
@@ -5307,15 +4921,9 @@ return ReadOnly("RewardView", {
       [3] = 10019
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 2,
+      [3] = 2
     },
     RewardViewId = 90436,
     Type = {
@@ -5336,15 +4944,9 @@ return ReadOnly("RewardView", {
       [3] = 10011
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        3
-      }
+      [1] = 6,
+      [2] = 2,
+      [3] = 3
     },
     RewardViewId = 90437,
     Type = {
@@ -5365,15 +4967,9 @@ return ReadOnly("RewardView", {
       [3] = 10007
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        3
-      }
+      [1] = 6,
+      [2] = 2,
+      [3] = 3
     },
     RewardViewId = 90438,
     Type = {
@@ -5394,15 +4990,9 @@ return ReadOnly("RewardView", {
       [3] = 10015
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        3
-      }
+      [1] = 6,
+      [2] = 2,
+      [3] = 3
     },
     RewardViewId = 90439,
     Type = {
@@ -5423,15 +5013,9 @@ return ReadOnly("RewardView", {
       [3] = 10003
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        3
-      }
+      [1] = 6,
+      [2] = 2,
+      [3] = 3
     },
     RewardViewId = 90440,
     Type = {
@@ -5452,15 +5036,9 @@ return ReadOnly("RewardView", {
       [3] = 10023
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        3
-      }
+      [1] = 6,
+      [2] = 2,
+      [3] = 3
     },
     RewardViewId = 90441,
     Type = {
@@ -5481,15 +5059,9 @@ return ReadOnly("RewardView", {
       [3] = 10019
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        3
-      }
+      [1] = 6,
+      [2] = 2,
+      [3] = 3
     },
     RewardViewId = 90442,
     Type = {
@@ -5859,12 +5431,8 @@ return ReadOnly("RewardView", {
       [2] = 2012
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        3
-      }
+      [1] = 4,
+      [2] = 3
     },
     RewardViewId = 90601,
     Type = {
@@ -5882,12 +5450,8 @@ return ReadOnly("RewardView", {
       [2] = 2012
     },
     Quantity = {
-      [1] = {
-        10
-      },
-      [2] = {
-        4
-      }
+      [1] = 10,
+      [2] = 4
     },
     RewardViewId = 90602,
     Type = {
@@ -5905,12 +5469,8 @@ return ReadOnly("RewardView", {
       [2] = 2012
     },
     Quantity = {
-      [1] = {
-        8
-      },
-      [2] = {
-        7
-      }
+      [1] = 8,
+      [2] = 7
     },
     RewardViewId = 90603,
     Type = {
@@ -5928,12 +5488,8 @@ return ReadOnly("RewardView", {
       [2] = 2012
     },
     Quantity = {
-      [1] = {
-        12
-      },
-      [2] = {
-        9
-      }
+      [1] = 12,
+      [2] = 9
     },
     RewardViewId = 90604,
     Type = {
@@ -5953,15 +5509,9 @@ return ReadOnly("RewardView", {
       [3] = 2013
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        5
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 5,
+      [3] = 2
     },
     RewardViewId = 90605,
     Type = {
@@ -5980,12 +5530,8 @@ return ReadOnly("RewardView", {
       [2] = 2013
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        3
-      }
+      [1] = 5,
+      [2] = 3
     },
     RewardViewId = 90606,
     Type = {
@@ -6003,12 +5549,8 @@ return ReadOnly("RewardView", {
       [2] = 2013
     },
     Quantity = {
-      [1] = {
-        8
-      },
-      [2] = {
-        3
-      }
+      [1] = 8,
+      [2] = 3
     },
     RewardViewId = 90607,
     Type = {
@@ -6042,21 +5584,11 @@ return ReadOnly("RewardView", {
       [10] = 20018
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        6
-      },
-      [3] = {
-        6
-      },
-      [4] = {
-        6
-      },
-      [5] = {
-        6
-      }
+      [1] = 6,
+      [2] = 6,
+      [3] = 6,
+      [4] = 6,
+      [5] = 6
     },
     RewardViewId = 90701,
     Type = {
@@ -6098,21 +5630,11 @@ return ReadOnly("RewardView", {
       [10] = 20018
     },
     Quantity = {
-      [1] = {
-        7
-      },
-      [2] = {
-        7
-      },
-      [3] = {
-        7
-      },
-      [4] = {
-        7
-      },
-      [5] = {
-        7
-      }
+      [1] = 7,
+      [2] = 7,
+      [3] = 7,
+      [4] = 7,
+      [5] = 7
     },
     RewardViewId = 90702,
     Type = {
@@ -6154,21 +5676,11 @@ return ReadOnly("RewardView", {
       [10] = 20018
     },
     Quantity = {
-      [1] = {
-        9
-      },
-      [2] = {
-        9
-      },
-      [3] = {
-        9
-      },
-      [4] = {
-        9
-      },
-      [5] = {
-        9
-      }
+      [1] = 9,
+      [2] = 9,
+      [3] = 9,
+      [4] = 9,
+      [5] = 9
     },
     RewardViewId = 90703,
     Type = {
@@ -6210,21 +5722,11 @@ return ReadOnly("RewardView", {
       [10] = 20018
     },
     Quantity = {
-      [1] = {
-        9
-      },
-      [2] = {
-        9
-      },
-      [3] = {
-        9
-      },
-      [4] = {
-        9
-      },
-      [5] = {
-        9
-      }
+      [1] = 9,
+      [2] = 9,
+      [3] = 9,
+      [4] = 9,
+      [5] = 9
     },
     RewardViewId = 90704,
     Type = {
@@ -6276,21 +5778,11 @@ return ReadOnly("RewardView", {
       [15] = 20026
     },
     Quantity = {
-      [1] = {
-        9
-      },
-      [2] = {
-        9
-      },
-      [3] = {
-        9
-      },
-      [4] = {
-        9
-      },
-      [5] = {
-        9
-      }
+      [1] = 9,
+      [2] = 9,
+      [3] = 9,
+      [4] = 9,
+      [5] = 9
     },
     RewardViewId = 90705,
     Type = {
@@ -6347,21 +5839,11 @@ return ReadOnly("RewardView", {
       [15] = 20026
     },
     Quantity = {
-      [1] = {
-        10
-      },
-      [2] = {
-        10
-      },
-      [3] = {
-        10
-      },
-      [4] = {
-        10
-      },
-      [5] = {
-        10
-      }
+      [1] = 10,
+      [2] = 10,
+      [3] = 10,
+      [4] = 10,
+      [5] = 10
     },
     RewardViewId = 90706,
     Type = {
@@ -6418,21 +5900,11 @@ return ReadOnly("RewardView", {
       [15] = 20026
     },
     Quantity = {
-      [1] = {
-        12
-      },
-      [2] = {
-        12
-      },
-      [3] = {
-        12
-      },
-      [4] = {
-        12
-      },
-      [5] = {
-        12
-      }
+      [1] = 12,
+      [2] = 12,
+      [3] = 12,
+      [4] = 12,
+      [5] = 12
     },
     RewardViewId = 90707,
     Type = {
@@ -6463,12 +5935,8 @@ return ReadOnly("RewardView", {
       [2] = 2008
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        3
-      }
+      [1] = 4,
+      [2] = 3
     },
     RewardViewId = 90801,
     Type = {
@@ -6486,12 +5954,8 @@ return ReadOnly("RewardView", {
       [2] = 2008
     },
     Quantity = {
-      [1] = {
-        10
-      },
-      [2] = {
-        4
-      }
+      [1] = 10,
+      [2] = 4
     },
     RewardViewId = 90802,
     Type = {
@@ -6509,12 +5973,8 @@ return ReadOnly("RewardView", {
       [2] = 2008
     },
     Quantity = {
-      [1] = {
-        8
-      },
-      [2] = {
-        7
-      }
+      [1] = 8,
+      [2] = 7
     },
     RewardViewId = 90803,
     Type = {
@@ -6532,12 +5992,8 @@ return ReadOnly("RewardView", {
       [2] = 2008
     },
     Quantity = {
-      [1] = {
-        12
-      },
-      [2] = {
-        9
-      }
+      [1] = 12,
+      [2] = 9
     },
     RewardViewId = 90804,
     Type = {
@@ -6557,15 +6013,9 @@ return ReadOnly("RewardView", {
       [3] = 2009
     },
     Quantity = {
-      [1] = {
-        4
-      },
-      [2] = {
-        5
-      },
-      [3] = {
-        2
-      }
+      [1] = 4,
+      [2] = 5,
+      [3] = 2
     },
     RewardViewId = 90805,
     Type = {
@@ -6584,12 +6034,8 @@ return ReadOnly("RewardView", {
       [2] = 2009
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        3
-      }
+      [1] = 5,
+      [2] = 3
     },
     RewardViewId = 90806,
     Type = {
@@ -6607,12 +6053,8 @@ return ReadOnly("RewardView", {
       [2] = 2009
     },
     Quantity = {
-      [1] = {
-        8
-      },
-      [2] = {
-        3
-      }
+      [1] = 8,
+      [2] = 3
     },
     RewardViewId = 90807,
     Type = {
@@ -6690,12 +6132,8 @@ return ReadOnly("RewardView", {
       [32] = 151465
     },
     Quantity = {
-      [1] = {
-        10000
-      },
-      [2] = {
-        200
-      }
+      [1] = 10000,
+      [2] = 200
     },
     RewardViewId = 91001,
     Type = {
@@ -6912,12 +6350,8 @@ return ReadOnly("RewardView", {
       [32] = 151465
     },
     Quantity = {
-      [1] = {
-        20000
-      },
-      [2] = {
-        400
-      }
+      [1] = 20000,
+      [2] = 400
     },
     RewardViewId = 91003,
     Type = {
@@ -7026,9 +6460,7 @@ return ReadOnly("RewardView", {
     },
     Quantity = {
       [1] = {25000},
-      [2] = {
-        500
-      }
+      [2] = 500
     },
     RewardViewId = 91004,
     Type = {
@@ -7136,12 +6568,8 @@ return ReadOnly("RewardView", {
       [32] = 151465
     },
     Quantity = {
-      [1] = {
-        30000
-      },
-      [2] = {
-        600
-      }
+      [1] = 30000,
+      [2] = 600
     },
     RewardViewId = 91005,
     Type = {
@@ -7358,12 +6786,8 @@ return ReadOnly("RewardView", {
       [32] = 151465
     },
     Quantity = {
-      [1] = {
-        50000
-      },
-      [2] = {
-        1000
-      }
+      [1] = 50000,
+      [2] = 1000
     },
     RewardViewId = 91007,
     Type = {
@@ -12274,21 +11698,11 @@ return ReadOnly("RewardView", {
     },
     Quantity = {
       [1] = {880},
-      [2] = {
-        1
-      },
-      [3] = {
-        5
-      },
-      [4] = {
-        2
-      },
-      [5] = {
-        2
-      },
-      [6] = {
-        2
-      }
+      [2] = 1,
+      [3] = 5,
+      [4] = 2,
+      [5] = 2,
+      [6] = 2
     },
     RewardViewId = 100001,
     Type = {
@@ -12313,15 +11727,9 @@ return ReadOnly("RewardView", {
       [4] = 2004
     },
     Quantity = {
-      [1] = {
-        200
-      },
-      [3] = {
-        5
-      },
-      [4] = {
-        10000
-      }
+      [1] = 200,
+      [3] = 5,
+      [4] = 10000
     },
     RewardViewId = 100002,
     Type = {
@@ -12339,15 +11747,9 @@ return ReadOnly("RewardView", {
       [4] = 2004
     },
     Quantity = {
-      [1] = {
-        200
-      },
-      [3] = {
-        5
-      },
-      [4] = {
-        10000
-      }
+      [1] = 200,
+      [3] = 5,
+      [4] = 10000
     },
     RewardViewId = 100003,
     Type = {
@@ -12365,9 +11767,7 @@ return ReadOnly("RewardView", {
       [4] = 211
     },
     Quantity = {
-      [1] = {
-        60
-      },
+      [1] = 60,
       [2] = {40}
     },
     RewardViewId = 103012,
@@ -13092,9 +12492,7 @@ return ReadOnly("RewardView", {
       [2] = 101
     },
     Quantity = {
-      [1] = {
-        200
-      },
+      [1] = 200,
       [2] = {5, 20}
     },
     RewardViewId = 1004001,
@@ -13139,9 +12537,7 @@ return ReadOnly("RewardView", {
       [6] = 101
     },
     Quantity = {
-      [1] = {
-        280
-      }
+      [1] = 280
     },
     RewardViewId = 1030021,
     Type = {
@@ -13162,12 +12558,8 @@ return ReadOnly("RewardView", {
       [5] = 101
     },
     Quantity = {
-      [1] = {
-        280
-      },
-      [2] = {
-        1
-      }
+      [1] = 280,
+      [2] = 1
     },
     RewardViewId = 1030051,
     Type = {
@@ -13183,9 +12575,7 @@ return ReadOnly("RewardView", {
       [1] = 10100
     },
     Quantity = {
-      [1] = {
-        1
-      }
+      [1] = 1
     },
     RewardViewId = 1030052,
     Type = {
@@ -13197,9 +12587,7 @@ return ReadOnly("RewardView", {
       [1] = 211
     },
     Quantity = {
-      [1] = {
-        20
-      }
+      [1] = 20
     },
     RewardViewId = 1030061,
     Type = {
@@ -13213,9 +12601,7 @@ return ReadOnly("RewardView", {
       [3] = 102
     },
     Quantity = {
-      [1] = {
-        240
-      }
+      [1] = 240
     },
     RewardViewId = 1030062,
     Type = {
@@ -13235,18 +12621,10 @@ return ReadOnly("RewardView", {
       [7] = 101
     },
     Quantity = {
-      [1] = {
-        600
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        1
-      },
-      [4] = {
-        1
-      }
+      [1] = 600,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1
     },
     RewardViewId = 1030071,
     Type = {
@@ -13267,18 +12645,10 @@ return ReadOnly("RewardView", {
       [4] = 102
     },
     Quantity = {
-      [1] = {
-        60
-      },
-      [2] = {
-        3
-      },
-      [3] = {
-        3
-      },
-      [4] = {
-        240
-      }
+      [1] = 60,
+      [2] = 3,
+      [3] = 3,
+      [4] = 240
     },
     RewardViewId = 1030072,
     Type = {
@@ -13296,18 +12666,10 @@ return ReadOnly("RewardView", {
       [4] = 102
     },
     Quantity = {
-      [1] = {
-        1
-      },
-      [2] = {
-        3
-      },
-      [3] = {
-        3
-      },
-      [4] = {
-        240
-      }
+      [1] = 1,
+      [2] = 3,
+      [3] = 3,
+      [4] = 240
     },
     RewardViewId = 1030073,
     Type = {
@@ -13325,18 +12687,10 @@ return ReadOnly("RewardView", {
       [4] = 102
     },
     Quantity = {
-      [1] = {
-        1
-      },
-      [2] = {
-        3
-      },
-      [3] = {
-        3
-      },
-      [4] = {
-        240
-      }
+      [1] = 1,
+      [2] = 3,
+      [3] = 3,
+      [4] = 240
     },
     RewardViewId = 1030074,
     Type = {
@@ -13354,18 +12708,10 @@ return ReadOnly("RewardView", {
       [4] = 102
     },
     Quantity = {
-      [1] = {
-        120
-      },
-      [2] = {
-        3
-      },
-      [3] = {
-        3
-      },
-      [4] = {
-        240
-      }
+      [1] = 120,
+      [2] = 3,
+      [3] = 3,
+      [4] = 240
     },
     RewardViewId = 1030075,
     Type = {
@@ -13383,18 +12729,10 @@ return ReadOnly("RewardView", {
       [4] = 102
     },
     Quantity = {
-      [1] = {
-        1
-      },
-      [2] = {
-        3
-      },
-      [3] = {
-        3
-      },
-      [4] = {
-        240
-      }
+      [1] = 1,
+      [2] = 3,
+      [3] = 3,
+      [4] = 240
     },
     RewardViewId = 1030076,
     Type = {
@@ -13414,24 +12752,12 @@ return ReadOnly("RewardView", {
       [6] = 2011
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        1
-      },
-      [4] = {
-        1
-      },
-      [5] = {
-        2
-      },
-      [6] = {
-        2
-      }
+      [1] = 5,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 2,
+      [6] = 2
     },
     RewardViewId = 10200101,
     Type = {
@@ -13452,19 +12778,11 @@ return ReadOnly("RewardView", {
       [5] = 3001
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        1
-      },
+      [1] = 5,
+      [2] = 1,
       [3] = {7000},
-      [4] = {
-        2
-      },
-      [5] = {
-        3
-      }
+      [4] = 2,
+      [5] = 3
     },
     RewardViewId = 10200102,
     Type = {
@@ -13484,21 +12802,11 @@ return ReadOnly("RewardView", {
       [5] = 2012
     },
     Quantity = {
-      [1] = {
-        5
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        1
-      },
-      [4] = {
-        5
-      },
-      [5] = {
-        3
-      }
+      [1] = 5,
+      [2] = 1,
+      [3] = 1,
+      [4] = 5,
+      [5] = 3
     },
     RewardViewId = 10200103,
     Type = {
@@ -13520,25 +12828,13 @@ return ReadOnly("RewardView", {
       [7] = 3001
     },
     Quantity = {
-      [1] = {
-        6
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        5
-      },
+      [1] = 6,
+      [2] = 1,
+      [3] = 5,
       [4] = {8000},
-      [5] = {
-        4
-      },
-      [6] = {
-        4
-      },
-      [7] = {
-        5
-      }
+      [5] = 4,
+      [6] = 4,
+      [7] = 5
     },
     RewardViewId = 10200104,
     Type = {
@@ -13562,27 +12858,13 @@ return ReadOnly("RewardView", {
       [7] = 101
     },
     Quantity = {
-      [1] = {
-        12
-      },
-      [2] = {
-        500
-      },
-      [3] = {
-        1
-      },
-      [4] = {
-        5
-      },
-      [5] = {
-        5
-      },
-      [6] = {
-        10
-      },
-      [7] = {
-        10000
-      }
+      [1] = 12,
+      [2] = 500,
+      [3] = 1,
+      [4] = 5,
+      [5] = 5,
+      [6] = 10,
+      [7] = 10000
     },
     RewardViewId = 10200105,
     Type = {
@@ -13605,22 +12887,12 @@ return ReadOnly("RewardView", {
       [6] = 3001
     },
     Quantity = {
-      [1] = {
-        10
-      },
-      [2] = {
-        1
-      },
+      [1] = 10,
+      [2] = 1,
       [3] = {750},
-      [4] = {
-        1
-      },
-      [5] = {
-        20000
-      },
-      [6] = {
-        8
-      }
+      [4] = 1,
+      [5] = 20000,
+      [6] = 8
     },
     RewardViewId = 10200106,
     Type = {
@@ -13643,27 +12915,13 @@ return ReadOnly("RewardView", {
       [7] = 3001
     },
     Quantity = {
-      [1] = {
-        18
-      },
-      [2] = {
-        1000
-      },
-      [3] = {
-        1
-      },
-      [4] = {
-        15
-      },
-      [5] = {
-        1
-      },
-      [6] = {
-        30000
-      },
-      [7] = {
-        10
-      }
+      [1] = 18,
+      [2] = 1000,
+      [3] = 1,
+      [4] = 15,
+      [5] = 1,
+      [6] = 30000,
+      [7] = 10
     },
     RewardViewId = 10200107,
     Type = {
@@ -13686,21 +12944,11 @@ return ReadOnly("RewardView", {
       [6] = 101
     },
     Quantity = {
-      [1] = {
-        15
-      },
-      [2] = {
-        1
-      },
-      [3] = {
-        1500
-      },
-      [4] = {
-        5
-      },
-      [5] = {
-        5
-      },
+      [1] = 15,
+      [2] = 1,
+      [3] = 1500,
+      [4] = 5,
+      [5] = 5,
       [6] = {40000}
     },
     RewardViewId = 10200108,
@@ -13724,27 +12972,13 @@ return ReadOnly("RewardView", {
       [7] = 101
     },
     Quantity = {
-      [1] = {
-        18
-      },
-      [2] = {
-        2
-      },
-      [3] = {
-        10
-      },
-      [4] = {
-        1500
-      },
-      [5] = {
-        10
-      },
-      [6] = {
-        10
-      },
-      [7] = {
-        50000
-      }
+      [1] = 18,
+      [2] = 2,
+      [3] = 10,
+      [4] = 1500,
+      [5] = 10,
+      [6] = 10,
+      [7] = 50000
     },
     RewardViewId = 10200109,
     Type = {

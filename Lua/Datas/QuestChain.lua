@@ -576,9 +576,7 @@ return ReadOnly("QuestChain", {
     MainStoryUnlockMessage = "Textmap_UnlockTitle",
     QuestChainId = 120111,
     QuestChainName = "Name_120111",
-    QuestChainReward = {
-      50551
-    },
+    QuestChainReward = 50551,
     QuestChainType = 6,
     ShowCondition = 120110,
     StartTime = 1830283200,
@@ -596,9 +594,7 @@ return ReadOnly("QuestChain", {
     MainStoryUnlockMessage = "Textmap_UnlockTitle",
     QuestChainId = 120112,
     QuestChainName = "Name_120112",
-    QuestChainReward = {
-      50551
-    },
+    QuestChainReward = 50551,
     QuestChainType = 6,
     ShowCondition = 120111,
     StartTime = 1830283200,
@@ -616,9 +612,7 @@ return ReadOnly("QuestChain", {
     MainStoryUnlockMessage = "Textmap_UnlockTitle",
     QuestChainId = 120113,
     QuestChainName = "Name_120113",
-    QuestChainReward = {
-      50551
-    },
+    QuestChainReward = 50551,
     QuestChainType = 6,
     ShowCondition = 120112,
     StartTime = 1830283200,
@@ -636,9 +630,7 @@ return ReadOnly("QuestChain", {
     MainStoryUnlockMessage = "Textmap_UnlockTitle",
     QuestChainId = 120114,
     QuestChainName = "Name_120114",
-    QuestChainReward = {
-      50551
-    },
+    QuestChainReward = 50551,
     QuestChainType = 6,
     ShowCondition = 120113,
     StartTime = 1830283200,
@@ -671,9 +663,7 @@ return ReadOnly("QuestChain", {
     MainStoryUnlockMessage = "Textmap_UnlockTitle",
     QuestChainId = 200102,
     QuestChainName = "Name_200102",
-    QuestChainReward = {
-      50551
-    },
+    QuestChainReward = 50551,
     QuestChainType = 1,
     ShowCondition = 100204,
     StoryPath = "SpecialSideStory/2001/200102.story",

@@ -15,9 +15,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 102,
     StoryPath = "SpecialQuest\1002\SaiqiDream1.story",
-    SubRegionIds = {
-      101401
-    },
+    SubRegionIds = 101401,
     UniversalConfigId = 102
   },
   [103] = {
@@ -26,9 +24,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 103,
     StoryPath = "SpecialQuest\1002\SaiqiDream2.story",
-    SubRegionIds = {
-      101401
-    },
+    SubRegionIds = 101401,
     UniversalConfigId = 103
   },
   [104] = {
@@ -37,9 +33,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 104,
     StoryPath = "SpecialQuest\1002\SaiqiDreamBoss1.story",
-    SubRegionIds = {
-      101402
-    },
+    SubRegionIds = 101402,
     UniversalConfigId = 104
   },
   [105] = {
@@ -48,9 +42,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 105,
     StoryPath = "SpecialQuest\1002\SaiqiDreamBoss2.story",
-    SubRegionIds = {
-      101402
-    },
+    SubRegionIds = 101402,
     UniversalConfigId = 105
   },
   [106] = {
@@ -157,9 +149,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 120,
     StoryPath = "SpecialQuest\1002\TraceEnlike.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 120
   },
@@ -175,23 +165,17 @@ return ReadOnly("SpecialQuestConfig", {
     TalkTriggerId = 1001
   },
   [1003] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110101,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1003,
     StoryPath = "SpecialQuest\1101\110102boss.story",
-    SubRegionIds = {
-      102101
-    },
+    SubRegionIds = 102101,
     TalkTriggerId = 1001,
     UniversalConfigId = 1003
   },
   [1004] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110101,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1004,
@@ -205,9 +189,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1005,
     StoryPath = "SpecialQuest\1101\DestroyPower.story",
-    SubRegionIds = {
-      102101
-    },
+    SubRegionIds = 102101,
     TalkTriggerId = 1001,
     UniversalConfigId = 1005
   },
@@ -250,16 +232,12 @@ return ReadOnly("SpecialQuestConfig", {
     UniversalConfigId = 1010
   },
   [1011] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110101,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1011,
     StoryPath = "SpecialQuest\1101\HelpDafu.story",
-    SubRegionIds = {
-      102101
-    },
+    SubRegionIds = 102101,
     TalkTriggerId = 1001,
     UniversalConfigId = 1011
   },
@@ -283,16 +261,12 @@ return ReadOnly("SpecialQuestConfig", {
     UniversalConfigId = 1013
   },
   [1014] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110109,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1014,
     StoryPath = "SpecialQuest\1101\Shenpan01.story",
-    SubRegionIds = {
-      102104
-    },
+    SubRegionIds = 102104,
     TalkTriggerId = 1001,
     UniversalConfigId = 1014
   },
@@ -301,16 +275,12 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1015,
     StoryPath = "SpecialQuest\1101\HaierBoss3.story",
-    SubRegionIds = {
-      102104
-    },
+    SubRegionIds = 102104,
     TalkTriggerId = 1001,
     UniversalConfigId = 1015
   },
   [1017] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110107,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1017,
@@ -329,9 +299,7 @@ return ReadOnly("SpecialQuestConfig", {
     UniversalConfigId = 1018
   },
   [1019] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110107,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1019,
@@ -345,9 +313,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1021,
     StoryPath = "SpecialQuest\1101\SmallRoomBattle.story",
-    SubRegionIds = {
-      102101
-    },
+    SubRegionIds = 102101,
     TalkTriggerId = 1001,
     UniversalConfigId = 1021
   },
@@ -356,23 +322,17 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1023,
     StoryPath = "SpecialQuest\1101\StopPower.story",
-    SubRegionIds = {
-      102101
-    },
+    SubRegionIds = 102101,
     TalkTriggerId = 1001,
     UniversalConfigId = 1023
   },
   [1024] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110109,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1024,
     StoryPath = "SpecialQuest\1101\Shenpan02.story",
-    SubRegionIds = {
-      102104
-    },
+    SubRegionIds = 102104,
     TalkTriggerId = 1001,
     UniversalConfigId = 1024
   },
@@ -382,9 +342,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1025,
     StoryPath = "SpecialQuest\1101\Shenpan03.story",
-    SubRegionIds = {
-      102104
-    },
+    SubRegionIds = 102104,
     TalkTriggerId = 1001,
     UniversalConfigId = 1025
   },
@@ -393,114 +351,84 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1026,
     StoryPath = "SpecialQuest\1101\GuidaoMaiFu.story",
-    SubRegionIds = {
-      102101
-    },
+    SubRegionIds = 102101,
     TalkTriggerId = 1001,
     UniversalConfigId = 1026
   },
   [1028] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1028,
     StoryPath = "SpecialQuest\1003\100305battle1pre.story",
-    SubRegionIds = {
-      103201
-    },
+    SubRegionIds = 103201,
     TalkTriggerId = 1001,
     UniversalConfigId = 1030
   },
   [1029] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1029,
     StoryPath = "SpecialQuest\1003\100305escape.story",
-    SubRegionIds = {
-      103201
-    },
+    SubRegionIds = 103201,
     TalkTriggerId = 1001,
     UniversalConfigId = 1030
   },
   [1030] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1030,
     StoryPath = "SpecialQuest\1003\100305battle.story",
-    SubRegionIds = {
-      103201
-    },
+    SubRegionIds = 103201,
     TalkTriggerId = 1001,
     UniversalConfigId = 1030
   },
   [1031] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1031,
     StoryPath = "SpecialQuest\1003\100305battle2.story",
-    SubRegionIds = {
-      103201
-    },
+    SubRegionIds = 103201,
     TalkTriggerId = 1001,
     UniversalConfigId = 1030
   },
   [1032] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1032,
     StoryPath = "SpecialQuest\1003\100305battle3.story",
-    SubRegionIds = {
-      103201
-    },
+    SubRegionIds = 103201,
     TalkTriggerId = 1001,
     UniversalConfigId = 1030
   },
   [1033] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1033,
     StoryPath = "SpecialQuest\1003\100305battle4.story",
-    SubRegionIds = {
-      103201
-    },
+    SubRegionIds = 103201,
     TalkTriggerId = 1001,
     UniversalConfigId = 1035
   },
   [1034] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1034,
     StoryPath = "SpecialQuest\1003\100305battle5.story",
-    SubRegionIds = {
-      103201
-    },
+    SubRegionIds = 103201,
     TalkTriggerId = 1001,
     UniversalConfigId = 1035
   },
@@ -545,32 +473,24 @@ return ReadOnly("SpecialQuestConfig", {
     UniversalConfigId = 1040
   },
   [1041] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1041,
     StoryPath = "SpecialQuest\1003\100306thea.story",
-    SubRegionIds = {
-      101901
-    },
+    SubRegionIds = 101901,
     TalkTriggerId = 1001,
     UniversalConfigId = 1034
   },
   [1042] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100306,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1042,
     StoryPath = "SpecialQuest\1003\100306thea2.story",
-    SubRegionIds = {
-      101901
-    },
+    SubRegionIds = 101901,
     TalkTriggerId = 1001,
     UniversalConfigId = 1034
   },
@@ -611,9 +531,7 @@ return ReadOnly("SpecialQuestConfig", {
     UniversalConfigId = 1035
   },
   [1046] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
@@ -634,16 +552,12 @@ return ReadOnly("SpecialQuestConfig", {
     UniversalConfigId = 1047
   },
   [1048] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     QuestChainId = 110108,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1048,
     StoryPath = "SpecialQuest\1101\ShenpanPre.story",
-    SubRegionIds = {
-      102104
-    },
+    SubRegionIds = 102104,
     TalkTriggerId = 1001,
     UniversalConfigId = 1048
   },
@@ -688,17 +602,13 @@ return ReadOnly("SpecialQuestConfig", {
     UniversalConfigId = 1052
   },
   [1053] = {
-    BuffId = {
-      97
-    },
+    BuffId = 97,
     FailCustomEvent = "Fail",
     QuestChainId = 100305,
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1053,
     StoryPath = "SpecialQuest\1003\100306thea1.story",
-    SubRegionIds = {
-      101901
-    },
+    SubRegionIds = 101901,
     TalkTriggerId = 1001,
     UniversalConfigId = 1034
   },
@@ -738,9 +648,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1057,
     StoryPath = "SpecialQuest\1101\ShenpanWaitDafu.story",
-    SubRegionIds = {
-      102104
-    },
+    SubRegionIds = 102104,
     TalkTriggerId = 1001,
     UniversalConfigId = 1057
   },
@@ -750,9 +658,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2051,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay01Home.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2051
   },
@@ -762,9 +668,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2052,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay01Walk.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2052
   },
@@ -774,9 +678,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2053,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay01Catch01.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2053
   },
@@ -786,9 +688,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2054,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay01Catch02.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2054
   },
@@ -798,9 +698,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2055,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay01Catch03.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2055
   },
@@ -810,9 +708,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2056,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay01Back.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2056
   },
@@ -822,9 +718,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2057,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay01Sleep.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2057
   },
@@ -834,9 +728,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2058,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay02Home.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2058
   },
@@ -846,9 +738,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2059,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay02Walk.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2059
   },
@@ -858,9 +748,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2060,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay02Survey01.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2060
   },
@@ -870,9 +758,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2061,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay02Survey02.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2061
   },
@@ -882,9 +768,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2062,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay02Back01.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2062
   },
@@ -894,9 +778,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2063,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay02Back02.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2063
   },
@@ -906,9 +788,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2064,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay03Home.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2064
   },
@@ -918,9 +798,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2065,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay03Walk.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2065
   },
@@ -930,9 +808,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2066,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay03Catch.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2066
   },
@@ -942,9 +818,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2067,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay03HomeBook.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2067
   },
@@ -954,9 +828,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2070,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Home.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2070
   },
@@ -966,9 +838,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2071,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Walk01.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2071
   },
@@ -978,9 +848,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2072,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Walk02.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2072
   },
@@ -990,9 +858,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2073,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04HomeCry.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2073
   },
@@ -1002,9 +868,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2074,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Find01.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2074
   },
@@ -1014,9 +878,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2075,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Find02.story",
-    SubRegionIds = {
-      101103
-    },
+    SubRegionIds = 101103,
     TalkTriggerId = 1001,
     UniversalConfigId = 2075
   },
@@ -1026,9 +888,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2076,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Thief.story",
-    SubRegionIds = {
-      101103
-    },
+    SubRegionIds = 101103,
     TalkTriggerId = 1001,
     UniversalConfigId = 2076
   },
@@ -1038,9 +898,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2077,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Fight.story",
-    SubRegionIds = {
-      101103
-    },
+    SubRegionIds = 101103,
     TalkTriggerId = 1001,
     UniversalConfigId = 2077
   },
@@ -1050,9 +908,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2078,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04BackCity01.story",
-    SubRegionIds = {
-      101103
-    },
+    SubRegionIds = 101103,
     TalkTriggerId = 1001,
     UniversalConfigId = 2078
   },
@@ -1062,9 +918,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2079,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04BackCity02.story",
-    SubRegionIds = {
-      101101
-    },
+    SubRegionIds = 101101,
     TalkTriggerId = 1001,
     UniversalConfigId = 2079
   },
@@ -1074,9 +928,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2080,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04Back.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2080
   },
@@ -1086,9 +938,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2081,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04HomeParty.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2081
   },
@@ -1098,9 +948,7 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 2082,
     StoryPath = "SpecialQuest\ActiveFina\FeinaDay04StoryEnd.story",
-    SubRegionIds = {
-      101105
-    },
+    SubRegionIds = 101105,
     TalkTriggerId = 1001,
     UniversalConfigId = 2082
   },

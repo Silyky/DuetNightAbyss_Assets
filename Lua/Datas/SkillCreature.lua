@@ -57,9 +57,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [102] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 243,
     CreatureId = 102,
@@ -76,9 +74,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = -1
   },
   [1502] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 1502,
     DestroyWithCreator = 1,
@@ -101,14 +97,10 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 10301003,
     CreatureId = 18011,
-    DestroyEffects = {
-      18015
-    },
+    DestroyEffects = 18015,
     EnterPool = true,
     HitEnemy = {18018},
-    HitScene = {
-      18015
-    },
+    HitScene = 18015,
     ParabolaInfo = {
       Ecc = 0.96,
       EccRange = {
@@ -135,14 +127,10 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 10301001,
     CreatureId = 18012,
-    DestroyEffects = {
-      18016
-    },
+    DestroyEffects = 18016,
     EnterPool = true,
     HitEnemy = {18019},
-    HitScene = {
-      18016
-    },
+    HitScene = 18016,
     ParabolaInfo = {
       Ecc = 0.96,
       EccRange = {
@@ -169,14 +157,10 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 10301002,
     CreatureId = 18013,
-    DestroyEffects = {
-      18017
-    },
+    DestroyEffects = 18017,
     EnterPool = true,
     HitEnemy = {18020},
-    HitScene = {
-      18017
-    },
+    HitScene = 18017,
     ParabolaInfo = {
       Ecc = 0.96,
       EccRange = {
@@ -203,13 +187,9 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 20101,
     CreatureId = 20101,
-    DestroyEffects = {
-      20114
-    },
+    DestroyEffects = 20114,
     EnterPool = true,
-    HitScene = {
-      20114
-    },
+    HitScene = 20114,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -228,13 +208,9 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 20101,
     CreatureId = 20102,
-    DestroyEffects = {
-      20114
-    },
+    DestroyEffects = 20114,
     EnterPool = true,
-    HitScene = {
-      20114
-    },
+    HitScene = 20114,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -253,13 +229,9 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 20101,
     CreatureId = 20103,
-    DestroyEffects = {
-      20114
-    },
+    DestroyEffects = 20114,
     EnterPool = true,
-    HitScene = {
-      20114
-    },
+    HitScene = 20114,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -515,9 +487,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 5
   },
   [49100] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 6001,
     CreatureId = 49100,
@@ -605,9 +575,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 3
   },
   [60300] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Control.BP_Pet603_Skill01_Control",
     BoundCount = -1,
     CreatureId = 60300,
@@ -878,9 +846,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 1
   },
   [110301] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 110301,
     DestroyWithCreator = 1,
@@ -900,9 +866,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 0.3
   },
   [110401] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     ClientOwner = true,
     CreatureId = 110401,
@@ -956,9 +920,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [120111] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 120111,
     DestroyWithCreator = 1,
@@ -1020,9 +982,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 1
   },
   [120211] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 120211,
     DestroyWithCreator = 1,
@@ -1068,9 +1028,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 150201,
     EnterPool = true,
     FixedBornRotation = true,
-    RealDestroyEffects = {
-      150218
-    },
+    RealDestroyEffects = 150218,
     ShapeInfo = {
       BoxHeight = 500,
       BoxLength = 200,
@@ -1090,9 +1048,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 150202,
     EnterPool = true,
     FixedBornRotation = true,
-    RealDestroyEffects = {
-      150217
-    },
+    RealDestroyEffects = 150217,
     ShapeInfo = {
       BoxHeight = 500,
       BoxLength = 200,
@@ -1112,9 +1068,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 150203,
     EnterPool = true,
     FixedBornRotation = true,
-    RealDestroyEffects = {
-      150218
-    },
+    RealDestroyEffects = 150218,
     ShapeInfo = {
       BoxHeight = 500,
       BoxLength = 200,
@@ -1134,9 +1088,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 150204,
     EnterPool = true,
     FixedBornRotation = true,
-    RealDestroyEffects = {
-      150217
-    },
+    RealDestroyEffects = 150217,
     ShapeInfo = {
       BoxHeight = 500,
       BoxLength = 200,
@@ -1425,18 +1377,14 @@ return ReadOnly("SkillCreature", {
     TimeLife = 3
   },
   [150401] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 150401,
     DestroyWithCreator = 1,
     HitEnemy = {150414},
     LoopExecuteSkillEffects = {
       Interval = 0.25,
-      SkillEffects = {
-        26
-      }
+      SkillEffects = 26
     },
     ShapeInfo = {
       BoxHeight = 150,
@@ -1505,9 +1453,7 @@ return ReadOnly("SkillCreature", {
       0,
       0
     },
-    RealDestroyEffects = {
-      150445
-    },
+    RealDestroyEffects = 150445,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -1546,9 +1492,7 @@ return ReadOnly("SkillCreature", {
       0,
       0
     },
-    RealDestroyEffects = {
-      150445
-    },
+    RealDestroyEffects = 150445,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -1573,9 +1517,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     ClientOwner = true,
     CreatureId = 150405,
-    HitEnemy = {
-      150453
-    },
+    HitEnemy = 150453,
     ShapeInfo = {
       BoxHeight = 400,
       BoxLength = 1200,
@@ -1620,9 +1562,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     CreatureId = 150407,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      150453
-    },
+    HitEnemy = 150453,
     ShapeInfo = {
       BoxHeight = 400,
       BoxLength = 1200,
@@ -1691,9 +1631,7 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 160101,
     CreatureId = 160101,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      160113
-    },
+    HitEnemy = 160113,
     ShapeInfo = {
       BoxHeight = 40,
       BoxLength = 500,
@@ -1724,9 +1662,7 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 160102,
     CreatureId = 160102,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      160113
-    },
+    HitEnemy = 160113,
     ShapeInfo = {
       BoxHeight = 40,
       BoxLength = 500,
@@ -1753,18 +1689,14 @@ return ReadOnly("SkillCreature", {
     },
     BoundCount = -1,
     BulletFXID = 160123,
-    CreatureEffects = {
-      160124
-    },
+    CreatureEffects = 160124,
     CreatureId = 160103,
     DestroyWithCreator = 1,
     FixBySkillSustain = true,
     FixedBornRotation = true,
     LoopExecuteSkillEffects = {
       Interval = 1,
-      SkillEffects = {
-        160124
-      }
+      SkillEffects = 160124
     },
     SpawnSocket = {
       SpawnSocket = "Root", UseLocation = "Char"
@@ -1779,15 +1711,9 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 20101,
     CreatureId = 210201,
-    DestroyEffects = {
-      20114
-    },
-    HitEnemy = {
-      210232
-    },
-    HitScene = {
-      210232
-    },
+    DestroyEffects = 20114,
+    HitEnemy = 210232,
+    HitScene = 210232,
     SpawnSocket = {
       SpawnSocket = "lowerarmpendant_left01_a",
       UseLocation = "Char"
@@ -1935,9 +1861,7 @@ return ReadOnly("SkillCreature", {
     IsNotDestroyInFall = true,
     LoopExecuteSkillEffects = {
       Interval = 2,
-      SkillEffects = {
-        330125
-      }
+      SkillEffects = 330125
     },
     ShapeInfo = {
       BoxHeight = 30,
@@ -1954,9 +1878,7 @@ return ReadOnly("SkillCreature", {
   [330113] = {
     BoundCount = 0,
     CreatureId = 330113,
-    DestroyEffects = {
-      330126
-    },
+    DestroyEffects = 330126,
     ShapeInfo = {
       BoxHeight = 30,
       BoxLength = 30,
@@ -1972,9 +1894,7 @@ return ReadOnly("SkillCreature", {
   [330114] = {
     BoundCount = 0,
     CreatureId = 330114,
-    DestroyEffects = {
-      330126
-    },
+    DestroyEffects = 330126,
     ShapeInfo = {
       BoxHeight = 30,
       BoxLength = 30,
@@ -1995,9 +1915,7 @@ return ReadOnly("SkillCreature", {
     IsNotDestroyInFall = true,
     LoopExecuteSkillEffects = {
       Interval = 2,
-      SkillEffects = {
-        330125
-      }
+      SkillEffects = 330125
     },
     ShapeInfo = {
       BoxHeight = 30,
@@ -2012,9 +1930,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 20
   },
   [410101] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 410125,
     CreatureId = 410101,
@@ -2022,9 +1938,7 @@ return ReadOnly("SkillCreature", {
     HitEnemy = {410114},
     LoopExecuteSkillEffects = {
       Interval = 0.25,
-      SkillEffects = {
-        26
-      }
+      SkillEffects = 26
     },
     ShapeInfo = {
       BoxHeight = 150,
@@ -2041,9 +1955,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [410102] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 410126,
     CreatureId = 410102,
@@ -2051,9 +1963,7 @@ return ReadOnly("SkillCreature", {
     HitEnemy = {410115},
     LoopExecuteSkillEffects = {
       Interval = 0.25,
-      SkillEffects = {
-        26
-      }
+      SkillEffects = 26
     },
     ShapeInfo = {
       BoxHeight = 150,
@@ -2141,9 +2051,7 @@ return ReadOnly("SkillCreature", {
       AllowSkillSpeed = 1,
       Interval = 3.09,
       Loop = 0,
-      SkillEffects = {
-        410243
-      }
+      SkillEffects = 410243
     },
     Speed = 0,
     Tags = {
@@ -2161,9 +2069,7 @@ return ReadOnly("SkillCreature", {
       AllowSkillSpeed = 1,
       Interval = 3.75,
       Loop = 0,
-      SkillEffects = {
-        410243
-      }
+      SkillEffects = 410243
     },
     Speed = 0,
     Tags = {
@@ -2389,9 +2295,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 0.15
   },
   [420103] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 420103,
     DestroyWithCreator = 1,
@@ -2574,9 +2478,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 0.15
   },
   [510101] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 510101,
     DestroyWithCreator = 1,
@@ -2598,9 +2500,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [510102] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = 1,
     CreatureId = 510102,
     DestroyWithCreator = 1,
@@ -2733,12 +2633,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 530105,
     ClientOwner = true,
     CreatureId = 530122,
-    HitEnemy = {
-      530127
-    },
-    HitScene = {
-      530127
-    },
+    HitEnemy = 530127,
+    HitScene = 530127,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -2758,12 +2654,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 600102,
     CreatureId = 600101,
-    HitEnemy = {
-      600104
-    },
-    HitScene = {
-      600104
-    },
+    HitEnemy = 600104,
+    HitScene = 600104,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -2790,12 +2682,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 600201,
     CreatureId = 600201,
     EnterPool = true,
-    HitEnemy = {
-      600204
-    },
-    HitScene = {
-      600206
-    },
+    HitEnemy = 600204,
+    HitScene = 600206,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -2819,12 +2707,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 600201,
     CreatureId = 600202,
     EnterPool = true,
-    HitEnemy = {
-      600204
-    },
-    HitScene = {
-      600206
-    },
+    HitEnemy = 600204,
+    HitScene = 600206,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -2848,12 +2732,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 600201,
     CreatureId = 600203,
     EnterPool = true,
-    HitEnemy = {
-      600204
-    },
-    HitScene = {
-      600206
-    },
+    HitEnemy = 600204,
+    HitScene = 600206,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -2877,12 +2757,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 600201,
     CreatureId = 600204,
     EnterPool = true,
-    HitEnemy = {
-      600204
-    },
-    HitScene = {
-      600206
-    },
+    HitEnemy = 600204,
+    HitScene = 600206,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -2906,12 +2782,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 600201,
     CreatureId = 600205,
     EnterPool = true,
-    HitEnemy = {
-      600204
-    },
-    HitScene = {
-      600206
-    },
+    HitEnemy = 600204,
+    HitScene = 600206,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -2983,9 +2855,7 @@ return ReadOnly("SkillCreature", {
     UseBulletCreature = true
   },
   [600401] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_6Baotu_CollisionCheck.BP_6Baotu_CollisionCheck",
     BoundCount = -1,
     CreatureId = 600401,
@@ -3049,12 +2919,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 600601,
     CreatureId = 600601,
     EnterPool = true,
-    HitEnemy = {
-      600602
-    },
-    HitScene = {
-      600603
-    },
+    HitEnemy = 600602,
+    HitScene = 600603,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3080,12 +2946,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 600601,
     CreatureId = 600602,
     EnterPool = true,
-    HitEnemy = {
-      600602
-    },
-    HitScene = {
-      600603
-    },
+    HitEnemy = 600602,
+    HitScene = 600603,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3107,9 +2969,7 @@ return ReadOnly("SkillCreature", {
     UseBulletCreature = true
   },
   [600603] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 600603,
     HitEnemy = {600606},
@@ -3191,9 +3051,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 601201,
     EnterPool = true,
     HitEnemy = {601203},
-    HitScene = {
-      601204
-    },
+    HitScene = 601204,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3218,9 +3076,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 601202,
     EnterPool = true,
     HitEnemy = {601206},
-    HitScene = {
-      601204
-    },
+    HitScene = 601204,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3244,12 +3100,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 601301,
     CollisionDelayTime = 1,
     CreatureId = 601301,
-    DestroyEffects = {
-      601303
-    },
-    HitEnemy = {
-      601303
-    },
+    DestroyEffects = 601303,
+    HitEnemy = 601303,
     ShapeInfo = {
       Radius = 100, ShapeType = "Sphere"
     },
@@ -3329,12 +3181,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 601601,
     CreatureId = 601601,
     EnterPool = true,
-    HitEnemy = {
-      601604
-    },
-    HitScene = {
-      601606
-    },
+    HitEnemy = 601604,
+    HitScene = 601606,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3358,12 +3206,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 601601,
     CreatureId = 601602,
     EnterPool = true,
-    HitEnemy = {
-      601604
-    },
-    HitScene = {
-      601606
-    },
+    HitEnemy = 601604,
+    HitScene = 601606,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3387,12 +3231,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 601601,
     CreatureId = 601603,
     EnterPool = true,
-    HitEnemy = {
-      601604
-    },
-    HitScene = {
-      601606
-    },
+    HitEnemy = 601604,
+    HitScene = 601606,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3416,12 +3256,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 601601,
     CreatureId = 601604,
     EnterPool = true,
-    HitEnemy = {
-      601604
-    },
-    HitScene = {
-      601606
-    },
+    HitEnemy = 601604,
+    HitScene = 601606,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3445,12 +3281,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 601601,
     CreatureId = 601605,
     EnterPool = true,
-    HitEnemy = {
-      601604
-    },
-    HitScene = {
-      601606
-    },
+    HitEnemy = 601604,
+    HitScene = 601606,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -3498,12 +3330,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 601702,
     CreatureId = 601701,
-    HitEnemy = {
-      601704
-    },
-    HitScene = {
-      601704
-    },
+    HitEnemy = 601704,
+    HitScene = 601704,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -3586,12 +3414,8 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 1.7,
     GravityFactor = 1,
-    HitEnemy = {
-      700304
-    },
-    HitScene = {
-      700304
-    },
+    HitEnemy = 700304,
+    HitScene = 700304,
     ScenceBound = 4,
     ShapeInfo = {
       Radius = 10, ShapeType = "Sphere"
@@ -3623,12 +3447,8 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 1.8,
     GravityFactor = 1,
-    HitEnemy = {
-      700304
-    },
-    HitScene = {
-      700304
-    },
+    HitEnemy = 700304,
+    HitScene = 700304,
     ScenceBound = 4,
     ShapeInfo = {
       Radius = 10, ShapeType = "Sphere"
@@ -3678,9 +3498,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [700401] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 700401,
     HitEnemy = {700403},
@@ -3698,12 +3516,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 700801,
     CreatureId = 700801,
     EnterPool = true,
-    HitEnemy = {
-      700803
-    },
-    HitScene = {
-      700803
-    },
+    HitEnemy = 700803,
+    HitScene = 700803,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -3748,12 +3562,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 700801,
     CreatureId = 700803,
     EnterPool = true,
-    HitEnemy = {
-      700815
-    },
-    HitScene = {
-      700815
-    },
+    HitEnemy = 700815,
+    HitScene = 700815,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -3769,9 +3579,7 @@ return ReadOnly("SkillCreature", {
     UseBulletCreature = true
   },
   [700901] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 700901,
     HitEnemy = {700906},
@@ -3815,15 +3623,9 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 701003,
     CreatureId = 701002,
-    DestroyEffects = {
-      701007
-    },
-    HitEnemy = {
-      701005
-    },
-    HitScene = {
-      701006
-    },
+    DestroyEffects = 701007,
+    HitEnemy = 701005,
+    HitScene = 701006,
     ShapeInfo = {
       Radius = 15, ShapeType = "Sphere"
     },
@@ -3843,15 +3645,9 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 701003,
     CreatureId = 701003,
-    DestroyEffects = {
-      701007
-    },
-    HitEnemy = {
-      701005
-    },
-    HitScene = {
-      701006
-    },
+    DestroyEffects = 701007,
+    HitEnemy = 701005,
+    HitScene = 701006,
     ShapeInfo = {
       Radius = 15, ShapeType = "Sphere"
     },
@@ -3900,17 +3696,13 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 1.7,
     GravityFactor = 1,
-    HitEnemy = {
-      701305
-    },
+    HitEnemy = 701305,
     HitOthers = {
       1,
       0,
       0
     },
-    HitScene = {
-      701305
-    },
+    HitScene = 701305,
     ScenceBound = 4,
     ShapeInfo = {
       Radius = 10, ShapeType = "Sphere"
@@ -3932,9 +3724,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [701401] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 701401,
     HitEnemy = {701404},
@@ -4013,9 +3803,7 @@ return ReadOnly("SkillCreature", {
     Vars = {OutsideRadius = 400, Time = 1.85}
   },
   [701601] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_JT_Zhiyan_Skill01Laser.BP_JT_Zhiyan_Skill01Laser",
     CreatureId = 701601,
     DestroyWithCreator = 1,
@@ -4036,9 +3824,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 800101,
     EnterPool = true,
     HitEnemy = {800103},
-    HitScene = {
-      800104
-    },
+    HitScene = 800104,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -4063,9 +3849,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 800102,
     EnterPool = true,
     HitEnemy = {800108},
-    HitScene = {
-      800104
-    },
+    HitScene = 800104,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 10,
@@ -4126,9 +3910,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 0.9
   },
   [850011] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 850011,
     DestroyWithCreator = 1,
@@ -4254,9 +4036,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 5
   },
   [850103] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_6Baotu_CollisionCheck.BP_6Baotu_CollisionCheck",
     BoundCount = -1,
     CreatureId = 850103,
@@ -4295,9 +4075,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     BulletFXID = 850203,
     CreatureId = 850201,
-    HitEnemy = {
-      850217
-    },
+    HitEnemy = 850217,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -4321,9 +4099,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     BulletFXID = 850203,
     CreatureId = 850202,
-    HitEnemy = {
-      850217
-    },
+    HitEnemy = 850217,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -4347,9 +4123,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     BulletFXID = 850203,
     CreatureId = 850204,
-    HitEnemy = {
-      850217
-    },
+    HitEnemy = 850217,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -4373,9 +4147,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     BulletFXID = 850203,
     CreatureId = 850205,
-    HitEnemy = {
-      850217
-    },
+    HitEnemy = 850217,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -4502,12 +4274,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.3,
     CreatureId = 850211,
     FixedBornRotation = true,
-    HitEnemy = {
-      850223
-    },
-    HitScene = {
-      850223
-    },
+    HitEnemy = 850223,
+    HitScene = 850223,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -4522,12 +4290,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850206,
     CreatureId = 850212,
     FixedBornRotation = true,
-    HitEnemy = {
-      850230
-    },
-    HitScene = {
-      850230
-    },
+    HitEnemy = 850230,
+    HitScene = 850230,
     ShapeInfo = {
       Radius = 300, ShapeType = "Sphere"
     },
@@ -4545,12 +4309,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850207,
     CreatureId = 850213,
     FixedBornRotation = true,
-    HitEnemy = {
-      8502123
-    },
-    HitScene = {
-      8502123
-    },
+    HitEnemy = 8502123,
+    HitScene = 8502123,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -4769,15 +4529,11 @@ return ReadOnly("SkillCreature", {
     Vars = {DamageInterval = 0.5, SkillEffectId = 8502165}
   },
   [850301] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_6Baotu_CollisionCheck.BP_6Baotu_CollisionCheck",
     BoundCount = -1,
     CreatureId = 850301,
-    HitEnemy = {
-      850306
-    },
+    HitEnemy = 850306,
     ShapeInfo = {
       Radius = 600, ShapeType = "Sphere"
     },
@@ -4847,15 +4603,11 @@ return ReadOnly("SkillCreature", {
     TimeLife = 3
   },
   [850305] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_6Baotu_CollisionCheck.BP_6Baotu_CollisionCheck",
     BoundCount = -1,
     CreatureId = 850305,
-    HitEnemy = {
-      850306
-    },
+    HitEnemy = 850306,
     ShapeInfo = {Radius = 700, ShapeType = "Sphere"},
     SpawnSocket = {
       SpawnSocket = "Root", UseLocation = "Char"
@@ -4867,12 +4619,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 850305,
     CreatureId = 850306,
-    HitEnemy = {
-      8503148
-    },
-    HitScene = {
-      850342
-    },
+    HitEnemy = 8503148,
+    HitScene = 850342,
     ShapeInfo = {
       Radius = 40, ShapeType = "Sphere"
     },
@@ -4913,9 +4661,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 5
   },
   [850308] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Rage_Thunder.BP_Shijingzhe_Rage_Thunder",
     BoundCount = -1,
     BulletFXID = 850303,
@@ -4941,9 +4687,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [850309] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Rage_Thunder.BP_Shijingzhe_Rage_Thunder",
     BoundCount = -1,
     BulletFXID = 850303,
@@ -4969,9 +4713,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [850310] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Rage_Thunder.BP_Shijingzhe_Rage_Thunder",
     BoundCount = -1,
     BulletFXID = 850303,
@@ -4997,9 +4739,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [850311] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Rage_Thunder.BP_Shijingzhe_Rage_Thunder",
     BoundCount = -1,
     BulletFXID = 850303,
@@ -5113,12 +4853,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850305,
     CreatureId = 850316,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      8503148
-    },
-    HitScene = {
-      850342
-    },
+    HitEnemy = 8503148,
+    HitScene = 850342,
     ShapeInfo = {
       Radius = 40, ShapeType = "Sphere"
     },
@@ -5247,12 +4983,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850305,
     CreatureId = 850324,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      8503148
-    },
-    HitScene = {
-      850342
-    },
+    HitEnemy = 8503148,
+    HitScene = 850342,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -5353,12 +5085,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 850405,
     CreatureId = 850402,
-    HitEnemy = {
-      850406
-    },
-    HitScene = {
-      850406
-    },
+    HitEnemy = 850406,
+    HitScene = 850406,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -5470,12 +5198,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 850405,
     CreatureId = 850408,
-    HitEnemy = {
-      850406
-    },
-    HitScene = {
-      850406
-    },
+    HitEnemy = 850406,
+    HitScene = 850406,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -5545,12 +5269,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     BulletFXID = 850509,
     CreatureId = 850501,
-    HitEnemy = {
-      850511
-    },
-    HitScene = {
-      850511
-    },
+    HitEnemy = 850511,
+    HitScene = 850511,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -5571,12 +5291,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 2,
     CreatureId = 850502,
     FixedBornRotation = true,
-    HitEnemy = {
-      8505118
-    },
-    HitScene = {
-      8505118
-    },
+    HitEnemy = 8505118,
+    HitScene = 8505118,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -5587,9 +5303,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 3
   },
   [850503] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 850503,
     FixedBornRotation = true,
@@ -5607,9 +5321,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 0.4
   },
   [850504] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 850504,
     FixedBornRotation = true,
@@ -5646,12 +5358,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 850506,
     DontDestroyExceptLife = true,
     FixedBornRotation = true,
-    HitEnemy = {
-      850534
-    },
-    HitScene = {
-      850534
-    },
+    HitEnemy = 850534,
+    HitScene = 850534,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -5688,12 +5396,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 850508,
     DelayDestroyTime = 3,
     FixedBornRotation = true,
-    HitEnemy = {
-      850543
-    },
-    HitScene = {
-      850543
-    },
+    HitEnemy = 850543,
+    HitScene = 850543,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -5710,12 +5414,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 850509,
     DelayPlayFX = 0.6,
     FixedBornRotation = true,
-    HitEnemy = {
-      850548
-    },
-    HitScene = {
-      850548
-    },
+    HitEnemy = 850548,
+    HitScene = 850548,
     ShapeInfo = {
       BoxHeight = 800,
       BoxLength = 300,
@@ -5780,12 +5480,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850508,
     CollisionDelayTime = 2,
     CreatureId = 850513,
-    HitEnemy = {
-      8505125
-    },
-    HitScene = {
-      8505125
-    },
+    HitEnemy = 8505125,
+    HitScene = 8505125,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -5802,12 +5498,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 0.6,
     CreatureId = 850514,
     DelayPlayFX = 0.6,
-    HitEnemy = {
-      8505147
-    },
-    HitScene = {
-      8505147
-    },
+    HitEnemy = 8505147,
+    HitScene = 8505147,
     ShapeInfo = {
       BoxHeight = 800,
       BoxLength = 300,
@@ -5827,12 +5519,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 850515,
     DelayDestroyTime = 3,
     FixedBornRotation = true,
-    HitEnemy = {
-      8505128
-    },
-    HitScene = {
-      8505128
-    },
+    HitEnemy = 8505128,
+    HitScene = 8505128,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -5863,12 +5551,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 850517,
     DelayDestroyTime = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      8505160
-    },
-    HitScene = {
-      8505160
-    },
+    HitEnemy = 8505160,
+    HitScene = 8505160,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -5896,9 +5580,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [850901] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 850901,
     DestroyWithCreator = 1,
@@ -5987,12 +5669,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850501,
     CreatureId = 851001,
     FixedBornRotation = true,
-    HitEnemy = {
-      851004
-    },
-    HitScene = {
-      851004
-    },
+    HitEnemy = 851004,
+    HitScene = 851004,
     ShapeInfo = {
       Radius = 600, ShapeType = "Sphere"
     },
@@ -6010,12 +5688,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851002,
     DontDestroyExceptLife = true,
     FixedBornRotation = true,
-    HitEnemy = {
-      851007
-    },
-    HitScene = {
-      851007
-    },
+    HitEnemy = 851007,
+    HitScene = 851007,
     ShapeInfo = {
       Radius = 3000, ShapeType = "Sphere"
     },
@@ -6034,12 +5708,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851003,
     DontDestroyExceptLife = true,
     FixedBornRotation = true,
-    HitEnemy = {
-      851008
-    },
-    HitScene = {
-      851008
-    },
+    HitEnemy = 851008,
+    HitScene = 851008,
     ShapeInfo = {
       Radius = 3000, ShapeType = "Sphere"
     },
@@ -6089,12 +5759,8 @@ return ReadOnly("SkillCreature", {
     DelayPlayFX = 1.3,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851020
-    },
-    HitScene = {
-      851020
-    },
+    HitEnemy = 851020,
+    HitScene = 851020,
     ShapeInfo = {
       Radius = 300, ShapeType = "Sphere"
     },
@@ -6113,12 +5779,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851006,
     DelayPlayFX = 1.3,
     FixedBornRotation = true,
-    HitEnemy = {
-      851023
-    },
-    HitScene = {
-      851023
-    },
+    HitEnemy = 851023,
+    HitScene = 851023,
     ShapeInfo = {
       Radius = 600, ShapeType = "Sphere"
     },
@@ -6161,12 +5823,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851008,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6185,12 +5843,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851009,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6209,12 +5863,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851010,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6233,12 +5883,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851011,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6259,12 +5905,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851101,
     DontDestroyExceptLife = true,
     FixedBornRotation = true,
-    HitEnemy = {
-      851106
-    },
-    HitScene = {
-      851106
-    },
+    HitEnemy = 851106,
+    HitScene = 851106,
     ShapeInfo = {
       Radius = 3000, ShapeType = "Sphere"
     },
@@ -6309,12 +5951,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851103,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6333,12 +5971,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851104,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6357,12 +5991,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851105,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6381,12 +6011,8 @@ return ReadOnly("SkillCreature", {
     CollisionDelayTime = 1.5,
     CreatureId = 851106,
     FixedBornRotation = true,
-    HitEnemy = {
-      851026
-    },
-    HitScene = {
-      851026
-    },
+    HitEnemy = 851026,
+    HitScene = 851026,
     ShapeInfo = {
       Radius = 2000, ShapeType = "Sphere"
     },
@@ -6426,12 +6052,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851202,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -6457,12 +6079,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851203,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -6488,12 +6106,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851204,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -6519,12 +6133,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851205,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -6550,12 +6160,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851206,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -6581,12 +6187,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851207,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -6676,12 +6278,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 851206,
     CreatureId = 851212,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6743,12 +6341,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851216,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6770,12 +6364,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851217,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6797,12 +6387,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851218,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6824,12 +6410,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851219,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6851,12 +6433,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851220,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6878,12 +6456,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851221,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6905,12 +6479,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851222,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6932,12 +6502,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851223,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6959,12 +6525,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851224,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -6986,12 +6548,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851225,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -7013,12 +6571,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851226,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -7040,12 +6594,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851227,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851252
-    },
-    HitScene = {
-      851253
-    },
+    HitEnemy = 851252,
+    HitScene = 851253,
     ShapeInfo = {
       Radius = 5, ShapeType = "Sphere"
     },
@@ -7066,12 +6616,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851228,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851276
-    },
+    HitEnemy = 851214,
+    HitScene = 851276,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7097,12 +6643,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851229,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851276
-    },
+    HitEnemy = 851214,
+    HitScene = 851276,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7123,9 +6665,7 @@ return ReadOnly("SkillCreature", {
     TraceSpeed = 1000
   },
   [851230] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_6Baotu_CollisionCheck.BP_6Baotu_CollisionCheck",
     BoundCount = -1,
     CreatureId = 851230,
@@ -7148,12 +6688,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851231,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7179,12 +6715,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851232,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7210,12 +6742,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851233,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7241,12 +6769,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851234,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7272,12 +6796,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851235,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7303,12 +6823,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851236,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7334,12 +6850,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851237,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7365,12 +6877,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851238,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7396,12 +6904,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851239,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7427,12 +6931,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851240,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7458,12 +6958,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851241,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7489,12 +6985,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851242,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      851214
-    },
-    HitScene = {
-      851215
-    },
+    HitEnemy = 851214,
+    HitScene = 851215,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -7515,9 +7007,7 @@ return ReadOnly("SkillCreature", {
     TraceSpeed = 1500
   },
   [851301] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 851301,
     DestroyWithCreator = 1,
@@ -7544,9 +7034,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851302,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851307
-    },
+    HitEnemy = 851307,
     SpawnSocket = {
       SpawnSocket = "Root", UseLocation = "Char"
     },
@@ -7609,12 +7097,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851305,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851315
-    },
-    HitScene = {
-      851316
-    },
+    HitEnemy = 851315,
+    HitScene = 851316,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -7632,12 +7116,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851306,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851315
-    },
-    HitScene = {
-      851316
-    },
+    HitEnemy = 851315,
+    HitScene = 851316,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -7655,12 +7135,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851307,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851315
-    },
-    HitScene = {
-      851316
-    },
+    HitEnemy = 851315,
+    HitScene = 851316,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -7678,12 +7154,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851308,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851315
-    },
-    HitScene = {
-      851316
-    },
+    HitEnemy = 851315,
+    HitScene = 851316,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -7701,12 +7173,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851309,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851315
-    },
-    HitScene = {
-      851316
-    },
+    HitEnemy = 851315,
+    HitScene = 851316,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -7728,12 +7196,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851310,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851315
-    },
-    HitScene = {
-      851316
-    },
+    HitEnemy = 851315,
+    HitScene = 851316,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -7755,12 +7219,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851311,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851315
-    },
-    HitScene = {
-      851316
-    },
+    HitEnemy = 851315,
+    HitScene = 851316,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -7836,9 +7296,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851315,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      851307
-    },
+    HitEnemy = 851307,
     Speed = 0,
     Tags = {
       "PauseRemovable"
@@ -7874,12 +7332,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 851407,
     CreatureId = 851402,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      851411
-    },
-    HitScene = {
-      851411
-    },
+    HitEnemy = 851411,
+    HitScene = 851411,
     ShapeInfo = {
       BoxHeight = 20,
       BoxLength = 20,
@@ -7905,12 +7359,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 851407,
     CreatureId = 851403,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      851411
-    },
-    HitScene = {
-      851411
-    },
+    HitEnemy = 851411,
+    HitScene = 851411,
     ShapeInfo = {
       BoxHeight = 20,
       BoxLength = 20,
@@ -7931,9 +7381,7 @@ return ReadOnly("SkillCreature", {
     Vars = {AimBiasX = -100, AimBiasY = -60}
   },
   [851404] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shenpan_LaserHole.BP_Boss_Shenpan_LaserHole",
     BoundCount = -1,
     BulletFXID = 851409,
@@ -7948,9 +7396,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [851405] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shenpan_LaserHole.BP_Boss_Shenpan_LaserHole",
     BoundCount = -1,
     BulletFXID = 851409,
@@ -7965,9 +7411,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [851406] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shenpan_LaserHole.BP_Boss_Shenpan_LaserHole",
     BoundCount = -1,
     BulletFXID = 851409,
@@ -7982,9 +7426,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [851407] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shenpan_LaserHole.BP_Boss_Shenpan_LaserHole",
     BoundCount = -1,
     BulletFXID = 851409,
@@ -7999,9 +7441,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [851408] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shenpan_LaserHole.BP_Boss_Shenpan_LaserHole",
     BoundCount = -1,
     BulletFXID = 851409,
@@ -8016,9 +7456,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [851409] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Shenpan_LaserHole.BP_Boss_Shenpan_LaserHole",
     BoundCount = -1,
     BulletFXID = 851409,
@@ -8050,12 +7488,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 851407,
     CreatureId = 851411,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      851411
-    },
-    HitScene = {
-      851411
-    },
+    HitEnemy = 851411,
+    HitScene = 851411,
     ShapeInfo = {
       BoxHeight = 20,
       BoxLength = 20,
@@ -8081,12 +7515,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 851407,
     CreatureId = 851412,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      851411
-    },
-    HitScene = {
-      851411
-    },
+    HitEnemy = 851411,
+    HitScene = 851411,
     ShapeInfo = {
       BoxHeight = 20,
       BoxLength = 20,
@@ -8131,12 +7561,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851502,
     DestroyWithCreator = 1,
     GravityCoefficient = 0.2,
-    HitEnemy = {
-      851513
-    },
-    HitScene = {
-      851513
-    },
+    HitEnemy = 851513,
+    HitScene = 851513,
     ShapeInfo = {
       Radius = 40, ShapeType = "Sphere"
     },
@@ -8169,16 +7595,10 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 851505,
     CreatureId = 851504,
-    DestroyEffects = {
-      851516
-    },
+    DestroyEffects = 851516,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      851516
-    },
-    HitScene = {
-      851516
-    },
+    HitEnemy = 851516,
+    HitScene = 851516,
     ShapeInfo = {
       Radius = 100, ShapeType = "Sphere"
     },
@@ -8197,9 +7617,7 @@ return ReadOnly("SkillCreature", {
     Vars = {ExecuteOnLifeEnd = "true"}
   },
   [851505] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851505,
@@ -8218,9 +7636,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851506] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851506,
@@ -8239,9 +7655,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851507] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851507,
@@ -8260,9 +7674,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851508] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851508,
@@ -8281,9 +7693,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851509] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851509,
@@ -8302,9 +7712,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851510] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851510,
@@ -8323,9 +7731,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851511] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851511,
@@ -8344,9 +7750,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851512] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill06Laser.BP_Boss_Jushi_Skill06Laser",
     BulletFXID = 851507,
     CreatureId = 851512,
@@ -8365,9 +7769,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [851513] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Jushi_Skill08Laser.BP_Boss_Jushi_Skill08Laser",
     BulletFXID = 851509,
     CreatureId = 851513,
@@ -8395,9 +7797,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 4
   },
   [851601] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 851601,
     CreatureId = 851601,
@@ -8421,9 +7821,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 1.5
   },
   [851602] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 851602,
     CreatureId = 851602,
@@ -8541,9 +7939,7 @@ return ReadOnly("SkillCreature", {
     UseBulletCreature = true
   },
   [851607] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Fuer_Skill05Laser.BP_Boss_Fuer_Skill05Laser",
     CreatureId = 851607,
     DestroyWithCreator = 1,
@@ -8577,9 +7973,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 3
   },
   [851609] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 851609,
     DestroyWithCreator = 1,
@@ -8594,9 +7988,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 0.7
   },
   [851611] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Fuer_Skill06Laser.BP_Boss_Fuer_Skill06Laser",
     CreatureId = 851611,
     DestroyWithCreator = 1,
@@ -8612,9 +8004,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 2
   },
   [851612] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 851618,
     CreatureId = 851612,
@@ -8638,9 +8028,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 6
   },
   [851613] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 851618,
     CreatureId = 851613,
@@ -8664,9 +8052,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 6
   },
   [851614] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 851614,
     DestroyWithCreator = 1,
@@ -8681,9 +8067,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 2
   },
   [851615] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Fuer_Skill05Rocket.BP_Boss_Fuer_Skill05Rocket",
     BoundCount = -1,
     CreatureId = 851615,
@@ -8708,9 +8092,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851701,
     DestroyWithCreator = 1,
     DontDestroyExceptLife = true,
-    HitEnemy = {
-      851712
-    },
+    HitEnemy = 851712,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 160,
@@ -8732,9 +8114,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     DontDestroyExceptLife = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851712
-    },
+    HitEnemy = 851712,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 160,
@@ -8757,12 +8137,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851801,
     DontDestroyExceptLife = true,
     EnterPool = true,
-    HitEnemy = {
-      851807
-    },
-    HitScene = {
-      851807
-    },
+    HitEnemy = 851807,
+    HitScene = 851807,
     ShapeInfo = {
       BoxHeight = 15,
       BoxLength = 30,
@@ -8790,9 +8166,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851802,
     DontDestroyExceptLife = true,
     EnterPool = true,
-    HitEnemy = {
-      851807
-    },
+    HitEnemy = 851807,
     ShapeInfo = {Radius = 140, ShapeType = "Sphere"},
     SpawnSocket = {
       SpawnSocket = "wing_left01_d2",
@@ -8813,12 +8187,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 851803,
     DontDestroyExceptLife = true,
     EnterPool = true,
-    HitEnemy = {
-      851807
-    },
-    HitScene = {
-      851807
-    },
+    HitEnemy = 851807,
+    HitScene = 851807,
     ShapeInfo = {
       BoxHeight = 15,
       BoxLength = 30,
@@ -8846,12 +8216,8 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 1.5,
     GravityFactor = 1,
-    HitEnemy = {
-      851816
-    },
-    HitScene = {
-      851816
-    },
+    HitEnemy = 851816,
+    HitScene = 851816,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -8878,12 +8244,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 851302,
     CreatureId = 851902,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      851910
-    },
-    HitScene = {
-      851910
-    },
+    HitEnemy = 851910,
+    HitScene = 851910,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -8906,9 +8268,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 330,
@@ -8926,9 +8286,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 400,
       BoxLength = 330,
@@ -8947,9 +8305,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 400,
       BoxLength = 330,
@@ -9067,9 +8423,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 330,
@@ -9104,9 +8458,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 100,
@@ -9141,9 +8493,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 100,
@@ -9178,9 +8528,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 100,
@@ -9215,9 +8563,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 100,
@@ -9254,9 +8600,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {
-      851914
-    },
+    HitEnemy = 851914,
     ShapeInfo = {
       BoxHeight = 200,
       BoxLength = 100,
@@ -9292,9 +8636,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852001,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852004
-    },
+    HitEnemy = 852004,
     ShapeInfo = {
       BoxHeight = 1000,
       BoxLength = 700,
@@ -9314,9 +8656,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852002,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852004
-    },
+    HitEnemy = 852004,
     ShapeInfo = {
       BoxHeight = 500,
       BoxLength = 350,
@@ -9336,9 +8676,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852003,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852004
-    },
+    HitEnemy = 852004,
     ShapeInfo = {
       BoxHeight = 1000,
       BoxLength = 175,
@@ -9358,9 +8696,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852004,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852004
-    },
+    HitEnemy = 852004,
     ShapeInfo = {
       BoxHeight = 500,
       BoxLength = 500,
@@ -9380,9 +8716,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852005,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852004
-    },
+    HitEnemy = 852004,
     ShapeInfo = {
       BoxHeight = 250,
       BoxLength = 175,
@@ -9402,9 +8736,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852006,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852004
-    },
+    HitEnemy = 852004,
     ShapeInfo = {
       BoxHeight = 250,
       BoxLength = 175,
@@ -9547,9 +8879,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852017,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852048
-    },
+    HitEnemy = 852048,
     ShapeInfo = {
       BoxHeight = 250,
       BoxLength = 250,
@@ -9617,9 +8947,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 852023,
     DestroyWithCreator = 1,
     FixedMoveRotation = true,
-    HitEnemy = {
-      852048
-    },
+    HitEnemy = 852048,
     ShapeInfo = {
       BoxHeight = 250,
       BoxLength = 250,
@@ -9822,12 +9150,8 @@ return ReadOnly("SkillCreature", {
     DelayPlayFX = 0.9,
     DestroyWithCreator = 1,
     DontDestroyExceptLife = true,
-    HitEnemy = {
-      900081
-    },
-    HitScene = {
-      900081
-    },
+    HitEnemy = 900081,
+    HitScene = 900081,
     ShapeInfo = {Radius = 200, ShapeType = "Sphere"},
     Speed = 0,
     Tags = {
@@ -9889,12 +9213,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 900401,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      900403
-    },
-    HitScene = {
-      900404
-    },
+    HitEnemy = 900403,
+    HitScene = 900404,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -9917,12 +9237,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 900402,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      900403
-    },
-    HitScene = {
-      900404
-    },
+    HitEnemy = 900403,
+    HitScene = 900404,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -9945,12 +9261,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 900403,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      900403
-    },
-    HitScene = {
-      900404
-    },
+    HitEnemy = 900403,
+    HitScene = 900404,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -9973,12 +9285,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 900404,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      900403
-    },
-    HitScene = {
-      900404
-    },
+    HitEnemy = 900403,
+    HitScene = 900404,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -10001,12 +9309,8 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 1.5,
     GravityFactor = 1,
-    HitEnemy = {
-      900407
-    },
-    HitScene = {
-      900407
-    },
+    HitEnemy = 900407,
+    HitScene = 900407,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -10025,12 +9329,8 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 1,
     GravityFactor = 1000,
-    HitEnemy = {
-      900503
-    },
-    HitScene = {
-      900503
-    },
+    HitEnemy = 900503,
+    HitScene = 900503,
     ShapeInfo = {
       Radius = 10, ShapeType = "Sphere"
     },
@@ -10044,9 +9344,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [900601] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 900601,
     HitEnemy = {900606},
@@ -10060,9 +9358,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 2
   },
   [900602] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 900602,
     HitEnemy = {900613},
@@ -10103,15 +9399,9 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 900703,
     CreatureId = 900702,
-    DestroyEffects = {
-      900708
-    },
-    HitEnemy = {
-      900708
-    },
-    HitScene = {
-      900708
-    },
+    DestroyEffects = 900708,
+    HitEnemy = 900708,
+    HitScene = 900708,
     ShapeInfo = {Radius = 25, ShapeType = "Sphere"},
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",
@@ -10183,9 +9473,7 @@ return ReadOnly("SkillCreature", {
     FixedBornRotation = true,
     FixedMoveRotation = true,
     GravityCoefficient = 1.5,
-    HitScene = {
-      950007
-    },
+    HitScene = 950007,
     ShapeInfo = {
       Radius = 10, ShapeType = "Sphere"
     },
@@ -10261,9 +9549,7 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 2,
     GravityFactor = 9999,
-    HitScene = {
-      950007
-    },
+    HitScene = 950007,
     ScenceBound = 5,
     ShapeInfo = {
       Radius = 10, ShapeType = "Sphere"
@@ -10425,9 +9711,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 10
   },
   [950102] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_NE_Haer_Creature02.BP_NE_Haer_Creature02",
     BoundCount = -1,
     CreatureId = 950102,
@@ -10468,9 +9752,7 @@ return ReadOnly("SkillCreature", {
     TraceSpeed = 250
   },
   [980301] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 980301,
     HitEnemy = {980305},
@@ -10481,9 +9763,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 0.3
   },
   [980701] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_6Baotu_CollisionCheck.BP_6Baotu_CollisionCheck",
     BoundCount = -1,
     CreatureId = 980701,
@@ -10524,12 +9804,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 1000301,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      1000305
-    },
-    HitScene = {
-      1000306
-    },
+    HitEnemy = 1000305,
+    HitScene = 1000306,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -10547,12 +9823,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 1000302,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      1000305
-    },
-    HitScene = {
-      1000306
-    },
+    HitEnemy = 1000305,
+    HitScene = 1000306,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -10570,12 +9842,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 1000303,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
-    HitEnemy = {
-      1000305
-    },
-    HitScene = {
-      1000306
-    },
+    HitEnemy = 1000305,
+    HitScene = 1000306,
     ShapeInfo = {
       Radius = 50, ShapeType = "Sphere"
     },
@@ -10590,12 +9858,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     BulletFXID = 1000303,
     CreatureId = 1000304,
-    HitEnemy = {
-      1000305
-    },
-    HitScene = {
-      1000306
-    },
+    HitEnemy = 1000305,
+    HitScene = 1000306,
     ShapeInfo = {
       BoxHeight = 100,
       BoxLength = 100,
@@ -10614,12 +9878,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 1000401,
     CreatureId = 1000401,
     EnterPool = true,
-    HitEnemy = {
-      1000402
-    },
-    HitScene = {
-      1000403
-    },
+    HitEnemy = 1000402,
+    HitScene = 1000403,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 30,
@@ -10636,9 +9896,7 @@ return ReadOnly("SkillCreature", {
     UseBulletCreature = true
   },
   [1000402] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BaiBiAn_Skill01Laser.BP_BaiBiAn_Skill01Laser",
     CreatureId = 1000402,
     DestroyWithCreator = 1,
@@ -10676,12 +9934,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 1000401,
     CreatureId = 1000404,
     EnterPool = true,
-    HitEnemy = {
-      1000402
-    },
-    HitScene = {
-      1000403
-    },
+    HitEnemy = 1000402,
+    HitScene = 1000403,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 30,
@@ -10710,9 +9964,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 2
   },
   [1000406] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BaiBiAn_Skill06Laser.BP_BaiBiAn_Skill06Laser",
     CreatureId = 1000406,
     DestroyWithCreator = 1,
@@ -11033,9 +10285,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 3
   },
   [1020321] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     CreatureId = 1020321,
     DestroyWithCreator = 1,
@@ -11066,9 +10316,7 @@ return ReadOnly("SkillCreature", {
     ClientOwner = true,
     CreatureId = 1030201,
     EnterPool = true,
-    HitEnemy = {
-      1030218
-    },
+    HitEnemy = 1030218,
     ShapeInfo = {
       BoxHeight = 20,
       BoxLength = 100,
@@ -11101,9 +10349,7 @@ return ReadOnly("SkillCreature", {
     ClientOwner = true,
     CreatureId = 1030202,
     EnterPool = true,
-    HitEnemy = {
-      1030218
-    },
+    HitEnemy = 1030218,
     ShapeInfo = {
       BoxHeight = 20,
       BoxLength = 100,
@@ -11125,9 +10371,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [1030221] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     BulletFXID = 1030203,
     ClientOwner = true,
@@ -11161,9 +10405,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [1030222] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Claymore_Mod01_Heavyattack.BP_Claymore_Mod01_Heavyattack",
     BoundCount = -1,
     ClientOwner = true,
@@ -11192,9 +10434,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [1030223] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Claymore_Mod01_Heavyattack.BP_Claymore_Mod01_Heavyattack",
     BoundCount = -1,
     ClientOwner = true,
@@ -11223,9 +10463,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [1030224] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Claymore_Mod01_Heavyattack.BP_Claymore_Mod01_Heavyattack",
     BoundCount = -1,
     ClientOwner = true,
@@ -11254,9 +10492,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [1030225] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Claymore_Mod01_Heavyattack.BP_Claymore_Mod01_Heavyattack",
     BoundCount = -1,
     ClientOwner = true,
@@ -11313,9 +10549,7 @@ return ReadOnly("SkillCreature", {
     }
   },
   [1040241] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BoundCount = -1,
     ClientOwner = true,
     CreatureId = 1040241,
@@ -11340,17 +10574,13 @@ return ReadOnly("SkillCreature", {
   [1050121] = {
     BoundCount = -1,
     ClientOwner = true,
-    CreatureEffects = {
-      1050122
-    },
+    CreatureEffects = 1050122,
     CreatureId = 1050121,
     DestroyWithCreator = 1,
     EnterPool = true,
     LoopExecuteSkillEffects = {
       Interval = 0.2,
-      SkillEffects = {
-        1050122
-      }
+      SkillEffects = 1050122
     },
     Speed = 0,
     Tags = {
@@ -11524,12 +10754,8 @@ return ReadOnly("SkillCreature", {
     EffectMultiple = true,
     EnterPool = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2020113
-    },
-    HitScene = {
-      2020114
-    },
+    HitEnemy = 2020113,
+    HitScene = 2020114,
     ShapeInfo = {
       BoxHeight = 5,
       BoxLength = 10,
@@ -11561,12 +10787,8 @@ return ReadOnly("SkillCreature", {
     EffectMultiple = true,
     EnterPool = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2020113
-    },
-    HitScene = {
-      2020114
-    },
+    HitEnemy = 2020113,
+    HitScene = 2020114,
     ShapeInfo = {
       BoxHeight = 5,
       BoxLength = 10,
@@ -11598,17 +10820,13 @@ return ReadOnly("SkillCreature", {
     CreatureId = 2020311,
     EffectMultiple = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2020313
-    },
+    HitEnemy = 2020313,
     HitOthers = {
       2,
       0,
       2
     },
-    HitScene = {
-      2020314
-    },
+    HitScene = 2020314,
     RayCrossSceneCount = 1,
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",
@@ -11634,17 +10852,13 @@ return ReadOnly("SkillCreature", {
     CreatureId = 2020312,
     EffectMultiple = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2020313
-    },
+    HitEnemy = 2020313,
     HitOthers = {
       2,
       0,
       2
     },
-    HitScene = {
-      2020314
-    },
+    HitScene = 2020314,
     RayCrossSceneCount = 1,
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",
@@ -11670,17 +10884,13 @@ return ReadOnly("SkillCreature", {
     CreatureId = 2020711,
     EffectMultiple = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2020713
-    },
+    HitEnemy = 2020713,
     HitOthers = {
       2,
       0,
       2
     },
-    HitScene = {
-      2020714
-    },
+    HitScene = 2020714,
     RayCrossSceneCount = 1,
     RefreshTargetParam = 0.1,
     RefreshTargetRule = 1,
@@ -11708,17 +10918,13 @@ return ReadOnly("SkillCreature", {
     CreatureId = 2020712,
     EffectMultiple = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2020713
-    },
+    HitEnemy = 2020713,
     HitOthers = {
       2,
       0,
       2
     },
-    HitScene = {
-      2020714
-    },
+    HitScene = 2020714,
     RayCrossSceneCount = 1,
     RefreshTargetParam = 0.1,
     RefreshTargetRule = 1,
@@ -12001,17 +11207,13 @@ return ReadOnly("SkillCreature", {
     ClientOwner = true,
     CreatureId = 2030402,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2030414
-    },
+    HitEnemy = 2030414,
     HitOthers = {
       1,
       0,
       1
     },
-    RealDestroyEffects = {
-      2030416
-    },
+    RealDestroyEffects = 2030416,
     RefreshTargetParam = 0.3,
     RefreshTargetRule = 1,
     ShapeInfo = {
@@ -12038,17 +11240,13 @@ return ReadOnly("SkillCreature", {
     ClientOwner = true,
     CreatureId = 2030403,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2030414
-    },
+    HitEnemy = 2030414,
     HitOthers = {
       1,
       0,
       1
     },
-    RealDestroyEffects = {
-      2030416
-    },
+    RealDestroyEffects = 2030416,
     RefreshTargetParam = 0.3,
     RefreshTargetRule = 1,
     ShapeInfo = {
@@ -12142,17 +11340,13 @@ return ReadOnly("SkillCreature", {
     CreatureId = 2040211,
     DontDestroyExceptLife = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      10
-    },
+    HitEnemy = 10,
     HitOthers = {
       2,
       2,
       2
     },
-    HitScene = {
-      10
-    },
+    HitScene = 10,
     RayCrossSceneCount = 1,
     RealDestroyEffects = {2040213},
     ServerOwner = true,
@@ -12273,17 +11467,13 @@ return ReadOnly("SkillCreature", {
     DelayDestroyTime = 1,
     EnterPool = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2040613
-    },
+    HitEnemy = 2040613,
     HitOthers = {
       1,
       0,
       1
     },
-    HitScene = {
-      2040613
-    },
+    HitScene = 2040613,
     ShapeInfo = {
       BoxHeight = 50,
       BoxLength = 100,
@@ -12313,9 +11503,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 15,
     CreatureId = 2040602,
     FixSpeedByWeapon = true,
-    HitEnemy = {
-      2030414
-    },
+    HitEnemy = 2030414,
     HitOthers = {
       0,
       0,
@@ -12386,17 +11574,13 @@ return ReadOnly("SkillCreature", {
     CreatureId = 2050511,
     EffectMultiple = true,
     EnterPool = true,
-    HitEnemy = {
-      2050517
-    },
+    HitEnemy = 2050517,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      2050517
-    },
+    HitScene = 2050517,
     ShapeInfo = {
       BoxHeight = 5,
       BoxLength = 10,
@@ -12505,9 +11689,7 @@ return ReadOnly("SkillCreature", {
     FixSpeedByWeapon = true,
     GravityCoefficient = 1,
     HitEnemy = {2060112},
-    HitScene = {
-      2060113
-    },
+    HitScene = 2060113,
     ParabolaDelay = 0.6,
     RayCrossSceneCount = 1,
     ShapeInfo = {
@@ -12551,9 +11733,7 @@ return ReadOnly("SkillCreature", {
       0,
       2
     },
-    HitScene = {
-      2060113
-    },
+    HitScene = 2060113,
     ParabolaDelay = 0.8,
     RayCrossSceneCount = 1,
     ShapeInfo = {
@@ -12597,9 +11777,7 @@ return ReadOnly("SkillCreature", {
       0,
       2
     },
-    HitScene = {
-      2060113
-    },
+    HitScene = 2060113,
     ParabolaDelay = 1.5,
     RayCrossSceneCount = 1,
     ShapeInfo = {
@@ -12753,9 +11931,7 @@ return ReadOnly("SkillCreature", {
     FixSpeedByWeapon = true,
     GravityCoefficient = 1,
     HitEnemy = {2069912},
-    HitScene = {
-      2069913
-    },
+    HitScene = 2069913,
     ParabolaDelay = 0.6,
     RayCrossSceneCount = 1,
     ShapeInfo = {
@@ -12794,9 +11970,7 @@ return ReadOnly("SkillCreature", {
     FixSpeedByWeapon = true,
     GravityCoefficient = 1,
     HitEnemy = {2069922},
-    HitScene = {
-      2069913
-    },
+    HitScene = 2069913,
     ParabolaDelay = 0.8,
     RayCrossSceneCount = 1,
     ShapeInfo = {
@@ -12846,12 +12020,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 91,
     CreatureId = 4010102,
-    HitEnemy = {
-      401010006
-    },
-    HitScene = {
-      401010007
-    },
+    HitEnemy = 401010006,
+    HitScene = 401010007,
     ShapeInfo = {
       BoxHeight = 1,
       BoxLength = 1,
@@ -12870,12 +12040,8 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 91,
     CreatureId = 4010103,
-    HitEnemy = {
-      401010006
-    },
-    HitScene = {
-      401010007
-    },
+    HitEnemy = 401010006,
+    HitScene = 401010007,
     ShapeInfo = {
       BoxHeight = 1,
       BoxLength = 1,
@@ -12914,17 +12080,13 @@ return ReadOnly("SkillCreature", {
     BoundCount = 2,
     BulletFXID = 91,
     CreatureId = 4010105,
-    HitEnemy = {
-      401010006
-    },
+    HitEnemy = 401010006,
     HitOthers = {
       2,
       0,
       2
     },
-    HitScene = {
-      401010007
-    },
+    HitScene = 401010007,
     RayCrossSceneCount = 1,
     RefreshTargetParam = 0.1,
     RefreshTargetRule = 1,
@@ -12941,12 +12103,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 90,
     CreatureId = 4010201,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      401020002
-    },
-    HitScene = {
-      401020002
-    },
+    HitEnemy = 401020002,
+    HitScene = 401020002,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 50,
@@ -13006,12 +12164,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 40101001,
     CreatureId = 4010204,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      401020012
-    },
-    HitScene = {
-      401020012
-    },
+    HitEnemy = 401020012,
+    HitScene = 401020012,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 50,
@@ -13031,12 +12185,8 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 40101002,
     CreatureId = 4010205,
     DestroyWithCreator = 1,
-    HitEnemy = {
-      401020014
-    },
-    HitScene = {
-      401020014
-    },
+    HitEnemy = 401020014,
+    HitScene = 401020014,
     ShapeInfo = {
       BoxHeight = 10,
       BoxLength = 50,
@@ -13056,12 +12206,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512902,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13087,12 +12233,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512903,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13118,12 +12260,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512904,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13149,12 +12287,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512905,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13180,12 +12314,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512906,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13211,12 +12341,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512907,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13254,12 +12380,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512928,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13285,12 +12407,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512929,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13316,12 +12434,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512931,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13347,12 +12461,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512932,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13378,12 +12488,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512933,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13409,12 +12515,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512934,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13440,12 +12542,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512935,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13471,12 +12569,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512936,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13502,12 +12596,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512937,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13533,12 +12623,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512938,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13564,12 +12650,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512939,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13595,12 +12677,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512940,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13626,12 +12704,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512941,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13657,12 +12731,8 @@ return ReadOnly("SkillCreature", {
     CreatureId = 8512942,
     DestroyWithCreator = 1,
     DirectionOnSocket = true,
-    HitEnemy = {
-      8512914
-    },
-    HitScene = {
-      8512915
-    },
+    HitEnemy = 8512914,
+    HitScene = 8512915,
     ShapeInfo = {
       Radius = 20, ShapeType = "Sphere"
     },
@@ -13704,16 +12774,12 @@ return ReadOnly("SkillCreature", {
   [10105106] = {
     BoundCount = -1,
     BulletFXID = 10105901,
-    CreatureEffects = {
-      101051062
-    },
+    CreatureEffects = 101051062,
     CreatureId = 10105106,
     DestroyWithCreator = 1,
     LoopExecuteSkillEffects = {
       Interval = 1,
-      SkillEffects = {
-        101051062
-      }
+      SkillEffects = 101051062
     },
     ShapeInfo = {
       Radius = 400, ShapeType = "Sphere"
@@ -13827,15 +12893,11 @@ return ReadOnly("SkillCreature", {
   },
   [20135001] = {
     BoundCount = -1,
-    CreatureEffects = {
-      201350012
-    },
+    CreatureEffects = 201350012,
     CreatureId = 20135001,
     LoopExecuteSkillEffects = {
       Interval = 0.4,
-      SkillEffects = {
-        201350012
-      }
+      SkillEffects = 201350012
     },
     SpawnSocket = {
       SpawnSocket = "Root", UseLocation = "Char"
@@ -13864,9 +12926,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 10106102,
     CreatureId = 500000301,
-    HitEnemy = {
-      500000309
-    },
+    HitEnemy = 500000309,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -13885,9 +12945,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 10106102,
     CreatureId = 500000302,
-    HitEnemy = {
-      500000309
-    },
+    HitEnemy = 500000309,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -13906,9 +12964,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     BulletFXID = 10106102,
     CreatureId = 500000303,
-    HitEnemy = {
-      500000309
-    },
+    HitEnemy = 500000309,
     ShapeInfo = {
       Radius = 30, ShapeType = "Sphere"
     },
@@ -13980,9 +13036,7 @@ return ReadOnly("SkillCreature", {
     TimeToHit = 2
   },
   [600001101] = {
-    AttachOwner = {
-      1
-    },
+    AttachOwner = 1,
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Strong_Kamikaze_Creature.BP_Strong_Kamikaze_Creature",
     BoundCount = -1,
     BulletFXID = 600001101,

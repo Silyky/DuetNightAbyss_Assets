@@ -17,9 +17,7 @@ return ReadOnly("UIScreenEffect", {
   },
   [1002] = {
     LastTime = 0.4,
-    MutexUIEffectId = {
-      1006
-    },
+    MutexUIEffectId = 1006,
     PlayMode = "Modify",
     UIEffectId = 1002,
     UIEffectParam = {
@@ -35,9 +33,7 @@ return ReadOnly("UIScreenEffect", {
   },
   [1003] = {
     LastTime = 0.4,
-    MutexUIEffectId = {
-      1006
-    },
+    MutexUIEffectId = 1006,
     PlayMode = "Modify",
     UIEffectId = 1003,
     UIEffectParam = {
@@ -53,9 +49,7 @@ return ReadOnly("UIScreenEffect", {
   },
   [1004] = {
     LastTime = 0.4,
-    MutexUIEffectId = {
-      1006
-    },
+    MutexUIEffectId = 1006,
     PlayMode = "Add",
     UIEffectId = 1004,
     UIEffectPriority = 100,

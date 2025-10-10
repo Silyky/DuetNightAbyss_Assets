@@ -25,9 +25,7 @@ return ReadOnly("MonsterRushDungeon", {
     GlobalPassiveList = {40101},
     LevelId = 40204,
     MonsterList = {4020401, 4020402},
-    StaticCreatorList = {
-      851400101
-    },
+    StaticCreatorList = 851400101,
     TargetNum = 100
   },
   [40205] = {
@@ -35,9 +33,7 @@ return ReadOnly("MonsterRushDungeon", {
     GlobalPassiveList = {40102},
     LevelId = 40205,
     MonsterList = {4020501, 4020502},
-    StaticCreatorList = {
-      851400101
-    },
+    StaticCreatorList = 851400101,
     TargetNum = 100
   },
   [40206] = {
@@ -45,9 +41,7 @@ return ReadOnly("MonsterRushDungeon", {
     GlobalPassiveList = {40103},
     LevelId = 40206,
     MonsterList = {4020601, 4020602},
-    StaticCreatorList = {
-      851400101
-    },
+    StaticCreatorList = 851400101,
     TargetNum = 100
   },
   [40207] = {

@@ -2,9 +2,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10101] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10101",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10101",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_01.T_Rouge_Treasure_01",
     Name = "RLTreasure_Name_10101",
@@ -26,9 +24,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10102] = {
     Desc = "RLTreasure_Desc_10102",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10102",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_02.T_Rouge_Treasure_02",
     Name = "RLTreasure_Name_10102",
@@ -49,9 +45,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10103] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10103",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10103",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_05.T_Rouge_Treasure_05",
     ModEquip = "Role",
@@ -70,9 +64,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10104] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10104",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10104",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_06.T_Rouge_Treasure_06",
     ModEquip = "Role",
@@ -90,9 +82,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10105] = {
     Desc = "RLTreasure_Desc_10105",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10105",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_07.T_Rouge_Treasure_07",
     Name = "RLTreasure_Name_10105",
@@ -113,9 +103,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10106] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10106",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10106",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_09.T_Rouge_Treasure_09",
     ModEquip = "Role",
@@ -134,9 +122,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10107] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10107",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10107",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_21.T_Rouge_Treasure_21",
     ModEquip = "Role",
@@ -155,9 +141,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10108] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10108",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10108",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_32.T_Rouge_Treasure_32",
     ModEquip = "Role",
@@ -176,9 +160,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10109] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10109",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10109",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_32.T_Rouge_Treasure_32",
     ModEquip = "Role",
@@ -197,9 +179,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10110] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10110",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10110",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_32.T_Rouge_Treasure_32",
     ModEquip = "Role",
@@ -218,9 +198,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10111] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10111",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10111",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_32.T_Rouge_Treasure_32",
     ModEquip = "Role",
@@ -239,9 +217,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10112] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10112",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10112",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_32.T_Rouge_Treasure_32",
     ModEquip = "Role",
@@ -260,9 +236,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10113] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10113",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10113",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_32.T_Rouge_Treasure_32",
     ModEquip = "Role",
@@ -281,9 +255,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10114] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10114",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_10113",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_28.T_Rouge_Treasure_28",
     ModEquip = "Role",
@@ -301,9 +273,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10201] = {
     Desc = "RLTreasure_Desc_10201",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10201",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_03.T_Rouge_Treasure_03",
     Name = "RLTreasure_Name_10201",
@@ -320,9 +290,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10202] = {
     Desc = "RLTreasure_Desc_10202",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10202",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_03.T_Rouge_Treasure_03",
     Name = "RLTreasure_Name_10202",
@@ -340,9 +308,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10203] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10203",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10203",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_19.T_Rouge_Treasure_19",
     ModEquip = "Role",
@@ -361,9 +327,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10204] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10204",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10204",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_22.T_Rouge_Treasure_22",
     ModEquip = "Role",
@@ -382,9 +346,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10205] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10205",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10205",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_24.T_Rouge_Treasure_24",
     ModEquip = "Role",
@@ -403,9 +365,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10206] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10206",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10206",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_25.T_Rouge_Treasure_25",
     ModEquip = "Role",
@@ -424,9 +384,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10207] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10207",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10207",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_23.T_Rouge_Treasure_23",
     ModEquip = "Role",
@@ -451,9 +409,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10209] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10209",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10209",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_17.T_Rouge_Treasure_17",
     Name = "RLTreasure_Name_10209",
@@ -473,9 +429,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10210] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10210",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10210",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_20.T_Rouge_Treasure_20",
     Name = "RLTreasure_Name_10210",
@@ -499,17 +453,13 @@ return ReadOnly("RougeLikeTreasure", {
   [10211] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10211",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10211",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_30.T_Rouge_Treasure_30",
     Name = "RLTreasure_Name_10211",
     RLArchiveId = 24,
     ServerBuild = {
-      [1] = {
-        49
-      },
+      [1] = 49,
       [2] = {27}
     },
     ShopPrices = 400,
@@ -523,9 +473,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10212] = {
     Desc = "RLTreasure_Desc_10212",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10212",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_12.T_Rouge_Treasure_12",
     Name = "RLTreasure_Name_10212",
@@ -544,9 +492,7 @@ return ReadOnly("RougeLikeTreasure", {
     CanSell = 1,
     Condition = {5044, 5064},
     Desc = "RLTreasure_Desc_10213",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10213",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_04.T_Rouge_Treasure_04",
     Name = "RLTreasure_Name_10213",
@@ -568,9 +514,7 @@ return ReadOnly("RougeLikeTreasure", {
     CanSell = 1,
     Condition = {5045, 5065},
     Desc = "RLTreasure_Desc_10214",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10214",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_04.T_Rouge_Treasure_04",
     Name = "RLTreasure_Name_10214",
@@ -592,18 +536,14 @@ return ReadOnly("RougeLikeTreasure", {
     CanSell = 1,
     Condition = {5046},
     Desc = "RLTreasure_Desc_10215",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10215",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_04.T_Rouge_Treasure_04",
     Name = "RLTreasure_Name_10215",
     RLArchiveId = 28,
     ServerBuild = {
       [1] = {39},
-      [2] = {
-        40
-      }
+      [2] = 40
     },
     ShopPrices = 400,
     ShopWeight = 500,
@@ -618,9 +558,7 @@ return ReadOnly("RougeLikeTreasure", {
     CanSell = 1,
     Condition = {5047, 5065},
     Desc = "RLTreasure_Desc_10216",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10216",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_04.T_Rouge_Treasure_04",
     Name = "RLTreasure_Name_10216",
@@ -642,9 +580,7 @@ return ReadOnly("RougeLikeTreasure", {
     CanSell = 1,
     Condition = {5048},
     Desc = "RLTreasure_Desc_10217",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10217",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_04.T_Rouge_Treasure_04",
     Name = "RLTreasure_Name_10217",
@@ -666,9 +602,7 @@ return ReadOnly("RougeLikeTreasure", {
     CanSell = 1,
     Condition = {5049, 5064},
     Desc = "RLTreasure_Desc_10218",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10218",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_04.T_Rouge_Treasure_04",
     Name = "RLTreasure_Name_10218",
@@ -690,9 +624,7 @@ return ReadOnly("RougeLikeTreasure", {
     CanSell = 1,
     Condition = {5050},
     Desc = "RLTreasure_Desc_10219",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10219",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_04.T_Rouge_Treasure_04",
     Name = "RLTreasure_Name_10219",
@@ -712,9 +644,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10301] = {
     Desc = "RLTreasure_Desc_10301",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10301",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_03.T_Rouge_Treasure_03",
     Name = "RLTreasure_Name_10301",
@@ -731,9 +661,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10302] = {
     Desc = "RLTreasure_Desc_10302",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10302",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_03.T_Rouge_Treasure_03",
     Name = "RLTreasure_Name_10302",
@@ -751,9 +679,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10303] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10303",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_10303",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_10.T_Rouge_Treasure_10",
     ModEquip = "Role",
@@ -771,9 +697,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10304] = {
     Desc = "RLTreasure_Desc_10304",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10304",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_15.T_Rouge_Treasure_15",
     Name = "RLTreasure_Name_10304",
@@ -793,9 +717,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10305] = {
     Desc = "RLTreasure_Desc_10305",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10305",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_16.T_Rouge_Treasure_16",
     Name = "RLTreasure_Name_10305",
@@ -812,9 +734,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10306] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10306",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10306",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_18.T_Rouge_Treasure_18",
     ModEquip = "Role",
@@ -833,9 +753,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10307] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10307",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10307",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_26.T_Rouge_Treasure_26",
     ModEquip = "Role",
@@ -854,9 +772,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10308] = {
     ClientBuild = {GroupDiscount = -1},
     Desc = "RLTreasure_Desc_10308",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10308",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_11.T_Rouge_Treasure_11",
     Name = "RLTreasure_Name_10308",
@@ -871,9 +787,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10309] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10309",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10309",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_08.T_Rouge_Treasure_08",
     Name = "RLTreasure_Name_10309",
@@ -895,9 +809,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10310] = {
     Desc = "RLTreasure_Desc_10310",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10310",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_46.T_Rouge_Treasure_46",
     ModEquip = "Role",
@@ -913,9 +825,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10311] = {
     Desc = "RLTreasure_Desc_10311",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10311",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_47.T_Rouge_Treasure_47",
     ModEquip = "Role",
@@ -931,9 +841,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10312] = {
     Desc = "RLTreasure_Desc_10312",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10312",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_48.T_Rouge_Treasure_48",
     ModEquip = "Role",
@@ -949,9 +857,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10313] = {
     Desc = "RLTreasure_Desc_10313",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10313",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_49.T_Rouge_Treasure_49",
     ModEquip = "Role",
@@ -967,9 +873,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10314] = {
     Desc = "RLTreasure_Desc_10314",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10314",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_50.T_Rouge_Treasure_50",
     ModEquip = "Role",
@@ -985,9 +889,7 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [10315] = {
     Desc = "RLTreasure_Desc_10315",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10315",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_51.T_Rouge_Treasure_51",
     ModEquip = "Role",
@@ -1004,9 +906,7 @@ return ReadOnly("RougeLikeTreasure", {
   [10316] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_10316",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_10316",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_54.T_Rouge_Treasure_54",
     ModEquip = "Role",
@@ -1025,9 +925,7 @@ return ReadOnly("RougeLikeTreasure", {
   [11101] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_11101",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_11101",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_34.T_Rouge_Treasure_34",
     ModEquip = "Role",
@@ -1046,9 +944,7 @@ return ReadOnly("RougeLikeTreasure", {
   [11201] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_11201",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_11201",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_33.T_Rouge_Treasure_33",
     ModEquip = "Role",
@@ -1066,17 +962,13 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [12101] = {
     Desc = "RLTreasure_Desc_12101",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_12101",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_35.T_Rouge_Treasure_35",
     Name = "RLTreasure_Name_12101",
     RLArchiveId = 42,
     ServerBuild = {
-      [1] = {
-        49
-      },
+      [1] = 49,
       [2] = {30},
       [3] = {31}
     },
@@ -1094,17 +986,13 @@ return ReadOnly("RougeLikeTreasure", {
   },
   [12102] = {
     Desc = "RLTreasure_Desc_12102",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_12102",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_36.T_Rouge_Treasure_36",
     Name = "RLTreasure_Name_12102",
     RLArchiveId = 43,
     ServerBuild = {
-      [1] = {
-        49
-      },
+      [1] = 49,
       [2] = {28},
       [3] = {29}
     },
@@ -1123,18 +1011,14 @@ return ReadOnly("RougeLikeTreasure", {
   [12201] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_12201",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_12201",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_37.T_Rouge_Treasure_37",
     ModEquip = "Role",
     Name = "RLTreasure_Name_12201",
     RLArchiveId = 44,
     ServerBuild = {
-      [1] = {
-        49
-      },
+      [1] = 49,
       [2] = {50},
       [3] = {33}
     },
@@ -1155,9 +1039,7 @@ return ReadOnly("RougeLikeTreasure", {
   [13101] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_13101",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_13101",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_38.T_Rouge_Treasure_38",
     ModEquip = "Role",
@@ -1176,9 +1058,7 @@ return ReadOnly("RougeLikeTreasure", {
   [13102] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_13102",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_13102",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_39.T_Rouge_Treasure_39",
     ModEquip = "Role",
@@ -1197,9 +1077,7 @@ return ReadOnly("RougeLikeTreasure", {
   [13103] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_13103",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_13103",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_40.T_Rouge_Treasure_40",
     ModEquip = "Role",
@@ -1218,9 +1096,7 @@ return ReadOnly("RougeLikeTreasure", {
   [13104] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_13104",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_13104",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_41.T_Rouge_Treasure_41",
     ModEquip = "Role",
@@ -1239,9 +1115,7 @@ return ReadOnly("RougeLikeTreasure", {
   [14101] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_14101",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_14101",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_42.T_Rouge_Treasure_42",
     ModEquip = "Role",
@@ -1260,9 +1134,7 @@ return ReadOnly("RougeLikeTreasure", {
   [14201] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_14201",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_14201",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_43.T_Rouge_Treasure_43",
     ModEquip = "Role",
@@ -1281,9 +1153,7 @@ return ReadOnly("RougeLikeTreasure", {
   [14202] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_14202",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_14202",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_44.T_Rouge_Treasure_44",
     ModEquip = "Role",
@@ -1302,9 +1172,7 @@ return ReadOnly("RougeLikeTreasure", {
   [14301] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_14301",
-    EndPoints = {
-      40
-    },
+    EndPoints = 40,
     IPDesc = "RLTreasure_IPDesc_14301",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_45.T_Rouge_Treasure_45",
     ModEquip = "Role",
@@ -1323,9 +1191,7 @@ return ReadOnly("RougeLikeTreasure", {
   [15101] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_15101",
-    EndPoints = {
-      10
-    },
+    EndPoints = 10,
     IPDesc = "RLTreasure_IPDesc_15101",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_53.T_Rouge_Treasure_53",
     ModEquip = "Role",
@@ -1344,9 +1210,7 @@ return ReadOnly("RougeLikeTreasure", {
   [15201] = {
     CanSell = 1,
     Desc = "RLTreasure_Desc_15201",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     IPDesc = "RLTreasure_IPDesc_15201",
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_Treasure_52.T_Rouge_Treasure_52",
     ModEquip = "Role",

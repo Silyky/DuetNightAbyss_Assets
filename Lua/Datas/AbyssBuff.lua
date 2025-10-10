@@ -29,13 +29,9 @@ return ReadOnly("AbyssBuff", {
     GlobalPassiveLv = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Abyss/T_Abyss_Buff_Mon_Survive02.T_Abyss_Buff_Mon_Survive02",
     MonsterBuff = {
-      BuffList = {
-        2010201
-      }
+      BuffList = 2010201
     },
-    MonsterBuffLayer = {
-      80
-    }
+    MonsterBuffLayer = 80
   },
   [30] = {
     AbyssBuffDes = "Buff_Content_30",
@@ -82,13 +78,9 @@ return ReadOnly("AbyssBuff", {
     GlobalPassiveLv = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Abyss/T_Abyss_Buff_Mon_Survive02.T_Abyss_Buff_Mon_Survive02",
     MonsterBuff = {
-      BuffList = {
-        2010201
-      }
+      BuffList = 2010201
     },
-    MonsterBuffLayer = {
-      80
-    }
+    MonsterBuffLayer = 80
   },
   [202] = {
     AbyssBuffDes = "Buff_Content_202",
@@ -106,9 +98,7 @@ return ReadOnly("AbyssBuff", {
     MonsterBuff = {
       BuffList = {2010202}
     },
-    MonsterBuffLayer = {
-      40
-    }
+    MonsterBuffLayer = 40
   },
   [203] = {
     AbyssBuffDes = "Buff_Content_203",
@@ -126,9 +116,7 @@ return ReadOnly("AbyssBuff", {
     MonsterBuff = {
       BuffList = {2010203}
     },
-    MonsterBuffLayer = {
-      40
-    }
+    MonsterBuffLayer = 40
   },
   [211] = {
     AbyssBuffDes = "Buff_Content_211",
@@ -143,9 +131,7 @@ return ReadOnly("AbyssBuff", {
     MonsterBuff = {
       BuffList = {2010211}
     },
-    MonsterBuffLayer = {
-      1
-    }
+    MonsterBuffLayer = 1
   },
   [301] = {
     AbyssBuffDes = "Buff_Content_301",
@@ -231,9 +217,7 @@ return ReadOnly("AbyssBuff", {
     MonsterBuff = {
       BuffList = {2010402}
     },
-    MonsterBuffLayer = {
-      1
-    }
+    MonsterBuffLayer = 1
   },
   [511] = {
     AbyssBuffDes = "Buff_Content_511",

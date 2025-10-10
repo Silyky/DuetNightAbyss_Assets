@@ -2658,9 +2658,7 @@ return ReadOnly("PetBreak", {
   [4211] = {
     [0] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4211
-      },
+      ConsumePetId = 4211,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2671,9 +2669,7 @@ return ReadOnly("PetBreak", {
     },
     [1] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4211
-      },
+      ConsumePetId = 4211,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2684,9 +2680,7 @@ return ReadOnly("PetBreak", {
     },
     [2] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4211
-      },
+      ConsumePetId = 4211,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2708,9 +2702,7 @@ return ReadOnly("PetBreak", {
   [4221] = {
     [0] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4221
-      },
+      ConsumePetId = 4221,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2721,9 +2713,7 @@ return ReadOnly("PetBreak", {
     },
     [1] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4221
-      },
+      ConsumePetId = 4221,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2734,9 +2724,7 @@ return ReadOnly("PetBreak", {
     },
     [2] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4221
-      },
+      ConsumePetId = 4221,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2758,9 +2746,7 @@ return ReadOnly("PetBreak", {
   [4231] = {
     [0] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4231
-      },
+      ConsumePetId = 4231,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2771,9 +2757,7 @@ return ReadOnly("PetBreak", {
     },
     [1] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4231
-      },
+      ConsumePetId = 4231,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2784,9 +2768,7 @@ return ReadOnly("PetBreak", {
     },
     [2] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4231
-      },
+      ConsumePetId = 4231,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2808,9 +2790,7 @@ return ReadOnly("PetBreak", {
   [4241] = {
     [0] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4241
-      },
+      ConsumePetId = 4241,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2821,9 +2801,7 @@ return ReadOnly("PetBreak", {
     },
     [1] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4241
-      },
+      ConsumePetId = 4241,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2834,9 +2812,7 @@ return ReadOnly("PetBreak", {
     },
     [2] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4241
-      },
+      ConsumePetId = 4241,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2858,9 +2834,7 @@ return ReadOnly("PetBreak", {
   [4251] = {
     [0] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4251
-      },
+      ConsumePetId = 4251,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2871,9 +2845,7 @@ return ReadOnly("PetBreak", {
     },
     [1] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4251
-      },
+      ConsumePetId = 4251,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2884,9 +2856,7 @@ return ReadOnly("PetBreak", {
     },
     [2] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4251
-      },
+      ConsumePetId = 4251,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2908,9 +2878,7 @@ return ReadOnly("PetBreak", {
   [4261] = {
     [0] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4261
-      },
+      ConsumePetId = 4261,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2921,9 +2889,7 @@ return ReadOnly("PetBreak", {
     },
     [1] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4261
-      },
+      ConsumePetId = 4261,
       ConsumeResource = {
         [3007] = 1
       },
@@ -2934,9 +2900,7 @@ return ReadOnly("PetBreak", {
     },
     [2] = {
       CollectRewardExp = 50,
-      ConsumePetId = {
-        4261
-      },
+      ConsumePetId = 4261,
       ConsumeResource = {
         [3007] = 1
       },

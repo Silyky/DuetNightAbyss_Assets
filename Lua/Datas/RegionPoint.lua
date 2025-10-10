@@ -21,9 +21,7 @@ return ReadOnly("RegionPoint", {
       -3172, -5484
     },
     SubRegion = 101101,
-    TargetSubRegion = {
-      101107
-    },
+    TargetSubRegion = 101107,
     TelepointId = 1011,
     TeleportPointPos = 16,
     TeleportSubRegion = 101101,
@@ -114,9 +112,7 @@ return ReadOnly("RegionPoint", {
     Name = "UI_SUBREGION_NAME_101108",
     Pos = {-39499, 2240},
     SubRegion = 101103,
-    TargetSubRegion = {
-      101108
-    },
+    TargetSubRegion = 101108,
     TelepointId = 1010,
     TeleportPointPos = 16,
     TeleportSubRegion = 101103,
@@ -155,9 +151,7 @@ return ReadOnly("RegionPoint", {
     Name = "UI_SUBREGION_NAME_101108",
     Pos = {-39990, 6541},
     SubRegion = 101103,
-    TargetSubRegion = {
-      101108
-    },
+    TargetSubRegion = 101108,
     TelepointId = 1010,
     TeleportPointPos = 38,
     TeleportSubRegion = 101103,
@@ -246,9 +240,7 @@ return ReadOnly("RegionPoint", {
     },
     SingleCreate = true,
     SubRegion = 101101,
-    TargetSubRegion = {
-      101107
-    },
+    TargetSubRegion = 101107,
     TelepointId = 1011,
     TeleportPointPos = 2,
     TeleportSubRegion = 101107

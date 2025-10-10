@@ -13,9 +13,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/DaJie.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590179,
@@ -35,9 +33,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/DaJie.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590179,
@@ -57,9 +53,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/Save.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590147,
@@ -79,9 +73,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/Save.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590147,
@@ -101,9 +93,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/MuTong.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590152,
@@ -123,9 +113,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/MuTong.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590152,
@@ -145,9 +133,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/Grass.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590158,
@@ -167,9 +153,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/Grass.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590158,
@@ -189,9 +173,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Huishoulaixi.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570091,
@@ -211,9 +193,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Huishoulaixi.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570091,
@@ -233,9 +213,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Huishoulaixi.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570091,
@@ -256,9 +234,7 @@ return ReadOnly("DynQuest", {
     DynQuestId = 100600,
     FailTriggerBoxID = 1190452,
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Cat_Special.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190405,
@@ -282,9 +258,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Cat.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190405,
@@ -308,9 +282,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Cat.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190405,
@@ -334,9 +306,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Cat.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190405,
@@ -360,9 +330,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Cat.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190405,
@@ -386,9 +354,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\StealCar.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190546,
@@ -412,9 +378,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\StealCar.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190546,
@@ -438,9 +402,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\StealCar.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190546,
@@ -464,9 +426,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\StealCar.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190546,
@@ -490,9 +450,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\StealCar.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190546,
@@ -516,9 +474,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\StealCar.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190546,
@@ -538,9 +494,7 @@ return ReadOnly("DynQuest", {
       1, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Trafficway\Save.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180347,
@@ -564,9 +518,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Shouyuerendeyichan.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180420,
@@ -590,9 +542,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Shouyuerendeyichan.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180420,
@@ -616,9 +566,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Shouyuerendeyichan.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180420,
@@ -642,9 +590,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Shouyuerendeyichan.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180420,
@@ -668,9 +614,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Shouyuerendeyichan.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180420,
@@ -694,9 +638,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Shouyuerendeyichan.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180420,
@@ -720,9 +662,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Daomaidaomai.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180414,
@@ -746,9 +686,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\Trafficway\Daomaidaomai.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180414,
@@ -768,9 +706,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\KuangKeng\DaJie.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270067,
@@ -790,9 +726,7 @@ return ReadOnly("DynQuest", {
       1, 65
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Heitaodehuiyi.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570096,
@@ -812,9 +746,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Icelake\DaJie.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240322,
@@ -834,9 +766,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/Huishoulaixi.story",
     SubRegionId = 101303,
     TriggerBoxID = 1310057,
@@ -856,9 +786,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Huishoulaixi.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720179,
@@ -878,9 +806,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/DaJie.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720182,
@@ -904,9 +830,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Trafficway/Protectwuzi.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180495,
@@ -930,9 +854,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Trafficway/Protectwuzi.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180495,
@@ -956,9 +878,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Trafficway/Protectwuzi.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180495,
@@ -982,9 +902,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Trafficway/Protectwuzi.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180495,
@@ -1004,9 +922,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Trafficway/Elevator.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180512,
@@ -1026,9 +942,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Icelake\DaJie2.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240335,
@@ -1052,9 +966,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Chenhuodajie.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190860,
@@ -1078,9 +990,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Chenhuodajie.story",
     SubRegionId = 101103,
     TriggerBoxID = 1190860,
@@ -1100,9 +1010,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Yanluqingsao.story",
     SubRegionId = 102101,
     TriggerBoxID = 1640451,
@@ -1122,9 +1030,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Clouds/DaJie.story",
     SubRegionId = 100103,
     TriggerBoxID = 1580093,
@@ -1144,9 +1050,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Jiaojiaoxunbao.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570143,
@@ -1166,9 +1070,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Jiaojiaoxunbao.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570143,
@@ -1188,9 +1090,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Trafficway/Clearice.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180531,
@@ -1210,9 +1110,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Trafficway/Clearice.story",
     SubRegionId = 101103,
     TriggerBoxID = 1180531,
@@ -1236,9 +1134,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Lesuo.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190978,
@@ -1262,9 +1158,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Lesuo.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190978,
@@ -1288,9 +1182,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Lesuo.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190978,
@@ -1314,9 +1206,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Lesuo.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190978,
@@ -1340,9 +1230,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Jianshang.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190980,
@@ -1366,9 +1254,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Jianshang.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190980,
@@ -1388,9 +1274,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Jiaojiaoxunbao.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720676,
@@ -1410,9 +1294,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\IcelakeCity\Gaokong.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190502,
@@ -1432,9 +1314,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\IcelakeCity\Gaokong.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190502,
@@ -1454,9 +1334,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\IcelakeCity\Zhuomicang.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190499,
@@ -1476,9 +1354,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\IcelakeCity\Zhuomicang.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190499,
@@ -1498,9 +1374,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\IcelakeCity\Zhuomicang.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190499,
@@ -1524,9 +1398,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Fixmachine.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190713,
@@ -1550,9 +1422,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Fixmachine.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190713,
@@ -1576,9 +1446,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Fixmachine.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190713,
@@ -1602,9 +1470,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Fixmachine.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190713,
@@ -1628,9 +1494,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Fixmachine.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190713,
@@ -1654,9 +1518,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\IcelakeCity\Fixmachine.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190713,
@@ -1676,9 +1538,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Protectjiaojiao.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570102,
@@ -1698,9 +1558,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Balcony\Protectjiaojiao.story",
     SubRegionId = 100102,
     TriggerBoxID = 1570102,
@@ -1724,9 +1582,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Findcat.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190777,
@@ -1750,9 +1606,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/Findcat.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190777,
@@ -1772,9 +1626,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/Xiaoresearch.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240106,
@@ -1794,9 +1646,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Xunbao.story",
     SubRegionId = 101701,
     TriggerBoxID = 1730076,
@@ -1816,9 +1666,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Clouds/Cleanstone.story",
     SubRegionId = 100103,
     TriggerBoxID = 1580074,
@@ -1838,9 +1686,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/Clearstone.story",
     SubRegionId = 101305,
     TriggerBoxID = 1380042,
@@ -1860,9 +1706,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/Clearstone.story",
     SubRegionId = 101305,
     TriggerBoxID = 1380042,
@@ -1882,9 +1726,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/Protectjiaojiao.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240357,
@@ -1904,9 +1746,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Clouds/Feichuan.story",
     SubRegionId = 100103,
     TriggerBoxID = 1580096,
@@ -1926,9 +1766,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Village/Beach.story",
     SubRegionId = 100101,
     TriggerBoxID = 1590242,
@@ -1948,9 +1786,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/InBox.story",
     SubRegionId = 102101,
     TriggerBoxID = 1640462,
@@ -1970,9 +1806,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Icelake\Helpfisher.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240426,
@@ -1992,9 +1826,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\Icelake\Helpfisher.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240426,
@@ -2018,9 +1850,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/BuyFlower.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190987,
@@ -2044,9 +1874,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/IcelakeCity/BuyFlower.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190987,
@@ -2070,9 +1898,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1017,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Sew/FishDuju.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720436,
@@ -2096,9 +1922,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1017,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Sew/FishDuju.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720436,
@@ -2122,9 +1946,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1017,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Sew/FishDuju.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720436,
@@ -2148,9 +1970,7 @@ return ReadOnly("DynQuest", {
       1, 29
     },
     RegionId = 1017,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Sew/FishDuju.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720436,
@@ -2174,9 +1994,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1017,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Sew/FishDuju.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720436,
@@ -2200,9 +2018,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1017,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory/Sew/FishDuju.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720436,
@@ -2222,9 +2038,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/FishClear.story",
     SubRegionId = 101702,
     TriggerBoxID = 1730131,
@@ -2244,9 +2058,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/SaveFisher.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720482,
@@ -2270,9 +2082,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\GoldMiner.story",
     SubRegionId = 101303,
     TriggerBoxID = 1310115,
@@ -2296,9 +2106,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\GoldMiner.story",
     SubRegionId = 101303,
     TriggerBoxID = 1310115,
@@ -2322,9 +2130,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\GoldMiner.story",
     SubRegionId = 101303,
     TriggerBoxID = 1310115,
@@ -2348,9 +2154,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\GoldMiner.story",
     SubRegionId = 101303,
     TriggerBoxID = 1310115,
@@ -2376,9 +2180,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\Running.story",
     SubRegionId = 101304,
     TriggerBoxID = 1440136,
@@ -2404,9 +2206,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\Running.story",
     SubRegionId = 101304,
     TriggerBoxID = 1440136,
@@ -2432,9 +2232,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\Running.story",
     SubRegionId = 101304,
     TriggerBoxID = 1440136,
@@ -2458,9 +2256,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\Songhuo.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270169,
@@ -2484,9 +2280,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\Songhuo.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270169,
@@ -2510,9 +2304,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\Songhuo.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270169,
@@ -2536,9 +2328,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51004
-    },
+    Reward = 51004,
     StoryPath = "DynStory\KuangKeng\Songhuo.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270169,
@@ -2558,9 +2348,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/FisherMonster.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240474,
@@ -2580,9 +2368,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/FisherMonster.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240474,
@@ -2602,9 +2388,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/IceFish.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240481,
@@ -2624,9 +2408,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/IceFish.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240481,
@@ -2646,9 +2428,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Protectjiaojiao.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720629,
@@ -2668,9 +2448,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/IcelakeCity/Tuiyixunluo.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190760,
@@ -2690,9 +2468,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/IcelakeCity/Tuiyixunluo.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190760,
@@ -2712,9 +2488,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/IcelakeCity/Tuiyixunluo.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190760,
@@ -2734,9 +2508,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/IcelakeCity/Waisongjiaojiao.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190784,
@@ -2756,9 +2528,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/Testskill.story",
     SubRegionId = 101303,
     TriggerBoxID = 1310049,
@@ -2778,9 +2548,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/Protecttanceqi.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270077,
@@ -2800,9 +2568,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/Protecttanceqi.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270077,
@@ -2822,9 +2588,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Clearsew.story",
     SubRegionId = 101702,
     TriggerBoxID = 1730066,
@@ -2844,9 +2608,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Clearsew.story",
     SubRegionId = 101702,
     TriggerBoxID = 1730066,
@@ -2866,9 +2628,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/CollectOre.story",
     SubRegionId = 101304,
     TriggerBoxID = 1440113,
@@ -2888,9 +2648,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/KuangKeng/CollectOre.story",
     SubRegionId = 101304,
     TriggerBoxID = 1440113,
@@ -2910,9 +2668,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Decapitate.story",
     SubRegionId = 102101,
     TriggerBoxID = 1640311,
@@ -2932,9 +2688,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Decapitate.story",
     SubRegionId = 102101,
     TriggerBoxID = 1640311,
@@ -2954,9 +2708,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Huishou.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650293,
@@ -2976,9 +2728,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Huishou.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650293,
@@ -2998,9 +2748,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Huishou.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650293,
@@ -3022,9 +2770,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/Pet.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240331,
@@ -3044,9 +2790,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Fuji.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650432,
@@ -3066,9 +2810,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/Waisongjiaojiao.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240376,
@@ -3090,9 +2832,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1001,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Clouds/Pet.story",
     SubRegionId = 100103,
     TriggerBoxID = 1580131,
@@ -3114,9 +2854,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/FortPet.story",
     SubRegionId = 102101,
     TriggerBoxID = 1640454,
@@ -3136,9 +2874,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Battery.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650465,
@@ -3158,9 +2894,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Battery.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650465,
@@ -3180,9 +2914,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Xianjing.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650492,
@@ -3202,9 +2934,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1021,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Fort/Xianjing.story",
     SubRegionId = 102102,
     TriggerBoxID = 1650492,
@@ -3226,9 +2956,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/Pet2.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240449,
@@ -3248,9 +2976,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/IcelakeCity/TakePhoto.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190957,
@@ -3270,9 +2996,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/IcelakeCity/TakePhoto.story",
     SubRegionId = 101101,
     TriggerBoxID = 1190957,
@@ -3292,9 +3016,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/OldFisher.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240454,
@@ -3314,9 +3036,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1011,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Icelake/OldFisher.story",
     SubRegionId = 101103,
     TriggerBoxID = 1240454,
@@ -3338,9 +3058,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Pet.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720447,
@@ -3362,9 +3080,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\KuangKeng\Pet.story",
     SubRegionId = 101301,
     TriggerBoxID = 1270142,
@@ -3386,9 +3102,7 @@ return ReadOnly("DynQuest", {
       30, 39
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\KuangKeng\Pet2.story",
     SubRegionId = 101304,
     TriggerBoxID = 1440163,
@@ -3410,9 +3124,7 @@ return ReadOnly("DynQuest", {
       40, 49
     },
     RegionId = 1013,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory\KuangKeng\Pet2.story",
     SubRegionId = 101304,
     TriggerBoxID = 1440163,
@@ -3434,9 +3146,7 @@ return ReadOnly("DynQuest", {
       50, 59
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Pet2.story",
     SubRegionId = 101702,
     TriggerBoxID = 1730153,
@@ -3458,9 +3168,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Pet2.story",
     SubRegionId = 101702,
     TriggerBoxID = 1730153,
@@ -3480,9 +3188,7 @@ return ReadOnly("DynQuest", {
       60, 65
     },
     RegionId = 1017,
-    Reward = {
-      51003
-    },
+    Reward = 51003,
     StoryPath = "DynStory/Sew/Protecttanceqi.story",
     SubRegionId = 101701,
     TriggerBoxID = 1720659,

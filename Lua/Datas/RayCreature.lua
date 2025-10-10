@@ -5,17 +5,13 @@ return ReadOnly("RayCreature", {
     CreatureId = 110301,
     DamageSource = 1,
     EffectMultiple = false,
-    HitEnemy = {
-      110355
-    },
+    HitEnemy = 110355,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      110356
-    },
+    HitScene = 110356,
     LifeTime = 0.5,
     Radius = 50,
     RayFXID = 110301,
@@ -34,17 +30,13 @@ return ReadOnly("RayCreature", {
     CreatureId = 110311,
     DamageSource = 1,
     EffectMultiple = false,
-    HitEnemy = {
-      110355
-    },
+    HitEnemy = 110355,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      110356
-    },
+    HitScene = 110356,
     LifeTime = 0.5,
     Radius = 50,
     RayFXID = 110312,
@@ -228,17 +220,13 @@ return ReadOnly("RayCreature", {
     CreatureId = 2050611,
     EffectMultiple = true,
     FixDistanceByWeapon = true,
-    HitEnemy = {
-      2050631
-    },
+    HitEnemy = 2050631,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      2050632
-    },
+    HitScene = 2050632,
     LifeTime = 1,
     RayFXID = 2050401,
     RayLength = 2000,
@@ -257,17 +245,13 @@ return ReadOnly("RayCreature", {
     CreatureId = 2050612,
     EffectMultiple = true,
     FixDistanceByWeapon = true,
-    HitEnemy = {
-      2050631
-    },
+    HitEnemy = 2050631,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      2050632
-    },
+    HitScene = 2050632,
     LifeTime = 1,
     RayFXID = 2050401,
     RayLength = 2000,
@@ -286,17 +270,13 @@ return ReadOnly("RayCreature", {
     CreatureId = 2050613,
     EffectMultiple = true,
     FixDistanceByWeapon = true,
-    HitEnemy = {
-      2050631
-    },
+    HitEnemy = 2050631,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      2050632
-    },
+    HitScene = 2050632,
     LifeTime = 1,
     RayFXID = 2050401,
     RayLength = 2000,
@@ -315,17 +295,13 @@ return ReadOnly("RayCreature", {
     CreatureId = 2050614,
     EffectMultiple = true,
     FixDistanceByWeapon = true,
-    HitEnemy = {
-      2050631
-    },
+    HitEnemy = 2050631,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      2050632
-    },
+    HitScene = 2050632,
     LifeTime = 1,
     RayFXID = 2050401,
     RayLength = 2000,
@@ -344,17 +320,13 @@ return ReadOnly("RayCreature", {
     CreatureId = 4010104,
     DamageSource = 1,
     EffectMultiple = false,
-    HitEnemy = {
-      110355
-    },
+    HitEnemy = 110355,
     HitOthers = {
       0,
       0,
       1
     },
-    HitScene = {
-      110356
-    },
+    HitScene = 110356,
     LifeTime = 0.5,
     Radius = 50,
     RayFXID = 110301,

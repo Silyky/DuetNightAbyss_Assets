@@ -1,9 +1,7 @@
 return ReadOnly("FishingRod", {
   [101] = {
     AutoFishingLevel = 2,
-    EffectCreatureId = {
-      30101
-    },
+    EffectCreatureId = 30101,
     FishingRodId = 101,
     FishingRodLevel = 1,
     Length = 100,
@@ -14,9 +12,7 @@ return ReadOnly("FishingRod", {
   },
   [102] = {
     AutoFishingLevel = 3,
-    EffectCreatureId = {
-      30101
-    },
+    EffectCreatureId = 30101,
     FishingRodId = 102,
     FishingRodLevel = 3,
     Length = 120,
@@ -27,9 +23,7 @@ return ReadOnly("FishingRod", {
   },
   [103] = {
     AutoFishingLevel = 4,
-    EffectCreatureId = {
-      30101
-    },
+    EffectCreatureId = 30101,
     FishingRodId = 103,
     FishingRodLevel = 7,
     Length = 140,
@@ -40,9 +34,7 @@ return ReadOnly("FishingRod", {
   },
   [104] = {
     AutoFishingLevel = 5,
-    EffectCreatureId = {
-      30101
-    },
+    EffectCreatureId = 30101,
     FishingRodId = 104,
     FishingRodLevel = 12,
     Length = 160,
@@ -53,9 +45,7 @@ return ReadOnly("FishingRod", {
   },
   [105] = {
     AutoFishingLevel = 6,
-    EffectCreatureId = {
-      30101
-    },
+    EffectCreatureId = 30101,
     FishingRodId = 105,
     FishingRodLevel = 20,
     Length = 180,

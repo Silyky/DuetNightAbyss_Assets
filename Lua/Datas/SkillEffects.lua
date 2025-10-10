@@ -9703,9 +9703,7 @@ return ReadOnly("SkillEffects", {
       [4] = {
         Function = "AddBullet",
         TotalBullet = 1,
-        UltraWeapon = {
-          1
-        },
+        UltraWeapon = 1,
         Value = 9999
       },
       [5] = {
@@ -48920,9 +48918,7 @@ return ReadOnly("SkillEffects", {
         Function = "StartLoopShoot",
         LoopInterval = 0.35,
         LoopShootId = 20305,
-        SkillEffect = {
-          2030511
-        }
+        SkillEffect = 2030511
       }
     },
     TaskId = 2030514
@@ -48964,9 +48960,7 @@ return ReadOnly("SkillEffects", {
         Function = "UpdateLoopShoot",
         LoopInterval = 0.25,
         LoopShootId = 20305,
-        SkillEffect = {
-          2030511
-        }
+        SkillEffect = 2030511
       }
     },
     TaskId = 2030517
@@ -48980,9 +48974,7 @@ return ReadOnly("SkillEffects", {
         Function = "UpdateLoopShoot",
         LoopInterval = 0.15,
         LoopShootId = 20305,
-        SkillEffect = {
-          2030511
-        }
+        SkillEffect = 2030511
       }
     },
     TaskId = 2030518
@@ -48996,9 +48988,7 @@ return ReadOnly("SkillEffects", {
         Function = "UpdateLoopShoot",
         LoopInterval = 0.05,
         LoopShootId = 20305,
-        SkillEffect = {
-          2030511
-        }
+        SkillEffect = 2030511
       }
     },
     TaskId = 2030519
@@ -49626,9 +49616,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         Function = "StartHeavyCharge",
-        GradeInterval = {
-          1
-        },
+        GradeInterval = 1,
         HeavyChargeId = 20405,
         MaxGrade = 1
       },

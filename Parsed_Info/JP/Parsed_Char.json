@@ -430,7 +430,7 @@
           },
           {
             "Key": "「アダージョ」持続時間",
-            "Value": "8.0s"
+            "Value": "8s"
           },
           {
             "Key": "「アリア」SP消費",
@@ -446,7 +446,7 @@
           },
           {
             "Key": "「プレスト」持続時間",
-            "Value": "5.0s"
+            "Value": "5s"
           }
         ],
         "Resources": {
@@ -1008,7 +1008,7 @@
           },
           {
             "Key": "[サマエル]強化Lv.持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -1173,7 +1173,7 @@
           },
           {
             "Key": "「日食」攻撃力ダウン持続時間",
-            "Value": "3.0s"
+            "Value": "3s"
           },
           {
             "Key": "「月食」移動速度ダウン",
@@ -1181,7 +1181,7 @@
           },
           {
             "Key": "「月食」移動速度ダウン持続時間",
-            "Value": "3.0s"
+            "Value": "3s"
           }
         ],
         "Resources": {
@@ -1250,7 +1250,7 @@
           },
           {
             "Key": "「葬送」状態持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           },
           {
             "Key": "「葬送」状態のスキル範囲転換比率",
@@ -1480,7 +1480,7 @@
           },
           {
             "Key": "持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -1718,13 +1718,36 @@
         ]
       }
     ],
-    "Weapon": {
-      "WeaponName": "UI_WEAPON_NAME_150301",
-      "WeaponDescribe": "UI_WEAPON_DESC_150301",
-      "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
-      "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
-      "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
-    },
+    "Weapon": [
+      {
+        "WeaponName": "UI_WEAPON_NAME_150301",
+        "WeaponDescribe": "UI_WEAPON_DESC_150301",
+        "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
+      },
+      {
+        "WeaponName": "UI_WEAPON_NAME_150302",
+        "WeaponDescribe": "UI_WEAPON_DESC_150302",
+        "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
+      },
+      {
+        "WeaponName": "UI_WEAPON_NAME_150303",
+        "WeaponDescribe": "UI_WEAPON_DESC_150303",
+        "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
+      },
+      {
+        "WeaponName": "UI_WEAPON_NAME_150304",
+        "WeaponDescribe": "UI_WEAPON_DESC_150304",
+        "Icon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "BigIcon": "/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Baonu_WP.T_Bust_Baonu_WP",
+        "GachaIcon": "/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Broadsword_Baonu.T_Gacha_Broadsword_Baonu"
+      }
+    ],
     "Intron": [
       "「無常たる浮世」の「剣意」と「弦意」バフ倍率が0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.02%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.03%/0.04%/0.04%/0.04%/0.04%/0.04%アップする。\\n自身の20メートル以内に敵1体しかいない場合は、武器ダメージで転換された「剣意」は3点となる。\\n自身の20メートル以内に敵2体しかいない場合は、武器ダメージで転換された「弦意」は2点となる。",
       "ダメージを与えて追加効果を発動すると、自身のSPが2回復する。この効果は1秒ごとに最大1回発動可能。",
@@ -1945,7 +1968,7 @@
           },
           {
             "Key": "持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           },
           {
             "Key": "武器ダメージアップ",
@@ -2159,7 +2182,7 @@
           },
           {
             "Key": "移動速度ダウン持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -2240,7 +2263,7 @@
           },
           {
             "Key": "追加ダメージ持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -2309,7 +2332,7 @@
           },
           {
             "Key": "「夢に咲く花」持続時間",
-            "Value": "15.0s"
+            "Value": "15s"
           }
         ],
         "Resources": {
@@ -2462,7 +2485,7 @@
           },
           {
             "Key": "召喚ユニット持続時間",
-            "Value": "14.0s"
+            "Value": "14s"
           },
           {
             "Key": "召喚ユニットダメージ",
@@ -2604,7 +2627,7 @@
         "SkillParams": [
           {
             "Key": "「愛の毒」持続時間",
-            "Value": "6.0s"
+            "Value": "6s"
           },
           {
             "Key": "「愛の毒」ダメージ",
@@ -2950,7 +2973,7 @@
           },
           {
             "Key": "スキルダメージアップ効果持続時間",
-            "Value": "8.0s"
+            "Value": "8s"
           }
         ],
         "Resources": {
@@ -3019,7 +3042,7 @@
           },
           {
             "Key": "召喚ユニット持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -3088,7 +3111,7 @@
           },
           {
             "Key": "召喚ユニット持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -3240,7 +3263,7 @@
           },
           {
             "Key": "召喚ユニット持続時間",
-            "Value": "10.0s"
+            "Value": "10s"
           },
           {
             "Key": "召喚ユニット回復",
@@ -3329,7 +3352,7 @@
           },
           {
             "Key": "攻撃速度アップ効果持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           },
           {
             "Key": "「九針擁護」スキル威力アップ",
@@ -3341,7 +3364,7 @@
           },
           {
             "Key": "「九針擁護」持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -3557,7 +3580,7 @@
           },
           {
             "Key": "「裂傷」持続時間",
-            "Value": "8.0s"
+            "Value": "8s"
           },
           {
             "Key": "「裂傷」基本ダメージ",
@@ -3703,7 +3726,7 @@
         "SkillParams": [
           {
             "Key": "「火力制圧」持続時間",
-            "Value": "6.0s"
+            "Value": "6s"
           },
           {
             "Key": "各段階の与ダメージアップ",
@@ -3959,7 +3982,7 @@
           },
           {
             "Key": "「小型掃除機」持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           }
         ],
         "Resources": {
@@ -4239,7 +4262,7 @@
           },
           {
             "Key": "「悪夢の実験室」持続時間",
-            "Value": "15.0s"
+            "Value": "15s"
           },
           {
             "Key": "「悪夢の実験室」半径",
@@ -4468,7 +4491,7 @@
           },
           {
             "Key": "「審判」持続時間",
-            "Value": "15.0s"
+            "Value": "15s"
           },
           {
             "Key": "「審判」持続ダメージ",
@@ -4480,7 +4503,7 @@
           },
           {
             "Key": "「貫通の裁き」ダメージ",
-            "Value": "36.0% Max HP+/45.0% Max HP+/54.0% Max HP+/63.0% Max HP+/72.0% Max HP+/81.0% Max HP+/90.0% Max HP+/99.0% Max HP+/108.0% Max HP+/117.0% Max HP+/126.0% Max HP+/135.0% Max HP+/144.0% Max HP+/153.0% Max HP+/162.0% Max HP+/171.0% Max HP+/180.0% Max HP+/189.0% Max HP+/198.0% Max HP+/207.0% Max HP+128.0/155.0/182.0/209.0/236.0/263.0/290.0/317.0/344.0/371.0/398.0/425.0/452.0/479.0/506.0/533.0/560.0/587.0/614.0/641.0"
+            "Value": "36.0% Max HP+128/45.0% Max HP+155/54.0% Max HP+182/63.0% Max HP+209/72.0% Max HP+236/81.0% Max HP+263/90.0% Max HP+290/99.0% Max HP+317/108.0% Max HP+344/117.0% Max HP+371/126.0% Max HP+398/135.0% Max HP+425/144.0% Max HP+452/153.0% Max HP+479/162.0% Max HP+506/171.0% Max HP+533/180.0% Max HP+560/189.0% Max HP+587/198.0% Max HP+614/207.0% Max HP+641"
           },
           {
             "Key": "「貫通の裁き」ダメージ半径",
@@ -4488,7 +4511,7 @@
           },
           {
             "Key": "「審判」ダメージ持続時間延長",
-            "Value": "1.0s"
+            "Value": "1s"
           }
         ],
         "Resources": {
@@ -4553,7 +4576,7 @@
           },
           {
             "Key": "ダメージ",
-            "Value": "67.0% Max HP+/82.0% Max HP+/97.0% Max HP+/112.0% Max HP+/127.0% Max HP+/142.0% Max HP+/157.0% Max HP+/172.0% Max HP+/187.0% Max HP+/202.0% Max HP+/217.0% Max HP+/232.0% Max HP+/247.0% Max HP+/262.0% Max HP+/277.0% Max HP+/292.0% Max HP+/307.0% Max HP+/322.0% Max HP+/337.0% Max HP+/352.0% Max HP+110.0/133.0/156.0/179.0/202.0/225.0/248.0/271.0/294.0/317.0/340.0/363.0/386.0/409.0/432.0/455.0/478.0/501.0/524.0/547.0"
+            "Value": "67.0% Max HP+110/82.0% Max HP+133/97.0% Max HP+156/112.0% Max HP+179/127.0% Max HP+202/142.0% Max HP+225/157.0% Max HP+248/172.0% Max HP+271/187.0% Max HP+294/202.0% Max HP+317/217.0% Max HP+340/232.0% Max HP+363/247.0% Max HP+386/262.0% Max HP+409/277.0% Max HP+432/292.0% Max HP+455/307.0% Max HP+478/322.0% Max HP+501/337.0% Max HP+524/352.0% Max HP+547"
           },
           {
             "Key": "ダメージ半径",
@@ -4561,7 +4584,7 @@
           },
           {
             "Key": "挑発持続時間",
-            "Value": "5.0s"
+            "Value": "5s"
           }
         ],
         "Resources": {
@@ -4819,7 +4842,7 @@
           },
           {
             "Key": "[回転ダガー]継続時間",
-            "Value": "20.0s"
+            "Value": "20s"
           },
           {
             "Key": "【回転ダガー】のノックアップ飛行速度",
@@ -5035,7 +5058,7 @@
           },
           {
             "Key": "スタン持続時間",
-            "Value": "2.0s"
+            "Value": "2s"
           },
           {
             "Key": "最大攻撃目標数",
@@ -5128,7 +5151,7 @@
           },
           {
             "Key": "焼け跡持続時間",
-            "Value": "10.0s"
+            "Value": "10s"
           },
           {
             "Key": "追加ダメージ",
@@ -5348,7 +5371,7 @@
           },
           {
             "Key": "与ダメージアップ効果持続時間",
-            "Value": "9.0s"
+            "Value": "9s"
           }
         ],
         "Resources": {
@@ -5445,7 +5468,7 @@
           },
           {
             "Key": "「エレキテル」持続時間",
-            "Value": "6.0s"
+            "Value": "6s"
           }
         ],
         "Resources": {
@@ -5766,7 +5789,7 @@
           },
           {
             "Key": "「雷風四方陣」領域持続時間",
-            "Value": "24.0s"
+            "Value": "24s"
           },
           {
             "Key": "「雷風相和」ダメージ",
@@ -5790,7 +5813,7 @@
           },
           {
             "Key": "「天地照明」持続時間",
-            "Value": "24.0s"
+            "Value": "24s"
           }
         ],
         "Resources": {
@@ -6019,7 +6042,7 @@
           },
           {
             "Key": "与ダメージアップ効果持続時間",
-            "Value": "8.0s"
+            "Value": "8s"
           }
         ],
         "Resources": {
@@ -6165,7 +6188,7 @@
           },
           {
             "Key": "「激戦」持続時間",
-            "Value": "3.0s"
+            "Value": "3s"
           }
         ],
         "Resources": {
@@ -6313,7 +6336,7 @@
           },
           {
             "Key": "ダメージ",
-            "Value": "42.0%DEF+/50.0%DEF+/58.0%DEF+/66.0%DEF+/74.0%DEF+/82.0%DEF+/90.0%DEF+/98.0%DEF+/106.0%DEF+/114.0%DEF+/122.0%DEF+/130.0%DEF+/138.0%DEF+/146.0%DEF+/154.0%DEF+/162.0%DEF+/170.0%DEF+/178.0%DEF+/186.0%DEF+/194.0%DEF+17.0/22.0/27.0/32.0/37.0/42.0/47.0/52.0/57.0/62.0/67.0/72.0/77.0/82.0/87.0/92.0/97.0/102.0/107.0/112.0"
+            "Value": "42.0%DEF+17/50.0%DEF+22/58.0%DEF+27/66.0%DEF+32/74.0%DEF+37/82.0%DEF+42/90.0%DEF+47/98.0%DEF+52/106.0%DEF+57/114.0%DEF+62/122.0%DEF+67/130.0%DEF+72/138.0%DEF+77/146.0%DEF+82/154.0%DEF+87/162.0%DEF+92/170.0%DEF+97/178.0%DEF+102/186.0%DEF+107/194.0%DEF+112"
           },
           {
             "Key": "効果半径",
@@ -6390,7 +6413,7 @@
           },
           {
             "Key": "「インパクト」ダメージ",
-            "Value": "119.0%DEF+/144.0%DEF+/169.0%DEF+/194.0%DEF+/219.0%DEF+/244.0%DEF+/269.0%DEF+/294.0%DEF+/319.0%DEF+/344.0%DEF+/369.0%DEF+/394.0%DEF+/419.0%DEF+/444.0%DEF+/469.0%DEF+/494.0%DEF+/519.0%DEF+/544.0%DEF+/569.0%DEF+/594.0%DEF+30.0/37.0/44.0/51.0/58.0/65.0/72.0/79.0/86.0/93.0/100.0/107.0/114.0/121.0/128.0/135.0/142.0/149.0/156.0/163.0"
+            "Value": "119.0%DEF+30/144.0%DEF+37/169.0%DEF+44/194.0%DEF+51/219.0%DEF+58/244.0%DEF+65/269.0%DEF+72/294.0%DEF+79/319.0%DEF+86/344.0%DEF+93/369.0%DEF+100/394.0%DEF+107/419.0%DEF+114/444.0%DEF+121/469.0%DEF+128/494.0%DEF+135/519.0%DEF+142/544.0%DEF+149/569.0%DEF+156/594.0%DEF+163"
           },
           {
             "Key": "「インパクト」過負荷シールド",
@@ -6619,7 +6642,7 @@
           },
           {
             "Key": "「エクスディウム」ダメージ",
-            "Value": "29.0% Max HP+/34.0% Max HP+/39.0% Max HP+/44.0% Max HP+/49.0% Max HP+/54.0% Max HP+/59.0% Max HP+/64.0% Max HP+/69.0% Max HP+/74.0% Max HP+/79.0% Max HP+/84.0% Max HP+/89.0% Max HP+/94.0% Max HP+/99.0% Max HP+/104.0% Max HP+/109.0% Max HP+/114.0% Max HP+/119.0% Max HP+/124.0% Max HP+33.0/41.0/49.0/57.0/65.0/73.0/81.0/89.0/97.0/105.0/113.0/121.0/129.0/137.0/145.0/153.0/161.0/169.0/177.0/185.0"
+            "Value": "29.0% Max HP+33/34.0% Max HP+41/39.0% Max HP+49/44.0% Max HP+57/49.0% Max HP+65/54.0% Max HP+73/59.0% Max HP+81/64.0% Max HP+89/69.0% Max HP+97/74.0% Max HP+105/79.0% Max HP+113/84.0% Max HP+121/89.0% Max HP+129/94.0% Max HP+137/99.0% Max HP+145/104.0% Max HP+153/109.0% Max HP+161/114.0% Max HP+169/119.0% Max HP+177/124.0% Max HP+185"
           },
           {
             "Key": "「エクスディウム」索敵半径",
@@ -6627,7 +6650,7 @@
           },
           {
             "Key": "「軍団懲戒」ダメージ",
-            "Value": "21.0% Max HP+/25.0% Max HP+/29.0% Max HP+/33.0% Max HP+/37.0% Max HP+/41.0% Max HP+/45.0% Max HP+/49.0% Max HP+/53.0% Max HP+/57.0% Max HP+/61.0% Max HP+/65.0% Max HP+/69.0% Max HP+/73.0% Max HP+/77.0% Max HP+/81.0% Max HP+/85.0% Max HP+/89.0% Max HP+/93.0% Max HP+/97.0% Max HP+26.0/32.0/38.0/44.0/50.0/56.0/62.0/68.0/74.0/80.0/86.0/92.0/98.0/104.0/110.0/116.0/122.0/128.0/134.0/140.0"
+            "Value": "21.0% Max HP+26/25.0% Max HP+32/29.0% Max HP+38/33.0% Max HP+44/37.0% Max HP+50/41.0% Max HP+56/45.0% Max HP+62/49.0% Max HP+68/53.0% Max HP+74/57.0% Max HP+80/61.0% Max HP+86/65.0% Max HP+92/69.0% Max HP+98/73.0% Max HP+104/77.0% Max HP+110/81.0% Max HP+116/85.0% Max HP+122/89.0% Max HP+128/93.0% Max HP+134/97.0% Max HP+140"
           },
           {
             "Key": "「軍団懲戒」領域半径",
@@ -6700,7 +6723,7 @@
           },
           {
             "Key": "「サンダーボール」持続時間",
-            "Value": "30.0s"
+            "Value": "30s"
           },
           {
             "Key": "「サンダーボール」効果半径",
@@ -6708,11 +6731,11 @@
           },
           {
             "Key": "リンクダメージ",
-            "Value": "2.4% Max HP+/2.8% Max HP+/3.2% Max HP+/3.6% Max HP+/4.0% Max HP+/4.4% Max HP+/4.8% Max HP+/5.2% Max HP+/5.6% Max HP+/6.0% Max HP+/6.4% Max HP+/6.8% Max HP+/7.2% Max HP+/7.6% Max HP+/8.0% Max HP+/8.4% Max HP+/8.8% Max HP+/9.2% Max HP+/9.6% Max HP+/10.0% Max HP+6.0/7.0/8.0/9.0/10.0/11.0/12.0/13.0/14.0/15.0/16.0/17.0/18.0/19.0/20.0/21.0/22.0/23.0/24.0/25.0"
+            "Value": "2.4% Max HP+6/2.8% Max HP+7/3.2% Max HP+8/3.6% Max HP+9/4.0% Max HP+10/4.4% Max HP+11/4.8% Max HP+12/5.2% Max HP+13/5.6% Max HP+14/6.0% Max HP+15/6.4% Max HP+16/6.8% Max HP+17/7.2% Max HP+18/7.6% Max HP+19/8.0% Max HP+20/8.4% Max HP+21/8.8% Max HP+22/9.2% Max HP+23/9.6% Max HP+24/10.0% Max HP+25"
           },
           {
             "Key": "リンクダメージを強化",
-            "Value": "3.9% Max HP+/4.8% Max HP+/5.7% Max HP+/6.6% Max HP+/7.5% Max HP+/8.4% Max HP+/9.3% Max HP+/10.2% Max HP+/11.1% Max HP+/12.0% Max HP+/12.9% Max HP+/13.8% Max HP+/14.7% Max HP+/15.6% Max HP+/16.5% Max HP+/17.4% Max HP+/18.3% Max HP+/19.2% Max HP+/20.1% Max HP+/21.0% Max HP+8.0/11.0/14.0/17.0/20.0/23.0/26.0/29.0/32.0/35.0/38.0/41.0/44.0/47.0/50.0/53.0/56.0/59.0/62.0/65.0"
+            "Value": "3.9% Max HP+8/4.8% Max HP+11/5.7% Max HP+14/6.6% Max HP+17/7.5% Max HP+20/8.4% Max HP+23/9.3% Max HP+26/10.2% Max HP+29/11.1% Max HP+32/12.0% Max HP+35/12.9% Max HP+38/13.8% Max HP+41/14.7% Max HP+44/15.6% Max HP+47/16.5% Max HP+50/17.4% Max HP+53/18.3% Max HP+56/19.2% Max HP+59/20.1% Max HP+62/21.0% Max HP+65"
           },
           {
             "Key": "リンクダメージ伝達率",
@@ -6720,7 +6743,7 @@
           },
           {
             "Key": "「破滅の嵐」ダメージ",
-            "Value": "19.0% Max HP+/24.0% Max HP+/29.0% Max HP+/34.0% Max HP+/39.0% Max HP+/44.0% Max HP+/49.0% Max HP+/54.0% Max HP+/59.0% Max HP+/64.0% Max HP+/69.0% Max HP+/74.0% Max HP+/79.0% Max HP+/84.0% Max HP+/89.0% Max HP+/94.0% Max HP+/99.0% Max HP+/104.0% Max HP+/109.0% Max HP+/114.0% Max HP+59.0/73.0/87.0/101.0/115.0/129.0/143.0/157.0/171.0/185.0/199.0/213.0/227.0/241.0/255.0/269.0/283.0/297.0/311.0/325.0"
+            "Value": "19.0% Max HP+59/24.0% Max HP+73/29.0% Max HP+87/34.0% Max HP+101/39.0% Max HP+115/44.0% Max HP+129/49.0% Max HP+143/54.0% Max HP+157/59.0% Max HP+171/64.0% Max HP+185/69.0% Max HP+199/74.0% Max HP+213/79.0% Max HP+227/84.0% Max HP+241/89.0% Max HP+255/94.0% Max HP+269/99.0% Max HP+283/104.0% Max HP+297/109.0% Max HP+311/114.0% Max HP+325"
           },
           {
             "Key": "「破滅の嵐」ダメージ半径",
@@ -6789,7 +6812,7 @@
         "SkillParams": [
           {
             "Key": "「雷霆万鈞」を獲得",
-            "Value": "6.0/7.0/8.0/9.0/10.0/11.0/12.0/13.0/14.0/15.0/16.0/17.0/18.0/19.0/20.0/21.0/22.0/23.0/24.0/25.0"
+            "Value": "6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25"
           }
         ],
         "Resources": {
@@ -6941,11 +6964,11 @@
           },
           {
             "Key": "進路ダメージ",
-            "Value": "14.0% Max HP+/18.0% Max HP+/22.0% Max HP+/26.0% Max HP+/30.0% Max HP+/34.0% Max HP+/38.0% Max HP+/42.0% Max HP+/46.0% Max HP+/50.0% Max HP+/54.0% Max HP+/58.0% Max HP+/62.0% Max HP+/66.0% Max HP+/70.0% Max HP+/74.0% Max HP+/78.0% Max HP+/82.0% Max HP+/86.0% Max HP+/90.0% Max HP+15.0/19.0/23.0/27.0/31.0/35.0/39.0/43.0/47.0/51.0/55.0/59.0/63.0/67.0/71.0/75.0/79.0/83.0/87.0/91.0"
+            "Value": "14.0% Max HP+15/18.0% Max HP+19/22.0% Max HP+23/26.0% Max HP+27/30.0% Max HP+31/34.0% Max HP+35/38.0% Max HP+39/42.0% Max HP+43/46.0% Max HP+47/50.0% Max HP+51/54.0% Max HP+55/58.0% Max HP+59/62.0% Max HP+63/66.0% Max HP+67/70.0% Max HP+71/74.0% Max HP+75/78.0% Max HP+79/82.0% Max HP+83/86.0% Max HP+87/90.0% Max HP+91"
           },
           {
             "Key": "着弾点ダメージ",
-            "Value": "14.0% Max HP+/18.0% Max HP+/22.0% Max HP+/26.0% Max HP+/30.0% Max HP+/34.0% Max HP+/38.0% Max HP+/42.0% Max HP+/46.0% Max HP+/50.0% Max HP+/54.0% Max HP+/58.0% Max HP+/62.0% Max HP+/66.0% Max HP+/70.0% Max HP+/74.0% Max HP+/78.0% Max HP+/82.0% Max HP+/86.0% Max HP+/90.0% Max HP+15.0/19.0/23.0/27.0/31.0/35.0/39.0/43.0/47.0/51.0/55.0/59.0/63.0/67.0/71.0/75.0/79.0/83.0/87.0/91.0"
+            "Value": "14.0% Max HP+15/18.0% Max HP+19/22.0% Max HP+23/26.0% Max HP+27/30.0% Max HP+31/34.0% Max HP+35/38.0% Max HP+39/42.0% Max HP+43/46.0% Max HP+47/50.0% Max HP+51/54.0% Max HP+55/58.0% Max HP+59/62.0% Max HP+63/66.0% Max HP+67/70.0% Max HP+71/74.0% Max HP+75/78.0% Max HP+79/82.0% Max HP+83/86.0% Max HP+87/90.0% Max HP+91"
           },
           {
             "Key": "着弾点ダメージ半径",
@@ -6961,7 +6984,7 @@
           },
           {
             "Key": "与ダメージアップ効果持続時間",
-            "Value": "6.0s"
+            "Value": "6s"
           },
           {
             "Key": "ブーブークラッシュ毎秒SP消費",
@@ -6969,7 +6992,7 @@
           },
           {
             "Key": "ブーブークラッシュ着点ダメ",
-            "Value": "119.0% Max HP+/146.0% Max HP+/173.0% Max HP+/200.0% Max HP+/227.0% Max HP+/254.0% Max HP+/281.0% Max HP+/308.0% Max HP+/335.0% Max HP+/362.0% Max HP+/389.0% Max HP+/416.0% Max HP+/443.0% Max HP+/470.0% Max HP+/497.0% Max HP+/524.0% Max HP+/551.0% Max HP+/578.0% Max HP+/605.0% Max HP+/632.0% Max HP+125.0/152.0/179.0/206.0/233.0/260.0/287.0/314.0/341.0/368.0/395.0/422.0/449.0/476.0/503.0/530.0/557.0/584.0/611.0/638.0"
+            "Value": "119.0% Max HP+125/146.0% Max HP+152/173.0% Max HP+179/200.0% Max HP+206/227.0% Max HP+233/254.0% Max HP+260/281.0% Max HP+287/308.0% Max HP+314/335.0% Max HP+341/362.0% Max HP+368/389.0% Max HP+395/416.0% Max HP+422/443.0% Max HP+449/470.0% Max HP+476/497.0% Max HP+503/524.0% Max HP+530/551.0% Max HP+557/578.0% Max HP+584/605.0% Max HP+611/632.0% Max HP+638"
           },
           {
             "Key": "ブーブークラッシュ着点ダメ半径",
@@ -7038,19 +7061,19 @@
           },
           {
             "Key": "進路ダメージ",
-            "Value": "119.0% Max HP+/146.0% Max HP+/173.0% Max HP+/200.0% Max HP+/227.0% Max HP+/254.0% Max HP+/281.0% Max HP+/308.0% Max HP+/335.0% Max HP+/362.0% Max HP+/389.0% Max HP+/416.0% Max HP+/443.0% Max HP+/470.0% Max HP+/497.0% Max HP+/524.0% Max HP+/551.0% Max HP+/578.0% Max HP+/605.0% Max HP+/632.0% Max HP+125.0/152.0/179.0/206.0/233.0/260.0/287.0/314.0/341.0/368.0/395.0/422.0/449.0/476.0/503.0/530.0/557.0/584.0/611.0/638.0"
+            "Value": "119.0% Max HP+125/146.0% Max HP+152/173.0% Max HP+179/200.0% Max HP+206/227.0% Max HP+233/254.0% Max HP+260/281.0% Max HP+287/308.0% Max HP+314/335.0% Max HP+341/362.0% Max HP+368/389.0% Max HP+395/416.0% Max HP+422/443.0% Max HP+449/470.0% Max HP+476/497.0% Max HP+503/524.0% Max HP+530/551.0% Max HP+557/578.0% Max HP+584/605.0% Max HP+611/632.0% Max HP+638"
           },
           {
             "Key": "騎乗1段攻撃ダメージ",
-            "Value": "126.0% Max HP+/155.0% Max HP+/184.0% Max HP+/213.0% Max HP+/242.0% Max HP+/271.0% Max HP+/300.0% Max HP+/329.0% Max HP+/358.0% Max HP+/387.0% Max HP+/416.0% Max HP+/445.0% Max HP+/474.0% Max HP+/503.0% Max HP+/532.0% Max HP+/561.0% Max HP+/590.0% Max HP+/619.0% Max HP+/648.0% Max HP+/677.0% Max HP+132.0/161.0/190.0/219.0/248.0/277.0/306.0/335.0/364.0/393.0/422.0/451.0/480.0/509.0/538.0/567.0/596.0/625.0/654.0/683.0"
+            "Value": "126.0% Max HP+132/155.0% Max HP+161/184.0% Max HP+190/213.0% Max HP+219/242.0% Max HP+248/271.0% Max HP+277/300.0% Max HP+306/329.0% Max HP+335/358.0% Max HP+364/387.0% Max HP+393/416.0% Max HP+422/445.0% Max HP+451/474.0% Max HP+480/503.0% Max HP+509/532.0% Max HP+538/561.0% Max HP+567/590.0% Max HP+596/619.0% Max HP+625/648.0% Max HP+654/677.0% Max HP+683"
           },
           {
             "Key": "騎乗2段攻撃ダメージ",
-            "Value": "158.0% Max HP+/193.0% Max HP+/228.0% Max HP+/263.0% Max HP+/298.0% Max HP+/333.0% Max HP+/368.0% Max HP+/403.0% Max HP+/438.0% Max HP+/473.0% Max HP+/508.0% Max HP+/543.0% Max HP+/578.0% Max HP+/613.0% Max HP+/648.0% Max HP+/683.0% Max HP+/718.0% Max HP+/753.0% Max HP+/788.0% Max HP+/823.0% Max HP+156.0/192.0/228.0/264.0/300.0/336.0/372.0/408.0/444.0/480.0/516.0/552.0/588.0/624.0/660.0/696.0/732.0/768.0/804.0/840.0"
+            "Value": "158.0% Max HP+156/193.0% Max HP+192/228.0% Max HP+228/263.0% Max HP+264/298.0% Max HP+300/333.0% Max HP+336/368.0% Max HP+372/403.0% Max HP+408/438.0% Max HP+444/473.0% Max HP+480/508.0% Max HP+516/543.0% Max HP+552/578.0% Max HP+588/613.0% Max HP+624/648.0% Max HP+660/683.0% Max HP+696/718.0% Max HP+732/753.0% Max HP+768/788.0% Max HP+804/823.0% Max HP+840"
           },
           {
             "Key": "騎乗落下攻撃ダメージ",
-            "Value": "122.0% Max HP+/150.0% Max HP+/178.0% Max HP+/206.0% Max HP+/234.0% Max HP+/262.0% Max HP+/290.0% Max HP+/318.0% Max HP+/346.0% Max HP+/374.0% Max HP+/402.0% Max HP+/430.0% Max HP+/458.0% Max HP+/486.0% Max HP+/514.0% Max HP+/542.0% Max HP+/570.0% Max HP+/598.0% Max HP+/626.0% Max HP+/654.0% Max HP+128.0/156.0/184.0/212.0/240.0/268.0/296.0/324.0/352.0/380.0/408.0/436.0/464.0/492.0/520.0/548.0/576.0/604.0/632.0/660.0"
+            "Value": "122.0% Max HP+128/150.0% Max HP+156/178.0% Max HP+184/206.0% Max HP+212/234.0% Max HP+240/262.0% Max HP+268/290.0% Max HP+296/318.0% Max HP+324/346.0% Max HP+352/374.0% Max HP+380/402.0% Max HP+408/430.0% Max HP+436/458.0% Max HP+464/486.0% Max HP+492/514.0% Max HP+520/542.0% Max HP+548/570.0% Max HP+576/598.0% Max HP+604/626.0% Max HP+632/654.0% Max HP+660"
           }
         ],
         "Resources": {
@@ -7119,7 +7142,7 @@
           },
           {
             "Key": "持続時間",
-            "Value": "18.0s"
+            "Value": "18s"
           }
         ],
         "Resources": {
@@ -7265,7 +7288,7 @@
           },
           {
             "Key": "「潜行」持続時間",
-            "Value": "7.0s/8.0s/9.0s/10.0s/11.0s/12.0s/13.0s/14.0s/15.0s/16.0s/17.0s/18.0s/19.0s/20.0s/21.0s/22.0s/23.0s/24.0s/25.0s/26.0s"
+            "Value": "7s/8s/9s/10s/11s/12s/13s/14s/15s/16s/17s/18s/19s/20s/21s/22s/23s/24s/25s/26s"
           }
         ],
         "Resources": {
@@ -7330,15 +7353,15 @@
           },
           {
             "Key": "「狩猟」持続時間",
-            "Value": "5.0s"
+            "Value": "5s"
           },
           {
             "Key": "1本の「ファングスラスト」で延長する「狩猟」持続時間",
-            "Value": "2.0s"
+            "Value": "2s"
           },
           {
             "Key": "「狩猟」持続時間延長上限",
-            "Value": "50.0s"
+            "Value": "50s"
           },
           {
             "Key": "1本の「ファングスラスト」によって失うHP",
@@ -7415,7 +7438,7 @@
           },
           {
             "Key": "「喉切り」持続時間",
-            "Value": "15.0s"
+            "Value": "15s"
           },
           {
             "Key": "「ファングスラスト」与ダメージ",
@@ -7601,7 +7624,7 @@
           },
           {
             "Key": "「鱗粉の烙印」持続時間",
-            "Value": "10.0s"
+            "Value": "10s"
           }
         ],
         "Resources": {
@@ -7682,7 +7705,7 @@
           },
           {
             "Key": "過負荷シールド変換率",
-            "Value": "150%"
+            "Value": "150.0%"
           }
         ],
         "Resources": {
@@ -7755,7 +7778,7 @@
           },
           {
             "Key": "持続時間",
-            "Value": "10.0s"
+            "Value": "10s"
           },
           {
             "Key": "1バフ効果ごとの与ダメージアップ",
@@ -7913,7 +7936,7 @@
           },
           {
             "Key": "持続時間",
-            "Value": "15.0s"
+            "Value": "15s"
           },
           {
             "Key": "効果半径",
@@ -7986,7 +8009,7 @@
           },
           {
             "Key": "「活性処方」持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           },
           {
             "Key": "追加ダメージ倍率",
@@ -7998,7 +8021,7 @@
           },
           {
             "Key": "「腐蝕処方」持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           },
           {
             "Key": "持続ダメージ",
@@ -8010,7 +8033,7 @@
           },
           {
             "Key": "束縛の持続時間",
-            "Value": "3.0s"
+            "Value": "3s"
           }
         ],
         "Resources": {
@@ -8277,7 +8300,7 @@
           },
           {
             "Key": "持続時間",
-            "Value": "12.0s"
+            "Value": "12s"
           },
           {
             "Key": "武器ダメージアップ",

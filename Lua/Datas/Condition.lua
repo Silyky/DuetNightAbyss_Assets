@@ -124,9 +124,7 @@ return ReadOnly("Condition", {
     ConditionId = 25,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100201
-      }
+      QuestChain = 100201
     },
     Remark = "区域地图回到据点按钮解锁条件"
   },
@@ -134,9 +132,7 @@ return ReadOnly("Condition", {
     ConditionId = 26,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100103
-      }
+      QuestChain = 100103
     },
     Remark = "大地图科赛托斯地图解锁"
   },
@@ -144,9 +140,7 @@ return ReadOnly("Condition", {
     ConditionId = 27,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100201
-      }
+      QuestChain = 100201
     },
     Remark = "区域地图据点界面解锁"
   },
@@ -154,12 +148,8 @@ return ReadOnly("Condition", {
     ConditionId = 30,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100103
     },
     Remark = "区域地图印象系统解锁条件"
   },
@@ -167,9 +157,7 @@ return ReadOnly("Condition", {
     ConditionId = 31,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100101
-      }
+      QuestChain = 100101
     },
     Remark = "酒馆解锁条件"
   },
@@ -207,9 +195,7 @@ return ReadOnly("Condition", {
     ConditionId = 101,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      }
+      PlayerLevelMin = 1
     },
     ConditionText = "Condition_Toast_PlayerLv_1",
     Remark = "解锁玩家等级1"
@@ -218,9 +204,7 @@ return ReadOnly("Condition", {
     ConditionId = 102,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        2
-      }
+      PlayerLevelMin = 2
     },
     ConditionText = "Condition_Toast_PlayerLv_2",
     Remark = "解锁玩家等级2"
@@ -229,9 +213,7 @@ return ReadOnly("Condition", {
     ConditionId = 103,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        3
-      }
+      PlayerLevelMin = 3
     },
     ConditionText = "Condition_Toast_PlayerLv_3",
     Remark = "解锁玩家等级3"
@@ -240,9 +222,7 @@ return ReadOnly("Condition", {
     ConditionId = 104,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        4
-      }
+      PlayerLevelMin = 4
     },
     ConditionText = "Condition_Toast_PlayerLv_4",
     Remark = "解锁玩家等级4"
@@ -251,9 +231,7 @@ return ReadOnly("Condition", {
     ConditionId = 105,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        5
-      }
+      PlayerLevelMin = 5
     },
     ConditionText = "Condition_Toast_PlayerLv_5",
     Remark = "解锁玩家等级5"
@@ -262,9 +240,7 @@ return ReadOnly("Condition", {
     ConditionId = 106,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        6
-      }
+      PlayerLevelMin = 6
     },
     ConditionText = "Condition_Toast_PlayerLv_6",
     Remark = "解锁玩家等级6"
@@ -273,9 +249,7 @@ return ReadOnly("Condition", {
     ConditionId = 107,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        7
-      }
+      PlayerLevelMin = 7
     },
     ConditionText = "Condition_Toast_PlayerLv_7",
     Remark = "解锁玩家等级7"
@@ -284,9 +258,7 @@ return ReadOnly("Condition", {
     ConditionId = 108,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        8
-      }
+      PlayerLevelMin = 8
     },
     ConditionText = "Condition_Toast_PlayerLv_8",
     Remark = "解锁玩家等级8"
@@ -295,9 +267,7 @@ return ReadOnly("Condition", {
     ConditionId = 109,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        9
-      }
+      PlayerLevelMin = 9
     },
     ConditionText = "Condition_Toast_PlayerLv_9",
     Remark = "解锁玩家等级9"
@@ -306,9 +276,7 @@ return ReadOnly("Condition", {
     ConditionId = 110,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        10
-      }
+      PlayerLevelMin = 10
     },
     ConditionText = "Condition_Toast_PlayerLv_10",
     Remark = "解锁玩家等级10"
@@ -317,9 +285,7 @@ return ReadOnly("Condition", {
     ConditionId = 111,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        11
-      }
+      PlayerLevelMin = 11
     },
     ConditionText = "Condition_Toast_PlayerLv_11",
     Remark = "解锁玩家等级11"
@@ -328,9 +294,7 @@ return ReadOnly("Condition", {
     ConditionId = 112,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      }
+      PlayerLevelMin = 12
     },
     ConditionText = "Condition_Toast_PlayerLv_12",
     Remark = "解锁玩家等级12"
@@ -339,9 +303,7 @@ return ReadOnly("Condition", {
     ConditionId = 113,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        13
-      }
+      PlayerLevelMin = 13
     },
     ConditionText = "Condition_Toast_PlayerLv_13",
     Remark = "解锁玩家等级13"
@@ -350,9 +312,7 @@ return ReadOnly("Condition", {
     ConditionId = 114,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        14
-      }
+      PlayerLevelMin = 14
     },
     ConditionText = "Condition_Toast_PlayerLv_14",
     Remark = "解锁玩家等级14"
@@ -361,9 +321,7 @@ return ReadOnly("Condition", {
     ConditionId = 115,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        15
-      }
+      PlayerLevelMin = 15
     },
     ConditionText = "Condition_Toast_PlayerLv_15",
     Remark = "解锁玩家等级15"
@@ -399,9 +357,7 @@ return ReadOnly("Condition", {
     ConditionId = 119,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        19
-      }
+      PlayerLevelMin = 19
     },
     ConditionText = "Condition_Toast_PlayerLv_19",
     Remark = "解锁玩家等级19"
@@ -410,9 +366,7 @@ return ReadOnly("Condition", {
     ConditionId = 120,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        20
-      }
+      PlayerLevelMin = 20
     },
     ConditionText = "Condition_Toast_PlayerLv_20",
     Remark = "解锁玩家等级20"
@@ -421,9 +375,7 @@ return ReadOnly("Condition", {
     ConditionId = 121,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        21
-      }
+      PlayerLevelMin = 21
     },
     ConditionText = "Condition_Toast_PlayerLv_21",
     Remark = "解锁玩家等级21"
@@ -450,9 +402,7 @@ return ReadOnly("Condition", {
     ConditionId = 124,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        24
-      }
+      PlayerLevelMin = 24
     },
     ConditionText = "Condition_Toast_PlayerLv_24",
     Remark = "解锁玩家等级24"
@@ -461,9 +411,7 @@ return ReadOnly("Condition", {
     ConditionId = 125,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        25
-      }
+      PlayerLevelMin = 25
     },
     ConditionText = "Condition_Toast_PlayerLv_25",
     Remark = "解锁玩家等级25"
@@ -508,9 +456,7 @@ return ReadOnly("Condition", {
     ConditionId = 130,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        30
-      }
+      PlayerLevelMin = 30
     },
     ConditionText = "Condition_Toast_PlayerLv_30",
     Remark = "解锁玩家等级30"
@@ -537,9 +483,7 @@ return ReadOnly("Condition", {
     ConditionId = 133,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        33
-      }
+      PlayerLevelMin = 33
     },
     ConditionText = "Condition_Toast_PlayerLv_33",
     Remark = "解锁玩家等级33"
@@ -557,9 +501,7 @@ return ReadOnly("Condition", {
     ConditionId = 135,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        35
-      }
+      PlayerLevelMin = 35
     },
     ConditionText = "Condition_Toast_PlayerLv_35",
     Remark = "解锁玩家等级35"
@@ -577,9 +519,7 @@ return ReadOnly("Condition", {
     ConditionId = 137,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        37
-      }
+      PlayerLevelMin = 37
     },
     ConditionText = "Condition_Toast_PlayerLv_37",
     Remark = "解锁玩家等级37"
@@ -606,9 +546,7 @@ return ReadOnly("Condition", {
     ConditionId = 140,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        40
-      }
+      PlayerLevelMin = 40
     },
     ConditionText = "Condition_Toast_PlayerLv_40",
     Remark = "解锁玩家等级40"
@@ -653,9 +591,7 @@ return ReadOnly("Condition", {
     ConditionId = 145,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        45
-      }
+      PlayerLevelMin = 45
     },
     ConditionText = "Condition_Toast_PlayerLv_45",
     Remark = "解锁玩家等级45"
@@ -745,9 +681,7 @@ return ReadOnly("Condition", {
     ConditionId = 155,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        55
-      }
+      PlayerLevelMin = 55
     },
     ConditionText = "Condition_Toast_PlayerLv_55",
     Remark = "解锁玩家等级55"
@@ -765,9 +699,7 @@ return ReadOnly("Condition", {
     ConditionId = 157,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        57
-      }
+      PlayerLevelMin = 57
     },
     ConditionText = "Condition_Toast_PlayerLv_57",
     Remark = "解锁玩家等级57"
@@ -776,9 +708,7 @@ return ReadOnly("Condition", {
     ConditionId = 158,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        58
-      }
+      PlayerLevelMin = 58
     },
     ConditionText = "Condition_Toast_PlayerLv_58",
     Remark = "解锁玩家等级58"
@@ -787,9 +717,7 @@ return ReadOnly("Condition", {
     ConditionId = 159,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        59
-      }
+      PlayerLevelMin = 59
     },
     ConditionText = "Condition_Toast_PlayerLv_59",
     Remark = "解锁玩家等级59"
@@ -798,9 +726,7 @@ return ReadOnly("Condition", {
     ConditionId = 160,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        60
-      }
+      PlayerLevelMin = 60
     },
     ConditionText = "Condition_Toast_PlayerLv_60",
     Remark = "解锁玩家等级60"
@@ -809,9 +735,7 @@ return ReadOnly("Condition", {
     ConditionId = 210,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        10
-      }
+      PlayerLevelMin = 10
     },
     ConditionText = "Condition_Toast_PlayerLv_ModGuideBook_10",
     Remark = "魔之楔手册揭晓等级10"
@@ -820,9 +744,7 @@ return ReadOnly("Condition", {
     ConditionId = 212,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      }
+      PlayerLevelMin = 12
     },
     ConditionText = "Condition_Toast_PlayerLv_ModGuideBook_12",
     Remark = "魔之楔手册揭晓等级12"
@@ -831,9 +753,7 @@ return ReadOnly("Condition", {
     ConditionId = 220,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        20
-      }
+      PlayerLevelMin = 20
     },
     ConditionText = "Condition_Toast_PlayerLv_ModGuideBook_20",
     Remark = "魔之楔手册揭晓等级20"
@@ -842,9 +762,7 @@ return ReadOnly("Condition", {
     ConditionId = 225,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        25
-      }
+      PlayerLevelMin = 25
     },
     ConditionText = "Condition_Toast_PlayerLv_ModGuideBook_25",
     Remark = "魔之楔手册揭晓等级25"
@@ -853,9 +771,7 @@ return ReadOnly("Condition", {
     ConditionId = 230,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        30
-      }
+      PlayerLevelMin = 30
     },
     ConditionText = "Condition_Toast_PlayerLv_ModGuideBook_30",
     Remark = "魔之楔手册揭晓等级30"
@@ -864,9 +780,7 @@ return ReadOnly("Condition", {
     ConditionId = 235,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        35
-      }
+      PlayerLevelMin = 35
     },
     ConditionText = "Condition_Toast_PlayerLv_ModGuideBook_35",
     Remark = "魔之楔手册揭晓等级35"
@@ -875,9 +789,7 @@ return ReadOnly("Condition", {
     ConditionId = 240,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        40
-      }
+      PlayerLevelMin = 40
     },
     ConditionText = "Condition_Toast_PlayerLv_ModGuideBook_40",
     Remark = "魔之楔手册揭晓等级40"
@@ -910,9 +822,7 @@ return ReadOnly("Condition", {
     ConditionId = 313,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100203
-      }
+      QuestChain = 100203
     },
     Remark = "奥哥家解锁条件"
   },
@@ -944,9 +854,7 @@ return ReadOnly("Condition", {
     ConditionId = 317,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        10030197
-      }
+      Quest = 10030197
     },
     Remark = "剧院解锁条件"
   },
@@ -954,9 +862,7 @@ return ReadOnly("Condition", {
     ConditionId = 318,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        11010903
-      }
+      Quest = 11010903
     },
     Remark = "炼火之地解锁条件"
   },
@@ -980,9 +886,7 @@ return ReadOnly("Condition", {
     ConditionId = 321,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        10030394
-      }
+      Quest = 10030394
     },
     Remark = "秘密基地（管道）解锁条件"
   },
@@ -990,9 +894,7 @@ return ReadOnly("Condition", {
     ConditionId = 322,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        11010103
-      }
+      Quest = 11010103
     },
     ConditionText = "UI_Locked_Des_NewMap",
     Remark = "龙莎要塞解锁条件"
@@ -1339,9 +1241,7 @@ return ReadOnly("Condition", {
     ConditionId = 1038,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20021501
-      }
+      Quest = 20021501
     },
     Remark = "印象系统-马库斯"
   },
@@ -1741,9 +1641,7 @@ return ReadOnly("Condition", {
     ConditionId = 1067,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200213
-      }
+      QuestChain = 200213
     },
     Remark = "印象系统-玛尔洁"
   },
@@ -1918,9 +1816,7 @@ return ReadOnly("Condition", {
     ConditionId = 1083,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20023102
-      }
+      Quest = 20023102
     },
     Remark = "多纳特个人小传"
   },
@@ -1928,9 +1824,7 @@ return ReadOnly("Condition", {
     ConditionId = 1084,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20023102
-      }
+      Quest = 20023102
     },
     Remark = "拉斯个人小传"
   },
@@ -2514,9 +2408,7 @@ return ReadOnly("Condition", {
     ConditionId = 2001,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossXibi难度1解锁"
@@ -2528,9 +2420,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1001, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossXibi难度2解锁"
@@ -2542,9 +2432,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1002, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossXibi难度3解锁"
@@ -2556,9 +2444,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1003, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossXibi难度4解锁"
@@ -2570,9 +2456,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1004, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossXibi难度5解锁"
@@ -2584,9 +2468,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1005, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossXibi难度6解锁"
@@ -2595,9 +2477,7 @@ return ReadOnly("Condition", {
     ConditionId = 2011,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossShijingzhe难度1解锁"
@@ -2609,9 +2489,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1011, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossShijingzhe难度2解锁"
@@ -2623,9 +2501,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1012, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossShijingzhe难度3解锁"
@@ -2637,9 +2513,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1013, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossShijingzhe难度4解锁"
@@ -2651,9 +2525,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1014, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossShijingzhe难度5解锁"
@@ -2665,9 +2537,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1015, 1}
       },
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossShijingzhe难度6解锁"
@@ -2676,9 +2546,7 @@ return ReadOnly("Condition", {
     ConditionId = 2021,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossSaiqi难度1解锁"
@@ -2690,9 +2558,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1021, 1}
       },
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossSaiqi难度2解锁"
@@ -2704,9 +2570,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1022, 1}
       },
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossSaiqi难度3解锁"
@@ -2718,9 +2582,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1023, 1}
       },
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossSaiqi难度4解锁"
@@ -2732,9 +2594,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1024, 1}
       },
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossSaiqi难度5解锁"
@@ -2746,9 +2606,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1025, 1}
       },
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossSaiqi难度6解锁"
@@ -2757,9 +2615,7 @@ return ReadOnly("Condition", {
     ConditionId = 2027,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "UI_Locked_Des_HardBoss",
     Remark = "梦魇残声系统解锁-赛琪"
@@ -2768,9 +2624,7 @@ return ReadOnly("Condition", {
     ConditionId = 2031,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossHaier难度1解锁"
@@ -2782,9 +2636,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1031, 1}
       },
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossHaier难度2解锁"
@@ -2796,9 +2648,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1032, 1}
       },
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossHaier难度3解锁"
@@ -2810,9 +2660,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1033, 1}
       },
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossHaier难度4解锁"
@@ -2824,9 +2672,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1034, 1}
       },
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossHaier难度5解锁"
@@ -2838,9 +2684,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1035, 1}
       },
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossHaier难度6解锁"
@@ -2849,9 +2693,7 @@ return ReadOnly("Condition", {
     ConditionId = 2037,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     ConditionText = "UI_Locked_Des_HardBoss",
     Remark = "梦魇残声系统解锁-海尔法"
@@ -2860,9 +2702,7 @@ return ReadOnly("Condition", {
     ConditionId = 2041,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossLinen难度1解锁"
@@ -2874,9 +2714,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1041, 1}
       },
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossLinen难度2解锁"
@@ -2888,9 +2726,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1042, 1}
       },
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossLinen难度3解锁"
@@ -2902,9 +2738,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1043, 1}
       },
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossLinen难度4解锁"
@@ -2916,9 +2750,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1044, 1}
       },
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossLinen难度5解锁"
@@ -2930,9 +2762,7 @@ return ReadOnly("Condition", {
       HardBossComplete = {
         {1045, 1}
       },
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     ConditionText = "Condition_Toast_HardBossUnlock",
     Remark = "梦魇残声-BossLinen难度6解锁"
@@ -2941,9 +2771,7 @@ return ReadOnly("Condition", {
     ConditionId = 2047,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     ConditionText = "UI_Locked_Des_HardBoss",
     Remark = "梦魇残声系统解锁-BossLinen"
@@ -2966,12 +2794,8 @@ return ReadOnly("Condition", {
     ConditionId = 3001,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100203
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100203
     },
     ConditionText = "UI_COMMONPOP_TITLE_100058",
     Remark = "高级副本入口解锁条件"
@@ -2980,12 +2804,8 @@ return ReadOnly("Condition", {
     ConditionId = 3002,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100203
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100203
     },
     ConditionText = "UI_COMMONPOP_TITLE_100058",
     Remark = "中级副本入口解锁条件"
@@ -2994,12 +2814,8 @@ return ReadOnly("Condition", {
     ConditionId = 3003,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100202
     },
     ConditionText = "UI_COMMONPOP_TITLE_100058",
     Remark = "低级副本入口解锁条件"
@@ -4218,9 +4034,7 @@ return ReadOnly("Condition", {
     ConditionId = 4010,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
+      PlayerLevelMin = 1,
       Quest = {10010209}
     },
     ConditionText = "UI_Unlock_Des_Bag",
@@ -4230,9 +4044,7 @@ return ReadOnly("Condition", {
     ConditionId = 4020,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
+      PlayerLevelMin = 1,
       Quest = {10010308}
     },
     ConditionText = "UI_Locked_Des_Armory",
@@ -4242,9 +4054,7 @@ return ReadOnly("Condition", {
     ConditionId = 4021,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
+      PlayerLevelMin = 1,
       Quest = {10010212}
     },
     Remark = "技能解锁条件"
@@ -4253,12 +4063,8 @@ return ReadOnly("Condition", {
     ConditionId = 4030,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020101
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020101
     },
     ConditionText = "UI_Locked_Des_Shop",
     Remark = "商城解锁条件"
@@ -4267,12 +4073,8 @@ return ReadOnly("Condition", {
     ConditionId = 4040,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020101
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020101
     },
     ConditionText = "UI_Locked_Des_Gacha",
     Remark = "抽卡系统解锁条件"
@@ -4281,12 +4083,8 @@ return ReadOnly("Condition", {
     ConditionId = 4041,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020101
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020101
     },
     Remark = "全部卡池解锁条件"
   },
@@ -4294,12 +4092,8 @@ return ReadOnly("Condition", {
     ConditionId = 4050,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10010106
-      }
+      PlayerLevelMin = 1,
+      Quest = 10010106
     },
     ConditionText = "UI_Locked_Des_Map",
     Remark = "大地图与传送解锁条件"
@@ -4308,12 +4102,8 @@ return ReadOnly("Condition", {
     ConditionId = 4060,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_Locked_Des_Invite",
     Remark = "看板娘解锁条件"
@@ -4322,9 +4112,7 @@ return ReadOnly("Condition", {
     ConditionId = 4070,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      }
+      PlayerLevelMin = 1
     },
     ConditionText = "UI_Locked_Des_Achievement",
     Remark = "成就系统解锁条件"
@@ -4333,9 +4121,7 @@ return ReadOnly("Condition", {
     ConditionId = 4080,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
+      PlayerLevelMin = 1,
       Quest = {20010103}
     },
     ConditionText = "UI_Locked_Des_Forging",
@@ -4356,12 +4142,8 @@ return ReadOnly("Condition", {
     ConditionId = 4100,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_Locked_Des_Mail",
     Remark = "邮箱解锁条件"
@@ -4370,12 +4152,8 @@ return ReadOnly("Condition", {
     ConditionId = 4110,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_Locked_Des_Play",
     Remark = "玩法入口解锁条件"
@@ -4384,9 +4162,7 @@ return ReadOnly("Condition", {
     ConditionId = 4120,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     ConditionText = "UI_Locked_Des_HardBoss",
     Remark = "梦魇残声系统解锁-仅限前三个boss"
@@ -4395,12 +4171,8 @@ return ReadOnly("Condition", {
     ConditionId = 4130,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100201
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100201
     },
     ConditionText = "UI_Locked_Des_Quest",
     Remark = "任务系统解锁条件"
@@ -4409,12 +4181,8 @@ return ReadOnly("Condition", {
     ConditionId = 4140,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        200101
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 200101
     },
     ConditionText = "UI_Locked_Des_BattleWheel",
     Remark = "战斗轮盘解锁条件"
@@ -4423,12 +4191,8 @@ return ReadOnly("Condition", {
     ConditionId = 4150,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_Locked_Des_Notice",
     Remark = "公告解锁条件"
@@ -4437,12 +4201,8 @@ return ReadOnly("Condition", {
     ConditionId = 4160,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        9
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 9,
+      QuestChain = 100202
     },
     ConditionText = "UI_Locked_Des_Rouge",
     Remark = "MOD解锁条件"
@@ -4451,12 +4211,8 @@ return ReadOnly("Condition", {
     ConditionId = 4170,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100208
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100208
     },
     Remark = "肉鸽解锁条件"
   },
@@ -4464,12 +4220,8 @@ return ReadOnly("Condition", {
     ConditionId = 4180,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10010106
-      }
+      PlayerLevelMin = 1,
+      Quest = 10010106
     },
     ConditionText = "UI_Locked_Des_GuideBook",
     Remark = "教学手册解锁条件"
@@ -4478,9 +4230,7 @@ return ReadOnly("Condition", {
     ConditionId = 4190,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "UI_Locked_Des_Friend",
     Remark = "好友系统解锁"
@@ -4498,12 +4248,8 @@ return ReadOnly("Condition", {
     ConditionId = 4210,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        25
-      },
-      QuestChain = {
-        100208
-      }
+      PlayerLevelMin = 25,
+      QuestChain = 100208
     },
     ConditionText = "UI_Locked_Des_Polarity",
     Remark = "极化系统解锁"
@@ -4512,12 +4258,8 @@ return ReadOnly("Condition", {
     ConditionId = 4220,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_Locked_Des_GameEvent",
     Remark = "活动系统解锁"
@@ -4526,9 +4268,7 @@ return ReadOnly("Condition", {
     ConditionId = 4230,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100205
-      }
+      QuestChain = 100205
     },
     ConditionText = "UI_Locked_Des_Temple",
     Remark = "神庙入口UI解锁"
@@ -4537,9 +4277,7 @@ return ReadOnly("Condition", {
     ConditionId = 4240,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "UI_Locked_Des_Match",
     Remark = "委托匹配解锁条件"
@@ -4548,9 +4286,7 @@ return ReadOnly("Condition", {
     ConditionId = 4250,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      },
+      QuestChain = 100208,
       SubRegionType = {
         "home"
       }
@@ -4562,9 +4298,7 @@ return ReadOnly("Condition", {
     ConditionId = 4260,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     ConditionText = "UI_Locked_Des_Chat",
     Remark = "聊天解锁条件"
@@ -4584,12 +4318,8 @@ return ReadOnly("Condition", {
     ConditionId = 4280,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_TOAST_FORGING_WARNING",
     Remark = "返回据点跳转功能解锁"
@@ -4598,9 +4328,7 @@ return ReadOnly("Condition", {
     ConditionId = 4290,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      }
+      PlayerLevelMin = 1
     },
     ConditionText = "UI_Locked_Des_Wiki",
     Remark = "百科词条解锁条件"
@@ -4609,9 +4337,7 @@ return ReadOnly("Condition", {
     ConditionId = 4300,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      }
+      PlayerLevelMin = 1
     },
     ConditionText = "UI_Locked_Des_Archive",
     Remark = "陈列室解锁条件"
@@ -4620,12 +4346,8 @@ return ReadOnly("Condition", {
     ConditionId = 4310,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_Locked_Des_BattlePass",
     Remark = "战令解锁条件"
@@ -4643,12 +4365,8 @@ return ReadOnly("Condition", {
     ConditionId = 4320,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100202
     },
     ConditionText = "UI_Locked_Des_DailyGoal",
     Remark = "每日任务解锁条件"
@@ -4657,12 +4375,8 @@ return ReadOnly("Condition", {
     ConditionId = 4330,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 110109
     },
     Remark = "派遣系统解锁"
   },
@@ -4670,9 +4384,7 @@ return ReadOnly("Condition", {
     ConditionId = 4340,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
+      PlayerLevelMin = 1,
       QuestChain = {200103}
     },
     ConditionText = "UI_Locked_Des_WalnutBag",
@@ -4682,12 +4394,8 @@ return ReadOnly("Condition", {
     ConditionId = 4350,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        9
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 9,
+      QuestChain = 100202
     },
     Remark = "魔之楔手册解锁"
   },
@@ -4695,12 +4403,8 @@ return ReadOnly("Condition", {
     ConditionId = 4360,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        9
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 9,
+      QuestChain = 100202
     },
     Remark = "魔之楔委托/夜航手册解锁"
   },
@@ -4708,12 +4412,8 @@ return ReadOnly("Condition", {
     ConditionId = 4370,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     Remark = "新手任务解锁"
   },
@@ -4721,12 +4421,8 @@ return ReadOnly("Condition", {
     ConditionId = 4380,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      Quest = {
-        10020108
-      }
+      PlayerLevelMin = 1,
+      Quest = 10020108
     },
     ConditionText = "UI_Locked_Des_PlayTaskRoot",
     Remark = "今日行程解锁"
@@ -4735,12 +4431,8 @@ return ReadOnly("Condition", {
     ConditionId = 4390,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        30
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 30,
+      QuestChain = 100202
     },
     Remark = "预设队伍设置解锁"
   },
@@ -4874,9 +4566,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {103, "T"}
       },
-      RougeLikePassRoom = {
-        4
-      }
+      RougeLikePassRoom = 4
     },
     Remark = "肉鸽难度3且大于等于4层"
   },
@@ -4887,9 +4577,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {103, "T"}
       },
-      RougeLikePassRoom = {
-        8
-      }
+      RougeLikePassRoom = 8
     },
     Remark = "肉鸽难度3且大于等于8层"
   },
@@ -4900,9 +4588,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {104, "T"}
       },
-      RougeLikePassRoom = {
-        4
-      }
+      RougeLikePassRoom = 4
     },
     Remark = "肉鸽难度4且大于等于4层"
   },
@@ -4913,9 +4599,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {104, "T"}
       },
-      RougeLikePassRoom = {
-        12
-      }
+      RougeLikePassRoom = 12
     },
     Remark = "肉鸽难度4且大于等于12层"
   },
@@ -4923,9 +4607,7 @@ return ReadOnly("Condition", {
     ConditionId = 5014,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        3
-      }
+      RougeLikePassRoom = 3
     },
     Remark = "肉鸽大于等于3层"
   },
@@ -4974,9 +4656,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {105, "T"}
       },
-      RougeLikePassRoom = {
-        4
-      }
+      RougeLikePassRoom = 4
     },
     Remark = "肉鸽难度5且大于等于4层"
   },
@@ -4987,9 +4667,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {105, "T"}
       },
-      RougeLikePassRoom = {
-        12
-      }
+      RougeLikePassRoom = 12
     },
     Remark = "肉鸽难度5且大于等于12层"
   },
@@ -5114,9 +4792,7 @@ return ReadOnly("Condition", {
     ConditionId = 5029,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        2
-      }
+      RougeLikePassRoom = 2
     },
     Remark = "肉鸽大于等于2层"
   },
@@ -5124,9 +4800,7 @@ return ReadOnly("Condition", {
     ConditionId = 5030,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        5
-      }
+      RougeLikePassRoom = 5
     },
     Remark = "肉鸽大于等于5层"
   },
@@ -5134,9 +4808,7 @@ return ReadOnly("Condition", {
     ConditionId = 5031,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        8
-      }
+      RougeLikePassRoom = 8
     },
     Remark = "肉鸽大于等于8层"
   },
@@ -5144,9 +4816,7 @@ return ReadOnly("Condition", {
     ConditionId = 5032,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        11
-      }
+      RougeLikePassRoom = 11
     },
     Remark = "肉鸽大于等于11层"
   },
@@ -5406,9 +5076,7 @@ return ReadOnly("Condition", {
     ConditionId = 5051,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        15
-      }
+      PlayerLevelMin = 15
     },
     Remark = "肉鸽解锁条件-达到历练15级"
   },
@@ -5416,9 +5084,7 @@ return ReadOnly("Condition", {
     ConditionId = 5052,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        25
-      }
+      PlayerLevelMin = 25
     },
     Remark = "肉鸽解锁条件-达到历练25级"
   },
@@ -5426,9 +5092,7 @@ return ReadOnly("Condition", {
     ConditionId = 5053,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        35
-      }
+      PlayerLevelMin = 35
     },
     Remark = "肉鸽解锁条件-达到历练35级"
   },
@@ -5436,9 +5100,7 @@ return ReadOnly("Condition", {
     ConditionId = 5054,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        45
-      }
+      PlayerLevelMin = 45
     },
     Remark = "肉鸽解锁条件-达到历练45级"
   },
@@ -5446,9 +5108,7 @@ return ReadOnly("Condition", {
     ConditionId = 5055,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        55
-      }
+      PlayerLevelMin = 55
     },
     Remark = "肉鸽解锁条件-达到历练55级"
   },
@@ -5456,9 +5116,7 @@ return ReadOnly("Condition", {
     ConditionId = 5056,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        60
-      }
+      PlayerLevelMin = 60
     },
     Remark = "肉鸽解锁条件-达到历练60级"
   },
@@ -5466,9 +5124,7 @@ return ReadOnly("Condition", {
     ConditionId = 5057,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikeComplete = {
-        101
-      }
+      RougeLikeComplete = 101
     },
     Remark = "肉鸽解锁条件-完成难度1"
   },
@@ -5500,9 +5156,7 @@ return ReadOnly("Condition", {
     ConditionId = 5061,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        14
-      }
+      RougeLikePassRoom = 14
     },
     Remark = "肉鸽大于等于14层"
   },
@@ -5577,9 +5231,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {106, "T"}
       },
-      RougeLikePassRoom = {
-        4
-      }
+      RougeLikePassRoom = 4
     },
     Remark = "肉鸽难度6且大于等于4层"
   },
@@ -5590,9 +5242,7 @@ return ReadOnly("Condition", {
       RougeLikeDifficulty = {
         {106, "T"}
       },
-      RougeLikePassRoom = {
-        12
-      }
+      RougeLikePassRoom = 12
     },
     Remark = "肉鸽难度6且大于等于12层"
   },
@@ -5608,9 +5258,7 @@ return ReadOnly("Condition", {
     ConditionId = 5070,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikeComplete = {
-        106
-      }
+      RougeLikeComplete = 106
     },
     Remark = "肉鸽解锁条件-完成难度6"
   },
@@ -5628,9 +5276,7 @@ return ReadOnly("Condition", {
     ConditionId = 5072,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        55
-      }
+      PlayerLevelMin = 55
     },
     Remark = "肉鸽解锁条件-达到历练55级"
   },
@@ -5686,9 +5332,7 @@ return ReadOnly("Condition", {
     ConditionId = 5075,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        3
-      }
+      RougeLikePassRoom = 3
     },
     IsNot = true,
     Remark = "（剧情事件用）肉鸽尚未通过第3层"
@@ -5697,9 +5341,7 @@ return ReadOnly("Condition", {
     ConditionId = 5076,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        7
-      }
+      RougeLikePassRoom = 7
     },
     IsNot = true,
     Remark = "（剧情事件用）肉鸽尚未通过第7层"
@@ -5708,9 +5350,7 @@ return ReadOnly("Condition", {
     ConditionId = 5077,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        11
-      }
+      RougeLikePassRoom = 11
     },
     IsNot = true,
     Remark = "（剧情事件用）肉鸽尚未通过第11层"
@@ -5719,9 +5359,7 @@ return ReadOnly("Condition", {
     ConditionId = 5078,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        9
-      }
+      RougeLikePassRoom = 9
     },
     IsNot = true,
     Remark = "（剧情事件用）肉鸽尚未通过第9层"
@@ -5730,9 +5368,7 @@ return ReadOnly("Condition", {
     ConditionId = 5079,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        15
-      }
+      RougeLikePassRoom = 15
     },
     IsNot = true,
     Remark = "（剧情事件用）肉鸽尚未通过第15层"
@@ -5741,9 +5377,7 @@ return ReadOnly("Condition", {
     ConditionId = 5080,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        12
-      }
+      RougeLikePassRoom = 12
     },
     IsNot = true,
     Remark = "（剧情事件用）肉鸽尚未通过第12层"
@@ -5752,9 +5386,7 @@ return ReadOnly("Condition", {
     ConditionId = 5081,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        21
-      }
+      RougeLikePassRoom = 21
     },
     IsNot = true,
     Remark = "（剧情事件用）肉鸽尚未通过第21层"
@@ -6030,9 +5662,7 @@ return ReadOnly("Condition", {
     ConditionId = 5161,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePreRoom = {
-        101
-      }
+      RougeLikePreRoom = 101
     },
     Remark = "通过101房间后解锁"
   },
@@ -6040,9 +5670,7 @@ return ReadOnly("Condition", {
     ConditionId = 5162,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePreRoom = {
-        101
-      }
+      RougeLikePreRoom = 101
     },
     IsNot = true,
     Remark = "通过101房间后上锁"
@@ -6130,9 +5758,7 @@ return ReadOnly("Condition", {
     ConditionId = 5169,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        6
-      }
+      RougeLikePassRoom = 6
     },
     Remark = "刷怪2阶段-肉鸽已通过6层"
   },
@@ -6140,9 +5766,7 @@ return ReadOnly("Condition", {
     ConditionId = 5170,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        6
-      }
+      RougeLikePassRoom = 6
     },
     IsNot = true,
     Remark = "刷怪2阶段-肉鸽未通过6层"
@@ -6151,9 +5775,7 @@ return ReadOnly("Condition", {
     ConditionId = 5171,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        13
-      }
+      RougeLikePassRoom = 13
     },
     Remark = "刷怪3阶段-肉鸽已通过13层"
   },
@@ -6161,9 +5783,7 @@ return ReadOnly("Condition", {
     ConditionId = 5172,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePassRoom = {
-        13
-      }
+      RougeLikePassRoom = 13
     },
     IsNot = true,
     Remark = "刷怪3阶段-肉鸽未通过13层"
@@ -6567,12 +6187,8 @@ return ReadOnly("Condition", {
     ConditionId = 6001,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100202
     },
     Remark = "MOD引导任务解锁条件"
   },
@@ -6662,12 +6278,8 @@ return ReadOnly("Condition", {
     ConditionId = 6009,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        100205
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 100205
     },
     Remark = "送奥哥活动下架条件"
   },
@@ -6675,12 +6287,8 @@ return ReadOnly("Condition", {
     ConditionId = 6010,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
-      QuestChain = {
-        110107
-      }
+      PlayerLevelMin = 1,
+      QuestChain = 110107
     },
     Remark = "送达芙涅活动下架条件"
   },
@@ -6718,9 +6326,7 @@ return ReadOnly("Condition", {
     ConditionId = 6014,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      }
+      PlayerLevelMin = 1
     },
     Remark = "公测十连活动领奖条件"
   },
@@ -6762,9 +6368,7 @@ return ReadOnly("Condition", {
     ConditionId = 6019,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikeComplete = {
-        106
-      }
+      RougeLikeComplete = 106
     },
     Remark = "小暴怒活动下架条件-完成难度6"
   },
@@ -6772,9 +6376,7 @@ return ReadOnly("Condition", {
     ConditionId = 6020,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
+      PlayerLevelMin = 1,
       QuestChain = {200236}
     },
     Remark = "送松露活动下架条件"
@@ -6783,9 +6385,7 @@ return ReadOnly("Condition", {
     ConditionId = 7000,
     ConditionLogic = "AND",
     ConditionMap = {
-      LoginDay = {
-        1
-      }
+      LoginDay = 1
     },
     Remark = "累计登录1天及以上"
   },
@@ -6793,9 +6393,7 @@ return ReadOnly("Condition", {
     ConditionId = 7001,
     ConditionLogic = "AND",
     ConditionMap = {
-      LoginDay = {
-        2
-      }
+      LoginDay = 2
     },
     Remark = "累计登录2天及以上"
   },
@@ -6803,9 +6401,7 @@ return ReadOnly("Condition", {
     ConditionId = 7002,
     ConditionLogic = "AND",
     ConditionMap = {
-      LoginDay = {
-        3
-      }
+      LoginDay = 3
     },
     Remark = "累计登录3天及以上"
   },
@@ -6813,9 +6409,7 @@ return ReadOnly("Condition", {
     ConditionId = 7003,
     ConditionLogic = "AND",
     ConditionMap = {
-      LoginDay = {
-        4
-      }
+      LoginDay = 4
     },
     Remark = "累计登录4天及以上"
   },
@@ -6823,9 +6417,7 @@ return ReadOnly("Condition", {
     ConditionId = 7004,
     ConditionLogic = "AND",
     ConditionMap = {
-      LoginDay = {
-        5
-      }
+      LoginDay = 5
     },
     Remark = "累计登录5天及以上"
   },
@@ -6833,9 +6425,7 @@ return ReadOnly("Condition", {
     ConditionId = 7005,
     ConditionLogic = "AND",
     ConditionMap = {
-      LoginDay = {
-        6
-      }
+      LoginDay = 6
     },
     Remark = "累计登录6天及以上"
   },
@@ -6843,9 +6433,7 @@ return ReadOnly("Condition", {
     ConditionId = 7006,
     ConditionLogic = "AND",
     ConditionMap = {
-      LoginDay = {
-        7
-      }
+      LoginDay = 7
     },
     Remark = "累计登录7天及以上"
   },
@@ -6996,12 +6584,8 @@ return ReadOnly("Condition", {
     ConditionId = 80001,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7009,12 +6593,8 @@ return ReadOnly("Condition", {
     ConditionId = 80002,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7022,12 +6602,8 @@ return ReadOnly("Condition", {
     ConditionId = 80003,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7035,12 +6611,8 @@ return ReadOnly("Condition", {
     ConditionId = 80004,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7048,12 +6620,8 @@ return ReadOnly("Condition", {
     ConditionId = 80005,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7061,12 +6629,8 @@ return ReadOnly("Condition", {
     ConditionId = 80006,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7074,12 +6638,8 @@ return ReadOnly("Condition", {
     ConditionId = 80007,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7087,12 +6647,8 @@ return ReadOnly("Condition", {
     ConditionId = 80008,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100204
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100204
     },
     Remark = "动态事件解锁"
   },
@@ -7100,12 +6656,8 @@ return ReadOnly("Condition", {
     ConditionId = 80009,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7113,12 +6665,8 @@ return ReadOnly("Condition", {
     ConditionId = 80010,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7126,12 +6674,8 @@ return ReadOnly("Condition", {
     ConditionId = 80011,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7139,9 +6683,7 @@ return ReadOnly("Condition", {
     ConditionId = 80012,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {100205, 200216}
     },
     Remark = "动态事件解锁"
@@ -7150,12 +6692,8 @@ return ReadOnly("Condition", {
     ConditionId = 80013,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7163,12 +6701,8 @@ return ReadOnly("Condition", {
     ConditionId = 80014,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100203
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100203
     },
     Remark = "动态事件解锁"
   },
@@ -7176,12 +6710,8 @@ return ReadOnly("Condition", {
     ConditionId = 80015,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7189,12 +6719,8 @@ return ReadOnly("Condition", {
     ConditionId = 80016,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7202,12 +6728,8 @@ return ReadOnly("Condition", {
     ConditionId = 80017,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7215,12 +6737,8 @@ return ReadOnly("Condition", {
     ConditionId = 80018,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7228,12 +6746,8 @@ return ReadOnly("Condition", {
     ConditionId = 80020,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7241,12 +6755,8 @@ return ReadOnly("Condition", {
     ConditionId = 80021,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7254,12 +6764,8 @@ return ReadOnly("Condition", {
     ConditionId = 80022,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7267,12 +6773,8 @@ return ReadOnly("Condition", {
     ConditionId = 80023,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7280,12 +6782,8 @@ return ReadOnly("Condition", {
     ConditionId = 80024,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        200225
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 200225
     },
     Remark = "动态事件解锁"
   },
@@ -7293,12 +6791,8 @@ return ReadOnly("Condition", {
     ConditionId = 80025,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100206
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100206
     },
     Remark = "动态事件解锁"
   },
@@ -7306,12 +6800,8 @@ return ReadOnly("Condition", {
     ConditionId = 80026,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7319,12 +6809,8 @@ return ReadOnly("Condition", {
     ConditionId = 80027,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7332,12 +6818,8 @@ return ReadOnly("Condition", {
     ConditionId = 80028,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7345,12 +6827,8 @@ return ReadOnly("Condition", {
     ConditionId = 80029,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7358,12 +6836,8 @@ return ReadOnly("Condition", {
     ConditionId = 80030,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7371,12 +6845,8 @@ return ReadOnly("Condition", {
     ConditionId = 80031,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7384,12 +6854,8 @@ return ReadOnly("Condition", {
     ConditionId = 80032,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7397,12 +6863,8 @@ return ReadOnly("Condition", {
     ConditionId = 80033,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7410,12 +6872,8 @@ return ReadOnly("Condition", {
     ConditionId = 80034,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 110109
     },
     Remark = "动态事件解锁"
   },
@@ -7423,12 +6881,8 @@ return ReadOnly("Condition", {
     ConditionId = 80035,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 110109
     },
     Remark = "动态事件解锁"
   },
@@ -7436,12 +6890,8 @@ return ReadOnly("Condition", {
     ConditionId = 80037,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7449,9 +6899,7 @@ return ReadOnly("Condition", {
     ConditionId = 80038,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100208, 200103
       }
@@ -7462,12 +6910,8 @@ return ReadOnly("Condition", {
     ConditionId = 80040,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7475,12 +6919,8 @@ return ReadOnly("Condition", {
     ConditionId = 80044,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7488,12 +6928,8 @@ return ReadOnly("Condition", {
     ConditionId = 80045,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7501,12 +6937,8 @@ return ReadOnly("Condition", {
     ConditionId = 80046,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 110109
     },
     Remark = "动态事件解锁"
   },
@@ -7514,12 +6946,8 @@ return ReadOnly("Condition", {
     ConditionId = 80047,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7527,12 +6955,8 @@ return ReadOnly("Condition", {
     ConditionId = 80048,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 110109
     },
     Remark = "动态事件解锁"
   },
@@ -7540,12 +6964,8 @@ return ReadOnly("Condition", {
     ConditionId = 80050,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7553,12 +6973,8 @@ return ReadOnly("Condition", {
     ConditionId = 80051,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7566,12 +6982,8 @@ return ReadOnly("Condition", {
     ConditionId = 80052,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7579,9 +6991,7 @@ return ReadOnly("Condition", {
     ConditionId = 80053,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100103, 200103
       }
@@ -7592,12 +7002,8 @@ return ReadOnly("Condition", {
     ConditionId = 80054,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100103
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100103
     },
     Remark = "动态事件解锁"
   },
@@ -7605,9 +7011,7 @@ return ReadOnly("Condition", {
     ConditionId = 80055,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         110109, 200103
       }
@@ -7618,12 +7022,8 @@ return ReadOnly("Condition", {
     ConditionId = 80056,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 110109
     },
     Remark = "动态事件解锁"
   },
@@ -7631,12 +7031,8 @@ return ReadOnly("Condition", {
     ConditionId = 80057,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 110109
     },
     Remark = "动态事件解锁"
   },
@@ -7644,12 +7040,8 @@ return ReadOnly("Condition", {
     ConditionId = 80058,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        110109
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 110109
     },
     Remark = "动态事件解锁"
   },
@@ -7657,12 +7049,8 @@ return ReadOnly("Condition", {
     ConditionId = 80059,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7670,12 +7058,8 @@ return ReadOnly("Condition", {
     ConditionId = 80060,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7683,9 +7067,7 @@ return ReadOnly("Condition", {
     ConditionId = 80061,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100208, 200103
       }
@@ -7696,12 +7078,8 @@ return ReadOnly("Condition", {
     ConditionId = 80062,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7709,9 +7087,7 @@ return ReadOnly("Condition", {
     ConditionId = 80063,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {100103, 200215}
     },
     Remark = "动态事件解锁"
@@ -7720,12 +7096,8 @@ return ReadOnly("Condition", {
     ConditionId = 80064,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7733,12 +7105,8 @@ return ReadOnly("Condition", {
     ConditionId = 80065,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7746,12 +7114,8 @@ return ReadOnly("Condition", {
     ConditionId = 80066,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7759,12 +7123,8 @@ return ReadOnly("Condition", {
     ConditionId = 80067,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7772,9 +7132,7 @@ return ReadOnly("Condition", {
     ConditionId = 80068,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100202, 200103
       }
@@ -7785,12 +7143,8 @@ return ReadOnly("Condition", {
     ConditionId = 80069,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7798,12 +7152,8 @@ return ReadOnly("Condition", {
     ConditionId = 80070,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100202
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100202
     },
     Remark = "动态事件解锁"
   },
@@ -7811,9 +7161,7 @@ return ReadOnly("Condition", {
     ConditionId = 80071,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100203, 200103
       }
@@ -7824,12 +7172,8 @@ return ReadOnly("Condition", {
     ConditionId = 80072,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100203
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100203
     },
     Remark = "动态事件解锁"
   },
@@ -7837,12 +7181,8 @@ return ReadOnly("Condition", {
     ConditionId = 80073,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100203
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100203
     },
     Remark = "动态事件解锁"
   },
@@ -7850,9 +7190,7 @@ return ReadOnly("Condition", {
     ConditionId = 80074,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100203, 200103
       }
@@ -7863,9 +7201,7 @@ return ReadOnly("Condition", {
     ConditionId = 80075,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100307, 200103
       }
@@ -7876,12 +7212,8 @@ return ReadOnly("Condition", {
     ConditionId = 80076,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100203
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100203
     },
     Remark = "动态事件解锁"
   },
@@ -7889,12 +7221,8 @@ return ReadOnly("Condition", {
     ConditionId = 80077,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        200215
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 200215
     },
     Remark = "动态事件解锁"
   },
@@ -7902,12 +7230,8 @@ return ReadOnly("Condition", {
     ConditionId = 80078,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        200215
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 200215
     },
     Remark = "动态事件解锁"
   },
@@ -7915,12 +7239,8 @@ return ReadOnly("Condition", {
     ConditionId = 80079,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100306
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100306
     },
     Remark = "动态事件解锁"
   },
@@ -7928,12 +7248,8 @@ return ReadOnly("Condition", {
     ConditionId = 80080,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100306
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100306
     },
     Remark = "动态事件解锁"
   },
@@ -7941,12 +7257,8 @@ return ReadOnly("Condition", {
     ConditionId = 80081,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        100306
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 100306
     },
     Remark = "动态事件解锁"
   },
@@ -7954,12 +7266,8 @@ return ReadOnly("Condition", {
     ConditionId = 80082,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -7967,12 +7275,8 @@ return ReadOnly("Condition", {
     ConditionId = 80083,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -7980,12 +7284,8 @@ return ReadOnly("Condition", {
     ConditionId = 80084,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -7993,12 +7293,8 @@ return ReadOnly("Condition", {
     ConditionId = 80085,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -8006,12 +7302,8 @@ return ReadOnly("Condition", {
     ConditionId = 80086,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -8019,12 +7311,8 @@ return ReadOnly("Condition", {
     ConditionId = 80087,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -8032,12 +7320,8 @@ return ReadOnly("Condition", {
     ConditionId = 80088,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -8045,12 +7329,8 @@ return ReadOnly("Condition", {
     ConditionId = 80089,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -8058,12 +7338,8 @@ return ReadOnly("Condition", {
     ConditionId = 80090,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -8071,12 +7347,8 @@ return ReadOnly("Condition", {
     ConditionId = 80091,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
-      QuestChain = {
-        120106
-      }
+      PlayerLevelMin = 12,
+      QuestChain = 120106
     },
     Remark = "动态事件解锁"
   },
@@ -8144,9 +7416,7 @@ return ReadOnly("Condition", {
     ConditionId = 82001,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200215
-      }
+      QuestChain = 200215
     },
     Remark = "钓鱼支线完成"
   },
@@ -9088,9 +8358,7 @@ return ReadOnly("Condition", {
     ConditionId = 100101,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100101
-      }
+      QuestChain = 100101
     },
     Remark = "序章任务完成"
   },
@@ -9106,9 +8374,7 @@ return ReadOnly("Condition", {
     ConditionId = 100103,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100103
-      }
+      QuestChain = 100103
     },
     Remark = "序章任务完成"
   },
@@ -9116,9 +8382,7 @@ return ReadOnly("Condition", {
     ConditionId = 100201,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100201
-      }
+      QuestChain = 100201
     },
     Remark = "第一章任务完成"
   },
@@ -9126,9 +8390,7 @@ return ReadOnly("Condition", {
     ConditionId = 100202,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100202
-      }
+      QuestChain = 100202
     },
     Remark = "第一章任务完成"
   },
@@ -9136,9 +8398,7 @@ return ReadOnly("Condition", {
     ConditionId = 100203,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100203
-      }
+      QuestChain = 100203
     },
     Remark = "第一章任务完成"
   },
@@ -9146,9 +8406,7 @@ return ReadOnly("Condition", {
     ConditionId = 100204,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100204
-      }
+      QuestChain = 100204
     },
     Remark = "第一章任务完成"
   },
@@ -9156,9 +8414,7 @@ return ReadOnly("Condition", {
     ConditionId = 100205,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100205
-      }
+      QuestChain = 100205
     },
     Remark = "第一章任务完成"
   },
@@ -9166,9 +8422,7 @@ return ReadOnly("Condition", {
     ConditionId = 100206,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100206
-      }
+      QuestChain = 100206
     },
     Remark = "第一章任务完成"
   },
@@ -9184,9 +8438,7 @@ return ReadOnly("Condition", {
     ConditionId = 100208,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     Remark = "第一章任务完成"
   },
@@ -9194,9 +8446,7 @@ return ReadOnly("Condition", {
     ConditionId = 100212,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     Remark = "第一章任务完成"
   },
@@ -9252,9 +8502,7 @@ return ReadOnly("Condition", {
     ConditionId = 100306,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100306
-      }
+      QuestChain = 100306
     },
     Remark = "第二章任务完成"
   },
@@ -9262,9 +8510,7 @@ return ReadOnly("Condition", {
     ConditionId = 100307,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100307
-      }
+      QuestChain = 100307
     },
     Remark = "第二章任务完成"
   },
@@ -9272,9 +8518,7 @@ return ReadOnly("Condition", {
     ConditionId = 101103,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100101
-      },
+      QuestChain = 100101,
       TeleportIsUnlock = {1011}
     },
     Remark = "蛋皎商店地图标点解锁条件"
@@ -9307,9 +8551,7 @@ return ReadOnly("Condition", {
     ConditionId = 110107,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        110107
-      }
+      QuestChain = 110107
     },
     Remark = "EX01任务完成"
   },
@@ -9325,9 +8567,7 @@ return ReadOnly("Condition", {
     ConditionId = 110109,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        110109
-      }
+      QuestChain = 110109
     },
     Remark = "EX01任务完成"
   },
@@ -9359,9 +8599,7 @@ return ReadOnly("Condition", {
     ConditionId = 120100,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        990103
-      }
+      QuestChain = 990103
     },
     Remark = "东国一期的解锁条件"
   },
@@ -9385,9 +8623,7 @@ return ReadOnly("Condition", {
     ConditionId = 120103,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        120103
-      }
+      QuestChain = 120103
     },
     Remark = "东国一期任务完成"
   },
@@ -9403,9 +8639,7 @@ return ReadOnly("Condition", {
     ConditionId = 120106,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        120106
-      }
+      QuestChain = 120106
     },
     Remark = "东国一期任务全部完成"
   },
@@ -9413,9 +8647,7 @@ return ReadOnly("Condition", {
     ConditionId = 120110,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100208
-      }
+      QuestChain = 100208
     },
     Remark = "菲娜活动任务解锁"
   },
@@ -9487,9 +8719,7 @@ return ReadOnly("Condition", {
     ConditionId = 200101,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200101
-      }
+      QuestChain = 200101
     },
     Remark = "支线任务完成"
   },
@@ -9505,9 +8735,7 @@ return ReadOnly("Condition", {
     ConditionId = 200104,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200104
-      }
+      QuestChain = 200104
     },
     Remark = "魔灵支线下完成"
   },
@@ -9547,9 +8775,7 @@ return ReadOnly("Condition", {
     ConditionId = 200213,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200213
-      }
+      QuestChain = 200213
     },
     Remark = "玛尔洁支线任务完成"
   },
@@ -9557,9 +8783,7 @@ return ReadOnly("Condition", {
     ConditionId = 200215,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200215
-      }
+      QuestChain = 200215
     },
     Remark = "马库斯任务完成"
   },
@@ -9591,9 +8815,7 @@ return ReadOnly("Condition", {
     ConditionId = 200225,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        200225
-      }
+      QuestChain = 200225
     },
     Remark = "小小研究者三阶段结束"
   },
@@ -9619,9 +8841,7 @@ return ReadOnly("Condition", {
     ConditionId = 700001,
     ConditionLogic = "AND",
     ConditionMap = {
-      CurrentCharId = {
-        1101
-      }
+      CurrentCharId = 1101
     },
     Remark = "【动态事件】黑桃的回忆"
   },
@@ -9632,9 +8852,7 @@ return ReadOnly("Condition", {
       DynamicEventCompleteTimes = {
         {100600, 3}
       },
-      PlayerLevelMin = {
-        12
-      }
+      PlayerLevelMin = 12
     },
     Remark = "喂猫常驻动态事件解锁-完成猫的报恩定制动态事件"
   },
@@ -9658,9 +8876,7 @@ return ReadOnly("Condition", {
     ConditionId = 990103,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        990103
-      }
+      QuestChain = 990103
     },
     Remark = "任务测试用"
   },
@@ -9684,9 +8900,7 @@ return ReadOnly("Condition", {
     ConditionId = 999992,
     ConditionLogic = "AND",
     ConditionMap = {
-      CurrentCharId = {
-        1101
-      }
+      CurrentCharId = 1101
     },
     IsNot = true,
     Remark = "程序动态事件测试用"
@@ -9715,9 +8929,7 @@ return ReadOnly("Condition", {
     ConditionId = 999995,
     ConditionLogic = "OR",
     ConditionMap = {
-      RougeLikeComplete = {
-        101
-      }
+      RougeLikeComplete = 101
     },
     Remark = "程序测试用"
   },
@@ -9747,9 +8959,7 @@ return ReadOnly("Condition", {
     ConditionId = 999998,
     ConditionLogic = "AND",
     ConditionMap = {
-      RougeLikePreRoom = {
-        101
-      }
+      RougeLikePreRoom = 101
     },
     IsNot = true,
     Remark = "程序测试用"
@@ -9773,9 +8983,7 @@ return ReadOnly("Condition", {
         }
       },
       PlayerLevelMax = {9999},
-      PlayerLevelMin = {
-        60
-      },
+      PlayerLevelMin = 60,
       Quest = {99999},
       QuestChain = {999999}
     },
@@ -10310,9 +9518,7 @@ return ReadOnly("Condition", {
   "F"
 }
       },
-      QuestChain = {
-        100201
-      }
+      QuestChain = 100201
     },
     Remark = "组合条件-到达据点且不在特殊任务中（采集特殊怪使用）"
   },
@@ -10342,9 +9548,7 @@ return ReadOnly("Condition", {
     ConditionId = 1000601,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030197
-      }
+      Quest = 10030197
     },
     Remark = "第一次推理小游戏结束后"
   },
@@ -10352,9 +9556,7 @@ return ReadOnly("Condition", {
     ConditionId = 1000602,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030206
-      }
+      Quest = 10030206
     },
     Remark = "第一次下水道战斗后"
   },
@@ -10362,9 +9564,7 @@ return ReadOnly("Condition", {
     ConditionId = 1000603,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030394
-      }
+      Quest = 10030394
     },
     Remark = "第一次调查完秘密基地后"
   },
@@ -10372,9 +9572,7 @@ return ReadOnly("Condition", {
     ConditionId = 1000604,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030498
-      }
+      Quest = 10030498
     },
     Remark = "钓鱼完成后"
   },
@@ -10414,12 +9612,8 @@ return ReadOnly("Condition", {
     ConditionId = 1002121,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        20
-      },
-      QuestChain = {
-        100208
-      }
+      PlayerLevelMin = 20,
+      QuestChain = 100208
     },
     Remark = "第一章任务完成"
   },
@@ -10427,9 +9621,7 @@ return ReadOnly("Condition", {
     ConditionId = 10020106,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        10020106
-      }
+      Quest = 10020106
     },
     Remark = "┗ 支线解锁"
   },
@@ -10437,9 +9629,7 @@ return ReadOnly("Condition", {
     ConditionId = 10020201,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        12
-      },
+      PlayerLevelMin = 12,
       QuestChain = {
         100202, 200103
       }
@@ -10458,9 +9648,7 @@ return ReadOnly("Condition", {
     ConditionId = 10020601,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        19
-      },
+      PlayerLevelMin = 19,
       QuestChain = {100206, 200215}
     },
     Remark = "在广场等赛琪的解锁条件"
@@ -10469,12 +9657,8 @@ return ReadOnly("Condition", {
     ConditionId = 10020801,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        24
-      },
-      QuestChain = {
-        100208
-      }
+      PlayerLevelMin = 24,
+      QuestChain = 100208
     },
     Remark = "EX01主线的解锁条件（废弃）"
   },
@@ -10482,9 +9666,7 @@ return ReadOnly("Condition", {
     ConditionId = 10030498,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        10030498
-      }
+      Quest = 10030498
     },
     Remark = "第二章任务完成"
   },
@@ -10492,12 +9674,8 @@ return ReadOnly("Condition", {
     ConditionId = 10030701,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        37
-      },
-      QuestChain = {
-        100307
-      }
+      PlayerLevelMin = 37,
+      QuestChain = 100307
     },
     Remark = "东国引入的解锁条件"
   },
@@ -10505,9 +9683,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100101,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        57
-      }
+      PlayerLevelMin = 57
     },
     Remark = "百科词条解锁条件-测试1"
   },
@@ -10515,9 +9691,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100102,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        58
-      }
+      PlayerLevelMin = 58
     },
     Remark = "百科词条解锁条件-测试2"
   },
@@ -10525,9 +9699,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100103,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        59
-      }
+      PlayerLevelMin = 59
     },
     Remark = "百科词条解锁条件-测试3"
   },
@@ -10535,9 +9707,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100201,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        60
-      }
+      PlayerLevelMin = 60
     },
     Remark = "百科词条解锁条件-测试4"
   },
@@ -10545,9 +9715,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100201
-      }
+      DialogueHasRead = 10100201
     },
     Remark = "海伯利亚帝国"
   },
@@ -10555,9 +9723,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100401,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100601
-      }
+      DialogueHasRead = 10100601
     },
     Remark = "神弃者同盟"
   },
@@ -10565,9 +9731,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100402,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11010401
-      }
+      DialogueHasRead = 11010401
     },
     Remark = "神弃者同盟（追加1）"
   },
@@ -10583,9 +9747,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100501,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100801
-      }
+      DialogueHasRead = 10100801
     },
     Remark = "海伯利亚军团"
   },
@@ -10593,9 +9755,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100601,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10101901
-      }
+      DialogueHasRead = 10101901
     },
     Remark = "卫戍部队"
   },
@@ -10603,9 +9763,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100602,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10102401
-      }
+      DialogueHasRead = 10102401
     },
     Remark = "卫戍部队（追加1）"
   },
@@ -10621,9 +9779,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100801,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11013601
-      }
+      DialogueHasRead = 11013601
     },
     Remark = "海伯利亚枢密院"
   },
@@ -10631,9 +9787,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100901,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        20000501
-      }
+      DialogueHasRead = 20000501
     },
     Remark = "艾利西安"
   },
@@ -10649,9 +9803,7 @@ return ReadOnly("Condition", {
     ConditionId = 11010103,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        11010103
-      }
+      Quest = 11010103
     },
     Remark = "解锁EX01地图"
   },
@@ -10675,9 +9827,7 @@ return ReadOnly("Condition", {
     ConditionId = 11010804,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        11010804
-      }
+      Quest = 11010804
     },
     Remark = "EX01表白心迹"
   },
@@ -10685,9 +9835,7 @@ return ReadOnly("Condition", {
     ConditionId = 11010901,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        33
-      },
+      PlayerLevelMin = 33,
       QuestChain = {
         110109, 200227
       }
@@ -10698,9 +9846,7 @@ return ReadOnly("Condition", {
     ConditionId = 11010903,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        11010903
-      }
+      Quest = 11010903
     },
     Remark = "EX01典狱长boss战"
   },
@@ -10709,9 +9855,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       Quest = {12010317},
-      QuestChain = {
-        120103
-      }
+      QuestChain = 120103
     },
     Remark = "东国一期（扶疏线）"
   },
@@ -10720,9 +9864,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       Quest = {12010318},
-      QuestChain = {
-        120103
-      }
+      QuestChain = 120103
     },
     Remark = "东国一期（虬先生）"
   },
@@ -10731,9 +9873,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       Quest = {12010319},
-      QuestChain = {
-        120103
-      }
+      QuestChain = 120103
     },
     Remark = "东国一期（煜明）"
   },
@@ -10766,9 +9906,7 @@ return ReadOnly("Condition", {
     ConditionId = 20010401,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        24
-      },
+      PlayerLevelMin = 24,
       QuestChain = {200104, 100208}
     },
     Remark = "EX01主线的解锁条件"
@@ -10777,12 +9915,8 @@ return ReadOnly("Condition", {
     ConditionId = 20020801,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20021301
-      },
-      QuestChain = {
-        100208
-      }
+      Quest = 20021301,
+      QuestChain = 100208
     },
     Remark = "莱娜支线解锁条件"
   },
@@ -10806,9 +9940,7 @@ return ReadOnly("Condition", {
     ConditionId = 20021301,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20021301
-      }
+      Quest = 20021301
     },
     Remark = "玛尔洁支线任务一阶段完成"
   },
@@ -10816,9 +9948,7 @@ return ReadOnly("Condition", {
     ConditionId = 20021501,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20021501
-      }
+      Quest = 20021501
     },
     Remark = "马库斯第一环任务完成"
   },
@@ -10826,9 +9956,7 @@ return ReadOnly("Condition", {
     ConditionId = 20021502,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20021501
-      },
+      Quest = 20021501,
       TeleportIsUnlock = {1001}
     },
     Remark = "马库斯第一环任务完成且村庄传送点解锁"
@@ -10837,9 +9965,7 @@ return ReadOnly("Condition", {
     ConditionId = 20021503,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20021501
-      },
+      Quest = 20021501,
       TeleportIsUnlock = {1017}
     },
     Remark = "马库斯第一环任务完成且冰湖传送点解锁"
@@ -10848,9 +9974,7 @@ return ReadOnly("Condition", {
     ConditionId = 20021504,
     ConditionLogic = "AND",
     ConditionMap = {
-      Quest = {
-        20021501
-      },
+      Quest = 20021501,
       TeleportIsUnlock = {1032}
     },
     Remark = "马库斯第一环任务完成且下水道传送点解锁"
@@ -10859,9 +9983,7 @@ return ReadOnly("Condition", {
     ConditionId = 20021602,
     ConditionLogic = "AND",
     ConditionMap = {
-      QuestChain = {
-        100203
-      }
+      QuestChain = 100203
     },
     Remark = "帝国三兄弟任务显示条件"
   },
@@ -10921,9 +10043,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100102,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100201
-      }
+      DialogueHasRead = 10100201
     },
     Remark = "贝蕾妮卡（追加1）"
   },
@@ -10947,9 +10067,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100401,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100201
-      }
+      DialogueHasRead = 10100201
     },
     Remark = "卡米拉"
   },
@@ -10957,9 +10075,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100501,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100201
-      }
+      DialogueHasRead = 10100201
     },
     Remark = "白"
   },
@@ -10967,9 +10083,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100502,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        20000601
-      }
+      DialogueHasRead = 20000601
     },
     Remark = "白（追加1）"
   },
@@ -10985,9 +10099,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100602,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10110201
-      }
+      DialogueHasRead = 10110201
     },
     Remark = "恩里克（追加1）"
   },
@@ -10995,9 +10107,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100603,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10110801
-      }
+      DialogueHasRead = 10110801
     },
     Remark = "恩里克（追加2）"
   },
@@ -11005,9 +10115,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100701,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10101601
-      }
+      DialogueHasRead = 10101601
     },
     Remark = "赛琪"
   },
@@ -11031,9 +10139,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100801,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10102601
-      }
+      DialogueHasRead = 10102601
     },
     Remark = "玛尔洁"
   },
@@ -11041,9 +10147,7 @@ return ReadOnly("Condition", {
     ConditionId = 20100901,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10105401
-      }
+      DialogueHasRead = 10105401
     },
     Remark = "奥特赛德"
   },
@@ -11075,9 +10179,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101103,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10033953
-      }
+      DialogueHasRead = 10033953
     },
     Remark = "黎瑟（追加2）"
   },
@@ -11118,9 +10220,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {11015133},
-      Quest = {
-        11010804
-      }
+      Quest = 11010804
     },
     Remark = "达芙涅（追加1）"
   },
@@ -11128,9 +10228,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11010401
-      }
+      DialogueHasRead = 11010401
     },
     Remark = "阿瓦尔"
   },
@@ -11138,9 +10236,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101302,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11012811
-      }
+      DialogueHasRead = 11012811
     },
     Remark = "阿瓦尔（追加1）"
   },
@@ -11190,9 +10286,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {11012427},
-      Quest = {
-        11010516
-      }
+      Quest = 11010516
     },
     Remark = "卡嘉（追加1）"
   },
@@ -11200,9 +10294,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101601,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11013601
-      }
+      DialogueHasRead = 11013601
     },
     Remark = "法露茜"
   },
@@ -11210,9 +10302,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101602,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11017001
-      }
+      DialogueHasRead = 11017001
     },
     Remark = "法露茜（追加1）"
   },
@@ -11220,9 +10310,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101701,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11013601
-      }
+      DialogueHasRead = 11013601
     },
     Remark = "塞维乌斯公爵"
   },
@@ -11238,9 +10326,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101901,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11015301
-      }
+      DialogueHasRead = 11015301
     },
     Remark = "海尔法"
   },
@@ -11264,9 +10350,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102001,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11017001
-      }
+      DialogueHasRead = 11017001
     },
     Remark = "维吉尔"
   },
@@ -11282,9 +10366,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102101,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11011501
-      }
+      DialogueHasRead = 11011501
     },
     Remark = "迪斯一世"
   },
@@ -11292,9 +10374,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102102,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10033914
-      }
+      DialogueHasRead = 10033914
     },
     Remark = "迪斯一世（追加1）"
   },
@@ -11302,9 +10382,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102201,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10032101
-      }
+      DialogueHasRead = 10032101
     },
     Remark = "普奇"
   },
@@ -11320,9 +10398,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102401,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10033953
-      }
+      DialogueHasRead = 10033953
     },
     Remark = "布鲁斯"
   },
@@ -11330,9 +10406,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102402,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10036801
-      }
+      DialogueHasRead = 10036801
     },
     Remark = "布鲁斯（追加1）"
   },
@@ -11348,9 +10422,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102601,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10036801
-      }
+      DialogueHasRead = 10036801
     },
     Remark = "幻景"
   },
@@ -11358,9 +10430,7 @@ return ReadOnly("Condition", {
     ConditionId = 20102602,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030512
-      }
+      Quest = 10030512
     },
     Remark = "幻景（追加1）"
   },
@@ -11368,9 +10438,7 @@ return ReadOnly("Condition", {
     ConditionId = 20400101,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10010102
-      }
+      Quest = 10010102
     },
     Remark = "梦中的{性别2：少年|少女}"
   },
@@ -11378,9 +10446,7 @@ return ReadOnly("Condition", {
     ConditionId = 20400102,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10010306
-      }
+      Quest = 10010306
     },
     Remark = "梦中的{性别2：少年|少女}（追加1）"
   },
@@ -11396,9 +10462,7 @@ return ReadOnly("Condition", {
     ConditionId = 20400104,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11011501
-      }
+      DialogueHasRead = 11011501
     },
     Remark = "梦中的{性别2：少年|少女}（追加3）"
   },
@@ -11407,9 +10471,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {11012430},
-      Quest = {
-        11010516
-      }
+      Quest = 11010516
     },
     Remark = "梦中的{性别2：少年|少女}（追加4）"
   },
@@ -11417,9 +10479,7 @@ return ReadOnly("Condition", {
     ConditionId = 20400201,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100801
-      }
+      DialogueHasRead = 10100801
     },
     Remark = "白衣神秘人"
   },
@@ -11427,9 +10487,7 @@ return ReadOnly("Condition", {
     ConditionId = 20400301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        20000501
-      }
+      DialogueHasRead = 20000501
     },
     Remark = "铁匠皎皎"
   },
@@ -11445,9 +10503,7 @@ return ReadOnly("Condition", {
     ConditionId = 30100101,
     ConditionLogic = "AND",
     ConditionMap = {
-      PlayerLevelMin = {
-        1
-      },
+      PlayerLevelMin = 1,
       Quest = {10010210}
     },
     Remark = "阿特拉西亚 默认解锁"
@@ -11457,9 +10513,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {10104303},
-      Quest = {
-        10020305
-      }
+      Quest = 10020305
     },
     Remark = "维德弗尼尔山脉"
   },
@@ -11467,9 +10521,7 @@ return ReadOnly("Condition", {
     ConditionId = 30100301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100401
-      }
+      DialogueHasRead = 10100401
     },
     Remark = "天之树"
   },
@@ -11477,9 +10529,7 @@ return ReadOnly("Condition", {
     ConditionId = 30100401,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10104001
-      }
+      DialogueHasRead = 10104001
     },
     Remark = "群星绮晶"
   },
@@ -11488,9 +10538,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {10106310},
-      Quest = {
-        10020403
-      }
+      Quest = 10020403
     },
     Remark = "群星绮晶（追加1）"
   },
@@ -11506,9 +10554,7 @@ return ReadOnly("Condition", {
     ConditionId = 30100501,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10101601
-      }
+      DialogueHasRead = 10101601
     },
     Remark = "泪湖"
   },
@@ -11516,9 +10562,7 @@ return ReadOnly("Condition", {
     ConditionId = 30100601,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100401
-      }
+      DialogueHasRead = 10100401
     },
     Remark = "月石"
   },
@@ -11534,9 +10578,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300201,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100601
-      }
+      DialogueHasRead = 10100601
     },
     Remark = "皎皎之民"
   },
@@ -11544,9 +10586,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300202,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        20000601
-      }
+      DialogueHasRead = 20000601
     },
     Remark = "皎皎之民（追加1）"
   },
@@ -11554,9 +10594,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100201
-      }
+      DialogueHasRead = 10100201
     },
     Remark = "卡戎之民"
   },
@@ -11564,9 +10602,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300302,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10102401
-      }
+      DialogueHasRead = 10102401
     },
     Remark = "卡戎之民（追加1）"
   },
@@ -11574,9 +10610,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300303,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10105401
-      }
+      DialogueHasRead = 10105401
     },
     Remark = "卡戎之民（追加2）"
   },
@@ -11584,9 +10618,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300304,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10110201
-      }
+      DialogueHasRead = 10110201
     },
     Remark = "卡戎之民（追加3）"
   },
@@ -11594,9 +10626,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300305,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10033914
-      }
+      DialogueHasRead = 10033914
     },
     Remark = "卡戎之民（追加4）"
   },
@@ -11622,9 +10652,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300501,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10105401
-      }
+      DialogueHasRead = 10105401
     },
     Remark = "骸"
   },
@@ -11632,9 +10660,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300601,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10110201
-      }
+      DialogueHasRead = 10110201
     },
     Remark = "秽蚀"
   },
@@ -11642,9 +10668,7 @@ return ReadOnly("Condition", {
     ConditionId = 30300701,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10102401
-      }
+      DialogueHasRead = 10102401
     },
     Remark = "索拉之民"
   },
@@ -11652,9 +10676,7 @@ return ReadOnly("Condition", {
     ConditionId = 30400101,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10010102
-      }
+      Quest = 10010102
     },
     Remark = "沙海之梦"
   },
@@ -11662,9 +10684,7 @@ return ReadOnly("Condition", {
     ConditionId = 30400201,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10010306
-      }
+      Quest = 10010306
     },
     Remark = "和鸣之力"
   },
@@ -11696,9 +10716,7 @@ return ReadOnly("Condition", {
     ConditionId = 40100201,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10033914
-      }
+      DialogueHasRead = 10033914
     },
     Remark = "泪湖之夜"
   },
@@ -11722,9 +10740,7 @@ return ReadOnly("Condition", {
     ConditionId = 40300201,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10110801
-      }
+      DialogueHasRead = 10110801
     },
     Remark = "恩里克的研究"
   },
@@ -11732,9 +10748,7 @@ return ReadOnly("Condition", {
     ConditionId = 40300301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11013601
-      }
+      DialogueHasRead = 11013601
     },
     Remark = "“第二新叶”计划"
   },
@@ -11758,9 +10772,7 @@ return ReadOnly("Condition", {
     ConditionId = 40400101,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10032101
-      }
+      DialogueHasRead = 10032101
     },
     Remark = "魔笛剧团"
   },
@@ -11784,9 +10796,7 @@ return ReadOnly("Condition", {
     ConditionId = 40400203,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030512
-      }
+      Quest = 10030512
     },
     Remark = "《雪国的孩子》（追加2）"
   },
@@ -11794,9 +10804,7 @@ return ReadOnly("Condition", {
     ConditionId = 40500101,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10101601
-      }
+      DialogueHasRead = 10101601
     },
     Remark = "休憩之所"
   },
@@ -11804,9 +10812,7 @@ return ReadOnly("Condition", {
     ConditionId = 40500201,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10020106
-      }
+      Quest = 10020106
     },
     Remark = "修普诺斯之家"
   },
@@ -11815,9 +10821,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {10106314},
-      Quest = {
-        10020403
-      }
+      Quest = 10020403
     },
     Remark = "修普诺斯之家（追加1）"
   },
@@ -11834,9 +10838,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {10110818},
-      Quest = {
-        10020704
-      }
+      Quest = 10020704
     },
     Remark = "修普诺斯之家（追加3）"
   },
@@ -11844,9 +10846,7 @@ return ReadOnly("Condition", {
     ConditionId = 40500205,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10020704
-      }
+      Quest = 10020704
     },
     Remark = "恩里克之死"
   },
@@ -11854,9 +10854,7 @@ return ReadOnly("Condition", {
     ConditionId = 40500301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10101901
-      }
+      DialogueHasRead = 10101901
     },
     Remark = "水仙平原"
   },
@@ -11864,9 +10862,7 @@ return ReadOnly("Condition", {
     ConditionId = 40500401,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10102601
-      }
+      DialogueHasRead = 10102601
     },
     Remark = "狩月人"
   },
@@ -11914,9 +10910,7 @@ return ReadOnly("Condition", {
     ConditionId = 40500506,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030512
-      }
+      Quest = 10030512
     },
     Remark = "卡戎狩猎（追加5）"
   },
@@ -11924,9 +10918,7 @@ return ReadOnly("Condition", {
     ConditionId = 40500601,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10031210
-      }
+      DialogueHasRead = 10031210
     },
     Remark = "银烛狂欢庆典"
   },
@@ -11934,9 +10926,7 @@ return ReadOnly("Condition", {
     ConditionId = 40600101,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10104001
-      }
+      DialogueHasRead = 10104001
     },
     Remark = "格雷姆矿坑"
   },
@@ -11944,9 +10934,7 @@ return ReadOnly("Condition", {
     ConditionId = 40600201,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10031210
-      }
+      DialogueHasRead = 10031210
     },
     Remark = "盖雷亚剧院"
   },
@@ -11970,9 +10958,7 @@ return ReadOnly("Condition", {
     ConditionId = 40700201,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11015301
-      }
+      DialogueHasRead = 11015301
     },
     Remark = "树刑"
   },
@@ -11980,9 +10966,7 @@ return ReadOnly("Condition", {
     ConditionId = 40700301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11012811
-      }
+      DialogueHasRead = 11012811
     },
     Remark = "桂冠卡戎"
   },
@@ -12014,9 +10998,7 @@ return ReadOnly("Condition", {
     ConditionId = 40800301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100201
-      }
+      DialogueHasRead = 10100201
     },
     Remark = "冰湖城"
   },
@@ -12024,9 +11006,7 @@ return ReadOnly("Condition", {
     ConditionId = 40800302,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10020305
-      }
+      Quest = 10020305
     },
     Remark = "冰湖城（追加1）"
   },
@@ -12035,9 +11015,7 @@ return ReadOnly("Condition", {
     ConditionLogic = "OR",
     ConditionMap = {
       DialogueHasRead = {10106322},
-      Quest = {
-        10020403
-      }
+      Quest = 10020403
     },
     Remark = "冰湖城（追加2）"
   },
@@ -12053,9 +11031,7 @@ return ReadOnly("Condition", {
     ConditionId = 40800305,
     ConditionLogic = "OR",
     ConditionMap = {
-      Quest = {
-        10030206
-      }
+      Quest = 10030206
     },
     Remark = "冰湖城（追加4）"
   },
@@ -12063,9 +11039,7 @@ return ReadOnly("Condition", {
     ConditionId = 40800401,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10100801
-      }
+      DialogueHasRead = 10100801
     },
     Remark = "迪斯玛尼亚"
   },
@@ -12081,9 +11055,7 @@ return ReadOnly("Condition", {
     ConditionId = 40800601,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        10110201
-      }
+      DialogueHasRead = 10110201
     },
     Remark = "红溪城"
   },
@@ -12099,9 +11071,7 @@ return ReadOnly("Condition", {
     ConditionId = 40800801,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11017101
-      }
+      DialogueHasRead = 11017101
     },
     Remark = "凯旋大道"
   },
@@ -12109,9 +11079,7 @@ return ReadOnly("Condition", {
     ConditionId = 40800901,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = {
-        11017101
-      }
+      DialogueHasRead = 11017101
     },
     Remark = "絮语河"
   },

@@ -2,23 +2,17 @@ return ReadOnly("RougeLikeBlessingRandom", {
   [-1] = {BlessingRandom = -1},
   [1] = {
     BlessingRandom = 1,
-    BlessingRarity = {
-      1
-    },
+    BlessingRarity = 1,
     RandomType = 1
   },
   [2] = {
     BlessingRandom = 2,
-    BlessingRarity = {
-      2
-    },
+    BlessingRarity = 2,
     RandomType = 1
   },
   [3] = {
     BlessingRandom = 3,
-    BlessingRarity = {
-      3
-    },
+    BlessingRarity = 3,
     RandomType = 1
   },
   [4] = {
@@ -51,9 +45,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      1
-    },
+    LimitGroup = 1,
     RandomType = 1
   },
   [8] = {
@@ -63,9 +55,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      2
-    },
+    LimitGroup = 2,
     RandomType = 1
   },
   [9] = {
@@ -75,30 +65,22 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      3
-    },
+    LimitGroup = 3,
     RandomType = 1
   },
   [10] = {
     BlessingRandom = 10,
-    BlessingRarity = {
-      1
-    },
+    BlessingRarity = 1,
     RandomType = 2
   },
   [11] = {
     BlessingRandom = 11,
-    BlessingRarity = {
-      2
-    },
+    BlessingRarity = 2,
     RandomType = 2
   },
   [12] = {
     BlessingRandom = 12,
-    BlessingRarity = {
-      3
-    },
+    BlessingRarity = 3,
     RandomType = 2
   },
   [13] = {
@@ -131,9 +113,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      1
-    },
+    LimitGroup = 1,
     RandomType = 2
   },
   [17] = {
@@ -143,9 +123,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      2
-    },
+    LimitGroup = 2,
     RandomType = 2
   },
   [18] = {
@@ -155,9 +133,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      3
-    },
+    LimitGroup = 3,
     RandomType = 2
   },
   [19] = {
@@ -167,9 +143,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      4
-    },
+    LimitGroup = 4,
     RandomType = 2
   },
   [20] = {
@@ -179,9 +153,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      6
-    },
+    LimitGroup = 6,
     RandomType = 2
   },
   [21] = {
@@ -189,9 +161,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
     BlessingRarity = {
       1, 2
     },
-    LimitGroup = {
-      1
-    },
+    LimitGroup = 1,
     RandomType = 1
   },
   [22] = {
@@ -199,9 +169,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
     BlessingRarity = {
       1, 2
     },
-    LimitGroup = {
-      2
-    },
+    LimitGroup = 2,
     RandomType = 1
   },
   [23] = {
@@ -209,9 +177,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
     BlessingRarity = {
       1, 2
     },
-    LimitGroup = {
-      3
-    },
+    LimitGroup = 3,
     RandomType = 1
   },
   [24] = {
@@ -219,9 +185,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
     BlessingRarity = {
       1, 2
     },
-    LimitGroup = {
-      4
-    },
+    LimitGroup = 4,
     RandomType = 1
   },
   [25] = {
@@ -229,9 +193,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
     BlessingRarity = {
       1, 2
     },
-    LimitGroup = {
-      5
-    },
+    LimitGroup = 5,
     RandomType = 1
   },
   [26] = {
@@ -239,9 +201,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
     BlessingRarity = {
       1, 2
     },
-    LimitGroup = {
-      6
-    },
+    LimitGroup = 6,
     RandomType = 1
   },
   [27] = {
@@ -249,9 +209,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
     BlessingRarity = {
       1, 2
     },
-    LimitGroup = {
-      7
-    },
+    LimitGroup = 7,
     RandomType = 1
   },
   [28] = {
@@ -261,9 +219,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      5
-    },
+    LimitGroup = 5,
     RandomType = 2
   },
   [29] = {
@@ -273,9 +229,7 @@ return ReadOnly("RougeLikeBlessingRandom", {
       2,
       3
     },
-    LimitGroup = {
-      7
-    },
+    LimitGroup = 7,
     RandomType = 2
   }
 })

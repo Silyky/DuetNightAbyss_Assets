@@ -151,9 +151,7 @@ return ReadOnly("UIUnlockRule", {
     ConditionId = 4260,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_Chat.T_Entrance_Chat",
     IsHideUnlockPopup = 1,
-    OpenConditionId = {
-      8028
-    },
+    OpenConditionId = 8028,
     OpenSystemDesc = {
       "UI_Disabled_Des_Chat"
     },
@@ -306,9 +304,7 @@ return ReadOnly("UIUnlockRule", {
     AfterUIUnlockDesc = "System_Des_GuideBook_CBT3",
     ConditionId = 4180,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Entrance/T_Entrance_GuideBook.T_Entrance_GuideBook",
-    OpenConditionId = {
-      8028
-    },
+    OpenConditionId = 8028,
     OpenSystemDesc = {
       "UI_Disabled_Des_GuideBook"
     },

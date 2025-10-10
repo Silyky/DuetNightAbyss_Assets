@@ -288,9 +288,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 211,
-    UseParam2 = {
-      2
-    }
+    UseParam2 = 2
   },
   [1010] = {
     CreateMode = "client",
@@ -359,9 +357,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 211,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1013] = {
     CreateMode = "client",
@@ -384,9 +380,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 211,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1014] = {
     CreateMode = "client",
@@ -409,9 +403,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 211,
-    UseParam2 = {
-      2
-    }
+    UseParam2 = 2
   },
   [1015] = {
     CreateMode = "client",
@@ -458,9 +450,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 211,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1017] = {
     CreateMode = "client",
@@ -508,9 +498,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20010,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1021] = {
     CreateMode = "client",
@@ -533,9 +521,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20009,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1022] = {
     CreateMode = "client",
@@ -558,9 +544,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1023] = {
     CreateMode = "client",
@@ -583,9 +567,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20012,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1024] = {
     CreateMode = "client",
@@ -608,9 +590,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20005,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1025] = {
     CreateMode = "client",
@@ -633,9 +613,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20011,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1026] = {
     CreateMode = "client",
@@ -658,9 +636,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 2007,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1027] = {
     CreateMode = "client",
@@ -683,9 +659,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 2011,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1028] = {
     CreateMode = "client",
@@ -708,9 +682,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 30001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1029] = {
     CreateMode = "client",
@@ -733,9 +705,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 30002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [1031] = {
     CombatConditionId = 2,
@@ -3664,9 +3634,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19000,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19001] = {
     CreateMode = "client",
@@ -3689,9 +3657,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19002] = {
     CreateMode = "client",
@@ -3714,9 +3680,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19003] = {
     CreateMode = "client",
@@ -3739,9 +3703,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19004] = {
     CreateMode = "client",
@@ -3764,9 +3726,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19004,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19005] = {
     CreateMode = "client",
@@ -3789,9 +3749,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19005,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19006] = {
     CreateMode = "client",
@@ -3814,9 +3772,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19006,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19007] = {
     CreateMode = "client",
@@ -3839,9 +3795,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19007,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [19008] = {
     CreateMode = "client",
@@ -3864,9 +3818,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 19008,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20001] = {
     CreateMode = "client",
@@ -3889,9 +3841,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20002] = {
     CreateMode = "client",
@@ -3914,9 +3864,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20003] = {
     CreateMode = "client",
@@ -3939,9 +3887,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20004] = {
     CreateMode = "client",
@@ -3964,9 +3910,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20004,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20005] = {
     CreateMode = "client",
@@ -3989,9 +3933,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20005,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20006] = {
     CreateMode = "client",
@@ -4014,9 +3956,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20006,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20007] = {
     CreateMode = "client",
@@ -4039,9 +3979,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20007,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20008] = {
     CreateMode = "client",
@@ -4064,9 +4002,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20008,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20009] = {
     CreateMode = "client",
@@ -4089,9 +4025,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20009,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20010] = {
     CreateMode = "client",
@@ -4114,9 +4048,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20010,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20011] = {
     CreateMode = "client",
@@ -4139,9 +4071,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20011,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20012] = {
     CreateMode = "client",
@@ -4164,9 +4094,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20012,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20013] = {
     CreateMode = "client",
@@ -4189,9 +4117,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20013,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20014] = {
     CreateMode = "client",
@@ -4214,9 +4140,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20014,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20015] = {
     CreateMode = "client",
@@ -4239,9 +4163,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20015,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20016] = {
     CreateMode = "client",
@@ -4264,9 +4186,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20016,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20017] = {
     CreateMode = "client",
@@ -4289,9 +4209,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20017,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20018] = {
     CreateMode = "client",
@@ -4314,9 +4232,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20018,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20019] = {
     CreateMode = "client",
@@ -4339,9 +4255,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20019,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20020] = {
     CreateMode = "client",
@@ -4364,9 +4278,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20020,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20021] = {
     CreateMode = "client",
@@ -4389,9 +4301,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20021,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20022] = {
     CreateMode = "client",
@@ -4414,9 +4324,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20022,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20023] = {
     CreateMode = "client",
@@ -4439,9 +4347,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20023,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20024] = {
     CreateMode = "client",
@@ -4464,9 +4370,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20024,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20025] = {
     CreateMode = "client",
@@ -4489,9 +4393,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20025,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20026] = {
     CreateMode = "client",
@@ -4514,9 +4416,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20026,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20027] = {
     CreateMode = "client",
@@ -4539,9 +4439,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20027,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20028] = {
     CreateMode = "client",
@@ -4564,9 +4462,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20028,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20029] = {
     CreateMode = "client",
@@ -4589,9 +4485,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20029,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20030] = {
     CreateMode = "client",
@@ -4614,9 +4508,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20030,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20031] = {
     CreateMode = "client",
@@ -4639,9 +4531,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20031,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20032] = {
     CreateMode = "client",
@@ -4664,9 +4554,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 20032,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20500] = {
     CreateMode = "client",
@@ -4693,9 +4581,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/KeyNew.KeyNew",
     UseEffectType = "GetResource",
     UseParam = 20500,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20501] = {
     CreateMode = "client",
@@ -4720,9 +4606,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/KeyTask.KeyTask",
     UseEffectType = "GetResource",
     UseParam = 20501,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20502] = {
     CreateMode = "client",
@@ -4748,9 +4632,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20500,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20503] = {
     CreateMode = "client",
@@ -4815,9 +4697,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/BatNew.BatNew",
     UseEffectType = "GetResource",
     UseParam = 20510,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20511] = {
     CreateMode = "client",
@@ -4840,9 +4720,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Box100140.Box100140",
     UseEffectType = "GetResource",
     UseParam = 20511,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20512] = {
     CreateMode = "client",
@@ -4867,9 +4745,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20512,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20513] = {
     CreateMode = "client",
@@ -4894,9 +4770,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20513,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20514] = {
     CreateMode = "client",
@@ -4921,9 +4795,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20514,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20515] = {
     CreateMode = "client",
@@ -4948,9 +4820,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20515,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20516] = {
     CreateMode = "client",
@@ -4975,9 +4845,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20516,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20517] = {
     CreateMode = "client",
@@ -5002,9 +4870,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20517,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20518] = {
     CreateMode = "client",
@@ -5029,9 +4895,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20518,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20519] = {
     CreateMode = "client",
@@ -5081,9 +4945,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 1002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20521] = {
     CreateMode = "client",
@@ -5107,9 +4969,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 3001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20522] = {
     CreateMode = "client",
@@ -5134,9 +4994,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20514,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20523] = {
     CreateMode = "client",
@@ -5161,9 +5019,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20515,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20524] = {
     CreateMode = "client",
@@ -5187,9 +5043,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 20515,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20525] = {
     CreateMode = "client",
@@ -5230,9 +5084,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Prologue.BP_TreasureMap_Prologue",
     UseEffectType = "GetResource",
     UseParam = 20602,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20603] = {
     CreateMode = "client",
@@ -5258,9 +5110,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Prologue.BP_TreasureMap_Prologue",
     UseEffectType = "GetResource",
     UseParam = 20603,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20604] = {
     CreateMode = "client",
@@ -5286,9 +5136,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Prologue.BP_TreasureMap_Prologue",
     UseEffectType = "GetResource",
     UseParam = 20604,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20605] = {
     CreateMode = "client",
@@ -5314,9 +5162,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Prologue.BP_TreasureMap_Prologue",
     UseEffectType = "GetResource",
     UseParam = 20605,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20608] = {
     CreateMode = "client",
@@ -5342,9 +5188,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20608,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20609] = {
     CreateMode = "client",
@@ -5370,9 +5214,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20609,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20610] = {
     CreateMode = "client",
@@ -5398,9 +5240,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20610,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20611] = {
     CreateMode = "client",
@@ -5426,9 +5266,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20611,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20612] = {
     CreateMode = "client",
@@ -5454,9 +5292,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20612,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20613] = {
     CreateMode = "client",
@@ -5482,9 +5318,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20613,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20614] = {
     CreateMode = "client",
@@ -5510,9 +5344,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20614,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20615] = {
     CreateMode = "client",
@@ -5538,9 +5370,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20615,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20616] = {
     CreateMode = "client",
@@ -5566,9 +5396,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20616,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20617] = {
     CreateMode = "client",
@@ -5594,9 +5422,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_Chapter01.BP_TreasureMap_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 20617,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20620] = {
     CreateMode = "client",
@@ -5622,9 +5448,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_EXChapter01.BP_TreasureMap_EXChapter01",
     UseEffectType = "GetResource",
     UseParam = 20620,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20621] = {
     CreateMode = "client",
@@ -5650,9 +5474,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_EXChapter01.BP_TreasureMap_EXChapter01",
     UseEffectType = "GetResource",
     UseParam = 20621,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [20622] = {
     CreateMode = "client",
@@ -5678,9 +5500,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/BP_TreasureMap_EXChapter01.BP_TreasureMap_EXChapter01",
     UseEffectType = "GetResource",
     UseParam = 20622,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [21001] = {
     CreateMode = "client",
@@ -5730,9 +5550,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 1002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [21003] = {
     CreateMode = "client",
@@ -5782,9 +5600,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 3001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [29001] = {
     CreateMode = "client",
@@ -5809,9 +5625,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Explore_Badge_Prologue.Explore_Badge_Prologue",
     UseEffectType = "GetResource",
     UseParam = 29001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [29002] = {
     CreateMode = "client",
@@ -5836,9 +5650,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Explore_Badge_Chapter01.Explore_Badge_Chapter01",
     UseEffectType = "GetResource",
     UseParam = 29002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [29003] = {
     CreateMode = "client",
@@ -5863,9 +5675,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Explore_Badge_EXChapter01.Explore_Badge_EXChapter01",
     UseEffectType = "GetResource",
     UseParam = 29003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [29004] = {
     CreateMode = "client",
@@ -5890,9 +5700,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Explore_Badge_East.Explore_Badge_East",
     UseEffectType = "GetResource",
     UseParam = 29004,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [30001] = {
     CreateMode = "client",
@@ -5915,9 +5723,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 30001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [30002] = {
     CreateMode = "client",
@@ -5940,9 +5746,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 30002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [30003] = {
     CreateMode = "client",
@@ -6152,9 +5956,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/Nuts01B",
     UseEffectType = "GetResource",
     UseParam = 4020001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [40102] = {
     CreateMode = "client",
@@ -6178,9 +5980,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/Nuts01A",
     UseEffectType = "GetResource",
     UseParam = 4020002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [40105] = {
     CreateMode = "client",
@@ -6204,9 +6004,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/Rock01A",
     UseEffectType = "GetResource",
     UseParam = 4020005,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [51030] = {
     CreateMode = "client",
@@ -7125,9 +6923,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31001006,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90002] = {
     CreateMode = "client",
@@ -7152,9 +6948,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31002003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90003] = {
     CreateMode = "client",
@@ -7179,9 +6973,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31003002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90004] = {
     CreateMode = "client",
@@ -7206,9 +6998,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31004002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90005] = {
     CreateMode = "client",
@@ -7233,9 +7023,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31004006,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90006] = {
     CreateMode = "client",
@@ -7260,9 +7048,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31004008,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90007] = {
     CreateMode = "client",
@@ -7287,9 +7073,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31005001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90008] = {
     CreateMode = "client",
@@ -7314,9 +7098,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31005003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90009] = {
     CreateMode = "client",
@@ -7341,9 +7123,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31005006,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90010] = {
     CreateMode = "client",
@@ -7368,9 +7148,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31006003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90011] = {
     CreateMode = "client",
@@ -7395,9 +7173,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31006004,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90012] = {
     CreateMode = "client",
@@ -7422,9 +7198,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31007003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90013] = {
     CreateMode = "client",
@@ -7449,9 +7223,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31007005,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90014] = {
     CreateMode = "client",
@@ -7476,9 +7248,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31009003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [90015] = {
     CreateMode = "client",
@@ -7503,9 +7273,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_PickupExplore.Empty_PickupExplore",
     UseEffectType = "GetResource",
     UseParam = 31009004,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [100306] = {
     CreateMode = "client",
@@ -19764,9 +19532,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000001,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000002] = {
     CreateMode = "client",
@@ -19793,9 +19559,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000002,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000003] = {
     CreateMode = "client",
@@ -19822,9 +19586,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000003,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000004] = {
     CreateMode = "client",
@@ -19851,9 +19613,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000004,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000005] = {
     CreateMode = "client",
@@ -19880,9 +19640,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000005,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000006] = {
     CreateMode = "client",
@@ -19909,9 +19667,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000006,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000007] = {
     CreateMode = "client",
@@ -19938,9 +19694,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000007,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000008] = {
     CreateMode = "client",
@@ -19967,9 +19721,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000008,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000009] = {
     CreateMode = "client",
@@ -19996,9 +19748,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000009,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000010] = {
     CreateMode = "client",
@@ -20025,9 +19775,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000010,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000011] = {
     CreateMode = "client",
@@ -20054,9 +19802,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000011,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000012] = {
     CreateMode = "client",
@@ -20083,9 +19829,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000012,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000013] = {
     CreateMode = "client",
@@ -20112,9 +19856,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000013,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000014] = {
     CreateMode = "client",
@@ -20141,9 +19883,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000014,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000015] = {
     CreateMode = "client",
@@ -20170,9 +19910,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000015,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000016] = {
     CreateMode = "client",
@@ -20199,9 +19937,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000016,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000018] = {
     CreateMode = "client",
@@ -20228,9 +19964,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000018,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000019] = {
     CreateMode = "client",
@@ -20257,9 +19991,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000019,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000020] = {
     CreateMode = "client",
@@ -20286,9 +20018,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000020,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000021] = {
     CreateMode = "client",
@@ -20315,9 +20045,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000021,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000022] = {
     CreateMode = "client",
@@ -20344,9 +20072,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000022,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000023] = {
     CreateMode = "client",
@@ -20373,9 +20099,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000023,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000024] = {
     CreateMode = "client",
@@ -20402,9 +20126,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000024,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000025] = {
     CreateMode = "client",
@@ -20431,9 +20153,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000025,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000026] = {
     CreateMode = "client",
@@ -20460,9 +20180,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000026,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000027] = {
     CreateMode = "client",
@@ -20489,9 +20207,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000027,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000028] = {
     CreateMode = "client",
@@ -20518,9 +20234,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000028,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000029] = {
     CreateMode = "client",
@@ -20547,9 +20261,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000029,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000030] = {
     CreateMode = "client",
@@ -20576,9 +20288,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000030,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000031] = {
     CreateMode = "client",
@@ -20605,9 +20315,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000031,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000032] = {
     CreateMode = "client",
@@ -20634,9 +20342,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000032,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000033] = {
     CreateMode = "client",
@@ -20663,9 +20369,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000033,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000034] = {
     CreateMode = "client",
@@ -20692,9 +20396,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000034,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000035] = {
     CreateMode = "client",
@@ -20721,9 +20423,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000035,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000036] = {
     CreateMode = "client",
@@ -20750,9 +20450,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000036,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000037] = {
     CreateMode = "client",
@@ -20779,9 +20477,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000037,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000038] = {
     CreateMode = "client",
@@ -20808,9 +20504,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000038,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000039] = {
     CreateMode = "client",
@@ -20837,9 +20531,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000039,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000040] = {
     CreateMode = "client",
@@ -20866,9 +20558,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000040,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000041] = {
     CreateMode = "client",
@@ -20895,9 +20585,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000041,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000042] = {
     CreateMode = "client",
@@ -20924,9 +20612,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000042,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000043] = {
     CreateMode = "client",
@@ -20953,9 +20639,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000043,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000044] = {
     CreateMode = "client",
@@ -20982,9 +20666,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000044,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000045] = {
     CreateMode = "client",
@@ -21011,9 +20693,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000045,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000046] = {
     CreateMode = "client",
@@ -21040,9 +20720,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000046,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000047] = {
     CreateMode = "client",
@@ -21069,9 +20747,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000047,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000048] = {
     CreateMode = "client",
@@ -21098,9 +20774,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000048,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000049] = {
     CreateMode = "client",
@@ -21127,9 +20801,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000049,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000050] = {
     CreateMode = "client",
@@ -21156,9 +20828,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000050,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000051] = {
     CreateMode = "client",
@@ -21185,9 +20855,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000051,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000052] = {
     CreateMode = "client",
@@ -21214,9 +20882,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000052,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000053] = {
     CreateMode = "client",
@@ -21243,9 +20909,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000053,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000054] = {
     CreateMode = "client",
@@ -21272,9 +20936,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000054,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000055] = {
     CreateMode = "client",
@@ -21301,9 +20963,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000055,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000056] = {
     CreateMode = "client",
@@ -21330,9 +20990,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000056,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000057] = {
     CreateMode = "client",
@@ -21359,9 +21017,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000057,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000058] = {
     CreateMode = "client",
@@ -21388,9 +21044,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000058,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000059] = {
     CreateMode = "client",
@@ -21417,9 +21071,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000059,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000060] = {
     CreateMode = "client",
@@ -21446,9 +21098,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000060,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000061] = {
     CreateMode = "client",
@@ -21475,9 +21125,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000061,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000062] = {
     CreateMode = "client",
@@ -21504,9 +21152,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000062,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000063] = {
     CreateMode = "client",
@@ -21533,9 +21179,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000063,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000064] = {
     CreateMode = "client",
@@ -21562,9 +21206,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000064,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000065] = {
     CreateMode = "client",
@@ -21591,9 +21233,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000065,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000066] = {
     CreateMode = "client",
@@ -21620,9 +21260,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000066,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000067] = {
     CreateMode = "client",
@@ -21649,9 +21287,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Scroll.Book_Scroll",
     UseEffectType = "GetResource",
     UseParam = 2000067,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000068] = {
     CreateMode = "client",
@@ -21678,9 +21314,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book_Envelope.Book_Envelope",
     UseEffectType = "GetResource",
     UseParam = 2000068,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000069] = {
     CreateMode = "client",
@@ -21707,9 +21341,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000069,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000070] = {
     CreateMode = "client",
@@ -21736,9 +21368,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000070,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2000071] = {
     CreateMode = "client",
@@ -21765,9 +21395,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000071,
-    UseParam2 = {
-      1
-    }
+    UseParam2 = 1
   },
   [2001041] = {
     CreateMode = "client",

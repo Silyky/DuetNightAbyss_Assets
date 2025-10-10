@@ -29,15 +29,11 @@ return ReadOnly("RougeLikeDifficulty", {
     TMProbability = {
       0.1, 0.1
     },
-    TMReward = {
-      21
-    },
+    TMReward = 21,
     TMRoomType = {
       1, 6
     },
-    UnlockCondition = {
-      5051
-    },
+    UnlockCondition = 5051,
     UnlockLevel = 0
   },
   [2] = {
@@ -70,15 +66,11 @@ return ReadOnly("RougeLikeDifficulty", {
     TMProbability = {
       0.1, 0.1
     },
-    TMReward = {
-      21
-    },
+    TMReward = 21,
     TMRoomType = {
       1, 6
     },
-    UnlockCondition = {
-      5051
-    },
+    UnlockCondition = 5051,
     UnlockLevel = 0
   },
   [3] = {
@@ -111,15 +103,11 @@ return ReadOnly("RougeLikeDifficulty", {
     TMProbability = {
       0.1, 0.1
     },
-    TMReward = {
-      21
-    },
+    TMReward = 21,
     TMRoomType = {
       1, 6
     },
-    UnlockCondition = {
-      5051
-    },
+    UnlockCondition = 5051,
     UnlockLevel = 0
   },
   [4] = {
@@ -152,15 +140,11 @@ return ReadOnly("RougeLikeDifficulty", {
     TMProbability = {
       0.1, 0.1
     },
-    TMReward = {
-      21
-    },
+    TMReward = 21,
     TMRoomType = {
       1, 6
     },
-    UnlockCondition = {
-      5051
-    },
+    UnlockCondition = 5051,
     UnlockLevel = 0
   },
   [5] = {
@@ -193,15 +177,11 @@ return ReadOnly("RougeLikeDifficulty", {
     TMProbability = {
       0.1, 0.1
     },
-    TMReward = {
-      21
-    },
+    TMReward = 21,
     TMRoomType = {
       1, 6
     },
-    UnlockCondition = {
-      5051
-    },
+    UnlockCondition = 5051,
     UnlockLevel = 0
   },
   [101] = {
@@ -242,15 +222,11 @@ return ReadOnly("RougeLikeDifficulty", {
     TMProbability = {
       0.1, 0.1
     },
-    TMReward = {
-      21
-    },
+    TMReward = 21,
     TMRoomType = {
       1, 6
     },
-    UnlockCondition = {
-      5051
-    },
+    UnlockCondition = 5051,
     UnlockLevel = 15
   },
   [102] = {
@@ -299,9 +275,7 @@ return ReadOnly("RougeLikeDifficulty", {
     TMProbability = {
       0.05, 0.05
     },
-    TMReward = {
-      21
-    },
+    TMReward = 21,
     TMRoomType = {
       1, 6
     },

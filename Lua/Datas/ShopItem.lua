@@ -1103,9 +1103,7 @@ return ReadOnly("ShopItem", {
     SoldOutDisplay = true,
     StartTime = 1672545600,
     SubTabId = 1401,
-    SuitRewardId = {
-      12099
-    },
+    SuitRewardId = 12099,
     TypeId = 530101,
     TypeNum = 1
   },
@@ -1122,9 +1120,7 @@ return ReadOnly("ShopItem", {
     SoldOutDisplay = true,
     StartTime = 1672545600,
     SubTabId = 1401,
-    SuitRewardId = {
-      12099
-    },
+    SuitRewardId = 12099,
     TypeId = 3010401,
     TypeNum = 1
   },

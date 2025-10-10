@@ -101,9 +101,7 @@ return ReadOnly("CombatCondition", {
     FuncName = "Not_Shoot_Hold",
     Id = 32,
     Not = true,
-    Or = {
-      901
-    }
+    Or = 901
   },
   [33] = {
     FuncName = "Has_Movement_Input",
@@ -124,17 +122,13 @@ return ReadOnly("CombatCondition", {
   [39] = {
     FuncName = "Press_AnyAttack",
     Id = 39,
-    Or = {
-      901
-    }
+    Or = 901
   },
   [40] = {
     FuncName = "Not_Attack_Hold",
     Id = 40,
     Not = true,
-    Or = {
-      901
-    }
+    Or = 901
   },
   [41] = {
     FuncName = "Magazine_Zero",
@@ -685,9 +679,7 @@ return ReadOnly("CombatCondition", {
     },
     FuncName = "Check_Key_Int",
     Id = 150201,
-    Or = {
-      150206
-    }
+    Or = 150206
   },
   [150202] = {
     ConditionVars = {
@@ -696,14 +688,10 @@ return ReadOnly("CombatCondition", {
     },
     FuncName = "Check_Key_Int",
     Id = 150202,
-    Or = {
-      150206
-    }
+    Or = 150206
   },
   [150203] = {
-    And = {
-      150205
-    },
+    And = 150205,
     ConditionVars = {
       Int = 0,
       Key = "Skill01Count2"
@@ -713,9 +701,7 @@ return ReadOnly("CombatCondition", {
     Not = true
   },
   [150204] = {
-    And = {
-      150205
-    },
+    And = 150205,
     ConditionVars = {
       Int = 0,
       Key = "Skill01Count1"
@@ -850,9 +836,7 @@ return ReadOnly("CombatCondition", {
     ConditionVars = {BuffId = 310120},
     FuncName = "Check_Buff",
     Id = 310120,
-    Or = {
-      310124
-    }
+    Or = 310124
   },
   [310121] = {
     ConditionVars = {
@@ -1036,9 +1020,7 @@ return ReadOnly("CombatCondition", {
     ConditionVars = {BuffId = 410111},
     FuncName = "Check_Buff",
     Id = 410101,
-    Or = {
-      310124
-    }
+    Or = 310124
   },
   [410102] = {
     FuncName = "Is_OnGround",
@@ -1279,9 +1261,7 @@ return ReadOnly("CombatCondition", {
     Id = 700301
   },
   [700801] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {MonsterId = 7015061},
     FuncName = "Check_Mon_UnitId",
     Id = 700801
@@ -1292,17 +1272,13 @@ return ReadOnly("CombatCondition", {
     Id = 701501
   },
   [800201] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {MonsterId = 8002061},
     FuncName = "Check_Mon_UnitId",
     Id = 800201
   },
   [800202] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {MonsterId = 8002062},
     FuncName = "Check_Mon_UnitId",
     Id = 800202
@@ -1706,49 +1682,37 @@ return ReadOnly("CombatCondition", {
     Id = 980501
   },
   [1000101] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {MonsterId = 10001061},
     FuncName = "Check_Mon_UnitId",
     Id = 1000101
   },
   [1000102] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {MonsterId = 10001062},
     FuncName = "Check_Mon_UnitId",
     Id = 1000102
   },
   [1000301] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {CorpType = "BiAn02"},
     FuncName = "Check_Mon_CorpType",
     Id = 1000301
   },
   [1000401] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {CorpType = "BiAn01"},
     FuncName = "Check_Mon_CorpType",
     Id = 1000401
   },
   [1000501] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {MonsterId = 10005061},
     FuncName = "Check_Mon_UnitId",
     Id = 1000501
   },
   [1000502] = {
-    And = {
-      800203
-    },
+    And = 800203,
     ConditionVars = {MonsterId = 10005062},
     FuncName = "Check_Mon_UnitId",
     Id = 1000502
@@ -1900,9 +1864,7 @@ return ReadOnly("CombatCondition", {
     Id = 2060103
   },
   [2060111] = {
-    And = {
-      901
-    },
+    And = 901,
     FuncName = "Not_PerfectHeavyShooting",
     Id = 2060111
   },

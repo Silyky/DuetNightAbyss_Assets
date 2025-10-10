@@ -3011,9 +3011,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "DUNGEON_NAME_20001",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Survival",
     DungeonTypeShow = "DUNGEON_NAME_20001",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Survival.LevelSelect_Bg_Survival",
@@ -3108,9 +3106,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "DUNGEON_NAME_20002",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Defence",
     DungeonTypeShow = "DUNGEON_NAME_20002",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
@@ -3204,9 +3200,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "DUNGEON_NAME_20003",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "DefencePro",
     DungeonTypeShow = "DUNGEON_NAME_20003",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_DefencePro.LevelSelect_Bg_DefencePro",
@@ -3303,9 +3297,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "DUNGEON_NAME_20004",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "SurvivalPro",
     DungeonTypeShow = "DUNGEON_NAME_20004",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalPro.LevelSelect_Bg_SurvivalPro",
@@ -3904,9 +3896,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "DUNGEON_NAME_30001",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Excavation",
     DungeonTypeShow = "DUNGEON_NAME_30001",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Excavation.LevelSelect_Bg_Excavation",
@@ -4000,9 +3990,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "DUNGEON_NAME_30002",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_30002",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Capture.LevelSelect_Bg_Capture",
@@ -4086,9 +4074,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "DUNGEON_NAME_30004",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_30004",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Capture.LevelSelect_Bg_Capture",
@@ -4176,9 +4162,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "DUNGEON_NAME_30005",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Sabotage",
     DungeonTypeShow = "DUNGEON_NAME_30005",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
@@ -4259,9 +4243,7 @@ return ReadOnly("Dungeon", {
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Hijack",
     DungeonName = "DUNGEON_NAME_30006",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Hijack",
     DungeonTypeShow = "DUNGEON_NAME_30006",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Hijack.LevelSelect_Bg_Hijack",
@@ -4341,9 +4323,7 @@ return ReadOnly("Dungeon", {
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Rescue",
     DungeonName = "DUNGEON_NAME_30007",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Rescue",
     DungeonTypeShow = "DUNGEON_NAME_30007",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Rescue.LevelSelect_Bg_Rescue",
@@ -4423,9 +4403,7 @@ return ReadOnly("Dungeon", {
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Exterminate",
     DungeonName = "DUNGEON_NAME_30008",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonType = "Exterminate",
     DungeonTypeShow = "DUNGEON_NAME_30008",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Exterminate.LevelSelect_Bg_Exterminate",
@@ -5982,9 +5960,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -6006,9 +5982,7 @@ return ReadOnly("Dungeon", {
       6012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Defence",
     DungeonTypeShow = "DUNGEON_NAME_90102",
@@ -6127,9 +6101,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -6151,9 +6123,7 @@ return ReadOnly("Dungeon", {
       6012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Defence",
     DungeonTypeShow = "DUNGEON_NAME_90102",
@@ -6273,9 +6243,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 60201,
@@ -6289,9 +6257,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -6395,9 +6361,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 60202,
@@ -6411,9 +6375,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -6518,9 +6480,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -6542,9 +6502,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_EXCAVATION",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Excavation",
     DungeonTypeShow = "DUNGEON_NAME_90201",
@@ -6656,9 +6614,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -6680,9 +6636,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_EXCAVATION",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Excavation",
     DungeonTypeShow = "DUNGEON_NAME_90201",
@@ -6794,9 +6748,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 60401,
@@ -6812,9 +6764,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -6934,9 +6884,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 60402,
@@ -6952,9 +6900,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -7076,9 +7022,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -7105,9 +7049,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVAL",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMini",
     DungeonTypeShow = "DUNGEON_NAME_90401",
@@ -7231,9 +7173,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -7254,9 +7194,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVAL",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMini",
     DungeonTypeShow = "DUNGEON_NAME_90401",
@@ -7378,9 +7316,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 60601,
@@ -7529,9 +7465,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 60602,
@@ -7679,9 +7613,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -7708,9 +7640,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMiniPro",
     DungeonTypeShow = "DUNGEON_NAME_90601",
@@ -7838,9 +7768,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -7863,9 +7791,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMiniPro",
     DungeonTypeShow = "DUNGEON_NAME_90601",
@@ -7992,9 +7918,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 60801,
@@ -8015,9 +7939,7 @@ return ReadOnly("Dungeon", {
       7003016
     },
     DungeonName = "UI_DUNGEON_TYPE_HIJACK",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Hijack",
     DungeonTypeShow = "DUNGEON_NAME_90701",
@@ -8125,9 +8047,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 60802,
@@ -8148,9 +8068,7 @@ return ReadOnly("Dungeon", {
       7003016
     },
     DungeonName = "UI_DUNGEON_TYPE_HIJACK",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Hijack",
     DungeonTypeShow = "DUNGEON_NAME_90701",
@@ -8259,9 +8177,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 60901,
@@ -8281,9 +8197,7 @@ return ReadOnly("Dungeon", {
       6014001
     },
     DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Exterminate",
     DungeonTypeShow = "DUNGEON_NAME_90801",
@@ -8395,9 +8309,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 60902,
@@ -8417,9 +8329,7 @@ return ReadOnly("Dungeon", {
       6014001
     },
     DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Exterminate",
     DungeonTypeShow = "DUNGEON_NAME_90801",
@@ -8530,9 +8440,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 61001,
@@ -8554,9 +8462,7 @@ return ReadOnly("Dungeon", {
       6007001
     },
     DungeonName = "UI_DUNGEON_TYPE_RESCUE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Rescue",
     DungeonTypeShow = "DUNGEON_NAME_90901",
@@ -8668,9 +8574,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 61002,
@@ -8692,9 +8596,7 @@ return ReadOnly("Dungeon", {
       6007001
     },
     DungeonName = "UI_DUNGEON_TYPE_RESCUE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Rescue",
     DungeonTypeShow = "DUNGEON_NAME_90901",
@@ -8807,9 +8709,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 61101,
@@ -8825,9 +8725,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -8930,9 +8828,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 61102,
@@ -8948,9 +8844,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -9053,9 +8947,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -9077,9 +8969,7 @@ return ReadOnly("Dungeon", {
       6012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Defence",
     DungeonTypeShow = "DUNGEON_NAME_90102",
@@ -9198,9 +9088,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -9222,9 +9110,7 @@ return ReadOnly("Dungeon", {
       6012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Defence",
     DungeonTypeShow = "DUNGEON_NAME_90102",
@@ -9344,9 +9230,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 62201,
@@ -9360,9 +9244,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -9466,9 +9348,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 62202,
@@ -9482,9 +9362,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -9589,9 +9467,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -9613,9 +9489,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_EXCAVATION",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Excavation",
     DungeonTypeShow = "DUNGEON_NAME_90201",
@@ -9727,9 +9601,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -9751,9 +9623,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_EXCAVATION",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Excavation",
     DungeonTypeShow = "DUNGEON_NAME_90201",
@@ -9865,9 +9735,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 62401,
@@ -9883,9 +9751,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -10005,9 +9871,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 62402,
@@ -10023,9 +9887,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -10147,9 +10009,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -10176,9 +10036,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVAL",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMini",
     DungeonTypeShow = "DUNGEON_NAME_90401",
@@ -10302,9 +10160,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -10325,9 +10181,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVAL",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMini",
     DungeonTypeShow = "DUNGEON_NAME_90401",
@@ -10449,9 +10303,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 62601,
@@ -10600,9 +10452,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 62602,
@@ -10750,9 +10600,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -10779,9 +10627,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMiniPro",
     DungeonTypeShow = "DUNGEON_NAME_90601",
@@ -10909,9 +10755,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -10934,9 +10778,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMiniPro",
     DungeonTypeShow = "DUNGEON_NAME_90601",
@@ -11063,9 +10905,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 62801,
@@ -11086,9 +10926,7 @@ return ReadOnly("Dungeon", {
       7003016
     },
     DungeonName = "UI_DUNGEON_TYPE_HIJACK",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Hijack",
     DungeonTypeShow = "DUNGEON_NAME_90701",
@@ -11196,9 +11034,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 62802,
@@ -11219,9 +11055,7 @@ return ReadOnly("Dungeon", {
       7003016
     },
     DungeonName = "UI_DUNGEON_TYPE_HIJACK",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Hijack",
     DungeonTypeShow = "DUNGEON_NAME_90701",
@@ -11330,9 +11164,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 62901,
@@ -11352,9 +11184,7 @@ return ReadOnly("Dungeon", {
       6014001
     },
     DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Exterminate",
     DungeonTypeShow = "DUNGEON_NAME_90801",
@@ -11466,9 +11296,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 62902,
@@ -11488,9 +11316,7 @@ return ReadOnly("Dungeon", {
       6014001
     },
     DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Exterminate",
     DungeonTypeShow = "DUNGEON_NAME_90801",
@@ -11601,9 +11427,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 63001,
@@ -11625,9 +11449,7 @@ return ReadOnly("Dungeon", {
       6007001
     },
     DungeonName = "UI_DUNGEON_TYPE_RESCUE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Rescue",
     DungeonTypeShow = "DUNGEON_NAME_90901",
@@ -11739,9 +11561,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 63002,
@@ -11763,9 +11583,7 @@ return ReadOnly("Dungeon", {
       6007001
     },
     DungeonName = "UI_DUNGEON_TYPE_RESCUE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Rescue",
     DungeonTypeShow = "DUNGEON_NAME_90901",
@@ -11878,9 +11696,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 63101,
@@ -11896,9 +11712,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -12001,9 +11815,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 63102,
@@ -12019,9 +11831,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -12124,9 +11934,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -12148,9 +11956,7 @@ return ReadOnly("Dungeon", {
       6012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Defence",
     DungeonTypeShow = "DUNGEON_NAME_90102",
@@ -12269,9 +12075,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -12293,9 +12097,7 @@ return ReadOnly("Dungeon", {
       6012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Defence",
     DungeonTypeShow = "DUNGEON_NAME_90102",
@@ -12415,9 +12217,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 64201,
@@ -12431,9 +12231,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -12537,9 +12335,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 64202,
@@ -12553,9 +12349,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -12660,9 +12454,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -12684,9 +12476,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_EXCAVATION",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Excavation",
     DungeonTypeShow = "DUNGEON_NAME_90201",
@@ -12798,9 +12588,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -12822,9 +12610,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_EXCAVATION",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Excavation",
     DungeonTypeShow = "DUNGEON_NAME_90201",
@@ -12936,9 +12722,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 64401,
@@ -12954,9 +12738,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -13076,9 +12858,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 64402,
@@ -13094,9 +12874,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -13218,9 +12996,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -13247,9 +13023,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVAL",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMini",
     DungeonTypeShow = "DUNGEON_NAME_90401",
@@ -13373,9 +13147,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -13396,9 +13168,7 @@ return ReadOnly("Dungeon", {
       8501002
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVAL",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMini",
     DungeonTypeShow = "DUNGEON_NAME_90401",
@@ -13520,9 +13290,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 64601,
@@ -13671,9 +13439,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 64602,
@@ -13821,9 +13587,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -13850,9 +13614,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMiniPro",
     DungeonTypeShow = "DUNGEON_NAME_90601",
@@ -13980,9 +13742,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -14005,9 +13765,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "SurvivalMiniPro",
     DungeonTypeShow = "DUNGEON_NAME_90601",
@@ -14134,9 +13892,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 64801,
@@ -14157,9 +13913,7 @@ return ReadOnly("Dungeon", {
       7003016
     },
     DungeonName = "UI_DUNGEON_TYPE_HIJACK",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Hijack",
     DungeonTypeShow = "DUNGEON_NAME_90701",
@@ -14267,9 +14021,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 64802,
@@ -14290,9 +14042,7 @@ return ReadOnly("Dungeon", {
       7003016
     },
     DungeonName = "UI_DUNGEON_TYPE_HIJACK",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Hijack",
     DungeonTypeShow = "DUNGEON_NAME_90701",
@@ -14401,9 +14151,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 64901,
@@ -14423,9 +14171,7 @@ return ReadOnly("Dungeon", {
       6014001
     },
     DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Exterminate",
     DungeonTypeShow = "DUNGEON_NAME_90801",
@@ -14537,9 +14283,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 64902,
@@ -14559,9 +14303,7 @@ return ReadOnly("Dungeon", {
       6014001
     },
     DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Exterminate",
     DungeonTypeShow = "DUNGEON_NAME_90801",
@@ -14672,9 +14414,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 65001,
@@ -14696,9 +14436,7 @@ return ReadOnly("Dungeon", {
       6007001
     },
     DungeonName = "UI_DUNGEON_TYPE_RESCUE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Rescue",
     DungeonTypeShow = "DUNGEON_NAME_90901",
@@ -14810,9 +14548,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 65002,
@@ -14834,9 +14570,7 @@ return ReadOnly("Dungeon", {
       6007001
     },
     DungeonName = "UI_DUNGEON_TYPE_RESCUE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "Rescue",
     DungeonTypeShow = "DUNGEON_NAME_90901",
@@ -14949,9 +14683,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 65101,
@@ -14967,9 +14699,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -15072,9 +14802,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 65102,
@@ -15090,9 +14818,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51006
-    },
+    DungeonReward = 51006,
     DungeonRewardView = 60101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -17846,9 +17572,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      110109
-    },
+    Condition = 110109,
     DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 81001,
@@ -17931,9 +17655,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      110109
-    },
+    Condition = 110109,
     DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 81002,
@@ -18016,9 +17738,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      110109
-    },
+    Condition = 110109,
     DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 81003,
@@ -18099,9 +17819,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      110109
-    },
+    Condition = 110109,
     DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 81101,
@@ -18182,9 +17900,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      110109
-    },
+    Condition = 110109,
     DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 81102,
@@ -18265,9 +17981,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      110109
-    },
+    Condition = 110109,
     DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 81103,
@@ -18999,9 +18713,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90101,
@@ -19121,9 +18833,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 2,
@@ -19254,9 +18964,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90103,
@@ -19376,9 +19084,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -19509,9 +19215,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90105,
@@ -19631,9 +19335,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -19764,9 +19466,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90107,
@@ -19887,9 +19587,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -20020,9 +19718,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90109,
@@ -20143,9 +19839,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -20276,9 +19970,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90111,
@@ -20399,9 +20091,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -20519,9 +20209,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3115
-    },
+    Condition = 3115,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -20534,9 +20222,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90113,
@@ -20551,9 +20237,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      51537
-    },
+    DungeonReward = 51537,
     DungeonRewardView = 90376,
     DungeonType = "DefencePro",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -20659,9 +20343,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -20779,9 +20461,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3115
-    },
+    Condition = 3115,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -20794,9 +20474,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90115,
@@ -20811,9 +20489,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      51537
-    },
+    DungeonReward = 51537,
     DungeonRewardView = 90376,
     DungeonType = "DefencePro",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -20905,9 +20581,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -20920,15 +20594,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90161,
-    DungeonInitGuideUnitId = {
-      6004020
-    },
+    DungeonInitGuideUnitId = 6004020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -20942,9 +20612,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300163
-    },
+    DungeonReward = 300163,
     DungeonRewardView = 90159,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -21048,9 +20716,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -21063,15 +20729,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90162,
-    DungeonInitGuideUnitId = {
-      6001014
-    },
+    DungeonInitGuideUnitId = 6001014,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21085,9 +20747,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300163
-    },
+    DungeonReward = 300163,
     DungeonRewardView = 90160,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -21191,9 +20851,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -21206,15 +20864,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90163,
-    DungeonInitGuideUnitId = {
-      6002017
-    },
+    DungeonInitGuideUnitId = 6002017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21228,9 +20882,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90163,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -21334,9 +20986,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -21349,15 +20999,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90164,
-    DungeonInitGuideUnitId = {
-      6013015
-    },
+    DungeonInitGuideUnitId = 6013015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21371,9 +21017,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90164,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -21477,9 +21121,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -21492,15 +21134,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90165,
-    DungeonInitGuideUnitId = {
-      6007016
-    },
+    DungeonInitGuideUnitId = 6007016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21514,9 +21152,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90165,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -21620,9 +21256,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -21635,15 +21269,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90166,
-    DungeonInitGuideUnitId = {
-      6004012
-    },
+    DungeonInitGuideUnitId = 6004012,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21657,9 +21287,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90166,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -21763,9 +21391,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -21778,15 +21404,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90167,
-    DungeonInitGuideUnitId = {
-      6002016
-    },
+    DungeonInitGuideUnitId = 6002016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21800,9 +21422,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300162
-    },
+    DungeonReward = 300162,
     DungeonRewardView = 90161,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -21906,9 +21526,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -21921,15 +21539,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90168,
-    DungeonInitGuideUnitId = {
-      6001011
-    },
+    DungeonInitGuideUnitId = 6001011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21943,9 +21557,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300162
-    },
+    DungeonReward = 300162,
     DungeonRewardView = 90162,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -22049,9 +21661,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -22064,15 +21674,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90171,
-    DungeonInitGuideUnitId = {
-      6004020
-    },
+    DungeonInitGuideUnitId = 6004020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22086,9 +21692,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300163
-    },
+    DungeonReward = 300163,
     DungeonRewardView = 90159,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -22192,9 +21796,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -22207,15 +21809,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90172,
-    DungeonInitGuideUnitId = {
-      6001014
-    },
+    DungeonInitGuideUnitId = 6001014,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22229,9 +21827,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300163
-    },
+    DungeonReward = 300163,
     DungeonRewardView = 90160,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -22335,9 +21931,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -22350,15 +21944,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90173,
-    DungeonInitGuideUnitId = {
-      6002016
-    },
+    DungeonInitGuideUnitId = 6002016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22372,9 +21962,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300162
-    },
+    DungeonReward = 300162,
     DungeonRewardView = 90161,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -22478,9 +22066,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      112
-    },
+    Condition = 112,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -22493,15 +22079,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90174,
-    DungeonInitGuideUnitId = {
-      6001011
-    },
+    DungeonInitGuideUnitId = 6001011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22515,9 +22097,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300162
-    },
+    DungeonReward = 300162,
     DungeonRewardView = 90162,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -22621,9 +22201,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -22636,15 +22214,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90175,
-    DungeonInitGuideUnitId = {
-      6002017
-    },
+    DungeonInitGuideUnitId = 6002017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22658,9 +22232,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90163,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -22764,9 +22336,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -22779,15 +22349,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90176,
-    DungeonInitGuideUnitId = {
-      6013015
-    },
+    DungeonInitGuideUnitId = 6013015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22801,9 +22367,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90164,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -22907,9 +22471,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -22922,15 +22484,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90177,
-    DungeonInitGuideUnitId = {
-      6007016
-    },
+    DungeonInitGuideUnitId = 6007016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22944,9 +22502,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90165,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -23050,9 +22606,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      130
-    },
+    Condition = 130,
     DropReward = {
       ["Mon.Gr"] = 150105,
       ["Mon.Jh"] = 150107,
@@ -23065,15 +22619,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90178,
-    DungeonInitGuideUnitId = {
-      6004012
-    },
+    DungeonInitGuideUnitId = 6004012,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23087,9 +22637,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300165
-    },
+    DungeonReward = 300165,
     DungeonRewardView = 90166,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -23194,9 +22742,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -23209,15 +22755,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90180,
-    DungeonInitGuideUnitId = {
-      9002019
-    },
+    DungeonInitGuideUnitId = 9002019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23231,9 +22773,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300168
-    },
+    DungeonReward = 300168,
     DungeonRewardView = 91201,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
@@ -23359,9 +22899,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -23374,15 +22912,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90181,
-    DungeonInitGuideUnitId = {
-      9001023
-    },
+    DungeonInitGuideUnitId = 9001023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23396,9 +22930,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300169
-    },
+    DungeonReward = 300169,
     DungeonRewardView = 91202,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90102",
@@ -23524,9 +23056,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -23539,15 +23069,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90182,
-    DungeonInitGuideUnitId = {
-      9007023
-    },
+    DungeonInitGuideUnitId = 9007023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23561,9 +23087,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300169
-    },
+    DungeonReward = 300169,
     DungeonRewardView = 91203,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90103",
@@ -23689,9 +23213,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -23704,15 +23226,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90183,
-    DungeonInitGuideUnitId = {
-      9002024
-    },
+    DungeonInitGuideUnitId = 9002024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23726,9 +23244,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300170
-    },
+    DungeonReward = 300170,
     DungeonRewardView = 91204,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90104",
@@ -23854,9 +23370,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -23869,15 +23383,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90184,
-    DungeonInitGuideUnitId = {
-      9001017
-    },
+    DungeonInitGuideUnitId = 9001017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23891,9 +23401,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300171
-    },
+    DungeonReward = 300171,
     DungeonRewardView = 91205,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90105",
@@ -24019,9 +23527,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -24034,15 +23540,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90185,
-    DungeonInitGuideUnitId = {
-      9007022
-    },
+    DungeonInitGuideUnitId = 9007022,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -24056,9 +23558,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300172
-    },
+    DungeonReward = 300172,
     DungeonRewardView = 91206,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90106",
@@ -24184,9 +23684,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -24199,15 +23697,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90186,
-    DungeonInitGuideUnitId = {
-      9002023
-    },
+    DungeonInitGuideUnitId = 9002023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -24221,9 +23715,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300172
-    },
+    DungeonReward = 300172,
     DungeonRewardView = 91207,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90107",
@@ -24349,9 +23841,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -24364,15 +23854,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90187,
-    DungeonInitGuideUnitId = {
-      9001024
-    },
+    DungeonInitGuideUnitId = 9001024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -24386,9 +23872,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300173
-    },
+    DungeonReward = 300173,
     DungeonRewardView = 91208,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90108",
@@ -24514,9 +23998,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -24529,15 +24011,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90188,
-    DungeonInitGuideUnitId = {
-      9007019
-    },
+    DungeonInitGuideUnitId = 9007019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -24551,9 +24029,7 @@ return ReadOnly("Dungeon", {
       6003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
-    DungeonReward = {
-      300173
-    },
+    DungeonReward = 300173,
     DungeonRewardView = 91209,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90109",
@@ -24691,9 +24167,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -24825,9 +24299,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -24959,9 +24431,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -25093,9 +24563,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -25227,9 +24695,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -25361,9 +24827,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -25495,9 +24959,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXCAVATION_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 3,
@@ -25627,9 +25089,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90301,
@@ -25645,9 +25105,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "DUNGEON_NAME_90301",
-    DungeonReward = {
-      50100
-    },
+    DungeonReward = 50100,
     DungeonRewardView = 90301,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90301",
@@ -25760,9 +25218,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90302,
@@ -25891,9 +25347,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90303,
@@ -26022,9 +25476,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90304,
@@ -26143,9 +25595,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90305,
@@ -26264,9 +25714,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90306,
@@ -26385,9 +25833,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90307,
@@ -26507,9 +25953,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90308,
@@ -26629,9 +26073,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90309,
@@ -26751,9 +26193,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90310,
@@ -26873,9 +26313,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90311,
@@ -26891,9 +26329,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51527
-    },
+    DungeonReward = 51527,
     DungeonRewardView = 90356,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -26997,9 +26433,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_CAPTURE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90312,
@@ -27015,9 +26449,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_CAPTURE",
-    DungeonReward = {
-      51527
-    },
+    DungeonReward = 51527,
     DungeonRewardView = 90356,
     DungeonType = "Capture",
     DungeonTypeShow = "DUNGEON_NAME_90305",
@@ -27120,9 +26552,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -27249,9 +26679,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -27400,9 +26828,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -27544,9 +26970,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -27688,9 +27112,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -27832,9 +27254,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -27976,9 +27396,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -28123,9 +27541,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -28283,9 +27699,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -28436,9 +27850,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -28589,9 +28001,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -28742,9 +28152,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -28895,9 +28303,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -29048,9 +28454,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -29208,9 +28612,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -29361,9 +28763,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -29514,9 +28914,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -29667,9 +29065,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -29820,9 +29216,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -29973,9 +29367,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -30127,9 +29519,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -30274,9 +29664,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -30421,9 +29809,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -30568,9 +29954,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -30715,9 +30099,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -30862,9 +30244,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -31022,9 +30402,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -31175,9 +30553,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -31328,9 +30704,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -31481,9 +30855,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -31634,9 +31006,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -31787,9 +31157,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -31947,9 +31315,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -32100,9 +31466,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -32253,9 +31617,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -32406,9 +31768,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -32559,9 +31919,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -32712,9 +32070,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -32866,9 +32222,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -33013,9 +32367,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -33160,9 +32512,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -33307,9 +32657,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -33454,9 +32802,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVAL_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -33596,9 +32942,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90501,
@@ -33721,9 +33065,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90502,
@@ -33846,9 +33188,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90503,
@@ -33971,9 +33311,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90504,
@@ -34098,9 +33436,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90505,
@@ -34121,9 +33457,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGE",
-    DungeonReward = {
-      50304
-    },
+    DungeonReward = 50304,
     DungeonRewardView = 90505,
     DungeonType = "Sabotage",
     DungeonTypeShow = "DUNGEON_NAME_90505",
@@ -34228,9 +33562,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90506,
@@ -34251,9 +33583,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGE",
-    DungeonReward = {
-      50305
-    },
+    DungeonReward = 50305,
     DungeonRewardView = 90506,
     DungeonType = "Sabotage",
     DungeonTypeShow = "DUNGEON_NAME_90505",
@@ -34358,9 +33688,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90507,
@@ -34381,9 +33709,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGE",
-    DungeonReward = {
-      50306
-    },
+    DungeonReward = 50306,
     DungeonRewardView = 90507,
     DungeonType = "Sabotage",
     DungeonTypeShow = "DUNGEON_NAME_90505",
@@ -34474,9 +33800,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3061
-    },
+    Condition = 3061,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -34489,9 +33813,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90508,
@@ -34617,9 +33939,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3061
-    },
+    Condition = 3061,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -34632,9 +33952,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90509,
@@ -34760,9 +34078,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3061
-    },
+    Condition = 3061,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -34775,9 +34091,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90510,
@@ -34903,9 +34217,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3061
-    },
+    Condition = 3061,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -34918,9 +34230,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90511,
@@ -35046,9 +34356,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3061
-    },
+    Condition = 3061,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35061,9 +34369,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90512,
@@ -35189,9 +34495,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3062
-    },
+    Condition = 3062,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35204,9 +34508,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90513,
@@ -35339,9 +34641,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3062
-    },
+    Condition = 3062,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35354,9 +34654,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90514,
@@ -35482,9 +34780,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3062
-    },
+    Condition = 3062,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35497,9 +34793,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90515,
@@ -35625,9 +34919,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3062
-    },
+    Condition = 3062,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35640,9 +34932,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90516,
@@ -35768,9 +35058,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3062
-    },
+    Condition = 3062,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35783,9 +35071,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90517,
@@ -35911,9 +35197,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      3062
-    },
+    Condition = 3062,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35926,9 +35210,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90518,
@@ -36068,9 +35350,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90521,
@@ -36091,9 +35371,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGE",
-    DungeonReward = {
-      50304
-    },
+    DungeonReward = 50304,
     DungeonRewardView = 90505,
     DungeonType = "Sabotage",
     DungeonTypeShow = "DUNGEON_NAME_90505",
@@ -36198,9 +35476,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90522,
@@ -36221,9 +35497,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGE",
-    DungeonReward = {
-      50305
-    },
+    DungeonReward = 50305,
     DungeonRewardView = 90506,
     DungeonType = "Sabotage",
     DungeonTypeShow = "DUNGEON_NAME_90505",
@@ -36328,9 +35602,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90523,
@@ -36351,9 +35623,7 @@ return ReadOnly("Dungeon", {
       6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGE",
-    DungeonReward = {
-      50306
-    },
+    DungeonReward = 50306,
     DungeonRewardView = 90507,
     DungeonType = "Sabotage",
     DungeonTypeShow = "DUNGEON_NAME_90505",
@@ -36456,9 +35726,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 2,
@@ -36592,9 +35860,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -36732,9 +35998,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonFixLevel = 5,
@@ -36872,9 +36136,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -37012,9 +36274,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -37148,9 +36408,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonFixLevel = 5,
@@ -37288,9 +36546,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 5,
@@ -37422,9 +36678,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90701,
@@ -37547,9 +36801,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90702,
@@ -37673,9 +36925,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90703,
@@ -37799,9 +37049,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90704,
@@ -37925,9 +37173,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90705,
@@ -38051,9 +37297,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90706,
@@ -38177,9 +37421,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_HIJACK_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90707,
@@ -38303,9 +37545,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90801,
@@ -38428,9 +37668,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90802,
@@ -38553,9 +37791,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90803,
@@ -38678,9 +37914,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90804,
@@ -38803,9 +38037,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90805,
@@ -38928,9 +38160,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90806,
@@ -39053,9 +38283,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90807,
@@ -39176,9 +38404,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90901,
@@ -39301,9 +38527,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90902,
@@ -39427,9 +38651,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90903,
@@ -39553,9 +38775,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90904,
@@ -39679,9 +38899,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90905,
@@ -39805,9 +39023,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90906,
@@ -39931,9 +39147,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_RESCUE_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 90907,
@@ -40057,9 +39271,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91001,
@@ -40167,9 +39379,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91002,
@@ -40277,9 +39487,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91003,
@@ -40387,9 +39595,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91004,
@@ -40402,9 +39608,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51504
-    },
+    DungeonReward = 51504,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
@@ -40499,9 +39703,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91005,
@@ -40609,9 +39811,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91006,
@@ -40719,9 +39919,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91007,
@@ -40828,9 +40026,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91008,
@@ -40941,9 +40137,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91009,
@@ -41054,9 +40248,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91010,
@@ -41167,9 +40359,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91011,
@@ -41280,9 +40470,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91091,
@@ -41295,9 +40483,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51504
-    },
+    DungeonReward = 51504,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
@@ -41385,9 +40571,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91092,
@@ -41400,9 +40584,7 @@ return ReadOnly("Dungeon", {
       7003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      51504
-    },
+    DungeonReward = 51504,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
@@ -41490,15 +40672,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91101,
-    DungeonInitGuideUnitId = {
-      6001012
-    },
+    DungeonInitGuideUnitId = 6001012,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41511,9 +40689,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -41622,15 +40798,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91102,
-    DungeonInitGuideUnitId = {
-      6002015
-    },
+    DungeonInitGuideUnitId = 6002015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41643,9 +40815,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91102,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -41754,15 +40924,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91103,
-    DungeonInitGuideUnitId = {
-      6013017
-    },
+    DungeonInitGuideUnitId = 6013017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41775,9 +40941,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91103,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -41886,15 +41050,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91104,
-    DungeonInitGuideUnitId = {
-      6007011
-    },
+    DungeonInitGuideUnitId = 6007011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41907,9 +41067,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91104,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42018,15 +41176,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91105,
-    DungeonInitGuideUnitId = {
-      8002018
-    },
+    DungeonInitGuideUnitId = 8002018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42039,9 +41193,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300161
-    },
+    DungeonReward = 300161,
     DungeonRewardView = 91105,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42150,15 +41302,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91106,
-    DungeonInitGuideUnitId = {
-      8001019
-    },
+    DungeonInitGuideUnitId = 8001019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42171,9 +41319,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300161
-    },
+    DungeonReward = 300161,
     DungeonRewardView = 91106,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42270,9 +41416,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -42285,15 +41429,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91107,
-    DungeonInitGuideUnitId = {
-      6002011
-    },
+    DungeonInitGuideUnitId = 6002011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42306,9 +41446,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91107,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42405,9 +41543,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -42420,15 +41556,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91108,
-    DungeonInitGuideUnitId = {
-      6013018
-    },
+    DungeonInitGuideUnitId = 6013018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42441,9 +41573,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91108,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42540,9 +41670,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -42555,15 +41683,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91109,
-    DungeonInitGuideUnitId = {
-      6007024
-    },
+    DungeonInitGuideUnitId = 6007024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42576,9 +41700,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91109,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42675,9 +41797,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -42690,15 +41810,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91110,
-    DungeonInitGuideUnitId = {
-      6004014
-    },
+    DungeonInitGuideUnitId = 6004014,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42711,9 +41827,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91110,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42810,9 +41924,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -42825,15 +41937,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91111,
-    DungeonInitGuideUnitId = {
-      6001018
-    },
+    DungeonInitGuideUnitId = 6001018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42846,9 +41954,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91111,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -42945,9 +42051,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -42960,15 +42064,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91112,
-    DungeonInitGuideUnitId = {
-      8003021
-    },
+    DungeonInitGuideUnitId = 8003021,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42981,9 +42081,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91112,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -43080,9 +42178,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -43095,15 +42191,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91113,
-    DungeonInitGuideUnitId = {
-      8002012
-    },
+    DungeonInitGuideUnitId = 8002012,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43116,9 +42208,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91113,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -43215,9 +42305,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -43230,15 +42318,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91114,
-    DungeonInitGuideUnitId = {
-      8001015
-    },
+    DungeonInitGuideUnitId = 8001015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43251,9 +42335,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91114,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -43350,9 +42432,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -43365,15 +42445,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91115,
-    DungeonInitGuideUnitId = {
-      8003016
-    },
+    DungeonInitGuideUnitId = 8003016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43386,9 +42462,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91115,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -43485,9 +42559,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -43500,15 +42572,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91116,
-    DungeonInitGuideUnitId = {
-      8002020
-    },
+    DungeonInitGuideUnitId = 8002020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43521,9 +42589,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91116,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -43620,9 +42686,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -43635,15 +42699,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91117,
-    DungeonInitGuideUnitId = {
-      8001021
-    },
+    DungeonInitGuideUnitId = 8001021,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43656,9 +42716,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91117,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -43755,9 +42813,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -43770,15 +42826,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91118,
-    DungeonInitGuideUnitId = {
-      7001015
-    },
+    DungeonInitGuideUnitId = 7001015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43791,9 +42843,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91118,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -43890,9 +42940,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -43905,15 +42953,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91119,
-    DungeonInitGuideUnitId = {
-      7002018
-    },
+    DungeonInitGuideUnitId = 7002018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43926,9 +42970,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91119,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44025,9 +43067,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44040,15 +43080,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91120,
-    DungeonInitGuideUnitId = {
-      7003016
-    },
+    DungeonInitGuideUnitId = 7003016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44061,9 +43097,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91120,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44160,9 +43194,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44175,15 +43207,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91121,
-    DungeonInitGuideUnitId = {
-      7004020
-    },
+    DungeonInitGuideUnitId = 7004020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44196,9 +43224,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91121,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44295,9 +43321,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44310,15 +43334,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91122,
-    DungeonInitGuideUnitId = {
-      7015011
-    },
+    DungeonInitGuideUnitId = 7015011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44331,9 +43351,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91122,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44430,9 +43448,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44445,15 +43461,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91123,
-    DungeonInitGuideUnitId = {
-      7010022
-    },
+    DungeonInitGuideUnitId = 7010022,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44466,9 +43478,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91123,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44565,9 +43575,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44580,15 +43588,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91137,
-    DungeonInitGuideUnitId = {
-      7009020
-    },
+    DungeonInitGuideUnitId = 7009020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44601,9 +43605,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300200
-    },
+    DungeonReward = 300200,
     DungeonRewardView = 91137,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44700,9 +43702,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44715,15 +43715,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91138,
-    DungeonInitGuideUnitId = {
-      7008023
-    },
+    DungeonInitGuideUnitId = 7008023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44736,9 +43732,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300201
-    },
+    DungeonReward = 300201,
     DungeonRewardView = 91138,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44835,9 +43829,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44850,15 +43842,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91139,
-    DungeonInitGuideUnitId = {
-      7001024
-    },
+    DungeonInitGuideUnitId = 7001024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44871,9 +43859,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300202
-    },
+    DungeonReward = 300202,
     DungeonRewardView = 91139,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -44970,9 +43956,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -44985,15 +43969,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91140,
-    DungeonInitGuideUnitId = {
-      7002019
-    },
+    DungeonInitGuideUnitId = 7002019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45006,9 +43986,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300203
-    },
+    DungeonReward = 300203,
     DungeonRewardView = 91140,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45105,9 +44083,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -45120,15 +44096,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91141,
-    DungeonInitGuideUnitId = {
-      7003022
-    },
+    DungeonInitGuideUnitId = 7003022,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45141,9 +44113,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300204
-    },
+    DungeonReward = 300204,
     DungeonRewardView = 91141,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45240,9 +44210,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -45255,15 +44223,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91142,
-    DungeonInitGuideUnitId = {
-      7004017
-    },
+    DungeonInitGuideUnitId = 7004017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45276,9 +44240,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300205
-    },
+    DungeonReward = 300205,
     DungeonRewardView = 91142,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45375,9 +44337,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -45390,15 +44350,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91143,
-    DungeonInitGuideUnitId = {
-      8003024
-    },
+    DungeonInitGuideUnitId = 8003024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 80,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45411,9 +44367,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300206
-    },
+    DungeonReward = 300206,
     DungeonRewardView = 91143,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45523,9 +44477,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91144,
@@ -45541,9 +44493,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300138
-    },
+    DungeonReward = 300138,
     DungeonRewardView = 91144,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45663,9 +44613,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91145,
@@ -45681,9 +44629,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300139
-    },
+    DungeonReward = 300139,
     DungeonRewardView = 91145,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45803,9 +44749,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91146,
@@ -45821,9 +44765,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300140
-    },
+    DungeonReward = 300140,
     DungeonRewardView = 91146,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45943,9 +44885,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91147,
@@ -45961,9 +44901,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300136
-    },
+    DungeonReward = 300136,
     DungeonRewardView = 91147,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -46083,9 +45021,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91148,
@@ -46101,9 +45037,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300141
-    },
+    DungeonReward = 300141,
     DungeonRewardView = 91148,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -46222,15 +45156,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91151,
-    DungeonInitGuideUnitId = {
-      6001012
-    },
+    DungeonInitGuideUnitId = 6001012,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46243,9 +45173,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91101,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -46354,15 +45282,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91152,
-    DungeonInitGuideUnitId = {
-      6002015
-    },
+    DungeonInitGuideUnitId = 6002015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46375,9 +45299,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91102,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -46486,15 +45408,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91153,
-    DungeonInitGuideUnitId = {
-      6013017
-    },
+    DungeonInitGuideUnitId = 6013017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46507,9 +45425,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91103,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -46618,15 +45534,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91154,
-    DungeonInitGuideUnitId = {
-      6007011
-    },
+    DungeonInitGuideUnitId = 6007011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46639,9 +45551,7 @@ return ReadOnly("Dungeon", {
       7002001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300160
-    },
+    DungeonReward = 300160,
     DungeonRewardView = 91104,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -46750,15 +45660,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91155,
-    DungeonInitGuideUnitId = {
-      8002018
-    },
+    DungeonInitGuideUnitId = 8002018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46771,9 +45677,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300161
-    },
+    DungeonReward = 300161,
     DungeonRewardView = 91105,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -46882,15 +45786,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91156,
-    DungeonInitGuideUnitId = {
-      8001019
-    },
+    DungeonInitGuideUnitId = 8001019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46903,9 +45803,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300161
-    },
+    DungeonReward = 300161,
     DungeonRewardView = 91106,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47002,9 +45900,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47017,15 +45913,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91157,
-    DungeonInitGuideUnitId = {
-      6002011
-    },
+    DungeonInitGuideUnitId = 6002011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47038,9 +45930,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91107,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47137,9 +46027,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47152,15 +46040,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91158,
-    DungeonInitGuideUnitId = {
-      6013018
-    },
+    DungeonInitGuideUnitId = 6013018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47173,9 +46057,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91108,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47272,9 +46154,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47287,15 +46167,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91159,
-    DungeonInitGuideUnitId = {
-      6007024
-    },
+    DungeonInitGuideUnitId = 6007024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47308,9 +46184,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91109,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47407,9 +46281,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47422,15 +46294,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91160,
-    DungeonInitGuideUnitId = {
-      6004014
-    },
+    DungeonInitGuideUnitId = 6004014,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47443,9 +46311,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91110,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47542,9 +46408,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47557,15 +46421,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91161,
-    DungeonInitGuideUnitId = {
-      6001018
-    },
+    DungeonInitGuideUnitId = 6001018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47578,9 +46438,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300164
-    },
+    DungeonReward = 300164,
     DungeonRewardView = 91111,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47677,9 +46535,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47692,15 +46548,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91162,
-    DungeonInitGuideUnitId = {
-      8003021
-    },
+    DungeonInitGuideUnitId = 8003021,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47713,9 +46565,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91112,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47812,9 +46662,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47827,15 +46675,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91163,
-    DungeonInitGuideUnitId = {
-      8002012
-    },
+    DungeonInitGuideUnitId = 8002012,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47848,9 +46692,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91113,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -47947,9 +46789,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -47962,15 +46802,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91164,
-    DungeonInitGuideUnitId = {
-      8001015
-    },
+    DungeonInitGuideUnitId = 8001015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47983,9 +46819,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91114,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -48082,9 +46916,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -48097,15 +46929,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91165,
-    DungeonInitGuideUnitId = {
-      8003016
-    },
+    DungeonInitGuideUnitId = 8003016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48118,9 +46946,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91115,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -48217,9 +47043,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -48232,15 +47056,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91166,
-    DungeonInitGuideUnitId = {
-      8002020
-    },
+    DungeonInitGuideUnitId = 8002020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48253,9 +47073,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91116,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -48352,9 +47170,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -48367,15 +47183,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91167,
-    DungeonInitGuideUnitId = {
-      8001021
-    },
+    DungeonInitGuideUnitId = 8001021,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48388,9 +47200,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300166
-    },
+    DungeonReward = 300166,
     DungeonRewardView = 91117,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -48487,9 +47297,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -48502,15 +47310,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91168,
-    DungeonInitGuideUnitId = {
-      7001015
-    },
+    DungeonInitGuideUnitId = 7001015,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48523,9 +47327,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91118,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -48622,9 +47424,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -48637,15 +47437,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91169,
-    DungeonInitGuideUnitId = {
-      7002018
-    },
+    DungeonInitGuideUnitId = 7002018,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48658,9 +47454,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91119,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -48757,9 +47551,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -48772,15 +47564,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91170,
-    DungeonInitGuideUnitId = {
-      7003016
-    },
+    DungeonInitGuideUnitId = 7003016,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48793,9 +47581,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91120,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -48892,9 +47678,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -48907,15 +47691,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91171,
-    DungeonInitGuideUnitId = {
-      7004020
-    },
+    DungeonInitGuideUnitId = 7004020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48928,9 +47708,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91121,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49027,9 +47805,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49042,15 +47818,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91172,
-    DungeonInitGuideUnitId = {
-      7015011
-    },
+    DungeonInitGuideUnitId = 7015011,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49063,9 +47835,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91122,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49162,9 +47932,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      140
-    },
+    Condition = 140,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49177,15 +47945,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91173,
-    DungeonInitGuideUnitId = {
-      7010022
-    },
+    DungeonInitGuideUnitId = 7010022,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49198,9 +47962,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300167
-    },
+    DungeonReward = 300167,
     DungeonRewardView = 91123,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49297,9 +48059,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49312,15 +48072,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91174,
-    DungeonInitGuideUnitId = {
-      7009020
-    },
+    DungeonInitGuideUnitId = 7009020,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49333,9 +48089,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300200
-    },
+    DungeonReward = 300200,
     DungeonRewardView = 91137,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49432,9 +48186,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49447,15 +48199,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91175,
-    DungeonInitGuideUnitId = {
-      7008023
-    },
+    DungeonInitGuideUnitId = 7008023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49468,9 +48216,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300201
-    },
+    DungeonReward = 300201,
     DungeonRewardView = 91138,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49567,9 +48313,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49582,15 +48326,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91176,
-    DungeonInitGuideUnitId = {
-      7001024
-    },
+    DungeonInitGuideUnitId = 7001024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49603,9 +48343,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300202
-    },
+    DungeonReward = 300202,
     DungeonRewardView = 91139,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49702,9 +48440,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49717,15 +48453,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91177,
-    DungeonInitGuideUnitId = {
-      7002019
-    },
+    DungeonInitGuideUnitId = 7002019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49738,9 +48470,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300203
-    },
+    DungeonReward = 300203,
     DungeonRewardView = 91140,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49837,9 +48567,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49852,15 +48580,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91178,
-    DungeonInitGuideUnitId = {
-      7003022
-    },
+    DungeonInitGuideUnitId = 7003022,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49873,9 +48597,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300204
-    },
+    DungeonReward = 300204,
     DungeonRewardView = 91141,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -49972,9 +48694,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -49987,15 +48707,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91179,
-    DungeonInitGuideUnitId = {
-      7004017
-    },
+    DungeonInitGuideUnitId = 7004017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -50008,9 +48724,7 @@ return ReadOnly("Dungeon", {
       7012001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300205
-    },
+    DungeonReward = 300205,
     DungeonRewardView = 91142,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -50107,9 +48821,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -50122,15 +48834,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91180,
-    DungeonInitGuideUnitId = {
-      8003024
-    },
+    DungeonInitGuideUnitId = 8003024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 80,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -50143,9 +48851,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300206
-    },
+    DungeonReward = 300206,
     DungeonRewardView = 91143,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -50255,9 +48961,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91181,
@@ -50273,9 +48977,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300138
-    },
+    DungeonReward = 300138,
     DungeonRewardView = 91144,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -50395,9 +49097,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91182,
@@ -50413,9 +49113,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300139
-    },
+    DungeonReward = 300139,
     DungeonRewardView = 91145,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -50535,9 +49233,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91183,
@@ -50553,9 +49249,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300140
-    },
+    DungeonReward = 300140,
     DungeonRewardView = 91146,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -50675,9 +49369,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91184,
@@ -50693,9 +49385,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300136
-    },
+    DungeonReward = 300136,
     DungeonRewardView = 91147,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -50815,9 +49505,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91185,
@@ -50833,9 +49521,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = {
-      300141
-    },
+    DungeonReward = 300141,
     DungeonRewardView = 91148,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -50942,9 +49628,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -50957,15 +49641,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91251,
-    DungeonInitGuideUnitId = {
-      9002019
-    },
+    DungeonInitGuideUnitId = 9002019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -50976,9 +49656,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300168
-    },
+    DungeonReward = 300168,
     DungeonRewardView = 91201,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -51105,9 +49783,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -51120,15 +49796,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91252,
-    DungeonInitGuideUnitId = {
-      9001023
-    },
+    DungeonInitGuideUnitId = 9001023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -51139,9 +49811,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300169
-    },
+    DungeonReward = 300169,
     DungeonRewardView = 91202,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -51268,9 +49938,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -51283,15 +49951,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91253,
-    DungeonInitGuideUnitId = {
-      9007023
-    },
+    DungeonInitGuideUnitId = 9007023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -51302,9 +49966,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300169
-    },
+    DungeonReward = 300169,
     DungeonRewardView = 91203,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -51431,9 +50093,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -51446,15 +50106,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91254,
-    DungeonInitGuideUnitId = {
-      9002024
-    },
+    DungeonInitGuideUnitId = 9002024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -51465,9 +50121,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300170
-    },
+    DungeonReward = 300170,
     DungeonRewardView = 91204,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -51594,9 +50248,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -51609,15 +50261,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91255,
-    DungeonInitGuideUnitId = {
-      9001017
-    },
+    DungeonInitGuideUnitId = 9001017,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -51628,9 +50276,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300171
-    },
+    DungeonReward = 300171,
     DungeonRewardView = 91205,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -51757,9 +50403,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -51772,15 +50416,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91256,
-    DungeonInitGuideUnitId = {
-      9007022
-    },
+    DungeonInitGuideUnitId = 9007022,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -51791,9 +50431,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300172
-    },
+    DungeonReward = 300172,
     DungeonRewardView = 91206,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -51920,9 +50558,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -51935,15 +50571,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91257,
-    DungeonInitGuideUnitId = {
-      9002023
-    },
+    DungeonInitGuideUnitId = 9002023,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -51954,9 +50586,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300172
-    },
+    DungeonReward = 300172,
     DungeonRewardView = 91207,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -52083,9 +50713,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -52098,15 +50726,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91258,
-    DungeonInitGuideUnitId = {
-      9001024
-    },
+    DungeonInitGuideUnitId = 9001024,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -52117,9 +50741,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300173
-    },
+    DungeonReward = 300173,
     DungeonRewardView = 91208,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -52246,9 +50868,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -52261,15 +50881,11 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91259,
-    DungeonInitGuideUnitId = {
-      9007019
-    },
+    DungeonInitGuideUnitId = 9007019,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
@@ -52280,9 +50896,7 @@ return ReadOnly("Dungeon", {
       7004001
     },
     DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
-    DungeonReward = {
-      300173
-    },
+    DungeonReward = 300173,
     DungeonRewardView = 91209,
     DungeonType = "SabotagePro",
     DungeonTypeShow = "DUNGEON_NAME_91201",
@@ -52422,9 +51036,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SYNTHESIS_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91301,
@@ -52545,9 +51157,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SYNTHESIS_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91302,
@@ -52668,9 +51278,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SYNTHESIS_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91303,
@@ -52791,9 +51399,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SYNTHESIS_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91304,
@@ -52914,9 +51520,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SYNTHESIS_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91305,
@@ -53037,9 +51641,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SYNTHESIS_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91306,
@@ -53160,9 +51762,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SYNTHESIS_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91307,
@@ -53282,9 +51882,7 @@ return ReadOnly("Dungeon", {
     },
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
-    DungeonCost = {
-      0
-    },
+    DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonFixLevel = 2,

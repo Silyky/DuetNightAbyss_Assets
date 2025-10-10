@@ -4,9 +4,7 @@ return ReadOnly("SelectDungeon", {
     ChapterId = 1,
     ChapterName = "UI_DUNGEON_TYPE_SURVIVAL",
     ChapterSubName = "UI_DUNGEON_DROP_CHARBREAK",
-    Condition = {
-      3002
-    },
+    Condition = 3002,
     DungeonList = {
       90401,
       90407,
@@ -27,9 +25,7 @@ return ReadOnly("SelectDungeon", {
     ChapterId = 2,
     ChapterName = "UI_DUNGEON_TYPE_EXCAVATION",
     ChapterSubName = "UI_DUNGEON_DROP_COIN",
-    Condition = {
-      3003
-    },
+    Condition = 3003,
     DungeonList = {
       90201,
       90202,
@@ -71,9 +67,7 @@ return ReadOnly("SelectDungeon", {
     ChapterId = 4,
     ChapterName = "UI_DUNGEON_TYPE_SABOTAGE",
     ChapterSubName = "UI_DUNGEON_DROP_WEAPONBREAK",
-    Condition = {
-      3002
-    },
+    Condition = 3002,
     DungeonList = {
       90501,
       90502,
@@ -94,9 +88,7 @@ return ReadOnly("SelectDungeon", {
     ChapterId = 5,
     ChapterName = "UI_DUNGEON_TYPE_SURVIVALPRO",
     ChapterSubName = "UI_DUNGEON_DROP_CHAREXP",
-    Condition = {
-      3003
-    },
+    Condition = 3003,
     DungeonList = {
       90601,
       90602,
@@ -139,9 +131,7 @@ return ReadOnly("SelectDungeon", {
     ChapterId = 7,
     ChapterName = "UI_DUNGEON_TYPE_EXTERMINATE",
     ChapterSubName = "UI_DUNGEON_DROP_WEAPONEXP",
-    Condition = {
-      3003
-    },
+    Condition = 3003,
     DungeonList = {
       90801,
       90802,
@@ -162,9 +152,7 @@ return ReadOnly("SelectDungeon", {
     ChapterId = 8,
     ChapterName = "UI_DUNGEON_TYPE_RESCUE",
     ChapterSubName = "UI_DUNGEON_DROP_MODCOIN",
-    Condition = {
-      3002
-    },
+    Condition = 3002,
     DungeonList = {
       90902,
       90903,
@@ -205,9 +193,7 @@ return ReadOnly("SelectDungeon", {
     ChapterId = 10,
     ChapterName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
     ChapterSubName = "UI_DUNGEON_DROP_MOD",
-    Condition = {
-      3002
-    },
+    Condition = 3002,
     DungeonList = {
       91008,
       91009,

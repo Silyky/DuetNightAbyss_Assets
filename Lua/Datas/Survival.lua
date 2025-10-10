@@ -7,24 +7,12 @@ return ReadOnly("Survival", {
     },
     DungeonId = 20001,
     MonsterSpawnId = {
-      [1] = {
-        201
-      },
-      [2] = {
-        202
-      },
-      [3] = {
-        203
-      },
-      [4] = {
-        204
-      },
-      [5] = {
-        205
-      },
-      [6] = {
-        206
-      }
+      [1] = 201,
+      [2] = 202,
+      [3] = 203,
+      [4] = 204,
+      [5] = 205,
+      [6] = 206
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnMinWave = 2,
@@ -41,24 +29,12 @@ return ReadOnly("Survival", {
     },
     DungeonId = 90400,
     MonsterSpawnId = {
-      [1] = {
-        201
-      },
-      [2] = {
-        202
-      },
-      [3] = {
-        203
-      },
-      [4] = {
-        204
-      },
-      [5] = {
-        205
-      },
-      [6] = {
-        206
-      }
+      [1] = 201,
+      [2] = 202,
+      [3] = 203,
+      [4] = 204,
+      [5] = 205,
+      [6] = 206
     },
     TreasureMonsterId = 9500001,
     TreasureMonsterSpawnMinWave = 2,

@@ -11,9 +11,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10804,
-    OnInitSpawnRule = {
-      10804
-    },
+    OnInitSpawnRule = 10804,
     PetSpawnRange = {
       0, 5
     },
@@ -31,9 +29,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10805,
-    OnInitSpawnRule = {
-      10805
-    },
+    OnInitSpawnRule = 10805,
     PetSpawnRange = {
       0, 5
     },
@@ -51,9 +47,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10804,
-    OnInitSpawnRule = {
-      10804
-    },
+    OnInitSpawnRule = 10804,
     PetSpawnRange = {
       0, 5
     },
@@ -71,9 +65,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10805,
-    OnInitSpawnRule = {
-      10805
-    },
+    OnInitSpawnRule = 10805,
     PetSpawnRange = {
       0, 5
     },
@@ -91,9 +83,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10804,
-    OnInitSpawnRule = {
-      10804
-    },
+    OnInitSpawnRule = 10804,
     PetSpawnRange = {
       0, 5
     },
@@ -111,9 +101,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10805,
-    OnInitSpawnRule = {
-      10805
-    },
+    OnInitSpawnRule = 10805,
     PetSpawnRange = {
       0, 5
     },
@@ -131,9 +119,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10810,
-    OnInitSpawnRule = {
-      10810
-    },
+    OnInitSpawnRule = 10810,
     PetSpawnRange = {
       0, 5
     },
@@ -167,9 +153,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {
-      10812
-    },
+    OnInitSpawnRule = 10812,
     PetSpawnRange = {
       0, 5
     },
@@ -187,9 +171,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {
-      10813
-    },
+    OnInitSpawnRule = 10813,
     PetSpawnRange = {
       0, 5
     },
@@ -205,9 +187,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {
-      10814
-    },
+    OnInitSpawnRule = 10814,
     PetSpawnRange = {
       0, 5
     },
@@ -223,9 +203,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {
-      10815
-    },
+    OnInitSpawnRule = 10815,
     PetSpawnRange = {
       0, 5
     },
@@ -243,9 +221,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {
-      10816
-    },
+    OnInitSpawnRule = 10816,
     PetSpawnRange = {
       0, 5
     },
@@ -371,9 +347,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {
-      10809
-    },
+    OnInitSpawnRule = 10809,
     PetSpawnRange = {
       0, 5
     },
@@ -391,9 +365,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {
-      10809
-    },
+    OnInitSpawnRule = 10809,
     PetSpawnRange = {
       0, 5
     },
@@ -411,9 +383,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {
-      10809
-    },
+    OnInitSpawnRule = 10809,
     PetSpawnRange = {
       0, 5
     },
@@ -431,9 +401,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {
-      10809
-    },
+    OnInitSpawnRule = 10809,
     PetSpawnRange = {
       0, 5
     },
@@ -451,9 +419,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10810,
-    OnInitSpawnRule = {
-      10810
-    },
+    OnInitSpawnRule = 10810,
     PetSpawnRange = {
       0, 5
     },
@@ -471,9 +437,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10810,
-    OnInitSpawnRule = {
-      10810
-    },
+    OnInitSpawnRule = 10810,
     PetSpawnRange = {
       0, 5
     },
@@ -491,9 +455,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {
-      10812
-    },
+    OnInitSpawnRule = 10812,
     PetSpawnRange = {
       0, 5
     },
@@ -511,9 +473,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {
-      10812
-    },
+    OnInitSpawnRule = 10812,
     PetSpawnRange = {
       0, 5
     },
@@ -531,9 +491,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {
-      10812
-    },
+    OnInitSpawnRule = 10812,
     PetSpawnRange = {
       0, 5
     },
@@ -551,9 +509,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {
-      10812
-    },
+    OnInitSpawnRule = 10812,
     PetSpawnRange = {
       0, 5
     },
@@ -571,9 +527,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {
-      10812
-    },
+    OnInitSpawnRule = 10812,
     PetSpawnRange = {
       0, 5
     },
@@ -591,9 +545,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {
-      10813
-    },
+    OnInitSpawnRule = 10813,
     PetSpawnRange = {
       0, 5
     },
@@ -611,9 +563,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {
-      10813
-    },
+    OnInitSpawnRule = 10813,
     PetSpawnRange = {
       0, 5
     },
@@ -631,9 +581,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {
-      10813
-    },
+    OnInitSpawnRule = 10813,
     PetSpawnRange = {
       0, 5
     },
@@ -651,9 +599,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {
-      10813
-    },
+    OnInitSpawnRule = 10813,
     PetSpawnRange = {
       0, 5
     },
@@ -671,9 +617,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {
-      10813
-    },
+    OnInitSpawnRule = 10813,
     PetSpawnRange = {
       0, 5
     },
@@ -691,9 +635,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {
-      10813
-    },
+    OnInitSpawnRule = 10813,
     PetSpawnRange = {
       0, 5
     },
@@ -711,9 +653,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {
-      10814
-    },
+    OnInitSpawnRule = 10814,
     PetSpawnRange = {
       0, 5
     },
@@ -731,9 +671,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {
-      10814
-    },
+    OnInitSpawnRule = 10814,
     PetSpawnRange = {
       0, 5
     },
@@ -751,9 +689,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {
-      10814
-    },
+    OnInitSpawnRule = 10814,
     PetSpawnRange = {
       0, 5
     },
@@ -771,9 +707,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {
-      10814
-    },
+    OnInitSpawnRule = 10814,
     PetSpawnRange = {
       0, 5
     },
@@ -791,9 +725,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {
-      10814
-    },
+    OnInitSpawnRule = 10814,
     PetSpawnRange = {
       0, 5
     },
@@ -811,9 +743,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {
-      10814
-    },
+    OnInitSpawnRule = 10814,
     PetSpawnRange = {
       0, 5
     },
@@ -831,9 +761,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {
-      10815
-    },
+    OnInitSpawnRule = 10815,
     PetSpawnRange = {
       0, 5
     },
@@ -851,9 +779,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {
-      10815
-    },
+    OnInitSpawnRule = 10815,
     PetSpawnRange = {
       0, 5
     },
@@ -871,9 +797,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {
-      10815
-    },
+    OnInitSpawnRule = 10815,
     PetSpawnRange = {
       0, 5
     },
@@ -891,9 +815,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {
-      10815
-    },
+    OnInitSpawnRule = 10815,
     PetSpawnRange = {
       0, 5
     },
@@ -911,9 +833,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {
-      10815
-    },
+    OnInitSpawnRule = 10815,
     PetSpawnRange = {
       0, 5
     },
@@ -931,9 +851,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {
-      10815
-    },
+    OnInitSpawnRule = 10815,
     PetSpawnRange = {
       0, 5
     },
@@ -951,9 +869,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {
-      10816
-    },
+    OnInitSpawnRule = 10816,
     PetSpawnRange = {
       0, 5
     },
@@ -971,9 +887,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {
-      10816
-    },
+    OnInitSpawnRule = 10816,
     PetSpawnRange = {
       0, 5
     },
@@ -991,9 +905,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {
-      10816
-    },
+    OnInitSpawnRule = 10816,
     PetSpawnRange = {
       0, 5
     },
@@ -1011,9 +923,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {
-      10816
-    },
+    OnInitSpawnRule = 10816,
     PetSpawnRange = {
       0, 5
     },
@@ -1031,9 +941,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {
-      10816
-    },
+    OnInitSpawnRule = 10816,
     PetSpawnRange = {
       0, 5
     },
@@ -1051,9 +959,7 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {
-      10816
-    },
+    OnInitSpawnRule = 10816,
     PetSpawnRange = {
       0, 5
     },

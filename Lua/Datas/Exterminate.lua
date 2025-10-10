@@ -25,9 +25,7 @@ return ReadOnly("Exterminate", {
   },
   [60902] = {
     DungeonId = 60902,
-    EliteRange = {
-      18
-    },
+    EliteRange = 18,
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 10801,
     NormalRange = {
@@ -53,9 +51,7 @@ return ReadOnly("Exterminate", {
   },
   [62902] = {
     DungeonId = 62902,
-    EliteRange = {
-      18
-    },
+    EliteRange = 18,
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 10801,
     NormalRange = {
@@ -81,9 +77,7 @@ return ReadOnly("Exterminate", {
   },
   [64902] = {
     DungeonId = 64902,
-    EliteRange = {
-      18
-    },
+    EliteRange = 18,
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 10801,
     NormalRange = {
@@ -121,9 +115,7 @@ return ReadOnly("Exterminate", {
   },
   [90803] = {
     DungeonId = 90803,
-    EliteRange = {
-      18
-    },
+    EliteRange = 18,
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 10801,
     NormalRange = {
@@ -135,9 +127,7 @@ return ReadOnly("Exterminate", {
   },
   [90804] = {
     DungeonId = 90804,
-    EliteRange = {
-      18
-    },
+    EliteRange = 18,
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 10801,
     NormalRange = {
@@ -177,9 +167,7 @@ return ReadOnly("Exterminate", {
   },
   [90807] = {
     DungeonId = 90807,
-    EliteRange = {
-      18
-    },
+    EliteRange = 18,
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 10801,
     NormalRange = {

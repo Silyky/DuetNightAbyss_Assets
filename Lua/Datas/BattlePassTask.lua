@@ -4,13 +4,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskDes = "BattlePass_Task_Des_100001001",
     BattlePassTaskId = 100001001,
     BattlePassType = "Daily",
-    QuestReward = {
-      10150
-    },
+    QuestReward = 10150,
     Target = 1,
-    TargetId = {
-      201
-    }
+    TargetId = 201
   },
   [100001003] = {
     BattlePassId = 100001,
@@ -18,13 +14,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001003,
     BattlePassType = "Daily",
     JumpUIId = 31,
-    QuestReward = {
-      10100
-    },
+    QuestReward = 10100,
     Target = 200,
-    TargetId = {
-      10116
-    }
+    TargetId = 10116
   },
   [100001004] = {
     BattlePassId = 100001,
@@ -32,26 +24,18 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001004,
     BattlePassType = "Daily",
     JumpUIId = 20,
-    QuestReward = {
-      10100
-    },
+    QuestReward = 10100,
     Target = 3,
-    TargetId = {
-      30101
-    }
+    TargetId = 30101
   },
   [100001005] = {
     BattlePassId = 100001,
     BattlePassTaskDes = "BattlePass_Task_Des_100001005",
     BattlePassTaskId = 100001005,
     BattlePassType = "Daily",
-    QuestReward = {
-      10100
-    },
+    QuestReward = 10100,
     Target = 1,
-    TargetId = {
-      1400101
-    }
+    TargetId = 1400101
   },
   [100001006] = {
     BattlePassId = 100001,
@@ -59,13 +43,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001006,
     BattlePassType = "Daily",
     JumpUIId = 21,
-    QuestReward = {
-      10200
-    },
+    QuestReward = 10200,
     Target = 1,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100001101] = {
     BattlePassId = 100001,
@@ -73,26 +53,18 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001101,
     BattlePassType = "Weekly",
     JumpUIId = 20,
-    QuestReward = {
-      11000
-    },
+    QuestReward = 11000,
     Target = 30,
-    TargetId = {
-      30101
-    }
+    TargetId = 30101
   },
   [100001102] = {
     BattlePassId = 100001,
     BattlePassTaskDes = "BattlePass_Task_Des_100001102",
     BattlePassTaskId = 100001102,
     BattlePassType = "Weekly",
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 300000,
-    TargetId = {
-      10201
-    }
+    TargetId = 10201
   },
   [100001103] = {
     BattlePassId = 100001,
@@ -100,13 +72,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001103,
     BattlePassType = "Weekly",
     JumpUIId = 19,
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 10,
-    TargetId = {
-      50930
-    }
+    TargetId = 50930
   },
   [100001104] = {
     BattlePassId = 100001,
@@ -114,39 +82,27 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001104,
     BattlePassType = "Weekly",
     JumpUIId = 13,
-    QuestReward = {
-      10800
-    },
+    QuestReward = 10800,
     Target = 1,
-    TargetId = {
-      9000
-    }
+    TargetId = 9000
   },
   [100001105] = {
     BattlePassId = 100001,
     BattlePassTaskDes = "BattlePass_Task_Des_100001105",
     BattlePassTaskId = 100001105,
     BattlePassType = "Weekly",
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 1,
-    TargetId = {
-      10051601
-    }
+    TargetId = 10051601
   },
   [100001106] = {
     BattlePassId = 100001,
     BattlePassTaskDes = "BattlePass_Task_Des_100001106",
     BattlePassTaskId = 100001106,
     BattlePassType = "Weekly",
-    QuestReward = {
-      10800
-    },
+    QuestReward = 10800,
     Target = 10,
-    TargetId = {
-      1400101
-    }
+    TargetId = 1400101
   },
   [100001107] = {
     BattlePassId = 100001,
@@ -154,13 +110,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001107,
     BattlePassType = "Weekly",
     JumpUIId = 50,
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 3,
-    TargetId = {
-      1400201
-    }
+    TargetId = 1400201
   },
   [100001108] = {
     BattlePassId = 100001,
@@ -168,13 +120,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001108,
     BattlePassType = "Weekly",
     JumpUIId = 22,
-    QuestReward = {
-      10800
-    },
+    QuestReward = 10800,
     Target = 1,
-    TargetId = {
-      2300101
-    }
+    TargetId = 2300101
   },
   [100001109] = {
     BattlePassId = 100001,
@@ -182,13 +130,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001109,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 6,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100001110] = {
     BattlePassId = 100001,
@@ -196,13 +140,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001110,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 12,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100001111] = {
     BattlePassId = 100001,
@@ -210,13 +150,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001111,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 18,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100001112] = {
     BattlePassId = 100001,
@@ -224,13 +160,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001112,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 24,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100001201] = {
     BattlePassId = 100001,
@@ -238,13 +170,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001201,
     BattlePassType = "Version",
     JumpUIId = 14,
-    QuestReward = {
-      22000
-    },
+    QuestReward = 22000,
     Target = 1,
-    TargetId = {
-      1500102
-    }
+    TargetId = 1500102
   },
   [100001202] = {
     BattlePassId = 100001,
@@ -252,13 +180,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001202,
     BattlePassType = "Version",
     JumpUIId = 5,
-    QuestReward = {
-      23000
-    },
+    QuestReward = 23000,
     Target = 40,
-    TargetId = {
-      100101
-    }
+    TargetId = 100101
   },
   [100001203] = {
     BattlePassId = 100001,
@@ -266,9 +190,7 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001203,
     BattlePassType = "Version",
     JumpUIId = 11,
-    QuestReward = {
-      22500
-    },
+    QuestReward = 22500,
     Target = 1,
     TargetId = {70108}
   },
@@ -278,9 +200,7 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001204,
     BattlePassType = "Version",
     JumpUIId = 17,
-    QuestReward = {
-      22500
-    },
+    QuestReward = 22500,
     Target = 1,
     TargetId = {70110}
   },
@@ -290,9 +210,7 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100001205,
     BattlePassType = "Version",
     JumpUIId = 32,
-    QuestReward = {
-      22500
-    },
+    QuestReward = 22500,
     Target = 1,
     TargetId = {1800101}
   },
@@ -301,22 +219,16 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskDes = "BattlePass_Task_Des_100001206",
     BattlePassTaskId = 100001206,
     BattlePassType = "Version",
-    QuestReward = {
-      22000
-    },
+    QuestReward = 22000,
     Target = 8,
-    TargetId = {
-      201
-    }
+    TargetId = 201
   },
   [100001207] = {
     BattlePassId = 100001,
     BattlePassTaskDes = "BattlePass_Task_Des_100002202",
     BattlePassTaskId = 100001207,
     BattlePassType = "Version",
-    QuestReward = {
-      22000
-    },
+    QuestReward = 22000,
     Target = 1000,
     TargetId = {2200601},
     TaskEndTime = 1764014400,
@@ -327,13 +239,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskDes = "BattlePass_Task_Des_100001001",
     BattlePassTaskId = 100002001,
     BattlePassType = "Daily",
-    QuestReward = {
-      10150
-    },
+    QuestReward = 10150,
     Target = 1,
-    TargetId = {
-      201
-    }
+    TargetId = 201
   },
   [100002003] = {
     BattlePassId = 100002,
@@ -341,13 +249,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002003,
     BattlePassType = "Daily",
     JumpUIId = 31,
-    QuestReward = {
-      10100
-    },
+    QuestReward = 10100,
     Target = 200,
-    TargetId = {
-      10116
-    }
+    TargetId = 10116
   },
   [100002004] = {
     BattlePassId = 100002,
@@ -355,26 +259,18 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002004,
     BattlePassType = "Daily",
     JumpUIId = 20,
-    QuestReward = {
-      10100
-    },
+    QuestReward = 10100,
     Target = 3,
-    TargetId = {
-      30101
-    }
+    TargetId = 30101
   },
   [100002005] = {
     BattlePassId = 100002,
     BattlePassTaskDes = "BattlePass_Task_Des_100001005",
     BattlePassTaskId = 100002005,
     BattlePassType = "Daily",
-    QuestReward = {
-      10100
-    },
+    QuestReward = 10100,
     Target = 1,
-    TargetId = {
-      1400101
-    }
+    TargetId = 1400101
   },
   [100002006] = {
     BattlePassId = 100002,
@@ -382,13 +278,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002006,
     BattlePassType = "Daily",
     JumpUIId = 21,
-    QuestReward = {
-      10200
-    },
+    QuestReward = 10200,
     Target = 1,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100002101] = {
     BattlePassId = 100002,
@@ -396,26 +288,18 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002101,
     BattlePassType = "Weekly",
     JumpUIId = 20,
-    QuestReward = {
-      11000
-    },
+    QuestReward = 11000,
     Target = 30,
-    TargetId = {
-      30101
-    }
+    TargetId = 30101
   },
   [100002102] = {
     BattlePassId = 100002,
     BattlePassTaskDes = "BattlePass_Task_Des_100001102",
     BattlePassTaskId = 100002102,
     BattlePassType = "Weekly",
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 300000,
-    TargetId = {
-      10201
-    }
+    TargetId = 10201
   },
   [100002103] = {
     BattlePassId = 100002,
@@ -423,13 +307,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002103,
     BattlePassType = "Weekly",
     JumpUIId = 19,
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 10,
-    TargetId = {
-      50930
-    }
+    TargetId = 50930
   },
   [100002104] = {
     BattlePassId = 100002,
@@ -437,39 +317,27 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002104,
     BattlePassType = "Weekly",
     JumpUIId = 13,
-    QuestReward = {
-      10800
-    },
+    QuestReward = 10800,
     Target = 1,
-    TargetId = {
-      9000
-    }
+    TargetId = 9000
   },
   [100002105] = {
     BattlePassId = 100002,
     BattlePassTaskDes = "BattlePass_Task_Des_100001105",
     BattlePassTaskId = 100002105,
     BattlePassType = "Weekly",
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 1,
-    TargetId = {
-      10051601
-    }
+    TargetId = 10051601
   },
   [100002106] = {
     BattlePassId = 100002,
     BattlePassTaskDes = "BattlePass_Task_Des_100001106",
     BattlePassTaskId = 100002106,
     BattlePassType = "Weekly",
-    QuestReward = {
-      10800
-    },
+    QuestReward = 10800,
     Target = 10,
-    TargetId = {
-      1400101
-    }
+    TargetId = 1400101
   },
   [100002107] = {
     BattlePassId = 100002,
@@ -477,13 +345,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002107,
     BattlePassType = "Weekly",
     JumpUIId = 50,
-    QuestReward = {
-      10600
-    },
+    QuestReward = 10600,
     Target = 3,
-    TargetId = {
-      1400201
-    }
+    TargetId = 1400201
   },
   [100002108] = {
     BattlePassId = 100002,
@@ -491,13 +355,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002108,
     BattlePassType = "Weekly",
     JumpUIId = 22,
-    QuestReward = {
-      10800
-    },
+    QuestReward = 10800,
     Target = 1,
-    TargetId = {
-      2300101
-    }
+    TargetId = 2300101
   },
   [100002109] = {
     BattlePassId = 100002,
@@ -505,13 +365,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002109,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 6,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100002110] = {
     BattlePassId = 100002,
@@ -519,13 +375,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002110,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 12,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100002111] = {
     BattlePassId = 100002,
@@ -533,13 +385,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002111,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 18,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100002112] = {
     BattlePassId = 100002,
@@ -547,13 +395,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002112,
     BattlePassType = "Weekly",
     JumpUIId = 21,
-    QuestReward = {
-      11600
-    },
+    QuestReward = 11600,
     Target = 24,
-    TargetId = {
-      1900101
-    }
+    TargetId = 1900101
   },
   [100002201] = {
     BattlePassId = 100002,
@@ -561,13 +405,9 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002201,
     BattlePassType = "Version",
     JumpUIId = 14,
-    QuestReward = {
-      22000
-    },
+    QuestReward = 22000,
     Target = 1,
-    TargetId = {
-      1500102
-    }
+    TargetId = 1500102
   },
   [100002202] = {
     BattlePassId = 100002,
@@ -575,35 +415,25 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskId = 100002202,
     BattlePassType = "Version",
     JumpUIId = 5,
-    QuestReward = {
-      23000
-    },
+    QuestReward = 23000,
     Target = 40,
-    TargetId = {
-      100101
-    }
+    TargetId = 100101
   },
   [100002206] = {
     BattlePassId = 100002,
     BattlePassTaskDes = "BattlePass_Task_Des_100001206",
     BattlePassTaskId = 100002206,
     BattlePassType = "Version",
-    QuestReward = {
-      22000
-    },
+    QuestReward = 22000,
     Target = 8,
-    TargetId = {
-      201
-    }
+    TargetId = 201
   },
   [100002207] = {
     BattlePassId = 100002,
     BattlePassTaskDes = "BattlePass_Task_Des_100001207",
     BattlePassTaskId = 100002207,
     BattlePassType = "Version",
-    QuestReward = {
-      22000
-    },
+    QuestReward = 22000,
     Target = 10,
     TargetId = {2200301},
     TaskEndTime = 1766394000,
@@ -614,9 +444,7 @@ return ReadOnly("BattlePassTask", {
     BattlePassTaskDes = "BattlePass_Task_Des_100001209",
     BattlePassTaskId = 100002208,
     BattlePassType = "Version",
-    QuestReward = {
-      22000
-    },
+    QuestReward = 22000,
     Target = 1,
     TargetId = {2200501},
     TaskEndTime = 1766394000,

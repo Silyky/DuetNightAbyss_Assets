@@ -149,9 +149,7 @@ return ReadOnly("ShopTabSub", {
     ReddotNode = "Shop_Walnut_1",
     SubName = "UI_Armory_Char",
     SubTabId = 1801,
-    TabCoin = {
-      211
-    },
+    TabCoin = 211,
     TabType = "Normal"
   },
   [1802] = {
@@ -160,9 +158,7 @@ return ReadOnly("ShopTabSub", {
     ReddotNode = "Shop_Walnut_2",
     SubName = "UI_SHOP_SUBTAB_NAME_WEAPON",
     SubTabId = 1802,
-    TabCoin = {
-      211
-    },
+    TabCoin = 211,
     TabType = "Normal"
   },
   [1803] = {
@@ -171,9 +167,7 @@ return ReadOnly("ShopTabSub", {
     ReddotNode = "Shop_Walnut_3",
     SubName = "UI_Armory_Mod",
     SubTabId = 1803,
-    TabCoin = {
-      211
-    },
+    TabCoin = 211,
     TabType = "Normal"
   },
   [2001] = {
@@ -244,27 +238,21 @@ return ReadOnly("ShopTabSub", {
     MainTabId = 10002,
     SubName = "Rouge_ExchangeShop",
     SubTabId = 100021,
-    TabCoin = {
-      215
-    },
+    TabCoin = 215,
     TabType = "Normal"
   },
   [100022] = {
     MainTabId = 10002,
     SubName = "UI_SHOP_MOD_MELEEUWEAPON",
     SubTabId = 100022,
-    TabCoin = {
-      215
-    },
+    TabCoin = 215,
     TabType = "Normal"
   },
   [100023] = {
     MainTabId = 10002,
     SubName = "UI_SHOP_MOD_RANGEUWEAPON",
     SubTabId = 100023,
-    TabCoin = {
-      215
-    },
+    TabCoin = 215,
     TabType = "Normal"
   }
 })

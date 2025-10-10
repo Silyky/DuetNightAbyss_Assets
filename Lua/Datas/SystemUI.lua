@@ -1886,9 +1886,7 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/CheckDetail/WBP_Rouge_CheckDetail_M.WBP_Rouge_CheckDetail_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/CheckDetail/WBP_Rouge_CheckDetail_P.WBP_Rouge_CheckDetail_P'",
     Popup = true,
-    TabCoin = {
-      203
-    },
+    TabCoin = 203,
     UIName = "RougeBag",
     ZOrder = 60
   },
@@ -1949,9 +1947,7 @@ return ReadOnly("SystemUI", {
   RougeMain = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/WBP_Rouge_Main_P.WBP_Rouge_Main_P'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/WBP_Rouge_Main_P.WBP_Rouge_Main_P'",
-    TabCoin = {
-      205
-    },
+    TabCoin = 205,
     UIName = "RougeMain",
     ZOrder = 98
   },
@@ -1979,26 +1975,20 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/Shop/WBP_Rouge_Shop_M.WBP_Rouge_Shop_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/Shop/WBP_Rouge_Shop_P.WBP_Rouge_Shop_P'",
     Popup = true,
-    TabCoin = {
-      203
-    },
+    TabCoin = 203,
     UIName = "RougeShop",
     ZOrder = 60
   },
   RougeTalentMenu = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/TalentTree/WBP_Rouge_TalentMenu_P.WBP_Rouge_TalentMenu_P'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/TalentTree/WBP_Rouge_TalentMenu_P.WBP_Rouge_TalentMenu_P'",
-    TabCoin = {
-      205
-    },
+    TabCoin = 205,
     UIName = "RougeTalentMenu"
   },
   RougeTalentPage = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/TalentTree/WBP_Rouge_TalentPage_M.WBP_Rouge_TalentPage_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/TalentTree/WBP_Rouge_TalentPage_P.WBP_Rouge_TalentPage_P'",
-    TabCoin = {
-      205
-    },
+    TabCoin = 205,
     UIName = "RougeTalentPage"
   },
   RougeTransition = {

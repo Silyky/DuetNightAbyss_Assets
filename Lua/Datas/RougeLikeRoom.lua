@@ -7,9 +7,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat02A.BP_EMGameMode_Prologue_Rou01_Bat02A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 101,
     RoomSubType = 1,
     RoomType = 1,
@@ -24,9 +22,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat03A.BP_EMGameMode_Prologue_Rou01_Bat03A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 102,
     RoomSubType = 1,
     RoomType = 1,
@@ -41,9 +37,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat04A.BP_EMGameMode_Prologue_Rou01_Bat04A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 103,
     RoomSubType = 1,
     RoomType = 1,
@@ -58,9 +52,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat02A.BP_EMGameMode_Prologue_Rou01_Bat02A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 104,
     RoomSubType = 1,
     RoomType = 1,
@@ -75,9 +67,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat03A.BP_EMGameMode_Prologue_Rou01_Bat03A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 105,
     RoomSubType = 1,
     RoomType = 1,
@@ -92,9 +82,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat04A.BP_EMGameMode_Prologue_Rou01_Bat04A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 106,
     RoomSubType = 1,
     RoomType = 1,
@@ -109,9 +97,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat02A.BP_EMGameMode_Prologue_Rou01_Bat02A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 107,
     RoomSubType = 1,
     RoomType = 1,
@@ -126,9 +112,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat03A.BP_EMGameMode_Prologue_Rou01_Bat03A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 108,
     RoomSubType = 1,
     RoomType = 1,
@@ -143,9 +127,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat04A.BP_EMGameMode_Prologue_Rou01_Bat04A",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 109,
     RoomSubType = 1,
     RoomType = 1,
@@ -313,9 +295,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat02A_3.BP_EMGameMode_Prologue_Rou01_Bat02A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 119,
     RoomSubType = 1,
     RoomType = 1,
@@ -330,9 +310,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat03A_3.BP_EMGameMode_Prologue_Rou01_Bat03A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 120,
     RoomSubType = 1,
     RoomType = 1,
@@ -347,9 +325,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat04A_3.BP_EMGameMode_Prologue_Rou01_Bat04A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 121,
     RoomSubType = 1,
     RoomType = 1,
@@ -364,9 +340,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat02A_3.BP_EMGameMode_Prologue_Rou01_Bat02A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 122,
     RoomSubType = 1,
     RoomType = 1,
@@ -381,9 +355,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat03A_3.BP_EMGameMode_Prologue_Rou01_Bat03A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 123,
     RoomSubType = 1,
     RoomType = 1,
@@ -398,9 +370,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat04A_3.BP_EMGameMode_Prologue_Rou01_Bat04A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 124,
     RoomSubType = 1,
     RoomType = 1,
@@ -415,9 +385,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat02A_3.BP_EMGameMode_Prologue_Rou01_Bat02A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 125,
     RoomSubType = 1,
     RoomType = 1,
@@ -432,9 +400,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat03A_3.BP_EMGameMode_Prologue_Rou01_Bat03A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 126,
     RoomSubType = 1,
     RoomType = 1,
@@ -449,9 +415,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 150,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat04A_3.BP_EMGameMode_Prologue_Rou01_Bat04A_3",
     Name = "RougeLike_RoomName_101",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 127,
     RoomSubType = 1,
     RoomType = 1,
@@ -466,9 +430,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite01A.BP_EMGameMode_Prologue_Rou01_Elite01A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5010
-    },
+    RoomCondition = 5010,
     RoomId = 201,
     RoomSubType = 1,
     RoomType = 2,
@@ -483,9 +445,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite01A.BP_EMGameMode_Prologue_Rou01_Elite01A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5012
-    },
+    RoomCondition = 5012,
     RoomId = 202,
     RoomSubType = 1,
     RoomType = 2,
@@ -500,9 +460,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite01A.BP_EMGameMode_Prologue_Rou01_Elite01A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5017
-    },
+    RoomCondition = 5017,
     RoomId = 203,
     RoomSubType = 1,
     RoomType = 2,
@@ -517,9 +475,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite01A.BP_EMGameMode_Prologue_Rou01_Elite01A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5067
-    },
+    RoomCondition = 5067,
     RoomId = 204,
     RoomSubType = 1,
     RoomType = 2,
@@ -534,9 +490,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite02A.BP_EMGameMode_Prologue_Rou01_Elite02A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5010
-    },
+    RoomCondition = 5010,
     RoomId = 205,
     RoomSubType = 1,
     RoomType = 2,
@@ -551,9 +505,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite02A.BP_EMGameMode_Prologue_Rou01_Elite02A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5012
-    },
+    RoomCondition = 5012,
     RoomId = 206,
     RoomSubType = 1,
     RoomType = 2,
@@ -568,9 +520,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite02A.BP_EMGameMode_Prologue_Rou01_Elite02A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5017
-    },
+    RoomCondition = 5017,
     RoomId = 207,
     RoomSubType = 1,
     RoomType = 2,
@@ -585,9 +535,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite02A.BP_EMGameMode_Prologue_Rou01_Elite02A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5067
-    },
+    RoomCondition = 5067,
     RoomId = 208,
     RoomSubType = 1,
     RoomType = 2,
@@ -602,9 +550,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite03A.BP_EMGameMode_Prologue_Rou01_Elite03A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5013
-    },
+    RoomCondition = 5013,
     RoomId = 209,
     RoomSubType = 1,
     RoomType = 2,
@@ -619,9 +565,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite03A.BP_EMGameMode_Prologue_Rou01_Elite03A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5018
-    },
+    RoomCondition = 5018,
     RoomId = 210,
     RoomSubType = 1,
     RoomType = 2,
@@ -636,9 +580,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite03A.BP_EMGameMode_Prologue_Rou01_Elite03A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5068
-    },
+    RoomCondition = 5068,
     RoomId = 211,
     RoomSubType = 1,
     RoomType = 2,
@@ -653,9 +595,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite04A.BP_EMGameMode_Prologue_Rou01_Elite04A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5013
-    },
+    RoomCondition = 5013,
     RoomId = 212,
     RoomSubType = 1,
     RoomType = 2,
@@ -670,9 +610,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite04A.BP_EMGameMode_Prologue_Rou01_Elite04A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5018
-    },
+    RoomCondition = 5018,
     RoomId = 213,
     RoomSubType = 1,
     RoomType = 2,
@@ -687,9 +625,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 300,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Elite04A.BP_EMGameMode_Prologue_Rou01_Elite04A",
     Name = "RougeLike_RoomName_201",
-    RoomCondition = {
-      5068
-    },
+    RoomCondition = 5068,
     RoomId = 214,
     RoomSubType = 1,
     RoomType = 2,
@@ -792,9 +728,7 @@ return ReadOnly("RougeLikeRoom", {
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve01A.BP_EMGameMode_Prologue_Rou01_Eve01A",
     Name = "RougeLike_RoomName_305",
     RLArchiveSubId = 10000501,
-    RoomCondition = {
-      5014
-    },
+    RoomCondition = 5014,
     RoomId = 305,
     RoomSubType = 1,
     RoomType = 3,
@@ -969,9 +903,7 @@ return ReadOnly("RougeLikeRoom", {
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve01A.BP_EMGameMode_Prologue_Rou01_Eve01A",
     Name = "RougeLike_RoomName_314",
     RLArchiveSubId = 10001401,
-    RoomCondition = {
-      5014
-    },
+    RoomCondition = 5014,
     RoomId = 314,
     RoomSubType = 1,
     RoomType = 3,
@@ -1224,9 +1156,7 @@ return ReadOnly("RougeLikeRoom", {
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve326A.BP_EMGameMode_Prologue_Rou01_Eve326A",
     Name = "RougeLike_RoomName_326",
     RLArchiveSubId = 10001801,
-    RoomCondition = {
-      5065
-    },
+    RoomCondition = 5065,
     RoomId = 326,
     RoomSubType = 1,
     RoomType = 3,
@@ -1266,9 +1196,7 @@ return ReadOnly("RougeLikeRoom", {
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve02A.BP_EMGameMode_Prologue_Rou01_Eve02A",
     Name = "RougeLike_RoomName_328",
     RLArchiveSubId = 10002001,
-    RoomCondition = {
-      5065
-    },
+    RoomCondition = 5065,
     RoomId = 328,
     RoomSubType = 1,
     RoomType = 3,
@@ -1287,9 +1215,7 @@ return ReadOnly("RougeLikeRoom", {
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Game01A.BP_EMGameMode_Prologue_Rou01_Game01A",
     Name = "RougeLike_RoomName_381",
     RLArchiveSubId = 10008101,
-    RoomCondition = {
-      5065
-    },
+    RoomCondition = 5065,
     RoomId = 381,
     RoomSubType = 1,
     RoomType = 3,
@@ -1348,9 +1274,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 300,
-    ShopRandom = {
-      3
-    }
+    ShopRandom = 3
   },
   [404] = {
     ArtDataPath = "/Game/Maps/Datas/Data_Art/Ailixian/Ailixian_Rou01_Eve02_Art.Ailixian_Rou01_Eve02_Art",
@@ -1369,9 +1293,7 @@ return ReadOnly("RougeLikeRoom", {
     DesignDataPath = "/Game/Maps/Datas/Data_Design/Ailixian/Ailixian_Rou01_Eve01B_Design.Ailixian_Rou01_Eve01B_Design",
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve01B.BP_EMGameMode_Prologue_Rou01_Eve01B",
     Name = "RougeLike_RoomName_401",
-    RoomCondition = {
-      5031
-    },
+    RoomCondition = 5031,
     RoomId = 405,
     RoomSubType = 1,
     RoomType = 4,
@@ -1383,9 +1305,7 @@ return ReadOnly("RougeLikeRoom", {
     DesignDataPath = "/Game/Maps/Datas/Data_Design/Ailixian/Ailixian_Rou01_Eve02B_Design.Ailixian_Rou01_Eve02B_Design",
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve02B.BP_EMGameMode_Prologue_Rou01_Eve02B",
     Name = "RougeLike_RoomName_401",
-    RoomCondition = {
-      5031
-    },
+    RoomCondition = 5031,
     RoomId = 406,
     RoomSubType = 1,
     RoomType = 4,
@@ -1397,9 +1317,7 @@ return ReadOnly("RougeLikeRoom", {
     DesignDataPath = "/Game/Maps/Datas/Data_Design/Ailixian/Ailixian_Rou01_Eve01B_Design.Ailixian_Rou01_Eve01B_Design",
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve01B.BP_EMGameMode_Prologue_Rou01_Eve01B",
     Name = "RougeLike_RoomName_401",
-    RoomCondition = {
-      5032
-    },
+    RoomCondition = 5032,
     RoomId = 407,
     RoomSubType = 1,
     RoomType = 4,
@@ -1411,9 +1329,7 @@ return ReadOnly("RougeLikeRoom", {
     DesignDataPath = "/Game/Maps/Datas/Data_Design/Ailixian/Ailixian_Rou01_Eve02B_Design.Ailixian_Rou01_Eve02B_Design",
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve02B.BP_EMGameMode_Prologue_Rou01_Eve02B",
     Name = "RougeLike_RoomName_401",
-    RoomCondition = {
-      5032
-    },
+    RoomCondition = 5032,
     RoomId = 408,
     RoomSubType = 1,
     RoomType = 4,
@@ -1425,9 +1341,7 @@ return ReadOnly("RougeLikeRoom", {
     DesignDataPath = "/Game/Maps/Datas/Data_Design/Ailixian/Ailixian_Rou01_Eve01B_Design.Ailixian_Rou01_Eve01B_Design",
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve01B.BP_EMGameMode_Prologue_Rou01_Eve01B",
     Name = "RougeLike_RoomName_401",
-    RoomCondition = {
-      5061
-    },
+    RoomCondition = 5061,
     RoomId = 409,
     RoomSubType = 1,
     RoomType = 4,
@@ -1439,9 +1353,7 @@ return ReadOnly("RougeLikeRoom", {
     DesignDataPath = "/Game/Maps/Datas/Data_Design/Ailixian/Ailixian_Rou01_Eve02B_Design.Ailixian_Rou01_Eve02B_Design",
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Eve02B.BP_EMGameMode_Prologue_Rou01_Eve02B",
     Name = "RougeLike_RoomName_401",
-    RoomCondition = {
-      5061
-    },
+    RoomCondition = 5061,
     RoomId = 410,
     RoomSubType = 1,
     RoomType = 4,
@@ -1458,9 +1370,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 5000,
-    ShopRandom = {
-      3
-    },
+    ShopRandom = 3,
     ShopStoryId = 4
   },
   [422] = {
@@ -1477,9 +1387,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 5000,
-    ShopRandom = {
-      3
-    },
+    ShopRandom = 3,
     ShopStoryId = 5
   },
   [423] = {
@@ -1496,9 +1404,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 5000,
-    ShopRandom = {
-      3
-    },
+    ShopRandom = 3,
     ShopStoryId = 6
   },
   [424] = {
@@ -1515,9 +1421,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 5000,
-    ShopRandom = {
-      3
-    },
+    ShopRandom = 3,
     ShopStoryId = 7
   },
   [425] = {
@@ -1534,9 +1438,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 5000,
-    ShopRandom = {
-      3
-    },
+    ShopRandom = 3,
     ShopStoryId = 8
   },
   [426] = {
@@ -1553,9 +1455,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 5000,
-    ShopRandom = {
-      3
-    },
+    ShopRandom = 3,
     ShopStoryId = 9
   },
   [427] = {
@@ -1572,9 +1472,7 @@ return ReadOnly("RougeLikeRoom", {
     RoomSubType = 1,
     RoomType = 4,
     RoomWeight = 5000,
-    ShopRandom = {
-      3
-    },
+    ShopRandom = 3,
     ShopStoryId = 10
   },
   [501] = {
@@ -1583,9 +1481,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 2500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss01A.BP_EMGameMode_Prologue_Rou01_Boss01A",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5019
-    },
+    RoomCondition = 5019,
     RoomId = 501,
     RoomSubType = 1,
     RoomType = 5,
@@ -1597,9 +1493,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 3700,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss01A_2.BP_EMGameMode_Prologue_Rou01_Boss01A_2",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5020
-    },
+    RoomCondition = 5020,
     RoomId = 502,
     RoomSubType = 1,
     RoomType = 5,
@@ -1611,9 +1505,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 5500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss01A_3.BP_EMGameMode_Prologue_Rou01_Boss01A_3",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5021
-    },
+    RoomCondition = 5021,
     RoomId = 503,
     RoomSubType = 1,
     RoomType = 5,
@@ -1625,9 +1517,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 8000,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss01A_4.BP_EMGameMode_Prologue_Rou01_Boss01A_4",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5022
-    },
+    RoomCondition = 5022,
     RoomId = 504,
     RoomSubType = 1,
     RoomType = 5,
@@ -1639,9 +1529,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 12500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss01A_5.BP_EMGameMode_Prologue_Rou01_Boss01A_5",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5023
-    },
+    RoomCondition = 5023,
     RoomId = 505,
     RoomSubType = 1,
     RoomType = 5,
@@ -1653,9 +1541,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 20500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss01A_6.BP_EMGameMode_Prologue_Rou01_Boss01A_6",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5071
-    },
+    RoomCondition = 5071,
     RoomId = 506,
     RoomSubType = 1,
     RoomType = 5,
@@ -1667,9 +1553,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 2500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss02A.BP_EMGameMode_Prologue_Rou01_Boss02A",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5019
-    },
+    RoomCondition = 5019,
     RoomId = 507,
     RoomSubType = 1,
     RoomType = 5,
@@ -1681,9 +1565,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 3700,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss02A_2.BP_EMGameMode_Prologue_Rou01_Boss02A_2",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5020
-    },
+    RoomCondition = 5020,
     RoomId = 508,
     RoomSubType = 1,
     RoomType = 5,
@@ -1695,9 +1577,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 5500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss02A_3.BP_EMGameMode_Prologue_Rou01_Boss02A_3",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5021
-    },
+    RoomCondition = 5021,
     RoomId = 509,
     RoomSubType = 1,
     RoomType = 5,
@@ -1709,9 +1589,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 8000,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss02A_4.BP_EMGameMode_Prologue_Rou01_Boss02A_4",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5022
-    },
+    RoomCondition = 5022,
     RoomId = 510,
     RoomSubType = 1,
     RoomType = 5,
@@ -1723,9 +1601,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 12500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss02A_5.BP_EMGameMode_Prologue_Rou01_Boss02A_5",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5023
-    },
+    RoomCondition = 5023,
     RoomId = 511,
     RoomSubType = 1,
     RoomType = 5,
@@ -1737,9 +1613,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 20500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss02A_6.BP_EMGameMode_Prologue_Rou01_Boss02A_6",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5071
-    },
+    RoomCondition = 5071,
     RoomId = 512,
     RoomSubType = 1,
     RoomType = 5,
@@ -1751,9 +1625,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 2500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss03A.BP_EMGameMode_Prologue_Rou01_Boss03A",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5019
-    },
+    RoomCondition = 5019,
     RoomId = 513,
     RoomSubType = 1,
     RoomType = 5,
@@ -1765,9 +1637,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 3700,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss03A_2.BP_EMGameMode_Prologue_Rou01_Boss03A_2",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5020
-    },
+    RoomCondition = 5020,
     RoomId = 514,
     RoomSubType = 1,
     RoomType = 5,
@@ -1779,9 +1649,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 5500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss03A_3.BP_EMGameMode_Prologue_Rou01_Boss03A_3",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5021
-    },
+    RoomCondition = 5021,
     RoomId = 515,
     RoomSubType = 1,
     RoomType = 5,
@@ -1793,9 +1661,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 8000,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss03A_4.BP_EMGameMode_Prologue_Rou01_Boss03A_4",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5022
-    },
+    RoomCondition = 5022,
     RoomId = 516,
     RoomSubType = 1,
     RoomType = 5,
@@ -1807,9 +1673,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 12500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss03A_5.BP_EMGameMode_Prologue_Rou01_Boss03A_5",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5023
-    },
+    RoomCondition = 5023,
     RoomId = 517,
     RoomSubType = 1,
     RoomType = 5,
@@ -1821,9 +1685,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 20500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss03A_6.BP_EMGameMode_Prologue_Rou01_Boss03A_6",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5071
-    },
+    RoomCondition = 5071,
     RoomId = 518,
     RoomSubType = 1,
     RoomType = 5,
@@ -1835,9 +1697,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 5500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss04A_3.BP_EMGameMode_Prologue_Rou01_Boss04A_3",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5021
-    },
+    RoomCondition = 5021,
     RoomId = 521,
     RoomSubType = 1,
     RoomType = 5,
@@ -1849,9 +1709,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 8000,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss04A_4.BP_EMGameMode_Prologue_Rou01_Boss04A_4",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5022
-    },
+    RoomCondition = 5022,
     RoomId = 522,
     RoomSubType = 1,
     RoomType = 5,
@@ -1863,9 +1721,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 12500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss04A_5.BP_EMGameMode_Prologue_Rou01_Boss04A_5",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5023
-    },
+    RoomCondition = 5023,
     RoomId = 523,
     RoomSubType = 1,
     RoomType = 5,
@@ -1877,9 +1733,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 20500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss04A_6.BP_EMGameMode_Prologue_Rou01_Boss04A_6",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5071
-    },
+    RoomCondition = 5071,
     RoomId = 524,
     RoomSubType = 1,
     RoomType = 5,
@@ -1891,9 +1745,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 5500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss05A_3.BP_EMGameMode_Prologue_Rou01_Boss05A_3",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5021
-    },
+    RoomCondition = 5021,
     RoomId = 527,
     RoomSubType = 1,
     RoomType = 5,
@@ -1905,9 +1757,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 8000,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss05A_4.BP_EMGameMode_Prologue_Rou01_Boss05A_4",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5022
-    },
+    RoomCondition = 5022,
     RoomId = 528,
     RoomSubType = 1,
     RoomType = 5,
@@ -1919,9 +1769,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 12500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss05A_5.BP_EMGameMode_Prologue_Rou01_Boss05A_5",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5023
-    },
+    RoomCondition = 5023,
     RoomId = 529,
     RoomSubType = 1,
     RoomType = 5,
@@ -1933,9 +1781,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsBase = 20500,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Boss05A_6.BP_EMGameMode_Prologue_Rou01_Boss05A_6",
     Name = "RougeLike_RoomName_501",
-    RoomCondition = {
-      5071
-    },
+    RoomCondition = 5071,
     RoomId = 530,
     RoomSubType = 1,
     RoomType = 5,
@@ -1949,9 +1795,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat104B.BP_EMGameMode_Prologue_Rou01_Bat104B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6001,
     RoomSubType = 1,
     RoomType = 6,
@@ -1966,9 +1810,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat105B.BP_EMGameMode_Prologue_Rou01_Bat105B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6002,
     RoomSubType = 1,
     RoomType = 6,
@@ -1983,9 +1825,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat106B.BP_EMGameMode_Prologue_Rou01_Bat106B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6003,
     RoomSubType = 1,
     RoomType = 6,
@@ -2000,9 +1840,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat108B.BP_EMGameMode_Prologue_Rou01_Bat108B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6004,
     RoomSubType = 1,
     RoomType = 6,
@@ -2017,9 +1855,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat109B.BP_EMGameMode_Prologue_Rou01_Bat109B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6005,
     RoomSubType = 1,
     RoomType = 6,
@@ -2034,9 +1870,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat110B.BP_EMGameMode_Prologue_Rou01_Bat110B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6006,
     RoomSubType = 1,
     RoomType = 6,
@@ -2051,9 +1885,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat111B.BP_EMGameMode_Prologue_Rou01_Bat111B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6007,
     RoomSubType = 1,
     RoomType = 6,
@@ -2068,9 +1900,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat112B.BP_EMGameMode_Prologue_Rou01_Bat112B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6008,
     RoomSubType = 1,
     RoomType = 6,
@@ -2085,9 +1915,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat113B.BP_EMGameMode_Prologue_Rou01_Bat113B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6009,
     RoomSubType = 1,
     RoomType = 6,
@@ -2102,9 +1930,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat204B.BP_EMGameMode_Prologue_Rou01_Bat204B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6011,
     RoomSubType = 1,
     RoomType = 6,
@@ -2119,9 +1945,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat205B.BP_EMGameMode_Prologue_Rou01_Bat205B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6012,
     RoomSubType = 1,
     RoomType = 6,
@@ -2136,9 +1960,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat206B.BP_EMGameMode_Prologue_Rou01_Bat206B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6013,
     RoomSubType = 1,
     RoomType = 6,
@@ -2153,9 +1975,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat208B.BP_EMGameMode_Prologue_Rou01_Bat208B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6014,
     RoomSubType = 1,
     RoomType = 6,
@@ -2170,9 +1990,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat209B.BP_EMGameMode_Prologue_Rou01_Bat209B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6015,
     RoomSubType = 1,
     RoomType = 6,
@@ -2187,9 +2005,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat210B.BP_EMGameMode_Prologue_Rou01_Bat210B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6016,
     RoomSubType = 1,
     RoomType = 6,
@@ -2204,9 +2020,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat211B.BP_EMGameMode_Prologue_Rou01_Bat211B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6017,
     RoomSubType = 1,
     RoomType = 6,
@@ -2221,9 +2035,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat212B.BP_EMGameMode_Prologue_Rou01_Bat212B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6018,
     RoomSubType = 1,
     RoomType = 6,
@@ -2238,9 +2050,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat213B.BP_EMGameMode_Prologue_Rou01_Bat213B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6019,
     RoomSubType = 1,
     RoomType = 6,
@@ -2255,9 +2065,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat304B.BP_EMGameMode_Prologue_Rou01_Bat304B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6021,
     RoomSubType = 1,
     RoomType = 6,
@@ -2272,9 +2080,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat305B.BP_EMGameMode_Prologue_Rou01_Bat305B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6022,
     RoomSubType = 1,
     RoomType = 6,
@@ -2289,9 +2095,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat306B.BP_EMGameMode_Prologue_Rou01_Bat306B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6023,
     RoomSubType = 1,
     RoomType = 6,
@@ -2306,9 +2110,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat308B.BP_EMGameMode_Prologue_Rou01_Bat308B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6024,
     RoomSubType = 1,
     RoomType = 6,
@@ -2323,9 +2125,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat309B.BP_EMGameMode_Prologue_Rou01_Bat309B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6025,
     RoomSubType = 1,
     RoomType = 6,
@@ -2340,9 +2140,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat310B.BP_EMGameMode_Prologue_Rou01_Bat310B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6026,
     RoomSubType = 1,
     RoomType = 6,
@@ -2357,9 +2155,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat311B.BP_EMGameMode_Prologue_Rou01_Bat311B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6027,
     RoomSubType = 1,
     RoomType = 6,
@@ -2374,9 +2170,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat312B.BP_EMGameMode_Prologue_Rou01_Bat312B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6028,
     RoomSubType = 1,
     RoomType = 6,
@@ -2391,9 +2185,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat313B.BP_EMGameMode_Prologue_Rou01_Bat313B",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5170
-    },
+    RoomCondition = 5170,
     RoomId = 6029,
     RoomSubType = 1,
     RoomType = 6,
@@ -3020,9 +2812,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat101B_3.BP_EMGameMode_Prologue_Rou01_Bat101B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6201,
     RoomSubType = 1,
     RoomType = 6,
@@ -3037,9 +2827,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat102B_3.BP_EMGameMode_Prologue_Rou01_Bat102B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6202,
     RoomSubType = 1,
     RoomType = 6,
@@ -3054,9 +2842,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat103B_3.BP_EMGameMode_Prologue_Rou01_Bat103B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6203,
     RoomSubType = 1,
     RoomType = 6,
@@ -3071,9 +2857,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat104B_3.BP_EMGameMode_Prologue_Rou01_Bat104B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6204,
     RoomSubType = 1,
     RoomType = 6,
@@ -3088,9 +2872,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat105B_3.BP_EMGameMode_Prologue_Rou01_Bat105B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6205,
     RoomSubType = 1,
     RoomType = 6,
@@ -3105,9 +2887,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat106B_3.BP_EMGameMode_Prologue_Rou01_Bat106B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6206,
     RoomSubType = 1,
     RoomType = 6,
@@ -3122,9 +2902,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat107B_3.BP_EMGameMode_Prologue_Rou01_Bat107B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6207,
     RoomSubType = 1,
     RoomType = 6,
@@ -3139,9 +2917,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat108B_3.BP_EMGameMode_Prologue_Rou01_Bat108B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6208,
     RoomSubType = 1,
     RoomType = 6,
@@ -3156,9 +2932,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat201B_3.BP_EMGameMode_Prologue_Rou01_Bat201B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6209,
     RoomSubType = 1,
     RoomType = 6,
@@ -3173,9 +2947,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat202B_3.BP_EMGameMode_Prologue_Rou01_Bat202B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6210,
     RoomSubType = 1,
     RoomType = 6,
@@ -3190,9 +2962,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat203B_3.BP_EMGameMode_Prologue_Rou01_Bat203B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6211,
     RoomSubType = 1,
     RoomType = 6,
@@ -3207,9 +2977,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat204B_3.BP_EMGameMode_Prologue_Rou01_Bat204B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6212,
     RoomSubType = 1,
     RoomType = 6,
@@ -3224,9 +2992,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat205B_3.BP_EMGameMode_Prologue_Rou01_Bat205B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6213,
     RoomSubType = 1,
     RoomType = 6,
@@ -3241,9 +3007,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat206B_3.BP_EMGameMode_Prologue_Rou01_Bat206B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6214,
     RoomSubType = 1,
     RoomType = 6,
@@ -3258,9 +3022,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat207B_3.BP_EMGameMode_Prologue_Rou01_Bat207B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6215,
     RoomSubType = 1,
     RoomType = 6,
@@ -3275,9 +3037,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat208B_3.BP_EMGameMode_Prologue_Rou01_Bat208B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6216,
     RoomSubType = 1,
     RoomType = 6,
@@ -3292,9 +3052,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat301B_3.BP_EMGameMode_Prologue_Rou01_Bat301B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6217,
     RoomSubType = 1,
     RoomType = 6,
@@ -3309,9 +3067,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat302B_3.BP_EMGameMode_Prologue_Rou01_Bat302B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6218,
     RoomSubType = 1,
     RoomType = 6,
@@ -3326,9 +3082,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat303B_3.BP_EMGameMode_Prologue_Rou01_Bat303B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6219,
     RoomSubType = 1,
     RoomType = 6,
@@ -3343,9 +3097,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat304B_3.BP_EMGameMode_Prologue_Rou01_Bat304B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6220,
     RoomSubType = 1,
     RoomType = 6,
@@ -3360,9 +3112,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat305B_3.BP_EMGameMode_Prologue_Rou01_Bat305B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6221,
     RoomSubType = 1,
     RoomType = 6,
@@ -3377,9 +3127,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat306B_3.BP_EMGameMode_Prologue_Rou01_Bat306B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6222,
     RoomSubType = 1,
     RoomType = 6,
@@ -3394,9 +3142,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat307B_3.BP_EMGameMode_Prologue_Rou01_Bat307B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6223,
     RoomSubType = 1,
     RoomType = 6,
@@ -3411,9 +3157,7 @@ return ReadOnly("RougeLikeRoom", {
     EndPointsExtras = 200,
     GameModePath = "/Game/AssetDesign/GameMode/Prologue/Roug01/BP_EMGameMode_Prologue_Rou01_Bat308B_3.BP_EMGameMode_Prologue_Rou01_Bat308B_3",
     Name = "RougeLike_RoomName_102",
-    RoomCondition = {
-      5171
-    },
+    RoomCondition = 5171,
     RoomId = 6224,
     RoomSubType = 1,
     RoomType = 6,

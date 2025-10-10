@@ -1502,9 +1502,7 @@ return ReadOnly("BattleWeapon", {
         }
       }
     },
-    WipCharmsResIds = {
-      1060302
-    }
+    WipCharmsResIds = 1060302
   },
   [20101] = {
     ATKLevelGrow = "ATKS",
@@ -3299,9 +3297,7 @@ return ReadOnly("BattleWeapon", {
     WeaponHUDIcon = "Bow_Huguang",
     WeaponId = 20602,
     WeaponMeshResourceId = 2060201,
-    WeaponSkillList = {
-      2060201
-    },
+    WeaponSkillList = 2060201,
     WeaponSockets = {
       HandHold = {
         SocketA = "Root", SocketB = "hook_arm_l"
@@ -3429,9 +3425,7 @@ return ReadOnly("BattleWeapon", {
     WeaponHUDIcon = "Bow_Chixing",
     WeaponId = 20604,
     WeaponMeshResourceId = 2060401,
-    WeaponSkillList = {
-      2060201
-    },
+    WeaponSkillList = 2060201,
     WeaponSockets = {
       HandHold = {
         SocketA = "Root", SocketB = "hook_arm_l"
@@ -3886,9 +3880,7 @@ return ReadOnly("BattleWeapon", {
         }
       }
     },
-    WipCharmsResIds = {
-      1060302
-    }
+    WipCharmsResIds = 1060302
   },
   [310101] = {
     ATKLevelGrow = "ATKS",

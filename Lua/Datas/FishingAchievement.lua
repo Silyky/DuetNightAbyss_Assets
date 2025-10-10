@@ -5,9 +5,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 1,
-    TargetId = {
-      10301
-    }
+    TargetId = 10301
   },
   [1002] = {
     Describe = "UI_Achievement_Fishing_Des_1001",
@@ -15,9 +13,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 8,
-    TargetId = {
-      10301
-    }
+    TargetId = 10301
   },
   [1003] = {
     Describe = "UI_Achievement_Fishing_Des_1001",
@@ -25,9 +21,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 18,
-    TargetId = {
-      10301
-    }
+    TargetId = 10301
   },
   [1004] = {
     Describe = "UI_Achievement_Fishing_Des_1001",
@@ -35,9 +29,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 28,
-    TargetId = {
-      10301
-    }
+    TargetId = 10301
   },
   [1006] = {
     Describe = "UI_Achievement_Fishing_Des_1001",
@@ -45,9 +37,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 48,
-    TargetId = {
-      10301
-    }
+    TargetId = 10301
   },
   [2001] = {
     Describe = "UI_Achievement_Fishing_Des_2001",
@@ -55,9 +45,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 1,
-    TargetId = {
-      10302
-    }
+    TargetId = 10302
   },
   [2002] = {
     Describe = "UI_Achievement_Fishing_Des_2001",
@@ -65,9 +53,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 2,
-    TargetId = {
-      10302
-    }
+    TargetId = 10302
   },
   [2003] = {
     Describe = "UI_Achievement_Fishing_Des_2001",
@@ -75,9 +61,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 3,
-    TargetId = {
-      10302
-    }
+    TargetId = 10302
   },
   [2004] = {
     Describe = "UI_Achievement_Fishing_Des_2001",
@@ -85,9 +69,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 4,
-    TargetId = {
-      10302
-    }
+    TargetId = 10302
   },
   [2005] = {
     Describe = "UI_Achievement_Fishing_Des_2001",
@@ -95,9 +77,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 5,
-    TargetId = {
-      10302
-    }
+    TargetId = 10302
   },
   [2006] = {
     Describe = "UI_Achievement_Fishing_Des_2001",
@@ -105,9 +85,7 @@ return ReadOnly("FishingAchievement", {
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 6,
-    TargetId = {
-      10302
-    }
+    TargetId = 10302
   },
   [3001] = {
     Describe = "UI_Achievement_Fishing_Des_3001",

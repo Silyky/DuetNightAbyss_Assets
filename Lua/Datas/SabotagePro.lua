@@ -1,39 +1,27 @@
 return ReadOnly("SabotagePro", {
   [60201] = {
     DungeonId = 60201,
-    MonsterSpawnIds = {
-      10705
-    }
+    MonsterSpawnIds = 10705
   },
   [60202] = {
     DungeonId = 60202,
-    MonsterSpawnIds = {
-      10705
-    }
+    MonsterSpawnIds = 10705
   },
   [62201] = {
     DungeonId = 62201,
-    MonsterSpawnIds = {
-      10705
-    }
+    MonsterSpawnIds = 10705
   },
   [62202] = {
     DungeonId = 62202,
-    MonsterSpawnIds = {
-      10705
-    }
+    MonsterSpawnIds = 10705
   },
   [64201] = {
     DungeonId = 64201,
-    MonsterSpawnIds = {
-      10705
-    }
+    MonsterSpawnIds = 10705
   },
   [64202] = {
     DungeonId = 64202,
-    MonsterSpawnIds = {
-      10705
-    }
+    MonsterSpawnIds = 10705
   },
   [91251] = {
     DungeonId = 91251,

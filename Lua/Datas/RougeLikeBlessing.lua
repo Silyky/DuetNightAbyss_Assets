@@ -6,18 +6,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_101",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "MeleeWeapon",
     Name = "RLBlessing_Name_101",
@@ -37,18 +33,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_102",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "MeleeWeapon",
     Name = "RLBlessing_Name_102",
@@ -68,18 +60,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_103",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_103",
@@ -99,18 +87,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_104",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_104",
@@ -142,9 +126,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_105",
@@ -176,9 +158,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_106",
@@ -198,18 +178,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_107",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "MeleeWeapon",
     Name = "RLBlessing_Name_107",
@@ -229,18 +205,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_108",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "MeleeWeapon",
     Name = "RLBlessing_Name_108",
@@ -260,18 +232,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_109",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_109",
@@ -303,9 +271,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_110",
@@ -337,9 +303,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_111",
@@ -359,18 +323,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_112",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "MeleeWeapon",
     Name = "RLBlessing_Name_112",
@@ -390,18 +350,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_113",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_113",
@@ -433,9 +389,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_114",
@@ -464,9 +418,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeB.T_Rouge_BlessingType_MeleeB",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_115",
@@ -486,18 +438,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_201",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "RangedWeapon",
     Name = "RLBlessing_Name_201",
@@ -517,18 +465,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_202",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "RangedWeapon",
     Name = "RLBlessing_Name_202",
@@ -548,9 +492,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_203",
     EndPoints = {
       10, 15
@@ -560,9 +502,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_203",
@@ -582,18 +522,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_204",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_204",
@@ -613,9 +549,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_205",
     EndPoints = {
       10, 15
@@ -625,9 +559,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_205",
@@ -654,9 +586,7 @@ return ReadOnly("RougeLikeBlessing", {
     EndPoints = {10},
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 1,
     ModEquip = "Role",
     Name = "RLBlessing_Name_206",
@@ -676,18 +606,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_207",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "RangedWeapon",
     Name = "RLBlessing_Name_207",
@@ -707,18 +633,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_208",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "RangedWeapon",
     Name = "RLBlessing_Name_208",
@@ -750,9 +672,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_209",
@@ -772,18 +692,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_210",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_210",
@@ -803,18 +719,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_211",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_211",
@@ -834,18 +746,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_212",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "RangedWeapon",
     Name = "RLBlessing_Name_212",
@@ -865,18 +773,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_213",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "RangedWeapon",
     Name = "RLBlessing_Name_213",
@@ -903,9 +807,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_214",
@@ -925,18 +827,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_215",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_CharA.T_Rouge_BlessingType_CharA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_215",
@@ -962,9 +860,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_301",
@@ -990,9 +886,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_302",
@@ -1018,9 +912,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_303",
@@ -1046,9 +938,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_304",
@@ -1074,9 +964,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_305",
@@ -1103,9 +991,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_306",
@@ -1131,9 +1017,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_307",
@@ -1159,9 +1043,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_308",
@@ -1187,9 +1069,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_309",
@@ -1209,18 +1089,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5034
-    },
+    Condition = 5034,
     Desc = "RLBlessing_Desc_310",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_310",
@@ -1240,9 +1116,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5034
-    },
+    Condition = 5034,
     Desc = "RLBlessing_Desc_311",
     EndPoints = {
       20, 35
@@ -1252,9 +1126,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_311",
@@ -1280,9 +1152,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_312",
@@ -1308,9 +1178,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_313",
@@ -1330,9 +1198,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5034
-    },
+    Condition = 5034,
     Desc = "RLBlessing_Desc_314",
     EndPoints = {
       40, 60
@@ -1342,9 +1208,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_314",
@@ -1374,9 +1238,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_MeleeA.T_Rouge_BlessingType_MeleeA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_315",
@@ -1396,9 +1258,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_401",
     EndPoints = {
       10, 15
@@ -1408,9 +1268,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_401",
@@ -1430,18 +1288,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_402",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_402",
@@ -1461,18 +1315,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_403",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_403",
@@ -1492,18 +1342,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_404",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_404",
@@ -1523,18 +1369,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_405",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_405",
@@ -1554,18 +1396,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_406",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_406",
@@ -1585,9 +1423,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_407",
     EndPoints = {
       20, 35
@@ -1597,9 +1433,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_407",
@@ -1619,9 +1453,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_408",
     EndPoints = {
       20, 35
@@ -1631,9 +1463,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_408",
@@ -1653,18 +1483,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_409",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_409",
@@ -1684,18 +1510,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_410",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_410",
@@ -1715,18 +1537,12 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_411",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 1,
     ModEquip = "Role",
     Name = "RLBlessing_Name_411",
@@ -1746,18 +1562,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_412",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_412",
@@ -1777,18 +1589,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_413",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_413",
@@ -1808,18 +1616,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5065
-    },
+    Condition = 5065,
     Desc = "RLBlessing_Desc_414",
     EndPoints = {
       40, 60
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_414",
@@ -1848,9 +1652,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_LifeTree.T_Rouge_BlessingType_LifeTree",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 1,
     ModEquip = "Role",
     Name = "RLBlessing_Name_415",
@@ -1879,9 +1681,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_501",
@@ -1911,9 +1711,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_502",
@@ -1942,9 +1740,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_503",
@@ -1970,9 +1766,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_504",
@@ -1998,9 +1792,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_505",
@@ -2030,9 +1822,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_506",
@@ -2058,9 +1848,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_507",
@@ -2086,9 +1874,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "MeleeWeapon",
     Name = "RLBlessing_Name_508",
@@ -2114,9 +1900,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_509",
@@ -2137,17 +1921,13 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingWeight = 300,
     CanSell = 1,
     Desc = "RLBlessing_Desc_510",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     ExplanationId = {
       "Term_Rou_10105_Powder"
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 1,
     ModEquip = "Role",
     Name = "RLBlessing_Name_510",
@@ -2177,9 +1957,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_511",
@@ -2205,9 +1983,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_512",
@@ -2233,9 +2009,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_513",
@@ -2261,9 +2035,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_514",
@@ -2290,9 +2062,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_HelixLeap.T_Rouge_BlessingType_HelixLeap",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_515",
@@ -2312,18 +2082,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_601",
     EndPoints = {
       10, 15
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_601",
@@ -2343,9 +2109,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_602",
     EndPoints = {
       10, 15
@@ -2355,9 +2119,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_602",
@@ -2377,9 +2139,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_603",
     EndPoints = {
       10, 15
@@ -2389,9 +2149,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_603",
@@ -2411,9 +2169,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_604",
     EndPoints = {
       10, 15
@@ -2423,9 +2179,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_604",
@@ -2445,9 +2199,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_605",
     EndPoints = {
       10, 15
@@ -2457,9 +2209,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_605",
@@ -2479,9 +2229,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 1,
     BlessingWeight = 1000,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_606",
     EndPoints = {
       10, 15
@@ -2491,9 +2239,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_606",
@@ -2513,18 +2259,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_607",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_607",
@@ -2544,9 +2286,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_608",
     EndPoints = {
       20, 35
@@ -2556,9 +2296,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_608",
@@ -2578,18 +2316,14 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_609",
     EndPoints = {
       20, 35
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_609",
@@ -2609,9 +2343,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_610",
     EndPoints = {
       20, 35
@@ -2621,9 +2353,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_610",
@@ -2643,21 +2373,15 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 2,
     BlessingWeight = 300,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_611",
-    EndPoints = {
-      20
-    },
+    EndPoints = 20,
     ExplanationId = {
       "Term_Rou_10106_Glimmerfly"
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 1,
     ModEquip = "Role",
     Name = "RLBlessing_Name_611",
@@ -2677,9 +2401,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_612",
     EndPoints = {
       40, 60
@@ -2689,9 +2411,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_612",
@@ -2711,9 +2431,7 @@ return ReadOnly("RougeLikeBlessing", {
     BlessingRarity = 3,
     BlessingWeight = 100,
     CanSell = 1,
-    Condition = {
-      5064
-    },
+    Condition = 5064,
     Desc = "RLBlessing_Desc_613",
     EndPoints = {
       40, 60
@@ -2723,9 +2441,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_613",
@@ -2757,9 +2473,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_614",
@@ -2791,9 +2505,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_DanmakuA.T_Rouge_BlessingType_DanmakuA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_615",
@@ -2819,9 +2531,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_701",
@@ -2847,9 +2557,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_702",
@@ -2875,9 +2583,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_703",
@@ -2903,9 +2609,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_704",
@@ -2931,9 +2635,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_705",
@@ -2959,9 +2661,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_706",
@@ -2987,9 +2687,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_707",
@@ -3015,9 +2713,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_708",
@@ -3043,9 +2739,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_709",
@@ -3071,9 +2765,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 2,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      300
-    },
+    LevelUpPrices = 300,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_710",
@@ -3099,9 +2791,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 1,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      150
-    },
+    LevelUpPrices = 150,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_711",
@@ -3127,9 +2817,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_712",
@@ -3155,9 +2843,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_713",
@@ -3183,9 +2869,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_714",
@@ -3212,9 +2896,7 @@ return ReadOnly("RougeLikeBlessing", {
     },
     GroupPriority = 3,
     Icon = "/Game/UI/Texture/Dynamic/Image/RougeLike/T_Rouge_BlessingType_SurvivalA.T_Rouge_BlessingType_SurvivalA",
-    LevelUpPrices = {
-      600
-    },
+    LevelUpPrices = 600,
     MaxLevel = 2,
     ModEquip = "Role",
     Name = "RLBlessing_Name_715",

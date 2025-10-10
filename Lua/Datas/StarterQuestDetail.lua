@@ -90,9 +90,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200109},
     StarterQuestDes = "StarterQuest_Des_102001_2_4",
     Target = 2,
-    TargetId = {
-      200101
-    }
+    TargetId = 200101
   },
   [10200109] = {
     JumpUIId = 58,
@@ -188,9 +186,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200117},
     StarterQuestDes = "StarterQuest_Des_102001_4_2",
     Target = 3,
-    TargetId = {
-      60902
-    }
+    TargetId = 60902
   },
   [10200118] = {
     JumpUIId = 40,
@@ -215,9 +211,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200116},
     StarterQuestDes = "StarterQuest_Des_102001_4_1",
     Target = 10,
-    TargetId = {
-      200101
-    }
+    TargetId = 200101
   },
   [10200121] = {
     QuestId = 10200121,
@@ -225,9 +219,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200121},
     StarterQuestDes = "StarterQuest_Des_102001_4_6",
     Target = 3,
-    TargetId = {
-      1400101
-    }
+    TargetId = 1400101
   },
   [10200122] = {
     JumpUIId = 11,
@@ -285,9 +277,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200127},
     StarterQuestDes = "StarterQuest_Des_102001_5_6",
     Target = 10,
-    TargetId = {
-      1400101
-    }
+    TargetId = 1400101
   },
   [10200128] = {
     JumpUIId = 48,
@@ -296,9 +286,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200130},
     StarterQuestDes = "StarterQuest_Des_102001_6_3",
     Target = 12,
-    TargetId = {
-      60902
-    }
+    TargetId = 60902
   },
   [10200129] = {
     JumpUIId = 47,
@@ -339,9 +327,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200132},
     StarterQuestDes = "StarterQuest_Des_102001_6_5",
     Target = 1,
-    TargetId = {
-      1400201
-    }
+    TargetId = 1400201
   },
   [10200133] = {
     JumpUIId = 20,
@@ -383,9 +369,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200137},
     StarterQuestDes = "StarterQuest_Des_102001_7_5",
     Target = 20,
-    TargetId = {
-      1400101
-    }
+    TargetId = 1400101
   },
   [10200138] = {
     JumpUIId = 50,
@@ -394,9 +378,7 @@ return ReadOnly("StarterQuestDetail", {
     QuestReward = {10200138},
     StarterQuestDes = "StarterQuest_Des_102001_7_6",
     Target = 5,
-    TargetId = {
-      1400201
-    }
+    TargetId = 1400201
   },
   [10200139] = {
     JumpUIId = 4,

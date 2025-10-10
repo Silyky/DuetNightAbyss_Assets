@@ -27,9 +27,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      101
-    },
+    SkinApplicationType = 101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10101",
     WeaponId = 10101,
@@ -67,9 +65,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      101
-    },
+    SkinApplicationType = 101,
     SortPriority = 5001,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10102",
@@ -108,9 +104,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      101
-    },
+    SkinApplicationType = 101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10103",
     WeaponId = 10103,
@@ -148,9 +142,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      101
-    },
+    SkinApplicationType = 101,
     SortPriority = 5002,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10104",
@@ -189,9 +181,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      101
-    },
+    SkinApplicationType = 101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10105",
     WeaponId = 10105,
@@ -229,9 +219,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      102
-    },
+    SkinApplicationType = 102,
     SortPriority = 5003,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10201",
@@ -270,9 +258,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      102
-    },
+    SkinApplicationType = 102,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10202",
     WeaponId = 10202,
@@ -312,9 +298,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      102
-    },
+    SkinApplicationType = 102,
     SortPriority = 5004,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10203",
@@ -353,9 +337,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      102
-    },
+    SkinApplicationType = 102,
     SortPriority = 5005,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10204",
@@ -394,9 +376,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      102
-    },
+    SkinApplicationType = 102,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10206",
     WeaponId = 10206,
@@ -434,9 +414,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      103
-    },
+    SkinApplicationType = 103,
     SortPriority = 5010,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10301",
@@ -475,9 +453,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      103
-    },
+    SkinApplicationType = 103,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10302",
     WeaponId = 10302,
@@ -515,9 +491,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      103
-    },
+    SkinApplicationType = 103,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10303",
     WeaponId = 10303,
@@ -557,9 +531,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      103
-    },
+    SkinApplicationType = 103,
     SortPriority = 5010,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10304",
@@ -598,9 +570,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      104
-    },
+    SkinApplicationType = 104,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10401",
     WeaponId = 10401,
@@ -638,9 +608,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      104
-    },
+    SkinApplicationType = 104,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10402",
     WeaponId = 10402,
@@ -678,9 +646,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      104
-    },
+    SkinApplicationType = 104,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10403",
     WeaponId = 10403,
@@ -718,9 +684,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      105
-    },
+    SkinApplicationType = 105,
     SortPriority = 5011,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10501",
@@ -761,9 +725,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      105
-    },
+    SkinApplicationType = 105,
     SortPriority = 5011,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10502",
@@ -802,9 +764,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      105
-    },
+    SkinApplicationType = 105,
     SortPriority = 5011,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10503",
@@ -843,9 +803,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      105
-    },
+    SkinApplicationType = 105,
     SortPriority = 5011,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10504",
@@ -884,9 +842,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      106
-    },
+    SkinApplicationType = 106,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10601",
     WeaponId = 10601,
@@ -924,9 +880,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      106
-    },
+    SkinApplicationType = 106,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10602",
     WeaponId = 10602,
@@ -964,9 +918,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      106
-    },
+    SkinApplicationType = 106,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_10603",
     WeaponId = 10603,
@@ -1004,9 +956,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      201
-    },
+    SkinApplicationType = 201,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20101",
@@ -1045,9 +995,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      201
-    },
+    SkinApplicationType = 201,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20102",
@@ -1086,9 +1034,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      201
-    },
+    SkinApplicationType = 201,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20103",
@@ -1127,9 +1073,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      202
-    },
+    SkinApplicationType = 202,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20201",
     WeaponId = 20201,
@@ -1167,9 +1111,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      202
-    },
+    SkinApplicationType = 202,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20203",
@@ -1208,9 +1150,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      202
-    },
+    SkinApplicationType = 202,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20205",
     WeaponId = 20205,
@@ -1248,9 +1188,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      203
-    },
+    SkinApplicationType = 203,
     SortPriority = 5102,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20301",
@@ -1291,9 +1229,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      203
-    },
+    SkinApplicationType = 203,
     SortPriority = 5102,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20302",
@@ -1332,9 +1268,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      203
-    },
+    SkinApplicationType = 203,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20303",
@@ -1373,9 +1307,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      203
-    },
+    SkinApplicationType = 203,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20304",
@@ -1414,9 +1346,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      203
-    },
+    SkinApplicationType = 203,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20305",
@@ -1455,9 +1385,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      204
-    },
+    SkinApplicationType = 204,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20401",
@@ -1496,9 +1424,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      204
-    },
+    SkinApplicationType = 204,
     SortPriority = 5103,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20402",
@@ -1537,9 +1463,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      204
-    },
+    SkinApplicationType = 204,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20403",
@@ -1578,9 +1502,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      204
-    },
+    SkinApplicationType = 204,
     SortPriority = 5103,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20405",
@@ -1619,9 +1541,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      205
-    },
+    SkinApplicationType = 205,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20501",
@@ -1660,9 +1580,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      205
-    },
+    SkinApplicationType = 205,
     SortPriority = 5104,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20502",
@@ -1701,9 +1619,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      205
-    },
+    SkinApplicationType = 205,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20503",
@@ -1742,9 +1658,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      205
-    },
+    SkinApplicationType = 205,
     SortPriority = 5105,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20504",
@@ -1783,9 +1697,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      205
-    },
+    SkinApplicationType = 205,
     SortPriority = 5106,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20507",
@@ -1824,9 +1736,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      205
-    },
+    SkinApplicationType = 205,
     SortPriority = 5105,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20509",
@@ -1867,9 +1777,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      205
-    },
+    SkinApplicationType = 205,
     SortPriority = 5106,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20510",
@@ -1908,9 +1816,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      206
-    },
+    SkinApplicationType = 206,
     SortPriority = 5101,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20601",
@@ -1949,9 +1855,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      206
-    },
+    SkinApplicationType = 206,
     SortPriority = 5107,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20602",
@@ -1990,9 +1894,7 @@ return ReadOnly("Weapon", {
       3,
       4
     },
-    SkinApplicationType = {
-      206
-    },
+    SkinApplicationType = 206,
     SortPriority = 5107,
     Sound = "SOUND_ITEM_WEAPON",
     WeaponDescribe = "UI_WEAPON_DESC_20603",

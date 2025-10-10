@@ -771,9 +771,7 @@ return ReadOnly("RelationSpawn", {
     },
     UnitId = {6002015},
     UnitLevel = 3,
-    UnitWeight = {
-      1
-    }
+    UnitWeight = 1
   },
   [10110106] = {
     RelationId = 10110106,
@@ -899,9 +897,7 @@ return ReadOnly("RelationSpawn", {
     },
     UnitId = {6002022},
     UnitLevel = 3,
-    UnitWeight = {
-      1
-    }
+    UnitWeight = 1
   },
   [10110113] = {
     RelationId = 10110113,
@@ -1281,9 +1277,7 @@ return ReadOnly("RelationSpawn", {
     },
     UnitId = {8002012},
     UnitLevel = 3,
-    UnitWeight = {
-      1
-    }
+    UnitWeight = 1
   },
   [10110303] = {
     RelationId = 10110303,
@@ -1295,9 +1289,7 @@ return ReadOnly("RelationSpawn", {
     },
     UnitId = {8002013},
     UnitLevel = 3,
-    UnitWeight = {
-      1
-    }
+    UnitWeight = 1
   },
   [10110304] = {
     RelationId = 10110304,
@@ -1309,9 +1301,7 @@ return ReadOnly("RelationSpawn", {
     },
     UnitId = {8002014},
     UnitLevel = 3,
-    UnitWeight = {
-      1
-    }
+    UnitWeight = 1
   },
   [10110305] = {
     RelationId = 10110305,
@@ -1417,9 +1407,7 @@ return ReadOnly("RelationSpawn", {
     },
     UnitId = {8002020},
     UnitLevel = 3,
-    UnitWeight = {
-      1
-    }
+    UnitWeight = 1
   },
   [10110311] = {
     RelationId = 10110311,

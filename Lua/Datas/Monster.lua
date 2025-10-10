@@ -337,9 +337,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 115,
     UnitName = "Mon_Name_115",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [118] = {
     AlertId = 10,
@@ -386,9 +384,7 @@ return ReadOnly("Monster", {
   },
   [119] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -503,9 +499,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/BossOnline_Test/BP_BossOnline_Test.BP_BossOnline_Test",
     UnitId = 304,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [305] = {
     AlertId = 105,
@@ -669,9 +663,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/BossOnline_Test/BP_BossOnline_Test.BP_BossOnline_Test",
     UnitId = 309,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [310] = {
     AlertId = 105,
@@ -943,9 +935,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Player/Eve/BT_Eve_Summoned_Replicant.BT_Eve_Summoned_Replicant",
     BattleGroupId = 6001,
     BattleRoleId = 210201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -975,9 +965,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Player/Eve/BT_Eve_Summoned_Soldier.BT_Eve_Summoned_Soldier",
     BattleGroupId = 6001,
     BattleRoleId = 210202,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1004,9 +992,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Player/Eve/BT_Eve_Summoned_Rook.BT_Eve_Summoned_Rook",
     BattleGroupId = 6001,
     BattleRoleId = 210203,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1032,9 +1018,7 @@ return ReadOnly("Monster", {
   [210204] = {
     BattleGroupId = 6001,
     BattleRoleId = 210204,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1289,9 +1273,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1325,9 +1307,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/Story/BT_6Jichong_St00.BT_6Jichong_St00",
     BattleGroupId = 6001,
     BattleRoleId = 6001002,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1360,9 +1340,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1395,9 +1373,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/Story/BT_6Jichong_St01_Village.BT_6Jichong_St01_Village",
     BattleGroupId = 6001,
     BattleRoleId = 6001005,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1430,9 +1406,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1462,9 +1436,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1506,9 +1478,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1550,9 +1520,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1599,9 +1567,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1643,9 +1609,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1688,9 +1652,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1732,9 +1694,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1776,9 +1736,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1820,9 +1778,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1864,9 +1820,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1908,9 +1862,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1952,9 +1904,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -1997,9 +1947,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2041,9 +1989,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2085,9 +2031,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001050,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2120,9 +2064,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001051,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2155,9 +2097,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001052,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2190,9 +2130,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/Level_Temple/BT_6Jichong_Tem_101.BT_6Jichong_Tem_101",
     BattleGroupId = 6001,
     BattleRoleId = 6001101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2223,9 +2161,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/Level_Temple/BT_6Jichong_Tem_102.BT_6Jichong_Tem_102",
     BattleGroupId = 6001,
     BattleRoleId = 6001102,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2255,9 +2191,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/Level_Temple/BT_6Jichong_Tem_101.BT_6Jichong_Tem_101",
     BattleGroupId = 6001,
     BattleRoleId = 6001101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2287,9 +2221,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2333,9 +2265,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2380,9 +2310,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2415,9 +2343,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001701,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2449,9 +2375,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6001701,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2483,9 +2407,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2519,18 +2441,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002001,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002002] = {
     AlertId = 6002002,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/Story/BT_6Youji_St00.BT_6Youji_St00",
     BattleGroupId = 6002,
     BattleRoleId = 6002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2560,9 +2478,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002002,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002003] = {
     AccessoryIds = {
@@ -2572,9 +2488,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2609,18 +2523,14 @@ return ReadOnly("Monster", {
     UnitBudgetHighestPriority = true,
     UnitId = 6002003,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002004] = {
     AlertId = 202,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2653,18 +2563,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002004,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002006] = {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2694,9 +2600,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002006,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002011] = {
     AlertId = 102,
@@ -2704,9 +2608,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2742,9 +2644,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002011,
     UnitName = "Mon_Name_6002011",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002012] = {
     AlertId = 102,
@@ -2752,9 +2652,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2791,9 +2689,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002012,
     UnitName = "Mon_Name_6002012",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002013] = {
     AlertId = 102,
@@ -2801,9 +2697,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2844,9 +2738,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002013,
     UnitName = "Mon_Name_6002013",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002014] = {
     AlertId = 102,
@@ -2854,9 +2746,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2893,9 +2783,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002014,
     UnitName = "Mon_Name_6002014",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002015] = {
     AlertId = 102,
@@ -2903,9 +2791,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2941,9 +2827,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002015,
     UnitName = "Mon_Name_6002015",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002016] = {
     AlertId = 102,
@@ -2951,9 +2835,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -2989,9 +2871,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002016,
     UnitName = "Mon_Name_6002016",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002017] = {
     AlertId = 102,
@@ -2999,9 +2879,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3037,9 +2915,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002017,
     UnitName = "Mon_Name_6002017",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002018] = {
     AlertId = 102,
@@ -3047,9 +2923,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3085,9 +2959,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002018,
     UnitName = "Mon_Name_6002018",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002019] = {
     AlertId = 102,
@@ -3095,9 +2967,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3133,9 +3003,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002019,
     UnitName = "Mon_Name_6002019",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002020] = {
     AlertId = 102,
@@ -3143,9 +3011,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3182,9 +3048,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002020,
     UnitName = "Mon_Name_6002020",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002021] = {
     AlertId = 102,
@@ -3192,9 +3056,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3230,9 +3092,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002021,
     UnitName = "Mon_Name_6002021",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002022] = {
     AlertId = 102,
@@ -3240,9 +3100,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3278,9 +3136,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002022,
     UnitName = "Mon_Name_6002022",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002023] = {
     AlertId = 102,
@@ -3288,9 +3144,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3326,9 +3180,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002023,
     UnitName = "Mon_Name_6002023",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002024] = {
     AlertId = 102,
@@ -3336,9 +3188,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3374,18 +3224,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002024,
     UnitName = "Mon_Name_6002024",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002101] = {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3413,9 +3259,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002101,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002201] = {
     AlertId = 102,
@@ -3423,9 +3267,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3463,9 +3305,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002201,
     UnitName = "Mon_Name_6002201",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002301] = {
     AlertId = 102,
@@ -3473,9 +3313,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3514,18 +3352,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002301,
     UnitName = "Mon_Name_6002301",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002601] = {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3558,18 +3392,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002601,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002701] = {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002701,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3601,18 +3431,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002701,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6002702] = {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6002,
     BattleRoleId = 6002701,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -3644,9 +3470,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6002702,
     UnitName = "Mon_Name_6002001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6003001] = {
     AlertId = 102,
@@ -4897,9 +4721,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -4939,9 +4761,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -4981,9 +4801,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5022,9 +4840,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5060,9 +4876,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004002,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5102,9 +4916,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5149,9 +4961,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5196,9 +5006,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5247,9 +5055,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5294,9 +5100,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5342,9 +5146,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5389,9 +5191,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5436,9 +5236,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5483,9 +5281,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5530,9 +5326,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5577,9 +5371,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5624,9 +5416,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5672,9 +5462,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5719,9 +5507,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5766,9 +5552,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004050,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5807,9 +5591,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/Region/BT_6Baotu_Harvest.BT_6Baotu_Harvest",
     BattleGroupId = 6004,
     BattleRoleId = 6004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5847,9 +5629,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/Region/BT_6Baotu_DYN01.BT_6Baotu_DYN01",
     BattleGroupId = 6004,
     BattleRoleId = 6004052,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5885,9 +5665,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004053,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5926,9 +5704,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/Level_Temple/BT_6Baotu_Tem_101.BT_6Baotu_Tem_101",
     BattleGroupId = 6004,
     BattleRoleId = 6004101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -5962,9 +5738,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/Level_Temple/BT_6Baotu_Tem_102.BT_6Baotu_Tem_102",
     BattleGroupId = 6004,
     BattleRoleId = 6004102,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6001,9 +5775,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/Level_Temple/BT_6Baotu_Tem_103.BT_6Baotu_Tem_103",
     BattleGroupId = 6004,
     BattleRoleId = 6004103,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6042,9 +5814,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/Level_Temple/BT_6Baotu_Tem_102.BT_6Baotu_Tem_102",
     BattleGroupId = 6004,
     BattleRoleId = 6004102,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6080,9 +5850,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6129,9 +5897,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6179,9 +5945,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6221,9 +5985,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004701,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6261,9 +6023,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu.BT_6Baotu",
     BattleGroupId = 6004,
     BattleRoleId = 6004701,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6573,9 +6333,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6616,9 +6374,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6659,9 +6415,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6706,9 +6460,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6754,9 +6506,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6806,9 +6556,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6854,9 +6602,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6901,9 +6647,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6948,9 +6692,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -6995,9 +6737,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7042,9 +6782,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7089,9 +6827,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7137,9 +6873,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7184,9 +6918,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7231,9 +6963,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7278,9 +7008,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7325,9 +7053,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7374,9 +7100,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7424,9 +7148,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6007,
     BattleRoleId = 6007601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7466,9 +7188,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7503,9 +7223,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7540,9 +7258,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7584,9 +7300,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7628,9 +7342,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7674,9 +7386,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7718,9 +7428,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7763,9 +7471,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7807,9 +7513,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7851,9 +7555,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7895,9 +7597,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7939,9 +7639,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -7983,9 +7681,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8027,9 +7723,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8072,9 +7766,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8116,9 +7808,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8160,9 +7850,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8205,9 +7893,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8251,9 +7937,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6001,
     BattleRoleId = 6011601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8287,9 +7971,7 @@ return ReadOnly("Monster", {
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8324,18 +8006,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012001,
     UnitName = "Mon_Name_6012001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012004] = {
     AlertId = 202,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8370,18 +8048,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012004,
     UnitName = "Mon_Name_6012001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012011] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8421,18 +8095,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012011,
     UnitName = "Mon_Name_6012011",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012012] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8473,18 +8143,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012012,
     UnitName = "Mon_Name_6012012",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012013] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8526,18 +8192,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012013,
     UnitName = "Mon_Name_6012013",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012014] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8578,18 +8240,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012014,
     UnitName = "Mon_Name_6012014",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012015] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8629,18 +8287,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012015,
     UnitName = "Mon_Name_6012015",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012016] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8680,18 +8334,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012016,
     UnitName = "Mon_Name_6012016",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012017] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8731,18 +8381,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012017,
     UnitName = "Mon_Name_6012017",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012018] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8782,18 +8428,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012018,
     UnitName = "Mon_Name_6012018",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012019] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8833,18 +8475,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012019,
     UnitName = "Mon_Name_6012019",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012020] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8885,18 +8523,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012020,
     UnitName = "Mon_Name_6012020",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012021] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8936,18 +8570,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012021,
     UnitName = "Mon_Name_6012021",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012022] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -8987,18 +8617,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012022,
     UnitName = "Mon_Name_6012022",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012023] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -9038,18 +8664,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012023,
     UnitName = "Mon_Name_6012023",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012024] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -9089,18 +8711,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012024,
     UnitName = "Mon_Name_6012024",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012201] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -9141,18 +8759,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012201,
     UnitName = "Mon_Name_6012201",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012301] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -9194,18 +8808,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012301,
     UnitName = "Mon_Name_6012301",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6012601] = {
     AlertId = 102,
     AttackCount = 3,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleRoleId = 6012601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -9239,9 +8849,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Youji/BP_Mon_Gr_Youji.BP_Mon_Gr_Youji",
     UnitId = 6012601,
     UnitName = "Mon_Name_6012001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6013001] = {
     AlertId = 102,
@@ -10189,9 +9797,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10231,9 +9837,7 @@ return ReadOnly("Monster", {
     AlertId = 202,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10273,9 +9877,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10320,9 +9922,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10367,9 +9967,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10416,9 +10014,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10463,9 +10059,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10511,9 +10105,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10558,9 +10150,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10605,9 +10195,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10652,9 +10240,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10699,9 +10285,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10746,9 +10330,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10793,9 +10375,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10841,9 +10421,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10888,9 +10466,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10935,9 +10511,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -10983,9 +10557,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11032,9 +10604,7 @@ return ReadOnly("Monster", {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Baotu/BT_6Baotu_C01.BT_6Baotu_C01",
     BattleRoleId = 6014601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11074,9 +10644,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/GR_Zhuoxin/BT_6Zhuoxin.BT_6Zhuoxin",
     BattleGroupId = 6015,
     BattleRoleId = 6015001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11118,9 +10686,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Gr_Youji/BT_6Youji.BT_6Youji",
     BattleGroupId = 6016,
     BattleRoleId = 6016001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11155,18 +10721,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/GR_Eshi/BP_Mon_Gr_Eshi.BP_Mon_Gr_Eshi",
     UnitId = 6016001,
     UnitName = "Mon_Name_6016001",
-    WeaponId = {
-      600201
-    }
+    WeaponId = 600201
   },
   [6017001] = {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/Gr_Jichong/BT_6Jichong.BT_6Jichong",
     BattleGroupId = 6017,
     BattleRoleId = 6017001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11202,9 +10764,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11248,9 +10808,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11294,9 +10852,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001005,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11353,9 +10909,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001005,
     UnitName = "Mon_Name_7001005",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001006] = {
     AlertId = 101,
@@ -11363,9 +10917,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11405,9 +10957,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11451,9 +11001,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11498,9 +11046,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11536,9 +11082,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001011,
     UnitName = "Mon_Name_7001011",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001012] = {
     AlertId = 101,
@@ -11546,9 +11090,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11585,9 +11127,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001012,
     UnitName = "Mon_Name_7001012",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001013] = {
     AlertId = 101,
@@ -11595,9 +11135,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11635,9 +11173,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001013,
     UnitName = "Mon_Name_7001013",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001014] = {
     AlertId = 101,
@@ -11645,9 +11181,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11684,9 +11218,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001014,
     UnitName = "Mon_Name_7001014",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001015] = {
     AlertId = 101,
@@ -11694,9 +11226,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11732,9 +11262,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001015,
     UnitName = "Mon_Name_7001015",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001016] = {
     AlertId = 101,
@@ -11742,9 +11270,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11780,9 +11306,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001016,
     UnitName = "Mon_Name_7001016",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001017] = {
     AlertId = 101,
@@ -11790,9 +11314,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11828,9 +11350,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001017,
     UnitName = "Mon_Name_7001017",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001018] = {
     AlertId = 101,
@@ -11838,9 +11358,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11876,9 +11394,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001018,
     UnitName = "Mon_Name_7001018",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001019] = {
     AlertId = 101,
@@ -11886,9 +11402,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11924,9 +11438,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001019,
     UnitName = "Mon_Name_7001019",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001020] = {
     AlertId = 101,
@@ -11934,9 +11446,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -11973,9 +11483,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001020,
     UnitName = "Mon_Name_7001020",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001021] = {
     AlertId = 101,
@@ -11983,9 +11491,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12021,9 +11527,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001021,
     UnitName = "Mon_Name_7001021",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001022] = {
     AlertId = 101,
@@ -12031,9 +11535,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12069,9 +11571,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001022,
     UnitName = "Mon_Name_7001022",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001023] = {
     AlertId = 101,
@@ -12079,9 +11579,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12117,9 +11615,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001023,
     UnitName = "Mon_Name_7001023",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001024] = {
     AlertId = 101,
@@ -12127,9 +11623,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12165,9 +11659,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001024,
     UnitName = "Mon_Name_7001024",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001061] = {
     AlertId = 101,
@@ -12175,9 +11667,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001061,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12222,9 +11712,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/Level_Temple/BT_7Juji_Tem_101.BT_7Juji_Tem_101",
     BattleGroupId = 7001,
     BattleRoleId = 7001101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12250,9 +11738,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001101,
     UnitName = "Mon_Name_7001001",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001102] = {
     AlertId = 7002102,
@@ -12260,9 +11746,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/Level_Temple/BT_7Juji_Tem_102.BT_7Juji_Tem_102",
     BattleGroupId = 7001,
     BattleRoleId = 7001102,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12288,9 +11772,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001102,
     UnitName = "Mon_Name_7001001",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001201] = {
     AlertId = 101,
@@ -12298,9 +11780,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12338,9 +11818,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001201,
     UnitName = "Mon_Name_7001201",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001301] = {
     AlertId = 101,
@@ -12348,9 +11826,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12389,9 +11865,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7001301,
     UnitName = "Mon_Name_7001301",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7001601] = {
     AlertId = 101,
@@ -12399,9 +11873,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleGroupId = 7001,
     BattleRoleId = 7001601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12452,9 +11924,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12484,9 +11954,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002001,
     UnitName = "Mon_Name_7002001",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002004] = {
     AccessoryIds = {
@@ -12502,9 +11970,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12534,9 +12000,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002004,
     UnitName = "Mon_Name_7002001",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002005] = {
     AccessoryIds = {
@@ -12552,9 +12016,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002005,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12610,9 +12072,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002005,
     UnitName = "Mon_Name_7002005",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002006] = {
     AccessoryIds = {
@@ -12628,9 +12088,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12657,9 +12115,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002006,
     UnitName = "Mon_Name_7002001",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002007] = {
     AccessoryIds = {
@@ -12675,9 +12131,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12708,9 +12162,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002007,
     UnitName = "Mon_Name_7002001",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002011] = {
     AccessoryIds = {
@@ -12726,9 +12178,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12763,9 +12213,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002011,
     UnitName = "Mon_Name_7002011",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002012] = {
     AccessoryIds = {
@@ -12781,9 +12229,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12818,9 +12264,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002012,
     UnitName = "Mon_Name_7002012",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002013] = {
     AccessoryIds = {
@@ -12836,9 +12280,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12875,9 +12317,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002013,
     UnitName = "Mon_Name_7002013",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002014] = {
     AccessoryIds = {
@@ -12893,9 +12333,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12930,9 +12368,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002014,
     UnitName = "Mon_Name_7002014",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002015] = {
     AccessoryIds = {
@@ -12948,9 +12384,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -12986,9 +12420,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002015,
     UnitName = "Mon_Name_7002015",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002016] = {
     AccessoryIds = {
@@ -13004,9 +12436,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13041,9 +12471,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002016,
     UnitName = "Mon_Name_7002016",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002017] = {
     AccessoryIds = {
@@ -13059,9 +12487,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13096,9 +12522,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002017,
     UnitName = "Mon_Name_7002017",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002018] = {
     AccessoryIds = {
@@ -13114,9 +12538,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13151,9 +12573,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002018,
     UnitName = "Mon_Name_7002018",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002019] = {
     AccessoryIds = {
@@ -13169,9 +12589,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13206,9 +12624,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002019,
     UnitName = "Mon_Name_7002019",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002020] = {
     AccessoryIds = {
@@ -13224,9 +12640,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13261,9 +12675,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002020,
     UnitName = "Mon_Name_7002020",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002021] = {
     AccessoryIds = {
@@ -13279,9 +12691,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13316,9 +12726,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002021,
     UnitName = "Mon_Name_7002021",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002022] = {
     AccessoryIds = {
@@ -13334,9 +12742,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13372,9 +12778,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002022,
     UnitName = "Mon_Name_7002022",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002023] = {
     AccessoryIds = {
@@ -13390,9 +12794,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13427,9 +12829,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002023,
     UnitName = "Mon_Name_7002023",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002024] = {
     AccessoryIds = {
@@ -13445,9 +12845,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13482,9 +12880,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002024,
     UnitName = "Mon_Name_7002024",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002101] = {
     AccessoryIds = {
@@ -13500,9 +12896,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/Level_Temple/BT_7Pizhuo_Tem_101.BT_7Pizhuo_Tem_101",
     BattleGroupId = 7002,
     BattleRoleId = 7002101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13527,9 +12921,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002101,
     UnitName = "Mon_Name_7002001",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002102] = {
     AccessoryIds = {
@@ -13545,9 +12937,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/Level_Temple/BT_7Pizhuo_Tem_102.BT_7Pizhuo_Tem_102",
     BattleGroupId = 7002,
     BattleRoleId = 7002102,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13572,9 +12962,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002102,
     UnitName = "Mon_Name_7002001",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002201] = {
     AccessoryIds = {
@@ -13590,9 +12978,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13629,9 +13015,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002201,
     UnitName = "Mon_Name_7002201",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002301] = {
     AccessoryIds = {
@@ -13647,9 +13031,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13687,9 +13069,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002301,
     UnitName = "Mon_Name_7002301",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7002601] = {
     AccessoryIds = {
@@ -13705,9 +13085,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7002601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13736,15 +13114,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7002601,
     UnitName = "Mon_Name_7002001",
-    WeaponId = {
-      700201
-    }
+    WeaponId = 700201
   },
   [7003001] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -13756,9 +13130,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13798,9 +13170,7 @@ return ReadOnly("Monster", {
   },
   [7003004] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -13812,9 +13182,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13854,9 +13222,7 @@ return ReadOnly("Monster", {
   },
   [7003005] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -13868,9 +13234,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003005,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13927,15 +13291,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003005,
     UnitName = "Mon_Name_7003005",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003006] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -13947,9 +13307,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -13986,9 +13344,7 @@ return ReadOnly("Monster", {
   },
   [7003007] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14000,9 +13356,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/Story/BT_7Ranger_Ex01.BT_7Ranger_Ex01",
     BattleGroupId = 7003,
     BattleRoleId = 7003006,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14042,9 +13396,7 @@ return ReadOnly("Monster", {
   },
   [7003011] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14056,9 +13408,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14094,15 +13444,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003011,
     UnitName = "Mon_Name_7003011",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003012] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14114,9 +13460,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14153,15 +13497,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003012,
     UnitName = "Mon_Name_7003012",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003013] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14173,9 +13513,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14213,15 +13551,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003013,
     UnitName = "Mon_Name_7003013",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003014] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14233,9 +13567,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14272,15 +13604,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003014,
     UnitName = "Mon_Name_7003014",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003015] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14292,9 +13620,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14330,15 +13656,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003015,
     UnitName = "Mon_Name_7003015",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003016] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14350,9 +13672,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14388,15 +13708,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003016,
     UnitName = "Mon_Name_7003016",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003017] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14408,9 +13724,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14446,15 +13760,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003017,
     UnitName = "Mon_Name_7003017",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003018] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14466,9 +13776,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14504,15 +13812,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003018,
     UnitName = "Mon_Name_7003018",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003019] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14524,9 +13828,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14562,15 +13864,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003019,
     UnitName = "Mon_Name_7003019",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003020] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14582,9 +13880,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14621,15 +13917,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003020,
     UnitName = "Mon_Name_7003020",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003021] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14641,9 +13933,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14679,15 +13969,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003021,
     UnitName = "Mon_Name_7003021",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003022] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14699,9 +13985,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14737,15 +14021,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003022,
     UnitName = "Mon_Name_7003022",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003023] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14757,9 +14037,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14795,15 +14073,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003023,
     UnitName = "Mon_Name_7003023",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003024] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14815,9 +14089,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14853,15 +14125,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003024,
     UnitName = "Mon_Name_7003024",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003051] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14873,9 +14141,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/SP/BT_7Ranger_SP_51.BT_7Ranger_SP_51",
     BattleGroupId = 7003,
     BattleRoleId = 7003001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14914,9 +14180,7 @@ return ReadOnly("Monster", {
   },
   [7003101] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14928,9 +14192,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/Level_Temple/BT_7Ranger_Tem_101.BT_7Ranger_Tem_101",
     BattleGroupId = 7003,
     BattleRoleId = 7003101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -14956,15 +14218,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003101,
     UnitName = "Mon_Name_7003001",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003201] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -14976,9 +14234,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15016,15 +14272,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003201,
     UnitName = "Mon_Name_7003201",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003301] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -15036,9 +14288,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15077,15 +14327,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7003301,
     UnitName = "Mon_Name_7003301",
-    WeaponId = {
-      700301
-    }
+    WeaponId = 700301
   },
   [7003601] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -15097,9 +14343,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7003601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15150,9 +14394,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15183,9 +14425,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004001,
     UnitName = "Mon_Name_7004001",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004004] = {
     AccessoryIds = {
@@ -15201,9 +14441,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15234,9 +14472,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004004,
     UnitName = "Mon_Name_7004001",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004006] = {
     AccessoryIds = {
@@ -15252,9 +14488,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15282,9 +14516,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004006,
     UnitName = "Mon_Name_7004001",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004011] = {
     AccessoryIds = {
@@ -15300,9 +14532,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15338,9 +14568,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004011,
     UnitName = "Mon_Name_7004011",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004012] = {
     AccessoryIds = {
@@ -15356,9 +14584,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15394,9 +14620,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004012,
     UnitName = "Mon_Name_7004012",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004013] = {
     AccessoryIds = {
@@ -15412,9 +14636,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15452,9 +14674,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004013,
     UnitName = "Mon_Name_7004013",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004014] = {
     AccessoryIds = {
@@ -15470,9 +14690,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15508,9 +14726,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004014,
     UnitName = "Mon_Name_7004014",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004015] = {
     AccessoryIds = {
@@ -15526,9 +14742,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15565,9 +14779,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004015,
     UnitName = "Mon_Name_7004015",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004016] = {
     AccessoryIds = {
@@ -15583,9 +14795,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15621,9 +14831,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004016,
     UnitName = "Mon_Name_7004016",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004017] = {
     AccessoryIds = {
@@ -15639,9 +14847,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15677,9 +14883,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004017,
     UnitName = "Mon_Name_7004017",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004018] = {
     AccessoryIds = {
@@ -15695,9 +14899,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15733,9 +14935,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004018,
     UnitName = "Mon_Name_7004018",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004019] = {
     AccessoryIds = {
@@ -15751,9 +14951,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15789,9 +14987,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004019,
     UnitName = "Mon_Name_7004019",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004020] = {
     AccessoryIds = {
@@ -15807,9 +15003,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15845,9 +15039,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004020,
     UnitName = "Mon_Name_7004020",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004021] = {
     AccessoryIds = {
@@ -15863,9 +15055,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15901,9 +15091,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004021,
     UnitName = "Mon_Name_7004021",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004022] = {
     AccessoryIds = {
@@ -15919,9 +15107,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -15958,9 +15144,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004022,
     UnitName = "Mon_Name_7004022",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004023] = {
     AccessoryIds = {
@@ -15976,9 +15160,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16014,9 +15196,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004023,
     UnitName = "Mon_Name_7004023",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004024] = {
     AccessoryIds = {
@@ -16032,9 +15212,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16070,9 +15248,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004024,
     UnitName = "Mon_Name_7004024",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004051] = {
     AccessoryIds = {
@@ -16087,9 +15263,7 @@ return ReadOnly("Monster", {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleRoleId = 7004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16119,9 +15293,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004051,
     UnitName = "UI_Npc_Name_SuspiciousMan",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004052] = {
     AccessoryIds = {
@@ -16137,9 +15309,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/SP/BT_7Tuji_SP_52.BT_7Tuji_SP_52",
     BattleGroupId = 7004,
     BattleRoleId = 7004001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16169,9 +15339,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004052,
     UnitName = "Mon_Name_7004001",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004101] = {
     AccessoryIds = {
@@ -16187,9 +15355,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 700407,
     BattleRoleId = 7004101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16215,9 +15381,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004101,
     UnitName = "Mon_Name_7004001",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004102] = {
     AccessoryIds = {
@@ -16233,9 +15397,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/Level_Temple/BT_7Tuji_Tem_102.BT_7Tuji_Tem_102",
     BattleGroupId = 7004,
     BattleRoleId = 7004102,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16261,9 +15423,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004102,
     UnitName = "Mon_Name_7004001",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004201] = {
     AccessoryIds = {
@@ -16279,9 +15439,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16319,9 +15477,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004201,
     UnitName = "Mon_Name_7004201",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004301] = {
     AccessoryIds = {
@@ -16337,9 +15493,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16378,9 +15532,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004301,
     UnitName = "Mon_Name_7004301",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7004601] = {
     AccessoryIds = {
@@ -16396,9 +15548,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7004601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16428,9 +15578,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7004601,
     UnitName = "Mon_Name_7004001",
-    WeaponId = {
-      700401
-    }
+    WeaponId = 700401
   },
   [7006001] = {
     AlertId = 101,
@@ -16714,9 +15862,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16750,18 +15896,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008001,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008002] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16793,18 +15935,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008002,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008003] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16837,18 +15975,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008003,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008004] = {
     AlertId = 7008001,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16881,18 +16015,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008004,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008011] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16928,18 +16058,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008011,
     UnitName = "Mon_Name_7008011",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008012] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -16975,18 +16101,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008012,
     UnitName = "Mon_Name_7008012",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008013] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17024,18 +16146,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008013,
     UnitName = "Mon_Name_7008013",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008014] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17071,18 +16189,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008014,
     UnitName = "Mon_Name_7008014",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008015] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17118,18 +16232,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008015,
     UnitName = "Mon_Name_7008015",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008016] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17165,18 +16275,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008016,
     UnitName = "Mon_Name_7008016",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008017] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17212,18 +16318,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008017,
     UnitName = "Mon_Name_7008017",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008018] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17259,18 +16361,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008018,
     UnitName = "Mon_Name_7008018",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008019] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17306,18 +16404,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008019,
     UnitName = "Mon_Name_7008019",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008020] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17353,18 +16447,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008020,
     UnitName = "Mon_Name_7008020",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008021] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17400,18 +16490,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008021,
     UnitName = "Mon_Name_7008021",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008022] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17447,18 +16533,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008022,
     UnitName = "Mon_Name_7008022",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008023] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17494,18 +16576,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008023,
     UnitName = "Mon_Name_7008023",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008024] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17541,18 +16619,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008024,
     UnitName = "Mon_Name_7008024",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008051] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008051,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17588,18 +16662,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008051,
     UnitName = "Mon_Name_7008051",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008061] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui_Corp.BT_7Zhihui_Corp",
     BattleGroupId = 7008,
     BattleRoleId = 7008061,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17634,18 +16704,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui_Corp.BP_Mon_Jt_Zhihui_Corp",
     UnitId = 7008061,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008071] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui_Corp.BT_7Zhihui_Corp",
     BattleGroupId = 7008,
     BattleRoleId = 7008071,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17680,18 +16746,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui_Corp.BP_Mon_Jt_Zhihui_Corp",
     UnitId = 7008071,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008101] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/Level_Temple/BT_7Zhihui_Tem_101.BT_7Zhihui_Tem_101",
     BattleGroupId = 7008,
     BattleRoleId = 7008101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17722,18 +16784,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008101,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008201] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17771,18 +16829,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008201,
     UnitName = "Mon_Name_7008201",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008301] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17821,18 +16875,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008301,
     UnitName = "Mon_Name_7008301",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7008601] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Zhihui.BT_7Zhihui",
     BattleGroupId = 7008,
     BattleRoleId = 7008601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17865,18 +16915,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Zhihui/BP_Mon_Jt_Zhihui.BP_Mon_Jt_Zhihui",
     UnitId = 7008601,
     UnitName = "Mon_Name_7008001",
-    WeaponId = {
-      700801
-    }
+    WeaponId = 700801
   },
   [7009001] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17911,9 +16957,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17948,9 +16992,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -17991,9 +17033,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18034,9 +17074,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18079,9 +17117,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18122,9 +17158,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18166,9 +17200,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18209,9 +17241,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18252,9 +17282,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18295,9 +17323,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18338,9 +17364,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18381,9 +17405,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18424,9 +17446,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18468,9 +17488,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18511,9 +17529,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18554,9 +17570,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18599,9 +17613,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18645,9 +17657,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhiren/BT_7Zhiren.BT_7Zhiren",
     BattleGroupId = 7009,
     BattleRoleId = 7009601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18681,9 +17691,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18713,18 +17721,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010001,
     UnitName = "Mon_Name_7010001",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010004] = {
     AlertId = 202,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18754,18 +17758,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010004,
     UnitName = "Mon_Name_7010001",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010011] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18800,18 +17800,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010011,
     UnitName = "Mon_Name_7010011",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010012] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18847,18 +17843,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010012,
     UnitName = "Mon_Name_7010012",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010013] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18895,18 +17887,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010013,
     UnitName = "Mon_Name_7010013",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010014] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18942,18 +17930,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010014,
     UnitName = "Mon_Name_7010014",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010015] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -18988,18 +17972,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010015,
     UnitName = "Mon_Name_7010015",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010016] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19034,18 +18014,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010016,
     UnitName = "Mon_Name_7010016",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010017] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19080,18 +18056,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010017,
     UnitName = "Mon_Name_7010017",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010018] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19126,18 +18098,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010018,
     UnitName = "Mon_Name_7010018",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010019] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19172,18 +18140,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010019,
     UnitName = "Mon_Name_7010019",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010020] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19219,18 +18183,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010020,
     UnitName = "Mon_Name_7010020",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010021] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19265,18 +18225,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010021,
     UnitName = "Mon_Name_7010021",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010022] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19311,18 +18267,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010022,
     UnitName = "Mon_Name_7010022",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010023] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19357,18 +18309,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010023,
     UnitName = "Mon_Name_7010023",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010024] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19403,18 +18351,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010024,
     UnitName = "Mon_Name_7010024",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010201] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19451,18 +18395,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010201,
     UnitName = "Mon_Name_7010201",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010301] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19500,18 +18440,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010301,
     UnitName = "Mon_Name_7010301",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7010601] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JT_Zhijian/BT_7Zhijian.BT_7Zhijian",
     BattleGroupId = 7010,
     BattleRoleId = 7010601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19540,18 +18476,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JT_Zhijian/BP_Mon_JT_Zhijian.BP_Mon_JT_Zhijian",
     UnitId = 7010601,
     UnitName = "Mon_Name_7010001",
-    WeaponId = {
-      701001
-    }
+    WeaponId = 701001
   },
   [7011001] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19595,9 +18527,7 @@ return ReadOnly("Monster", {
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19641,9 +18571,7 @@ return ReadOnly("Monster", {
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19680,18 +18608,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011011,
     UnitName = "Mon_Name_7011011",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011012] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19729,18 +18653,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011012,
     UnitName = "Mon_Name_7011012",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011013] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19779,18 +18699,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011013,
     UnitName = "Mon_Name_7011013",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011014] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19828,18 +18744,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011014,
     UnitName = "Mon_Name_7011014",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011015] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19876,18 +18788,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011015,
     UnitName = "Mon_Name_7011015",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011016] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19924,18 +18832,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011016,
     UnitName = "Mon_Name_7011016",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011017] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -19972,18 +18876,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011017,
     UnitName = "Mon_Name_7011017",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011018] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20020,18 +18920,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011018,
     UnitName = "Mon_Name_7011018",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011019] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20068,18 +18964,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011019,
     UnitName = "Mon_Name_7011019",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011020] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20117,18 +19009,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011020,
     UnitName = "Mon_Name_7011020",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011021] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20165,18 +19053,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011021,
     UnitName = "Mon_Name_7011021",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011022] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20213,18 +19097,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011022,
     UnitName = "Mon_Name_7011022",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011023] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20261,18 +19141,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011023,
     UnitName = "Mon_Name_7011023",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011024] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20309,18 +19185,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011024,
     UnitName = "Mon_Name_7011024",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011101] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/Level_Temple/BT_7Juji_C01_Tem_101.BT_7Juji_C01_Tem_101",
     BattleRoleId = 7011101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20351,18 +19223,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011101,
     UnitName = "Mon_Name_7011001",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011201] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20400,18 +19268,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011201,
     UnitName = "Mon_Name_7011201",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011301] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20450,18 +19314,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 7011301,
     UnitName = "Mon_Name_7011301",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   },
   [7011601] = {
     AlertId = 101,
     AttackCount = 2,
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/BT_7Juji.BT_7Juji",
     BattleRoleId = 7011601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20512,9 +19372,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20545,9 +19403,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012001,
     UnitName = "Mon_Name_7012001",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012004] = {
     AccessoryIds = {
@@ -20563,9 +19419,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20596,9 +19450,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012004,
     UnitName = "Mon_Name_7012001",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012005] = {
     AccessoryIds = {
@@ -20614,9 +19466,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20648,9 +19498,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012005,
     UnitName = "Mon_Name_7012001",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012011] = {
     AccessoryIds = {
@@ -20666,9 +19514,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20703,9 +19549,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012011,
     UnitName = "Mon_Name_7012011",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012012] = {
     AccessoryIds = {
@@ -20721,9 +19565,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20758,9 +19600,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012012,
     UnitName = "Mon_Name_7012012",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012013] = {
     AccessoryIds = {
@@ -20776,9 +19616,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20814,9 +19652,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012013,
     UnitName = "Mon_Name_7012013",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012014] = {
     AccessoryIds = {
@@ -20832,9 +19668,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20869,9 +19703,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012014,
     UnitName = "Mon_Name_7012014",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012015] = {
     AccessoryIds = {
@@ -20887,9 +19719,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20925,9 +19755,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012015,
     UnitName = "Mon_Name_7012015",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012016] = {
     AccessoryIds = {
@@ -20943,9 +19771,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -20980,9 +19806,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012016,
     UnitName = "Mon_Name_7012016",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012017] = {
     AccessoryIds = {
@@ -20998,9 +19822,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21035,9 +19857,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012017,
     UnitName = "Mon_Name_7012017",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012018] = {
     AccessoryIds = {
@@ -21053,9 +19873,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21090,9 +19908,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012018,
     UnitName = "Mon_Name_7012018",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012019] = {
     AccessoryIds = {
@@ -21108,9 +19924,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21145,9 +19959,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012019,
     UnitName = "Mon_Name_7012019",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012020] = {
     AccessoryIds = {
@@ -21163,9 +19975,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21200,9 +20010,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012020,
     UnitName = "Mon_Name_7012020",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012021] = {
     AccessoryIds = {
@@ -21218,9 +20026,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21255,9 +20061,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012021,
     UnitName = "Mon_Name_7012021",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012022] = {
     AccessoryIds = {
@@ -21273,9 +20077,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21311,9 +20113,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012022,
     UnitName = "Mon_Name_7012022",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012023] = {
     AccessoryIds = {
@@ -21329,9 +20129,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21366,9 +20164,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012023,
     UnitName = "Mon_Name_7012023",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012024] = {
     AccessoryIds = {
@@ -21384,9 +20180,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21421,9 +20215,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012024,
     UnitName = "Mon_Name_7012024",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012101] = {
     AccessoryIds = {
@@ -21439,9 +20231,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/Level_Temple/BT_7Pizhuo_Tem_101.BT_7Pizhuo_Tem_101",
     BattleGroupId = 7002,
     BattleRoleId = 7012101,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21471,9 +20261,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012101,
     UnitName = "Mon_Name_7012001",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012102] = {
     AccessoryIds = {
@@ -21489,9 +20277,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/Level_Temple/BT_7Pizhuo_Tem_103.BT_7Pizhuo_Tem_103",
     BattleGroupId = 7002,
     BattleRoleId = 7012102,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21518,9 +20304,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012102,
     UnitName = "Mon_Name_7012001",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012201] = {
     AccessoryIds = {
@@ -21536,9 +20320,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21575,9 +20357,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012201,
     UnitName = "Mon_Name_7012201",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012301] = {
     AccessoryIds = {
@@ -21593,9 +20373,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21633,9 +20411,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012301,
     UnitName = "Mon_Name_7012301",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7012601] = {
     AccessoryIds = {
@@ -21651,9 +20427,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Pizhuo/BT_7Pizhuo.BT_7Pizhuo",
     BattleGroupId = 7002,
     BattleRoleId = 7012601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21683,15 +20457,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Pizhuo/BP_Mon_Jt_Pizhuo.BP_Mon_Jt_Pizhuo",
     UnitId = 7012601,
     UnitName = "Mon_Name_7012001",
-    WeaponId = {
-      701201
-    }
+    WeaponId = 701201
   },
   [7013001] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -21703,9 +20473,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21746,9 +20514,7 @@ return ReadOnly("Monster", {
   },
   [7013004] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -21760,9 +20526,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21803,9 +20567,7 @@ return ReadOnly("Monster", {
   },
   [7013011] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -21817,9 +20579,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21856,15 +20616,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013011,
     UnitName = "Mon_Name_7013011",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013012] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -21876,9 +20632,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21916,15 +20670,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013012,
     UnitName = "Mon_Name_7013012",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013013] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -21936,9 +20686,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -21977,15 +20725,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013013,
     UnitName = "Mon_Name_7013013",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013014] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -21997,9 +20741,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22037,15 +20779,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013014,
     UnitName = "Mon_Name_7013014",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013015] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22057,9 +20795,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22096,15 +20832,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013015,
     UnitName = "Mon_Name_7013015",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013016] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22116,9 +20848,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22155,15 +20885,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013016,
     UnitName = "Mon_Name_7013016",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013017] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22175,9 +20901,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22214,15 +20938,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013017,
     UnitName = "Mon_Name_7013017",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013018] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22234,9 +20954,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22273,15 +20991,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013018,
     UnitName = "Mon_Name_7013018",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013019] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22293,9 +21007,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22332,15 +21044,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013019,
     UnitName = "Mon_Name_7013019",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013020] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22352,9 +21060,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22392,15 +21098,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013020,
     UnitName = "Mon_Name_7013020",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013021] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22412,9 +21114,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22451,15 +21151,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013021,
     UnitName = "Mon_Name_7013021",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013022] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22471,9 +21167,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22510,15 +21204,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013022,
     UnitName = "Mon_Name_7013022",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013023] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22530,9 +21220,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22569,15 +21257,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013023,
     UnitName = "Mon_Name_7013023",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013024] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22589,9 +21273,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22628,15 +21310,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013024,
     UnitName = "Mon_Name_7013024",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013201] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22648,9 +21326,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22688,15 +21364,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013201,
     UnitName = "Mon_Name_7013201",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013301] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22708,9 +21380,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22749,15 +21419,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Ranger/BP_Mon_Jt_Ranger.BP_Mon_Jt_Ranger",
     UnitId = 7013301,
     UnitName = "Mon_Name_7013301",
-    WeaponId = {
-      701301
-    }
+    WeaponId = 701301
   },
   [7013601] = {
     AccessoryIds = {
-      Normal = {
-        700004
-      },
+      Normal = 700004,
       Random = {
         700001,
         700002,
@@ -22769,9 +21435,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Ranger/BT_7Ranger.BT_7Ranger",
     BattleGroupId = 7003,
     BattleRoleId = 7013601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22823,9 +21487,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22857,9 +21519,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014001,
     UnitName = "Mon_Name_7014001",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014004] = {
     AccessoryIds = {
@@ -22875,9 +21535,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22909,9 +21567,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014004,
     UnitName = "Mon_Name_7014001",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014011] = {
     AccessoryIds = {
@@ -22927,9 +21583,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -22966,9 +21620,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014011,
     UnitName = "Mon_Name_7014011",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014012] = {
     AccessoryIds = {
@@ -22984,9 +21636,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23023,9 +21673,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014012,
     UnitName = "Mon_Name_7014012",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014013] = {
     AccessoryIds = {
@@ -23041,9 +21689,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23082,9 +21728,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014013,
     UnitName = "Mon_Name_7014013",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014014] = {
     AccessoryIds = {
@@ -23100,9 +21744,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23139,9 +21781,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014014,
     UnitName = "Mon_Name_7014014",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014015] = {
     AccessoryIds = {
@@ -23157,9 +21797,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23197,9 +21835,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014015,
     UnitName = "Mon_Name_7014015",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014016] = {
     AccessoryIds = {
@@ -23215,9 +21851,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23254,9 +21888,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014016,
     UnitName = "Mon_Name_7014016",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014017] = {
     AccessoryIds = {
@@ -23272,9 +21904,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23311,9 +21941,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014017,
     UnitName = "Mon_Name_7014017",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014018] = {
     AccessoryIds = {
@@ -23329,9 +21957,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23368,9 +21994,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014018,
     UnitName = "Mon_Name_7014018",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014019] = {
     AccessoryIds = {
@@ -23386,9 +22010,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23425,9 +22047,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014019,
     UnitName = "Mon_Name_7014019",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014020] = {
     AccessoryIds = {
@@ -23443,9 +22063,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23482,9 +22100,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014020,
     UnitName = "Mon_Name_7014020",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014021] = {
     AccessoryIds = {
@@ -23500,9 +22116,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23539,9 +22153,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014021,
     UnitName = "Mon_Name_7014021",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014022] = {
     AccessoryIds = {
@@ -23557,9 +22169,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23597,9 +22207,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014022,
     UnitName = "Mon_Name_7014022",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014023] = {
     AccessoryIds = {
@@ -23615,9 +22223,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23654,9 +22260,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014023,
     UnitName = "Mon_Name_7014023",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014024] = {
     AccessoryIds = {
@@ -23672,9 +22276,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23711,9 +22313,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014024,
     UnitName = "Mon_Name_7014024",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014201] = {
     AccessoryIds = {
@@ -23729,9 +22329,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23769,9 +22367,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014201,
     UnitName = "Mon_Name_7014201",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014301] = {
     AccessoryIds = {
@@ -23787,9 +22383,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23828,9 +22422,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014301,
     UnitName = "Mon_Name_7014301",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7014601] = {
     AccessoryIds = {
@@ -23846,9 +22438,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Tuji/BT_7Tuji.BT_7Tuji",
     BattleGroupId = 7004,
     BattleRoleId = 7014601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23879,18 +22469,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Tuji/BP_Mon_Jt_Tuji.BP_Mon_Jt_Tuji",
     UnitId = 7014601,
     UnitName = "Mon_Name_7014001",
-    WeaponId = {
-      700403
-    }
+    WeaponId = 700403
   },
   [7015001] = {
     AlertId = 102,
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23931,9 +22517,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -23974,9 +22558,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24021,9 +22603,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24069,9 +22649,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24121,9 +22699,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24169,9 +22745,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24216,9 +22790,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24263,9 +22835,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24310,9 +22880,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24357,9 +22925,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24404,9 +22970,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24452,9 +23016,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24499,9 +23061,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24546,9 +23106,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24593,9 +23151,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24640,9 +23196,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie_Corp.BT_7Jingjie_Corp",
     BattleGroupId = 7015,
     BattleRoleId = 7015061,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24684,9 +23238,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24733,9 +23285,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24783,9 +23333,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JT_Jingjie/BT_7Jingjie.BT_7Jingjie",
     BattleGroupId = 7015,
     BattleRoleId = 7015601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24876,9 +23424,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24929,9 +23475,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -24982,9 +23526,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25045,9 +23587,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25109,9 +23649,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25177,9 +23715,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25241,9 +23777,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25304,9 +23838,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25367,9 +23899,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25430,9 +23960,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25493,9 +24021,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25556,9 +24082,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25620,9 +24144,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25683,9 +24205,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25746,9 +24266,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25809,9 +24327,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25872,9 +24388,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -25936,9 +24450,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26002,9 +24514,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Zhishi/BT_8Zhishi.BT_8Zhishi",
     BattleGroupId = 8001,
     BattleRoleId = 8001601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26053,9 +24563,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26084,9 +24592,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002001,
     UnitName = "Mon_Name_8002001",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002004] = {
     AccessoryIds = {
@@ -26102,9 +24608,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26133,9 +24637,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002004,
     UnitName = "Mon_Name_8002001",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002011] = {
     AccessoryIds = {
@@ -26151,9 +24653,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26192,9 +24692,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002011,
     UnitName = "Mon_Name_8002011",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002012] = {
     AccessoryIds = {
@@ -26210,9 +24708,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26251,9 +24747,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002012,
     UnitName = "Mon_Name_8002012",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002013] = {
     AccessoryIds = {
@@ -26269,9 +24763,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26315,9 +24807,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002013,
     UnitName = "Mon_Name_8002013",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002014] = {
     AccessoryIds = {
@@ -26333,9 +24823,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26374,9 +24862,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002014,
     UnitName = "Mon_Name_8002014",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002015] = {
     AccessoryIds = {
@@ -26392,9 +24878,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26434,9 +24918,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002015,
     UnitName = "Mon_Name_8002015",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002016] = {
     AccessoryIds = {
@@ -26452,9 +24934,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26493,9 +24973,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002016,
     UnitName = "Mon_Name_8002016",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002017] = {
     AccessoryIds = {
@@ -26511,9 +24989,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26552,9 +25028,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002017,
     UnitName = "Mon_Name_8002017",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002018] = {
     AccessoryIds = {
@@ -26570,9 +25044,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26611,9 +25083,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002018,
     UnitName = "Mon_Name_8002018",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002019] = {
     AccessoryIds = {
@@ -26629,9 +25099,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26670,9 +25138,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002019,
     UnitName = "Mon_Name_8002019",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002020] = {
     AccessoryIds = {
@@ -26688,9 +25154,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26729,9 +25193,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002020,
     UnitName = "Mon_Name_8002020",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002021] = {
     AccessoryIds = {
@@ -26747,9 +25209,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26788,9 +25248,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002021,
     UnitName = "Mon_Name_8002021",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002022] = {
     AccessoryIds = {
@@ -26806,9 +25264,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26848,9 +25304,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002022,
     UnitName = "Mon_Name_8002022",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002023] = {
     AccessoryIds = {
@@ -26866,9 +25320,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26907,9 +25359,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002023,
     UnitName = "Mon_Name_8002023",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002024] = {
     AccessoryIds = {
@@ -26925,9 +25375,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -26966,9 +25414,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002024,
     UnitName = "Mon_Name_8002024",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002051] = {
     AccessoryIds = {
@@ -26984,9 +25430,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JH_Xianfeng/SP/BT_8Xianfeng_SP_51.BT_8Xianfeng_SP_51",
     BattleGroupId = 8002,
     BattleRoleId = 8002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27015,9 +25459,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002051,
     UnitName = "Mon_Name_8002001",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002061] = {
     AccessoryIds = {
@@ -27033,9 +25475,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JH_Xianfeng/BT_8Xianfeng_Corp.BT_8Xianfeng_Corp",
     BattleGroupId = 8002,
     BattleRoleId = 8002061,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27066,9 +25506,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002061,
     UnitName = "Mon_Name_8002001",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002062] = {
     AccessoryIds = {
@@ -27084,9 +25522,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/JH_Xianfeng/BT_8Xianfeng_Corp.BT_8Xianfeng_Corp",
     BattleGroupId = 8002,
     BattleRoleId = 8002062,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27117,9 +25553,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002062,
     UnitName = "Mon_Name_8002001",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002201] = {
     AccessoryIds = {
@@ -27135,9 +25569,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27178,9 +25610,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002201,
     UnitName = "Mon_Name_8002201",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002301] = {
     AccessoryIds = {
@@ -27196,9 +25626,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27240,9 +25668,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002301,
     UnitName = "Mon_Name_8002301",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8002601] = {
     AccessoryIds = {
@@ -27258,9 +25684,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 8002,
     BattleRoleId = 8002601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27288,9 +25712,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/JH_Xianfeng/BP_Mon_JH_Xianfeng.BP_Mon_JH_Xianfeng",
     UnitId = 8002601,
     UnitName = "Mon_Name_8002001",
-    WeaponId = {
-      800201
-    }
+    WeaponId = 800201
   },
   [8003001] = {
     AccessoryIds = {
@@ -27306,9 +25728,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27337,9 +25757,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003001,
     UnitName = "Mon_Name_8003001",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003004] = {
     AccessoryIds = {
@@ -27355,9 +25773,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27386,9 +25802,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003004,
     UnitName = "Mon_Name_8003001",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003011] = {
     AccessoryIds = {
@@ -27404,9 +25818,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27445,9 +25857,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003011,
     UnitName = "Mon_Name_8003011",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003012] = {
     AccessoryIds = {
@@ -27463,9 +25873,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27505,9 +25913,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003012,
     UnitName = "Mon_Name_8003012",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003013] = {
     AccessoryIds = {
@@ -27523,9 +25929,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27569,9 +25973,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003013,
     UnitName = "Mon_Name_8003013",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003014] = {
     AccessoryIds = {
@@ -27587,9 +25989,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27629,9 +26029,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003014,
     UnitName = "Mon_Name_8003014",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003015] = {
     AccessoryIds = {
@@ -27647,9 +26045,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27688,9 +26084,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003015,
     UnitName = "Mon_Name_8003015",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003016] = {
     AccessoryIds = {
@@ -27706,9 +26100,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27747,9 +26139,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003016,
     UnitName = "Mon_Name_8003016",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003017] = {
     AccessoryIds = {
@@ -27765,9 +26155,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27806,9 +26194,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003017,
     UnitName = "Mon_Name_8003017",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003018] = {
     AccessoryIds = {
@@ -27824,9 +26210,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27865,9 +26249,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003018,
     UnitName = "Mon_Name_8003018",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003019] = {
     AccessoryIds = {
@@ -27883,9 +26265,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27924,9 +26304,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003019,
     UnitName = "Mon_Name_8003019",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003020] = {
     AccessoryIds = {
@@ -27942,9 +26320,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -27984,9 +26360,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003020,
     UnitName = "Mon_Name_8003020",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003021] = {
     AccessoryIds = {
@@ -28002,9 +26376,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -28043,9 +26415,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003021,
     UnitName = "Mon_Name_8003021",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003022] = {
     AccessoryIds = {
@@ -28061,9 +26431,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -28102,9 +26470,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003022,
     UnitName = "Mon_Name_8003022",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003023] = {
     AccessoryIds = {
@@ -28120,9 +26486,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -28161,9 +26525,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003023,
     UnitName = "Mon_Name_8003023",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003024] = {
     AccessoryIds = {
@@ -28179,9 +26541,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -28220,9 +26580,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003024,
     UnitName = "Mon_Name_8003024",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003201] = {
     AccessoryIds = {
@@ -28238,9 +26596,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -28281,9 +26637,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003201,
     UnitName = "Mon_Name_8003201",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003301] = {
     AccessoryIds = {
@@ -28299,9 +26653,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -28343,9 +26695,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003301,
     UnitName = "Mon_Name_8003301",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8003601] = {
     AccessoryIds = {
@@ -28361,9 +26711,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Shenfu/BT_8Shenfu.BT_8Shenfu",
     BattleGroupId = 8003,
     BattleRoleId = 8003601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -28391,9 +26739,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jh_Shenfu/BP_Mon_JH_Shenfu.BP_Mon_JH_Shenfu",
     UnitId = 8003601,
     UnitName = "Mon_Name_8003001",
-    WeaponId = {
-      800301
-    }
+    WeaponId = 800301
   },
   [8500001] = {
     AlertId = 10,
@@ -28432,9 +26778,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Story.BP_Boss_Xibi_Story",
     UnitId = 8500001,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [8500002] = {
     AlertId = 10,
@@ -28503,9 +26847,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 8500002,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [8500601] = {
     AlertId = 10,
@@ -28574,9 +26916,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 8500601,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [8501001] = {
     AlertId = 10,
@@ -29634,9 +27974,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 8502001,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [8502002] = {
     AlertId = 10,
@@ -29705,9 +28043,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 8502002,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [8502601] = {
     AlertId = 10,
@@ -29776,9 +28112,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 8502601,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [8503001] = {
     AlertId = 10,
@@ -30152,9 +28486,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 8505001,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [8505002] = {
     AlertId = 10,
@@ -30222,9 +28554,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 8505002,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [8505601] = {
     AlertId = 10,
@@ -30292,9 +28622,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 8505601,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [8506001] = {
     AlertId = 10,
@@ -30325,9 +28653,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_06_Nvzhu/BP_Boss_Nvzhu.BP_Boss_Nvzhu",
     UnitId = 8506001,
     UnitName = "Mon_Name_8506001",
-    WeaponId = {
-      850701
-    }
+    WeaponId = 850701
   },
   [8507001] = {
     AlertId = 10,
@@ -30358,9 +28684,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_06_Nvzhu/BP_Boss_Nvzhu.BP_Boss_Nvzhu",
     UnitId = 8507001,
     UnitName = "Mon_Name_8506001",
-    WeaponId = {
-      850701
-    }
+    WeaponId = 850701
   },
   [8509001] = {
     AlertId = 10,
@@ -30985,9 +29309,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513001,
     UnitName = "Mon_Name_8513001",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513011] = {
     AlertId = 10,
@@ -31025,9 +29347,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513011,
     UnitName = "Mon_Name_8513011",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513012] = {
     AlertId = 10,
@@ -31065,9 +29385,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513012,
     UnitName = "Mon_Name_8513012",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513013] = {
     AlertId = 10,
@@ -31106,9 +29424,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513013,
     UnitName = "Mon_Name_8513013",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513014] = {
     AlertId = 10,
@@ -31146,9 +29462,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513014,
     UnitName = "Mon_Name_8513014",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513015] = {
     AlertId = 10,
@@ -31186,9 +29500,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513015,
     UnitName = "Mon_Name_8513015",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513016] = {
     AlertId = 10,
@@ -31226,9 +29538,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513016,
     UnitName = "Mon_Name_8513016",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513017] = {
     AlertId = 10,
@@ -31266,9 +29576,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513017,
     UnitName = "Mon_Name_8513017",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513018] = {
     AlertId = 10,
@@ -31306,9 +29614,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513018,
     UnitName = "Mon_Name_8513018",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513019] = {
     AlertId = 10,
@@ -31346,9 +29652,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513019,
     UnitName = "Mon_Name_8513019",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513020] = {
     AlertId = 10,
@@ -31386,9 +29690,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513020,
     UnitName = "Mon_Name_8513020",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513021] = {
     AlertId = 10,
@@ -31426,9 +29728,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513021,
     UnitName = "Mon_Name_8513021",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513022] = {
     AlertId = 10,
@@ -31466,9 +29766,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513022,
     UnitName = "Mon_Name_8513022",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513023] = {
     AlertId = 10,
@@ -31506,9 +29804,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513023,
     UnitName = "Mon_Name_8513023",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513024] = {
     AlertId = 10,
@@ -31547,9 +29843,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513024,
     UnitName = "Mon_Name_8513024",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8513601] = {
     AlertId = 10,
@@ -31584,9 +29878,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 8513601,
     UnitName = "Mon_Name_8513001",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [8514001] = {
     AlertId = 10,
@@ -31622,9 +29914,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514001,
     UnitName = "Mon_Name_8514001",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514011] = {
     AlertId = 10,
@@ -31662,9 +29952,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514011,
     UnitName = "Mon_Name_8514011",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514012] = {
     AlertId = 10,
@@ -31702,9 +29990,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514012,
     UnitName = "Mon_Name_8514012",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514013] = {
     AlertId = 10,
@@ -31743,9 +30029,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514013,
     UnitName = "Mon_Name_8514013",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514014] = {
     AlertId = 10,
@@ -31783,9 +30067,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514014,
     UnitName = "Mon_Name_8514014",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514015] = {
     AlertId = 10,
@@ -31823,9 +30105,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514015,
     UnitName = "Mon_Name_8514015",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514016] = {
     AlertId = 10,
@@ -31863,9 +30143,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514016,
     UnitName = "Mon_Name_8514016",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514017] = {
     AlertId = 10,
@@ -31903,9 +30181,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514017,
     UnitName = "Mon_Name_8514017",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514018] = {
     AlertId = 10,
@@ -31943,9 +30219,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514018,
     UnitName = "Mon_Name_8514018",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514019] = {
     AlertId = 10,
@@ -31983,9 +30257,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514019,
     UnitName = "Mon_Name_8514019",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514020] = {
     AlertId = 10,
@@ -32023,9 +30295,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514020,
     UnitName = "Mon_Name_8514020",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514021] = {
     AlertId = 10,
@@ -32063,9 +30333,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514021,
     UnitName = "Mon_Name_8514021",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514022] = {
     AlertId = 10,
@@ -32103,9 +30371,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514022,
     UnitName = "Mon_Name_8514022",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514023] = {
     AlertId = 10,
@@ -32143,9 +30409,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514023,
     UnitName = "Mon_Name_8514023",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514024] = {
     AlertId = 10,
@@ -32184,9 +30448,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514024,
     UnitName = "Mon_Name_8514024",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514051] = {
     AlertId = 10,
@@ -32225,9 +30487,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514051,
     UnitName = "Mon_Name_8514001",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8514601] = {
     AlertId = 10,
@@ -32262,9 +30522,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 8514601,
     UnitName = "Mon_Name_8514001",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [8515001] = {
     AlertId = 10,
@@ -33645,9 +31903,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -33677,9 +31933,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001001,
     UnitName = "Mon_Name_9001001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001004] = {
     AccessoryIds = {
@@ -33694,9 +31948,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -33726,9 +31978,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001004,
     UnitName = "Mon_Name_9001001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001011] = {
     AccessoryIds = {
@@ -33743,9 +31993,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -33780,9 +32028,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001011,
     UnitName = "Mon_Name_9001011",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001012] = {
     AccessoryIds = {
@@ -33797,9 +32043,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -33834,9 +32078,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001012,
     UnitName = "Mon_Name_9001012",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001013] = {
     AccessoryIds = {
@@ -33851,9 +32093,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -33889,9 +32129,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001013,
     UnitName = "Mon_Name_9001013",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001014] = {
     AccessoryIds = {
@@ -33906,9 +32144,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -33943,9 +32179,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001014,
     UnitName = "Mon_Name_9001014",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001015] = {
     AccessoryIds = {
@@ -33960,9 +32194,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -33998,9 +32230,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001015,
     UnitName = "Mon_Name_9001015",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001016] = {
     AccessoryIds = {
@@ -34015,9 +32245,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34052,9 +32280,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001016,
     UnitName = "Mon_Name_9001016",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001017] = {
     AccessoryIds = {
@@ -34069,9 +32295,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34106,9 +32330,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001017,
     UnitName = "Mon_Name_9001017",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001018] = {
     AccessoryIds = {
@@ -34123,9 +32345,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34160,9 +32380,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001018,
     UnitName = "Mon_Name_9001018",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001019] = {
     AccessoryIds = {
@@ -34177,9 +32395,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34214,9 +32430,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001019,
     UnitName = "Mon_Name_9001019",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001020] = {
     AccessoryIds = {
@@ -34231,9 +32445,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34268,9 +32480,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001020,
     UnitName = "Mon_Name_9001020",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001021] = {
     AccessoryIds = {
@@ -34285,9 +32495,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34322,9 +32530,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001021,
     UnitName = "Mon_Name_9001021",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001022] = {
     AccessoryIds = {
@@ -34339,9 +32545,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34377,9 +32581,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001022,
     UnitName = "Mon_Name_9001022",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001023] = {
     AccessoryIds = {
@@ -34394,9 +32596,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34431,9 +32631,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001023,
     UnitName = "Mon_Name_9001023",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001024] = {
     AccessoryIds = {
@@ -34448,9 +32646,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34485,9 +32681,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001024,
     UnitName = "Mon_Name_9001024",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001201] = {
     AccessoryIds = {
@@ -34502,9 +32696,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34541,9 +32733,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001201,
     UnitName = "Mon_Name_9001201",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001301] = {
     AccessoryIds = {
@@ -34558,9 +32748,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34598,9 +32786,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001301,
     UnitName = "Mon_Name_9001301",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9001601] = {
     AccessoryIds = {
@@ -34615,9 +32801,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Yinxie/BT_9Yinxie.BT_9Yinxie",
     BattleGroupId = 9001,
     BattleRoleId = 9001601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34646,9 +32830,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Yinxie/BP_Mon_SQ_Yinxie.BP_Mon_SQ_Yinxie",
     UnitId = 9001601,
     UnitName = "Mon_Name_9001001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9002001] = {
     AccessoryIds = {
@@ -34663,9 +32845,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34715,9 +32895,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34767,9 +32945,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002011,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34804,9 +32980,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002011,
     UnitName = "Mon_Name_9002011",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002012] = {
     AccessoryIds = {
@@ -34821,9 +32995,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002012,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34859,9 +33031,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002012,
     UnitName = "Mon_Name_9002012",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002013] = {
     AccessoryIds = {
@@ -34876,9 +33046,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002013,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34914,9 +33082,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002013,
     UnitName = "Mon_Name_9002013",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002014] = {
     AccessoryIds = {
@@ -34931,9 +33097,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002014,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -34969,9 +33133,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002014,
     UnitName = "Mon_Name_9002014",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002015] = {
     AccessoryIds = {
@@ -34986,9 +33148,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002015,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35023,9 +33183,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002015,
     UnitName = "Mon_Name_9002015",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002016] = {
     AccessoryIds = {
@@ -35040,9 +33198,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002016,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35077,9 +33233,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002016,
     UnitName = "Mon_Name_9002016",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002017] = {
     AccessoryIds = {
@@ -35094,9 +33248,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002017,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35131,9 +33283,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002017,
     UnitName = "Mon_Name_9002017",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002018] = {
     AccessoryIds = {
@@ -35148,9 +33298,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002018,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35185,9 +33333,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002018,
     UnitName = "Mon_Name_9002018",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002019] = {
     AccessoryIds = {
@@ -35202,9 +33348,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002019,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35239,9 +33383,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002019,
     UnitName = "Mon_Name_9002019",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002020] = {
     AccessoryIds = {
@@ -35256,9 +33398,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002020,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35294,9 +33434,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002020,
     UnitName = "Mon_Name_9002020",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002021] = {
     AccessoryIds = {
@@ -35311,9 +33449,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002021,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35348,9 +33484,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002021,
     UnitName = "Mon_Name_9002021",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002022] = {
     AccessoryIds = {
@@ -35365,9 +33499,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002022,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35402,9 +33534,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002022,
     UnitName = "Mon_Name_9002022",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002023] = {
     AccessoryIds = {
@@ -35419,9 +33549,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002023,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35456,9 +33584,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002023,
     UnitName = "Mon_Name_9002023",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002024] = {
     AccessoryIds = {
@@ -35473,9 +33599,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002024,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35510,9 +33634,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002024,
     UnitName = "Mon_Name_9002024",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002201] = {
     AccessoryIds = {
@@ -35527,9 +33649,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002201,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35566,9 +33686,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002201,
     UnitName = "Mon_Name_9002201",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002301] = {
     AccessoryIds = {
@@ -35583,9 +33701,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002301,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35623,9 +33739,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Dufeng/BP_Mon_SQ_Dufeng.BP_Mon_SQ_Dufeng",
     UnitId = 9002301,
     UnitName = "Mon_Name_9002301",
-    WeaponId = {
-      900201
-    }
+    WeaponId = 900201
   },
   [9002601] = {
     AccessoryIds = {
@@ -35640,9 +33754,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/SQ_Dufeng/BT_9Dufeng.BT_9Dufeng",
     BattleGroupId = 9002,
     BattleRoleId = 9002601,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -35711,9 +33823,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003001,
     UnitName = "Mon_Name_9003001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003004] = {
     AlertId = 101,
@@ -35752,9 +33862,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003004,
     UnitName = "Mon_Name_9003001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003011] = {
     AlertId = 101,
@@ -35792,9 +33900,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003011,
     UnitName = "Mon_Name_9003011",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003012] = {
     AlertId = 101,
@@ -35832,9 +33938,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003012,
     UnitName = "Mon_Name_9003012",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003013] = {
     AlertId = 101,
@@ -35874,9 +33978,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003013,
     UnitName = "Mon_Name_9003013",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003014] = {
     AlertId = 101,
@@ -35914,9 +34016,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003014,
     UnitName = "Mon_Name_9003014",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003015] = {
     AlertId = 101,
@@ -35954,9 +34054,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003015,
     UnitName = "Mon_Name_9003015",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003016] = {
     AlertId = 101,
@@ -35994,9 +34092,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003016,
     UnitName = "Mon_Name_9003016",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003017] = {
     AlertId = 101,
@@ -36034,9 +34130,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003017,
     UnitName = "Mon_Name_9003017",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003018] = {
     AlertId = 101,
@@ -36074,9 +34168,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003018,
     UnitName = "Mon_Name_9003018",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003019] = {
     AlertId = 101,
@@ -36114,9 +34206,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003019,
     UnitName = "Mon_Name_9003019",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003020] = {
     AlertId = 101,
@@ -36157,9 +34247,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003020,
     UnitName = "Mon_Name_9003020",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003021] = {
     AlertId = 101,
@@ -36197,9 +34285,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003021,
     UnitName = "Mon_Name_9003021",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003022] = {
     AlertId = 101,
@@ -36237,9 +34323,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003022,
     UnitName = "Mon_Name_9003022",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003023] = {
     AlertId = 101,
@@ -36277,9 +34361,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003023,
     UnitName = "Mon_Name_9003023",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003024] = {
     AlertId = 101,
@@ -36318,9 +34400,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003024,
     UnitName = "Mon_Name_9003024",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003201] = {
     AlertId = 101,
@@ -36360,9 +34440,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003201,
     UnitName = "Mon_Name_9003201",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003301] = {
     AlertId = 101,
@@ -36403,9 +34481,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003301,
     UnitName = "Mon_Name_9003301",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9003601] = {
     AlertId = 101,
@@ -36439,9 +34515,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9003601,
     UnitName = "Mon_Name_9003001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9004001] = {
     AlertId = 101,
@@ -36510,9 +34584,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005001,
     UnitName = "Mon_Name_9005001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005004] = {
     AlertId = 101,
@@ -36551,9 +34623,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005004,
     UnitName = "Mon_Name_9005001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005011] = {
     AlertId = 101,
@@ -36591,9 +34661,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005011,
     UnitName = "Mon_Name_9005011",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005012] = {
     AlertId = 101,
@@ -36631,9 +34699,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005012,
     UnitName = "Mon_Name_9005012",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005013] = {
     AlertId = 101,
@@ -36673,9 +34739,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005013,
     UnitName = "Mon_Name_9005013",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005014] = {
     AlertId = 101,
@@ -36713,9 +34777,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005014,
     UnitName = "Mon_Name_9005014",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005015] = {
     AlertId = 101,
@@ -36753,9 +34815,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005015,
     UnitName = "Mon_Name_9005015",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005016] = {
     AlertId = 101,
@@ -36793,9 +34853,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005016,
     UnitName = "Mon_Name_9005016",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005017] = {
     AlertId = 101,
@@ -36833,9 +34891,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005017,
     UnitName = "Mon_Name_9005017",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005018] = {
     AlertId = 101,
@@ -36873,9 +34929,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005018,
     UnitName = "Mon_Name_9005018",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005019] = {
     AlertId = 101,
@@ -36913,9 +34967,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005019,
     UnitName = "Mon_Name_9005019",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005020] = {
     AlertId = 101,
@@ -36953,9 +35005,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005020,
     UnitName = "Mon_Name_9005020",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005021] = {
     AlertId = 101,
@@ -36993,9 +35043,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005021,
     UnitName = "Mon_Name_9005021",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005022] = {
     AlertId = 101,
@@ -37033,9 +35081,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005022,
     UnitName = "Mon_Name_9005022",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005023] = {
     AlertId = 101,
@@ -37073,9 +35119,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005023,
     UnitName = "Mon_Name_9005023",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005024] = {
     AlertId = 101,
@@ -37113,9 +35157,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005024,
     UnitName = "Mon_Name_9005024",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005201] = {
     AlertId = 101,
@@ -37155,9 +35197,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005201,
     UnitName = "Mon_Name_9005201",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005301] = {
     AlertId = 101,
@@ -37198,9 +35238,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005301,
     UnitName = "Mon_Name_9005301",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9005601] = {
     AlertId = 101,
@@ -37234,15 +35272,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9005601,
     UnitName = "Mon_Name_9005001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006001] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37276,15 +35310,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006001,
     UnitName = "Mon_Name_9006001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006002] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     AnimCoverPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/ABP_Mon_SQ_Qizha_Sum01.ABP_Mon_SQ_Qizha_Sum01_C",
@@ -37321,15 +35351,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006002,
     UnitName = "Mon_Name_9006001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006003] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     AnimCoverPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/ABP_Mon_SQ_Qizha_Sum01.ABP_Mon_SQ_Qizha_Sum01_C",
@@ -37367,15 +35393,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006003,
     UnitName = "Mon_Name_9006001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006004] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37413,15 +35435,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006004,
     UnitName = "Mon_Name_9006001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006011] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37458,15 +35476,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006011,
     UnitName = "Mon_Name_9006011",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006012] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37503,15 +35517,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006012,
     UnitName = "Mon_Name_9006012",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006013] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37550,15 +35560,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006013,
     UnitName = "Mon_Name_9006013",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006014] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37598,15 +35604,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006014,
     UnitName = "Mon_Name_9006014",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006015] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37643,15 +35645,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006015,
     UnitName = "Mon_Name_9006015",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006016] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37688,15 +35686,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006016,
     UnitName = "Mon_Name_9006016",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006017] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37733,15 +35727,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006017,
     UnitName = "Mon_Name_9006017",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006018] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37778,15 +35768,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006018,
     UnitName = "Mon_Name_9006018",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006019] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37823,15 +35809,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006019,
     UnitName = "Mon_Name_9006019",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006020] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37868,15 +35850,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006020,
     UnitName = "Mon_Name_9006020",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006021] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37913,15 +35891,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006021,
     UnitName = "Mon_Name_9006021",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006022] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -37958,15 +35932,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006022,
     UnitName = "Mon_Name_9006022",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006023] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -38003,15 +35973,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006023,
     UnitName = "Mon_Name_9006023",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006024] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -38049,15 +36015,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006024,
     UnitName = "Mon_Name_9006024",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006201] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -38096,15 +36058,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006201,
     UnitName = "Mon_Name_9006201",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006301] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -38145,15 +36103,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006301,
     UnitName = "Mon_Name_9006301",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9006601] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Qizha/BT_9Qizha.BT_9Qizha",
@@ -38186,15 +36140,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9006601,
     UnitName = "Mon_Name_9006001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9007001] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38224,15 +36174,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007001,
     UnitName = "Mon_Name_9007001",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007004] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 202,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38262,15 +36208,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007004,
     UnitName = "Mon_Name_9007001",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007011] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38305,15 +36247,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007011,
     UnitName = "Mon_Name_9007011",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007012] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38349,15 +36287,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007012,
     UnitName = "Mon_Name_9007012",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007013] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38393,15 +36327,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007013,
     UnitName = "Mon_Name_9007013",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007014] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38437,15 +36367,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007014,
     UnitName = "Mon_Name_9007014",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007015] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38480,15 +36406,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007015,
     UnitName = "Mon_Name_9007015",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007016] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38523,15 +36445,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007016,
     UnitName = "Mon_Name_9007016",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007017] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38566,15 +36484,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007017,
     UnitName = "Mon_Name_9007017",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007018] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38609,15 +36523,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007018,
     UnitName = "Mon_Name_9007018",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007019] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38652,15 +36562,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007019,
     UnitName = "Mon_Name_9007019",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007020] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38696,15 +36602,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007020,
     UnitName = "Mon_Name_9007020",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007021] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38739,15 +36641,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007021,
     UnitName = "Mon_Name_9007021",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007022] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38782,15 +36680,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007022,
     UnitName = "Mon_Name_9007022",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007023] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38825,15 +36719,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007023,
     UnitName = "Mon_Name_9007023",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007024] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38868,15 +36758,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007024,
     UnitName = "Mon_Name_9007024",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007051] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 104,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/SP/BT_9Niaopao_SP_51.BT_9Niaopao_SP_51",
@@ -38905,15 +36791,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007051,
     UnitName = "Mon_Name_9007001",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007201] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38950,15 +36832,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007201,
     UnitName = "Mon_Name_9007201",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007301] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -38996,15 +36874,11 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007301,
     UnitName = "Mon_Name_9007301",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9007601] = {
     AccessoryIds = {
-      Normal = {
-        900003
-      }
+      Normal = 900003
     },
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/SQ_Niaopao/BT_9Niaopao.BT_9Niaopao",
@@ -39033,9 +36907,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Niaopao/BP_Mon_SQ_Niaopao.BP_Mon_SQ_Niaopao",
     UnitId = 9007601,
     UnitName = "Mon_Name_9007001",
-    WeaponId = {
-      900701
-    }
+    WeaponId = 900701
   },
   [9500001] = {
     AlertId = 102,
@@ -39286,9 +37158,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9501001,
     UnitName = "Mon_Name_9501001",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9501002] = {
     AlertId = 201,
@@ -39328,9 +37198,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9501002,
     UnitName = "Mon_Name_9501001",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9501003] = {
     AlertId = 201,
@@ -39358,9 +37226,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9501003,
     UnitName = "Mon_Name_9501003",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9501004] = {
     AlertId = 201,
@@ -39388,9 +37254,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9501004,
     UnitName = "Mon_Name_9501004",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9501051] = {
     AlertId = 201,
@@ -39422,9 +37286,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9501051,
     UnitName = "Mon_Name_9501001",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9502001] = {
     AlertId = 201,
@@ -39452,9 +37314,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9502001,
     UnitName = "Mon_Name_9501003",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9502006] = {
     AlertId = 201,
@@ -39480,9 +37340,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9502006,
     UnitName = "Mon_Name_9501003",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9502051] = {
     AlertId = 201,
@@ -39508,9 +37366,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9502051,
     UnitName = "Mon_Name_9804001",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9503001] = {
     AlertId = 201,
@@ -39538,9 +37394,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9503001,
     UnitName = "Mon_Name_9501004",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9503002] = {
     AlertId = 201,
@@ -39568,9 +37422,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9503002,
     UnitName = "Mon_Name_9503002",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9503006] = {
     AlertId = 201,
@@ -39596,9 +37448,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9503006,
     UnitName = "Mon_Name_9501004",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9503051] = {
     AlertId = 201,
@@ -39624,9 +37474,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/NE_Haer/BP_NE_Haer.BP_NE_Haer",
     UnitId = 9503051,
     UnitName = "Mon_Name_9503051",
-    WeaponId = {
-      950101
-    }
+    WeaponId = 950101
   },
   [9504001] = {
     BT = "/Game/AssetDesign/AI/Monster/NE_Wuyou/BT_9Wuyou01.BT_9Wuyou01",
@@ -40118,9 +37966,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901001,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [9901002] = {
     AlertId = 10,
@@ -40189,9 +38035,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901002,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [9901003] = {
     AlertId = 10,
@@ -40260,9 +38104,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901003,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [9901004] = {
     AlertId = 10,
@@ -40331,9 +38173,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901004,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [9901005] = {
     AlertId = 10,
@@ -40402,9 +38242,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901005,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [9901006] = {
     AlertId = 10,
@@ -40473,9 +38311,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_00_Xibi/BP_Boss_Xibi_Hard.BP_Boss_Xibi_Hard",
     UnitId = 9901006,
     UnitName = "Mon_Name_8500001",
-    WeaponId = {
-      850001
-    }
+    WeaponId = 850001
   },
   [9901011] = {
     AlertId = 10,
@@ -40958,9 +38794,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901021,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [9901022] = {
     AlertId = 10,
@@ -41029,9 +38863,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901022,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [9901023] = {
     AlertId = 10,
@@ -41100,9 +38932,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901023,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [9901024] = {
     AlertId = 10,
@@ -41171,9 +39001,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901024,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [9901025] = {
     AlertId = 10,
@@ -41242,9 +39070,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901025,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [9901026] = {
     AlertId = 10,
@@ -41313,9 +39139,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_01_Saiqi/BP_Boss_Saiqi.BP_Boss_Saiqi",
     UnitId = 9901026,
     UnitName = "Mon_Name_8502001",
-    WeaponId = {
-      850201
-    }
+    WeaponId = 850201
   },
   [9901031] = {
     AlertId = 10,
@@ -41384,9 +39208,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901031,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [9901032] = {
     AlertId = 10,
@@ -41455,9 +39277,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901032,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [9901033] = {
     AlertId = 10,
@@ -41526,9 +39346,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901033,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [9901034] = {
     AlertId = 10,
@@ -41597,9 +39415,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901034,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [9901035] = {
     AlertId = 10,
@@ -41668,9 +39484,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901035,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [9901036] = {
     AlertId = 10,
@@ -41739,9 +39553,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_05_Lianhuo/BP_Boss_Lianhuo.BP_Boss_Lianhuo",
     UnitId = 9901036,
     UnitName = "Mon_Name_8505001",
-    WeaponId = {
-      850501
-    }
+    WeaponId = 850501
   },
   [9901041] = {
     AlertId = 10,
@@ -42176,9 +39988,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Qizha/BP_Mon_SQ_Qizha.BP_Mon_SQ_Qizha",
     UnitId = 9901051,
     UnitName = "Mon_Name_9006001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9901052] = {
     AlertId = 10,
@@ -42211,9 +40021,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Wanju/BP_Mon_SQ_Wanju.BP_Mon_SQ_Wanju",
     UnitId = 9901052,
     UnitName = "Mon_Name_9003001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9901053] = {
     AlertId = 10,
@@ -42246,9 +40054,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/SQ_Baozha/BP_Mon_SQ_Baozha.BP_Mon_SQ_Baozha",
     UnitId = 9901053,
     UnitName = "Mon_Name_9005001",
-    WeaponId = {
-      900101
-    }
+    WeaponId = 900101
   },
   [9901054] = {
     AlertId = 10,
@@ -42311,9 +40117,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 9901055,
     UnitName = "Mon_Name_8513001",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [9901056] = {
     AlertId = 10,
@@ -42349,9 +40153,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 9901056,
     UnitName = "Mon_Name_8514001",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [9901057] = {
     AlertId = 10,
@@ -42418,9 +40220,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_13_Kuxiu/BP_Boss_Kuxiu.BP_Boss_Kuxiu",
     UnitId = 9901058,
     UnitName = "Mon_Name_8513001",
-    WeaponId = {
-      851301
-    }
+    WeaponId = 851301
   },
   [9901059] = {
     AlertId = 10,
@@ -42451,9 +40251,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Boss_14_Shenpan/BP_Boss_Shenpan.BP_Boss_Shenpan",
     UnitId = 9901059,
     UnitName = "Mon_Name_8514001",
-    WeaponId = {
-      851401
-    }
+    WeaponId = 851401
   },
   [9901101] = {
     BattleRoleId = 210101,
@@ -42550,9 +40348,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 10001,
     BattleRoleId = 10001001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -42583,18 +40379,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/HX_Tianshi/BP_Mon_HX_Tianshi.BP_Mon_HX_Tianshi",
     UnitId = 10001001,
     UnitName = "Mon_Name_10001001",
-    WeaponId = {
-      1000101
-    }
+    WeaponId = 1000101
   },
   [10001061] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JH_Xianfeng/BT_8Xianfeng_Corp.BT_8Xianfeng_Corp",
     BattleGroupId = 10001,
     BattleRoleId = 10001061,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -42626,18 +40418,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/HX_Tianshi/BP_Mon_HX_Tianshi.BP_Mon_HX_Tianshi",
     UnitId = 10001061,
     UnitName = "Mon_Name_10001001",
-    WeaponId = {
-      1000101
-    }
+    WeaponId = 1000101
   },
   [10001062] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JH_Xianfeng/BT_8Xianfeng_Corp.BT_8Xianfeng_Corp",
     BattleGroupId = 10001,
     BattleRoleId = 10001062,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -42669,18 +40457,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/HX_Tianshi/BP_Mon_HX_Tianshi.BP_Mon_HX_Tianshi",
     UnitId = 10001062,
     UnitName = "Mon_Name_10001001",
-    WeaponId = {
-      1000101
-    }
+    WeaponId = 1000101
   },
   [10002001] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/HX_Tianwei/BT_10Tianwei.BT_10Tianwei",
     BattleGroupId = 10002,
     BattleRoleId = 10002001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -42918,9 +40702,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jh_Xianfeng/BT_8Xianfeng.BT_8Xianfeng",
     BattleGroupId = 10005,
     BattleRoleId = 10005001,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -42951,18 +40733,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/HX_Tianshi/BP_Mon_HX_Tianshi.BP_Mon_HX_Tianshi",
     UnitId = 10005001,
     UnitName = "Mon_Name_10005001",
-    WeaponId = {
-      1000101
-    }
+    WeaponId = 1000101
   },
   [10005061] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JH_Xianfeng/BT_8Xianfeng_Corp.BT_8Xianfeng_Corp",
     BattleGroupId = 10005,
     BattleRoleId = 10005061,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -42994,18 +40772,14 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/HX_Tianshi/BP_Mon_HX_Tianshi.BP_Mon_HX_Tianshi",
     UnitId = 10005061,
     UnitName = "Mon_Name_10005001",
-    WeaponId = {
-      1000101
-    }
+    WeaponId = 1000101
   },
   [10005062] = {
     AlertId = 101,
     BT = "/Game/AssetDesign/AI/Monster/JH_Xianfeng/BT_8Xianfeng_Corp.BT_8Xianfeng_Corp",
     BattleGroupId = 10005,
     BattleRoleId = 10005062,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -43037,9 +40811,7 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/HX_Tianshi/BP_Mon_HX_Tianshi.BP_Mon_HX_Tianshi",
     UnitId = 10005062,
     UnitName = "Mon_Name_10005001",
-    WeaponId = {
-      1000101
-    }
+    WeaponId = 1000101
   },
   [70010051] = {
     AlertId = 201,
@@ -43047,9 +40819,7 @@ return ReadOnly("Monster", {
     BT = "/Game/AssetDesign/AI/Monster/Jt_Juji/Level_Capture/BT_7Juji_Cap_VIP.BT_7Juji_Cap_VIP",
     BattleGroupId = 7001,
     BattleRoleId = 7001006,
-    BirthFXList = {
-      600014
-    },
+    BirthFXList = 600014,
     BirthRule = {
       AdvancedTime = 0.1,
       DisFilter = 4000,
@@ -43094,8 +40864,6 @@ return ReadOnly("Monster", {
     UnitBPPath = "/Game/AssetDesign/Char/Monster/Jt_Juji/BP_Mon_Jt_Juji.BP_Mon_Jt_Juji",
     UnitId = 70010051,
     UnitName = "Mon_Name_7001001",
-    WeaponId = {
-      700101
-    }
+    WeaponId = 700101
   }
 })

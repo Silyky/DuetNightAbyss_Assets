@@ -1,74 +1,42 @@
 return ReadOnly("RougeLikeRoomRandom", {
   [1] = {
-    RoomNum = {
-      1
-    },
+    RoomNum = 1,
     RoomRandom = 1,
-    RoomType = {
-      1
-    },
-    RoomTypeWeight = {
-      1000
-    }
+    RoomType = 1,
+    RoomTypeWeight = 1000
   },
   [2] = {
-    RoomNum = {
-      1
-    },
+    RoomNum = 1,
     RoomRandom = 2,
-    RoomType = {
-      2
-    },
-    RoomTypeWeight = {
-      1000
-    }
+    RoomType = 2,
+    RoomTypeWeight = 1000
   },
   [3] = {
-    RoomNum = {
-      1
-    },
+    RoomNum = 1,
     RoomRandom = 3,
-    RoomType = {
-      3
-    },
-    RoomTypeWeight = {
-      1000
-    }
+    RoomType = 3,
+    RoomTypeWeight = 1000
   },
   [4] = {
-    RoomNum = {
-      1
-    },
+    RoomNum = 1,
     RoomRandom = 4,
     RoomType = {4},
-    RoomTypeWeight = {
-      1000
-    }
+    RoomTypeWeight = 1000
   },
   [5] = {
-    RoomNum = {
-      1
-    },
+    RoomNum = 1,
     RoomRandom = 5,
     RoomType = {5},
-    RoomTypeWeight = {
-      1000
-    }
+    RoomTypeWeight = 1000
   },
   [6] = {
-    RoomNum = {
-      1
-    },
+    RoomNum = 1,
     RoomRandom = 6,
     RoomType = {6},
-    RoomTypeWeight = {
-      1000
-    }
+    RoomTypeWeight = 1000
   },
   [21] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 21,
     RoomType = {1, 6},
     RoomTypeWeight = {
@@ -76,9 +44,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [22] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 22,
     RoomType = {1, 3},
     RoomTypeWeight = {
@@ -86,9 +52,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [23] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 23,
     RoomType = {1, 4},
     RoomTypeWeight = {
@@ -96,9 +60,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [24] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 24,
     RoomType = {3, 6},
     RoomTypeWeight = {
@@ -106,9 +68,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [25] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 25,
     RoomType = {4, 6},
     RoomTypeWeight = {
@@ -116,9 +76,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [26] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 26,
     RoomType = {3, 4},
     RoomTypeWeight = {
@@ -126,9 +84,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [41] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 41,
     RoomType = {
       1,
@@ -142,9 +98,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [42] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 42,
     RoomType = {
       1,
@@ -158,9 +112,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [43] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 43,
     RoomType = {
       1,
@@ -174,9 +126,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [44] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 44,
     RoomType = {
       3,
@@ -190,9 +140,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [61] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 61,
     RoomType = {
       1,
@@ -206,9 +154,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [62] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 62,
     RoomType = {
       1,
@@ -222,9 +168,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [63] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 63,
     RoomType = {
       1,
@@ -238,9 +182,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [64] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 64,
     RoomType = {
       3,
@@ -254,9 +196,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [65] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 65,
     RoomType = {
       1,
@@ -272,9 +212,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [66] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 66,
     RoomType = {
       1,
@@ -288,9 +226,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [67] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 67,
     RoomType = {
       1,
@@ -304,9 +240,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [68] = {
-    RoomNum = {
-      2
-    },
+    RoomNum = 2,
     RoomRandom = 68,
     RoomType = {
       1,
@@ -320,9 +254,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [81] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 81,
     RoomType = {
       1,
@@ -338,9 +270,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [82] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 82,
     RoomType = {
       1,
@@ -356,9 +286,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [83] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 83,
     RoomType = {
       1,
@@ -374,9 +302,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [84] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 84,
     RoomType = {
       1,
@@ -392,9 +318,7 @@ return ReadOnly("RougeLikeRoomRandom", {
     }
   },
   [85] = {
-    RoomNum = {
-      3
-    },
+    RoomNum = 3,
     RoomRandom = 85,
     RoomType = {
       1,

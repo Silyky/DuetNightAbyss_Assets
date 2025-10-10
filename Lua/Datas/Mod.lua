@@ -4682,9 +4682,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4716,9 +4714,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4751,9 +4747,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4792,9 +4786,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4823,9 +4815,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4858,9 +4848,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4893,9 +4881,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4929,9 +4915,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -4965,9 +4949,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -5006,9 +4988,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -5037,9 +5017,7 @@ return ReadOnly("Mod", {
     },
     AddCharModCost = 2.5,
     ApplicationType = 1,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     CollectRewardExp = 50,
     Cost = 2,
     CostChange = 1,
@@ -6853,9 +6831,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1311",
-    PassiveEffects = {
-      1311
-    },
+    PassiveEffects = 1311,
     PassiveEffectsDesc = "MOD_DESC_1311",
     Polarity = 4,
     Rarity = 4,
@@ -6908,9 +6884,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1312",
-    PassiveEffects = {
-      1312
-    },
+    PassiveEffects = 1312,
     PassiveEffectsDesc = "MOD_DESC_1312",
     Polarity = 4,
     Rarity = 4,
@@ -6954,9 +6928,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1313",
-    PassiveEffects = {
-      1313
-    },
+    PassiveEffects = 1313,
     PassiveEffectsDesc = "MOD_DESC_1313",
     Polarity = 4,
     Rarity = 4,
@@ -7001,9 +6973,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1314",
-    PassiveEffects = {
-      1314
-    },
+    PassiveEffects = 1314,
     PassiveEffectsDesc = "MOD_DESC_1314",
     Polarity = 4,
     Rarity = 4,
@@ -7047,9 +7017,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1315",
-    PassiveEffects = {
-      1315
-    },
+    PassiveEffects = 1315,
     PassiveEffectsDesc = "MOD_DESC_1315",
     Polarity = 4,
     Rarity = 4,
@@ -7094,9 +7062,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1316",
-    PassiveEffects = {
-      1316
-    },
+    PassiveEffects = 1316,
     PassiveEffectsDesc = "MOD_DESC_1316",
     Polarity = 4,
     Rarity = 4,
@@ -8058,9 +8024,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
@@ -8125,9 +8089,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
@@ -8393,9 +8355,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
@@ -8460,9 +8420,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
@@ -8728,9 +8686,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
@@ -8795,9 +8751,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
@@ -9063,9 +9017,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
@@ -9130,9 +9082,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
@@ -9398,9 +9348,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
@@ -9465,9 +9413,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
@@ -9733,9 +9679,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
@@ -9800,9 +9744,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
@@ -10040,9 +9982,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 11,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -10081,9 +10021,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 11,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -10350,9 +10288,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 12,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -10391,9 +10327,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 12,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -10660,9 +10594,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 13,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -10700,9 +10632,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 13,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -10968,9 +10898,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 14,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -11009,9 +10937,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 14,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -11278,9 +11204,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 15,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -11319,9 +11243,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 15,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -11582,9 +11504,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 16,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -11623,9 +11543,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 16,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
@@ -11693,9 +11611,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1801",
-    PassiveEffects = {
-      1801
-    },
+    PassiveEffects = 1801,
     PassiveEffectsDesc = "MOD_DESC_1801",
     Polarity = 4,
     Rarity = 4,
@@ -11740,9 +11656,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1802",
-    PassiveEffects = {
-      1802
-    },
+    PassiveEffects = 1802,
     PassiveEffectsDesc = "MOD_DESC_1802",
     Polarity = 4,
     Rarity = 4,
@@ -11787,9 +11701,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1803",
-    PassiveEffects = {
-      1803
-    },
+    PassiveEffects = 1803,
     PassiveEffectsDesc = "MOD_DESC_1803",
     Polarity = 4,
     Rarity = 4,
@@ -11834,9 +11746,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1804",
-    PassiveEffects = {
-      1804
-    },
+    PassiveEffects = 1804,
     PassiveEffectsDesc = "MOD_DESC_1804",
     Polarity = 4,
     Rarity = 4,
@@ -11881,9 +11791,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1805",
-    PassiveEffects = {
-      1805
-    },
+    PassiveEffects = 1805,
     PassiveEffectsDesc = "MOD_DESC_1805",
     Polarity = 4,
     Rarity = 4,
@@ -11928,9 +11836,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1806",
-    PassiveEffects = {
-      1806
-    },
+    PassiveEffects = 1806,
     PassiveEffectsDesc = "MOD_DESC_1806",
     Polarity = 4,
     Rarity = 4,
@@ -11975,9 +11881,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1807",
-    PassiveEffects = {
-      1807
-    },
+    PassiveEffects = 1807,
     PassiveEffectsDesc = "MOD_DESC_1807",
     Polarity = 4,
     Rarity = 4,
@@ -12022,9 +11926,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1808",
-    PassiveEffects = {
-      1808
-    },
+    PassiveEffects = 1808,
     PassiveEffectsDesc = "MOD_DESC_1808",
     Polarity = 4,
     Rarity = 4,
@@ -12069,9 +11971,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1809",
-    PassiveEffects = {
-      1809
-    },
+    PassiveEffects = 1809,
     PassiveEffectsDesc = "MOD_DESC_1809",
     Polarity = 4,
     Rarity = 4,
@@ -12116,9 +12016,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1810",
-    PassiveEffects = {
-      1810
-    },
+    PassiveEffects = 1810,
     PassiveEffectsDesc = "MOD_DESC_1810",
     Polarity = 4,
     Rarity = 4,
@@ -12163,9 +12061,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1811",
-    PassiveEffects = {
-      1811
-    },
+    PassiveEffects = 1811,
     PassiveEffectsDesc = "MOD_DESC_1811",
     Polarity = 4,
     Rarity = 4,
@@ -12210,9 +12106,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1812",
-    PassiveEffects = {
-      1812
-    },
+    PassiveEffects = 1812,
     PassiveEffectsDesc = "MOD_DESC_1812",
     Polarity = 4,
     Rarity = 4,
@@ -12265,9 +12159,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1911",
-    PassiveEffects = {
-      1911
-    },
+    PassiveEffects = 1911,
     PassiveEffectsDesc = "MOD_DESC_1911",
     Polarity = 4,
     Rarity = 4,
@@ -12319,9 +12211,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1921",
-    PassiveEffects = {
-      1921
-    },
+    PassiveEffects = 1921,
     PassiveEffectsDesc = "MOD_DESC_1921",
     Polarity = 4,
     Rarity = 4,
@@ -12374,9 +12264,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1922",
-    PassiveEffects = {
-      1922
-    },
+    PassiveEffects = 1922,
     PassiveEffectsDesc = "MOD_DESC_1922",
     Polarity = 4,
     Rarity = 4,
@@ -12429,9 +12317,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1931",
-    PassiveEffects = {
-      1931
-    },
+    PassiveEffects = 1931,
     PassiveEffectsDesc = "MOD_DESC_1931",
     Polarity = 4,
     Rarity = 4,
@@ -12484,9 +12370,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1941",
-    PassiveEffects = {
-      1941
-    },
+    PassiveEffects = 1941,
     PassiveEffectsDesc = "MOD_DESC_1941",
     Polarity = 4,
     Rarity = 4,
@@ -12538,9 +12422,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1951",
-    PassiveEffects = {
-      1951
-    },
+    PassiveEffects = 1951,
     PassiveEffectsDesc = "MOD_DESC_1951",
     Polarity = 4,
     Rarity = 4,
@@ -12592,9 +12474,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1952",
-    PassiveEffects = {
-      1952
-    },
+    PassiveEffects = 1952,
     PassiveEffectsDesc = "MOD_DESC_1952",
     Polarity = 4,
     Rarity = 4,
@@ -12646,9 +12526,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1961",
-    PassiveEffects = {
-      1961
-    },
+    PassiveEffects = 1961,
     PassiveEffectsDesc = "MOD_DESC_1961",
     Polarity = 4,
     Rarity = 4,
@@ -12700,9 +12578,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1962",
-    PassiveEffects = {
-      1962
-    },
+    PassiveEffects = 1962,
     PassiveEffectsDesc = "MOD_DESC_1962",
     Polarity = 4,
     Rarity = 4,
@@ -13057,9 +12933,7 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2401",
-    PassiveEffects = {
-      2401
-    },
+    PassiveEffects = 2401,
     Polarity = 4,
     Rarity = 4,
     RepeatGroup = 2401,
@@ -15151,9 +15025,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1311",
-    PassiveEffects = {
-      1311
-    },
+    PassiveEffects = 1311,
     PassiveEffectsDesc = "MOD_DESC_1311",
     Polarity = 4,
     Rarity = 5,
@@ -15215,9 +15087,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1312",
-    PassiveEffects = {
-      1312
-    },
+    PassiveEffects = 1312,
     PassiveEffectsDesc = "MOD_DESC_1312",
     Polarity = 4,
     Rarity = 5,
@@ -15270,9 +15140,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1313",
-    PassiveEffects = {
-      1313
-    },
+    PassiveEffects = 1313,
     PassiveEffectsDesc = "MOD_DESC_1313",
     Polarity = 4,
     Rarity = 5,
@@ -15326,9 +15194,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1314",
-    PassiveEffects = {
-      1314
-    },
+    PassiveEffects = 1314,
     PassiveEffectsDesc = "MOD_DESC_1314",
     Polarity = 4,
     Rarity = 5,
@@ -15381,9 +15247,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1315",
-    PassiveEffects = {
-      1315
-    },
+    PassiveEffects = 1315,
     PassiveEffectsDesc = "MOD_DESC_1315",
     Polarity = 4,
     Rarity = 5,
@@ -15437,9 +15301,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1316",
-    PassiveEffects = {
-      1316
-    },
+    PassiveEffects = 1316,
     PassiveEffectsDesc = "MOD_DESC_1316",
     Polarity = 4,
     Rarity = 5,
@@ -16529,9 +16391,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
@@ -16604,9 +16464,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
@@ -16904,9 +16762,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
@@ -16979,9 +16835,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
@@ -17279,9 +17133,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
@@ -17354,9 +17206,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
@@ -17654,9 +17504,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
@@ -17729,9 +17577,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
@@ -18029,9 +17875,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
@@ -18104,9 +17948,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
@@ -18404,9 +18246,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
-    PassiveEffects = {
-      1430
-    },
+    PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
@@ -18479,9 +18319,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
-    PassiveEffects = {
-      1440
-    },
+    PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
@@ -18751,9 +18589,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 11,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -18792,9 +18628,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 11,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -19093,9 +18927,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 12,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -19134,9 +18966,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 12,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -19435,9 +19265,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 13,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -19475,9 +19303,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 13,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -19775,9 +19601,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 14,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -19816,9 +19640,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 14,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -20117,9 +19939,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 15,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -20158,9 +19978,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 15,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -20453,9 +20271,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 16,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -20494,9 +20310,7 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 16,
-    ApplySlot = {
-      9
-    },
+    ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
@@ -20573,9 +20387,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1801",
-    PassiveEffects = {
-      1801
-    },
+    PassiveEffects = 1801,
     PassiveEffectsDesc = "MOD_DESC_1801",
     Polarity = 4,
     Rarity = 5,
@@ -20629,9 +20441,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1802",
-    PassiveEffects = {
-      1802
-    },
+    PassiveEffects = 1802,
     PassiveEffectsDesc = "MOD_DESC_1802",
     Polarity = 4,
     Rarity = 5,
@@ -20685,9 +20495,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1803",
-    PassiveEffects = {
-      1803
-    },
+    PassiveEffects = 1803,
     PassiveEffectsDesc = "MOD_DESC_1803",
     Polarity = 4,
     Rarity = 5,
@@ -20741,9 +20549,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1804",
-    PassiveEffects = {
-      1804
-    },
+    PassiveEffects = 1804,
     PassiveEffectsDesc = "MOD_DESC_1804",
     Polarity = 4,
     Rarity = 5,
@@ -20797,9 +20603,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1805",
-    PassiveEffects = {
-      1805
-    },
+    PassiveEffects = 1805,
     PassiveEffectsDesc = "MOD_DESC_1805",
     Polarity = 4,
     Rarity = 5,
@@ -20853,9 +20657,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1806",
-    PassiveEffects = {
-      1806
-    },
+    PassiveEffects = 1806,
     PassiveEffectsDesc = "MOD_DESC_1806",
     Polarity = 4,
     Rarity = 5,
@@ -20909,9 +20711,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1807",
-    PassiveEffects = {
-      1807
-    },
+    PassiveEffects = 1807,
     PassiveEffectsDesc = "MOD_DESC_1807",
     Polarity = 4,
     Rarity = 5,
@@ -20965,9 +20765,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1808",
-    PassiveEffects = {
-      1808
-    },
+    PassiveEffects = 1808,
     PassiveEffectsDesc = "MOD_DESC_1808",
     Polarity = 4,
     Rarity = 5,
@@ -21021,9 +20819,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1809",
-    PassiveEffects = {
-      1809
-    },
+    PassiveEffects = 1809,
     PassiveEffectsDesc = "MOD_DESC_1809",
     Polarity = 4,
     Rarity = 5,
@@ -21077,9 +20873,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1810",
-    PassiveEffects = {
-      1810
-    },
+    PassiveEffects = 1810,
     PassiveEffectsDesc = "MOD_DESC_1810",
     Polarity = 4,
     Rarity = 5,
@@ -21133,9 +20927,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1811",
-    PassiveEffects = {
-      1811
-    },
+    PassiveEffects = 1811,
     PassiveEffectsDesc = "MOD_DESC_1811",
     Polarity = 4,
     Rarity = 5,
@@ -21189,9 +20981,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1812",
-    PassiveEffects = {
-      1812
-    },
+    PassiveEffects = 1812,
     PassiveEffectsDesc = "MOD_DESC_1812",
     Polarity = 4,
     Rarity = 5,
@@ -21253,9 +21043,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1911",
-    PassiveEffects = {
-      1911
-    },
+    PassiveEffects = 1911,
     PassiveEffectsDesc = "MOD_DESC_1911",
     Polarity = 4,
     Rarity = 5,
@@ -21316,9 +21104,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1921",
-    PassiveEffects = {
-      1921
-    },
+    PassiveEffects = 1921,
     PassiveEffectsDesc = "MOD_DESC_1921",
     Polarity = 4,
     Rarity = 5,
@@ -21380,9 +21166,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1922",
-    PassiveEffects = {
-      1922
-    },
+    PassiveEffects = 1922,
     PassiveEffectsDesc = "MOD_DESC_1922",
     Polarity = 4,
     Rarity = 5,
@@ -21444,9 +21228,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1931",
-    PassiveEffects = {
-      1931
-    },
+    PassiveEffects = 1931,
     PassiveEffectsDesc = "MOD_DESC_1931",
     Polarity = 4,
     Rarity = 5,
@@ -21508,9 +21290,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1941",
-    PassiveEffects = {
-      1941
-    },
+    PassiveEffects = 1941,
     PassiveEffectsDesc = "MOD_DESC_1941",
     Polarity = 4,
     Rarity = 5,
@@ -21571,9 +21351,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1951",
-    PassiveEffects = {
-      1951
-    },
+    PassiveEffects = 1951,
     PassiveEffectsDesc = "MOD_DESC_1951",
     Polarity = 4,
     Rarity = 5,
@@ -21634,9 +21412,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1952",
-    PassiveEffects = {
-      1952
-    },
+    PassiveEffects = 1952,
     PassiveEffectsDesc = "MOD_DESC_1952",
     Polarity = 4,
     Rarity = 5,
@@ -21697,9 +21473,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1961",
-    PassiveEffects = {
-      1961
-    },
+    PassiveEffects = 1961,
     PassiveEffectsDesc = "MOD_DESC_1961",
     Polarity = 4,
     Rarity = 5,
@@ -21760,9 +21534,7 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1962",
-    PassiveEffects = {
-      1962
-    },
+    PassiveEffects = 1962,
     PassiveEffectsDesc = "MOD_DESC_1962",
     Polarity = 4,
     Rarity = 5,
@@ -23255,9 +23027,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6111",
-    PassiveEffects = {
-      6111
-    },
+    PassiveEffects = 6111,
     PassiveEffectsDesc = "MOD_DESC_6111",
     Polarity = 2,
     Rarity = 5,
@@ -23303,9 +23073,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6112",
-    PassiveEffects = {
-      6111
-    },
+    PassiveEffects = 6111,
     PassiveEffectsDesc = "MOD_DESC_6111",
     Polarity = 2,
     Rarity = 5,
@@ -23344,9 +23112,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6113",
-    PassiveEffects = {
-      6113
-    },
+    PassiveEffects = 6113,
     PassiveEffectsDesc = "MOD_DESC_6113",
     Polarity = 2,
     Rarity = 5,
@@ -23392,9 +23158,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6114",
-    PassiveEffects = {
-      6113
-    },
+    PassiveEffects = 6113,
     PassiveEffectsDesc = "MOD_DESC_6113",
     Polarity = 2,
     Rarity = 5,
@@ -23433,9 +23197,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6121",
-    PassiveEffects = {
-      6121
-    },
+    PassiveEffects = 6121,
     PassiveEffectsDesc = "MOD_DESC_6121",
     Polarity = 2,
     Rarity = 5,
@@ -23481,9 +23243,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6122",
-    PassiveEffects = {
-      6121
-    },
+    PassiveEffects = 6121,
     PassiveEffectsDesc = "MOD_DESC_6121",
     Polarity = 2,
     Rarity = 5,
@@ -23522,9 +23282,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6123",
-    PassiveEffects = {
-      6123
-    },
+    PassiveEffects = 6123,
     PassiveEffectsDesc = "MOD_DESC_6123",
     Polarity = 2,
     Rarity = 5,
@@ -23570,9 +23328,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6124",
-    PassiveEffects = {
-      6123
-    },
+    PassiveEffects = 6123,
     PassiveEffectsDesc = "MOD_DESC_6123",
     Polarity = 2,
     Rarity = 5,
@@ -23611,9 +23367,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6131",
-    PassiveEffects = {
-      6131
-    },
+    PassiveEffects = 6131,
     PassiveEffectsDesc = "MOD_DESC_6131",
     Polarity = 2,
     Rarity = 5,
@@ -23659,9 +23413,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6132",
-    PassiveEffects = {
-      6131
-    },
+    PassiveEffects = 6131,
     PassiveEffectsDesc = "MOD_DESC_6131",
     Polarity = 2,
     Rarity = 5,
@@ -23700,9 +23452,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6133",
-    PassiveEffects = {
-      6133
-    },
+    PassiveEffects = 6133,
     PassiveEffectsDesc = "MOD_DESC_6133",
     Polarity = 2,
     Rarity = 5,
@@ -23748,9 +23498,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6134",
-    PassiveEffects = {
-      6133
-    },
+    PassiveEffects = 6133,
     PassiveEffectsDesc = "MOD_DESC_6133",
     Polarity = 2,
     Rarity = 5,
@@ -23789,9 +23537,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6141",
-    PassiveEffects = {
-      6141
-    },
+    PassiveEffects = 6141,
     PassiveEffectsDesc = "MOD_DESC_6141",
     Polarity = 2,
     Rarity = 5,
@@ -23837,9 +23583,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6142",
-    PassiveEffects = {
-      6141
-    },
+    PassiveEffects = 6141,
     PassiveEffectsDesc = "MOD_DESC_6141",
     Polarity = 2,
     Rarity = 5,
@@ -23878,9 +23622,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6143",
-    PassiveEffects = {
-      6143
-    },
+    PassiveEffects = 6143,
     PassiveEffectsDesc = "MOD_DESC_6143",
     Polarity = 2,
     Rarity = 5,
@@ -23926,9 +23668,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6144",
-    PassiveEffects = {
-      6143
-    },
+    PassiveEffects = 6143,
     PassiveEffectsDesc = "MOD_DESC_6143",
     Polarity = 2,
     Rarity = 5,
@@ -23967,9 +23707,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6151",
-    PassiveEffects = {
-      6151
-    },
+    PassiveEffects = 6151,
     PassiveEffectsDesc = "MOD_DESC_6151",
     Polarity = 2,
     Rarity = 5,
@@ -24015,9 +23753,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6152",
-    PassiveEffects = {
-      6151
-    },
+    PassiveEffects = 6151,
     PassiveEffectsDesc = "MOD_DESC_6151",
     Polarity = 2,
     Rarity = 5,
@@ -24056,9 +23792,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6153",
-    PassiveEffects = {
-      6153
-    },
+    PassiveEffects = 6153,
     PassiveEffectsDesc = "MOD_DESC_6153",
     Polarity = 2,
     Rarity = 5,
@@ -24104,9 +23838,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6154",
-    PassiveEffects = {
-      6153
-    },
+    PassiveEffects = 6153,
     PassiveEffectsDesc = "MOD_DESC_6153",
     Polarity = 2,
     Rarity = 5,
@@ -24145,9 +23877,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6161",
-    PassiveEffects = {
-      6161
-    },
+    PassiveEffects = 6161,
     PassiveEffectsDesc = "MOD_DESC_6161",
     Polarity = 2,
     Rarity = 5,
@@ -24193,9 +23923,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6162",
-    PassiveEffects = {
-      6161
-    },
+    PassiveEffects = 6161,
     PassiveEffectsDesc = "MOD_DESC_6161",
     Polarity = 2,
     Rarity = 5,
@@ -24234,9 +23962,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6163",
-    PassiveEffects = {
-      6163
-    },
+    PassiveEffects = 6163,
     PassiveEffectsDesc = "MOD_DESC_6163",
     Polarity = 2,
     Rarity = 5,
@@ -24282,9 +24008,7 @@ return ReadOnly("Mod", {
     IsNotOpen = true,
     MaxLevel = 5,
     Name = "MOD_NAME_6164",
-    PassiveEffects = {
-      6163
-    },
+    PassiveEffects = 6163,
     PassiveEffectsDesc = "MOD_DESC_6163",
     Polarity = 2,
     Rarity = 5,
@@ -24469,9 +24193,7 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_102002",
-    PassiveEffects = {
-      2401
-    },
+    PassiveEffects = 2401,
     PassiveEffectsDesc = "MOD_DESC_102002",
     Polarity = 3,
     Rarity = 4,

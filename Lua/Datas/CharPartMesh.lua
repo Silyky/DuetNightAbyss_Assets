@@ -6,9 +6,7 @@ return ReadOnly("CharPartMesh", {
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Cloak_Heitao",
     Name = "UI_Accessory_Name_90001",
     PartName = "PartMesh",
-    Skin = {
-      1101
-    },
+    Skin = 1101,
     Sound = "SOUND_ITEM_CLOTH"
   },
   [90002] = {
@@ -18,9 +16,7 @@ return ReadOnly("CharPartMesh", {
     Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Back06.T_Fashion_Back06'",
     Name = "UI_Accessory_Name_90002",
     PartName = "PartMesh",
-    Skin = {
-      2101
-    },
+    Skin = 2101,
     Sound = "SOUND_ITEM_CLOTH"
   },
   [90003] = {
@@ -30,9 +26,7 @@ return ReadOnly("CharPartMesh", {
     Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Back01.T_Fashion_Back01'",
     Name = "UI_Accessory_Name_90003",
     PartName = "PartMesh",
-    Skin = {
-      2301
-    },
+    Skin = 2301,
     Sound = "SOUND_ITEM_CLOTH"
   },
   [90004] = {
@@ -142,9 +136,7 @@ return ReadOnly("CharPartMesh", {
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Horn_Heitao",
     Name = "UI_Accessory_Name_91001",
     PartName = "Horn",
-    Skin = {
-      1101
-    }
+    Skin = 1101
   },
   [91002] = {
     AccessoryId = 91002,
@@ -153,9 +145,7 @@ return ReadOnly("CharPartMesh", {
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Horn_Zhangyu",
     Name = "UI_Accessory_Name_91002",
     PartName = "Horn",
-    Skin = {
-      2301
-    }
+    Skin = 2301
   },
   [91003] = {
     AccessoryId = 91003,
@@ -200,9 +190,7 @@ return ReadOnly("CharPartMesh", {
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Horn_Shuimu",
     Name = "UI_Accessory_Name_91007",
     PartName = "Horn",
-    Skin = {
-      2101
-    }
+    Skin = 2101
   },
   [91008] = {
     AccessoryId = 91008,

@@ -1788,9 +1788,7 @@ return ReadOnly("Npc", {
     ModelId = 10036,
     MouthProfile = "LipSync_10031",
     NpcType = "Normal",
-    RelatedTalks = {
-      110122
-    },
+    RelatedTalks = 110122,
     UnitBPPath = "/Game/AssetDesign/Char/Npc/CharacterNpc/Kajia/BP_NPC_Kajia",
     UnitId = 110009,
     UnitName = "UI_Npc_Name_Kajia"
@@ -2191,9 +2189,7 @@ return ReadOnly("Npc", {
     ModelId = 10036,
     MouthProfile = "LipSync_10031",
     NpcType = "Normal",
-    RelatedTalks = {
-      110122
-    },
+    RelatedTalks = 110122,
     UnitBPPath = "/Game/AssetDesign/Char/Npc/CharacterNpc/Kajia/BP_NPC_Kajia",
     UnitId = 110046,
     UnitName = "UI_Npc_Name_Kajia"
@@ -2447,13 +2443,9 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30004,
     MouthProfile = "LipSync_10009",
-    NpcBiographyId = {
-      101401
-    },
+    NpcBiographyId = 101401,
     NpcType = "Normal",
-    RelatedBubble = {
-      500041
-    },
+    RelatedBubble = 500041,
     RelatedTalks = {
       510019, 5100192
     },
@@ -2957,13 +2949,9 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30004,
     MouthProfile = "LipSync_10009",
-    NpcBiographyId = {
-      101401
-    },
+    NpcBiographyId = 101401,
     NpcType = "Normal",
-    RelatedBubble = {
-      500041
-    },
+    RelatedBubble = 500041,
     RelatedTalks = {
       510019, 5100192
     },
@@ -5144,9 +5132,7 @@ return ReadOnly("Npc", {
     CollisionLevel = 999,
     DefaultExpression = "CM_Idle",
     ModelId = 30007,
-    NpcBiographyId = {
-      100102
-    },
+    NpcBiographyId = 100102,
     NpcType = "Normal",
     RelatedTalks = {5100082},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Alice.BP_Alice",
@@ -5245,9 +5231,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30005,
     NpcType = "Normal",
-    RelatedBubble = {
-      500016
-    },
+    RelatedBubble = 500016,
     RelatedTalks = {510050},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Laina.BP_Laina",
     UnitId = 700013,
@@ -5851,13 +5835,9 @@ return ReadOnly("Npc", {
     CollisionLevel = 999,
     DefaultExpression = "CM_Idle",
     ModelId = 30004,
-    NpcBiographyId = {
-      101201
-    },
+    NpcBiographyId = 101201,
     NpcType = "Normal",
-    RelatedBubble = {
-      500027
-    },
+    RelatedBubble = 500027,
     RelatedTalks = {500058},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Dadun",
     UnitId = 700069,
@@ -5946,9 +5926,7 @@ return ReadOnly("Npc", {
     ModelId = 30007,
     NpcBiographyId = {102701},
     NpcType = "Normal",
-    RelatedBubble = {
-      500052
-    },
+    RelatedBubble = 500052,
     RelatedTalks = {510075},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Xueli",
     UnitId = 700077,
@@ -6186,9 +6164,7 @@ return ReadOnly("Npc", {
     ModelId = 30005,
     NpcBiographyId = {101901},
     NpcType = "Normal",
-    RelatedBubble = {
-      500016
-    },
+    RelatedBubble = 500016,
     RelatedTalks = {5100501},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Laina.BP_Laina",
     UnitId = 700099,
@@ -6369,9 +6345,7 @@ return ReadOnly("Npc", {
     CollisionLevel = 999,
     DefaultExpression = "CM_Idle",
     ModelId = 30004,
-    NpcBiographyId = {
-      102401
-    },
+    NpcBiographyId = 102401,
     NpcType = "Normal",
     RelatedBubble = {500049},
     RelatedTalks = {5100531},
@@ -6384,9 +6358,7 @@ return ReadOnly("Npc", {
     CollisionLevel = 999,
     DefaultExpression = "CM_Idle",
     ModelId = 30004,
-    NpcBiographyId = {
-      102401
-    },
+    NpcBiographyId = 102401,
     NpcType = "Normal",
     RelatedTalks = {5100551},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Makusi",
@@ -6426,9 +6398,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     IsSit = 1,
     ModelId = 30004,
-    NpcBiographyId = {
-      102401
-    },
+    NpcBiographyId = 102401,
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Makusi",
     UnitId = 700121,
@@ -6750,9 +6720,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30007,
     NpcType = "Normal",
-    RelatedBubble = {
-      500052
-    },
+    RelatedBubble = 500052,
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Xueli",
     UnitId = 700172,
     UnitName = "UI_CMNpc_Name_Xueli"
@@ -6763,9 +6731,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30007,
     NpcType = "Normal",
-    RelatedBubble = {
-      500052
-    },
+    RelatedBubble = 500052,
     RelatedTalks = {510076},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Xueli",
     UnitId = 700173,
@@ -6777,9 +6743,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30007,
     NpcType = "Normal",
-    RelatedBubble = {
-      500052
-    },
+    RelatedBubble = 500052,
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Xueli",
     UnitId = 700174,
     UnitName = "UI_CMNpc_Name_Xueli"
@@ -6808,13 +6772,9 @@ return ReadOnly("Npc", {
     CollisionLevel = 999,
     DefaultExpression = "CM_Idle",
     ModelId = 30004,
-    NpcBiographyId = {
-      101201
-    },
+    NpcBiographyId = 101201,
     NpcType = "Normal",
-    RelatedBubble = {
-      500027
-    },
+    RelatedBubble = 500027,
     RelatedTalks = {510080},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Dadun",
     UnitId = 700192,
@@ -7261,9 +7221,7 @@ return ReadOnly("Npc", {
     DefaultAction = "Think_Loop",
     DefaultExpression = "CM_Idle",
     ModelId = 30007,
-    NpcBiographyId = {
-      100102
-    },
+    NpcBiographyId = 100102,
     NpcType = "Normal",
     RelatedTalks = {500080},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Hesite.BP_Hesite",
@@ -7862,9 +7820,7 @@ return ReadOnly("Npc", {
   },
   [700342] = {
     AccessoryIds = {
-      Normal = {
-        950014
-      }
+      Normal = 950014
     },
     Camp = "NPC",
     CollisionLevel = 999,
@@ -7913,9 +7869,7 @@ return ReadOnly("Npc", {
   },
   [700345] = {
     AccessoryIds = {
-      Normal = {
-        950014
-      }
+      Normal = 950014
     },
     Camp = "NPC",
     CollisionLevel = 999,
@@ -9655,9 +9609,7 @@ return ReadOnly("Npc", {
     },
     ModelId = 30010,
     NpcType = "Normal",
-    RelatedBubble = {
-      500040
-    },
+    RelatedBubble = 500040,
     UnitBPPath = "/Game/AssetDesign/Char/Npc/BaiNpc/Bai_DanDan/BP_NPC_BaiDD",
     UnitId = 900008,
     UnitName = "UI_MapNpc_Name_DDBai"
@@ -9688,9 +9640,7 @@ return ReadOnly("Npc", {
     },
     ModelId = 30010,
     NpcType = "Normal",
-    RelatedBubble = {
-      500040
-    },
+    RelatedBubble = 500040,
     UnitBPPath = "/Game/AssetDesign/Char/Npc/BaiNpc/Bai_DanDan/BP_NPC_BaiDD",
     UnitId = 900011,
     UnitName = "UI_MapNpc_Name_DDBai"

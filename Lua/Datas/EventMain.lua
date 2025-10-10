@@ -74,9 +74,7 @@ return ReadOnly("EventMain", {
     MobileBluePrint = "/Game/UI/WBP/Activity/Mobile/ActivityJump/WBP_Activity_Jump_M.WBP_Activity_Jump_M",
     PCBluePrint = "/Game/UI/WBP/Activity/PC/ActivityJump/WBP_Activity_Jump_P.WBP_Activity_Jump_P",
     PretextTasks1 = 110109,
-    PretextTasks2 = {
-      200227
-    }
+    PretextTasks2 = 200227
   },
   [103003] = {
     EventBgBPPathMobile = "/Game/UI/WBP/Get/Widget/Avatar/WBP_Get_Avatar_WidgetAote.WBP_Get_Avatar_WidgetAote",
@@ -300,9 +298,7 @@ return ReadOnly("EventMain", {
     MobileBluePrint = "/Game/UI/WBP/Activity/Mobile/ActivityJump/WBP_Activity_Jump_M.WBP_Activity_Jump_M",
     PCBluePrint = "/Game/UI/WBP/Activity/PC/ActivityJump/WBP_Activity_Jump_P.WBP_Activity_Jump_P",
     PretextTasks1 = 110109,
-    PretextTasks2 = {
-      200227
-    }
+    PretextTasks2 = 200227
   },
   [105101014] = {
     EventBgBPPathMobile = "/Game/UI/WBP/Get/Widget/Avatar/WBP_Get_Avatar_WidgetFeina.WBP_Get_Avatar_WidgetFeina",

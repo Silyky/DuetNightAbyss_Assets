@@ -59,9 +59,7 @@ return ReadOnly("RougeLikeServerBuild", {
   [8] = {
     Id = 8,
     RoomCount = 2,
-    RoomType = {
-      1
-    },
+    RoomType = 1,
     ServerBuild = "DisableGetToken"
   },
   [9] = {
@@ -174,9 +172,7 @@ return ReadOnly("RougeLikeServerBuild", {
     Id = 22,
     Param = {
       [1] = 1,
-      [2] = {
-        1
-      }
+      [2] = 1
     },
     RoomCount = -1,
     RoomType = {
@@ -298,9 +294,7 @@ return ReadOnly("RougeLikeServerBuild", {
     Id = 36,
     Param = {
       [1] = "Blessing",
-      [2] = {
-        1
-      },
+      [2] = 1,
       [3] = 1.8
     },
     RoomCount = -1,

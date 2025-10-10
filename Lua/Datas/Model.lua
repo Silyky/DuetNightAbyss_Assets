@@ -365,9 +365,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet009_Haomeng/Mesh/Pet_Haomeng_SM.Pet_Haomeng_SM"
   },
   [411] = {
-    AdditionalFXID = {
-      5001
-    },
+    AdditionalFXID = 5001,
     ModelId = 411,
     ModelScale = 0.7,
     PetModelId = 1,
@@ -494,90 +492,70 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet009_Haomeng/Mesh/Pet_Haomeng_SM.Pet_Haomeng_SM"
   },
   [441] = {
-    AdditionalFXID = {
-      5441
-    },
+    AdditionalFXID = 5441,
     ModelId = 441,
     ModelScale = 0.8,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet006_Zisha/Mesh/Pet_Zisha_SM.Pet_Zisha_SM"
   },
   [442] = {
-    AdditionalFXID = {
-      5442
-    },
+    AdditionalFXID = 5442,
     ModelId = 442,
     ModelScale = 0.8,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet001_Yuyi/Mesh/Pet_Yuyi_SM.Pet_Yuyi_SM"
   },
   [443] = {
-    AdditionalFXID = {
-      5443
-    },
+    AdditionalFXID = 5443,
     ModelId = 443,
     ModelScale = 0.85,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet002_Dahuo/Mesh/Pet_Dahuo_SM.Pet_Dahuo_SM"
   },
   [444] = {
-    AdditionalFXID = {
-      5444
-    },
+    AdditionalFXID = 5444,
     ModelId = 444,
     ModelScale = 0.7,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet004_Zhamao/Mesh/Pet_Zhamao_SM.Pet_Zhamao_SM"
   },
   [445] = {
-    AdditionalFXID = {
-      5445
-    },
+    AdditionalFXID = 5445,
     ModelId = 445,
     ModelScale = 0.85,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet003_Yaoye/Mesh/Pet_Yaoye_SM.Pet_Yaoye_SM"
   },
   [446] = {
-    AdditionalFXID = {
-      5446
-    },
+    AdditionalFXID = 5446,
     ModelId = 446,
     ModelScale = 0.85,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet005_Shanling/Mesh/Pet_Shanling_SM.Pet_Shanling_SM"
   },
   [447] = {
-    AdditionalFXID = {
-      5447
-    },
+    AdditionalFXID = 5447,
     ModelId = 447,
     ModelScale = 0.7,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet007_Nihao/Mesh/Pet_Nihao_SM.Pet_Nihao_SM"
   },
   [448] = {
-    AdditionalFXID = {
-      5448
-    },
+    AdditionalFXID = 5448,
     ModelId = 448,
     ModelScale = 0.75,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet008_Zhenzhu/Mesh/Pet_Zhenzhu_SM.Pet_Zhenzhu_SM"
   },
   [449] = {
-    AdditionalFXID = {
-      5449
-    },
+    AdditionalFXID = 5449,
     ModelId = 449,
     ModelScale = 0.75,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet009_Haomeng/Mesh/Pet_Haomeng_SM.Pet_Haomeng_SM"
   },
   [451] = {
-    AdditionalFXID = {
-      5002
-    },
+    AdditionalFXID = 5002,
     ModelId = 451,
     ModelScale = 0.7,
     PetModelId = 2,
@@ -623,45 +601,35 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet018_Fuyou/Mesh/Pet_Fuyou_SM.Pet_Fuyou_SM"
   },
   [462] = {
-    AdditionalFXID = {
-      5462
-    },
+    AdditionalFXID = 5462,
     ModelId = 462,
     ModelScale = 0.8,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet013_Tangshuang/Mesh/Pet_Tangshuang_SM.Pet_Tangshuang_SM"
   },
   [463] = {
-    AdditionalFXID = {
-      5463
-    },
+    AdditionalFXID = 5463,
     ModelId = 463,
     ModelScale = 0.8,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet014_YYHW/Mesh/Pet_YYHW_SM.Pet_YYHW_SM"
   },
   [464] = {
-    AdditionalFXID = {
-      5464
-    },
+    AdditionalFXID = 5464,
     ModelId = 464,
     ModelScale = 0.8,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet016_Pipa/Mesh/Pet_Pipa_SM.Pet_Pipa_SM"
   },
   [465] = {
-    AdditionalFXID = {
-      5465
-    },
+    AdditionalFXID = 5465,
     ModelId = 465,
     ModelScale = 0.75,
     PetModelId = 3,
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet015_Mianmian/Mesh/Pet_Mianmian_SM.Pet_Mianmian_SM"
   },
   [466] = {
-    AdditionalFXID = {
-      5466
-    },
+    AdditionalFXID = 5466,
     ModelId = 466,
     ModelScale = 0.8,
     PetModelId = 3,
@@ -3055,9 +3023,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet006_Zisha/Mesh/Pet_Zisha_SM.Pet_Zisha_SM"
   },
   [64013] = {
-    AdditionalFXID = {
-      5441
-    },
+    AdditionalFXID = 5441,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Zisha/ABP_PetQuad_Zisha.ABP_PetQuad_Zisha_C'",
     ModelId = 64013,
     ModelScale = 1.5,
@@ -3079,9 +3045,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet001_Yuyi/Mesh/Pet_Yuyi_SM.Pet_Yuyi_SM"
   },
   [64023] = {
-    AdditionalFXID = {
-      5442
-    },
+    AdditionalFXID = 5442,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Yuyi/ABP_PetFloat_Yuyi.ABP_PetFloat_Yuyi_C'",
     ModelId = 64023,
     ModelScale = 1.5,
@@ -3103,9 +3067,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet002_Dahuo/Mesh/Pet_Dahuo_SM.Pet_Dahuo_SM"
   },
   [64033] = {
-    AdditionalFXID = {
-      5443
-    },
+    AdditionalFXID = 5443,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Dahuo/ABP_PetFloat_Dahuo.ABP_PetFloat_Dahuo_C'",
     ModelId = 64033,
     ModelScale = 1.5,
@@ -3127,9 +3089,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet004_Zhamao/Mesh/Pet_Zhamao_SM.Pet_Zhamao_SM"
   },
   [64043] = {
-    AdditionalFXID = {
-      5444
-    },
+    AdditionalFXID = 5444,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Zhamao/ABP_PetQuad_Zhamao.ABP_PetQuad_Zhamao_C'",
     ModelId = 64043,
     ModelScale = 1.5,
@@ -3151,9 +3111,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet003_Yaoye/Mesh/Pet_Yaoye_SM.Pet_Yaoye_SM"
   },
   [64053] = {
-    AdditionalFXID = {
-      5445
-    },
+    AdditionalFXID = 5445,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Yaoye/ABP_PetFloat_Yaoye.ABP_PetFloat_Yaoye_C'",
     ModelId = 64053,
     ModelScale = 1.5,
@@ -3175,9 +3133,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet005_Shanling/Mesh/Pet_Shanling_SM.Pet_Shanling_SM"
   },
   [64063] = {
-    AdditionalFXID = {
-      5446
-    },
+    AdditionalFXID = 5446,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Shanling/ABP_PetBiped_Shanling.ABP_PetBiped_Shanling_C'",
     ModelId = 64063,
     ModelScale = 1.5,
@@ -3199,9 +3155,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet007_Nihao/Mesh/Pet_Nihao_SM.Pet_Nihao_SM"
   },
   [64073] = {
-    AdditionalFXID = {
-      5447
-    },
+    AdditionalFXID = 5447,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Nihao/ABP_PetFloatSpecial_Nihao.ABP_PetFloatSpecial_Nihao_C'",
     ModelId = 64073,
     ModelScale = 1.5,
@@ -3223,9 +3177,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet008_Zhenzhu/Mesh/Pet_Zhenzhu_SM.Pet_Zhenzhu_SM"
   },
   [64083] = {
-    AdditionalFXID = {
-      5448
-    },
+    AdditionalFXID = 5448,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Zhenzhu/ABP_PetBiped_Zhenzhu.ABP_PetBiped_Zhenzhu_C'",
     ModelId = 64083,
     ModelScale = 1.5,
@@ -3247,9 +3199,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet009_Haomeng/Mesh/Pet_Haomeng_SM.Pet_Haomeng_SM"
   },
   [64093] = {
-    AdditionalFXID = {
-      5449
-    },
+    AdditionalFXID = 5449,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Haomeng/ABP_PetBiped_Haomeng.ABP_PetBiped_Haomeng_C'",
     ModelId = 64093,
     ModelScale = 1.5,
@@ -3257,9 +3207,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet009_Haomeng/Mesh/Pet_Haomeng_SM.Pet_Haomeng_SM"
   },
   [64111] = {
-    AdditionalFXID = {
-      5001
-    },
+    AdditionalFXID = 5001,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Fuyou/ABP_PetFloat_Fuyou.ABP_PetFloat_Fuyou_C'",
     ModelId = 64111,
     ModelScale = 1.5,
@@ -3267,9 +3215,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet018_Fuyou/Mesh/Pet_Fuyou_SM.Pet_Fuyou_SM"
   },
   [64112] = {
-    AdditionalFXID = {
-      5002
-    },
+    AdditionalFXID = 5002,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Fuyou/ABP_PetFloat_Fuyou.ABP_PetFloat_Fuyou_C'",
     ModelId = 64112,
     ModelScale = 1.5,
@@ -3301,9 +3247,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet013_Tangshuang/Mesh/Pet_Tangshuang_SM.Pet_Tangshuang_SM"
   },
   [64123] = {
-    AdditionalFXID = {
-      5462
-    },
+    AdditionalFXID = 5462,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Tangshuang/ABP_PetBiped_Tangshuang.ABP_PetBiped_Tangshuang_C'",
     ModelId = 64123,
     ModelScale = 1.5,
@@ -3325,9 +3269,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet014_YYHW/Mesh/Pet_YYHW_SM.Pet_YYHW_SM"
   },
   [64133] = {
-    AdditionalFXID = {
-      5463
-    },
+    AdditionalFXID = 5463,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/YYHW/ABP_PetQuad_YYHW.ABP_PetQuad_YYHW_C'",
     ModelId = 64133,
     ModelScale = 1.5,
@@ -3349,9 +3291,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet016_Pipa/Mesh/Pet_Pipa_SM.Pet_Pipa_SM"
   },
   [64143] = {
-    AdditionalFXID = {
-      5464
-    },
+    AdditionalFXID = 5464,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Pipa/ABP_PetFloat_Pipa.ABP_PetFloat_Pipa_C'",
     ModelId = 64143,
     ModelScale = 1.5,
@@ -3373,9 +3313,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet015_Mianmian/Mesh/Pet_Mianmian_SM.Pet_Mianmian_SM"
   },
   [64153] = {
-    AdditionalFXID = {
-      5465
-    },
+    AdditionalFXID = 5465,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Mianmian/ABP_PetFloat_Mianmian.ABP_PetFloat_Mianmian_C'",
     ModelId = 64153,
     ModelScale = 1.5,
@@ -3397,9 +3335,7 @@ return ReadOnly("Model", {
     SkeletonMeshPath = "Asset/Char/Player/Common/Pet/Pet017_Qiuqiu/Mesh/Pet_Qiuqiu_SM.Pet_Qiuqiu_SM"
   },
   [64163] = {
-    AdditionalFXID = {
-      5466
-    },
+    AdditionalFXID = 5466,
     AnimInstancePath = "AnimBlueprint'/Game/AssetDesign/Char/Npc/Pet/Qiuqiu/ABP_PetFloat_Qiuqiu.ABP_PetFloat_Qiuqiu_C'",
     ModelId = 64163,
     ModelScale = 1.5,
@@ -7549,9 +7485,7 @@ return ReadOnly("Model", {
     WeaponSeInfo = "Machinegun_Chixing"
   },
   [2060101] = {
-    AdditionalFXID = {
-      2060100
-    },
+    AdditionalFXID = 2060100,
     ModelId = 2060101,
     ModelTag = {
       "Ranged"
@@ -7571,9 +7505,7 @@ return ReadOnly("Model", {
     WeaponSeInfo = "Bow_Huguang"
   },
   [2060301] = {
-    AdditionalFXID = {
-      2060100
-    },
+    AdditionalFXID = 2060100,
     ModelId = 2060301,
     ModelTag = {
       "Ranged"
@@ -7583,9 +7515,7 @@ return ReadOnly("Model", {
     WeaponSeInfo = "Bow_Inbu"
   },
   [2060401] = {
-    AdditionalFXID = {
-      2060100
-    },
+    AdditionalFXID = 2060100,
     ModelId = 2060401,
     ModelTag = {
       "Ranged"
@@ -7595,9 +7525,7 @@ return ReadOnly("Model", {
     WeaponSeInfo = "Bow_Chixing"
   },
   [2069801] = {
-    AdditionalFXID = {
-      2060100
-    },
+    AdditionalFXID = 2060100,
     ModelId = 2069801,
     ModelTag = {
       "Ranged"
@@ -7607,9 +7535,7 @@ return ReadOnly("Model", {
     WeaponSeInfo = "Bow_Common"
   },
   [2069901] = {
-    AdditionalFXID = {
-      2060100
-    },
+    AdditionalFXID = 2060100,
     ModelId = 2069901,
     ModelTag = {
       "Ranged"

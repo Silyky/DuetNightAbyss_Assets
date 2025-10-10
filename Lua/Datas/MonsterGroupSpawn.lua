@@ -1470,13 +1470,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1485,9 +1481,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6001012}
   },
   [6001013] = {
@@ -1497,13 +1491,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1512,9 +1502,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6001013}
   },
   [6001014] = {
@@ -1524,13 +1512,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1539,9 +1523,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6001014}
   },
   [6001016] = {
@@ -1551,13 +1533,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1566,9 +1544,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6001016}
   },
   [6001018] = {
@@ -1578,13 +1554,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1593,9 +1565,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6001018}
   },
   [6002011] = {
@@ -1605,13 +1575,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1620,9 +1586,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6002011}
   },
   [6002015] = {
@@ -1632,13 +1596,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1647,9 +1607,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6002015}
   },
   [6002016] = {
@@ -1659,13 +1617,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1674,9 +1628,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6002016}
   },
   [6002017] = {
@@ -1686,13 +1638,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1701,9 +1649,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6002017}
   },
   [6002018] = {
@@ -1713,13 +1659,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1728,9 +1670,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6002018}
   },
   [6004013] = {
@@ -1740,13 +1680,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1755,9 +1691,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {6004013}
   },
   [7001011] = {
@@ -1767,13 +1701,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1782,9 +1712,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7001011}
   },
   [7001015] = {
@@ -1794,13 +1722,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1809,9 +1733,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7001015}
   },
   [7001016] = {
@@ -1821,13 +1743,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1836,9 +1754,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7001016}
   },
   [7001017] = {
@@ -1848,13 +1764,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1863,9 +1775,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7001017}
   },
   [7001018] = {
@@ -1875,13 +1785,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1890,9 +1796,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7001018}
   },
   [7002011] = {
@@ -1902,13 +1806,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1917,9 +1817,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7002011}
   },
   [7002012] = {
@@ -1929,13 +1827,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1944,9 +1838,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7002012}
   },
   [7002013] = {
@@ -1956,13 +1848,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1971,9 +1859,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7002013}
   },
   [7002014] = {
@@ -1983,13 +1869,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -1998,9 +1880,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7002014}
   },
   [7002016] = {
@@ -2010,13 +1890,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2025,9 +1901,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7002016}
   },
   [7002018] = {
@@ -2037,13 +1911,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2052,9 +1922,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7002018}
   },
   [7003011] = {
@@ -2064,13 +1932,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2079,9 +1943,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7003011}
   },
   [7003015] = {
@@ -2091,13 +1953,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2106,9 +1964,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7003015}
   },
   [7003016] = {
@@ -2118,13 +1974,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2133,9 +1985,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7003016}
   },
   [7003017] = {
@@ -2145,13 +1995,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2160,9 +2006,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7003017}
   },
   [7003018] = {
@@ -2172,13 +2016,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2187,9 +2027,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7003018}
   },
   [7008601] = {
@@ -2199,13 +2037,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2214,9 +2048,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {7021}
   },
   [8001011] = {
@@ -2226,13 +2058,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2241,9 +2069,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001011}
   },
   [8001012] = {
@@ -2253,13 +2079,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2268,9 +2090,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001012}
   },
   [8001013] = {
@@ -2280,13 +2100,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2295,9 +2111,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001013}
   },
   [8001014] = {
@@ -2307,13 +2121,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2322,9 +2132,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001014}
   },
   [8001015] = {
@@ -2334,13 +2142,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2349,9 +2153,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001015}
   },
   [8001016] = {
@@ -2361,13 +2163,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2376,9 +2174,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001016}
   },
   [8001017] = {
@@ -2388,13 +2184,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2403,9 +2195,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001017}
   },
   [8001018] = {
@@ -2415,13 +2205,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2430,9 +2216,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001018}
   },
   [8001019] = {
@@ -2442,13 +2226,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2457,9 +2237,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001019}
   },
   [8001020] = {
@@ -2469,13 +2247,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2484,9 +2258,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001020}
   },
   [8001021] = {
@@ -2496,13 +2268,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2511,9 +2279,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001021}
   },
   [8001022] = {
@@ -2523,13 +2289,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2538,9 +2300,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001022}
   },
   [8001023] = {
@@ -2550,13 +2310,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2565,9 +2321,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001023}
   },
   [8001024] = {
@@ -2577,13 +2331,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2592,9 +2342,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8001024}
   },
   [8002011] = {
@@ -2604,13 +2352,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2619,9 +2363,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002011}
   },
   [8002012] = {
@@ -2631,13 +2373,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2646,9 +2384,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002012}
   },
   [8002013] = {
@@ -2658,13 +2394,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2673,9 +2405,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002013}
   },
   [8002014] = {
@@ -2685,13 +2415,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2700,9 +2426,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002014}
   },
   [8002015] = {
@@ -2712,13 +2436,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2727,9 +2447,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002015}
   },
   [8002016] = {
@@ -2739,13 +2457,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2754,9 +2468,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002016}
   },
   [8002017] = {
@@ -2766,13 +2478,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2781,9 +2489,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002017}
   },
   [8002018] = {
@@ -2793,13 +2499,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2808,9 +2510,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002018}
   },
   [8002019] = {
@@ -2820,13 +2520,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2835,9 +2531,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002019}
   },
   [8002020] = {
@@ -2847,13 +2541,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2862,9 +2552,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002020}
   },
   [8002021] = {
@@ -2874,13 +2562,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2889,9 +2573,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002021}
   },
   [8002022] = {
@@ -2901,13 +2583,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2916,9 +2594,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002022}
   },
   [8002023] = {
@@ -2928,13 +2604,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2943,9 +2615,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002023}
   },
   [8002024] = {
@@ -2955,13 +2625,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2970,9 +2636,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8002024}
   },
   [8003011] = {
@@ -2982,13 +2646,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -2997,9 +2657,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003011}
   },
   [8003012] = {
@@ -3009,13 +2667,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3024,9 +2678,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003012}
   },
   [8003013] = {
@@ -3036,13 +2688,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3051,9 +2699,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003013}
   },
   [8003014] = {
@@ -3063,13 +2709,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3078,9 +2720,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003014}
   },
   [8003015] = {
@@ -3090,13 +2730,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3105,9 +2741,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003015}
   },
   [8003016] = {
@@ -3117,13 +2751,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3132,9 +2762,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003016}
   },
   [8003017] = {
@@ -3144,13 +2772,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3159,9 +2783,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003017}
   },
   [8003018] = {
@@ -3171,13 +2793,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3186,9 +2804,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003018}
   },
   [8003019] = {
@@ -3198,13 +2814,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3213,9 +2825,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003019}
   },
   [8003020] = {
@@ -3225,13 +2835,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3240,9 +2846,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003020}
   },
   [8003021] = {
@@ -3252,13 +2856,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3267,9 +2867,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003021}
   },
   [8003022] = {
@@ -3279,13 +2877,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3294,9 +2888,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003022}
   },
   [8003023] = {
@@ -3306,13 +2898,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3321,9 +2909,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003023}
   },
   [8003024] = {
@@ -3333,13 +2919,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3348,9 +2930,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {8003024}
   },
   [9001011] = {
@@ -3360,13 +2940,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3375,9 +2951,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001011}
   },
   [9001012] = {
@@ -3387,13 +2961,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3402,9 +2972,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001012}
   },
   [9001013] = {
@@ -3414,13 +2982,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3429,9 +2993,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001013}
   },
   [9001014] = {
@@ -3441,13 +3003,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3456,9 +3014,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001014}
   },
   [9001015] = {
@@ -3468,13 +3024,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3483,9 +3035,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001015}
   },
   [9001016] = {
@@ -3495,13 +3045,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3510,9 +3056,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001016}
   },
   [9001017] = {
@@ -3522,13 +3066,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3537,9 +3077,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001017}
   },
   [9001018] = {
@@ -3549,13 +3087,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3564,9 +3098,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001018}
   },
   [9001019] = {
@@ -3576,13 +3108,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3591,9 +3119,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001019}
   },
   [9001020] = {
@@ -3603,13 +3129,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3618,9 +3140,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001020}
   },
   [9001021] = {
@@ -3630,13 +3150,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3645,9 +3161,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001021}
   },
   [9001022] = {
@@ -3657,13 +3171,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3672,9 +3182,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001022}
   },
   [9001023] = {
@@ -3684,13 +3192,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3699,9 +3203,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001023}
   },
   [9001024] = {
@@ -3711,13 +3213,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3726,9 +3224,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9001024}
   },
   [9002011] = {
@@ -3738,13 +3234,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3753,9 +3245,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002011}
   },
   [9002012] = {
@@ -3765,13 +3255,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3780,9 +3266,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002012}
   },
   [9002013] = {
@@ -3792,13 +3276,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3807,9 +3287,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002013}
   },
   [9002014] = {
@@ -3819,13 +3297,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3834,9 +3308,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002014}
   },
   [9002015] = {
@@ -3846,13 +3318,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3861,9 +3329,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002015}
   },
   [9002016] = {
@@ -3873,13 +3339,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3888,9 +3350,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002016}
   },
   [9002017] = {
@@ -3900,13 +3360,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3915,9 +3371,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002017}
   },
   [9002018] = {
@@ -3927,13 +3381,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3942,9 +3392,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002018}
   },
   [9002019] = {
@@ -3954,13 +3402,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3969,9 +3413,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002019}
   },
   [9002020] = {
@@ -3981,13 +3423,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -3996,9 +3434,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002020}
   },
   [9002021] = {
@@ -4008,13 +3444,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4023,9 +3455,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002021}
   },
   [9002022] = {
@@ -4035,13 +3465,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4050,9 +3476,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002022}
   },
   [9002023] = {
@@ -4062,13 +3486,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4077,9 +3497,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002023}
   },
   [9002024] = {
@@ -4089,13 +3507,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4104,9 +3518,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9002024}
   },
   [9007011] = {
@@ -4116,13 +3528,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4131,9 +3539,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007011}
   },
   [9007012] = {
@@ -4143,13 +3549,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4158,9 +3560,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007012}
   },
   [9007013] = {
@@ -4170,13 +3570,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4185,9 +3581,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007013}
   },
   [9007014] = {
@@ -4197,13 +3591,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4212,9 +3602,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007014}
   },
   [9007015] = {
@@ -4224,13 +3612,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4239,9 +3623,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007015}
   },
   [9007016] = {
@@ -4251,13 +3633,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4266,9 +3644,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007016}
   },
   [9007017] = {
@@ -4278,13 +3654,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4293,9 +3665,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007017}
   },
   [9007018] = {
@@ -4305,13 +3675,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4320,9 +3686,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007018}
   },
   [9007019] = {
@@ -4332,13 +3696,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4347,9 +3707,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007019}
   },
   [9007020] = {
@@ -4359,13 +3717,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4374,9 +3728,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007020}
   },
   [9007021] = {
@@ -4386,13 +3738,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4401,9 +3749,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007021}
   },
   [9007022] = {
@@ -4413,13 +3759,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4428,9 +3770,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007022}
   },
   [9007023] = {
@@ -4440,13 +3780,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4455,9 +3791,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007023}
   },
   [9007024] = {
@@ -4467,13 +3801,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupInitUnitSpawnCenterRange = {
       1000, 1500
     },
-    GroupLevel = {
-      0
-    },
+    GroupLevel = 0,
     GroupLimit = 60,
-    GroupNumber = {
-      1
-    },
+    GroupNumber = 1,
     GroupRadius = 300,
     GroupRangeZ = 500,
     GroupReplenishInterval = 0,
@@ -4482,9 +3812,7 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupUnitSpawnCenterRange = {
       1500, 2000
     },
-    GroupWeight = {
-      1
-    },
+    GroupWeight = 1,
     MonsterGroupIds = {9007024}
   }
 })

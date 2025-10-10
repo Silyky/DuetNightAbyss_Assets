@@ -269,9 +269,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 11763,
     TalentMod = 30101011,
     Type = 1,
-    UnLock = {
-      12173
-    }
+    UnLock = 12173
   },
   [11864] = {
     Branch = 1,
@@ -287,9 +285,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 11864,
     TalentMod = 30101031,
     Type = 1,
-    UnLock = {
-      12173
-    }
+    UnLock = 12173
   },
   [11971] = {
     Branch = 1,
@@ -352,9 +348,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 12281,
     TalentMod = 30101051,
     Type = 1,
-    UnLock = {
-      12491
-    }
+    UnLock = 12491
   },
   [12382] = {
     Branch = 1,
@@ -370,9 +364,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 12382,
     TalentMod = 30101011,
     Type = 1,
-    UnLock = {
-      12491
-    }
+    UnLock = 12491
   },
   [12491] = {
     Branch = 1,
@@ -629,9 +621,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 21561,
     TalentMod = 30102011,
     Type = 1,
-    UnLock = {
-      21971
-    }
+    UnLock = 21971
   },
   [21662] = {
     Branch = 2,
@@ -647,9 +637,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 21662,
     TalentMod = 30102041,
     Type = 1,
-    UnLock = {
-      21971
-    }
+    UnLock = 21971
   },
   [21763] = {
     Branch = 2,
@@ -748,9 +736,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 22281,
     TalentMod = 30102011,
     Type = 1,
-    UnLock = {
-      22491
-    }
+    UnLock = 22491
   },
   [22382] = {
     Branch = 2,
@@ -766,9 +752,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 22382,
     TalentMod = 30102031,
     Type = 1,
-    UnLock = {
-      22491
-    }
+    UnLock = 22491
   },
   [22491] = {
     Branch = 2,
@@ -1019,9 +1003,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 31561,
     TalentMod = 30103051,
     Type = 1,
-    UnLock = {
-      31971
-    }
+    UnLock = 31971
   },
   [31662] = {
     Branch = 3,
@@ -1037,9 +1019,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 31662,
     TalentMod = 30103011,
     Type = 1,
-    UnLock = {
-      31971
-    }
+    UnLock = 31971
   },
   [31763] = {
     Branch = 3,
@@ -1134,9 +1114,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 32281,
     TalentMod = 30103011,
     Type = 1,
-    UnLock = {
-      32491
-    }
+    UnLock = 32491
   },
   [32382] = {
     Branch = 3,
@@ -1152,9 +1130,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 32382,
     TalentMod = 30103051,
     Type = 1,
-    UnLock = {
-      32491
-    }
+    UnLock = 32491
   },
   [32491] = {
     Branch = 3,
@@ -1441,9 +1417,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 41763,
     TalentMod = 30104051,
     Type = 1,
-    UnLock = {
-      42173
-    }
+    UnLock = 42173
   },
   [41864] = {
     Branch = 4,
@@ -1459,9 +1433,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 41864,
     TalentMod = 30104011,
     Type = 1,
-    UnLock = {
-      42173
-    }
+    UnLock = 42173
   },
   [41971] = {
     Branch = 4,
@@ -1524,9 +1496,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 42281,
     TalentMod = 30104011,
     Type = 1,
-    UnLock = {
-      42491
-    }
+    UnLock = 42491
   },
   [42382] = {
     Branch = 4,
@@ -1542,9 +1512,7 @@ return ReadOnly("RougeLikeTalent", {
     TalentId = 42382,
     TalentMod = 30104051,
     Type = 1,
-    UnLock = {
-      42491
-    }
+    UnLock = 42491
   },
   [42491] = {
     Branch = 4,

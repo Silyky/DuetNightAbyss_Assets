@@ -880,9 +880,7 @@ return ReadOnly("Dispatch", {
     DispatchPerson = 2,
     DispatchType = "Battle",
     DispatchUIId = 102205,
-    ExcId = {
-      207005
-    },
+    ExcId = 207005,
     PlayerLevel = {
       60, 65
     },
@@ -1872,9 +1870,7 @@ return ReadOnly("Dispatch", {
     DispatchPerson = 2,
     DispatchType = "Collect",
     DispatchUIId = 203205,
-    ExcId = {
-      207005
-    },
+    ExcId = 207005,
     PlayerLevel = {
       60, 65
     },

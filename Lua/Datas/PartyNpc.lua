@@ -49,9 +49,7 @@ return ReadOnly("PartyNpc", {
     CharId = 1501,
     MainCameraName = "Baonu_Main",
     NpcSeatKey = "3.0",
-    PartyTopicList = {
-      410201
-    },
+    PartyTopicList = 410201,
     ReverseActionId = "Sit03_End",
     SeatPointName = "EntrySeatPoint_Baonu",
     SwitchCameraName = "Baonu_Main",
@@ -311,9 +309,7 @@ return ReadOnly("PartyNpc", {
     CharId = 4102,
     MainCameraName = "Zhiliu_Main",
     NpcSeatKey = "15.0",
-    PartyTopicList = {
-      410201
-    },
+    PartyTopicList = 410201,
     ReverseActionId = "Sit03_End",
     SeatPointName = "EntrySeatPoint_Zhiliu",
     SwitchCameraName = "Zhiliu_Main",

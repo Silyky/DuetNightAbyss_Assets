@@ -3,14 +3,10 @@ return ReadOnly("AbyssRoom", {
     ClearCondition = 100,
     RoomId = 110111,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110112] = {
     ClearCondition = 120,
@@ -18,9 +14,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110113] = {
     ClearCondition = 140,
@@ -28,9 +22,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110114] = {
     ClearCondition = 160,
@@ -38,9 +30,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110115] = {
     ClearCondition = 50,
@@ -53,22 +43,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      60901
-    }
+    UnitSpawnId = 60901
   },
   [110121] = {
     ClearCondition = 100,
     RoomId = 110121,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70055
-    }
+    UnitSpawnId = 70055
   },
   [110122] = {
     ClearCondition = 120,
@@ -76,9 +60,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70055
-    }
+    UnitSpawnId = 70055
   },
   [110123] = {
     ClearCondition = 140,
@@ -86,9 +68,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70055
-    }
+    UnitSpawnId = 70055
   },
   [110124] = {
     ClearCondition = 160,
@@ -96,9 +76,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70055
-    }
+    UnitSpawnId = 70055
   },
   [110125] = {
     ClearCondition = 50,
@@ -111,22 +89,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      70902
-    }
+    UnitSpawnId = 70902
   },
   [110211] = {
     ClearCondition = 100,
     RoomId = 110211,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110212] = {
     ClearCondition = 120,
@@ -134,9 +106,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110213] = {
     ClearCondition = 140,
@@ -144,9 +114,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110214] = {
     ClearCondition = 160,
@@ -154,9 +122,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60055
-    }
+    UnitSpawnId = 60055
   },
   [110215] = {
     ClearCondition = 50,
@@ -169,22 +135,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      60901
-    }
+    UnitSpawnId = 60901
   },
   [110221] = {
     ClearCondition = 100,
     RoomId = 110221,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80055
-    }
+    UnitSpawnId = 80055
   },
   [110222] = {
     ClearCondition = 120,
@@ -192,9 +152,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80055
-    }
+    UnitSpawnId = 80055
   },
   [110223] = {
     ClearCondition = 140,
@@ -202,9 +160,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80055
-    }
+    UnitSpawnId = 80055
   },
   [110224] = {
     ClearCondition = 160,
@@ -212,9 +168,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80055
-    }
+    UnitSpawnId = 80055
   },
   [110225] = {
     ClearCondition = 50,
@@ -227,22 +181,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [110311] = {
     ClearCondition = 100,
     RoomId = 110311,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60073
-    }
+    UnitSpawnId = 60073
   },
   [110312] = {
     ClearCondition = 120,
@@ -250,9 +198,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60073
-    }
+    UnitSpawnId = 60073
   },
   [110313] = {
     ClearCondition = 140,
@@ -260,9 +206,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60073
-    }
+    UnitSpawnId = 60073
   },
   [110314] = {
     ClearCondition = 160,
@@ -283,22 +227,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [110321] = {
     ClearCondition = 100,
     RoomId = 110321,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70055
-    }
+    UnitSpawnId = 70055
   },
   [110322] = {
     ClearCondition = 120,
@@ -306,9 +244,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70055
-    }
+    UnitSpawnId = 70055
   },
   [110323] = {
     ClearCondition = 140,
@@ -316,9 +252,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70055
-    }
+    UnitSpawnId = 70055
   },
   [110324] = {
     ClearCondition = 160,
@@ -339,22 +273,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      70902
-    }
+    UnitSpawnId = 70902
   },
   [110411] = {
     ClearCondition = 100,
     RoomId = 110411,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80055
-    }
+    UnitSpawnId = 80055
   },
   [110412] = {
     ClearCondition = 120,
@@ -362,9 +290,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80055
-    }
+    UnitSpawnId = 80055
   },
   [110413] = {
     ClearCondition = 140,
@@ -393,22 +319,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [110421] = {
     ClearCondition = 100,
     RoomId = 110421,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [110422] = {
     ClearCondition = 120,
@@ -416,9 +336,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [110423] = {
     ClearCondition = 140,
@@ -447,17 +365,13 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 220,
-    UnitSpawnId = {
-      90901
-    }
+    UnitSpawnId = 90901
   },
   [110511] = {
     ClearCondition = 100,
     RoomId = 110511,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
     UnitSpawnId = {70155}
@@ -497,22 +411,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      70901
-    }
+    UnitSpawnId = 70901
   },
   [110521] = {
     ClearCondition = 100,
     RoomId = 110521,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90073
-    }
+    UnitSpawnId = 90073
   },
   [110522] = {
     ClearCondition = 120,
@@ -549,22 +457,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 225,
-    UnitSpawnId = {
-      60901
-    }
+    UnitSpawnId = 60901
   },
   [110611] = {
     ClearCondition = 100,
     RoomId = 110611,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80073
-    }
+    UnitSpawnId = 80073
   },
   [110612] = {
     ClearCondition = 120,
@@ -605,22 +507,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 220,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [110621] = {
     ClearCondition = 100,
     RoomId = 110621,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70173
-    }
+    UnitSpawnId = 70173
   },
   [110622] = {
     ClearCondition = 120,
@@ -661,17 +557,13 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 205,
-    UnitSpawnId = {
-      70902
-    }
+    UnitSpawnId = 70902
   },
   [110711] = {
     ClearCondition = 100,
     RoomId = 110711,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
     UnitSpawnId = {60155}
@@ -715,22 +607,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 205,
-    UnitSpawnId = {
-      60901
-    }
+    UnitSpawnId = 60901
   },
   [110721] = {
     ClearCondition = 100,
     RoomId = 110721,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70173
-    }
+    UnitSpawnId = 70173
   },
   [110722] = {
     ClearCondition = 120,
@@ -773,22 +659,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 255,
-    UnitSpawnId = {
-      70902
-    }
+    UnitSpawnId = 70902
   },
   [120111] = {
     ClearCondition = 100,
     RoomId = 120111,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90073
-    }
+    UnitSpawnId = 90073
   },
   [120112] = {
     ClearCondition = 120,
@@ -831,22 +711,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      90901
-    }
+    UnitSpawnId = 90901
   },
   [120121] = {
     ClearCondition = 100,
     RoomId = 120121,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60173
-    }
+    UnitSpawnId = 60173
   },
   [120122] = {
     ClearCondition = 120,
@@ -887,22 +761,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      60901
-    }
+    UnitSpawnId = 60901
   },
   [120211] = {
     ClearCondition = 100,
     RoomId = 120211,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70173
-    }
+    UnitSpawnId = 70173
   },
   [120212] = {
     ClearCondition = 120,
@@ -945,22 +813,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      70901
-    }
+    UnitSpawnId = 70901
   },
   [120221] = {
     ClearCondition = 100,
     RoomId = 120221,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90073
-    }
+    UnitSpawnId = 90073
   },
   [120222] = {
     ClearCondition = 120,
@@ -1003,22 +865,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 220,
-    UnitSpawnId = {
-      90901
-    }
+    UnitSpawnId = 90901
   },
   [120311] = {
     ClearCondition = 100,
     RoomId = 120311,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      60173
-    }
+    UnitSpawnId = 60173
   },
   [120312] = {
     ClearCondition = 120,
@@ -1059,22 +915,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 225,
-    UnitSpawnId = {
-      60901
-    }
+    UnitSpawnId = 60901
   },
   [120321] = {
     ClearCondition = 100,
     RoomId = 120321,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80073
-    }
+    UnitSpawnId = 80073
   },
   [120322] = {
     ClearCondition = 120,
@@ -1115,22 +965,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 205,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [210111] = {
     ClearCondition = 100,
     RoomId = 210111,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210112] = {
     ClearCondition = 120,
@@ -1138,9 +982,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210113] = {
     ClearCondition = 140,
@@ -1148,9 +990,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210114] = {
     ClearCondition = 160,
@@ -1158,9 +998,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210115] = {
     ClearCondition = 50,
@@ -1173,22 +1011,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 135,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210121] = {
     ClearCondition = 100,
     RoomId = 210121,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210122] = {
     ClearCondition = 120,
@@ -1196,9 +1028,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210123] = {
     ClearCondition = 140,
@@ -1206,9 +1036,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210124] = {
     ClearCondition = 160,
@@ -1216,9 +1044,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210125] = {
     ClearCondition = 50,
@@ -1231,22 +1057,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 135,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210211] = {
     ClearCondition = 100,
     RoomId = 210211,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210212] = {
     ClearCondition = 120,
@@ -1254,9 +1074,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210213] = {
     ClearCondition = 140,
@@ -1264,9 +1082,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210214] = {
     ClearCondition = 160,
@@ -1274,9 +1090,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210215] = {
     ClearCondition = 50,
@@ -1289,22 +1103,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 135,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210221] = {
     ClearCondition = 100,
     RoomId = 210221,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210222] = {
     ClearCondition = 120,
@@ -1312,9 +1120,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210223] = {
     ClearCondition = 140,
@@ -1322,9 +1128,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210224] = {
     ClearCondition = 160,
@@ -1332,9 +1136,7 @@ return ReadOnly("AbyssRoom", {
     RoomType = "Default",
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Default.BP_EMGameMode_Abyss_Default",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [210225] = {
     ClearCondition = 50,
@@ -1347,22 +1149,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 135,
-    UnitSpawnId = {
-      90055
-    }
+    UnitSpawnId = 90055
   },
   [211111] = {
     ClearCondition = 100,
     RoomId = 211111,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80073
-    }
+    UnitSpawnId = 80073
   },
   [211112] = {
     ClearCondition = 120,
@@ -1407,22 +1203,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [211121] = {
     ClearCondition = 100,
     RoomId = 211121,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80073
-    }
+    UnitSpawnId = 80073
   },
   [211122] = {
     ClearCondition = 120,
@@ -1467,22 +1257,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [211211] = {
     ClearCondition = 100,
     RoomId = 211211,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70073
-    }
+    UnitSpawnId = 70073
   },
   [211212] = {
     ClearCondition = 120,
@@ -1527,22 +1311,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      70901
-    }
+    UnitSpawnId = 70901
   },
   [211221] = {
     ClearCondition = 100,
     RoomId = 211221,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90073
-    }
+    UnitSpawnId = 90073
   },
   [211222] = {
     ClearCondition = 120,
@@ -1587,22 +1365,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 220,
-    UnitSpawnId = {
-      90901
-    }
+    UnitSpawnId = 90901
   },
   [211311] = {
     ClearCondition = 100,
     RoomId = 211311,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70173
-    }
+    UnitSpawnId = 70173
   },
   [211312] = {
     ClearCondition = 120,
@@ -1647,22 +1419,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 225,
-    UnitSpawnId = {
-      70901
-    }
+    UnitSpawnId = 70901
   },
   [211321] = {
     ClearCondition = 100,
     RoomId = 211321,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90073
-    }
+    UnitSpawnId = 90073
   },
   [211322] = {
     ClearCondition = 120,
@@ -1707,22 +1473,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 205,
-    UnitSpawnId = {
-      90901
-    }
+    UnitSpawnId = 90901
   },
   [220111] = {
     ClearCondition = 100,
     RoomId = 220111,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80073
-    }
+    UnitSpawnId = 80073
   },
   [220112] = {
     ClearCondition = 120,
@@ -1767,22 +1527,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [220121] = {
     ClearCondition = 100,
     RoomId = 220121,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      80073
-    }
+    UnitSpawnId = 80073
   },
   [220122] = {
     ClearCondition = 120,
@@ -1827,22 +1581,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      80901
-    }
+    UnitSpawnId = 80901
   },
   [220211] = {
     ClearCondition = 100,
     RoomId = 220211,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70073
-    }
+    UnitSpawnId = 70073
   },
   [220212] = {
     ClearCondition = 120,
@@ -1887,22 +1635,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 180,
-    UnitSpawnId = {
-      70901
-    }
+    UnitSpawnId = 70901
   },
   [220221] = {
     ClearCondition = 100,
     RoomId = 220221,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90073
-    }
+    UnitSpawnId = 90073
   },
   [220222] = {
     ClearCondition = 120,
@@ -1947,22 +1689,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 220,
-    UnitSpawnId = {
-      90901
-    }
+    UnitSpawnId = 90901
   },
   [220311] = {
     ClearCondition = 100,
     RoomId = 220311,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      70173
-    }
+    UnitSpawnId = 70173
   },
   [220312] = {
     ClearCondition = 120,
@@ -2007,22 +1743,16 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 225,
-    UnitSpawnId = {
-      70901
-    }
+    UnitSpawnId = 70901
   },
   [220321] = {
     ClearCondition = 100,
     RoomId = 220321,
     RoomType = "Default",
-    StaticCreatorId = {
-      201000
-    },
+    StaticCreatorId = 201000,
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_Start.BP_EMGameMode_Abyss_Start",
     TimeLimit = 90,
-    UnitSpawnId = {
-      90073
-    }
+    UnitSpawnId = 90073
   },
   [220322] = {
     ClearCondition = 120,
@@ -2067,8 +1797,6 @@ return ReadOnly("AbyssRoom", {
     },
     SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
     TimeLimit = 205,
-    UnitSpawnId = {
-      90901
-    }
+    UnitSpawnId = 90901
   }
 })

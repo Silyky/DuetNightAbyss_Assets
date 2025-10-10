@@ -75,310 +75,224 @@ return ReadOnly("Target", {
   },
   [1001] = {
     BattleAchiTargetTypeId = 1001,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1001
   },
   [1010] = {
     BattleAchiTargetTypeId = 1010,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1010
   },
   [1011] = {
     BattleAchiTargetTypeId = 1011,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1011
   },
   [1012] = {
     BattleAchiTargetTypeId = 1012,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1012
   },
   [1013] = {
     BattleAchiTargetTypeId = 1013,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1013
   },
   [1014] = {
     BattleAchiTargetTypeId = 1014,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1014
   },
   [1015] = {
     BattleAchiTargetTypeId = 1015,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1015
   },
   [1016] = {
     BattleAchiTargetTypeId = 1016,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1016
   },
   [1017] = {
     BattleAchiTargetTypeId = 1017,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1017
   },
   [1018] = {
     BattleAchiTargetTypeId = 1018,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 1018
   },
   [1021] = {
     BattleAchiTargetTypeId = 1021,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     IndividualRule = "greater",
     TargetId = 1021
   },
   [1022] = {
     BattleAchiTargetTypeId = 1022,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     IndividualRule = "greater",
     TargetId = 1022
   },
   [1023] = {
     BattleAchiTargetTypeId = 1023,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     IndividualRule = "greater",
     TargetId = 1023
   },
   [2000] = {
     BattleAchiTargetTypeId = 2000,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2000
   },
   [2001] = {
     BattleAchiTargetTypeId = 2001,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2001
   },
   [2002] = {
     BattleAchiTargetTypeId = 2002,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2002
   },
   [2003] = {
     BattleAchiTargetTypeId = 2003,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2003
   },
   [2004] = {
     BattleAchiTargetTypeId = 2004,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2004
   },
   [2005] = {
     BattleAchiTargetTypeId = 2005,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2005
   },
   [2006] = {
     BattleAchiTargetTypeId = 2006,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2006
   },
   [2007] = {
     BattleAchiTargetTypeId = 2007,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2007
   },
   [2008] = {
     BattleAchiTargetTypeId = 2008,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2008
   },
   [2011] = {
     BattleAchiTargetTypeId = 2011,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2011
   },
   [2012] = {
     BattleAchiTargetTypeId = 2012,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2012
   },
   [2013] = {
     BattleAchiTargetTypeId = 2013,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2013
   },
   [2014] = {
     BattleAchiTargetTypeId = 2014,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2014
   },
   [2015] = {
     BattleAchiTargetTypeId = 2015,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2015
   },
   [2016] = {
     BattleAchiTargetTypeId = 2016,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2016
   },
   [2017] = {
     BattleAchiTargetTypeId = 2017,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2017
   },
   [2021] = {
     BattleAchiTargetTypeId = 2021,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     IndividualRule = "greater",
     TargetId = 2021
   },
   [2022] = {
     BattleAchiTargetTypeId = 2022,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     IndividualRule = "greater",
     TargetId = 2022
   },
   [2023] = {
     BattleAchiTargetTypeId = 2023,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     IndividualRule = "greater",
     TargetId = 2023
   },
   [2024] = {
     BattleAchiTargetTypeId = 2024,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     IndividualRule = "greater",
     TargetId = 2024
   },
   [2031] = {
     BattleAchiTargetTypeId = 2031,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2031
   },
   [2032] = {
     BattleAchiTargetTypeId = 2032,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2032
   },
   [2033] = {
     BattleAchiTargetTypeId = 2033,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2033
   },
   [2041] = {
     BattleAchiTargetTypeId = 2041,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2041
   },
   [2042] = {
     BattleAchiTargetTypeId = 2042,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2042
   },
   [2043] = {
     BattleAchiTargetTypeId = 2043,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2043
   },
   [2044] = {
     BattleAchiTargetTypeId = 2044,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2044
   },
   [2045] = {
     BattleAchiTargetTypeId = 2045,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2045
   },
   [2046] = {
     BattleAchiTargetTypeId = 2046,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2046
   },
   [2047] = {
     BattleAchiTargetTypeId = 2047,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2047
   },
   [2051] = {
@@ -402,86 +316,62 @@ return ReadOnly("Target", {
   },
   [2101] = {
     BattleAchiTargetTypeId = 2101,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2101
   },
   [2102] = {
     BattleAchiTargetTypeId = 2102,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2102
   },
   [2103] = {
     BattleAchiTargetTypeId = 2103,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2103
   },
   [2104] = {
     BattleAchiTargetTypeId = 2104,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2104
   },
   [2105] = {
     BattleAchiTargetTypeId = 2105,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2105
   },
   [2106] = {
     BattleAchiTargetTypeId = 2106,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2106
   },
   [2107] = {
     BattleAchiTargetTypeId = 2107,
-    ConditionId = {
-      1000006
-    },
+    ConditionId = 1000006,
     TargetId = 2107
   },
   [2201] = {
     BattleAchiTargetTypeId = 2201,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2201
   },
   [2202] = {
     BattleAchiTargetTypeId = 2202,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2202
   },
   [2203] = {
     BattleAchiTargetTypeId = 2203,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2203
   },
   [2204] = {
     BattleAchiTargetTypeId = 2204,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2204
   },
   [2205] = {
     BattleAchiTargetTypeId = 2205,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 2205
   },
   [3001] = {
@@ -492,168 +382,122 @@ return ReadOnly("Target", {
   },
   [3011] = {
     BattleAchiTargetTypeId = 3011,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3011
   },
   [3012] = {
     BattleAchiTargetTypeId = 3012,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3012
   },
   [3021] = {
     BattleAchiTargetTypeId = 3021,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3021
   },
   [3031] = {
     BattleAchiTargetTypeId = 3031,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3031
   },
   [3032] = {
     BattleAchiTargetTypeId = 3032,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3032
   },
   [3033] = {
     BattleAchiTargetTypeId = 3033,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3033
   },
   [3034] = {
     BattleAchiTargetTypeId = 3034,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3034
   },
   [3035] = {
     BattleAchiTargetTypeId = 3035,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3035
   },
   [3036] = {
     BattleAchiTargetTypeId = 3036,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3036
   },
   [3041] = {
     BattleAchiTargetTypeId = 3041,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3041
   },
   [3042] = {
     BattleAchiTargetTypeId = 3042,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3042
   },
   [3043] = {
     BattleAchiTargetTypeId = 3043,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3043
   },
   [3044] = {
     BattleAchiTargetTypeId = 3044,
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 3044
   },
   [5001] = {
     BattleAchiTargetTypeId = 5001,
-    ConditionId = {
-      1000151
-    },
+    ConditionId = 1000151,
     IndividualRule = "less",
     TargetId = 5001
   },
   [5002] = {
     BattleAchiTargetTypeId = 5001,
-    ConditionId = {
-      1000152
-    },
+    ConditionId = 1000152,
     IndividualRule = "less",
     TargetId = 5002
   },
   [5003] = {
     BattleAchiTargetTypeId = 5001,
-    ConditionId = {
-      1000153
-    },
+    ConditionId = 1000153,
     IndividualRule = "less",
     TargetId = 5003
   },
   [5004] = {
     BattleAchiTargetTypeId = 5001,
-    ConditionId = {
-      1000154
-    },
+    ConditionId = 1000154,
     IndividualRule = "less",
     TargetId = 5004
   },
   [5005] = {
     BattleAchiTargetTypeId = 5001,
-    ConditionId = {
-      1000155
-    },
+    ConditionId = 1000155,
     IndividualRule = "less",
     TargetId = 5005
   },
   [5011] = {
     BattleAchiTargetTypeId = 5011,
-    ConditionId = {
-      1000151
-    },
+    ConditionId = 1000151,
     TargetId = 5011
   },
   [5012] = {
     BattleAchiTargetTypeId = 5011,
-    ConditionId = {
-      1000152
-    },
+    ConditionId = 1000152,
     TargetId = 5012
   },
   [5013] = {
     BattleAchiTargetTypeId = 5011,
-    ConditionId = {
-      1000153
-    },
+    ConditionId = 1000153,
     TargetId = 5013
   },
   [5014] = {
     BattleAchiTargetTypeId = 5011,
-    ConditionId = {
-      1000154
-    },
+    ConditionId = 1000154,
     TargetId = 5014
   },
   [5015] = {
     BattleAchiTargetTypeId = 5011,
-    ConditionId = {
-      1000155
-    },
+    ConditionId = 1000155,
     TargetId = 5015
   },
   [5021] = {
@@ -750,58 +594,42 @@ return ReadOnly("Target", {
   },
   [5051] = {
     BattleAchiTargetTypeId = 5041,
-    ConditionId = {
-      1000151
-    },
+    ConditionId = 1000151,
     TargetId = 5051
   },
   [5052] = {
     BattleAchiTargetTypeId = 5041,
-    ConditionId = {
-      1000152
-    },
+    ConditionId = 1000152,
     TargetId = 5052
   },
   [5053] = {
     BattleAchiTargetTypeId = 5041,
-    ConditionId = {
-      1000153
-    },
+    ConditionId = 1000153,
     TargetId = 5053
   },
   [5054] = {
     BattleAchiTargetTypeId = 5041,
-    ConditionId = {
-      1000154
-    },
+    ConditionId = 1000154,
     TargetId = 5054
   },
   [5055] = {
     BattleAchiTargetTypeId = 5041,
-    ConditionId = {
-      1000155
-    },
+    ConditionId = 1000155,
     TargetId = 5055
   },
   [5071] = {
     BattleAchiTargetTypeId = 5051,
-    ConditionId = {
-      1000151
-    },
+    ConditionId = 1000151,
     TargetId = 5071
   },
   [5072] = {
     BattleAchiTargetTypeId = 5052,
-    ConditionId = {
-      1000152
-    },
+    ConditionId = 1000152,
     TargetId = 5072
   },
   [5073] = {
     BattleAchiTargetTypeId = 5053,
-    ConditionId = {
-      1000153
-    },
+    ConditionId = 1000153,
     IndividualRule = "less",
     TargetId = 5073
   },
@@ -836,16 +664,12 @@ return ReadOnly("Target", {
     TargetId = 5095
   },
   [9000] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9000,
     TargetType = 9001
   },
   [9001] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9001,
     TargetParam = {
       [1] = {
@@ -861,9 +685,7 @@ return ReadOnly("Target", {
     TargetType = 9001
   },
   [9002] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9002,
     TargetParam = {
       [1] = {
@@ -878,9 +700,7 @@ return ReadOnly("Target", {
     TargetType = 9001
   },
   [9003] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9003,
     TargetParam = {
       [1] = {
@@ -891,9 +711,7 @@ return ReadOnly("Target", {
     TargetType = 9001
   },
   [9004] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9004,
     TargetParam = {
       [1] = {
@@ -904,16 +722,12 @@ return ReadOnly("Target", {
     TargetType = 9001
   },
   [9100] = {
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 9100,
     TargetType = 9002
   },
   [9101] = {
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 9101,
     TargetParam = {
       [1] = {
@@ -923,9 +737,7 @@ return ReadOnly("Target", {
     TargetType = 9002
   },
   [9102] = {
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 9102,
     TargetParam = {
       [1] = {
@@ -935,9 +747,7 @@ return ReadOnly("Target", {
     TargetType = 9002
   },
   [9103] = {
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 9103,
     TargetParam = {
       [1] = {
@@ -947,9 +757,7 @@ return ReadOnly("Target", {
     TargetType = 9002
   },
   [9104] = {
-    ConditionId = {
-      1000051
-    },
+    ConditionId = 1000051,
     TargetId = 9104,
     TargetParam = {
       [1] = {
@@ -959,9 +767,7 @@ return ReadOnly("Target", {
     TargetType = 9002
   },
   [9111] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9111,
     TargetParam = {
       [1] = {
@@ -971,9 +777,7 @@ return ReadOnly("Target", {
     TargetType = 9005
   },
   [9112] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9112,
     TargetParam = {
       [1] = {
@@ -983,32 +787,24 @@ return ReadOnly("Target", {
     TargetType = 9005
   },
   [9121] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9121,
     TargetType = 9006
   },
   [9122] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9122,
     TargetType = 9007
   },
   [9123] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9123,
     TargetType = 9008
   },
   [9201] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9201,
     TargetParam = {
       [1] = {
@@ -1018,9 +814,7 @@ return ReadOnly("Target", {
     TargetType = 9003
   },
   [9202] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9202,
     TargetParam = {
       [1] = {
@@ -1030,9 +824,7 @@ return ReadOnly("Target", {
     TargetType = 9003
   },
   [9203] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9203,
     TargetParam = {
       [1] = {
@@ -1042,9 +834,7 @@ return ReadOnly("Target", {
     TargetType = 9003
   },
   [9204] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9204,
     TargetParam = {
       [1] = {
@@ -1054,9 +844,7 @@ return ReadOnly("Target", {
     TargetType = 9003
   },
   [9205] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9205,
     TargetParam = {
       [1] = {
@@ -1066,9 +854,7 @@ return ReadOnly("Target", {
     TargetType = 9003
   },
   [9206] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9206,
     TargetParam = {
       [1] = {
@@ -1078,9 +864,7 @@ return ReadOnly("Target", {
     TargetType = 9003
   },
   [9207] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9207,
     TargetParam = {
       [1] = {
@@ -1090,131 +874,97 @@ return ReadOnly("Target", {
     TargetType = 9003
   },
   [9300] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9300,
     TargetType = 9004
   },
   [9400] = {
     BattleAchiTargetTypeId = 1001,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9400
   },
   [9401] = {
     BattleAchiTargetTypeId = 1024,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9401
   },
   [9402] = {
     BattleAchiTargetTypeId = 1025,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9402
   },
   [9403] = {
     BattleAchiTargetTypeId = 1026,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9403
   },
   [9404] = {
     BattleAchiTargetTypeId = 1027,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9404
   },
   [9405] = {
     BattleAchiTargetTypeId = 1028,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9405
   },
   [9406] = {
     BattleAchiTargetTypeId = 1023,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9406
   },
   [9411] = {
     BattleAchiTargetTypeId = 1010,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9411
   },
   [9412] = {
     BattleAchiTargetTypeId = 1011,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9412
   },
   [9413] = {
     BattleAchiTargetTypeId = 1012,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9413
   },
   [9414] = {
     BattleAchiTargetTypeId = 1013,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9414
   },
   [9415] = {
     BattleAchiTargetTypeId = 1014,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9415
   },
   [9416] = {
     BattleAchiTargetTypeId = 1015,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     IndividualRule = "greater",
     TargetId = 9416
   },
   [9421] = {
     BattleAchiTargetTypeId = 2000,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9421
   },
   [9422] = {
     BattleAchiTargetTypeId = 2004,
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9422
   },
   [9500] = {
-    ConditionId = {
-      1000012
-    },
+    ConditionId = 1000012,
     TargetId = 9500,
     TargetParam = {
       [1] = {

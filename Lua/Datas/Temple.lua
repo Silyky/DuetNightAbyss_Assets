@@ -1,9 +1,7 @@
 return ReadOnly("Temple", {
   [21] = {
     DungeonId = 21,
-    RewardId = {
-      7101
-    },
+    RewardId = 7101,
     SucRule = "Time",
     UIHideCombo = 1
   },
@@ -400,42 +398,32 @@ return ReadOnly("Temple", {
   },
   [80701] = {
     DungeonId = 80701,
-    RewardId = {
-      7101
-    },
+    RewardId = 7101,
     SucRule = "Time",
     UIHideCombo = 1
   },
   [80702] = {
     DungeonId = 80702,
-    RewardId = {
-      7101
-    },
+    RewardId = 7101,
     SucRule = "Time",
     UIHideCombo = 1
   },
   [80703] = {
     DungeonId = 80703,
-    RewardId = {
-      7101
-    },
+    RewardId = 7101,
     SucRule = "Time",
     UIHideCombo = 1
   },
   [80704] = {
     DungeonId = 80704,
-    RewardId = {
-      7101
-    },
+    RewardId = 7101,
     SucRule = "Time",
     UIHideCombo = 1,
     UIShowType = 1
   },
   [80705] = {
     DungeonId = 80705,
-    RewardId = {
-      7101
-    },
+    RewardId = 7101,
     SucRule = "Time",
     UIHideCombo = 1,
     UIShowType = 1
@@ -693,9 +681,7 @@ return ReadOnly("Temple", {
   [81204] = {
     DungeonId = 81204,
     RatingRange = {4000},
-    RewardId = {
-      7101
-    },
+    RewardId = 7101,
     SucRule = "Score",
     UIHideCombo = 1,
     UIHideFailCond = 1

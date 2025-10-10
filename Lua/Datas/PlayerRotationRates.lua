@@ -7,9 +7,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   AvoidMaintainTime = {
     ParamentName = "AvoidMaintainTime",
-    ParamentValue = {
-      1
-    }
+    ParamentValue = 1
   },
   AvoidSpeed = {
     ParamentName = "AvoidSpeed",
@@ -55,9 +53,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   BulletJumpDashVelocity = {
     ParamentName = "BulletJumpDashVelocity",
-    ParamentValue = {
-      1200
-    }
+    ParamentValue = 1200
   },
   BulletJumpPreparedTime = {
     ParamentName = "BulletJumpPreparedTime",
@@ -67,9 +63,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   BulletJumpProtectAngle = {
     ParamentName = "BulletJumpProtectAngle",
-    ParamentValue = {
-      20
-    }
+    ParamentValue = 20
   },
   BulletJumpRecoverGravityTime = {
     ParamentName = "BulletJumpRecoverGravityTime",
@@ -83,15 +77,11 @@ return ReadOnly("PlayerRotationRates", {
   },
   BulletJumpZVelocity = {
     ParamentName = "BulletJumpZVelocity",
-    ParamentValue = {
-      500
-    }
+    ParamentValue = 500
   },
   BulletPrepareJumpDashVelocity = {
     ParamentName = "BulletPrepareJumpDashVelocity",
-    ParamentValue = {
-      1200
-    }
+    ParamentValue = 1200
   },
   BulletPrepareJumpZVelocity = {
     ParamentName = "BulletPrepareJumpZVelocity",
@@ -135,9 +125,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   FirstJumpZVelocity = {
     ParamentName = "FirstJumpZVelocity",
-    ParamentValue = {
-      1000
-    }
+    ParamentValue = 1000
   },
   Flying = {
     ParamentName = "Flying",
@@ -165,9 +153,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   HeavyHitCD = {
     ParamentName = "HeavyHitCD",
-    ParamentValue = {
-      3
-    }
+    ParamentValue = 3
   },
   HeavyHitTime = {
     ParamentName = "HeavyHitTime",
@@ -195,15 +181,11 @@ return ReadOnly("PlayerRotationRates", {
   },
   HitRepelCD = {
     ParamentName = "HitRepelCD",
-    ParamentValue = {
-      3
-    }
+    ParamentValue = 3
   },
   HitRepelTime = {
     ParamentName = "HitRepelTime",
-    ParamentValue = {
-      3
-    }
+    ParamentValue = 3
   },
   InAir = {
     ParamentName = "InAir",
@@ -225,39 +207,27 @@ return ReadOnly("PlayerRotationRates", {
   },
   LightHitRangedTime = {
     ParamentName = "LightHitRangedTime",
-    ParamentValue = {
-      1
-    }
+    ParamentValue = 1
   },
   LightHitTime = {
     ParamentName = "LightHitTime",
-    ParamentValue = {
-      1
-    }
+    ParamentValue = 1
   },
   MaxDyingTime = {
     ParamentName = "MaxDyingTime",
-    ParamentValue = {
-      20
-    }
+    ParamentValue = 20
   },
   MaxInheritSpeed = {
     ParamentName = "MaxInheritSpeed",
-    ParamentValue = {
-      900
-    }
+    ParamentValue = 900
   },
   MaxRecoveringPlayer = {
     ParamentName = "MaxRecoveringPlayer",
-    ParamentValue = {
-      3
-    }
+    ParamentValue = 3
   },
   MaxWallJumpCount = {
     ParamentName = "MaxWallJumpCount",
-    ParamentValue = {
-      1000
-    }
+    ParamentValue = 1000
   },
   MinPercentToHit = {
     ParamentName = "MinPercentToHit",
@@ -267,9 +237,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   NormalWalkSpeed = {
     ParamentName = "NormalWalkSpeed",
-    ParamentValue = {
-      500
-    }
+    ParamentValue = 500
   },
   OnGround = {
     ParamentName = "OnGround",
@@ -281,9 +249,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   RecoverySpeed = {
     ParamentName = "RecoverySpeed",
-    ParamentValue = {
-      20
-    }
+    ParamentValue = 20
   },
   RegionRecoverySpeed = {
     ParamentName = "RegionRecoverySpeed",
@@ -315,9 +281,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   RideMoveMinVelocity = {
     ParamentName = "RideMoveMinVelocity",
-    ParamentValue = {
-      500
-    }
+    ParamentValue = 500
   },
   RideSprintTime = {
     ParamentName = "RideSprintTime",
@@ -349,9 +313,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   SecondJumpZVelocity = {
     ParamentName = "SecondJumpZVelocity",
-    ParamentValue = {
-      1200
-    }
+    ParamentValue = 1200
   },
   Shooting = {
     ParamentName = "Shooting",
@@ -377,33 +339,23 @@ return ReadOnly("PlayerRotationRates", {
   },
   SlideInAirFriction = {
     ParamentName = "SlideInAirFriction",
-    ParamentValue = {
-      0
-    }
+    ParamentValue = 0
   },
   SlideLaunchDelay = {
     ParamentName = "SlideLaunchDelay",
-    ParamentValue = {
-      0
-    }
+    ParamentValue = 0
   },
   SlideMaintainTime = {
     ParamentName = "SlideMaintainTime",
-    ParamentValue = {
-      0
-    }
+    ParamentValue = 0
   },
   SlideSpeed = {
     ParamentName = "SlideSpeed",
-    ParamentValue = {
-      900
-    }
+    ParamentValue = 900
   },
   SlideSpeedInAir = {
     ParamentName = "SlideSpeedInAir",
-    ParamentValue = {
-      900
-    }
+    ParamentValue = 900
   },
   SlideStart = {
     ParamentName = "SlideStart",
@@ -433,9 +385,7 @@ return ReadOnly("PlayerRotationRates", {
   },
   SprintTurnColdTime = {
     ParamentName = "SprintTurnColdTime",
-    ParamentValue = {
-      1
-    }
+    ParamentValue = 1
   },
   SprintTurnFinTime = {
     ParamentName = "SprintTurnFinTime",
@@ -453,15 +403,11 @@ return ReadOnly("PlayerRotationRates", {
   },
   StopAvoidTime = {
     ParamentName = "StopAvoidTime",
-    ParamentValue = {
-      1
-    }
+    ParamentValue = 1
   },
   StopSlideTime = {
     ParamentName = "StopSlideTime",
-    ParamentValue = {
-      1
-    }
+    ParamentValue = 1
   },
   StunToIdleBlendTime = {
     ParamentName = "StunToIdleBlendTime",
@@ -493,8 +439,6 @@ return ReadOnly("PlayerRotationRates", {
   },
   WallJumpZSpeed = {
     ParamentName = "WallJumpZSpeed",
-    ParamentValue = {
-      1000
-    }
+    ParamentValue = 1000
   }
 })

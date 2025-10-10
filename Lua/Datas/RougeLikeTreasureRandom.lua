@@ -10,9 +10,7 @@ return ReadOnly("RougeLikeTreasureRandom", {
     },
     RandomType = 1,
     TreasureRandom = 1,
-    TreasureRarity = {
-      1
-    }
+    TreasureRarity = 1
   },
   [2] = {
     ExcludeGroup = {
@@ -24,9 +22,7 @@ return ReadOnly("RougeLikeTreasureRandom", {
     },
     RandomType = 1,
     TreasureRandom = 2,
-    TreasureRarity = {
-      2
-    }
+    TreasureRarity = 2
   },
   [3] = {
     ExcludeGroup = {
@@ -38,9 +34,7 @@ return ReadOnly("RougeLikeTreasureRandom", {
     },
     RandomType = 1,
     TreasureRandom = 3,
-    TreasureRarity = {
-      3
-    }
+    TreasureRarity = 3
   },
   [4] = {
     ExcludeGroup = {
@@ -143,9 +137,7 @@ return ReadOnly("RougeLikeTreasureRandom", {
     },
     RandomType = 2,
     TreasureRandom = 10,
-    TreasureRarity = {
-      1
-    }
+    TreasureRarity = 1
   },
   [11] = {
     ExcludeGroup = {
@@ -156,9 +148,7 @@ return ReadOnly("RougeLikeTreasureRandom", {
     },
     RandomType = 2,
     TreasureRandom = 11,
-    TreasureRarity = {
-      2
-    }
+    TreasureRarity = 2
   },
   [12] = {
     ExcludeGroup = {
@@ -169,9 +159,7 @@ return ReadOnly("RougeLikeTreasureRandom", {
     },
     RandomType = 2,
     TreasureRandom = 12,
-    TreasureRarity = {
-      3
-    }
+    TreasureRarity = 3
   },
   [13] = {
     ExcludeGroup = {
@@ -365,9 +353,7 @@ return ReadOnly("RougeLikeTreasureRandom", {
     },
     RandomType = 1,
     TreasureRandom = 24,
-    TreasureRarity = {
-      3
-    }
+    TreasureRarity = 3
   },
   [25] = {
     LimitGroup = {10108},
@@ -393,8 +379,6 @@ return ReadOnly("RougeLikeTreasureRandom", {
     LimitGroup = {10310},
     RandomType = 2,
     TreasureRandom = 27,
-    TreasureRarity = {
-      3
-    }
+    TreasureRarity = 3
   }
 })

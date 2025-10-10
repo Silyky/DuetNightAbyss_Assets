@@ -1,8 +1,6 @@
 return ReadOnly("AbyssDungeon", {
   [2011011] = {
-    AbyssBuffID = {
-      30
-    },
+    AbyssBuffID = 30,
     AbyssDungeonId = 2011011,
     DungeonId = 20101,
     DungeonMonsters = {
@@ -25,9 +23,7 @@ return ReadOnly("AbyssDungeon", {
     }
   },
   [2011012] = {
-    AbyssBuffID = {
-      30
-    },
+    AbyssBuffID = 30,
     AbyssDungeonId = 2011012,
     DungeonId = 20201,
     DungeonMonsters = {
@@ -52,9 +48,7 @@ return ReadOnly("AbyssDungeon", {
     }
   },
   [2011021] = {
-    AbyssBuffID = {
-      30
-    },
+    AbyssBuffID = 30,
     AbyssDungeonId = 2011021,
     DungeonId = 20101,
     DungeonMonsters = {
@@ -77,9 +71,7 @@ return ReadOnly("AbyssDungeon", {
     }
   },
   [2011022] = {
-    AbyssBuffID = {
-      30
-    },
+    AbyssBuffID = 30,
     AbyssDungeonId = 2011022,
     DungeonId = 20201,
     DungeonMonsters = {

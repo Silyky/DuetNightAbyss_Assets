@@ -20,9 +20,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter2 = "Character",
     JumpParameter3 = "Attr",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [5] = {
@@ -75,18 +73,14 @@ return ReadOnly("InterfaceJump", {
     InterfaceJumpId = 13,
     JumpParameter1 = "JumpToRougeMain",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4170
-    },
+    PortalUnlockCondition = 4170,
     PortalUnlockTips = "UI_Locked_Des_Rouge"
   },
   [14] = {
     InterfaceJumpId = 14,
     JumpParameter1 = "AbyssMain",
     JumpType = "MereJump",
-    PortalUnlockCondition = {
-      8002
-    },
+    PortalUnlockCondition = 8002,
     PortalUnlockTips = "UI_Locked_Des_Abyss"
   },
   [15] = {
@@ -172,9 +166,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "Shop",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4030
-    },
+    PortalUnlockCondition = 4030,
     PortalUnlockTips = "UI_Locked_Des_Shop"
   },
   [27] = {
@@ -185,9 +177,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "160201",
     JumpParameter5 = "Shop",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4030
-    },
+    PortalUnlockCondition = 4030,
     PortalUnlockTips = "UI_Locked_Des_Shop"
   },
   [28] = {
@@ -198,9 +188,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "AbyssShop",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      8002
-    },
+    PortalUnlockCondition = 8002,
     PortalUnlockTips = "UI_Locked_Des_AbyssShop"
   },
   [29] = {
@@ -242,9 +230,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "Shop",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4030
-    },
+    PortalUnlockCondition = 4030,
     PortalUnlockTips = "UI_Locked_Des_Shop"
   },
   [34] = {
@@ -287,9 +273,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "True",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      3003
-    },
+    PortalUnlockCondition = 3003,
     PortalUnlockTips = "UI_Locked_Des_CurrentComission"
   },
   [39] = {
@@ -300,9 +284,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "True",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      3003
-    },
+    PortalUnlockCondition = 3003,
     PortalUnlockTips = "UI_Locked_Des_CurrentComission"
   },
   [40] = {
@@ -313,9 +295,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "True",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      3003
-    },
+    PortalUnlockCondition = 3003,
     PortalUnlockTips = "UI_Locked_Des_CurrentComission"
   },
   [41] = {
@@ -326,9 +306,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "True",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      3002
-    },
+    PortalUnlockCondition = 3002,
     PortalUnlockTips = "UI_Locked_Des_CurrentComission"
   },
   [42] = {
@@ -339,9 +317,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "True",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      3002
-    },
+    PortalUnlockCondition = 3002,
     PortalUnlockTips = "UI_Locked_Des_CurrentComission"
   },
   [43] = {
@@ -352,9 +328,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "True",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      3002
-    },
+    PortalUnlockCondition = 3002,
     PortalUnlockTips = "UI_Locked_Des_CurrentComission"
   },
   [44] = {
@@ -411,9 +385,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter2 = "Character",
     JumpParameter3 = "Skill",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [49] = {
@@ -422,9 +394,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter2 = "MeeleWeapon",
     JumpParameter3 = "Attr",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [50] = {
@@ -442,9 +412,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter2 = "MeeleWeapon",
     JumpParameter3 = "Accessory",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [52] = {
@@ -453,9 +421,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter2 = "RangedWeapon",
     JumpParameter3 = "Attr",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [53] = {
@@ -476,9 +442,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "Rouge",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4170
-    },
+    PortalUnlockCondition = 4170,
     PortalUnlockTips = "UI_Locked_Des_Rouge"
   },
   [56] = {
@@ -498,9 +462,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "Shop",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4030
-    },
+    PortalUnlockCondition = 4030,
     PortalUnlockTips = "UI_Locked_Des_Shop"
   },
   [58] = {
@@ -543,9 +505,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter4 = "nil",
     JumpParameter5 = "Shop",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4030
-    }
+    PortalUnlockCondition = 4030
   },
   [63] = {
     InterfaceJumpId = 63,
@@ -576,9 +536,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "1101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [1103] = {
@@ -588,9 +546,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "1103.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [1501] = {
@@ -600,9 +556,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "1501.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [1502] = {
@@ -612,9 +566,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "1502.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [1503] = {
@@ -624,9 +576,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "1503.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [1601] = {
@@ -636,9 +586,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "1601.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [1801] = {
@@ -648,9 +596,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "1801.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [2101] = {
@@ -660,9 +606,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "2101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [2301] = {
@@ -672,9 +616,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "2301.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [2401] = {
@@ -684,9 +626,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "2401.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [3101] = {
@@ -696,9 +636,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "3101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [3102] = {
@@ -708,9 +646,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "3102.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [3103] = {
@@ -720,9 +656,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "3103.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [3201] = {
@@ -732,9 +666,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "3201.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [3301] = {
@@ -744,9 +676,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "3301.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [4101] = {
@@ -756,9 +686,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "4101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [4102] = {
@@ -768,9 +696,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "4102.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [4201] = {
@@ -780,9 +706,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "4201.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [4202] = {
@@ -792,9 +716,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "4202.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [4301] = {
@@ -804,9 +726,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "4301.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [5101] = {
@@ -816,9 +736,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "5101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [5102] = {
@@ -828,9 +746,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "5102.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [5301] = {
@@ -840,9 +756,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "5301.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [5401] = {
@@ -852,9 +766,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "5401.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10101] = {
@@ -864,9 +776,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10102] = {
@@ -876,9 +786,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10102.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10103] = {
@@ -888,9 +796,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10103.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10104] = {
@@ -900,9 +806,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10104.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10105] = {
@@ -912,9 +816,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10105.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10201] = {
@@ -924,9 +826,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10201.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10202] = {
@@ -936,9 +836,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10202.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10203] = {
@@ -948,9 +846,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10203.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10204] = {
@@ -960,9 +856,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10204.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10206] = {
@@ -972,9 +866,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10206.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10301] = {
@@ -984,9 +876,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10301.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10302] = {
@@ -996,9 +886,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10302.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10303] = {
@@ -1008,9 +896,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10303.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10304] = {
@@ -1020,9 +906,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10304.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10401] = {
@@ -1032,9 +916,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10401.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10402] = {
@@ -1044,9 +926,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10402.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10403] = {
@@ -1056,9 +936,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10403.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10501] = {
@@ -1068,9 +946,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10501.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10502] = {
@@ -1080,9 +956,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10502.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10503] = {
@@ -1092,9 +966,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10503.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10504] = {
@@ -1104,9 +976,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10504.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10601] = {
@@ -1116,9 +986,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10601.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10602] = {
@@ -1128,9 +996,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10602.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [10603] = {
@@ -1140,9 +1006,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "10603.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20101] = {
@@ -1152,9 +1016,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20102] = {
@@ -1164,9 +1026,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20102.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20103] = {
@@ -1176,9 +1036,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20103.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20201] = {
@@ -1188,9 +1046,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20201.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20203] = {
@@ -1200,9 +1056,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20203.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20205] = {
@@ -1212,9 +1066,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20205.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20301] = {
@@ -1224,9 +1076,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20301.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20302] = {
@@ -1236,9 +1086,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20302.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20303] = {
@@ -1248,9 +1096,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20303.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20304] = {
@@ -1260,9 +1106,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20304.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20305] = {
@@ -1272,9 +1116,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20305.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20401] = {
@@ -1284,9 +1126,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20401.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20402] = {
@@ -1296,9 +1136,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20402.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20403] = {
@@ -1308,9 +1146,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20403.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20405] = {
@@ -1320,9 +1156,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20405.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20501] = {
@@ -1332,9 +1166,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20501.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20502] = {
@@ -1344,9 +1176,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20502.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20503] = {
@@ -1356,9 +1186,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20503.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20504] = {
@@ -1368,9 +1196,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20504.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20507] = {
@@ -1380,9 +1206,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20507.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20509] = {
@@ -1392,9 +1216,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20509.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20510] = {
@@ -1404,9 +1226,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20510.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20601] = {
@@ -1416,9 +1236,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20601.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20602] = {
@@ -1428,9 +1246,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20602.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20603] = {
@@ -1440,9 +1256,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20603.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [20604] = {
@@ -1452,9 +1266,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "20604.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   },
   [160101] = {
@@ -1464,9 +1276,7 @@ return ReadOnly("InterfaceJump", {
     JumpParameter3 = "Mod",
     JumpParameter4 = "160101.0",
     JumpType = "SelfDefinedJump",
-    PortalUnlockCondition = {
-      4020
-    },
+    PortalUnlockCondition = 4020,
     PortalUnlockTips = "UI_Locked_Des_Armory"
   }
 })

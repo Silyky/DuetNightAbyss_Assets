@@ -222,9 +222,7 @@ return ReadOnly("Buff", {
       Shooting = 4010101
     },
     BuffId = 90,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     DisableSkills = {
       "FallAttack",
       "HeavyAttack",
@@ -243,9 +241,7 @@ return ReadOnly("Buff", {
       Shooting = 91
     },
     BuffId = 91,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     DisableSkills = {
       "FallAttack",
       "HeavyAttack",
@@ -264,9 +260,7 @@ return ReadOnly("Buff", {
       Shooting = 4010201
     },
     BuffId = 92,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     DisableSkills = {
       "FallAttack",
       "HeavyAttack",
@@ -288,9 +282,7 @@ return ReadOnly("Buff", {
       Value = -0.3
     },
     BuffId = 96,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -561,9 +553,7 @@ return ReadOnly("Buff", {
     Priority = 100,
     SetCharacterTag = "Stun",
     StunType = "StunParalysis",
-    VisualEffects = {
-      600012
-    }
+    VisualEffects = 600012
   },
   [204] = {
     BuffId = 204,
@@ -595,9 +585,7 @@ return ReadOnly("Buff", {
         Value = -0.8
       }
     },
-    BuffEffects = {
-      2031
-    },
+    BuffEffects = 2031,
     BuffId = 206,
     BuffType = {
       20, 42
@@ -625,9 +613,7 @@ return ReadOnly("Buff", {
       11, 60
     },
     BuffTypeImgPath = "Invincible",
-    ForbidBuffType = {
-      41
-    },
+    ForbidBuffType = 41,
     FresnelParams = {
       FresnelColor = {
         1,
@@ -686,9 +672,7 @@ return ReadOnly("Buff", {
         Value = 1
       }
     },
-    BuffEffects = {
-      1000
-    },
+    BuffEffects = 1000,
     BuffId = 303,
     BuffType = {
       11, 62
@@ -744,9 +728,7 @@ return ReadOnly("Buff", {
     BuffType = {
       11, 60
     },
-    ForbidBuffType = {
-      41
-    },
+    ForbidBuffType = 41,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     NotEnterCharacterTagType = {
@@ -763,9 +745,7 @@ return ReadOnly("Buff", {
       60,
       61
     },
-    ForbidBuffType = {
-      41
-    },
+    ForbidBuffType = 41,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     NotEnterCharacterTagType = {
@@ -800,9 +780,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4022},
     BuffId = 402,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -813,9 +791,7 @@ return ReadOnly("Buff", {
       Value = "#1"
     },
     BuffId = 406,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Damage_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -827,9 +803,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4081},
     BuffId = 408,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -838,9 +812,7 @@ return ReadOnly("Buff", {
   [409] = {
     BuffEffects = {4091},
     BuffId = 409,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -864,9 +836,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 411,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Def_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -880,9 +850,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4122},
     BuffId = 412,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -896,9 +864,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 413,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Sustain_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -912,9 +878,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4152},
     BuffId = 415,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Def_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -930,9 +894,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 416,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Def_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -947,9 +909,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4212},
     BuffId = 421,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Morale",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -966,9 +926,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4222},
     BuffId = 422,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -984,9 +942,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4232},
     BuffId = 423,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Multishoot_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1003,9 +959,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4242},
     BuffId = 424,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1020,9 +974,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {4252},
     BuffId = 425,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Berserk",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1036,14 +988,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      206
-    },
+    AddPassiveEffect = 206,
     BuffEffects = {4262},
     BuffId = 426,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "BonusDmg_Light",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1150,9 +1098,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1311,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 15,
@@ -1167,9 +1113,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1312,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1184,9 +1128,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1313,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1201,9 +1143,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1314,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 20,
@@ -1219,9 +1159,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1315,
-    BuffType = {
-      6000206
-    },
+    BuffType = 6000206,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -1307,9 +1245,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1911,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Cri_Up",
     IsShowInBillboard = true,
     MaxLayer = 15,
@@ -1326,9 +1262,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1922,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -1341,9 +1275,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1931,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 120,
@@ -1360,9 +1292,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1941,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 8,
@@ -1377,9 +1307,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1951,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1393,9 +1321,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1952,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Berserk",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -1433,16 +1359,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1024
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1024,
     BuffId = 2301,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Cri_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -1457,16 +1377,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1022
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1022,
     BuffId = 2302,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Trigger_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -1480,16 +1394,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1021
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1021,
     BuffId = 2311,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 2,
@@ -1504,9 +1412,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2312,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1519,16 +1425,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1025
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1025,
     BuffId = 2321,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Crd_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -1542,14 +1442,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
+    AddPassiveEffect = 104,
     BuffEffects = {1026},
     BuffId = 2322,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Range_Up",
     IsShowInBillboard = true,
     MaxLayer = 2,
@@ -1563,16 +1459,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1021
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1021,
     BuffId = 3301,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1585,16 +1475,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1025
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1025,
     BuffId = 3311,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Crd_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1607,16 +1491,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1022
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1022,
     BuffId = 3321,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Trigger_Up",
     IsShowInBillboard = true,
     MaxLayer = 5,
@@ -1630,16 +1508,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1023
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1023,
     BuffId = 3331,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Multishoot_Up",
     IsShowInBillboard = true,
     MaxLayer = 5,
@@ -1654,9 +1526,7 @@ return ReadOnly("Buff", {
         Value = 1
       }
     },
-    AddPassiveEffect = {
-      201
-    },
+    AddPassiveEffect = 201,
     BuffId = 6111,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -1826,9 +1696,7 @@ return ReadOnly("Buff", {
         Value = 1
       }
     },
-    AddPassiveEffect = {
-      206
-    },
+    AddPassiveEffect = 206,
     BuffId = 6161,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -1862,13 +1730,9 @@ return ReadOnly("Buff", {
         AttrName = "ATK", Rate = "#1"
       }
     },
-    BuffEffects = {
-      1025
-    },
+    BuffEffects = 1025,
     BuffId = 10102,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1882,16 +1746,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1021
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1021,
     BuffId = 10201,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 12,
@@ -1907,13 +1765,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 10203,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -1931,13 +1785,9 @@ return ReadOnly("Buff", {
         Value = "#2"
       }
     },
-    BuffEffects = {
-      1008
-    },
+    BuffEffects = 1008,
     BuffId = 10204,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Berserk",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -1953,9 +1803,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {1006},
     BuffId = 10301,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Sustain_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -1970,12 +1818,8 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10304,
-    BuffInitEffects = {
-      1003
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1003,
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -1989,9 +1833,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10501,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Hp_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2007,13 +1849,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 10502,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2026,16 +1864,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
+    AddPassiveEffect = 104,
     BuffId = 10503,
-    BuffType = {
-      10503
-    },
-    DisperseBuffType = {
-      10503001
-    },
+    BuffType = 10503,
+    DisperseBuffType = 10503001,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -2046,13 +1878,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
+    AddPassiveEffect = 104,
     BuffId = 10504,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2064,16 +1892,10 @@ return ReadOnly("Buff", {
         AttrName = "ATK", Rate = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1025
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1025,
     BuffId = 10602,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -2087,16 +1909,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1025
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1025,
     BuffId = 10603,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Crd_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2111,13 +1927,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 20103,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2131,13 +1943,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
+    AddPassiveEffect = 104,
     BuffId = 20201,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2146,9 +1954,7 @@ return ReadOnly("Buff", {
   },
   [20203] = {
     BuffId = 20203,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2162,16 +1968,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1023
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1023,
     BuffId = 20205,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Multishoot_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2186,16 +1986,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1025
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1025,
     BuffId = 20301,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Crd_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2220,9 +2014,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 20302,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -2237,16 +2029,10 @@ return ReadOnly("Buff", {
         Stackable = 1
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1001
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1001,
     BuffId = 20303,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2261,16 +2047,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1023
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1023,
     BuffId = 20304,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Multishoot_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2285,16 +2065,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
-    BuffEffects = {
-      1021
-    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1021,
     BuffId = 20305,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2308,13 +2082,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    BuffEffects = {
-      1004
-    },
+    BuffEffects = 1004,
     BuffId = 20405,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Effi_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2329,13 +2099,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 20502,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2349,13 +2115,9 @@ return ReadOnly("Buff", {
         Stackable = 1
       }
     },
-    BuffEffects = {
-      1001
-    },
+    BuffEffects = 1001,
     BuffId = 20509,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -2370,13 +2132,9 @@ return ReadOnly("Buff", {
         Stackable = 1
       }
     },
-    BuffEffects = {
-      1001
-    },
+    BuffEffects = 1001,
     BuffId = 20510,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 6,
@@ -2392,13 +2150,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 20603,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -2578,9 +2332,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 110101,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     DisableSkills = {
       "FallAttack"
     },
@@ -2631,9 +2383,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 110111,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Effi_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -2655,9 +2405,7 @@ return ReadOnly("Buff", {
   },
   [110201] = {
     BuffId = 110201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Common_Buff",
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -2679,14 +2427,10 @@ return ReadOnly("Buff", {
         Value = 0.38
       }
     },
-    AddPassiveEffect = {
-      201
-    },
+    AddPassiveEffect = 201,
     AllowSkillSustainModify = true,
     BuffId = 110202,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "BonusDmg_Dark",
     CameraParam = {
       "FuluoSkill02",
@@ -2722,13 +2466,9 @@ return ReadOnly("Buff", {
     AddPassiveEffect = {110203},
     AllowSkillSustainModify = true,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_110203.BP_Buff_110203",
-    BuffEffects = {
-      110302
-    },
+    BuffEffects = 110302,
     BuffId = 110203,
-    BuffType = {
-      41
-    },
+    BuffType = 41,
     HitReplace = {HitFly = "HeavyHit"},
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -2743,18 +2483,14 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 110204,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [110222] = {
     ActivateSkills = {HeavyAttack = 110222},
     BuffId = 110222,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -2766,9 +2502,7 @@ return ReadOnly("Buff", {
   [110231] = {
     AllowSkillSustainModify = true,
     BuffId = 110231,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Elite_Threefold",
     IsShowInBillboard = true,
     MaxLayer = 99,
@@ -2782,9 +2516,7 @@ return ReadOnly("Buff", {
     BuffSpModify = {
       [110202] = {Value = -10}
     },
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 99,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
@@ -2792,9 +2524,7 @@ return ReadOnly("Buff", {
   [110301] = {
     AllowSkillSustainModify = true,
     BuffId = 110301,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Common_Debuff",
     IsShowInBillboard = true,
     LayerExtraBuff = {
@@ -2811,9 +2541,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 110302,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     CameraParam = {
       "TuosiSkill02",
       "0.8",
@@ -2872,9 +2600,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 110303,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -2894,12 +2620,8 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 110311,
-    BuffInitEffects = {
-      1005
-    },
-    BuffType = {
-      11
-    },
+    BuffInitEffects = 1005,
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Range_Up",
     ForbidCatch = true,
     IsShowInBillboard = true,
@@ -2930,9 +2652,7 @@ return ReadOnly("Buff", {
         AttrName = "SkillSpeed", Rate = 0.3
       }
     },
-    BuffEffects = {
-      110302
-    },
+    BuffEffects = 110302,
     BuffId = 110331,
     EnableRimLightModel = true,
     FresnelParams = {
@@ -2968,9 +2688,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 110341,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Range_Up",
     ForbidCatch = true,
     IsShowInBillboard = true,
@@ -2992,9 +2710,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 110399,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     CameraParam = {
       "TuosiSkill02",
       "0.8",
@@ -3059,9 +2775,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 110431,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -3077,9 +2791,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 110441,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -3088,9 +2800,7 @@ return ReadOnly("Buff", {
   },
   [120101] = {
     BuffId = 120101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     EffectCreatureID = 121,
     IsShowInBillboard = true,
@@ -3105,13 +2815,9 @@ return ReadOnly("Buff", {
         Value = 0.5
       }
     },
-    AddPassiveEffect = {
-      201
-    },
+    AddPassiveEffect = 201,
     BuffId = 120102,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "BonusDmg_Dark",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -3176,9 +2882,7 @@ return ReadOnly("Buff", {
   },
   [120231] = {
     BuffId = 120231,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     ChangeWeaponNotClearCombo = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -3194,13 +2898,9 @@ return ReadOnly("Buff", {
       }
     },
     AddPassiveEffect = {120202},
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 120232,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 240,
@@ -3286,9 +2986,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 150102,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     UseSummonWeapon = 1
@@ -3299,9 +2997,7 @@ return ReadOnly("Buff", {
       Value = -0.3
     },
     BuffId = 150103,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Baonu",
     CannotBeHitted = true,
     ForbidCatch = true,
@@ -3320,13 +3016,9 @@ return ReadOnly("Buff", {
         Value = 0.3
       }
     },
-    AddPassiveEffect = {
-      206
-    },
+    AddPassiveEffect = 206,
     BuffId = 150104,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "BonusDmg_Light",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -3362,9 +3054,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "ATK", Rate = 0.35}
     },
     BuffId = 150141,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -3375,9 +3065,7 @@ return ReadOnly("Buff", {
       [150201] = 150211
     },
     BuffId = 150201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -3386,17 +3074,13 @@ return ReadOnly("Buff", {
       [150201] = 150213
     },
     BuffId = 150203,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [150211] = {
     BuffId = 150211,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -3404,9 +3088,7 @@ return ReadOnly("Buff", {
   },
   [150212] = {
     BuffId = 150212,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -3433,9 +3115,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "ATK", Rate = -0.25}
     },
     BuffId = 150215,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Atk_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -3458,9 +3138,7 @@ return ReadOnly("Buff", {
     AllowSkillSustainModify = true,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_150221.BP_Buff_150221",
     BuffId = 150221,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     EnableRimLightModel = true,
     FresnelParams = {
@@ -3486,18 +3164,14 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 150222,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [150223] = {
     AllowSkillSustainModify = true,
     BuffId = 150223,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 6,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -3507,9 +3181,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "SpRate", Value = 0.25}
     },
     BuffId = 150231,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -3658,12 +3330,8 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 150311,
-    BuffType = {
-      150311
-    },
-    DisperseBuffType = {
-      150312
-    },
+    BuffType = 150311,
+    DisperseBuffType = 150312,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -3676,12 +3344,8 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 150312,
-    BuffType = {
-      150312
-    },
-    DisperseBuffType = {
-      150311
-    },
+    BuffType = 150312,
+    DisperseBuffType = 150311,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -3798,13 +3462,9 @@ return ReadOnly("Buff", {
         Value = 0.6
       }
     },
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 150326,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -3815,9 +3475,7 @@ return ReadOnly("Buff", {
       Value = -0.25
     },
     BuffId = 150327,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     ForbidCatch = true,
     IconPriority = 1,
@@ -3837,12 +3495,8 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 150328,
-    BuffInitEffects = {
-      1000
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1000,
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Ignore",
     IconPriority = 99,
     IsShowInBillboard = true,
@@ -4184,9 +3838,7 @@ return ReadOnly("Buff", {
       [150401] = 150411
     },
     BuffId = 150407,
-    DisperseBuffType = {
-      150409
-    },
+    DisperseBuffType = 150409,
     DotDatas = {
       [1] = {
         Interval = 0.1,
@@ -4194,9 +3846,7 @@ return ReadOnly("Buff", {
         Value = -3
       }
     },
-    ForbidBuffType = {
-      150409
-    },
+    ForbidBuffType = 150409,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree",
     VisualEffects = {
@@ -4207,9 +3857,7 @@ return ReadOnly("Buff", {
   },
   [150408] = {
     BuffId = 150408,
-    DisperseBuffType = {
-      150409
-    },
+    DisperseBuffType = 150409,
     DotDatas = {
       [1] = {
         Interval = 0.1,
@@ -4217,9 +3865,7 @@ return ReadOnly("Buff", {
         Value = -1
       }
     },
-    ForbidBuffType = {
-      150409
-    },
+    ForbidBuffType = 150409,
     ForbidenJumpState = {
       "ESecondJump",
       "EWallJump",
@@ -4244,9 +3890,7 @@ return ReadOnly("Buff", {
   },
   [150409] = {
     BuffId = 150409,
-    BuffType = {
-      150409
-    },
+    BuffType = 150409,
     DotDatas = {
       [1] = {
         DotDelay = 1,
@@ -4260,9 +3904,7 @@ return ReadOnly("Buff", {
   },
   [150410] = {
     BuffId = 150410,
-    BuffType = {
-      150409
-    },
+    BuffType = 150409,
     DotDatas = {
       [1] = {
         DotDelay = 1,
@@ -4282,9 +3924,7 @@ return ReadOnly("Buff", {
   [150501] = {
     AllowSkillSustainModify = true,
     BuffId = 150501,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     CameraParam = {
       "IncrementDefault",
       "0.5",
@@ -4312,18 +3952,14 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      160121
-    },
+    BuffEffects = 160121,
     BuffId = 160101,
     BuffType = {10, 160101},
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      160122
-    }
+    VisualEffects = 160122
   },
   [160102] = {
     AddAttrs = {
@@ -4334,9 +3970,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 160102,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Slowdown",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -4352,9 +3986,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 160103,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -4375,24 +4007,16 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      160121
-    },
+    BuffEffects = 160121,
     BuffId = 160104,
     BuffType = {10, 160104},
     BuffTypeImgPath = "Damage_Up",
-    DisperseBuffType = {
-      160101
-    },
-    ForbidBuffType = {
-      160101
-    },
+    DisperseBuffType = 160101,
+    ForbidBuffType = 160101,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      160122
-    }
+    VisualEffects = 160122
   },
   [160105] = {
     AddAttrs = {
@@ -4403,9 +4027,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 160105,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Trigger_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -4420,9 +4042,7 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      206
-    },
+    AddPassiveEffect = 206,
     BuffId = 180101,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -4457,9 +4077,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 180111,
-    BuffInitEffects = {
-      180102
-    },
+    BuffInitEffects = 180102,
     BuffType = {
       11, 180101
     },
@@ -4484,9 +4102,7 @@ return ReadOnly("Buff", {
     MaxLayer = 30,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      180101
-    }
+    VisualEffects = 180101
   },
   [180112] = {
     AddAttrs = {
@@ -4500,9 +4116,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 180112,
-    BuffInitEffects = {
-      180102
-    },
+    BuffInitEffects = 180102,
     BuffType = {
       11, 180101
     },
@@ -4527,9 +4141,7 @@ return ReadOnly("Buff", {
     MaxLayer = 45,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      180101
-    }
+    VisualEffects = 180101
   },
   [180113] = {
     AddAttrs = {
@@ -4540,9 +4152,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 180113,
-    BuffInitEffects = {
-      2031
-    },
+    BuffInitEffects = 2031,
     BuffType = {
       20, 42
     },
@@ -4573,9 +4183,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 180114,
-    BuffInitEffects = {
-      180102
-    },
+    BuffInitEffects = 180102,
     BuffType = {
       11, 180101
     },
@@ -4600,15 +4208,11 @@ return ReadOnly("Buff", {
     MaxLayer = 45,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      180101
-    }
+    VisualEffects = 180101
   },
   [180121] = {
     BuffId = 180121,
-    BuffType = {
-      180120
-    },
+    BuffType = 180120,
     HaloDatas = {
       [1] = {
         AllowSkillRange = 1,
@@ -4648,9 +4252,7 @@ return ReadOnly("Buff", {
   },
   [180123] = {
     BuffId = 180123,
-    BuffType = {
-      180120
-    },
+    BuffType = 180120,
     HaloDatas = {
       [1] = {
         AllowSkillRange = 1,
@@ -4690,9 +4292,7 @@ return ReadOnly("Buff", {
   },
   [180125] = {
     BuffId = 180125,
-    BuffType = {
-      180120
-    },
+    BuffType = 180120,
     HaloDatas = {
       [1] = {
         AllowSkillRange = 1,
@@ -4732,9 +4332,7 @@ return ReadOnly("Buff", {
   },
   [180127] = {
     BuffId = 180127,
-    BuffType = {
-      180120
-    },
+    BuffType = 180120,
     HaloDatas = {
       [1] = {
         AllowSkillRange = 1,
@@ -4780,13 +4378,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      202
-    },
+    AddPassiveEffect = 202,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1041
-    },
+    BuffEffects = 1041,
     BuffId = 180131,
     BuffType = {
       10, 180130
@@ -4806,13 +4400,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      203
-    },
+    AddPassiveEffect = 203,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1042
-    },
+    BuffEffects = 1042,
     BuffId = 180132,
     BuffType = {
       10, 180130
@@ -4832,13 +4422,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      204
-    },
+    AddPassiveEffect = 204,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1044
-    },
+    BuffEffects = 1044,
     BuffId = 180133,
     BuffType = {
       10, 180130
@@ -4858,13 +4444,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      205
-    },
+    AddPassiveEffect = 205,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1043
-    },
+    BuffEffects = 1043,
     BuffId = 180134,
     BuffType = {
       10, 180130
@@ -4888,13 +4470,9 @@ return ReadOnly("Buff", {
         Value = 0.06
       }
     },
-    AddPassiveEffect = {
-      202
-    },
+    AddPassiveEffect = 202,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1041
-    },
+    BuffEffects = 1041,
     BuffId = 180135,
     BuffType = {
       10, 180130
@@ -4917,13 +4495,9 @@ return ReadOnly("Buff", {
         Value = 0.06
       }
     },
-    AddPassiveEffect = {
-      203
-    },
+    AddPassiveEffect = 203,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1042
-    },
+    BuffEffects = 1042,
     BuffId = 180136,
     BuffType = {
       10, 180130
@@ -4946,13 +4520,9 @@ return ReadOnly("Buff", {
         Value = 0.06
       }
     },
-    AddPassiveEffect = {
-      204
-    },
+    AddPassiveEffect = 204,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1044
-    },
+    BuffEffects = 1044,
     BuffId = 180137,
     BuffType = {
       10, 180130
@@ -4975,13 +4545,9 @@ return ReadOnly("Buff", {
         Value = 0.06
       }
     },
-    AddPassiveEffect = {
-      205
-    },
+    AddPassiveEffect = 205,
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1043
-    },
+    BuffEffects = 1043,
     BuffId = 180138,
     BuffType = {
       10, 180130
@@ -5002,13 +4568,9 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 180141,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IconPriority = 10,
     IsShowInBillboard = true,
@@ -5047,21 +4609,15 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {AttrName = "DEF", Rate = -0.5}
     },
-    BuffEffects = {
-      2002
-    },
+    BuffEffects = 2002,
     BuffId = 201001,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [201002] = {
     BuffId = 201002,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Common_Buff_Aura",
     HaloDatas = {
       [1] = {
@@ -5087,9 +4643,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 201021,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     DotDatas = {
       [1] = {
         BaseAttr = "MaxHp",
@@ -5114,9 +4668,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 201022,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Dot_Fire",
     DotDatas = {
       [1] = {
@@ -5186,9 +4738,7 @@ return ReadOnly("Buff", {
     MergeRule2 = "NewFree"
   },
   [210101] = {
-    AddPassiveEffect = {
-      210102
-    },
+    AddPassiveEffect = 210102,
     AllowSkillSustainModify = true,
     BuffId = 210101,
     BuffType = {
@@ -5218,14 +4768,10 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree",
     Priority = 999,
-    VisualEffects = {
-      210102
-    }
+    VisualEffects = 210102
   },
   [210103] = {
-    AddPassiveEffect = {
-      210102
-    },
+    AddPassiveEffect = 210102,
     AllowSkillSustainModify = true,
     BuffId = 210103,
     BuffType = {
@@ -5255,9 +4801,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree",
     Priority = 999,
-    VisualEffects = {
-      210102
-    }
+    VisualEffects = 210102
   },
   [210121] = {
     AddAttrs = {
@@ -5268,9 +4812,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 210121,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 50,
@@ -5280,9 +4822,7 @@ return ReadOnly("Buff", {
   [210201] = {
     BuffEffects = {210222},
     BuffId = 210201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     VisualEffects = {210221}
@@ -5292,9 +4832,7 @@ return ReadOnly("Buff", {
       [210202] = 210221
     },
     BuffId = 210202,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DotDatas = {
       [1] = {
         DotDelay = 1.5,
@@ -5309,9 +4847,7 @@ return ReadOnly("Buff", {
   },
   [210203] = {
     BuffId = 210203,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     HaloDatas = {
       [1] = {
         AuraRange = -1,
@@ -5325,9 +4861,7 @@ return ReadOnly("Buff", {
   [210204] = {
     AddPassiveEffect = {210212},
     BuffId = 210204,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     VisualEffects = {240122}
@@ -5359,14 +4893,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      202
-    },
+    AddPassiveEffect = 202,
     AllowSkillSustainModify = true,
     BuffId = 230101,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "BonusDmg_Water",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -5402,13 +4932,9 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1024
-    },
+    BuffEffects = 1024,
     BuffId = 230103,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Cri_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -5429,13 +4955,9 @@ return ReadOnly("Buff", {
         Value = 0.02
       }
     },
-    BuffEffects = {
-      1024
-    },
+    BuffEffects = 1024,
     BuffId = 230121,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Cri_Up",
     IsShowInBillboard = true,
     MaxLayer = 24,
@@ -5470,9 +4992,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 240121,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
     EffectCreatureID = 240108,
     IconPriority = 15,
@@ -5480,9 +5000,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     SpawnECOnlyPlayer = true,
-    VisualEffects = {
-      240121
-    }
+    VisualEffects = 240121
   },
   [240122] = {
     AddAttrs = {
@@ -5495,9 +5013,7 @@ return ReadOnly("Buff", {
     AddPassiveEffect = {240104},
     AllowSkillSustainModify = true,
     BuffId = 240122,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
     EffectCreatureID = 240108,
     IconPriority = 15,
@@ -5505,9 +5021,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     SpawnECOnlyPlayer = true,
-    VisualEffects = {
-      240121
-    }
+    VisualEffects = 240121
   },
   [240123] = {
     AddAttrs = {
@@ -5518,9 +5032,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 240123,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     EnableRimLightModel = true,
     FresnelParams = {
@@ -5558,14 +5070,10 @@ return ReadOnly("Buff", {
         Value = 2.2
       }
     },
-    AddPassiveEffect = {
-      202
-    },
+    AddPassiveEffect = 202,
     AllowSkillSustainModify = true,
     BuffId = 240124,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
     FresnelParams = {
       FresnelColor = {
@@ -5618,9 +5126,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 240133,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 2,
@@ -5637,9 +5143,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 240134,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -5655,9 +5159,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 240141,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -5667,9 +5169,7 @@ return ReadOnly("Buff", {
   [240151] = {
     AddPassiveEffect = {240111},
     BuffId = 240151,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Dot_Common",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -5762,23 +5262,17 @@ return ReadOnly("Buff", {
     MergeRule2 = "NewFree"
   },
   [310111] = {
-    AddPassiveEffect = {
-      310111
-    },
+    AddPassiveEffect = 310111,
     BuffId = 310111,
     BuffType = {
       21, 310111
     },
     BuffTypeImgPath = "Char_Linen_02",
-    ForbidBuffType = {
-      310111
-    },
+    ForbidBuffType = 310111,
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      310101
-    }
+    VisualEffects = 310101
   },
   [310112] = {
     AddPassiveEffect = {310112},
@@ -5787,15 +5281,11 @@ return ReadOnly("Buff", {
       21, 310111
     },
     BuffTypeImgPath = "Char_Linen_02",
-    ForbidBuffType = {
-      310111
-    },
+    ForbidBuffType = 310111,
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      310101
-    }
+    VisualEffects = 310101
   },
   [310120] = {
     ActivateSkills = {
@@ -5806,9 +5296,7 @@ return ReadOnly("Buff", {
     AttackToFire = 1,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_310120.BP_Buff_310120",
     BuffId = 310120,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     CameraParam = {
       "IncrementDefault",
       "0.5",
@@ -5848,9 +5336,7 @@ return ReadOnly("Buff", {
       Value = -0.3
     },
     BuffId = 310121,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     CameraParam = {
       "IncrementDefault",
       "0.5",
@@ -5960,13 +5446,9 @@ return ReadOnly("Buff", {
         Value = 0.35
       }
     },
-    BuffEffects = {
-      1007
-    },
+    BuffEffects = 1007,
     BuffId = 310141,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Morale",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -5974,12 +5456,8 @@ return ReadOnly("Buff", {
   },
   [310203] = {
     BuffId = 310203,
-    BuffInitEffects = {
-      2012
-    },
-    BuffType = {
-      20
-    },
+    BuffInitEffects = 2012,
+    BuffType = 20,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6008,12 +5486,8 @@ return ReadOnly("Buff", {
       Value = -0.25
     },
     BuffId = 310205,
-    BuffInitEffects = {
-      2002
-    },
-    BuffType = {
-      20
-    },
+    BuffInitEffects = 2002,
+    BuffType = 20,
     BuffTypeImgPath = "Damage_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6063,9 +5537,7 @@ return ReadOnly("Buff", {
     AllowSkillSustainModify = true,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_310201.BP_Buff_310201",
     BuffId = 310212,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Xier",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6081,9 +5553,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 310213,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Xier",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6143,12 +5613,8 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 310304,
-    BuffInitEffects = {
-      1004
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1004,
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Effi_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -6187,9 +5653,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 310321,
-    BuffInitEffects = {
-      2031
-    },
+    BuffInitEffects = 2031,
     BuffType = {
       21,
       42,
@@ -6208,19 +5672,13 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 310323,
-    BuffInitEffects = {
-      2031
-    },
+    BuffInitEffects = 2031,
     BuffType = {
       21, 42
     },
     BuffTypeImgPath = "Slowdown",
-    DisperseBuffType = {
-      310321
-    },
-    ForbidBuffType = {
-      310321
-    },
+    DisperseBuffType = 310321,
+    ForbidBuffType = 310321,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -6232,9 +5690,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 320100,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DeadNotRemove = true,
     DotDatas = {
@@ -6263,9 +5719,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 320101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DeadNotRemove = true,
     DotDatas = {
@@ -6306,9 +5760,7 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [320111] = {
-    AddPassiveEffect = {
-      320102
-    },
+    AddPassiveEffect = 320102,
     AllowSkillSustainModify = true,
     BuffId = 320111,
     BuffTypeImgPath = "Common_Debuff_Aura",
@@ -6334,9 +5786,7 @@ return ReadOnly("Buff", {
   },
   [320112] = {
     BuffId = 320112,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -6354,9 +5804,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      320102
-    }
+    VisualEffects = 320102
   },
   [320122] = {
     BuffId = 320122,
@@ -6367,9 +5815,7 @@ return ReadOnly("Buff", {
   [320201] = {
     AddPassiveEffect = {320202},
     BuffId = 320201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Kami_Enemy",
     IsShowInBillboard = true,
     MaxLayer = 20,
@@ -6387,9 +5833,7 @@ return ReadOnly("Buff", {
     },
     AddPassiveEffect = {320205},
     BuffId = 320203,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Spd_Up",
     CannotBeHitted = true,
     ForbidCatch = true,
@@ -6407,9 +5851,7 @@ return ReadOnly("Buff", {
   },
   [320205] = {
     BuffId = 320205,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Kami_Friend",
     IsShowInBillboard = true,
     LayerExtraBuff = {
@@ -6434,9 +5876,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 330101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
     EffectCreatureID = 330111,
     IsShowInBillboard = true,
@@ -6446,12 +5886,8 @@ return ReadOnly("Buff", {
   },
   [330121] = {
     BuffId = 330121,
-    BuffInitEffects = {
-      2012
-    },
-    BuffType = {
-      20
-    },
+    BuffInitEffects = 2012,
+    BuffType = 20,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6492,12 +5928,8 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "ATK", Rate = 0.45}
     },
     BuffId = 330142,
-    BuffInitEffects = {
-      1001
-    },
-    BuffType = {
-      11
-    },
+    BuffInitEffects = 1001,
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6565,13 +5997,9 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 410102,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6610,9 +6038,7 @@ return ReadOnly("Buff", {
     AddPassiveEffect = {410104},
     AllowSkillSustainModify = true,
     BuffId = 410121,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Common_Debuff",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6623,9 +6049,7 @@ return ReadOnly("Buff", {
     AddPassiveEffect = {410105},
     AllowSkillSustainModify = true,
     BuffId = 410122,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Common_Debuff",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6652,9 +6076,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 410123,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     EnableRimLightModel = true,
     FresnelParams = {
@@ -6700,9 +6122,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 410124,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6711,9 +6131,7 @@ return ReadOnly("Buff", {
   },
   [410125] = {
     BuffId = 410125,
-    BuffType = {
-      41
-    },
+    BuffType = 41,
     BuffTypeImgPath = "Stun",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6764,13 +6182,9 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1007
-    },
+    BuffEffects = 1007,
     BuffId = 410214,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Morale",
     IsShowInBillboard = true,
     MaxLayer = 20,
@@ -6817,13 +6231,9 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 410231,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6835,13 +6245,9 @@ return ReadOnly("Buff", {
         AttrName = "ATK", Rate = 0.3
       }
     },
-    BuffEffects = {
-      1001
-    },
+    BuffEffects = 1001,
     BuffId = 410241,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6900,9 +6306,7 @@ return ReadOnly("Buff", {
     },
     AddPassiveEffect = {214},
     BuffId = 420104,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "BonusDmg_Common",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -6924,13 +6328,9 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1003
-    },
+    BuffEffects = 1003,
     BuffId = 420112,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6944,13 +6344,9 @@ return ReadOnly("Buff", {
         Value = 60
       }
     },
-    BuffEffects = {
-      1005
-    },
+    BuffEffects = 1005,
     BuffId = 420113,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Range_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6970,9 +6366,7 @@ return ReadOnly("Buff", {
   },
   [420121] = {
     BuffId = 420121,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Char_Yuming_01",
     EmissiveIntensity = {Body = 12.782403},
     ForbidBuffType = {
@@ -7029,12 +6423,8 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 420131,
-    BuffInitEffects = {
-      2012
-    },
-    BuffType = {
-      20
-    },
+    BuffInitEffects = 2012,
+    BuffType = 20,
     BuffTypeImgPath = "Damaged_Thunder_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7088,9 +6478,7 @@ return ReadOnly("Buff", {
     AllowSkillSustainModify = true,
     BuffId = 420201,
     BuffInitEffects = {1011},
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Def_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -7103,9 +6491,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 420211,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     DisableSkills = {
       "Attack",
       "FallAttack",
@@ -7140,9 +6526,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 420213,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Dot_Thunder",
     DotDatas = {
       [1] = {
@@ -7164,9 +6548,7 @@ return ReadOnly("Buff", {
   },
   [430112] = {
     BuffId = 430112,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     DotDatas = {
       [1] = {
         BaseAttr = "MaxHp",
@@ -7247,13 +6629,9 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 510101,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7262,9 +6640,7 @@ return ReadOnly("Buff", {
   [510102] = {
     BuffAnimInstance = "Ride",
     BuffId = 510102,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -7322,12 +6698,8 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 510104,
-    BuffInitEffects = {
-      1001
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1001,
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7340,13 +6712,9 @@ return ReadOnly("Buff", {
         Rate = 0.45
       }
     },
-    BuffEffects = {
-      1002
-    },
+    BuffEffects = 1002,
     BuffId = 510105,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -7371,9 +6739,7 @@ return ReadOnly("Buff", {
     },
     AddPassiveEffect = {510102},
     BuffId = 510121,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     CameraParam = {
       "SongluSkill02",
       "0.2",
@@ -7408,9 +6774,7 @@ return ReadOnly("Buff", {
   },
   [510122] = {
     BuffId = 510122,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     DisableSkills = {"Attack", "FallAttack"},
     DotDatas = {
       [1] = {
@@ -7555,9 +6919,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 510213,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Cri_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -7588,9 +6950,7 @@ return ReadOnly("Buff", {
     NotEnterCharacterTagType = {
       "Hit"
     },
-    VisualEffects = {
-      510201
-    }
+    VisualEffects = 510201
   },
   [510222] = {
     AddAttrs = {
@@ -7608,9 +6968,7 @@ return ReadOnly("Buff", {
         Value = 0.2
       }
     },
-    AddPassiveEffect = {
-      205
-    },
+    AddPassiveEffect = 205,
     AllowSkillSustainModify = true,
     BuffId = 510222,
     BuffType = {
@@ -7625,16 +6983,12 @@ return ReadOnly("Buff", {
     NotEnterCharacterTagType = {
       "Hit"
     },
-    VisualEffects = {
-      510201
-    }
+    VisualEffects = 510201
   },
   [510231] = {
     AllowSkillSustainModify = true,
     BuffId = 510231,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -7687,16 +7041,12 @@ return ReadOnly("Buff", {
     BuffId = 530101,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      530121
-    }
+    VisualEffects = 530121
   },
   [530102] = {
     AllowSkillSustainModify = true,
     BuffId = 530102,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Common_Debuff",
     IsShowInBillboard = true,
     MaxLayer = 12,
@@ -7707,9 +7057,7 @@ return ReadOnly("Buff", {
   [530110] = {
     AllowSkillSustainModify = true,
     BuffId = 530110,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hp_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -7751,9 +7099,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 530113,
-    BuffType = {
-      530102
-    },
+    BuffType = 530102,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -7766,9 +7112,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 530121,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -7776,9 +7120,7 @@ return ReadOnly("Buff", {
   },
   [530122] = {
     BuffId = 530122,
-    BuffType = {
-      530102
-    },
+    BuffType = 530102,
     DotDatas = {
       [1] = {
         DotDelay = 2.7,
@@ -7799,12 +7141,8 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 530131,
-    BuffInitEffects = {
-      1008
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1008,
+    BuffType = 10,
     BuffTypeImgPath = "Berserk",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -7818,12 +7156,8 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 530132,
-    BuffInitEffects = {
-      1001
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1001,
+    BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -7838,12 +7172,8 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 530133,
-    BuffInitEffects = {
-      1003
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1003,
+    BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -7857,9 +7187,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 530141,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Slowdown",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7897,9 +7225,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      540111
-    }
+    VisualEffects = 540111
   },
   [540102] = {
     AddAttrs = {
@@ -7907,9 +7233,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 540102,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Atk_Down",
     DotDatas = {
       [1] = {
@@ -7938,9 +7262,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 540103,
-    BuffInitEffects = {
-      1022
-    },
+    BuffInitEffects = 1022,
     BuffTypeImgPath = "Weapon_Trigger_Up",
     IconPriority = 99,
     IsShowInBillboard = true,
@@ -7962,9 +7284,7 @@ return ReadOnly("Buff", {
   },
   [540111] = {
     BuffId = 540111,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -7993,9 +7313,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 540112,
-    BuffInitEffects = {
-      2031
-    },
+    BuffInitEffects = 2031,
     BuffType = {
       21, 42
     },
@@ -8037,9 +7355,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      540111
-    }
+    VisualEffects = 540111
   },
   [540114] = {
     AddAttrs = {
@@ -8050,9 +7366,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 540114,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -8082,20 +7396,14 @@ return ReadOnly("Buff", {
       }
     },
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      540121
-    },
+    BuffEffects = 540121,
     BuffId = 540121,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "BonusDmg_Wind",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      540123
-    }
+    VisualEffects = 540123
   },
   [540122] = {
     AddAttrs = {
@@ -8107,20 +7415,14 @@ return ReadOnly("Buff", {
     },
     AddPassiveEffect = {540102},
     AllowSkillSustainModify = true,
-    BuffEffects = {
-      540121
-    },
+    BuffEffects = 540121,
     BuffId = 540122,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "BonusDmg_Wind",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      540123
-    }
+    VisualEffects = 540123
   },
   [540123] = {
     AddAttrs = {
@@ -8131,12 +7433,8 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 540123,
-    BuffInitEffects = {
-      1002
-    },
-    BuffType = {
-      10
-    },
+    BuffInitEffects = 1002,
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -8187,9 +7485,7 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [540204] = {
-    BuffEffects = {
-      1000
-    },
+    BuffEffects = 1000,
     BuffId = 540204,
     MaxLayer = 3,
     MergeRule1 = "Personal",
@@ -8209,9 +7505,7 @@ return ReadOnly("Buff", {
   },
   [540211] = {
     BuffId = 540211,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -8219,9 +7513,7 @@ return ReadOnly("Buff", {
   },
   [540212] = {
     BuffId = 540212,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -8257,9 +7549,7 @@ return ReadOnly("Buff", {
   [540232] = {
     AddPassiveEffect = {540211},
     BuffId = 540232,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Common_Buff",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -8279,9 +7569,7 @@ return ReadOnly("Buff", {
   },
   [540242] = {
     BuffId = 540242,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -8311,9 +7599,7 @@ return ReadOnly("Buff", {
   },
   [600501] = {
     BuffId = 600501,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -8329,9 +7615,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600503
-    }
+    VisualEffects = 600503
   },
   [600502] = {
     BuffId = 600502,
@@ -8340,9 +7624,7 @@ return ReadOnly("Buff", {
       60,
       600502
     },
-    ForbidBuffType = {
-      41
-    },
+    ForbidBuffType = 41,
     ForbidCatch = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -8360,9 +7642,7 @@ return ReadOnly("Buff", {
   },
   [700401] = {
     BuffId = 700401,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     SeHitedMat = "Shield"
@@ -8383,9 +7663,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 700501,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Team_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -8394,9 +7672,7 @@ return ReadOnly("Buff", {
   },
   [700502] = {
     BuffId = 700502,
-    BuffType = {
-      30
-    },
+    BuffType = 30,
     BuffTypeImgPath = "Team_Caster",
     HaloDatas = {
       [1] = {
@@ -8412,9 +7688,7 @@ return ReadOnly("Buff", {
   },
   [700601] = {
     BuffId = 700601,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DotDatas = {
       [1] = {
         EffectId = 700623,
@@ -8444,9 +7718,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 700602,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -8479,15 +7751,11 @@ return ReadOnly("Buff", {
     Priority = 100,
     SetCharacterTag = "Stun",
     StunType = "StunParalysis",
-    VisualEffects = {
-      600012
-    }
+    VisualEffects = 600012
   },
   [700801] = {
     BuffId = 700801,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         50,
@@ -8518,9 +7786,7 @@ return ReadOnly("Buff", {
   },
   [701201] = {
     BuffId = 701201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     TimeDilation = 1.5,
@@ -8528,9 +7794,7 @@ return ReadOnly("Buff", {
   },
   [701501] = {
     BuffId = 701501,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         50,
@@ -8543,16 +7807,12 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = {
-      800201
-    }
+    VisualEffects = 800201
   },
   [701601] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
     BuffId = 701601,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     EmissiveParams = {
       EmissiveColor = {
         0.29,
@@ -8567,9 +7827,7 @@ return ReadOnly("Buff", {
   },
   [800201] = {
     BuffId = 800201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         46.4,
@@ -8582,15 +7840,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = {
-      800201
-    }
+    VisualEffects = 800201
   },
   [800202] = {
     BuffId = 800202,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         51,
@@ -8603,15 +7857,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = {
-      800202
-    }
+    VisualEffects = 800202
   },
   [800301] = {
     BuffId = 800301,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -8674,9 +7924,7 @@ return ReadOnly("Buff", {
         Value = -0.5
       }
     },
-    BuffEffects = {
-      2031
-    },
+    BuffEffects = 2031,
     BuffId = 850204,
     BuffType = {42},
     MergeRule1 = "Global",
@@ -8721,9 +7969,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 850210,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -8781,9 +8027,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 850307,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 100,
@@ -8792,9 +8036,7 @@ return ReadOnly("Buff", {
   },
   [850308] = {
     BuffId = 850308,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -8817,9 +8059,7 @@ return ReadOnly("Buff", {
   },
   [850310] = {
     BuffId = 850310,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossShijingzheSkill15",
       "0.5",
@@ -8843,9 +8083,7 @@ return ReadOnly("Buff", {
     BuffId = 850312,
     BuffTypeImgPath = "Invincible",
     CannotBeCutTN = true,
-    ForbidBuffType = {
-      41
-    },
+    ForbidBuffType = 41,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -8855,9 +8093,7 @@ return ReadOnly("Buff", {
   },
   [850313] = {
     BuffId = 850313,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     VisualEffects = {850322}
@@ -8876,9 +8112,7 @@ return ReadOnly("Buff", {
   },
   [850403] = {
     BuffId = 850403,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -8893,9 +8127,7 @@ return ReadOnly("Buff", {
     },
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_850404.BP_Buff_850404",
     BuffId = 850404,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     TimeDilation = 0.1
@@ -8930,15 +8162,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     UseSummonWeapon = 1,
-    VisualEffects = {
-      530121
-    }
+    VisualEffects = 530121
   },
   [850406] = {
     BuffId = 850406,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -8954,16 +8182,12 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600010
-    }
+    VisualEffects = 600010
   },
   [850501] = {
     AddPassiveEffect = {850501},
     BuffId = 850501,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Common_Buff",
     MaxLayer = 1,
     MergeRule1 = "Global",
@@ -8980,9 +8204,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "BossMapSkill"
     },
     BuffId = 850502,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "0.5",
@@ -9000,9 +8222,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 850503,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MaxLayer = 99,
@@ -9011,9 +8231,7 @@ return ReadOnly("Buff", {
   },
   [850504] = {
     BuffId = 850504,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     VisualEffects = {850512}
@@ -9021,9 +8239,7 @@ return ReadOnly("Buff", {
   [850505] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_850505.BP_Buff_850505",
     BuffId = 850505,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -9044,9 +8260,7 @@ return ReadOnly("Buff", {
   [851001] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_851001.BP_Buff_851001",
     BuffId = 851001,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -9062,9 +8276,7 @@ return ReadOnly("Buff", {
     MaxLayer = 5,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      2102
-    }
+    VisualEffects = 2102
   },
   [851002] = {
     AllowSkillSustainModify = true,
@@ -9087,9 +8299,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "BossMapSkill"
     },
     BuffId = 851003,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "0.5",
@@ -9105,9 +8315,7 @@ return ReadOnly("Buff", {
       RecoverPercent = 0.5
     },
     BuffId = 851004,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     LockHpUI = 1
   },
   [851005] = {
@@ -9120,40 +8328,30 @@ return ReadOnly("Buff", {
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      530121
-    }
+    VisualEffects = 530121
   },
   [851101] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_851101.BP_Buff_851101",
     BuffId = 851101,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Slowdown",
     IsShowInBillboard = true,
     MaxLayer = 5,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     TimeDilation = 0.9,
-    VisualEffects = {
-      600000103
-    }
+    VisualEffects = 600000103
   },
   [851201] = {
     BuffId = 851201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     EnableFlight = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [851202] = {
     BuffId = 851202,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     CannotBeHitted = true,
     ForbidBuffType = {
@@ -9170,9 +8368,7 @@ return ReadOnly("Buff", {
   },
   [851203] = {
     BuffId = 851203,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     CannotBeHitted = true,
     ForbidBuffType = {
@@ -9184,35 +8380,27 @@ return ReadOnly("Buff", {
   },
   [851204] = {
     BuffId = 851204,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [851205] = {
     BuffId = 851205,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     VisualEffects = {851202}
   },
   [851206] = {
     BuffId = 851206,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     EnableFlight = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [851207] = {
     BuffId = 851207,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossLinenDefault",
       "0.5",
@@ -9223,9 +8411,7 @@ return ReadOnly("Buff", {
   },
   [851208] = {
     BuffId = 851208,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossLinenDefault",
       "0.5",
@@ -9257,9 +8443,7 @@ return ReadOnly("Buff", {
   },
   [851212] = {
     BuffId = 851212,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     EnableFlight = 1,
     MergeRule1 = "Personal",
@@ -9267,9 +8451,7 @@ return ReadOnly("Buff", {
   },
   [851213] = {
     BuffId = 851213,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     CannotBeHitted = true,
     ForbidBuffType = {
@@ -9280,9 +8462,7 @@ return ReadOnly("Buff", {
   },
   [851214] = {
     BuffId = 851214,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     CannotBeHitted = true,
     ForbidBuffType = {
@@ -9296,9 +8476,7 @@ return ReadOnly("Buff", {
   },
   [851501] = {
     BuffId = 851501,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -9337,9 +8515,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "LiecheCoreLoc"
     },
     BuffId = 851902,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "0.5",
@@ -9357,9 +8533,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "LiecheCoreLoc"
     },
     BuffId = 851903,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "1",
@@ -9377,9 +8551,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "Lmid"
     },
     BuffId = 851904,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "2",
@@ -9397,9 +8569,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "Skill05M"
     },
     BuffId = 851905,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "2",
@@ -9417,9 +8587,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "Skill05L"
     },
     BuffId = 851906,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "2",
@@ -9437,9 +8605,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "Skill07Center"
     },
     BuffId = 851907,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "2",
@@ -9457,9 +8623,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "CenterLoc"
     },
     BuffId = 852001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "1",
@@ -9477,9 +8641,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "Skill0501"
     },
     BuffId = 852003,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "1",
@@ -9497,9 +8659,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "Skill0801"
     },
     BuffId = 852004,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "1",
@@ -9517,9 +8677,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "CenterLoc"
     },
     BuffId = 852005,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "1",
@@ -9529,13 +8687,9 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [900003] = {
-    BuffEffects = {
-      2000
-    },
+    BuffEffects = 2000,
     BuffId = 900003,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -9553,9 +8707,7 @@ return ReadOnly("Buff", {
   },
   [900301] = {
     BuffId = 900301,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     HaloDatas = {
       [1] = {
         AuraRange = 1500,
@@ -9589,9 +8741,7 @@ return ReadOnly("Buff", {
   },
   [900303] = {
     BuffId = 900303,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -9600,9 +8750,7 @@ return ReadOnly("Buff", {
   },
   [900401] = {
     BuffId = 900401,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -9625,9 +8773,7 @@ return ReadOnly("Buff", {
   },
   [900602] = {
     BuffId = 900602,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     Priority = 1001,
@@ -9635,9 +8781,7 @@ return ReadOnly("Buff", {
   },
   [900603] = {
     BuffId = 900603,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         1,
@@ -9678,9 +8822,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 950101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -9722,9 +8864,7 @@ return ReadOnly("Buff", {
   },
   [1000101] = {
     BuffId = 1000101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         232,
@@ -9737,15 +8877,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = {
-      800201
-    }
+    VisualEffects = 800201
   },
   [1000102] = {
     BuffId = 1000102,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         204,
@@ -9758,9 +8894,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = {
-      800202
-    }
+    VisualEffects = 800202
   },
   [1000301] = {
     AddAttrs = {
@@ -9771,9 +8905,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1000301,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -9803,9 +8935,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1030111,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -9833,9 +8963,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1030222,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -9847,9 +8975,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 1040141,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -9902,9 +9028,7 @@ return ReadOnly("Buff", {
   [1961001] = {
     AddPassiveEffect = {1961001},
     BuffId = 1961001,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -9912,9 +9036,7 @@ return ReadOnly("Buff", {
   },
   [2010001] = {
     BuffId = 2010001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     LockHp = {
       Rate = 0.5
     },
@@ -9923,9 +9045,7 @@ return ReadOnly("Buff", {
   },
   [2010002] = {
     BuffId = 2010002,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     CannotBeHitted = true,
     FresnelParams = {
@@ -9963,9 +9083,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010003,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IconPriority = 100,
     IsShowInBillboard = true,
@@ -9975,9 +9093,7 @@ return ReadOnly("Buff", {
   },
   [2010004] = {
     BuffId = 2010004,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Endure",
     CannotBeHitted = true,
     ForbidCatch = true,
@@ -9995,9 +9111,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010011,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -10007,9 +9121,7 @@ return ReadOnly("Buff", {
   },
   [2010101] = {
     BuffId = 2010101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Common_Buff_Aura",
     HaloDatas = {
       [1] = {
@@ -10028,9 +9140,7 @@ return ReadOnly("Buff", {
       Value = -0.25
     },
     BuffId = 2010102,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10041,9 +9151,7 @@ return ReadOnly("Buff", {
       Value = -0.01
     },
     BuffId = 2010201,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MaxLayer = 80,
@@ -10055,9 +9163,7 @@ return ReadOnly("Buff", {
       Value = -0.02
     },
     BuffId = 2010202,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MaxLayer = 40,
@@ -10069,9 +9175,7 @@ return ReadOnly("Buff", {
       Value = -0.02
     },
     BuffId = 2010203,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MaxLayer = 40,
@@ -10080,9 +9184,7 @@ return ReadOnly("Buff", {
   },
   [2010211] = {
     BuffId = 2010211,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Es",
     DotDatas = {
       [1] = {
@@ -10108,9 +9210,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010301,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -10128,9 +9228,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010302,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10144,9 +9242,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010304,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     LayerExtraBuff = {
@@ -10166,9 +9262,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010402,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10182,9 +9276,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010512,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Crd_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10197,9 +9289,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2011111,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Def_Up",
     HaloDatas = {
       [1] = {
@@ -10223,9 +9313,7 @@ return ReadOnly("Buff", {
       Value = -0.25
     },
     BuffId = 2011112,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Def_Down",
     IconPriority = 200,
     IsShowInBillboard = true,
@@ -10235,9 +9323,7 @@ return ReadOnly("Buff", {
   },
   [2011114] = {
     BuffId = 2011114,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10253,9 +9339,7 @@ return ReadOnly("Buff", {
       Value = -0.01
     },
     BuffId = 2011121,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MaxLayer = 80,
@@ -10269,9 +9353,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2011122,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Weapon_Multishoot_Up",
     IconPriority = 200,
     IsShowInBillboard = true,
@@ -10289,9 +9371,7 @@ return ReadOnly("Buff", {
       Value = -0.25
     },
     BuffId = 2011212,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10302,9 +9382,7 @@ return ReadOnly("Buff", {
       Value = -0.02
     },
     BuffId = 2011213,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MaxLayer = 40,
@@ -10321,9 +9399,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "SkillSpeed", Rate = 0.05}
     },
     BuffId = 2011221,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Spd_Up",
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -10336,9 +9412,7 @@ return ReadOnly("Buff", {
       Value = -0.01
     },
     BuffId = 2011222,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MaxLayer = 80,
@@ -10355,9 +9429,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2011223,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Es",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10365,9 +9437,7 @@ return ReadOnly("Buff", {
   },
   [2011311] = {
     BuffId = 2011311,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Common_Buff_Aura",
     HaloDatas = {
       [1] = {
@@ -10391,9 +9461,7 @@ return ReadOnly("Buff", {
       Value = -0.25
     },
     BuffId = 2011312,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10404,9 +9472,7 @@ return ReadOnly("Buff", {
       Value = -0.02
     },
     BuffId = 2011313,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MaxLayer = 40,
@@ -10420,9 +9486,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2011321,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IconPriority = 1,
     IsShowInBillboard = true,
@@ -10435,9 +9499,7 @@ return ReadOnly("Buff", {
       Value = -0.01
     },
     BuffId = 2011322,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MaxLayer = 80,
@@ -10446,9 +9508,7 @@ return ReadOnly("Buff", {
   },
   [2011323] = {
     BuffId = 2011323,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Es",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10474,9 +9534,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10491,9 +9549,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010002,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10508,9 +9564,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010003,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Berserk",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10525,9 +9579,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010004,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Berserk",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10541,9 +9593,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010005,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10555,9 +9605,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "ATK", Rate = 2}
     },
     BuffId = 4010006,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10574,9 +9622,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010007,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10593,9 +9639,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010008,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10610,9 +9654,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010009,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
@@ -10626,9 +9668,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010010,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 5,
@@ -10643,9 +9683,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010011,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Berserk",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10662,9 +9700,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010012,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -10678,9 +9714,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010013,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -10688,9 +9722,7 @@ return ReadOnly("Buff", {
   },
   [4010014] = {
     BuffId = 4010014,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Energy",
     DotDatas = {
       [1] = {
@@ -10713,9 +9745,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 4010015,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Weapon_Spd_Up",
     DotDatas = {
       [1] = {
@@ -10737,18 +9767,14 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {6042},
     BuffId = 4010016,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
   },
   [5000001] = {
-    BuffEffects = {
-      2031
-    },
+    BuffEffects = 2031,
     BuffId = 5000001,
     BuffTypeImgPath = "Weapon_Spd_Down",
     DeadNotRemove = true,
@@ -10765,9 +9791,7 @@ return ReadOnly("Buff", {
         Value = 0.2
       }
     },
-    BuffEffects = {
-      1024
-    },
+    BuffEffects = 1024,
     BuffId = 5000002,
     BuffTypeImgPath = "Cri_Up",
     DeadNotRemove = true,
@@ -10777,9 +9801,7 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [5000003] = {
-    BuffEffects = {
-      1000
-    },
+    BuffEffects = 1000,
     BuffId = 5000003,
     BuffTypeImgPath = "Hot_Energy",
     DeadNotRemove = true,
@@ -10803,9 +9825,7 @@ return ReadOnly("Buff", {
         Value = 0.5
       }
     },
-    BuffEffects = {
-      1021
-    },
+    BuffEffects = 1021,
     BuffId = 5000004,
     BuffTypeImgPath = "Weapon_Spd_Up",
     DeadNotRemove = true,
@@ -10822,9 +9842,7 @@ return ReadOnly("Buff", {
         Stackable = 1
       }
     },
-    BuffEffects = {
-      1000
-    },
+    BuffEffects = 1000,
     BuffId = 5000005,
     BuffTypeImgPath = "Hot_Up",
     DeadNotRemove = true,
@@ -10867,9 +9885,7 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [5000007] = {
-    BuffEffects = {
-      2000
-    },
+    BuffEffects = 2000,
     BuffId = 5000007,
     BuffTypeImgPath = "Dot_Common",
     DeadNotRemove = true,
@@ -10889,9 +9905,7 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [5000008] = {
-    BuffEffects = {
-      2000
-    },
+    BuffEffects = 2000,
     BuffId = 5000008,
     BuffTypeImgPath = "Dot_Common",
     DeadNotRemove = true,
@@ -10917,13 +9931,9 @@ return ReadOnly("Buff", {
         Value = 0.2
       }
     },
-    BuffEffects = {
-      1024
-    },
+    BuffEffects = 1024,
     BuffId = 5000011,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Cri_Up",
     IsShowInBillboard = true,
     MaxLayer = 5,
@@ -10932,9 +9942,7 @@ return ReadOnly("Buff", {
   },
   [5000012] = {
     BuffId = 5000012,
-    BuffType = {
-      5000010
-    },
+    BuffType = 5000010,
     HaloDatas = {
       [1] = {
         AuraRange = 4000,
@@ -10947,13 +9955,9 @@ return ReadOnly("Buff", {
     MergeRule2 = "NewFree"
   },
   [5000013] = {
-    BuffEffects = {
-      1000
-    },
+    BuffEffects = 1000,
     BuffId = 5000013,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Energy",
     DotDatas = {
       [1] = {
@@ -10969,9 +9973,7 @@ return ReadOnly("Buff", {
   },
   [5000014] = {
     BuffId = 5000014,
-    BuffType = {
-      5000010
-    },
+    BuffType = 5000010,
     HaloDatas = {
       [1] = {
         AuraRange = 4000,
@@ -10984,13 +9986,9 @@ return ReadOnly("Buff", {
     MergeRule2 = "NewFree"
   },
   [5000015] = {
-    BuffEffects = {
-      1000
-    },
+    BuffEffects = 1000,
     BuffId = 5000015,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Common_Buff",
     ExpRate = 1,
     IsShowInBillboard = true,
@@ -11000,9 +9998,7 @@ return ReadOnly("Buff", {
   },
   [5000016] = {
     BuffId = 5000016,
-    BuffType = {
-      5000010
-    },
+    BuffType = 5000010,
     HaloDatas = {
       [1] = {
         AuraRange = 4000,
@@ -11024,9 +10020,7 @@ return ReadOnly("Buff", {
   },
   [5000018] = {
     BuffId = 5000018,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Dot_Fire",
     DotDatas = {
       [1] = {
@@ -11042,15 +10036,11 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      2105
-    }
+    VisualEffects = 2105
   },
   [5000019] = {
     BuffId = 5000019,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Dot_Fire",
     DotDatas = {
       [1] = {
@@ -11066,15 +10056,11 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      2105
-    }
+    VisualEffects = 2105
   },
   [5000020] = {
     BuffId = 5000020,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeHitted = true,
     ForbidBuffType = {
       41,
@@ -11097,9 +10083,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 5000021,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Slowdown",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11108,9 +10092,7 @@ return ReadOnly("Buff", {
   },
   [5000022] = {
     BuffId = 5000022,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -11126,9 +10108,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600503
-    }
+    VisualEffects = 600503
   },
   [5000100] = {
     AddAttrs = {
@@ -11150,16 +10130,12 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 5000100,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      6000
-    }
+    VisualEffects = 6000
   },
   [5000101] = {
     AddAttrs = {
@@ -11181,16 +10157,12 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 5000101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      6000
-    }
+    VisualEffects = 6000
   },
   [5000102] = {
     AddAttrs = {
@@ -11213,9 +10185,7 @@ return ReadOnly("Buff", {
     },
     BuffEffects = {10301004},
     BuffId = 5000102,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11223,9 +10193,7 @@ return ReadOnly("Buff", {
   },
   [5000103] = {
     BuffId = 5000103,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Dot_Fire",
     DeadNotRemove = true,
     DotDatas = {
@@ -11243,9 +10211,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      2105
-    }
+    VisualEffects = 2105
   },
   [5000201] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Paoku_Common.BP_Buff_Paoku_Common",
@@ -11278,9 +10244,7 @@ return ReadOnly("Buff", {
   [5000203] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_5000203.BP_Buff_5000203",
     BuffId = 5000203,
-    BuffType = {
-      70
-    },
+    BuffType = 70,
     DisableSkills = {
       "FallAttack",
       "HeavyAttack",
@@ -11353,9 +10317,7 @@ return ReadOnly("Buff", {
     },
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Paoku_Common.BP_Buff_Paoku_Common",
     BuffId = 5000206,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11395,9 +10357,7 @@ return ReadOnly("Buff", {
     },
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Paoku_Common.BP_Buff_Paoku_Common",
     BuffId = 5000208,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     VisualEffects = {246}
@@ -11428,9 +10388,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 5000301,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11438,9 +10396,7 @@ return ReadOnly("Buff", {
   },
   [5000302] = {
     BuffId = 5000302,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Energy",
     DotDatas = {
       [1] = {
@@ -11457,9 +10413,7 @@ return ReadOnly("Buff", {
     AddPassiveEffect = {5000303},
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_5000303.BP_Buff_5000303",
     BuffId = 5000303,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11475,17 +10429,13 @@ return ReadOnly("Buff", {
     },
     AddPassiveEffect = {5000304},
     BuffId = 5000304,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [5000305] = {
     BuffId = 5000305,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     DotDatas = {
       [1] = {
@@ -11513,9 +10463,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000002,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11530,9 +10478,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000003,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11547,9 +10493,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000004,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11564,9 +10508,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000005,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11581,9 +10523,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000006,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11598,9 +10538,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000007,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11615,9 +10553,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000008,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11631,9 +10567,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000011,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11645,9 +10579,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000012,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Water_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11661,9 +10593,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000013,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Water"
@@ -11676,9 +10606,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000014,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Water"
@@ -11691,9 +10619,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000021,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11705,9 +10631,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000022,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Fire_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11721,9 +10645,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000023,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Fire"
@@ -11736,9 +10658,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000024,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Fire"
@@ -11751,9 +10671,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000031,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11765,9 +10683,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000032,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Thunder_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11781,9 +10697,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000033,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Thunder"
@@ -11796,9 +10710,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000034,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Thunder"
@@ -11811,9 +10723,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000041,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11825,9 +10735,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000042,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Wind_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -11841,9 +10749,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000043,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Wind"
@@ -11856,9 +10762,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000044,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Wind"
@@ -11871,9 +10775,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000051,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11885,9 +10787,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000052,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11899,9 +10799,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000053,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Dark"
@@ -11914,9 +10812,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000054,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Dark"
@@ -11929,9 +10825,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000061,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11943,9 +10837,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000062,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11957,9 +10849,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000063,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Light"
@@ -11972,106 +10862,80 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000064,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     WeaknessType = "Light"
   },
   [6000071] = {
     BuffId = 6000071,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000072] = {
     BuffId = 6000072,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000073] = {
     BuffId = 6000073,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000074] = {
     BuffId = 6000074,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000075] = {
     BuffId = 6000075,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000076] = {
     BuffId = 6000076,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000077] = {
     BuffId = 6000077,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000078] = {
     BuffId = 6000078,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000079] = {
     BuffId = 6000079,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000080] = {
     BuffId = 6000080,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000081] = {
     BuffId = 6000081,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000082] = {
     BuffId = 6000082,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -12086,15 +10950,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     TimeDilation = 0.96,
-    VisualEffects = {
-      600000103
-    }
+    VisualEffects = 600000103
   },
   [6000103] = {
     BuffId = 6000103,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -12115,9 +10975,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "DEF", Rate = -0.9}
     },
     BuffId = 6000107,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Def_Down",
     DotDatas = {
       [1] = {
@@ -12138,9 +10996,7 @@ return ReadOnly("Buff", {
   },
   [6000109] = {
     BuffId = 6000109,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Dot_Common",
     DotDatas = {
       [1] = {
@@ -12157,15 +11013,11 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600010
-    }
+    VisualEffects = 600010
   },
   [6000111] = {
     BuffId = 6000111,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -12178,9 +11030,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600000502
-    }
+    VisualEffects = 600000502
   },
   [6000112] = {
     AddAttrs = {
@@ -12199,9 +11049,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000112,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -12211,9 +11059,7 @@ return ReadOnly("Buff", {
   },
   [6000113] = {
     BuffId = 6000113,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Slowdown",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -12223,17 +11069,13 @@ return ReadOnly("Buff", {
   },
   [6000114] = {
     BuffId = 6000114,
-    BuffType = {
-      20
-    },
+    BuffType = 20,
     BuffTypeImgPath = "Slowdown",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     TimeDilation = 0.7,
-    VisualEffects = {
-      600012
-    }
+    VisualEffects = 600012
   },
   [6000115] = {
     BuffId = 6000115,
@@ -12245,15 +11087,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     TimeDilation = 0.5,
-    VisualEffects = {
-      600000901
-    }
+    VisualEffects = 600000901
   },
   [6000116] = {
     BuffId = 6000116,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Mon_Roused",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -12262,9 +11100,7 @@ return ReadOnly("Buff", {
   },
   [6000117] = {
     BuffId = 6000117,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DMMIParams = {
       DMMIColor = {
         50,
@@ -12284,9 +11120,7 @@ return ReadOnly("Buff", {
   },
   [6000118] = {
     BuffId = 6000118,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     FresnelParams = {
       FresnelColor = {
         1,
@@ -12310,9 +11144,7 @@ return ReadOnly("Buff", {
   },
   [6000119] = {
     BuffId = 6000119,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     FresnelParams = {
       FresnelColor = {
         1,
@@ -12336,9 +11168,7 @@ return ReadOnly("Buff", {
   },
   [6000120] = {
     BuffId = 6000120,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     FresnelParams = {
       FresnelColor = {
         1,
@@ -12423,9 +11253,7 @@ return ReadOnly("Buff", {
   [6000204] = {
     BuffId = 6000204,
     CannotBeCutTN = true,
-    ForbidBuffType = {
-      41
-    },
+    ForbidBuffType = 41,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     SpecialEffect = {
@@ -12436,9 +11264,7 @@ return ReadOnly("Buff", {
     BuffId = 6000205,
     BuffTypeImgPath = "Invincible",
     CannotBeCutTN = true,
-    ForbidBuffType = {
-      41
-    },
+    ForbidBuffType = 41,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -12455,9 +11281,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 6000206,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -12465,18 +11289,14 @@ return ReadOnly("Buff", {
   },
   [6000207] = {
     BuffId = 6000207,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CannotBeCutTN = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [6000208] = {
     BuffId = 6000208,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     ForbidBuffType = {44},
     ForbidCatch = true,
     MergeRule1 = "Global",
@@ -12484,9 +11304,7 @@ return ReadOnly("Buff", {
   },
   [6000209] = {
     BuffId = 6000209,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     NotEnterTarget = true
@@ -12528,9 +11346,7 @@ return ReadOnly("Buff", {
     MaxLayer = 6,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      2102
-    }
+    VisualEffects = 2102
   },
   [6000401] = {
     AddPassiveEffect = {6000101},
@@ -13086,9 +11902,7 @@ return ReadOnly("Buff", {
     Priority = 1000
   },
   [6000506] = {
-    AddPassiveEffect = {
-      6000206
-    },
+    AddPassiveEffect = 6000206,
     BuffId = 6000506,
     BuffType = {
       11, 1000
@@ -13776,17 +12590,13 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10101101,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Rou_BG01_01",
     IsShowInBillboard = true,
     MaxLayer = 10,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      10101101
-    }
+    VisualEffects = 10101101
   },
   [10101102] = {
     AddAttrs = {
@@ -13797,9 +12607,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10101102,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Rou_BG01_01",
     DotDatas = {
       [1] = {
@@ -13818,9 +12626,7 @@ return ReadOnly("Buff", {
     MaxLayer = 10,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      10101101
-    }
+    VisualEffects = 10101101
   },
   [10101103] = {
     AddAttrs = {
@@ -13832,9 +12638,7 @@ return ReadOnly("Buff", {
     },
     AddPassiveEffect = {10101902},
     BuffId = 10101103,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Rou_BG01_01",
     DotDatas = {
       [1] = {
@@ -13853,15 +12657,11 @@ return ReadOnly("Buff", {
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      10101101
-    }
+    VisualEffects = 10101101
   },
   [10101202] = {
     BuffId = 10101202,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -13881,9 +12681,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10101991,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -13897,32 +12695,24 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10102101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      10199002
-    }
+    VisualEffects = 10199002
   },
   [10102102] = {
     BuffDamagedRate = {
       Value = "#1"
     },
     BuffId = 10102102,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      10199003
-    }
+    VisualEffects = 10199003
   },
   [10102103] = {
     BuffId = 10102103,
@@ -13950,17 +12740,13 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10102104,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [10102105] = {
     BuffId = 10102105,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     EffectCreatureID = 10102101,
     MaxLayer = 6,
     MergeRule1 = "Personal",
@@ -13968,9 +12754,7 @@ return ReadOnly("Buff", {
   },
   [10102106] = {
     BuffId = 10102106,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Rou_BG02_01",
     IsShowInBillboard = true,
     MaxLayer = 10,
@@ -14001,9 +12785,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "ATK", Rate = 0.15}
     },
     BuffId = 10102109,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14014,9 +12796,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10102110,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14036,9 +12816,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10102991,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -14048,18 +12826,14 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "SkillSpeed", Rate = "#1"}
     },
     BuffId = 10103106,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [10103203] = {
     BuffId = 10103203,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Energy",
     DotDatas = {
       [1] = {
@@ -14074,9 +12848,7 @@ return ReadOnly("Buff", {
   },
   [10103205] = {
     BuffId = 10103205,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Energy",
     DotDatas = {
       [1] = {
@@ -14129,16 +12901,12 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10103903,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      10103101
-    }
+    VisualEffects = 10103101
   },
   [10103904] = {
     AddAttrs = {
@@ -14150,16 +12918,12 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10103904,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      10103101
-    }
+    VisualEffects = 10103101
   },
   [10103991] = {
     AddAttrs = {
@@ -14170,9 +12934,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10103991,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -14186,9 +12948,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10104102,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -14204,9 +12964,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10104103,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 3,
@@ -14222,9 +12980,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10104204,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -14237,17 +12993,13 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10104302,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [10104901] = {
     BuffId = 10104901,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     VisualEffects = {10104102}
@@ -14262,9 +13014,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10104991,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -14276,9 +13026,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10105101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -14289,9 +13037,7 @@ return ReadOnly("Buff", {
       Value = "#1"
     },
     BuffId = 10105103,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Endure",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -14302,9 +13048,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "MaxSp", RateUseValue = 1}
     },
     BuffId = 10105301,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -14317,9 +13061,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10105303,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
   },
@@ -14330,9 +13072,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10105304,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -14362,9 +13102,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10105900,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Boost",
     IsShowInBillboard = true,
     MaxLayer = 60,
@@ -14376,18 +13114,14 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "ATK", Rate = 0.01}
     },
     BuffId = 10105901,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 60,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
   },
   [10105903] = {
     BuffId = 10105903,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DotDatas = {
       [1] = {
         Immediately = 1,
@@ -14409,9 +13143,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10105991,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -14425,9 +13157,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14440,9 +13170,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106102,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14455,9 +13183,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106103,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14470,9 +13196,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106104,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14485,9 +13209,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106105,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14500,9 +13222,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106106,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14515,9 +13235,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106107,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14530,9 +13248,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106108,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14541,16 +13257,12 @@ return ReadOnly("Buff", {
       Value = "#1"
     },
     BuffId = 10106109,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      10199003
-    }
+    VisualEffects = 10199003
   },
   [10106110] = {
     AddAttrs = {
@@ -14560,9 +13272,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106110,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14574,9 +13284,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106111,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14588,9 +13296,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106112,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14602,9 +13308,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106113,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14617,17 +13321,13 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106114,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Rou_BG06_01",
     IsShowInBillboard = true,
     MaxLayer = 5,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree",
-    VisualEffects = {
-      2012
-    }
+    VisualEffects = 2012
   },
   [10106991] = {
     AddAttrs = {
@@ -14638,18 +13338,14 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10106991,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [10107101] = {
     BuffId = 10107101,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DotDatas = {
       [1] = {
         Interval = 3,
@@ -14662,9 +13358,7 @@ return ReadOnly("Buff", {
   },
   [10107102] = {
     BuffId = 10107102,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DotDatas = {
       [1] = {
         Interval = 3,
@@ -14684,9 +13378,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107103,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14699,9 +13391,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107104,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14714,16 +13404,12 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107105,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      10199002
-    }
+    VisualEffects = 10199002
   },
   [10107106] = {
     AddAttrs = {
@@ -14733,9 +13419,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107106,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14747,9 +13431,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107107,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14762,9 +13444,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107108,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14777,9 +13457,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107109,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14792,9 +13470,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107110,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14807,17 +13483,13 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107111,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [10107112] = {
     BuffId = 10107112,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -14833,9 +13505,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600000502
-    }
+    VisualEffects = 600000502
   },
   [10107113] = {
     AddAttrs = {
@@ -14846,9 +13516,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107113,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14861,9 +13529,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107114,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14875,9 +13541,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107115,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14889,9 +13553,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107116,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -14912,9 +13574,7 @@ return ReadOnly("Buff", {
   },
   [10107118] = {
     BuffId = 10107118,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -14930,15 +13590,11 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600000502
-    }
+    VisualEffects = 600000502
   },
   [10107119] = {
     BuffId = 10107119,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -14954,15 +13610,11 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600000502
-    }
+    VisualEffects = 600000502
   },
   [10107120] = {
     BuffId = 10107120,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -14978,15 +13630,11 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600000502
-    }
+    VisualEffects = 600000502
   },
   [10107121] = {
     BuffId = 10107121,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -15002,18 +13650,14 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      600000502
-    }
+    VisualEffects = 600000502
   },
   [10107122] = {
     AddAttrs = {
       [1] = {AttrName = "MaxHp", Rate = 1}
     },
     BuffId = 10107122,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Rou_BG07_02",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -15024,9 +13668,7 @@ return ReadOnly("Buff", {
   },
   [10107123] = {
     BuffId = 10107123,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     VisualEffects = {10109103}
@@ -15036,9 +13678,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "ATK", ValueUseValue = 1}
     },
     BuffId = 10107124,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Rou_BG07_02",
     CannotBeHitted = true,
     ForbidBuffType = {
@@ -15057,9 +13697,7 @@ return ReadOnly("Buff", {
   },
   [10107125] = {
     BuffId = 10107125,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     OverrideAttrs = {AttrName = "FakeHpRate", Value = 0.4}
@@ -15069,9 +13707,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "DEF", ValueUseValue = 1}
     },
     BuffId = 10107126,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -15084,9 +13720,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 10107991,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     MaxLayer = 20,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -15098,16 +13732,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {
-      104
-    },
+    AddPassiveEffect = 104,
     BuffId = 10503001,
-    BuffType = {
-      10503001
-    },
-    DisperseBuffType = {
-      10503
-    },
+    BuffType = 10503001,
+    DisperseBuffType = 10503,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -15135,9 +13763,7 @@ return ReadOnly("Buff", {
       Value = -0.3
     },
     BuffId = 20116001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -15152,9 +13778,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 20119001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MaxLayer = 7,
     MergeRule1 = "Global",
@@ -15169,16 +13793,12 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 20120001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {
-      10199002
-    }
+    VisualEffects = 10199002
   },
   [20151001] = {
     AddAttrs = {
@@ -15261,9 +13881,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 20156001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -15277,9 +13895,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 20156002,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -15288,9 +13904,7 @@ return ReadOnly("Buff", {
       Value = -0.3
     },
     BuffId = 20161001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -15300,9 +13914,7 @@ return ReadOnly("Buff", {
   [30100001] = {
     AddPassiveEffect = {20130001},
     BuffId = 30100001,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -15311,9 +13923,7 @@ return ReadOnly("Buff", {
   [30100002] = {
     AddPassiveEffect = {20131001},
     BuffId = 30100002,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -15322,9 +13932,7 @@ return ReadOnly("Buff", {
   [30100003] = {
     AddPassiveEffect = {20132001},
     BuffId = 30100003,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -15333,9 +13941,7 @@ return ReadOnly("Buff", {
   [30100004] = {
     AddPassiveEffect = {20133001},
     BuffId = 30100004,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -15344,9 +13950,7 @@ return ReadOnly("Buff", {
   [30100005] = {
     AddPassiveEffect = {20134001},
     BuffId = 30100005,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -15355,9 +13959,7 @@ return ReadOnly("Buff", {
   [30100006] = {
     AddPassiveEffect = {20135001},
     BuffId = 30100006,
-    BuffType = {
-      10
-    },
+    BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -15429,9 +14031,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 1000,
-    VisualEffects = {
-      304000001
-    }
+    VisualEffects = 304000001
   },
   [30400002] = {
     AddPassiveEffect = {30425},
@@ -15457,9 +14057,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 1000,
-    VisualEffects = {
-      304000002
-    }
+    VisualEffects = 304000002
   },
   [30400003] = {
     AddAttrs = {
@@ -15483,9 +14081,7 @@ return ReadOnly("Buff", {
       UseSaveLoc = "CenterLoc"
     },
     BuffId = 30400004,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     CameraParam = {
       "BossMapSkill",
       "1",
@@ -15501,9 +14097,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 30400005,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Def_Down",
     IsShowInBillboard = true,
     MaxLayer = 4,
@@ -15541,9 +14135,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 1000,
-    VisualEffects = {
-      304000004
-    }
+    VisualEffects = 304000004
   },
   [30400008] = {
     BuffId = 30400008,
@@ -15560,9 +14152,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 1000,
-    VisualEffects = {
-      304000001
-    }
+    VisualEffects = 304000001
   },
   [30400009] = {
     BuffId = 30400009,
@@ -15579,9 +14169,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 1000,
-    VisualEffects = {
-      304000002
-    }
+    VisualEffects = 304000002
   },
   [30400010] = {
     BuffId = 30400010,
@@ -15598,15 +14186,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 1000,
-    VisualEffects = {
-      304000004
-    }
+    VisualEffects = 304000004
   },
   [30400011] = {
     BuffId = 30400011,
-    BuffType = {
-      30
-    },
+    BuffType = 30,
     BuffTypeImgPath = "Elite_Vampire",
     EmissiveParams = {
       EmissiveColor = {
@@ -15625,9 +14209,7 @@ return ReadOnly("Buff", {
   },
   [30400012] = {
     BuffId = 30400012,
-    BuffType = {
-      30
-    },
+    BuffType = 30,
     BuffTypeImgPath = "Elite_Vampire",
     IconPriority = 99959,
     IsShowInBillboard = true,
@@ -15646,9 +14228,7 @@ return ReadOnly("Buff", {
   },
   [30400014] = {
     BuffId = 30400014,
-    BuffType = {
-      30
-    },
+    BuffType = 30,
     BuffTypeImgPath = "Elite_Vampire",
     IconPriority = 99968,
     IsShowInBillboard = true,
@@ -15658,9 +14238,7 @@ return ReadOnly("Buff", {
   },
   [30400015] = {
     BuffId = 30400015,
-    BuffType = {
-      30
-    },
+    BuffType = 30,
     BuffTypeImgPath = "Elite_Vampire",
     IconPriority = 99915,
     IsShowInBillboard = true,
@@ -15670,9 +14248,7 @@ return ReadOnly("Buff", {
   },
   [30400016] = {
     BuffId = 30400016,
-    BuffType = {
-      30
-    },
+    BuffType = 30,
     BuffTypeImgPath = "Elite_Vampire",
     IconPriority = 99929,
     IsShowInBillboard = true,
@@ -15685,9 +14261,7 @@ return ReadOnly("Buff", {
       [1] = {AttrName = "DEF", Rate = -0.15}
     },
     BuffId = 30400017,
-    BuffType = {
-      21
-    },
+    BuffType = 21,
     BuffTypeImgPath = "Def_Down",
     DeadNotRemove = true,
     IsShowInBillboard = true,
@@ -15697,45 +14271,35 @@ return ReadOnly("Buff", {
   },
   [40101001] = {
     BuffId = 40101001,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101002] = {
     BuffId = 40101002,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101003] = {
     BuffId = 40101003,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101004] = {
     BuffId = 40101004,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101005] = {
     BuffId = 40101005,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -15749,9 +14313,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 40101006,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -15759,105 +14321,81 @@ return ReadOnly("Buff", {
   [40101007] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_40101007.BP_Buff_40101007",
     BuffId = 40101007,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101008] = {
     BuffId = 40101008,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101009] = {
     BuffId = 40101009,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101010] = {
     BuffId = 40101010,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101011] = {
     BuffId = 40101011,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101012] = {
     BuffId = 40101012,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101013] = {
     BuffId = 40101013,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101014] = {
     BuffId = 40101014,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101015] = {
     BuffId = 40101015,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [40101016] = {
     BuffId = 40101016,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Slowdown",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     TimeDilation = 0.3,
-    VisualEffects = {
-      600000901
-    }
+    VisualEffects = 600000901
   },
   [40101017] = {
     BuffDamagedRate = {Value = 0.15},
     BuffId = 40101017,
-    BuffType = {
-      11
-    },
+    BuffType = 11,
     BuffTypeImgPath = "Damaged_Up",
     IsShowInBillboard = true,
     MaxLayer = 4,

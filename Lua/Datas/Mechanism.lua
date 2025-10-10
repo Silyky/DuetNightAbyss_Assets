@@ -143,9 +143,7 @@ return ReadOnly("Mechanism", {
   },
   [24] = {
     FirstStateId = 65,
-    StateIdList = {
-      65
-    },
+    StateIdList = 65,
     UnitBPPath = "/Game/BluePrints/Item/Chest/BP_Chest.BP_Chest",
     UnitId = 24,
     UnitRealType = "OpenChest"
@@ -165,9 +163,7 @@ return ReadOnly("Mechanism", {
   [37] = {
     FirstStateId = 65,
     ModelId = 907,
-    StateIdList = {
-      65
-    },
+    StateIdList = 65,
     UnitBPPath = "/Game/BluePrints/Item/Chest/BP_Ailan_Chest.BP_Ailan_Chest",
     UnitId = 37,
     UnitRealType = "OpenChest"

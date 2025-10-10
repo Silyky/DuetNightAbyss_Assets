@@ -277,9 +277,7 @@ return ReadOnly("BattleChar", {
     MaxHp = 200,
     MaxHpLevelGrow = "MaxHpA",
     MaxSp = 120,
-    ModApplicationType = {
-      1
-    },
+    ModApplicationType = 1,
     ModelId = 201,
     RoleId = 201,
     SkillList = {20101, 20102},
@@ -323,9 +321,7 @@ return ReadOnly("BattleChar", {
     MaxHp = 200,
     MaxHpLevelGrow = "MaxHpA",
     MaxSp = 120,
-    ModApplicationType = {
-      1
-    },
+    ModApplicationType = 1,
     ModelId = 5401,
     RoleId = 202,
     SkillList = {
@@ -589,9 +585,7 @@ return ReadOnly("BattleChar", {
       420191
     },
     Sp = -1,
-    SummonId = {
-      420101
-    },
+    SummonId = 420101,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
@@ -678,9 +672,7 @@ return ReadOnly("BattleChar", {
       240191
     },
     Sp = -1,
-    SummonId = {
-      240101
-    },
+    SummonId = 240101,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
@@ -1016,9 +1008,7 @@ return ReadOnly("BattleChar", {
     ExcelWeaponTags = {
       "Claymore", "Shotgun"
     },
-    ExtraModelIds = {
-      110301
-    },
+    ExtraModelIds = 110301,
     GuideIconImg = "Mini_Tuosi",
     MaxES = 130,
     MaxESLevelGrow = "MaxESS",
@@ -1050,9 +1040,7 @@ return ReadOnly("BattleChar", {
       110003
     },
     Sp = -1,
-    UltraWeapon = {
-      110301
-    },
+    UltraWeapon = 110301,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
@@ -2235,9 +2223,7 @@ return ReadOnly("BattleChar", {
       240191
     },
     Sp = -1,
-    SummonId = {
-      240101
-    },
+    SummonId = 240101,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
@@ -3205,9 +3191,7 @@ return ReadOnly("BattleChar", {
       420191
     },
     Sp = -1,
-    SummonId = {
-      420101
-    },
+    SummonId = 420101,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
@@ -3536,12 +3520,8 @@ return ReadOnly("BattleChar", {
       510191
     },
     Sp = -1,
-    SummonId = {
-      510101
-    },
-    UltraWeapon = {
-      510101
-    },
+    SummonId = 510101,
+    UltraWeapon = 510101,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
@@ -3765,12 +3745,8 @@ return ReadOnly("BattleChar", {
       510003
     },
     Sp = -1,
-    SummonId = {
-      530101
-    },
-    UltraWeapon = {
-      530101
-    },
+    SummonId = 530101,
+    UltraWeapon = 530101,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
@@ -4029,9 +4005,7 @@ return ReadOnly("BattleChar", {
     ExcelWeaponTags = {
       "Claymore", "Shotgun"
     },
-    ExtraModelIds = {
-      1103
-    },
+    ExtraModelIds = 1103,
     GuideIconImg = "Mini_Common",
     MaxES = 130,
     MaxESLevelGrow = "MaxESS",
@@ -4050,9 +4024,7 @@ return ReadOnly("BattleChar", {
       110303
     },
     Sp = -1,
-    UltraWeapon = {
-      110301
-    },
+    UltraWeapon = 110301,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C"
   },
   [110302] = {
@@ -4086,9 +4058,7 @@ return ReadOnly("BattleChar", {
     ExcelWeaponTags = {
       "Claymore", "Shotgun"
     },
-    ExtraModelIds = {
-      1103
-    },
+    ExtraModelIds = 1103,
     GuideIconImg = "Mini_Common",
     MaxES = 130,
     MaxESLevelGrow = "MaxESS",
@@ -4107,9 +4077,7 @@ return ReadOnly("BattleChar", {
       110303
     },
     Sp = -1,
-    UltraWeapon = {
-      110302
-    },
+    UltraWeapon = 110302,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C"
   },
   [110303] = {
@@ -4143,9 +4111,7 @@ return ReadOnly("BattleChar", {
     ExcelWeaponTags = {
       "Claymore", "Shotgun"
     },
-    ExtraModelIds = {
-      1103
-    },
+    ExtraModelIds = 1103,
     GuideIconImg = "Mini_Common",
     MaxES = 130,
     MaxESLevelGrow = "MaxESS",
@@ -4164,9 +4130,7 @@ return ReadOnly("BattleChar", {
       110303
     },
     Sp = -1,
-    UltraWeapon = {
-      110302
-    },
+    UltraWeapon = 110302,
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C"
   },
   [120101] = {

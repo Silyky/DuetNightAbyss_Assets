@@ -279,9 +279,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 3,
         FloorId = 0,
-        Small = {
-          16
-        }
+        Small = 16
       },
       {
         Big = 4,
@@ -543,16 +541,12 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 3,
         FloorId = -1,
-        Small = {
-          13
-        }
+        Small = 13
       },
       {
         Big = 7,
         FloorId = -1,
-        Small = {
-          4
-        }
+        Small = 4
       },
       {
         Big = 8,
@@ -763,9 +757,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 8,
         FloorId = -1,
-        Small = {
-          13
-        }
+        Small = 13
       },
       {
         Big = 11,
@@ -964,9 +956,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 1,
         FloorId = -2,
-        Small = {
-          16
-        }
+        Small = 16
       },
       {
         Big = 2,
@@ -1149,9 +1139,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 6,
         FloorId = 0,
-        Small = {
-          1
-        }
+        Small = 1
       }
     },
     Id = 1032,
@@ -1224,9 +1212,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 8,
         FloorId = 0,
-        Small = {
-          1
-        }
+        Small = 1
       }
     },
     Id = 1033,
@@ -1476,9 +1462,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 8,
         FloorId = 0,
-        Small = {
-          4
-        }
+        Small = 4
       },
       {
         Big = 9,
@@ -1544,9 +1528,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 11,
         FloorId = 0,
-        Small = {
-          4
-        }
+        Small = 4
       },
       {
         Big = 12,
@@ -1614,9 +1596,7 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 10,
         FloorId = 0,
-        Small = {
-          13
-        }
+        Small = 13
       },
       {
         Big = 13,

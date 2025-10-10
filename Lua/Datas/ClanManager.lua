@@ -1,14 +1,10 @@
 return ReadOnly("ClanManager", {
   [9999001] = {
     Id = 9999001,
-    MonsterSpawnIds = {
-      24
-    }
+    MonsterSpawnIds = 24
   },
   [9999002] = {
     Id = 9999002,
-    MonsterSpawnIds = {
-      24
-    }
+    MonsterSpawnIds = 24
   }
 })
