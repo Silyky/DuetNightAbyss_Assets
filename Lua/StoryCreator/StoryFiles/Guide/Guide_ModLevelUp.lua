@@ -418,7 +418,7 @@ return {
             key = "171644946440211111",
             type = "ShowGuideTextNode",
             name = "Text显示信息",
-            pos = {x = 932.9918366222364, y = 78.14668457264949},
+            pos = {x = 947.5079654758666, y = 76.53378136669058},
             propsData = {
               MessageId = 301301,
               MessageNote = "提升魔之楔的等级，可以进一步增强骸和武器的力量。",
@@ -542,7 +542,7 @@ return {
               UIShape = "Square",
               IsResetPlayer = false,
               IsForbidInAnim = true,
-              IsForbidOutAnim = false,
+              IsForbidOutAnim = true,
               UICompSizeOffset = {X = 0, Y = 0},
               UICompLocOffset = {X = 0, Y = 0},
               MessageParentLoc = "HighLightUI",

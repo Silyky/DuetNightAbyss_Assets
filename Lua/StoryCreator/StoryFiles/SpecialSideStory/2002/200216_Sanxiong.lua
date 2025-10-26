@@ -68,16 +68,22 @@ return {
       questNodeData = {
         lineData = {
           {
+            startQuest = "17519769369175680071",
+            startPort = "Out",
+            endQuest = "17585288186972669",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585288186972669",
+            startPort = "Out",
+            endQuest = "17519769369175680069",
+            endPort = "Success"
+          },
+          {
             startQuest = "17519769369175680068",
             startPort = "QuestStart",
             endQuest = "17519769369175680071",
             endPort = "In"
-          },
-          {
-            startQuest = "17519769369175680071",
-            startPort = "Out",
-            endQuest = "17519769369175680069",
-            endPort = "Success"
           }
         },
         nodeData = {
@@ -85,14 +91,14 @@ return {
             key = "17519769369175680068",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 800, y = 300},
+            pos = {x = 996, y = 276},
             propsData = {ModeType = 0}
           },
           ["17519769369175680069"] = {
             key = "17519769369175680069",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1508.1999999999998, y = 295.1142857142857},
+            pos = {x = 1919.1999999999998, y = 289.1142857142857},
             propsData = {ModeType = 0}
           },
           ["17519769369175680070"] = {
@@ -106,7 +112,7 @@ return {
             key = "17519769369175680071",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1143.2459057712151, y = 279.7095539427137},
+            pos = {x = 1356.2459057712151, y = 271.2095539427137},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -188,6 +194,17 @@ return {
               PlusOptions = {},
               OverrideFailBlend = false
             }
+          },
+          ["17585288186972669"] = {
+            key = "17585288186972669",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1642.5, y = 295.9632352941177},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
+            }
           }
         },
         commentData = {}
@@ -198,7 +215,7 @@ return {
       key = "17519769369175680063",
       type = "StoryNode",
       name = "事后印象加值对话",
-      pos = {x = 1563.9704541072958, y = 299.8435599488228},
+      pos = {x = 1563.9704541072958, y = 298.96120700764635},
       propsData = {
         QuestId = 20021604,
         QuestDescriptionComment = "",
@@ -226,18 +243,6 @@ return {
       },
       questNodeData = {
         lineData = {
-          {
-            startQuest = "17519769369175680076",
-            startPort = "Out",
-            endQuest = "17519769369175680073",
-            endPort = "Success"
-          },
-          {
-            startQuest = "17519769369175680072",
-            startPort = "QuestStart",
-            endQuest = "17519769369175680075",
-            endPort = "In"
-          },
           {
             startQuest = "17519769369175680075",
             startPort = "Option_1",
@@ -273,6 +278,24 @@ return {
             startPort = "Out",
             endQuest = "17519769369175680076",
             endPort = "In"
+          },
+          {
+            startQuest = "17519769369175680076",
+            startPort = "Out",
+            endQuest = "1758529202459934249",
+            endPort = "In"
+          },
+          {
+            startQuest = "1758529202459934249",
+            startPort = "Out",
+            endQuest = "17519769369175680073",
+            endPort = "Success"
+          },
+          {
+            startQuest = "17519769369175680072",
+            startPort = "QuestStart",
+            endQuest = "17519769369175680075",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -280,7 +303,7 @@ return {
             key = "17519760482243803041",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1176.871122009748, y = 295.2036090148157},
+            pos = {x = 1204.1438492824752, y = 289.74906356027026},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 51005905,
@@ -362,7 +385,7 @@ return {
             key = "17519760482243803042",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1189.6307700807806, y = 466.3519184069632},
+            pos = {x = 1205.9944064444169, y = 472.71555477059957},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 51005909,
@@ -444,7 +467,7 @@ return {
             key = "17519760482243803043",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1183.7350391309774, y = 649.0749780811931},
+            pos = {x = 1201.9168573127956, y = 645.4386144448295},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -462,28 +485,28 @@ return {
             key = "17519769369175680072",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 557.6428571428571, y = 305.67857142857144},
+            pos = {x = 511.1491370471633, y = 306.4889781271361},
             propsData = {ModeType = 0}
           },
           ["17519769369175680073"] = {
             key = "17519769369175680073",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1824.113389661445, y = 314.6265328874025},
+            pos = {x = 1852.4081265035502, y = 370.9633749926657},
             propsData = {ModeType = 0}
           },
           ["17519769369175680074"] = {
             key = "17519769369175680074",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 1759.6376811594205, y = 521.8188405797101},
+            pos = {x = 1982.2692601067888, y = 607.081998474447},
             propsData = {}
           },
           ["17519769369175680075"] = {
             key = "17519769369175680075",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 861.0461551698438, y = 301.3994285949787},
+            pos = {x = 882.5294087583605, y = 300.29895012607915},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -594,6 +617,17 @@ return {
               EnableFadeOut = false,
               NewTargetPointName = "",
               StaticCreatorIdList = {1180538, 1180542}
+            }
+          },
+          ["1758529202459934249"] = {
+            key = "1758529202459934249",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1557.3126934984523, y = 472.3842105263157},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
             }
           }
         },

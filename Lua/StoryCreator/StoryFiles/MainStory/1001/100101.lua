@@ -696,18 +696,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1744618592602812469",
-            startPort = "Out",
-            endQuest = "quest_168448117791610",
-            endPort = "Success"
-          },
-          {
-            startQuest = "1719210343225140591",
-            startPort = "Out",
-            endQuest = "17429929424274890173",
-            endPort = "In"
-          },
-          {
             startQuest = "quest_1685931704781787",
             startPort = "Out",
             endQuest = "1704972007087288319",
@@ -916,6 +904,12 @@ return {
             startPort = "Out",
             endQuest = "1719210343225140591",
             endPort = "In"
+          },
+          {
+            startQuest = "1719210343225140591",
+            startPort = "Out",
+            endQuest = "quest_168448117791610",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -1563,7 +1557,7 @@ return {
       key = "story_1686817834711541",
       type = "StoryNode",
       name = "杀怪",
-      pos = {x = 1014.0250487032615, y = 145.9646684813402},
+      pos = {x = 1019.0250487032615, y = 149.29800181467354},
       propsData = {
         QuestId = 10010108,
         QuestDescriptionComment = "击退来袭的怪物",
@@ -1712,15 +1706,27 @@ return {
             endPort = "Success"
           },
           {
-            startQuest = "171133579074493928",
-            startPort = "Out",
-            endQuest = "17580193849067282",
-            endPort = "In"
-          },
-          {
             startQuest = "17580193849067282",
             startPort = "Out",
             endQuest = "1706007306143137060",
+            endPort = "In"
+          },
+          {
+            startQuest = "17611209276734439",
+            startPort = "Out",
+            endQuest = "17611209276734440",
+            endPort = "In"
+          },
+          {
+            startQuest = "171133579074493928",
+            startPort = "Out",
+            endQuest = "17611209276734439",
+            endPort = "In"
+          },
+          {
+            startQuest = "17611209276734440",
+            startPort = "Out",
+            endQuest = "17580193849067282",
             endPort = "In"
           }
         },
@@ -1859,7 +1865,7 @@ return {
             key = "1706007306143137060",
             type = "ShowOrHideUINode",
             name = "显示或隐藏UI-Blood",
-            pos = {x = -1256.8841952092555, y = 105.80172113968023},
+            pos = {x = -1255.7730840981446, y = 121.35727669523584},
             propsData = {
               Function = "HideUIInScreen",
               UIParam = "BloodBar",
@@ -2184,7 +2190,7 @@ return {
             key = "17580193849067282",
             type = "SetPlayerStatusNode",
             name = "设置玩家状态",
-            pos = {x = -1417.9094568404034, y = -29.87307559590146},
+            pos = {x = -1261.2427901737367, y = -90.98418670701258},
             propsData = {
               HPPercent = -1,
               ESPercent = -1,
@@ -2198,9 +2204,38 @@ return {
               },
               RecoverPlayer = false
             }
+          },
+          ["17611209276734439"] = {
+            key = "17611209276734439",
+            type = "CreatePhantomNode",
+            name = "召唤女主",
+            pos = {x = -1693.1772070071677, y = -217.89332263648419},
+            propsData = {
+              IsCreate = true,
+              IsClearOtherPhantom = false,
+              IsSync = true,
+              StaticCreatorIdList = {1590286}
+            }
+          },
+          ["17611209276734440"] = {
+            key = "17611209276734440",
+            type = "SetVarNode",
+            name = "打开队友特效",
+            pos = {x = -1403.097727116304, y = -215.19105422041287},
+            propsData = {
+              VarName = "TeammateEffects",
+              VarValue = 1
+            }
           }
         },
-        commentData = {}
+        commentData = {
+          ["17611209294754514"] = {
+            key = "17611209294754514",
+            name = "获得剑必须在第一个",
+            position = {x = -1682.5819115061804, y = 4.568922682662517},
+            size = {width = 302.2222222222221, height = 263.33333333333337}
+          }
+        }
       }
     },
     story_1686818101940601 = {
@@ -2815,25 +2850,19 @@ return {
           {
             startQuest = "17140114540056070",
             startPort = "Out",
-            endQuest = "17534271041931010297",
-            endPort = "In"
-          },
-          {
-            startQuest = "17534271041931010297",
-            startPort = "Out",
             endQuest = "17140114540056069",
             endPort = "In"
           },
           {
             startQuest = "17140114540056069",
             startPort = "Out",
-            endQuest = "17534271060431010364",
+            endQuest = "17429900958491648538",
             endPort = "In"
           },
           {
-            startQuest = "17534271060431010364",
+            startQuest = "17140114540056069",
             startPort = "Out",
-            endQuest = "17429900958491648538",
+            endQuest = "17586339734704553",
             endPort = "In"
           }
         },
@@ -3211,21 +3240,14 @@ return {
               TagValue = 1
             }
           },
-          ["17534271041931010297"] = {
-            key = "17534271041931010297",
+          ["17586339734704553"] = {
+            key = "17586339734704553",
             type = "MSDKUploadNode",
-            name = "【anime_start】海外市场SDK埋点上报",
-            pos = {x = -262.5243603067526, y = -29.402586239034832},
+            name = "【first_anime】海外市场SDK埋点上报",
+            pos = {x = 243.87738124424945, y = 67.72508949928294},
             propsData = {
-              EventName = "anime_start"
+              EventName = "first_anime"
             }
-          },
-          ["17534271060431010364"] = {
-            key = "17534271060431010364",
-            type = "MSDKUploadNode",
-            name = "【anime_end】海外市场SDK埋点上报",
-            pos = {x = -8.522254745842957, y = -29.44544338189195},
-            propsData = {EventName = "anime_end"}
           }
         },
         commentData = {}
@@ -3400,6 +3422,12 @@ return {
             startQuest = "174780912212427913500",
             startPort = "Out",
             endQuest = "17455513993457536",
+            endPort = "In"
+          },
+          {
+            startQuest = "17455524057598317",
+            startPort = "Out",
+            endQuest = "17586340189405840",
             endPort = "In"
           }
         },
@@ -3879,6 +3907,22 @@ return {
             name = "延迟等待",
             pos = {x = -732.8998543122356, y = -267.8444367934454},
             propsData = {WaitTime = 1}
+          },
+          ["17586340189405839"] = {
+            key = "17586340189405839",
+            type = "MSDKUploadNode",
+            name = "【anime_start】海外市场SDK埋点上报",
+            pos = {x = -1596.5550532094555, y = 480.651791076791},
+            propsData = {
+              EventName = "anime_start"
+            }
+          },
+          ["17586340189405840"] = {
+            key = "17586340189405840",
+            type = "MSDKUploadNode",
+            name = "【anime_end】海外市场SDK埋点上报",
+            pos = {x = -458.9568515524496, y = 33.42482674982671},
+            propsData = {EventName = "anime_end"}
           }
         },
         commentData = {
@@ -5169,7 +5213,7 @@ return {
               PlayerId = 0,
               bActiveEnable = true,
               ActiveType = "Lock",
-              SkillNameList = {"Slide"}
+              SkillNameList = {"Slide", "Crouch"}
             }
           },
           ["17355523855385903751"] = {
@@ -6135,7 +6179,7 @@ return {
                 "Attack",
                 "Jump",
                 "Slide",
-                "Slide",
+                "Crouch",
                 "BulletJump",
                 "Skill1",
                 "Skill2",

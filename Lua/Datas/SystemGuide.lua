@@ -100,7 +100,6 @@ return ReadOnly("SystemGuide", {
     UIUnlockRule = "BattleWheel"
   },
   [2013] = {
-    ConditionCheck = 4210,
     GuideChannel = "SystemGuideWithUI",
     GuideEnd = 0,
     GuideStart = 0,
@@ -117,6 +116,7 @@ return ReadOnly("SystemGuide", {
     GuideStoryline = "Guide/Guide_HardBoss.story",
     IsInRegion = 1,
     PlayerInControl = 1,
+    PreSysGuideId = 2075,
     SysGuideId = 2014,
     UIUnlockRule = "HardBoss"
   },
@@ -179,6 +179,7 @@ return ReadOnly("SystemGuide", {
     GuideStart = 0,
     GuideStoryline = "Guide/Guide_Rouge.story",
     IsInRegion = 1,
+    OpenInterface = "BattleMain",
     PlayerInControl = 1,
     SysGuideId = 2023,
     UIUnlockRule = "Rouge"

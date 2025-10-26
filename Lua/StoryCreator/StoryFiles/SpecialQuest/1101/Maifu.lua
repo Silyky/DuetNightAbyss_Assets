@@ -194,6 +194,12 @@ return {
             startPort = "Out",
             endQuest = "17255300723865758717",
             endPort = "In"
+          },
+          {
+            startQuest = "17255300579695757970",
+            startPort = "QuestStart",
+            endQuest = "1758713431171515",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -201,7 +207,7 @@ return {
             key = "17255300579695757970",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 464.77802197802214, y = 292.66813186813187},
+            pos = {x = 119.77802197802214, y = 291.16813186813187},
             propsData = {ModeType = 0}
           },
           ["17255300579695757973"] = {
@@ -430,6 +436,17 @@ return {
               StaticCreatorId = 1111011103,
               GuideType = "M",
               GuidePointName = "questpoint1111011103"
+            }
+          },
+          ["1758713431171515"] = {
+            key = "1758713431171515",
+            type = "SendMessageNode",
+            name = "发送消息",
+            pos = {x = 592.6125047586677, y = 51.215686274509835},
+            propsData = {
+              MessageType = "GameMode",
+              MessageContent = "MaifuStart",
+              UnitId = -1
             }
           }
         },

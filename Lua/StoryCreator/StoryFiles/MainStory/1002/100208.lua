@@ -107,7 +107,7 @@ return {
         bIsStartQuest = true,
         bIsEndQuest = false,
         bIsNotifyGameMode = true,
-        bIsStartChapter = true,
+        bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
         bIsPlayBlackScreenOnComplete = true,
@@ -119,8 +119,7 @@ return {
         IsFairyLand = false,
         SubRegionId = 0,
         StoryGuideType = "Point",
-        StoryGuidePointName = "",
-        QuestUIId = 0
+        StoryGuidePointName = ""
       },
       questNodeData = {
         lineData = {
@@ -158,12 +157,6 @@ return {
             startQuest = "1719906916432286350",
             startPort = "Fail",
             endQuest = "1725348625132544672",
-            endPort = "In"
-          },
-          {
-            startQuest = "1725348474756186079",
-            startPort = "Out",
-            endQuest = "1719906916432286350",
             endPort = "In"
           },
           {
@@ -287,24 +280,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1723370613480169180",
-            startPort = "Out",
-            endQuest = "1725348474756186079",
-            endPort = "In"
-          },
-          {
-            startQuest = "1723370613480169180",
-            startPort = "Out",
-            endQuest = "17233789140732016538",
-            endPort = "In"
-          },
-          {
-            startQuest = "1723370613480169180",
-            startPort = "Out",
-            endQuest = "17244908505303251",
-            endPort = "In"
-          },
-          {
             startQuest = "1719906916431286347",
             startPort = "QuestStart",
             endQuest = "17468464012855969344",
@@ -321,6 +296,30 @@ return {
             startPort = "PassiveFail",
             endQuest = "173131592683241027",
             endPort = "Input_1"
+          },
+          {
+            startQuest = "1723370613480169180",
+            startPort = "Out",
+            endQuest = "17586165531244413",
+            endPort = "In"
+          },
+          {
+            startQuest = "17586165531244413",
+            startPort = "Out",
+            endQuest = "17244908505303251",
+            endPort = "In"
+          },
+          {
+            startQuest = "17586165430803988",
+            startPort = "Out",
+            endQuest = "1719906916432286350",
+            endPort = "In"
+          },
+          {
+            startQuest = "1725363992293741259",
+            startPort = "Out",
+            endQuest = "17586165430803988",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -354,8 +353,8 @@ return {
             key = "1719906916432286350",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "等待特殊任务开始并完成",
-            pos = {x = 3.6150462027649723, y = 457.35439812728646},
-            propsData = {SpecialConfigId = 102, BlackScreenImmediately = false}
+            pos = {x = -46.0843990055064, y = 607.3291112315638},
+            propsData = {SpecialConfigId = 102, BlackScreenImmediately = true}
           },
           ["17218307414851161665"] = {
             key = "17218307414851161665",
@@ -465,7 +464,7 @@ return {
             key = "1723370613480169180",
             type = "GoToRegionNode",
             name = "在幻境",
-            pos = {x = -799.4393939393933, y = 635.5909090909091},
+            pos = {x = -789.9253274432297, y = 637.9707485829279},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
@@ -487,26 +486,11 @@ return {
               IsWhite = false
             }
           },
-          ["17233789140732016538"] = {
-            key = "17233789140732016538",
-            type = "AsyncSetActorLocationAndRotationNode",
-            name = "回位置",
-            pos = {x = -381.53630663991987, y = 688.2388747789204},
-            propsData = {
-              UnitId = 0,
-              NewTargetPointName = "P_StartPoint1",
-              FadeIn = false,
-              FadeOut = false,
-              bResetCamera = true,
-              bForceAsyncLoading = false,
-              IsWhite = false
-            }
-          },
           ["17244908505303251"] = {
             key = "17244908505303251",
             type = "ChangeRoleNode",
             name = "切换角色",
-            pos = {x = -397.0753588516751, y = 803.159090909091},
+            pos = {x = -555.5973767800923, y = 891.6120386287795},
             propsData = {QuestRoleId = 53010101, IsPlayFX = false}
           },
           ["17247600117205632559"] = {
@@ -573,37 +557,6 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["1725348474756186079"] = {
-            key = "1725348474756186079",
-            type = "TalkNode",
-            name = "带你回家",
-            pos = {x = -396.3295454545456, y = 538.0681818181816},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 10111201,
-              FlowAssetPath = "",
-              TalkType = "White",
-              BlendInTime = 0,
-              BlendOutTime = 0,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = true,
-              ShowSkipButton = false,
-              ShowAutoPlayButton = false,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          },
           ["1725348625132544672"] = {
             key = "1725348625132544672",
             type = "PlayOrStopBGMNode",
@@ -619,7 +572,7 @@ return {
             key = "1725363992293741259",
             type = "ForbidWeaponByWeaponTagNode",
             name = "禁用 武器节点",
-            pos = {x = -356.9347509301884, y = 926.4623750301844},
+            pos = {x = -292.7140612750159, y = 884.4623750301844},
             propsData = {
               WeaponTags = {"Melee", "Ranged"},
               bForbid = true,
@@ -803,6 +756,52 @@ return {
               IsWaitingEnterRegion = false,
               RegionIds = {101401, 101402}
             }
+          },
+          ["17586165430803988"] = {
+            key = "17586165430803988",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "回位置",
+            pos = {x = -37.8298701958387, y = 875.3228384176109},
+            propsData = {
+              UnitId = 0,
+              NewTargetPointName = "P_StartPoint1",
+              FadeIn = false,
+              FadeOut = false,
+              bResetCamera = true,
+              bForceAsyncLoading = true,
+              IsWhite = false
+            }
+          },
+          ["17586165531244413"] = {
+            key = "17586165531244413",
+            type = "TalkNode",
+            name = "带你回家",
+            pos = {x = -513.7134840609507, y = 645.116549856822},
+            propsData = {
+              IsNpcNode = false,
+              FirstDialogueId = 10111201,
+              FlowAssetPath = "",
+              TalkType = "White",
+              BlendInTime = 0,
+              BlendOutTime = 0,
+              ShowFadeDetail = false,
+              BlendEaseExp = 0,
+              ForceAutoPlay = true,
+              ShowSkipButton = false,
+              ShowAutoPlayButton = false,
+              ShowReviewButton = true,
+              ShowWikiButton = true,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              TalkActors = {},
+              RemoveTalkActors = {},
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "None",
+              OverrideFailBlend = false
+            }
           }
         },
         commentData = {}
@@ -813,7 +812,7 @@ return {
       key = "1719906916414286304",
       type = "StoryNode",
       name = "一阶段",
-      pos = {x = 465.12483287653475, y = 389.6288900592873},
+      pos = {x = 467.37483287653475, y = 388.1288900592873},
       propsData = {
         QuestId = 10020803,
         QuestDescriptionComment = "",
@@ -828,7 +827,7 @@ return {
         bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnComplete = true,
         bIsPlayBlackScreenOnFail = false,
         bIsDynamicEvent = false,
         ResurgencePoint = "",
@@ -841,12 +840,6 @@ return {
       },
       questNodeData = {
         lineData = {
-          {
-            startQuest = "1719906916444286384",
-            startPort = "Success",
-            endQuest = "1719906916445286385",
-            endPort = "In"
-          },
           {
             startQuest = "1719906916444286384",
             startPort = "Fail",
@@ -890,12 +883,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1719906916444286384",
-            startPort = "Success",
-            endQuest = "17253489137241084522",
-            endPort = "In"
-          },
-          {
             startQuest = "17234469255121999286",
             startPort = "Out",
             endQuest = "1719906916444286384",
@@ -920,24 +907,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1726123982419737230",
-            startPort = "Out",
-            endQuest = "1726123982419737231",
-            endPort = "In"
-          },
-          {
-            startQuest = "1726123982419737231",
-            startPort = "Out",
-            endQuest = "1726123982419737232",
-            endPort = "In"
-          },
-          {
-            startQuest = "1719906916444286384",
-            startPort = "Success",
-            endQuest = "1726123982419737230",
-            endPort = "In"
-          },
-          {
             startQuest = "1723370706244664403",
             startPort = "Out",
             endQuest = "17261245539822387348",
@@ -953,12 +922,6 @@ return {
             startQuest = "17261245539822387348",
             startPort = "Out",
             endQuest = "17234469255121999286",
-            endPort = "In"
-          },
-          {
-            startQuest = "1719906916444286384",
-            startPort = "Success",
-            endQuest = "1728543690184195546",
             endPort = "In"
           },
           {
@@ -1004,12 +967,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1719906916444286384",
-            startPort = "Success",
-            endQuest = "17266480682683886294",
-            endPort = "In"
-          },
-          {
             startQuest = "17253647028301278606",
             startPort = "Option_1",
             endQuest = "17467167667421994369",
@@ -1036,12 +993,6 @@ return {
           {
             startQuest = "1719906916444286384",
             startPort = "Success",
-            endQuest = "17477099637044299",
-            endPort = "In"
-          },
-          {
-            startQuest = "17477099637044299",
-            startPort = "Out",
             endQuest = "1719906916438286366",
             endPort = "Success"
           }
@@ -1058,7 +1009,7 @@ return {
             key = "1719906916438286366",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 41.412401024277614, y = 797.06663774959},
+            pos = {x = -221.0118413999648, y = 828.1272438101961},
             propsData = {
               ModeType = 1,
               Id = 101402,
@@ -1077,28 +1028,14 @@ return {
             key = "1719906916444286384",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "等待特殊任务开始并完成",
-            pos = {x = -781.9349548188111, y = 756.167944383679},
+            pos = {x = -781.9349548188111, y = 839.0467322624669},
             propsData = {SpecialConfigId = 104, BlackScreenImmediately = false}
-          },
-          ["1719906916445286385"] = {
-            key = "1719906916445286385",
-            type = "ChangeStaticCreatorNode",
-            name = "销毁 一阶段幻影赛琪",
-            pos = {x = -462.22797197573516, y = 648.0521577548486},
-            propsData = {
-              ActiveEnable = false,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1630040}
-            }
           },
           ["1719906916445286386"] = {
             key = "1719906916445286386",
             type = "ChangeStaticCreatorNode",
             name = "销毁 一阶段幻影赛琪",
-            pos = {x = -470.35233524982567, y = 873.50061424342},
+            pos = {x = -487.01900191649236, y = 949.7127354555412},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -1152,7 +1089,7 @@ return {
             key = "1723370706244664403",
             type = "GoToRegionNode",
             name = "在幻境2",
-            pos = {x = -1639.6528326745708, y = 871.0263504611329},
+            pos = {x = -1638.6183499159501, y = 871.0263504611329},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
@@ -1269,18 +1206,7 @@ return {
             key = "17253488696611083533",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = -484.35590145148973, y = 1025.6988158899924},
-            propsData = {
-              SoundStateType = 3,
-              SoundPriority = 0,
-              SoundType = 0
-            }
-          },
-          ["17253489137241084522"] = {
-            key = "17253489137241084522",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = -464.45911503600115, y = 520.7404470352038},
+            pos = {x = -486.0225681181564, y = 1090.6988158899924},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -1351,42 +1277,6 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["1726123982419737230"] = {
-            key = "1726123982419737230",
-            type = "ShowOrHideUINode",
-            name = "显示或隐藏UI",
-            pos = {x = -468.66308538898636, y = 3.344740053823699},
-            propsData = {
-              Function = "HideUIInScreen",
-              UIParam = "BloodBar",
-              ActionParam = "None",
-              ShowOrHide = false
-            }
-          },
-          ["1726123982419737231"] = {
-            key = "1726123982419737231",
-            type = "ShowOrHideUINode",
-            name = "显示或隐藏UI",
-            pos = {x = -470.36458736604607, y = 133.02316894044836},
-            propsData = {
-              Function = "HideUIInScreen",
-              UIParam = "EnergySkill",
-              ActionParam = "None",
-              ShowOrHide = false
-            }
-          },
-          ["1726123982419737232"] = {
-            key = "1726123982419737232",
-            type = "ShowOrHideUINode",
-            name = "显示或隐藏UI",
-            pos = {x = -461.0659118891413, y = 267.4740193601374},
-            propsData = {
-              Function = "HideUIInScreen",
-              UIParam = "Entrance",
-              ActionParam = "None",
-              ShowOrHide = false
-            }
-          },
           ["17261245539822387348"] = {
             key = "17261245539822387348",
             type = "ChangeRoleNode",
@@ -1398,56 +1288,7 @@ return {
             key = "17261245539822387350",
             type = "RestoreRoleNode",
             name = "恢复角色",
-            pos = {x = -490.0779863656087, y = 1140.0309221155292},
-            propsData = {}
-          },
-          ["17266480682683886294"] = {
-            key = "17266480682683886294",
-            type = "TalkNode",
-            name = "过场动画黑屏衔接",
-            pos = {x = -154.29228715340608, y = 627.1734628445694},
-            propsData = {
-              IsNpcNode = false,
-              TalkType = "Cinematic",
-              TalkStageName = "",
-              ShowFilePath = "/Game/AssetDesign/Story/Sequence/Common/Common_Black_Quick",
-              InType = "BlendIn",
-              OutType = "BlendOut",
-              ShowSkipButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              PauseGameGlobal = true,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              HideEffectCreature = true,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          },
-          ["1728543690184195546"] = {
-            key = "1728543690184195546",
-            type = "RestoreRoleNode",
-            name = "恢复角色",
-            pos = {x = -437.96774782772235, y = 387.5452860098483},
+            pos = {x = -508.411319698942, y = 1258.3642554488624},
             propsData = {}
           },
           ["173131594448841222"] = {
@@ -1488,13 +1329,6 @@ return {
               IsWaitingEnterRegion = false,
               RegionIds = {101401, 101402}
             }
-          },
-          ["17477099637044299"] = {
-            key = "17477099637044299",
-            type = "WaitOfTimeNode",
-            name = "延迟等待",
-            pos = {x = -309.9999999999999, y = 771},
-            propsData = {WaitTime = 0.1}
           }
         },
         commentData = {}
@@ -1505,7 +1339,7 @@ return {
       key = "1719906916415286305",
       type = "StoryNode",
       name = "二阶段",
-      pos = {x = 737.4548545614249, y = 386.71890765613466},
+      pos = {x = 738.2048545614249, y = 386.71890765613466},
       propsData = {
         QuestId = 10020804,
         QuestDescriptionComment = "",
@@ -1642,12 +1476,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17297669864912082809",
-            startPort = "Out",
-            endQuest = "1719906916486286498",
-            endPort = "In"
-          },
-          {
             startQuest = "17253647720541280199",
             startPort = "Option_1",
             endQuest = "17467167888071995085",
@@ -1672,18 +1500,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1719906916486286498",
-            startPort = "Out",
-            endQuest = "17482649552884632301",
-            endPort = "In"
-          },
-          {
-            startQuest = "17482649552884632301",
-            startPort = "Out",
-            endQuest = "1719906916485286495",
-            endPort = "In"
-          },
-          {
             startQuest = "1719906916485286495",
             startPort = "Fail",
             endQuest = "1745830208551578290",
@@ -1700,6 +1516,30 @@ return {
             startPort = "Success",
             endQuest = "1726734000906739539",
             endPort = "In"
+          },
+          {
+            startQuest = "1723444128085501302",
+            startPort = "Out",
+            endQuest = "1719906916479286479",
+            endPort = "Fail"
+          },
+          {
+            startQuest = "17259594734073360036",
+            startPort = "Out",
+            endQuest = "1719906916486286498",
+            endPort = "In"
+          },
+          {
+            startQuest = "1719906916486286498",
+            startPort = "Out",
+            endQuest = "17482649552884632301",
+            endPort = "In"
+          },
+          {
+            startQuest = "17482649552884632301",
+            startPort = "Out",
+            endQuest = "1719906916485286495",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -1714,7 +1554,7 @@ return {
             key = "1719906916479286478",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = -1295.4811174890017, y = 676.4180879214913},
+            pos = {x = -1294.0525460604304, y = 674.9895164929198},
             propsData = {
               ModeType = 1,
               Id = 101103,
@@ -1726,28 +1566,30 @@ return {
             key = "1719906916479286479",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = -1395.6473605124493, y = 864.616815618545},
+            pos = {x = -1342.7902176553064, y = 910.3311013328307},
             propsData = {}
           },
           ["1719906916485286495"] = {
             key = "1719906916485286495",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "等待特殊任务开始并完成",
-            pos = {x = -2184.302576987635, y = 730.0440287600371},
+            pos = {x = -2184.302576987635, y = 728.6154573314657},
             propsData = {SpecialConfigId = 105, BlackScreenImmediately = true}
           },
           ["1719906916486286498"] = {
             key = "1719906916486286498",
             type = "TalkNode",
             name = "过场动画 主角救赛琪",
-            pos = {x = -2478.3021622893384, y = 732.1532470440977},
+            pos = {x = -2471.986372815654, y = 1068.469036517782},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
-              TalkStageName = "",
+              TalkStageName = "Stage_SQ_OBT0101_SC007",
               ShowFilePath = "/Game/Asset/Cinematics/Story/OBT01/OBT0101/OBT0101_SC007/SQ_OBT0101_SC007",
-              InType = "BlendIn",
+              BlendInTime = 0,
+              InType = "FadeIn",
               OutType = "BlendOut",
+              ShowFadeDetail = false,
               ShowSkipButton = true,
               ShowReviewButton = true,
               ShowWikiButton = true,
@@ -1773,7 +1615,7 @@ return {
                 {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
+              bTravelFullLoadWorldComposition = true,
               SwitchToMaster = "None",
               OverrideFailBlend = false
             }
@@ -1922,7 +1764,7 @@ return {
             key = "17233797379222847098",
             type = "GoToRegionNode",
             name = "在幻境",
-            pos = {x = -3088.526083380655, y = 894.0816245270412},
+            pos = {x = -3207.276083380655, y = 917.8316245270412},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
@@ -2076,7 +1918,7 @@ return {
             key = "17259594734073360036",
             type = "SetPlayerStatusNode",
             name = "设置玩家处于大招状态",
-            pos = {x = -2770.4776143947215, y = 1129.657069692401},
+            pos = {x = -2768.4776143947215, y = 1124.657069692401},
             propsData = {
               HPPercent = -1,
               ESPercent = -1,
@@ -2095,7 +1937,7 @@ return {
             key = "1725975706018227384",
             type = "ChangeRoleNode",
             name = "切换角色",
-            pos = {x = -2773.037345073788, y = 1010.5636031606516},
+            pos = {x = -2771.6087736452164, y = 1007.7064603035087},
             propsData = {QuestRoleId = 53010101, IsPlayFX = false}
           },
           ["1726124046473920427"] = {
@@ -2253,7 +2095,7 @@ return {
             key = "17482649552884632301",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "切位置",
-            pos = {x = -2325.2576921559, y = 923.2827728372611},
+            pos = {x = -2476.4606996746966, y = 1301.1775096793663},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "QuestPoint_SaiqiDreamBoss2",
@@ -2475,7 +2317,7 @@ return {
       key = "1719906916415286307",
       type = "StoryNode",
       name = "返回冰湖",
-      pos = {x = 208.425974100961, y = 834.3505225918963},
+      pos = {x = 207.488474100961, y = 834.3505225918963},
       propsData = {
         QuestId = 10020806,
         QuestDescriptionComment = "",
@@ -2604,6 +2446,12 @@ return {
             startPort = "Out",
             endQuest = "1719906916528286594",
             endPort = "Success"
+          },
+          {
+            startQuest = "1719906916529286596",
+            startPort = "Out",
+            endQuest = "17586082963546004",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -3045,6 +2893,23 @@ return {
               SoundPriority = 0,
               SoundType = 0
             }
+          },
+          ["17586082963546004"] = {
+            key = "17586082963546004",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1484.7252326217845, y = 369.5067038773239},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/mute",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              bStoreToServer = false
+            }
           }
         },
         commentData = {}
@@ -3434,6 +3299,12 @@ return {
             startPort = "QuestStart",
             endQuest = "174698820550012574652",
             endPort = "In"
+          },
+          {
+            startQuest = "1719906916590286771",
+            startPort = "QuestStart",
+            endQuest = "1758608335920936865",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -3441,21 +3312,21 @@ return {
             key = "1719906916590286771",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 273.0530393579911, y = 369.98719023395705},
+            pos = {x = 351.62446792941967, y = 369.98719023395705},
             propsData = {ModeType = 0}
           },
           ["1719906916591286772"] = {
             key = "1719906916591286772",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2561.780777328848, y = 362.94355329032527},
+            pos = {x = 1680.5307773288482, y = 364.81855329032527},
             propsData = {ModeType = 0}
           },
           ["1719906916591286773"] = {
             key = "1719906916591286773",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 2187.142857142857, y = 710},
             propsData = {}
           },
           ["1719906916591286775"] = {
@@ -3561,14 +3432,14 @@ return {
             key = "17218255438786101",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1600.1914274830187, y = 1088.1502882655996},
+            pos = {x = 1605.9057131973045, y = 1166.7217168370282},
             propsData = {WaitTime = 1.5}
           },
           ["1721825854408292696"] = {
             key = "1721825854408292696",
             type = "SendMessageNode",
             name = "发送消息，生成墓碑",
-            pos = {x = 1904.6484981900894, y = 1082.2411973565086},
+            pos = {x = 1913.219926761518, y = 1093.66976878508},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "CreateMubei",
@@ -3579,7 +3450,7 @@ return {
             key = "1725520783940377130",
             type = "ChangeStaticCreatorNode",
             name = "生成赛琪的黄色小蝴蝶和花束",
-            pos = {x = 1905.0829962837893, y = 1193.1159118058677},
+            pos = {x = 1899.3687105695035, y = 1291.687340377296},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -3618,14 +3489,14 @@ return {
             key = "173131596272941424",
             type = "WaitQuestFinishedNode",
             name = "等待任务完成",
-            pos = {x = 2129.5982225123275, y = 997.9792149730772},
+            pos = {x = 2208.169651083756, y = 1169.4077864016488},
             propsData = {ListenCount = 3, NeedFinishCount = 3}
           },
           ["17445066090351082324"] = {
             key = "17445066090351082324",
             type = "TalkNode",
             name = "扫墓",
-            pos = {x = 1266.9255990176455, y = 363.8761486424697},
+            pos = {x = 998.8005990176455, y = 369.5011486424697},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10113101,
@@ -3695,7 +3566,7 @@ return {
             key = "17445066090351082325",
             type = "PlayOrStopBGMNode",
             name = "停止播放站桩Bgm",
-            pos = {x = 1750.678767600437, y = 365.2907306740444},
+            pos = {x = 1325.053767600437, y = 369.0407306740444},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -3706,7 +3577,7 @@ return {
             key = "174698820550012574652",
             type = "TalkNode",
             name = "再见赛琪",
-            pos = {x = 788.7440993788821, y = 379.1061507936508},
+            pos = {x = 674.3690993788821, y = 367.8561507936508},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -3743,11 +3614,28 @@ return {
             key = "17471437813371741684",
             type = "SendMessageNode",
             name = "发送消息,夜里",
-            pos = {x = 462.6620553359684, y = 774.9911067193677},
+            pos = {x = 689.5370553359684, y = 765.6161067193677},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "IcelakeNight",
               UnitId = -1
+            }
+          },
+          ["1758608335920936865"] = {
+            key = "1758608335920936865",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 685.7301119177255, y = 566.1132788868723},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/mute",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              bStoreToServer = false
             }
           }
         },
@@ -3759,7 +3647,7 @@ return {
       key = "1719906916417286311",
       type = "StoryNode",
       name = "???",
-      pos = {x = 232.83508830973898, y = 392.158118450966},
+      pos = {x = 232.08508830973898, y = 392.158118450966},
       propsData = {
         QuestId = 10020802,
         QuestDescriptionComment = "",
@@ -4119,7 +4007,7 @@ return {
             key = "1719906916608286824",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "等待特殊任务开始并完成",
-            pos = {x = 241.20254395378748, y = 130.11070043914913},
+            pos = {x = 242.70254395378748, y = 130.11070043914913},
             propsData = {SpecialConfigId = 103, BlackScreenImmediately = true}
           },
           ["1723370653653498673"] = {
@@ -5005,7 +4893,7 @@ return {
       key = "174523646480528125924",
       type = "StoryNode",
       name = "和nifu对话",
-      pos = {x = 719.2779740977859, y = 840.1200618026792},
+      pos = {x = 717.8494026692144, y = 840.1200618026792},
       propsData = {
         QuestId = 10020808,
         QuestDescriptionComment = "",
@@ -5088,12 +4976,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17471173407244090",
-            startPort = "Out",
-            endQuest = "174523646480528125930",
-            endPort = "Success"
-          },
-          {
             startQuest = "174523663797728945554",
             startPort = "Out",
             endQuest = "17471193203941716282",
@@ -5110,6 +4992,18 @@ return {
             startPort = "Out",
             endQuest = "174523682486628946387",
             endPort = "In"
+          },
+          {
+            startQuest = "17471173407244090",
+            startPort = "Out",
+            endQuest = "17585282103375164",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585282103375164",
+            startPort = "Out",
+            endQuest = "174523646480528125930",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -5124,7 +5018,7 @@ return {
             key = "174523646480528125930",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2201.401330688532, y = 367.5917746341988},
+            pos = {x = 2321.022542809744, y = 368.42510796753214},
             propsData = {ModeType = 0}
           },
           ["174523646480528125931"] = {
@@ -5230,14 +5124,14 @@ return {
             key = "174523646480628125946",
             type = "GoToRegionNode",
             name = "等待进入冰湖",
-            pos = {x = 637.3067268767182, y = 304.97252807961905},
+            pos = {x = 637.3067268767182, y = 306.1263742334652},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
               RegionId = 101103,
               bGuideUIEnable = true,
               GuideType = "P",
-              GuideName = "QuestPoint_bury"
+              GuideName = "P_101259LookAtPoint"
             }
           },
           ["174523661715328945215"] = {
@@ -5396,6 +5290,17 @@ return {
               MessageType = "GameMode",
               MessageContent = "IcelakeNight",
               UnitId = -1
+            }
+          },
+          ["17585282103375164"] = {
+            key = "17585282103375164",
+            type = "AuConditionNode",
+            name = "音频条件节点",
+            pos = {x = 2001.9657621279969, y = 370.5436288349333},
+            propsData = {
+              ActionType = 0,
+              Condition = "saiqi_after01",
+              SaveToServer = true
             }
           }
         },
@@ -5681,6 +5586,18 @@ return {
             startPort = "Out",
             endQuest = "175257570711015921",
             endPort = "Success"
+          },
+          {
+            startQuest = "175257570711015920",
+            startPort = "QuestStart",
+            endQuest = "1758613971376315432",
+            endPort = "In"
+          },
+          {
+            startQuest = "1758613971376315432",
+            startPort = "Out",
+            endQuest = "1758613971376315433",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -5828,6 +5745,31 @@ return {
             propsData = {
               MessageType = "GameMode",
               MessageContent = "IcelakeAuroraOff",
+              UnitId = -1
+            }
+          },
+          ["1758613971376315432"] = {
+            key = "1758613971376315432",
+            type = "GoToRegionNode",
+            name = "等待玩家进入冰湖",
+            pos = {x = 549.9671053380429, y = -100.60069997188593},
+            propsData = {
+              RegionType = 1,
+              IsEnter = "Enter",
+              RegionId = 101103,
+              bGuideUIEnable = false,
+              GuideType = "P",
+              GuideName = ""
+            }
+          },
+          ["1758613971376315433"] = {
+            key = "1758613971376315433",
+            type = "SendMessageNode",
+            name = "发送消息,夜里",
+            pos = {x = 802.2551168841793, y = -102.06596669478093},
+            propsData = {
+              MessageType = "GameMode",
+              MessageContent = "IcelakeNight",
               UnitId = -1
             }
           }

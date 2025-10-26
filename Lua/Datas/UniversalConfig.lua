@@ -58,6 +58,9 @@ return ReadOnly("UniversalConfig", {
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
+    StartBlackScreen = {
+      0, 0
+    },
     SuccessBlackScreen = {
       0, 0
     },
@@ -102,6 +105,9 @@ return ReadOnly("UniversalConfig", {
     IsBossBattle = true,
     RegionDataType = {
       "All"
+    },
+    SuccessBlackScreen = {
+      0, 0
     },
     UniversalConfigId = 104
   },
@@ -148,6 +154,9 @@ return ReadOnly("UniversalConfig", {
     IfStartStoryMode = 1,
     SetPlayerTransform = "QuestPoint_SaiqiWalkStart",
     StartBlackScreen = {0, 0.5},
+    SuccessBlackScreen = {
+      0, 0
+    },
     UniversalConfigId = 106
   },
   [107] = {
@@ -310,6 +319,9 @@ return ReadOnly("UniversalConfig", {
       "RDT_QuestData",
       "RDT_CommonData",
       "RDT_None"
+    },
+    StartBlackScreen = {
+      0, 0
     },
     UniversalConfigId = 117
   },
@@ -886,6 +898,7 @@ return ReadOnly("UniversalConfig", {
     UniversalConfigId = 1034
   },
   [1035] = {
+    DisableBattleWheel = true,
     FailBlackScreen = {
       0.5,
       0,
@@ -893,7 +906,10 @@ return ReadOnly("UniversalConfig", {
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
     FailureGuidanceCombinationId = 100001,
+    HideBattlePet = true,
+    HideBattleWheel = true,
     IfChangeESC = 1,
+    IfDestoryPhantom = 1,
     IfStartStoryMode = 1,
     IfWaitDead = 1,
     IsBossBattle = true,
@@ -927,14 +943,12 @@ return ReadOnly("UniversalConfig", {
     UniversalConfigId = 1036
   },
   [1037] = {
-    DisableBattleWheel = true,
     FailBlackScreen = {
       0.5,
       0,
       2
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
-    HideBattleWheel = true,
     IfChangeESC = 1,
     IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,

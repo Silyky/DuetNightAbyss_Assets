@@ -234,7 +234,7 @@ return {
       key = "1722414723994163418",
       type = "StoryNode",
       name = "前进",
-      pos = {x = -292.2717987296102, y = -57.161974534946395},
+      pos = {x = -292.2717987296102, y = -58.92668041729934},
       propsData = {
         QuestId = 11010301,
         QuestDescriptionComment = "前往瞭望台的路上",
@@ -384,7 +384,7 @@ return {
               IsCreate = true,
               IsClearOtherPhantom = false,
               IsSync = false,
-              StaticCreatorIdList = {1211010205}
+              StaticCreatorIdList = {1640642}
             }
           },
           ["1722414724010163512"] = {
@@ -460,7 +460,7 @@ return {
       key = "1723796482259875289",
       type = "StoryNode",
       name = "能源室上层特殊任务",
-      pos = {x = -394.7121232698827, y = 568.8521519521223},
+      pos = {x = -395.6798652053665, y = 566.9166680811546},
       propsData = {
         QuestId = 11010305,
         QuestDescriptionComment = "A机关玩法",
@@ -1189,12 +1189,12 @@ return {
       key = "17315866040981240094",
       type = "StoryNode",
       name = "能源室下层特殊任务",
-      pos = {x = -760.8910582908884, y = 735.2130527932737},
+      pos = {x = -761.8588002263723, y = 736.1807947287576},
       propsData = {
         QuestId = 11010306,
         QuestDescriptionComment = "检查内部结构",
-        QuestDescription = "Description_110106_1",
-        QuestDeatil = "Content_110106_1",
+        QuestDescription = "Description_110105_3",
+        QuestDeatil = "Content_110105_3",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -1248,8 +1248,38 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17601019900401740",
+            startPort = "Out",
+            endQuest = "17601019900401744",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601019900401740",
+            startPort = "Out",
+            endQuest = "17601019900401742",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601019900401740",
+            startPort = "Out",
+            endQuest = "17601019900401741",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601019900401741",
+            startPort = "Out",
+            endQuest = "17601019900401743",
+            endPort = "In"
+          },
+          {
             startQuest = "17315866040981240098",
             startPort = "QuestStart",
+            endQuest = "17601019900401740",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601019900401743",
+            startPort = "Out",
             endQuest = "17315866040981240101",
             endPort = "In"
           }
@@ -1259,7 +1289,7 @@ return {
             key = "17315866040981240098",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = -1336.8819813744144, y = 350.57193950285375},
+            pos = {x = -1975.8819813744144, y = 583.0719395028538},
             propsData = {ModeType = 0}
           },
           ["17315866040981240099"] = {
@@ -1280,7 +1310,7 @@ return {
             key = "17315866040981240101",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "开始能源室下层特殊任务",
-            pos = {x = -707.6437966555485, y = 368.5067066643594},
+            pos = {x = -656.6437966555485, y = 523.0067066643594},
             propsData = {SpecialConfigId = 1005, BlackScreenImmediately = false}
           },
           ["17315866040981240103"] = {
@@ -1302,11 +1332,152 @@ return {
             key = "17315866040991240108",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = -457.1596384104533, y = 486.8971975614808},
+            pos = {x = -397.1596384104533, y = 506.3971975614808},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
               SoundType = 0
+            }
+          },
+          ["17601019900401740"] = {
+            key = "17601019900401740",
+            type = "GoToNode",
+            name = "GOTO - 前往内部",
+            pos = {x = -1663.8253259112719, y = 565.7980674388957},
+            propsData = {
+              GuideUIEnable = true,
+              StaticCreatorId = 1640273,
+              GuideType = "M",
+              GuidePointName = "Mechanism_DongliKaiche04_1640273"
+            }
+          },
+          ["17601019900401741"] = {
+            key = "17601019900401741",
+            type = "TalkNode",
+            name = "对话节点",
+            pos = {x = -1197.1136078616794, y = 597.2287961372203},
+            propsData = {
+              IsNpcNode = false,
+              TalkType = "LevelSequence",
+              TalkStageName = "",
+              ShowFilePath = "LevelSequence'/Game/AssetDesign/Level/Sequencer/Region/Fort/LS_Fort01_EngineeUp02.LS_Fort01_EngineeUp02'",
+              BlendInTime = 1,
+              BlendOutTime = 0,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
+              ShowSkipButton = false,
+              ShowReviewButton = false,
+              ShowWikiButton = false,
+              PauseGameGlobal = false,
+              HideNpcs = false,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              HideEffectCreature = true,
+              DisableNpcOptimization = false,
+              DoNotReceiveCharacterShadow = false,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              TalkActors = {},
+              RemoveTalkActors = {},
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "EXPlayer",
+              OverrideFailBlend = false
+            }
+          },
+          ["17601019900401742"] = {
+            key = "17601019900401742",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = -1084.3048378408344, y = 346.43079477174774},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "FMODEvent'/Game/Asset/Audio/FMOD/Events/bgm/cbt02/0061_scene_ex01_escape.0061_scene_ex01_escape'",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {102101},
+              ClientRelatedRegionId = {},
+              bStoreToServer = true
+            }
+          },
+          ["17601019900401743"] = {
+            key = "17601019900401743",
+            type = "TalkNode",
+            name = "机关状态演出",
+            pos = {x = -932.5080074220623, y = 555.0764404820944},
+            propsData = {
+              IsNpcNode = false,
+              FirstDialogueId = 11017516,
+              FlowAssetPath = "",
+              TalkType = "FixSimple",
+              TalkStageName = "EX01_FixSimple_donglishishang",
+              BlendInTime = 0,
+              BlendOutTime = 1,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
+              BlendEaseExp = 2,
+              UseProceduralCamera = false,
+              ProceduralCameraId = 1,
+              HideNpcs = false,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              ShowSkipButton = true,
+              ShowAutoPlayButton = true,
+              ShowReviewButton = true,
+              ShowWikiButton = true,
+              SkipToOption = false,
+              DisableNpcOptimization = false,
+              DoNotReceiveCharacterShadow = false,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              PauseNpcBT = true,
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                },
+                {
+                  TalkActorType = "Npc",
+                  TalkActorId = 110010,
+                  TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Npc",
+                  TalkActorId = 110020,
+                  TalkActorVisible = true
+                }
+              },
+              RemoveTalkActors = {
+                {TalkActorType = "Player", TalkActorId = 110010},
+                {TalkActorType = "Npc", TalkActorId = 110020},
+                {TalkActorType = "Player", TalkActorId = 0}
+              },
+              OptionType = "normal",
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "None",
+              NormalOptions = {},
+              OverrideFailBlend = false
+            }
+          },
+          ["17601019900401744"] = {
+            key = "17601019900401744",
+            type = "SendMessageNode",
+            name = "发送消息",
+            pos = {x = -952.5266638895052, y = 928.2358718949192},
+            propsData = {
+              MessageType = "GameMode",
+              MessageContent = "EngineUpRestart",
+              UnitId = -1
             }
           }
         },

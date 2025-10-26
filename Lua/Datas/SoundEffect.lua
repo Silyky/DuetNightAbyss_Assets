@@ -215,7 +215,7 @@ return ReadOnly("SoundEffect", {
   },
   [218] = {
     SoundId = 218,
-    SoundPath = "event:/sfx/common/scene/shenmiao/exp_field"
+    SoundPath = "event:/sfx/common/scene/shenmiao/hammer_hit"
   },
   [219] = {
     SoundId = 219,
@@ -224,6 +224,10 @@ return ReadOnly("SoundEffect", {
   [220] = {
     SoundId = 220,
     SoundPath = "event:/sfx/common/enemy/buff/darkhit"
+  },
+  [221] = {
+    SoundId = 221,
+    SoundPath = "event:/sfx/common/scene/shenmiao/hammer_pre"
   },
   [301] = {
     NumLimit = 5,
@@ -547,6 +551,10 @@ return ReadOnly("SoundEffect", {
     SoundId = 2032,
     SoundPath = "event:/sfx/common/scene/baoxiang/juntuan_high"
   },
+  [2033] = {
+    SoundId = 2033,
+    SoundPath = "event:/sfx/common/scene/magic_box"
+  },
   [2101] = {
     NumLimit = 5,
     SoundId = 2101,
@@ -687,11 +695,13 @@ return ReadOnly("SoundEffect", {
   },
   [150106] = {
     SoundId = 150106,
-    SoundPath = "event:/sfx/common/player/hit/weapon/heavySwordHit_normal"
+    SoundPath = "event:/sfx/common/player/hit/weapon/heavySwordHit_normal",
+    SubSoundId = 2
   },
   [150107] = {
     SoundId = 150107,
-    SoundPath = "event:/sfx/common/player/hit/weapon/heavySwordHit_heavy"
+    SoundPath = "event:/sfx/common/player/hit/weapon/heavySwordHit_heavy",
+    SubSoundId = 2
   },
   [150201] = {
     SoundId = 150201,
@@ -933,6 +943,18 @@ return ReadOnly("SoundEffect", {
     SoundId = 320102,
     SoundPath = "event:/sfx/common/player/hit/common/weapon/single/weaponHit_metal",
     SubSoundId = 53
+  },
+  [320103] = {
+    SoundId = 320103,
+    SoundPath = "event:/sfx/player/Haier/skill02_cast"
+  },
+  [320104] = {
+    SoundId = 320104,
+    SoundPath = "event:/sfx/common/player/hit/weapon/heavySwordHit_normal"
+  },
+  [320105] = {
+    SoundId = 320105,
+    SoundPath = "event:/sfx/common/player/hit/weapon/heavySwordHit_heavy"
   },
   [330101] = {
     SoundId = 330101,
@@ -1258,6 +1280,10 @@ return ReadOnly("SoundEffect", {
     NumLimit = 5,
     SoundId = 600303,
     SoundPath = "event:/sfx/common/enemy/hit/bubble_hit"
+  },
+  [600401] = {
+    SoundId = 600401,
+    SoundPath = "event:/sfx/common/enemy/hit/explode_small_hit"
   },
   [600501] = {
     NumLimit = 5,
@@ -2783,7 +2809,7 @@ return ReadOnly("SoundEffect", {
   [1020101] = {
     NumLimit = 5,
     SoundId = 1020101,
-    SoundPath = "event:/sfx/weapon/$MeleeWeapon$/mod01_fly"
+    SoundPath = "event:/sfx/weapon/Polearm/Liandu/mod01_fly"
   },
   [1020102] = {
     NumLimit = 5,
@@ -3335,6 +3361,10 @@ return ReadOnly("SoundEffect", {
     SoundId = 10109103,
     SoundPath = "event:/sfx/rougue/jixue_cast"
   },
+  [40101001] = {
+    SoundId = 40101001,
+    SoundPath = "event:/sfx/weapon/Machinegun/Poxiao/hit_01"
+  },
   [600000901] = {
     NumLimit = 5,
     SoundId = 600000901,
@@ -3409,5 +3439,9 @@ return ReadOnly("SoundEffect", {
     NumLimit = 5,
     SoundId = 600001401,
     SoundPath = "event:/sfx/common/enemy/buff/strong_threeFold"
+  },
+  [900000001] = {
+    SoundId = 900000001,
+    SoundPath = "event:/sfx/weapon/Cannon/Qunxing/shoot_hit_ground"
   }
 })

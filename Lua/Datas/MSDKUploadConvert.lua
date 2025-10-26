@@ -30,6 +30,9 @@ return ReadOnly("MSDKUploadConvert", {
   },
   QuestStartInfo = {},
   QuestSuccessInfo = {
+    [10010102] = {
+      [1] = "anime_start"
+    },
     [10010104] = {
       [1] = "leave_cave"
     },
@@ -56,8 +59,9 @@ return ReadOnly("MSDKUploadConvert", {
       [1] = "prologue_anime_start"
     },
     [10010308] = {
-      [1] = "prologue_end",
-      [2] = "reborn_start"
+      [1] = "chapter1_1_start",
+      [2] = "prologue_end",
+      [3] = "reborn_start"
     },
     [10010310] = {
       [1] = "Loadout_active",
@@ -65,9 +69,6 @@ return ReadOnly("MSDKUploadConvert", {
     },
     [10010311] = {
       [1] = "conquer_soldiers"
-    },
-    [10020101] = {
-      [1] = "chapter1_1_start"
     },
     [10020108] = {
       [1] = "chapter1_1_end"

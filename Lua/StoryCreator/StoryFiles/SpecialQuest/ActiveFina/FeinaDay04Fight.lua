@@ -162,18 +162,6 @@ return {
           {
             startQuest = "17545587490003343624",
             startPort = "Out",
-            endQuest = "17573125519795354357",
-            endPort = "In"
-          },
-          {
-            startQuest = "17573125519795354357",
-            startPort = "Out",
-            endQuest = "17560153883294911",
-            endPort = "In"
-          },
-          {
-            startQuest = "17545587490003343624",
-            startPort = "Out",
             endQuest = "17573134789504521",
             endPort = "In"
           },
@@ -220,21 +208,45 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17560153883294911",
+            startQuest = "17586270792631405",
             startPort = "Out",
-            endQuest = "175758285419842115007",
+            endQuest = "17560153883294911",
             endPort = "In"
           },
           {
-            startQuest = "175758285419842115007",
+            startQuest = "17545587490003343624",
             startPort = "Out",
-            endQuest = "175818309663912447",
+            endQuest = "17586270792631405",
+            endPort = "In"
+          },
+          {
+            startQuest = "17560153883294911",
+            startPort = "Out",
+            endQuest = "17586272421643442",
             endPort = "In"
           },
           {
             startQuest = "175818309663912447",
             startPort = "Out",
             endQuest = "175447819035411935191",
+            endPort = "In"
+          },
+          {
+            startQuest = "17586272421643442",
+            startPort = "Out",
+            endQuest = "175818309663912447",
+            endPort = "In"
+          },
+          {
+            startQuest = "17586272421643442",
+            startPort = "Out",
+            endQuest = "17599127726812163",
+            endPort = "In"
+          },
+          {
+            startQuest = "17573110824554720933",
+            startPort = "Out",
+            endQuest = "1759912722017637",
             endPort = "In"
           }
         },
@@ -271,14 +283,14 @@ return {
             key = "175447819035411935191",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 3091.2655845915197, y = 441.73247064664133},
+            pos = {x = 2815.9159342418693, y = 576.7044986186693},
             propsData = {}
           },
           ["17545587490003343623"] = {
             key = "17545587490003343623",
             type = "ChangeStaticCreatorNode",
             name = "生成怪物",
-            pos = {x = 1439.8149500116256, y = 270.9574838048386},
+            pos = {x = 1433.3863785830542, y = 250.9574838048386},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -302,14 +314,14 @@ return {
             key = "17545587490003343624",
             type = "KillMonsterNode",
             name = "击杀怪物",
-            pos = {x = 1433.6180290297937, y = 432.88797394555905},
+            pos = {x = 1443.6180290297937, y = 400.0308310884162},
             propsData = {
               KillMonsterType = "Id",
-              MonsterNeedNums = 3,
+              MonsterNeedNums = 9,
               IsShow = false,
               GuideType = "P",
               GuideName = "",
-              IsShowMonsterGuide = true,
+              IsShowMonsterGuide = false,
               StaticCreatorIdList = {
                 1240951,
                 1240952,
@@ -327,7 +339,7 @@ return {
             key = "17545587490003343625",
             type = "ChangeStaticCreatorNode",
             name = "销毁弟弟",
-            pos = {x = 1139.8933894211862, y = -125.25433047232741},
+            pos = {x = 1376.8933894211862, y = -146.7543304723274},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -341,7 +353,7 @@ return {
             key = "17559627221173594",
             type = "CreatePhantomNode",
             name = "召唤女主魅影",
-            pos = {x = 1084.4107470675551, y = -884.7261028908669},
+            pos = {x = 1336.4107470675551, y = -892.7261028908669},
             propsData = {
               IsCreate = true,
               IsClearOtherPhantom = false,
@@ -353,7 +365,7 @@ return {
             key = "17559627221173595",
             type = "SetVarNode",
             name = "打开队友特效",
-            pos = {x = 1363.5892529324449, y = -968.9342240851851},
+            pos = {x = 1615.5892529324449, y = -976.9342240851851},
             propsData = {
               VarName = "TeammateEffects",
               VarValue = 1
@@ -363,7 +375,7 @@ return {
             key = "17560153730094561",
             type = "SendMessageNode",
             name = "发送消息",
-            pos = {x = 1445.3755096733928, y = -123.82395390650547},
+            pos = {x = 1439.661223959107, y = 661.8903318077803},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "FeinaFightStart",
@@ -374,7 +386,7 @@ return {
             key = "17560153883294911",
             type = "SendMessageNode",
             name = "发送消息",
-            pos = {x = 2221.1306537665237, y = 454.11231341122635},
+            pos = {x = 1999.1773570632267, y = 682.1562694551824},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "FeinaFightEnd",
@@ -385,7 +397,7 @@ return {
             key = "17561988569681441",
             type = "SendMessageNode",
             name = "发送消息",
-            pos = {x = 1947.704671995192, y = 1311.7995683231084},
+            pos = {x = 1945.095976343018, y = 1313.1039161491954},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "FeinaFightFail",
@@ -396,7 +408,7 @@ return {
             key = "17573110607864720506",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 1850.8685064935066, y = 280.36044197737743},
+            pos = {x = 1789.439935064935, y = 310.36044197737743},
             propsData = {
               NewDescription = "Description_120114_9_1",
               NewDetail = "Content_120114_9_1",
@@ -407,7 +419,7 @@ return {
             key = "17573110824554720933",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 1442.5104953711689, y = 118.56787275027312},
+            pos = {x = 1373.5104953711689, y = -8.765460583060204},
             propsData = {
               NewDescription = "Description_120114_9",
               NewDetail = "Content_120114_9",
@@ -418,7 +430,7 @@ return {
             key = "17573118185194723120",
             type = "ShowGuideNode",
             name = "提示 - 二技能引导",
-            pos = {x = 2271.1667417350054, y = -330.8273158045315},
+            pos = {x = 1641.1667417350054, y = -1430.8273158045315},
             propsData = {
               MessageId = 200009,
               SkillNameList = {"Skill2"},
@@ -443,7 +455,7 @@ return {
             key = "17573118185194723121",
             type = "ShowGuideNode",
             name = "提示 - 二技能引导",
-            pos = {x = 2276.0445276110117, y = -182.78272583833026},
+            pos = {x = 1646.0445276110117, y = -1282.7827258383304},
             propsData = {
               MessageId = 200009,
               SkillNameList = {"Skill2"},
@@ -468,34 +480,21 @@ return {
             key = "17573118185194723122",
             type = "PlatformJudgmentNode",
             name = "PC/手机平台判断",
-            pos = {x = 1999.9434369334053, y = -336.30102276096954},
+            pos = {x = 1369.9434369334053, y = -1436.3010227609695},
             propsData = {}
           },
           ["17573118185194723123"] = {
             key = "17573118185194723123",
             type = "HighlightButtonNode",
             name = "HighlightButton显示/隐藏信息",
-            pos = {x = 2252.3951590764336, y = -444.15367244081006},
+            pos = {x = 1622.3951590764336, y = -1544.1536724408102},
             propsData = {ShowEnable = true, SkillType = "Skill2"}
-          },
-          ["17573125519795354357"] = {
-            key = "17573125519795354357",
-            type = "KillMonsterNode",
-            name = "击杀怪物",
-            pos = {x = 1851.6605599492227, y = 440.27080133906924},
-            propsData = {
-              KillMonsterType = "Nums",
-              MonsterNeedNums = 40,
-              IsShow = false,
-              GuideType = "P",
-              GuideName = ""
-            }
           },
           ["17573134789504521"] = {
             key = "17573134789504521",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1843.4761904761906, y = 95.69047619047622},
+            pos = {x = 1788.904761904762, y = 136.5476190476191},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12033850,
@@ -512,21 +511,21 @@ return {
             key = "1757432146005875",
             type = "HighlightButtonNode",
             name = "HighlightButton显示/隐藏信息",
-            pos = {x = 2555.6122232139064, y = -345.36847299354713},
+            pos = {x = 1925.6122232139064, y = -1445.3684729935471},
             propsData = {ShowEnable = false, SkillType = "Skill2"}
           },
           ["175758273166542111142"] = {
             key = "175758273166542111142",
             type = "ChangeRoleNode",
             name = "切换角色",
-            pos = {x = 1142.8963422849533, y = -572.6621437850422},
+            pos = {x = 1286.8963422849533, y = -612.6621437850422},
             propsData = {QuestRoleId = 10301002, IsPlayFX = false}
           },
           ["175758273166542111143"] = {
             key = "175758273166542111143",
             type = "CameraControlNode",
             name = "镜头控制节点",
-            pos = {x = 1144.2773620213634, y = -443.736416117388},
+            pos = {x = 1288.2773620213634, y = -483.736416117388},
             propsData = {
               Duration = 0,
               CameraName = "StoryEast01Nai01",
@@ -541,7 +540,7 @@ return {
             key = "175758273166542111144",
             type = "CameraControlClearNode",
             name = "镜头恢复",
-            pos = {x = 1422.3455438395451, y = -444.75914339011524},
+            pos = {x = 1566.3455438395451, y = -484.75914339011524},
             propsData = {Duration = 4}
           },
           ["175758277391942112563"] = {
@@ -558,38 +557,76 @@ return {
             pos = {x = 1625.8846998239458, y = 1099.4322933467342},
             propsData = {Duration = 0}
           },
-          ["175758285419842115007"] = {
-            key = "175758285419842115007",
-            type = "CameraControlClearNode",
-            name = "镜头恢复",
-            pos = {x = 2488.194326777454, y = 450.61646980470545},
-            propsData = {Duration = 3}
-          },
           ["175818309663912447"] = {
             key = "175818309663912447",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 2772.949579831933, y = 452.8511904761905},
+            pos = {x = 2536.6206324635123, y = 509.6011904761905},
             propsData = {WaitTime = 2}
+          },
+          ["17586270792631405"] = {
+            key = "17586270792631405",
+            type = "WaitOfTimeNode",
+            name = "延迟等待",
+            pos = {x = 1773.864514226743, y = 528.5377414123549},
+            propsData = {WaitTime = 30}
+          },
+          ["17586272421643442"] = {
+            key = "17586272421643442",
+            type = "BossBattleFinishNode",
+            name = "完成BOSS战阶段",
+            pos = {x = 2276.6238601439845, y = 500.0002262958925},
+            propsData = {
+              SendMessage = "",
+              FinishCondition = "FeinaFightEndBack"
+            }
+          },
+          ["1759912722017637"] = {
+            key = "1759912722017637",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1686.1210149028486, y = -18},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt02/0060_boss_ex01_lizhanzhe_loop",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {101103},
+              bStoreToServer = false
+            }
+          },
+          ["17599127726812163"] = {
+            key = "17599127726812163",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 2526, y = 351},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
+            }
           }
         },
         commentData = {
           ["175758268536242110184"] = {
             key = "175758268536242110184",
             name = "Input Commment...",
-            position = {x = 1056, y = -1050},
+            position = {x = 1308, y = -1058},
             size = {width = 550, height = 334}
           },
           ["175758273540042111280"] = {
             key = "175758273540042111280",
             name = "Input Commment...",
-            position = {x = 1109.875, y = -648.5681818181818},
+            position = {x = 1253.875, y = -688.5681818181818},
             size = {width = 587.7272727272726, height = 464.99999999999994}
           },
           ["175758275342542111870"] = {
             key = "175758275342542111870",
             name = "Input Commment...",
-            position = {x = 1942.356060606061, y = -549.5340909090909},
+            position = {x = 1312.356060606061, y = -1649.534090909091},
             size = {width = 902.7272727272725, height = 527.7272727272726}
           },
           ["175758278209742112872"] = {

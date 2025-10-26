@@ -228,11 +228,11 @@ return ReadOnly("TeleportPoint", {
     },
     Id = 1003,
     LevelName = "Prologue_Clouds_Art_0101BigObjs",
-    MechanismPos = {22180, 18749},
+    MechanismPos = {22051, 19329},
     MechanismStateId = 901002,
     StaticId = 1580002,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_100103_1",
-    TeleportPointPos = 1,
+    TeleportPointPos = 2,
     TeleportPointSubRegion = 100103,
     Temples = {80201},
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
@@ -565,7 +565,7 @@ return ReadOnly("TeleportPoint", {
     TeleportPointName = "UI_TELEPORTPOINT_NAME_101103_2",
     TeleportPointPos = 3,
     TeleportPointSubRegion = 101103,
-    Temples = {80501},
+    Temples = {80903},
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1016] = {
@@ -657,7 +657,7 @@ return ReadOnly("TeleportPoint", {
     TeleportPointName = "UI_TELEPORTPOINT_NAME_101103_1",
     TeleportPointPos = 5,
     TeleportPointSubRegion = 101103,
-    Temples = {80502},
+    Temples = {80501},
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1017] = {
@@ -799,7 +799,7 @@ return ReadOnly("TeleportPoint", {
     TeleportPointName = "UI_TELEPORTPOINT_NAME_101103_4",
     TeleportPointPos = 7,
     TeleportPointSubRegion = 101103,
-    Temples = {80302},
+    Temples = {80502},
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1020] = {
@@ -876,7 +876,7 @@ return ReadOnly("TeleportPoint", {
     TeleportPointName = "UI_TELEPORTPOINT_NAME_101301_1",
     TeleportPointPos = 2,
     TeleportPointSubRegion = 101301,
-    Temples = {80903},
+    Temples = {81501},
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1021] = {
@@ -1008,7 +1008,7 @@ return ReadOnly("TeleportPoint", {
     TeleportPointName = "UI_TELEPORTPOINT_NAME_101304_1",
     TeleportPointPos = 1,
     TeleportPointSubRegion = 101304,
-    Temples = {81501, 81502},
+    Temples = {81502},
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1030] = {
@@ -1692,6 +1692,7 @@ return ReadOnly("TeleportPoint", {
     TeleportPointName = "UI_TELEPORTPOINT_NAME_101901_1",
     TeleportPointPos = 1,
     TeleportPointSubRegion = 101901,
+    Temples = {80302},
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1100] = {
@@ -1853,7 +1854,7 @@ return ReadOnly("TeleportPoint", {
     Id = 9000,
     MechanismPos = {31670, 32317},
     TeleportPointIcon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Boss.T_Gp_Boss",
-    TeleportPointPos = 2,
+    TeleportPointPos = 1,
     TeleportPointSubRegion = 100103
   },
   [9001] = {

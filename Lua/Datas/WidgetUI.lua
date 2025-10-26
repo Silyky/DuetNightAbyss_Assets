@@ -112,6 +112,11 @@ return ReadOnly("WidgetUI", {
   ArmoryWeaponAttribute = {
     UIName = "ArmoryWeaponAttribute"
   },
+  BattleAimAimStarButterfly = {
+    BPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Butterfly.WBP_Battle_Aim_Butterfly'",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Butterfly.WBP_Battle_Aim_Butterfly'",
+    UIName = "BattleAimAimStarButterfly"
+  },
   BattleAimArcher = {
     BPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Archer.WBP_Battle_Aim_Archer'",
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Archer.WBP_Battle_Aim_Archer'",
@@ -121,11 +126,6 @@ return ReadOnly("WidgetUI", {
     BPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Bow.WBP_Battle_Aim_Bow'",
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Bow.WBP_Battle_Aim_Bow'",
     UIName = "BattleAimBow"
-  },
-  BattleAimButterfly = {
-    BPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Butterfly.WBP_Battle_Aim_Butterfly'",
-    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Butterfly.WBP_Battle_Aim_Butterfly'",
-    UIName = "BattleAimButterfly"
   },
   BattleAimCannon = {
     BPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/Aim/WBP_Battle_Aim_Cannon.WBP_Battle_Aim_Cannon'",

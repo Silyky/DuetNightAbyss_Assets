@@ -26,7 +26,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "MaxHp",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Heal",
         Rate = 0.05,
         Value = 15
@@ -11085,7 +11085,7 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit1"
     },
-    TargetFilter = "Char_Cylinder_Large",
+    TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
@@ -12891,7 +12891,8 @@ return ReadOnly("SkillEffects", {
       },
       [4] = {
         FXId = 22, Function = "PlayFX"
-      }
+      },
+      [5] = {Function = "PlaySE", SEId = 320104}
     },
     TaskId = 320112
   },
@@ -12926,6 +12927,9 @@ return ReadOnly("SkillEffects", {
       },
       [4] = {
         FXId = 22, Function = "PlayFX"
+      },
+      [5] = {
+        Function = "PlaySE", SEId = 320105
       }
     },
     TaskId = 320123
@@ -12962,7 +12966,10 @@ return ReadOnly("SkillEffects", {
       [4] = {
         FXId = 22, Function = "PlayFX"
       },
-      [5] = {FXId = 320111, Function = "PlayFX"}
+      [5] = {FXId = 320111, Function = "PlayFX"},
+      [6] = {
+        Function = "PlaySE", SEId = 320105
+      }
     },
     TaskId = 320124
   },
@@ -15979,8 +15986,8 @@ return ReadOnly("SkillEffects", {
         Function = "CreateSkillCreature",
         Location = {
           0,
-          0,
-          50
+          50,
+          30
         }
       }
     },
@@ -17811,6 +17818,9 @@ return ReadOnly("SkillEffects", {
       },
       [3] = {
         FXId = 600009, Function = "PlayFX"
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 600401
       }
     },
     TaskId = 600405
@@ -17857,6 +17867,9 @@ return ReadOnly("SkillEffects", {
       },
       [3] = {
         FXId = 600009, Function = "PlayFX"
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 600401
       }
     },
     TaskId = 600408
@@ -18082,12 +18095,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         CreatureId = 600701,
-        Function = "CreateSkillCreature",
-        Location = {
-          100,
-          50,
-          0
-        }
+        Function = "CreateSkillCreature"
       }
     },
     TaskId = 600701
@@ -18136,12 +18144,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         CreatureId = 600702,
-        Function = "CreateSkillCreature",
-        Location = {
-          100,
-          50,
-          0
-        }
+        Function = "CreateSkillCreature"
       }
     },
     TaskId = 600704
@@ -18456,6 +18459,9 @@ return ReadOnly("SkillEffects", {
         BuffId = 6000301,
         Function = "AddBuff",
         LastTime = 5
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 1003
       }
     },
     TaskId = 601401
@@ -18478,6 +18484,9 @@ return ReadOnly("SkillEffects", {
         BuffId = 6000301,
         Function = "AddBuff",
         LastTime = 5
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 1003
       }
     },
     TaskId = 601402
@@ -18505,6 +18514,9 @@ return ReadOnly("SkillEffects", {
         BuffId = 6000301,
         Function = "AddBuff",
         LastTime = 5
+      },
+      [5] = {
+        Function = "PlaySE", SEId = 600401
       }
     },
     TaskId = 601403
@@ -18549,6 +18561,9 @@ return ReadOnly("SkillEffects", {
         BuffId = 30400017,
         Function = "AddBuff",
         LastTime = -1
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 600401
       }
     },
     TaskId = 601405
@@ -22539,6 +22554,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -22593,6 +22609,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -22692,6 +22709,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -22737,6 +22755,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -22773,6 +22792,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY1200Z1000",
         Function = "CutToughness",
         Value = 100
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 850294
       }
     },
     TaskId = 850233
@@ -22851,6 +22873,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -22873,6 +22896,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY1200Z1000",
         Function = "CutToughness",
         Value = 100
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 850211
       }
     },
     TaskId = 850239
@@ -22892,6 +22918,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY1200Z1000",
         Function = "CutToughness",
         Value = 100
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 850211
       }
     },
     TaskId = 850240
@@ -23128,6 +23157,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -25575,6 +25605,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -25809,9 +25840,6 @@ return ReadOnly("SkillEffects", {
         StaticCreatorId = 1660021
       },
       [2] = {
-        BuffId = 850502, Function = "RemoveBuff"
-      },
-      [3] = {
         Function = "CameraRelock"
       }
     },
@@ -25826,6 +25854,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -26156,11 +26185,6 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "AlmostAllEnemy",
     TaskEffects = {
       [1] = {
-        BuffId = 850502,
-        Function = "AddBuff",
-        LastTime = -1
-      },
-      [2] = {
         CantLockTime = -1,
         Function = "CameraUnlock"
       }
@@ -28959,6 +28983,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -37886,7 +37911,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Mon_Sphere_300_360",
     TaskEffects = {
       [1] = {
-        FXId = 2030102,
+        FXId = 900073,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -43488,11 +43513,6 @@ return ReadOnly("SkillEffects", {
       [1] = {
         CreatureId = 1020321,
         Function = "CreateSkillCreature"
-      },
-      [2] = {
-        FXId = 15021,
-        Function = "PlayFX",
-        IsAttached = true
       }
     },
     TaskId = 1020321
@@ -44028,6 +44048,7 @@ return ReadOnly("SkillEffects", {
     TaskId = 1030212
   },
   [1030213] = {
+    AttackRangeType = "Normal",
     NotifyName = {
       "hit1"
     },
@@ -45132,7 +45153,7 @@ return ReadOnly("SkillEffects", {
       },
       [5] = {
         Function = "PlaySE",
-        MeleeHitLevel = "Normal",
+        MeleeHitLevel = "Heavy",
         SEId = 104
       }
     },
@@ -45382,7 +45403,7 @@ return ReadOnly("SkillEffects", {
           "HeavyAttack"
         },
         Function = "Damage",
-        Rate = 1.13
+        Rate = 0.161
       },
       [2] = {
         Function = "PlayFX",
@@ -54797,6 +54818,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -54869,6 +54891,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -54979,6 +55002,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -54998,11 +55022,6 @@ return ReadOnly("SkillEffects", {
       [1] = {
         CreatureId = 850212,
         Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          -50
-        },
         UseSaveLoc = ""
       }
     },
@@ -55029,6 +55048,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -55065,6 +55085,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY1200Z1000",
         Function = "CutToughness",
         Value = 100
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 850294
       }
     },
     TaskId = 8502133
@@ -55143,6 +55166,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -55165,6 +55189,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY1200Z1000",
         Function = "CutToughness",
         Value = 100
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 850211
       }
     },
     TaskId = 8502139
@@ -55184,6 +55211,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY1200Z1000",
         Function = "CutToughness",
         Value = 100
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 850211
       }
     },
     TaskId = 8502140
@@ -55198,6 +55228,9 @@ return ReadOnly("SkillEffects", {
         BaseAttr = "ATK",
         Function = "Damage",
         Rate = 5
+      },
+      [2] = {
+        Function = "PlaySE", SEId = 850282
       }
     },
     TaskId = 8502141
@@ -55221,6 +55254,9 @@ return ReadOnly("SkillEffects", {
         BaseAttr = "ATK",
         Function = "Damage",
         Rate = 0.5
+      },
+      [2] = {
+        Function = "PlaySE", SEId = 850282
       }
     },
     TaskId = 8502143
@@ -55317,6 +55353,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -55503,6 +55540,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -55839,6 +55877,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "LightHit_400",
         Function = "CutToughness",
         Value = 100
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 850282
       }
     },
     TaskId = 8502165
@@ -56399,6 +56440,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -57046,6 +57088,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -57235,6 +57278,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -57363,6 +57407,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -57413,15 +57458,11 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit7"
     },
-    TargetFilter = "BTTarget",
+    TargetFilter = "Self",
     TaskEffects = {
       [1] = {
         Function = "InactiveStaticCreator",
         StaticCreatorId = 1440065
-      },
-      [2] = {BuffId = 850310, Function = "RemoveBuff"},
-      [3] = {
-        Function = "CameraRelock"
       }
     },
     TaskId = 8503202
@@ -57456,7 +57497,7 @@ return ReadOnly("SkillEffects", {
   },
   [8503205] = {
     NotifyName = {
-      "hit1"
+      "hit3"
     },
     TargetFilter = "BTTarget",
     TaskEffects = {
@@ -58512,6 +58553,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -58720,6 +58762,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -59048,6 +59091,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -59097,11 +59141,6 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "AlmostAllEnemy",
     TaskEffects = {
       [1] = {
-        BuffId = 850502,
-        Function = "AddBuff",
-        LastTime = -1
-      },
-      [2] = {
         CantLockTime = -1,
         Function = "CameraUnlock"
       }
@@ -59119,9 +59158,6 @@ return ReadOnly("SkillEffects", {
         StaticCreatorId = 1660122
       },
       [2] = {
-        BuffId = 850502, Function = "RemoveBuff"
-      },
-      [3] = {
         Function = "CameraRelock"
       }
     },
@@ -59334,6 +59370,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
+        FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
         TargetType = "Target"
@@ -60751,6 +60788,9 @@ return ReadOnly("SkillEffects", {
         },
         Function = "Damage",
         Rate = "#1"
+      },
+      [2] = {
+        FXId = 10105103, Function = "PlayFX"
       }
     },
     TaskId = 101051022
@@ -60780,7 +60820,8 @@ return ReadOnly("SkillEffects", {
         CauseHit = "LightHit",
         Function = "CutToughness",
         Value = 50
-      }
+      },
+      [3] = {FXId = 10105902, Function = "PlayFX"}
     },
     TaskId = 101051062
   },
@@ -60809,6 +60850,9 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY400Z400_F",
         Function = "CutToughness",
         Value = 200
+      },
+      [3] = {
+        FXId = 10105103, Function = "PlayFX"
       }
     },
     TaskId = 101052052
@@ -61798,7 +61842,12 @@ return ReadOnly("SkillEffects", {
       [1] = {
         ATKBase = "ATK",
         CreatureId = 30102004,
-        Function = "CreateSkillCreature"
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          60
+        }
       }
     },
     TaskId = 301020041
@@ -61855,6 +61904,11 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
       }
     },
     TaskId = 401010003
@@ -61988,7 +62042,8 @@ return ReadOnly("SkillEffects", {
         CauseHit = "RangedWeapon_Shotgun",
         Function = "CutToughness",
         Value = 0.2
-      }
+      },
+      [4] = {Function = "PlaySE", SEId = 40101001}
     },
     TaskId = 401010010
   },

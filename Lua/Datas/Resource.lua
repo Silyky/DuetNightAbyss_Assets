@@ -159,6 +159,7 @@ return ReadOnly("Resource", {
   [123] = {
     DetailDes = "RESOURCE_DESC_123",
     HoldDisplayRule = "Hide",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_BattlePassExp.T_Resource_BattlePassExp",
     Rarity = 5,
     ResourceId = 123,
     ResourceName = "RESOURCE_NAME_123",
@@ -173,6 +174,7 @@ return ReadOnly("Resource", {
   [124] = {
     DetailDes = "RESOURCE_DESC_124",
     HoldDisplayRule = "Hide",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_BattlePassExp.T_Resource_BattlePassExp",
     Rarity = 5,
     ResourceId = 124,
     ResourceName = "RESOURCE_NAME_124",
@@ -1525,7 +1527,7 @@ return ReadOnly("Resource", {
     },
     DetailDes = "RESOURCE_DESC_10100",
     FunctionDes = "RESOURCE_FUNCTION_SKILL",
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Skill01.T_Skill01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_BreakRes_Golden.T_BreakRes_Golden",
     IpDes = "RESOURCE_TEXT_10100",
     ItemArchiveType = 1,
     MaterialClassify = 3,
@@ -5912,7 +5914,7 @@ return ReadOnly("Resource", {
   },
   [30101] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30101",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -5931,7 +5933,7 @@ return ReadOnly("Resource", {
   },
   [30102] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30102",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -5939,7 +5941,7 @@ return ReadOnly("Resource", {
     IpDes = "RESOURCE_TEXT_30102",
     ItemArchiveType = 1,
     MaterialClassify = 3,
-    Rarity = 3,
+    Rarity = 4,
     ResourceId = 30102,
     ResourceName = "RESOURCE_NAME_30102",
     ResourceSType = "Dyeing",
@@ -5950,7 +5952,7 @@ return ReadOnly("Resource", {
   },
   [30103] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30103",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -5958,7 +5960,7 @@ return ReadOnly("Resource", {
     IpDes = "RESOURCE_TEXT_30103",
     ItemArchiveType = 1,
     MaterialClassify = 3,
-    Rarity = 3,
+    Rarity = 4,
     ResourceId = 30103,
     ResourceName = "RESOURCE_NAME_30103",
     ResourceSType = "Dyeing",
@@ -5969,7 +5971,7 @@ return ReadOnly("Resource", {
   },
   [30104] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30104",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -5977,7 +5979,7 @@ return ReadOnly("Resource", {
     IpDes = "RESOURCE_TEXT_30104",
     ItemArchiveType = 1,
     MaterialClassify = 3,
-    Rarity = 3,
+    Rarity = 4,
     ResourceId = 30104,
     ResourceName = "RESOURCE_NAME_30104",
     ResourceSType = "Dyeing",
@@ -5988,7 +5990,7 @@ return ReadOnly("Resource", {
   },
   [30105] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30105",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -5996,7 +5998,7 @@ return ReadOnly("Resource", {
     IpDes = "RESOURCE_TEXT_30105",
     ItemArchiveType = 1,
     MaterialClassify = 3,
-    Rarity = 3,
+    Rarity = 4,
     ResourceId = 30105,
     ResourceName = "RESOURCE_NAME_30105",
     ResourceSType = "Dyeing",
@@ -6007,7 +6009,7 @@ return ReadOnly("Resource", {
   },
   [30106] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30106",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -6015,7 +6017,7 @@ return ReadOnly("Resource", {
     IpDes = "RESOURCE_TEXT_30106",
     ItemArchiveType = 1,
     MaterialClassify = 3,
-    Rarity = 3,
+    Rarity = 4,
     ResourceId = 30106,
     ResourceName = "RESOURCE_NAME_30106",
     ResourceSType = "Dyeing",
@@ -6026,7 +6028,7 @@ return ReadOnly("Resource", {
   },
   [30107] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30107",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -6034,7 +6036,7 @@ return ReadOnly("Resource", {
     IpDes = "RESOURCE_TEXT_30107",
     ItemArchiveType = 1,
     MaterialClassify = 3,
-    Rarity = 3,
+    Rarity = 4,
     ResourceId = 30107,
     ResourceName = "RESOURCE_NAME_30107",
     ResourceSType = "Dyeing",
@@ -6045,7 +6047,7 @@ return ReadOnly("Resource", {
   },
   [30108] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30108",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -6064,7 +6066,7 @@ return ReadOnly("Resource", {
   },
   [30109] = {
     AccessKey = {
-      "Forging"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30109",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -6072,7 +6074,7 @@ return ReadOnly("Resource", {
     IpDes = "RESOURCE_TEXT_30109",
     ItemArchiveType = 1,
     MaterialClassify = 3,
-    Rarity = 3,
+    Rarity = 4,
     ResourceId = 30109,
     ResourceName = "RESOURCE_NAME_30109",
     ResourceSType = "Dyeing",
@@ -6083,7 +6085,7 @@ return ReadOnly("Resource", {
   },
   [30110] = {
     AccessKey = {
-      "Text_HardBoss"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30110",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -6102,7 +6104,7 @@ return ReadOnly("Resource", {
   },
   [30111] = {
     AccessKey = {
-      "Text_HardBoss"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30111",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -6121,7 +6123,7 @@ return ReadOnly("Resource", {
   },
   [30112] = {
     AccessKey = {
-      "Text_HardBoss"
+      "Shop_Main"
     },
     DetailDes = "RESOURCE_DESC_30112",
     FunctionDes = "RESOURCE_FUNCTION_DYE",
@@ -6321,8 +6323,6 @@ return ReadOnly("Resource", {
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Action/T_Resource_Gesture_Saozhou.T_Resource_Gesture_Saozhou",
     PlayAnim = "Gesture_Saoba",
     Rarity = 5,
-    RegainItemId = 101,
-    RegainItemNum = 100,
     ResourceId = 41003,
     ResourceName = "RESOURCE_NAME_41003",
     ResourceSType = "GestureItem",
@@ -6464,9 +6464,6 @@ return ReadOnly("Resource", {
     Type = "InfiniteBattleItem"
   },
   [41009] = {
-    AccessKey = {
-      "Text_EggBai"
-    },
     CameraName = "Char_Gesture_Idle",
     CombatConditionID = {
       [1] = 500,
@@ -6617,7 +6614,7 @@ return ReadOnly("Resource", {
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "InfiniteBattleItem",
-    UIDisplayTime = 15.5,
+    UIDisplayTime = 15.9,
     UseBPFunction = "Gesture"
   },
   [41015] = {
@@ -6700,7 +6697,7 @@ return ReadOnly("Resource", {
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "InfiniteBattleItem",
-    UIDisplayTime = 15.5,
+    UIDisplayTime = 15.9,
     UseBPFunction = "Gesture"
   },
   [41018] = {
@@ -6731,7 +6728,7 @@ return ReadOnly("Resource", {
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "InfiniteBattleItem",
-    UIDisplayTime = 15.5,
+    UIDisplayTime = 15.9,
     UseBPFunction = "Gesture"
   },
   [42001] = {
@@ -9329,6 +9326,38 @@ return ReadOnly("Resource", {
     Sound = "SOUND_ITEM_PAPER",
     Type = "Read"
   },
+  [2000096] = {
+    BookSeriesId = 1096,
+    DetailDes = "READ_DESC_2000096",
+    FunctionDes = "READ_FUNCTION_READ",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Read_East01.T_Read_East01",
+    ImmediateGet = 1,
+    IpDes = "READ_TEXT_2000096",
+    MaterialClassify = 5,
+    Rarity = 3,
+    ResourceId = 2000096,
+    ResourceName = "READ_NAME_2000096",
+    ResourceSType = "Read",
+    ResourceValue = -1,
+    Sound = "SOUND_ITEM_PAPER",
+    Type = "Read"
+  },
+  [2000097] = {
+    BookSeriesId = 1096,
+    DetailDes = "READ_DESC_2000097",
+    FunctionDes = "READ_FUNCTION_READ",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Read_East01.T_Read_East01",
+    ImmediateGet = 1,
+    IpDes = "READ_TEXT_2000097",
+    MaterialClassify = 5,
+    Rarity = 3,
+    ResourceId = 2000097,
+    ResourceName = "READ_NAME_2000097",
+    ResourceSType = "Read",
+    ResourceValue = -1,
+    Sound = "SOUND_ITEM_PAPER",
+    Type = "Read"
+  },
   [3000001] = {
     DetailDes = "RESOURCE_DESC_3000001",
     FunctionDes = "RESOURCE_FUNCTION_TASK",
@@ -11737,6 +11766,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31001001,
     ResourceName = "RESOURCE_NAME_31001001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11752,6 +11782,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31001002,
     ResourceName = "RESOURCE_NAME_31001002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11767,6 +11798,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31001003,
     ResourceName = "RESOURCE_NAME_31001003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11782,6 +11814,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31001004,
     ResourceName = "RESOURCE_NAME_31001004",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11797,6 +11830,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31001005,
     ResourceName = "RESOURCE_NAME_31001005",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11812,6 +11846,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31001006,
     ResourceName = "RESOURCE_NAME_31001006",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11827,6 +11862,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31002001,
     ResourceName = "RESOURCE_NAME_31002001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11842,6 +11878,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31002002,
     ResourceName = "RESOURCE_NAME_31002002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11857,6 +11894,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31002003,
     ResourceName = "RESOURCE_NAME_31002003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11872,6 +11910,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31003001,
     ResourceName = "RESOURCE_NAME_31003001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11887,6 +11926,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31003002,
     ResourceName = "RESOURCE_NAME_31003002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11902,6 +11942,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31003003,
     ResourceName = "RESOURCE_NAME_31003003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11917,6 +11958,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31003004,
     ResourceName = "RESOURCE_NAME_31003004",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11932,6 +11974,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004001,
     ResourceName = "RESOURCE_NAME_31004001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11947,6 +11990,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004002,
     ResourceName = "RESOURCE_NAME_31004002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11962,6 +12006,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004003,
     ResourceName = "RESOURCE_NAME_31004003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11977,6 +12022,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004004,
     ResourceName = "RESOURCE_NAME_31004004",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -11992,6 +12038,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004005,
     ResourceName = "RESOURCE_NAME_31004005",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12007,6 +12054,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004006,
     ResourceName = "RESOURCE_NAME_31004006",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12022,6 +12070,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004007,
     ResourceName = "RESOURCE_NAME_31004007",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12037,6 +12086,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31004008,
     ResourceName = "RESOURCE_NAME_31004008",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12052,6 +12102,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005001,
     ResourceName = "RESOURCE_NAME_31005001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12067,6 +12118,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005002,
     ResourceName = "RESOURCE_NAME_31005002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12082,6 +12134,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005003,
     ResourceName = "RESOURCE_NAME_31005003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12097,6 +12150,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005004,
     ResourceName = "RESOURCE_NAME_31005004",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12112,6 +12166,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005005,
     ResourceName = "RESOURCE_NAME_31005005",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12127,6 +12182,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005006,
     ResourceName = "RESOURCE_NAME_31005006",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12142,6 +12198,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005007,
     ResourceName = "RESOURCE_NAME_31005007",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12157,6 +12214,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005008,
     ResourceName = "RESOURCE_NAME_31005008",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12172,6 +12230,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31005009,
     ResourceName = "RESOURCE_NAME_31005009",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12187,6 +12246,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006001,
     ResourceName = "RESOURCE_NAME_31006001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12202,6 +12262,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006002,
     ResourceName = "RESOURCE_NAME_31006002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12217,6 +12278,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006003,
     ResourceName = "RESOURCE_NAME_31006003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12232,6 +12294,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006004,
     ResourceName = "RESOURCE_NAME_31006004",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12247,6 +12310,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006005,
     ResourceName = "RESOURCE_NAME_31006005",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12262,6 +12326,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006006,
     ResourceName = "RESOURCE_NAME_31006006",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12277,6 +12342,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006007,
     ResourceName = "RESOURCE_NAME_31006007",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12292,6 +12358,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006008,
     ResourceName = "RESOURCE_NAME_31006008",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12307,6 +12374,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006009,
     ResourceName = "RESOURCE_NAME_31006009",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12322,6 +12390,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31006010,
     ResourceName = "RESOURCE_NAME_31006010",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12337,6 +12406,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007001,
     ResourceName = "RESOURCE_NAME_31007001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12352,6 +12422,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007002,
     ResourceName = "RESOURCE_NAME_31007002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12367,6 +12438,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007003,
     ResourceName = "RESOURCE_NAME_31007003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12382,6 +12454,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007004,
     ResourceName = "RESOURCE_NAME_31007004",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12397,6 +12470,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007005,
     ResourceName = "RESOURCE_NAME_31007005",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12412,6 +12486,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007006,
     ResourceName = "RESOURCE_NAME_31007006",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12427,6 +12502,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007007,
     ResourceName = "RESOURCE_NAME_31007007",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12442,6 +12518,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007008,
     ResourceName = "RESOURCE_NAME_31007008",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12457,6 +12534,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31007009,
     ResourceName = "RESOURCE_NAME_31007009",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12472,6 +12550,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31008001,
     ResourceName = "RESOURCE_NAME_31008001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12487,6 +12566,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009001,
     ResourceName = "RESOURCE_NAME_31009001",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12502,6 +12582,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009002,
     ResourceName = "RESOURCE_NAME_31009002",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12517,6 +12598,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009003,
     ResourceName = "RESOURCE_NAME_31009003",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12532,6 +12614,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009004,
     ResourceName = "RESOURCE_NAME_31009004",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12547,6 +12630,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009005,
     ResourceName = "RESOURCE_NAME_31009005",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12562,6 +12646,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009006,
     ResourceName = "RESOURCE_NAME_31009006",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12577,6 +12662,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009007,
     ResourceName = "RESOURCE_NAME_31009007",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12592,6 +12678,7 @@ return ReadOnly("Resource", {
     Rarity = 2,
     ResourceId = 31009008,
     ResourceName = "RESOURCE_NAME_31009008",
+    ResourceSType = "Music",
     ResourceValue = -1,
     Sound = "SOUND_ITEM_NORMAL",
     Type = "Ordinary",
@@ -12607,8 +12694,12 @@ return ReadOnly("Resource", {
       [4] = 69
     },
     CombatConditionParams = {
-      [2] = {PhantomCharId = 101},
-      [5] = {PhantomCharId = 160101}
+      [2] = {
+        PhantomCharId = 160101
+      },
+      [5] = {
+        PhantomCharId = 160101
+      }
     },
     CombatConditionToast = {
       [1] = "UI_Tosat_PhantomSummon_Num",

@@ -4563,6 +4563,12 @@ return {
             startPort = "Out",
             endQuest = "17457603468786708",
             endPort = "Input"
+          },
+          {
+            startQuest = "17561268163321895815",
+            startPort = "Out",
+            endQuest = "17601648566208091",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -5207,6 +5213,17 @@ return {
               SoundStateType = 3,
               SoundPriority = 0,
               SoundType = 0
+            }
+          },
+          ["17601648566208091"] = {
+            key = "17601648566208091",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3627.063736263736, y = -92.45054945054876},
+            propsData = {
+              NewDescription = "QuestName_1003plus04",
+              NewDetail = "QuestDesc_1003plus04",
+              SubTaskTargetIndex = 0
             }
           }
         },

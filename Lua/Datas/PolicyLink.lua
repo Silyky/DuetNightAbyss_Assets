@@ -4,7 +4,7 @@ end
 return ReadOnly("PolicyLink", {
   ChildPrivacy = {
     Cache = "ChildPrivacy",
-    ChinaCN = "https://www.yingxiong.com/p/shhero_etxy.html"
+    ChinaCN = "https://www.yingxiong.com/p/per_child_pan.html?productId=17337&cid=56"
   },
   PaymentPolicyJP = {
     AbroadCN = "https://duetnightabyss.dna-panstudio.com/ja/#/news/content?id=8567",
@@ -31,11 +31,11 @@ return ReadOnly("PolicyLink", {
     AbroadKR = "http://duetnightabyss.herogame.com/ko/#/news/content?id=6267",
     AbroadTC = "https://duetnightabyss.herogame.com/zh-tw/#/news/content?id=6259",
     Cache = "PrivacyPolicy",
-    ChinaCN = "https://www.yingxiong.com/p/shhero_ysxy.html"
+    ChinaCN = "https://www.yingxiong.com/p/per_adu_pan.html?productId=17337&cid=56"
   },
   RelatedProduct = {
     Cache = "RelatedProduct",
-    ChinaCN = "erchongluoxuan.tmall.com"
+    ChinaCN = "https://erchongluoxuan.tmall.com"
   },
   TermsOfService = {
     AbroadCN = "https://duetnightabyss.herogame.com/zh-tw/#/news/content?id=6260",
@@ -48,7 +48,7 @@ return ReadOnly("PolicyLink", {
   },
   ThirdPartySDK = {
     Cache = "ThirdPartySDK",
-    ChinaCN = "https://www.yingxiong.com/p/all_sdk.html"
+    ChinaCN = "https://www.yingxiong.com/p/all_sdk_pan.html?productId=17337&cid=56"
   },
   UserPolicy = {
     Cache = "UserPolicy",

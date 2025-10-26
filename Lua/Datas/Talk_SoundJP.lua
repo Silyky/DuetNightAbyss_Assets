@@ -1,7 +1,7 @@
 local Data = {
   {
     MinKey = "voice_jp_char_Aote_vo_appear",
-    MaxKey = "voice_jp_char_Dafu_vo_idle",
+    MaxKey = "voice_jp_char_Dafu_vo_emotion_reply_02",
     Loader = function()
       return {
         voice_jp_char_Aote_vo_appear = {
@@ -712,7 +712,7 @@ local Data = {
         voice_jp_char_Baonu_vo_companio_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
           SelectKey = "voice_jp_char_Baonu_vo_companio_01",
-          SoundLength = 16440
+          SoundLength = 19920
         },
         voice_jp_char_Baonu_vo_companio_02 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
@@ -759,20 +759,80 @@ local Data = {
           SelectKey = "voice_jp_char_Baonu_vo_topic_01",
           SoundLength = 22020
         },
+        voice_jp_char_Baonu_vo_topic_01_1 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_01_1",
+          SoundLength = 6130
+        },
+        voice_jp_char_Baonu_vo_topic_01_2 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_01_2",
+          SoundLength = 17970
+        },
+        voice_jp_char_Baonu_vo_topic_01_3 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_01_3",
+          SoundLength = 12960
+        },
+        voice_jp_char_Baonu_vo_topic_01_4 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_01_4",
+          SoundLength = 8150
+        },
         voice_jp_char_Baonu_vo_topic_02 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
           SelectKey = "voice_jp_char_Baonu_vo_topic_02",
           SoundLength = 38860
+        },
+        voice_jp_char_Baonu_vo_topic_02_1 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_02_1",
+          SoundLength = 12050
+        },
+        voice_jp_char_Baonu_vo_topic_02_2 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_02_2",
+          SoundLength = 23220
         },
         voice_jp_char_Baonu_vo_topic_03 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
           SelectKey = "voice_jp_char_Baonu_vo_topic_03",
           SoundLength = 36470
         },
+        voice_jp_char_Baonu_vo_topic_03_1 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_03_1",
+          SoundLength = 8320
+        },
+        voice_jp_char_Baonu_vo_topic_03_2 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_03_2",
+          SoundLength = 23040
+        },
+        voice_jp_char_Baonu_vo_topic_03_3 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_03_3",
+          SoundLength = 4880
+        },
+        voice_jp_char_Baonu_vo_topic_03_4 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_03_4",
+          SoundLength = 5210
+        },
         voice_jp_char_Baonu_vo_topic_04 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
           SelectKey = "voice_jp_char_Baonu_vo_topic_04",
           SoundLength = 13800
+        },
+        voice_jp_char_Baonu_vo_topic_04_1 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_04_1",
+          SoundLength = 15930
+        },
+        voice_jp_char_Baonu_vo_topic_04_2 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
+          SelectKey = "voice_jp_char_Baonu_vo_topic_04_2",
+          SoundLength = 12920
         },
         voice_jp_char_Baonu_vo_victory = {
           ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
@@ -782,7 +842,7 @@ local Data = {
         voice_jp_char_Baonu_vo_welcome = {
           ProgrammerSoundPath = "event:/voice/jp/char/Baonu/vo",
           SelectKey = "voice_jp_char_Baonu_vo_welcome",
-          SoundLength = 12450
+          SoundLength = 14860
         },
         voice_jp_char_Dafu_vo_appear = {
           ProgrammerSoundPath = "event:/voice/jp/char/Dafu/vo",
@@ -943,7 +1003,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Dafu/vo",
           SelectKey = "voice_jp_char_Dafu_vo_emotion_reply_02",
           SoundLength = 690
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Dafu_vo_emotion_sigh_01",
+    MaxKey = "voice_jp_char_Haier_vo_welcome",
+    Loader = function()
+      return {
         voice_jp_char_Dafu_vo_emotion_sigh_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Dafu/vo",
           SelectKey = "voice_jp_char_Dafu_vo_emotion_sigh_01",
@@ -1003,15 +1071,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Dafu/vo",
           SelectKey = "voice_jp_char_Dafu_vo_idle",
           SoundLength = 19030
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Dafu_vo_lvup",
-    MaxKey = "voice_jp_char_Heitao_vo_companio_04_1",
-    Loader = function()
-      return {
+        },
         voice_jp_char_Dafu_vo_lvup = {
           ProgrammerSoundPath = "event:/voice/jp/char/Dafu/vo",
           SelectKey = "voice_jp_char_Dafu_vo_lvup",
@@ -1400,12 +1460,12 @@ local Data = {
         voice_jp_char_Feina_vo_gain_f = {
           ProgrammerSoundPath = "event:/voice/jp/char/Feina/vo",
           SelectKey = "voice_jp_char_Feina_vo_gain_f",
-          SoundLength = 25390
+          SoundLength = 16970
         },
         voice_jp_char_Feina_vo_gain_m = {
           ProgrammerSoundPath = "event:/voice/jp/char/Feina/vo",
           SelectKey = "voice_jp_char_Feina_vo_gain_m",
-          SoundLength = 25190
+          SoundLength = 16980
         },
         voice_jp_char_Feina_vo_idle = {
           ProgrammerSoundPath = "event:/voice/jp/char/Feina/vo",
@@ -1510,7 +1570,7 @@ local Data = {
         voice_jp_char_Feina_vo_welcome = {
           ProgrammerSoundPath = "event:/voice/jp/char/Feina/vo",
           SelectKey = "voice_jp_char_Feina_vo_welcome",
-          SoundLength = 8440
+          SoundLength = 8260
         },
         voice_jp_char_Fuluo_vo_appear = {
           ProgrammerSoundPath = "event:/voice/jp/char/Fuluo/vo",
@@ -1951,7 +2011,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Haier/vo",
           SelectKey = "voice_jp_char_Haier_vo_welcome",
           SoundLength = 3930
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Heitao_vo_appear",
+    MaxKey = "voice_jp_char_Landi_vo_emotion_excuse_01",
+    Loader = function()
+      return {
         voice_jp_char_Heitao_vo_appear = {
           ProgrammerSoundPath = "event:/voice/jp/char/Heitao/vo",
           SelectKey = "voice_jp_char_Heitao_vo_appear",
@@ -2011,15 +2079,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Heitao/vo",
           SelectKey = "voice_jp_char_Heitao_vo_companio_04_1",
           SoundLength = 15550
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Heitao_vo_companio_04_2",
-    MaxKey = "voice_jp_char_Landi_vo_emotion_realize_01",
-    Loader = function()
-      return {
+        },
         voice_jp_char_Heitao_vo_companio_04_2 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Heitao/vo",
           SelectKey = "voice_jp_char_Heitao_vo_companio_04_2",
@@ -2959,7 +3019,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Landi/vo",
           SelectKey = "voice_jp_char_Landi_vo_emotion_excuse_01",
           SoundLength = 1490
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Landi_vo_emotion_happy_01",
+    MaxKey = "voice_jp_char_Maer_vo_emotion_hesitate_01",
+    Loader = function()
+      return {
         voice_jp_char_Landi_vo_emotion_happy_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Landi/vo",
           SelectKey = "voice_jp_char_Landi_vo_emotion_happy_01",
@@ -3019,15 +3087,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Landi/vo",
           SelectKey = "voice_jp_char_Landi_vo_emotion_realize_01",
           SoundLength = 800
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Landi_vo_emotion_refute_01",
-    MaxKey = "voice_jp_char_Maer_vo_emotion_start_01",
-    Loader = function()
-      return {
+        },
         voice_jp_char_Landi_vo_emotion_refute_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Landi/vo",
           SelectKey = "voice_jp_char_Landi_vo_emotion_refute_01",
@@ -3967,7 +4027,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Maer/vo",
           SelectKey = "voice_jp_char_Maer_vo_emotion_hesitate_01",
           SoundLength = 1310
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Maer_vo_emotion_no_01",
+    MaxKey = "voice_jp_char_Saiqi_vo_emotion_disdain_01",
+    Loader = function()
+      return {
         voice_jp_char_Maer_vo_emotion_no_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Maer/vo",
           SelectKey = "voice_jp_char_Maer_vo_emotion_no_01",
@@ -4027,15 +4095,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Maer/vo",
           SelectKey = "voice_jp_char_Maer_vo_emotion_start_01",
           SoundLength = 1290
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Maer_vo_emotion_start_02",
-    MaxKey = "voice_jp_char_Shuimu_vo_emotion_complacent_01",
-    Loader = function()
-      return {
+        },
         voice_jp_char_Maer_vo_emotion_start_02 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Maer/vo",
           SelectKey = "voice_jp_char_Maer_vo_emotion_start_02",
@@ -4190,6 +4250,181 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Maer/vo",
           SelectKey = "voice_jp_char_Maer_vo_welcome",
           SoundLength = 10830
+        },
+        voice_jp_char_NanzhuLight_vo_appear = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_appear",
+          SoundLength = 14350
+        },
+        voice_jp_char_NanzhuLight_vo_battleidle = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_battleidle",
+          SoundLength = 9270
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_amaze_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_amaze_01",
+          SoundLength = 700
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_amaze_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_amaze_02",
+          SoundLength = 560
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_complacent_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_complacent_01",
+          SoundLength = 1280
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_conclude_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_conclude_01",
+          SoundLength = 880
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_confuse_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_confuse_01",
+          SoundLength = 720
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_continue_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_continue_01",
+          SoundLength = 1020
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_disdain_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_disdain_01",
+          SoundLength = 760
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_dislike_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_dislike_01",
+          SoundLength = 730
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_dislike_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_dislike_02",
+          SoundLength = 1170
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_dislike_03 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_dislike_03",
+          SoundLength = 1270
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_excuse_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_excuse_01",
+          SoundLength = 1030
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_happy_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_happy_01",
+          SoundLength = 1630
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_happy_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_happy_02",
+          SoundLength = 1700
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_happy_03 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_happy_03",
+          SoundLength = 2430
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_hesitate_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_hesitate_01",
+          SoundLength = 680
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_no_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_no_01",
+          SoundLength = 870
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_objection_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_objection_01",
+          SoundLength = 1000
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_realize_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_realize_01",
+          SoundLength = 940
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_refute_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_refute_01",
+          SoundLength = 770
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_reply_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_reply_01",
+          SoundLength = 530
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_reply_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_reply_02",
+          SoundLength = 1010
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_sigh_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_sigh_01",
+          SoundLength = 790
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_sigh_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_sigh_02",
+          SoundLength = 1350
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_start_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_start_01",
+          SoundLength = 1200
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_start_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_start_02",
+          SoundLength = 920
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_thank_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_thank_01",
+          SoundLength = 890
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_think_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_think_01",
+          SoundLength = 1580
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_understand_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_understand_01",
+          SoundLength = 860
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_unexpect_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_unexpect_01",
+          SoundLength = 1010
+        },
+        voice_jp_char_NanzhuLight_vo_emotion_yes_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_emotion_yes_01",
+          SoundLength = 560
+        },
+        voice_jp_char_NanzhuLight_vo_fail = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_fail",
+          SoundLength = 3510
+        },
+        voice_jp_char_NanzhuLight_vo_lvup = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_lvup",
+          SoundLength = 14760
+        },
+        voice_jp_char_NanzhuLight_vo_victory = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NanzhuLight/vo",
+          SelectKey = "voice_jp_char_NanzhuLight_vo_victory",
+          SoundLength = 3910
         },
         voice_jp_char_Nifu_vo_appear = {
           ProgrammerSoundPath = "event:/voice/jp/char/Nifu/vo",
@@ -4561,6 +4796,181 @@ local Data = {
           SelectKey = "voice_jp_char_Nifu_vo_welcome",
           SoundLength = 5410
         },
+        voice_jp_char_NvzhuLight_vo_appear = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_appear",
+          SoundLength = 14150
+        },
+        voice_jp_char_NvzhuLight_vo_battleidle = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_battleidle",
+          SoundLength = 8490
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_amaze_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_amaze_01",
+          SoundLength = 900
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_amaze_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_amaze_02",
+          SoundLength = 750
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_complacent_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_complacent_01",
+          SoundLength = 1190
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_conclude_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_conclude_01",
+          SoundLength = 990
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_confuse_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_confuse_01",
+          SoundLength = 550
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_continue_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_continue_01",
+          SoundLength = 1160
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_disdain_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_disdain_01",
+          SoundLength = 920
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_dislike_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_dislike_01",
+          SoundLength = 770
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_dislike_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_dislike_02",
+          SoundLength = 920
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_dislike_03 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_dislike_03",
+          SoundLength = 1260
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_excuse_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_excuse_01",
+          SoundLength = 1170
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_happy_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_happy_01",
+          SoundLength = 1020
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_happy_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_happy_02",
+          SoundLength = 810
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_happy_03 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_happy_03",
+          SoundLength = 1120
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_hesitate_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_hesitate_01",
+          SoundLength = 870
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_no_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_no_01",
+          SoundLength = 990
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_objection_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_objection_01",
+          SoundLength = 1220
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_realize_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_realize_01",
+          SoundLength = 850
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_refute_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_refute_01",
+          SoundLength = 810
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_reply_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_reply_01",
+          SoundLength = 570
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_reply_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_reply_02",
+          SoundLength = 900
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_sigh_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_sigh_01",
+          SoundLength = 750
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_sigh_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_sigh_02",
+          SoundLength = 1200
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_start_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_start_01",
+          SoundLength = 1620
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_start_02 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_start_02",
+          SoundLength = 1130
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_thank_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_thank_01",
+          SoundLength = 980
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_think_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_think_01",
+          SoundLength = 1450
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_understand_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_understand_01",
+          SoundLength = 1400
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_unexpect_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_unexpect_01",
+          SoundLength = 1180
+        },
+        voice_jp_char_NvzhuLight_vo_emotion_yes_01 = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_emotion_yes_01",
+          SoundLength = 580
+        },
+        voice_jp_char_NvzhuLight_vo_fail = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_fail",
+          SoundLength = 4210
+        },
+        voice_jp_char_NvzhuLight_vo_lvup = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_lvup",
+          SoundLength = 15930
+        },
+        voice_jp_char_NvzhuLight_vo_victory = {
+          ProgrammerSoundPath = "event:/voice/jp/char/NvzhuLight/vo",
+          SelectKey = "voice_jp_char_NvzhuLight_vo_victory",
+          SoundLength = 7230
+        },
         voice_jp_char_Saiqi_vo_appear = {
           ProgrammerSoundPath = "event:/voice/jp/char/Saiqi/vo",
           SelectKey = "voice_jp_char_Saiqi_vo_appear",
@@ -4625,7 +5035,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Saiqi/vo",
           SelectKey = "voice_jp_char_Saiqi_vo_emotion_disdain_01",
           SoundLength = 1300
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Saiqi_vo_emotion_dislike_01",
+    MaxKey = "voice_jp_char_Songlu_vo_topic_03_1",
+    Loader = function()
+      return {
         voice_jp_char_Saiqi_vo_emotion_dislike_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Saiqi/vo",
           SelectKey = "voice_jp_char_Saiqi_vo_emotion_dislike_01",
@@ -5035,15 +5453,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Shuimu/vo",
           SelectKey = "voice_jp_char_Shuimu_vo_emotion_complacent_01",
           SoundLength = 950
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Shuimu_vo_emotion_conclude_01",
-    MaxKey = "voice_jp_char_Tuosi_vo_topic_05_2",
-    Loader = function()
-      return {
+        },
         voice_jp_char_Shuimu_vo_emotion_conclude_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Shuimu/vo",
           SelectKey = "voice_jp_char_Shuimu_vo_emotion_conclude_01",
@@ -5633,7 +6043,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Songlu/vo",
           SelectKey = "voice_jp_char_Songlu_vo_topic_03_1",
           SoundLength = 22610
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Songlu_vo_topic_03_2",
+    MaxKey = "voice_jp_char_Xier_vo_idle",
+    Loader = function()
+      return {
         voice_jp_char_Songlu_vo_topic_03_2 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Songlu/vo",
           SelectKey = "voice_jp_char_Songlu_vo_topic_03_2",
@@ -6043,15 +6461,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Tuosi/vo",
           SelectKey = "voice_jp_char_Tuosi_vo_topic_05_2",
           SoundLength = 22390
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Tuosi_vo_topic_05_3",
-    MaxKey = "voice_jp_char_Yeer_vo_gain",
-    Loader = function()
-      return {
+        },
         voice_jp_char_Tuosi_vo_topic_05_3 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Tuosi/vo",
           SelectKey = "voice_jp_char_Tuosi_vo_topic_05_3",
@@ -6641,7 +7051,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Xier/vo",
           SelectKey = "voice_jp_char_Xier_vo_idle",
           SoundLength = 27560
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Xier_vo_lvup",
+    MaxKey = "voice_jp_char_Zhangyu_vo_emotion_think_01",
+    Loader = function()
+      return {
         voice_jp_char_Xier_vo_lvup = {
           ProgrammerSoundPath = "event:/voice/jp/char/Xier/vo",
           SelectKey = "voice_jp_char_Xier_vo_lvup",
@@ -7050,16 +7468,8 @@ local Data = {
         voice_jp_char_Yeer_vo_gain = {
           ProgrammerSoundPath = "event:/voice/jp/char/Yeer/vo",
           SelectKey = "voice_jp_char_Yeer_vo_gain",
-          SoundLength = 32000
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Yeer_vo_gain_1",
-    MaxKey = "voice_jp_char_Zhiliu_vo_topic_02_2",
-    Loader = function()
-      return {
+          SoundLength = 21280
+        },
         voice_jp_char_Yeer_vo_gain_1 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Yeer/vo",
           SelectKey = "voice_jp_char_Yeer_vo_gain_1",
@@ -7649,7 +8059,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Zhangyu/vo",
           SelectKey = "voice_jp_char_Zhangyu_vo_emotion_think_01",
           SoundLength = 1620
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_char_Zhangyu_vo_emotion_understand_01",
+    MaxKey = "voice_jp_inv_Dafu_002_C8B90854",
+    Loader = function()
+      return {
         voice_jp_char_Zhangyu_vo_emotion_understand_01 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Zhangyu/vo",
           SelectKey = "voice_jp_char_Zhangyu_vo_emotion_understand_01",
@@ -8059,15 +8477,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/char/Zhiliu/vo",
           SelectKey = "voice_jp_char_Zhiliu_vo_topic_02_2",
           SoundLength = 21110
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_char_Zhiliu_vo_topic_03_1",
-    MaxKey = "voice_jp_inv_Feina_004_C865DA54",
-    Loader = function()
-      return {
+        },
         voice_jp_char_Zhiliu_vo_topic_03_1 = {
           ProgrammerSoundPath = "event:/voice/jp/char/Zhiliu/vo",
           SelectKey = "voice_jp_char_Zhiliu_vo_topic_03_1",
@@ -8333,10 +8743,245 @@ local Data = {
           SelectKey = "voice_jp_env_900001_E154B232",
           SoundLength = 10830
         },
+        voice_jp_inv_Dafu_001_C8B8F3D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F3D2",
+          SoundLength = 12990
+        },
+        voice_jp_inv_Dafu_001_C8B8F3FC = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F3FC",
+          SoundLength = 3810
+        },
+        voice_jp_inv_Dafu_001_C8B8F426 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F426",
+          SoundLength = 2380
+        },
+        voice_jp_inv_Dafu_001_C8B8F450 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F450",
+          SoundLength = 4320
+        },
+        voice_jp_inv_Dafu_001_C8B8F47A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F47A",
+          SoundLength = 11580
+        },
+        voice_jp_inv_Dafu_001_C8B8F4A4 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F4A4",
+          SoundLength = 5710
+        },
+        voice_jp_inv_Dafu_001_C8B8F4CE = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F4CE",
+          SoundLength = 9470
+        },
+        voice_jp_inv_Dafu_001_C8B8F4F8 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F4F8",
+          SoundLength = 9120
+        },
+        voice_jp_inv_Dafu_001_C8B8F522 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F522",
+          SoundLength = 1020
+        },
+        voice_jp_inv_Dafu_001_C8B8F54C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F54C",
+          SoundLength = 7850
+        },
+        voice_jp_inv_Dafu_001_C8B8F576 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F576",
+          SoundLength = 7030
+        },
+        voice_jp_inv_Dafu_001_C8B8F5A0 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F5A0",
+          SoundLength = 11040
+        },
+        voice_jp_inv_Dafu_001_C8B8F5CA = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F5CA",
+          SoundLength = 8780
+        },
+        voice_jp_inv_Dafu_001_C8B8F5F4 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F5F4",
+          SoundLength = 13680
+        },
+        voice_jp_inv_Dafu_001_C8B8F61E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F61E",
+          SoundLength = 9800
+        },
+        voice_jp_inv_Dafu_001_C8B8F648 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F648",
+          SoundLength = 2360
+        },
+        voice_jp_inv_Dafu_001_C8B8F672 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F672",
+          SoundLength = 23910
+        },
+        voice_jp_inv_Dafu_001_C8B8F69C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F69C",
+          SoundLength = 18070
+        },
+        voice_jp_inv_Dafu_001_C8B8F6C6 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F6C6",
+          SoundLength = 14510
+        },
+        voice_jp_inv_Dafu_001_C8B8F6F0 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F6F0",
+          SoundLength = 1670
+        },
+        voice_jp_inv_Dafu_001_C8B8F71A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F71A",
+          SoundLength = 1500
+        },
+        voice_jp_inv_Dafu_001_C8B8F744 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F744",
+          SoundLength = 4090
+        },
+        voice_jp_inv_Dafu_001_C8B8F76E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F76E",
+          SoundLength = 3500
+        },
+        voice_jp_inv_Dafu_001_C8B8F798 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F798",
+          SoundLength = 12620
+        },
+        voice_jp_inv_Dafu_001_C8B8F7C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F7C2",
+          SoundLength = 12210
+        },
+        voice_jp_inv_Dafu_001_C8B8F7EC = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F7EC",
+          SoundLength = 4260
+        },
+        voice_jp_inv_Dafu_001_C8B8F816 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F816",
+          SoundLength = 16260
+        },
+        voice_jp_inv_Dafu_001_C8B8F840 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F840",
+          SoundLength = 4950
+        },
+        voice_jp_inv_Dafu_001_C8B8F86A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F86A",
+          SoundLength = 17830
+        },
+        voice_jp_inv_Dafu_001_C8B8F894 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F894",
+          SoundLength = 10180
+        },
+        voice_jp_inv_Dafu_001_C8B8F8BE = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F8BE",
+          SoundLength = 11340
+        },
+        voice_jp_inv_Dafu_001_C8B8F8E8 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F8E8",
+          SoundLength = 3140
+        },
+        voice_jp_inv_Dafu_001_C8B8F912 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F912",
+          SoundLength = 14440
+        },
+        voice_jp_inv_Dafu_001_C8B8F93C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F93C",
+          SoundLength = 5830
+        },
+        voice_jp_inv_Dafu_001_C8B8F966 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F966",
+          SoundLength = 8230
+        },
+        voice_jp_inv_Dafu_001_C8B8F990 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F990",
+          SoundLength = 19810
+        },
+        voice_jp_inv_Dafu_001_C8B8F9BA = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F9BA",
+          SoundLength = 15440
+        },
+        voice_jp_inv_Dafu_001_C8B8F9E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8F9E4",
+          SoundLength = 11270
+        },
+        voice_jp_inv_Dafu_001_C8B8FA0E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/001",
+          SelectKey = "voice_jp_inv_Dafu_001_C8B8FA0E",
+          SoundLength = 8040
+        },
+        voice_jp_inv_Dafu_002_C8B9043A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B9043A",
+          SoundLength = 6980
+        },
+        voice_jp_inv_Dafu_002_C8B90464 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90464",
+          SoundLength = 10590
+        },
+        voice_jp_inv_Dafu_002_C8B9048E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B9048E",
+          SoundLength = 9440
+        },
+        voice_jp_inv_Dafu_002_C8B904B8 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B904B8",
+          SoundLength = 7240
+        },
+        voice_jp_inv_Dafu_002_C8B904E2 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B904E2",
+          SoundLength = 4340
+        },
+        voice_jp_inv_Dafu_002_C8B9050C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B9050C",
+          SoundLength = 4790
+        },
+        voice_jp_inv_Dafu_002_C8B90536 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90536",
+          SoundLength = 1400
+        },
         voice_jp_inv_Dafu_002_C8B90560 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
           SelectKey = "voice_jp_inv_Dafu_002_C8B90560",
           SoundLength = 1650
+        },
+        voice_jp_inv_Dafu_002_C8B9058A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B9058A",
+          SoundLength = 7220
         },
         voice_jp_inv_Dafu_002_C8B905B4 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
@@ -8347,6 +8992,31 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
           SelectKey = "voice_jp_inv_Dafu_002_C8B905DE",
           SoundLength = 10880
+        },
+        voice_jp_inv_Dafu_002_C8B90608 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90608",
+          SoundLength = 9600
+        },
+        voice_jp_inv_Dafu_002_C8B90632 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90632",
+          SoundLength = 19750
+        },
+        voice_jp_inv_Dafu_002_C8B9065C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B9065C",
+          SoundLength = 5360
+        },
+        voice_jp_inv_Dafu_002_C8B90686 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90686",
+          SoundLength = 14810
+        },
+        voice_jp_inv_Dafu_002_C8B906B0 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B906B0",
+          SoundLength = 7320
         },
         voice_jp_inv_Dafu_002_C8B906DA = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
@@ -8363,10 +9033,25 @@ local Data = {
           SelectKey = "voice_jp_inv_Dafu_002_C8B9072E",
           SoundLength = 13310
         },
+        voice_jp_inv_Dafu_002_C8B90758 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90758",
+          SoundLength = 1130
+        },
+        voice_jp_inv_Dafu_002_C8B90782 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90782",
+          SoundLength = 13290
+        },
         voice_jp_inv_Dafu_002_C8B907AC = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
           SelectKey = "voice_jp_inv_Dafu_002_C8B907AC",
           SoundLength = 1590
+        },
+        voice_jp_inv_Dafu_002_C8B907D6 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B907D6",
+          SoundLength = 15110
         },
         voice_jp_inv_Dafu_002_C8B90800 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
@@ -8377,6 +9062,44 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
           SelectKey = "voice_jp_inv_Dafu_002_C8B9082A",
           SoundLength = 11200
+        },
+        voice_jp_inv_Dafu_002_C8B90854 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90854",
+          SoundLength = 6800
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Dafu_002_C8B9087E",
+    MaxKey = "voice_jp_inv_Feina_004_C865D982",
+    Loader = function()
+      return {
+        voice_jp_inv_Dafu_002_C8B9087E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B9087E",
+          SoundLength = 9670
+        },
+        voice_jp_inv_Dafu_002_C8B908A8 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B908A8",
+          SoundLength = 20930
+        },
+        voice_jp_inv_Dafu_002_C8B908D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B908D2",
+          SoundLength = 10410
+        },
+        voice_jp_inv_Dafu_002_C8B908FC = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B908FC",
+          SoundLength = 13720
+        },
+        voice_jp_inv_Dafu_002_C8B90926 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90926",
+          SoundLength = 12140
         },
         voice_jp_inv_Dafu_002_C8B90950 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
@@ -8398,10 +9121,35 @@ local Data = {
           SelectKey = "voice_jp_inv_Dafu_002_C8B909CE",
           SoundLength = 9300
         },
+        voice_jp_inv_Dafu_002_C8B909F8 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B909F8",
+          SoundLength = 15600
+        },
+        voice_jp_inv_Dafu_002_C8B90A22 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90A22",
+          SoundLength = 5410
+        },
         voice_jp_inv_Dafu_002_C8B90A4C = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
           SelectKey = "voice_jp_inv_Dafu_002_C8B90A4C",
           SoundLength = 570
+        },
+        voice_jp_inv_Dafu_002_C8B90A76 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90A76",
+          SoundLength = 8080
+        },
+        voice_jp_inv_Dafu_002_C8B90AA0 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90AA0",
+          SoundLength = 9230
+        },
+        voice_jp_inv_Dafu_002_C8B90ACA = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90ACA",
+          SoundLength = 25370
         },
         voice_jp_inv_Dafu_002_C8B90AF4 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
@@ -8423,6 +9171,11 @@ local Data = {
           SelectKey = "voice_jp_inv_Dafu_002_C8B90B9C",
           SoundLength = 6040
         },
+        voice_jp_inv_Dafu_002_C8B90B9D = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
+          SelectKey = "voice_jp_inv_Dafu_002_C8B90B9D",
+          SoundLength = 7050
+        },
         voice_jp_inv_Dafu_002_C8B90B9E = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/002",
           SelectKey = "voice_jp_inv_Dafu_002_C8B90B9E",
@@ -8443,10 +9196,280 @@ local Data = {
           SelectKey = "voice_jp_inv_Dafu_002_C8B90C1A",
           SoundLength = 7190
         },
+        voice_jp_inv_Dafu_003_C8B914A2 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B914A2",
+          SoundLength = 11410
+        },
+        voice_jp_inv_Dafu_003_C8B914CC = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B914CC",
+          SoundLength = 15220
+        },
+        voice_jp_inv_Dafu_003_C8B914F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B914F6",
+          SoundLength = 13260
+        },
+        voice_jp_inv_Dafu_003_C8B91520 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91520",
+          SoundLength = 11050
+        },
+        voice_jp_inv_Dafu_003_C8B9154A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B9154A",
+          SoundLength = 16090
+        },
+        voice_jp_inv_Dafu_003_C8B91574 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91574",
+          SoundLength = 6550
+        },
+        voice_jp_inv_Dafu_003_C8B9159E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B9159E",
+          SoundLength = 5220
+        },
+        voice_jp_inv_Dafu_003_C8B915C8 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B915C8",
+          SoundLength = 1450
+        },
+        voice_jp_inv_Dafu_003_C8B915F2 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B915F2",
+          SoundLength = 20950
+        },
+        voice_jp_inv_Dafu_003_C8B9161C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B9161C",
+          SoundLength = 11530
+        },
+        voice_jp_inv_Dafu_003_C8B91646 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91646",
+          SoundLength = 3550
+        },
+        voice_jp_inv_Dafu_003_C8B91670 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91670",
+          SoundLength = 5000
+        },
+        voice_jp_inv_Dafu_003_C8B9169A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B9169A",
+          SoundLength = 12390
+        },
+        voice_jp_inv_Dafu_003_C8B916C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B916C4",
+          SoundLength = 7180
+        },
+        voice_jp_inv_Dafu_003_C8B916EE = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B916EE",
+          SoundLength = 5050
+        },
+        voice_jp_inv_Dafu_003_C8B91718 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91718",
+          SoundLength = 8580
+        },
+        voice_jp_inv_Dafu_003_C8B91742 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91742",
+          SoundLength = 4480
+        },
+        voice_jp_inv_Dafu_003_C8B9176C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B9176C",
+          SoundLength = 6040
+        },
+        voice_jp_inv_Dafu_003_C8B91796 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91796",
+          SoundLength = 8820
+        },
+        voice_jp_inv_Dafu_003_C8B917C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B917C0",
+          SoundLength = 4610
+        },
+        voice_jp_inv_Dafu_003_C8B917EA = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B917EA",
+          SoundLength = 6470
+        },
+        voice_jp_inv_Dafu_003_C8B91814 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91814",
+          SoundLength = 6780
+        },
+        voice_jp_inv_Dafu_003_C8B9183E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B9183E",
+          SoundLength = 12000
+        },
+        voice_jp_inv_Dafu_003_C8B91868 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91868",
+          SoundLength = 7230
+        },
+        voice_jp_inv_Dafu_003_C8B91892 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91892",
+          SoundLength = 12810
+        },
+        voice_jp_inv_Dafu_003_C8B918BC = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B918BC",
+          SoundLength = 3800
+        },
+        voice_jp_inv_Dafu_003_C8B918E6 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B918E6",
+          SoundLength = 15150
+        },
+        voice_jp_inv_Dafu_003_C8B91910 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91910",
+          SoundLength = 3230
+        },
         voice_jp_inv_Dafu_003_C8B9193A = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
           SelectKey = "voice_jp_inv_Dafu_003_C8B9193A",
           SoundLength = 2410
+        },
+        voice_jp_inv_Dafu_003_C8B91964 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91964",
+          SoundLength = 790
+        },
+        voice_jp_inv_Dafu_003_C8B9198E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B9198E",
+          SoundLength = 1460
+        },
+        voice_jp_inv_Dafu_003_C8B919B8 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B919B8",
+          SoundLength = 6100
+        },
+        voice_jp_inv_Dafu_003_C8B919E2 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B919E2",
+          SoundLength = 8850
+        },
+        voice_jp_inv_Dafu_003_C8B91A0C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91A0C",
+          SoundLength = 2230
+        },
+        voice_jp_inv_Dafu_003_C8B91A36 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91A36",
+          SoundLength = 2270
+        },
+        voice_jp_inv_Dafu_003_C8B91A60 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91A60",
+          SoundLength = 3270
+        },
+        voice_jp_inv_Dafu_003_C8B91A8A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91A8A",
+          SoundLength = 8460
+        },
+        voice_jp_inv_Dafu_003_C8B91AB4 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91AB4",
+          SoundLength = 11070
+        },
+        voice_jp_inv_Dafu_003_C8B91ADE = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91ADE",
+          SoundLength = 14930
+        },
+        voice_jp_inv_Dafu_003_C8B91B08 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91B08",
+          SoundLength = 9110
+        },
+        voice_jp_inv_Dafu_003_C8B91B32 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91B32",
+          SoundLength = 9190
+        },
+        voice_jp_inv_Dafu_003_C8B91B5C = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91B5C",
+          SoundLength = 2380
+        },
+        voice_jp_inv_Dafu_003_C8B91B86 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91B86",
+          SoundLength = 15490
+        },
+        voice_jp_inv_Dafu_003_C8B91BB0 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91BB0",
+          SoundLength = 8370
+        },
+        voice_jp_inv_Dafu_003_C8B91BDA = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91BDA",
+          SoundLength = 9090
+        },
+        voice_jp_inv_Dafu_003_C8B91C04 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91C04",
+          SoundLength = 2760
+        },
+        voice_jp_inv_Dafu_003_C8B91C2E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91C2E",
+          SoundLength = 3100
+        },
+        voice_jp_inv_Dafu_003_C8B91C58 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91C58",
+          SoundLength = 1680
+        },
+        voice_jp_inv_Dafu_003_C8B91C82 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91C82",
+          SoundLength = 800
+        },
+        voice_jp_inv_Dafu_003_C8B91CAC = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91CAC",
+          SoundLength = 3170
+        },
+        voice_jp_inv_Dafu_003_C8B91CD6 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91CD6",
+          SoundLength = 2580
+        },
+        voice_jp_inv_Dafu_003_C8B91D00 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91D00",
+          SoundLength = 13440
+        },
+        voice_jp_inv_Dafu_003_C8B91D2A = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91D2A",
+          SoundLength = 20620
+        },
+        voice_jp_inv_Dafu_003_C8B91D54 = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91D54",
+          SoundLength = 18680
+        },
+        voice_jp_inv_Dafu_003_C8B91D7E = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Dafu/003",
+          SelectKey = "voice_jp_inv_Dafu_003_C8B91D7E",
+          SoundLength = 5540
         },
         voice_jp_inv_Feina_001_C865A388_f = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Feina/001",
@@ -9052,7 +10075,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Feina/004",
           SelectKey = "voice_jp_inv_Feina_004_C865D982",
           SoundLength = 15260
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Feina_004_C865D9D6",
+    MaxKey = "voice_jp_inv_Fushu_002_C8C5C806",
+    Loader = function()
+      return {
         voice_jp_inv_Feina_004_C865D9D6 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Feina/004",
           SelectKey = "voice_jp_inv_Feina_004_C865D9D6",
@@ -9067,15 +10098,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Feina/004",
           SelectKey = "voice_jp_inv_Feina_004_C865DA54",
           SoundLength = 2050
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Feina_004_C865DAFC",
-    MaxKey = "voice_jp_inv_Fushu_002_C8C5C8D8",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Feina_004_C865DAFC = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Feina/004",
           SelectKey = "voice_jp_inv_Feina_004_C865DAFC",
@@ -10060,7 +11083,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
           SelectKey = "voice_jp_inv_Fushu_002_C8C5C806",
           SoundLength = 600
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Fushu_002_C8C5C85A",
+    MaxKey = "voice_jp_inv_Heitao_003_C85F5CB4_m",
+    Loader = function()
+      return {
         voice_jp_inv_Fushu_002_C8C5C85A = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
           SelectKey = "voice_jp_inv_Fushu_002_C8C5C85A",
@@ -10075,15 +11106,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
           SelectKey = "voice_jp_inv_Fushu_002_C8C5C8D8",
           SoundLength = 4580
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Fushu_002_C8C5C902",
-    MaxKey = "voice_jp_inv_Heitao_003_C85F5D08",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Fushu_002_C8C5C902 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
           SelectKey = "voice_jp_inv_Fushu_002_C8C5C902",
@@ -10122,7 +11145,7 @@ local Data = {
         voice_jp_inv_Fushu_002_C8C5CA7C = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
           SelectKey = "voice_jp_inv_Fushu_002_C8C5CA7C",
-          SoundLength = 12060
+          SoundLength = 12890
         },
         voice_jp_inv_Fushu_002_C8C5CAA6 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -10262,17 +11285,17 @@ local Data = {
         voice_jp_inv_Fushu_003_C8C5D25C = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
           SelectKey = "voice_jp_inv_Fushu_003_C8C5D25C",
-          SoundLength = 10580
+          SoundLength = 16540
         },
         voice_jp_inv_Fushu_003_C8C5D286 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
           SelectKey = "voice_jp_inv_Fushu_003_C8C5D286",
-          SoundLength = 5470
+          SoundLength = 12440
         },
         voice_jp_inv_Fushu_003_C8C5D2B0 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
           SelectKey = "voice_jp_inv_Fushu_003_C8C5D2B0",
-          SoundLength = 2050
+          SoundLength = 3770
         },
         voice_jp_inv_Fushu_003_C8C5D304 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
@@ -10342,7 +11365,7 @@ local Data = {
         voice_jp_inv_Fushu_003_C8C5D5F8 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
           SelectKey = "voice_jp_inv_Fushu_003_C8C5D5F8",
-          SoundLength = 13810
+          SoundLength = 15500
         },
         voice_jp_inv_Fushu_003_C8C5D64C = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
@@ -10412,7 +11435,7 @@ local Data = {
         voice_jp_inv_Fushu_004_C8C5E7DA = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
           SelectKey = "voice_jp_inv_Fushu_004_C8C5E7DA",
-          SoundLength = 10150
+          SoundLength = 10540
         },
         voice_jp_inv_Fushu_004_C8C5E804 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
@@ -11068,7 +12091,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Heitao/003",
           SelectKey = "voice_jp_inv_Heitao_003_C85F5CB4_m",
           SoundLength = 11620
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Heitao_003_C85F5CDE_f",
+    MaxKey = "voice_jp_inv_Landi_005_C8591802",
+    Loader = function()
+      return {
         voice_jp_inv_Heitao_003_C85F5CDE_f = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Heitao/003",
           SelectKey = "voice_jp_inv_Heitao_003_C85F5CDE_f",
@@ -11083,15 +12114,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Heitao/003",
           SelectKey = "voice_jp_inv_Heitao_003_C85F5D08",
           SoundLength = 5160
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Heitao_003_C85F5D32",
-    MaxKey = "voice_jp_inv_Landi_005_C85918AA",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Heitao_003_C85F5D32 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Heitao/003",
           SelectKey = "voice_jp_inv_Heitao_003_C85F5D32",
@@ -12076,7 +13099,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Landi/005",
           SelectKey = "voice_jp_inv_Landi_005_C8591802",
           SoundLength = 8690
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Landi_005_C8591856",
+    MaxKey = "voice_jp_inv_Nifu_002_C8B29C18",
+    Loader = function()
+      return {
         voice_jp_inv_Landi_005_C8591856 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Landi/005",
           SelectKey = "voice_jp_inv_Landi_005_C8591856",
@@ -12091,15 +13122,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Landi/005",
           SelectKey = "voice_jp_inv_Landi_005_C85918AA",
           SoundLength = 10370
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Landi_005_C85918D4",
-    MaxKey = "voice_jp_inv_Nifu_002_C8B2A104",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Landi_005_C85918D4 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Landi/005",
           SelectKey = "voice_jp_inv_Landi_005_C85918D4",
@@ -12705,10 +13728,30 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_001_C8B28B32",
           SoundLength = 10300
         },
+        voice_jp_inv_Nifu_001_C8B28B5C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28B5C_f",
+          SoundLength = 3340
+        },
+        voice_jp_inv_Nifu_001_C8B28B5C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28B5C_m",
+          SoundLength = 2710
+        },
         voice_jp_inv_Nifu_001_C8B28B86 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
           SelectKey = "voice_jp_inv_Nifu_001_C8B28B86",
           SoundLength = 9860
+        },
+        voice_jp_inv_Nifu_001_C8B28BB0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28BB0_f",
+          SoundLength = 510
+        },
+        voice_jp_inv_Nifu_001_C8B28BB0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28BB0_m",
+          SoundLength = 630
         },
         voice_jp_inv_Nifu_001_C8B28BDA = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
@@ -12720,6 +13763,26 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_001_C8B28C04",
           SoundLength = 13000
         },
+        voice_jp_inv_Nifu_001_C8B28C2E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28C2E_f",
+          SoundLength = 5950
+        },
+        voice_jp_inv_Nifu_001_C8B28C2E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28C2E_m",
+          SoundLength = 5320
+        },
+        voice_jp_inv_Nifu_001_C8B28C58_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28C58_f",
+          SoundLength = 7390
+        },
+        voice_jp_inv_Nifu_001_C8B28C58_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28C58_m",
+          SoundLength = 7310
+        },
         voice_jp_inv_Nifu_001_C8B28C82 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
           SelectKey = "voice_jp_inv_Nifu_001_C8B28C82",
@@ -12729,6 +13792,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
           SelectKey = "voice_jp_inv_Nifu_001_C8B28CAC",
           SoundLength = 18270
+        },
+        voice_jp_inv_Nifu_001_C8B28CD6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28CD6_f",
+          SoundLength = 8280
+        },
+        voice_jp_inv_Nifu_001_C8B28CD6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28CD6_m",
+          SoundLength = 7970
         },
         voice_jp_inv_Nifu_001_C8B28D00 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
@@ -12749,6 +13822,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
           SelectKey = "voice_jp_inv_Nifu_001_C8B28D7E",
           SoundLength = 16840
+        },
+        voice_jp_inv_Nifu_001_C8B28DA8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28DA8_f",
+          SoundLength = 1740
+        },
+        voice_jp_inv_Nifu_001_C8B28DA8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28DA8_m",
+          SoundLength = 1590
         },
         voice_jp_inv_Nifu_001_C8B28DD2 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
@@ -12800,10 +13883,40 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_001_C8B28F4C",
           SoundLength = 8680
         },
+        voice_jp_inv_Nifu_001_C8B28F76_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28F76_f",
+          SoundLength = 3810
+        },
+        voice_jp_inv_Nifu_001_C8B28F76_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28F76_m",
+          SoundLength = 2920
+        },
+        voice_jp_inv_Nifu_001_C8B28FA0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28FA0_f",
+          SoundLength = 5510
+        },
+        voice_jp_inv_Nifu_001_C8B28FA0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28FA0_m",
+          SoundLength = 5300
+        },
         voice_jp_inv_Nifu_001_C8B28FCA = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
           SelectKey = "voice_jp_inv_Nifu_001_C8B28FCA",
           SoundLength = 8600
+        },
+        voice_jp_inv_Nifu_001_C8B28FF4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28FF4_f",
+          SoundLength = 990
+        },
+        voice_jp_inv_Nifu_001_C8B28FF4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B28FF4_m",
+          SoundLength = 900
         },
         voice_jp_inv_Nifu_001_C8B2901E = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
@@ -12895,6 +14008,16 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_001_C8B292E8",
           SoundLength = 9470
         },
+        voice_jp_inv_Nifu_001_C8B29312_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B29312_f",
+          SoundLength = 7090
+        },
+        voice_jp_inv_Nifu_001_C8B29312_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
+          SelectKey = "voice_jp_inv_Nifu_001_C8B29312_m",
+          SoundLength = 6980
+        },
         voice_jp_inv_Nifu_001_C8B2933C = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/001",
           SelectKey = "voice_jp_inv_Nifu_001_C8B2933C",
@@ -12960,11 +14083,39 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_002_C8B29B9A_m",
           SoundLength = 3530
         },
+        voice_jp_inv_Nifu_002_C8B29BC4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B29BC4_f",
+          SoundLength = 16320
+        },
+        voice_jp_inv_Nifu_002_C8B29BC4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B29BC4_m",
+          SoundLength = 15120
+        },
+        voice_jp_inv_Nifu_002_C8B29BEE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B29BEE_f",
+          SoundLength = 4190
+        },
+        voice_jp_inv_Nifu_002_C8B29BEE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B29BEE_m",
+          SoundLength = 3850
+        },
         voice_jp_inv_Nifu_002_C8B29C18 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
           SelectKey = "voice_jp_inv_Nifu_002_C8B29C18",
           SoundLength = 5470
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Nifu_002_C8B29C42",
+    MaxKey = "voice_jp_inv_Saiqi_002_C878EFF2_f",
+    Loader = function()
+      return {
         voice_jp_inv_Nifu_002_C8B29C42 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
           SelectKey = "voice_jp_inv_Nifu_002_C8B29C42",
@@ -13075,6 +14226,26 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_002_C8B29FB4",
           SoundLength = 15810
         },
+        voice_jp_inv_Nifu_002_C8B29FDE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B29FDE_f",
+          SoundLength = 4560
+        },
+        voice_jp_inv_Nifu_002_C8B29FDE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B29FDE_m",
+          SoundLength = 4580
+        },
+        voice_jp_inv_Nifu_002_C8B2A008_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B2A008_f",
+          SoundLength = 8520
+        },
+        voice_jp_inv_Nifu_002_C8B2A008_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B2A008_m",
+          SoundLength = 8310
+        },
         voice_jp_inv_Nifu_002_C8B2A032 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
           SelectKey = "voice_jp_inv_Nifu_002_C8B2A032",
@@ -13095,19 +14266,21 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_002_C8B2A0B0",
           SoundLength = 14840
         },
+        voice_jp_inv_Nifu_002_C8B2A0DA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B2A0DA_f",
+          SoundLength = 870
+        },
+        voice_jp_inv_Nifu_002_C8B2A0DA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
+          SelectKey = "voice_jp_inv_Nifu_002_C8B2A0DA_m",
+          SoundLength = 610
+        },
         voice_jp_inv_Nifu_002_C8B2A104 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
           SelectKey = "voice_jp_inv_Nifu_002_C8B2A104",
           SoundLength = 10880
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Nifu_002_C8B2A12E",
-    MaxKey = "voice_jp_inv_Saiqi_003_C878FF0A",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Nifu_002_C8B2A12E = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/002",
           SelectKey = "voice_jp_inv_Nifu_002_C8B2A12E",
@@ -13137,6 +14310,36 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
           SelectKey = "voice_jp_inv_Nifu_003_C8B2AC2C",
           SoundLength = 6550
+        },
+        voice_jp_inv_Nifu_003_C8B2AC56_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2AC56_f",
+          SoundLength = 4330
+        },
+        voice_jp_inv_Nifu_003_C8B2AC56_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2AC56_m",
+          SoundLength = 3610
+        },
+        voice_jp_inv_Nifu_003_C8B2AC80_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2AC80_f",
+          SoundLength = 17750
+        },
+        voice_jp_inv_Nifu_003_C8B2AC80_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2AC80_m",
+          SoundLength = 17970
+        },
+        voice_jp_inv_Nifu_003_C8B2ACAA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2ACAA_f",
+          SoundLength = 7430
+        },
+        voice_jp_inv_Nifu_003_C8B2ACAA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2ACAA_m",
+          SoundLength = 7810
         },
         voice_jp_inv_Nifu_003_C8B2ACD4 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
@@ -13313,6 +14516,26 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_003_C8B2B268",
           SoundLength = 8710
         },
+        voice_jp_inv_Nifu_003_C8B2B292_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2B292_f",
+          SoundLength = 7690
+        },
+        voice_jp_inv_Nifu_003_C8B2B292_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2B292_m",
+          SoundLength = 7460
+        },
+        voice_jp_inv_Nifu_003_C8B2B2BC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2B2BC_f",
+          SoundLength = 3270
+        },
+        voice_jp_inv_Nifu_003_C8B2B2BC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2B2BC_m",
+          SoundLength = 2230
+        },
         voice_jp_inv_Nifu_003_C8B2B2E6 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
           SelectKey = "voice_jp_inv_Nifu_003_C8B2B2E6",
@@ -13343,6 +14566,16 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_003_C8B2B3B8",
           SoundLength = 12530
         },
+        voice_jp_inv_Nifu_003_C8B2B3E2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2B3E2_f",
+          SoundLength = 4540
+        },
+        voice_jp_inv_Nifu_003_C8B2B3E2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
+          SelectKey = "voice_jp_inv_Nifu_003_C8B2B3E2_m",
+          SoundLength = 4370
+        },
         voice_jp_inv_Nifu_003_C8B2B40C = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/003",
           SelectKey = "voice_jp_inv_Nifu_003_C8B2B40C",
@@ -13358,10 +14591,30 @@ local Data = {
           SelectKey = "voice_jp_inv_Nifu_004_C8B2BC6A",
           SoundLength = 4520
         },
+        voice_jp_inv_Nifu_004_C8B2BC94_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2BC94_f",
+          SoundLength = 3340
+        },
+        voice_jp_inv_Nifu_004_C8B2BC94_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2BC94_m",
+          SoundLength = 3520
+        },
         voice_jp_inv_Nifu_004_C8B2BCBE = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
           SelectKey = "voice_jp_inv_Nifu_004_C8B2BCBE",
           SoundLength = 9190
+        },
+        voice_jp_inv_Nifu_004_C8B2BCE8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2BCE8_f",
+          SoundLength = 5280
+        },
+        voice_jp_inv_Nifu_004_C8B2BCE8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2BCE8_m",
+          SoundLength = 4630
         },
         voice_jp_inv_Nifu_004_C8B2BD12 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
@@ -13382,6 +14635,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
           SelectKey = "voice_jp_inv_Nifu_004_C8B2BD90",
           SoundLength = 18870
+        },
+        voice_jp_inv_Nifu_004_C8B2BDBA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2BDBA_f",
+          SoundLength = 13580
+        },
+        voice_jp_inv_Nifu_004_C8B2BDBA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2BDBA_m",
+          SoundLength = 14000
         },
         voice_jp_inv_Nifu_004_C8B2BDE4 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
@@ -13467,6 +14730,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
           SelectKey = "voice_jp_inv_Nifu_004_C8B2C084",
           SoundLength = 5240
+        },
+        voice_jp_inv_Nifu_004_C8B2C0AE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2C0AE_f",
+          SoundLength = 7180
+        },
+        voice_jp_inv_Nifu_004_C8B2C0AE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
+          SelectKey = "voice_jp_inv_Nifu_004_C8B2C0AE_m",
+          SoundLength = 6810
         },
         voice_jp_inv_Nifu_004_C8B2C0D8 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Nifu/004",
@@ -13842,7 +15115,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Saiqi/002",
           SelectKey = "voice_jp_inv_Saiqi_002_C878EFF2_f",
           SoundLength = 8860
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Saiqi_002_C878EFF2_m",
+    MaxKey = "voice_jp_inv_Shuimu_003_C885D2EA_f",
+    Loader = function()
+      return {
         voice_jp_inv_Saiqi_002_C878EFF2_m = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Saiqi/002",
           SelectKey = "voice_jp_inv_Saiqi_002_C878EFF2_m",
@@ -14107,15 +15388,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Saiqi/003",
           SelectKey = "voice_jp_inv_Saiqi_003_C878FF0A",
           SoundLength = 4370
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Saiqi_003_C878FF34_f",
-    MaxKey = "voice_jp_inv_Shuimu_004_C885E184",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Saiqi_003_C878FF34_f = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Saiqi/003",
           SelectKey = "voice_jp_inv_Saiqi_003_C878FF34_f",
@@ -14850,7 +16123,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Shuimu/003",
           SelectKey = "voice_jp_inv_Shuimu_003_C885D2EA_f",
           SoundLength = 20640
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Shuimu_003_C885D2EA_m",
+    MaxKey = "voice_jp_inv_Songlu_004_C86C4372",
+    Loader = function()
+      return {
         voice_jp_inv_Shuimu_003_C885D2EA_m = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Shuimu/003",
           SelectKey = "voice_jp_inv_Shuimu_003_C885D2EA_m",
@@ -15115,15 +16396,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Shuimu/004",
           SelectKey = "voice_jp_inv_Shuimu_004_C885E184",
           SoundLength = 18580
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Shuimu_004_C885E1AE",
-    MaxKey = "voice_jp_inv_Tuosi_001_C89F5860",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Shuimu_004_C885E1AE = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Shuimu/004",
           SelectKey = "voice_jp_inv_Shuimu_004_C885E1AE",
@@ -15858,7 +17131,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Songlu/004",
           SelectKey = "voice_jp_inv_Songlu_004_C86C4372",
           SoundLength = 9290
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Songlu_004_C86C439C",
+    MaxKey = "voice_jp_inv_Tuosi_004_C89F82DE",
+    Loader = function()
+      return {
         voice_jp_inv_Songlu_004_C86C439C = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Songlu/004",
           SelectKey = "voice_jp_inv_Songlu_004_C86C439C",
@@ -16123,15 +17404,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Tuosi/001",
           SelectKey = "voice_jp_inv_Tuosi_001_C89F5860",
           SoundLength = 9690
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Tuosi_001_C89F588A",
-    MaxKey = "voice_jp_inv_Xibi_001_C8727570",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Tuosi_001_C89F588A = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Tuosi/001",
           SelectKey = "voice_jp_inv_Tuosi_001_C89F588A",
@@ -16866,7 +18139,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Tuosi/004",
           SelectKey = "voice_jp_inv_Tuosi_004_C89F82DE",
           SoundLength = 1780
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Tuosi_004_C89F8308",
+    MaxKey = "voice_jp_inv_Xier_003_C8528CEE",
+    Loader = function()
+      return {
         voice_jp_inv_Tuosi_004_C89F8308 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Tuosi/004",
           SelectKey = "voice_jp_inv_Tuosi_004_C89F8308",
@@ -17131,15 +18412,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Xibi/001",
           SelectKey = "voice_jp_inv_Xibi_001_C8727570",
           SoundLength = 3520
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Xibi_001_C872759A",
-    MaxKey = "voice_jp_inv_Zhangyu_001_C87F4704",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Xibi_001_C872759A = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Xibi/001",
           SelectKey = "voice_jp_inv_Xibi_001_C872759A",
@@ -17874,7 +19147,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Xier/003",
           SelectKey = "voice_jp_inv_Xier_003_C8528CEE",
           SoundLength = 17290
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_inv_Xier_003_C8528D18",
+    MaxKey = "voice_jp_story_0_600207_96416A42",
+    Loader = function()
+      return {
         voice_jp_inv_Xier_003_C8528D18 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Xier/003",
           SelectKey = "voice_jp_inv_Xier_003_C8528D18",
@@ -18139,15 +19420,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Zhangyu/001",
           SelectKey = "voice_jp_inv_Zhangyu_001_C87F4704",
           SoundLength = 5110
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_inv_Zhangyu_001_C87F4758",
-    MaxKey = "voice_jp_story_0_600607_965B0CEC",
-    Loader = function()
-      return {
+        },
         voice_jp_inv_Zhangyu_001_C87F4758 = {
           ProgrammerSoundPath = "event:/voice/jp/inv/Zhangyu/001",
           SelectKey = "voice_jp_inv_Zhangyu_001_C87F4758",
@@ -18882,7 +20155,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
           SelectKey = "voice_jp_story_0_600207_96416A42",
           SoundLength = 11500
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_0_600208_96417AAA",
+    MaxKey = "voice_jp_story_1001_100116_1910204A",
+    Loader = function()
+      return {
         voice_jp_story_0_600208_96417AAA = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
           SelectKey = "voice_jp_story_0_600208_96417AAA",
@@ -19147,15 +20428,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
           SelectKey = "voice_jp_story_0_600607_965B0CEC",
           SoundLength = 6360
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_0_600607_965B0D16",
-    MaxKey = "voice_jp_story_1001_100122_191082BF",
-    Loader = function()
-      return {
+        },
         voice_jp_story_0_600607_965B0D16 = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
           SelectKey = "voice_jp_story_0_600607_965B0D16",
@@ -19284,7 +20557,7 @@ local Data = {
         voice_jp_story_0_601304_9687B7EA = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
           SelectKey = "voice_jp_story_0_601304_9687B7EA",
-          SoundLength = 9590
+          SoundLength = 4710
         },
         voice_jp_story_0_601305_9687C852 = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
@@ -19335,6 +20608,126 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
           SelectKey = "voice_jp_story_0_602103_9687C896",
           SoundLength = 5280
+        },
+        voice_jp_story_0_602201_9687C89A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602201_9687C89A",
+          SoundLength = 2760
+        },
+        voice_jp_story_0_602201_9687C89E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602201_9687C89E",
+          SoundLength = 10800
+        },
+        voice_jp_story_0_602201_9687C8A2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602201_9687C8A2",
+          SoundLength = 5890
+        },
+        voice_jp_story_0_602202_9687C8A6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602202_9687C8A6",
+          SoundLength = 7110
+        },
+        voice_jp_story_0_602203_9687C8AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602203_9687C8AA",
+          SoundLength = 6190
+        },
+        voice_jp_story_0_602204_9687C8AE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602204_9687C8AE",
+          SoundLength = 7250
+        },
+        voice_jp_story_0_602205_9687C8B2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602205_9687C8B2",
+          SoundLength = 3660
+        },
+        voice_jp_story_0_602206_9687C8B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602206_9687C8B6",
+          SoundLength = 6540
+        },
+        voice_jp_story_0_602207_9687C8BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602207_9687C8BA",
+          SoundLength = 6110
+        },
+        voice_jp_story_0_602208_9687C8BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602208_9687C8BE",
+          SoundLength = 7540
+        },
+        voice_jp_story_0_602209_9687C8C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602209_9687C8C2",
+          SoundLength = 5270
+        },
+        voice_jp_story_0_602209_9687C8C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602209_9687C8C4",
+          SoundLength = 8460
+        },
+        voice_jp_story_0_602210_9687C8C6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602210_9687C8C6",
+          SoundLength = 3900
+        },
+        voice_jp_story_0_602211_9687C8CA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602211_9687C8CA",
+          SoundLength = 3300
+        },
+        voice_jp_story_0_602212_9687C8CE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602212_9687C8CE",
+          SoundLength = 8500
+        },
+        voice_jp_story_0_602213_9687C8D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602213_9687C8D2",
+          SoundLength = 4550
+        },
+        voice_jp_story_0_602214_9687C8D6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602214_9687C8D6",
+          SoundLength = 4320
+        },
+        voice_jp_story_0_602215_9687C8DA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602215_9687C8DA",
+          SoundLength = 4330
+        },
+        voice_jp_story_0_602216_9687C8DE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602216_9687C8DE",
+          SoundLength = 3480
+        },
+        voice_jp_story_0_602301_96910001 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602301_96910001",
+          SoundLength = 2100
+        },
+        voice_jp_story_0_602302_96910029 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602302_96910029",
+          SoundLength = 6880
+        },
+        voice_jp_story_0_602302_96910191 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602302_96910191",
+          SoundLength = 4060
+        },
+        voice_jp_story_0_602303_96910321 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602303_96910321",
+          SoundLength = 5400
+        },
+        voice_jp_story_0_602304_969104B1 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/0",
+          SelectKey = "voice_jp_story_0_602304_969104B1",
+          SoundLength = 12110
         },
         voice_jp_story_0_603001_96F47952 = {
           ProgrammerSoundPath = "event:/voice/jp/story/0",
@@ -19801,7 +21194,15 @@ local Data = {
           SelectKey = "voice_jp_story_1001_100116_1910204A",
           SoundLength = 6600,
           SoundVolume = 0
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1001_100116_19102074",
+    MaxKey = "voice_jp_story_1002_101002_1948E88E_m",
+    Loader = function()
+      return {
         voice_jp_story_1001_100116_19102074 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1001",
           SelectKey = "voice_jp_story_1001_100116_19102074",
@@ -20235,15 +21636,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1001",
           SelectKey = "voice_jp_story_1001_100122_191082BF",
           SoundLength = 3580
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1001_100122_191082C0_f",
-    MaxKey = "voice_jp_story_1002_101008_19494AD4",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1001_100122_191082C0_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1001",
           SelectKey = "voice_jp_story_1001_100122_191082C0_f",
@@ -20799,7 +22192,7 @@ local Data = {
         voice_jp_story_1002_100127_1910D59B_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_100127_1910D59B_m",
-          SoundLength = 7900
+          SoundLength = 3930
         },
         voice_jp_story_1002_100127_1910D59C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -20881,7 +22274,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101002_1948E88E_m",
           SoundLength = 8740
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101002_1948E8B8_f",
+    MaxKey = "voice_jp_story_1002_101017_1949DEA6_f",
+    Loader = function()
+      return {
         voice_jp_story_1002_101002_1948E8B8_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101002_1948E8B8_f",
@@ -21266,15 +22667,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101008_19494AD4",
           SoundLength = 10510
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101008_19494AFE",
-    MaxKey = "voice_jp_story_1002_101024_194A5376_m",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101008_19494AFE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101008_19494AFE",
@@ -21898,7 +23291,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101017_1949DEA6_f",
           SoundLength = 19720
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101017_1949DEA6_m",
+    MaxKey = "voice_jp_story_1002_101040_194B57D4",
+    Loader = function()
+      return {
         voice_jp_story_1002_101017_1949DEA6_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101017_1949DEA6_m",
@@ -22293,15 +23694,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101024_194A5376_m",
           SoundLength = 4100
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101024_194A53A0_f",
-    MaxKey = "voice_jp_story_1002_101047_194BCC26_f",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101024_194A53A0_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101024_194A53A0_f",
@@ -22758,7 +24151,7 @@ local Data = {
         voice_jp_story_1002_101034_194AF570 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101034_194AF570",
-          SoundLength = 8110
+          SoundLength = 8080
         },
         voice_jp_story_1002_101034_194AF571 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -22919,7 +24312,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101040_194B57D4",
           SoundLength = 16610
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101040_194B57FE",
+    MaxKey = "voice_jp_story_1002_101058_194C8074",
+    Loader = function()
+      return {
         voice_jp_story_1002_101040_194B57FE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101040_194B57FE",
@@ -23029,6 +24430,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101040_194B5A9E",
           SoundLength = 11260
+        },
+        voice_jp_story_1002_101040_194B5A9F = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101040_194B5A9F",
+          SoundLength = 12160
         },
         voice_jp_story_1002_101040_194B5AC8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -23304,15 +24710,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101047_194BCC26_f",
           SoundLength = 7540
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101047_194BCC26_m",
-    MaxKey = "voice_jp_story_1002_101062_194CC38E",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101047_194BCC26_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101047_194BCC26_m",
@@ -23924,7 +25322,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101058_194C8074",
           SoundLength = 4200
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101058_194C809E",
+    MaxKey = "voice_jp_story_1002_101071_194D5496",
+    Loader = function()
+      return {
         voice_jp_story_1002_101058_194C809E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101058_194C809E",
@@ -24317,15 +25723,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101062_194CC38E",
           SoundLength = 3620
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101063_194CD102",
-    MaxKey = "voice_jp_story_1002_101080_194DE964_m",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101063_194CD102 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101063_194CD102",
@@ -24424,7 +25822,7 @@ local Data = {
         voice_jp_story_1002_101063_194CD2FA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101063_194CD2FA",
-          SoundLength = 16490
+          SoundLength = 8880
         },
         voice_jp_story_1002_101063_194CD324 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -24936,7 +26334,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101071_194D5496",
           SoundLength = 8760
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101071_194D54C0",
+    MaxKey = "voice_jp_story_1002_101092_194EAD48_f",
+    Loader = function()
+      return {
         voice_jp_story_1002_101071_194D54C0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101071_194D54C0",
@@ -25326,15 +26732,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101080_194DE964_m",
           SoundLength = 9500
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101080_194DE98E",
-    MaxKey = "voice_jp_story_1002_101099_194F211C_m",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101080_194DE98E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101080_194DE98E",
@@ -25948,7 +27346,15 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101092_194EAD48_f",
           SoundLength = 1540,
           SoundVolume = 0
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101092_194EAD72",
+    MaxKey = "voice_jp_story_1002_101107_194FA360",
+    Loader = function()
+      return {
         voice_jp_story_1002_101092_194EAD72 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101092_194EAD72",
@@ -26339,15 +27745,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101099_194F211C_m",
           SoundLength = 19530
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101099_194F2146",
-    MaxKey = "voice_jp_story_1002_101118_191BDACC",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101099_194F2146 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101099_194F2146",
@@ -26468,7 +27866,12 @@ local Data = {
         voice_jp_story_1002_101102_194F5104_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101102_194F5104_f",
-          SoundLength = 980
+          SoundLength = 1050
+        },
+        voice_jp_story_1002_101102_194F5104_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101102_194F5104_m",
+          SoundLength = 1100
         },
         voice_jp_story_1002_101102_194F5105 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -26479,6 +27882,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101102_194F5105_f",
           SoundLength = 1050
+        },
+        voice_jp_story_1002_101102_194F5105_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101102_194F5105_m",
+          SoundLength = 1020
         },
         voice_jp_story_1002_101102_194F5158_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -26949,7 +28357,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101107_194FA360",
           SoundLength = 810
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101108_194FB34A_f",
+    MaxKey = "voice_jp_story_1002_101130_1951202A",
+    Loader = function()
+      return {
         voice_jp_story_1002_101108_194FB34A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101108_194FB34A_f",
@@ -27357,15 +28773,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101118_191BDACC",
           SoundLength = 3120
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101118_191BDAF6",
-    MaxKey = "voice_jp_story_1002_101147_19523322",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101118_191BDAF6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101118_191BDAF6",
@@ -27548,27 +28956,27 @@ local Data = {
         voice_jp_story_1002_101125_1950CA87 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA87",
-          SoundLength = 6400
+          SoundLength = 5150
         },
         voice_jp_story_1002_101125_1950CA88 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA88",
-          SoundLength = 3740
+          SoundLength = 3770
         },
         voice_jp_story_1002_101125_1950CA89 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA89",
-          SoundLength = 6210
+          SoundLength = 6090
         },
         voice_jp_story_1002_101125_1950CA90 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA90",
-          SoundLength = 4150
+          SoundLength = 4000
         },
         voice_jp_story_1002_101125_1950CA91 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA91",
-          SoundLength = 3660
+          SoundLength = 3710
         },
         voice_jp_story_1002_101125_1950CA92 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -27578,27 +28986,82 @@ local Data = {
         voice_jp_story_1002_101125_1950CA93 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA93",
-          SoundLength = 5250
+          SoundLength = 5120
         },
         voice_jp_story_1002_101125_1950CA94_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA94_f",
-          SoundLength = 8160
+          SoundLength = 8110
         },
         voice_jp_story_1002_101125_1950CA94_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA94_m",
-          SoundLength = 7120
+          SoundLength = 6950
         },
         voice_jp_story_1002_101125_1950CA95_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA95_f",
-          SoundLength = 2990
+          SoundLength = 2910
         },
         voice_jp_story_1002_101125_1950CA95_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101125_1950CA95_m",
-          SoundLength = 3500
+          SoundLength = 3350
+        },
+        voice_jp_story_1002_101125_968E208A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E208A",
+          SoundLength = 5150
+        },
+        voice_jp_story_1002_101125_968E20B4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E20B4",
+          SoundLength = 3770
+        },
+        voice_jp_story_1002_101125_968E20DE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E20DE",
+          SoundLength = 6090
+        },
+        voice_jp_story_1002_101125_968E2108 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E2108",
+          SoundLength = 4000
+        },
+        voice_jp_story_1002_101125_968E2132 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E2132",
+          SoundLength = 3710
+        },
+        voice_jp_story_1002_101125_968E215C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E215C",
+          SoundLength = 12430
+        },
+        voice_jp_story_1002_101125_968E2186 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E2186",
+          SoundLength = 5120
+        },
+        voice_jp_story_1002_101125_968E21B0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E21B0_f",
+          SoundLength = 8110
+        },
+        voice_jp_story_1002_101125_968E21B0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E21B0_m",
+          SoundLength = 6950
+        },
+        voice_jp_story_1002_101125_968E21DA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E21DA_f",
+          SoundLength = 2910
+        },
+        voice_jp_story_1002_101125_968E21DA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101125_968E21DA_m",
+          SoundLength = 3350
         },
         voice_jp_story_1002_101126_1950DA9A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -27802,7 +29265,7 @@ local Data = {
         voice_jp_story_1002_101130_19511D0C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101130_19511D0C",
-          SoundLength = 1360
+          SoundLength = 1490
         },
         voice_jp_story_1002_101130_19511D35 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -27918,7 +29381,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101130_1951202A",
           SoundLength = 8180
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101130_1951202B_f",
+    MaxKey = "voice_jp_story_1002_101199_19558842_f",
+    Loader = function()
+      return {
         voice_jp_story_1002_101130_1951202B_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101130_1951202B_f",
@@ -28129,10 +29600,20 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101132_19513D0A_f",
           SoundLength = 2080
         },
+        voice_jp_story_1002_101132_19513D0A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513D0A_m",
+          SoundLength = 2050
+        },
         voice_jp_story_1002_101132_19513D34_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101132_19513D34_f",
           SoundLength = 4770
+        },
+        voice_jp_story_1002_101132_19513D34_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513D34_m",
+          SoundLength = 4510
         },
         voice_jp_story_1002_101132_19513D5E_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -28148,6 +29629,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101132_19513D88_f",
           SoundLength = 3610
+        },
+        voice_jp_story_1002_101132_19513D88_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513D88_m",
+          SoundLength = 3780
         },
         voice_jp_story_1002_101132_19513DB2_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -28184,15 +29670,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101132_19513E30_f",
           SoundLength = 7340
         },
+        voice_jp_story_1002_101132_19513E30_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513E30_m",
+          SoundLength = 6410
+        },
         voice_jp_story_1002_101132_19513E5A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101132_19513E5A_f",
           SoundLength = 5960
         },
+        voice_jp_story_1002_101132_19513E5A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513E5A_m",
+          SoundLength = 5020
+        },
         voice_jp_story_1002_101132_19513E84_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101132_19513E84_f",
           SoundLength = 12290
+        },
+        voice_jp_story_1002_101132_19513E84_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513E84_m",
+          SoundLength = 11500
         },
         voice_jp_story_1002_101132_19513EAE_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -28209,6 +29710,11 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101132_19513ED8_f",
           SoundLength = 4750
         },
+        voice_jp_story_1002_101132_19513ED8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513ED8_m",
+          SoundLength = 4930
+        },
         voice_jp_story_1002_101132_19513F02_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101132_19513F02_f",
@@ -28224,10 +29730,20 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101132_19513F2C_f",
           SoundLength = 1410
         },
+        voice_jp_story_1002_101132_19513F2C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513F2C_m",
+          SoundLength = 1570
+        },
         voice_jp_story_1002_101132_19513F56_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101132_19513F56_f",
           SoundLength = 6140
+        },
+        voice_jp_story_1002_101132_19513F56_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101132_19513F56_m",
+          SoundLength = 6020
         },
         voice_jp_story_1002_101133_19514D72_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -28373,15 +29889,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101147_19523322",
           SoundLength = 2770
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101149_195253F2_f",
-    MaxKey = "voice_jp_story_1002_101232_1957A5AA",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101149_195253F2_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101149_195253F2_f",
@@ -28540,7 +30048,7 @@ local Data = {
         voice_jp_story_1002_101173_1953DE84 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101173_1953DE84",
-          SoundLength = 17750
+          SoundLength = 16510
         },
         voice_jp_story_1002_101173_1953DE84_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -28560,7 +30068,7 @@ local Data = {
         voice_jp_story_1002_101174_1953EE1A_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101174_1953EE1A_m",
-          SoundLength = 1350
+          SoundLength = 2050
         },
         voice_jp_story_1002_101174_1953EE44 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -28881,7 +30389,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101199_19558842_f",
           SoundLength = 1640
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101199_19558842_m",
+    MaxKey = "voice_jp_story_1002_101252_1958EDCA_f",
+    Loader = function()
+      return {
         voice_jp_story_1002_101199_19558842_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101199_19558842_m",
@@ -29381,15 +30897,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101232_1957A5AA",
           SoundLength = 4530
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_101233_1957B612",
-    MaxKey = "voice_jp_story_1002_110105_1B904BCC",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_101233_1957B612 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101233_1957B612",
@@ -29530,6 +31038,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101240_19582914",
           SoundLength = 8050
         },
+        voice_jp_story_1002_101240_1958293E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101240_1958293E",
+          SoundLength = 9780
+        },
+        voice_jp_story_1002_101240_19582968 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101240_19582968",
+          SoundLength = 7740
+        },
         voice_jp_story_1002_101240_19582992_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101240_19582992_f",
@@ -29539,6 +31057,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101240_19582992_m",
           SoundLength = 1870
+        },
+        voice_jp_story_1002_101240_195829BC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101240_195829BC",
+          SoundLength = 2340
         },
         voice_jp_story_1002_101240_195829E6_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -29550,6 +31073,11 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101240_195829E6_m",
           SoundLength = 700
         },
+        voice_jp_story_1002_101240_19582A10 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101240_19582A10",
+          SoundLength = 7270
+        },
         voice_jp_story_1002_101241_19583952_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101241_19583952_f",
@@ -29559,6 +31087,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101241_19583952_m",
           SoundLength = 2030
+        },
+        voice_jp_story_1002_101241_1958397C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101241_1958397C",
+          SoundLength = 9550
         },
         voice_jp_story_1002_101241_195839A6_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -29864,7 +31397,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101252_1958EDCA_f",
           SoundLength = 5460
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_101252_1958EDCA_m",
+    MaxKey = "voice_jp_story_1002_110105_1B904B4E_m",
+    Loader = function()
+      return {
         voice_jp_story_1002_101252_1958EDCA_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101252_1958EDCA_m",
@@ -30205,10 +31746,365 @@ local Data = {
           SelectKey = "voice_jp_story_1002_101298_195BD013",
           SoundLength = 4200
         },
+        voice_jp_story_1002_101298_195BD014_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101298_195BD014_f",
+          SoundLength = 3100
+        },
+        voice_jp_story_1002_101298_195BD014_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101298_195BD014_m",
+          SoundLength = 2880
+        },
+        voice_jp_story_1002_101300_195BD016_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101300_195BD016_f",
+          SoundLength = 10820
+        },
+        voice_jp_story_1002_101300_195BD016_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101300_195BD016_m",
+          SoundLength = 9810
+        },
         voice_jp_story_1002_101301_195BD020 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_101301_195BD020",
           SoundLength = 20890
+        },
+        voice_jp_story_1002_101302_195BD021 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101302_195BD021",
+          SoundLength = 8690
+        },
+        voice_jp_story_1002_101302_195BD022 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101302_195BD022",
+          SoundLength = 2140
+        },
+        voice_jp_story_1002_101303_195BD023 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD023",
+          SoundLength = 1250
+        },
+        voice_jp_story_1002_101303_195BD024 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD024",
+          SoundLength = 2530
+        },
+        voice_jp_story_1002_101303_195BD025 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD025",
+          SoundLength = 9590
+        },
+        voice_jp_story_1002_101303_195BD026 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD026",
+          SoundLength = 18610
+        },
+        voice_jp_story_1002_101303_195BD027_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD027_f",
+          SoundLength = 6540
+        },
+        voice_jp_story_1002_101303_195BD027_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD027_m",
+          SoundLength = 6990
+        },
+        voice_jp_story_1002_101303_195BD028 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD028",
+          SoundLength = 3090
+        },
+        voice_jp_story_1002_101303_195BD029_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD029_f",
+          SoundLength = 4500
+        },
+        voice_jp_story_1002_101303_195BD029_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101303_195BD029_m",
+          SoundLength = 4920
+        },
+        voice_jp_story_1002_101304_195BD031 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101304_195BD031",
+          SoundLength = 15810
+        },
+        voice_jp_story_1002_101304_195BD032 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101304_195BD032",
+          SoundLength = 9560
+        },
+        voice_jp_story_1002_101306_195BD035 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101306_195BD035",
+          SoundLength = 5200
+        },
+        voice_jp_story_1002_101306_195BD036 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101306_195BD036",
+          SoundLength = 7280
+        },
+        voice_jp_story_1002_101306_195BD037 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101306_195BD037",
+          SoundLength = 6300
+        },
+        voice_jp_story_1002_101306_195BD038 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101306_195BD038",
+          SoundLength = 13880
+        },
+        voice_jp_story_1002_101306_195BD039 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101306_195BD039",
+          SoundLength = 9380
+        },
+        voice_jp_story_1002_101306_195BD040 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101306_195BD040",
+          SoundLength = 5490
+        },
+        voice_jp_story_1002_101307_195BD041 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101307_195BD041",
+          SoundLength = 8460
+        },
+        voice_jp_story_1002_101308_195BD042 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101308_195BD042",
+          SoundLength = 6390
+        },
+        voice_jp_story_1002_101308_195BD043_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101308_195BD043_f",
+          SoundLength = 7470
+        },
+        voice_jp_story_1002_101308_195BD043_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101308_195BD043_m",
+          SoundLength = 8110
+        },
+        voice_jp_story_1002_101308_195BD044 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101308_195BD044",
+          SoundLength = 5170
+        },
+        voice_jp_story_1002_101309_195BD045 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101309_195BD045",
+          SoundLength = 6350
+        },
+        voice_jp_story_1002_101309_195BD046_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101309_195BD046_f",
+          SoundLength = 3200
+        },
+        voice_jp_story_1002_101309_195BD046_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101309_195BD046_m",
+          SoundLength = 3540
+        },
+        voice_jp_story_1002_101309_195BD047_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101309_195BD047_f",
+          SoundLength = 3010
+        },
+        voice_jp_story_1002_101309_195BD047_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101309_195BD047_m",
+          SoundLength = 3170
+        },
+        voice_jp_story_1002_101310_195BD048 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101310_195BD048",
+          SoundLength = 11650
+        },
+        voice_jp_story_1002_101310_195BD049 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101310_195BD049",
+          SoundLength = 10360
+        },
+        voice_jp_story_1002_101310_195BD050_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101310_195BD050_f",
+          SoundLength = 1500
+        },
+        voice_jp_story_1002_101310_195BD050_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101310_195BD050_m",
+          SoundLength = 1190
+        },
+        voice_jp_story_1002_101310_195BD052 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101310_195BD052",
+          SoundLength = 3770
+        },
+        voice_jp_story_1002_101310_195BD053_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101310_195BD053_f",
+          SoundLength = 8990
+        },
+        voice_jp_story_1002_101310_195BD053_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101310_195BD053_m",
+          SoundLength = 9650
+        },
+        voice_jp_story_1002_101311_195BD054 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101311_195BD054",
+          SoundLength = 9440
+        },
+        voice_jp_story_1002_101312_195BD056 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101312_195BD056",
+          SoundLength = 1850
+        },
+        voice_jp_story_1002_101312_195BD057 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101312_195BD057",
+          SoundLength = 8460
+        },
+        voice_jp_story_1002_101312_195BD058 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101312_195BD058",
+          SoundLength = 2480
+        },
+        voice_jp_story_1002_101313_195BD059 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD059",
+          SoundLength = 6190
+        },
+        voice_jp_story_1002_101313_195BD060 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD060",
+          SoundLength = 5760
+        },
+        voice_jp_story_1002_101313_195BD061 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD061",
+          SoundLength = 7090
+        },
+        voice_jp_story_1002_101313_195BD062_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD062_f",
+          SoundLength = 7430
+        },
+        voice_jp_story_1002_101313_195BD062_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD062_m",
+          SoundLength = 8540
+        },
+        voice_jp_story_1002_101313_195BD063 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD063",
+          SoundLength = 2310
+        },
+        voice_jp_story_1002_101313_195BD064 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD064",
+          SoundLength = 11780
+        },
+        voice_jp_story_1002_101313_195BD065 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD065",
+          SoundLength = 10580
+        },
+        voice_jp_story_1002_101313_195BD066 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101313_195BD066",
+          SoundLength = 4520
+        },
+        voice_jp_story_1002_101314_195BD067 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101314_195BD067",
+          SoundLength = 5610
+        },
+        voice_jp_story_1002_101314_195BD068 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101314_195BD068",
+          SoundLength = 6230
+        },
+        voice_jp_story_1002_101314_195BD069 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101314_195BD069",
+          SoundLength = 4310
+        },
+        voice_jp_story_1002_101314_195BD070 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_101314_195BD070",
+          SoundLength = 2990
+        },
+        voice_jp_story_1002_110101_1B9008B2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B9008B2_f",
+          SoundLength = 2930
+        },
+        voice_jp_story_1002_110101_1B9008B2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B9008B2_m",
+          SoundLength = 2540
+        },
+        voice_jp_story_1002_110101_1B9008DC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B9008DC_f",
+          SoundLength = 7650
+        },
+        voice_jp_story_1002_110101_1B9008DC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B9008DC_m",
+          SoundLength = 9340
+        },
+        voice_jp_story_1002_110101_1B900906_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900906_f",
+          SoundLength = 7940
+        },
+        voice_jp_story_1002_110101_1B900906_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900906_m",
+          SoundLength = 8600
+        },
+        voice_jp_story_1002_110101_1B900930_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900930_f",
+          SoundLength = 2780
+        },
+        voice_jp_story_1002_110101_1B900930_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900930_m",
+          SoundLength = 1330
+        },
+        voice_jp_story_1002_110101_1B900984_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900984_f",
+          SoundLength = 10560
+        },
+        voice_jp_story_1002_110101_1B900984_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900984_m",
+          SoundLength = 12650
+        },
+        voice_jp_story_1002_110101_1B900AFE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900AFE_f",
+          SoundLength = 3000
+        },
+        voice_jp_story_1002_110101_1B900AFE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900AFE_m",
+          SoundLength = 2600
+        },
+        voice_jp_story_1002_110101_1B900B28_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900B28_f",
+          SoundLength = 8130
+        },
+        voice_jp_story_1002_110101_1B900B28_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110101_1B900B28_m",
+          SoundLength = 7360
         },
         voice_jp_story_1002_110101_1B900B52 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30240,10 +32136,80 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110102_1B9019EC_m",
           SoundLength = 3310
         },
+        voice_jp_story_1002_110102_1B901A16_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901A16_f",
+          SoundLength = 1660
+        },
+        voice_jp_story_1002_110102_1B901A16_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901A16_m",
+          SoundLength = 1840
+        },
+        voice_jp_story_1002_110102_1B901A40_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901A40_f",
+          SoundLength = 19930
+        },
+        voice_jp_story_1002_110102_1B901A40_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901A40_m",
+          SoundLength = 20030
+        },
+        voice_jp_story_1002_110102_1B901A94_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901A94_f",
+          SoundLength = 19400
+        },
+        voice_jp_story_1002_110102_1B901A94_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901A94_m",
+          SoundLength = 20680
+        },
+        voice_jp_story_1002_110102_1B901AE8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901AE8_f",
+          SoundLength = 2450
+        },
+        voice_jp_story_1002_110102_1B901AE8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901AE8_m",
+          SoundLength = 810
+        },
+        voice_jp_story_1002_110102_1B901B66_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901B66_f",
+          SoundLength = 2650
+        },
+        voice_jp_story_1002_110102_1B901B66_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901B66_m",
+          SoundLength = 2630
+        },
+        voice_jp_story_1002_110102_1B901B90_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901B90_f",
+          SoundLength = 3100
+        },
+        voice_jp_story_1002_110102_1B901B90_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110102_1B901B90_m",
+          SoundLength = 3240
+        },
         voice_jp_story_1002_110103_1B902982 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110103_1B902982",
           SoundLength = 1960
+        },
+        voice_jp_story_1002_110103_1B9029AC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B9029AC_f",
+          SoundLength = 2190
+        },
+        voice_jp_story_1002_110103_1B9029AC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B9029AC_m",
+          SoundLength = 1910
         },
         voice_jp_story_1002_110103_1B9029D6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30270,6 +32236,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110103_1B902A7E",
           SoundLength = 13980
         },
+        voice_jp_story_1002_110103_1B902AA8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902AA8_f",
+          SoundLength = 1230
+        },
+        voice_jp_story_1002_110103_1B902AA8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902AA8_m",
+          SoundLength = 950
+        },
         voice_jp_story_1002_110103_1B902AD2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110103_1B902AD2",
@@ -30280,10 +32256,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110103_1B902AFC",
           SoundLength = 8270
         },
+        voice_jp_story_1002_110103_1B902B26_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902B26_f",
+          SoundLength = 3250
+        },
+        voice_jp_story_1002_110103_1B902B26_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902B26_m",
+          SoundLength = 2780
+        },
         voice_jp_story_1002_110103_1B902B50 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110103_1B902B50",
           SoundLength = 4310
+        },
+        voice_jp_story_1002_110103_1B902B7A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902B7A_f",
+          SoundLength = 16910
+        },
+        voice_jp_story_1002_110103_1B902B7A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902B7A_m",
+          SoundLength = 15030
         },
         voice_jp_story_1002_110103_1B902BA4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30299,6 +32295,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110103_1B902BF8",
           SoundLength = 3490
+        },
+        voice_jp_story_1002_110103_1B902C22_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902C22_f",
+          SoundLength = 2070
+        },
+        voice_jp_story_1002_110103_1B902C22_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110103_1B902C22_m",
+          SoundLength = 1820
         },
         voice_jp_story_1002_110103_1B902C4C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30340,6 +32346,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110104_1B903B64",
           SoundLength = 6040
         },
+        voice_jp_story_1002_110104_1B903B8E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110104_1B903B8E_f",
+          SoundLength = 3930
+        },
+        voice_jp_story_1002_110104_1B903B8E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110104_1B903B8E_m",
+          SoundLength = 3920
+        },
         voice_jp_story_1002_110104_1B903BB8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110104_1B903BB8",
@@ -30354,6 +32370,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110104_1B903C0C",
           SoundLength = 14380
+        },
+        voice_jp_story_1002_110104_1B903C36_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110104_1B903C36_f",
+          SoundLength = 4230
+        },
+        voice_jp_story_1002_110104_1B903C36_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110104_1B903C36_m",
+          SoundLength = 4040
         },
         voice_jp_story_1002_110105_1B904A52 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30375,6 +32401,19 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110105_1B904B24",
           SoundLength = 9940
         },
+        voice_jp_story_1002_110105_1B904B4E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110105_1B904B4E_m",
+          SoundLength = 4200
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_110105_1B904B78",
+    MaxKey = "voice_jp_story_1002_110115_1B90F12C",
+    Loader = function()
+      return {
         voice_jp_story_1002_110105_1B904B78 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110105_1B904B78",
@@ -30389,19 +32428,31 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110105_1B904BCC",
           SoundLength = 14840
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_110106_1B905DAE",
-    MaxKey = "voice_jp_story_1002_110136_1B924768",
-    Loader = function()
-      return {
+        },
+        voice_jp_story_1002_110106_1B905D84_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110106_1B905D84_f",
+          SoundLength = 3820
+        },
+        voice_jp_story_1002_110106_1B905D84_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110106_1B905D84_m",
+          SoundLength = 3500
+        },
         voice_jp_story_1002_110106_1B905DAE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110106_1B905DAE",
           SoundLength = 5990
+        },
+        voice_jp_story_1002_110106_1B905E02_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110106_1B905E02_f",
+          SoundLength = 3790
+        },
+        voice_jp_story_1002_110106_1B905E02_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110106_1B905E02_m",
+          SoundLength = 3310
         },
         voice_jp_story_1002_110106_1B905E2C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30448,15 +32499,45 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110107_1B906B76",
           SoundLength = 5970
         },
+        voice_jp_story_1002_110107_1B906BA0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906BA0_f",
+          SoundLength = 2640
+        },
+        voice_jp_story_1002_110107_1B906BA0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906BA0_m",
+          SoundLength = 2780
+        },
         voice_jp_story_1002_110107_1B906BCA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110107_1B906BCA",
           SoundLength = 9820
         },
+        voice_jp_story_1002_110107_1B906BF4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906BF4_f",
+          SoundLength = 6990
+        },
+        voice_jp_story_1002_110107_1B906BF4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906BF4_m",
+          SoundLength = 6240
+        },
         voice_jp_story_1002_110107_1B906C1E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110107_1B906C1E",
           SoundLength = 1790
+        },
+        voice_jp_story_1002_110107_1B906C48_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906C48_f",
+          SoundLength = 530
+        },
+        voice_jp_story_1002_110107_1B906C48_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906C48_m",
+          SoundLength = 540
         },
         voice_jp_story_1002_110107_1B906C72 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30483,6 +32564,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110107_1B906D1A",
           SoundLength = 10290
         },
+        voice_jp_story_1002_110107_1B906D44_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906D44_f",
+          SoundLength = 7590
+        },
+        voice_jp_story_1002_110107_1B906D44_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906D44_m",
+          SoundLength = 7330
+        },
         voice_jp_story_1002_110107_1B906D6E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110107_1B906D6E",
@@ -30492,6 +32583,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110107_1B906D98",
           SoundLength = 8750
+        },
+        voice_jp_story_1002_110107_1B906DC2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906DC2_f",
+          SoundLength = 7710
+        },
+        voice_jp_story_1002_110107_1B906DC2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110107_1B906DC2_m",
+          SoundLength = 7940
         },
         voice_jp_story_1002_110107_1B906DEC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30513,55 +32614,205 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110110_1B909C84",
           SoundLength = 2450
         },
+        voice_jp_story_1002_110110_1B909CAE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909CAE",
+          SoundLength = 1900
+        },
         voice_jp_story_1002_110110_1B909CD8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909CD8",
           SoundLength = 1360
+        },
+        voice_jp_story_1002_110110_1B909D02 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909D02",
+          SoundLength = 2120
         },
         voice_jp_story_1002_110110_1B909D2C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909D2C",
           SoundLength = 2300
         },
+        voice_jp_story_1002_110110_1B909D56 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909D56",
+          SoundLength = 4900
+        },
         voice_jp_story_1002_110110_1B909D80 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909D80",
           SoundLength = 5090
+        },
+        voice_jp_story_1002_110110_1B909DAA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909DAA_f",
+          SoundLength = 1290
+        },
+        voice_jp_story_1002_110110_1B909DAA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909DAA_m",
+          SoundLength = 1150
+        },
+        voice_jp_story_1002_110110_1B909DFE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909DFE_f",
+          SoundLength = 1160
+        },
+        voice_jp_story_1002_110110_1B909DFE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909DFE_m",
+          SoundLength = 1040
+        },
+        voice_jp_story_1002_110110_1B909E28 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E28",
+          SoundLength = 5740
+        },
+        voice_jp_story_1002_110110_1B909E29 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E29",
+          SoundLength = 5510
+        },
+        voice_jp_story_1002_110110_1B909E30_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E30_f",
+          SoundLength = 6660
+        },
+        voice_jp_story_1002_110110_1B909E30_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E30_m",
+          SoundLength = 7090
         },
         voice_jp_story_1002_110110_1B909E34 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909E34",
           SoundLength = 960
         },
+        voice_jp_story_1002_110110_1B909E52_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E52_f",
+          SoundLength = 7360
+        },
+        voice_jp_story_1002_110110_1B909E52_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E52_m",
+          SoundLength = 6860
+        },
+        voice_jp_story_1002_110110_1B909E7C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E7C_f",
+          SoundLength = 7170
+        },
+        voice_jp_story_1002_110110_1B909E7C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909E7C_m",
+          SoundLength = 6790
+        },
+        voice_jp_story_1002_110110_1B909EA6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909EA6",
+          SoundLength = 3370
+        },
         voice_jp_story_1002_110110_1B909ED0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909ED0",
           SoundLength = 11090
+        },
+        voice_jp_story_1002_110110_1B909EFA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909EFA",
+          SoundLength = 10670
         },
         voice_jp_story_1002_110110_1B909F24 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909F24",
           SoundLength = 4360
         },
+        voice_jp_story_1002_110110_1B909F4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909F4E",
+          SoundLength = 9420
+        },
         voice_jp_story_1002_110110_1B909F78 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909F78",
           SoundLength = 9990
+        },
+        voice_jp_story_1002_110110_1B909FA2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909FA2",
+          SoundLength = 3790
         },
         voice_jp_story_1002_110110_1B909FCC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B909FCC",
           SoundLength = 6200
         },
+        voice_jp_story_1002_110110_1B909FF6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B909FF6",
+          SoundLength = 2190
+        },
         voice_jp_story_1002_110110_1B90A020 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110110_1B90A020",
           SoundLength = 6980
         },
+        voice_jp_story_1002_110110_1B90A04A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B90A04A_f",
+          SoundLength = 1990
+        },
+        voice_jp_story_1002_110110_1B90A04A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B90A04A_m",
+          SoundLength = 1940
+        },
+        voice_jp_story_1002_110110_1B90A074 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110110_1B90A074",
+          SoundLength = 9320
+        },
+        voice_jp_story_1002_110111_1B90ACC2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90ACC2",
+          SoundLength = 1870
+        },
         voice_jp_story_1002_110111_1B90ACEC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90ACEC",
           SoundLength = 1530
+        },
+        voice_jp_story_1002_110111_1B90AD16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AD16",
+          SoundLength = 6250
+        },
+        voice_jp_story_1002_110111_1B90AD40_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AD40_f",
+          SoundLength = 480
+        },
+        voice_jp_story_1002_110111_1B90AD40_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AD40_m",
+          SoundLength = 900
+        },
+        voice_jp_story_1002_110111_1B90AD6A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AD6A",
+          SoundLength = 7610
+        },
+        voice_jp_story_1002_110111_1B90AD94 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AD94",
+          SoundLength = 7120
+        },
+        voice_jp_story_1002_110111_1B90ADBE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90ADBE",
+          SoundLength = 5090
         },
         voice_jp_story_1002_110111_1B90ADE8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30573,45 +32824,170 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110111_1B90AE12",
           SoundLength = 11410
         },
+        voice_jp_story_1002_110111_1B90AE3C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AE3C",
+          SoundLength = 3630
+        },
+        voice_jp_story_1002_110111_1B90AE66 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AE66",
+          SoundLength = 1070
+        },
+        voice_jp_story_1002_110111_1B90AE90_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AE90_f",
+          SoundLength = 15040
+        },
+        voice_jp_story_1002_110111_1B90AE90_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AE90_m",
+          SoundLength = 15070
+        },
+        voice_jp_story_1002_110111_1B90AEBA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AEBA_f",
+          SoundLength = 14670
+        },
+        voice_jp_story_1002_110111_1B90AEBA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AEBA_m",
+          SoundLength = 15830
+        },
+        voice_jp_story_1002_110111_1B90AEE4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AEE4",
+          SoundLength = 6500
+        },
+        voice_jp_story_1002_110111_1B90AF0E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AF0E",
+          SoundLength = 5650
+        },
+        voice_jp_story_1002_110111_1B90AF38 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AF38",
+          SoundLength = 12830
+        },
+        voice_jp_story_1002_110111_1B90AF62 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AF62",
+          SoundLength = 3280
+        },
         voice_jp_story_1002_110111_1B90AF8C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90AF8C",
           SoundLength = 3860
+        },
+        voice_jp_story_1002_110111_1B90AFB6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90AFB6",
+          SoundLength = 11940
         },
         voice_jp_story_1002_110111_1B90AFE0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90AFE0",
           SoundLength = 14950
         },
+        voice_jp_story_1002_110111_1B90B00A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B00A",
+          SoundLength = 4800
+        },
         voice_jp_story_1002_110111_1B90B034 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90B034",
           SoundLength = 3670
+        },
+        voice_jp_story_1002_110111_1B90B05E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B05E",
+          SoundLength = 3430
         },
         voice_jp_story_1002_110111_1B90B088 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90B088",
           SoundLength = 6730
         },
+        voice_jp_story_1002_110111_1B90B0B2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B0B2",
+          SoundLength = 4650
+        },
         voice_jp_story_1002_110111_1B90B0DC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90B0DC",
           SoundLength = 1190
+        },
+        voice_jp_story_1002_110111_1B90B106 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B106",
+          SoundLength = 9550
         },
         voice_jp_story_1002_110111_1B90B130 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90B130",
           SoundLength = 1560
         },
+        voice_jp_story_1002_110111_1B90B15A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B15A",
+          SoundLength = 930
+        },
         voice_jp_story_1002_110111_1B90B184 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90B184",
           SoundLength = 1530
         },
+        voice_jp_story_1002_110111_1B90B1AE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B1AE",
+          SoundLength = 700
+        },
+        voice_jp_story_1002_110111_1B90B1D8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B1D8_f",
+          SoundLength = 510
+        },
+        voice_jp_story_1002_110111_1B90B1D8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B1D8_m",
+          SoundLength = 680
+        },
+        voice_jp_story_1002_110111_1B90B202_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B202_f",
+          SoundLength = 2180
+        },
+        voice_jp_story_1002_110111_1B90B202_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B202_m",
+          SoundLength = 1950
+        },
         voice_jp_story_1002_110111_1B90B22C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110111_1B90B22C",
           SoundLength = 7620
+        },
+        voice_jp_story_1002_110111_1B90B256_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B256_f",
+          SoundLength = 5010
+        },
+        voice_jp_story_1002_110111_1B90B256_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B256_m",
+          SoundLength = 4630
+        },
+        voice_jp_story_1002_110111_1B90B280_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B280_f",
+          SoundLength = 3140
+        },
+        voice_jp_story_1002_110111_1B90B280_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110111_1B90B280_m",
+          SoundLength = 2790
         },
         voice_jp_story_1002_110111_1B90B2AA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30623,45 +32999,245 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110111_1B90B2D4",
           SoundLength = 4970
         },
+        voice_jp_story_1002_110112_1B90BD2A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BD2A_f",
+          SoundLength = 6590
+        },
+        voice_jp_story_1002_110112_1B90BD2A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BD2A_m",
+          SoundLength = 6760
+        },
+        voice_jp_story_1002_110112_1B90BD54 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BD54",
+          SoundLength = 11100
+        },
+        voice_jp_story_1002_110112_1B90BD7E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BD7E",
+          SoundLength = 10240
+        },
+        voice_jp_story_1002_110112_1B90BDA8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BDA8_f",
+          SoundLength = 3820
+        },
+        voice_jp_story_1002_110112_1B90BDA8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BDA8_m",
+          SoundLength = 4640
+        },
+        voice_jp_story_1002_110112_1B90BDD2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BDD2",
+          SoundLength = 5410
+        },
+        voice_jp_story_1002_110112_1B90BDFC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110112_1B90BDFC",
+          SoundLength = 11840
+        },
+        voice_jp_story_1002_110113_1B90CD92 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CD92",
+          SoundLength = 3870
+        },
+        voice_jp_story_1002_110113_1B90CDBC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CDBC",
+          SoundLength = 15230
+        },
+        voice_jp_story_1002_110113_1B90CDE6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CDE6",
+          SoundLength = 12260
+        },
+        voice_jp_story_1002_110113_1B90CE10 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CE10",
+          SoundLength = 1080
+        },
+        voice_jp_story_1002_110113_1B90CE3A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CE3A_f",
+          SoundLength = 3190
+        },
+        voice_jp_story_1002_110113_1B90CE3A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CE3A_m",
+          SoundLength = 3430
+        },
+        voice_jp_story_1002_110113_1B90CE64 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CE64",
+          SoundLength = 9890
+        },
+        voice_jp_story_1002_110113_1B90CE8E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CE8E",
+          SoundLength = 6730
+        },
+        voice_jp_story_1002_110113_1B90CEB8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CEB8",
+          SoundLength = 21560
+        },
+        voice_jp_story_1002_110113_1B90CEE2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CEE2_f",
+          SoundLength = 11880
+        },
+        voice_jp_story_1002_110113_1B90CEE2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CEE2_m",
+          SoundLength = 11030
+        },
+        voice_jp_story_1002_110113_1B90CF0C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CF0C",
+          SoundLength = 7380
+        },
+        voice_jp_story_1002_110113_1B90CF36_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CF36_f",
+          SoundLength = 2430
+        },
+        voice_jp_story_1002_110113_1B90CF36_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CF36_m",
+          SoundLength = 2460
+        },
+        voice_jp_story_1002_110113_1B90CF60 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CF60",
+          SoundLength = 13160
+        },
+        voice_jp_story_1002_110113_1B90CF8A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CF8A",
+          SoundLength = 7700
+        },
+        voice_jp_story_1002_110113_1B90CF8B = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CF8B",
+          SoundLength = 9860
+        },
+        voice_jp_story_1002_110113_1B90CFDE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90CFDE",
+          SoundLength = 8070
+        },
+        voice_jp_story_1002_110113_1B90D008 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D008",
+          SoundLength = 2230
+        },
         voice_jp_story_1002_110113_1B90D032 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D032",
           SoundLength = 5890
+        },
+        voice_jp_story_1002_110113_1B90D05C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D05C",
+          SoundLength = 2570
         },
         voice_jp_story_1002_110113_1B90D086 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D086",
           SoundLength = 4340
         },
+        voice_jp_story_1002_110113_1B90D0B0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D0B0",
+          SoundLength = 2410
+        },
         voice_jp_story_1002_110113_1B90D0DA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D0DA",
           SoundLength = 7460
+        },
+        voice_jp_story_1002_110113_1B90D104 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D104",
+          SoundLength = 3280
         },
         voice_jp_story_1002_110113_1B90D12E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D12E",
           SoundLength = 3890
         },
+        voice_jp_story_1002_110113_1B90D158 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D158",
+          SoundLength = 9990
+        },
         voice_jp_story_1002_110113_1B90D182 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D182",
           SoundLength = 7210
+        },
+        voice_jp_story_1002_110113_1B90D1AC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D1AC",
+          SoundLength = 1220
         },
         voice_jp_story_1002_110113_1B90D1D6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D1D6",
           SoundLength = 11500
         },
+        voice_jp_story_1002_110113_1B90D200_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D200_f",
+          SoundLength = 490
+        },
+        voice_jp_story_1002_110113_1B90D200_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D200_m",
+          SoundLength = 680
+        },
+        voice_jp_story_1002_110113_1B90D22A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D22A_f",
+          SoundLength = 2570
+        },
+        voice_jp_story_1002_110113_1B90D22A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D22A_m",
+          SoundLength = 2550
+        },
         voice_jp_story_1002_110113_1B90D254 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D254",
           SoundLength = 480
         },
+        voice_jp_story_1002_110113_1B90D27E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D27E",
+          SoundLength = 12000
+        },
         voice_jp_story_1002_110113_1B90D2A8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110113_1B90D2A8",
           SoundLength = 2870
+        },
+        voice_jp_story_1002_110113_1B90D2D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D2D2",
+          SoundLength = 5720
+        },
+        voice_jp_story_1002_110113_1B90D2FC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D2FC_f",
+          SoundLength = 1410
+        },
+        voice_jp_story_1002_110113_1B90D2FC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110113_1B90D2FC_m",
+          SoundLength = 1210
         },
         voice_jp_story_1002_110114_1B90D2D3 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30708,36 +33284,144 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110114_1B90DF4A",
           SoundLength = 8090
         },
+        voice_jp_story_1002_110114_1B90DF74 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90DF74",
+          SoundLength = 3620
+        },
+        voice_jp_story_1002_110114_1B90DF75 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90DF75",
+          SoundLength = 7260
+        },
+        voice_jp_story_1002_110114_1B90DFC8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90DFC8",
+          SoundLength = 7430
+        },
+        voice_jp_story_1002_110114_1B90DFF2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90DFF2_f",
+          SoundLength = 6410
+        },
+        voice_jp_story_1002_110114_1B90DFF2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90DFF2_m",
+          SoundLength = 7240
+        },
+        voice_jp_story_1002_110114_1B90E01C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90E01C",
+          SoundLength = 1430
+        },
+        voice_jp_story_1002_110114_1B90E046 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90E046",
+          SoundLength = 1610
+        },
+        voice_jp_story_1002_110114_1B90E0C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110114_1B90E0C4",
+          SoundLength = 4630
+        },
+        voice_jp_story_1002_110115_1B90EE62 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EE62",
+          SoundLength = 6330
+        },
+        voice_jp_story_1002_110115_1B90EE8C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EE8C_f",
+          SoundLength = 530
+        },
+        voice_jp_story_1002_110115_1B90EE8C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EE8C_m",
+          SoundLength = 670
+        },
+        voice_jp_story_1002_110115_1B90EEB6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EEB6",
+          SoundLength = 7640
+        },
+        voice_jp_story_1002_110115_1B90EEE0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EEE0",
+          SoundLength = 6860
+        },
         voice_jp_story_1002_110115_1B90EF34 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90EF34",
           SoundLength = 2780
+        },
+        voice_jp_story_1002_110115_1B90EF5E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EF5E",
+          SoundLength = 1610
+        },
+        voice_jp_story_1002_110115_1B90EF88 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EF88",
+          SoundLength = 2250
         },
         voice_jp_story_1002_110115_1B90EFB2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90EFB2",
           SoundLength = 4340
         },
+        voice_jp_story_1002_110115_1B90EFDC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90EFDC",
+          SoundLength = 1570
+        },
         voice_jp_story_1002_110115_1B90F006 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F006",
           SoundLength = 13510
+        },
+        voice_jp_story_1002_110115_1B90F030 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F030",
+          SoundLength = 14490
         },
         voice_jp_story_1002_110115_1B90F05A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F05A",
           SoundLength = 5520
         },
+        voice_jp_story_1002_110115_1B90F084 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F084",
+          SoundLength = 17470
+        },
         voice_jp_story_1002_110115_1B90F0AE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F0AE",
           SoundLength = 8490
+        },
+        voice_jp_story_1002_110115_1B90F0D8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F0D8",
+          SoundLength = 8900
         },
         voice_jp_story_1002_110115_1B90F102 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F102",
           SoundLength = 6870
         },
+        voice_jp_story_1002_110115_1B90F12C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F12C",
+          SoundLength = 12640
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_110115_1B90F156",
+    MaxKey = "voice_jp_story_1002_110124_1B9185FA",
+    Loader = function()
+      return {
         voice_jp_story_1002_110115_1B90F156 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F156",
@@ -30747,6 +33431,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F180",
           SoundLength = 12660
+        },
+        voice_jp_story_1002_110115_1B90F1AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F1AA",
+          SoundLength = 14710
         },
         voice_jp_story_1002_110115_1B90F1D4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30768,6 +33457,46 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110115_1B90F252",
           SoundLength = 10440
         },
+        voice_jp_story_1002_110115_1B90F27C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F27C",
+          SoundLength = 1870
+        },
+        voice_jp_story_1002_110115_1B90F27D_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F27D_f",
+          SoundLength = 750
+        },
+        voice_jp_story_1002_110115_1B90F27D_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F27D_m",
+          SoundLength = 830
+        },
+        voice_jp_story_1002_110115_1B90F2D0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F2D0",
+          SoundLength = 7040
+        },
+        voice_jp_story_1002_110115_1B90F324_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F324_f",
+          SoundLength = 14230
+        },
+        voice_jp_story_1002_110115_1B90F324_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F324_m",
+          SoundLength = 13790
+        },
+        voice_jp_story_1002_110115_1B90F34E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F34E_f",
+          SoundLength = 8230
+        },
+        voice_jp_story_1002_110115_1B90F34E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F34E_m",
+          SoundLength = 8540
+        },
         voice_jp_story_1002_110115_1B90F378 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F378",
@@ -30788,6 +33517,21 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110115_1B90F420",
           SoundLength = 8070
         },
+        voice_jp_story_1002_110115_1B90F44A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F44A_f",
+          SoundLength = 1430
+        },
+        voice_jp_story_1002_110115_1B90F44A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F44A_m",
+          SoundLength = 1220
+        },
+        voice_jp_story_1002_110115_1B90F474 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F474",
+          SoundLength = 1260
+        },
         voice_jp_story_1002_110115_1B90F4C8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F4C8",
@@ -30797,6 +33541,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110115_1B90F4F2",
           SoundLength = 4990
+        },
+        voice_jp_story_1002_110115_1B90F51C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F51C_f",
+          SoundLength = 3480
+        },
+        voice_jp_story_1002_110115_1B90F51C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F51C_m",
+          SoundLength = 4070
         },
         voice_jp_story_1002_110115_1B90F546 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30808,10 +33562,100 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110115_1B90F570",
           SoundLength = 3240
         },
+        voice_jp_story_1002_110115_1B90F59A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F59A_f",
+          SoundLength = 480
+        },
+        voice_jp_story_1002_110115_1B90F59A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F59A_m",
+          SoundLength = 790
+        },
+        voice_jp_story_1002_110115_1B90F5C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F5C4",
+          SoundLength = 6850
+        },
+        voice_jp_story_1002_110115_1B90F618 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F618",
+          SoundLength = 4650
+        },
+        voice_jp_story_1002_110115_1B90F66C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F66C",
+          SoundLength = 11300
+        },
+        voice_jp_story_1002_110115_1B90F696 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F696",
+          SoundLength = 9800
+        },
+        voice_jp_story_1002_110115_1B90F6C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F6C0",
+          SoundLength = 9690
+        },
+        voice_jp_story_1002_110115_1B90F6EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F6EA",
+          SoundLength = 8180
+        },
+        voice_jp_story_1002_110115_1B90F714_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F714_f",
+          SoundLength = 1070
+        },
+        voice_jp_story_1002_110115_1B90F714_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F714_m",
+          SoundLength = 960
+        },
+        voice_jp_story_1002_110115_1B90F73E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F73E",
+          SoundLength = 6560
+        },
+        voice_jp_story_1002_110115_1B90F768 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F768",
+          SoundLength = 10450
+        },
+        voice_jp_story_1002_110115_1B90F769 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F769",
+          SoundLength = 5760
+        },
+        voice_jp_story_1002_110115_1B90F76A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B90F76A",
+          SoundLength = 5820
+        },
+        voice_jp_story_1002_110115_1B9100EC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B9100EC_f",
+          SoundLength = 6230
+        },
+        voice_jp_story_1002_110115_1B9100EC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110115_1B9100EC_m",
+          SoundLength = 6220
+        },
         voice_jp_story_1002_110116_1B90FECA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110116_1B90FECA",
           SoundLength = 1510
+        },
+        voice_jp_story_1002_110116_1B90FEF4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B90FEF4_f",
+          SoundLength = 900
+        },
+        voice_jp_story_1002_110116_1B90FEF4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B90FEF4_m",
+          SoundLength = 690
         },
         voice_jp_story_1002_110116_1B90FF1E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30838,6 +33682,66 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110116_1B90FFC6",
           SoundLength = 7050
         },
+        voice_jp_story_1002_110116_1B90FFF0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B90FFF0_f",
+          SoundLength = 1360
+        },
+        voice_jp_story_1002_110116_1B90FFF0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B90FFF0_m",
+          SoundLength = 1070
+        },
+        voice_jp_story_1002_110116_1B91001A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B91001A_f",
+          SoundLength = 1440
+        },
+        voice_jp_story_1002_110116_1B91001A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B91001A_m",
+          SoundLength = 1070
+        },
+        voice_jp_story_1002_110116_1B910044_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B910044_f",
+          SoundLength = 3850
+        },
+        voice_jp_story_1002_110116_1B910044_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B910044_m",
+          SoundLength = 3260
+        },
+        voice_jp_story_1002_110116_1B910045_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B910045_f",
+          SoundLength = 1000
+        },
+        voice_jp_story_1002_110116_1B910045_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110116_1B910045_m",
+          SoundLength = 650
+        },
+        voice_jp_story_1002_110117_1B910F32_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B910F32_f",
+          SoundLength = 690
+        },
+        voice_jp_story_1002_110117_1B910F32_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B910F32_m",
+          SoundLength = 670
+        },
+        voice_jp_story_1002_110117_1B910F86_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B910F86_f",
+          SoundLength = 1140
+        },
+        voice_jp_story_1002_110117_1B910F86_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B910F86_m",
+          SoundLength = 480
+        },
         voice_jp_story_1002_110117_1B910FDA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110117_1B910FDA",
@@ -30858,10 +33762,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110117_1B911058",
           SoundLength = 4430
         },
+        voice_jp_story_1002_110117_1B911082_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B911082_f",
+          SoundLength = 4900
+        },
+        voice_jp_story_1002_110117_1B911082_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B911082_m",
+          SoundLength = 6110
+        },
         voice_jp_story_1002_110117_1B9110AC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110117_1B9110AC",
           SoundLength = 11140
+        },
+        voice_jp_story_1002_110117_1B9110D6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B9110D6_f",
+          SoundLength = 7970
+        },
+        voice_jp_story_1002_110117_1B9110D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110117_1B9110D6_m",
+          SoundLength = 8540
         },
         voice_jp_story_1002_110117_1B911100 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30888,10 +33812,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110118_1B912018",
           SoundLength = 3280
         },
+        voice_jp_story_1002_110118_1B912042_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912042_f",
+          SoundLength = 2720
+        },
+        voice_jp_story_1002_110118_1B912042_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912042_m",
+          SoundLength = 2840
+        },
         voice_jp_story_1002_110118_1B91206C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B91206C",
           SoundLength = 8670
+        },
+        voice_jp_story_1002_110118_1B912096_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912096_f",
+          SoundLength = 4960
+        },
+        voice_jp_story_1002_110118_1B912096_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912096_m",
+          SoundLength = 5110
         },
         voice_jp_story_1002_110118_1B9120C0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30902,6 +33846,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B9120EA",
           SoundLength = 8050
+        },
+        voice_jp_story_1002_110118_1B912114_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912114_f",
+          SoundLength = 8020
+        },
+        voice_jp_story_1002_110118_1B912114_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912114_m",
+          SoundLength = 8470
         },
         voice_jp_story_1002_110118_1B91213E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30918,6 +33872,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110118_1B912192",
           SoundLength = 1500
         },
+        voice_jp_story_1002_110118_1B9121BC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9121BC_f",
+          SoundLength = 980
+        },
+        voice_jp_story_1002_110118_1B9121BC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9121BC_m",
+          SoundLength = 820
+        },
         voice_jp_story_1002_110118_1B9121E6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B9121E6",
@@ -30927,6 +33891,26 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B912210",
           SoundLength = 15050
+        },
+        voice_jp_story_1002_110118_1B91223A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B91223A_f",
+          SoundLength = 900
+        },
+        voice_jp_story_1002_110118_1B91223A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B91223A_m",
+          SoundLength = 1180
+        },
+        voice_jp_story_1002_110118_1B912264_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912264_f",
+          SoundLength = 4790
+        },
+        voice_jp_story_1002_110118_1B912264_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912264_m",
+          SoundLength = 4800
         },
         voice_jp_story_1002_110118_1B91228E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -30953,6 +33937,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110118_1B912360",
           SoundLength = 5680
         },
+        voice_jp_story_1002_110118_1B9123B4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9123B4_f",
+          SoundLength = 490
+        },
+        voice_jp_story_1002_110118_1B9123B4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9123B4_m",
+          SoundLength = 740
+        },
         voice_jp_story_1002_110118_1B9123DE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B9123DE",
@@ -30973,15 +33967,85 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110118_1B91245C",
           SoundLength = 21070
         },
+        voice_jp_story_1002_110118_1B912486_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912486_f",
+          SoundLength = 5310
+        },
+        voice_jp_story_1002_110118_1B912486_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912486_m",
+          SoundLength = 6900
+        },
+        voice_jp_story_1002_110118_1B9124B0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9124B0_f",
+          SoundLength = 1940
+        },
+        voice_jp_story_1002_110118_1B9124B0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9124B0_m",
+          SoundLength = 1880
+        },
         voice_jp_story_1002_110118_1B9124DA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B9124DA",
           SoundLength = 970
         },
+        voice_jp_story_1002_110118_1B912504_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912504_f",
+          SoundLength = 530
+        },
+        voice_jp_story_1002_110118_1B912504_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912504_m",
+          SoundLength = 560
+        },
+        voice_jp_story_1002_110118_1B912558_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912558_f",
+          SoundLength = 970
+        },
+        voice_jp_story_1002_110118_1B912558_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912558_m",
+          SoundLength = 740
+        },
+        voice_jp_story_1002_110118_1B912582_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912582_f",
+          SoundLength = 1960
+        },
+        voice_jp_story_1002_110118_1B912582_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912582_m",
+          SoundLength = 1850
+        },
         voice_jp_story_1002_110118_1B9125AC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B9125AC",
           SoundLength = 1010
+        },
+        voice_jp_story_1002_110118_1B9125D6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9125D6_f",
+          SoundLength = 4250
+        },
+        voice_jp_story_1002_110118_1B9125D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9125D6_m",
+          SoundLength = 3970
+        },
+        voice_jp_story_1002_110118_1B912600_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912600_f",
+          SoundLength = 7370
+        },
+        voice_jp_story_1002_110118_1B912600_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912600_m",
+          SoundLength = 7270
         },
         voice_jp_story_1002_110118_1B91262A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31013,10 +34077,40 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110118_1B9126FC",
           SoundLength = 3170
         },
+        voice_jp_story_1002_110118_1B912726_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912726_f",
+          SoundLength = 15780
+        },
+        voice_jp_story_1002_110118_1B912726_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912726_m",
+          SoundLength = 17580
+        },
+        voice_jp_story_1002_110118_1B912750_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912750_f",
+          SoundLength = 9740
+        },
+        voice_jp_story_1002_110118_1B912750_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B912750_m",
+          SoundLength = 9540
+        },
         voice_jp_story_1002_110118_1B91277A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110118_1B91277A",
           SoundLength = 2040
+        },
+        voice_jp_story_1002_110118_1B9127A4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9127A4_f",
+          SoundLength = 2010
+        },
+        voice_jp_story_1002_110118_1B9127A4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110118_1B9127A4_m",
+          SoundLength = 2150
         },
         voice_jp_story_1002_110118_1B9127CE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31028,15 +34122,25 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110118_1B9127F8",
           SoundLength = 4490
         },
+        voice_jp_story_1002_110119_1B913002 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913002",
+          SoundLength = 3990
+        },
         voice_jp_story_1002_110119_1B91302C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110119_1B91302C",
           SoundLength = 8480
         },
+        voice_jp_story_1002_110119_1B913056 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913056",
+          SoundLength = 13270
+        },
         voice_jp_story_1002_110119_1B913080 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110119_1B913080",
-          SoundLength = 14640
+          SoundLength = 15360
         },
         voice_jp_story_1002_110119_1B9130AA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31048,10 +34152,105 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110119_1B9130D4",
           SoundLength = 7850
         },
+        voice_jp_story_1002_110119_1B9130FE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B9130FE",
+          SoundLength = 1330
+        },
+        voice_jp_story_1002_110119_1B913128 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913128",
+          SoundLength = 2900
+        },
+        voice_jp_story_1002_110119_1B913152_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913152_f",
+          SoundLength = 3990
+        },
+        voice_jp_story_1002_110119_1B913152_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913152_m",
+          SoundLength = 4010
+        },
+        voice_jp_story_1002_110119_1B91317C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91317C_f",
+          SoundLength = 8700
+        },
+        voice_jp_story_1002_110119_1B91317C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91317C_m",
+          SoundLength = 9350
+        },
+        voice_jp_story_1002_110119_1B9131A6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B9131A6",
+          SoundLength = 4250
+        },
+        voice_jp_story_1002_110119_1B9131D0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B9131D0_f",
+          SoundLength = 16790
+        },
+        voice_jp_story_1002_110119_1B9131D0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B9131D0_m",
+          SoundLength = 16270
+        },
+        voice_jp_story_1002_110119_1B9131FA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B9131FA",
+          SoundLength = 14940
+        },
+        voice_jp_story_1002_110119_1B913224 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913224",
+          SoundLength = 7660
+        },
+        voice_jp_story_1002_110119_1B91324E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91324E_f",
+          SoundLength = 1140
+        },
+        voice_jp_story_1002_110119_1B91324E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91324E_m",
+          SoundLength = 1190
+        },
+        voice_jp_story_1002_110119_1B913278 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913278",
+          SoundLength = 18970
+        },
+        voice_jp_story_1002_110119_1B913279 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B913279",
+          SoundLength = 6450
+        },
+        voice_jp_story_1002_110119_1B91327A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91327A_f",
+          SoundLength = 3470
+        },
+        voice_jp_story_1002_110119_1B91327A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91327A_m",
+          SoundLength = 4310
+        },
+        voice_jp_story_1002_110119_1B91327B = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91327B",
+          SoundLength = 11350
+        },
         voice_jp_story_1002_110119_1B91327C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110119_1B91327C",
           SoundLength = 8800
+        },
+        voice_jp_story_1002_110119_1B91327D = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B91327D",
+          SoundLength = 7600
         },
         voice_jp_story_1002_110119_1B913470 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31063,10 +34262,40 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110119_1B91349A",
           SoundLength = 4910
         },
+        voice_jp_story_1002_110119_1B9134C4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B9134C4_f",
+          SoundLength = 720
+        },
+        voice_jp_story_1002_110119_1B9134C4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110119_1B9134C4_m",
+          SoundLength = 680
+        },
+        voice_jp_story_1002_110120_1B91406A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110120_1B91406A",
+          SoundLength = 7690
+        },
+        voice_jp_story_1002_110120_1B9140BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110120_1B9140BE",
+          SoundLength = 4010
+        },
+        voice_jp_story_1002_110122_1B91618E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110122_1B91618E",
+          SoundLength = 5200
+        },
         voice_jp_story_1002_110123_1B9171F6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110123_1B9171F6",
           SoundLength = 8480
+        },
+        voice_jp_story_1002_110123_1B917220 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110123_1B917220",
+          SoundLength = 3040
         },
         voice_jp_story_1002_110124_1B91820A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31092,6 +34321,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B9182B2",
           SoundLength = 8670
+        },
+        voice_jp_story_1002_110124_1B9182DC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9182DC_f",
+          SoundLength = 1570
+        },
+        voice_jp_story_1002_110124_1B9182DC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9182DC_m",
+          SoundLength = 1660
         },
         voice_jp_story_1002_110124_1B918306 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31133,15 +34372,45 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110124_1B9184D4",
           SoundLength = 10150
         },
+        voice_jp_story_1002_110124_1B9184FE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9184FE_f",
+          SoundLength = 1090
+        },
+        voice_jp_story_1002_110124_1B9184FE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9184FE_m",
+          SoundLength = 1110
+        },
         voice_jp_story_1002_110124_1B918528 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B918528",
           SoundLength = 17230
         },
+        voice_jp_story_1002_110124_1B918552_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918552_f",
+          SoundLength = 5300
+        },
+        voice_jp_story_1002_110124_1B918552_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918552_m",
+          SoundLength = 4350
+        },
         voice_jp_story_1002_110124_1B91857C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B91857C",
           SoundLength = 8920
+        },
+        voice_jp_story_1002_110124_1B9185A6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9185A6_f",
+          SoundLength = 13890
+        },
+        voice_jp_story_1002_110124_1B9185A6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9185A6_m",
+          SoundLength = 15750
         },
         voice_jp_story_1002_110124_1B9185D0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31152,7 +34421,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B9185FA",
           SoundLength = 17910
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_110124_1B918624",
+    MaxKey = "voice_jp_story_1002_110134_1B92276A_m",
+    Loader = function()
+      return {
         voice_jp_story_1002_110124_1B918624 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B918624",
@@ -31162,6 +34439,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B91864E",
           SoundLength = 17070
+        },
+        voice_jp_story_1002_110124_1B918678_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918678_f",
+          SoundLength = 5760
+        },
+        voice_jp_story_1002_110124_1B918678_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918678_m",
+          SoundLength = 7050
         },
         voice_jp_story_1002_110124_1B9186A2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31173,6 +34460,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110124_1B9186CC",
           SoundLength = 15200
         },
+        voice_jp_story_1002_110124_1B9186F6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9186F6_f",
+          SoundLength = 840
+        },
+        voice_jp_story_1002_110124_1B9186F6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9186F6_m",
+          SoundLength = 580
+        },
         voice_jp_story_1002_110124_1B918720 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B918720",
@@ -31183,20 +34480,130 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110124_1B91874A",
           SoundLength = 13200
         },
+        voice_jp_story_1002_110124_1B918774_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918774_f",
+          SoundLength = 600
+        },
+        voice_jp_story_1002_110124_1B918774_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918774_m",
+          SoundLength = 1100
+        },
+        voice_jp_story_1002_110124_1B91879E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B91879E_f",
+          SoundLength = 19010
+        },
+        voice_jp_story_1002_110124_1B91879E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B91879E_m",
+          SoundLength = 17780
+        },
+        voice_jp_story_1002_110124_1B9187C8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9187C8_f",
+          SoundLength = 25540
+        },
+        voice_jp_story_1002_110124_1B9187C8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9187C8_m",
+          SoundLength = 24610
+        },
+        voice_jp_story_1002_110124_1B9187F2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9187F2_f",
+          SoundLength = 9870
+        },
+        voice_jp_story_1002_110124_1B9187F2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9187F2_m",
+          SoundLength = 11400
+        },
+        voice_jp_story_1002_110124_1B91881C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B91881C_f",
+          SoundLength = 4680
+        },
+        voice_jp_story_1002_110124_1B91881C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B91881C_m",
+          SoundLength = 3630
+        },
         voice_jp_story_1002_110124_1B91889A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B91889A",
           SoundLength = 9990
+        },
+        voice_jp_story_1002_110124_1B9188C4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9188C4_f",
+          SoundLength = 19510
+        },
+        voice_jp_story_1002_110124_1B9188C4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9188C4_m",
+          SoundLength = 19940
+        },
+        voice_jp_story_1002_110124_1B9188EE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9188EE_f",
+          SoundLength = 5000
+        },
+        voice_jp_story_1002_110124_1B9188EE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9188EE_m",
+          SoundLength = 4880
         },
         voice_jp_story_1002_110124_1B91896C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B91896C",
           SoundLength = 9540
         },
+        voice_jp_story_1002_110124_1B918996_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918996_f",
+          SoundLength = 10300
+        },
+        voice_jp_story_1002_110124_1B918996_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918996_m",
+          SoundLength = 9750
+        },
+        voice_jp_story_1002_110124_1B9189C0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9189C0_f",
+          SoundLength = 3560
+        },
+        voice_jp_story_1002_110124_1B9189C0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B9189C0_m",
+          SoundLength = 4770
+        },
+        voice_jp_story_1002_110124_1B918A3E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918A3E_f",
+          SoundLength = 2160
+        },
+        voice_jp_story_1002_110124_1B918A3E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918A3E_m",
+          SoundLength = 2280
+        },
         voice_jp_story_1002_110124_1B918A68 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B918A68",
           SoundLength = 3860
+        },
+        voice_jp_story_1002_110124_1B918A92_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918A92_f",
+          SoundLength = 13270
+        },
+        voice_jp_story_1002_110124_1B918A92_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918A92_m",
+          SoundLength = 13830
         },
         voice_jp_story_1002_110124_1B918ABC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31223,6 +34630,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110124_1B918B64",
           SoundLength = 5710
         },
+        voice_jp_story_1002_110124_1B918BB8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918BB8_f",
+          SoundLength = 1960
+        },
+        voice_jp_story_1002_110124_1B918BB8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918BB8_m",
+          SoundLength = 1640
+        },
         voice_jp_story_1002_110124_1B918BE2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B918BE2",
@@ -31233,10 +34650,32 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110124_1B918C36",
           SoundLength = 7580
         },
+        voice_jp_story_1002_110124_1B918C60_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918C60_f",
+          SoundLength = 1280
+        },
+        voice_jp_story_1002_110124_1B918C60_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110124_1B918C60_m",
+          SoundLength = 1040
+        },
         voice_jp_story_1002_110124_1B918C8A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110124_1B918C8A",
           SoundLength = 11850
+        },
+        voice_jp_story_1002_110125_1B919272_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B919272_f",
+          SoundLength = 12760,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B919272_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B919272_m",
+          SoundLength = 11820,
+          SoundVolume = 0
         },
         voice_jp_story_1002_110125_1B91929C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31244,10 +34683,70 @@ local Data = {
           SoundLength = 4440,
           SoundVolume = 0
         },
+        voice_jp_story_1002_110125_1B9192C6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B9192C6_f",
+          SoundLength = 4630,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B9192C6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B9192C6_m",
+          SoundLength = 3970,
+          SoundVolume = 0
+        },
         voice_jp_story_1002_110125_1B9192F0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110125_1B9192F0",
           SoundLength = 3520,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B91931A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B91931A",
+          SoundLength = 2980,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B919344_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B919344_f",
+          SoundLength = 4920,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B919344_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B919344_m",
+          SoundLength = 5920,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B91936E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B91936E",
+          SoundLength = 3950,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B919398_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B919398_f",
+          SoundLength = 2100,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B919398_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B919398_m",
+          SoundLength = 2490,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B9193C2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B9193C2_f",
+          SoundLength = 6420,
+          SoundVolume = 0
+        },
+        voice_jp_story_1002_110125_1B9193C2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110125_1B9193C2_m",
+          SoundLength = 6480,
           SoundVolume = 0
         },
         voice_jp_story_1002_110125_1B9193EC_1 = {
@@ -31262,10 +34761,40 @@ local Data = {
           SoundLength = 12390,
           SoundVolume = 0
         },
+        voice_jp_story_1002_110126_1B91A3D6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110126_1B91A3D6_f",
+          SoundLength = 3340
+        },
+        voice_jp_story_1002_110126_1B91A3D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110126_1B91A3D6_m",
+          SoundLength = 3450
+        },
         voice_jp_story_1002_110126_1B91A400 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110126_1B91A400",
           SoundLength = 5290
+        },
+        voice_jp_story_1002_110126_1B91A42A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110126_1B91A42A_f",
+          SoundLength = 3150
+        },
+        voice_jp_story_1002_110126_1B91A42A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110126_1B91A42A_m",
+          SoundLength = 3560
+        },
+        voice_jp_story_1002_110126_1B91A42B = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110126_1B91A42B",
+          SoundLength = 1440
+        },
+        voice_jp_story_1002_110127_1B91B342 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B342",
+          SoundLength = 3890
         },
         voice_jp_story_1002_110127_1B91B36C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31277,25 +34806,105 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110127_1B91B396",
           SoundLength = 4490
         },
+        voice_jp_story_1002_110127_1B91B3C0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B3C0_f",
+          SoundLength = 10350
+        },
+        voice_jp_story_1002_110127_1B91B3C0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B3C0_m",
+          SoundLength = 10920
+        },
+        voice_jp_story_1002_110127_1B91B3EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B3EA",
+          SoundLength = 880
+        },
+        voice_jp_story_1002_110127_1B91B414 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B414",
+          SoundLength = 15240
+        },
+        voice_jp_story_1002_110127_1B91B43E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B43E",
+          SoundLength = 4180
+        },
         voice_jp_story_1002_110127_1B91B468 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110127_1B91B468",
           SoundLength = 640
+        },
+        voice_jp_story_1002_110127_1B91B492 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B492",
+          SoundLength = 8430
+        },
+        voice_jp_story_1002_110127_1B91B4BC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B4BC",
+          SoundLength = 14030
+        },
+        voice_jp_story_1002_110127_1B91B4E6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B4E6",
+          SoundLength = 12550
         },
         voice_jp_story_1002_110127_1B91B510 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110127_1B91B510",
           SoundLength = 6340
         },
+        voice_jp_story_1002_110127_1B91B53A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B53A",
+          SoundLength = 3150
+        },
         voice_jp_story_1002_110127_1B91B564 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110127_1B91B564",
           SoundLength = 2750
         },
+        voice_jp_story_1002_110127_1B91B58E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B58E",
+          SoundLength = 18320
+        },
+        voice_jp_story_1002_110127_1B91B5B8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B5B8",
+          SoundLength = 21370
+        },
         voice_jp_story_1002_110127_1B91B5E2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110127_1B91B5E2",
           SoundLength = 23190
+        },
+        voice_jp_story_1002_110127_1B91B60C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B60C",
+          SoundLength = 8690
+        },
+        voice_jp_story_1002_110127_1B91B636_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B636_f",
+          SoundLength = 6560
+        },
+        voice_jp_story_1002_110127_1B91B636_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B636_m",
+          SoundLength = 6680
+        },
+        voice_jp_story_1002_110127_1B91B660_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B660_f",
+          SoundLength = 7130
+        },
+        voice_jp_story_1002_110127_1B91B660_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B660_m",
+          SoundLength = 6950
         },
         voice_jp_story_1002_110127_1B91B68A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31307,6 +34916,36 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110127_1B91B6B4",
           SoundLength = 3510
         },
+        voice_jp_story_1002_110127_1B91B6DE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B6DE",
+          SoundLength = 930
+        },
+        voice_jp_story_1002_110127_1B91B708_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B708_f",
+          SoundLength = 8840
+        },
+        voice_jp_story_1002_110127_1B91B708_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B708_m",
+          SoundLength = 9670
+        },
+        voice_jp_story_1002_110127_1B91B732_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B732_f",
+          SoundLength = 4330
+        },
+        voice_jp_story_1002_110127_1B91B732_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B732_m",
+          SoundLength = 4290
+        },
+        voice_jp_story_1002_110127_1B91B75C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B75C",
+          SoundLength = 4640
+        },
         voice_jp_story_1002_110127_1B91B786 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110127_1B91B786",
@@ -31316,6 +34955,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110127_1B91B7B0",
           SoundLength = 6110
+        },
+        voice_jp_story_1002_110127_1B91B7DA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B7DA",
+          SoundLength = 7400
+        },
+        voice_jp_story_1002_110127_1B91B804 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B804",
+          SoundLength = 14500
         },
         voice_jp_story_1002_110127_1B91B82E_3 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31331,6 +34980,346 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110127_1B91B82E_a",
           SoundLength = 830
+        },
+        voice_jp_story_1002_110127_1B91B82E_f_2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B82E_f_2",
+          SoundLength = 770
+        },
+        voice_jp_story_1002_110127_1B91B82E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B82E_m",
+          SoundLength = 860
+        },
+        voice_jp_story_1002_110127_1B91B82E_m_2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B82E_m_2",
+          SoundLength = 790
+        },
+        voice_jp_story_1002_110127_1B91B858 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110127_1B91B858",
+          SoundLength = 10780
+        },
+        voice_jp_story_1002_110128_1B91C3AA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C3AA_f",
+          SoundLength = 1210
+        },
+        voice_jp_story_1002_110128_1B91C3AA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C3AA_m",
+          SoundLength = 1240
+        },
+        voice_jp_story_1002_110128_1B91C3D4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C3D4",
+          SoundLength = 13820
+        },
+        voice_jp_story_1002_110128_1B91C3FE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C3FE",
+          SoundLength = 7860
+        },
+        voice_jp_story_1002_110128_1B91C428_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C428_f",
+          SoundLength = 2200
+        },
+        voice_jp_story_1002_110128_1B91C428_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C428_m",
+          SoundLength = 2190
+        },
+        voice_jp_story_1002_110128_1B91C452 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C452",
+          SoundLength = 8300
+        },
+        voice_jp_story_1002_110128_1B91C47C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C47C_f",
+          SoundLength = 4510
+        },
+        voice_jp_story_1002_110128_1B91C47C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C47C_m",
+          SoundLength = 3790
+        },
+        voice_jp_story_1002_110128_1B91C4D0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C4D0_f",
+          SoundLength = 3660
+        },
+        voice_jp_story_1002_110128_1B91C4D0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C4D0_m",
+          SoundLength = 3370
+        },
+        voice_jp_story_1002_110128_1B91C4FA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C4FA_f",
+          SoundLength = 5010
+        },
+        voice_jp_story_1002_110128_1B91C4FA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C4FA_m",
+          SoundLength = 4420
+        },
+        voice_jp_story_1002_110128_1B91C524_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C524_f",
+          SoundLength = 3580
+        },
+        voice_jp_story_1002_110128_1B91C524_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C524_m",
+          SoundLength = 3390
+        },
+        voice_jp_story_1002_110128_1B91C54E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C54E_f",
+          SoundLength = 3450
+        },
+        voice_jp_story_1002_110128_1B91C54E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C54E_m",
+          SoundLength = 3280
+        },
+        voice_jp_story_1002_110128_1B91C578 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C578",
+          SoundLength = 5140
+        },
+        voice_jp_story_1002_110128_1B91C5A2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C5A2_f",
+          SoundLength = 2000
+        },
+        voice_jp_story_1002_110128_1B91C5A2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C5A2_m",
+          SoundLength = 1890
+        },
+        voice_jp_story_1002_110128_1B91C5CC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C5CC",
+          SoundLength = 7240
+        },
+        voice_jp_story_1002_110128_1B91C5F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C5F6",
+          SoundLength = 7120
+        },
+        voice_jp_story_1002_110128_1B91C620 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C620",
+          SoundLength = 13860
+        },
+        voice_jp_story_1002_110128_1B91C64A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C64A",
+          SoundLength = 8150
+        },
+        voice_jp_story_1002_110128_1B91C674 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C674",
+          SoundLength = 17410
+        },
+        voice_jp_story_1002_110128_1B91C69E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C69E_f",
+          SoundLength = 2590
+        },
+        voice_jp_story_1002_110128_1B91C69E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C69E_m",
+          SoundLength = 2270
+        },
+        voice_jp_story_1002_110128_1B91C6C8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C6C8",
+          SoundLength = 15940
+        },
+        voice_jp_story_1002_110128_1B91C6F2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C6F2",
+          SoundLength = 15070
+        },
+        voice_jp_story_1002_110128_1B91C6F3_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C6F3_f",
+          SoundLength = 5460
+        },
+        voice_jp_story_1002_110128_1B91C6F3_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C6F3_m",
+          SoundLength = 5220
+        },
+        voice_jp_story_1002_110128_1B91C6F4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C6F4",
+          SoundLength = 10840
+        },
+        voice_jp_story_1002_110128_1B91C6F5 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C6F5",
+          SoundLength = 19910
+        },
+        voice_jp_story_1002_110128_1B91C71C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C71C_f",
+          SoundLength = 1620
+        },
+        voice_jp_story_1002_110128_1B91C71C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C71C_m",
+          SoundLength = 1440
+        },
+        voice_jp_story_1002_110128_1B91C746 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C746",
+          SoundLength = 9610
+        },
+        voice_jp_story_1002_110128_1B91C770 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C770",
+          SoundLength = 15230
+        },
+        voice_jp_story_1002_110128_1B91C79A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C79A",
+          SoundLength = 12380
+        },
+        voice_jp_story_1002_110128_1B91C7EE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C7EE",
+          SoundLength = 19860
+        },
+        voice_jp_story_1002_110128_1B91C818 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C818",
+          SoundLength = 5370
+        },
+        voice_jp_story_1002_110128_1B91C86C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C86C",
+          SoundLength = 9350
+        },
+        voice_jp_story_1002_110128_1B91C896 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C896",
+          SoundLength = 15280
+        },
+        voice_jp_story_1002_110128_1B91C8C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C8C0",
+          SoundLength = 16960
+        },
+        voice_jp_story_1002_110128_1B91C8EA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C8EA_f",
+          SoundLength = 1080
+        },
+        voice_jp_story_1002_110128_1B91C8EA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110128_1B91C8EA_m",
+          SoundLength = 930
+        },
+        voice_jp_story_1002_110129_1B91D412 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D412",
+          SoundLength = 1790
+        },
+        voice_jp_story_1002_110129_1B91D43C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D43C",
+          SoundLength = 3320
+        },
+        voice_jp_story_1002_110129_1B91D466 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D466",
+          SoundLength = 3280
+        },
+        voice_jp_story_1002_110129_1B91D490 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D490",
+          SoundLength = 5540
+        },
+        voice_jp_story_1002_110129_1B91D4BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D4BA",
+          SoundLength = 15010
+        },
+        voice_jp_story_1002_110129_1B91D4E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D4E4",
+          SoundLength = 7640
+        },
+        voice_jp_story_1002_110129_1B91D50E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D50E_f",
+          SoundLength = 5800
+        },
+        voice_jp_story_1002_110129_1B91D50E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D50E_m",
+          SoundLength = 6230
+        },
+        voice_jp_story_1002_110129_1B91D538_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D538_f",
+          SoundLength = 5500
+        },
+        voice_jp_story_1002_110129_1B91D538_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D538_m",
+          SoundLength = 5160
+        },
+        voice_jp_story_1002_110129_1B91D562 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D562",
+          SoundLength = 13920
+        },
+        voice_jp_story_1002_110129_1B91D58C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D58C_f",
+          SoundLength = 8160
+        },
+        voice_jp_story_1002_110129_1B91D58C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D58C_m",
+          SoundLength = 8250
+        },
+        voice_jp_story_1002_110129_1B91D5B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D5B6",
+          SoundLength = 7400
+        },
+        voice_jp_story_1002_110129_1B91D5E0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D5E0",
+          SoundLength = 10310
+        },
+        voice_jp_story_1002_110129_1B91D60A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D60A",
+          SoundLength = 7710
+        },
+        voice_jp_story_1002_110129_1B91D634_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D634_f",
+          SoundLength = 6040
+        },
+        voice_jp_story_1002_110129_1B91D634_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D634_m",
+          SoundLength = 6150
+        },
+        voice_jp_story_1002_110129_1B91D65E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110129_1B91D65E",
+          SoundLength = 3680
         },
         voice_jp_story_1002_110130_1B91E47A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31377,6 +35366,21 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110130_1B91E5CA",
           SoundLength = 10950
         },
+        voice_jp_story_1002_110130_1B91E5F4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110130_1B91E5F4_f",
+          SoundLength = 2400
+        },
+        voice_jp_story_1002_110130_1B91E5F4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110130_1B91E5F4_m",
+          SoundLength = 2590
+        },
+        voice_jp_story_1002_110131_1B91F560_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110131_1B91F560_m",
+          SoundLength = 630
+        },
         voice_jp_story_1002_110134_1B92261A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110134_1B92261A",
@@ -31392,6 +35396,154 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110134_1B92266E",
           SoundLength = 14660
         },
+        voice_jp_story_1002_110134_1B922698 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922698",
+          SoundLength = 2100
+        },
+        voice_jp_story_1002_110134_1B9226C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9226C2",
+          SoundLength = 19060
+        },
+        voice_jp_story_1002_110134_1B9226EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9226EC",
+          SoundLength = 7080
+        },
+        voice_jp_story_1002_110134_1B9226EE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9226EE",
+          SoundLength = 1840
+        },
+        voice_jp_story_1002_110134_1B9226EF = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9226EF",
+          SoundLength = 3220
+        },
+        voice_jp_story_1002_110134_1B922716 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922716",
+          SoundLength = 4230
+        },
+        voice_jp_story_1002_110134_1B922740_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922740_f",
+          SoundLength = 1620
+        },
+        voice_jp_story_1002_110134_1B922740_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922740_m",
+          SoundLength = 1090
+        },
+        voice_jp_story_1002_110134_1B92276A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B92276A_f",
+          SoundLength = 17480
+        },
+        voice_jp_story_1002_110134_1B92276A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B92276A_m",
+          SoundLength = 16410
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_110134_1B922794_f",
+    MaxKey = "voice_jp_story_1002_110151_1B93448E",
+    Loader = function()
+      return {
+        voice_jp_story_1002_110134_1B922794_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922794_f",
+          SoundLength = 3350
+        },
+        voice_jp_story_1002_110134_1B922794_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922794_m",
+          SoundLength = 3620
+        },
+        voice_jp_story_1002_110134_1B9227E8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9227E8_f",
+          SoundLength = 3650
+        },
+        voice_jp_story_1002_110134_1B9227E8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9227E8_m",
+          SoundLength = 3840
+        },
+        voice_jp_story_1002_110134_1B92283C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B92283C_f",
+          SoundLength = 1030
+        },
+        voice_jp_story_1002_110134_1B92283C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B92283C_m",
+          SoundLength = 640
+        },
+        voice_jp_story_1002_110134_1B922866 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922866",
+          SoundLength = 3450
+        },
+        voice_jp_story_1002_110134_1B922890_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922890_f",
+          SoundLength = 790
+        },
+        voice_jp_story_1002_110134_1B922890_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922890_m",
+          SoundLength = 880
+        },
+        voice_jp_story_1002_110134_1B9228BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9228BA",
+          SoundLength = 4110
+        },
+        voice_jp_story_1002_110134_1B9228E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B9228E4",
+          SoundLength = 1120
+        },
+        voice_jp_story_1002_110134_1B92290E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B92290E",
+          SoundLength = 5330
+        },
+        voice_jp_story_1002_110134_1B922962_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922962_f",
+          SoundLength = 5620
+        },
+        voice_jp_story_1002_110134_1B922962_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B922962_m",
+          SoundLength = 4520
+        },
+        voice_jp_story_1002_110134_1B92298C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B92298C_f",
+          SoundLength = 18350
+        },
+        voice_jp_story_1002_110134_1B92298C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110134_1B92298C_m",
+          SoundLength = 16940
+        },
+        voice_jp_story_1002_110136_1B9246EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B9246EA",
+          SoundLength = 3500
+        },
+        voice_jp_story_1002_110136_1B924714 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924714",
+          SoundLength = 12850
+        },
         voice_jp_story_1002_110136_1B92473E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B92473E",
@@ -31401,15 +35553,12 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924768",
           SoundLength = 5870
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_110136_1B9247BC",
-    MaxKey = "voice_jp_story_1002_110177_1B94E810",
-    Loader = function()
-      return {
+        },
+        voice_jp_story_1002_110136_1B924792 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924792",
+          SoundLength = 8030
+        },
         voice_jp_story_1002_110136_1B9247BC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B9247BC",
@@ -31424,6 +35573,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924810",
           SoundLength = 5600
+        },
+        voice_jp_story_1002_110136_1B92483A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B92483A",
+          SoundLength = 11550
         },
         voice_jp_story_1002_110136_1B924864 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31450,6 +35604,31 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110136_1B92490C",
           SoundLength = 17950
         },
+        voice_jp_story_1002_110136_1B924936 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924936",
+          SoundLength = 8180
+        },
+        voice_jp_story_1002_110136_1B924960 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924960",
+          SoundLength = 15330
+        },
+        voice_jp_story_1002_110136_1B92498A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B92498A_f",
+          SoundLength = 17120
+        },
+        voice_jp_story_1002_110136_1B92498A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B92498A_m",
+          SoundLength = 16930
+        },
+        voice_jp_story_1002_110136_1B92498B = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B92498B",
+          SoundLength = 5710
+        },
         voice_jp_story_1002_110136_1B9249B4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B9249B4",
@@ -31465,35 +35644,90 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110136_1B924A08",
           SoundLength = 26460
         },
+        voice_jp_story_1002_110136_1B924A32 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924A32",
+          SoundLength = 6730
+        },
         voice_jp_story_1002_110136_1B924A5C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924A5C",
           SoundLength = 6930
+        },
+        voice_jp_story_1002_110136_1B924A86 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924A86",
+          SoundLength = 690
+        },
+        voice_jp_story_1002_110136_1B924AB0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924AB0",
+          SoundLength = 4270
         },
         voice_jp_story_1002_110136_1B924ADA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924ADA",
           SoundLength = 1070
         },
+        voice_jp_story_1002_110136_1B924B04 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924B04",
+          SoundLength = 13080
+        },
+        voice_jp_story_1002_110136_1B924B2E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924B2E",
+          SoundLength = 9400
+        },
         voice_jp_story_1002_110136_1B924B58 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924B58",
           SoundLength = 3500
+        },
+        voice_jp_story_1002_110136_1B924B82 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924B82",
+          SoundLength = 11070
+        },
+        voice_jp_story_1002_110136_1B924BAC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924BAC",
+          SoundLength = 6970
         },
         voice_jp_story_1002_110136_1B924BD6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924BD6",
           SoundLength = 1300
         },
+        voice_jp_story_1002_110136_1B924C00 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924C00",
+          SoundLength = 21040
+        },
+        voice_jp_story_1002_110136_1B924C2A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924C2A",
+          SoundLength = 14770
+        },
         voice_jp_story_1002_110136_1B924C54 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924C54",
           SoundLength = 7000
         },
+        voice_jp_story_1002_110136_1B924C7E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924C7E",
+          SoundLength = 6800
+        },
         voice_jp_story_1002_110136_1B924CA8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110136_1B924CA8",
           SoundLength = 15260
+        },
+        voice_jp_story_1002_110136_1B924CD2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110136_1B924CD2",
+          SoundLength = 3500
         },
         voice_jp_story_1002_110136_1B924CFC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31525,6 +35759,76 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110137_1B925824",
           SoundLength = 17010
         },
+        voice_jp_story_1002_110138_1B9267BA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110138_1B9267BA_f",
+          SoundLength = 2630
+        },
+        voice_jp_story_1002_110138_1B9267BA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110138_1B9267BA_m",
+          SoundLength = 2820
+        },
+        voice_jp_story_1002_110138_1B9267E4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110138_1B9267E4_f",
+          SoundLength = 1620
+        },
+        voice_jp_story_1002_110138_1B9267E4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110138_1B9267E4_m",
+          SoundLength = 1400
+        },
+        voice_jp_story_1002_110138_1B92680E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110138_1B92680E_f",
+          SoundLength = 5970
+        },
+        voice_jp_story_1002_110138_1B92680E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110138_1B92680E_m",
+          SoundLength = 5700
+        },
+        voice_jp_story_1002_110139_1B927822_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110139_1B927822_f",
+          SoundLength = 3200
+        },
+        voice_jp_story_1002_110139_1B927822_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110139_1B927822_m",
+          SoundLength = 3800
+        },
+        voice_jp_story_1002_110140_1B9288B4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B9288B4_f",
+          SoundLength = 1440
+        },
+        voice_jp_story_1002_110140_1B9288B4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B9288B4_m",
+          SoundLength = 1080
+        },
+        voice_jp_story_1002_110140_1B9288DE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B9288DE_f",
+          SoundLength = 1840
+        },
+        voice_jp_story_1002_110140_1B9288DE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B9288DE_m",
+          SoundLength = 910
+        },
+        voice_jp_story_1002_110140_1B928908_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B928908_f",
+          SoundLength = 940
+        },
+        voice_jp_story_1002_110140_1B928908_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B928908_m",
+          SoundLength = 690
+        },
         voice_jp_story_1002_110140_1B928932 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110140_1B928932",
@@ -31535,25 +35839,115 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110140_1B92895C",
           SoundLength = 4500
         },
+        voice_jp_story_1002_110140_1B928986_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B928986_f",
+          SoundLength = 3780
+        },
+        voice_jp_story_1002_110140_1B928986_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110140_1B928986_m",
+          SoundLength = 2950
+        },
+        voice_jp_story_1002_110142_1B92A984_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92A984_f",
+          SoundLength = 2300
+        },
+        voice_jp_story_1002_110142_1B92A984_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92A984_m",
+          SoundLength = 1760
+        },
         voice_jp_story_1002_110142_1B92A9AE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110142_1B92A9AE",
           SoundLength = 6140
+        },
+        voice_jp_story_1002_110142_1B92A9D8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92A9D8_f",
+          SoundLength = 800
+        },
+        voice_jp_story_1002_110142_1B92A9D8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92A9D8_m",
+          SoundLength = 780
+        },
+        voice_jp_story_1002_110142_1B92AA02_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AA02_f",
+          SoundLength = 6950
+        },
+        voice_jp_story_1002_110142_1B92AA02_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AA02_m",
+          SoundLength = 7180
         },
         voice_jp_story_1002_110142_1B92AA2C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110142_1B92AA2C",
           SoundLength = 7630
         },
+        voice_jp_story_1002_110142_1B92AA56_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AA56_f",
+          SoundLength = 15600
+        },
+        voice_jp_story_1002_110142_1B92AA56_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AA56_m",
+          SoundLength = 16990
+        },
+        voice_jp_story_1002_110142_1B92AA80_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AA80_f",
+          SoundLength = 590
+        },
+        voice_jp_story_1002_110142_1B92AA80_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AA80_m",
+          SoundLength = 500
+        },
         voice_jp_story_1002_110142_1B92AAAA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110142_1B92AAAA",
           SoundLength = 1090
         },
+        voice_jp_story_1002_110142_1B92AAFE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AAFE_f",
+          SoundLength = 3200
+        },
+        voice_jp_story_1002_110142_1B92AAFE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110142_1B92AAFE_m",
+          SoundLength = 3770
+        },
         voice_jp_story_1002_110143_1B92B9C2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110143_1B92B9C2",
           SoundLength = 2330
+        },
+        voice_jp_story_1002_110143_1B92B9EC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92B9EC_f",
+          SoundLength = 1140
+        },
+        voice_jp_story_1002_110143_1B92B9EC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92B9EC_m",
+          SoundLength = 1050
+        },
+        voice_jp_story_1002_110143_1B92BA16_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92BA16_f",
+          SoundLength = 6620
+        },
+        voice_jp_story_1002_110143_1B92BA16_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92BA16_m",
+          SoundLength = 7190
         },
         voice_jp_story_1002_110143_1B92BA40 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31579,6 +35973,26 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110143_1B92BAE8",
           SoundLength = 2050
+        },
+        voice_jp_story_1002_110143_1B92BB12_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92BB12_f",
+          SoundLength = 1200
+        },
+        voice_jp_story_1002_110143_1B92BB12_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92BB12_m",
+          SoundLength = 610
+        },
+        voice_jp_story_1002_110143_1B92BB3C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92BB3C_f",
+          SoundLength = 3510
+        },
+        voice_jp_story_1002_110143_1B92BB3C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110143_1B92BB3C_m",
+          SoundLength = 3340
         },
         voice_jp_story_1002_110144_1B92CA2A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31675,10 +36089,50 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110144_1B92CD72",
           SoundLength = 14930
         },
+        voice_jp_story_1002_110144_1B92CD9C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CD9C_f",
+          SoundLength = 5440
+        },
+        voice_jp_story_1002_110144_1B92CD9C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CD9C_m",
+          SoundLength = 4960
+        },
+        voice_jp_story_1002_110144_1B92CDC6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CDC6_f",
+          SoundLength = 14560
+        },
+        voice_jp_story_1002_110144_1B92CDC6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CDC6_m",
+          SoundLength = 14400
+        },
+        voice_jp_story_1002_110144_1B92CDF0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CDF0_f",
+          SoundLength = 11130
+        },
+        voice_jp_story_1002_110144_1B92CDF0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CDF0_m",
+          SoundLength = 11410
+        },
         voice_jp_story_1002_110144_1B92CE1A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110144_1B92CE1A",
           SoundLength = 1670
+        },
+        voice_jp_story_1002_110144_1B92CE44_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CE44_f",
+          SoundLength = 6180
+        },
+        voice_jp_story_1002_110144_1B92CE44_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CE44_m",
+          SoundLength = 6060
         },
         voice_jp_story_1002_110144_1B92CE6E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31699,6 +36153,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110144_1B92CF16",
           SoundLength = 3030
+        },
+        voice_jp_story_1002_110144_1B92CF40_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CF40_f",
+          SoundLength = 8270
+        },
+        voice_jp_story_1002_110144_1B92CF40_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110144_1B92CF40_m",
+          SoundLength = 7890
         },
         voice_jp_story_1002_110146_1B92EAFA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31740,6 +36204,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110148_1B930C72",
           SoundLength = 3550
         },
+        voice_jp_story_1002_110148_1B930C9C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110148_1B930C9C_f",
+          SoundLength = 2110
+        },
+        voice_jp_story_1002_110148_1B930C9C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110148_1B930C9C_m",
+          SoundLength = 2120
+        },
         voice_jp_story_1002_110149_1B931C32 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110149_1B931C32",
@@ -31759,6 +36233,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B933D2C",
           SoundLength = 3840
+        },
+        voice_jp_story_1002_110151_1B933D56_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933D56_f",
+          SoundLength = 2080
+        },
+        voice_jp_story_1002_110151_1B933D56_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933D56_m",
+          SoundLength = 2220
         },
         voice_jp_story_1002_110151_1B933D80 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31780,15 +36264,75 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110151_1B933E52",
           SoundLength = 4080
         },
+        voice_jp_story_1002_110151_1B933EA6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933EA6_f",
+          SoundLength = 910
+        },
+        voice_jp_story_1002_110151_1B933EA6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933EA6_m",
+          SoundLength = 610
+        },
+        voice_jp_story_1002_110151_1B933ED0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933ED0_f",
+          SoundLength = 1170
+        },
+        voice_jp_story_1002_110151_1B933ED0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933ED0_m",
+          SoundLength = 1330
+        },
         voice_jp_story_1002_110151_1B933EFA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B933EFA",
           SoundLength = 2280
         },
+        voice_jp_story_1002_110151_1B933F24_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933F24_f",
+          SoundLength = 2860
+        },
+        voice_jp_story_1002_110151_1B933F24_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933F24_m",
+          SoundLength = 3350
+        },
+        voice_jp_story_1002_110151_1B933F4E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933F4E_f",
+          SoundLength = 12020
+        },
+        voice_jp_story_1002_110151_1B933F4E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933F4E_m",
+          SoundLength = 11970
+        },
+        voice_jp_story_1002_110151_1B933F78_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933F78_f",
+          SoundLength = 13800
+        },
+        voice_jp_story_1002_110151_1B933F78_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933F78_m",
+          SoundLength = 14160
+        },
         voice_jp_story_1002_110151_1B933FA2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B933FA2",
           SoundLength = 7260
+        },
+        voice_jp_story_1002_110151_1B933FCC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933FCC_f",
+          SoundLength = 10820
+        },
+        voice_jp_story_1002_110151_1B933FCC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B933FCC_m",
+          SoundLength = 9110
         },
         voice_jp_story_1002_110151_1B93409E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31809,6 +36353,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B93411C",
           SoundLength = 17610
+        },
+        voice_jp_story_1002_110151_1B934146_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934146_f",
+          SoundLength = 700
+        },
+        voice_jp_story_1002_110151_1B934146_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934146_m",
+          SoundLength = 920
         },
         voice_jp_story_1002_110151_1B934170 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31839,6 +36393,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B934242",
           SoundLength = 5830
+        },
+        voice_jp_story_1002_110151_1B93426C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B93426C_f",
+          SoundLength = 980
+        },
+        voice_jp_story_1002_110151_1B93426C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B93426C_m",
+          SoundLength = 910
         },
         voice_jp_story_1002_110151_1B934296 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31889,7 +36453,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B93448E",
           SoundLength = 3560
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_110151_1B9344B8",
+    MaxKey = "voice_jp_story_1002_110169_1B946578",
+    Loader = function()
+      return {
         voice_jp_story_1002_110151_1B9344B8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B9344B8",
@@ -31905,10 +36477,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110151_1B93450C",
           SoundLength = 6560
         },
+        voice_jp_story_1002_110151_1B934536_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934536_f",
+          SoundLength = 5980
+        },
+        voice_jp_story_1002_110151_1B934536_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934536_m",
+          SoundLength = 5710
+        },
         voice_jp_story_1002_110151_1B934560 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B934560",
           SoundLength = 1500
+        },
+        voice_jp_story_1002_110151_1B93458A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B93458A_f",
+          SoundLength = 14470
+        },
+        voice_jp_story_1002_110151_1B93458A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B93458A_m",
+          SoundLength = 12880
         },
         voice_jp_story_1002_110151_1B9345B4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31935,10 +36527,60 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110151_1B93465C",
           SoundLength = 15010
         },
+        voice_jp_story_1002_110151_1B934686_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934686_f",
+          SoundLength = 9900
+        },
+        voice_jp_story_1002_110151_1B934686_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934686_m",
+          SoundLength = 11290
+        },
         voice_jp_story_1002_110151_1B9346B0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110151_1B9346B0",
           SoundLength = 12690
+        },
+        voice_jp_story_1002_110151_1B9346DA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B9346DA_f",
+          SoundLength = 4310
+        },
+        voice_jp_story_1002_110151_1B9346DA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B9346DA_m",
+          SoundLength = 4860
+        },
+        voice_jp_story_1002_110151_1B934704_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934704_f",
+          SoundLength = 5520
+        },
+        voice_jp_story_1002_110151_1B934704_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110151_1B934704_m",
+          SoundLength = 5480
+        },
+        voice_jp_story_1002_110152_1B934D6A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110152_1B934D6A_m",
+          SoundLength = 5940
+        },
+        voice_jp_story_1002_110152_1B934D94_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110152_1B934D94_m",
+          SoundLength = 4310
+        },
+        voice_jp_story_1002_110152_1B934DBE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110152_1B934DBE_m",
+          SoundLength = 10320
+        },
+        voice_jp_story_1002_110152_1B934DE8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110152_1B934DE8_m",
+          SoundLength = 6660
         },
         voice_jp_story_1002_110153_1B935DD2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31950,10 +36592,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110153_1B935ECE",
           SoundLength = 5290
         },
+        voice_jp_story_1002_110153_1B935EF8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B935EF8_f",
+          SoundLength = 9930
+        },
+        voice_jp_story_1002_110153_1B935EF8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B935EF8_m",
+          SoundLength = 11650
+        },
         voice_jp_story_1002_110153_1B935F22 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110153_1B935F22",
           SoundLength = 8520
+        },
+        voice_jp_story_1002_110153_1B935F4C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B935F4C_f",
+          SoundLength = 3760
+        },
+        voice_jp_story_1002_110153_1B935F4C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B935F4C_m",
+          SoundLength = 3690
         },
         voice_jp_story_1002_110153_1B935F76 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31964,6 +36626,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110153_1B935FA0",
           SoundLength = 14500
+        },
+        voice_jp_story_1002_110153_1B935FCA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B935FCA_f",
+          SoundLength = 13250
+        },
+        voice_jp_story_1002_110153_1B935FCA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B935FCA_m",
+          SoundLength = 14990
         },
         voice_jp_story_1002_110153_1B935FF4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -31985,6 +36657,26 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110153_1B936072",
           SoundLength = 7810
         },
+        voice_jp_story_1002_110153_1B93609C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B93609C_f",
+          SoundLength = 910
+        },
+        voice_jp_story_1002_110153_1B93609C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110153_1B93609C_m",
+          SoundLength = 980
+        },
+        voice_jp_story_1002_110154_1B936E61_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110154_1B936E61_f",
+          SoundLength = 1690
+        },
+        voice_jp_story_1002_110154_1B936E61_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110154_1B936E61_m",
+          SoundLength = 1620
+        },
         voice_jp_story_1002_110154_1B936E64 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110154_1B936E64",
@@ -31994,6 +36686,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110154_1B936E8E",
           SoundLength = 5420
+        },
+        voice_jp_story_1002_110155_1B937EA2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110155_1B937EA2_f",
+          SoundLength = 2370
+        },
+        voice_jp_story_1002_110155_1B937EA2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110155_1B937EA2_m",
+          SoundLength = 2300
         },
         voice_jp_story_1002_110155_1B937ECC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32010,6 +36712,26 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110155_1B937F20",
           SoundLength = 7940
         },
+        voice_jp_story_1002_110155_1B937F4A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110155_1B937F4A_f",
+          SoundLength = 1590
+        },
+        voice_jp_story_1002_110155_1B937F4A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110155_1B937F4A_m",
+          SoundLength = 1610
+        },
+        voice_jp_story_1002_110156_1B938F0A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110156_1B938F0A_f",
+          SoundLength = 1000
+        },
+        voice_jp_story_1002_110156_1B938F0A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110156_1B938F0A_m",
+          SoundLength = 760
+        },
         voice_jp_story_1002_110156_1B938F34 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110156_1B938F34",
@@ -32019,6 +36741,76 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110156_1B938F5E",
           SoundLength = 5800
+        },
+        voice_jp_story_1002_110156_1B938F88_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110156_1B938F88_f",
+          SoundLength = 3220
+        },
+        voice_jp_story_1002_110156_1B938F88_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110156_1B938F88_m",
+          SoundLength = 3050
+        },
+        voice_jp_story_1002_110158_1B93AFDA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93AFDA_f",
+          SoundLength = 1240
+        },
+        voice_jp_story_1002_110158_1B93AFDA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93AFDA_m",
+          SoundLength = 930
+        },
+        voice_jp_story_1002_110158_1B93B004 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B004",
+          SoundLength = 7990
+        },
+        voice_jp_story_1002_110158_1B93B02E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B02E",
+          SoundLength = 10660
+        },
+        voice_jp_story_1002_110158_1B93B058 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B058",
+          SoundLength = 12650
+        },
+        voice_jp_story_1002_110158_1B93B082_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B082_f",
+          SoundLength = 1280
+        },
+        voice_jp_story_1002_110158_1B93B082_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B082_m",
+          SoundLength = 760
+        },
+        voice_jp_story_1002_110158_1B93B0AC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B0AC_f",
+          SoundLength = 8090
+        },
+        voice_jp_story_1002_110158_1B93B0AC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B0AC_m",
+          SoundLength = 7240
+        },
+        voice_jp_story_1002_110158_1B93B0D6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B0D6_f",
+          SoundLength = 4950
+        },
+        voice_jp_story_1002_110158_1B93B0D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B0D6_m",
+          SoundLength = 4530
+        },
+        voice_jp_story_1002_110158_1B93B100 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110158_1B93B100",
+          SoundLength = 1390
         },
         voice_jp_story_1002_110159_1B93C042 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32060,6 +36852,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110159_1B93C13E",
           SoundLength = 8710
         },
+        voice_jp_story_1002_110159_1B93C168_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110159_1B93C168_f",
+          SoundLength = 2040
+        },
+        voice_jp_story_1002_110159_1B93C168_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110159_1B93C168_m",
+          SoundLength = 2010
+        },
         voice_jp_story_1002_110160_1B93D0AA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110160_1B93D0AA",
@@ -32069,6 +36871,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110160_1B93D152",
           SoundLength = 8830
+        },
+        voice_jp_story_1002_110160_1B93D17C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110160_1B93D17C_f",
+          SoundLength = 3290
+        },
+        voice_jp_story_1002_110160_1B93D17C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110160_1B93D17C_m",
+          SoundLength = 2960
         },
         voice_jp_story_1002_110161_1B93E112 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32095,15 +36907,285 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110163_1B94028A",
           SoundLength = 6610
         },
+        voice_jp_story_1002_110163_1B9402B4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110163_1B9402B4_f",
+          SoundLength = 8770
+        },
+        voice_jp_story_1002_110163_1B9402B4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110163_1B9402B4_m",
+          SoundLength = 8370
+        },
+        voice_jp_story_1002_110163_1B9402DE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110163_1B9402DE_f",
+          SoundLength = 3610
+        },
+        voice_jp_story_1002_110163_1B9402DE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110163_1B9402DE_m",
+          SoundLength = 3670
+        },
+        voice_jp_story_1002_110164_1B94124A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110164_1B94124A_f",
+          SoundLength = 4380
+        },
+        voice_jp_story_1002_110164_1B94124A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110164_1B94124A_m",
+          SoundLength = 4430
+        },
+        voice_jp_story_1002_110164_1B941274_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110164_1B941274_f",
+          SoundLength = 7870
+        },
+        voice_jp_story_1002_110164_1B941274_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110164_1B941274_m",
+          SoundLength = 8540
+        },
+        voice_jp_story_1002_110165_1B9422B2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B9422B2_f",
+          SoundLength = 770
+        },
+        voice_jp_story_1002_110165_1B9422B2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B9422B2_m",
+          SoundLength = 700
+        },
         voice_jp_story_1002_110165_1B9422DC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110165_1B9422DC",
           SoundLength = 7440
         },
+        voice_jp_story_1002_110165_1B942306_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B942306_f",
+          SoundLength = 11680
+        },
+        voice_jp_story_1002_110165_1B942306_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B942306_m",
+          SoundLength = 11930
+        },
+        voice_jp_story_1002_110165_1B942330_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B942330_f",
+          SoundLength = 12600
+        },
+        voice_jp_story_1002_110165_1B942330_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B942330_m",
+          SoundLength = 13130
+        },
         voice_jp_story_1002_110165_1B94235A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110165_1B94235A",
           SoundLength = 970
+        },
+        voice_jp_story_1002_110165_1B942384_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B942384_f",
+          SoundLength = 930
+        },
+        voice_jp_story_1002_110165_1B942384_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110165_1B942384_m",
+          SoundLength = 950
+        },
+        voice_jp_story_1002_110166_1B94331A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B94331A",
+          SoundLength = 3660
+        },
+        voice_jp_story_1002_110166_1B943344 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943344",
+          SoundLength = 13960
+        },
+        voice_jp_story_1002_110166_1B94336E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B94336E",
+          SoundLength = 11280
+        },
+        voice_jp_story_1002_110166_1B943398_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943398_f",
+          SoundLength = 1800
+        },
+        voice_jp_story_1002_110166_1B943398_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943398_m",
+          SoundLength = 1670
+        },
+        voice_jp_story_1002_110166_1B9433C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B9433C2",
+          SoundLength = 13580
+        },
+        voice_jp_story_1002_110166_1B9433EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B9433EC",
+          SoundLength = 10790
+        },
+        voice_jp_story_1002_110166_1B943416_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943416_f",
+          SoundLength = 1000
+        },
+        voice_jp_story_1002_110166_1B943416_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943416_m",
+          SoundLength = 670
+        },
+        voice_jp_story_1002_110166_1B943440 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943440",
+          SoundLength = 3440
+        },
+        voice_jp_story_1002_110166_1B94346A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B94346A",
+          SoundLength = 15220
+        },
+        voice_jp_story_1002_110166_1B943494_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943494_f",
+          SoundLength = 6020
+        },
+        voice_jp_story_1002_110166_1B943494_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943494_m",
+          SoundLength = 4750
+        },
+        voice_jp_story_1002_110166_1B943495 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943495",
+          SoundLength = 14110
+        },
+        voice_jp_story_1002_110166_1B943496_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943496_f",
+          SoundLength = 6830
+        },
+        voice_jp_story_1002_110166_1B943496_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943496_m",
+          SoundLength = 7790
+        },
+        voice_jp_story_1002_110166_1B943497 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943497",
+          SoundLength = 17380
+        },
+        voice_jp_story_1002_110166_1B943498 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943498",
+          SoundLength = 9780
+        },
+        voice_jp_story_1002_110166_1B9434E8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B9434E8",
+          SoundLength = 11010
+        },
+        voice_jp_story_1002_110166_1B943512 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943512",
+          SoundLength = 1090
+        },
+        voice_jp_story_1002_110166_1B94353C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B94353C",
+          SoundLength = 9910
+        },
+        voice_jp_story_1002_110166_1B943590_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943590_f",
+          SoundLength = 1130
+        },
+        voice_jp_story_1002_110166_1B943590_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943590_m",
+          SoundLength = 990
+        },
+        voice_jp_story_1002_110166_1B9435BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B9435BA",
+          SoundLength = 11970
+        },
+        voice_jp_story_1002_110166_1B9435E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B9435E4",
+          SoundLength = 3010
+        },
+        voice_jp_story_1002_110166_1B94360E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B94360E",
+          SoundLength = 9950
+        },
+        voice_jp_story_1002_110166_1B943638 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943638",
+          SoundLength = 19890
+        },
+        voice_jp_story_1002_110166_1B943662 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110166_1B943662",
+          SoundLength = 2420
+        },
+        voice_jp_story_1002_110167_1B944382_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B944382_f",
+          SoundLength = 3920
+        },
+        voice_jp_story_1002_110167_1B944382_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B944382_m",
+          SoundLength = 4320
+        },
+        voice_jp_story_1002_110167_1B9443AC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B9443AC_f",
+          SoundLength = 17540
+        },
+        voice_jp_story_1002_110167_1B9443AC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B9443AC_m",
+          SoundLength = 15800
+        },
+        voice_jp_story_1002_110167_1B9443D6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B9443D6_f",
+          SoundLength = 13150
+        },
+        voice_jp_story_1002_110167_1B9443D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B9443D6_m",
+          SoundLength = 15100
+        },
+        voice_jp_story_1002_110167_1B944400_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B944400_f",
+          SoundLength = 21520
+        },
+        voice_jp_story_1002_110167_1B944400_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B944400_m",
+          SoundLength = 22730
+        },
+        voice_jp_story_1002_110167_1B944454_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B944454_f",
+          SoundLength = 14370
+        },
+        voice_jp_story_1002_110167_1B944454_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B944454_m",
+          SoundLength = 14770
         },
         voice_jp_story_1002_110167_1B94447E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32119,6 +37201,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110167_1B9444D2",
           SoundLength = 13440
+        },
+        voice_jp_story_1002_110167_1B9444FC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B9444FC_f",
+          SoundLength = 470
+        },
+        voice_jp_story_1002_110167_1B9444FC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110167_1B9444FC_m",
+          SoundLength = 760
         },
         voice_jp_story_1002_110168_1B9453EA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32165,10 +37257,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110168_1B94558E",
           SoundLength = 12320
         },
+        voice_jp_story_1002_110168_1B9455B8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9455B8_f",
+          SoundLength = 3230
+        },
+        voice_jp_story_1002_110168_1B9455B8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9455B8_m",
+          SoundLength = 3740
+        },
         voice_jp_story_1002_110168_1B9455E2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110168_1B9455E2",
           SoundLength = 11820
+        },
+        voice_jp_story_1002_110168_1B94560C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B94560C_f",
+          SoundLength = 10240
+        },
+        voice_jp_story_1002_110168_1B94560C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B94560C_m",
+          SoundLength = 11010
         },
         voice_jp_story_1002_110168_1B945660 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32179,6 +37291,26 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110168_1B94568A",
           SoundLength = 10120
+        },
+        voice_jp_story_1002_110168_1B9456B4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9456B4_f",
+          SoundLength = 4870
+        },
+        voice_jp_story_1002_110168_1B9456B4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9456B4_m",
+          SoundLength = 5480
+        },
+        voice_jp_story_1002_110168_1B9456DE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9456DE_f",
+          SoundLength = 5120
+        },
+        voice_jp_story_1002_110168_1B9456DE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9456DE_m",
+          SoundLength = 5100
         },
         voice_jp_story_1002_110168_1B945708 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32195,6 +37327,56 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110168_1B94575C",
           SoundLength = 20100
         },
+        voice_jp_story_1002_110168_1B945786_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B945786_f",
+          SoundLength = 470
+        },
+        voice_jp_story_1002_110168_1B945786_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B945786_m",
+          SoundLength = 880
+        },
+        voice_jp_story_1002_110168_1B9457B0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9457B0_f",
+          SoundLength = 8240
+        },
+        voice_jp_story_1002_110168_1B9457B0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9457B0_m",
+          SoundLength = 9570
+        },
+        voice_jp_story_1002_110168_1B9457DA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9457DA_f",
+          SoundLength = 4680
+        },
+        voice_jp_story_1002_110168_1B9457DA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9457DA_m",
+          SoundLength = 4940
+        },
+        voice_jp_story_1002_110168_1B945804 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B945804",
+          SoundLength = 15280
+        },
+        voice_jp_story_1002_110168_1B945804_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B945804_f",
+          SoundLength = 15470
+        },
+        voice_jp_story_1002_110168_1B945804_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B945804_m",
+          SoundLength = 15470
+        },
+        voice_jp_story_1002_110168_1B94582E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B94582E",
+          SoundLength = 16400
+        },
         voice_jp_story_1002_110168_1B945858 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110168_1B945858",
@@ -32209,6 +37391,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110168_1B9458AC",
           SoundLength = 6640
+        },
+        voice_jp_story_1002_110168_1B9458D6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9458D6_f",
+          SoundLength = 1550
+        },
+        voice_jp_story_1002_110168_1B9458D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110168_1B9458D6_m",
+          SoundLength = 1740
         },
         voice_jp_story_1002_110168_1B945900 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32250,6 +37442,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110169_1B9464FA",
           SoundLength = 14540
         },
+        voice_jp_story_1002_110169_1B946524_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110169_1B946524_f",
+          SoundLength = 8510
+        },
+        voice_jp_story_1002_110169_1B946524_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110169_1B946524_m",
+          SoundLength = 8860
+        },
         voice_jp_story_1002_110169_1B94654E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110169_1B94654E",
@@ -32259,7 +37461,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110169_1B946578",
           SoundLength = 22190
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_110169_1B9465A2",
+    MaxKey = "voice_jp_story_1002_110189_1B95AD44",
+    Loader = function()
+      return {
         voice_jp_story_1002_110169_1B9465A2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110169_1B9465A2",
@@ -32290,6 +37500,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110171_1B948576",
           SoundLength = 15270
         },
+        voice_jp_story_1002_110171_1B9485A0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B9485A0_f",
+          SoundLength = 5340
+        },
+        voice_jp_story_1002_110171_1B9485A0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B9485A0_m",
+          SoundLength = 4880
+        },
         voice_jp_story_1002_110171_1B9485CA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110171_1B9485CA",
@@ -32298,27 +37518,77 @@ local Data = {
         voice_jp_story_1002_110171_1B9485F4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110171_1B9485F4",
-          SoundLength = 20440
+          SoundLength = 21710
+        },
+        voice_jp_story_1002_110171_1B94861E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B94861E_f",
+          SoundLength = 2870
+        },
+        voice_jp_story_1002_110171_1B94861E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B94861E_m",
+          SoundLength = 2660
         },
         voice_jp_story_1002_110171_1B948648 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110171_1B948648",
           SoundLength = 9190
         },
+        voice_jp_story_1002_110171_1B948672_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B948672_f",
+          SoundLength = 9480
+        },
+        voice_jp_story_1002_110171_1B948672_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B948672_m",
+          SoundLength = 10130
+        },
         voice_jp_story_1002_110171_1B94869C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110171_1B94869C",
           SoundLength = 7910
+        },
+        voice_jp_story_1002_110171_1B9486C6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B9486C6_f",
+          SoundLength = 1420
+        },
+        voice_jp_story_1002_110171_1B9486C6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B9486C6_m",
+          SoundLength = 1060
         },
         voice_jp_story_1002_110171_1B94871A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110171_1B94871A",
           SoundLength = 12960
         },
+        voice_jp_story_1002_110171_1B94871B_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B94871B_f",
+          SoundLength = 1590
+        },
+        voice_jp_story_1002_110171_1B94871B_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B94871B_m",
+          SoundLength = 1390
+        },
+        voice_jp_story_1002_110171_1B94871C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B94871C_f",
+          SoundLength = 19700
+        },
+        voice_jp_story_1002_110171_1B94871C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B94871C_m",
+          SoundLength = 18280
+        },
         voice_jp_story_1002_110171_1B94871D = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110171_1B94871D",
-          SoundLength = 17250
+          SoundLength = 5690
         },
         voice_jp_story_1002_110171_1B948798 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32335,6 +37605,61 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110171_1B948816",
           SoundLength = 11640
         },
+        voice_jp_story_1002_110171_1B9488BE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B9488BE_f",
+          SoundLength = 4270
+        },
+        voice_jp_story_1002_110171_1B9488BE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110171_1B9488BE_m",
+          SoundLength = 4490
+        },
+        voice_jp_story_1002_110172_1B9488C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C0",
+          SoundLength = 3600
+        },
+        voice_jp_story_1002_110172_1B9488C1_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C1_f",
+          SoundLength = 5810
+        },
+        voice_jp_story_1002_110172_1B9488C1_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C1_m",
+          SoundLength = 5500
+        },
+        voice_jp_story_1002_110172_1B9488C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C2",
+          SoundLength = 3850
+        },
+        voice_jp_story_1002_110172_1B9488C3_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C3_f",
+          SoundLength = 4100
+        },
+        voice_jp_story_1002_110172_1B9488C3_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C3_m",
+          SoundLength = 4170
+        },
+        voice_jp_story_1002_110172_1B9488C4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C4_f",
+          SoundLength = 8460
+        },
+        voice_jp_story_1002_110172_1B9488C4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C4_m",
+          SoundLength = 8310
+        },
+        voice_jp_story_1002_110172_1B9488C5 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110172_1B9488C5",
+          SoundLength = 2940
+        },
         voice_jp_story_1002_110174_1B94B7D4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110174_1B94B7D4",
@@ -32345,10 +37670,50 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110174_1B94B828",
           SoundLength = 5610
         },
+        voice_jp_story_1002_110174_1B94B852_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B852_f",
+          SoundLength = 6500
+        },
+        voice_jp_story_1002_110174_1B94B852_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B852_m",
+          SoundLength = 6430
+        },
+        voice_jp_story_1002_110174_1B94B87C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B87C_f",
+          SoundLength = 3450
+        },
+        voice_jp_story_1002_110174_1B94B87C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B87C_m",
+          SoundLength = 3880
+        },
+        voice_jp_story_1002_110174_1B94B8FA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B8FA_f",
+          SoundLength = 4380
+        },
+        voice_jp_story_1002_110174_1B94B8FA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B8FA_m",
+          SoundLength = 4200
+        },
         voice_jp_story_1002_110174_1B94B924 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110174_1B94B924",
           SoundLength = 1630
+        },
+        voice_jp_story_1002_110174_1B94B94E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B94E_f",
+          SoundLength = 2110
+        },
+        voice_jp_story_1002_110174_1B94B94E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B94E_m",
+          SoundLength = 2290
         },
         voice_jp_story_1002_110174_1B94B978 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32365,25 +37730,230 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110174_1B94B9CC",
           SoundLength = 4670
         },
+        voice_jp_story_1002_110174_1B94B9F6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B9F6_f",
+          SoundLength = 1240
+        },
+        voice_jp_story_1002_110174_1B94B9F6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110174_1B94B9F6_m",
+          SoundLength = 1370
+        },
+        voice_jp_story_1002_110175_1B94C6C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C6C2",
+          SoundLength = 9600
+        },
+        voice_jp_story_1002_110175_1B94C6EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C6EC",
+          SoundLength = 12990
+        },
+        voice_jp_story_1002_110175_1B94C716 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C716",
+          SoundLength = 8020
+        },
+        voice_jp_story_1002_110175_1B94C740_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C740_f",
+          SoundLength = 7720
+        },
+        voice_jp_story_1002_110175_1B94C740_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C740_m",
+          SoundLength = 8110
+        },
+        voice_jp_story_1002_110175_1B94C76A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C76A",
+          SoundLength = 8440
+        },
+        voice_jp_story_1002_110175_1B94C794_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C794_f",
+          SoundLength = 10870
+        },
+        voice_jp_story_1002_110175_1B94C794_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C794_m",
+          SoundLength = 9770
+        },
+        voice_jp_story_1002_110175_1B94C7BE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C7BE_f",
+          SoundLength = 2990
+        },
+        voice_jp_story_1002_110175_1B94C7BE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C7BE_m",
+          SoundLength = 3320
+        },
+        voice_jp_story_1002_110175_1B94C812 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C812",
+          SoundLength = 3960
+        },
+        voice_jp_story_1002_110175_1B94C83C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C83C_f",
+          SoundLength = 8510
+        },
+        voice_jp_story_1002_110175_1B94C83C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C83C_m",
+          SoundLength = 8270
+        },
+        voice_jp_story_1002_110175_1B94C866_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C866_f",
+          SoundLength = 1220
+        },
+        voice_jp_story_1002_110175_1B94C866_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C866_m",
+          SoundLength = 1040
+        },
+        voice_jp_story_1002_110175_1B94C890_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C890_f",
+          SoundLength = 1270
+        },
+        voice_jp_story_1002_110175_1B94C890_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C890_m",
+          SoundLength = 1260
+        },
+        voice_jp_story_1002_110175_1B94C8BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C8BA",
+          SoundLength = 2880
+        },
         voice_jp_story_1002_110175_1B94C8E4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110175_1B94C8E4",
           SoundLength = 6600
+        },
+        voice_jp_story_1002_110175_1B94C90E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C90E_f",
+          SoundLength = 480
+        },
+        voice_jp_story_1002_110175_1B94C90E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C90E_m",
+          SoundLength = 740
+        },
+        voice_jp_story_1002_110175_1B94C938 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C938",
+          SoundLength = 1450
         },
         voice_jp_story_1002_110175_1B94C962 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110175_1B94C962",
           SoundLength = 9760
         },
+        voice_jp_story_1002_110175_1B94C98C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C98C",
+          SoundLength = 1980
+        },
+        voice_jp_story_1002_110175_1B94C9B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C9B6",
+          SoundLength = 6350
+        },
+        voice_jp_story_1002_110175_1B94C9E0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94C9E0",
+          SoundLength = 5800
+        },
+        voice_jp_story_1002_110175_1B94CA0A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94CA0A_f",
+          SoundLength = 4140
+        },
+        voice_jp_story_1002_110175_1B94CA0A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110175_1B94CA0A_m",
+          SoundLength = 4380
+        },
+        voice_jp_story_1002_110176_1B94D72A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D72A",
+          SoundLength = 5090
+        },
+        voice_jp_story_1002_110176_1B94D754 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D754",
+          SoundLength = 6330
+        },
+        voice_jp_story_1002_110176_1B94D77E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D77E",
+          SoundLength = 2200
+        },
+        voice_jp_story_1002_110176_1B94D7A8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D7A8_f",
+          SoundLength = 7200
+        },
+        voice_jp_story_1002_110176_1B94D7A8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D7A8_m",
+          SoundLength = 6610
+        },
         voice_jp_story_1002_110176_1B94D7D2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110176_1B94D7D2",
           SoundLength = 11820
         },
+        voice_jp_story_1002_110176_1B94D7FC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D7FC_f",
+          SoundLength = 2450
+        },
+        voice_jp_story_1002_110176_1B94D7FC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D7FC_m",
+          SoundLength = 2260
+        },
+        voice_jp_story_1002_110176_1B94D826 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D826",
+          SoundLength = 3120
+        },
+        voice_jp_story_1002_110176_1B94D850_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D850_f",
+          SoundLength = 640
+        },
+        voice_jp_story_1002_110176_1B94D850_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D850_m",
+          SoundLength = 700
+        },
+        voice_jp_story_1002_110176_1B94D87A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D87A",
+          SoundLength = 3070
+        },
+        voice_jp_story_1002_110176_1B94D8A4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D8A4",
+          SoundLength = 4050
+        },
         voice_jp_story_1002_110176_1B94D8CE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110176_1B94D8CE",
           SoundLength = 6310
+        },
+        voice_jp_story_1002_110176_1B94D8F8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110176_1B94D8F8",
+          SoundLength = 2960
         },
         voice_jp_story_1002_110176_1B94D922 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32409,15 +37979,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110177_1B94E810",
           SoundLength = 1890
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1002_110177_1B94E83A",
-    MaxKey = "voice_jp_story_1003_100307_191C5E60",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1002_110177_1B94E83A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110177_1B94E83A",
@@ -32448,6 +38010,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110177_1B94E90C",
           SoundLength = 2410
         },
+        voice_jp_story_1002_110177_1B94E936_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110177_1B94E936_f",
+          SoundLength = 2920
+        },
+        voice_jp_story_1002_110177_1B94E936_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110177_1B94E936_m",
+          SoundLength = 3630
+        },
         voice_jp_story_1002_110177_1B94E960 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110177_1B94E960",
@@ -32463,6 +38035,71 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110177_1B94E9B4",
           SoundLength = 3080
         },
+        voice_jp_story_1002_110177_1B94E9DE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110177_1B94E9DE_f",
+          SoundLength = 3380
+        },
+        voice_jp_story_1002_110177_1B94E9DE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110177_1B94E9DE_m",
+          SoundLength = 3930
+        },
+        voice_jp_story_1002_110178_1B94F7FA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F7FA",
+          SoundLength = 920
+        },
+        voice_jp_story_1002_110178_1B94F824 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F824",
+          SoundLength = 5200
+        },
+        voice_jp_story_1002_110178_1B94F878 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F878",
+          SoundLength = 3360
+        },
+        voice_jp_story_1002_110178_1B94F8A2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F8A2",
+          SoundLength = 3390
+        },
+        voice_jp_story_1002_110178_1B94F8CC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F8CC",
+          SoundLength = 6900
+        },
+        voice_jp_story_1002_110178_1B94F8F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F8F6",
+          SoundLength = 4100
+        },
+        voice_jp_story_1002_110178_1B94F94A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F94A",
+          SoundLength = 2560
+        },
+        voice_jp_story_1002_110178_1B94F974 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F974",
+          SoundLength = 4480
+        },
+        voice_jp_story_1002_110178_1B94F99E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110178_1B94F99E",
+          SoundLength = 8130
+        },
+        voice_jp_story_1002_110180_1B9518CA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B9518CA",
+          SoundLength = 900
+        },
+        voice_jp_story_1002_110180_1B9518F4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B9518F4",
+          SoundLength = 13200
+        },
         voice_jp_story_1002_110180_1B95191E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110180_1B95191E",
@@ -32473,10 +38110,160 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110180_1B951948",
           SoundLength = 15370
         },
+        voice_jp_story_1002_110180_1B95199C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B95199C_f",
+          SoundLength = 16240
+        },
+        voice_jp_story_1002_110180_1B95199C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B95199C_m",
+          SoundLength = 17350
+        },
+        voice_jp_story_1002_110180_1B9519C6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B9519C6",
+          SoundLength = 11310
+        },
+        voice_jp_story_1002_110180_1B951A1A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951A1A_f",
+          SoundLength = 2170
+        },
+        voice_jp_story_1002_110180_1B951A1A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951A1A_m",
+          SoundLength = 2020
+        },
+        voice_jp_story_1002_110180_1B951A44_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951A44_f",
+          SoundLength = 7730
+        },
+        voice_jp_story_1002_110180_1B951A44_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951A44_m",
+          SoundLength = 8130
+        },
+        voice_jp_story_1002_110180_1B951A6E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951A6E",
+          SoundLength = 9970
+        },
+        voice_jp_story_1002_110180_1B951A98 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951A98",
+          SoundLength = 3600
+        },
         voice_jp_story_1002_110180_1B951AC2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110180_1B951AC2",
           SoundLength = 2070
+        },
+        voice_jp_story_1002_110180_1B951AEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951AEC",
+          SoundLength = 8840
+        },
+        voice_jp_story_1002_110180_1B951B16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110180_1B951B16",
+          SoundLength = 6170
+        },
+        voice_jp_story_1002_110181_1B95295C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110181_1B95295C_f",
+          SoundLength = 1520
+        },
+        voice_jp_story_1002_110182_1B95399A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B95399A",
+          SoundLength = 5150
+        },
+        voice_jp_story_1002_110182_1B9539C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B9539C4",
+          SoundLength = 3670
+        },
+        voice_jp_story_1002_110182_1B9539EE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B9539EE_f",
+          SoundLength = 4650
+        },
+        voice_jp_story_1002_110182_1B9539EE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B9539EE_m",
+          SoundLength = 4320
+        },
+        voice_jp_story_1002_110182_1B953A6C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953A6C_f",
+          SoundLength = 5150
+        },
+        voice_jp_story_1002_110182_1B953A6C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953A6C_m",
+          SoundLength = 5150
+        },
+        voice_jp_story_1002_110182_1B953A96_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953A96_f",
+          SoundLength = 2960
+        },
+        voice_jp_story_1002_110182_1B953A96_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953A96_m",
+          SoundLength = 3250
+        },
+        voice_jp_story_1002_110182_1B953AC0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953AC0_f",
+          SoundLength = 10670
+        },
+        voice_jp_story_1002_110182_1B953AC0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953AC0_m",
+          SoundLength = 10130
+        },
+        voice_jp_story_1002_110182_1B953AEA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953AEA_f",
+          SoundLength = 10870
+        },
+        voice_jp_story_1002_110182_1B953AEA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953AEA_m",
+          SoundLength = 10770
+        },
+        voice_jp_story_1002_110182_1B953B14_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953B14_f",
+          SoundLength = 9300
+        },
+        voice_jp_story_1002_110182_1B953B14_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953B14_m",
+          SoundLength = 7840
+        },
+        voice_jp_story_1002_110182_1B953B3E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953B3E_f",
+          SoundLength = 1040
+        },
+        voice_jp_story_1002_110182_1B953B3E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953B3E_m",
+          SoundLength = 1100
+        },
+        voice_jp_story_1002_110182_1B953B68_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953B68_f",
+          SoundLength = 6820
+        },
+        voice_jp_story_1002_110182_1B953B68_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110182_1B953B68_m",
+          SoundLength = 6370
         },
         voice_jp_story_1002_110183_1B954A02 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32493,6 +38280,21 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110184_1B955A6A",
           SoundLength = 16320
         },
+        voice_jp_story_1002_110184_1B955ABE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110184_1B955ABE",
+          SoundLength = 4420
+        },
+        voice_jp_story_1002_110184_1B955AE8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110184_1B955AE8",
+          SoundLength = 5760
+        },
+        voice_jp_story_1002_110184_1B955B12 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110184_1B955B12",
+          SoundLength = 3230
+        },
         voice_jp_story_1002_110184_1B955B3C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110184_1B955B3C",
@@ -32503,10 +38305,35 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110184_1B955B66",
           SoundLength = 9180
         },
+        voice_jp_story_1002_110184_1B955B90 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110184_1B955B90",
+          SoundLength = 4450
+        },
+        voice_jp_story_1002_110184_1B955BBA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110184_1B955BBA_f",
+          SoundLength = 2170
+        },
+        voice_jp_story_1002_110184_1B955BBA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110184_1B955BBA_m",
+          SoundLength = 2000
+        },
         voice_jp_story_1002_110185_1B956AD2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110185_1B956AD2",
           SoundLength = 3370
+        },
+        voice_jp_story_1002_110185_1B956AFC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110185_1B956AFC_f",
+          SoundLength = 6900
+        },
+        voice_jp_story_1002_110185_1B956AFC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110185_1B956AFC_m",
+          SoundLength = 6170
         },
         voice_jp_story_1002_110185_1B956B26 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32523,10 +38350,55 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110185_1B956B7A",
           SoundLength = 5950
         },
+        voice_jp_story_1002_110185_1B956BA4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110185_1B956BA4_f",
+          SoundLength = 5820
+        },
+        voice_jp_story_1002_110185_1B956BA4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110185_1B956BA4_m",
+          SoundLength = 6170
+        },
         voice_jp_story_1002_110185_1B956BCE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110185_1B956BCE",
           SoundLength = 6830
+        },
+        voice_jp_story_1002_110186_1B957B3A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110186_1B957B3A",
+          SoundLength = 1180
+        },
+        voice_jp_story_1002_110186_1B957B64 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110186_1B957B64",
+          SoundLength = 2020
+        },
+        voice_jp_story_1002_110186_1B957B8E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110186_1B957B8E",
+          SoundLength = 980
+        },
+        voice_jp_story_1002_110186_1B957BB8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110186_1B957BB8",
+          SoundLength = 2830
+        },
+        voice_jp_story_1002_110186_1B957BE2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110186_1B957BE2",
+          SoundLength = 3890
+        },
+        voice_jp_story_1002_110186_1B957C0C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110186_1B957C0C",
+          SoundLength = 3400
+        },
+        voice_jp_story_1002_110187_1B958BA2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110187_1B958BA2",
+          SoundLength = 3980
         },
         voice_jp_story_1002_110187_1B958BCC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32543,10 +38415,108 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110188_1B959F28",
           SoundLength = 9640
         },
+        voice_jp_story_1002_110189_1B95AC72_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AC72_f",
+          SoundLength = 3380
+        },
+        voice_jp_story_1002_110189_1B95AC72_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AC72_m",
+          SoundLength = 3470
+        },
+        voice_jp_story_1002_110189_1B95AC9C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AC9C_f",
+          SoundLength = 4380
+        },
+        voice_jp_story_1002_110189_1B95AC9C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AC9C_m",
+          SoundLength = 3000
+        },
+        voice_jp_story_1002_110189_1B95ACC6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ACC6_f",
+          SoundLength = 3670
+        },
+        voice_jp_story_1002_110189_1B95ACC6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ACC6_m",
+          SoundLength = 2650
+        },
+        voice_jp_story_1002_110189_1B95ACF0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ACF0_f",
+          SoundLength = 6300
+        },
+        voice_jp_story_1002_110189_1B95ACF0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ACF0_m",
+          SoundLength = 6820
+        },
+        voice_jp_story_1002_110189_1B95AD1A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AD1A_f",
+          SoundLength = 2960
+        },
+        voice_jp_story_1002_110189_1B95AD1A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AD1A_m",
+          SoundLength = 4420
+        },
         voice_jp_story_1002_110189_1B95AD44 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110189_1B95AD44",
           SoundLength = 6730
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_110189_1B95AD6E_f",
+    MaxKey = "voice_jp_story_1002_510103_7FB2F172",
+    Loader = function()
+      return {
+        voice_jp_story_1002_110189_1B95AD6E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AD6E_f",
+          SoundLength = 12030
+        },
+        voice_jp_story_1002_110189_1B95AD6E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AD6E_m",
+          SoundLength = 14680
+        },
+        voice_jp_story_1002_110189_1B95AD98_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AD98_f",
+          SoundLength = 990
+        },
+        voice_jp_story_1002_110189_1B95AD98_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AD98_m",
+          SoundLength = 520
+        },
+        voice_jp_story_1002_110189_1B95ADC2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ADC2_f",
+          SoundLength = 3980
+        },
+        voice_jp_story_1002_110189_1B95ADC2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ADC2_m",
+          SoundLength = 5040
+        },
+        voice_jp_story_1002_110189_1B95ADEC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ADEC_f",
+          SoundLength = 2960
+        },
+        voice_jp_story_1002_110189_1B95ADEC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95ADEC_m",
+          SoundLength = 3200
         },
         voice_jp_story_1002_110189_1B95AE16 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32557,6 +38527,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110189_1B95AE40",
           SoundLength = 2450
+        },
+        voice_jp_story_1002_110189_1B95AE6A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AE6A_f",
+          SoundLength = 670
+        },
+        voice_jp_story_1002_110189_1B95AE6A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110189_1B95AE6A_m",
+          SoundLength = 720
         },
         voice_jp_story_1002_110189_1B95AE94 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32572,6 +38552,66 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110189_1B95AEE8",
           SoundLength = 3680
+        },
+        voice_jp_story_1002_110190_1B95BD82_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BD82_f",
+          SoundLength = 8640
+        },
+        voice_jp_story_1002_110190_1B95BD82_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BD82_m",
+          SoundLength = 8540
+        },
+        voice_jp_story_1002_110190_1B95BDAC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BDAC_f",
+          SoundLength = 4420
+        },
+        voice_jp_story_1002_110190_1B95BDAC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BDAC_m",
+          SoundLength = 5120
+        },
+        voice_jp_story_1002_110190_1B95BDD6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BDD6_f",
+          SoundLength = 4100
+        },
+        voice_jp_story_1002_110190_1B95BDD6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BDD6_m",
+          SoundLength = 2990
+        },
+        voice_jp_story_1002_110190_1B95BE00_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BE00_f",
+          SoundLength = 6660
+        },
+        voice_jp_story_1002_110190_1B95BE00_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BE00_m",
+          SoundLength = 6640
+        },
+        voice_jp_story_1002_110190_1B95BE2A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BE2A_f",
+          SoundLength = 2320
+        },
+        voice_jp_story_1002_110190_1B95BE2A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BE2A_m",
+          SoundLength = 1960
+        },
+        voice_jp_story_1002_110190_1B95BE54_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BE54_f",
+          SoundLength = 1940
+        },
+        voice_jp_story_1002_110190_1B95BE54_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BE54_m",
+          SoundLength = 1540
         },
         voice_jp_story_1002_110190_1B95BE7E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32598,6 +38638,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110190_1B95BF26",
           SoundLength = 3980
         },
+        voice_jp_story_1002_110190_1B95BF50_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BF50_f",
+          SoundLength = 2110
+        },
+        voice_jp_story_1002_110190_1B95BF50_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BF50_m",
+          SoundLength = 2020
+        },
         voice_jp_story_1002_110190_1B95BF7A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110190_1B95BF7A",
@@ -32608,6 +38658,76 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110190_1B95BFA4",
           SoundLength = 8660
         },
+        voice_jp_story_1002_110190_1B95BFCE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BFCE_f",
+          SoundLength = 3600
+        },
+        voice_jp_story_1002_110190_1B95BFCE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BFCE_m",
+          SoundLength = 2840
+        },
+        voice_jp_story_1002_110190_1B95BFF8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BFF8_f",
+          SoundLength = 8190
+        },
+        voice_jp_story_1002_110190_1B95BFF8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95BFF8_m",
+          SoundLength = 6890
+        },
+        voice_jp_story_1002_110190_1B95C022_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C022_f",
+          SoundLength = 2420
+        },
+        voice_jp_story_1002_110190_1B95C022_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C022_m",
+          SoundLength = 1910
+        },
+        voice_jp_story_1002_110190_1B95C04C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C04C_f",
+          SoundLength = 3960
+        },
+        voice_jp_story_1002_110190_1B95C04C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C04C_m",
+          SoundLength = 3880
+        },
+        voice_jp_story_1002_110190_1B95C076_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C076_f",
+          SoundLength = 5390
+        },
+        voice_jp_story_1002_110190_1B95C076_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C076_m",
+          SoundLength = 4700
+        },
+        voice_jp_story_1002_110190_1B95C0A0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C0A0_f",
+          SoundLength = 1020
+        },
+        voice_jp_story_1002_110190_1B95C0A0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C0A0_m",
+          SoundLength = 810
+        },
+        voice_jp_story_1002_110190_1B95C0CA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C0CA_f",
+          SoundLength = 3430
+        },
+        voice_jp_story_1002_110190_1B95C0CA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C0CA_m",
+          SoundLength = 3090
+        },
         voice_jp_story_1002_110190_1B95C0F4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110190_1B95C0F4",
@@ -32617,6 +38737,86 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110190_1B95C11E",
           SoundLength = 7940
+        },
+        voice_jp_story_1002_110190_1B95C148_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C148_f",
+          SoundLength = 4600
+        },
+        voice_jp_story_1002_110190_1B95C148_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C148_m",
+          SoundLength = 4480
+        },
+        voice_jp_story_1002_110190_1B95C172_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C172_f",
+          SoundLength = 7100
+        },
+        voice_jp_story_1002_110190_1B95C172_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C172_m",
+          SoundLength = 5980
+        },
+        voice_jp_story_1002_110190_1B95C19C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C19C_f",
+          SoundLength = 1060
+        },
+        voice_jp_story_1002_110190_1B95C19C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C19C_m",
+          SoundLength = 920
+        },
+        voice_jp_story_1002_110190_1B95C1C6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C1C6_f",
+          SoundLength = 3080
+        },
+        voice_jp_story_1002_110190_1B95C1C6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C1C6_m",
+          SoundLength = 2940
+        },
+        voice_jp_story_1002_110190_1B95C1F0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C1F0_f",
+          SoundLength = 4500
+        },
+        voice_jp_story_1002_110190_1B95C1F0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C1F0_m",
+          SoundLength = 4980
+        },
+        voice_jp_story_1002_110190_1B95C21A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C21A_f",
+          SoundLength = 4580
+        },
+        voice_jp_story_1002_110190_1B95C21A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C21A_m",
+          SoundLength = 4530
+        },
+        voice_jp_story_1002_110190_1B95C244_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C244_f",
+          SoundLength = 1110
+        },
+        voice_jp_story_1002_110190_1B95C244_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C244_m",
+          SoundLength = 880
+        },
+        voice_jp_story_1002_110190_1B95C26E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C26E_f",
+          SoundLength = 3110
+        },
+        voice_jp_story_1002_110190_1B95C26E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C26E_m",
+          SoundLength = 3370
         },
         voice_jp_story_1002_110190_1B95C298 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32633,10 +38833,45 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110190_1B95C2EC",
           SoundLength = 3460
         },
+        voice_jp_story_1002_110190_1B95C316_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C316_f",
+          SoundLength = 1310
+        },
+        voice_jp_story_1002_110190_1B95C316_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C316_m",
+          SoundLength = 1000
+        },
         voice_jp_story_1002_110190_1B95C340 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110190_1B95C340",
           SoundLength = 6140
+        },
+        voice_jp_story_1002_110190_1B95C36A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C36A",
+          SoundLength = 1480
+        },
+        voice_jp_story_1002_110190_1B95C394_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C394_f",
+          SoundLength = 1550
+        },
+        voice_jp_story_1002_110190_1B95C394_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C394_m",
+          SoundLength = 1350
+        },
+        voice_jp_story_1002_110190_1B95C3BE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C3BE_f",
+          SoundLength = 790
+        },
+        voice_jp_story_1002_110190_1B95C3BE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C3BE_m",
+          SoundLength = 800
         },
         voice_jp_story_1002_110190_1B95C412 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32673,6 +38908,26 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110190_1B95C50E",
           SoundLength = 3420
         },
+        voice_jp_story_1002_110190_1B95C538_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C538_f",
+          SoundLength = 2470
+        },
+        voice_jp_story_1002_110190_1B95C538_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C538_m",
+          SoundLength = 2350
+        },
+        voice_jp_story_1002_110190_1B95C562_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C562_f",
+          SoundLength = 5130
+        },
+        voice_jp_story_1002_110190_1B95C562_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110190_1B95C562_m",
+          SoundLength = 6450
+        },
         voice_jp_story_1002_110190_1B95C58C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110190_1B95C58C",
@@ -32682,6 +38937,41 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110190_1B95C5B6",
           SoundLength = 4220
+        },
+        voice_jp_story_1002_110191_1B95CD42 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CD42",
+          SoundLength = 6600
+        },
+        voice_jp_story_1002_110191_1B95CD6C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CD6C_f",
+          SoundLength = 4500
+        },
+        voice_jp_story_1002_110191_1B95CD6C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CD6C_m",
+          SoundLength = 4700
+        },
+        voice_jp_story_1002_110191_1B95CD96_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CD96_f",
+          SoundLength = 19370
+        },
+        voice_jp_story_1002_110191_1B95CD96_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CD96_m",
+          SoundLength = 20120
+        },
+        voice_jp_story_1002_110191_1B95CDC0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CDC0_f",
+          SoundLength = 16960
+        },
+        voice_jp_story_1002_110191_1B95CDC0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CDC0_m",
+          SoundLength = 18350
         },
         voice_jp_story_1002_110191_1B95CDEA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32698,10 +38988,30 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110191_1B95CE92",
           SoundLength = 14690
         },
+        voice_jp_story_1002_110191_1B95CEBC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CEBC_f",
+          SoundLength = 6150
+        },
+        voice_jp_story_1002_110191_1B95CEBC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CEBC_m",
+          SoundLength = 5740
+        },
         voice_jp_story_1002_110191_1B95CEE6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110191_1B95CEE6",
           SoundLength = 5140
+        },
+        voice_jp_story_1002_110191_1B95CF10_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CF10_f",
+          SoundLength = 11030
+        },
+        voice_jp_story_1002_110191_1B95CF10_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CF10_m",
+          SoundLength = 11660
         },
         voice_jp_story_1002_110191_1B95CF3A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32713,10 +39023,60 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110191_1B95CF8E",
           SoundLength = 11690
         },
+        voice_jp_story_1002_110191_1B95CFB8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CFB8_f",
+          SoundLength = 3790
+        },
+        voice_jp_story_1002_110191_1B95CFB8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95CFB8_m",
+          SoundLength = 3680
+        },
+        voice_jp_story_1002_110191_1B95D036_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D036_f",
+          SoundLength = 14680
+        },
+        voice_jp_story_1002_110191_1B95D036_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D036_m",
+          SoundLength = 15870
+        },
         voice_jp_story_1002_110191_1B95D08A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110191_1B95D08A",
           SoundLength = 3920
+        },
+        voice_jp_story_1002_110191_1B95D0B4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D0B4_f",
+          SoundLength = 620
+        },
+        voice_jp_story_1002_110191_1B95D0B4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D0B4_m",
+          SoundLength = 610
+        },
+        voice_jp_story_1002_110191_1B95D0DE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D0DE_f",
+          SoundLength = 1090
+        },
+        voice_jp_story_1002_110191_1B95D0DE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D0DE_m",
+          SoundLength = 1160
+        },
+        voice_jp_story_1002_110191_1B95D132_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D132_f",
+          SoundLength = 5380
+        },
+        voice_jp_story_1002_110191_1B95D132_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110191_1B95D132_m",
+          SoundLength = 5850
         },
         voice_jp_story_1002_110192_1B95DDAA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32733,10 +39093,45 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110192_1B95DDD5",
           SoundLength = 1090
         },
+        voice_jp_story_1002_110192_1B95DDD6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110192_1B95DDD6",
+          SoundLength = 1420
+        },
+        voice_jp_story_1002_110192_1B95DDD7_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110192_1B95DDD7_f",
+          SoundLength = 9040
+        },
+        voice_jp_story_1002_110192_1B95DDD7_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110192_1B95DDD7_m",
+          SoundLength = 10070
+        },
+        voice_jp_story_1002_110192_1B95DDD8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110192_1B95DDD8_f",
+          SoundLength = 4250
+        },
+        voice_jp_story_1002_110192_1B95DDD8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110192_1B95DDD8_m",
+          SoundLength = 4450
+        },
         voice_jp_story_1002_110192_1B95DDD9 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110192_1B95DDD9",
           SoundLength = 4040
+        },
+        voice_jp_story_1002_110192_1B95DDDA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110192_1B95DDDA_f",
+          SoundLength = 9770
+        },
+        voice_jp_story_1002_110192_1B95DDDA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110192_1B95DDDA_m",
+          SoundLength = 9770
         },
         voice_jp_story_1002_110192_1B95DDDB = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32746,12 +39141,32 @@ local Data = {
         voice_jp_story_1002_110193_1B95EE3C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110193_1B95EE3C",
-          SoundLength = 3120
+          SoundLength = 3140
         },
         voice_jp_story_1002_110193_1B95EE66 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110193_1B95EE66",
           SoundLength = 980
+        },
+        voice_jp_story_1002_110193_1B95EEE4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95EEE4_f",
+          SoundLength = 1400
+        },
+        voice_jp_story_1002_110193_1B95EEE4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95EEE4_m",
+          SoundLength = 1000
+        },
+        voice_jp_story_1002_110193_1B95EF38_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95EF38_f",
+          SoundLength = 5240
+        },
+        voice_jp_story_1002_110193_1B95EF38_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95EF38_m",
+          SoundLength = 5440
         },
         voice_jp_story_1002_110193_1B95EF62 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32763,6 +39178,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_110193_1B95EF8C",
           SoundLength = 19100
         },
+        voice_jp_story_1002_110193_1B95EFB6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95EFB6_f",
+          SoundLength = 10400
+        },
+        voice_jp_story_1002_110193_1B95EFB6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95EFB6_m",
+          SoundLength = 10490
+        },
         voice_jp_story_1002_110193_1B95EFE0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110193_1B95EFE0",
@@ -32772,6 +39197,36 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110193_1B95F00A",
           SoundLength = 19340
+        },
+        voice_jp_story_1002_110193_1B95F034_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F034_f",
+          SoundLength = 7200
+        },
+        voice_jp_story_1002_110193_1B95F034_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F034_m",
+          SoundLength = 7660
+        },
+        voice_jp_story_1002_110193_1B95F05E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F05E_f",
+          SoundLength = 8960
+        },
+        voice_jp_story_1002_110193_1B95F05E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F05E_m",
+          SoundLength = 9590
+        },
+        voice_jp_story_1002_110193_1B95F088_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F088_f",
+          SoundLength = 1090
+        },
+        voice_jp_story_1002_110193_1B95F088_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F088_m",
+          SoundLength = 970
         },
         voice_jp_story_1002_110193_1B95F0B2_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -32797,6 +39252,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_110193_1B95F130",
           SoundLength = 14450
+        },
+        voice_jp_story_1002_110193_1B95F15A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F15A_f",
+          SoundLength = 3400
+        },
+        voice_jp_story_1002_110193_1B95F15A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_110193_1B95F15A_m",
+          SoundLength = 2470
         },
         voice_jp_story_1002_110193_1B95F184 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -33012,7 +39477,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_510103_7FB2F172",
           SoundLength = 8020
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1002_510103_7FB2F19C",
+    MaxKey = "voice_jp_story_1003_100311_191CA1CE",
+    Loader = function()
+      return {
         voice_jp_story_1002_510103_7FB2F19C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_510103_7FB2F19C",
@@ -33123,6 +39596,16 @@ local Data = {
           SelectKey = "voice_jp_story_1002_510104_7FB300B4",
           SoundLength = 26360
         },
+        voice_jp_story_1002_510104_7FB300DE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_510104_7FB300DE",
+          SoundLength = 2030
+        },
+        voice_jp_story_1002_510104_7FB300DE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1002",
+          SelectKey = "voice_jp_story_1002_510104_7FB300DE_f",
+          SoundLength = 2220
+        },
         voice_jp_story_1002_510104_7FB30108 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1002",
           SelectKey = "voice_jp_story_1002_510104_7FB30108",
@@ -33153,10 +39636,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100301_191BFB72_f",
           SoundLength = 3180
         },
+        voice_jp_story_1003_100301_191BFB72_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100301_191BFB72_m",
+          SoundLength = 2600
+        },
         voice_jp_story_1003_100304_191C2CAA_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100304_191C2CAA_f",
           SoundLength = 2630
+        },
+        voice_jp_story_1003_100304_191C2CAA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100304_191C2CAA_m",
+          SoundLength = 2490
         },
         voice_jp_story_1003_100304_191C2CD4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33167,6 +39660,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100304_191C2CFE_f",
           SoundLength = 6050
+        },
+        voice_jp_story_1003_100304_191C2CFE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100304_191C2CFE_m",
+          SoundLength = 5830
         },
         voice_jp_story_1003_100304_191C2D28 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33193,6 +39691,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100304_191C2E4E",
           SoundLength = 9750
         },
+        voice_jp_story_1003_100304_191C2E78 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100304_191C2E78",
+          SoundLength = 6300
+        },
         voice_jp_story_1003_100304_191C2EA2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100304_191C2EA2",
@@ -33213,6 +39716,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100304_191C2F74_f",
           SoundLength = 1520
         },
+        voice_jp_story_1003_100304_191C2F74_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100304_191C2F74_m",
+          SoundLength = 1320
+        },
         voice_jp_story_1003_100304_191C2F9E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100304_191C2F9E",
@@ -33228,15 +39736,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100305_191C3D12_f",
           SoundLength = 5840
         },
+        voice_jp_story_1003_100305_191C3D12_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100305_191C3D12_m",
+          SoundLength = 6120
+        },
         voice_jp_story_1003_100305_191C3D3C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100305_191C3D3C_f",
           SoundLength = 6730
         },
+        voice_jp_story_1003_100305_191C3D3C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100305_191C3D3C_m",
+          SoundLength = 6070
+        },
         voice_jp_story_1003_100305_191C3D66_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100305_191C3D66_f",
           SoundLength = 5940
+        },
+        voice_jp_story_1003_100305_191C3D66_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100305_191C3D66_m",
+          SoundLength = 5950
         },
         voice_jp_story_1003_100305_191C3D90 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33293,6 +39816,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100306_191C4E76_f",
           SoundLength = 3590
         },
+        voice_jp_story_1003_100306_191C4E76_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C4E76_m",
+          SoundLength = 3290
+        },
         voice_jp_story_1003_100306_191C4EA0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100306_191C4EA0",
@@ -33313,10 +39841,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100306_191C4F1E_f",
           SoundLength = 11760
         },
+        voice_jp_story_1003_100306_191C4F1E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C4F1E_m",
+          SoundLength = 11810
+        },
         voice_jp_story_1003_100306_191C4F48_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100306_191C4F48_f",
           SoundLength = 4930
+        },
+        voice_jp_story_1003_100306_191C4F48_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C4F48_m",
+          SoundLength = 4840
         },
         voice_jp_story_1003_100306_191C4F72 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33343,6 +39881,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100306_191C501A_f",
           SoundLength = 2120
         },
+        voice_jp_story_1003_100306_191C501A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C501A_m",
+          SoundLength = 1780
+        },
         voice_jp_story_1003_100306_191C5044 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100306_191C5044",
@@ -33353,6 +39896,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100306_191C506E_f",
           SoundLength = 10470
         },
+        voice_jp_story_1003_100306_191C506E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C506E_m",
+          SoundLength = 11500
+        },
         voice_jp_story_1003_100306_191C5098 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100306_191C5098",
@@ -33361,7 +39909,7 @@ local Data = {
         voice_jp_story_1003_100306_191C50C2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100306_191C50C2",
-          SoundLength = 11600
+          SoundLength = 10920
         },
         voice_jp_story_1003_100306_191C50EC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33383,6 +39931,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100306_191C51BE_f",
           SoundLength = 1680
         },
+        voice_jp_story_1003_100306_191C51BE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C51BE_m",
+          SoundLength = 1120
+        },
         voice_jp_story_1003_100306_191C51E8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100306_191C51E8",
@@ -33393,10 +39946,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100306_191C5212_f",
           SoundLength = 4630
         },
+        voice_jp_story_1003_100306_191C5212_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C5212_m",
+          SoundLength = 4210
+        },
         voice_jp_story_1003_100306_191C523C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100306_191C523C_f",
           SoundLength = 6750
+        },
+        voice_jp_story_1003_100306_191C523C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100306_191C523C_m",
+          SoundLength = 6690
         },
         voice_jp_story_1003_100307_191C5DE2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33417,15 +39980,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C5E60",
           SoundLength = 8980
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1003_100307_191C5E8A",
-    MaxKey = "voice_jp_story_1003_100323_191D6702",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1003_100307_191C5E8A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C5E8A",
@@ -33451,6 +40006,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100307_191C5F32_f",
           SoundLength = 1710
         },
+        voice_jp_story_1003_100307_191C5F32_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100307_191C5F32_m",
+          SoundLength = 920
+        },
         voice_jp_story_1003_100307_191C5F5C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C5F5C",
@@ -33459,7 +40019,7 @@ local Data = {
         voice_jp_story_1003_100307_191C5F86 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C5F86",
-          SoundLength = 14670
+          SoundLength = 15310
         },
         voice_jp_story_1003_100307_191C5FB0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33476,15 +40036,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100307_191C5FDA_f",
           SoundLength = 3780
         },
+        voice_jp_story_1003_100307_191C5FDA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100307_191C5FDA_m",
+          SoundLength = 2830
+        },
         voice_jp_story_1003_100307_191C6004_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C6004_f",
           SoundLength = 4000
         },
+        voice_jp_story_1003_100307_191C6004_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100307_191C6004_m",
+          SoundLength = 4090
+        },
         voice_jp_story_1003_100307_191C602E_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C602E_f",
           SoundLength = 5370
+        },
+        voice_jp_story_1003_100307_191C602E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100307_191C602E_m",
+          SoundLength = 5180
         },
         voice_jp_story_1003_100307_191C602F = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33496,10 +40071,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100307_191C6030_f",
           SoundLength = 1000
         },
+        voice_jp_story_1003_100307_191C6030_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100307_191C6030_m",
+          SoundLength = 940
+        },
         voice_jp_story_1003_100307_191C6031_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C6031_f",
           SoundLength = 3980
+        },
+        voice_jp_story_1003_100307_191C6031_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100307_191C6031_m",
+          SoundLength = 3680
         },
         voice_jp_story_1003_100307_191C6032 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33530,6 +40115,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100307_191C6037_f",
           SoundLength = 1130
+        },
+        voice_jp_story_1003_100307_191C6037_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100307_191C6037_m",
+          SoundLength = 1220
         },
         voice_jp_story_1003_100307_191C6038 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33611,6 +40201,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100308_191C706C_f",
           SoundLength = 6260
         },
+        voice_jp_story_1003_100308_191C706C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100308_191C706C_m",
+          SoundLength = 5130
+        },
         voice_jp_story_1003_100308_191C7096 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100308_191C7096",
@@ -33620,6 +40215,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100308_191C70C0_f",
           SoundLength = 6570
+        },
+        voice_jp_story_1003_100308_191C70C0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100308_191C70C0_m",
+          SoundLength = 5960
         },
         voice_jp_story_1003_100308_191C70EA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33656,10 +40256,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100308_191C71E6_f",
           SoundLength = 5900
         },
+        voice_jp_story_1003_100308_191C71E6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100308_191C71E6_m",
+          SoundLength = 5490
+        },
         voice_jp_story_1003_100308_191C7210_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100308_191C7210_f",
           SoundLength = 3560
+        },
+        voice_jp_story_1003_100308_191C7210_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100308_191C7210_m",
+          SoundLength = 3290
         },
         voice_jp_story_1003_100309_191C7EB2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33670,6 +40280,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100309_191C7EDC_f",
           SoundLength = 4680
+        },
+        voice_jp_story_1003_100309_191C7EDC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100309_191C7EDC_m",
+          SoundLength = 5110
         },
         voice_jp_story_1003_100309_191C7F06 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33686,6 +40301,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100309_191C7F5A_f",
           SoundLength = 5720
         },
+        voice_jp_story_1003_100309_191C7F5A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100309_191C7F5A_m",
+          SoundLength = 5020
+        },
         voice_jp_story_1003_100309_191C7F84 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100309_191C7F84",
@@ -33695,6 +40315,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100309_191C7FAE_f",
           SoundLength = 2230
+        },
+        voice_jp_story_1003_100309_191C7FAE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100309_191C7FAE_m",
+          SoundLength = 1480
         },
         voice_jp_story_1003_100310_191C8F1A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33711,10 +40336,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100310_191C8FC2_f",
           SoundLength = 9570
         },
+        voice_jp_story_1003_100310_191C8FC2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100310_191C8FC2_m",
+          SoundLength = 10190
+        },
         voice_jp_story_1003_100310_191C8FEC_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100310_191C8FEC_f",
           SoundLength = 7290
+        },
+        voice_jp_story_1003_100310_191C8FEC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100310_191C8FEC_m",
+          SoundLength = 7530
         },
         voice_jp_story_1003_100310_191C9016 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33726,15 +40361,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100310_191C9040_f",
           SoundLength = 3730
         },
+        voice_jp_story_1003_100310_191C9040_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100310_191C9040_m",
+          SoundLength = 4020
+        },
         voice_jp_story_1003_100310_191C906A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100310_191C906A_f",
           SoundLength = 14840
         },
+        voice_jp_story_1003_100310_191C906A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100310_191C906A_m",
+          SoundLength = 15090
+        },
         voice_jp_story_1003_100310_191C9094_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100310_191C9094_f",
           SoundLength = 2550
+        },
+        voice_jp_story_1003_100310_191C9094_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100310_191C9094_m",
+          SoundLength = 2560
         },
         voice_jp_story_1003_100311_191C9F82 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33751,10 +40401,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100311_191C9FD6_f",
           SoundLength = 12120
         },
+        voice_jp_story_1003_100311_191C9FD6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100311_191C9FD6_m",
+          SoundLength = 12070
+        },
         voice_jp_story_1003_100311_191CA000_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100311_191CA000_f",
           SoundLength = 13510
+        },
+        voice_jp_story_1003_100311_191CA000_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100311_191CA000_m",
+          SoundLength = 13020
         },
         voice_jp_story_1003_100311_191CA02A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33766,6 +40426,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100311_191CA054_f",
           SoundLength = 3420
         },
+        voice_jp_story_1003_100311_191CA054_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100311_191CA054_m",
+          SoundLength = 3340
+        },
         voice_jp_story_1003_100311_191CA07E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100311_191CA07E",
@@ -33776,15 +40441,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100311_191CA0A8_f",
           SoundLength = 1350
         },
+        voice_jp_story_1003_100311_191CA0A8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100311_191CA0A8_m",
+          SoundLength = 950
+        },
         voice_jp_story_1003_100311_191CA0D2_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100311_191CA0D2_f",
           SoundLength = 9180
         },
+        voice_jp_story_1003_100311_191CA0D2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100311_191CA0D2_m",
+          SoundLength = 10050
+        },
         voice_jp_story_1003_100311_191CA0FC_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100311_191CA0FC_f",
           SoundLength = 10370
+        },
+        voice_jp_story_1003_100311_191CA0FC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100311_191CA0FC_m",
+          SoundLength = 11320
         },
         voice_jp_story_1003_100311_191CA126 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33805,7 +40485,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100311_191CA1CE",
           SoundLength = 1320
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100311_191CA222",
+    MaxKey = "voice_jp_story_1003_100326_191D9642_m",
+    Loader = function()
+      return {
         voice_jp_story_1003_100311_191CA222 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100311_191CA222",
@@ -33841,6 +40529,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100311_191CA31E_f",
           SoundLength = 10480
         },
+        voice_jp_story_1003_100311_191CA31E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100311_191CA31E_m",
+          SoundLength = 10400
+        },
         voice_jp_story_1003_100312_191CAFEA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100312_191CAFEA",
@@ -33851,10 +40544,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100312_191CB014_f",
           SoundLength = 1690
         },
+        voice_jp_story_1003_100312_191CB014_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB014_m",
+          SoundLength = 1610
+        },
         voice_jp_story_1003_100312_191CB03E_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100312_191CB03E_f",
           SoundLength = 3320
+        },
+        voice_jp_story_1003_100312_191CB03E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB03E_m",
+          SoundLength = 3150
         },
         voice_jp_story_1003_100312_191CB068 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33866,10 +40569,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100312_191CB0BC_f",
           SoundLength = 12090
         },
+        voice_jp_story_1003_100312_191CB0BC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB0BC_m",
+          SoundLength = 10690
+        },
         voice_jp_story_1003_100312_191CB110_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100312_191CB110_f",
           SoundLength = 5850
+        },
+        voice_jp_story_1003_100312_191CB110_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB110_m",
+          SoundLength = 5690
         },
         voice_jp_story_1003_100312_191CB13A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33881,10 +40594,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100312_191CB164_f",
           SoundLength = 5990
         },
+        voice_jp_story_1003_100312_191CB164_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB164_m",
+          SoundLength = 5490
+        },
         voice_jp_story_1003_100312_191CB18E_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100312_191CB18E_f",
           SoundLength = 4350
+        },
+        voice_jp_story_1003_100312_191CB18E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB18E_m",
+          SoundLength = 3930
         },
         voice_jp_story_1003_100312_191CB1B8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33901,6 +40624,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100312_191CB20C_f",
           SoundLength = 5830
         },
+        voice_jp_story_1003_100312_191CB20C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB20C_m",
+          SoundLength = 5070
+        },
         voice_jp_story_1003_100312_191CB236 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100312_191CB236",
@@ -33910,6 +40638,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100312_191CB260_f",
           SoundLength = 6370
+        },
+        voice_jp_story_1003_100312_191CB260_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100312_191CB260_m",
+          SoundLength = 5950
         },
         voice_jp_story_1003_100313_191CC052 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33936,6 +40669,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100313_191CC0FA_f",
           SoundLength = 4290
         },
+        voice_jp_story_1003_100313_191CC0FA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100313_191CC0FA_m",
+          SoundLength = 3480
+        },
         voice_jp_story_1003_100313_191CC124 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100313_191CC124",
@@ -33945,6 +40683,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100313_191CC14E_f",
           SoundLength = 11660
+        },
+        voice_jp_story_1003_100313_191CC14E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100313_191CC14E_m",
+          SoundLength = 11380
         },
         voice_jp_story_1003_100313_191CC178 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -33965,6 +40708,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100313_191CC1F6_f",
           SoundLength = 4820
+        },
+        voice_jp_story_1003_100313_191CC1F6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100313_191CC1F6_m",
+          SoundLength = 4800
         },
         voice_jp_story_1003_100314_191CD0BA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34024,7 +40772,7 @@ local Data = {
         voice_jp_story_1003_100315_191CE29C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100315_191CE29C",
-          SoundLength = 7390
+          SoundLength = 11720
         },
         voice_jp_story_1003_100315_191CE2C6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34041,6 +40789,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100315_191CE31A_f",
           SoundLength = 5310
         },
+        voice_jp_story_1003_100315_191CE31A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100315_191CE31A_m",
+          SoundLength = 5510
+        },
         voice_jp_story_1003_100315_191CE344 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100315_191CE344",
@@ -34050,6 +40803,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100316_191CF18A_f",
           SoundLength = 2570
+        },
+        voice_jp_story_1003_100316_191CF18A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100316_191CF18A_m",
+          SoundLength = 2770
         },
         voice_jp_story_1003_100316_191CF1B4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34086,15 +40844,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100317_191D0246_f",
           SoundLength = 2440
         },
+        voice_jp_story_1003_100317_191D0246_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100317_191D0246_m",
+          SoundLength = 2220
+        },
         voice_jp_story_1003_100317_191D0270_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100317_191D0270_f",
           SoundLength = 9510
         },
+        voice_jp_story_1003_100317_191D0270_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100317_191D0270_m",
+          SoundLength = 9950
+        },
         voice_jp_story_1003_100317_191D029A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100317_191D029A_f",
           SoundLength = 6390
+        },
+        voice_jp_story_1003_100317_191D029A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100317_191D029A_m",
+          SoundLength = 6220
         },
         voice_jp_story_1003_100317_191D02C4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34126,6 +40899,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100318_191D12AE",
           SoundLength = 3510
         },
+        voice_jp_story_1003_100318_191D12D8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100318_191D12D8",
+          SoundLength = 10640
+        },
         voice_jp_story_1003_100318_191D12D801 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100318_191D12D801",
@@ -34151,15 +40929,35 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100318_191D1380_f",
           SoundLength = 1530
         },
+        voice_jp_story_1003_100318_191D1380_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100318_191D1380_m",
+          SoundLength = 1710
+        },
+        voice_jp_story_1003_100318_191D13AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100318_191D13AA",
+          SoundLength = 13880
+        },
         voice_jp_story_1003_100318_191D13D4_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100318_191D13D4_f",
           SoundLength = 1550
         },
+        voice_jp_story_1003_100318_191D13D4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100318_191D13D4_m",
+          SoundLength = 1580
+        },
         voice_jp_story_1003_100318_191D13FE_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100318_191D13FE_f",
           SoundLength = 5700
+        },
+        voice_jp_story_1003_100318_191D13FE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100318_191D13FE_m",
+          SoundLength = 6190
         },
         voice_jp_story_1003_100319_191D22C2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34170,6 +40968,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100319_191D22EC_f",
           SoundLength = 4440
+        },
+        voice_jp_story_1003_100319_191D22EC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100319_191D22EC_m",
+          SoundLength = 4210
         },
         voice_jp_story_1003_100319_191D2316 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34266,10 +41069,40 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100321_191D450C_f",
           SoundLength = 7220
         },
+        voice_jp_story_1003_100321_191D450C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100321_191D450C_m",
+          SoundLength = 6500
+        },
+        voice_jp_story_1003_100321_191D450D = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100321_191D450D",
+          SoundLength = 6440
+        },
+        voice_jp_story_1003_100321_191D450E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100321_191D450E",
+          SoundLength = 8130
+        },
+        voice_jp_story_1003_100321_191D450F = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100321_191D450F",
+          SoundLength = 6130
+        },
         voice_jp_story_1003_100321_191D4510 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100321_191D4510",
           SoundLength = 12580
+        },
+        voice_jp_story_1003_100321_191D4511 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100321_191D4511",
+          SoundLength = 6620
+        },
+        voice_jp_story_1003_100321_191D4512 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100321_191D4512",
+          SoundLength = 1320
         },
         voice_jp_story_1003_100321_191D4513 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34291,6 +41124,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100322_191D53FA_f",
           SoundLength = 3670
         },
+        voice_jp_story_1003_100322_191D53FA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100322_191D53FA_m",
+          SoundLength = 3210
+        },
         voice_jp_story_1003_100322_191D5424 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100322_191D5424",
@@ -34300,6 +41138,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100322_191D544E_f",
           SoundLength = 2850
+        },
+        voice_jp_story_1003_100322_191D544E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100322_191D544E_m",
+          SoundLength = 3030
         },
         voice_jp_story_1003_100322_191D5478 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34320,6 +41163,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100322_191D5521_f",
           SoundLength = 10850
+        },
+        voice_jp_story_1003_100322_191D5521_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100322_191D5521_m",
+          SoundLength = 10350
         },
         voice_jp_story_1003_100322_191D554A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34376,6 +41224,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100323_191D655E_f",
           SoundLength = 3780
         },
+        voice_jp_story_1003_100323_191D655E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100323_191D655E_m",
+          SoundLength = 3970
+        },
         voice_jp_story_1003_100323_191D6588 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100323_191D6588",
@@ -34396,6 +41249,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100323_191D6606_f",
           SoundLength = 6520
         },
+        voice_jp_story_1003_100323_191D6606_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100323_191D6606_m",
+          SoundLength = 5850
+        },
         voice_jp_story_1003_100323_191D6630 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100323_191D6630",
@@ -34405,6 +41263,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100323_191D665A_f",
           SoundLength = 3600
+        },
+        voice_jp_story_1003_100323_191D665A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100323_191D665A_m",
+          SoundLength = 3260
         },
         voice_jp_story_1003_100323_191D6684 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34421,19 +41284,16 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100323_191D66D8_f",
           SoundLength = 9640
         },
+        voice_jp_story_1003_100323_191D66D8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100323_191D66D8_m",
+          SoundLength = 8800
+        },
         voice_jp_story_1003_100323_191D6702 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100323_191D6702",
           SoundLength = 6780
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1003_100324_191D74CA",
-    MaxKey = "voice_jp_story_1003_100336_191E3A7C_f",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1003_100324_191D74CA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100324_191D74CA",
@@ -34454,6 +41314,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100324_191D7548_f",
           SoundLength = 12680
         },
+        voice_jp_story_1003_100324_191D7548_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100324_191D7548_m",
+          SoundLength = 14340
+        },
         voice_jp_story_1003_100325_191D8532 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100325_191D8532",
@@ -34463,6 +41328,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100325_191D855D_f",
           SoundLength = 5900
+        },
+        voice_jp_story_1003_100325_191D855D_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100325_191D855D_m",
+          SoundLength = 5660
         },
         voice_jp_story_1003_100325_191D85B0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34534,6 +41404,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100325_191D87D2_f",
           SoundLength = 9680
         },
+        voice_jp_story_1003_100325_191D87D2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100325_191D87D2_m",
+          SoundLength = 10400
+        },
         voice_jp_story_1003_100325_191D87FC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100325_191D87FC",
@@ -34548,6 +41423,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100325_191D887A_f",
           SoundLength = 4390
+        },
+        voice_jp_story_1003_100325_191D887A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100325_191D887A_m",
+          SoundLength = 4600
         },
         voice_jp_story_1003_100325_191D88A4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34574,6 +41454,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100325_191D89CA",
           SoundLength = 8160
         },
+        voice_jp_story_1003_100325_191D89F4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100325_191D89F4",
+          SoundLength = 8060
+        },
         voice_jp_story_1003_100326_191D959A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100326_191D959A",
@@ -34594,11 +41479,29 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100326_191D9618_f",
           SoundLength = 7460
         },
+        voice_jp_story_1003_100326_191D9618_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100326_191D9618_m",
+          SoundLength = 7160
+        },
         voice_jp_story_1003_100326_191D9642_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100326_191D9642_f",
           SoundLength = 3780
         },
+        voice_jp_story_1003_100326_191D9642_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100326_191D9642_m",
+          SoundLength = 3700
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100326_191D966C",
+    MaxKey = "voice_jp_story_1003_100336_191E3B78_m",
+    Loader = function()
+      return {
         voice_jp_story_1003_100326_191D966C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100326_191D966C",
@@ -34608,6 +41511,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100326_191D9696_f",
           SoundLength = 2220
+        },
+        voice_jp_story_1003_100326_191D9696_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100326_191D9696_m",
+          SoundLength = 2360
         },
         voice_jp_story_1003_100326_191D96C0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34619,6 +41527,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100326_191D96EA_f",
           SoundLength = 6070
         },
+        voice_jp_story_1003_100326_191D96EA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100326_191D96EA_m",
+          SoundLength = 5410
+        },
         voice_jp_story_1003_100326_191D96EB = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100326_191D96EB",
@@ -34628,6 +41541,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100326_191D96EC_f",
           SoundLength = 1980
+        },
+        voice_jp_story_1003_100326_191D96EC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100326_191D96EC_m",
+          SoundLength = 1800
         },
         voice_jp_story_1003_100326_191D9714 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34789,6 +41707,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100327_191DAB18_f",
           SoundLength = 3650
         },
+        voice_jp_story_1003_100327_191DAB18_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100327_191DAB18_m",
+          SoundLength = 4150
+        },
         voice_jp_story_1003_100327_191DAB42 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100327_191DAB42",
@@ -34864,6 +41787,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100328_191DB73C_f",
           SoundLength = 690
         },
+        voice_jp_story_1003_100328_191DB73C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100328_191DB73C_m",
+          SoundLength = 630
+        },
         voice_jp_story_1003_100328_191DB766 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100328_191DB766",
@@ -34929,6 +41857,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100328_191DB9B2_f",
           SoundLength = 2920
         },
+        voice_jp_story_1003_100328_191DB9B2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100328_191DB9B2_m",
+          SoundLength = 2880
+        },
         voice_jp_story_1003_100328_191DB9DC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100328_191DB9DC",
@@ -34943,6 +41876,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100328_191DBA84_f",
           SoundLength = 6400
+        },
+        voice_jp_story_1003_100328_191DBA84_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100328_191DBA84_m",
+          SoundLength = 6060
         },
         voice_jp_story_1003_100328_191DBAAE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -34974,6 +41912,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100329_191DC6FC_f",
           SoundLength = 4350
         },
+        voice_jp_story_1003_100329_191DC6FC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100329_191DC6FC_m",
+          SoundLength = 4300
+        },
         voice_jp_story_1003_100329_191DC726 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100329_191DC726",
@@ -34988,6 +41931,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100329_191DC77A_f",
           SoundLength = 7680
+        },
+        voice_jp_story_1003_100329_191DC77A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100329_191DC77A_m",
+          SoundLength = 8270
         },
         voice_jp_story_1003_100329_191DC7A4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35024,6 +41972,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100330_191DD73A_f",
           SoundLength = 1710
         },
+        voice_jp_story_1003_100330_191DD73A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100330_191DD73A_m",
+          SoundLength = 1230
+        },
         voice_jp_story_1003_100330_191DD764 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100330_191DD764",
@@ -35038,6 +41991,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100330_191DD7B8_f",
           SoundLength = 4610
+        },
+        voice_jp_story_1003_100330_191DD7B8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100330_191DD7B8_m",
+          SoundLength = 5710
         },
         voice_jp_story_1003_100330_191DD7E2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35093,6 +42051,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100331_191DE8C8_f",
           SoundLength = 2100
+        },
+        voice_jp_story_1003_100331_191DE8C8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100331_191DE8C8_m",
+          SoundLength = 1860
         },
         voice_jp_story_1003_100331_191DE8F2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35169,6 +42132,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100332_191DF888",
           SoundLength = 7160
         },
+        voice_jp_story_1003_100332_191DF8B2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100332_191DF8B2",
+          SoundLength = 7810
+        },
         voice_jp_story_1003_100332_191DF8DC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100332_191DF8DC",
@@ -35183,6 +42151,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100333_191E089C_f",
           SoundLength = 3680
+        },
+        voice_jp_story_1003_100333_191E089C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100333_191E089C_m",
+          SoundLength = 3250
         },
         voice_jp_story_1003_100333_191E08C6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35223,6 +42196,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100333_191E09EC_f",
           SoundLength = 1550
+        },
+        voice_jp_story_1003_100333_191E09EC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100333_191E09EC_m",
+          SoundLength = 1610
         },
         voice_jp_story_1003_100333_191E0A16 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35274,6 +42252,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100333_191E0B90_f",
           SoundLength = 3730
         },
+        voice_jp_story_1003_100333_191E0B90_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100333_191E0B90_m",
+          SoundLength = 3750
+        },
         voice_jp_story_1003_100333_191E0BBA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100333_191E0BBA",
@@ -35289,6 +42272,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100333_191E0C0E_f",
           SoundLength = 2950
         },
+        voice_jp_story_1003_100333_191E0C0E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100333_191E0C0E_m",
+          SoundLength = 2970
+        },
         voice_jp_story_1003_100333_191E0C38 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100333_191E0C38",
@@ -35298,6 +42286,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100333_191E0C62",
           SoundLength = 2440
+        },
+        voice_jp_story_1003_100335_191E2942 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100335_191E2942",
+          SoundLength = 1000
         },
         voice_jp_story_1003_100335_191E2942a = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35314,6 +42307,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100335_191E296C_f",
           SoundLength = 4000
         },
+        voice_jp_story_1003_100335_191E296C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100335_191E296C_m",
+          SoundLength = 3840
+        },
         voice_jp_story_1003_100335_191E2996 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100335_191E2996",
@@ -35323,6 +42321,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100335_191E29C0_f",
           SoundLength = 1320
+        },
+        voice_jp_story_1003_100335_191E29C0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100335_191E29C0_m",
+          SoundLength = 1150
         },
         voice_jp_story_1003_100335_191E29EA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35394,6 +42397,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100335_191E2C60_f",
           SoundLength = 3180
         },
+        voice_jp_story_1003_100335_191E2C60_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100335_191E2C60_m",
+          SoundLength = 2970
+        },
         voice_jp_story_1003_100335_191E2CB4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100335_191E2CB4",
@@ -35402,7 +42410,12 @@ local Data = {
         voice_jp_story_1003_100335_191E2D32 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100335_191E2D32",
-          SoundLength = 3600
+          SoundLength = 5820
+        },
+        voice_jp_story_1003_100335_191E2D35 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100335_191E2D35",
+          SoundLength = 5050
         },
         voice_jp_story_1003_100336_191E39AA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35414,6 +42427,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100336_191E39D4_f",
           SoundLength = 4270
         },
+        voice_jp_story_1003_100336_191E39D4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100336_191E39D4_m",
+          SoundLength = 4120
+        },
         voice_jp_story_1003_100336_191E39FE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100336_191E39FE",
@@ -35424,6 +42442,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100336_191E3A28_f",
           SoundLength = 5610
         },
+        voice_jp_story_1003_100336_191E3A28_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100336_191E3A28_m",
+          SoundLength = 6160
+        },
         voice_jp_story_1003_100336_191E3A52 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100336_191E3A52",
@@ -35433,15 +42456,12 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100336_191E3A7C_f",
           SoundLength = 4030
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1003_100336_191E3AA6",
-    MaxKey = "voice_jp_story_1003_100345_191ECF9E",
-    Loader = function()
-      return {
+        },
+        voice_jp_story_1003_100336_191E3A7C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100336_191E3A7C_m",
+          SoundLength = 4110
+        },
         voice_jp_story_1003_100336_191E3AA6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100336_191E3AA6",
@@ -35462,6 +42482,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100336_191E3B24_f",
           SoundLength = 2420
         },
+        voice_jp_story_1003_100336_191E3B24_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100336_191E3B24_m",
+          SoundLength = 2510
+        },
         voice_jp_story_1003_100336_191E3B4E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100336_191E3B4E",
@@ -35472,15 +42497,33 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100336_191E3B78_f",
           SoundLength = 6170
         },
+        voice_jp_story_1003_100336_191E3B78_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100336_191E3B78_m",
+          SoundLength = 5160
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100337_191E4A12",
+    MaxKey = "voice_jp_story_1003_100344_191EBCEA",
+    Loader = function()
+      return {
         voice_jp_story_1003_100337_191E4A12 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100337_191E4A12",
-          SoundLength = 1880
+          SoundLength = 6780
         },
         voice_jp_story_1003_100337_191E4A3C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100337_191E4A3C_f",
           SoundLength = 1640
+        },
+        voice_jp_story_1003_100337_191E4A3C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100337_191E4A3C_m",
+          SoundLength = 1360
         },
         voice_jp_story_1003_100337_191E4A66 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35502,6 +42545,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100337_191E4AE4_f",
           SoundLength = 1150
         },
+        voice_jp_story_1003_100337_191E4AE4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100337_191E4AE4_m",
+          SoundLength = 900
+        },
         voice_jp_story_1003_100337_191E4B0E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100337_191E4B0E",
@@ -35516,6 +42564,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100337_191E4B62_f",
           SoundLength = 2450
+        },
+        voice_jp_story_1003_100337_191E4B62_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100337_191E4B62_m",
+          SoundLength = 3010
         },
         voice_jp_story_1003_100337_191E4B8C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35562,6 +42615,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100338_191E5B4C_f",
           SoundLength = 2610
         },
+        voice_jp_story_1003_100338_191E5B4C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100338_191E5B4C_m",
+          SoundLength = 2180
+        },
         voice_jp_story_1003_100338_191E5B76 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100338_191E5B76",
@@ -35582,6 +42640,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100339_191E6B8A_f",
           SoundLength = 3640
         },
+        voice_jp_story_1003_100339_191E6B8A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100339_191E6B8A_m",
+          SoundLength = 3360
+        },
         voice_jp_story_1003_100339_191E6BB4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100339_191E6BB4",
@@ -35591,6 +42654,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100339_191E6BDE_f",
           SoundLength = 5320
+        },
+        voice_jp_story_1003_100339_191E6BDE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100339_191E6BDE_m",
+          SoundLength = 4660
         },
         voice_jp_story_1003_100339_191E6C08 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35662,10 +42730,15 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100339_191E6E2A",
           SoundLength = 21760
         },
+        voice_jp_story_1003_100339_191E6E2B = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100339_191E6E2B",
+          SoundLength = 19580
+        },
         voice_jp_story_1003_100339_191E6E54 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100339_191E6E54",
-          SoundLength = 19580
+          SoundLength = 9590
         },
         voice_jp_story_1003_100339_191E6E7E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35867,6 +42940,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100339_191E74E4_f",
           SoundLength = 5370
         },
+        voice_jp_story_1003_100339_191E74E4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100339_191E74E4_m",
+          SoundLength = 5360
+        },
         voice_jp_story_1003_100339_191E750E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100339_191E750E",
@@ -35881,6 +42959,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100339_191E7562_f",
           SoundLength = 6650
+        },
+        voice_jp_story_1003_100339_191E7562_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100339_191E7562_m",
+          SoundLength = 7020
         },
         voice_jp_story_1003_100339_191E758C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35937,6 +43020,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100340_191E7B9E_f",
           SoundLength = 3360
         },
+        voice_jp_story_1003_100340_191E7B9E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100340_191E7B9E_m",
+          SoundLength = 2260
+        },
         voice_jp_story_1003_100340_191E7BC8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100340_191E7BC8",
@@ -35956,6 +43044,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100340_191E7C46_f",
           SoundLength = 2820
+        },
+        voice_jp_story_1003_100340_191E7C46_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100340_191E7C46_m",
+          SoundLength = 2580
         },
         voice_jp_story_1003_100340_191E7C70 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -35977,6 +43070,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100341_191E8C06_f",
           SoundLength = 3720
         },
+        voice_jp_story_1003_100341_191E8C06_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100341_191E8C06_m",
+          SoundLength = 3990
+        },
         voice_jp_story_1003_100341_191E8CAE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100341_191E8CAE",
@@ -35986,6 +43084,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100341_191E8CD8_f",
           SoundLength = 7240
+        },
+        voice_jp_story_1003_100341_191E8CD8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100341_191E8CD8_m",
+          SoundLength = 6780
         },
         voice_jp_story_1003_100341_191E8D02 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36012,40 +43115,90 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100342_191E9C6E_f",
           SoundLength = 5360
         },
+        voice_jp_story_1003_100342_191E9C6E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9C6E_m",
+          SoundLength = 5340
+        },
         voice_jp_story_1003_100342_191E9C98_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9C98_f",
           SoundLength = 10120
+        },
+        voice_jp_story_1003_100342_191E9C98_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9C98_m",
+          SoundLength = 12170
+        },
+        voice_jp_story_1003_100342_191E9CC2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9CC2",
+          SoundLength = 13880
+        },
+        voice_jp_story_1003_100342_191E9CC201 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9CC201",
+          SoundLength = 13880
+        },
+        voice_jp_story_1003_100342_191E9CEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9CEC",
+          SoundLength = 9420
         },
         voice_jp_story_1003_100342_191E9D16_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9D16_f",
           SoundLength = 9100
         },
+        voice_jp_story_1003_100342_191E9D16_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9D16_m",
+          SoundLength = 8650
+        },
         voice_jp_story_1003_100342_191E9D40_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9D40_f",
           SoundLength = 780
         },
+        voice_jp_story_1003_100342_191E9D40_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9D40_m",
+          SoundLength = 800
+        },
         voice_jp_story_1003_100342_191E9D6A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9D6A",
-          SoundLength = 1510
+          SoundLength = 3280
         },
         voice_jp_story_1003_100342_191E9DBE_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9DBE_f",
           SoundLength = 5670
         },
+        voice_jp_story_1003_100342_191E9DBE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9DBE_m",
+          SoundLength = 5330
+        },
         voice_jp_story_1003_100342_191E9DE8_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9DE8_f",
           SoundLength = 6470
         },
+        voice_jp_story_1003_100342_191E9DE8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9DE8_m",
+          SoundLength = 6300
+        },
         voice_jp_story_1003_100342_191E9E12_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9E12_f",
           SoundLength = 8170
+        },
+        voice_jp_story_1003_100342_191E9E12_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9E12_m",
+          SoundLength = 7250
         },
         voice_jp_story_1003_100342_191E9E3C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36072,20 +43225,40 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100342_191E9F0E_f",
           SoundLength = 600
         },
+        voice_jp_story_1003_100342_191E9F0E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9F0E_m",
+          SoundLength = 590
+        },
         voice_jp_story_1003_100342_191E9F38_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9F38_f",
           SoundLength = 3110
+        },
+        voice_jp_story_1003_100342_191E9F38_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9F38_m",
+          SoundLength = 3570
         },
         voice_jp_story_1003_100342_191E9F62_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9F62_f",
           SoundLength = 19160
         },
+        voice_jp_story_1003_100342_191E9F62_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9F62_m",
+          SoundLength = 18120
+        },
         voice_jp_story_1003_100342_191E9F8C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100342_191E9F8C_f",
           SoundLength = 9050
+        },
+        voice_jp_story_1003_100342_191E9F8C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100342_191E9F8C_m",
+          SoundLength = 9290
         },
         voice_jp_story_1003_100342_191E9FB6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36147,15 +43320,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100343_191EADA8_f",
           SoundLength = 8850
         },
+        voice_jp_story_1003_100343_191EADA8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EADA8_m",
+          SoundLength = 9030
+        },
         voice_jp_story_1003_100343_191EADD2_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100343_191EADD2_f",
           SoundLength = 7640
         },
+        voice_jp_story_1003_100343_191EADD2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EADD2_m",
+          SoundLength = 8520
+        },
         voice_jp_story_1003_100343_191EADFC_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100343_191EADFC_f",
           SoundLength = 10700
+        },
+        voice_jp_story_1003_100343_191EADFC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EADFC_m",
+          SoundLength = 10850
         },
         voice_jp_story_1003_100343_191EAE26 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36166,6 +43354,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100343_191EAE50_f",
           SoundLength = 9670
+        },
+        voice_jp_story_1003_100343_191EAE50_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EAE50_m",
+          SoundLength = 9820
         },
         voice_jp_story_1003_100343_191EAE7A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36201,6 +43394,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100343_191EAF76_f",
           SoundLength = 950
+        },
+        voice_jp_story_1003_100343_191EAF76_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EAF76_m",
+          SoundLength = 1320
         },
         voice_jp_story_1003_100343_191EAFA0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36257,15 +43455,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100343_191EB144_f",
           SoundLength = 3040
         },
+        voice_jp_story_1003_100343_191EB144_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EB144_m",
+          SoundLength = 3110
+        },
         voice_jp_story_1003_100343_191EB16E_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100343_191EB16E_f",
           SoundLength = 6760
         },
+        voice_jp_story_1003_100343_191EB16E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EB16E_m",
+          SoundLength = 6740
+        },
         voice_jp_story_1003_100343_191EB198_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100343_191EB198_f",
           SoundLength = 4040
+        },
+        voice_jp_story_1003_100343_191EB198_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100343_191EB198_m",
+          SoundLength = 3430
         },
         voice_jp_story_1003_100343_191EB1C2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36296,7 +43509,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100344_191EBCEA",
           SoundLength = 3230
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100344_191EBD14",
+    MaxKey = "voice_jp_story_1003_100352_191F43C6",
+    Loader = function()
+      return {
         voice_jp_story_1003_100344_191EBD14 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100344_191EBD14",
@@ -36306,6 +43527,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100344_191EBD3E_f",
           SoundLength = 1040
+        },
+        voice_jp_story_1003_100344_191EBD3E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100344_191EBD3E_m",
+          SoundLength = 880
         },
         voice_jp_story_1003_100344_191EBD68 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36321,6 +43547,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100344_191EBDE6_f",
           SoundLength = 6150
+        },
+        voice_jp_story_1003_100344_191EBDE6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100344_191EBDE6_m",
+          SoundLength = 5660
         },
         voice_jp_story_1003_100344_191EBE10 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36342,6 +43573,26 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100344_191EBE3C",
           SoundLength = 6660
         },
+        voice_jp_story_1003_100344_191EBE3D = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100344_191EBE3D",
+          SoundLength = 6390
+        },
+        voice_jp_story_1003_100344_191EBE3E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100344_191EBE3E",
+          SoundLength = 15430
+        },
+        voice_jp_story_1003_100344_191EBE40 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100344_191EBE40",
+          SoundLength = 4570
+        },
+        voice_jp_story_1003_100344_191EBE41 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100344_191EBE41",
+          SoundLength = 5910
+        },
         voice_jp_story_1003_100344_191EBE42 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100344_191EBE42",
@@ -36360,12 +43611,17 @@ local Data = {
         voice_jp_story_1003_100344_191EBE64 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100344_191EBE64",
-          SoundLength = 6020
+          SoundLength = 5340
         },
         voice_jp_story_1003_100344_191EBE8E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100344_191EBE8E",
           SoundLength = 7750
+        },
+        voice_jp_story_1003_100344_191EBEB8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100344_191EBEB8",
+          SoundLength = 3650
         },
         voice_jp_story_1003_100345_191ECD52 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36441,15 +43697,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100345_191ECF9E",
           SoundLength = 12200
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1003_100345_191ECFC8",
-    MaxKey = "voice_jp_story_1003_100354_191F6178",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1003_100345_191ECFC8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100345_191ECFC8",
@@ -36518,7 +43766,12 @@ local Data = {
         voice_jp_story_1003_100345_191ED268_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100345_191ED268_f",
-          SoundLength = 7370
+          SoundLength = 7060
+        },
+        voice_jp_story_1003_100345_191ED268_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100345_191ED268_m",
+          SoundLength = 5920
         },
         voice_jp_story_1003_100345_191ED292 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36675,6 +43928,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100347_191EEF1E_f",
           SoundLength = 3130
         },
+        voice_jp_story_1003_100347_191EEF1E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100347_191EEF1E_m",
+          SoundLength = 3180
+        },
         voice_jp_story_1003_100347_191EEF48 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100347_191EEF48",
@@ -36715,6 +43973,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100347_191EF06E_f",
           SoundLength = 6380
         },
+        voice_jp_story_1003_100347_191EF06E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100347_191EF06E_m",
+          SoundLength = 6340
+        },
         voice_jp_story_1003_100347_191EF098 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100347_191EF098",
@@ -36753,22 +44016,37 @@ local Data = {
         voice_jp_story_1003_100348_191EFF5C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191EFF5C_f",
-          SoundLength = 8200
+          SoundLength = 7940
+        },
+        voice_jp_story_1003_100348_191EFF5C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191EFF5C_m",
+          SoundLength = 7550
         },
         voice_jp_story_1003_100348_191EFF86 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191EFF86",
-          SoundLength = 6970
+          SoundLength = 8540
         },
         voice_jp_story_1003_100348_191EFFB0_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191EFFB0_f",
           SoundLength = 5310
         },
+        voice_jp_story_1003_100348_191EFFB0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191EFFB0_m",
+          SoundLength = 5550
+        },
         voice_jp_story_1003_100348_191EFFDA_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191EFFDA_f",
           SoundLength = 11640
+        },
+        voice_jp_story_1003_100348_191EFFDA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191EFFDA_m",
+          SoundLength = 12810
         },
         voice_jp_story_1003_100348_191F0004 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36783,22 +44061,87 @@ local Data = {
         voice_jp_story_1003_100348_191F0058_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F0058_f",
-          SoundLength = 9700
+          SoundLength = 12460
+        },
+        voice_jp_story_1003_100348_191F0058_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0058_m",
+          SoundLength = 13960
         },
         voice_jp_story_1003_100348_191F0082 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F0082",
           SoundLength = 1090
         },
+        voice_jp_story_1003_100348_191F0101 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0101",
+          SoundLength = 4530
+        },
+        voice_jp_story_1003_100348_191F0102 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0102",
+          SoundLength = 8600
+        },
+        voice_jp_story_1003_100348_191F0103 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0103",
+          SoundLength = 5280
+        },
+        voice_jp_story_1003_100348_191F0104 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0104",
+          SoundLength = 5140
+        },
+        voice_jp_story_1003_100348_191F0105 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0105",
+          SoundLength = 4100
+        },
+        voice_jp_story_1003_100348_191F0106_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0106_f",
+          SoundLength = 1550
+        },
+        voice_jp_story_1003_100348_191F0106_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0106_m",
+          SoundLength = 1220
+        },
+        voice_jp_story_1003_100348_191F0107 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0107",
+          SoundLength = 6490
+        },
+        voice_jp_story_1003_100348_191F0108 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0108",
+          SoundLength = 7040
+        },
+        voice_jp_story_1003_100348_191F0109_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0109_f",
+          SoundLength = 4910
+        },
+        voice_jp_story_1003_100348_191F0109_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0109_m",
+          SoundLength = 5460
+        },
         voice_jp_story_1003_100348_191F012A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F012A",
-          SoundLength = 3770
+          SoundLength = 7530
         },
         voice_jp_story_1003_100348_191F0154_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F0154_f",
           SoundLength = 13880
+        },
+        voice_jp_story_1003_100348_191F0154_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0154_m",
+          SoundLength = 14420
         },
         voice_jp_story_1003_100348_191F017E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36813,27 +44156,42 @@ local Data = {
         voice_jp_story_1003_100348_191F01D2_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F01D2_f",
-          SoundLength = 3550
+          SoundLength = 13350
+        },
+        voice_jp_story_1003_100348_191F01D2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F01D2_m",
+          SoundLength = 13970
         },
         voice_jp_story_1003_100348_191F01FC_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F01FC_f",
           SoundLength = 7910
         },
+        voice_jp_story_1003_100348_191F01FC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F01FC_m",
+          SoundLength = 7840
+        },
         voice_jp_story_1003_100348_191F0226 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F0226",
-          SoundLength = 6620
+          SoundLength = 12190
         },
         voice_jp_story_1003_100348_191F0250_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100348_191F0250_f",
           SoundLength = 2960
         },
+        voice_jp_story_1003_100348_191F0250_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100348_191F0250_m",
+          SoundLength = 3010
+        },
         voice_jp_story_1003_100349_191F0EF2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100349_191F0EF2",
-          SoundLength = 9290
+          SoundLength = 13270
         },
         voice_jp_story_1003_100349_191F0F1C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36849,6 +44207,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100349_191F0F70_f",
           SoundLength = 1040
+        },
+        voice_jp_story_1003_100349_191F0F70_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100349_191F0F70_m",
+          SoundLength = 840
         },
         voice_jp_story_1003_100349_191F0F9A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36870,6 +44233,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100349_191F1018_f",
           SoundLength = 1940
         },
+        voice_jp_story_1003_100349_191F1018_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100349_191F1018_m",
+          SoundLength = 1760
+        },
         voice_jp_story_1003_100349_191F1042 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100349_191F1042",
@@ -36884,6 +44252,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100349_191F1096_f",
           SoundLength = 850
+        },
+        voice_jp_story_1003_100349_191F1096_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100349_191F1096_m",
+          SoundLength = 900
         },
         voice_jp_story_1003_100349_191F10C0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36935,10 +44308,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100350_191F20D4_f",
           SoundLength = 1510
         },
+        voice_jp_story_1003_100350_191F20D4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100350_191F20D4_m",
+          SoundLength = 1110
+        },
         voice_jp_story_1003_100350_191F20FE_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100350_191F20FE_f",
           SoundLength = 6350
+        },
+        voice_jp_story_1003_100350_191F20FE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100350_191F20FE_m",
+          SoundLength = 6090
         },
         voice_jp_story_1003_100350_191F2128 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -36964,6 +44347,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100350_191F21D0_f",
           SoundLength = 1980
+        },
+        voice_jp_story_1003_100350_191F21D0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100350_191F21D0_m",
+          SoundLength = 1600
         },
         voice_jp_story_1003_100350_191F21FA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37025,6 +44413,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100352_191F407E_f",
           SoundLength = 2270
         },
+        voice_jp_story_1003_100352_191F407E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F407E_m",
+          SoundLength = 2090
+        },
         voice_jp_story_1003_100352_191F40A8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F40A8",
@@ -37060,6 +44453,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100352_191F41F8_f",
           SoundLength = 4210
         },
+        voice_jp_story_1003_100352_191F41F8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F41F8_m",
+          SoundLength = 3970
+        },
         voice_jp_story_1003_100352_191F424C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F424C",
@@ -37074,6 +44472,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F42A0_f",
           SoundLength = 690
+        },
+        voice_jp_story_1003_100352_191F42A0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F42A0_m",
+          SoundLength = 490
         },
         voice_jp_story_1003_100352_191F42CA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37105,11 +44508,24 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100352_191F439C_f",
           SoundLength = 2220
         },
+        voice_jp_story_1003_100352_191F439C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F439C_m",
+          SoundLength = 2090
+        },
         voice_jp_story_1003_100352_191F43C6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F43C6",
           SoundLength = 7150
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100352_191F43F0",
+    MaxKey = "voice_jp_story_1003_100360_191FC3BE",
+    Loader = function()
+      return {
         voice_jp_story_1003_100352_191F43F0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F43F0",
@@ -37180,6 +44596,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100352_191F4666_f",
           SoundLength = 2710
         },
+        voice_jp_story_1003_100352_191F4666_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F4666_m",
+          SoundLength = 3020
+        },
         voice_jp_story_1003_100352_191F4690 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F4690",
@@ -37200,25 +44621,50 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100352_191F470E_f",
           SoundLength = 4480
         },
+        voice_jp_story_1003_100352_191F470E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F470E_m",
+          SoundLength = 4370
+        },
         voice_jp_story_1003_100352_191F4738_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F4738_f",
           SoundLength = 7250
+        },
+        voice_jp_story_1003_100352_191F4738_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F4738_m",
+          SoundLength = 7030
         },
         voice_jp_story_1003_100352_191F4762_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F4762_f",
           SoundLength = 5630
         },
+        voice_jp_story_1003_100352_191F4762_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F4762_m",
+          SoundLength = 5490
+        },
         voice_jp_story_1003_100352_191F478C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F478C_f",
           SoundLength = 10140
         },
+        voice_jp_story_1003_100352_191F478C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F478C_m",
+          SoundLength = 9900
+        },
         voice_jp_story_1003_100352_191F47B6_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F47B6_f",
           SoundLength = 7280
+        },
+        voice_jp_story_1003_100352_191F47B6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F47B6_m",
+          SoundLength = 8370
         },
         voice_jp_story_1003_100352_191F47E0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37229,6 +44675,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100352_191F480A_f",
           SoundLength = 2410
+        },
+        voice_jp_story_1003_100352_191F480A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100352_191F480A_m",
+          SoundLength = 1880
         },
         voice_jp_story_1003_100352_191F4834 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37275,20 +44726,40 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100353_191F50E6_f",
           SoundLength = 6520
         },
+        voice_jp_story_1003_100353_191F50E6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F50E6_m",
+          SoundLength = 7740
+        },
         voice_jp_story_1003_100353_191F5110_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F5110_f",
           SoundLength = 6700
+        },
+        voice_jp_story_1003_100353_191F5110_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F5110_m",
+          SoundLength = 6740
         },
         voice_jp_story_1003_100353_191F513A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F513A_f",
           SoundLength = 2080
         },
+        voice_jp_story_1003_100353_191F513A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F513A_m",
+          SoundLength = 2460
+        },
         voice_jp_story_1003_100353_191F5164_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F5164_f",
           SoundLength = 1530
+        },
+        voice_jp_story_1003_100353_191F5164_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F5164_m",
+          SoundLength = 1300
         },
         voice_jp_story_1003_100353_191F518E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37299,6 +44770,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F51B8_f",
           SoundLength = 990
+        },
+        voice_jp_story_1003_100353_191F51B8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F51B8_m",
+          SoundLength = 950
         },
         voice_jp_story_1003_100353_191F51E2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37314,6 +44790,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F5236_f",
           SoundLength = 6020
+        },
+        voice_jp_story_1003_100353_191F5236_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F5236_m",
+          SoundLength = 7190
         },
         voice_jp_story_1003_100353_191F5260 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37345,6 +44826,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100353_191F5332_f",
           SoundLength = 4660
         },
+        voice_jp_story_1003_100353_191F5332_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F5332_m",
+          SoundLength = 4100
+        },
         voice_jp_story_1003_100353_191F535C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F535C",
@@ -37368,7 +44854,7 @@ local Data = {
         voice_jp_story_1003_100353_191F5404 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F5404",
-          SoundLength = 9880
+          SoundLength = 9120
         },
         voice_jp_story_1003_100353_191F542E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37394,6 +44880,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100353_191F54D6_f",
           SoundLength = 1010
+        },
+        voice_jp_story_1003_100353_191F54D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100353_191F54D6_m",
+          SoundLength = 820
         },
         voice_jp_story_1003_100353_191F5500 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37449,15 +44940,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100354_191F6178",
           SoundLength = 13570
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1003_100354_191F61A2",
-    MaxKey = "voice_jp_story_1003_100362_191FEA4C",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1003_100354_191F61A2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100354_191F61A2",
@@ -37496,12 +44979,12 @@ local Data = {
         voice_jp_story_1003_100354_191F62C8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100354_191F62C8",
-          SoundLength = 5920
+          SoundLength = 6350
         },
         voice_jp_story_1003_100354_191F62F2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100354_191F62F2",
-          SoundLength = 1670
+          SoundLength = 5370
         },
         voice_jp_story_1003_100354_191F631C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37528,6 +45011,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100354_191F63C4_f",
           SoundLength = 6630
         },
+        voice_jp_story_1003_100354_191F63C4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100354_191F63C4_m",
+          SoundLength = 6140
+        },
         voice_jp_story_1003_100354_191F63EE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100354_191F63EE",
@@ -37543,10 +45031,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100354_191F6442_f",
           SoundLength = 4960
         },
+        voice_jp_story_1003_100354_191F6442_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100354_191F6442_m",
+          SoundLength = 5300
+        },
         voice_jp_story_1003_100354_191F646C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100354_191F646C_f",
           SoundLength = 15780
+        },
+        voice_jp_story_1003_100354_191F646C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100354_191F646C_m",
+          SoundLength = 16970
         },
         voice_jp_story_1003_100354_191F6496 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37699,6 +45197,16 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100356_191F82C7",
           SoundLength = 2720
         },
+        voice_jp_story_1003_100356_191F82C8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100356_191F82C8",
+          SoundLength = 2210
+        },
+        voice_jp_story_1003_100356_191F82C9 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100356_191F82C9",
+          SoundLength = 3470
+        },
         voice_jp_story_1003_100356_191F82CA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100356_191F82CA",
@@ -37823,6 +45331,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100358_191F942B",
           SoundLength = 4410
+        },
+        voice_jp_story_1003_100358_191F942C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100358_191F942C",
+          SoundLength = 7480
+        },
+        voice_jp_story_1003_100358_191F942D = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100358_191F942D",
+          SoundLength = 3820
         },
         voice_jp_story_1003_100358_191F942E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -37969,6 +45487,16 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100359_191FB525",
           SoundLength = 3120
         },
+        voice_jp_story_1003_100359_191FB526 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100359_191FB526",
+          SoundLength = 5900
+        },
+        voice_jp_story_1003_100359_191FB527 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100359_191FB527",
+          SoundLength = 4910
+        },
         voice_jp_story_1003_100359_191FB528 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100359_191FB528",
@@ -37987,7 +45515,7 @@ local Data = {
         voice_jp_story_1003_100359_191FB5A2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100359_191FB5A2",
-          SoundLength = 5400
+          SoundLength = 2490
         },
         voice_jp_story_1003_100359_191FB5CC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38008,7 +45536,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100360_191FC3BE",
           SoundLength = 1190
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100360_191FC3E8",
+    MaxKey = "voice_jp_story_1003_100365_19201CAA",
+    Loader = function()
+      return {
         voice_jp_story_1003_100360_191FC3E8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100360_191FC3E8",
@@ -38158,6 +45694,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100360_191FC881",
           SoundLength = 2910
+        },
+        voice_jp_story_1003_100360_191FC882 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100360_191FC882",
+          SoundLength = 5240
+        },
+        voice_jp_story_1003_100360_191FC883 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100360_191FC883",
+          SoundLength = 6620
         },
         voice_jp_story_1003_100360_191FC884 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38468,15 +46014,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100362_191FEA4C",
           SoundLength = 20950
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1003_100362_191FEA76",
-    MaxKey = "voice_jp_story_1003_100375_1920BB7A",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1003_100362_191FEA76 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100362_191FEA76",
@@ -38517,6 +46055,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100363_191FF520",
           SoundLength = 7500
         },
+        voice_jp_story_1003_100363_191FF521 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100363_191FF521",
+          SoundLength = 3610
+        },
         voice_jp_story_1003_100363_191FF522 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100363_191FF522",
@@ -38526,6 +46069,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100363_191FF523",
           SoundLength = 8880
+        },
+        voice_jp_story_1003_100363_191FF524 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100363_191FF524",
+          SoundLength = 5740
         },
         voice_jp_story_1003_100363_191FF525 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38561,6 +46109,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100363_191FF52B",
           SoundLength = 2700
+        },
+        voice_jp_story_1003_100363_191FF52C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100363_191FF52C",
+          SoundLength = 4070
         },
         voice_jp_story_1003_100363_191FF52D = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38712,10 +46265,25 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201572_f",
           SoundLength = 4030
         },
+        voice_jp_story_1003_100365_19201572_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201572_m",
+          SoundLength = 3280
+        },
         voice_jp_story_1003_100365_1920159C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_1920159C",
           SoundLength = 2420
+        },
+        voice_jp_story_1003_100365_1920159C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_1920159C_f",
+          SoundLength = 4790
+        },
+        voice_jp_story_1003_100365_1920159C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_1920159C_m",
+          SoundLength = 4700
         },
         voice_jp_story_1003_100365_192015C6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38730,7 +46298,7 @@ local Data = {
         voice_jp_story_1003_100365_1920161A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_1920161A",
-          SoundLength = 8670
+          SoundLength = 8480
         },
         voice_jp_story_1003_100365_19201644 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38807,6 +46375,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201890_f",
           SoundLength = 3530
         },
+        voice_jp_story_1003_100365_19201890_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201890_m",
+          SoundLength = 3020
+        },
         voice_jp_story_1003_100365_192018BA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_192018BA",
@@ -38832,25 +46405,50 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201962_f",
           SoundLength = 8750
         },
+        voice_jp_story_1003_100365_19201962_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201962_m",
+          SoundLength = 7660
+        },
         voice_jp_story_1003_100365_1920198C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_1920198C_f",
           SoundLength = 10680
+        },
+        voice_jp_story_1003_100365_1920198C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_1920198C_m",
+          SoundLength = 9750
         },
         voice_jp_story_1003_100365_192019B6_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_192019B6_f",
           SoundLength = 7070
         },
+        voice_jp_story_1003_100365_192019B6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_192019B6_m",
+          SoundLength = 6150
+        },
         voice_jp_story_1003_100365_192019E0_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_192019E0_f",
           SoundLength = 13570
         },
+        voice_jp_story_1003_100365_192019E0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_192019E0_m",
+          SoundLength = 13170
+        },
         voice_jp_story_1003_100365_19201A0A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201A0A_f",
           SoundLength = 12130
+        },
+        voice_jp_story_1003_100365_19201A0A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201A0A_m",
+          SoundLength = 11580
         },
         voice_jp_story_1003_100365_19201A34 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38872,10 +46470,15 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201AB2",
           SoundLength = 10130
         },
+        voice_jp_story_1003_100365_19201AB3 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201AB3",
+          SoundLength = 9840
+        },
         voice_jp_story_1003_100365_19201ADC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201ADC",
-          SoundLength = 14780
+          SoundLength = 15000
         },
         voice_jp_story_1003_100365_19201B06 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38917,6 +46520,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201C2C_f",
           SoundLength = 6870
         },
+        voice_jp_story_1003_100365_19201C2C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201C2C_m",
+          SoundLength = 6850
+        },
         voice_jp_story_1003_100365_19201C56 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201C56",
@@ -38927,15 +46535,33 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201C80_f",
           SoundLength = 1140
         },
+        voice_jp_story_1003_100365_19201C80_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201C80_m",
+          SoundLength = 910
+        },
         voice_jp_story_1003_100365_19201CAA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201CAA",
           SoundLength = 6100
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100365_19201CD4_f",
+    MaxKey = "voice_jp_story_1003_100380_191DEA4A",
+    Loader = function()
+      return {
         voice_jp_story_1003_100365_19201CD4_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201CD4_f",
           SoundLength = 1340
+        },
+        voice_jp_story_1003_100365_19201CD4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201CD4_m",
+          SoundLength = 860
         },
         voice_jp_story_1003_100365_19201CFE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38947,6 +46573,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201D28_f",
           SoundLength = 950
         },
+        voice_jp_story_1003_100365_19201D28_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201D28_m",
+          SoundLength = 850
+        },
         voice_jp_story_1003_100365_19201D52 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201D52",
@@ -38957,15 +46588,30 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201D7C_f",
           SoundLength = 6400
         },
+        voice_jp_story_1003_100365_19201D7C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201D7C_m",
+          SoundLength = 7180
+        },
         voice_jp_story_1003_100365_19201DA6_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201DA6_f",
           SoundLength = 10510
         },
+        voice_jp_story_1003_100365_19201DA6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201DA6_m",
+          SoundLength = 8750
+        },
         voice_jp_story_1003_100365_19201DD0_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201DD0_f",
           SoundLength = 6640
+        },
+        voice_jp_story_1003_100365_19201DD0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201DD0_m",
+          SoundLength = 6700
         },
         voice_jp_story_1003_100365_19201DFA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -38982,6 +46628,16 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201E4E_f",
           SoundLength = 7060
         },
+        voice_jp_story_1003_100365_19201E4E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201E4E_m",
+          SoundLength = 6480
+        },
+        voice_jp_story_1003_100365_19201E78 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201E78",
+          SoundLength = 23510
+        },
         voice_jp_story_1003_100365_19201E78_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201E78_1",
@@ -38991,6 +46647,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201EA2_f",
           SoundLength = 13550
+        },
+        voice_jp_story_1003_100365_19201EA2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201EA2_m",
+          SoundLength = 12560
         },
         voice_jp_story_1003_100365_19201ECC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39002,35 +46663,70 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_19201EF6_f",
           SoundLength = 8960
         },
+        voice_jp_story_1003_100365_19201EF6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201EF6_m",
+          SoundLength = 8460
+        },
         voice_jp_story_1003_100365_19201F20_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201F20_f",
           SoundLength = 13150
+        },
+        voice_jp_story_1003_100365_19201F20_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201F20_m",
+          SoundLength = 11540
         },
         voice_jp_story_1003_100365_19201F4A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201F4A_f",
           SoundLength = 11810
         },
+        voice_jp_story_1003_100365_19201F4A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201F4A_m",
+          SoundLength = 11010
+        },
         voice_jp_story_1003_100365_19201F74_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201F74_f",
           SoundLength = 6900
+        },
+        voice_jp_story_1003_100365_19201F74_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201F74_m",
+          SoundLength = 6660
         },
         voice_jp_story_1003_100365_19201F9E_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201F9E_f",
           SoundLength = 13870
         },
+        voice_jp_story_1003_100365_19201F9E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201F9E_m",
+          SoundLength = 13260
+        },
         voice_jp_story_1003_100365_19201FC8_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201FC8_f",
           SoundLength = 10040
         },
+        voice_jp_story_1003_100365_19201FC8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201FC8_m",
+          SoundLength = 11090
+        },
         voice_jp_story_1003_100365_19201FF2_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19201FF2_f",
           SoundLength = 1360
+        },
+        voice_jp_story_1003_100365_19201FF2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19201FF2_m",
+          SoundLength = 1020
         },
         voice_jp_story_1003_100365_1920201C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39077,10 +46773,20 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100365_1920216C_f",
           SoundLength = 10040
         },
+        voice_jp_story_1003_100365_1920216C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_1920216C_m",
+          SoundLength = 9510
+        },
         voice_jp_story_1003_100365_19202196_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_19202196_f",
           SoundLength = 4260
+        },
+        voice_jp_story_1003_100365_19202196_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_19202196_m",
+          SoundLength = 4110
         },
         voice_jp_story_1003_100365_192021C0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39091,6 +46797,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100365_192021EA_f",
           SoundLength = 9180
+        },
+        voice_jp_story_1003_100365_192021EA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100365_192021EA_m",
+          SoundLength = 9190
         },
         voice_jp_story_1003_100365_19202214 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39428,6 +47139,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100375_1920B9D6_f",
           SoundLength = 1430
         },
+        voice_jp_story_1003_100375_1920B9D6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920B9D6_m",
+          SoundLength = 1200
+        },
         voice_jp_story_1003_100375_1920BA00 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BA00",
@@ -39443,6 +47159,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100375_1920BA54_f",
           SoundLength = 1100
         },
+        voice_jp_story_1003_100375_1920BA54_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920BA54_m",
+          SoundLength = 930
+        },
         voice_jp_story_1003_100375_1920BA7E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BA7E",
@@ -39457,6 +47178,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BAD2_f",
           SoundLength = 1200
+        },
+        voice_jp_story_1003_100375_1920BAD2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920BAD2_m",
+          SoundLength = 930
         },
         voice_jp_story_1003_100375_1920BAFC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39477,15 +47203,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BB7A",
           SoundLength = 8340
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1003_100375_1920BBA4",
-    MaxKey = "voice_jp_story_1200_120013_1E0B4B52",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1003_100375_1920BBA4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BBA4",
@@ -39511,6 +47229,11 @@ local Data = {
           SelectKey = "voice_jp_story_1003_100375_1920BC4C_f",
           SoundLength = 3350
         },
+        voice_jp_story_1003_100375_1920BC4C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920BC4C_m",
+          SoundLength = 3030
+        },
         voice_jp_story_1003_100375_1920BC76 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BC76",
@@ -39519,7 +47242,7 @@ local Data = {
         voice_jp_story_1003_100375_1920BCA0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BCA0",
-          SoundLength = 14270
+          SoundLength = 14240
         },
         voice_jp_story_1003_100375_1920BCCA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39529,17 +47252,37 @@ local Data = {
         voice_jp_story_1003_100375_1920BCF4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BCF4",
-          SoundLength = 7900
+          SoundLength = 11860
+        },
+        voice_jp_story_1003_100375_1920BCF5_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920BCF5_f",
+          SoundLength = 7870
+        },
+        voice_jp_story_1003_100375_1920BCF5_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920BCF5_m",
+          SoundLength = 6780
         },
         voice_jp_story_1003_100375_1920BD1E_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BD1E_f",
           SoundLength = 6320
         },
+        voice_jp_story_1003_100375_1920BD1E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920BD1E_m",
+          SoundLength = 5870
+        },
         voice_jp_story_1003_100375_1920BD48_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100375_1920BD48_f",
           SoundLength = 3920
+        },
+        voice_jp_story_1003_100375_1920BD48_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1003",
+          SelectKey = "voice_jp_story_1003_100375_1920BD48_m",
+          SoundLength = 3260
         },
         voice_jp_story_1003_100375_1920BD72 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39734,17 +47477,17 @@ local Data = {
         voice_jp_story_1003_100378_1920EB62 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100378_1920EB62",
-          SoundLength = 7420
+          SoundLength = 7330
         },
         voice_jp_story_1003_100378_1920EB8C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100378_1920EB8C",
-          SoundLength = 11910
+          SoundLength = 15330
         },
         voice_jp_story_1003_100378_1920EBB6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100378_1920EBB6",
-          SoundLength = 5010
+          SoundLength = 4740
         },
         voice_jp_story_1003_100378_1920EBE0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
@@ -39810,7 +47553,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100380_191DEA4A",
           SoundLength = 6880
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1003_100380_191DEA4B",
+    MaxKey = "voice_jp_story_1200_120015_1E0B6A2A",
+    Loader = function()
+      return {
         voice_jp_story_1003_100380_191DEA4B = {
           ProgrammerSoundPath = "event:/voice/jp/story/1003",
           SelectKey = "voice_jp_story_1003_100380_191DEA4B",
@@ -39891,6 +47642,21 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120004_1E0AB0482_m",
           SoundLength = 19340
         },
+        voice_jp_story_1200_120004_1E0AB048_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120004_1E0AB048_f",
+          SoundLength = 19490
+        },
+        voice_jp_story_1200_120004_1E0AB048_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120004_1E0AB048_m",
+          SoundLength = 19340
+        },
+        voice_jp_story_1200_120004_1E0AB072_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120004_1E0AB072_f",
+          SoundLength = 2710
+        },
         voice_jp_story_1200_120004_1E0AB072_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120004_1E0AB072_m",
@@ -39961,6 +47727,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120004_1E0AB294",
           SoundLength = 20210
         },
+        voice_jp_story_1200_120004_1E0AB2BE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120004_1E0AB2BE_f",
+          SoundLength = 3930
+        },
         voice_jp_story_1200_120004_1E0AB2BE_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120004_1E0AB2BE_m",
@@ -39986,6 +47757,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120004_1E0AB366",
           SoundLength = 9890
         },
+        voice_jp_story_1200_120004_1E0AB390_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120004_1E0AB390_f",
+          SoundLength = 590
+        },
         voice_jp_story_1200_120004_1E0AB390_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120004_1E0AB390_m",
@@ -39995,6 +47771,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120004_1E0AB3BA",
           SoundLength = 12750
+        },
+        voice_jp_story_1200_120004_1E0AB3E4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120004_1E0AB3E4_f",
+          SoundLength = 4040
         },
         voice_jp_story_1200_120004_1E0AB3E4_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40010,6 +47791,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120004_1E0AB438",
           SoundLength = 19820
+        },
+        voice_jp_story_1200_120004_1E0AB462_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120004_1E0AB462_f",
+          SoundLength = 6220
         },
         voice_jp_story_1200_120004_1E0AB462_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40031,6 +47817,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120005_1E0AC032",
           SoundLength = 11510
         },
+        voice_jp_story_1200_120005_1E0AC05C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120005_1E0AC05C_f",
+          SoundLength = 3400
+        },
         voice_jp_story_1200_120005_1E0AC05C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120005_1E0AC05C_m",
@@ -40040,6 +47831,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120005_1E0AC086",
           SoundLength = 12390
+        },
+        voice_jp_story_1200_120005_1E0AC0B0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120005_1E0AC0B0_f",
+          SoundLength = 12160
         },
         voice_jp_story_1200_120005_1E0AC0B0_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40071,15 +47867,30 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120007_1E0AE1AA",
           SoundLength = 13470
         },
+        voice_jp_story_1200_120007_1E0AE1D4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120007_1E0AE1D4_f",
+          SoundLength = 5050
+        },
         voice_jp_story_1200_120007_1E0AE1D4_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120007_1E0AE1D4_m",
           SoundLength = 4650
         },
+        voice_jp_story_1200_120007_1E0AE1FE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120007_1E0AE1FE_f",
+          SoundLength = 4530
+        },
         voice_jp_story_1200_120007_1E0AE228 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120007_1E0AE228",
           SoundLength = 8920
+        },
+        voice_jp_story_1200_120007_1E0AE252_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120007_1E0AE252_f",
+          SoundLength = 5930
         },
         voice_jp_story_1200_120007_1E0AE252_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40155,6 +47966,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120011_1E0B234A",
           SoundLength = 9180
+        },
+        voice_jp_story_1200_120011_1E0B2374_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120011_1E0B2374_f",
+          SoundLength = 7120
         },
         voice_jp_story_1200_120011_1E0B2374_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40296,6 +48112,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120013_1E0B44C2",
           SoundLength = 7420
         },
+        voice_jp_story_1200_120013_1E0B44EC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120013_1E0B44EC_f",
+          SoundLength = 4790
+        },
         voice_jp_story_1200_120013_1E0B44EC_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120013_1E0B44EC_m",
@@ -40305,6 +48126,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120013_1E0B4516",
           SoundLength = 5010
+        },
+        voice_jp_story_1200_120013_1E0B4540_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120013_1E0B4540_f",
+          SoundLength = 1900
         },
         voice_jp_story_1200_120013_1E0B4540_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40320,6 +48146,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120013_1E0B4594",
           SoundLength = 16340
+        },
+        voice_jp_story_1200_120013_1E0B45BE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120013_1E0B45BE_f",
+          SoundLength = 9190
         },
         voice_jp_story_1200_120013_1E0B45BE_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40400,6 +48231,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120013_1E0B4834",
           SoundLength = 940
+        },
+        voice_jp_story_1200_120013_1E0B485E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120013_1E0B485E_f",
+          SoundLength = 3630
         },
         voice_jp_story_1200_120013_1E0B485E_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40485,15 +48321,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120013_1E0B4B52",
           SoundLength = 6750
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1200_120013_1E0B4B7C",
-    MaxKey = "voice_jp_story_1201_120104_1E111CD8_1",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1200_120013_1E0B4B7C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120013_1E0B4B7C",
@@ -40599,6 +48427,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120015_1E0B6610",
           SoundLength = 3640
         },
+        voice_jp_story_1200_120015_1E0B6664_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120015_1E0B6664_f",
+          SoundLength = 1360
+        },
         voice_jp_story_1200_120015_1E0B6664_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6664_m",
@@ -40608,6 +48441,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B668E",
           SoundLength = 9710
+        },
+        voice_jp_story_1200_120015_1E0B66B8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120015_1E0B66B8_f",
+          SoundLength = 1440
         },
         voice_jp_story_1200_120015_1E0B66B8_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40628,6 +48466,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6736",
           SoundLength = 7000
+        },
+        voice_jp_story_1200_120015_1E0B6760_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120015_1E0B6760_f",
+          SoundLength = 2970
         },
         voice_jp_story_1200_120015_1E0B6760_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40697,7 +48540,7 @@ local Data = {
         voice_jp_story_1200_120015_1E0B6982 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6982",
-          SoundLength = 15880
+          SoundLength = 14540
         },
         voice_jp_story_1200_120015_1E0B69AC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40718,7 +48561,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6A2A",
           SoundLength = 11540
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1200_120015_1E0B6A54",
+    MaxKey = "voice_jp_story_1201_120101_1E10EB76",
+    Loader = function()
+      return {
         voice_jp_story_1200_120015_1E0B6A54 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6A54",
@@ -40739,6 +48590,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120015_1E0B6AD2",
           SoundLength = 730
         },
+        voice_jp_story_1200_120015_1E0B6AFC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120015_1E0B6AFC_f",
+          SoundLength = 2920
+        },
         voice_jp_story_1200_120015_1E0B6AFC_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6AFC_m",
@@ -40758,6 +48614,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6B7A",
           SoundLength = 7920
+        },
+        voice_jp_story_1200_120015_1E0B6BF8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120015_1E0B6BF8_f",
+          SoundLength = 1070
         },
         voice_jp_story_1200_120015_1E0B6BF8_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40789,6 +48650,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120015_1E0B6CF4",
           SoundLength = 5920
         },
+        voice_jp_story_1200_120015_1E0B6D1E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120015_1E0B6D1E_f",
+          SoundLength = 8260
+        },
         voice_jp_story_1200_120015_1E0B6D1E_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120015_1E0B6D1E_m",
@@ -40798,6 +48664,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8512",
           SoundLength = 3950
+        },
+        voice_jp_story_1200_120017_1E0B853C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B853C_f",
+          SoundLength = 2680
         },
         voice_jp_story_1200_120017_1E0B853C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40824,6 +48695,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120017_1E0B85E4",
           SoundLength = 7830
         },
+        voice_jp_story_1200_120017_1E0B860E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B860E_f",
+          SoundLength = 12730
+        },
         voice_jp_story_1200_120017_1E0B860E_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B860E_m",
@@ -40833,6 +48709,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8638",
           SoundLength = 8080
+        },
+        voice_jp_story_1200_120017_1E0B8662_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8662_f",
+          SoundLength = 1930
         },
         voice_jp_story_1200_120017_1E0B8662_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40864,6 +48745,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120017_1E0B8734",
           SoundLength = 6760
         },
+        voice_jp_story_1200_120017_1E0B875E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B875E_f",
+          SoundLength = 1720
+        },
         voice_jp_story_1200_120017_1E0B875E_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B875E_m",
@@ -40873,6 +48759,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8788",
           SoundLength = 12850
+        },
+        voice_jp_story_1200_120017_1E0B87B2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B87B2_f",
+          SoundLength = 7000
         },
         voice_jp_story_1200_120017_1E0B87B2_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -40899,6 +48790,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120017_1E0B88AE",
           SoundLength = 14360
         },
+        voice_jp_story_1200_120017_1E0B88D8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B88D8_f",
+          SoundLength = 3800
+        },
         voice_jp_story_1200_120017_1E0B88D8_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B88D8_m",
@@ -40909,6 +48805,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120017_1E0B8902",
           SoundLength = 7990
         },
+        voice_jp_story_1200_120017_1E0B892C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B892C_f",
+          SoundLength = 2260
+        },
         voice_jp_story_1200_120017_1E0B892C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B892C_m",
@@ -40918,6 +48819,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8956",
           SoundLength = 11900
+        },
+        voice_jp_story_1200_120017_1E0B8980_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8980_f",
+          SoundLength = 4450
         },
         voice_jp_story_1200_120017_1E0B8980_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -41034,20 +48940,45 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120017_1E0B8CC8",
           SoundLength = 8370
         },
+        voice_jp_story_1200_120017_1E0B8CF2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8CF2_f",
+          SoundLength = 2350
+        },
         voice_jp_story_1200_120017_1E0B8CF2_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8CF2_m",
           SoundLength = 1990
+        },
+        voice_jp_story_1200_120017_1E0B8D46_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8D46_f",
+          SoundLength = 5880
         },
         voice_jp_story_1200_120017_1E0B8D46_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8D46_m",
           SoundLength = 5880
         },
+        voice_jp_story_1200_120017_1E0B8D70_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8D70_f",
+          SoundLength = 1530
+        },
         voice_jp_story_1200_120017_1E0B8D70_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8D70_m",
           SoundLength = 1590
+        },
+        voice_jp_story_1200_120017_1E0B8D9A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8D9A_f",
+          SoundLength = 7500
+        },
+        voice_jp_story_1200_120017_1E0B8D9A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8D9A_m",
+          SoundLength = 7710
         },
         voice_jp_story_1200_120017_1E0B8DC4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -41069,6 +49000,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120017_1E0B8E42",
           SoundLength = 1160
         },
+        voice_jp_story_1200_120017_1E0B8E6C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8E6C_f",
+          SoundLength = 5750
+        },
         voice_jp_story_1200_120017_1E0B8E6C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8E6C_m",
@@ -41083,6 +49019,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B8EC0",
           SoundLength = 7470
+        },
+        voice_jp_story_1200_120017_1E0B8EEA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B8EEA_f",
+          SoundLength = 2490
         },
         voice_jp_story_1200_120017_1E0B8EEA_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -41128,6 +49069,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120017_1E0B9064",
           SoundLength = 12250
+        },
+        voice_jp_story_1200_120017_1E0B90B8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120017_1E0B90B8_f",
+          SoundLength = 3810
         },
         voice_jp_story_1200_120017_1E0B90B8_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -41239,6 +49185,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120018_1E0B96CA",
           SoundLength = 6050
         },
+        voice_jp_story_1200_120018_1E0B96F4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B96F4_f",
+          SoundLength = 11450
+        },
         voice_jp_story_1200_120018_1E0B96F4_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120018_1E0B96F4_m",
@@ -41249,6 +49200,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120018_1E0B971E",
           SoundLength = 2470
         },
+        voice_jp_story_1200_120018_1E0B9748_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B9748_f",
+          SoundLength = 8150
+        },
         voice_jp_story_1200_120018_1E0B9748_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120018_1E0B9748_m",
@@ -41258,6 +49214,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120018_1E0B9772",
           SoundLength = 11330
+        },
+        voice_jp_story_1200_120018_1E0B979C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B979C_f",
+          SoundLength = 9340
         },
         voice_jp_story_1200_120018_1E0B979C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -41279,6 +49240,11 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120018_1E0B981A",
           SoundLength = 7890
         },
+        voice_jp_story_1200_120018_1E0B9844_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B9844_f",
+          SoundLength = 3320
+        },
         voice_jp_story_1200_120018_1E0B9844_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120018_1E0B9844_m",
@@ -41288,6 +49254,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120018_1E0B98C2",
           SoundLength = 15990
+        },
+        voice_jp_story_1200_120018_1E0B98EC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B98EC_f",
+          SoundLength = 4930
         },
         voice_jp_story_1200_120018_1E0B98EC_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -41299,15 +49270,30 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120018_1E0B9916",
           SoundLength = 19910
         },
+        voice_jp_story_1200_120018_1E0B9940_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B9940_f",
+          SoundLength = 6840
+        },
         voice_jp_story_1200_120018_1E0B9940_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120018_1E0B9940_m",
           SoundLength = 7390
         },
+        voice_jp_story_1200_120018_1E0B996A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B996A_f",
+          SoundLength = 9330
+        },
         voice_jp_story_1200_120018_1E0B996A_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
           SelectKey = "voice_jp_story_1200_120018_1E0B996A_m",
           SoundLength = 9560
+        },
+        voice_jp_story_1200_120018_1E0B9994_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1200",
+          SelectKey = "voice_jp_story_1200_120018_1E0B9994_f",
+          SoundLength = 3190
         },
         voice_jp_story_1200_120018_1E0B9994_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/1200",
@@ -41369,30 +49355,165 @@ local Data = {
           SelectKey = "voice_jp_story_1200_120045_1E0D509C",
           SoundLength = 3190
         },
+        voice_jp_story_1201_120100_1E10D6CA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D6CA",
+          SoundLength = 9850
+        },
+        voice_jp_story_1201_120100_1E10D6F4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D6F4",
+          SoundLength = 11660
+        },
+        voice_jp_story_1201_120100_1E10D71E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D71E",
+          SoundLength = 5460
+        },
+        voice_jp_story_1201_120100_1E10D748 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D748",
+          SoundLength = 15450
+        },
+        voice_jp_story_1201_120100_1E10D772 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D772",
+          SoundLength = 10150
+        },
+        voice_jp_story_1201_120100_1E10D81A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D81A",
+          SoundLength = 6460
+        },
+        voice_jp_story_1201_120100_1E10D844 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D844",
+          SoundLength = 13460
+        },
+        voice_jp_story_1201_120100_1E10D86E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D86E",
+          SoundLength = 8830
+        },
+        voice_jp_story_1201_120100_1E10D898 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D898",
+          SoundLength = 12730
+        },
+        voice_jp_story_1201_120100_1E10D8C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D8C2",
+          SoundLength = 8540
+        },
+        voice_jp_story_1201_120100_1E10D8EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D8EC",
+          SoundLength = 8540
+        },
+        voice_jp_story_1201_120100_1E10D916 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D916",
+          SoundLength = 8920
+        },
+        voice_jp_story_1201_120100_1E10D96A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D96A",
+          SoundLength = 6990
+        },
+        voice_jp_story_1201_120100_1E10D994 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D994",
+          SoundLength = 9540
+        },
+        voice_jp_story_1201_120100_1E10D9BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10D9BE",
+          SoundLength = 2940
+        },
         voice_jp_story_1201_120100_1E10D9E8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120100_1E10D9E8",
           SoundLength = 1410
+        },
+        voice_jp_story_1201_120100_1E10DA3C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120100_1E10DA3C",
+          SoundLength = 5400
         },
         voice_jp_story_1201_120101_1E10E732 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120101_1E10E732",
           SoundLength = 4500
         },
+        voice_jp_story_1201_120101_1E10E75C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E75C",
+          SoundLength = 4810
+        },
+        voice_jp_story_1201_120101_1E10E786 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E786",
+          SoundLength = 9700
+        },
         voice_jp_story_1201_120101_1E10E7B0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120101_1E10E7B0",
           SoundLength = 5320
+        },
+        voice_jp_story_1201_120101_1E10E7DA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E7DA",
+          SoundLength = 7160
         },
         voice_jp_story_1201_120101_1E10E804 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120101_1E10E804",
           SoundLength = 5290
         },
+        voice_jp_story_1201_120101_1E10E82E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E82E",
+          SoundLength = 3170
+        },
+        voice_jp_story_1201_120101_1E10E882 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E882",
+          SoundLength = 10890
+        },
+        voice_jp_story_1201_120101_1E10E8AC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E8AC",
+          SoundLength = 9540
+        },
+        voice_jp_story_1201_120101_1E10E8D6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E8D6",
+          SoundLength = 7810
+        },
+        voice_jp_story_1201_120101_1E10E900 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E900",
+          SoundLength = 10680
+        },
         voice_jp_story_1201_120101_1E10E92A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120101_1E10E92A",
           SoundLength = 8150
+        },
+        voice_jp_story_1201_120101_1E10E954 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E954",
+          SoundLength = 3280
+        },
+        voice_jp_story_1201_120101_1E10E97E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E97E",
+          SoundLength = 8460
+        },
+        voice_jp_story_1201_120101_1E10E9A8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10E9A8",
+          SoundLength = 4800
         },
         voice_jp_story_1201_120101_1E10E9D2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41408,6 +49529,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120101_1E10E9FC_m",
           SoundLength = 16420
+        },
+        voice_jp_story_1201_120101_1E10EA50 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10EA50",
+          SoundLength = 16010
+        },
+        voice_jp_story_1201_120101_1E10EA7A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10EA7A",
+          SoundLength = 10050
         },
         voice_jp_story_1201_120101_1E10EACE_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41429,6 +49560,24 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120101_1E10EB22",
           SoundLength = 14940
         },
+        voice_jp_story_1201_120101_1E10EB4C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10EB4C",
+          SoundLength = 9130
+        },
+        voice_jp_story_1201_120101_1E10EB76 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10EB76",
+          SoundLength = 11630
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120101_1E10EBA0_f",
+    MaxKey = "voice_jp_story_1201_120111_1E118BC0",
+    Loader = function()
+      return {
         voice_jp_story_1201_120101_1E10EBA0_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120101_1E10EBA0_f",
@@ -41443,6 +49592,81 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120101_1E10EBCA",
           SoundLength = 10430
+        },
+        voice_jp_story_1201_120101_1E10EBF4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10EBF4",
+          SoundLength = 11270
+        },
+        voice_jp_story_1201_120101_1E10EC1E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120101_1E10EC1E",
+          SoundLength = 5820
+        },
+        voice_jp_story_1201_120102_1E10F79A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F79A",
+          SoundLength = 11510
+        },
+        voice_jp_story_1201_120102_1E10F7C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F7C4",
+          SoundLength = 2230
+        },
+        voice_jp_story_1201_120102_1E10F7EE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F7EE",
+          SoundLength = 8490
+        },
+        voice_jp_story_1201_120102_1E10F818 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F818",
+          SoundLength = 17240
+        },
+        voice_jp_story_1201_120102_1E10F842 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F842",
+          SoundLength = 9200
+        },
+        voice_jp_story_1201_120102_1E10F86C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F86C",
+          SoundLength = 12240
+        },
+        voice_jp_story_1201_120102_1E10F896 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F896",
+          SoundLength = 9490
+        },
+        voice_jp_story_1201_120102_1E10F8C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F8C0",
+          SoundLength = 8660
+        },
+        voice_jp_story_1201_120102_1E10F8EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F8EA",
+          SoundLength = 12810
+        },
+        voice_jp_story_1201_120102_1E10F914 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F914",
+          SoundLength = 13390
+        },
+        voice_jp_story_1201_120102_1E10F93E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F93E",
+          SoundLength = 7230
+        },
+        voice_jp_story_1201_120102_1E10F968 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F968",
+          SoundLength = 7330
+        },
+        voice_jp_story_1201_120102_1E10F992 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10F992",
+          SoundLength = 13450
         },
         voice_jp_story_1201_120102_1E10FA10 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41459,6 +49683,61 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120102_1E10FA8E",
           SoundLength = 4300
         },
+        voice_jp_story_1201_120102_1E10FAE2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FAE2",
+          SoundLength = 3070
+        },
+        voice_jp_story_1201_120102_1E10FB0C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FB0C",
+          SoundLength = 9130
+        },
+        voice_jp_story_1201_120102_1E10FB36 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FB36",
+          SoundLength = 5570
+        },
+        voice_jp_story_1201_120102_1E10FB60 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FB60",
+          SoundLength = 10230
+        },
+        voice_jp_story_1201_120102_1E10FC08 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FC08",
+          SoundLength = 11180
+        },
+        voice_jp_story_1201_120102_1E10FC32 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FC32",
+          SoundLength = 17740
+        },
+        voice_jp_story_1201_120102_1E10FC5C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FC5C",
+          SoundLength = 7280
+        },
+        voice_jp_story_1201_120102_1E10FC86 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FC86",
+          SoundLength = 13860
+        },
+        voice_jp_story_1201_120102_1E10FCB0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FCB0",
+          SoundLength = 6840
+        },
+        voice_jp_story_1201_120102_1E10FCDA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FCDA",
+          SoundLength = 4910
+        },
+        voice_jp_story_1201_120102_1E10FD04 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120102_1E10FD04",
+          SoundLength = 8040
+        },
         voice_jp_story_1201_120102_1E10FD2E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120102_1E10FD2E",
@@ -41468,6 +49747,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120103_1E110802",
           SoundLength = 6330
+        },
+        voice_jp_story_1201_120103_1E11082C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E11082C",
+          SoundLength = 3290
+        },
+        voice_jp_story_1201_120103_1E110856 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E110856",
+          SoundLength = 3520
         },
         voice_jp_story_1201_120103_1E110880 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41489,23 +49778,250 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120103_1E1108FE",
           SoundLength = 9880
         },
+        voice_jp_story_1201_120103_1E110928 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E110928",
+          SoundLength = 1570
+        },
+        voice_jp_story_1201_120103_1E110952 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E110952",
+          SoundLength = 4300
+        },
+        voice_jp_story_1201_120103_1E11097C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E11097C",
+          SoundLength = 2920
+        },
+        voice_jp_story_1201_120103_1E1109A6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E1109A6",
+          SoundLength = 12750
+        },
+        voice_jp_story_1201_120103_1E1109D0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E1109D0",
+          SoundLength = 5330
+        },
+        voice_jp_story_1201_120103_1E1109FA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E1109FA",
+          SoundLength = 3280
+        },
+        voice_jp_story_1201_120103_1E110A24 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E110A24",
+          SoundLength = 4220
+        },
+        voice_jp_story_1201_120103_1E110A4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E110A4E",
+          SoundLength = 6240
+        },
+        voice_jp_story_1201_120103_1E110A78 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E110A78",
+          SoundLength = 7940
+        },
+        voice_jp_story_1201_120103_1E110AA2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120103_1E110AA2",
+          SoundLength = 7790
+        },
+        voice_jp_story_1201_120104_1E11186A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E11186A",
+          SoundLength = 5130
+        },
+        voice_jp_story_1201_120104_1E111894 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111894",
+          SoundLength = 2860
+        },
+        voice_jp_story_1201_120104_1E1118BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E1118BE",
+          SoundLength = 11170
+        },
+        voice_jp_story_1201_120104_1E1118E8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E1118E8",
+          SoundLength = 13360
+        },
+        voice_jp_story_1201_120104_1E111912 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111912",
+          SoundLength = 12590
+        },
+        voice_jp_story_1201_120104_1E11193C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E11193C",
+          SoundLength = 860
+        },
+        voice_jp_story_1201_120104_1E111966 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111966",
+          SoundLength = 6050
+        },
+        voice_jp_story_1201_120104_1E111990 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111990",
+          SoundLength = 16590
+        },
+        voice_jp_story_1201_120104_1E1119BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E1119BA",
+          SoundLength = 10600
+        },
+        voice_jp_story_1201_120104_1E1119E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E1119E4",
+          SoundLength = 22440
+        },
+        voice_jp_story_1201_120104_1E111A0E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111A0E",
+          SoundLength = 17820
+        },
+        voice_jp_story_1201_120104_1E111A38 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111A38",
+          SoundLength = 3290
+        },
+        voice_jp_story_1201_120104_1E111A62 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111A62",
+          SoundLength = 4450
+        },
+        voice_jp_story_1201_120104_1E111A8C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111A8C",
+          SoundLength = 5280
+        },
+        voice_jp_story_1201_120104_1E111AB6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111AB6",
+          SoundLength = 6310
+        },
+        voice_jp_story_1201_120104_1E111AE0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111AE0",
+          SoundLength = 3930
+        },
+        voice_jp_story_1201_120104_1E111B0A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111B0A",
+          SoundLength = 11740
+        },
+        voice_jp_story_1201_120104_1E111B5E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111B5E",
+          SoundLength = 7290
+        },
+        voice_jp_story_1201_120104_1E111B88 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111B88",
+          SoundLength = 18480
+        },
+        voice_jp_story_1201_120104_1E111BB2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111BB2",
+          SoundLength = 13560
+        },
+        voice_jp_story_1201_120104_1E111BDC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111BDC",
+          SoundLength = 5380
+        },
+        voice_jp_story_1201_120104_1E111C06 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111C06",
+          SoundLength = 5560
+        },
         voice_jp_story_1201_120104_1E111CD8_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120104_1E111CD8_1",
           SoundLength = 146760
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1201_120104_1E111CD8_2",
-    MaxKey = "voice_jp_story_1201_120140_1E13685A",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1201_120104_1E111CD8_2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120104_1E111CD8_2",
           SoundLength = 146860
+        },
+        voice_jp_story_1201_120104_1E111D02 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111D02",
+          SoundLength = 5790
+        },
+        voice_jp_story_1201_120104_1E111D80 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111D80",
+          SoundLength = 920
+        },
+        voice_jp_story_1201_120104_1E111DAA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111DAA",
+          SoundLength = 7420
+        },
+        voice_jp_story_1201_120104_1E111E28 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111E28",
+          SoundLength = 5150
+        },
+        voice_jp_story_1201_120104_1E111E52 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111E52",
+          SoundLength = 18370
+        },
+        voice_jp_story_1201_120104_1E111E7C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111E7C",
+          SoundLength = 17510
+        },
+        voice_jp_story_1201_120104_1E111EA6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111EA6",
+          SoundLength = 12490
+        },
+        voice_jp_story_1201_120104_1E111ED0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111ED0",
+          SoundLength = 13360
+        },
+        voice_jp_story_1201_120104_1E111EFA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111EFA",
+          SoundLength = 8750
+        },
+        voice_jp_story_1201_120104_1E111F24 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120104_1E111F24",
+          SoundLength = 9020
+        },
+        voice_jp_story_1201_120105_1E1128A8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E1128A8",
+          SoundLength = 6190
+        },
+        voice_jp_story_1201_120105_1E1128D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E1128D2",
+          SoundLength = 10450
+        },
+        voice_jp_story_1201_120105_1E1128FC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E1128FC",
+          SoundLength = 7970
+        },
+        voice_jp_story_1201_120105_1E11297A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E11297A",
+          SoundLength = 3510
+        },
+        voice_jp_story_1201_120105_1E1129A4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E1129A4",
+          SoundLength = 6540
         },
         voice_jp_story_1201_120105_1E1129CE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41517,15 +50033,40 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120105_1E1129F8",
           SoundLength = 7630
         },
+        voice_jp_story_1201_120105_1E112A22 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112A22",
+          SoundLength = 6430
+        },
         voice_jp_story_1201_120105_1E112A4C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120105_1E112A4C",
           SoundLength = 13760
         },
+        voice_jp_story_1201_120105_1E112A76 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112A76",
+          SoundLength = 9050
+        },
         voice_jp_story_1201_120105_1E112AA0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120105_1E112AA0",
           SoundLength = 3540
+        },
+        voice_jp_story_1201_120105_1E112ACA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112ACA",
+          SoundLength = 9710
+        },
+        voice_jp_story_1201_120105_1E112AF4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112AF4",
+          SoundLength = 10170
+        },
+        voice_jp_story_1201_120105_1E112B1E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112B1E",
+          SoundLength = 8760
         },
         voice_jp_story_1201_120105_1E112B48 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41547,15 +50088,40 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120105_1E112BC6",
           SoundLength = 9400
         },
+        voice_jp_story_1201_120105_1E112BF0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112BF0",
+          SoundLength = 1560
+        },
         voice_jp_story_1201_120105_1E112C1A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120105_1E112C1A",
           SoundLength = 2350
         },
+        voice_jp_story_1201_120105_1E112C44 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112C44",
+          SoundLength = 10140
+        },
+        voice_jp_story_1201_120105_1E112C6E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112C6E",
+          SoundLength = 6500
+        },
         voice_jp_story_1201_120105_1E112CEC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120105_1E112CEC",
           SoundLength = 560
+        },
+        voice_jp_story_1201_120105_1E112D16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112D16",
+          SoundLength = 10240
+        },
+        voice_jp_story_1201_120105_1E112D40 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112D40",
+          SoundLength = 10200
         },
         voice_jp_story_1201_120105_1E112D6A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41567,10 +50133,50 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120105_1E112D94",
           SoundLength = 12430
         },
+        voice_jp_story_1201_120105_1E112DBE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112DBE",
+          SoundLength = 9670
+        },
+        voice_jp_story_1201_120105_1E112DE8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112DE8",
+          SoundLength = 6710
+        },
+        voice_jp_story_1201_120105_1E112E12 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112E12",
+          SoundLength = 7260
+        },
+        voice_jp_story_1201_120105_1E112E3C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112E3C",
+          SoundLength = 9410
+        },
+        voice_jp_story_1201_120105_1E112E90 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112E90",
+          SoundLength = 4440
+        },
+        voice_jp_story_1201_120105_1E112EBA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120105_1E112EBA",
+          SoundLength = 7760
+        },
+        voice_jp_story_1201_120106_1E11393A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E11393A",
+          SoundLength = 6470
+        },
         voice_jp_story_1201_120106_1E113964 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120106_1E113964",
           SoundLength = 17860
+        },
+        voice_jp_story_1201_120106_1E11398E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E11398E",
+          SoundLength = 7590
         },
         voice_jp_story_1201_120106_1E1139B8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41597,10 +50203,80 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120106_1E113A60",
           SoundLength = 6220
         },
+        voice_jp_story_1201_120106_1E113A8A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E113A8A",
+          SoundLength = 5560
+        },
+        voice_jp_story_1201_120106_1E113AB4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E113AB4",
+          SoundLength = 9180
+        },
+        voice_jp_story_1201_120106_1E113B08 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E113B08",
+          SoundLength = 6710
+        },
+        voice_jp_story_1201_120106_1E113B32 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E113B32",
+          SoundLength = 8780
+        },
+        voice_jp_story_1201_120106_1E113B5C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E113B5C",
+          SoundLength = 9060
+        },
+        voice_jp_story_1201_120106_1E113B86 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E113B86",
+          SoundLength = 6430
+        },
         voice_jp_story_1201_120106_1E113BB0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120106_1E113BB0",
           SoundLength = 3490
+        },
+        voice_jp_story_1201_120106_1E113BDA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120106_1E113BDA",
+          SoundLength = 2570
+        },
+        voice_jp_story_1201_120107_1E1149A2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E1149A2",
+          SoundLength = 12490
+        },
+        voice_jp_story_1201_120107_1E1149CC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E1149CC",
+          SoundLength = 9940
+        },
+        voice_jp_story_1201_120107_1E1149F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E1149F6",
+          SoundLength = 3710
+        },
+        voice_jp_story_1201_120107_1E114A20 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114A20",
+          SoundLength = 5420
+        },
+        voice_jp_story_1201_120107_1E114A4A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114A4A",
+          SoundLength = 12970
+        },
+        voice_jp_story_1201_120107_1E114A74 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114A74",
+          SoundLength = 2830
+        },
+        voice_jp_story_1201_120107_1E114AC8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114AC8",
+          SoundLength = 9570
         },
         voice_jp_story_1201_120107_1E114AF2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41642,6 +50318,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120107_1E114C18",
           SoundLength = 8930
         },
+        voice_jp_story_1201_120107_1E114C42 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114C42",
+          SoundLength = 3800
+        },
         voice_jp_story_1201_120107_1E114C6C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120107_1E114C6C",
@@ -41651,6 +50332,36 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120107_1E114C96",
           SoundLength = 4000
+        },
+        voice_jp_story_1201_120107_1E114CC0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114CC0",
+          SoundLength = 4870
+        },
+        voice_jp_story_1201_120107_1E114CEA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114CEA",
+          SoundLength = 8830
+        },
+        voice_jp_story_1201_120107_1E114D14 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114D14",
+          SoundLength = 7470
+        },
+        voice_jp_story_1201_120107_1E114D3E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114D3E",
+          SoundLength = 7960
+        },
+        voice_jp_story_1201_120107_1E114D68 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114D68",
+          SoundLength = 6630
+        },
+        voice_jp_story_1201_120107_1E114D92 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114D92",
+          SoundLength = 17020
         },
         voice_jp_story_1201_120107_1E114DBC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41662,50 +50373,1038 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120107_1E114DE6",
           SoundLength = 7800
         },
+        voice_jp_story_1201_120107_1E114E10 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120107_1E114E10",
+          SoundLength = 10690
+        },
+        voice_jp_story_1201_120108_1E115A0A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115A0A",
+          SoundLength = 4380
+        },
+        voice_jp_story_1201_120108_1E115A5E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115A5E",
+          SoundLength = 8800
+        },
+        voice_jp_story_1201_120108_1E115A88 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115A88",
+          SoundLength = 13770
+        },
+        voice_jp_story_1201_120108_1E115AB2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115AB2",
+          SoundLength = 12370
+        },
+        voice_jp_story_1201_120108_1E115ADC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115ADC",
+          SoundLength = 1950
+        },
+        voice_jp_story_1201_120108_1E115B06 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115B06",
+          SoundLength = 4110
+        },
+        voice_jp_story_1201_120108_1E115B5A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115B5A",
+          SoundLength = 14880
+        },
+        voice_jp_story_1201_120108_1E115B84 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115B84",
+          SoundLength = 7570
+        },
+        voice_jp_story_1201_120108_1E115BD8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115BD8",
+          SoundLength = 8490
+        },
+        voice_jp_story_1201_120108_1E115C02 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115C02",
+          SoundLength = 20970
+        },
+        voice_jp_story_1201_120108_1E115C2C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115C2C",
+          SoundLength = 19670
+        },
+        voice_jp_story_1201_120108_1E115C56 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115C56",
+          SoundLength = 10480
+        },
+        voice_jp_story_1201_120108_1E115C80 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115C80",
+          SoundLength = 12660
+        },
+        voice_jp_story_1201_120108_1E115CAA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115CAA",
+          SoundLength = 10390
+        },
+        voice_jp_story_1201_120108_1E115CD4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115CD4",
+          SoundLength = 16320
+        },
+        voice_jp_story_1201_120108_1E115DA6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115DA6",
+          SoundLength = 1690
+        },
+        voice_jp_story_1201_120108_1E115DD0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115DD0",
+          SoundLength = 13600
+        },
+        voice_jp_story_1201_120108_1E115DFA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115DFA",
+          SoundLength = 11300
+        },
+        voice_jp_story_1201_120108_1E115E24 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115E24",
+          SoundLength = 19060
+        },
+        voice_jp_story_1201_120108_1E115E4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115E4E",
+          SoundLength = 10200
+        },
+        voice_jp_story_1201_120108_1E115EA2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115EA2",
+          SoundLength = 8120
+        },
+        voice_jp_story_1201_120108_1E115F74 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115F74",
+          SoundLength = 9530
+        },
+        voice_jp_story_1201_120108_1E115F9E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120108_1E115F9E",
+          SoundLength = 5530
+        },
+        voice_jp_story_1201_120109_1E116A72 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116A72",
+          SoundLength = 9230
+        },
+        voice_jp_story_1201_120109_1E116A9C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116A9C",
+          SoundLength = 5060
+        },
+        voice_jp_story_1201_120109_1E116AC6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116AC6",
+          SoundLength = 10260
+        },
+        voice_jp_story_1201_120109_1E116AC7 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116AC7",
+          SoundLength = 12070
+        },
+        voice_jp_story_1201_120109_1E116B1A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116B1A",
+          SoundLength = 10710
+        },
+        voice_jp_story_1201_120109_1E116B44 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116B44",
+          SoundLength = 18010
+        },
+        voice_jp_story_1201_120109_1E116B6E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116B6E",
+          SoundLength = 5250
+        },
+        voice_jp_story_1201_120109_1E116B98 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116B98",
+          SoundLength = 15980
+        },
+        voice_jp_story_1201_120109_1E116BC2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116BC2",
+          SoundLength = 8720
+        },
+        voice_jp_story_1201_120109_1E116BEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116BEC",
+          SoundLength = 8280
+        },
+        voice_jp_story_1201_120109_1E116C16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120109_1E116C16",
+          SoundLength = 5870
+        },
+        voice_jp_story_1201_120110_1E117B04 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120110_1E117B04",
+          SoundLength = 10280
+        },
+        voice_jp_story_1201_120110_1E117B2E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120110_1E117B2E",
+          SoundLength = 9420
+        },
+        voice_jp_story_1201_120110_1E117B82 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120110_1E117B82",
+          SoundLength = 3050
+        },
+        voice_jp_story_1201_120111_1E118B42 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E118B42",
+          SoundLength = 4930
+        },
+        voice_jp_story_1201_120111_1E118B6C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E118B6C",
+          SoundLength = 9850
+        },
+        voice_jp_story_1201_120111_1E118BC0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E118BC0",
+          SoundLength = 970
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120111_1E1DC8DA",
+    MaxKey = "voice_jp_story_1201_120112_1E1ED002",
+    Loader = function()
+      return {
+        voice_jp_story_1201_120111_1E1DC8DA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DC8DA",
+          SoundLength = 20690
+        },
+        voice_jp_story_1201_120111_1E1DC904_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DC904_f",
+          SoundLength = 13190
+        },
+        voice_jp_story_1201_120111_1E1DC904_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DC904_m",
+          SoundLength = 13310
+        },
+        voice_jp_story_1201_120111_1E1DC92E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DC92E",
+          SoundLength = 12450
+        },
+        voice_jp_story_1201_120111_1E1DC958 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DC958",
+          SoundLength = 16910
+        },
+        voice_jp_story_1201_120111_1E1DC982 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DC982",
+          SoundLength = 13520
+        },
+        voice_jp_story_1201_120111_1E1DC9AC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DC9AC",
+          SoundLength = 950
+        },
+        voice_jp_story_1201_120111_1E1DD942 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DD942",
+          SoundLength = 770
+        },
+        voice_jp_story_1201_120111_1E1DD96C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DD96C",
+          SoundLength = 7470
+        },
+        voice_jp_story_1201_120111_1E1DD996 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DD996",
+          SoundLength = 9630
+        },
+        voice_jp_story_1201_120111_1E1DD9C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DD9C0",
+          SoundLength = 560
+        },
+        voice_jp_story_1201_120111_1E1DD9EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DD9EA",
+          SoundLength = 10020
+        },
+        voice_jp_story_1201_120111_1E1DDA14 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DDA14",
+          SoundLength = 10110
+        },
+        voice_jp_story_1201_120111_1E1DDA3E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DDA3E",
+          SoundLength = 9460
+        },
+        voice_jp_story_1201_120111_1E1DDA68 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DDA68",
+          SoundLength = 12890
+        },
+        voice_jp_story_1201_120111_1E1DDA92 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DDA92",
+          SoundLength = 2380
+        },
+        voice_jp_story_1201_120111_1E1DE9AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DE9AA",
+          SoundLength = 1420
+        },
+        voice_jp_story_1201_120111_1E1DE9D4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DE9D4",
+          SoundLength = 11710
+        },
+        voice_jp_story_1201_120111_1E1DE9FE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DE9FE_f",
+          SoundLength = 2980
+        },
+        voice_jp_story_1201_120111_1E1DE9FE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DE9FE_m",
+          SoundLength = 2300
+        },
+        voice_jp_story_1201_120111_1E1DEA28 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEA28",
+          SoundLength = 5080
+        },
+        voice_jp_story_1201_120111_1E1DEA52_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEA52_f",
+          SoundLength = 6290
+        },
+        voice_jp_story_1201_120111_1E1DEA52_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEA52_m",
+          SoundLength = 5990
+        },
+        voice_jp_story_1201_120111_1E1DEA7C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEA7C",
+          SoundLength = 6100
+        },
+        voice_jp_story_1201_120111_1E1DEAA6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEAA6_f",
+          SoundLength = 9650
+        },
+        voice_jp_story_1201_120111_1E1DEAA6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEAA6_m",
+          SoundLength = 10090
+        },
+        voice_jp_story_1201_120111_1E1DEAD0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEAD0_f",
+          SoundLength = 2370
+        },
+        voice_jp_story_1201_120111_1E1DEAD0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEAD0_m",
+          SoundLength = 1980
+        },
+        voice_jp_story_1201_120111_1E1DEAFA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEAFA_f",
+          SoundLength = 12370
+        },
+        voice_jp_story_1201_120111_1E1DEAFA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEAFA_m",
+          SoundLength = 12470
+        },
+        voice_jp_story_1201_120111_1E1DEB24_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEB24_f",
+          SoundLength = 5830
+        },
+        voice_jp_story_1201_120111_1E1DEB24_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEB24_m",
+          SoundLength = 5220
+        },
+        voice_jp_story_1201_120111_1E1DEB4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEB4E",
+          SoundLength = 1880
+        },
+        voice_jp_story_1201_120111_1E1DEB78_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEB78_f",
+          SoundLength = 5980
+        },
+        voice_jp_story_1201_120111_1E1DEB78_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DEB78_m",
+          SoundLength = 6010
+        },
+        voice_jp_story_1201_120111_1E1DF1DE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DF1DE",
+          SoundLength = 3850
+        },
+        voice_jp_story_1201_120111_1E1DF208 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DF208",
+          SoundLength = 6220
+        },
+        voice_jp_story_1201_120111_1E1DF232 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DF232",
+          SoundLength = 7750
+        },
+        voice_jp_story_1201_120111_1E1DF25C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DF25C",
+          SoundLength = 4510
+        },
+        voice_jp_story_1201_120111_1E1DF286 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DF286",
+          SoundLength = 580
+        },
+        voice_jp_story_1201_120111_1E1DFA12 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFA12",
+          SoundLength = 1700
+        },
+        voice_jp_story_1201_120111_1E1DFA3C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFA3C",
+          SoundLength = 9790
+        },
+        voice_jp_story_1201_120111_1E1DFA66 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFA66",
+          SoundLength = 8840
+        },
+        voice_jp_story_1201_120111_1E1DFA90 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFA90",
+          SoundLength = 7980
+        },
+        voice_jp_story_1201_120111_1E1DFABA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFABA",
+          SoundLength = 5740
+        },
+        voice_jp_story_1201_120111_1E1DFAE4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFAE4",
+          SoundLength = 4000
+        },
+        voice_jp_story_1201_120111_1E1DFB0E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFB0E",
+          SoundLength = 3840
+        },
+        voice_jp_story_1201_120111_1E1DFB38 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFB38",
+          SoundLength = 3900
+        },
+        voice_jp_story_1201_120111_1E1DFB62 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFB62",
+          SoundLength = 9030
+        },
+        voice_jp_story_1201_120111_1E1DFB8C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFB8C",
+          SoundLength = 4420
+        },
+        voice_jp_story_1201_120111_1E1DFBB6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFBB6",
+          SoundLength = 7060
+        },
+        voice_jp_story_1201_120111_1E1DFBE0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFBE0",
+          SoundLength = 4650
+        },
+        voice_jp_story_1201_120111_1E1DFC0A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFC0A",
+          SoundLength = 7570
+        },
+        voice_jp_story_1201_120111_1E1DFC34 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFC34",
+          SoundLength = 7110
+        },
+        voice_jp_story_1201_120111_1E1DFC5E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFC5E",
+          SoundLength = 6680
+        },
+        voice_jp_story_1201_120111_1E1DFC88 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFC88",
+          SoundLength = 7220
+        },
+        voice_jp_story_1201_120111_1E1DFCB2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFCB2",
+          SoundLength = 13610
+        },
+        voice_jp_story_1201_120111_1E1DFCDC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFCDC",
+          SoundLength = 6260
+        },
+        voice_jp_story_1201_120111_1E1DFD06 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFD06",
+          SoundLength = 6120
+        },
+        voice_jp_story_1201_120111_1E1DFD30 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFD30",
+          SoundLength = 5440
+        },
+        voice_jp_story_1201_120111_1E1DFD5A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFD5A",
+          SoundLength = 13890
+        },
+        voice_jp_story_1201_120111_1E1DFD84 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFD84",
+          SoundLength = 9650
+        },
+        voice_jp_story_1201_120111_1E1DFDAE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFDAE",
+          SoundLength = 7180
+        },
+        voice_jp_story_1201_120111_1E1DFDD8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFDD8",
+          SoundLength = 5240
+        },
+        voice_jp_story_1201_120111_1E1DFE02 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFE02",
+          SoundLength = 4880
+        },
+        voice_jp_story_1201_120111_1E1DFE2C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFE2C",
+          SoundLength = 2140
+        },
+        voice_jp_story_1201_120111_1E1DFE56 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFE56",
+          SoundLength = 13390
+        },
+        voice_jp_story_1201_120111_1E1DFE80 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFE80",
+          SoundLength = 6000
+        },
+        voice_jp_story_1201_120111_1E1DFEAA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFEAA",
+          SoundLength = 4750
+        },
+        voice_jp_story_1201_120111_1E1DFED4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFED4",
+          SoundLength = 7580
+        },
+        voice_jp_story_1201_120111_1E1DFEFE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1DFEFE",
+          SoundLength = 10620
+        },
+        voice_jp_story_1201_120111_1E1E0A7A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E0A7A",
+          SoundLength = 6350
+        },
+        voice_jp_story_1201_120111_1E1E0BF4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E0BF4",
+          SoundLength = 4900
+        },
         voice_jp_story_1201_120111_1E1E0D98 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120111_1E1E0D98",
           SoundLength = 2600
         },
+        voice_jp_story_1201_120111_1E1E0DC2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E0DC2",
+          SoundLength = 3610
+        },
+        voice_jp_story_1201_120111_1E1E0F3C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E0F3C",
+          SoundLength = 1140
+        },
+        voice_jp_story_1201_120111_1E1E0F66 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E0F66",
+          SoundLength = 10490
+        },
+        voice_jp_story_1201_120111_1E1E10E0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E10E0_f",
+          SoundLength = 5920
+        },
+        voice_jp_story_1201_120111_1E1E10E0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E10E0_m",
+          SoundLength = 5670
+        },
+        voice_jp_story_1201_120111_1E1E110A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E110A_f",
+          SoundLength = 7390
+        },
+        voice_jp_story_1201_120111_1E1E110A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E110A_m",
+          SoundLength = 7560
+        },
+        voice_jp_story_1201_120111_1E1E1134 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E1134",
+          SoundLength = 15720
+        },
+        voice_jp_story_1201_120111_1E1E115E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E115E_f",
+          SoundLength = 580
+        },
+        voice_jp_story_1201_120111_1E1E115E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E115E_m",
+          SoundLength = 720
+        },
+        voice_jp_story_1201_120111_1E1E1AE2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E1AE2",
+          SoundLength = 3730
+        },
+        voice_jp_story_1201_120111_1E1E1B0C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E1B0C",
+          SoundLength = 8220
+        },
+        voice_jp_story_1201_120111_1E1E1B36 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E1B36",
+          SoundLength = 10410
+        },
+        voice_jp_story_1201_120111_1E1E1B60 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E1B60",
+          SoundLength = 6040
+        },
+        voice_jp_story_1201_120111_1E1E1B8A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E1B8A",
+          SoundLength = 5250
+        },
+        voice_jp_story_1201_120111_1E1E1BB4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E1BB4",
+          SoundLength = 3330
+        },
+        voice_jp_story_1201_120111_1E1E2B4A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E2B4A",
+          SoundLength = 5140
+        },
         voice_jp_story_1201_120111_1E1E2B9E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120111_1E1E2B9E",
-          SoundLength = 2510
+          SoundLength = 740
+        },
+        voice_jp_story_1201_120111_1E1E2BC8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E2BC8",
+          SoundLength = 8430
+        },
+        voice_jp_story_1201_120111_1E1E2C1C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E2C1C",
+          SoundLength = 1070
+        },
+        voice_jp_story_1201_120111_1E1E2C46 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E2C46",
+          SoundLength = 4300
+        },
+        voice_jp_story_1201_120111_1E1E2C9A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E2C9A",
+          SoundLength = 4900
+        },
+        voice_jp_story_1201_120111_1E1E2CC4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E2CC4",
+          SoundLength = 5780
+        },
+        voice_jp_story_1201_120111_1E1E3BB2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E3BB2",
+          SoundLength = 10500
+        },
+        voice_jp_story_1201_120111_1E1E3BDC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E3BDC",
+          SoundLength = 16530
+        },
+        voice_jp_story_1201_120111_1E1E3C06 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E3C06",
+          SoundLength = 5700
+        },
+        voice_jp_story_1201_120111_1E1E4C1A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4C1A",
+          SoundLength = 1030
+        },
+        voice_jp_story_1201_120111_1E1E4C44 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4C44",
+          SoundLength = 690
+        },
+        voice_jp_story_1201_120111_1E1E4D94 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4D94",
+          SoundLength = 5510
+        },
+        voice_jp_story_1201_120111_1E1E4F38 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4F38",
+          SoundLength = 4070
+        },
+        voice_jp_story_1201_120111_1E1E4F62 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4F62",
+          SoundLength = 5400
+        },
+        voice_jp_story_1201_120111_1E1E4F8C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4F8C",
+          SoundLength = 4310
+        },
+        voice_jp_story_1201_120111_1E1E4FB6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4FB6",
+          SoundLength = 1220
+        },
+        voice_jp_story_1201_120111_1E1E4FE0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E4FE0",
+          SoundLength = 2980
+        },
+        voice_jp_story_1201_120111_1E1E50DC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E50DC",
+          SoundLength = 1150
+        },
+        voice_jp_story_1201_120111_1E1E5106 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E5106",
+          SoundLength = 5940
+        },
+        voice_jp_story_1201_120111_1E1E5280 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E5280",
+          SoundLength = 9920
+        },
+        voice_jp_story_1201_120111_1E1E52AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E52AA",
+          SoundLength = 3210
+        },
+        voice_jp_story_1201_120111_1E1E52D4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E52D4",
+          SoundLength = 2570
+        },
+        voice_jp_story_1201_120111_1E1E5C82 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E5C82",
+          SoundLength = 9040
+        },
+        voice_jp_story_1201_120111_1E1E5CAC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E5CAC",
+          SoundLength = 1190
+        },
+        voice_jp_story_1201_120111_1E1E5CD6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E5CD6",
+          SoundLength = 5180
+        },
+        voice_jp_story_1201_120111_1E1E5D00 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E5D00",
+          SoundLength = 8050
+        },
+        voice_jp_story_1201_120111_1E1E5D2A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E5D2A",
+          SoundLength = 6430
+        },
+        voice_jp_story_1201_120111_1E1E6CEA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E6CEA",
+          SoundLength = 4640
+        },
+        voice_jp_story_1201_120111_1E1E6D14 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E6D14",
+          SoundLength = 16860
+        },
+        voice_jp_story_1201_120111_1E1E6D68 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E6D68",
+          SoundLength = 8410
+        },
+        voice_jp_story_1201_120111_1E1E6D92 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E6D92",
+          SoundLength = 4650
+        },
+        voice_jp_story_1201_120111_1E1E6DBC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E6DBC",
+          SoundLength = 7810
+        },
+        voice_jp_story_1201_120111_1E1E6DE6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_1E1E6DE6",
+          SoundLength = 5990
+        },
+        voice_jp_story_1201_120111_C8462C3A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462C3A",
+          SoundLength = 12090
+        },
+        voice_jp_story_1201_120111_C8462C64 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462C64",
+          SoundLength = 10510
+        },
+        voice_jp_story_1201_120111_C8462C8E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462C8E",
+          SoundLength = 19320
+        },
+        voice_jp_story_1201_120111_C8462CB8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462CB8",
+          SoundLength = 5230
+        },
+        voice_jp_story_1201_120111_C8462CE2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462CE2",
+          SoundLength = 6760
+        },
+        voice_jp_story_1201_120111_C8462D0C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462D0C",
+          SoundLength = 4770
+        },
+        voice_jp_story_1201_120111_C8462D36 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462D36",
+          SoundLength = 7090
+        },
+        voice_jp_story_1201_120111_C8462D60 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462D60",
+          SoundLength = 5710
+        },
+        voice_jp_story_1201_120111_C8462D8A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462D8A",
+          SoundLength = 5230
+        },
+        voice_jp_story_1201_120111_C8462DB4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462DB4",
+          SoundLength = 7250
+        },
+        voice_jp_story_1201_120111_C8462DDE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462DDE",
+          SoundLength = 4220
+        },
+        voice_jp_story_1201_120111_C8462E08 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462E08",
+          SoundLength = 3000
+        },
+        voice_jp_story_1201_120111_C8462E32 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462E32",
+          SoundLength = 11400
+        },
+        voice_jp_story_1201_120111_C8462E5C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462E5C",
+          SoundLength = 12360
+        },
+        voice_jp_story_1201_120111_C8462E86 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462E86",
+          SoundLength = 4060
+        },
+        voice_jp_story_1201_120111_C8462EB0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462EB0",
+          SoundLength = 10250
+        },
+        voice_jp_story_1201_120111_C8462EDA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462EDA",
+          SoundLength = 9660
+        },
+        voice_jp_story_1201_120111_C8462F04 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462F04",
+          SoundLength = 7600
+        },
+        voice_jp_story_1201_120111_C8462F2E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462F2E",
+          SoundLength = 7720
+        },
+        voice_jp_story_1201_120111_C8462F58 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462F58",
+          SoundLength = 6090
+        },
+        voice_jp_story_1201_120111_C8462F82 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462F82",
+          SoundLength = 10470
+        },
+        voice_jp_story_1201_120111_C8462FAC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462FAC",
+          SoundLength = 3720
+        },
+        voice_jp_story_1201_120111_C8462FD6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120111_C8462FD6",
+          SoundLength = 8460
+        },
+        voice_jp_story_1201_120112_1E119BAA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E119BAA",
+          SoundLength = 4270
+        },
+        voice_jp_story_1201_120112_1E1E7D52 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7D52",
+          SoundLength = 6250
         },
         voice_jp_story_1201_120112_1E1E7DA6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E7DA6",
           SoundLength = 5950
         },
+        voice_jp_story_1201_120112_1E1E7DD0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7DD0",
+          SoundLength = 3550
+        },
         voice_jp_story_1201_120112_1E1E7DFA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E7DFA",
           SoundLength = 5240
+        },
+        voice_jp_story_1201_120112_1E1E7E24 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7E24",
+          SoundLength = 3050
+        },
+        voice_jp_story_1201_120112_1E1E7E4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7E4E",
+          SoundLength = 12240
         },
         voice_jp_story_1201_120112_1E1E7E78 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E7E78",
           SoundLength = 7590
         },
+        voice_jp_story_1201_120112_1E1E7EA2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7EA2",
+          SoundLength = 15710
+        },
         voice_jp_story_1201_120112_1E1E7ECC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E7ECC",
           SoundLength = 6810
+        },
+        voice_jp_story_1201_120112_1E1E7EF6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7EF6",
+          SoundLength = 3040
         },
         voice_jp_story_1201_120112_1E1E7F20 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E7F20",
           SoundLength = 2210
         },
+        voice_jp_story_1201_120112_1E1E7F4A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7F4A",
+          SoundLength = 20830
+        },
         voice_jp_story_1201_120112_1E1E7F74 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E7F74",
           SoundLength = 11610
         },
+        voice_jp_story_1201_120112_1E1E7F9E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7F9E",
+          SoundLength = 5260
+        },
         voice_jp_story_1201_120112_1E1E7FC8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E7FC8",
           SoundLength = 7360
+        },
+        voice_jp_story_1201_120112_1E1E7FF2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E7FF2",
+          SoundLength = 4320
         },
         voice_jp_story_1201_120112_1E1E801C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41727,45 +51426,150 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120112_1E1E809A",
           SoundLength = 12540
         },
+        voice_jp_story_1201_120112_1E1E80C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E80C4",
+          SoundLength = 4130
+        },
+        voice_jp_story_1201_120112_1E1E8DBA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E8DBA",
+          SoundLength = 16540
+        },
+        voice_jp_story_1201_120112_1E1E8DE4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E8DE4",
+          SoundLength = 7690
+        },
+        voice_jp_story_1201_120112_1E1E8E0E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E8E0E",
+          SoundLength = 19400
+        },
+        voice_jp_story_1201_120112_1E1E8E38 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E8E38",
+          SoundLength = 2140
+        },
+        voice_jp_story_1201_120112_1E1E8E62 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E8E62",
+          SoundLength = 9670
+        },
+        voice_jp_story_1201_120112_1E1E8E8C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E8E8C",
+          SoundLength = 24570
+        },
         voice_jp_story_1201_120112_1E1E9E22 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E9E22",
           SoundLength = 13760
+        },
+        voice_jp_story_1201_120112_1E1E9E4C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E9E4C",
+          SoundLength = 5800
         },
         voice_jp_story_1201_120112_1E1E9E76 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E9E76",
           SoundLength = 9190
         },
+        voice_jp_story_1201_120112_1E1E9EA0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E9EA0",
+          SoundLength = 12510
+        },
         voice_jp_story_1201_120112_1E1E9ECA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1E9ECA",
           SoundLength = 11330
         },
+        voice_jp_story_1201_120112_1E1E9EF4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E9EF4",
+          SoundLength = 680
+        },
+        voice_jp_story_1201_120112_1E1E9F48 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E9F48",
+          SoundLength = 11120
+        },
+        voice_jp_story_1201_120112_1E1E9F72 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E9F72",
+          SoundLength = 11980
+        },
+        voice_jp_story_1201_120112_1E1E9FC6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E9FC6_f",
+          SoundLength = 9590
+        },
+        voice_jp_story_1201_120112_1E1E9FC6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1E9FC6_m",
+          SoundLength = 8250
+        },
         voice_jp_story_1201_120112_1E1EAE8A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1EAE8A",
-          SoundLength = 1200
+          SoundLength = 1260
+        },
+        voice_jp_story_1201_120112_1E1EAEB4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EAEB4",
+          SoundLength = 8440
         },
         voice_jp_story_1201_120112_1E1EAEDE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1EAEDE",
-          SoundLength = 2430
+          SoundLength = 780
         },
         voice_jp_story_1201_120112_1E1EAF08 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1EAF08",
-          SoundLength = 1950
+          SoundLength = 1720
+        },
+        voice_jp_story_1201_120112_1E1EBEF2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EBEF2",
+          SoundLength = 4470
+        },
+        voice_jp_story_1201_120112_1E1EBF1C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EBF1C",
+          SoundLength = 10480
+        },
+        voice_jp_story_1201_120112_1E1EBF46_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EBF46_f",
+          SoundLength = 7750
+        },
+        voice_jp_story_1201_120112_1E1EBF46_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EBF46_m",
+          SoundLength = 7610
         },
         voice_jp_story_1201_120112_1E1EBF70 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1EBF70",
-          SoundLength = 1160
+          SoundLength = 1270
+        },
+        voice_jp_story_1201_120112_1E1EBF9A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EBF9A",
+          SoundLength = 19240
         },
         voice_jp_story_1201_120112_1E1ECF5A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1ECF5A",
           SoundLength = 3010
+        },
+        voice_jp_story_1201_120112_1E1ECF84 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1ECF84",
+          SoundLength = 3940
         },
         voice_jp_story_1201_120112_1E1ECFAE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41781,41 +51585,1967 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1ED002",
           SoundLength = 10170
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120112_1E1ED02C",
+    MaxKey = "voice_jp_story_1201_120114_1E1F632C_m",
+    Loader = function()
+      return {
+        voice_jp_story_1201_120112_1E1ED02C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1ED02C",
+          SoundLength = 3900
         },
         voice_jp_story_1201_120112_1E1ED056 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1ED056",
           SoundLength = 6180
         },
+        voice_jp_story_1201_120112_1E1ED080_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1ED080_f",
+          SoundLength = 13540
+        },
+        voice_jp_story_1201_120112_1E1ED080_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1ED080_m",
+          SoundLength = 13880
+        },
         voice_jp_story_1201_120112_1E1ED0AA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1ED0AA",
           SoundLength = 17050
         },
+        voice_jp_story_1201_120112_1E1ED0D4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1ED0D4",
+          SoundLength = 9860
+        },
+        voice_jp_story_1201_120112_1E1ED0FE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1ED0FE",
+          SoundLength = 11970
+        },
         voice_jp_story_1201_120112_1E1ED128 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1ED128",
-          SoundLength = 12050
+          SoundLength = 570
         },
         voice_jp_story_1201_120112_1E1EDFC2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120112_1E1EDFC2",
-          SoundLength = 1730
+          SoundLength = 770
+        },
+        voice_jp_story_1201_120112_1E1EDFEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EDFEC",
+          SoundLength = 4920
+        },
+        voice_jp_story_1201_120112_1E1EE13C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE13C_f",
+          SoundLength = 7180
+        },
+        voice_jp_story_1201_120112_1E1EE13C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE13C_m",
+          SoundLength = 6960
+        },
+        voice_jp_story_1201_120112_1E1EE166_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE166_f",
+          SoundLength = 4480
+        },
+        voice_jp_story_1201_120112_1E1EE166_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE166_m",
+          SoundLength = 4500
+        },
+        voice_jp_story_1201_120112_1E1EE190 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE190",
+          SoundLength = 10050
+        },
+        voice_jp_story_1201_120112_1E1EE1BA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE1BA_f",
+          SoundLength = 15460
+        },
+        voice_jp_story_1201_120112_1E1EE1BA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE1BA_m",
+          SoundLength = 15460
+        },
+        voice_jp_story_1201_120112_1E1EE1E4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE1E4_f",
+          SoundLength = 3640
+        },
+        voice_jp_story_1201_120112_1E1EE1E4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE1E4_m",
+          SoundLength = 3180
+        },
+        voice_jp_story_1201_120112_1E1EE20E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE20E",
+          SoundLength = 1200
+        },
+        voice_jp_story_1201_120112_1E1EE238 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE238",
+          SoundLength = 17780
+        },
+        voice_jp_story_1201_120112_1E1EE262_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE262_f",
+          SoundLength = 14310
+        },
+        voice_jp_story_1201_120112_1E1EE262_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE262_m",
+          SoundLength = 15150
+        },
+        voice_jp_story_1201_120112_1E1EE28C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE28C",
+          SoundLength = 11650
+        },
+        voice_jp_story_1201_120112_1E1EE2B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE2B6",
+          SoundLength = 10900
+        },
+        voice_jp_story_1201_120112_1E1EE2E0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE2E0_f",
+          SoundLength = 6700
+        },
+        voice_jp_story_1201_120112_1E1EE2E0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE2E0_m",
+          SoundLength = 6640
+        },
+        voice_jp_story_1201_120112_1E1EE30A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_1E1EE30A",
+          SoundLength = 650
+        },
+        voice_jp_story_1201_120112_C846D04A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D04A",
+          SoundLength = 4750
+        },
+        voice_jp_story_1201_120112_C846D074_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D074_f",
+          SoundLength = 5180
+        },
+        voice_jp_story_1201_120112_C846D074_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D074_m",
+          SoundLength = 4980
+        },
+        voice_jp_story_1201_120112_C846D09E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D09E",
+          SoundLength = 10310
+        },
+        voice_jp_story_1201_120112_C846D0C8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D0C8",
+          SoundLength = 8380
+        },
+        voice_jp_story_1201_120112_C846D0F2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D0F2",
+          SoundLength = 9240
+        },
+        voice_jp_story_1201_120112_C846D11C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D11C_f",
+          SoundLength = 10140
+        },
+        voice_jp_story_1201_120112_C846D11C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D11C_m",
+          SoundLength = 10410
+        },
+        voice_jp_story_1201_120112_C846D146_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D146_f",
+          SoundLength = 8930
+        },
+        voice_jp_story_1201_120112_C846D146_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D146_m",
+          SoundLength = 8500
+        },
+        voice_jp_story_1201_120112_C846D170_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D170_f",
+          SoundLength = 9500
+        },
+        voice_jp_story_1201_120112_C846D170_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D170_m",
+          SoundLength = 9820
+        },
+        voice_jp_story_1201_120112_C846D19A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D19A",
+          SoundLength = 5070
+        },
+        voice_jp_story_1201_120112_C846D1C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D1C4",
+          SoundLength = 7550
+        },
+        voice_jp_story_1201_120112_C846D1EE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D1EE_f",
+          SoundLength = 8090
+        },
+        voice_jp_story_1201_120112_C846D1EE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D1EE_m",
+          SoundLength = 7670
+        },
+        voice_jp_story_1201_120112_C846D218_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D218_f",
+          SoundLength = 12920
+        },
+        voice_jp_story_1201_120112_C846D218_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D218_m",
+          SoundLength = 13180
+        },
+        voice_jp_story_1201_120112_C846D242 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D242",
+          SoundLength = 11760
+        },
+        voice_jp_story_1201_120112_C846D26C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D26C_f",
+          SoundLength = 8730
+        },
+        voice_jp_story_1201_120112_C846D26C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D26C_m",
+          SoundLength = 8880
+        },
+        voice_jp_story_1201_120112_C846D296 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D296",
+          SoundLength = 11260
+        },
+        voice_jp_story_1201_120112_C846D2C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D2C0",
+          SoundLength = 5320
+        },
+        voice_jp_story_1201_120112_C846D2EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D2EA",
+          SoundLength = 6270
+        },
+        voice_jp_story_1201_120112_C846D314 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D314",
+          SoundLength = 2540
+        },
+        voice_jp_story_1201_120112_C846D33E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D33E",
+          SoundLength = 5760
+        },
+        voice_jp_story_1201_120112_C846D368_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D368_f",
+          SoundLength = 12780
+        },
+        voice_jp_story_1201_120112_C846D368_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D368_m",
+          SoundLength = 12210
+        },
+        voice_jp_story_1201_120112_C846D392_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D392_f",
+          SoundLength = 13550
+        },
+        voice_jp_story_1201_120112_C846D392_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D392_m",
+          SoundLength = 13700
+        },
+        voice_jp_story_1201_120112_C846D3BC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D3BC_f",
+          SoundLength = 10030
+        },
+        voice_jp_story_1201_120112_C846D3BC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D3BC_m",
+          SoundLength = 10410
+        },
+        voice_jp_story_1201_120112_C846D3E6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D3E6_f",
+          SoundLength = 10260
+        },
+        voice_jp_story_1201_120112_C846D3E6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D3E6_m",
+          SoundLength = 10140
+        },
+        voice_jp_story_1201_120112_C846D410_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D410_f",
+          SoundLength = 13340
+        },
+        voice_jp_story_1201_120112_C846D410_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D410_m",
+          SoundLength = 13630
+        },
+        voice_jp_story_1201_120112_C846D43A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D43A",
+          SoundLength = 3230
+        },
+        voice_jp_story_1201_120112_C846D464 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D464",
+          SoundLength = 7240
+        },
+        voice_jp_story_1201_120112_C846D48E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D48E",
+          SoundLength = 9610
+        },
+        voice_jp_story_1201_120112_C846D4B8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D4B8_f",
+          SoundLength = 13870
+        },
+        voice_jp_story_1201_120112_C846D4B8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120112_C846D4B8_m",
+          SoundLength = 13450
+        },
+        voice_jp_story_1201_120113_1E1EF02A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF02A",
+          SoundLength = 5260
+        },
+        voice_jp_story_1201_120113_1E1EF1A4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF1A4",
+          SoundLength = 5300
+        },
+        voice_jp_story_1201_120113_1E1EF1CE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF1CE",
+          SoundLength = 570
+        },
+        voice_jp_story_1201_120113_1E1EF348 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF348",
+          SoundLength = 7630
+        },
+        voice_jp_story_1201_120113_1E1EF372 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF372",
+          SoundLength = 4360
+        },
+        voice_jp_story_1201_120113_1E1EF39C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF39C",
+          SoundLength = 3700
+        },
+        voice_jp_story_1201_120113_1E1EF3C6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF3C6",
+          SoundLength = 11020
+        },
+        voice_jp_story_1201_120113_1E1EF3F0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF3F0",
+          SoundLength = 5310
+        },
+        voice_jp_story_1201_120113_1E1EF41A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF41A",
+          SoundLength = 690
+        },
+        voice_jp_story_1201_120113_1E1EF444 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF444",
+          SoundLength = 3730
+        },
+        voice_jp_story_1201_120113_1E1EF46E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF46E_f",
+          SoundLength = 5130
+        },
+        voice_jp_story_1201_120113_1E1EF46E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF46E_m",
+          SoundLength = 4980
+        },
+        voice_jp_story_1201_120113_1E1EF498 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF498",
+          SoundLength = 2630
+        },
+        voice_jp_story_1201_120113_1E1EF4C2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF4C2_f",
+          SoundLength = 3580
+        },
+        voice_jp_story_1201_120113_1E1EF4C2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1EF4C2_m",
+          SoundLength = 3680
+        },
+        voice_jp_story_1201_120113_1E1F0092 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F0092",
+          SoundLength = 6490
+        },
+        voice_jp_story_1201_120113_1E1F00BC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F00BC_f",
+          SoundLength = 2810
+        },
+        voice_jp_story_1201_120113_1E1F00BC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F00BC_m",
+          SoundLength = 2620
+        },
+        voice_jp_story_1201_120113_1E1F00E6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F00E6",
+          SoundLength = 4580
+        },
+        voice_jp_story_1201_120113_1E1F10FA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F10FA_f",
+          SoundLength = 2280
+        },
+        voice_jp_story_1201_120113_1E1F10FA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F10FA_m",
+          SoundLength = 2060
+        },
+        voice_jp_story_1201_120113_1E1F1124 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F1124",
+          SoundLength = 7310
+        },
+        voice_jp_story_1201_120113_1E1F114E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F114E_f",
+          SoundLength = 7940
+        },
+        voice_jp_story_1201_120113_1E1F114E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F114E_m",
+          SoundLength = 8260
+        },
+        voice_jp_story_1201_120113_1E1F1178_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F1178_f",
+          SoundLength = 9950
+        },
+        voice_jp_story_1201_120113_1E1F1178_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F1178_m",
+          SoundLength = 9700
+        },
+        voice_jp_story_1201_120113_1E1F11A2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F11A2",
+          SoundLength = 19900
+        },
+        voice_jp_story_1201_120113_1E1F11CC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F11CC",
+          SoundLength = 14670
+        },
+        voice_jp_story_1201_120113_1E1F11F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F11F6",
+          SoundLength = 9500
+        },
+        voice_jp_story_1201_120113_1E1F1220 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F1220",
+          SoundLength = 14950
+        },
+        voice_jp_story_1201_120113_1E1F124A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F124A_f",
+          SoundLength = 8870
+        },
+        voice_jp_story_1201_120113_1E1F124A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F124A_m",
+          SoundLength = 9630
+        },
+        voice_jp_story_1201_120113_1E1F1274_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F1274_f",
+          SoundLength = 10170
+        },
+        voice_jp_story_1201_120113_1E1F1274_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F1274_m",
+          SoundLength = 9970
+        },
+        voice_jp_story_1201_120113_1E1F129E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F129E_f",
+          SoundLength = 6360
+        },
+        voice_jp_story_1201_120113_1E1F129E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F129E_m",
+          SoundLength = 6290
+        },
+        voice_jp_story_1201_120113_1E1F2162 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2162",
+          SoundLength = 5460
+        },
+        voice_jp_story_1201_120113_1E1F218C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F218C",
+          SoundLength = 4730
+        },
+        voice_jp_story_1201_120113_1E1F21B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F21B6",
+          SoundLength = 4030
+        },
+        voice_jp_story_1201_120113_1E1F21E0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F21E0",
+          SoundLength = 3930
+        },
+        voice_jp_story_1201_120113_1E1F220A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F220A",
+          SoundLength = 3170
+        },
+        voice_jp_story_1201_120113_1E1F2234 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2234",
+          SoundLength = 5580
+        },
+        voice_jp_story_1201_120113_1E1F225E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F225E",
+          SoundLength = 9760
+        },
+        voice_jp_story_1201_120113_1E1F2288 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2288",
+          SoundLength = 8150
+        },
+        voice_jp_story_1201_120113_1E1F22B2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F22B2_f",
+          SoundLength = 1310
+        },
+        voice_jp_story_1201_120113_1E1F22B2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F22B2_m",
+          SoundLength = 1400
+        },
+        voice_jp_story_1201_120113_1E1F22DC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F22DC",
+          SoundLength = 6480
+        },
+        voice_jp_story_1201_120113_1E1F2306 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2306",
+          SoundLength = 22680
+        },
+        voice_jp_story_1201_120113_1E1F2330 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2330",
+          SoundLength = 4380
+        },
+        voice_jp_story_1201_120113_1E1F235A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F235A",
+          SoundLength = 4790
+        },
+        voice_jp_story_1201_120113_1E1F2384 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2384",
+          SoundLength = 5660
+        },
+        voice_jp_story_1201_120113_1E1F23AE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F23AE",
+          SoundLength = 4470
+        },
+        voice_jp_story_1201_120113_1E1F23D8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F23D8",
+          SoundLength = 12480
+        },
+        voice_jp_story_1201_120113_1E1F2402 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2402",
+          SoundLength = 4170
+        },
+        voice_jp_story_1201_120113_1E1F242C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F242C_f",
+          SoundLength = 3400
+        },
+        voice_jp_story_1201_120113_1E1F242C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F242C_m",
+          SoundLength = 3560
+        },
+        voice_jp_story_1201_120113_1E1F2456 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2456",
+          SoundLength = 13540
+        },
+        voice_jp_story_1201_120113_1E1F2480 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2480",
+          SoundLength = 7200
+        },
+        voice_jp_story_1201_120113_1E1F24AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F24AA",
+          SoundLength = 7830
+        },
+        voice_jp_story_1201_120113_1E1F24D4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F24D4",
+          SoundLength = 12220
+        },
+        voice_jp_story_1201_120113_1E1F24FE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F24FE",
+          SoundLength = 12200
+        },
+        voice_jp_story_1201_120113_1E1F2528 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2528",
+          SoundLength = 4560
+        },
+        voice_jp_story_1201_120113_1E1F2552 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2552",
+          SoundLength = 8030
+        },
+        voice_jp_story_1201_120113_1E1F257C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F257C",
+          SoundLength = 19980
+        },
+        voice_jp_story_1201_120113_1E1F25A6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F25A6",
+          SoundLength = 540
+        },
+        voice_jp_story_1201_120113_1E1F25D0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F25D0",
+          SoundLength = 15160
+        },
+        voice_jp_story_1201_120113_1E1F25FA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F25FA",
+          SoundLength = 3790
+        },
+        voice_jp_story_1201_120113_1E1F2624 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2624",
+          SoundLength = 630
+        },
+        voice_jp_story_1201_120113_1E1F264E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F264E",
+          SoundLength = 2880
+        },
+        voice_jp_story_1201_120113_1E1F2678 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2678",
+          SoundLength = 2190
+        },
+        voice_jp_story_1201_120113_1E1F26A2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F26A2",
+          SoundLength = 9930
+        },
+        voice_jp_story_1201_120113_1E1F26CC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F26CC",
+          SoundLength = 7460
+        },
+        voice_jp_story_1201_120113_1E1F26F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F26F6",
+          SoundLength = 1850
+        },
+        voice_jp_story_1201_120113_1E1F2720 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2720",
+          SoundLength = 15380
+        },
+        voice_jp_story_1201_120113_1E1F274A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F274A",
+          SoundLength = 14370
+        },
+        voice_jp_story_1201_120113_1E1F2774 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2774",
+          SoundLength = 6780
+        },
+        voice_jp_story_1201_120113_1E1F279E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F279E",
+          SoundLength = 17270
+        },
+        voice_jp_story_1201_120113_1E1F27C8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F27C8",
+          SoundLength = 11670
+        },
+        voice_jp_story_1201_120113_1E1F27F2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F27F2",
+          SoundLength = 9100
+        },
+        voice_jp_story_1201_120113_1E1F281C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F281C",
+          SoundLength = 4890
+        },
+        voice_jp_story_1201_120113_1E1F2996_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2996_f",
+          SoundLength = 8680
+        },
+        voice_jp_story_1201_120113_1E1F2996_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2996_m",
+          SoundLength = 7810
+        },
+        voice_jp_story_1201_120113_1E1F29C0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F29C0_f",
+          SoundLength = 8090
+        },
+        voice_jp_story_1201_120113_1E1F29C0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F29C0_m",
+          SoundLength = 7690
+        },
+        voice_jp_story_1201_120113_1E1F29EA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F29EA_f",
+          SoundLength = 14180
+        },
+        voice_jp_story_1201_120113_1E1F29EA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F29EA_m",
+          SoundLength = 14250
+        },
+        voice_jp_story_1201_120113_1E1F2A14_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2A14_f",
+          SoundLength = 11340
+        },
+        voice_jp_story_1201_120113_1E1F2A14_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_1E1F2A14_m",
+          SoundLength = 11490
+        },
+        voice_jp_story_1201_120113_C84784C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84784C2",
+          SoundLength = 2210
+        },
+        voice_jp_story_1201_120113_C84784EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84784EC",
+          SoundLength = 7970
+        },
+        voice_jp_story_1201_120113_C8478516 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8478516",
+          SoundLength = 4490
+        },
+        voice_jp_story_1201_120113_C8478540 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8478540",
+          SoundLength = 6510
+        },
+        voice_jp_story_1201_120113_C847856A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C847856A",
+          SoundLength = 5690
+        },
+        voice_jp_story_1201_120113_C8478594 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8478594",
+          SoundLength = 3070
+        },
+        voice_jp_story_1201_120113_C84785BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84785BE",
+          SoundLength = 7210
+        },
+        voice_jp_story_1201_120113_C84785E8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84785E8",
+          SoundLength = 2210
+        },
+        voice_jp_story_1201_120113_C8478612 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8478612",
+          SoundLength = 10550
+        },
+        voice_jp_story_1201_120113_C847863C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C847863C",
+          SoundLength = 4730
+        },
+        voice_jp_story_1201_120113_C8478666 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8478666",
+          SoundLength = 5910
+        },
+        voice_jp_story_1201_120113_C8478690 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8478690",
+          SoundLength = 7730
+        },
+        voice_jp_story_1201_120113_C84786BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84786BA",
+          SoundLength = 16460
+        },
+        voice_jp_story_1201_120113_C84786E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84786E4",
+          SoundLength = 1590
+        },
+        voice_jp_story_1201_120113_C847870E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C847870E",
+          SoundLength = 7740
+        },
+        voice_jp_story_1201_120113_C847952A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C847952A",
+          SoundLength = 7470
+        },
+        voice_jp_story_1201_120113_C8479554 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8479554",
+          SoundLength = 6030
+        },
+        voice_jp_story_1201_120113_C847957E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C847957E",
+          SoundLength = 9280
+        },
+        voice_jp_story_1201_120113_C84795A8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84795A8",
+          SoundLength = 13130
+        },
+        voice_jp_story_1201_120113_C84795D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84795D2",
+          SoundLength = 8620
+        },
+        voice_jp_story_1201_120113_C84795FC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C84795FC",
+          SoundLength = 8140
+        },
+        voice_jp_story_1201_120113_C8479626 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8479626",
+          SoundLength = 6630
+        },
+        voice_jp_story_1201_120113_C8479650 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C8479650",
+          SoundLength = 4830
+        },
+        voice_jp_story_1201_120113_C847967A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120113_C847967A",
+          SoundLength = 8180
+        },
+        voice_jp_story_1201_120114_1E11BCCE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BCCE",
+          SoundLength = 1110
+        },
+        voice_jp_story_1201_120114_1E11BCF8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BCF8",
+          SoundLength = 10850
+        },
+        voice_jp_story_1201_120114_1E11BD4C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BD4C",
+          SoundLength = 5130
+        },
+        voice_jp_story_1201_120114_1E11BDA0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BDA0",
+          SoundLength = 9240
+        },
+        voice_jp_story_1201_120114_1E11BDCA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BDCA",
+          SoundLength = 11950
+        },
+        voice_jp_story_1201_120114_1E11BE72 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BE72",
+          SoundLength = 10720
+        },
+        voice_jp_story_1201_120114_1E11BEC6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BEC6",
+          SoundLength = 5530
+        },
+        voice_jp_story_1201_120114_1E11BF1A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E11BF1A",
+          SoundLength = 4190
+        },
+        voice_jp_story_1201_120114_1E1F4232_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F4232_f",
+          SoundLength = 3620
+        },
+        voice_jp_story_1201_120114_1E1F4232_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F4232_m",
+          SoundLength = 3370
+        },
+        voice_jp_story_1201_120114_1E1F425C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F425C_f",
+          SoundLength = 1440
+        },
+        voice_jp_story_1201_120114_1E1F425C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F425C_m",
+          SoundLength = 1420
+        },
+        voice_jp_story_1201_120114_1E1F4286 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F4286",
+          SoundLength = 7740
+        },
+        voice_jp_story_1201_120114_1E1F529A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F529A_f",
+          SoundLength = 4980
+        },
+        voice_jp_story_1201_120114_1E1F529A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F529A_m",
+          SoundLength = 5060
+        },
+        voice_jp_story_1201_120114_1E1F52C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F52C4",
+          SoundLength = 8670
+        },
+        voice_jp_story_1201_120114_1E1F6302 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F6302",
+          SoundLength = 3870
+        },
+        voice_jp_story_1201_120114_1E1F632C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F632C_f",
+          SoundLength = 1700
+        },
+        voice_jp_story_1201_120114_1E1F632C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F632C_m",
+          SoundLength = 1540
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120114_1E1F6356",
+    MaxKey = "voice_jp_story_1201_120114_1E20596E",
+    Loader = function()
+      return {
+        voice_jp_story_1201_120114_1E1F6356 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F6356",
+          SoundLength = 3790
+        },
+        voice_jp_story_1201_120114_1E1F6380 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F6380",
+          SoundLength = 2230
+        },
+        voice_jp_story_1201_120114_1E1F736A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F736A",
+          SoundLength = 4230
+        },
+        voice_jp_story_1201_120114_1E1F7394 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F7394",
+          SoundLength = 13910
+        },
+        voice_jp_story_1201_120114_1E1F73BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F73BE",
+          SoundLength = 5640
+        },
+        voice_jp_story_1201_120114_1E1F73E8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F73E8_f",
+          SoundLength = 2130
+        },
+        voice_jp_story_1201_120114_1E1F73E8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F73E8_m",
+          SoundLength = 2010
+        },
+        voice_jp_story_1201_120114_1E1F7412 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F7412",
+          SoundLength = 9670
+        },
+        voice_jp_story_1201_120114_1E1F743C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F743C",
+          SoundLength = 4170
+        },
+        voice_jp_story_1201_120114_1E1F7466_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F7466_f",
+          SoundLength = 1980
+        },
+        voice_jp_story_1201_120114_1E1F7466_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F7466_m",
+          SoundLength = 1750
+        },
+        voice_jp_story_1201_120114_1E1F83D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F83D2",
+          SoundLength = 2300
+        },
+        voice_jp_story_1201_120114_1E1F83FC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F83FC",
+          SoundLength = 3880
+        },
+        voice_jp_story_1201_120114_1E1F8426_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F8426_f",
+          SoundLength = 4850
+        },
+        voice_jp_story_1201_120114_1E1F8426_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F8426_m",
+          SoundLength = 4850
+        },
+        voice_jp_story_1201_120114_1E1F8450 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F8450",
+          SoundLength = 540
+        },
+        voice_jp_story_1201_120114_1E1F847A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F847A",
+          SoundLength = 900
+        },
+        voice_jp_story_1201_120114_1E1F84A4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F84A4",
+          SoundLength = 3540
+        },
+        voice_jp_story_1201_120114_1E1F84CE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F84CE",
+          SoundLength = 4140
+        },
+        voice_jp_story_1201_120114_1E1F84F8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F84F8",
+          SoundLength = 5380
+        },
+        voice_jp_story_1201_120114_1E1F854C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F854C",
+          SoundLength = 6230
+        },
+        voice_jp_story_1201_120114_1E1F9464_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F9464_f",
+          SoundLength = 1830
+        },
+        voice_jp_story_1201_120114_1E1F9464_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F9464_m",
+          SoundLength = 1560
+        },
+        voice_jp_story_1201_120114_1E1F948E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F948E_f",
+          SoundLength = 6210
+        },
+        voice_jp_story_1201_120114_1E1F948E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F948E_m",
+          SoundLength = 6980
+        },
+        voice_jp_story_1201_120114_1E1F94B8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F94B8_f",
+          SoundLength = 2790
+        },
+        voice_jp_story_1201_120114_1E1F94B8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F94B8_m",
+          SoundLength = 2210
+        },
+        voice_jp_story_1201_120114_1E1F94E2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F94E2",
+          SoundLength = 6310
+        },
+        voice_jp_story_1201_120114_1E1F950C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F950C_f",
+          SoundLength = 3430
+        },
+        voice_jp_story_1201_120114_1E1F950C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F950C_m",
+          SoundLength = 2570
+        },
+        voice_jp_story_1201_120114_1E1F9536 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F9536",
+          SoundLength = 19060
+        },
+        voice_jp_story_1201_120114_1E1F9560_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F9560_f",
+          SoundLength = 2050
+        },
+        voice_jp_story_1201_120114_1E1F9560_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F9560_m",
+          SoundLength = 1610
+        },
+        voice_jp_story_1201_120114_1E1F958A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F958A_f",
+          SoundLength = 3810
+        },
+        voice_jp_story_1201_120114_1E1F958A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F958A_m",
+          SoundLength = 3890
+        },
+        voice_jp_story_1201_120114_1E1F95B4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F95B4",
+          SoundLength = 11340
+        },
+        voice_jp_story_1201_120114_1E1F95DE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F95DE_f",
+          SoundLength = 7020
+        },
+        voice_jp_story_1201_120114_1E1F95DE_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F95DE_m",
+          SoundLength = 7020
+        },
+        voice_jp_story_1201_120114_1E1F9608 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1F9608",
+          SoundLength = 7020
+        },
+        voice_jp_story_1201_120114_1E1FA4CC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FA4CC",
+          SoundLength = 2590
+        },
+        voice_jp_story_1201_120114_1E1FA4F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FA4F6",
+          SoundLength = 5780
+        },
+        voice_jp_story_1201_120114_1E1FA520 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FA520",
+          SoundLength = 3550
+        },
+        voice_jp_story_1201_120114_1E1FB50A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB50A_f",
+          SoundLength = 1080
+        },
+        voice_jp_story_1201_120114_1E1FB50A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB50A_m",
+          SoundLength = 870
+        },
+        voice_jp_story_1201_120114_1E1FB534 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB534",
+          SoundLength = 3300
+        },
+        voice_jp_story_1201_120114_1E1FB55E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB55E_f",
+          SoundLength = 3000
+        },
+        voice_jp_story_1201_120114_1E1FB55E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB55E_m",
+          SoundLength = 2860
+        },
+        voice_jp_story_1201_120114_1E1FB588 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB588",
+          SoundLength = 12730
+        },
+        voice_jp_story_1201_120114_1E1FB5B2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB5B2_f",
+          SoundLength = 6180
+        },
+        voice_jp_story_1201_120114_1E1FB5B2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FB5B2_m",
+          SoundLength = 6650
+        },
+        voice_jp_story_1201_120114_1E1FC572 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC572",
+          SoundLength = 1950
+        },
+        voice_jp_story_1201_120114_1E1FC59C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC59C_f",
+          SoundLength = 930
+        },
+        voice_jp_story_1201_120114_1E1FC59C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC59C_m",
+          SoundLength = 940
+        },
+        voice_jp_story_1201_120114_1E1FC5C6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC5C6",
+          SoundLength = 12530
+        },
+        voice_jp_story_1201_120114_1E1FC5F0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC5F0_f",
+          SoundLength = 5460
+        },
+        voice_jp_story_1201_120114_1E1FC5F0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC5F0_m",
+          SoundLength = 6050
+        },
+        voice_jp_story_1201_120114_1E1FC61A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC61A",
+          SoundLength = 5260
+        },
+        voice_jp_story_1201_120114_1E1FC644 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC644",
+          SoundLength = 930
+        },
+        voice_jp_story_1201_120114_1E1FC66E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC66E_f",
+          SoundLength = 3180
+        },
+        voice_jp_story_1201_120114_1E1FC66E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC66E_m",
+          SoundLength = 3030
+        },
+        voice_jp_story_1201_120114_1E1FC698 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC698",
+          SoundLength = 12890
+        },
+        voice_jp_story_1201_120114_1E1FC6C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC6C2",
+          SoundLength = 7580
+        },
+        voice_jp_story_1201_120114_1E1FC6EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC6EC",
+          SoundLength = 4640
+        },
+        voice_jp_story_1201_120114_1E1FC716 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC716",
+          SoundLength = 2010
+        },
+        voice_jp_story_1201_120114_1E1FC740 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC740",
+          SoundLength = 6940
+        },
+        voice_jp_story_1201_120114_1E1FC76A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC76A",
+          SoundLength = 1590
+        },
+        voice_jp_story_1201_120114_1E1FC794 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC794",
+          SoundLength = 3810
+        },
+        voice_jp_story_1201_120114_1E1FC7BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC7BE",
+          SoundLength = 13300
+        },
+        voice_jp_story_1201_120114_1E1FC7E8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FC7E8",
+          SoundLength = 2390
+        },
+        voice_jp_story_1201_120114_1E1FD5DA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD5DA",
+          SoundLength = 5540
+        },
+        voice_jp_story_1201_120114_1E1FD604 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD604",
+          SoundLength = 1950
+        },
+        voice_jp_story_1201_120114_1E1FD62E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD62E",
+          SoundLength = 5100
+        },
+        voice_jp_story_1201_120114_1E1FD658 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD658",
+          SoundLength = 9190
+        },
+        voice_jp_story_1201_120114_1E1FD682 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD682",
+          SoundLength = 2540
+        },
+        voice_jp_story_1201_120114_1E1FD6AC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD6AC",
+          SoundLength = 3430
+        },
+        voice_jp_story_1201_120114_1E1FD6D6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD6D6",
+          SoundLength = 14470
+        },
+        voice_jp_story_1201_120114_1E1FD700 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD700",
+          SoundLength = 3890
+        },
+        voice_jp_story_1201_120114_1E1FD72A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD72A",
+          SoundLength = 10120
+        },
+        voice_jp_story_1201_120114_1E1FD754 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD754",
+          SoundLength = 4550
+        },
+        voice_jp_story_1201_120114_1E1FD77E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD77E",
+          SoundLength = 5640
+        },
+        voice_jp_story_1201_120114_1E1FD7A8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD7A8",
+          SoundLength = 5440
+        },
+        voice_jp_story_1201_120114_1E1FD7D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD7D2",
+          SoundLength = 7410
+        },
+        voice_jp_story_1201_120114_1E1FD7FC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD7FC_f",
+          SoundLength = 6860
+        },
+        voice_jp_story_1201_120114_1E1FD7FC_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD7FC_m",
+          SoundLength = 6820
+        },
+        voice_jp_story_1201_120114_1E1FD826_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD826_f",
+          SoundLength = 7600
+        },
+        voice_jp_story_1201_120114_1E1FD826_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD826_m",
+          SoundLength = 7600
+        },
+        voice_jp_story_1201_120114_1E1FD850_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD850_f",
+          SoundLength = 2940
+        },
+        voice_jp_story_1201_120114_1E1FD850_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD850_m",
+          SoundLength = 2730
+        },
+        voice_jp_story_1201_120114_1E1FD87A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD87A",
+          SoundLength = 5690
+        },
+        voice_jp_story_1201_120114_1E1FD8A4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD8A4_f",
+          SoundLength = 8830
+        },
+        voice_jp_story_1201_120114_1E1FD8A4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD8A4_m",
+          SoundLength = 8600
+        },
+        voice_jp_story_1201_120114_1E1FD8CE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD8CE",
+          SoundLength = 8870
+        },
+        voice_jp_story_1201_120114_1E1FD8F8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD8F8_f",
+          SoundLength = 2290
+        },
+        voice_jp_story_1201_120114_1E1FD8F8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD8F8_m",
+          SoundLength = 2570
+        },
+        voice_jp_story_1201_120114_1E1FD922 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD922",
+          SoundLength = 1300
+        },
+        voice_jp_story_1201_120114_1E1FD94C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD94C_f",
+          SoundLength = 2500
+        },
+        voice_jp_story_1201_120114_1E1FD94C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD94C_m",
+          SoundLength = 2950
+        },
+        voice_jp_story_1201_120114_1E1FD976 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FD976",
+          SoundLength = 2580
+        },
+        voice_jp_story_1201_120114_1E1FE642_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE642_f",
+          SoundLength = 11180
+        },
+        voice_jp_story_1201_120114_1E1FE642_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE642_m",
+          SoundLength = 11210
+        },
+        voice_jp_story_1201_120114_1E1FE66C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE66C",
+          SoundLength = 15190
+        },
+        voice_jp_story_1201_120114_1E1FE696_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE696_f",
+          SoundLength = 5410
+        },
+        voice_jp_story_1201_120114_1E1FE696_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE696_m",
+          SoundLength = 4900
+        },
+        voice_jp_story_1201_120114_1E1FE6C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE6C0",
+          SoundLength = 10980
+        },
+        voice_jp_story_1201_120114_1E1FE6EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE6EA",
+          SoundLength = 9940
+        },
+        voice_jp_story_1201_120114_1E1FE714 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE714",
+          SoundLength = 7960
+        },
+        voice_jp_story_1201_120114_1E1FE73E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FE73E",
+          SoundLength = 1180
+        },
+        voice_jp_story_1201_120114_1E1FF6AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF6AA",
+          SoundLength = 2720
+        },
+        voice_jp_story_1201_120114_1E1FF6D4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF6D4_f",
+          SoundLength = 2340
+        },
+        voice_jp_story_1201_120114_1E1FF6D4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF6D4_m",
+          SoundLength = 2240
+        },
+        voice_jp_story_1201_120114_1E1FF6FE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF6FE",
+          SoundLength = 10230
+        },
+        voice_jp_story_1201_120114_1E1FF728 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF728",
+          SoundLength = 6720
+        },
+        voice_jp_story_1201_120114_1E1FF752 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF752",
+          SoundLength = 13310
+        },
+        voice_jp_story_1201_120114_1E1FF77C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF77C",
+          SoundLength = 5220
+        },
+        voice_jp_story_1201_120114_1E1FF7A6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF7A6_f",
+          SoundLength = 6470
+        },
+        voice_jp_story_1201_120114_1E1FF7A6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF7A6_m",
+          SoundLength = 5870
+        },
+        voice_jp_story_1201_120114_1E1FF7D0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF7D0",
+          SoundLength = 12800
+        },
+        voice_jp_story_1201_120114_1E1FF7FA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF7FA",
+          SoundLength = 2500
+        },
+        voice_jp_story_1201_120114_1E1FF824_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF824_f",
+          SoundLength = 12830
+        },
+        voice_jp_story_1201_120114_1E1FF824_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF824_m",
+          SoundLength = 12570
+        },
+        voice_jp_story_1201_120114_1E1FF84E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF84E",
+          SoundLength = 4490
+        },
+        voice_jp_story_1201_120114_1E1FF878_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF878_f",
+          SoundLength = 9840
+        },
+        voice_jp_story_1201_120114_1E1FF878_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF878_m",
+          SoundLength = 10120
+        },
+        voice_jp_story_1201_120114_1E1FF8A2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF8A2_f",
+          SoundLength = 8530
+        },
+        voice_jp_story_1201_120114_1E1FF8A2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF8A2_m",
+          SoundLength = 9060
+        },
+        voice_jp_story_1201_120114_1E1FF8CC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF8CC",
+          SoundLength = 4830
+        },
+        voice_jp_story_1201_120114_1E1FF8F6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF8F6_f",
+          SoundLength = 2930
+        },
+        voice_jp_story_1201_120114_1E1FF8F6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF8F6_m",
+          SoundLength = 2810
+        },
+        voice_jp_story_1201_120114_1E1FF920 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E1FF920",
+          SoundLength = 660
+        },
+        voice_jp_story_1201_120114_1E200712_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E200712_f",
+          SoundLength = 1690
+        },
+        voice_jp_story_1201_120114_1E200712_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E200712_m",
+          SoundLength = 1630
+        },
+        voice_jp_story_1201_120114_1E20073C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20073C_f",
+          SoundLength = 7590
+        },
+        voice_jp_story_1201_120114_1E20073C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20073C_m",
+          SoundLength = 7500
+        },
+        voice_jp_story_1201_120114_1E200766 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E200766",
+          SoundLength = 3680
+        },
+        voice_jp_story_1201_120114_1E2007BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2007BA",
+          SoundLength = 2540
         },
         voice_jp_story_1201_120114_1E2007E4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120114_1E2007E4",
           SoundLength = 7490
         },
+        voice_jp_story_1201_120114_1E20080E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20080E",
+          SoundLength = 2910
+        },
         voice_jp_story_1201_120114_1E200838 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120114_1E200838",
           SoundLength = 5100
         },
+        voice_jp_story_1201_120114_1E200862 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E200862",
+          SoundLength = 3840
+        },
         voice_jp_story_1201_120114_1E20088C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120114_1E20088C",
           SoundLength = 8100
+        },
+        voice_jp_story_1201_120114_1E2008B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2008B6",
+          SoundLength = 8180
+        },
+        voice_jp_story_1201_120114_1E20177A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20177A_f",
+          SoundLength = 830
+        },
+        voice_jp_story_1201_120114_1E20177A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20177A_m",
+          SoundLength = 700
+        },
+        voice_jp_story_1201_120114_1E2017CE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2017CE",
+          SoundLength = 3440
+        },
+        voice_jp_story_1201_120114_1E201822 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201822",
+          SoundLength = 5800
+        },
+        voice_jp_story_1201_120114_1E201876_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201876_f",
+          SoundLength = 2150
+        },
+        voice_jp_story_1201_120114_1E201876_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201876_m",
+          SoundLength = 2380
+        },
+        voice_jp_story_1201_120114_1E2018CA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2018CA",
+          SoundLength = 5700
+        },
+        voice_jp_story_1201_120114_1E201F84_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201F84_f",
+          SoundLength = 3570
+        },
+        voice_jp_story_1201_120114_1E201F84_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201F84_m",
+          SoundLength = 3690
+        },
+        voice_jp_story_1201_120114_1E201FAE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201FAE",
+          SoundLength = 4070
+        },
+        voice_jp_story_1201_120114_1E201FD8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201FD8_f",
+          SoundLength = 3690
+        },
+        voice_jp_story_1201_120114_1E201FD8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E201FD8_m",
+          SoundLength = 4420
+        },
+        voice_jp_story_1201_120114_1E202002 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E202002",
+          SoundLength = 670
+        },
+        voice_jp_story_1201_120114_1E2027E2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2027E2_f",
+          SoundLength = 6500
+        },
+        voice_jp_story_1201_120114_1E2027E2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2027E2_m",
+          SoundLength = 6180
+        },
+        voice_jp_story_1201_120114_1E20280C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20280C_f",
+          SoundLength = 2570
+        },
+        voice_jp_story_1201_120114_1E20280C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20280C_m",
+          SoundLength = 2920
+        },
+        voice_jp_story_1201_120114_1E202836 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E202836",
+          SoundLength = 1270
+        },
+        voice_jp_story_1201_120114_1E202860 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E202860",
+          SoundLength = 2460
+        },
+        voice_jp_story_1201_120114_1E20288A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20288A",
+          SoundLength = 7270
+        },
+        voice_jp_story_1201_120114_1E2028B4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2028B4",
+          SoundLength = 1130
+        },
+        voice_jp_story_1201_120114_1E2028DE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2028DE",
+          SoundLength = 12180
+        },
+        voice_jp_story_1201_120114_1E202908 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E202908",
+          SoundLength = 8660
+        },
+        voice_jp_story_1201_120114_1E202932 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E202932",
+          SoundLength = 9860
+        },
+        voice_jp_story_1201_120114_1E20295C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20295C",
+          SoundLength = 14870
+        },
+        voice_jp_story_1201_120114_1E202986 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E202986",
+          SoundLength = 28310
+        },
+        voice_jp_story_1201_120114_1E2029B0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2029B0",
+          SoundLength = 7670
+        },
+        voice_jp_story_1201_120114_1E2029DA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2029DA",
+          SoundLength = 3870
+        },
+        voice_jp_story_1201_120114_1E20384A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20384A_f",
+          SoundLength = 3370
+        },
+        voice_jp_story_1201_120114_1E20384A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20384A_m",
+          SoundLength = 3030
+        },
+        voice_jp_story_1201_120114_1E203874_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E203874_f",
+          SoundLength = 20910
+        },
+        voice_jp_story_1201_120114_1E203874_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E203874_m",
+          SoundLength = 19920
+        },
+        voice_jp_story_1201_120114_1E20389E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20389E",
+          SoundLength = 2450
+        },
+        voice_jp_story_1201_120114_1E2038C8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2038C8_f",
+          SoundLength = 6660
+        },
+        voice_jp_story_1201_120114_1E2038C8_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2038C8_m",
+          SoundLength = 6670
+        },
+        voice_jp_story_1201_120114_1E2038F2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2038F2_f",
+          SoundLength = 15940
+        },
+        voice_jp_story_1201_120114_1E2038F2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2038F2_m",
+          SoundLength = 16370
+        },
+        voice_jp_story_1201_120114_1E20391C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20391C_f",
+          SoundLength = 16220
+        },
+        voice_jp_story_1201_120114_1E20391C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20391C_m",
+          SoundLength = 16590
+        },
+        voice_jp_story_1201_120114_1E203946_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E203946_f",
+          SoundLength = 7920
+        },
+        voice_jp_story_1201_120114_1E203946_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E203946_m",
+          SoundLength = 9070
+        },
+        voice_jp_story_1201_120114_1E203970 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E203970",
+          SoundLength = 5000
+        },
+        voice_jp_story_1201_120114_1E20399A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20399A_f",
+          SoundLength = 14750
+        },
+        voice_jp_story_1201_120114_1E20399A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20399A_m",
+          SoundLength = 16360
+        },
+        voice_jp_story_1201_120114_1E2039C4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2039C4",
+          SoundLength = 1050
+        },
+        voice_jp_story_1201_120114_1E2039EE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2039EE",
+          SoundLength = 7940
+        },
+        voice_jp_story_1201_120114_1E203A18 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E203A18",
+          SoundLength = 13960
+        },
+        voice_jp_story_1201_120114_1E203A42 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E203A42",
+          SoundLength = 1240
         },
         voice_jp_story_1201_120114_1E2048B2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41827,10 +53557,25 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120114_1E2048DC",
           SoundLength = 5080
         },
+        voice_jp_story_1201_120114_1E204906_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E204906_f",
+          SoundLength = 7850
+        },
+        voice_jp_story_1201_120114_1E204906_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E204906_m",
+          SoundLength = 7450
+        },
         voice_jp_story_1201_120114_1E204930 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120114_1E204930",
           SoundLength = 1840
+        },
+        voice_jp_story_1201_120114_1E20495A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20495A",
+          SoundLength = 6130
         },
         voice_jp_story_1201_120114_1E204984 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41842,25 +53587,688 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120114_1E2049AE",
           SoundLength = 9120
         },
+        voice_jp_story_1201_120114_1E20591A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20591A",
+          SoundLength = 4030
+        },
+        voice_jp_story_1201_120114_1E205944 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205944",
+          SoundLength = 8750
+        },
+        voice_jp_story_1201_120114_1E20596E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20596E",
+          SoundLength = 9690
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120114_1E205998",
+    MaxKey = "voice_jp_story_1201_120127_1E12933C",
+    Loader = function()
+      return {
+        voice_jp_story_1201_120114_1E205998 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205998",
+          SoundLength = 10540
+        },
+        voice_jp_story_1201_120114_1E2059C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2059C2",
+          SoundLength = 5710
+        },
+        voice_jp_story_1201_120114_1E2059EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2059EC",
+          SoundLength = 6980
+        },
+        voice_jp_story_1201_120114_1E205A16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205A16",
+          SoundLength = 6020
+        },
+        voice_jp_story_1201_120114_1E205A40 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205A40",
+          SoundLength = 700
+        },
+        voice_jp_story_1201_120114_1E205A6A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205A6A_f",
+          SoundLength = 7610
+        },
+        voice_jp_story_1201_120114_1E205A6A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205A6A_m",
+          SoundLength = 7360
+        },
+        voice_jp_story_1201_120114_1E205A94 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205A94",
+          SoundLength = 7600
+        },
+        voice_jp_story_1201_120114_1E205ABE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205ABE",
+          SoundLength = 6230
+        },
+        voice_jp_story_1201_120114_1E205AE8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205AE8",
+          SoundLength = 11790
+        },
+        voice_jp_story_1201_120114_1E205B12 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205B12",
+          SoundLength = 6980
+        },
+        voice_jp_story_1201_120114_1E205B3C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205B3C",
+          SoundLength = 8050
+        },
+        voice_jp_story_1201_120114_1E205B66 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205B66",
+          SoundLength = 11940
+        },
+        voice_jp_story_1201_120114_1E205B90 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205B90",
+          SoundLength = 17210
+        },
+        voice_jp_story_1201_120114_1E205BBA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205BBA",
+          SoundLength = 1400
+        },
+        voice_jp_story_1201_120114_1E205BE4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205BE4_f",
+          SoundLength = 8840
+        },
+        voice_jp_story_1201_120114_1E205BE4_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205BE4_m",
+          SoundLength = 8710
+        },
+        voice_jp_story_1201_120114_1E205C0E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205C0E_f",
+          SoundLength = 5500
+        },
+        voice_jp_story_1201_120114_1E205C0E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E205C0E_m",
+          SoundLength = 5920
+        },
+        voice_jp_story_1201_120114_1E206982 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206982",
+          SoundLength = 3030
+        },
+        voice_jp_story_1201_120114_1E2069AC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2069AC",
+          SoundLength = 1110
+        },
+        voice_jp_story_1201_120114_1E2069D6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2069D6",
+          SoundLength = 10500
+        },
+        voice_jp_story_1201_120114_1E206A00 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206A00",
+          SoundLength = 2640
+        },
+        voice_jp_story_1201_120114_1E206A2A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206A2A",
+          SoundLength = 9640
+        },
+        voice_jp_story_1201_120114_1E206A54 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206A54",
+          SoundLength = 3710
+        },
+        voice_jp_story_1201_120114_1E206A7E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206A7E",
+          SoundLength = 5780
+        },
+        voice_jp_story_1201_120114_1E206AA8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206AA8",
+          SoundLength = 3980
+        },
+        voice_jp_story_1201_120114_1E206AD2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206AD2",
+          SoundLength = 6320
+        },
+        voice_jp_story_1201_120114_1E206AFC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E206AFC",
+          SoundLength = 630
+        },
+        voice_jp_story_1201_120114_1E2079EA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2079EA_f",
+          SoundLength = 4060
+        },
+        voice_jp_story_1201_120114_1E2079EA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E2079EA_m",
+          SoundLength = 3130
+        },
+        voice_jp_story_1201_120114_1E207A14_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E207A14_f",
+          SoundLength = 6680
+        },
+        voice_jp_story_1201_120114_1E207A14_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E207A14_m",
+          SoundLength = 6440
+        },
+        voice_jp_story_1201_120114_1E207A3E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E207A3E_f",
+          SoundLength = 7750
+        },
+        voice_jp_story_1201_120114_1E207A3E_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E207A3E_m",
+          SoundLength = 6920
+        },
+        voice_jp_story_1201_120114_1E207A68 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E207A68",
+          SoundLength = 4490
+        },
+        voice_jp_story_1201_120114_1E207ABC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E207ABC",
+          SoundLength = 840
+        },
+        voice_jp_story_1201_120114_1E208A52 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E208A52",
+          SoundLength = 2040
+        },
+        voice_jp_story_1201_120114_1E208A7C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E208A7C",
+          SoundLength = 3520
+        },
+        voice_jp_story_1201_120114_1E208AA6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E208AA6",
+          SoundLength = 6310
+        },
+        voice_jp_story_1201_120114_1E208AD0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E208AD0",
+          SoundLength = 1420
+        },
+        voice_jp_story_1201_120114_1E209ABA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209ABA",
+          SoundLength = 1520
+        },
+        voice_jp_story_1201_120114_1E209AE4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209AE4",
+          SoundLength = 17810
+        },
+        voice_jp_story_1201_120114_1E209B0E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209B0E",
+          SoundLength = 4900
+        },
+        voice_jp_story_1201_120114_1E209B38 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209B38",
+          SoundLength = 10830
+        },
+        voice_jp_story_1201_120114_1E209B62 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209B62",
+          SoundLength = 5330
+        },
+        voice_jp_story_1201_120114_1E209B8C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209B8C",
+          SoundLength = 5260
+        },
+        voice_jp_story_1201_120114_1E209BB6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209BB6",
+          SoundLength = 7020
+        },
+        voice_jp_story_1201_120114_1E209BE0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E209BE0",
+          SoundLength = 2980
+        },
+        voice_jp_story_1201_120114_1E20AB22_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AB22_f",
+          SoundLength = 12930
+        },
+        voice_jp_story_1201_120114_1E20AB22_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AB22_m",
+          SoundLength = 12840
+        },
+        voice_jp_story_1201_120114_1E20AB4C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AB4C",
+          SoundLength = 2500
+        },
+        voice_jp_story_1201_120114_1E20AB76_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AB76_f",
+          SoundLength = 1970
+        },
+        voice_jp_story_1201_120114_1E20AB76_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AB76_m",
+          SoundLength = 1820
+        },
+        voice_jp_story_1201_120114_1E20ABA0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ABA0_f",
+          SoundLength = 1040
+        },
+        voice_jp_story_1201_120114_1E20ABA0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ABA0_m",
+          SoundLength = 930
+        },
+        voice_jp_story_1201_120114_1E20ABCA_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ABCA_f",
+          SoundLength = 7630
+        },
+        voice_jp_story_1201_120114_1E20ABCA_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ABCA_m",
+          SoundLength = 7030
+        },
+        voice_jp_story_1201_120114_1E20ABF4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ABF4",
+          SoundLength = 27520
+        },
+        voice_jp_story_1201_120114_1E20AC1E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AC1E",
+          SoundLength = 27400
+        },
+        voice_jp_story_1201_120114_1E20AC48_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AC48_f",
+          SoundLength = 15470
+        },
+        voice_jp_story_1201_120114_1E20AC48_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AC48_m",
+          SoundLength = 16270
+        },
+        voice_jp_story_1201_120114_1E20AC72_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AC72_f",
+          SoundLength = 9480
+        },
+        voice_jp_story_1201_120114_1E20AC72_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AC72_m",
+          SoundLength = 10410
+        },
+        voice_jp_story_1201_120114_1E20AC9C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AC9C_f",
+          SoundLength = 15430
+        },
+        voice_jp_story_1201_120114_1E20AC9C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AC9C_m",
+          SoundLength = 16090
+        },
+        voice_jp_story_1201_120114_1E20ACC6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ACC6_f",
+          SoundLength = 3600
+        },
+        voice_jp_story_1201_120114_1E20ACC6_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ACC6_m",
+          SoundLength = 3900
+        },
+        voice_jp_story_1201_120114_1E20ACF0_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ACF0_f",
+          SoundLength = 5610
+        },
+        voice_jp_story_1201_120114_1E20ACF0_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ACF0_m",
+          SoundLength = 5610
+        },
+        voice_jp_story_1201_120114_1E20AD1A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AD1A",
+          SoundLength = 8110
+        },
+        voice_jp_story_1201_120114_1E20AD44_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AD44_f",
+          SoundLength = 2330
+        },
+        voice_jp_story_1201_120114_1E20AD44_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AD44_m",
+          SoundLength = 2110
+        },
+        voice_jp_story_1201_120114_1E20AD6E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AD6E",
+          SoundLength = 1100
+        },
+        voice_jp_story_1201_120114_1E20AD98 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AD98",
+          SoundLength = 5380
+        },
+        voice_jp_story_1201_120114_1E20ADC2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ADC2_f",
+          SoundLength = 8600
+        },
+        voice_jp_story_1201_120114_1E20ADC2_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ADC2_m",
+          SoundLength = 8540
+        },
+        voice_jp_story_1201_120114_1E20ADEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20ADEC",
+          SoundLength = 1920
+        },
+        voice_jp_story_1201_120114_1E20AE16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20AE16",
+          SoundLength = 9560
+        },
+        voice_jp_story_1201_120114_1E20CBF2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20CBF2",
+          SoundLength = 27930
+        },
+        voice_jp_story_1201_120114_1E20CC1C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20CC1C",
+          SoundLength = 6790
+        },
+        voice_jp_story_1201_120114_1E20CC46 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_1E20CC46",
+          SoundLength = 20860
+        },
+        voice_jp_story_1201_120114_C84828D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C84828D2",
+          SoundLength = 3950
+        },
+        voice_jp_story_1201_120114_C84828FC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C84828FC",
+          SoundLength = 5680
+        },
+        voice_jp_story_1201_120114_C8482926 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8482926",
+          SoundLength = 7000
+        },
+        voice_jp_story_1201_120114_C8482950 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8482950",
+          SoundLength = 5870
+        },
+        voice_jp_story_1201_120114_C848297A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C848297A",
+          SoundLength = 8340
+        },
+        voice_jp_story_1201_120114_C84829A4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C84829A4",
+          SoundLength = 5850
+        },
+        voice_jp_story_1201_120114_C84829CE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C84829CE",
+          SoundLength = 7210
+        },
+        voice_jp_story_1201_120114_C84829F8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C84829F8",
+          SoundLength = 11730
+        },
+        voice_jp_story_1201_120114_C8482A22 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8482A22",
+          SoundLength = 10840
+        },
+        voice_jp_story_1201_120114_C848393A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C848393A",
+          SoundLength = 4430
+        },
+        voice_jp_story_1201_120114_C8483964 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483964",
+          SoundLength = 4340
+        },
+        voice_jp_story_1201_120114_C848398E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C848398E",
+          SoundLength = 11070
+        },
+        voice_jp_story_1201_120114_C84839B8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C84839B8",
+          SoundLength = 2840
+        },
+        voice_jp_story_1201_120114_C84839E2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C84839E2",
+          SoundLength = 9860
+        },
+        voice_jp_story_1201_120114_C8483A0C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483A0C",
+          SoundLength = 8820
+        },
+        voice_jp_story_1201_120114_C8483A36 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483A36",
+          SoundLength = 8330
+        },
+        voice_jp_story_1201_120114_C8483A60_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483A60_f",
+          SoundLength = 15200
+        },
+        voice_jp_story_1201_120114_C8483A60_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483A60_m",
+          SoundLength = 15080
+        },
+        voice_jp_story_1201_120114_C8483A8A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483A8A",
+          SoundLength = 4660
+        },
+        voice_jp_story_1201_120114_C8483AB4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483AB4",
+          SoundLength = 3120
+        },
+        voice_jp_story_1201_120114_C8483ADE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483ADE",
+          SoundLength = 14430
+        },
+        voice_jp_story_1201_120114_C8483B08 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483B08",
+          SoundLength = 28280
+        },
+        voice_jp_story_1201_120114_C8483B09 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483B09",
+          SoundLength = 5760
+        },
+        voice_jp_story_1201_120114_C8483B0A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483B0A",
+          SoundLength = 4150
+        },
+        voice_jp_story_1201_120114_C8483B0B = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483B0B",
+          SoundLength = 6220
+        },
+        voice_jp_story_1201_120114_C8483B0C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120114_C8483B0C",
+          SoundLength = 2330
+        },
+        voice_jp_story_1201_120115_1E11CCE2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120115_1E11CCE2",
+          SoundLength = 11150
+        },
+        voice_jp_story_1201_120115_1E11CD36 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120115_1E11CD36",
+          SoundLength = 4580
+        },
+        voice_jp_story_1201_120115_1E11CD8A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120115_1E11CD8A",
+          SoundLength = 9690
+        },
         voice_jp_story_1201_120115_1E12E4F0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120115_1E12E4F0",
           SoundLength = 1540
+        },
+        voice_jp_story_1201_120117_1E11EDDC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120117_1E11EDDC",
+          SoundLength = 5720
+        },
+        voice_jp_story_1201_120117_1E11EE5A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120117_1E11EE5A",
+          SoundLength = 6820
+        },
+        voice_jp_story_1201_120117_1E11EEAE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120117_1E11EEAE",
+          SoundLength = 8280
+        },
+        voice_jp_story_1201_120119_1E120ED6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120119_1E120ED6",
+          SoundLength = 8970
+        },
+        voice_jp_story_1201_120120_1E121F92 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E121F92",
+          SoundLength = 7430
+        },
+        voice_jp_story_1201_120120_1E122010 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E122010",
+          SoundLength = 9130
+        },
+        voice_jp_story_1201_120120_1E12203A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E12203A",
+          SoundLength = 6230
+        },
+        voice_jp_story_1201_120120_1E12208E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E12208E",
+          SoundLength = 7410
+        },
+        voice_jp_story_1201_120120_1E12210C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E12210C",
+          SoundLength = 7040
+        },
+        voice_jp_story_1201_120120_1E122208 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E122208",
+          SoundLength = 10290
+        },
+        voice_jp_story_1201_120120_1E12225C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E12225C",
+          SoundLength = 2080
+        },
+        voice_jp_story_1201_120120_1E1223D6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E1223D6",
+          SoundLength = 4490
+        },
+        voice_jp_story_1201_120120_1E12242A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E12242A",
+          SoundLength = 1770
+        },
+        voice_jp_story_1201_120120_1E12247E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120120_1E12247E",
+          SoundLength = 8600
         },
         voice_jp_story_1201_120121_1E122F52 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120121_1E122F52",
           SoundLength = 10260
         },
+        voice_jp_story_1201_120121_1E122F7C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120121_1E122F7C",
+          SoundLength = 6250
+        },
         voice_jp_story_1201_120121_1E122FA6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120121_1E122FA6",
           SoundLength = 5340
         },
+        voice_jp_story_1201_120121_1E122FD0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120121_1E122FD0",
+          SoundLength = 13720
+        },
         voice_jp_story_1201_120121_1E122FFA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120121_1E122FFA",
           SoundLength = 5340
+        },
+        voice_jp_story_1201_120121_1E123024 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120121_1E123024",
+          SoundLength = 3020
         },
         voice_jp_story_1201_120121_1E123078 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41887,10 +54295,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120121_1E12314A",
           SoundLength = 7140
         },
+        voice_jp_story_1201_120121_1E123174 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120121_1E123174",
+          SoundLength = 13210
+        },
         voice_jp_story_1201_120122_1E123FBA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120122_1E123FBA",
           SoundLength = 3040
+        },
+        voice_jp_story_1201_120122_1E123FE4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120122_1E123FE4",
+          SoundLength = 6790
         },
         voice_jp_story_1201_120123_1E125022 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -41987,6 +54405,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120123_1E1252C2",
           SoundLength = 7620
         },
+        voice_jp_story_1201_120123_1E1252EC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120123_1E1252EC",
+          SoundLength = 9560
+        },
         voice_jp_story_1201_120123_1E1252EC_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120123_1E1252EC_1",
@@ -42047,6 +54470,26 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120123_1E125466",
           SoundLength = 1050
         },
+        voice_jp_story_1201_120124_1E1260B4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120124_1E1260B4",
+          SoundLength = 9220
+        },
+        voice_jp_story_1201_120124_1E1260DE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120124_1E1260DE",
+          SoundLength = 3700
+        },
+        voice_jp_story_1201_120125_1E12711C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120125_1E12711C",
+          SoundLength = 10460
+        },
+        voice_jp_story_1201_120125_1E127171 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120125_1E127171",
+          SoundLength = 8360
+        },
         voice_jp_story_1201_120125_1E127171_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120125_1E127171_1",
@@ -42061,6 +54504,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120125_1E127171_3",
           SoundLength = 8360
+        },
+        voice_jp_story_1201_120125_1E12719A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120125_1E12719A",
+          SoundLength = 2790
         },
         voice_jp_story_1201_120126_1E128184 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42112,6 +54560,159 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120126_1E1283A6",
           SoundLength = 2900
         },
+        voice_jp_story_1201_120126_1E1283D0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120126_1E1283D0",
+          SoundLength = 6310
+        },
+        voice_jp_story_1201_120127_1E1291C2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E1291C2",
+          SoundLength = 4280
+        },
+        voice_jp_story_1201_120127_1E129216 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129216",
+          SoundLength = 11060
+        },
+        voice_jp_story_1201_120127_1E129240 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129240",
+          SoundLength = 4010
+        },
+        voice_jp_story_1201_120127_1E12926A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E12926A",
+          SoundLength = 11710
+        },
+        voice_jp_story_1201_120127_1E129294 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129294",
+          SoundLength = 20630
+        },
+        voice_jp_story_1201_120127_1E1292BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E1292BE",
+          SoundLength = 22750
+        },
+        voice_jp_story_1201_120127_1E1292E8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E1292E8",
+          SoundLength = 35280
+        },
+        voice_jp_story_1201_120127_1E129312 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129312",
+          SoundLength = 29800
+        },
+        voice_jp_story_1201_120127_1E12933C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E12933C",
+          SoundLength = 12350
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120127_1E129366",
+    MaxKey = "voice_jp_story_1201_120152_1E142C68",
+    Loader = function()
+      return {
+        voice_jp_story_1201_120127_1E129366 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129366",
+          SoundLength = 5860
+        },
+        voice_jp_story_1201_120127_1E129390 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129390",
+          SoundLength = 7240
+        },
+        voice_jp_story_1201_120127_1E1293BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E1293BA",
+          SoundLength = 25540
+        },
+        voice_jp_story_1201_120127_1E12940E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E12940E",
+          SoundLength = 25350
+        },
+        voice_jp_story_1201_120127_1E129438 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129438",
+          SoundLength = 14650
+        },
+        voice_jp_story_1201_120127_1E129462 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129462",
+          SoundLength = 29520
+        },
+        voice_jp_story_1201_120127_1E12948C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E12948C",
+          SoundLength = 15340
+        },
+        voice_jp_story_1201_120127_1E1294B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E1294B6",
+          SoundLength = 33930
+        },
+        voice_jp_story_1201_120127_1E129534 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129534",
+          SoundLength = 17170
+        },
+        voice_jp_story_1201_120127_1E12955E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E12955E",
+          SoundLength = 14680
+        },
+        voice_jp_story_1201_120127_1E129588 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129588",
+          SoundLength = 6760
+        },
+        voice_jp_story_1201_120127_1E1295B2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E1295B2",
+          SoundLength = 15580
+        },
+        voice_jp_story_1201_120127_1E1295DC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E1295DC",
+          SoundLength = 25430
+        },
+        voice_jp_story_1201_120127_1E129630 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129630",
+          SoundLength = 1290
+        },
+        voice_jp_story_1201_120127_1E12965A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E12965A",
+          SoundLength = 20310
+        },
+        voice_jp_story_1201_120127_1E129684 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120127_1E129684",
+          SoundLength = 10630
+        },
+        voice_jp_story_1201_120128_1E12A22A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120128_1E12A22A",
+          SoundLength = 10930
+        },
+        voice_jp_story_1201_120128_1E12A27E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120128_1E12A27E",
+          SoundLength = 9310
+        },
+        voice_jp_story_1201_120128_1E12A2FC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120128_1E12A2FC",
+          SoundLength = 8560
+        },
         voice_jp_story_1201_120129_1E12B292 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120129_1E12B292",
@@ -42152,15 +54753,25 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120131_1E12D45E",
           SoundLength = 11170
         },
+        voice_jp_story_1201_120131_1E12D4B2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120131_1E12D4B2",
+          SoundLength = 13000
+        },
         voice_jp_story_1201_120131_1E12D4DC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120131_1E12D4DC",
-          SoundLength = 24890
+          SoundLength = 26180
         },
         voice_jp_story_1201_120131_1E12D506 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120131_1E12D506",
           SoundLength = 950
+        },
+        voice_jp_story_1201_120131_1E12D530 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120131_1E12D530",
+          SoundLength = 10790
         },
         voice_jp_story_1201_120131_1E12D55A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42222,6 +54833,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120131_1E12D77C",
           SoundLength = 5210
         },
+        voice_jp_story_1201_120132_1E12E3CA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120132_1E12E3CA",
+          SoundLength = 3370
+        },
         voice_jp_story_1201_120132_1E12E3F4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120132_1E12E3F4",
@@ -42237,10 +54853,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120132_1E12E448",
           SoundLength = 20770
         },
+        voice_jp_story_1201_120132_1E12E472 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120132_1E12E472",
+          SoundLength = 6970
+        },
         voice_jp_story_1201_120132_1E12E51A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120132_1E12E51A",
           SoundLength = 10440
+        },
+        voice_jp_story_1201_120132_1E12E544 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120132_1E12E544",
+          SoundLength = 14550
         },
         voice_jp_story_1201_120132_1E12E56E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42251,6 +54877,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120132_1E12E5C2",
           SoundLength = 22650
+        },
+        voice_jp_story_1201_120133_1E12F432 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120133_1E12F432",
+          SoundLength = 9450
+        },
+        voice_jp_story_1201_120133_1E12F4B0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120133_1E12F4B0",
+          SoundLength = 15210
         },
         voice_jp_story_1201_120134_1E13049A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42267,10 +54903,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120134_1E130518",
           SoundLength = 13460
         },
+        voice_jp_story_1201_120134_1E130542 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130542",
+          SoundLength = 5030
+        },
         voice_jp_story_1201_120134_1E130596 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E130596",
           SoundLength = 2520
+        },
+        voice_jp_story_1201_120134_1E1305C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E1305C0",
+          SoundLength = 6930
         },
         voice_jp_story_1201_120134_1E130614 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42287,6 +54933,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120134_1E130668",
           SoundLength = 31480
         },
+        voice_jp_story_1201_120134_1E130692 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130692",
+          SoundLength = 6690
+        },
         voice_jp_story_1201_120134_1E1306BC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E1306BC",
@@ -42301,6 +54952,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E130710",
           SoundLength = 2530
+        },
+        voice_jp_story_1201_120134_1E13073A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E13073A",
+          SoundLength = 4330
         },
         voice_jp_story_1201_120134_1E130764 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42332,6 +54988,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120134_1E130836",
           SoundLength = 13110
         },
+        voice_jp_story_1201_120134_1E130860 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130860",
+          SoundLength = 3250
+        },
         voice_jp_story_1201_120134_1E13088A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E13088A",
@@ -42352,25 +55013,85 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120134_1E130908",
           SoundLength = 9570
         },
+        voice_jp_story_1201_120134_1E130932 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130932",
+          SoundLength = 10390
+        },
+        voice_jp_story_1201_120134_1E13095C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E13095C",
+          SoundLength = 12450
+        },
+        voice_jp_story_1201_120134_1E130986 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130986",
+          SoundLength = 5720
+        },
         voice_jp_story_1201_120134_1E1309B0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E1309B0",
           SoundLength = 17770
+        },
+        voice_jp_story_1201_120134_1E130A04 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130A04",
+          SoundLength = 7030
         },
         voice_jp_story_1201_120134_1E130A58 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E130A58",
           SoundLength = 20250
         },
+        voice_jp_story_1201_120134_1E130A82 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130A82",
+          SoundLength = 3150
+        },
         voice_jp_story_1201_120134_1E130AAC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E130AAC",
           SoundLength = 16380
         },
+        voice_jp_story_1201_120134_1E130AD6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130AD6",
+          SoundLength = 9830
+        },
+        voice_jp_story_1201_120134_1E130B00 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130B00",
+          SoundLength = 8750
+        },
+        voice_jp_story_1201_120134_1E130B2A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130B2A",
+          SoundLength = 10280
+        },
+        voice_jp_story_1201_120134_1E130B54 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130B54",
+          SoundLength = 10450
+        },
         voice_jp_story_1201_120134_1E130BD2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120134_1E130BD2",
           SoundLength = 7090
+        },
+        voice_jp_story_1201_120134_1E130C26 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130C26",
+          SoundLength = 9190
+        },
+        voice_jp_story_1201_120134_1E130C50 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130C50",
+          SoundLength = 3000
+        },
+        voice_jp_story_1201_120134_1E130CA4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120134_1E130CA4",
+          SoundLength = 600
         },
         voice_jp_story_1201_120134_1E130CF8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42387,6 +55108,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120135_1E131580",
           SoundLength = 2900
         },
+        voice_jp_story_1201_120135_1E1315D4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120135_1E1315D4",
+          SoundLength = 8150
+        },
         voice_jp_story_1201_120135_1E1315FE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120135_1E1315FE",
@@ -42396,6 +55122,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120135_1E13167C",
           SoundLength = 17270
+        },
+        voice_jp_story_1201_120135_1E1316D0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120135_1E1316D0",
+          SoundLength = 1400
         },
         voice_jp_story_1201_120135_1E1316FA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42417,10 +55148,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120135_1E1317CC",
           SoundLength = 14230
         },
+        voice_jp_story_1201_120135_1E1317F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120135_1E1317F6",
+          SoundLength = 11560
+        },
         voice_jp_story_1201_120135_1E131820 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120135_1E131820",
           SoundLength = 7840
+        },
+        voice_jp_story_1201_120135_1E13184A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120135_1E13184A",
+          SoundLength = 12320
         },
         voice_jp_story_1201_120135_1E131874 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42472,10 +55213,45 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120135_1E131AEA",
           SoundLength = 2240
         },
+        voice_jp_story_1201_120136_1E13256A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120136_1E13256A",
+          SoundLength = 4830
+        },
+        voice_jp_story_1201_120136_1E132594 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120136_1E132594",
+          SoundLength = 7990
+        },
+        voice_jp_story_1201_120138_1E13463A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120138_1E13463A",
+          SoundLength = 3380
+        },
+        voice_jp_story_1201_120138_1E13468E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120138_1E13468E",
+          SoundLength = 3550
+        },
+        voice_jp_story_1201_120138_1E13468F = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120138_1E13468F",
+          SoundLength = 2810
+        },
         voice_jp_story_1201_120138_1E134691 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120138_1E134691",
           SoundLength = 1980
+        },
+        voice_jp_story_1201_120139_1E1356A2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120139_1E1356A2",
+          SoundLength = 9380
+        },
+        voice_jp_story_1201_120139_1E1356F6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120139_1E1356F6",
+          SoundLength = 9520
         },
         voice_jp_story_1201_120140_1E13670A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42492,24 +55268,26 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120140_1E136788",
           SoundLength = 9350
         },
+        voice_jp_story_1201_120140_1E1367B2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120140_1E1367B2",
+          SoundLength = 6450
+        },
         voice_jp_story_1201_120140_1E1367DC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120140_1E1367DC",
           SoundLength = 6640
         },
+        voice_jp_story_1201_120140_1E136806 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120140_1E136806",
+          SoundLength = 9770
+        },
         voice_jp_story_1201_120140_1E13685A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120140_1E13685A",
           SoundLength = 690
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1201_120140_1E1368AE",
-    MaxKey = "voice_jp_story_1201_120183_1E162BF4",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1201_120140_1E1368AE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120140_1E1368AE",
@@ -42525,10 +55303,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120140_1E136980",
           SoundLength = 3820
         },
+        voice_jp_story_1201_120140_1E1369AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120140_1E1369AA",
+          SoundLength = 10800
+        },
         voice_jp_story_1201_120140_1E1369D4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120140_1E1369D4",
           SoundLength = 2130
+        },
+        voice_jp_story_1201_120140_1E1369FE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120140_1E1369FE",
+          SoundLength = 2420
         },
         voice_jp_story_1201_120140_1E136A28 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42560,10 +55348,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120140_1E136B24",
           SoundLength = 22560
         },
+        voice_jp_story_1201_120140_1E136B4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120140_1E136B4E",
+          SoundLength = 4250
+        },
         voice_jp_story_1201_120140_1E136B78 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120140_1E136B78",
           SoundLength = 11660
+        },
+        voice_jp_story_1201_120140_1E136BA2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120140_1E136BA2",
+          SoundLength = 8550
         },
         voice_jp_story_1201_120140_1E136BCC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42573,12 +55371,17 @@ local Data = {
         voice_jp_story_1201_120140_1E136BF6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120140_1E136BF6",
-          SoundLength = 16120
+          SoundLength = 15100
         },
         voice_jp_story_1201_120140_1E136C20 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120140_1E136C20",
-          SoundLength = 14290
+          SoundLength = 14730
+        },
+        voice_jp_story_1201_120140_1E136C4A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120140_1E136C4A",
+          SoundLength = 6750
         },
         voice_jp_story_1201_120140_1E136C74 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42588,22 +55391,37 @@ local Data = {
         voice_jp_story_1201_120142_1E1387DA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120142_1E1387DA",
-          SoundLength = 5220
+          SoundLength = 4880
+        },
+        voice_jp_story_1201_120142_1E13882E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120142_1E13882E",
+          SoundLength = 9700
         },
         voice_jp_story_1201_120142_1E138858 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120142_1E138858",
           SoundLength = 9200
         },
+        voice_jp_story_1201_120142_1E138882 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120142_1E138882",
+          SoundLength = 6940
+        },
         voice_jp_story_1201_120143_1E139842 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120143_1E139842",
           SoundLength = 2170
         },
+        voice_jp_story_1201_120143_1E13986C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120143_1E13986C",
+          SoundLength = 11680
+        },
         voice_jp_story_1201_120143_1E139896 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120143_1E139896",
-          SoundLength = 11700
+          SoundLength = 11390
         },
         voice_jp_story_1201_120143_1E1398C0_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42620,6 +55438,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120143_1E1398EA",
           SoundLength = 5570
         },
+        voice_jp_story_1201_120143_1E139914 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120143_1E139914",
+          SoundLength = 9160
+        },
         voice_jp_story_1201_120143_1E13993E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120143_1E13993E",
@@ -42635,10 +55458,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120143_1E139992",
           SoundLength = 5050
         },
+        voice_jp_story_1201_120143_1E1399BC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120143_1E1399BC",
+          SoundLength = 5620
+        },
         voice_jp_story_1201_120143_1E1399E6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120143_1E1399E6",
           SoundLength = 7480
+        },
+        voice_jp_story_1201_120143_1E139A10 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120143_1E139A10",
+          SoundLength = 4400
         },
         voice_jp_story_1201_120143_1E139A3A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42663,22 +55496,27 @@ local Data = {
         voice_jp_story_1201_120144_1E13A8D4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120144_1E13A8D4",
-          SoundLength = 4930
+          SoundLength = 5350
         },
         voice_jp_story_1201_120144_1E13A8FE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120144_1E13A8FE",
-          SoundLength = 17030
+          SoundLength = 18470
         },
         voice_jp_story_1201_120144_1E13A928 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120144_1E13A928",
-          SoundLength = 15670
+          SoundLength = 15380
+        },
+        voice_jp_story_1201_120144_1E13A952 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120144_1E13A952",
+          SoundLength = 13090
         },
         voice_jp_story_1201_120144_1E13A97C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120144_1E13A97C",
-          SoundLength = 16760
+          SoundLength = 15550
         },
         voice_jp_story_1201_120145_1E13B912 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42688,12 +55526,22 @@ local Data = {
         voice_jp_story_1201_120145_1E13B93C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120145_1E13B93C",
-          SoundLength = 7820
+          SoundLength = 7990
+        },
+        voice_jp_story_1201_120145_1E13B966 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120145_1E13B966",
+          SoundLength = 4530
         },
         voice_jp_story_1201_120146_1E13C97A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120146_1E13C97A",
           SoundLength = 5360
+        },
+        voice_jp_story_1201_120146_1E13C9A4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120146_1E13C9A4",
+          SoundLength = 2400
         },
         voice_jp_story_1201_120146_1E13C9CE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42715,10 +55563,25 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120148_1E13EA4A",
           SoundLength = 5570
         },
+        voice_jp_story_1201_120149_1E13FAB2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120149_1E13FAB2",
+          SoundLength = 3220
+        },
+        voice_jp_story_1201_120150_1E140B1A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120150_1E140B1A",
+          SoundLength = 3390
+        },
         voice_jp_story_1201_120150_1E140B44 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120150_1E140B44",
           SoundLength = 7190
+        },
+        voice_jp_story_1201_120150_1E140B6E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120150_1E140B6E",
+          SoundLength = 6260
         },
         voice_jp_story_1201_120151_1E141B82 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42735,11 +55598,34 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120151_1E141BD6",
           SoundLength = 4790
         },
+        voice_jp_story_1201_120152_1E142BEA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120152_1E142BEA",
+          SoundLength = 7930
+        },
+        voice_jp_story_1201_120152_1E142C14 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120152_1E142C14",
+          SoundLength = 9860
+        },
         voice_jp_story_1201_120152_1E142C3E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120152_1E142C3E",
           SoundLength = 8020
         },
+        voice_jp_story_1201_120152_1E142C68 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120152_1E142C68",
+          SoundLength = 5900
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120154_1E144CBA",
+    MaxKey = "voice_jp_story_1201_120184_1E1639BC",
+    Loader = function()
+      return {
         voice_jp_story_1201_120154_1E144CBA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120154_1E144CBA",
@@ -42764,6 +55650,21 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120155_1E145DA0",
           SoundLength = 23410
+        },
+        voice_jp_story_1201_120155_1E145DCA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120155_1E145DCA",
+          SoundLength = 5220
+        },
+        voice_jp_story_1201_120155_1E145E1E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120155_1E145E1E",
+          SoundLength = 9650
+        },
+        voice_jp_story_1201_120155_1E145E72 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120155_1E145E72",
+          SoundLength = 9310
         },
         voice_jp_story_1201_120155_1E145E9C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42795,6 +55696,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120155_1E145FC2",
           SoundLength = 18920
         },
+        voice_jp_story_1201_120155_1E145FEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120155_1E145FEC",
+          SoundLength = 5870
+        },
         voice_jp_story_1201_120155_1E146016 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120155_1E146016",
@@ -42804,6 +55710,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120155_1E146094",
           SoundLength = 460
+        },
+        voice_jp_story_1201_120155_1E1460BE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120155_1E1460BE",
+          SoundLength = 6830
         },
         voice_jp_story_1201_120155_1E1460E8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42855,6 +55766,16 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120155_1E1462B6",
           SoundLength = 14290
         },
+        voice_jp_story_1201_120155_1E1462E0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120155_1E1462E0",
+          SoundLength = 7300
+        },
+        voice_jp_story_1201_120155_1E14630A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120155_1E14630A",
+          SoundLength = 2170
+        },
         voice_jp_story_1201_120156_1E146D8A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120156_1E146D8A",
@@ -42870,10 +55791,30 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120156_1E146DDE",
           SoundLength = 6070
         },
+        voice_jp_story_1201_120156_1E146E08 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120156_1E146E08",
+          SoundLength = 1610
+        },
+        voice_jp_story_1201_120157_1E147DF2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120157_1E147DF2",
+          SoundLength = 3670
+        },
+        voice_jp_story_1201_120158_1E148E5A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120158_1E148E5A",
+          SoundLength = 10870
+        },
         voice_jp_story_1201_120158_1E148EAE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120158_1E148EAE",
           SoundLength = 5120
+        },
+        voice_jp_story_1201_120158_1E148F02 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120158_1E148F02",
+          SoundLength = 6560
         },
         voice_jp_story_1201_120158_1E148F2C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42885,10 +55826,55 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120158_1E148F56",
           SoundLength = 2540
         },
+        voice_jp_story_1201_120158_1E148F80 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120158_1E148F80",
+          SoundLength = 12970
+        },
+        voice_jp_story_1201_120158_1E148FD4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120158_1E148FD4",
+          SoundLength = 1580
+        },
+        voice_jp_story_1201_120158_1E148FFE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120158_1E148FFE",
+          SoundLength = 4980
+        },
+        voice_jp_story_1201_120159_1E149EC2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E149EC2",
+          SoundLength = 2220
+        },
+        voice_jp_story_1201_120159_1E149EEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E149EEC",
+          SoundLength = 5290
+        },
+        voice_jp_story_1201_120159_1E149F16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E149F16",
+          SoundLength = 3750
+        },
+        voice_jp_story_1201_120159_1E149F40 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E149F40",
+          SoundLength = 6200
+        },
         voice_jp_story_1201_120159_1E149F6A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120159_1E149F6A",
           SoundLength = 1350
+        },
+        voice_jp_story_1201_120159_1E149F94 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E149F94",
+          SoundLength = 19330
+        },
+        voice_jp_story_1201_120159_1E149FBE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E149FBE",
+          SoundLength = 9690
         },
         voice_jp_story_1201_120159_1E149FE8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42900,6 +55886,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120159_1E14A03C",
           SoundLength = 5850
         },
+        voice_jp_story_1201_120159_1E14A090 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A090",
+          SoundLength = 5730
+        },
         voice_jp_story_1201_120159_1E14A0BA_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120159_1E14A0BA_f",
@@ -42909,6 +55900,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120159_1E14A0BA_m",
           SoundLength = 5710
+        },
+        voice_jp_story_1201_120159_1E14A0E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A0E4",
+          SoundLength = 5970
         },
         voice_jp_story_1201_120159_1E14A10E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42920,6 +55916,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120159_1E14A138",
           SoundLength = 11250
         },
+        voice_jp_story_1201_120159_1E14A162 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A162",
+          SoundLength = 1060
+        },
         voice_jp_story_1201_120159_1E14A18C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120159_1E14A18C_f",
@@ -42930,15 +55931,35 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120159_1E14A18C_m",
           SoundLength = 10240
         },
+        voice_jp_story_1201_120159_1E14A1B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A1B6",
+          SoundLength = 1910
+        },
         voice_jp_story_1201_120159_1E14A1E0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120159_1E14A1E0",
           SoundLength = 11370
         },
+        voice_jp_story_1201_120159_1E14A20A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A20A",
+          SoundLength = 15240
+        },
+        voice_jp_story_1201_120159_1E14A234 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A234",
+          SoundLength = 3970
+        },
         voice_jp_story_1201_120159_1E14A25E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120159_1E14A25E",
           SoundLength = 2550
+        },
+        voice_jp_story_1201_120159_1E14A288 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A288",
+          SoundLength = 2660
         },
         voice_jp_story_1201_120159_1E14A2B2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -42954,6 +55975,26 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120159_1E14A2DC_m",
           SoundLength = 7010
+        },
+        voice_jp_story_1201_120159_1E14A306 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A306",
+          SoundLength = 7720
+        },
+        voice_jp_story_1201_120159_1E14A330 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A330",
+          SoundLength = 5420
+        },
+        voice_jp_story_1201_120159_1E14A35A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A35A",
+          SoundLength = 5730
+        },
+        voice_jp_story_1201_120159_1E14A384 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120159_1E14A384",
+          SoundLength = 14730
         },
         voice_jp_story_1201_120161_1E14BF92 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43034,6 +56075,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120168_1E15326A",
           SoundLength = 6700
+        },
+        voice_jp_story_1201_120170_1E15533A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120170_1E15533A",
+          SoundLength = 7290
         },
         voice_jp_story_1201_120170_1E155364 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43203,7 +56249,7 @@ local Data = {
         voice_jp_story_1201_120178_1E15D6F8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120178_1E15D6F8",
-          SoundLength = 9260
+          SoundLength = 10060
         },
         voice_jp_story_1201_120178_1E15D722 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43268,7 +56314,7 @@ local Data = {
         voice_jp_story_1201_120182_1E161898 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120182_1E161898",
-          SoundLength = 18990
+          SoundLength = 17620
         },
         voice_jp_story_1201_120182_1E1618C2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43365,6 +56411,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120182_1E161CDC",
           SoundLength = 7320
         },
+        voice_jp_story_1201_120182_1E161D06 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120182_1E161D06",
+          SoundLength = 7930
+        },
         voice_jp_story_1201_120182_1E161D06_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120182_1E161D06_1",
@@ -43374,6 +56425,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120182_1E161D06_2",
           SoundLength = 7930
+        },
+        voice_jp_story_1201_120182_1E161D30 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120182_1E161D30",
+          SoundLength = 1870
         },
         voice_jp_story_1201_120182_1E161D30_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43440,6 +56496,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120182_1E161EFE",
           SoundLength = 7120
         },
+        voice_jp_story_1201_120183_1E162858 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120183_1E162858",
+          SoundLength = 6830
+        },
         voice_jp_story_1201_120183_1E162858_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E162858_1",
@@ -43449,6 +56510,16 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E162858_2",
           SoundLength = 6960
+        },
+        voice_jp_story_1201_120183_1E162882 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120183_1E162882",
+          SoundLength = 5700
+        },
+        voice_jp_story_1201_120183_1E1628AC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120183_1E1628AC",
+          SoundLength = 5800
         },
         voice_jp_story_1201_120183_1E162900 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43465,6 +56536,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120183_1E1629A8",
           SoundLength = 7050
         },
+        voice_jp_story_1201_120183_1E1629D2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120183_1E1629D2",
+          SoundLength = 3690
+        },
         voice_jp_story_1201_120183_1E1629FC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E1629FC",
@@ -43474,6 +56550,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E162A26",
           SoundLength = 580
+        },
+        voice_jp_story_1201_120183_1E162A50 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120183_1E162A50",
+          SoundLength = 4820
         },
         voice_jp_story_1201_120183_1E162A7A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43500,6 +56581,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120183_1E162B4C",
           SoundLength = 5900
         },
+        voice_jp_story_1201_120183_1E162B76 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120183_1E162B76",
+          SoundLength = 4920
+        },
         voice_jp_story_1201_120183_1E162BA0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E162BA0",
@@ -43509,15 +56595,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E162BF4",
           SoundLength = 14780
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_1201_120183_1E162C1E",
-    MaxKey = "voice_jp_story_2001_200008_3211E930",
-    Loader = function()
-      return {
+        },
         voice_jp_story_1201_120183_1E162C1E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E162C1E",
@@ -43527,6 +56605,114 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120183_1E162C48",
           SoundLength = 11310
+        },
+        voice_jp_story_1201_120184_1E1638EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E1638EA",
+          SoundLength = 7130
+        },
+        voice_jp_story_1201_120184_1E16393E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E16393E",
+          SoundLength = 1640
+        },
+        voice_jp_story_1201_120184_1E163968 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E163968",
+          SoundLength = 11540
+        },
+        voice_jp_story_1201_120184_1E1639BC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E1639BC",
+          SoundLength = 7490
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120184_1E1639E6",
+    MaxKey = "voice_jp_story_1201_120228_1E190B48",
+    Loader = function()
+      return {
+        voice_jp_story_1201_120184_1E1639E6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E1639E6",
+          SoundLength = 19720
+        },
+        voice_jp_story_1201_120184_1E163A10 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E163A10",
+          SoundLength = 3330
+        },
+        voice_jp_story_1201_120184_1E163A3A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E163A3A",
+          SoundLength = 7220
+        },
+        voice_jp_story_1201_120184_1E163A64 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120184_1E163A64",
+          SoundLength = 8370
+        },
+        voice_jp_story_1201_120185_1E164952 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164952",
+          SoundLength = 8500
+        },
+        voice_jp_story_1201_120185_1E16497C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E16497C",
+          SoundLength = 17840
+        },
+        voice_jp_story_1201_120185_1E1649A6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E1649A6",
+          SoundLength = 15440
+        },
+        voice_jp_story_1201_120185_1E1649FA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E1649FA",
+          SoundLength = 4620
+        },
+        voice_jp_story_1201_120185_1E164A24 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164A24",
+          SoundLength = 10790
+        },
+        voice_jp_story_1201_120185_1E164A4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164A4E",
+          SoundLength = 10630
+        },
+        voice_jp_story_1201_120185_1E164A78 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164A78",
+          SoundLength = 15090
+        },
+        voice_jp_story_1201_120185_1E164ACC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164ACC",
+          SoundLength = 20760
+        },
+        voice_jp_story_1201_120185_1E164AF6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164AF6",
+          SoundLength = 18540
+        },
+        voice_jp_story_1201_120185_1E164B20 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164B20",
+          SoundLength = 8990
+        },
+        voice_jp_story_1201_120185_1E164B74 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120185_1E164B74",
+          SoundLength = 13570
+        },
+        voice_jp_story_1201_120186_1E1659BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E1659BA",
+          SoundLength = 1820
         },
         voice_jp_story_1201_120186_1E1659BA_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43543,10 +56729,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120186_1E1659BA_3",
           SoundLength = 1710
         },
+        voice_jp_story_1201_120186_1E1659E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E1659E4",
+          SoundLength = 1120
+        },
         voice_jp_story_1201_120186_1E165A0E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120186_1E165A0E",
           SoundLength = 13110
+        },
+        voice_jp_story_1201_120186_1E165A38 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165A38",
+          SoundLength = 5050
         },
         voice_jp_story_1201_120186_1E165A62 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43558,25 +56754,140 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120186_1E165AB6",
           SoundLength = 12700
         },
+        voice_jp_story_1201_120186_1E165AE0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165AE0",
+          SoundLength = 9070
+        },
         voice_jp_story_1201_120186_1E165B0A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120186_1E165B0A",
           SoundLength = 2280
+        },
+        voice_jp_story_1201_120186_1E165B34 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165B34",
+          SoundLength = 19250
+        },
+        voice_jp_story_1201_120186_1E165B5E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165B5E",
+          SoundLength = 9600
+        },
+        voice_jp_story_1201_120186_1E165B88 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165B88",
+          SoundLength = 7440
+        },
+        voice_jp_story_1201_120186_1E165BB2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165BB2",
+          SoundLength = 12560
         },
         voice_jp_story_1201_120186_1E165BDC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120186_1E165BDC",
           SoundLength = 700
         },
+        voice_jp_story_1201_120186_1E165C30 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165C30",
+          SoundLength = 9320
+        },
         voice_jp_story_1201_120186_1E165C5A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120186_1E165C5A",
           SoundLength = 820
         },
+        voice_jp_story_1201_120186_1E165CAE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165CAE",
+          SoundLength = 5900
+        },
         voice_jp_story_1201_120186_1E165CD8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120186_1E165CD8",
           SoundLength = 700
+        },
+        voice_jp_story_1201_120186_1E165D02 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120186_1E165D02",
+          SoundLength = 9250
+        },
+        voice_jp_story_1201_120188_1E167A8A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120188_1E167A8A",
+          SoundLength = 7070
+        },
+        voice_jp_story_1201_120189_1E168AF2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120189_1E168AF2",
+          SoundLength = 17640
+        },
+        voice_jp_story_1201_120189_1E168B1C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120189_1E168B1C",
+          SoundLength = 14860
+        },
+        voice_jp_story_1201_120189_1E168B70 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120189_1E168B70",
+          SoundLength = 6060
+        },
+        voice_jp_story_1201_120189_1E168B9A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120189_1E168B9A",
+          SoundLength = 10440
+        },
+        voice_jp_story_1201_120189_1E168BC4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120189_1E168BC4",
+          SoundLength = 13640
+        },
+        voice_jp_story_1201_120189_1E168BEE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120189_1E168BEE",
+          SoundLength = 3450
+        },
+        voice_jp_story_1201_120189_1E168C18 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120189_1E168C18",
+          SoundLength = 8560
+        },
+        voice_jp_story_1201_120190_1E169B5A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120190_1E169B5A",
+          SoundLength = 4130
+        },
+        voice_jp_story_1201_120191_1E16ABC2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120191_1E16ABC2",
+          SoundLength = 4750
+        },
+        voice_jp_story_1201_120191_1E16ABEC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120191_1E16ABEC",
+          SoundLength = 7580
+        },
+        voice_jp_story_1201_120191_1E16AC16 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120191_1E16AC16",
+          SoundLength = 3000
+        },
+        voice_jp_story_1201_120192_1E16BC2A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120192_1E16BC2A",
+          SoundLength = 9060
+        },
+        voice_jp_story_1201_120192_1E16BC54 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120192_1E16BC54",
+          SoundLength = 2510
+        },
+        voice_jp_story_1201_120192_1E16BCA8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120192_1E16BCA8",
+          SoundLength = 4210
         },
         voice_jp_story_1201_120193_120193051 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43598,6 +56909,26 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120193_1E16CCBC",
           SoundLength = 4820
         },
+        voice_jp_story_1201_120193_1E16CCE6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120193_1E16CCE6",
+          SoundLength = 17780
+        },
+        voice_jp_story_1201_120193_1E16CD10 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120193_1E16CD10",
+          SoundLength = 6930
+        },
+        voice_jp_story_1201_120193_1E16CD8E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120193_1E16CD8E",
+          SoundLength = 9940
+        },
+        voice_jp_story_1201_120193_1E16CDB8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120193_1E16CDB8",
+          SoundLength = 11500
+        },
         voice_jp_story_1201_120193_1E16CDE2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120193_1E16CDE2",
@@ -43608,10 +56939,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120193_1E16CE0C",
           SoundLength = 12970
         },
+        voice_jp_story_1201_120193_1E16CE36 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120193_1E16CE36",
+          SoundLength = 3440
+        },
         voice_jp_story_1201_120193_1E16CE8A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120193_1E16CE8A",
           SoundLength = 11670
+        },
+        voice_jp_story_1201_120193_1E16CF08 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120193_1E16CF08",
+          SoundLength = 2790
         },
         voice_jp_story_1201_120193_1E16CF32 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43628,6 +56969,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120194_1E16DCFA",
           SoundLength = 4960
         },
+        voice_jp_story_1201_120194_1E16DD24 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120194_1E16DD24",
+          SoundLength = 6600
+        },
         voice_jp_story_1201_120195_1E16ED62 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120195_1E16ED62",
@@ -43643,10 +56989,20 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120196_1E16FDCA",
           SoundLength = 6870
         },
+        voice_jp_story_1201_120196_1E16FDF4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120196_1E16FDF4",
+          SoundLength = 9360
+        },
         voice_jp_story_1201_120196_1E16FE1E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120196_1E16FE1E",
           SoundLength = 3290
+        },
+        voice_jp_story_1201_120196_1E16FE72 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120196_1E16FE72",
+          SoundLength = 9890
         },
         voice_jp_story_1201_120196_1E16FE9C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43657,6 +57013,61 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120197_1E170E5C",
           SoundLength = 8800
+        },
+        voice_jp_story_1201_120198_1E171EC4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120198_1E171EC4",
+          SoundLength = 12560
+        },
+        voice_jp_story_1201_120198_1E171EEE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120198_1E171EEE",
+          SoundLength = 11470
+        },
+        voice_jp_story_1201_120198_1E171F18 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120198_1E171F18",
+          SoundLength = 14160
+        },
+        voice_jp_story_1201_120198_1E171F42 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120198_1E171F42",
+          SoundLength = 13850
+        },
+        voice_jp_story_1201_120199_1E172F02 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120199_1E172F02",
+          SoundLength = 8560
+        },
+        voice_jp_story_1201_120199_1E172FD4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120199_1E172FD4",
+          SoundLength = 4630
+        },
+        voice_jp_story_1201_120199_1E172FFE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120199_1E172FFE",
+          SoundLength = 1860
+        },
+        voice_jp_story_1201_120199_1E173028 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120199_1E173028",
+          SoundLength = 20940
+        },
+        voice_jp_story_1201_120199_1E1730A6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120199_1E1730A6",
+          SoundLength = 23580
+        },
+        voice_jp_story_1201_120199_1E1730D0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120199_1E1730D0",
+          SoundLength = 19200
+        },
+        voice_jp_story_1201_120199_1E17314E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120199_1E17314E",
+          SoundLength = 14510
         },
         voice_jp_story_1201_120203_1E1770A2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43683,15 +57094,75 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120203_1E17719E",
           SoundLength = 9560
         },
+        voice_jp_story_1201_120203_1E1771C8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E1771C8",
+          SoundLength = 8670
+        },
+        voice_jp_story_1201_120203_1E1771F2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E1771F2",
+          SoundLength = 7380
+        },
+        voice_jp_story_1201_120203_1E177270 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E177270",
+          SoundLength = 7240
+        },
+        voice_jp_story_1201_120203_1E17729A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E17729A",
+          SoundLength = 19950
+        },
+        voice_jp_story_1201_120203_1E1772EE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E1772EE",
+          SoundLength = 9200
+        },
         voice_jp_story_1201_120203_1E177318 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120203_1E177318",
           SoundLength = 9700
         },
+        voice_jp_story_1201_120203_1E177342 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E177342",
+          SoundLength = 17370
+        },
         voice_jp_story_1201_120203_1E17736C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120203_1E17736C",
           SoundLength = 1830
+        },
+        voice_jp_story_1201_120203_1E177396 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E177396",
+          SoundLength = 1820
+        },
+        voice_jp_story_1201_120203_1E1773C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E1773C0",
+          SoundLength = 7970
+        },
+        voice_jp_story_1201_120203_1E1773EA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E1773EA",
+          SoundLength = 9420
+        },
+        voice_jp_story_1201_120203_1E177414 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120203_1E177414",
+          SoundLength = 18250
+        },
+        voice_jp_story_1201_120204_1E17810A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120204_1E17810A",
+          SoundLength = 3450
+        },
+        voice_jp_story_1201_120204_1E178134 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120204_1E178134",
+          SoundLength = 5850
         },
         voice_jp_story_1201_120205_1E179172 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43728,6 +57199,16 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120205_1E179298",
           SoundLength = 10860
         },
+        voice_jp_story_1201_120206_1E17A1DA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120206_1E17A1DA",
+          SoundLength = 5830
+        },
+        voice_jp_story_1201_120206_1E17A204 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120206_1E17A204",
+          SoundLength = 1840
+        },
         voice_jp_story_1201_120207_1E17B26C = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120207_1E17B26C",
@@ -43737,6 +57218,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120207_1E17B296",
           SoundLength = 12070
+        },
+        voice_jp_story_1201_120207_1E17B2C0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120207_1E17B2C0",
+          SoundLength = 4080
         },
         voice_jp_story_1201_120207_1E17B2EA = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43748,20 +57234,80 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120207_1E17B368",
           SoundLength = 2570
         },
+        voice_jp_story_1201_120207_1E17B392 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120207_1E17B392",
+          SoundLength = 3350
+        },
         voice_jp_story_1201_120207_1E17B3BC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120207_1E17B3BC",
           SoundLength = 10150
+        },
+        voice_jp_story_1201_120207_1E17B3E6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120207_1E17B3E6",
+          SoundLength = 8330
         },
         voice_jp_story_1201_120209_1E17D312 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120209_1E17D312",
           SoundLength = 4140
         },
+        voice_jp_story_1201_120209_1E17D33C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D33C",
+          SoundLength = 3450
+        },
+        voice_jp_story_1201_120209_1E17D366 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D366",
+          SoundLength = 7000
+        },
+        voice_jp_story_1201_120209_1E17D3BA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D3BA",
+          SoundLength = 2870
+        },
+        voice_jp_story_1201_120209_1E17D3E4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D3E4",
+          SoundLength = 7230
+        },
+        voice_jp_story_1201_120209_1E17D438 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D438",
+          SoundLength = 8510
+        },
+        voice_jp_story_1201_120209_1E17D462 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D462",
+          SoundLength = 12290
+        },
+        voice_jp_story_1201_120209_1E17D48C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D48C",
+          SoundLength = 2300
+        },
+        voice_jp_story_1201_120209_1E17D4B6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D4B6",
+          SoundLength = 8340
+        },
+        voice_jp_story_1201_120209_1E17D4E0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120209_1E17D4E0",
+          SoundLength = 2780
+        },
         voice_jp_story_1201_120210_1E17E37A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120210_1E17E37A",
           SoundLength = 17080
+        },
+        voice_jp_story_1201_120210_1E17E3F8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120210_1E17E3F8",
+          SoundLength = 2100
         },
         voice_jp_story_1201_120212_1E18044A = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43843,6 +57389,66 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120220_1E188A00",
           SoundLength = 18410
         },
+        voice_jp_story_1201_120221_1E1897F2 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120221_1E1897F2",
+          SoundLength = 4290
+        },
+        voice_jp_story_1201_120221_1E189846 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120221_1E189846",
+          SoundLength = 5820
+        },
+        voice_jp_story_1201_120222_1E18A8D8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18A8D8",
+          SoundLength = 1580
+        },
+        voice_jp_story_1201_120222_1E18A92C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18A92C",
+          SoundLength = 5780
+        },
+        voice_jp_story_1201_120222_1E18A956 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18A956",
+          SoundLength = 7700
+        },
+        voice_jp_story_1201_120222_1E18A9AA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18A9AA",
+          SoundLength = 5420
+        },
+        voice_jp_story_1201_120222_1E18A9FE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18A9FE",
+          SoundLength = 7520
+        },
+        voice_jp_story_1201_120222_1E18AA28 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18AA28",
+          SoundLength = 2770
+        },
+        voice_jp_story_1201_120222_1E18AA52 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18AA52",
+          SoundLength = 10160
+        },
+        voice_jp_story_1201_120222_1E18AA7C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18AA7C",
+          SoundLength = 7680
+        },
+        voice_jp_story_1201_120222_1E18AAA6 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18AAA6",
+          SoundLength = 4990
+        },
+        voice_jp_story_1201_120222_1E18AAFA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120222_1E18AAFA",
+          SoundLength = 9330
+        },
         voice_jp_story_1201_120223_120223151 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120223_120223151",
@@ -43888,6 +57494,21 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120223_1E18BA3C",
           SoundLength = 15290
         },
+        voice_jp_story_1201_120223_1E18BA66 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120223_1E18BA66",
+          SoundLength = 8020
+        },
+        voice_jp_story_1201_120223_1E18BA90 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120223_1E18BA90",
+          SoundLength = 12430
+        },
+        voice_jp_story_1201_120223_1E18BABA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120223_1E18BABA",
+          SoundLength = 6090
+        },
         voice_jp_story_1201_120223_1E18BAE4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120223_1E18BAE4",
@@ -43897,6 +57518,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120223_1E18BB38",
           SoundLength = 3480
+        },
+        voice_jp_story_1201_120223_1E18BB8C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120223_1E18BB8C",
+          SoundLength = 11700
         },
         voice_jp_story_1201_120223_1E18BC5E = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43916,7 +57542,7 @@ local Data = {
         voice_jp_story_1201_120223_1E18BCDC = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120223_1E18BCDC",
-          SoundLength = 14420
+          SoundLength = 15150
         },
         voice_jp_story_1201_120223_1E18BD30 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43948,10 +57574,40 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120223_1E18BDD8",
           SoundLength = 1130
         },
+        voice_jp_story_1201_120224_1E18C92A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120224_1E18C92A",
+          SoundLength = 6680
+        },
+        voice_jp_story_1201_120224_1E18C954 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120224_1E18C954",
+          SoundLength = 7630
+        },
+        voice_jp_story_1201_120224_1E18C97E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120224_1E18C97E",
+          SoundLength = 9990
+        },
+        voice_jp_story_1201_120226_1E18EA24 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120226_1E18EA24",
+          SoundLength = 9900
+        },
+        voice_jp_story_1201_120226_1E18EA4E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120226_1E18EA4E",
+          SoundLength = 3560
+        },
         voice_jp_story_1201_120227_1E18FA62 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120227_1E18FA62",
           SoundLength = 2550
+        },
+        voice_jp_story_1201_120227_1E18FA8C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120227_1E18FA8C",
+          SoundLength = 5700
         },
         voice_jp_story_1201_120227_1E18FAB6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -43968,6 +57624,24 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120228_1E190AF4",
           SoundLength = 6260
         },
+        voice_jp_story_1201_120228_1E190B1E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120228_1E190B1E",
+          SoundLength = 5830
+        },
+        voice_jp_story_1201_120228_1E190B48 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120228_1E190B48",
+          SoundLength = 4680
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_1201_120228_1E190B72",
+    MaxKey = "voice_jp_story_2001_200009_3211F944",
+    Loader = function()
+      return {
         voice_jp_story_1201_120228_1E190B72 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120228_1E190B72",
@@ -43993,6 +57667,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120228_1E190C44",
           SoundLength = 15030
         },
+        voice_jp_story_1201_120228_1E190C6E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120228_1E190C6E",
+          SoundLength = 1260
+        },
         voice_jp_story_1201_120229_1E191B32 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191B32",
@@ -44007,6 +57686,31 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191B86",
           SoundLength = 13090
+        },
+        voice_jp_story_1201_120229_1E191BB0 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191BB0",
+          SoundLength = 3260
+        },
+        voice_jp_story_1201_120229_1E191BDA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191BDA",
+          SoundLength = 9890
+        },
+        voice_jp_story_1201_120229_1E191C04 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191C04",
+          SoundLength = 11430
+        },
+        voice_jp_story_1201_120229_1E191C2E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191C2E",
+          SoundLength = 10920
+        },
+        voice_jp_story_1201_120229_1E191C58 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191C58",
+          SoundLength = 1100
         },
         voice_jp_story_1201_120229_1E191C58_1 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -44028,10 +57732,30 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120229_1E191C58_4",
           SoundLength = 1070
         },
+        voice_jp_story_1201_120229_1E191C82 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191C82",
+          SoundLength = 7670
+        },
+        voice_jp_story_1201_120229_1E191CAC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191CAC",
+          SoundLength = 9410
+        },
         voice_jp_story_1201_120229_1E191CD6 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191CD6",
           SoundLength = 2020
+        },
+        voice_jp_story_1201_120229_1E191D00 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191D00",
+          SoundLength = 1190
+        },
+        voice_jp_story_1201_120229_1E191D2A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191D2A",
+          SoundLength = 2670
         },
         voice_jp_story_1201_120229_1E191D54 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -44053,6 +57777,11 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120229_1E191DD2",
           SoundLength = 13380
         },
+        voice_jp_story_1201_120229_1E191DFC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191DFC",
+          SoundLength = 6260
+        },
         voice_jp_story_1201_120229_1E191E26 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191E26",
@@ -44068,25 +57797,160 @@ local Data = {
           SelectKey = "voice_jp_story_1201_120229_1E191E7A",
           SoundLength = 1820
         },
+        voice_jp_story_1201_120229_1E191EA4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191EA4",
+          SoundLength = 11150
+        },
         voice_jp_story_1201_120229_1E191ECE = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191ECE",
           SoundLength = 5060
+        },
+        voice_jp_story_1201_120229_1E191EF8 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191EF8",
+          SoundLength = 4850
         },
         voice_jp_story_1201_120229_1E191F22 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191F22",
           SoundLength = 1910
         },
+        voice_jp_story_1201_120229_1E191F4C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191F4C",
+          SoundLength = 8930
+        },
+        voice_jp_story_1201_120229_1E191F76 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191F76",
+          SoundLength = 8560
+        },
         voice_jp_story_1201_120229_1E191FA0 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191FA0",
           SoundLength = 5890
         },
+        voice_jp_story_1201_120229_1E191FCA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120229_1E191FCA",
+          SoundLength = 2160
+        },
         voice_jp_story_1201_120229_1E191FF4 = {
           ProgrammerSoundPath = "event:/voice/jp/story/1201",
           SelectKey = "voice_jp_story_1201_120229_1E191FF4",
           SoundLength = 690
+        },
+        voice_jp_story_1201_120230_1E192BC4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120230_1E192BC4",
+          SoundLength = 5400
+        },
+        voice_jp_story_1201_120230_1E192BEE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120230_1E192BEE",
+          SoundLength = 5390
+        },
+        voice_jp_story_1201_120230_1E192C18 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120230_1E192C18",
+          SoundLength = 3740
+        },
+        voice_jp_story_1201_120230_1E192C42 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120230_1E192C42",
+          SoundLength = 6120
+        },
+        voice_jp_story_1201_120230_1E192C6C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120230_1E192C6C",
+          SoundLength = 12080
+        },
+        voice_jp_story_1201_120232_1E194C6A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120232_1E194C6A",
+          SoundLength = 3070
+        },
+        voice_jp_story_1201_120232_1E194C94 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120232_1E194C94",
+          SoundLength = 9060
+        },
+        voice_jp_story_1201_120233_1E195CFC = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195CFC",
+          SoundLength = 13200
+        },
+        voice_jp_story_1201_120233_1E195D26 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195D26",
+          SoundLength = 3500
+        },
+        voice_jp_story_1201_120233_1E195D7A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195D7A",
+          SoundLength = 10960
+        },
+        voice_jp_story_1201_120233_1E195DA4 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195DA4",
+          SoundLength = 12650
+        },
+        voice_jp_story_1201_120233_1E195DCE = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195DCE",
+          SoundLength = 6100
+        },
+        voice_jp_story_1201_120233_1E195E22 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195E22",
+          SoundLength = 6590
+        },
+        voice_jp_story_1201_120233_1E195E4C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195E4C",
+          SoundLength = 780
+        },
+        voice_jp_story_1201_120233_1E195ECA = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195ECA",
+          SoundLength = 2160
+        },
+        voice_jp_story_1201_120233_1E195F1E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195F1E",
+          SoundLength = 18210
+        },
+        voice_jp_story_1201_120233_1E195F48 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195F48",
+          SoundLength = 15440
+        },
+        voice_jp_story_1201_120233_1E195F72 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195F72",
+          SoundLength = 16350
+        },
+        voice_jp_story_1201_120233_1E195F9C = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E195F9C",
+          SoundLength = 10920
+        },
+        voice_jp_story_1201_120233_1E19601A = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120233_1E19601A",
+          SoundLength = 6660
+        },
+        voice_jp_story_1201_120234_1E196D64 = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120234_1E196D64",
+          SoundLength = 7940
+        },
+        voice_jp_story_1201_120234_1E196D8E = {
+          ProgrammerSoundPath = "event:/voice/jp/story/1201",
+          SelectKey = "voice_jp_story_1201_120234_1E196D8E",
+          SoundLength = 8140
         },
         voice_jp_story_2001_101257_19593FD2 = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -44168,15 +58032,15 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200005_3211B62A_f",
           SoundLength = 4240
         },
+        voice_jp_story_2001_200005_3211B62A_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200005_3211B62A_m",
+          SoundLength = 3860
+        },
         voice_jp_story_2001_200005_3211B654 = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200005_3211B654",
           SoundLength = 960
-        },
-        voice_jp_story_2001_200005_3211B654_m = {
-          ProgrammerSoundPath = "event:/voice/jp/story/2001",
-          SelectKey = "voice_jp_story_2001_200005_3211B654_m",
-          SoundLength = 3860
         },
         voice_jp_story_2001_200005_3211B6A8 = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -44517,15 +58381,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200008_3211E930",
           SoundLength = 19680
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_2001_200008_3211E95A_f",
-    MaxKey = "voice_jp_story_2001_200058_32151A38",
-    Loader = function()
-      return {
+        },
         voice_jp_story_2001_200008_3211E95A_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200008_3211E95A_f",
@@ -44785,7 +58641,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200009_3211F944",
           SoundLength = 7040
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_2001_200009_3211F96E",
+    MaxKey = "voice_jp_story_2001_200060_32153FF4",
+    Loader = function()
+      return {
         voice_jp_story_2001_200009_3211F96E = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200009_3211F96E",
@@ -45041,6 +58905,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200048_321475D4",
           SoundLength = 6590
         },
+        voice_jp_story_2001_200048_321475FE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200048_321475FE_f",
+          SoundLength = 2560
+        },
         voice_jp_story_2001_200048_321475FE_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200048_321475FE_m",
@@ -45071,6 +58940,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200050_3214967A",
           SoundLength = 5750
         },
+        voice_jp_story_2001_200050_321496A4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200050_321496A4_f",
+          SoundLength = 1710
+        },
         voice_jp_story_2001_200050_321496A4_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200050_321496A4_m",
@@ -45080,6 +58954,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200050_321496CE",
           SoundLength = 7910
+        },
+        voice_jp_story_2001_200050_321496F8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200050_321496F8_f",
+          SoundLength = 1970
         },
         voice_jp_story_2001_200050_321496F8_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45120,6 +58999,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200052_3214B7F2",
           SoundLength = 10800
+        },
+        voice_jp_story_2001_200052_3214B81C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200052_3214B81C_f",
+          SoundLength = 2630
         },
         voice_jp_story_2001_200052_3214B81C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45181,10 +59065,20 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200054_3214D81A",
           SoundLength = 7280
         },
+        voice_jp_story_2001_200054_3214D844_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200054_3214D844_f",
+          SoundLength = 9420
+        },
         voice_jp_story_2001_200054_3214D844_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200054_3214D844_m",
           SoundLength = 9180
+        },
+        voice_jp_story_2001_200054_3214D86E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200054_3214D86E_f",
+          SoundLength = 6410
         },
         voice_jp_story_2001_200054_3214D86E_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45200,6 +59094,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200054_3214D8C2",
           SoundLength = 1640
+        },
+        voice_jp_story_2001_200054_3214D8EC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200054_3214D8EC_f",
+          SoundLength = 2280
         },
         voice_jp_story_2001_200054_3214D8EC_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45386,6 +59285,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200056_3214F8EA",
           SoundLength = 13600
         },
+        voice_jp_story_2001_200056_3214F914_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200056_3214F914_f",
+          SoundLength = 6190
+        },
         voice_jp_story_2001_200056_3214F914_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200056_3214F914_m",
@@ -45409,6 +59313,11 @@ local Data = {
         voice_jp_story_2001_200057_3215097C_f = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200057_3215097C_f",
+          SoundLength = 3560
+        },
+        voice_jp_story_2001_200057_3215097C_m = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200057_3215097C_m",
           SoundLength = 3560
         },
         voice_jp_story_2001_200057_321509A6 = {
@@ -45436,6 +59345,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200057_32150A4E",
           SoundLength = 8300
         },
+        voice_jp_story_2001_200057_32150A78_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200057_32150A78_f",
+          SoundLength = 7110
+        },
         voice_jp_story_2001_200057_32150A78_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200057_32150A78_m",
@@ -45450,6 +59364,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200057_32150AF6",
           SoundLength = 12720
+        },
+        voice_jp_story_2001_200057_32150B20_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200057_32150B20_f",
+          SoundLength = 4790
         },
         voice_jp_story_2001_200057_32150B20_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45496,6 +59415,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200057_32150C9A",
           SoundLength = 8860
         },
+        voice_jp_story_2001_200057_32150CC4_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200057_32150CC4_f",
+          SoundLength = 1620
+        },
         voice_jp_story_2001_200057_32150CC4_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200057_32150CC4_m",
@@ -45525,15 +59449,7 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200058_32151A38",
           SoundLength = 7560
-        }
-      }
-    end
-  },
-  {
-    MinKey = "voice_jp_story_2001_200058_32151A62",
-    MaxKey = "voice_jp_story_2001_200070_3215E1B8",
-    Loader = function()
-      return {
+        },
         voice_jp_story_2001_200058_32151A62 = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200058_32151A62",
@@ -45563,6 +59479,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200059_32152AA0",
           SoundLength = 4840
+        },
+        voice_jp_story_2001_200060_32153A8A_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200060_32153A8A_f",
+          SoundLength = 3490
         },
         voice_jp_story_2001_200060_32153A8A_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45603,6 +59524,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200060_32153C04",
           SoundLength = 11950
+        },
+        voice_jp_story_2001_200060_32153C2E_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200060_32153C2E_f",
+          SoundLength = 2750
         },
         voice_jp_story_2001_200060_32153C2E_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45649,10 +59575,20 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200060_32153DD2",
           SoundLength = 10500
         },
+        voice_jp_story_2001_200060_32153DFC_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200060_32153DFC_f",
+          SoundLength = 6570
+        },
         voice_jp_story_2001_200060_32153DFC_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200060_32153DFC_m",
           SoundLength = 7090
+        },
+        voice_jp_story_2001_200060_32153E26_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200060_32153E26_f",
+          SoundLength = 5770
         },
         voice_jp_story_2001_200060_32153E26_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45684,6 +59620,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200060_32153F22",
           SoundLength = 2540
         },
+        voice_jp_story_2001_200060_32153F4C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200060_32153F4C_f",
+          SoundLength = 2750
+        },
         voice_jp_story_2001_200060_32153F4C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200060_32153F4C_m",
@@ -45708,7 +59649,15 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200060_32153FF4",
           SoundLength = 9380
-        },
+        }
+      }
+    end
+  },
+  {
+    MinKey = "voice_jp_story_2001_200060_3215401E",
+    MaxKey = "voice_jp_story_2001_200070_3215E1B8",
+    Loader = function()
+      return {
         voice_jp_story_2001_200060_3215401E = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200060_3215401E",
@@ -45728,6 +59677,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200061_32154AF2",
           SoundLength = 3650
+        },
+        voice_jp_story_2001_200061_32154B1C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200061_32154B1C_f",
+          SoundLength = 9820
         },
         voice_jp_story_2001_200061_32154B1C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45848,6 +59802,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200065_32158DB8",
           SoundLength = 1870
+        },
+        voice_jp_story_2001_200065_32158DE2_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200065_32158DE2_f",
+          SoundLength = 3120
         },
         voice_jp_story_2001_200065_32158DE2_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -45999,10 +59958,20 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200067_3215AF5A",
           SoundLength = 1740
         },
+        voice_jp_story_2001_200067_3215AF84_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200067_3215AF84_f",
+          SoundLength = 2510
+        },
         voice_jp_story_2001_200067_3215AF84_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200067_3215AF84_m",
           SoundLength = 2090
+        },
+        voice_jp_story_2001_200067_3215AFD8_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200067_3215AFD8_f",
+          SoundLength = 4890
         },
         voice_jp_story_2001_200067_3215AFD8_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -46014,10 +59983,20 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200067_3215B002",
           SoundLength = 15480
         },
+        voice_jp_story_2001_200067_3215B02C_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200067_3215B02C_f",
+          SoundLength = 12080
+        },
         voice_jp_story_2001_200067_3215B02C_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200067_3215B02C_m",
           SoundLength = 13080
+        },
+        voice_jp_story_2001_200067_3215B056_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200067_3215B056_f",
+          SoundLength = 5000
         },
         voice_jp_story_2001_200067_3215B056_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -46044,6 +60023,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200067_3215B0FE",
           SoundLength = 1480
         },
+        voice_jp_story_2001_200067_3215B152_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200067_3215B152_f",
+          SoundLength = 2870
+        },
         voice_jp_story_2001_200067_3215B152_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200067_3215B152_m",
@@ -46053,6 +60037,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200067_3215B17C",
           SoundLength = 9050
+        },
+        voice_jp_story_2001_200067_3215B1A6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200067_3215B1A6_f",
+          SoundLength = 2390
         },
         voice_jp_story_2001_200067_3215B1A6_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -46094,10 +60083,20 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200070_3215DEC4",
           SoundLength = 12150
         },
+        voice_jp_story_2001_200070_3215DEEE_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200070_3215DEEE_f",
+          SoundLength = 9520
+        },
         voice_jp_story_2001_200070_3215DEEE_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200070_3215DEEE_m",
           SoundLength = 9990
+        },
+        voice_jp_story_2001_200070_3215DF18_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200070_3215DF18_f",
+          SoundLength = 8710
         },
         voice_jp_story_2001_200070_3215DF18_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -46169,6 +60168,11 @@ local Data = {
           SelectKey = "voice_jp_story_2001_200070_3215E0BC",
           SoundLength = 17300
         },
+        voice_jp_story_2001_200070_3215E0E6_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200070_3215E0E6_f",
+          SoundLength = 1770
+        },
         voice_jp_story_2001_200070_3215E0E6_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200070_3215E0E6_m",
@@ -46183,6 +60187,11 @@ local Data = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
           SelectKey = "voice_jp_story_2001_200070_3215E13A",
           SoundLength = 2750
+        },
+        voice_jp_story_2001_200070_3215E164_f = {
+          ProgrammerSoundPath = "event:/voice/jp/story/2001",
+          SelectKey = "voice_jp_story_2001_200070_3215E164_f",
+          SoundLength = 2130
         },
         voice_jp_story_2001_200070_3215E164_m = {
           ProgrammerSoundPath = "event:/voice/jp/story/2001",
@@ -46206,14 +60215,9 @@ local Data = {
 local rawset = rawset
 local Talk_SoundJP = setmetatable({}, {
   __index = function(t, key)
-    local Partition = DataMgr.GetPartitionData(key, Data)
+    local Partition = DataMgr.QueryTable(key, "Talk_SoundJP", Data)
     if Partition then
-      for k, v in pairs(Partition) do
-        if rawget(t, k) == nil then
-          rawset(t, k, v)
-        end
-      end
-      return Partition[key]
+      return Partition
     else
       return nil
     end

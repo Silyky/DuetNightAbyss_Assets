@@ -43,5 +43,11 @@ return ReadOnly("Maximum", {
     MonitorType = "Resource",
     SubId = 204,
     Value = 500
+  },
+  [8] = {
+    MonitorId = 8,
+    MonitorType = "Resource",
+    SubId = 211,
+    Value = 100000
   }
 })

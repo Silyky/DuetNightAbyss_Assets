@@ -27,12 +27,11 @@ return ReadOnly("ShopBannerTab", {
     Sequence = 2,
     StartTime = 1735704000,
     SwitchTime = 10,
-    Text1 = "UI_MonthlyCard_Name"
+    Text1 = "UI_Banner_MonthlyCard"
   },
   [3] = {
     BannerIcon = "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_NewPlayerGift.T_Shop_Recommend_NewPlayerGift'",
     Bp = "WBP_Shop_Recommend_Gift4_1",
-    EndTime = 1736049600,
     GoodsId = "com.hero.dna.Pay_Bundle1",
     Id = 3,
     ItemId = 160107,

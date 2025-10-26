@@ -391,21 +391,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10022] = {
-      CharId = 1101,
-      UnitId = 81101,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10022,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Heitao_vo_birthday"
-      },
-      VoiceType = 1
-    },
     [10023] = {
       CharId = 1101,
       UnitId = 81101,
@@ -1559,21 +1544,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Tuosi_vo_fail"
       },
       VoiceType = 2
-    },
-    [10699] = {
-      CharId = 1103,
-      UnitId = 81103,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10699,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Tuosi_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [1501] = {
@@ -3019,21 +2989,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Nifu_vo_fail"
       },
       VoiceType = 2
-    },
-    [10598] = {
-      CharId = 1502,
-      UnitId = 81502,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10598,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Nifu_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [1503] = {
@@ -3707,21 +3662,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Kezhou_vo_fail"
       },
       VoiceType = 2
-    },
-    [10788] = {
-      CharId = 1503,
-      UnitId = 81503,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10788,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Kezhou_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [1801] = {
@@ -4359,21 +4299,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Feina_vo_fail"
       },
       VoiceType = 2
-    },
-    [10474] = {
-      CharId = 1801,
-      UnitId = 81801,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10474,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Feina_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [2101] = {
@@ -4749,21 +4674,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Shuimu_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10057] = {
-      CharId = 2101,
-      UnitId = 82101,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10057,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Shuimu_vo_birthday"
       },
       VoiceType = 1
     },
@@ -5346,21 +5256,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10092] = {
-      CharId = 2301,
-      UnitId = 82301,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10092,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Zhangyu_vo_birthday"
-      },
-      VoiceType = 1
-    },
     [10093] = {
       CharId = 2301,
       UnitId = 82301,
@@ -5902,21 +5797,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10271] = {
-      CharId = 2401,
-      UnitId = 82401,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10271,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Baiheng_vo_birthday"
-      },
-      VoiceType = 1
-    },
     [10272] = {
       CharId = 2401,
       UnitId = 82401,
@@ -6419,21 +6299,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Linen_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10124] = {
-      CharId = 3101,
-      UnitId = 83101,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10124,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Linen_vo_birthday"
       },
       VoiceType = 1
     },
@@ -7092,21 +6957,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Xier_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10163] = {
-      CharId = 3102,
-      UnitId = 83102,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10163,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Xier_vo_birthday"
       },
       VoiceType = 1
     },
@@ -7993,21 +7843,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Yeer_vo_fail"
       },
       VoiceType = 2
-    },
-    [10511] = {
-      CharId = 3103,
-      UnitId = 83103,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10511,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Yeer_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [3201] = {
@@ -8645,21 +8480,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Haier_vo_fail"
       },
       VoiceType = 2
-    },
-    [10549] = {
-      CharId = 3201,
-      UnitId = 83201,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10549,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Haier_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [3301] = {
@@ -9387,21 +9207,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Maer_vo_fail"
       },
       VoiceType = 2
-    },
-    [10436] = {
-      CharId = 3301,
-      UnitId = 83301,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10436,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Maer_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [4101] = {
@@ -10198,21 +10003,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Lise_vo_fail"
       },
       VoiceType = 2
-    },
-    [10643] = {
-      CharId = 4101,
-      UnitId = 84101,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10643,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Lise_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [4102] = {
@@ -10880,21 +10670,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Zhiliu_vo_fail"
       },
       VoiceType = 2
-    },
-    [10865] = {
-      CharId = 4102,
-      UnitId = 84102,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10865,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Zhiliu_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [4201] = {
@@ -11156,21 +10931,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Yuming_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10196] = {
-      CharId = 4201,
-      UnitId = 84201,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10196,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Yuming_vo_birthday"
       },
       VoiceType = 1
     },
@@ -11919,21 +11679,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Landi_vo_fail"
       },
       VoiceType = 2
-    },
-    [10357] = {
-      CharId = 4202,
-      UnitId = 84202,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10357,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Landi_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [4301] = {
@@ -12530,21 +12275,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Xibi_vo_fail"
       },
       VoiceType = 2
-    },
-    [10393] = {
-      CharId = 4301,
-      UnitId = 84301,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10393,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Xibi_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [5101] = {
@@ -12979,21 +12709,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Songlu_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10310] = {
-      CharId = 5101,
-      UnitId = 85101,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10310,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Songlu_vo_birthday"
       },
       VoiceType = 1
     },
@@ -13837,21 +13552,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Aote_vo_fail"
       },
       VoiceType = 2
-    },
-    [10825] = {
-      CharId = 5102,
-      UnitId = 85102,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10825,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Aote_vo_birthday"
-      },
-      VoiceType = 1
     }
   },
   [5301] = {
@@ -13859,7 +13559,6 @@ return ReadOnly("CharVoice", {
       CharId = 5301,
       GachaVoicePart = 1,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes002"
       },
@@ -13875,7 +13574,6 @@ return ReadOnly("CharVoice", {
     [10213] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes003"
       },
@@ -13894,7 +13592,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100101,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes075",
@@ -13914,7 +13611,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100103,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes075",
@@ -13935,7 +13631,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100105,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes075",
@@ -13956,7 +13651,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100201,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes076",
@@ -13977,7 +13671,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100204,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes076",
@@ -13997,7 +13690,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100205,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes076",
@@ -14017,7 +13709,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100206,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes076",
@@ -14038,7 +13729,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100208,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes076",
@@ -14058,7 +13748,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100209,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes076",
@@ -14079,7 +13768,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes077",
@@ -14099,7 +13787,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100303,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes077",
@@ -14120,7 +13807,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100305,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes077",
@@ -14141,7 +13827,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100401,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes078",
@@ -14162,7 +13847,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100404,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes078",
@@ -14183,7 +13867,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100501,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes079",
@@ -14203,7 +13886,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100502,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes079",
@@ -14221,7 +13903,6 @@ return ReadOnly("CharVoice", {
     [10230] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes004"
       },
@@ -14239,7 +13920,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100601,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes041"
@@ -14258,7 +13938,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100701,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes042"
@@ -14277,7 +13956,6 @@ return ReadOnly("CharVoice", {
       LockedDes = "VoiceLocked_Dialogue",
       UnitId = 85301,
       UnlockDialogue = 90100801,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes001",
         "VoiceDes043"
@@ -14291,26 +13969,9 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10234] = {
-      CharId = 5301,
-      UnitId = 85301,
-      VoiceChar = "Saiqi",
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10234,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Saiqi_vo_birthday"
-      },
-      VoiceType = 1
-    },
     [10235] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes006"
       },
@@ -14326,7 +13987,6 @@ return ReadOnly("CharVoice", {
     [10236] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes007"
       },
@@ -14342,7 +14002,6 @@ return ReadOnly("CharVoice", {
     [10237] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes008"
       },
@@ -14358,7 +14017,6 @@ return ReadOnly("CharVoice", {
     [10238] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes009"
       },
@@ -14374,7 +14032,6 @@ return ReadOnly("CharVoice", {
     [10239] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes012"
       },
@@ -14390,7 +14047,6 @@ return ReadOnly("CharVoice", {
     [10240] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes013"
       },
@@ -14406,7 +14062,6 @@ return ReadOnly("CharVoice", {
     [10241] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes014"
       },
@@ -14422,7 +14077,6 @@ return ReadOnly("CharVoice", {
     [10242] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes015"
       },
@@ -14438,7 +14092,6 @@ return ReadOnly("CharVoice", {
     [10243] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes016"
       },
@@ -14454,7 +14107,6 @@ return ReadOnly("CharVoice", {
     [10244] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes017"
       },
@@ -14470,7 +14122,6 @@ return ReadOnly("CharVoice", {
     [10245] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes018"
       },
@@ -14486,7 +14137,6 @@ return ReadOnly("CharVoice", {
     [10246] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes019"
       },
@@ -14502,7 +14152,6 @@ return ReadOnly("CharVoice", {
     [10247] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes020"
       },
@@ -14518,7 +14167,6 @@ return ReadOnly("CharVoice", {
     [10248] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes021"
       },
@@ -14534,7 +14182,6 @@ return ReadOnly("CharVoice", {
     [10249] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes022"
       },
@@ -14550,7 +14197,6 @@ return ReadOnly("CharVoice", {
     [10250] = {
       CharId = 5301,
       UnitId = 85301,
-      VoiceChar = "Saiqi",
       VoiceDes = {
         "VoiceDes023"
       },
@@ -15409,21 +15055,6 @@ return ReadOnly("CharVoice", {
         "voice_ch_char_Dafu_vo_fail"
       },
       VoiceType = 2
-    },
-    [10748] = {
-      CharId = 5401,
-      UnitId = 85401,
-      VoiceDes = {
-        "VoiceDes005"
-      },
-      VoiceId = 10748,
-      VoiceRes = {
-        "vo_birthday"
-      },
-      VoiceText = {
-        "voice_ch_char_Dafu_vo_birthday"
-      },
-      VoiceType = 1
     }
   }
 })

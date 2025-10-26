@@ -246,5 +246,27 @@ return ReadOnly("AbyssBuff", {
     GlobalPassiveId = 20512,
     GlobalPassiveLv = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Abyss/T_Abyss_Buff_Exchange.T_Abyss_Buff_Exchange"
+  },
+  [935] = {
+    AbyssBuffDes = "Buff_Content_935",
+    AbyssBuffID = 935,
+    AbyssBuffName = "Buff_Title_935",
+    AbyssBuffType = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Abyss/T_Abyss_Buff_Exchange.T_Abyss_Buff_Exchange",
+    MonsterBuff = {
+      BuffList = {2010035}
+    },
+    MonsterBuffLayer = 1
+  },
+  [951] = {
+    AbyssBuffDes = "Buff_Content_951",
+    AbyssBuffID = 951,
+    AbyssBuffName = "Buff_Title_951",
+    AbyssBuffType = 1,
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Abyss/T_Abyss_Buff_Exchange.T_Abyss_Buff_Exchange",
+    MonsterBuff = {
+      BuffList = {2010051}
+    },
+    MonsterBuffLayer = 1
   }
 })

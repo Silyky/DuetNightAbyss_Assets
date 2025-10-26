@@ -254,7 +254,8 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    UIName = "ArmoryCardLevelWeapon"
+    UIName = "ArmoryCardLevelWeapon",
+    ZOrder = 55
   },
   ArmoryDetail = {
     ConfigName = "StackAndUIMode",
@@ -270,7 +271,8 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    UIName = "ArmoryDetail"
+    UIName = "ArmoryDetail",
+    ZOrder = 55
   },
   ArmoryDye = {
     ConfigName = "StackAndUIMode",
@@ -285,7 +287,8 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    UIName = "ArmoryDye"
+    UIName = "ArmoryDye",
+    ZOrder = 55
   },
   ArmoryFile = {
     ConfigName = "StackAndUIMode",
@@ -298,7 +301,8 @@ return ReadOnly("SystemUI", {
     },
     Popup = true,
     System = "Armory",
-    UIName = "ArmoryFile"
+    UIName = "ArmoryFile",
+    ZOrder = 55
   },
   ArmoryMain = {
     CombatconditionIdList = {11, 21},
@@ -319,7 +323,8 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    UIName = "ArmoryMain"
+    UIName = "ArmoryMain",
+    ZOrder = 55
   },
   ArmoryMod = {
     ConfigName = "StackAndUIMode",
@@ -341,7 +346,8 @@ return ReadOnly("SystemUI", {
     TabCoin = {
       201, 202
     },
-    UIName = "ArmoryMod"
+    UIName = "ArmoryMod",
+    ZOrder = 55
   },
   ArmoryModImport = {
     ConfigName = "OnlyUIMode",
@@ -355,7 +361,8 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    UIName = "ArmoryModImport"
+    UIName = "ArmoryModImport",
+    ZOrder = 56
   },
   ArmoryModIntensify = {
     ConfigName = "StackAndUIMode",
@@ -373,7 +380,8 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    UIName = "ArmoryModIntensify"
+    UIName = "ArmoryModIntensify",
+    ZOrder = 55
   },
   ArmorySkin = {
     ConfigName = "StackAndUIMode",
@@ -389,8 +397,13 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    TabCoin = {100},
-    UIName = "ArmorySkin"
+    TabCoin = {
+      99,
+      100,
+      110
+    },
+    UIName = "ArmorySkin",
+    ZOrder = 55
   },
   ArmoryTraceDetails = {
     ConfigName = "StackAndUIMode",
@@ -401,7 +414,7 @@ return ReadOnly("SystemUI", {
     Popup = true,
     System = "Armory",
     UIName = "ArmoryTraceDetails",
-    ZOrder = -1
+    ZOrder = 54
   },
   BagMain = {
     ConfigName = "StackAndUIMode",
@@ -1232,7 +1245,8 @@ return ReadOnly("SystemUI", {
       "MainLineQuest"
     },
     SpecialUINameList = {
-      "CharLevelUp_System"
+      "CharLevelUp_System",
+      "SystemUnlockGuide"
     },
     StateTag = 1,
     System = "Common",
@@ -1659,14 +1673,16 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Shop/Mobile/WBP_Shop_Gift_PopUp_Purple_M.WBP_Shop_Gift_PopUp_Purple_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Shop/PC/WBP_Shop_Gift_PopUp_Purple_P.WBP_Shop_Gift_PopUp_Purple_P'",
     System = "Shop",
-    UIName = "PayGiftPopup_Purple"
+    UIName = "PayGiftPopup_Purple",
+    ZOrder = 56
   },
   PayGiftPopup_Yellow = {
     ConfigName = "OnlyUIMode",
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Shop/Mobile/WBP_Shop_Gift_PopUp_Yellow_M.WBP_Shop_Gift_PopUp_Yellow_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Shop/PC/WBP_Shop_Gift_PopUp_Yellow_P.WBP_Shop_Gift_PopUp_Yellow_P'",
     System = "Shop",
-    UIName = "PayGiftPopup_Yellow"
+    UIName = "PayGiftPopup_Yellow",
+    ZOrder = 56
   },
   PersonInfoPageMain = {
     ConfigName = "StackAndUIMode",
@@ -2098,7 +2114,8 @@ return ReadOnly("SystemUI", {
       110,
       111
     },
-    UIName = "ShopActivity"
+    UIName = "ShopActivity",
+    ZOrder = 55
   },
   ShopMain = {
     ConfigName = "StackAndUIMode",
@@ -2116,7 +2133,8 @@ return ReadOnly("SystemUI", {
       110,
       111
     },
-    UIName = "ShopMain"
+    UIName = "ShopMain",
+    ZOrder = 55
   },
   ShuiFa = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/MiniGame/Mobile/WBP_MiniGame_ShuifaMain_M.WBP_MiniGame_ShuifaMain_M'",
@@ -2148,6 +2166,7 @@ return ReadOnly("SystemUI", {
   SkinPreview = {
     ConfigName = "StackAndUIMode",
     IsHideBattleUnit = 1,
+    IsStopGame = 2,
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Shop/Mobile/WBP_Shop_SkinPreview_M.WBP_Shop_SkinPreview_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Shop/PC/WBP_Shop_SkinPreview_P.WBP_Shop_SkinPreview_P'",
     UIName = "SkinPreview",
@@ -2215,6 +2234,7 @@ return ReadOnly("SystemUI", {
     UIName = "StoryWeaponSelect"
   },
   StyleOfPlay = {
+    CombatconditionIdList = {21},
     ConfigName = "StackAndUIMode",
     GlobalGameUITag = "Play",
     IsChat = true,

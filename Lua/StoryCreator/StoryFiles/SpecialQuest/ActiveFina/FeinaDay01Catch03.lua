@@ -542,6 +542,12 @@ return {
             startPort = "Out",
             endQuest = "17540308720989188196",
             endPort = "In"
+          },
+          {
+            startQuest = "17540308720989188193",
+            startPort = "QuestStart",
+            endQuest = "17595033270791254",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -1755,6 +1761,18 @@ return {
             name = "镜头恢复",
             pos = {x = 7216.9335404417, y = 108.74906329309817},
             propsData = {Duration = 3}
+          },
+          ["17595033270791254"] = {
+            key = "17595033270791254",
+            type = "AtmosphereNpcHideNode",
+            name = "氛围NPC显示/隐藏节点",
+            pos = {x = 488.52631578947376, y = -1362.421052631579},
+            propsData = {
+              IsHide = true,
+              AtmosphereTagList = {
+                "feina01decohide"
+              }
+            }
           }
         },
         commentData = {

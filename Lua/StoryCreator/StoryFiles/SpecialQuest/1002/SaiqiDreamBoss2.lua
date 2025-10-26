@@ -314,7 +314,7 @@ return {
             key = "17184325923652866005",
             type = "TalkNode",
             name = "你在做什么？！",
-            pos = {x = 2459.5479909975493, y = -173.5281550470465},
+            pos = {x = 2360.3172217667798, y = -168.9127704316619},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10112501,
@@ -331,7 +331,7 @@ return {
             key = "17184325923652866006",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 2193.845429068756, y = -167.68074308975227},
+            pos = {x = 2123.4608136841407, y = -174.6038200128292},
             propsData = {WaitTime = 6}
           },
           ["17184325923652866007"] = {
@@ -444,7 +444,7 @@ return {
             key = "17187883419031064469",
             type = "BossBattleFinishNode",
             name = "等待完成boss战",
-            pos = {x = 2145.1962224327613, y = 17.242453240317545},
+            pos = {x = 2125.5808378173765, y = 10.319376317240621},
             propsData = {
               SendMessage = "",
               FinishCondition = "BossSaiqi02_P2End"
@@ -470,7 +470,7 @@ return {
             key = "17214660590632549",
             type = "TalkNode",
             name = "胜利结算",
-            pos = {x = 2605.7928472576896, y = -3.158208189861429},
+            pos = {x = 2606.9466934115358, y = 9.534099502446264},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10113401,
@@ -528,7 +528,7 @@ return {
             key = "17214663637202912",
             type = "TalkNode",
             name = "过场动画 飞向太阳",
-            pos = {x = 2880.8421472455575, y = -3.6870031954555795},
+            pos = {x = 2926.9190703224804, y = -8.840849349301733},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -573,14 +573,14 @@ return {
             key = "172234137932312744",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 2372.5640952009508, y = 7.807833047286115},
+            pos = {x = 2366.79486443172, y = 7.807833047286115},
             propsData = {WaitTime = 3}
           },
           ["17253490620542759752"] = {
             key = "17253490620542759752",
             type = "PlayOrStopBGMNode",
             name = "播放bgm",
-            pos = {x = 2850.7783559902227, y = 239.58240186123695},
+            pos = {x = 2933.195938407805, y = 327.1098743887095},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -597,7 +597,7 @@ return {
             key = "17253490721832759931",
             type = "PlayOrStopBGMNode",
             name = "停止bgm",
-            pos = {x = 3438.695239107106, y = -10.40461112577608},
+            pos = {x = 3414.464469876337, y = -1.1738418950068485},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -608,7 +608,7 @@ return {
             key = "1725360950241785",
             type = "PlayOrStopBGMNode",
             name = "播放bgm",
-            pos = {x = 2153.9999999999995, y = 171.4285714285713},
+            pos = {x = 2111.307692307692, y = 166.8131868131867},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -625,7 +625,7 @@ return {
             key = "17253609771531275",
             type = "PlayOrStopBGMNode",
             name = "停止bgm",
-            pos = {x = 2419.7142857142853, y = 168.57142857142844},
+            pos = {x = 2359.7142857142853, y = 169.7252747252746},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -635,13 +635,13 @@ return {
           ["172595089212717610"] = {
             key = "172595089212717610",
             type = "TalkNode",
-            name = "黑屏白字",
-            pos = {x = 3165.9758810614353, y = -14.306263862364704},
+            name = "白屏",
+            pos = {x = 3167.1297272152815, y = -3.9216484777493186},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10112601,
               FlowAssetPath = "",
-              TalkType = "Black",
+              TalkType = "White",
               BlendInTime = 0,
               BlendOutTime = 0,
               ShowFadeDetail = false,
@@ -667,7 +667,7 @@ return {
             key = "17268145457014179",
             type = "PlayOrStopBGMNode",
             name = "播放bgm",
-            pos = {x = 2779.0945157783412, y = -157.29944075532362},
+            pos = {x = 2604.5340762179017, y = -153.50823196411483},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -684,7 +684,7 @@ return {
             key = "17268150576965231",
             type = "PlayOrStopBGMNode",
             name = "播放bgm",
-            pos = {x = 3040.9126975965237, y = -164.1176225735054},
+            pos = {x = 2922.06654375037, y = -149.1176225735054},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -716,7 +716,7 @@ return {
             key = "17446331715381215",
             type = "ChangeStaticCreatorNode",
             name = "激活蝴蝶",
-            pos = {x = 2673.912617554859, y = 171.13221907402936},
+            pos = {x = 2603.528002170244, y = 167.6706806124909},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -730,7 +730,7 @@ return {
             key = "17446331817531515",
             type = "ChangeStaticCreatorNode",
             name = "销毁蝴蝶",
-            pos = {x = 2894.6022727272725, y = 133.89083976368448},
+            pos = {x = 2921.635239760239, y = 168.42380679665155},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,

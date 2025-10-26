@@ -579,12 +579,12 @@ return ReadOnly("Draft", {
       },
       [3] = {
         Id = 4010004,
-        Num = 1,
+        Num = 3,
         Type = "Resource"
       },
       [4] = {
         Id = 4020003,
-        Num = 1,
+        Num = 5,
         Type = "Resource"
       }
     },
@@ -617,12 +617,12 @@ return ReadOnly("Draft", {
       },
       [3] = {
         Id = 4010004,
-        Num = 3,
+        Num = 6,
         Type = "Resource"
       },
       [4] = {
         Id = 4020003,
-        Num = 3,
+        Num = 10,
         Type = "Resource"
       }
     },
@@ -687,10 +687,9 @@ return ReadOnly("Draft", {
     Batch = true,
     DraftId = 1052,
     FoundryCost = {
-      [101] = 10000
+      [101] = 300
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Ticket02.T_Resource_Ticket02",
-    IsDefaultDraft = true,
     IsInfinity = true,
     ProductId = 207,
     ProductNum = 1,
@@ -711,10 +710,9 @@ return ReadOnly("Draft", {
     Batch = true,
     DraftId = 1053,
     FoundryCost = {
-      [101] = 50000
+      [101] = 800
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Ticket03.T_Resource_Ticket03",
-    IsDefaultDraft = true,
     IsInfinity = true,
     ProductId = 208,
     ProductNum = 1,
@@ -735,10 +733,9 @@ return ReadOnly("Draft", {
     Batch = true,
     DraftId = 1054,
     FoundryCost = {
-      [101] = 250000
+      [101] = 2000
     },
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Ticket04.T_Resource_Ticket04",
-    IsDefaultDraft = true,
     IsInfinity = true,
     ProductId = 209,
     ProductNum = 1,
@@ -4295,7 +4292,7 @@ return ReadOnly("Draft", {
     ProductId = 10001,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4313,7 +4310,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4326,7 +4322,7 @@ return ReadOnly("Draft", {
     ProductId = 10002,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4344,7 +4340,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4357,7 +4352,7 @@ return ReadOnly("Draft", {
     ProductId = 10003,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4375,7 +4370,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4388,7 +4382,7 @@ return ReadOnly("Draft", {
     ProductId = 10004,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20002,
@@ -4406,7 +4400,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4437,7 +4430,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4468,7 +4460,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4499,7 +4490,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4530,7 +4520,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4543,7 +4532,7 @@ return ReadOnly("Draft", {
     ProductId = 10009,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4561,7 +4550,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4574,7 +4562,7 @@ return ReadOnly("Draft", {
     ProductId = 10010,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4592,7 +4580,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4605,7 +4592,7 @@ return ReadOnly("Draft", {
     ProductId = 10011,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20020,
@@ -4623,7 +4610,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4636,7 +4622,7 @@ return ReadOnly("Draft", {
     ProductId = 10012,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20020,
@@ -4654,7 +4640,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4667,7 +4652,7 @@ return ReadOnly("Draft", {
     ProductId = 10013,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4685,7 +4670,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4698,7 +4682,7 @@ return ReadOnly("Draft", {
     ProductId = 10014,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 5,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4716,7 +4700,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4729,7 +4712,7 @@ return ReadOnly("Draft", {
     ProductId = 10015,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 5,
     Resource = {
       [1] = {
         Id = 4010012,
@@ -4752,7 +4735,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4765,7 +4747,7 @@ return ReadOnly("Draft", {
     ProductId = 10016,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4778,7 +4760,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4791,7 +4772,7 @@ return ReadOnly("Draft", {
     ProductId = 10017,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4804,7 +4785,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4817,7 +4797,7 @@ return ReadOnly("Draft", {
     ProductId = 10018,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4830,7 +4810,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4843,7 +4822,7 @@ return ReadOnly("Draft", {
     ProductId = 10019,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20027,
@@ -4856,7 +4835,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4869,7 +4847,7 @@ return ReadOnly("Draft", {
     ProductId = 10020,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010011,
@@ -4905,7 +4883,7 @@ return ReadOnly("Draft", {
     ProductId = 10021,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4918,7 +4896,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4931,7 +4908,7 @@ return ReadOnly("Draft", {
     ProductId = 10022,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4949,7 +4926,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4962,7 +4938,7 @@ return ReadOnly("Draft", {
     ProductId = 10023,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4975,7 +4951,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -4988,7 +4963,7 @@ return ReadOnly("Draft", {
     ProductId = 10031,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010009,
@@ -5011,7 +4986,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5024,7 +4998,7 @@ return ReadOnly("Draft", {
     ProductId = 10030,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010001,
@@ -5060,7 +5034,7 @@ return ReadOnly("Draft", {
     ProductId = 10029,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010008,
@@ -5096,7 +5070,7 @@ return ReadOnly("Draft", {
     ProductId = 10028,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010011,
@@ -5132,7 +5106,7 @@ return ReadOnly("Draft", {
     ProductId = 10027,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010005,
@@ -5168,7 +5142,7 @@ return ReadOnly("Draft", {
     ProductId = 10026,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010009,
@@ -5204,7 +5178,7 @@ return ReadOnly("Draft", {
     ProductId = 10024,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010006,
@@ -5424,7 +5398,7 @@ return ReadOnly("Draft", {
     ProductId = 20001,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5442,7 +5416,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5455,7 +5428,7 @@ return ReadOnly("Draft", {
     ProductId = 20002,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5473,7 +5446,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5486,7 +5458,7 @@ return ReadOnly("Draft", {
     ProductId = 20003,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5504,7 +5476,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5517,7 +5488,7 @@ return ReadOnly("Draft", {
     ProductId = 20004,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5535,7 +5506,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5548,7 +5518,7 @@ return ReadOnly("Draft", {
     ProductId = 20005,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5566,7 +5536,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5579,7 +5548,7 @@ return ReadOnly("Draft", {
     ProductId = 20006,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5597,7 +5566,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5610,7 +5578,7 @@ return ReadOnly("Draft", {
     ProductId = 20007,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20002,
@@ -5628,7 +5596,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5641,7 +5608,7 @@ return ReadOnly("Draft", {
     ProductId = 20008,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20002,
@@ -5659,7 +5626,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5672,7 +5638,7 @@ return ReadOnly("Draft", {
     ProductId = 20009,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20012,
@@ -5690,7 +5656,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5703,7 +5668,7 @@ return ReadOnly("Draft", {
     ProductId = 20010,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20012,
@@ -5721,7 +5686,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5734,7 +5698,7 @@ return ReadOnly("Draft", {
     ProductId = 20011,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5752,7 +5716,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5765,7 +5728,7 @@ return ReadOnly("Draft", {
     ProductId = 20012,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5783,7 +5746,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5796,7 +5758,7 @@ return ReadOnly("Draft", {
     ProductId = 20013,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5814,7 +5776,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5827,7 +5788,7 @@ return ReadOnly("Draft", {
     ProductId = 20014,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5845,7 +5806,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5858,7 +5818,7 @@ return ReadOnly("Draft", {
     ProductId = 20015,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5876,7 +5836,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5889,7 +5848,7 @@ return ReadOnly("Draft", {
     ProductId = 20016,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5907,7 +5866,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5920,7 +5878,7 @@ return ReadOnly("Draft", {
     ProductId = 20017,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5938,7 +5896,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5951,7 +5908,7 @@ return ReadOnly("Draft", {
     ProductId = 20018,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5969,7 +5926,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -5982,7 +5938,7 @@ return ReadOnly("Draft", {
     ProductId = 20019,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20009,
@@ -6000,7 +5956,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6049,7 +6004,7 @@ return ReadOnly("Draft", {
     ProductId = 20021,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6062,7 +6017,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6075,7 +6029,7 @@ return ReadOnly("Draft", {
     ProductId = 20022,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20029,
@@ -6088,7 +6042,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6101,7 +6054,7 @@ return ReadOnly("Draft", {
     ProductId = 20023,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20029,
@@ -6114,7 +6067,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6127,7 +6079,7 @@ return ReadOnly("Draft", {
     ProductId = 20024,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20014,
@@ -6145,7 +6097,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6158,7 +6109,7 @@ return ReadOnly("Draft", {
     ProductId = 20025,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010003,
@@ -6194,7 +6145,7 @@ return ReadOnly("Draft", {
     ProductId = 20029,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6202,7 +6153,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6215,7 +6165,7 @@ return ReadOnly("Draft", {
     ProductId = 20034,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6223,7 +6173,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6236,7 +6185,7 @@ return ReadOnly("Draft", {
     ProductId = 20033,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6244,7 +6193,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6257,7 +6205,7 @@ return ReadOnly("Draft", {
     ProductId = 20026,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4010009,
@@ -6277,6 +6225,41 @@ return ReadOnly("Draft", {
       [4] = {
         Id = 20012,
         Num = 100,
+        Type = "Resource"
+      }
+    },
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 5
+  },
+  [320030] = {
+    DraftId = 320030,
+    FoundryCost = {
+      [101] = 20000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Face05.T_Fashion_Face05",
+    ProductId = 20030,
+    ProductNum = 1,
+    ProductType = "CharAccessory",
+    Rarity = 3,
+    Resource = {
+      [1] = {
+        Id = 4010012,
+        Num = 10,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 4010004,
+        Num = 20,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 20005,
+        Num = 50,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 20002,
+        Num = 50,
         Type = "Resource"
       }
     },
@@ -6329,7 +6312,7 @@ return ReadOnly("Draft", {
     ProductId = 30002,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6342,7 +6325,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6363,7 +6345,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6439,6 +6420,42 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
+  [330006] = {
+    DraftId = 330006,
+    FoundryCost = {
+      [101] = 20000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Waist05.T_Fashion_Waist05",
+    ProductId = 30009,
+    ProductNum = 1,
+    ProductType = "CharAccessory",
+    Rarity = 4,
+    Resource = {
+      [1] = {
+        Id = 4010009,
+        Num = 40,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 4010006,
+        Num = 60,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 20011,
+        Num = 100,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 20012,
+        Num = 100,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 5
+  },
   [340001] = {
     DraftId = 340001,
     FoundryCost = {
@@ -6448,7 +6465,7 @@ return ReadOnly("Draft", {
     ProductId = 40001,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 5,
     Resource = {
       [1] = {
         Id = 20020,
@@ -6466,7 +6483,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6479,7 +6495,7 @@ return ReadOnly("Draft", {
     ProductId = 40002,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 5,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6492,7 +6508,6 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
-    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
@@ -6505,7 +6520,7 @@ return ReadOnly("Draft", {
     ProductId = 40003,
     ProductNum = 1,
     ProductType = "CharAccessory",
-    Rarity = 3,
+    Rarity = 4,
     Resource = {
       [1] = {
         Id = 4020003,

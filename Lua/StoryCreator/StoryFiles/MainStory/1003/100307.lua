@@ -476,6 +476,12 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17350356706941386909",
+            startPort = "Out",
+            endQuest = "1731914562984845887",
+            endPort = "Success"
+          },
+          {
             startQuest = "1731914562984845884",
             startPort = "QuestStart",
             endQuest = "174852207932323449425",
@@ -502,14 +508,8 @@ return {
           {
             startQuest = "17485230565053483881",
             startPort = "Out",
-            endQuest = "17574193005571287",
+            endQuest = "17350356706941386909",
             endPort = "In"
-          },
-          {
-            startQuest = "17574193005571287",
-            startPort = "Out",
-            endQuest = "1731914562984845887",
-            endPort = "Success"
           }
         },
         nodeData = {
@@ -734,8 +734,8 @@ return {
           ["17350356706941386909"] = {
             key = "17350356706941386909",
             type = "TalkNode",
-            name = "原版结尾动画（已弃用）",
-            pos = {x = 2465.779220779221, y = 669.3441558441558},
+            name = "对话节点",
+            pos = {x = 2377.1428571428573, y = 642.0714285714286},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -814,37 +814,6 @@ return {
               SoundStateType = 3,
               SoundPriority = 0,
               SoundType = 0
-            }
-          },
-          ["17574193005571287"] = {
-            key = "17574193005571287",
-            type = "TalkNode",
-            name = "对话节点",
-            pos = {x = 2174.5454545454545, y = 664.8181818181818},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 10037701,
-              FlowAssetPath = "",
-              TalkType = "BlackISS",
-              BlendInTime = 0,
-              BlendOutTime = 0,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = false,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
             }
           }
         },

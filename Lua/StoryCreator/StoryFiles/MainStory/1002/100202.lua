@@ -574,7 +574,7 @@ return {
             key = "17141991233943212100",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1134.6809256661993, y = 289.51998597475455},
+            pos = {x = 1127.1809256661993, y = 267.01998597475455},
             propsData = {ModeType = 0}
           },
           ["17141991233943212101"] = {
@@ -633,7 +633,7 @@ return {
             key = "1734348619914915787",
             type = "SendMessageNode",
             name = "消除NPC",
-            pos = {x = 822.9632034632032, y = 174.93434343434348},
+            pos = {x = 821.2469563236151, y = 169.23640293091097},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "Chapter01_IcelakeCity_LikeAFish2",
@@ -644,7 +644,7 @@ return {
             key = "17404716381613915900",
             type = "TalkNode",
             name = "恶魔的孩子",
-            pos = {x = 825.0999999999999, y = 300.5},
+            pos = {x = 823.5999999999999, y = 284},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10102401,
@@ -714,7 +714,7 @@ return {
             key = "1758186314860317289",
             type = "ChangeStaticCreatorNode",
             name = "消除老人NPC",
-            pos = {x = 820.8559217737437, y = 55.772544503551444},
+            pos = {x = 821.4428782954828, y = 59.877807661446184},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -1121,7 +1121,7 @@ return {
             key = "1703162571823213439",
             type = "TalkNode",
             name = "偷钱包",
-            pos = {x = 581.4006787477148, y = 127.80579720179921},
+            pos = {x = 582.9006787477148, y = 127.80579720179921},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10102500,
@@ -1362,7 +1362,7 @@ return {
             key = "17404728636004708077",
             type = "TalkNode",
             name = "了解情况",
-            pos = {x = 848.9815553181479, y = 125.94933060254185},
+            pos = {x = 851.9815553181479, y = 125.94933060254185},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10102601,

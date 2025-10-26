@@ -773,7 +773,7 @@ return ReadOnly("STLExportQuestChain", {
         SuccQuestDeliver = {
           DeliverType = 1,
           Id = 101401,
-          IsWhite = false,
+          IsWhite = true,
           StartIndex = 1
         },
         nextQuestIds = {}
@@ -1930,10 +1930,13 @@ return ReadOnly("STLExportQuestChain", {
         nextQuestIds = {Success = 12011106}
       },
       [12011106] = {
-        IsMultiQuest = false,
+        IsMultiQuest = true,
         SubRegionId = 101101,
-        nextQuestId = 12011110,
-        nextQuestIds = {Success = 12011110}
+        nextQuestId = 12011107,
+        nextQuestIds = {
+          ["完成副本"] = 12011107,
+          ["未完成副本"] = 12011110
+        }
       },
       [12011107] = {
         IsMultiQuest = false,
@@ -1992,10 +1995,13 @@ return ReadOnly("STLExportQuestChain", {
         nextQuestIds = {Success = 12011204}
       },
       [12011204] = {
-        IsMultiQuest = false,
+        IsMultiQuest = true,
         SubRegionId = 101101,
-        nextQuestId = 12011210,
-        nextQuestIds = {Success = 12011210}
+        nextQuestId = 12011205,
+        nextQuestIds = {
+          ["完成副本"] = 12011205,
+          ["未完成副本"] = 12011210
+        }
       },
       [12011205] = {
         IsMultiQuest = false,
@@ -2030,7 +2036,7 @@ return ReadOnly("STLExportQuestChain", {
     StartQuestId = 12011250
   },
   [120113] = {
-    EndQuestId = 12011307,
+    EndQuestId = 12011308,
     HavePreQuest = false,
     IsMultiEndQuest = false,
     QuestChainId = 120113,
@@ -2060,14 +2066,23 @@ return ReadOnly("STLExportQuestChain", {
         nextQuestIds = {Success = 12011306}
       },
       [12011306] = {
-        IsMultiQuest = false,
+        IsMultiQuest = true,
         SubRegionId = 101105,
-        nextQuestId = 12011307,
-        nextQuestIds = {Success = 12011307}
+        nextQuestId = 12011308,
+        nextQuestIds = {
+          ["完成副本"] = 12011308,
+          ["未完成副本"] = 12011307
+        }
       },
       [12011307] = {
         IsMultiQuest = false,
         TargetMode = {TargetCount = 1, TargetId = 70153},
+        nextQuestId = 12011308,
+        nextQuestIds = {Success = 12011308}
+      },
+      [12011308] = {
+        IsMultiQuest = false,
+        SubRegionId = 101105,
         nextQuestIds = {}
       },
       [12011350] = {
@@ -2158,10 +2173,13 @@ return ReadOnly("STLExportQuestChain", {
         nextQuestIds = {Success = 12011413}
       },
       [12011413] = {
-        IsMultiQuest = false,
+        IsMultiQuest = true,
         SubRegionId = 101105,
-        nextQuestId = 12011420,
-        nextQuestIds = {Success = 12011420}
+        nextQuestId = 12011414,
+        nextQuestIds = {
+          ["完成副本"] = 12011414,
+          ["未完成副本"] = 12011420
+        }
       },
       [12011414] = {
         IsMultiQuest = false,
@@ -3534,17 +3552,10 @@ return ReadOnly("STLExportQuestChain", {
   },
   [200232] = {
     EndQuestId = 20023205,
-    HavePreQuest = true,
+    HavePreQuest = false,
     IsMultiEndQuest = false,
     QuestChainId = 200232,
     Quests = {
-      [20023200] = {
-        IsMultiQuest = false,
-        IsPreQuest = true,
-        SubRegionId = 101101,
-        nextQuestId = 20023201,
-        nextQuestIds = {Success = 20023201}
-      },
       [20023201] = {
         IsMultiQuest = false,
         SubRegionId = 101101,
@@ -3575,7 +3586,7 @@ return ReadOnly("STLExportQuestChain", {
         nextQuestIds = {}
       }
     },
-    StartQuestId = 20023200
+    StartQuestId = 20023201
   },
   [200233] = {
     EndQuestIds = {
@@ -3661,14 +3672,37 @@ return ReadOnly("STLExportQuestChain", {
     StartQuestId = 20023501
   },
   [200236] = {
-    EndQuestId = 20023601,
+    EndQuestIds = {
+      [20023602] = true,
+      [20023604] = true
+    },
     HavePreQuest = false,
-    IsMultiEndQuest = false,
+    IsMultiEndQuest = true,
     QuestChainId = 200236,
     Quests = {
       [20023601] = {
         IsMultiQuest = false,
         TargetMode = {TargetCount = 1, TargetId = 20023601},
+        nextQuestId = 20023603,
+        nextQuestIds = {Success = 20023603}
+      },
+      [20023602] = {
+        IsMultiQuest = false,
+        TargetMode = {TargetCount = 1, TargetId = 20023603},
+        nextQuestIds = {}
+      },
+      [20023603] = {
+        IsMultiQuest = true,
+        SubRegionId = 0,
+        nextQuestId = 20023604,
+        nextQuestIds = {
+          ["已合成"] = 20023604,
+          ["未合成"] = 20023602
+        }
+      },
+      [20023604] = {
+        IsMultiQuest = false,
+        SubRegionId = 0,
         nextQuestIds = {}
       }
     },

@@ -100,12 +100,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "174262176146750",
-            startPort = "Out",
-            endQuest = "174262176146744",
-            endPort = "Success"
-          },
-          {
             startQuest = "174262176146743",
             startPort = "QuestStart",
             endQuest = "17528191908376417941",
@@ -128,6 +122,24 @@ return {
             startPort = "Out",
             endQuest = "174262176146746",
             endPort = "In"
+          },
+          {
+            startQuest = "17528191913576417961",
+            startPort = "Out",
+            endQuest = "17600797530901247325",
+            endPort = "In"
+          },
+          {
+            startQuest = "174262176146750",
+            startPort = "Out",
+            endQuest = "17600797749741247742",
+            endPort = "In"
+          },
+          {
+            startQuest = "17600797749741247742",
+            startPort = "Out",
+            endQuest = "174262176146744",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -142,7 +154,7 @@ return {
             key = "174262176146744",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1403.7488957902003, y = 731.9875086266392},
+            pos = {x = 1708.966287094548, y = 731.9875086266392},
             propsData = {ModeType = 0}
           },
           ["174262176146745"] = {
@@ -456,6 +468,33 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
+            }
+          },
+          ["17600797530901247325"] = {
+            key = "17600797530901247325",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1.7535612747285931, y = 893.4017058456417},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt03/0081_scene_alchemyacademy",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["17600797749741247742"] = {
+            key = "17600797749741247742",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1401.3187786660328, y = 730.3582275847721},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

@@ -46,16 +46,26 @@ return ReadOnly("MonsterGroup", {
       [2] = {
         UnitId = 6001601, UnitProb = 1
       },
-      [3] = {UnitId = 6011601, UnitProb = 1},
+      [3] = {
+        UnitId = 6011601, UnitProb = 1
+      },
       [4] = {UnitId = 6001601, UnitProb = 0.5},
-      [5] = {UnitId = 6011601, UnitProb = 0.5}
+      [5] = {
+        UnitId = 6011601, UnitProb = 0.5
+      }
     }
   },
   [6011] = {
     GroupId = 6011,
     MemberSpawnProb = {
-      [1] = {UnitId = 6004601, UnitProb = 0.3},
-      [2] = {UnitId = 6014001, UnitProb = 0.2}
+      [1] = {
+        UnitId = 6001601, UnitProb = 1
+      },
+      [2] = {
+        UnitId = 6011601, UnitProb = 1
+      },
+      [3] = {UnitId = 6004601, UnitProb = 0.3},
+      [4] = {UnitId = 6014001, UnitProb = 0.2}
     }
   },
   [6020] = {
@@ -67,7 +77,9 @@ return ReadOnly("MonsterGroup", {
       [2] = {
         UnitId = 6002601, UnitProb = 1
       },
-      [3] = {UnitId = 6012601, UnitProb = 1},
+      [3] = {
+        UnitId = 6012601, UnitProb = 1
+      },
       [4] = {UnitId = 6002601, UnitProb = 0.5},
       [5] = {UnitId = 6012601, UnitProb = 0.5}
     }
@@ -75,27 +87,45 @@ return ReadOnly("MonsterGroup", {
   [6021] = {
     GroupId = 6021,
     MemberSpawnProb = {
-      [1] = {UnitId = 6003601, UnitProb = 0.5},
-      [2] = {UnitId = 6013601, UnitProb = 0.5}
+      [1] = {
+        UnitId = 6002601, UnitProb = 1
+      },
+      [2] = {
+        UnitId = 6012601, UnitProb = 1
+      },
+      [3] = {UnitId = 6003601, UnitProb = 0.5},
+      [4] = {UnitId = 6013601, UnitProb = 0.5}
     }
   },
   [6030] = {
     GroupId = 6030,
     MemberSpawnProb = {
-      [1] = {UnitId = 6007601, UnitProb = 0.5}
+      [1] = {
+        UnitId = 6001601, UnitProb = 1
+      },
+      [2] = {
+        UnitId = 6002601, UnitProb = 1
+      },
+      [3] = {
+        UnitId = 6011601, UnitProb = 0.5
+      },
+      [4] = {UnitId = 6007601, UnitProb = 0.5}
     }
   },
   [7010] = {
     GroupId = 7010,
     MemberSpawnProb = {
-      [1] = {UnitId = 7002601, UnitProb = 1},
+      [1] = {
+        UnitId = 7002601, UnitProb = 1
+      },
       [2] = {
         UnitId = 7012601, UnitProb = 0.5
       },
       [3] = {UnitId = 7004601, UnitProb = 0.3},
-      [4] = {UnitId = 7002601, UnitProb = 0.8},
-      [5] = {UnitId = 7012601, UnitProb = 0.2},
-      [6] = {UnitId = 7014601, UnitProb = 0.2}
+      [4] = {
+        UnitId = 7002601, UnitProb = 1
+      },
+      [5] = {UnitId = 7014601, UnitProb = 0.2}
     }
   },
   [7011] = {
@@ -105,29 +135,29 @@ return ReadOnly("MonsterGroup", {
       [2] = {
         UnitId = 7015601, UnitProb = 1
       },
-      [3] = {UnitId = 7002601, UnitProb = 0.5},
+      [3] = {
+        UnitId = 7002601, UnitProb = 1
+      },
       [4] = {
         UnitId = 7012601, UnitProb = 0.5
       },
-      [5] = {UnitId = 7004601, UnitProb = 0.5},
-      [6] = {UnitId = 7014601, UnitProb = 0.5}
+      [5] = {UnitId = 7004601, UnitProb = 0.5}
     }
   },
   [7020] = {
     GroupId = 7020,
     MemberSpawnProb = {
-      [1] = {UnitId = 7001601, UnitProb = 1},
+      [1] = {
+        UnitId = 7001601, UnitProb = 1
+      },
       [2] = {UnitId = 7003601, UnitProb = 1},
-      [3] = {UnitId = 7001601, UnitProb = 0.8},
+      [3] = {
+        UnitId = 7001601, UnitProb = 1
+      },
       [4] = {
         UnitId = 7011601, UnitProb = 0.5
       },
-      [5] = {
-        UnitId = 7003601, UnitProb = 0.5
-      },
-      [6] = {
-        UnitId = 7013601, UnitProb = 0.5
-      }
+      [5] = {UnitId = 7013601, UnitProb = 0.5}
     }
   },
   [7021] = {
@@ -141,31 +171,35 @@ return ReadOnly("MonsterGroup", {
       [4] = {
         UnitId = 7011601, UnitProb = 0.5
       },
-      [5] = {
-        UnitId = 7003601, UnitProb = 0.5
-      },
-      [6] = {
-        UnitId = 7013601, UnitProb = 0.5
-      }
+      [5] = {UnitId = 7003601, UnitProb = 0.5}
     }
   },
   [7022] = {
     GroupId = 7022,
     MemberSpawnProb = {
-      [1] = {UnitId = 7010601, UnitProb = 0.5},
-      [2] = {UnitId = 7015601, UnitProb = 0.2}
+      [1] = {
+        UnitId = 7002601, UnitProb = 1
+      },
+      [2] = {
+        UnitId = 7001601, UnitProb = 1
+      },
+      [3] = {UnitId = 7010601, UnitProb = 0.5},
+      [4] = {UnitId = 7015601, UnitProb = 0.2}
     }
   },
   [8010] = {
     GroupId = 8010,
     MemberSpawnProb = {
-      [1] = {UnitId = 8002601, UnitProb = 1},
+      [1] = {
+        UnitId = 8002601, UnitProb = 1
+      },
       [2] = {
-        UnitId = 8002601, UnitProb = 0.5
+        UnitId = 8002601, UnitProb = 1
       },
       [3] = {
         UnitId = 8002601, UnitProb = 0.5
-      }
+      },
+      [4] = {UnitId = 8001601, UnitProb = 0.5}
     }
   },
   [8020] = {
@@ -177,18 +211,26 @@ return ReadOnly("MonsterGroup", {
       [2] = {
         UnitId = 8001601, UnitProb = 1
       },
-      [3] = {UnitId = 8003601, UnitProb = 0.5}
+      [3] = {
+        UnitId = 8002601, UnitProb = 0.5
+      },
+      [4] = {UnitId = 8003601, UnitProb = 0.5}
     }
   },
   [9010] = {
     GroupId = 9010,
     MemberSpawnProb = {
-      [1] = {UnitId = 9001601, UnitProb = 1},
+      [1] = {
+        UnitId = 9001601, UnitProb = 1
+      },
       [2] = {
-        UnitId = 9001601, UnitProb = 0.5
+        UnitId = 9001601, UnitProb = 1
       },
       [3] = {
         UnitId = 9001601, UnitProb = 0.5
+      },
+      [4] = {
+        UnitId = 9007601, UnitProb = 0.5
       }
     }
   },
@@ -201,7 +243,12 @@ return ReadOnly("MonsterGroup", {
       [2] = {
         UnitId = 9002601, UnitProb = 1
       },
-      [3] = {UnitId = 9007601, UnitProb = 0.5}
+      [3] = {
+        UnitId = 9001601, UnitProb = 0.5
+      },
+      [4] = {
+        UnitId = 9007601, UnitProb = 0.5
+      }
     }
   },
   [6001012] = {

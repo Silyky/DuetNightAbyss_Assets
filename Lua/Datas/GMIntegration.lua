@@ -331,6 +331,20 @@ return ReadOnly("GMIntegration", {
     GMIntegrationName = "Feina04Fight",
     GMTab = "任务"
   },
+  Feina04Find02 = {
+    GMCommands = {
+      [1] = "gm UnlockRegionTeleport 1",
+      [2] = "gm MockAllSystemCondition",
+      [3] = "gm SuccessAllSystemGuide",
+      [4] = "gm SuccQuestChain 120113",
+      [5] = "gm SuccQuest 12011405",
+      [6] = "gm skipregion 1 101103 6",
+      [7] = "gm aade"
+    },
+    GMDisplayName = "菲娜活动（四）冰湖",
+    GMIntegrationName = "Feina04Find02",
+    GMTab = "任务"
+  },
   Feina04Party = {
     GMCommands = {
       [1] = "gm UnlockRegionTeleport 1",

@@ -1,11 +1,10 @@
 return ReadOnly("BattlePassMain", {
   [100001] = {
-    AccessoryId = 70001,
     BPRewardTemplateID = 100001,
-    BPRewardTyppe = "Accessory",
-    BattlePassEndTime = 1764014400,
+    BPRewardTyppe = "Skin",
+    BattlePassEndTime = 1764017999,
     BattlePassId = 100001,
-    BattlePassStartTime = 1735704000,
+    BattlePassStartTime = 1761523200,
     BattlePassTitle = "UI_BPTitle_100001",
     LevelExp = 500,
     MilestoneInterval = 5,
@@ -18,12 +17,13 @@ return ReadOnly("BattlePassMain", {
       4251,
       4261
     },
+    PreviewSkinSeries = "BP_01",
     Rank2GoodsId = "com.hero.dna.Pay_BattlePassRank2",
     Rank2RewardView = 100001,
     Rank2to3GoodsId = "com.hero.dna.Pay_BattlePassRank2to3",
     Rank3GoodsId = "com.hero.dna.Pay_BattlePassRank3",
-    Rank3Reward = 100001,
-    Rank3RewardView = 100002,
+    Rank3Reward = 100002,
+    Rank3RewardView = 100003,
     RewardMailId = 100401,
     SkyBoxColor = {
       BaseColor2 = {
@@ -40,14 +40,14 @@ return ReadOnly("BattlePassMain", {
         1
       }
     },
-    WeeklyMaxExp = 10000
+    WeeklyMaxExp = 8000
   },
   [100002] = {
     BPRewardTemplateID = 100001,
     BPRewardTyppe = "Skin",
     BattlePassEndTime = 1766394000,
     BattlePassId = 100002,
-    BattlePassStartTime = 1764036000,
+    BattlePassStartTime = 1764018000,
     BattlePassTitle = "UI_BPTitle_100002",
     LevelExp = 500,
     MilestoneInterval = 5,
@@ -83,6 +83,6 @@ return ReadOnly("BattlePassMain", {
         1
       }
     },
-    WeeklyMaxExp = 10000
+    WeeklyMaxExp = 8000
   }
 })

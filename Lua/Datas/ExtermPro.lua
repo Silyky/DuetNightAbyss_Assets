@@ -338,7 +338,7 @@ return ReadOnly("ExtermPro", {
   [91101] = {
     DungeonId = 91101,
     EliteRange = {
-      25, 30
+      26, 30
     },
     EliteSpawnOnlyRelation = false,
     EliteSpawnRule = 91101,
@@ -356,7 +356,7 @@ return ReadOnly("ExtermPro", {
   [91102] = {
     DungeonId = 91102,
     EliteRange = {
-      25, 30
+      26, 30
     },
     EliteSpawnOnlyRelation = false,
     EliteSpawnRule = 91102,
@@ -374,7 +374,7 @@ return ReadOnly("ExtermPro", {
   [91103] = {
     DungeonId = 91103,
     EliteRange = {
-      25, 30
+      26, 30
     },
     EliteSpawnOnlyRelation = false,
     EliteSpawnRule = 91103,
@@ -392,7 +392,7 @@ return ReadOnly("ExtermPro", {
   [91104] = {
     DungeonId = 91104,
     EliteRange = {
-      25, 30
+      26, 30
     },
     EliteSpawnOnlyRelation = false,
     EliteSpawnRule = 91104,
@@ -410,7 +410,7 @@ return ReadOnly("ExtermPro", {
   [91105] = {
     DungeonId = 91105,
     EliteRange = {
-      25, 30
+      26, 30
     },
     EliteSpawnOnlyRelation = false,
     EliteSpawnRule = 91105,
@@ -428,7 +428,7 @@ return ReadOnly("ExtermPro", {
   [91106] = {
     DungeonId = 91106,
     EliteRange = {
-      25, 30
+      26, 30
     },
     EliteSpawnOnlyRelation = false,
     EliteSpawnRule = 91106,

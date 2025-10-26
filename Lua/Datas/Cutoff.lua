@@ -72,10 +72,26 @@ return ReadOnly("Cutoff", {
     CutoffStartTime = 1672545600,
     ItemId = 120209
   },
+  [11] = {
+    CutoffEndTime = 1764018000,
+    CutoffId = 11,
+    CutoffPrice = 780,
+    CutoffShow = 60,
+    CutoffStartTime = 1672545600,
+    ItemId = 120105
+  },
+  [12] = {
+    CutoffEndTime = 1764018000,
+    CutoffId = 12,
+    CutoffPrice = 980,
+    CutoffShow = 76,
+    CutoffStartTime = 1672545600,
+    ItemId = 120106
+  },
   [103] = {
     CutoffId = 103,
-    CutoffPrice = 2500,
-    CutoffShow = 50,
+    CutoffPrice = 1000,
+    CutoffShow = 40,
     CutoffStartTime = 1672545600,
     ItemId = 10000106
   },
@@ -113,5 +129,19 @@ return ReadOnly("Cutoff", {
     CutoffShow = 20,
     CutoffStartTime = 1672545600,
     ItemId = 10000501
+  },
+  [118] = {
+    CutoffId = 118,
+    CutoffPrice = 1000,
+    CutoffShow = 20,
+    CutoffStartTime = 1672545600,
+    ItemId = 10000502
+  },
+  [119] = {
+    CutoffId = 119,
+    CutoffPrice = 1000,
+    CutoffShow = 20,
+    CutoffStartTime = 1672545600,
+    ItemId = 10000503
   }
 })

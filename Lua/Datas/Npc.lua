@@ -45,8 +45,10 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 1101,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Heitao.T_Head_Heitao'",
     MailSender = "贝雷妮卡(看板娘)",
     ModelId = 81101,
+    MouthProfile = "LipSync_10003",
     NpcType = "Show",
     RelatedTalks = {900301},
     ShowAnimationId = {
@@ -63,6 +65,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 1103,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Tuosi.T_Head_Tuosi'",
     MailSender = "幻景(看板娘)",
     ModelId = 81103,
     MouthProfile = "LipSync_10027",
@@ -82,9 +85,10 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 1501,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Baonu.T_Head_Baonu'",
     MailSender = "利兹贝尔（看板娘）",
     ModelId = 81501,
-    MouthProfile = "LipSync_10008",
+    MouthProfile = "LipSync_10030",
     NpcType = "Show",
     RelatedTalks = {902901},
     ShowAnimationId = {
@@ -101,6 +105,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 1502,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Nifu.T_Head_Nifu'",
     MailSender = "妮弗尔夫人(看板娘)",
     ModelId = 81502,
     MouthProfile = "LipSync_10030",
@@ -120,9 +125,9 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 1503,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Kezhou.T_Head_Kezhou'",
     MailSender = "刻舟(看板娘)",
     ModelId = 81503,
-    MouthProfile = "LipSync_10026",
     NpcType = "Show",
     RelatedTalks = {902701},
     ShowAnimationId = {
@@ -138,8 +143,10 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 1801,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Feina.T_Head_Feina'",
     MailSender = "菲娜(看板娘)",
     ModelId = 81801,
+    MouthProfile = "LipSync_10011",
     NpcType = "Show",
     RelatedTalks = {901501},
     ShowAnimationId = {
@@ -156,8 +163,10 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 2101,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Shuimu.T_Head_Shuimu'",
     MailSender = "丽蓓卡(看板娘)",
     ModelId = 82101,
+    MouthProfile = "LipSync_10011",
     NpcType = "Show",
     RelatedTalks = {900401},
     ShowAnimationId = {
@@ -174,8 +183,10 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 2301,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Zhangyu.T_Head_Zhangyu'",
     MailSender = "塔比瑟(看板娘)",
     ModelId = 82301,
+    MouthProfile = "LipSync_10012",
     NpcType = "Show",
     RelatedTalks = {900501},
     ShowAnimationId = {
@@ -192,6 +203,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 2401,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Baiheng.T_Head_Baiheng'",
     MailSender = "白蘅(看板娘)",
     ModelId = 82401,
     NpcType = "Show",
@@ -210,6 +222,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 3101,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Linen.T_Head_Linen'",
     MailSender = "琳恩(看板娘)",
     ModelId = 83101,
     MouthProfile = "LipSync_10013",
@@ -229,6 +242,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 3102,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Xier.T_Head_Xier'",
     MailSender = "希尔妲(看板娘)",
     ModelId = 83102,
     MouthProfile = "LipSync_10014",
@@ -248,6 +262,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 3103,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Yeer.T_Head_Yeer'",
     MailSender = "耶尔(看板娘)",
     ModelId = 83103,
     MouthProfile = "LipSync_10028",
@@ -267,6 +282,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 3201,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Haier.T_Head_Haier'",
     MailSender = "海尔法(看板娘)",
     ModelId = 83201,
     MouthProfile = "LipSync_10019",
@@ -285,6 +301,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 3301,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Maer.T_Head_Maer'",
     MailSender = "玛尔洁(看板娘)",
     ModelId = 83301,
     MouthProfile = "LipSync_10029",
@@ -304,6 +321,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 4101,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Lise.T_Head_Lise'",
     MailSender = "黎瑟(看板娘)",
     ModelId = 84101,
     MouthProfile = "LipSync_10022",
@@ -323,6 +341,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 4102,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Zhiliu.T_Head_Zhiliu'",
     MailSender = "止流(看板娘)",
     ModelId = 84102,
     MouthProfile = "LipSync_10024",
@@ -342,6 +361,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 4201,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Yuming.T_Head_Yuming'",
     MailSender = "煜明(看板娘)",
     ModelId = 84201,
     MouthProfile = "LipSync_10025",
@@ -361,6 +381,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 4202,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Landi.T_Head_Landi'",
     MailSender = "兰迪(看板娘)",
     ModelId = 84202,
     MouthProfile = "LipSync_10005",
@@ -381,6 +402,7 @@ return ReadOnly("Npc", {
     CharId = 4301,
     CollisionLevel = 999,
     GuideHeadId = "Xibi_Idle",
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Xibi.T_Head_Xibi'",
     MailSender = "西比尔(看板娘)",
     ModelId = 84301,
     MouthProfile = "LipSync_10004",
@@ -400,6 +422,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 5101,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Songlu.T_Head_Songlu'",
     MailSender = "松露(看板娘)",
     ModelId = 85101,
     MouthProfile = "LipSync_10017",
@@ -418,8 +441,10 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 5102,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Aote.T_Head_Aote'",
     MailSender = "奥特赛德(看板娘)",
     ModelId = 85102,
+    MouthProfile = "LipSync_10009",
     NpcType = "Show",
     RelatedTalks = {901601},
     ShowAnimationId = {
@@ -436,6 +461,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 5301,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Saiqi.T_Head_Saiqi'",
     MailSender = "赛琪(看板娘)",
     ModelId = 85301,
     MouthProfile = "LipSync_10008",
@@ -455,6 +481,7 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CharId = 5401,
     CollisionLevel = 999,
+    MailHead = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Dafu.T_Head_Dafu'",
     MailSender = "达芙涅(看板娘)",
     ModelId = 85401,
     MouthProfile = "LipSync_10021",
@@ -824,7 +851,7 @@ return ReadOnly("Npc", {
     SwitchPlayer = "Player",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/ZhujueNpc/Nvzhu/BP_Nvzhu",
     UnitId = 100001,
-    UnitName = "UI_Npc_Name_Nvzhu"
+    UnitName = "UI_Npc_Name_Nickname"
   },
   [100002] = {
     BT = "/Game/AssetDesign/AI/Npc/NvZhu/BT_Npc_NvZhu",
@@ -840,7 +867,7 @@ return ReadOnly("Npc", {
     SwitchPlayer = "Player",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/ZhujueNpc/Nanzhu/BP_NPC_Nanzhu",
     UnitId = 100002,
-    UnitName = "UI_Npc_Name_Nanzhu"
+    UnitName = "UI_Npc_Name_Nickname"
   },
   [100003] = {
     Camp = "NPC",
@@ -1076,6 +1103,16 @@ return ReadOnly("Npc", {
     UnitId = 100314,
     UnitName = "Cp2CharacterName14"
   },
+  [100315] = {
+    Camp = "NPC",
+    CollisionLevel = 999,
+    DefaultExpression = "CM_Idle",
+    ModelId = 30004,
+    NpcType = "Normal",
+    UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/MainStory02/BP_Theaterkeeper",
+    UnitId = 100315,
+    UnitName = "Cp2CharacterName19"
+  },
   [100318] = {
     Camp = "NPC",
     CollisionLevel = 999,
@@ -1177,7 +1214,7 @@ return ReadOnly("Npc", {
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/CharacterNpc/Tuosi/BP_NPC_Tuosi02",
     UnitId = 100327,
-    UnitName = "Cp2CharacterName07"
+    UnitName = "Cp2CharacterName01"
   },
   [100328] = {
     Camp = "NPC",
@@ -1990,13 +2027,13 @@ return ReadOnly("Npc", {
     Camp = "NPC",
     CollisionLevel = 999,
     DefaultAction = "Onground01_Loop",
-    ModelId = 30013,
+    ModelId = 30012,
     NpcType = "Normal",
     RelatedBubble = {110130},
     ShowAnimationId = {
       "Emo_Onground01_Loop"
     },
-    UnitBPPath = "/Game/AssetDesign/Char/Npc/TalkMonster/BP_NPC_JT_Mid_F",
+    UnitBPPath = "/Game/AssetDesign/Char/Npc/TalkMonster/BP_NPC_JT_Mid_M",
     UnitId = 110028,
     UnitName = "UI_Npc_Hurtsoldier"
   },
@@ -2359,6 +2396,7 @@ return ReadOnly("Npc", {
     ModelId = 10048,
     MouthProfile = "LipSync_10009",
     NpcType = "Normal",
+    RelatedTalks = {100144},
     UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/MainStory01/BP_Enlike",
     UnitId = 200005,
     UnitName = "UI_Npc_Name_Enlike"
@@ -3122,8 +3160,7 @@ return ReadOnly("Npc", {
     IsEmptyNpc = 1,
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/BP_EmptyNpcActor",
-    UnitId = 200081,
-    UnitName = "UI_Npc_Name_Won1"
+    UnitId = 200081
   },
   [200082] = {
     Camp = "NPC",
@@ -3131,8 +3168,7 @@ return ReadOnly("Npc", {
     IsEmptyNpc = 1,
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/BP_EmptyNpcActor",
-    UnitId = 200082,
-    UnitName = "UI_Npc_Name_Won2"
+    UnitId = 200082
   },
   [200083] = {
     Camp = "NPC",
@@ -3140,8 +3176,7 @@ return ReadOnly("Npc", {
     IsEmptyNpc = 1,
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/BP_EmptyNpcActor",
-    UnitId = 200083,
-    UnitName = "UI_Npc_Name_Won3"
+    UnitId = 200083
   },
   [200084] = {
     Camp = "NPC",
@@ -3149,8 +3184,7 @@ return ReadOnly("Npc", {
     IsEmptyNpc = 1,
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/BP_EmptyNpcActor",
-    UnitId = 200084,
-    UnitName = "UI_Npc_Name_Won4"
+    UnitId = 200084
   },
   [200085] = {
     Camp = "NPC",
@@ -3158,8 +3192,7 @@ return ReadOnly("Npc", {
     IsEmptyNpc = 1,
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/BP_EmptyNpcActor",
-    UnitId = 200085,
-    UnitName = "UI_Npc_Name_Won5"
+    UnitId = 200085
   },
   [200086] = {
     Camp = "NPC",
@@ -7178,6 +7211,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30009,
     NpcType = "Normal",
+    UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Emma_Nearby_YNM01",
     UnitId = 700241
   },
   [700242] = {
@@ -7186,6 +7220,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30009,
     NpcType = "Normal",
+    UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Emma_Nearby_YNF02",
     UnitId = 700242
   },
   [700243] = {
@@ -7194,6 +7229,7 @@ return ReadOnly("Npc", {
     DefaultExpression = "CM_Idle",
     ModelId = 30009,
     NpcType = "Normal",
+    UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Emma_Nearby_YNF03",
     UnitId = 700243
   },
   [700245] = {
@@ -10265,6 +10301,21 @@ return ReadOnly("Npc", {
     NpcType = "Normal",
     UnitBPPath = "/Game/AssetDesign/Char/Npc/CharacterNpc/Saiqi/BP_NPC_Saiqi",
     UnitId = 2000061,
+    UnitName = "UI_Npc_Name_Saiqi"
+  },
+  [2000062] = {
+    BT = "/Game/AssetDesign/AI/Npc/Saiqi/BT_Npc_Saiqi.BT_Npc_Saiqi",
+    Camp = "NPC",
+    CollisionLevel = 999,
+    DefaultAction = "Explain02_Loop",
+    DefaultExpression = "Happy02",
+    GuideCanMove = 1,
+    GuideHeadId = "Saiqi_Idle",
+    ModelId = 10007,
+    MouthProfile = "LipSync_10008",
+    NpcType = "Normal",
+    UnitBPPath = "/Game/AssetDesign/Char/Npc/CharacterNpc/Saiqi/BP_NPC_Saiqi",
+    UnitId = 2000062,
     UnitName = "UI_Npc_Name_Saiqi"
   },
   [2000111] = {

@@ -2617,7 +2617,7 @@ return {
       key = "173347889587513932623",
       type = "StoryNode",
       name = "选择2",
-      pos = {x = 1954.374146921497, y = 312.173780076145},
+      pos = {x = 1954.374146921497, y = 310.673780076145},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -2697,12 +2697,6 @@ return {
             startQuest = "173347889587513932637",
             startPort = "Out",
             endQuest = "17343480107611379298",
-            endPort = "In"
-          },
-          {
-            startQuest = "17343480107611379298",
-            startPort = "Out",
-            endQuest = "173347889587513932638",
             endPort = "In"
           },
           {
@@ -3172,6 +3166,12 @@ return {
             startPort = "false",
             endQuest = "17413331776985016718",
             endPort = "In"
+          },
+          {
+            startQuest = "173347889587513932637",
+            startPort = "Out",
+            endQuest = "173347889587513932638",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -3412,7 +3412,7 @@ return {
             key = "17343480107611379298",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 5086.193794998105, y = 341.35988608529203},
+            pos = {x = 4980.122366426676, y = 484.9313146567206},
             propsData = {
               NewDescription = "Description_110113_2_10",
               NewDetail = "",
@@ -4049,7 +4049,7 @@ return {
               WeaponTags = {"Melee"},
               bForbid = true,
               ForbidTag = "ForbidDefault",
-              bHidewhenForbid = false
+              bHidewhenForbid = true
             }
           },
           ["17470162018503760"] = {

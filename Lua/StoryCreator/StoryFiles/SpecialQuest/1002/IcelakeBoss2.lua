@@ -272,6 +272,12 @@ return {
             startPort = "Out",
             endQuest = "17490908077685742",
             endPort = "In"
+          },
+          {
+            startQuest = "17442139067709240926",
+            startPort = "QuestStart",
+            endQuest = "1759220892458622039",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -808,7 +814,7 @@ return {
             key = "1757404422340793",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "异步设置玩家位置旋转",
-            pos = {x = 509.1047619047618, y = 563.5142857142857},
+            pos = {x = 904.3221532091097, y = 757.8621118012422},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "",
@@ -817,6 +823,16 @@ return {
               bResetCamera = true,
               bForceAsyncLoading = true,
               IsWhite = false
+            }
+          },
+          ["1759220892458622039"] = {
+            key = "1759220892458622039",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 534.5600215502, y = 545.0068649885582},
+            propsData = {
+              VarName = "BossRe10020708",
+              VarValue = 1
             }
           }
         },

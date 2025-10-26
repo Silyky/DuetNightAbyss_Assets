@@ -18,7 +18,7 @@ return ReadOnly("GamepadSet", {
       [4] = "WB_Key_XYBA"
     },
     KeyText = "UI_Keyboard_Map_Attack",
-    Order = 5,
+    Order = 4,
     TextHighLight = true
   },
   Avoid = {
@@ -31,7 +31,7 @@ return ReadOnly("GamepadSet", {
       [4] = "WB_Key_RBT"
     },
     KeyText = "UI_Keyboard_Map_Avoid",
-    Order = 8,
+    Order = 7,
     TextHighLight = true
   },
   BulletJump = {
@@ -116,7 +116,7 @@ return ReadOnly("GamepadSet", {
       [4] = "WB_Key_XYBA"
     },
     KeyText = "UI_CTL_UseSkill",
-    Order = 3,
+    Order = 8,
     TextHighLight = true
   },
   Interactive = {
@@ -129,7 +129,7 @@ return ReadOnly("GamepadSet", {
       [4] = "WB_Key_XYBA"
     },
     KeyText = "UI_Keyboard_Map_Interactive",
-    Order = 6
+    Order = 5
   },
   Jump = {
     ActionName = "Jump",
@@ -141,7 +141,7 @@ return ReadOnly("GamepadSet", {
       [4] = "WB_Key_XYBA"
     },
     KeyText = "UI_Keyboard_Map_Jump",
-    Order = 7,
+    Order = 6,
     TextHighLight = true
   },
   LockMonster = {
@@ -316,7 +316,7 @@ return ReadOnly("GamepadSet", {
       [4] = "WB_Key_LBT"
     },
     KeyText = "UI_Keyboard_Map_Slide",
-    Order = 4,
+    Order = 3,
     TextHighLight = true
   }
 })

@@ -284,6 +284,12 @@ return {
             startPort = "Option_2",
             endQuest = "17566970868411269702",
             endPort = "In"
+          },
+          {
+            startQuest = "17285287770575750",
+            startPort = "Out",
+            endQuest = "17283558999162442",
+            endPort = "Stop"
           }
         },
         nodeData = {

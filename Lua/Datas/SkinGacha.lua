@@ -11,7 +11,7 @@ return ReadOnly("SkinGacha", {
     GachaDes = "SkinGacha_Des_Normal",
     GachaDisplayPath = "FileMediaSource'/Game/Asset/UIVideo/Gacha/Gacha_Pool_SongluShuimu01.Gacha_Pool_SongluShuimu01'",
     GachaDisplayType = 1,
-    GachaEndTime = 1893470400,
+    GachaEndTime = 2209003200,
     GachaHistoryType = 2,
     GachaId = 9001,
     GachaName = "SkinGacha_Name_Normal_1",
@@ -29,8 +29,9 @@ return ReadOnly("SkinGacha", {
     TabId = 1
   },
   [9002] = {
+    BgBGM = "event:/bgm/1_0/0088_saiqi_skin",
     BgMusic = "event:/ui/btc/gacha_pool_saiqi_skin01",
-    BubbleShowGoods = 140205,
+    BubbleShowGoods = 140207,
     ConditionId = 4041,
     GachaCoreDes = "UI_SkinGacha_Core_GoldSkin",
     GachaCoreDesColor = 5,
@@ -39,7 +40,7 @@ return ReadOnly("SkinGacha", {
     GachaDes = "SkinGacha_Des_Special",
     GachaDisplayPath = "FileMediaSource'/Game/Asset/UIVideo/Gacha/Gacha_Pool_Saiqi01.Gacha_Pool_Saiqi01'",
     GachaDisplayType = 1,
-    GachaEndTime = 1893470400,
+    GachaEndTime = 1766394000,
     GachaHistoryType = 2,
     GachaId = 9002,
     GachaName = "SkinGacha_Name_Special_1",

@@ -825,7 +825,7 @@ return {
               ActiveEnable = true,
               EnableBlackScreenSync = true,
               EnableFadeIn = false,
-              EnableFadeOut = false,
+              EnableFadeOut = true,
               NewTargetPointName = "",
               StaticCreatorIdList = {1180006}
             }
@@ -1053,11 +1053,11 @@ return {
             key = "1728474384436407145",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "异步设置玩家位置旋转",
-            pos = {x = 863.3835744885275, y = 497.44107706618365},
+            pos = {x = 862.1335744885275, y = 497.44107706618365},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "QuestPoint_10020102",
-              FadeIn = true,
+              FadeIn = false,
               FadeOut = false,
               bResetCamera = true,
               bForceAsyncLoading = true,
@@ -1797,12 +1797,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17376146656552001172",
-            startPort = "Out",
-            endQuest = "1702467755460105566",
-            endPort = "In"
-          },
-          {
             startQuest = "17539487699443086",
             startPort = "Out",
             endQuest = "17539487699443084",
@@ -1815,12 +1809,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17539487699443084",
-            startPort = "Out",
-            endQuest = "17371907445847875043",
-            endPort = "In"
-          },
-          {
             startQuest = "17539487699443086",
             startPort = "Out",
             endQuest = "17539487864263552",
@@ -1830,6 +1818,18 @@ return {
             startQuest = "17539487864263552",
             startPort = "Out",
             endQuest = "17539487699443085",
+            endPort = "In"
+          },
+          {
+            startQuest = "17539487699443084",
+            startPort = "Out",
+            endQuest = "1702467755460105566",
+            endPort = "In"
+          },
+          {
+            startQuest = "1702467755460105566",
+            startPort = "Out",
+            endQuest = "17371907445847875043",
             endPort = "In"
           }
         },
@@ -1845,7 +1845,7 @@ return {
             key = "quest_1684738049605174",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1821.7229874354425, y = 169.3631511927554},
+            pos = {x = 2159.2229874354425, y = 204.3631511927554},
             propsData = {ModeType = 0}
           },
           quest_1684738049605176 = {
@@ -1859,7 +1859,7 @@ return {
             key = "1702467755460105566",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "设置玩家位置",
-            pos = {x = 44.80242194661889, y = 41.731644465637935},
+            pos = {x = 1571.0524219466188, y = 185.48164446563797},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "QuestPoint_Sana",
@@ -2053,7 +2053,7 @@ return {
             key = "17371907445847875043",
             type = "PlayOrStopBGMNode",
             name = "站桩bgm停止播放",
-            pos = {x = 1571.4307428912819, y = 169.24546666128415},
+            pos = {x = 1845.1807428912819, y = 194.24546666128415},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -2145,7 +2145,7 @@ return {
             key = "17539487699443085",
             type = "SendMessageNode",
             name = "开门",
-            pos = {x = 1311.0432611629406, y = -40.9179864059156},
+            pos = {x = 1316.0432611629406, y = -100.9179864059156},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "Chapter01_IcelakeCity_SanDoorOpen",
@@ -2227,7 +2227,7 @@ return {
             key = "17539487864263552",
             type = "WaitOfTimeNode",
             name = "2",
-            pos = {x = 1311.614777327935, y = 71.20996963562749},
+            pos = {x = 1317.864777327935, y = 39.95996963562749},
             propsData = {WaitTime = 1}
           }
         },
@@ -2497,6 +2497,12 @@ return {
             startPort = "Out",
             endQuest = "170246715368284670",
             endPort = "In"
+          },
+          {
+            startQuest = "17398646861203850674",
+            startPort = "Out",
+            endQuest = "17585968752514764",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -2547,7 +2553,7 @@ return {
             key = "170246715368284670",
             type = "GoToNode",
             name = "前往疗养院门口",
-            pos = {x = 291.6160860873063, y = 463.35309869396417},
+            pos = {x = 292.55948228203414, y = 463.35309869396417},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1190006,
@@ -2600,7 +2606,7 @@ return {
             key = "17071867608539145",
             type = "GoToRegionNode",
             name = "位于冰湖城",
-            pos = {x = 116.23628228542026, y = 80.94189155747937},
+            pos = {x = 117.17967848014806, y = 80.94189155747937},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
@@ -2645,6 +2651,13 @@ return {
               GuideType = "M",
               GuidePointName = "Mechanism_QuestTrigger_1191097"
             }
+          },
+          ["17585968752514764"] = {
+            key = "17585968752514764",
+            type = "ShowGuideMainNode",
+            name = "显示图文引导",
+            pos = {x = 42.46921383087462, y = 689.427872900778},
+            propsData = {GuideId = 88}
           }
         },
         commentData = {}
@@ -3287,18 +3300,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "170417835022081460",
-            startPort = "Out",
-            endQuest = "17392623705608876344",
-            endPort = "In"
-          },
-          {
-            startQuest = "170417835022081460",
-            startPort = "Out",
-            endQuest = "173927153424115963634",
-            endPort = "In"
-          },
-          {
             startQuest = "170417835022081465",
             startPort = "Out",
             endQuest = "1744793016659816311",
@@ -3356,6 +3357,18 @@ return {
             startQuest = "17561930523131911456",
             startPort = "Out",
             endQuest = "170417835022081457",
+            endPort = "In"
+          },
+          {
+            startQuest = "17561930523131911456",
+            startPort = "Out",
+            endQuest = "17392623705608876344",
+            endPort = "In"
+          },
+          {
+            startQuest = "17561930523131911456",
+            startPort = "Out",
+            endQuest = "173927153424115963634",
             endPort = "In"
           }
         },
@@ -3490,7 +3503,7 @@ return {
             key = "170417835022081469",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "设置玩家位置旋转",
-            pos = {x = 138.7241953708433, y = -433.00350446548373},
+            pos = {x = 144.93109192256742, y = -618.1759182585872},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "QuestPoint_10020106",
@@ -3695,7 +3708,7 @@ return {
             key = "17392623705608876344",
             type = "ChangeStaticCreatorNode",
             name = "生成凯文",
-            pos = {x = 525.5454545454546, y = 165.94805194805207},
+            pos = {x = 189.33855799373043, y = -388.5347066726377},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -3709,7 +3722,7 @@ return {
             key = "173927153424115963634",
             type = "ChangeStaticCreatorNode",
             name = "生成终点的卡米拉",
-            pos = {x = 809.375, y = 207.0000000000001},
+            pos = {x = 191.78879310344826, y = -241.96551724137925},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,

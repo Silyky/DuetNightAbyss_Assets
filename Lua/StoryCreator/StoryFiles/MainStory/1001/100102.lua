@@ -2685,12 +2685,6 @@ return {
       questNodeData = {
         lineData = {
           {
-            startQuest = "16986460857889870",
-            startPort = "Out",
-            endQuest = "16986460689707915",
-            endPort = "In"
-          },
-          {
             startQuest = "170289614076316599",
             startPort = "Out",
             endQuest = "170289617795517541",
@@ -2754,12 +2748,6 @@ return {
             startQuest = "173435068786011295",
             startPort = "Out",
             endQuest = "17346896033428109",
-            endPort = "In"
-          },
-          {
-            startQuest = "173435068786011295",
-            startPort = "Out",
-            endQuest = "1704175979086184686",
             endPort = "In"
           },
           {
@@ -2865,18 +2853,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17235385891476619536",
-            startPort = "Out",
-            endQuest = "175472818974711358",
-            endPort = "In"
-          },
-          {
-            startQuest = "175472823494711811",
-            startPort = "Out",
-            endQuest = "quest_16908882752531321",
-            endPort = "In"
-          },
-          {
             startQuest = "17443614161745543",
             startPort = "Out",
             endQuest = "17429932522737328551",
@@ -2898,6 +2874,30 @@ return {
             startQuest = "1704175979086184683",
             startPort = "QuestStart",
             endQuest = "17581636270592253",
+            endPort = "In"
+          },
+          {
+            startQuest = "175472823494711811",
+            startPort = "Out",
+            endQuest = "17586252408736647",
+            endPort = "In"
+          },
+          {
+            startQuest = "17235385891476619536",
+            startPort = "Out",
+            endQuest = "quest_16908882752531321",
+            endPort = "In"
+          },
+          {
+            startQuest = "173435068786011295",
+            startPort = "Out",
+            endQuest = "175472818974711358",
+            endPort = "In"
+          },
+          {
+            startQuest = "175472823494711811",
+            startPort = "Out",
+            endQuest = "1704175979086184686",
             endPort = "In"
           }
         },
@@ -2923,14 +2923,14 @@ return {
             key = "quest_16908882752531321",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 792.9832489533937, y = -205.9003240588218},
+            pos = {x = 671.5546775248223, y = -190.1860383445361},
             propsData = {WaitTime = 1}
           },
           quest_1690958875951347 = {
             key = "quest_1690958875951347",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 149.2784209281731, y = 115.27404610969302},
+            pos = {x = 80.27842092817309, y = 682.274046109693},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1110010303,
@@ -2942,7 +2942,7 @@ return {
             key = "quest_1690959449974356",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 148.50400083105524, y = 294.5484592219409},
+            pos = {x = 79.50400083105524, y = 861.5484592219409},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1110010305,
@@ -2954,7 +2954,7 @@ return {
             key = "quest_1690959608480361",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁 机关",
-            pos = {x = 704.8484512231519, y = 138.79706900453073},
+            pos = {x = 635.8484512231519, y = 705.7970690045307},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -2968,7 +2968,7 @@ return {
             key = "quest_1690960764375363",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁 机关",
-            pos = {x = 713.4752831153289, y = 285.04684065232027},
+            pos = {x = 644.4752831153289, y = 852.0468406523203},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -2978,34 +2978,11 @@ return {
               StaticCreatorIdList = {1110010303}
             }
           },
-          ["16986460689707915"] = {
-            key = "16986460689707915",
-            type = "PlayOrStopBGMNode",
-            name = "BGM - huishou - end",
-            pos = {x = 1415.4762537233905, y = 311.31458930085773},
-            propsData = {
-              SoundStateType = 3,
-              SoundPriority = 0,
-              SoundType = 0
-            }
-          },
-          ["16986460857889870"] = {
-            key = "16986460857889870",
-            type = "GoToNode",
-            name = "停止音乐",
-            pos = {x = 1475.428822893351, y = 301.06953001232023},
-            propsData = {
-              GuideUIEnable = false,
-              StaticCreatorId = 1110010306,
-              GuideType = "M",
-              GuidePointName = "SoundTrigger0306"
-            }
-          },
           ["170289614076316599"] = {
             key = "170289614076316599",
             type = "ShowGuideToastNode",
             name = "远程射击",
-            pos = {x = 1356.8117719315699, y = -751.3374178580127},
+            pos = {x = 458.68677193156964, y = -740.0874178580127},
             propsData = {
               ShowEnable = true,
               MessageId = 200007,
@@ -3018,7 +2995,7 @@ return {
             key = "170289617795517541",
             type = "ShowGuideToastNode",
             name = "上子弹",
-            pos = {x = 1598.464978939615, y = -712.4000932176519},
+            pos = {x = 700.3399789396149, y = -701.1500932176519},
             propsData = {
               ShowEnable = true,
               MessageId = 200020,
@@ -3038,7 +3015,7 @@ return {
             key = "1704175979086184684",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1051.8061222698025, y = 222.58421339101324},
+            pos = {x = 982.8061222698025, y = 789.5842133910132},
             propsData = {ModeType = 0}
           },
           ["1704175979086184685"] = {
@@ -3052,7 +3029,7 @@ return {
             key = "1704175979086184686",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 1556.1121976782106, y = -318.32998833315},
+            pos = {x = 2362.9913456948802, y = -288.5916027798239},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1110010304,
@@ -3064,7 +3041,7 @@ return {
             key = "17170600238981247480",
             type = "ShowGuideNode",
             name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 1338.3478234530644, y = -597.378090572111},
+            pos = {x = 440.22282345306417, y = -586.128090572111},
             propsData = {
               MessageId = 200007,
               SkillNameList = {"Fire"},
@@ -3089,7 +3066,7 @@ return {
             key = "17170600238981247481",
             type = "ShowGuideNode",
             name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 1615.6503157109646, y = -584.2590699658987},
+            pos = {x = 717.5253157109644, y = -573.0090699658987},
             propsData = {
               MessageId = 200020,
               SkillNameList = {
@@ -3116,29 +3093,8 @@ return {
             key = "17170600301111247753",
             type = "PlatformJudgmentNode",
             name = "PC/手机平台判断",
-            pos = {x = 1113.3274659905817, y = -574.5512919227315},
+            pos = {x = 215.20246599058146, y = -563.3012919227315},
             propsData = {}
-          },
-          ["17186075129242179"] = {
-            key = "17186075129242179",
-            type = "PickUpNode",
-            name = "拾取物品",
-            pos = {x = 1438.5957756012087, y = 328.22171754637316},
-            propsData = {
-              bActiveEnable = true,
-              StaticCreatorIdList = {
-                123123,
-                123124,
-                123125
-              },
-              QuestPickupId = -1,
-              UnitId = 10001,
-              UnitCount = 3,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuidePointName = "",
-              IsUseCount = false
-            }
           },
           ["17235385891476619536"] = {
             key = "17235385891476619536",
@@ -3192,20 +3148,6 @@ return {
               }
             }
           },
-          ["17235510622247986961"] = {
-            key = "17235510622247986961",
-            type = "GoToRegionNode",
-            name = "进入区域",
-            pos = {x = 1469.7076418898603, y = 299.2818573406033},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 100101,
-              bGuideUIEnable = false,
-              GuideType = "P",
-              GuideName = "Mechanism_10010201StartBox_1590296"
-            }
-          },
           ["173435068786011295"] = {
             key = "173435068786011295",
             type = "UpdateTaskBarAndTaskMainNode",
@@ -3228,14 +3170,14 @@ return {
             key = "173435784055611101",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1615.6491326538853, y = 82.92927614502662},
+            pos = {x = 1506.7985579412416, y = 164.42352901858985},
             propsData = {WaitTime = 20}
           },
           ["17346896033428109"] = {
             key = "17346896033428109",
             type = "KillMonsterNode",
             name = "击杀怪物",
-            pos = {x = 1526.7446401903185, y = -140.77230075217216},
+            pos = {x = 1450.9551665061078, y = -16.035458646908992},
             propsData = {
               KillMonsterType = "Nums",
               MonsterNeedNums = 10,
@@ -3248,7 +3190,7 @@ return {
             key = "17346896291518649",
             type = "WaitQuestFinishedNode",
             name = "等待任务完成",
-            pos = {x = 2317.4491272896976, y = -140.21918065245745},
+            pos = {x = 2361.566774348521, y = 11.545525229895503},
             propsData = {ListenCount = 3, NeedFinishCount = 3}
           },
           ["17429932522737328551"] = {
@@ -3283,7 +3225,7 @@ return {
             key = "17435929167622449313",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 424.82462561414627, y = 135.7448354775006},
+            pos = {x = 355.82462561414627, y = 702.7448354775006},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -3305,7 +3247,7 @@ return {
             key = "17435929457952449592",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 429.0865786712311, y = 296.14182185825985},
+            pos = {x = 360.0865786712311, y = 863.1418218582598},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -3346,7 +3288,7 @@ return {
             key = "1751466427925963385",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 1904.2669276613397, y = -131.3702838428341},
+            pos = {x = 1806.3721908192344, y = 15.471821420323778},
             propsData = {
               NewDescription = "Description_100102_1",
               NewDetail = "Description_100102_1",
@@ -3357,7 +3299,7 @@ return {
             key = "175472818974711358",
             type = "GoToNode",
             name = "钩锁下",
-            pos = {x = 245.97885718117533, y = -429.19115948994863},
+            pos = {x = 1492.1775926562268, y = -307.415698109224},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1590329,
@@ -3369,7 +3311,7 @@ return {
             key = "175472822683011634",
             type = "CameraLookAtNode",
             name = "CameraLookAt",
-            pos = {x = 513.7711958908527, y = -429.28188529640045},
+            pos = {x = 1759.969931365904, y = -307.50642391567595},
             propsData = {
               TargetType = "Point",
               PointName = "Mechanism_Hook_1590311",
@@ -3383,7 +3325,7 @@ return {
             key = "175472823494711811",
             type = "ShowGuideMainNode",
             name = "显示图文引导",
-            pos = {x = 784.7691797618205, y = -416.03591755446496},
+            pos = {x = 2030.9679152368715, y = -294.26045617374035},
             propsData = {GuideId = 81}
           },
           ["17581133578452248"] = {
@@ -3418,14 +3360,29 @@ return {
               GuideType = "M",
               GuideName = "Mechanism_10010201StartBox_1590296"
             }
+          },
+          ["17586252408736647"] = {
+            key = "17586252408736647",
+            type = "MSDKUploadNode",
+            name = "海外市场SDK埋点上报",
+            pos = {x = 2034.4893071582699, y = -436.3236600860441},
+            propsData = {
+              EventName = "grapplepoints_active"
+            }
           }
         },
         commentData = {
           ["1751466282874960425"] = {
             key = "1751466282874960425",
             name = "射击引导",
-            position = {x = 1077.906831477065, y = -836.2263773807898},
+            position = {x = 179.78183147706477, y = -824.9763773807898},
             size = {width = 870.0000000000002, height = 417.7777777777779}
+          },
+          ["1758700939922939941"] = {
+            key = "1758700939922939941",
+            name = "钩锁引导",
+            position = {x = 1454.5841982692564, y = -546.3488245638969},
+            size = {width = 853.5252904989748, height = 394.07995255518506}
           }
         }
       }

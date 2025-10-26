@@ -43,7 +43,9 @@ return ReadOnly("SkillCreature", {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Paoku_IceBomb.BP_Paoku_IceBomb",
     BoundCount = 1,
     BulletFXID = 248,
+    ClientOwner = true,
     CreatureId = 101,
+    DelayDestroyTime = 0.3,
     HitOthers = {
       0,
       0,
@@ -1942,7 +1944,7 @@ return ReadOnly("SkillCreature", {
     },
     ShapeInfo = {
       BoxHeight = 150,
-      BoxLength = 150,
+      BoxLength = 250,
       BoxWidth = 250,
       ShapeType = "Box"
     },
@@ -1967,7 +1969,7 @@ return ReadOnly("SkillCreature", {
     },
     ShapeInfo = {
       BoxHeight = 150,
-      BoxLength = 150,
+      BoxLength = 250,
       BoxWidth = 250,
       ShapeType = "Box"
     },
@@ -2487,7 +2489,7 @@ return ReadOnly("SkillCreature", {
     RefreshTargetRule = 1,
     ShapeInfo = {
       BoxHeight = 150,
-      BoxLength = 150,
+      BoxLength = 250,
       BoxWidth = 250,
       ShapeType = "Box"
     },
@@ -2508,11 +2510,12 @@ return ReadOnly("SkillCreature", {
     HitScene = {510117},
     ShapeInfo = {
       BoxHeight = 20,
-      BoxLength = 200,
+      BoxLength = 50,
       BoxWidth = 20,
       ShapeType = "Box"
     },
     Speed = 0,
+    TickCollision = true,
     TimeLife = -1
   },
   [510131] = {
@@ -10306,9 +10309,9 @@ return ReadOnly("SkillCreature", {
   },
   [1030201] = {
     AllowAttackRangeModify = {
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     },
     AttackRangeType = "Normal",
     BoundCount = -1,
@@ -10318,7 +10321,7 @@ return ReadOnly("SkillCreature", {
     EnterPool = true,
     HitEnemy = 1030218,
     ShapeInfo = {
-      BoxHeight = 20,
+      BoxHeight = 200,
       BoxLength = 100,
       BoxWidth = 200,
       ShapeType = "Box"
@@ -10339,9 +10342,9 @@ return ReadOnly("SkillCreature", {
   },
   [1030202] = {
     AllowAttackRangeModify = {
-      true,
-      true,
-      false
+      false,
+      false,
+      true
     },
     AttackRangeType = "Normal",
     BoundCount = -1,
@@ -10351,7 +10354,7 @@ return ReadOnly("SkillCreature", {
     EnterPool = true,
     HitEnemy = 1030218,
     ShapeInfo = {
-      BoxHeight = 20,
+      BoxHeight = 200,
       BoxLength = 100,
       BoxWidth = 200,
       ShapeType = "Box"
@@ -12909,6 +12912,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 1.3
   },
   [30102004] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Common_PlaySkillPreFXCircle.BP_Common_PlaySkillPreFXCircle",
     BoundCount = -1,
     BulletFXID = 30102041,
     CreatureId = 30102004,
@@ -12920,7 +12924,8 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 2
+    TimeLife = 2,
+    Vars = {OutsideRadius = 300, Time = 2}
   },
   [500000301] = {
     BoundCount = 1,

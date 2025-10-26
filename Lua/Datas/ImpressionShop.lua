@@ -131,7 +131,7 @@ return ReadOnly("ImpressionShop", {
     PurchaseLimit = 1,
     RegionId = 1011,
     SubTabId = 1001,
-    TypeNum = 4,
+    TypeNum = 5,
     UnlockCondition = 1022
   },
   [1011017] = {
@@ -167,7 +167,7 @@ return ReadOnly("ImpressionShop", {
     PurchaseLimit = 1,
     RegionId = 1011,
     SubTabId = 2001,
-    TypeNum = 4,
+    TypeNum = 5,
     UnlockCondition = 1023
   },
   [1011020] = {
@@ -203,7 +203,7 @@ return ReadOnly("ImpressionShop", {
     PurchaseLimit = 1,
     RegionId = 1011,
     SubTabId = 3001,
-    TypeNum = 4,
+    TypeNum = 5,
     UnlockCondition = 1024
   },
   [1011023] = {
@@ -239,7 +239,7 @@ return ReadOnly("ImpressionShop", {
     PurchaseLimit = 1,
     RegionId = 1011,
     SubTabId = 4001,
-    TypeNum = 4,
+    TypeNum = 5,
     UnlockCondition = 1025
   },
   [1011026] = {
@@ -275,7 +275,7 @@ return ReadOnly("ImpressionShop", {
     PurchaseLimit = 1,
     RegionId = 1011,
     SubTabId = 5001,
-    TypeNum = 4,
+    TypeNum = 5,
     UnlockCondition = 1026
   },
   [1011029] = {
@@ -311,7 +311,7 @@ return ReadOnly("ImpressionShop", {
     PurchaseLimit = 1,
     RegionId = 1011,
     SubTabId = 5001,
-    TypeNum = 4,
+    TypeNum = 5,
     UnlockCondition = 1026
   },
   [1011032] = {
@@ -549,7 +549,7 @@ return ReadOnly("ImpressionShop", {
   [1310022] = {
     ImprCheckId = 1043,
     ImpressionShopId = 1310022,
-    ItemId = 310015,
+    ItemId = 320030,
     ItemSeq = 85,
     ItemType = "Draft",
     PurchaseLimit = 1,
@@ -609,7 +609,7 @@ return ReadOnly("ImpressionShop", {
   [1320012] = {
     ImprCheckId = 1059,
     ImpressionShopId = 1320012,
-    ItemId = 320029,
+    ItemId = 330006,
     ItemSeq = 59,
     ItemType = "Draft",
     PurchaseLimit = 1,

@@ -888,7 +888,12 @@ return ReadOnly("ModGuideBookArchive", {
   },
   [2130] = {
     ArchiveId = 2130,
-    ModList = {102001, 102002},
+    ModList = {
+      102001,
+      102002,
+      102003,
+      102004
+    },
     Name = "ModArchive_Name_Melee_2130",
     RewardId = 7101,
     TabId = 2
@@ -902,7 +907,7 @@ return ReadOnly("ModGuideBookArchive", {
   },
   [2150] = {
     ArchiveId = 2150,
-    ModList = {104001},
+    ModList = {104001, 104002},
     Name = "ModArchive_Name_Melee_2150",
     RewardId = 7101,
     TabId = 2
@@ -911,6 +916,13 @@ return ReadOnly("ModGuideBookArchive", {
     ArchiveId = 2160,
     ModList = {106001},
     Name = "ModArchive_Name_Melee_2160",
+    RewardId = 7101,
+    TabId = 2
+  },
+  [2161] = {
+    ArchiveId = 2161,
+    ModList = {101001, 101002},
+    Name = "ModArchive_Name_Melee_2161",
     RewardId = 7101,
     TabId = 2
   },

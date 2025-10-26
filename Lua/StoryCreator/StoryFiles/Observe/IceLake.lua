@@ -47,7 +47,7 @@ return {
       key = "17580263087413540879",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1224, y = 306},
+      pos = {x = 1230, y = 316},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -92,6 +92,18 @@ return {
             startPort = "Out",
             endQuest = "17580263087413540883",
             endPort = "Success"
+          },
+          {
+            startQuest = "17580263676614183109",
+            startPort = "Branch_2",
+            endQuest = "17585093576309445",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585093576309445",
+            startPort = "Out",
+            endQuest = "17580263087413540883",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -120,19 +132,62 @@ return {
             key = "17580263676614183109",
             type = "BranchTriggerNode",
             name = "触发分支节点",
-            pos = {x = 1185, y = 442.75},
+            pos = {x = 1169.5454545454545, y = 352.02272727272725},
             propsData = {
-              Branches = {700181}
+              Branches = {700181, 700182}
             }
           },
           ["17580263775324183365"] = {
             key = "17580263775324183365",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1591.25, y = 426.75},
+            pos = {x = 1593.25, y = 426.75},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 20007107,
+              FlowAssetPath = "",
+              TalkType = "NoIntFixSimple",
+              TalkStageName = "",
+              BlendInTime = 1,
+              BlendOutTime = 1,
+              InType = "BlendIn",
+              OutType = "BlendOut",
+              BlendEaseExp = 2,
+              UseProceduralCamera = false,
+              ProceduralCameraId = 1,
+              HideNpcs = false,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              ShowSkipButton = true,
+              ShowAutoPlayButton = true,
+              ShowReviewButton = true,
+              ShowWikiButton = true,
+              SkipToOption = false,
+              DisableNpcOptimization = false,
+              DoNotReceiveCharacterShadow = false,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              PauseNpcBT = true,
+              TalkActors = {},
+              RemoveTalkActors = {},
+              OptionType = "normal",
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "None",
+              NormalOptions = {},
+              OverrideFailBlend = false
+            }
+          },
+          ["17585093576309445"] = {
+            key = "17585093576309445",
+            type = "TalkNode",
+            name = "对话节点",
+            pos = {x = 1588, y = 714},
+            propsData = {
+              IsNpcNode = false,
+              FirstDialogueId = 20007108,
               FlowAssetPath = "",
               TalkType = "NoIntFixSimple",
               TalkStageName = "",

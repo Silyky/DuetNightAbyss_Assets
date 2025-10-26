@@ -106,6 +106,9 @@ return ReadOnly("MainUI", {
     Name = "MAIN_UI_QUEST",
     ReddotNode = "Quest",
     Sequence = 40,
+    ShowCondition = {
+      2, 5
+    },
     SystemUIName = "TaskPanel",
     UIUnlockRuleName = "Quest"
   },

@@ -588,6 +588,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2013011] = {
     AbyssBuffID = {
+      935,
       100,
       301,
       302,
@@ -608,9 +609,7 @@ return ReadOnly("AbyssDungeon", {
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000024,
         6000031,
-        6000044,
         6000051,
         6000061
       }
@@ -625,6 +624,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2013021] = {
     AbyssBuffID = {
+      935,
       100,
       301,
       302,
@@ -649,9 +649,7 @@ return ReadOnly("AbyssDungeon", {
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000024,
         6000031,
-        6000044,
         6000051,
         6000061
       }
@@ -666,6 +664,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2013031] = {
     AbyssBuffID = {
+      935,
       100,
       301,
       302,
@@ -693,9 +692,7 @@ return ReadOnly("AbyssDungeon", {
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000024,
         6000031,
-        6000044,
         6000051,
         6000061
       }
@@ -710,6 +707,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2013041] = {
     AbyssBuffID = {
+      935,
       100,
       301,
       302,
@@ -732,9 +730,7 @@ return ReadOnly("AbyssDungeon", {
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000024,
         6000031,
-        6000044,
         6000051,
         6000061
       }
@@ -749,6 +745,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2013051] = {
     AbyssBuffID = {
+      935,
       100,
       301,
       302,
@@ -773,9 +770,7 @@ return ReadOnly("AbyssDungeon", {
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000024,
         6000031,
-        6000044,
         6000051,
         6000061
       }
@@ -790,6 +785,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2013061] = {
     AbyssBuffID = {
+      935,
       100,
       301,
       302,
@@ -810,9 +806,7 @@ return ReadOnly("AbyssDungeon", {
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000024,
         6000031,
-        6000044,
         6000051,
         6000061
       }
@@ -1135,6 +1129,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2023011] = {
     AbyssBuffID = {
+      951,
       100,
       303,
       304,
@@ -1157,8 +1152,6 @@ return ReadOnly("AbyssDungeon", {
         6000011,
         6000021,
         6000031,
-        6000044,
-        6000054,
         6000061
       }
     },
@@ -1172,6 +1165,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2023021] = {
     AbyssBuffID = {
+      951,
       100,
       303,
       304,
@@ -1194,8 +1188,6 @@ return ReadOnly("AbyssDungeon", {
         6000011,
         6000021,
         6000031,
-        6000044,
-        6000054,
         6000061
       }
     },
@@ -1209,6 +1201,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2023031] = {
     AbyssBuffID = {
+      951,
       100,
       303,
       304,
@@ -1236,8 +1229,6 @@ return ReadOnly("AbyssDungeon", {
         6000011,
         6000021,
         6000031,
-        6000044,
-        6000054,
         6000061
       }
     },
@@ -1251,6 +1242,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2023041] = {
     AbyssBuffID = {
+      951,
       100,
       303,
       304,
@@ -1273,8 +1265,6 @@ return ReadOnly("AbyssDungeon", {
         6000011,
         6000021,
         6000031,
-        6000044,
-        6000054,
         6000061
       }
     },
@@ -1288,6 +1278,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2023051] = {
     AbyssBuffID = {
+      951,
       100,
       303,
       304,
@@ -1317,8 +1308,6 @@ return ReadOnly("AbyssDungeon", {
         6000011,
         6000021,
         6000031,
-        6000044,
-        6000054,
         6000061
       }
     },
@@ -1332,6 +1321,7 @@ return ReadOnly("AbyssDungeon", {
   },
   [2023061] = {
     AbyssBuffID = {
+      951,
       100,
       303,
       304,
@@ -1354,8 +1344,6 @@ return ReadOnly("AbyssDungeon", {
         6000011,
         6000021,
         6000031,
-        6000044,
-        6000054,
         6000061
       }
     },

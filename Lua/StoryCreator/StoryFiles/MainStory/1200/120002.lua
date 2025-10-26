@@ -2648,12 +2648,6 @@ return {
       questNodeData = {
         lineData = {
           {
-            startQuest = "17292380373085264589",
-            startPort = "QuestStart",
-            endQuest = "17359049512624055479",
-            endPort = "In"
-          },
-          {
             startQuest = "17292381015445641402",
             startPort = "Out",
             endQuest = "17467924752904329",
@@ -2666,7 +2660,13 @@ return {
             endPort = "Success"
           },
           {
-            startQuest = "17359049512624055479",
+            startQuest = "17292380373085264589",
+            startPort = "QuestStart",
+            endQuest = "17585272170871869660",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585272170871869660",
             startPort = "Out",
             endQuest = "17292381015445641402",
             endPort = "In"
@@ -2774,7 +2774,7 @@ return {
             key = "17359049512624055479",
             type = "GoToNode",
             name = "酒馆内",
-            pos = {x = 2697.7602478375793, y = 807.1824857704429},
+            pos = {x = 2799.7602478375793, y = 830.1824857704429},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1220106,
@@ -2823,6 +2823,20 @@ return {
               bResetCamera = false,
               bForceAsyncLoading = false,
               IsWhite = false
+            }
+          },
+          ["17585272170871869660"] = {
+            key = "17585272170871869660",
+            type = "GoToRegionNode",
+            name = "进入区域",
+            pos = {x = 2851.5720285865464, y = 1038.9895592765995},
+            propsData = {
+              RegionType = 1,
+              IsEnter = "Enter",
+              RegionId = 101107,
+              bGuideUIEnable = true,
+              GuideType = "M",
+              GuideName = "Mechanism_12000101_1220106"
             }
           }
         },

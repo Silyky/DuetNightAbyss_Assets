@@ -663,7 +663,7 @@ return {
             key = "17289958163809769",
             type = "ShowGuideButtonNode",
             name = "迷津",
-            pos = {x = 2159.8968678120937, y = 480.32746474407077},
+            pos = {x = 2158.4682964094727, y = 483.184607549313},
             propsData = {
               ShowEnable = true,
               MessageId = 301603,

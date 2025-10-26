@@ -221,6 +221,61 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 1
   },
+  [1005] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss"
+    },
+    Count = {
+      [1] = 10,
+      [2] = 2,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Feina.T_Walnut_Char_Feina",
+    Id = {
+      [1] = 1001801,
+      [2] = 1001801,
+      [3] = 30001,
+      [4] = 2012,
+      [5] = 2008,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_1005",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 1005,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 1
+  },
   [1006] = {
     AccessKey = {
       "Dungeon",
@@ -3272,7 +3327,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "Text_HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3375,6 +3431,61 @@ return ReadOnly("Walnut", {
       [6] = "Resource"
     },
     WalnutId = 2044,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
+  [2050] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Zhimeng.T_Walnut_Machinegun_Zhimeng",
+    Id = {
+      [1] = 920509,
+      [2] = 12065,
+      [3] = 30002,
+      [4] = 12066,
+      [5] = 12067,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2050",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2050,
     WalnutIndex = "A",
     WalnutNumber = 1,
     WalnutType = 2

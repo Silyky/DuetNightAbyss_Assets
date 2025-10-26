@@ -555,7 +555,7 @@ return ReadOnly("UIChildGuide", {
         Phone = "UIGuide_ConnectMechanism"
       },
       GuidePicture = {
-        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_ConnectMechanism_01_Phone.T_Guide_Img_ConnectMechanism_01_Phone'",
+        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_ConnectMechanism_01_PC.T_Guide_Img_ConnectMechanism_01_PC'",
         Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_ConnectMechanism_01_Phone.T_Guide_Img_ConnectMechanism_01_Phone'"
       }
     },
@@ -2294,6 +2294,57 @@ return ReadOnly("UIChildGuide", {
       }
     },
     GuideTitle = "MAINUIGUIDE_TITLE_Saiqi_2",
+    GuideType = "ImageText"
+  },
+  [8801] = {
+    ChildGuideId = 8801,
+    GuideInfo1 = {
+      GuideContent = {
+        GamePad = "Message_Guide_OnlineAreaPre_1",
+        PC = "Message_Guide_OnlineAreaPre_1",
+        Phone = "Message_Guide_OnlineAreaPre_1"
+      },
+      GuidePicture = {
+        GamePad = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_04.T_Guide_Img_OnlineArea_04'",
+        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_04.T_Guide_Img_OnlineArea_04'",
+        Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_04.T_Guide_Img_OnlineArea_04'"
+      }
+    },
+    GuideTitle = "MAINUIGUIDE_TITLE_ONLINEAREAPRE_1",
+    GuideType = "ImageText"
+  },
+  [8802] = {
+    ChildGuideId = 8802,
+    GuideInfo1 = {
+      GuideContent = {
+        GamePad = "Message_Guide_OnlineAreaPre_2",
+        PC = "Message_Guide_OnlineAreaPre_2",
+        Phone = "Message_Guide_OnlineAreaPre_2"
+      },
+      GuidePicture = {
+        GamePad = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_02.T_Guide_Img_OnlineArea_02'",
+        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_02.T_Guide_Img_OnlineArea_02'",
+        Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_02.T_Guide_Img_OnlineArea_02'"
+      }
+    },
+    GuideTitle = "MAINUIGUIDE_TITLE_ONLINEAREAPRE_2",
+    GuideType = "ImageText"
+  },
+  [8803] = {
+    ChildGuideId = 8803,
+    GuideInfo1 = {
+      GuideContent = {
+        GamePad = "Message_Guide_OnlineAreaPre_3",
+        PC = "Message_Guide_OnlineAreaPre_3",
+        Phone = "Message_Guide_OnlineAreaPre_3"
+      },
+      GuidePicture = {
+        GamePad = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_03.T_Guide_Img_OnlineArea_03'",
+        PC = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_03.T_Guide_Img_OnlineArea_03'",
+        Phone = "Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/System/T_Guide_Img_OnlineArea_03.T_Guide_Img_OnlineArea_03'"
+      }
+    },
+    GuideTitle = "MAINUIGUIDE_TITLE_ONLINEAREAPRE_3",
     GuideType = "ImageText"
   },
   [11501] = {

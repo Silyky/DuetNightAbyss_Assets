@@ -130,12 +130,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17467741923871141652",
-            startPort = "Out",
-            endQuest = "1746709236740178",
-            endPort = "Success"
-          },
-          {
             startQuest = "17467737808881138268",
             startPort = "Out",
             endQuest = "17468784431342009",
@@ -163,12 +157,6 @@ return {
             startQuest = "174775481910023876041",
             startPort = "Out",
             endQuest = "17467730428431132067",
-            endPort = "In"
-          },
-          {
-            startQuest = "17468784431342009",
-            startPort = "Out",
-            endQuest = "17467740230121139889",
             endPort = "In"
           },
           {
@@ -224,6 +212,12 @@ return {
             startPort = "QuestStart",
             endQuest = "175664327337529839333",
             endPort = "Input"
+          },
+          {
+            startQuest = "17468784431342009",
+            startPort = "Out",
+            endQuest = "1746709236740178",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -238,7 +232,7 @@ return {
             key = "1746709236740178",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2930, y = 301.25},
+            pos = {x = 2157.4193643456815, y = 754.4758008744541},
             propsData = {ModeType = 0}
           },
           ["1746709236740185"] = {
@@ -598,7 +592,7 @@ return {
             key = "17467740230121139889",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 2106.508733956102, y = 744.4841328262385},
+            pos = {x = 1859.7345434443885, y = 1062.226064400144},
             propsData = {
               ShowEnable = true,
               MessageId = 302713,
@@ -628,7 +622,7 @@ return {
             key = "17467741923871141652",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 2638.494114073061, y = 710.6098638203905},
+            pos = {x = 2164.300571521141, y = 1083.190504396899},
             propsData = {
               ShowEnable = true,
               MessageId = 302714,

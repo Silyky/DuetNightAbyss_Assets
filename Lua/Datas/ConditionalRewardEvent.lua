@@ -14,5 +14,14 @@ return ReadOnly("ConditionalRewardEvent", {
       "CharTitle"
     },
     RewardClaimCondition = 6015
+  },
+  [107003] = {
+    EventId = 107003,
+    EventReward = 107006,
+    HideBPNode = {
+      "CharTitle"
+    },
+    RewardClaimCondition = 6022,
+    RewardUnlockTips = "UI_RewardUnlockTips_107003"
   }
 })

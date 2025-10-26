@@ -276,7 +276,7 @@ return ReadOnly("CommonPopupUIContext", {
   [100031] = {
     Id = 100031,
     PopoverText = "UI_PATCH_NEWPAK",
-    Style = "ShortTextDefault",
+    Style = "ShortTextComfirm",
     Title = "UI_COMMONPOP_TITLE_100010",
     YesButtonText = "UI_PATCH_ENSURE"
   },
@@ -1968,6 +1968,17 @@ return ReadOnly("CommonPopupUIContext", {
     PopoverText = "UI_Consumable_Choose_Confirm_Have_Skin",
     Style = "ResourceUseConfirm",
     Title = "UI_COMMONPOP_TITLE_100057",
+    YesButtonText = "UI_PATCH_ENSURE"
+  },
+  [100265] = {
+    ExtraParams = {
+      DisableEscClose = 1
+    },
+    Id = 100265,
+    NotShowCloseButton = 1,
+    PopoverText = "UI_Login_Waiting",
+    Style = "ShortTextComfirm",
+    Title = "UI_COMMONPOP_TITLE_100010",
     YesButtonText = "UI_PATCH_ENSURE"
   }
 })

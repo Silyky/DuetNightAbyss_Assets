@@ -82,7 +82,19 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17485894065452598",
+            startPort = "QuestStart",
+            endQuest = "17600803094346221292",
+            endPort = "In"
+          },
+          {
             startQuest = "17485902359684161077",
+            startPort = "Out",
+            endQuest = "17600803312996221628",
+            endPort = "In"
+          },
+          {
+            startQuest = "17600803312996221628",
             startPort = "Out",
             endQuest = "17485894065452601",
             endPort = "Success"
@@ -100,7 +112,7 @@ return {
             key = "17485894065452601",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1776.6666666666665, y = 305},
+            pos = {x = 1768.6666666666665, y = 299},
             propsData = {ModeType = 0}
           },
           ["17485894065452604"] = {
@@ -114,7 +126,7 @@ return {
             key = "17485902359684161077",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1274.7375503977337, y = 294.2891604010025},
+            pos = {x = 1204.7375503977337, y = 288.2891604010025},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80150101,
@@ -172,6 +184,33 @@ return {
               SwitchToMaster = "None",
               NormalOptions = {},
               OverrideFailBlend = false
+            }
+          },
+          ["17600803094346221292"] = {
+            key = "17600803094346221292",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1208, y = 490},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0016_judian",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["17600803312996221628"] = {
+            key = "17600803312996221628",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1482, y = 300},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

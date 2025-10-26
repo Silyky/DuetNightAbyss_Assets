@@ -112,12 +112,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "173165969892227207396",
-            startPort = "Out",
-            endQuest = "17253450193859109320",
-            endPort = "In"
-          },
-          {
             startQuest = "17253450193859109320",
             startPort = "Out",
             endQuest = "17333848942247550457",
@@ -133,12 +127,6 @@ return {
             startQuest = "17340725734906520",
             startPort = "Out",
             endQuest = "17340725734906521",
-            endPort = "In"
-          },
-          {
-            startQuest = "17253450193859109324",
-            startPort = "Out",
-            endQuest = "173165969892227207396",
             endPort = "In"
           },
           {
@@ -276,7 +264,19 @@ return {
           {
             startQuest = "17253450164449109180",
             startPort = "QuestStart",
+            endQuest = "173165969892227207396",
+            endPort = "In"
+          },
+          {
+            startQuest = "173165969892227207396",
+            startPort = "Out",
             endQuest = "17253450193859109322",
+            endPort = "In"
+          },
+          {
+            startQuest = "17253450193859109324",
+            startPort = "Out",
+            endQuest = "17253450193859109320",
             endPort = "In"
           }
         },
@@ -285,7 +285,7 @@ return {
             key = "17253450164449109180",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 431.53846153846166, y = 407.47252747252753},
+            pos = {x = 246.80161943319848, y = 164.31463273568542},
             propsData = {ModeType = 0}
           },
           ["17253450164449109183"] = {
@@ -356,7 +356,7 @@ return {
             key = "17253450193859109322",
             type = "TalkNode",
             name = "黑屏 - 醒来",
-            pos = {x = 856.2556583484413, y = 328.31484602440173},
+            pos = {x = 941.5188162431782, y = 200.42010918229647},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 11013801,
@@ -530,7 +530,7 @@ return {
             key = "173165969892227207396",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "异步设置玩家位置旋转",
-            pos = {x = 741.6907248043378, y = -419.88150979455344},
+            pos = {x = 665.9012511201273, y = 184.8553323107098},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "pAwamove18",

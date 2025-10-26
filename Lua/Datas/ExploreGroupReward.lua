@@ -90,17 +90,17 @@ return ReadOnly("ExploreGroupReward", {
   [7013098] = {
     ExploreGroupId = 7013098,
     IfOnlyOnce = true,
-    RewardId = 1010013
+    RewardId = 7105
   },
   [7013100] = {
     ExploreGroupId = 7013100,
     IfOnlyOnce = true,
-    RewardId = 1010013
+    RewardId = 7106
   },
   [7013101] = {
     ExploreGroupId = 7013101,
     IfOnlyOnce = true,
-    RewardId = 1010013
+    RewardId = 7105
   },
   [7013104] = {
     ExploreGroupId = 7013104,

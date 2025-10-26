@@ -8,7 +8,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_Rouge.T_Activity_Tab_Sign_Rouge",
     EventTabId = 1,
     EventTabName = "Event_Tab_103001",
-    Sequence = 60
+    ReddotNode = "Acti_Rouge",
+    Sequence = 50
   },
   [2] = {
     EventId = {101001},
@@ -16,7 +17,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_SevenDaySaiqi.T_Activity_Tab_Sign_SevenDaySaiqi",
     EventTabId = 2,
     EventTabName = "Event_Tab_101001",
-    Sequence = 95
+    ReddotNode = "Acti_SignInSaiqi",
+    Sequence = 100
   },
   [4] = {
     EventId = {103002},
@@ -24,6 +26,7 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_Abyss.T_Activity_Tab_Sign_Abyss",
     EventTabId = 4,
     EventTabName = "Abyss_entry",
+    ReddotNode = "Acti_Abyss01",
     Sequence = 55
   },
   [6] = {
@@ -32,7 +35,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TryOut_Aote.T_Activity_Tab_Sign_TryOut_Aote",
     EventTabId = 6,
     EventTabName = "Event_Tab_103003",
-    Sequence = 75
+    ReddotNode = "Acti_GiveAoge",
+    Sequence = 70
   },
   [7] = {
     EventId = {103004},
@@ -40,7 +44,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TryOut_Dafu.T_Activity_Tab_Sign_TryOut_Dafu",
     EventTabId = 7,
     EventTabName = "Event_Tab_103004",
-    Sequence = 70
+    ReddotNode = "Acti_GiveDafunie",
+    Sequence = 65
   },
   [8] = {
     EventId = {105001},
@@ -56,7 +61,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_Zhiliu.T_Activity_Tab_Sign_Zhiliu",
     EventTabId = 9,
     EventTabName = "Event_Tab_103005",
-    Sequence = 100
+    ReddotNode = "Acti_ZhiliuEvent",
+    Sequence = 93
   },
   [10] = {
     EventId = {106001},
@@ -64,6 +70,7 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TrainingLevel.T_Activity_Tab_Sign_TrainingLevel",
     EventTabId = 10,
     EventTabName = "Event_Tab_106001",
+    ReddotNode = "Acti_ChallengeLevel",
     Sequence = 90
   },
   [11] = {
@@ -76,7 +83,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TryOut_Saiqi01.T_Activity_Tab_Sign_TryOut_Saiqi01",
     EventTabId = 11,
     EventTabName = "Event_Tab_105102011",
-    Sequence = 80
+    ReddotNode = "Acti_TrailSkin01",
+    Sequence = 85
   },
   [12] = {
     EventId = {103006},
@@ -84,7 +92,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_JJGame.T_Activity_Tab_Sign_JJGame",
     EventTabId = 12,
     EventTabName = "Event_Tab_103006",
-    Sequence = 1
+    ReddotNode = "Acti_MidTerm",
+    Sequence = 91
   },
   [14] = {
     EventId = {105101014},
@@ -92,7 +101,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TryOut_Feina.T_Activity_Tab_Sign_TryOut_Feina",
     EventTabId = 14,
     EventTabName = "Event_Tab_CharTrialEvent",
-    Sequence = 83
+    ReddotNode = "Acti_TrailFeinaChar",
+    Sequence = 85
   },
   [17] = {
     EventId = {103008},
@@ -100,15 +110,17 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_CommunityFollow.T_Activity_Tab_Sign_CommunityFollow",
     EventTabId = 17,
     EventTabName = "Event_Tab_103008",
-    Sequence = 1
+    ReddotNode = "Acti_Community",
+    Sequence = 45
   },
   [18] = {
     EventId = {107001},
     EventTabBg = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Head_TenTimesRewards.T_Activity_Tab_Head_TenTimesRewards",
-    EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_SevenDayBaiheng.T_Activity_Tab_Sign_SevenDayBaiheng",
+    EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TenTimesRewards.T_Activity_Tab_Sign_TenTimesRewards",
     EventTabId = 18,
     EventTabName = "Event_Tab_107001",
-    Sequence = 1
+    ReddotNode = "Acti_BetaAward",
+    Sequence = 95
   },
   [21] = {
     EventId = {107002},
@@ -116,7 +128,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_LoginReward.T_Activity_Tab_Sign_LoginReward",
     EventTabId = 21,
     EventTabName = "Event_Tab_107002",
-    Sequence = 1
+    ReddotNode = "Acti_MultiDeviceLogin",
+    Sequence = 40
   },
   [24] = {
     EventId = {103010},
@@ -124,7 +137,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_FeinaEvent.T_Activity_Tab_Sign_FeinaEvent",
     EventTabId = 24,
     EventTabName = "Event_Tab_103010",
-    Sequence = 6
+    ReddotNode = "Acti_FeinaEvent",
+    Sequence = 94
   },
   [26] = {
     EventId = {101003},
@@ -132,7 +146,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_SevenDayFeiNa.T_Activity_Tab_Sign_SevenDayFeiNa",
     EventTabId = 26,
     EventTabName = "Event_Tab_101003",
-    Sequence = 96
+    ReddotNode = "Acti_SignInFeina",
+    Sequence = 100
   },
   [27] = {
     EventId = {103012},
@@ -140,7 +155,8 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TryOut_Baonu.T_Activity_Tab_Sign_TryOut_Baonu",
     EventTabId = 27,
     EventTabName = "Event_Tab_103012",
-    Sequence = 68
+    ReddotNode = "Acti_GiveBaonu",
+    Sequence = 60
   },
   [28] = {
     EventId = {1030022},
@@ -148,6 +164,7 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_Abyss.T_Activity_Tab_Sign_Abyss",
     EventTabId = 28,
     EventTabName = "Abyss_entry",
+    ReddotNode = "Acti_Abyss02",
     Sequence = 55
   },
   [29] = {
@@ -156,6 +173,16 @@ return ReadOnly("EventTab", {
     EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_TryOut_Songlu.T_Activity_Tab_Sign_TryOut_Songlu",
     EventTabId = 29,
     EventTabName = "Event_Tab_103013",
-    Sequence = 76
+    ReddotNode = "Acti_GiveSonglu",
+    Sequence = 75
+  },
+  [30] = {
+    EventId = {107003},
+    EventTabBg = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Head_CoopOnline.T_Activity_Tab_Head_CoopOnline",
+    EventTabIcon = "/Game/UI/Texture/Dynamic/Image/Activity/T_Activity_Tab_Sign_CoopOnline.T_Activity_Tab_Sign_CoopOnline",
+    EventTabId = 30,
+    EventTabName = "Event_Tab_107003",
+    ReddotNode = "Acti_RegionOnline",
+    Sequence = 80
   }
 })

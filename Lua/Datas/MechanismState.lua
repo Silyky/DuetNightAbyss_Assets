@@ -16386,6 +16386,18 @@ return ReadOnly("MechanismState", {
         TypeNextState = {
           Type = "Manual"
         }
+      },
+      [3] = {
+        NextStateId = 704033,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [4] = {
+        NextStateId = 704034,
+        TypeNextState = {
+          Type = "Manual"
+        }
       }
     },
     StateId = 7040311
@@ -16409,6 +16421,12 @@ return ReadOnly("MechanismState", {
         TypeNextState = {
           Type = "Manual"
         }
+      },
+      [4] = {
+        NextStateId = 704034,
+        TypeNextState = {
+          Type = "Manual"
+        }
       }
     },
     StateId = 7040321
@@ -16428,6 +16446,12 @@ return ReadOnly("MechanismState", {
         }
       },
       [3] = {
+        NextStateId = 704031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [4] = {
         NextStateId = 704032,
         TypeNextState = {
           Type = "Manual"
@@ -16445,6 +16469,18 @@ return ReadOnly("MechanismState", {
         }
       },
       [2] = {
+        NextStateId = 704031,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 704032,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [4] = {
         NextStateId = 704033,
         TypeNextState = {
           Type = "Manual"

@@ -141,7 +141,7 @@ return ReadOnly("NpcBiography", {
   },
   [101301] = {
     ConditionId = 1020,
-    DispConditionId = 100201,
+    DispConditionId = 200215,
     NpcAge = "60",
     NpcBiographyId = 101301,
     NpcInformation = "NpcBiography_Information_Blue",

@@ -724,7 +724,7 @@ return {
             key = "1717643155711700361",
             type = "ChangeStaticCreatorNode",
             name = "销毁 奥哥",
-            pos = {x = -401.09202656683397, y = -96.40211809774092},
+            pos = {x = -434.96299430876945, y = -122.53115035580544},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -990,7 +990,7 @@ return {
               SoundPath = "event:/bgm/cbt01/level/stage1/combat01_state1_r01",
               ParamKey = "",
               ParamValue = 0,
-              RelatedRegionId = {},
+              RelatedRegionId = {101103},
               ClientRelatedRegionId = {},
               bStoreToServer = true
             }
@@ -1010,7 +1010,7 @@ return {
             key = "1728974552784193949",
             type = "PlayOrStopBGMNode",
             name = "停止播放站桩bgm",
-            pos = {x = 1465.1818181818169, y = 16.27272727272672},
+            pos = {x = 1465.1818181818169, y = 15.07272727272672},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -1161,7 +1161,7 @@ return {
       key = "1717643155708700333",
       type = "StoryNode",
       name = "帮助奥哥解围",
-      pos = {x = 1942.787414494252, y = 311.4036375780286},
+      pos = {x = 1943.724914494252, y = 311.4036375780286},
       propsData = {
         QuestId = 10020505,
         QuestDescriptionComment = "",
@@ -1287,6 +1287,18 @@ return {
             startQuest = "1717643155717700397",
             startPort = "QuestStart",
             endQuest = "1723971731560553056",
+            endPort = "In"
+          },
+          {
+            startQuest = "1717643155717700402",
+            startPort = "Out",
+            endQuest = "17582680876436601",
+            endPort = "In"
+          },
+          {
+            startQuest = "174282395557227023048",
+            startPort = "Out",
+            endQuest = "1758551533227934703",
             endPort = "In"
           }
         },
@@ -1421,7 +1433,7 @@ return {
             key = "174282395557227023047",
             type = "ChangeStaticCreatorNode",
             name = "销毁不用的奥哥",
-            pos = {x = -98.8996754744636, y = 91.97046383660836},
+            pos = {x = -80.01078658557472, y = -30.25175838561387},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -1631,6 +1643,34 @@ return {
               FadeInTime = 0,
               FadeOutTime = 0.5,
               ContinueTime = 2
+            }
+          },
+          ["17582680876436601"] = {
+            key = "17582680876436601",
+            type = "PlayOrStopBGMNode",
+            name = "开始播放训练bgm",
+            pos = {x = -332.3884413865401, y = 4.676751020773864},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/level/stage1/combat01_state1_r01",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {101103},
+              ClientRelatedRegionId = {},
+              bStoreToServer = true
+            }
+          },
+          ["1758551533227934703"] = {
+            key = "1758551533227934703",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 179.66228070175453, y = 96.39181286549689},
+            propsData = {
+              NewDescription = "QuestName_10020503",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

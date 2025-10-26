@@ -659,6 +659,12 @@ return ReadOnly("CommonUIConfirm", {
     Id = 10460,
     InteractivePriority = 2
   },
+  [10463] = {
+    ConfirmText = "UI_MECHANISM_10463",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey",
+    Id = 10463,
+    InteractivePriority = 2
+  },
   [10464] = {
     ConfirmText = "DROP_QUEST_GOTOEX01",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Talk",
@@ -746,6 +752,13 @@ return ReadOnly("CommonUIConfirm", {
     InteractiveAngle = 120,
     InteractivePriority = 2,
     InteractiveRadius = 100
+  },
+  [10475] = {
+    ConfirmText = "UI_MECHANISM_10475",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey",
+    Id = 10475,
+    InteractiveAngle = 120,
+    InteractiveRadius = 150
   },
   [10501] = {
     ConfirmText = "DROP_QUEST_HIDEYUMING",
@@ -1519,6 +1532,13 @@ return ReadOnly("CommonUIConfirm", {
     Id = 100038,
     InteractiveAngle = 360,
     InteractiveRadius = 200,
+    QuestInteractiveType = 1
+  },
+  [100039] = {
+    ConfirmText = "TARGET_DUNGEON_101",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Interactive/T_Interactive_Survey",
+    Id = 100039,
+    InteractiveRadius = 100,
     QuestInteractiveType = 1
   },
   [118001] = {

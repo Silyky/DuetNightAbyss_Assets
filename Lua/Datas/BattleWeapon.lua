@@ -3094,7 +3094,7 @@ return ReadOnly("BattleWeapon", {
     PlayFrontSightAnim = true,
     ShowWeaponModel = true,
     TriggerProbability = 0.15,
-    WeaponBlueprint = "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun_Zhimeng.BP_Machinegun_Zhimeng",
     WeaponHUDIcon = "Machinegun_Zhimeng",
     WeaponId = 20509,
     WeaponMeshResourceId = 2050901,
@@ -3999,7 +3999,7 @@ return ReadOnly("BattleWeapon", {
       DiffuseBackTime = 0.1,
       DiffuseDis = 15,
       DiffuseTime = 1,
-      SightUI = "Butterfly"
+      SightUI = "AimStarButterfly"
     },
     HelpAimDict = {
       GamePad = "Saiqi_02",

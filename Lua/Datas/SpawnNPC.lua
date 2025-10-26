@@ -91,12 +91,12 @@ return ReadOnly("SpawnNPC", {
     BPPath = "/Game/AssetDesign/Char/Npc/BaiNpc/Bai_Setting/BP_BaiTXSetting",
     CameraFov = 50,
     CameraPosition = {
-      -15,
+      -18,
       381.5,
       143
     },
     CameraPositionM = {
-      -17,
+      -13,
       360,
       144
     },
@@ -117,7 +117,7 @@ return ReadOnly("SpawnNPC", {
     },
     CameraRotation2 = {
       0,
-      -108,
+      -11,
       0
     },
     CameraRotationM = {
@@ -154,7 +154,7 @@ return ReadOnly("SpawnNPC", {
       65
     },
     CameraPositionM = {
-      -37,
+      -43,
       235,
       65
     },
@@ -175,7 +175,7 @@ return ReadOnly("SpawnNPC", {
     },
     CameraRotation2 = {
       0,
-      -106.5,
+      -10,
       0
     },
     CameraRotationM = {
@@ -283,8 +283,8 @@ return ReadOnly("SpawnNPC", {
       0
     },
     CameraRotation2 = {
-      22,
-      231.3,
+      5,
+      -9,
       0
     },
     CameraRotationM = {
@@ -367,12 +367,12 @@ return ReadOnly("SpawnNPC", {
     BPPath = "/Game/AssetDesign/Char/Npc/BaiNpc/Bai_Setting/BP_BaiTXSetting",
     CameraFov = 50,
     CameraPosition = {
-      0,
-      422.5,
+      -3,
+      383.5,
       145
     },
     CameraPositionM = {
-      31,
+      33,
       352,
       142
     },
@@ -389,6 +389,11 @@ return ReadOnly("SpawnNPC", {
     CameraRotation = {
       0,
       -107,
+      0
+    },
+    CameraRotation2 = {
+      0,
+      -7,
       0
     },
     CameraRotationM = {

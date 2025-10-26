@@ -814,6 +814,10 @@ return ReadOnly("DraftId2TabAndSubTab", {
     SubTabType = 16,
     TabType = "CharAccessory"
   },
+  [320030] = {
+    SubTabType = 16,
+    TabType = "CharAccessory"
+  },
   [330001] = {
     SubTabType = 17,
     TabType = "CharAccessory"
@@ -831,6 +835,10 @@ return ReadOnly("DraftId2TabAndSubTab", {
     TabType = "CharAccessory"
   },
   [330005] = {
+    SubTabType = 17,
+    TabType = "CharAccessory"
+  },
+  [330006] = {
     SubTabType = 17,
     TabType = "CharAccessory"
   },

@@ -6,7 +6,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 1001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -20,7 +20,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 1002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -34,7 +34,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 1003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -48,7 +48,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 1004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -62,7 +62,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 1005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -76,7 +76,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 1006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -90,7 +90,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 1007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -104,7 +104,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 1008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -118,7 +118,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 1009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -132,7 +132,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 1010,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -146,7 +146,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 1011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -160,7 +160,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 1012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -174,7 +174,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 1013,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -188,7 +188,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 1014,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -202,7 +202,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 1015,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -216,7 +216,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 1016,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -230,7 +230,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 1017,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -244,7 +244,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 1018,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -258,7 +258,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 1019,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -272,7 +272,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 1020,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -288,7 +288,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 18001,
-      CharDataTargetDescribe = "角色等级达到20级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task08",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -303,7 +303,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 18002,
-      CharDataTargetDescribe = "角色等级达到30级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task09",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -318,7 +318,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 18003,
-      CharDataTargetDescribe = "角色等级达到40级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task05",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -333,7 +333,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 18004,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task06",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -348,7 +348,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 18005,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task07",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -363,7 +363,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 18006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -377,7 +377,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 18007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -391,7 +391,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 18008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -405,7 +405,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 18009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -419,7 +419,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 18010,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task07",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -434,7 +434,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 18011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -448,7 +448,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 18012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -462,7 +462,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 18013,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -476,7 +476,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 18014,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -490,7 +490,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 18015,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -504,7 +504,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 18016,
-      CharDataTargetDescribe = "角色等级达到20级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task08",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -519,7 +519,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 18017,
-      CharDataTargetDescribe = "角色等级达到30级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task09",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -534,7 +534,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 18018,
-      CharDataTargetDescribe = "角色等级达到40级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task05",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -549,7 +549,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 18019,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task06",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -564,7 +564,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 18020,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task07",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -581,7 +581,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 23001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -595,7 +595,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 23002,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -609,7 +609,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 23003,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -623,7 +623,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 23004,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -637,7 +637,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 23005,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -651,7 +651,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 23006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -665,7 +665,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 23007,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -679,7 +679,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 23008,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -693,7 +693,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 23009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -707,7 +707,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 23010,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -721,7 +721,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 23011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -735,7 +735,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 23012,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -749,7 +749,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 23013,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -763,7 +763,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 23014,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -777,7 +777,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 23015,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -791,7 +791,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 23016,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -805,7 +805,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 23017,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -819,7 +819,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 23018,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -833,7 +833,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 23019,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -847,7 +847,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 23020,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -863,7 +863,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 19001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -877,7 +877,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 19002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -891,7 +891,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 19003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -905,7 +905,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 19004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -919,7 +919,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 19005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -933,7 +933,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 19006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -947,7 +947,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 19007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -961,7 +961,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 19008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -975,7 +975,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 19009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -989,7 +989,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 19010,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1003,7 +1003,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 19011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1017,7 +1017,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 19012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1031,7 +1031,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 19013,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1045,7 +1045,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 19014,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1059,7 +1059,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 19015,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1073,7 +1073,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 19016,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1087,7 +1087,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 19017,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1101,7 +1101,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 19018,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1115,7 +1115,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 19019,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1129,7 +1129,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 19020,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1145,7 +1145,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 20001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1159,7 +1159,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 20002,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1173,7 +1173,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 20003,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1187,7 +1187,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 20004,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1201,7 +1201,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 20005,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1217,7 +1217,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 15001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1231,7 +1231,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 15002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1245,7 +1245,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 15003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1259,7 +1259,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 15004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1273,7 +1273,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 15005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1287,7 +1287,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 15006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1301,7 +1301,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 15007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1315,7 +1315,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 15008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1329,7 +1329,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 15009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1343,7 +1343,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 15010,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1357,7 +1357,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 15011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1371,7 +1371,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 15012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1385,7 +1385,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 15013,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1399,7 +1399,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 15014,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1413,7 +1413,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 15015,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1427,7 +1427,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 15016,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1441,7 +1441,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 15017,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1455,7 +1455,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 15018,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1469,7 +1469,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 15019,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1483,7 +1483,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 15020,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1499,7 +1499,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 2001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1513,7 +1513,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 2002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1527,7 +1527,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 2003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1541,7 +1541,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 2004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1555,7 +1555,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 2005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1569,7 +1569,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 2006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1583,7 +1583,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 2007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1597,7 +1597,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 2008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1611,7 +1611,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 2009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1625,7 +1625,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 2010,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1639,7 +1639,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 2011,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1653,7 +1653,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 2012,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1667,7 +1667,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 2013,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1681,7 +1681,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 2014,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1695,7 +1695,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 2015,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1709,7 +1709,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 2016,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1723,7 +1723,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 2017,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1739,7 +1739,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 3001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1753,7 +1753,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 3002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1767,7 +1767,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 3003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1781,7 +1781,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 3004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1795,7 +1795,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 3005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1809,7 +1809,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 3006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1823,7 +1823,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 3007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1837,7 +1837,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 3008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1851,7 +1851,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 3009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1865,7 +1865,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 3010,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1879,7 +1879,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 3011,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1893,7 +1893,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 3012,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1907,7 +1907,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 3013,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1921,7 +1921,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 3014,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -1935,7 +1935,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 3015,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -1949,7 +1949,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 3016,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -1963,7 +1963,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 3017,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -1979,7 +1979,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 4001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -1993,7 +1993,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 4002,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2007,7 +2007,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 4003,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2021,7 +2021,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 4004,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2037,7 +2037,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 5001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2051,7 +2051,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 5002,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2065,7 +2065,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 5003,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2079,7 +2079,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 5004,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2093,7 +2093,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 5005,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2107,7 +2107,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 5006,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2121,7 +2121,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 5007,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2135,7 +2135,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 5008,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2149,7 +2149,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 5009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2163,7 +2163,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 5010,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2177,7 +2177,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 5011,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2191,7 +2191,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 5012,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2205,7 +2205,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 5013,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2219,7 +2219,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 5014,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2233,7 +2233,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 5015,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2247,7 +2247,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 5016,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2261,7 +2261,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 5017,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2277,7 +2277,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 6001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2291,7 +2291,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 6002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2305,7 +2305,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 6003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2319,7 +2319,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 6004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2333,7 +2333,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 6005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2347,7 +2347,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 6006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2361,7 +2361,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 6007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2375,7 +2375,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 6008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2389,7 +2389,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 6009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2403,7 +2403,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 6010,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2417,7 +2417,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 6011,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2431,7 +2431,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 6012,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2445,7 +2445,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 6013,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2459,7 +2459,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 6014,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2473,7 +2473,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 6015,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2487,7 +2487,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 6016,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2501,7 +2501,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 6017,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2515,7 +2515,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 6018,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2531,7 +2531,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 13001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2545,7 +2545,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 13002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2559,7 +2559,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 13003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2573,7 +2573,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 13004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2587,7 +2587,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 13005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2601,7 +2601,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 13006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2615,7 +2615,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 13007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2629,7 +2629,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 13008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2643,7 +2643,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 13009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2657,7 +2657,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 13010,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2671,7 +2671,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 13011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2685,7 +2685,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 13012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2699,7 +2699,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 13013,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2713,7 +2713,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 13014,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2727,7 +2727,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 13015,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2741,7 +2741,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 13016,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2755,7 +2755,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 13017,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2769,7 +2769,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 13018,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2783,7 +2783,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 13019,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2797,7 +2797,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 13020,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2813,7 +2813,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 7001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2827,7 +2827,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 7002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2841,7 +2841,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 7003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2855,7 +2855,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 7004,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2869,7 +2869,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 7005,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2883,7 +2883,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 7006,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2897,7 +2897,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 7007,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2911,7 +2911,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 7008,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2925,7 +2925,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 7009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -2939,7 +2939,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 7010,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -2953,7 +2953,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 7011,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -2967,7 +2967,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 7012,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -2981,7 +2981,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 7013,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -2995,7 +2995,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 7014,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3009,7 +3009,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 7015,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3023,7 +3023,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 7016,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3037,7 +3037,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 7017,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3051,7 +3051,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 7018,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3067,7 +3067,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 14001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3081,7 +3081,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 14002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3095,7 +3095,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 14003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3109,7 +3109,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 14004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3123,7 +3123,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 14005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3137,7 +3137,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 14006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3151,7 +3151,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 14007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3165,7 +3165,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 14008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3179,7 +3179,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 14009,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3193,7 +3193,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 14010,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3207,7 +3207,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 14011,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3221,7 +3221,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 14012,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3235,7 +3235,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 14013,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3249,7 +3249,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 14014,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3263,7 +3263,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 14015,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3277,7 +3277,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 14016,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3291,7 +3291,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 14017,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3305,7 +3305,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 14018,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3319,7 +3319,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 14019,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3335,7 +3335,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 17001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3349,7 +3349,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 17002,
-      CharDataTargetDescribe = "角色等级达到40级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task05",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3364,7 +3364,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 17003,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task06",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3379,7 +3379,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 17004,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task07",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3394,7 +3394,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 17005,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3408,7 +3408,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 17006,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3422,7 +3422,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 17007,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3436,7 +3436,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 17008,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task06",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3451,7 +3451,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 17009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3465,7 +3465,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 17010,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3479,7 +3479,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 17011,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3493,7 +3493,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 17012,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task06",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3508,7 +3508,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 17013,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task07",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3523,7 +3523,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 17014,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3537,7 +3537,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 17015,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：致无名者的安魂曲",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task07",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3554,7 +3554,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 21001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3568,7 +3568,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 21002,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3582,7 +3582,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 21003,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3596,7 +3596,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 21004,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3610,7 +3610,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 21005,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3626,7 +3626,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 8001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3640,7 +3640,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 8002,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3654,7 +3654,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 8003,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3668,7 +3668,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 8004,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3684,7 +3684,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 9001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3698,7 +3698,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 9002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3712,7 +3712,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 9003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3726,7 +3726,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 9004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3740,7 +3740,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 9005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3754,7 +3754,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 9006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3768,7 +3768,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 9007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3782,7 +3782,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 9008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3796,7 +3796,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 9009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3810,7 +3810,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 9010,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3824,7 +3824,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 9011,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3838,7 +3838,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 9012,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3852,7 +3852,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 9013,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3866,7 +3866,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 9014,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3880,7 +3880,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 9015,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3894,7 +3894,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 9016,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3908,7 +3908,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 9017,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3924,7 +3924,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 12001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -3938,7 +3938,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 12002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -3952,7 +3952,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 12003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -3966,7 +3966,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 12004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -3980,7 +3980,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 12005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -3994,7 +3994,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 12006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4008,7 +4008,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 12007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4022,7 +4022,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 12008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4036,7 +4036,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 12009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4050,7 +4050,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 12010,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4064,7 +4064,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 12011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4078,7 +4078,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 12012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4092,7 +4092,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 12013,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4106,7 +4106,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 12014,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4120,7 +4120,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 12015,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4134,7 +4134,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 12016,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4148,7 +4148,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 12017,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4162,7 +4162,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 12018,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4176,7 +4176,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 12019,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4192,7 +4192,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 10001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4206,7 +4206,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 10002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4220,7 +4220,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 10003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4234,7 +4234,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 10004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4248,7 +4248,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 10005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4262,7 +4262,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 10006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4276,7 +4276,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 10007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4290,7 +4290,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 10008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4304,7 +4304,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 10009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4318,7 +4318,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 10010,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4332,7 +4332,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 10011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4346,7 +4346,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 10012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4360,7 +4360,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 10013,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4374,7 +4374,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 10014,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4388,7 +4388,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 10015,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4402,7 +4402,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 10016,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4416,7 +4416,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 10017,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4430,7 +4430,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 10018,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4444,7 +4444,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 10019,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4460,7 +4460,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 16001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4474,7 +4474,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 16002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4488,7 +4488,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 16003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4502,7 +4502,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 16004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4516,7 +4516,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 16005,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4530,7 +4530,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 16006,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4544,7 +4544,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 16007,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4558,7 +4558,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 16008,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4572,7 +4572,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 16009,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4586,7 +4586,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 16010,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4600,7 +4600,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 16011,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4614,7 +4614,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 16012,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4628,7 +4628,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 16013,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4642,7 +4642,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 16014,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4656,7 +4656,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 16015,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4670,7 +4670,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 16016,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4686,7 +4686,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 11001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4700,7 +4700,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 11002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4714,7 +4714,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 11003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4728,7 +4728,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 11004,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：乘着轻柔的风",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task01",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4743,7 +4743,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 11005,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：乘着轻柔的风",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task02",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4758,7 +4758,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 11006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4772,7 +4772,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 11007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4786,7 +4786,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 11008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4800,7 +4800,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 11009,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：献给一位少女的花束",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task03",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4815,7 +4815,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 11010,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：乘着轻柔的风",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task02",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4830,7 +4830,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 11011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4844,7 +4844,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 11012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4858,7 +4858,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 11013,
-      CharDataTargetDescribe = "角色等级达到40级\n完成任务：献给一位少女的花束",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task04",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4873,7 +4873,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 11014,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：乘着轻柔的风",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task01",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4888,7 +4888,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 11015,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：乘着轻柔的风",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task02",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4903,7 +4903,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 11016,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4917,7 +4917,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 11017,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -4931,7 +4931,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 11018,
-      CharDataTargetDescribe = "角色等级达到40级\n完成任务：献给一位少女的花束",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task04",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -4946,7 +4946,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 11019,
-      CharDataTargetDescribe = "角色等级达到50级\n完成任务：乘着轻柔的风",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task01",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -4961,7 +4961,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 11020,
-      CharDataTargetDescribe = "角色等级达到60级\n完成任务：乘着轻柔的风",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_task02",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -4978,7 +4978,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 22001,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -4992,7 +4992,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 22002,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -5006,7 +5006,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 22003,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -5020,7 +5020,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 22004,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -5034,7 +5034,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 22005,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -5048,7 +5048,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 22006,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -5062,7 +5062,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 22007,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -5076,7 +5076,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 22008,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -5090,7 +5090,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 22009,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -5104,7 +5104,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 22010,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -5118,7 +5118,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 22011,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -5132,7 +5132,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 22012,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -5146,7 +5146,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 22013,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -5160,7 +5160,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 22014,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -5174,7 +5174,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 22015,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,
@@ -5188,7 +5188,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 22016,
-      CharDataTargetDescribe = "角色等级达到20级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 1,
@@ -5202,7 +5202,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 22017,
-      CharDataTargetDescribe = "角色等级达到30级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
@@ -5216,7 +5216,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes033"
       },
       CharDataTarget = 22018,
-      CharDataTargetDescribe = "角色等级达到40级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
@@ -5230,7 +5230,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes034"
       },
       CharDataTarget = 22019,
-      CharDataTargetDescribe = "角色等级达到50级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 4,
@@ -5244,7 +5244,7 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes035"
       },
       CharDataTarget = 22020,
-      CharDataTargetDescribe = "角色等级达到60级",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 5,

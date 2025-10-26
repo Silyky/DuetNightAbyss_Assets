@@ -2266,9 +2266,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Char_Grade_Boy",
     Ease = 14,
     Location = {
-      160,
-      77,
-      135
+      155,
+      70,
+      128
     },
     Rotation = {
       0,
@@ -2282,9 +2282,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Char_Grade_Detail_Boy",
     Ease = 14,
     Location = {
-      160,
+      155,
       40,
-      135
+      128
     },
     Rotation = {
       0,
@@ -2417,9 +2417,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Char_Grade_Switch_Boy",
     Ease = 14,
     Location = {
-      160,
-      77,
-      135
+      155,
+      80,
+      128
     },
     Rotation = {
       0,
@@ -12231,8 +12231,8 @@ return ReadOnly("ArmoryCameraData", {
     Ease = 14,
     ForwardLocation = {
       0,
-      206,
-      70
+      230,
+      125
     },
     Location = {
       0,

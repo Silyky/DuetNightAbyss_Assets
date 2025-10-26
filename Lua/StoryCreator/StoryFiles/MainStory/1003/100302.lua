@@ -1213,14 +1213,7 @@ return {
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {
-                1720446,
-                1720221,
-                1720231,
-                1720232,
-                1720233,
-                1720724
-              }
+              StaticCreatorIdList = {1720446, 1720724}
             }
           },
           ["1739949714506783891"] = {
@@ -1246,14 +1239,7 @@ return {
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {
-                1720446,
-                1720221,
-                1720231,
-                1720232,
-                1720233,
-                1720724
-              }
+              StaticCreatorIdList = {1720446, 1720724}
             }
           },
           ["17470575386294302740"] = {
@@ -1436,7 +1422,7 @@ return {
               FlowAssetPath = "",
               TalkType = "FixSimple",
               TalkStageName = "cp2fixsimple20",
-              BlendInTime = 0.5,
+              BlendInTime = 0,
               BlendOutTime = 0,
               InType = "FadeIn",
               OutType = "FadeOut",

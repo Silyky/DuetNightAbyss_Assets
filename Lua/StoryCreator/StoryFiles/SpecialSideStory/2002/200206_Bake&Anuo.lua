@@ -881,8 +881,8 @@ return {
               NpcNodeInteractiveName = "",
               NpcId = 700102,
               GuideUIEnable = true,
-              GuideType = "P",
-              GuidePointName = "TargetPoint_Bake",
+              GuideType = "N",
+              GuidePointName = "Npc_Bake_1220081",
               DelayShowGuideTime = 0,
               FirstDialogueId = 51003401,
               FlowAssetPath = "",
@@ -1794,13 +1794,31 @@ return {
           {
             startQuest = "17479013120679786473",
             startPort = "Out",
+            endQuest = "17601869652682209",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601869652682209",
+            startPort = "true",
+            endQuest = "17601869723162329",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601869652682209",
+            startPort = "true",
+            endQuest = "17479013120679786474",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601869652682209",
+            startPort = "false",
             endQuest = "17479013120679786472",
             endPort = "In"
           },
           {
-            startQuest = "17479013120679786473",
-            startPort = "Out",
-            endQuest = "17479013120679786474",
+            startQuest = "17601869652682209",
+            startPort = "true",
+            endQuest = "17479013120679786472",
             endPort = "In"
           }
         },
@@ -1809,14 +1827,14 @@ return {
             key = "1740577402456786307",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 328.61118012422355, y = 525.7496894409938},
+            pos = {x = 188.61118012422355, y = 536.8608005521049},
             propsData = {ModeType = 0}
           },
           ["1740577402456786308"] = {
             key = "1740577402456786308",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1139.2773109243697, y = 527.218487394958},
+            pos = {x = 1431.2486370892443, y = 711.9496701906569},
             propsData = {ModeType = 0}
           },
           ["1740577402456786309"] = {
@@ -1830,7 +1848,7 @@ return {
             key = "1740577402456786310",
             type = "TalkNode",
             name = "和巴克的邻居对话",
-            pos = {x = 1061.8235237819863, y = 681.5626765713032},
+            pos = {x = 1158.454348154746, y = 724.6809561411957},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -1877,25 +1895,11 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["1740577402456786313"] = {
-            key = "1740577402456786313",
-            type = "GoToRegionNode",
-            name = "进入区域",
-            pos = {x = 421.12465025396193, y = 672.9951753227614},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 101101,
-              bGuideUIEnable = true,
-              GuideType = "N",
-              GuideName = "Npc_SSS_BakeNeighbour_1191151"
-            }
-          },
           ["17479013120679786472"] = {
             key = "17479013120679786472",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 795.8346071500962, y = 687.427725280986},
+            pos = {x = 911.6679404834294, y = 721.8721697254305},
             propsData = {
               NewDescription = "Description_200206_9",
               NewDetail = "Content_200206_9",
@@ -1906,7 +1910,7 @@ return {
             key = "17479013120679786473",
             type = "HasDetectiveAnswerNode",
             name = "检测是否获取过推理线索",
-            pos = {x = 611.7605983885868, y = 489.503757357018},
+            pos = {x = 446.20504283303126, y = 537.2815351347958},
             propsData = {
               AnswerIds = {200106}
             }
@@ -1915,7 +1919,7 @@ return {
             key = "17479013120679786474",
             type = "TalkNode",
             name = "得出推理结论",
-            pos = {x = 893.9589574619465, y = 494.79936546512624},
+            pos = {x = 1003.4571653472511, y = 513.8674658235492},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 51003104,
@@ -1926,6 +1930,30 @@ return {
               IsPlayStartSound = false,
               GuideTalkStyle = "Normal",
               OverrideFailBlend = false
+            }
+          },
+          ["17601869652682209"] = {
+            key = "17601869652682209",
+            type = "ExecuteBlueprintFunctionCheckVarNode",
+            name = "是否首次推理完成",
+            pos = {x = 691.1944444444446, y = 519.263888888889},
+            propsData = {
+              FunctionName = "Equal",
+              VarName = "BakeInferenceFinish",
+              Duration = 0,
+              VarInfos = {
+                {VarName = "Value", VarValue = "0"}
+              }
+            }
+          },
+          ["17601869723162329"] = {
+            key = "17601869723162329",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 946.5349462365593, y = 364.2459677419357},
+            propsData = {
+              VarName = "BakeInferenceFinish",
+              VarValue = 1
             }
           }
         },

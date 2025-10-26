@@ -112,12 +112,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17302794084017875",
-            startPort = "Out",
-            endQuest = "17302794084017869",
-            endPort = "In"
-          },
-          {
             startQuest = "17302794084017870",
             startPort = "Out",
             endQuest = "17302794084017877",
@@ -331,6 +325,18 @@ return {
             startQuest = "173028025967120647",
             startPort = "Out",
             endQuest = "1722675746885186765",
+            endPort = "In"
+          },
+          {
+            startQuest = "17302794084017875",
+            startPort = "Out",
+            endQuest = "17590298813791213",
+            endPort = "In"
+          },
+          {
+            startQuest = "17590298813791213",
+            startPort = "Out",
+            endQuest = "17302794084017869",
             endPort = "In"
           }
         },
@@ -1339,6 +1345,25 @@ return {
               RelatedRegionId = {},
               ClientRelatedRegionId = {},
               bStoreToServer = true
+            }
+          },
+          ["17590298813791213"] = {
+            key = "17590298813791213",
+            type = "SetPlayerStatusNode",
+            name = "设置玩家状态",
+            pos = {x = 1397.900372589227, y = -443.3051127149425},
+            propsData = {
+              HPPercent = -1,
+              ESPercent = -1,
+              SPPercent = -1,
+              BuffList = {
+                {
+                  Id = 310,
+                  LastTime = -1,
+                  Value = -1
+                }
+              },
+              RecoverPlayer = false
             }
           }
         },

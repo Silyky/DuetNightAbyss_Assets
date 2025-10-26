@@ -364,7 +364,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60024
   },
   [25] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Text = "PlayerLevel_Growth_Unlock_Content"
@@ -388,7 +388,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60025
   },
   [26] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Id = {
@@ -411,7 +411,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60026
   },
   [27] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Id = {
@@ -434,7 +434,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60027
   },
   [28] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Id = {
@@ -457,7 +457,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60028
   },
   [29] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Id = {
@@ -480,7 +480,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60029
   },
   [30] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Id = {
@@ -503,7 +503,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60030
   },
   [31] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     PlayerBuffId = 802,
     PlayerBuffLevel = 6,
     PlayerLevel = 31,
@@ -511,7 +511,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60031
   },
   [32] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Id = {
@@ -534,7 +534,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60032
   },
   [33] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     PlayerBuffId = 802,
     PlayerBuffLevel = 6,
     PlayerLevel = 33,
@@ -542,7 +542,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60033
   },
   [34] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 2500,
     NodeContent = {
       [1] = {
         Id = {
@@ -565,7 +565,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60034
   },
   [35] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Text = "PlayerLevel_Growth_Unlock_Content"
@@ -589,7 +589,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60035
   },
   [36] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Id = {
@@ -612,7 +612,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60036
   },
   [37] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Id = {
@@ -635,7 +635,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60037
   },
   [38] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Id = {
@@ -658,7 +658,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60038
   },
   [39] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Id = {
@@ -681,7 +681,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60039
   },
   [40] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Id = {
@@ -704,7 +704,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60040
   },
   [41] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     PlayerBuffId = 803,
     PlayerBuffLevel = 6,
     PlayerLevel = 41,
@@ -712,7 +712,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60041
   },
   [42] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Id = {
@@ -735,7 +735,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60042
   },
   [43] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     NodeContent = {
       [1] = {
         Id = {
@@ -758,7 +758,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60043
   },
   [44] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3000,
     PlayerBuffId = 803,
     PlayerBuffLevel = 6,
     PlayerLevel = 44,
@@ -766,7 +766,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60044
   },
   [45] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
     NodeContent = {
       [1] = {
         Id = {
@@ -799,7 +799,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60045
   },
   [46] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
     PlayerBuffId = 804,
     PlayerBuffLevel = 1,
     PlayerLevel = 46,
@@ -807,7 +807,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60046
   },
   [47] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
     PlayerBuffId = 804,
     PlayerBuffLevel = 1,
     PlayerLevel = 47,
@@ -815,7 +815,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60047
   },
   [48] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
     NodeContent = {
       [1] = {
         Id = {
@@ -838,7 +838,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60048
   },
   [49] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
     PlayerBuffId = 804,
     PlayerBuffLevel = 1,
     PlayerLevel = 49,
@@ -846,7 +846,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60049
   },
   [50] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
     NodeContent = {
       [1] = {
         Id = {
@@ -869,7 +869,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60050
   },
   [51] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 6,
     PlayerLevel = 51,
@@ -877,7 +892,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60051
   },
   [52] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 6,
     PlayerLevel = 52,
@@ -885,7 +915,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60052
   },
   [53] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 6,
     PlayerLevel = 53,
@@ -893,7 +938,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60053
   },
   [54] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 3500,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 6,
     PlayerLevel = 54,
@@ -901,7 +961,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60054
   },
   [55] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 4000,
     NodeContent = {
       [1] = {
         Text = "PlayerLevel_Growth_Unlock_Content"
@@ -925,7 +985,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60055
   },
   [56] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 4000,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 11,
     PlayerLevel = 56,
@@ -933,7 +1008,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60056
   },
   [57] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 4000,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 11,
     PlayerLevel = 57,
@@ -941,7 +1031,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60057
   },
   [58] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 4000,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 11,
     PlayerLevel = 58,
@@ -949,7 +1054,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60058
   },
   [59] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 4000,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 11,
     PlayerLevel = 59,
@@ -957,22 +1077,31 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60059
   },
   [60] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 5000,
     NodeContent = {
       [1] = {
-        Text = "PlayerLevel_Growth_Unlock_Content"
+        Id = {
+          1,
+          2,
+          3
+        }
       },
       [2] = {
+        Text = "PlayerLevel_Growth_Unlock_Content"
+      },
+      [3] = {
         Text = "PlayerLevel_HardBoss_Unlock_Content6"
       }
     },
     NodeTitle = {
-      [1] = "PlayerLevel_Growth_Unlock",
-      [2] = "PlayerLevel_HardBoss_Unlock"
+      [1] = "UI_NewWalnut_Unlock",
+      [2] = "PlayerLevel_Growth_Unlock",
+      [3] = "PlayerLevel_HardBoss_Unlock"
     },
     NodeType = {
-      [1] = "Text",
-      [2] = "Text"
+      [1] = "Walnut",
+      [2] = "Text",
+      [3] = "Text"
     },
     PlayerBuffId = 804,
     PlayerBuffLevel = 12,
@@ -981,7 +1110,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60060
   },
   [61] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 5000,
     PlayerBuffId = 804,
     PlayerBuffLevel = 12,
     PlayerLevel = 61,
@@ -989,7 +1118,22 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60061
   },
   [62] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 5000,
+    NodeContent = {
+      [1] = {
+        Id = {
+          1,
+          2,
+          3
+        }
+      }
+    },
+    NodeTitle = {
+      [1] = "UI_NewWalnut_Unlock"
+    },
+    NodeType = {
+      [1] = "Walnut"
+    },
     PlayerBuffId = 804,
     PlayerBuffLevel = 13,
     PlayerLevel = 62,
@@ -997,7 +1141,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60062
   },
   [63] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 5000,
     PlayerBuffId = 804,
     PlayerBuffLevel = 13,
     PlayerLevel = 63,
@@ -1005,7 +1149,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60063
   },
   [64] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 5000,
     PlayerBuffId = 804,
     PlayerBuffLevel = 14,
     PlayerLevel = 64,
@@ -1013,7 +1157,7 @@ return ReadOnly("PlayerLevelUp", {
     PlayerLevelReward = 60064
   },
   [65] = {
-    ModExtractMax = 2000,
+    ModExtractMax = 5000,
     PlayerBuffId = 804,
     PlayerBuffLevel = 15,
     PlayerLevel = 65,

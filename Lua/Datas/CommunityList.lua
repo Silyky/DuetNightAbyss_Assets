@@ -15,7 +15,7 @@ return ReadOnly("CommunityList", {
     CommunityId = 2,
     Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/SNS/T_Icon_Sns_Weixin.T_Icon_Sns_Weixin'",
     JobTips = "FollowCommunity_WeCom",
-    JumpLink = "http://welk.co/6XyrBr43tS",
+    JumpLink = "https://huke.163.com/wxUrlScheme?shareInfo=KGECZ-PzF_PfE59khJhhLpIbxMjDgC_HlhO6xgvMS-3CIvz3RfnPEA8mXZOsdobO2fAlxAWJG7jVJF5KN37kRj6L3C-al1ek6SVF9uwsgEqMfz19MzMPKdnU5Dz6URrr&type=drainage&appid=wxfe42d57febf7bf0d",
     JumpTips = "UI_JumpCommunity",
     Reward = 107004
   },

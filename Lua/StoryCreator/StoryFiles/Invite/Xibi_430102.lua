@@ -213,7 +213,7 @@ return {
               SoundStateType = 0,
               SoundPriority = 1,
               SoundType = 0,
-              SoundPath = "event:/bgm/cbt02/0043_story_empire",
+              SoundPath = "event:/bgm/cbt01/0036_story_renweidaozu",
               ParamKey = "",
               ParamValue = 0,
               RelatedRegionId = {},

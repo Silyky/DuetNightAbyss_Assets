@@ -5958,6 +5958,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
     DungeonCost = 0,
@@ -6099,6 +6100,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -6241,6 +6243,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -6359,6 +6362,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -6478,6 +6482,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -6612,6 +6617,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -6746,6 +6752,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -6882,6 +6889,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -7020,6 +7028,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -7171,6 +7180,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -7314,6 +7324,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -7463,6 +7474,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -7611,6 +7623,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -7766,6 +7779,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -7916,6 +7930,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -8045,6 +8060,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -8175,6 +8191,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -8307,6 +8324,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -8438,6 +8456,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -8572,6 +8591,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -8707,6 +8727,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -8826,6 +8847,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -8945,6 +8967,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
     DungeonCost = 0,
@@ -9086,6 +9109,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -9228,6 +9252,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -9346,6 +9371,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -9465,6 +9491,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -9599,6 +9626,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -9733,6 +9761,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -9869,6 +9898,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -10007,6 +10037,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -10158,6 +10189,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -10301,6 +10333,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -10450,6 +10483,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -10598,6 +10632,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -10753,6 +10788,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -10903,6 +10939,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -11032,6 +11069,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -11162,6 +11200,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -11294,6 +11333,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -11425,6 +11465,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -11559,6 +11600,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -11694,6 +11736,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -11813,6 +11856,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -11932,6 +11976,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
     DungeonCost = 0,
@@ -12073,6 +12118,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -12215,6 +12261,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -12333,6 +12380,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -12452,6 +12500,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -12586,6 +12635,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -12720,6 +12770,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -12856,6 +12907,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -12994,6 +13046,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -13145,6 +13198,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -13288,6 +13342,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -13437,6 +13492,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -13585,6 +13641,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -13740,6 +13797,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -13890,6 +13948,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -14019,6 +14078,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -14149,6 +14209,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -14281,6 +14342,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -14412,6 +14474,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -14546,6 +14609,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -14681,6 +14745,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -14800,6 +14865,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -18831,6 +18897,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -19082,6 +19149,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
     DungeonCost = 0,
@@ -19333,6 +19401,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -19573,7 +19642,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3013},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -19585,6 +19654,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -19825,7 +19895,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3014},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -19837,6 +19907,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_3",
     DungeonCost = 0,
@@ -20077,7 +20148,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3015},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -20089,6 +20160,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -20329,7 +20401,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3016},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -20341,6 +20413,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150104
     },
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
@@ -20592,6 +20665,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -20727,6 +20801,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -20862,6 +20937,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -20997,6 +21073,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -21132,6 +21209,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -21267,6 +21345,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -21402,6 +21481,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -21537,6 +21617,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -21672,6 +21753,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -21807,6 +21889,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -21942,6 +22025,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22077,6 +22161,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22212,6 +22297,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22347,6 +22433,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22482,6 +22569,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22617,6 +22705,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22753,6 +22842,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22777,7 +22867,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91201,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90101",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -22910,6 +23000,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -22934,7 +23025,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91202,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90102",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -23067,6 +23158,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -23091,7 +23183,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91203,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90103",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -23224,6 +23316,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -23248,7 +23341,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91204,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90104",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -23381,6 +23474,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -23405,7 +23499,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91205,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90105",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -23538,6 +23632,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -23562,7 +23657,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91206,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90106",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -23695,6 +23790,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -23719,7 +23815,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91207,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90107",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -23852,6 +23948,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -23876,7 +23973,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91208,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90108",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -24009,6 +24106,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
@@ -24033,7 +24131,7 @@ return ReadOnly("Dungeon", {
     DungeonRewardView = 91209,
     DungeonType = "DefenceMove",
     DungeonTypeShow = "DUNGEON_NAME_90109",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
@@ -24165,6 +24263,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -24285,7 +24384,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {115, 3031},
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150201,
       ["Mon.Jh"] = 150203,
@@ -24297,6 +24396,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -24417,7 +24517,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {125, 3032},
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150201,
       ["Mon.Jh"] = 150203,
@@ -24429,6 +24529,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -24549,7 +24650,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3033},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150201,
       ["Mon.Jh"] = 150203,
@@ -24561,6 +24662,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -24681,7 +24783,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3034},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150201,
       ["Mon.Jh"] = 150203,
@@ -24693,6 +24795,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -24813,7 +24916,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3035},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150201,
       ["Mon.Jh"] = 150203,
@@ -24825,6 +24928,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -24945,7 +25049,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3036},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150201,
       ["Mon.Jh"] = 150203,
@@ -24957,6 +25061,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150204
     },
+    DropRewardMonsterNum = 360,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXCAVATION_1",
     DungeonCost = 0,
@@ -25593,6 +25698,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -25712,6 +25818,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -25831,6 +25938,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -25940,7 +26048,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3102},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150301,
       ["Mon.Jh"] = 150303,
@@ -25951,6 +26059,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -26060,7 +26169,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3103},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150301,
       ["Mon.Jh"] = 150303,
@@ -26071,6 +26180,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -26180,7 +26290,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3104},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150301,
       ["Mon.Jh"] = 150303,
@@ -26191,6 +26301,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -26300,7 +26411,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3105},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150301,
       ["Mon.Jh"] = 150303,
@@ -26311,6 +26422,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150304
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
     DungeonCost = 0,
@@ -26677,6 +26789,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -26826,6 +26939,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -26968,6 +27082,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -27110,6 +27225,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -27252,6 +27368,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -27394,6 +27511,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -27525,9 +27643,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      115, 3051
-    },
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -27539,6 +27655,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151000,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -27683,9 +27800,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      115, 3051
-    },
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -27697,6 +27812,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151001,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -27834,9 +27950,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      115, 3051
-    },
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -27848,6 +27962,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151002,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -27985,9 +28100,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      115, 3051
-    },
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -27999,6 +28112,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151003,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -28136,9 +28250,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      115, 3051
-    },
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -28150,6 +28262,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151004,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -28287,9 +28400,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      115, 3051
-    },
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -28301,6 +28412,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151005,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -28438,9 +28550,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125, 3052
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -28452,6 +28562,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -28596,9 +28707,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125, 3052
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -28610,6 +28719,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151007,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -28747,9 +28857,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125, 3052
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -28761,6 +28869,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151008,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -28898,9 +29007,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125, 3052
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -28912,6 +29019,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151009,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -29049,9 +29157,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125, 3052
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -29063,6 +29169,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151010,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -29200,9 +29307,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      125, 3052
-    },
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -29214,6 +29319,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151011,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -29351,9 +29457,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135, 3053
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -29365,6 +29469,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -29503,9 +29608,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135, 3053
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -29517,6 +29620,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151007,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -29648,9 +29752,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135, 3053
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -29662,6 +29764,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151008,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -29793,9 +29896,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135, 3053
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -29807,6 +29908,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151009,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -29938,9 +30040,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135, 3053
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -29952,6 +30052,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151010,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -30083,9 +30184,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      135, 3053
-    },
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -30097,6 +30196,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151011,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -30228,9 +30328,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3054
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -30242,6 +30340,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151006,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -30386,9 +30485,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3054
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -30400,6 +30497,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151007,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -30537,9 +30635,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3054
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -30551,6 +30647,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151008,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -30688,9 +30785,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3054
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -30702,6 +30797,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151009,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -30839,9 +30935,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3054
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -30853,6 +30947,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151010,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -30990,9 +31085,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3054
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -31004,6 +31097,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151011,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -31141,9 +31235,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3055
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -31155,6 +31247,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151012,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -31299,9 +31392,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3055
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -31313,6 +31404,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151013,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -31450,9 +31542,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3055
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -31464,6 +31554,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151014,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -31601,9 +31692,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3055
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -31615,6 +31704,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151015,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -31752,9 +31842,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3055
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -31766,6 +31854,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151016,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -31903,9 +31992,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3055
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -31917,6 +32004,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151017,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -32054,9 +32142,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3056
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -32068,6 +32154,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151012,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -32206,9 +32293,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3056
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -32220,6 +32305,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151013,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -32351,9 +32437,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3056
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -32365,6 +32449,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151014,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -32496,9 +32581,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3056
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -32510,6 +32593,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151015,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -32641,9 +32725,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3056
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -32655,6 +32737,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151016,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -32786,9 +32869,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3056
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150401,
       ["Mon.Jh"] = 150403,
@@ -32800,6 +32881,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 151017,
       ["Mon.Sq"] = 150404
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVAL_1",
     DungeonCost = 0,
@@ -32940,6 +33022,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -33052,7 +33135,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {115, 3061},
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -33063,6 +33146,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -33175,7 +33259,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {125, 3062},
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -33186,6 +33270,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -33298,7 +33383,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3063},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -33309,6 +33394,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -33421,9 +33507,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3064
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -33434,6 +33518,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -33547,9 +33632,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3065
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -33560,6 +33643,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -33673,9 +33757,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3066
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -33686,6 +33768,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGE_1",
     DungeonCost = 0,
@@ -35335,9 +35418,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      145, 3064
-    },
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35461,9 +35542,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      155, 3065
-    },
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35587,9 +35666,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {
-      160, 3066
-    },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150501,
       ["Mon.Jh"] = 150503,
@@ -35724,6 +35801,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -35846,7 +35924,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {115, 3071},
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150601,
       ["Mon.Jh"] = 150603,
@@ -35858,6 +35936,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -35984,7 +36063,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {125, 3072},
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150601,
       ["Mon.Jh"] = 150603,
@@ -35996,6 +36075,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -36122,7 +36202,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3073},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150601,
       ["Mon.Jh"] = 150603,
@@ -36134,6 +36214,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -36260,7 +36341,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3074},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150601,
       ["Mon.Jh"] = 150603,
@@ -36272,6 +36353,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -36394,7 +36476,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3075},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150601,
       ["Mon.Jh"] = 150603,
@@ -36406,6 +36488,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -36532,7 +36615,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3076},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150601,
       ["Mon.Jh"] = 150603,
@@ -36544,6 +36627,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150604
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
@@ -36676,6 +36760,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -36799,6 +36884,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -36912,7 +36998,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {125, 3141},
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150701,
       ["Mon.Jh"] = 150703,
@@ -36923,6 +37009,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -37036,7 +37123,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3142},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150701,
       ["Mon.Jh"] = 150703,
@@ -37047,6 +37134,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -37160,7 +37248,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3143},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150701,
       ["Mon.Jh"] = 150703,
@@ -37171,6 +37259,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -37284,7 +37373,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3144},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150701,
       ["Mon.Jh"] = 150703,
@@ -37295,6 +37384,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -37408,7 +37498,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3145},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150701,
       ["Mon.Jh"] = 150703,
@@ -37419,6 +37509,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150704
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_HIJACK_1",
     DungeonCost = 0,
@@ -37543,6 +37634,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -37655,7 +37747,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {115, 3150},
+    Condition = 115,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -37666,6 +37758,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -37778,7 +37871,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {125, 3151},
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -37789,6 +37882,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -37901,7 +37995,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3152},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -37912,6 +38006,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -38024,7 +38119,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3153},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -38035,6 +38130,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -38147,7 +38243,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3154},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -38158,6 +38254,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -38270,7 +38367,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3155},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -38281,6 +38378,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 40,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
@@ -38402,6 +38500,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -38525,6 +38624,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -38638,7 +38738,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {125, 3131},
+    Condition = 125,
     DropReward = {
       ["Mon.Gr"] = 150901,
       ["Mon.Jh"] = 150903,
@@ -38649,6 +38749,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -38762,7 +38863,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3132},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150901,
       ["Mon.Jh"] = 150903,
@@ -38773,6 +38874,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -38886,7 +38988,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3133},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150901,
       ["Mon.Jh"] = 150903,
@@ -38897,6 +38999,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -39010,7 +39113,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3134},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150901,
       ["Mon.Jh"] = 150903,
@@ -39021,6 +39124,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -39134,7 +39238,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3135},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150901,
       ["Mon.Jh"] = 150903,
@@ -39145,6 +39249,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 150904
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_RESCUE_1",
     DungeonCost = 0,
@@ -40024,6 +40129,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 150,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -40070,6 +40176,7 @@ return ReadOnly("Dungeon", {
       6,
       8
     },
+    NoTicketEnter = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -40094,7 +40201,13 @@ return ReadOnly("Dungeon", {
       }
     },
     ShowAllLevel = true,
-    Squad = true
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    }
   },
   [91009] = {
     AlertDisable = true,
@@ -40135,6 +40248,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 175,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -40181,6 +40295,7 @@ return ReadOnly("Dungeon", {
       6,
       8
     },
+    NoTicketEnter = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -40205,7 +40320,13 @@ return ReadOnly("Dungeon", {
       }
     },
     ShowAllLevel = true,
-    Squad = true
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    }
   },
   [91010] = {
     AlertDisable = true,
@@ -40246,6 +40367,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -40292,6 +40414,7 @@ return ReadOnly("Dungeon", {
       6,
       8
     },
+    NoTicketEnter = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -40316,7 +40439,13 @@ return ReadOnly("Dungeon", {
       }
     },
     ShowAllLevel = true,
-    Squad = true
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    }
   },
   [91011] = {
     AlertDisable = true,
@@ -40357,6 +40486,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 250,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -40403,6 +40533,7 @@ return ReadOnly("Dungeon", {
       6,
       8
     },
+    NoTicketEnter = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -40427,7 +40558,13 @@ return ReadOnly("Dungeon", {
       }
     },
     ShowAllLevel = true,
-    Squad = true
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    }
   },
   [91091] = {
     AlertDisable = true,
@@ -40670,6 +40807,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -40796,6 +40934,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -40922,6 +41061,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41048,6 +41188,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41174,6 +41315,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41300,6 +41442,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41427,6 +41570,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41554,6 +41698,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41681,6 +41826,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41808,6 +41954,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -41935,6 +42082,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42062,6 +42210,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42189,6 +42338,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42316,6 +42466,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42443,6 +42594,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42570,6 +42722,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42697,6 +42850,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42824,6 +42978,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -42951,6 +43106,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43078,6 +43234,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43205,6 +43362,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43332,6 +43490,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43459,6 +43618,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43586,6 +43746,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43713,6 +43874,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43840,6 +44002,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -43967,6 +44130,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -44094,6 +44258,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -44221,6 +44386,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -44348,6 +44514,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -44475,6 +44642,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -44611,6 +44779,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -44747,6 +44916,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -44883,6 +45053,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45019,6 +45190,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45154,6 +45326,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45280,6 +45453,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45406,6 +45580,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45532,6 +45707,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45658,6 +45834,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45784,6 +45961,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 50,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -45911,6 +46089,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46038,6 +46217,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46165,6 +46345,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46292,6 +46473,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46419,6 +46601,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46546,6 +46729,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46673,6 +46857,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46800,6 +46985,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -46927,6 +47113,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47054,6 +47241,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47181,6 +47369,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47308,6 +47497,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47435,6 +47625,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47562,6 +47753,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47689,6 +47881,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47816,6 +48009,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -47943,6 +48137,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48070,6 +48265,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48197,6 +48393,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48324,6 +48521,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48451,6 +48649,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48578,6 +48777,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48705,6 +48905,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48832,6 +49033,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -48959,6 +49161,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -49095,6 +49298,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -49231,6 +49435,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -49367,6 +49572,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -49503,6 +49709,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
+    DropRewardMonsterNum = 100,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
@@ -49639,6 +49846,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -49794,6 +50002,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -49949,6 +50158,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -50104,6 +50314,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -50259,6 +50470,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -50414,6 +50626,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -50569,6 +50782,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -50724,6 +50938,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -50879,6 +51094,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
+    DropRewardMonsterNum = 120,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
     DungeonCost = 0,
@@ -51034,6 +51250,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 151104
     },
+    DropRewardMonsterNum = 1000,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
     DungeonCost = 0,
@@ -51155,6 +51372,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 151104
     },
+    DropRewardMonsterNum = 1000,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
     DungeonCost = 0,
@@ -51276,6 +51494,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 151104
     },
+    DropRewardMonsterNum = 1000,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
     DungeonCost = 0,
@@ -51397,6 +51616,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 151104
     },
+    DropRewardMonsterNum = 1000,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
     DungeonCost = 0,
@@ -51518,6 +51738,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 151104
     },
+    DropRewardMonsterNum = 1000,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
     DungeonCost = 0,
@@ -51639,6 +51860,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 151104
     },
+    DropRewardMonsterNum = 1000,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
     DungeonCost = 0,
@@ -51760,6 +51982,7 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 80,
       ["Mon.Sq"] = 151104
     },
+    DropRewardMonsterNum = 1000,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_SYNTHESIS_1",
     DungeonCost = 0,

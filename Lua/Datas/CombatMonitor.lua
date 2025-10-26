@@ -14,21 +14,21 @@ return ReadOnly("CombatMonitor", {
     MonitorType = "Time",
     ServerMark = true,
     SubId = {"Capture"},
-    Value = 60
+    Value = 15
   },
   [3] = {
     MonitorId = 3,
     MonitorType = "Time",
     ServerMark = true,
     SubId = {"Sabotage"},
-    Value = 50
+    Value = 15
   },
   [4] = {
     MonitorId = 4,
     MonitorType = "Time",
     ServerMark = true,
     SubId = {"Rescue"},
-    Value = 90
+    Value = 15
   },
   [5] = {
     MonitorId = 5,
@@ -37,28 +37,28 @@ return ReadOnly("CombatMonitor", {
     SubId = {
       "Exterminate"
     },
-    Value = 60
+    Value = 10
   },
   [6] = {
     MonitorId = 6,
     MonitorType = "Time",
     ServerMark = true,
     SubId = {"Hijack"},
-    Value = 120
+    Value = 80
   },
   [7] = {
     MonitorId = 7,
     MonitorType = "Time",
     ServerMark = true,
     SubId = {"Rouge"},
-    Value = 10
+    Value = 4
   },
   [8] = {
     MonitorId = 8,
     MonitorType = "Resource",
     ServerMark = true,
     SubId = {"RougeToken"},
-    Value = 4072
+    Value = 5000
   },
   [9] = {
     MonitorId = 9,

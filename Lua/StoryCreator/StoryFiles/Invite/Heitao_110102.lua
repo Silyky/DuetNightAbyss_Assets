@@ -144,7 +144,7 @@ return {
             key = "1721630101518341338",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 973.645702123963, y = 279.9294461577069},
+            pos = {x = 1005.7885592668201, y = 267.07230330056404},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80040201,
@@ -213,7 +213,7 @@ return {
               SoundStateType = 0,
               SoundPriority = 1,
               SoundType = 0,
-              SoundPath = "event:/bgm/mute",
+              SoundPath = "event:/bgm/cbt01/0016_judian",
               ParamKey = "",
               ParamValue = 0,
               RelatedRegionId = {},

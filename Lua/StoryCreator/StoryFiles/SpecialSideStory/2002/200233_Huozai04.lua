@@ -148,13 +148,13 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17448764402256898434",
+            startQuest = "17501261738686619512",
             startPort = "Out",
             endQuest = "17500794961095670974",
             endPort = "In"
           },
           {
-            startQuest = "17500794961095670974",
+            startQuest = "17448764402256898434",
             startPort = "Out",
             endQuest = "17448764402256898435",
             endPort = "In"
@@ -350,7 +350,7 @@ return {
             key = "17500794961095670974",
             type = "SendMessageNode",
             name = "变白天",
-            pos = {x = 1061.1637897310943, y = 299.1593135386689},
+            pos = {x = 836.7735513960104, y = 456.47638280620066},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "IcelakeCityDay",
@@ -471,12 +471,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17457393991669682998",
-            startPort = "Out",
-            endQuest = "17457393991659682993",
-            endPort = "Success"
-          },
-          {
             startQuest = "17457393991669682996",
             startPort = "Out",
             endQuest = "17500738298365486",
@@ -495,16 +489,46 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "175031957320424604442",
+            startPort = "Out",
+            endQuest = "17457393991669682995",
+            endPort = "Input"
+          },
+          {
+            startQuest = "17457393991659682992",
+            startPort = "QuestStart",
+            endQuest = "17601740258244666755",
+            endPort = "In"
+          },
+          {
             startQuest = "17457393991669682997",
+            startPort = "Out",
+            endQuest = "17601740307054666885",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601740307054666885",
             startPort = "Out",
             endQuest = "175031957320424604442",
             endPort = "In"
           },
           {
-            startQuest = "175031957320424604442",
+            startQuest = "17500738944716078",
             startPort = "Out",
-            endQuest = "17457393991669682995",
-            endPort = "Input"
+            endQuest = "17601740382534667097",
+            endPort = "In"
+          },
+          {
+            startQuest = "17457393991669682998",
+            startPort = "Out",
+            endQuest = "17601740467004667329",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601740467004667329",
+            startPort = "Out",
+            endQuest = "17457393991659682993",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -519,7 +543,7 @@ return {
             key = "17457393991659682993",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2027.5437615476574, y = 300.6619521657145},
+            pos = {x = 2303.5437615476576, y = 316.6619521657145},
             propsData = {ModeType = 0}
           },
           ["17457393991669682994"] = {
@@ -693,6 +717,64 @@ return {
             name = "延迟等待",
             pos = {x = 1063.634626076433, y = 326.0592222449758},
             propsData = {WaitTime = 0.5}
+          },
+          ["17601740258244666755"] = {
+            key = "17601740258244666755",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 762, y = 72},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt03/0072_story_reasoning",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai04-reason"
+            }
+          },
+          ["17601740307054666885"] = {
+            key = "17601740307054666885",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 942, y = 582},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai04-reason"
+            }
+          },
+          ["17601740382534667097"] = {
+            key = "17601740382534667097",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1686, y = 540},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt03/0072_story_reasoning",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai04-reason"
+            }
+          },
+          ["17601740467004667329"] = {
+            key = "17601740467004667329",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 2024.0000000000002, y = 311.99999999999994},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai04-reason"
+            }
           }
         },
         commentData = {}
@@ -746,19 +828,7 @@ return {
           {
             startQuest = "17457393991729683021",
             startPort = "Out",
-            endQuest = "17501426639582712",
-            endPort = "In"
-          },
-          {
-            startQuest = "17457393991729683021",
-            startPort = "Out",
             endQuest = "17500797922945673439",
-            endPort = "In"
-          },
-          {
-            startQuest = "17501426639582712",
-            startPort = "Out",
-            endQuest = "17457393991729683022",
             endPort = "In"
           },
           {
@@ -792,7 +862,31 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17500797715875673229",
+            startPort = "Out",
+            endQuest = "17501426639582712",
+            endPort = "In"
+          },
+          {
+            startQuest = "17457393991729683021",
+            startPort = "Out",
+            endQuest = "17457393991729683022",
+            endPort = "In"
+          },
+          {
+            startQuest = "17457393991729683021",
+            startPort = "Out",
+            endQuest = "17601740603114667589",
+            endPort = "In"
+          },
+          {
             startQuest = "175031962027625556903",
+            startPort = "Out",
+            endQuest = "17601740758804667925",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601740758804667925",
             startPort = "Out",
             endQuest = "175023143173412303854",
             endPort = "In"
@@ -836,7 +930,7 @@ return {
             key = "17457393991729683022",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1631.8836723586624, y = 287.1569730769382},
+            pos = {x = 1451.04646302539, y = 267.1569730769382},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 51009856,
@@ -945,7 +1039,7 @@ return {
             key = "17501426639582712",
             type = "SendMessageNode",
             name = "变黑夜",
-            pos = {x = 1366.8049746830006, y = 303.30713361180517},
+            pos = {x = 1087.5366889290103, y = 486.23395834149323},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "IcelakeCityNight",
@@ -978,7 +1072,7 @@ return {
             key = "175031962027625556903",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1971.6404848718898, y = 286.837720759945},
+            pos = {x = 1789.6404848718898, y = 266.837720759945},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 51010143,
@@ -1043,6 +1137,35 @@ return {
               NormalOptions = {},
               OverrideFailBlend = false
             }
+          },
+          ["17601740603114667589"] = {
+            key = "17601740603114667589",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1452, y = 500},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt02/0043_story_empire",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai04-empire"
+            }
+          },
+          ["17601740758804667925"] = {
+            key = "17601740758804667925",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 2074, y = 300.00000000000006},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai04-empire"
+            }
           }
         },
         commentData = {}
@@ -1094,14 +1217,32 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17457393991809683063",
+            startPort = "Out",
+            endQuest = "17601741219904668268",
+            endPort = "In"
+          },
+          {
             startQuest = "17457393991809683064",
             startPort = "Option_1",
+            endQuest = "17601741269114668411",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601741269114668411",
+            startPort = "Out",
             endQuest = "17457393991819683066",
             endPort = "In"
           },
           {
             startQuest = "17457393991809683064",
             startPort = "Option_2",
+            endQuest = "17601741462794668897",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601741462794668897",
+            startPort = "Out",
             endQuest = "17457393991819683067",
             endPort = "In"
           }
@@ -1118,14 +1259,14 @@ return {
             key = "17457393991799683061",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2259.947361028228, y = 180.44460238189413},
+            pos = {x = 2511.947361028228, y = 184.44460238189413},
             propsData = {ModeType = 0}
           },
           ["17457393991799683062"] = {
             key = "17457393991799683062",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2254.5736381499128, y = 431.74419856273454},
+            pos = {x = 2506.5736381499128, y = 435.74419856273454},
             propsData = {}
           },
           ["17457393991809683063"] = {
@@ -1214,14 +1355,14 @@ return {
             key = "17457393991819683066",
             type = "QuestConditionNode",
             name = "QuestCondition",
-            pos = {x = 1919.242294074222, y = 188.61484037658485},
+            pos = {x = 2171.2422940742217, y = 192.61484037658485},
             propsData = {PortName = "不揭发"}
           },
           ["17457393991819683067"] = {
             key = "17457393991819683067",
             type = "QuestConditionNode",
             name = "QuestCondition",
-            pos = {x = 1920.7085338404895, y = 435.36005565857886},
+            pos = {x = 2172.7085338404895, y = 439.36005565857886},
             propsData = {PortName = "揭发"}
           },
           ["17457393991819683069"] = {
@@ -1315,6 +1456,47 @@ return {
               NormalOptions = {},
               OverrideFailBlend = false
             }
+          },
+          ["17601741219904668268"] = {
+            key = "17601741219904668268",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1504, y = 98},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0036_story_renweidaozu",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai04-daozu"
+            }
+          },
+          ["17601741269114668411"] = {
+            key = "17601741269114668411",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1854, y = 210},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai04-daozu"
+            }
+          },
+          ["17601741462794668897"] = {
+            key = "17601741462794668897",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1850, y = 411.99999999999994},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai04-daozu"
+            }
           }
         },
         commentData = {}
@@ -1392,13 +1574,13 @@ return {
           {
             startQuest = "17457393991899683109",
             startPort = "Out",
-            endQuest = "1750147654480952214",
+            endQuest = "17457393991899683110",
             endPort = "In"
           },
           {
-            startQuest = "1750147654480952214",
+            startQuest = "17501713919646628291",
             startPort = "Out",
-            endQuest = "17457393991899683110",
+            endQuest = "1750147654480952214",
             endPort = "In"
           }
         },
@@ -1635,7 +1817,7 @@ return {
             key = "1750147654480952214",
             type = "SendMessageNode",
             name = "变白天",
-            pos = {x = 1113.0338330639988, y = 284.168992010692},
+            pos = {x = 923.2902476509223, y = 475.1946286765597},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "IcelakeCityDay",

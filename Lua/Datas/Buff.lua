@@ -1735,7 +1735,7 @@ return ReadOnly("Buff", {
     BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
-    MergeRule1 = "Personal",
+    MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [10201] = {
@@ -2121,7 +2121,7 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
     MaxLayer = 10,
-    MergeRule1 = "Personal",
+    MergeRule1 = "Global",
     MergeRule2 = "NewFree"
   },
   [20510] = {
@@ -4383,7 +4383,9 @@ return ReadOnly("Buff", {
     BuffEffects = 1041,
     BuffId = 180131,
     BuffType = {
-      10, 180130
+      10,
+      180130,
+      180131
     },
     BuffTypeImgPath = "BonusDmg_Water",
     IconPriority = 23,
@@ -4405,7 +4407,9 @@ return ReadOnly("Buff", {
     BuffEffects = 1042,
     BuffId = 180132,
     BuffType = {
-      10, 180130
+      10,
+      180130,
+      180132
     },
     BuffTypeImgPath = "BonusDmg_Fire",
     IconPriority = 22,
@@ -4427,7 +4431,9 @@ return ReadOnly("Buff", {
     BuffEffects = 1044,
     BuffId = 180133,
     BuffType = {
-      10, 180130
+      10,
+      180130,
+      180133
     },
     BuffTypeImgPath = "BonusDmg_Thunder",
     IconPriority = 21,
@@ -4449,7 +4455,9 @@ return ReadOnly("Buff", {
     BuffEffects = 1043,
     BuffId = 180134,
     BuffType = {
-      10, 180130
+      10,
+      180130,
+      180134
     },
     BuffTypeImgPath = "BonusDmg_Wind",
     IconPriority = 20,
@@ -4466,7 +4474,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       },
       [2] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
+        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4478,6 +4488,8 @@ return ReadOnly("Buff", {
       10, 180130
     },
     BuffTypeImgPath = "BonusDmg_Water",
+    DisperseBuffType = 180131,
+    ForbidBuffType = 180131,
     IconPriority = 23,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -4491,7 +4503,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       },
       [2] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
+        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4503,6 +4517,8 @@ return ReadOnly("Buff", {
       10, 180130
     },
     BuffTypeImgPath = "BonusDmg_Fire",
+    DisperseBuffType = 180132,
+    ForbidBuffType = 180132,
     IconPriority = 22,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -4516,7 +4532,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       },
       [2] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
+        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4528,6 +4546,8 @@ return ReadOnly("Buff", {
       10, 180130
     },
     BuffTypeImgPath = "BonusDmg_Thunder",
+    DisperseBuffType = 180133,
+    ForbidBuffType = 180133,
     IconPriority = 21,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -4541,7 +4561,9 @@ return ReadOnly("Buff", {
         Value = "#1"
       },
       [2] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
+        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4553,6 +4575,8 @@ return ReadOnly("Buff", {
       10, 180130
     },
     BuffTypeImgPath = "BonusDmg_Wind",
+    DisperseBuffType = 180134,
+    ForbidBuffType = 180134,
     IconPriority = 20,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -6017,7 +6041,7 @@ return ReadOnly("Buff", {
         DotDelay = 2,
         Interval = 1,
         Type = "SpChange",
-        Value = -25
+        Value = -20
       }
     },
     MergeRule1 = "Personal",
@@ -6572,6 +6596,31 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge",
     VisualEffects = {430156}
   },
+  [430123] = {
+    BuffId = 430123,
+    ForbidBuffType = {
+      10,
+      11,
+      12,
+      20,
+      21,
+      22,
+      30,
+      40,
+      41,
+      42,
+      43,
+      44,
+      49,
+      60,
+      61,
+      62,
+      63,
+      999
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
   [510001] = {
     BuffId = 510001,
     HaloDatas = {
@@ -6853,7 +6902,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "EnmityValue",
-        Value = 0.15
+        Value = 0.05
       }
     },
     BuffId = 510192,
@@ -7094,7 +7143,8 @@ return ReadOnly("Buff", {
   [530113] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = 0.5
       }
     },
@@ -7284,7 +7334,7 @@ return ReadOnly("Buff", {
   },
   [540111] = {
     BuffId = 540111,
-    BuffType = 11,
+    BuffType = {11, 540111},
     BuffTypeImgPath = "Hot_Up",
     DotDatas = {
       [1] = {
@@ -7368,6 +7418,7 @@ return ReadOnly("Buff", {
     BuffId = 540114,
     BuffType = 11,
     BuffTypeImgPath = "Hot_Up",
+    DisperseBuffType = 540111,
     DotDatas = {
       [1] = {
         AllowSkillIntensity = 1,
@@ -7383,6 +7434,7 @@ return ReadOnly("Buff", {
         Value = 3
       }
     },
+    ForbidBuffType = 540111,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
@@ -7395,10 +7447,11 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
+    AddPassiveEffect = 205,
     AllowSkillSustainModify = true,
     BuffEffects = 540121,
     BuffId = 540121,
-    BuffType = 10,
+    BuffType = {10, 540121},
     BuffTypeImgPath = "BonusDmg_Wind",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -7413,12 +7466,14 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = {540102},
+    AddPassiveEffect = {205, 540102},
     AllowSkillSustainModify = true,
     BuffEffects = 540121,
     BuffId = 540122,
     BuffType = 10,
     BuffTypeImgPath = "BonusDmg_Wind",
+    DisperseBuffType = 540121,
+    ForbidBuffType = 540121,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -7739,11 +7794,7 @@ return ReadOnly("Buff", {
   [700701] = {
     AllowSkillSustainModify = true,
     BuffId = 700701,
-    BuffType = {
-      20,
-      49,
-      203
-    },
+    BuffType = {20, 203},
     BuffTypeImgPath = "Stun",
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
@@ -8053,6 +8104,7 @@ return ReadOnly("Buff", {
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
+    NotEnterTarget = true,
     SpecialEffect = {
       "Invincible"
     }
@@ -8087,6 +8139,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
+    NotEnterTarget = true,
     SpecialEffect = {
       "Invincible"
     }
@@ -8470,6 +8523,7 @@ return ReadOnly("Buff", {
     },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
+    NotEnterTarget = true,
     SpecialEffect = {
       "Invincible"
     }
@@ -9118,6 +9172,38 @@ return ReadOnly("Buff", {
     MaxLayer = 10,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
+  },
+  [2010035] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "FireDamagedRate",
+        Value = 4
+      },
+      [2] = {
+        AttrName = "WindDamagedRate",
+        Value = 4
+      }
+    },
+    BuffId = 2010035,
+    BuffType = 999,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2010051] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WindDamagedRate",
+        Value = 4
+      },
+      [2] = {
+        AttrName = "DarkDamagedRate",
+        Value = 4
+      }
+    },
+    BuffId = 2010051,
+    BuffType = 999,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
   },
   [2010101] = {
     BuffId = 2010101,
@@ -10214,16 +10300,9 @@ return ReadOnly("Buff", {
     VisualEffects = 2105
   },
   [5000201] = {
-    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Paoku_Common.BP_Buff_Paoku_Common",
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_5000201.BP_Buff_5000201",
     BuffId = 5000201,
-    DotDatas = {
-      [1] = {
-        EffectId = 101,
-        Immediately = 1,
-        Interval = 2,
-        Type = "SkillEffect"
-      }
-    },
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -10271,6 +10350,7 @@ return ReadOnly("Buff", {
   [5000204] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Paoku_Common.BP_Buff_Paoku_Common",
     BuffId = 5000204,
+    BuffType = 11,
     DotDatas = {
       [1] = {
         EffectId = 103,
@@ -10365,6 +10445,7 @@ return ReadOnly("Buff", {
   [5000209] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_Paoku_Common.BP_Buff_Paoku_Common",
     BuffId = 5000209,
+    BuffType = 11,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -11268,6 +11349,7 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
+    NotEnterTarget = true,
     SpecialEffect = {
       "Invincible"
     }
@@ -13267,7 +13349,8 @@ return ReadOnly("Buff", {
   [10106110] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = "#1"
       }
     },
@@ -13279,7 +13362,8 @@ return ReadOnly("Buff", {
   [10106111] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = "#1"
       }
     },
@@ -13773,7 +13857,8 @@ return ReadOnly("Buff", {
   [20119001] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = 0.1
       }
     },

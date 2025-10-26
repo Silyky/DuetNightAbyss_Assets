@@ -48,7 +48,7 @@ return ReadOnly("WeaponTag", {
   },
   Dualblade = {
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/WeaponType/T_Gacha_WeaponType_Dualblade.T_Gacha_WeaponType_Dualblade",
-    GachaSpine = "/Game/UI/WBP/Gacha/Widget/CampAni/WBP_Gacha_CampAni_Diguo.WBP_Gacha_CampAni_Diguo",
+    GachaSpine = "/Game/UI/WBP/Gacha/Widget/CampAni/WBP_Gacha_CampAni_DoubleSwords.WBP_Gacha_CampAni_DoubleSwords",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Dualblade.T_Armory_WeaponType_Dualblade",
     ImageType = 1,
     WeaponTag = "Dualblade",
@@ -81,7 +81,7 @@ return ReadOnly("WeaponTag", {
   MonSingle = {WeaponTag = "MonSingle", WeaponTagFloat = 2},
   Pistol = {
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/WeaponType/T_Gacha_WeaponType_Pistol.T_Gacha_WeaponType_Pistol",
-    GachaSpine = "/Game/UI/WBP/Gacha/Widget/CampAni/WBP_Gacha_CampAni_Diguo.WBP_Gacha_CampAni_Diguo",
+    GachaSpine = "/Game/UI/WBP/Gacha/Widget/CampAni/WBP_Gacha_CampAni_Singlegun.WBP_Gacha_CampAni_Singlegun",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_WeaponType_Pistol.T_Armory_WeaponType_Pistol",
     ImageType = 2,
     WeaponTag = "Pistol",

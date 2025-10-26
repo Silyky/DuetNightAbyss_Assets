@@ -588,6 +588,11 @@ return {
                   Id = 903,
                   LastTime = -1,
                   Value = -1
+                },
+                {
+                  Id = 110399,
+                  LastTime = -1,
+                  Value = -1
                 }
               }
             }

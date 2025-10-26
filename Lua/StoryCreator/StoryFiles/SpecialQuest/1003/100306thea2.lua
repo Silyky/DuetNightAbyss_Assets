@@ -465,6 +465,12 @@ return {
             startPort = "Out",
             endQuest = "1746625901645494227",
             endPort = "In"
+          },
+          {
+            startQuest = "1746625901645494193",
+            startPort = "Out",
+            endQuest = "17592304728593270",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -1563,6 +1569,18 @@ return {
               IsGuideEnable = false,
               GuidePointName = ""
             }
+          },
+          ["17592304728593270"] = {
+            key = "17592304728593270",
+            type = "ForbidWeaponByWeaponTagNode",
+            name = "禁用/启用武器节点",
+            pos = {x = 767.750492610838, y = -660.8492610837449},
+            propsData = {
+              WeaponTags = {"Melee"},
+              bForbid = true,
+              ForbidTag = "ForbidDefault",
+              bHidewhenForbid = true
+            }
           }
         },
         commentData = {}
@@ -1959,6 +1977,12 @@ return {
             startQuest = "1746625901645494256",
             startPort = "Out",
             endQuest = "1746625901645494276",
+            endPort = "In"
+          },
+          {
+            startQuest = "1746625901645494242",
+            startPort = "Out",
+            endQuest = "17592313553511865362",
             endPort = "In"
           }
         },
@@ -2772,6 +2796,18 @@ return {
             name = "镜头恢复",
             pos = {x = 237.3484848484846, y = 65.7500000000004},
             propsData = {Duration = 0}
+          },
+          ["17592313553511865362"] = {
+            key = "17592313553511865362",
+            type = "ForbidWeaponByWeaponTagNode",
+            name = "禁用/启用武器节点",
+            pos = {x = 880.5758589236839, y = 255.12205860106863},
+            propsData = {
+              WeaponTags = {"Melee"},
+              bForbid = false,
+              ForbidTag = "ForbidDefault",
+              bHidewhenForbid = true
+            }
           }
         },
         commentData = {}

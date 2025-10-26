@@ -227,7 +227,7 @@ return {
               IsCreate = false,
               IsClearOtherPhantom = false,
               IsSync = false,
-              StaticCreatorIdList = {1211010205}
+              StaticCreatorIdList = {1640642}
             }
           },
           ["17349449413142051559"] = {

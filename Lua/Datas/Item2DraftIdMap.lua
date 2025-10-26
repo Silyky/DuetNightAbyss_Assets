@@ -342,6 +342,12 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 4
     },
+    [20030] = {
+      DraftIds = {
+        [1] = 320030
+      },
+      MaxLen = 2
+    },
     [20033] = {
       DraftIds = {
         [1] = 320028
@@ -381,6 +387,12 @@ return ReadOnly("Item2DraftIdMap", {
     [30006] = {
       DraftIds = {
         [1] = 330005
+      },
+      MaxLen = 2
+    },
+    [30009] = {
+      DraftIds = {
+        [1] = 330006
       },
       MaxLen = 2
     },

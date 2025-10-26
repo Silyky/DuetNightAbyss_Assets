@@ -1606,12 +1606,12 @@ return ReadOnly("PassiveEffect", {
       DamageAddRateGrade2 = 0.001,
       EnergyAdd = "#1",
       Grade4Rate = 0.2,
-      LinkAddGrade2 = 3.0E-4,
+      LinkAddGrade2 = 1.0E-4,
       MaxEnergyGrade0 = 300,
       MaxEnergyGrade2Rate = 1,
       Skill01Energy = 20,
       Skill02Energy = 100,
-      Skill02LinkAddedRate = 0.08,
+      Skill02LinkAddedRate = 0.02,
       Skill02LinkRate = "#2"
     }
   },

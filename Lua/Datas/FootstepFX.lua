@@ -7,6 +7,10 @@ return ReadOnly("FootstepFX", {
     EffectPathForSlowState = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Foot.NS_Songlu_Skill02_Foot",
     PhysicalSurface = "Common_SongluSummon"
   },
+  Concrete = {
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/NS_Kong.NS_Kong",
+    PhysicalSurface = "Concrete"
+  },
   DeepWater = {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_EastNai_FootSteps01.NS_EastNai_FootSteps01",
     PhysicalSurface = "DeepWater"
@@ -15,6 +19,14 @@ return ReadOnly("FootstepFX", {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_ZZSteps_Water.NS_ZZSteps_Water",
     EffectPathForSlowState = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_ZZSteps_Water.NS_ZZSteps_Water",
     PhysicalSurface = "DeepWater_SongluSummon"
+  },
+  Dirt = {
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/NS_Kong.NS_Kong",
+    PhysicalSurface = "Dirt"
+  },
+  Glass = {
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/NS_Kong.NS_Kong",
+    PhysicalSurface = "Glass"
   },
   Grass = {
     EffectPath = "NiagaraDataChannelAsset'/Game/Asset/Effect/Niagara/Player/A_Common/NDC/NDC_FootSteps_Dust.NDC_FootSteps_Dust'",
@@ -29,10 +41,18 @@ return ReadOnly("FootstepFX", {
     EffectPathForSlowState = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Foot.NS_Songlu_Skill02_Foot",
     PhysicalSurface = "Grass_SongluSummon"
   },
+  Ice = {
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/NS_Kong.NS_Kong",
+    PhysicalSurface = "Ice"
+  },
   Ice_SongluSummon = {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Foot.NS_Songlu_Skill02_Foot",
     EffectPathForSlowState = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Foot.NS_Songlu_Skill02_Foot",
     PhysicalSurface = "Ice_SongluSummon"
+  },
+  Metal = {
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/NS_Kong.NS_Kong",
+    PhysicalSurface = "Metal"
   },
   Metal_SongluSummon = {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Foot.NS_Songlu_Skill02_Foot",
@@ -57,7 +77,10 @@ return ReadOnly("FootstepFX", {
     EffectPathForSlowState = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Foot.NS_Songlu_Skill02_Foot",
     PhysicalSurface = "Mud_SongluSummon"
   },
-  None = {PhysicalSurface = "None"},
+  None = {
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/NS_Kong.NS_Kong",
+    PhysicalSurface = "None"
+  },
   None_Bai = {
     EffectPath = "/Game/Asset/Effect/Niagara/NPC/Bai/NS_Bai_FootSteps_Dust.NS_Bai_FootSteps_Dust",
     PhysicalSurface = "None_Bai"
@@ -104,6 +127,10 @@ return ReadOnly("FootstepFX", {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_ZZSteps_Water.NS_ZZSteps_Water",
     EffectPathForSlowState = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_ZZSteps_Water.NS_ZZSteps_Water",
     PhysicalSurface = "Water_SongluSummon"
+  },
+  Wood = {
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/NS_Kong.NS_Kong",
+    PhysicalSurface = "Wood"
   },
   Wood_SongluSummon = {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Songlu/NS_Songlu_Skill02_Foot.NS_Songlu_Skill02_Foot",

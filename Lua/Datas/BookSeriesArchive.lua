@@ -266,5 +266,10 @@ return ReadOnly("BookSeriesArchive", {
     BookSeriesId = 1070,
     BookSeriesName = "READSERIES_1070",
     DetailDes = "READ_DESC_2000070"
+  },
+  [1096] = {
+    BookSeriesId = 1096,
+    BookSeriesName = "READSERIES_1096",
+    DetailDes = "READ_DESC_2000096"
   }
 })

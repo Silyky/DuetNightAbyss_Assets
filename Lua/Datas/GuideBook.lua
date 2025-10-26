@@ -374,13 +374,6 @@ return ReadOnly("GuideBook", {
     GuideNoteTab = 3,
     RewardId = 7000
   },
-  [79] = {
-    FinishQuest = 11010103,
-    GuideId = 64,
-    GuideNoteId = 79,
-    GuideNoteTab = 5,
-    RewardId = 7000
-  },
   [80] = {
     GuideId = 79,
     GuideNoteId = 80,
@@ -525,7 +518,7 @@ return ReadOnly("GuideBook", {
     RewardId = 7000
   },
   [104] = {
-    FinishQuest = 10010201,
+    CompleteUIGuideId = 81,
     GuideId = 81,
     GuideNoteId = 104,
     GuideNoteTab = 3,
@@ -581,6 +574,13 @@ return ReadOnly("GuideBook", {
     GuideNoteTab = 5,
     RewardId = 7000,
     SysGuideId = 2081
+  },
+  [112] = {
+    FinishQuestChain = 100208,
+    GuideId = 80,
+    GuideNoteId = 112,
+    GuideNoteTab = 5,
+    RewardId = 7000
   },
   [1001] = {
     CompleteUIGuideId = 10011,

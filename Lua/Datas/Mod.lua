@@ -1091,7 +1091,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1124,7 +1125,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1157,7 +1159,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1190,7 +1193,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1224,7 +1228,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1258,7 +1263,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1291,7 +1297,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1324,7 +1331,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1357,7 +1365,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -1391,7 +1400,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2259,7 +2269,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2292,7 +2303,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2325,7 +2337,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2358,7 +2371,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2392,7 +2406,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2426,7 +2441,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2460,7 +2476,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2493,7 +2510,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2526,7 +2544,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2559,7 +2578,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2592,7 +2612,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2625,7 +2646,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2658,7 +2680,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2692,7 +2715,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2725,7 +2749,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2759,7 +2784,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2792,7 +2818,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -2825,7 +2852,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -5874,7 +5902,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -5907,7 +5936,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -5940,7 +5970,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -5973,7 +6004,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6007,7 +6039,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6041,7 +6074,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6075,7 +6109,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6108,7 +6143,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6141,7 +6177,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6174,7 +6211,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6207,7 +6245,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6240,7 +6279,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6273,7 +6313,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6307,7 +6348,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6340,7 +6382,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6374,7 +6417,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6407,7 +6451,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -6440,7 +6485,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -9613,7 +9659,7 @@ return ReadOnly("Mod", {
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
     PassiveEffects = {
-      1420, 205
+      1420, 206
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
@@ -12517,7 +12563,7 @@ return ReadOnly("Mod", {
     },
     FilterTag = {
       [1] = "Tag_SkillSustain",
-      [2] = "Tag_Dmg",
+      [2] = "Tag_CRI",
       [3] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
@@ -14162,7 +14208,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14195,7 +14242,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14228,7 +14276,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14261,7 +14310,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14295,7 +14345,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14329,7 +14380,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14363,7 +14415,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14396,7 +14449,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14429,7 +14483,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14462,7 +14517,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14495,7 +14551,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14528,7 +14585,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14561,7 +14619,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14595,7 +14654,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14628,7 +14688,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14662,7 +14723,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14695,7 +14757,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -14728,7 +14791,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -18172,7 +18236,7 @@ return ReadOnly("Mod", {
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
     PassiveEffects = {
-      1420, 205
+      1420, 206
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
@@ -21463,7 +21527,7 @@ return ReadOnly("Mod", {
     },
     FilterTag = {
       [1] = "Tag_SkillSustain",
-      [2] = "Tag_ATK",
+      [2] = "Tag_CRI",
       [3] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
@@ -21524,7 +21588,7 @@ return ReadOnly("Mod", {
     },
     FilterTag = {
       [1] = "Tag_SkillSustain",
-      [2] = "Tag_Dmg",
+      [2] = "Tag_ATK",
       [3] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
@@ -22239,7 +22303,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22281,7 +22346,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22323,7 +22389,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22365,7 +22432,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22408,7 +22476,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22451,7 +22520,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22494,7 +22564,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22536,7 +22607,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22578,7 +22650,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22620,7 +22693,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22662,7 +22736,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22704,7 +22779,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22746,7 +22822,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22789,7 +22866,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22831,7 +22909,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22874,7 +22953,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22916,7 +22996,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -22958,7 +23039,8 @@ return ReadOnly("Mod", {
     AccessKey = {
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -24018,9 +24100,11 @@ return ReadOnly("Mod", {
   },
   [101001] = {
     AccessKey = {
+      "Shop_Fishing",
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -24029,9 +24113,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 101,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24056,15 +24137,18 @@ return ReadOnly("Mod", {
     TypeName = "MOD_Type_Name_Fenrir01"
   },
   [101002] = {
+    AccessKey = {
+      "Shop_Abyss",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "CRI", Rate = 0.4
       }
     },
     ApplicationType = 101,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24096,9 +24180,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 101,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24126,7 +24207,8 @@ return ReadOnly("Mod", {
   },
   [102001] = {
     AccessKey = {
-      "Shop_Fishing",
+      "Shop_Abyss",
+      "Shop_Main",
       "Forging",
       "MonsterStrong"
     },
@@ -24136,9 +24218,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 102,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24164,9 +24243,11 @@ return ReadOnly("Mod", {
   },
   [102002] = {
     AccessKey = {
+      "Shop_Fishing",
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -24174,9 +24255,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 102,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24209,9 +24287,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 102,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24236,15 +24311,18 @@ return ReadOnly("Mod", {
     TypeName = "MOD_Type_Name_Fenrir01"
   },
   [102004] = {
+    AccessKey = {
+      "Shop_Abyss",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "CRI", Rate = 0.4
       }
     },
     ApplicationType = 102,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24270,9 +24348,11 @@ return ReadOnly("Mod", {
   },
   [103001] = {
     AccessKey = {
+      "Shop_Fishing",
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -24281,9 +24361,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 103,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24309,18 +24386,16 @@ return ReadOnly("Mod", {
   },
   [103002] = {
     AccessKey = {
-      "Shop_Abyss",
+      "Shop_Fishing",
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {AttrName = "ATK", Rate = 0.5}
     },
     ApplicationType = 103,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24352,9 +24427,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 103,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24385,7 +24457,8 @@ return ReadOnly("Mod", {
       "Shop_Fishing",
       "Shop_Main",
       "Forging",
-      "MonsterStrong"
+      "MonsterStrong",
+      "Shop_Rouge"
     },
     AddAttrs = {
       [1] = {
@@ -24394,9 +24467,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 104,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24421,6 +24491,13 @@ return ReadOnly("Mod", {
     TypeName = "MOD_Type_Name_Fenrir01"
   },
   [104002] = {
+    AccessKey = {
+      "Shop_Fishing",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Shop_Rouge"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "AttackSpeed_Normal",
@@ -24428,9 +24505,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 104,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24461,9 +24535,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 104,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,
@@ -24503,9 +24574,6 @@ return ReadOnly("Mod", {
       }
     },
     ApplicationType = 106,
-    BreakDown = {
-      [102] = 50
-    },
     CollectRewardExp = 100,
     Cost = 30,
     CostChange = -1,

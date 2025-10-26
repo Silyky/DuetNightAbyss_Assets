@@ -1,11 +1,11 @@
 local Data = {
         },
         AFFIX_1001_DESC = {
-          ContentEN = "Auto-Pickup Range +#1",
+          ContentEN = "Auto-Pickup Range +#1m",
           TextMapId = "AFFIX_1001_DESC"
         },
         AFFIX_1002_DESC = {
-          ContentEN = "Increases item drop rate",
+          ContentEN = "Increases loot drop rate by #1",
           TextMapId = "AFFIX_1002_DESC"
         },
         AFFIX_1003_DESC = {
@@ -85,7 +85,7 @@ local Data = {
           TextMapId = "AREA_NAME_4"
         },
         ATTR_DESC_ATK_Dark = {
-          ContentEN = "When triggering bonus effects, inflicts a stack that deals periodic Umbra DMG to the target for 6s, up to 6 stacks, and reduces the target's Movement Speed, ATK Speed and Stance recovery speed.",
+          ContentEN = "When triggering bonus effects, inflicts 1 stack that deals periodic Umbro DMG to the target for 6s and decreases the target's Stance recovery speed, up to 6 stacks.",
           TextMapId = "ATTR_DESC_ATK_Dark"
         },
         ATTR_DESC_ATK_Fire = {
@@ -195,6 +195,14 @@ local Data = {
         Abyss_Buff_2 = {
           ContentEN = "Stage Score: Way Home",
           TextMapId = "Abyss_Buff_2"
+        },
+        Abyss_CharReward_Title = {
+          ContentEN = "New Characters Available",
+          TextMapId = "Abyss_CharReward_Title"
+        },
+        Abyss_CharReward_Walnut = {
+          ContentEN = "Claim Secret Letter: %s",
+          TextMapId = "Abyss_CharReward_Walnut"
         },
         Abyss_DungeonA = {
           ContentEN = "Hero's Odyssey",
@@ -349,7 +357,7 @@ local Data = {
           TextMapId = "Abyss_RecElemental"
         },
         Abyss_RecLevel = {
-          ContentEN = "Recommended Rank: Lv.{空格}",
+          ContentEN = "<H>Lv. </>{空格}",
           TextMapId = "Abyss_RecLevel"
         },
         Abyss_ResetFight = {
@@ -445,7 +453,7 @@ local Data = {
           TextMapId = "Access_Collecting"
         },
         Access_Collecting_EX01 = {
-          ContentEN = "Found in Lonza Fortress",
+          ContentEN = "Found at Lonza Fortress",
           TextMapId = "Access_Collecting_EX01"
         },
         Access_Collecting_Icelake01 = {
@@ -461,7 +469,7 @@ local Data = {
           TextMapId = "Access_Collecting_Icelake03"
         },
         Access_Collecting_Icelake04 = {
-          ContentEN = "Found in Eastern District, Icelake - Thawing Caverns",
+          ContentEN = "Found in Eastern District, Icelake -  Thawing Caverns",
           TextMapId = "Access_Collecting_Icelake04"
         },
         Access_Collecting_Kuangkeng = {
@@ -673,11 +681,11 @@ local Data = {
           TextMapId = "Attr_ES_Name"
         },
         Attr_EnmityValue_Name = {
-          ContentEN = "Malaise",
+          ContentEN = "Resolve",
           TextMapId = "Attr_EnmityValue_Name"
         },
         Attr_ExcelWeaponTag_Name = {
-          ContentEN = "Weapon Proficiency",
+          ContentEN = "Weapon",
           TextMapId = "Attr_ExcelWeaponTag_Name"
         },
         Attr_FallAttackRate_Name = {
@@ -1072,6 +1080,10 @@ local Data = {
           ContentEN = "Befriend <H>1</> Geniemon",
           TextMapId = "BattlePass_Task_Des_100001005"
         },
+        BattlePass_Task_Des_100001006 = {
+          ContentEN = "Complete <H>1</> Covert Commission",
+          TextMapId = "BattlePass_Task_Des_100001006"
+        },
         BattlePass_Task_Des_100001101 = {
           ContentEN = "Obtain <H>30</> Demon Wedges",
           TextMapId = "BattlePass_Task_Des_100001101"
@@ -1105,19 +1117,19 @@ local Data = {
           TextMapId = "BattlePass_Task_Des_100001108"
         },
         BattlePass_Task_Des_100001109 = {
-          ContentEN = "Spend <H>400</> Sanergy in total",
+          ContentEN = "Complete <H>6</> Covert Commissions",
           TextMapId = "BattlePass_Task_Des_100001109"
         },
         BattlePass_Task_Des_100001110 = {
-          ContentEN = "Spend <H>800</> Sanergy in total",
+          ContentEN = "Complete <H>12</> Covert Commissions",
           TextMapId = "BattlePass_Task_Des_100001110"
         },
         BattlePass_Task_Des_100001111 = {
-          ContentEN = "Spend <H>1,200</> Sanergy in total",
+          ContentEN = "Complete <H>18</> Covert Commissions",
           TextMapId = "BattlePass_Task_Des_100001111"
         },
         BattlePass_Task_Des_100001112 = {
-          ContentEN = "Spend <H>1,600</> Sanergy in total",
+          ContentEN = "Complete <H>24</> Covert Commissions",
           TextMapId = "BattlePass_Task_Des_100001112"
         },
         BattlePass_Task_Des_100001201 = {
@@ -1145,19 +1157,27 @@ local Data = {
           TextMapId = "BattlePass_Task_Des_100001206"
         },
         BattlePass_Task_Des_100001207 = {
-          ContentEN = "Collect <H>1,000</> EverSpring Vouchers in the Stranger from Afar event ",
+          ContentEN = "Complete <H>10</> commissions in the "Stranger from Afar" event",
           TextMapId = "BattlePass_Task_Des_100001207"
         },
         BattlePass_Task_Des_100001209 = {
-          ContentEN = "In the event "The Nightingale and Her Rainbow-Coloured Dream", complete the stage "Across the Thorned Vale – Part Ⅱ"",
+          ContentEN = "In the event "A Rainbow-coloured Dream", complete the stage "Across the Thorned Vale – Part Ⅱ"",
           TextMapId = "BattlePass_Task_Des_100001209"
+        },
+        BattlePass_Task_Des_100002201 = {
+          ContentEN = "Complete <H>6</> commissions in the "Huaxu — Incense and Marvels" event",
+          TextMapId = "BattlePass_Task_Des_100002201"
+        },
+        BattlePass_Task_Des_100002202 = {
+          ContentEN = "Earn <H>1,000</> Luno Points in the "Friendly Games" event",
+          TextMapId = "BattlePass_Task_Des_100002202"
         },
         BattleWheel_Apply = {
           ContentEN = "Apply",
           TextMapId = "BattleWheel_Apply"
         },
         BattleWheel_JumptoArmory = {
-          ContentEN = "Go to Progression",
+          ContentEN = "Weapon Progression",
           TextMapId = "BattleWheel_JumptoArmory"
         },
         BattleWheel_PhantomWeaponHasEquiped = {
@@ -1285,7 +1305,7 @@ local Data = {
           TextMapId = "BreakLevelUp_Insufficient_Resources"
         },
         Buff_Content_100 = {
-          ContentEN = "When a high-threat enemy's HP drops to #1, they become invincible, and a certain amount of enemies will spawn to join the fight. Defeating all the spawned enemies will remove the high-threat enemy's invincibility.",
+          ContentEN = "When an Extreme-Threat enemy's HP falls below #1, it becomes invincible for #2s and summons reinforcements. Each defeated enemy grants all allied units 1 stack of #3 Damage Dealt Increase, stacking up to #4 times. Invincibility ends early once a set number of enemies are defeated.",
           TextMapId = "Buff_Content_100"
         },
         Buff_Content_201 = {
@@ -1301,7 +1321,7 @@ local Data = {
           TextMapId = "Buff_Content_203"
         },
         Buff_Content_211 = {
-          ContentEN = "Enemies regenerate #1 of their Max Shield every 2 seconds. Regeneration pauses while any elemental bonus effect is active.",
+          ContentEN = "Enemies regenerate #1 of their Max Shield every 3 seconds. Regeneration pauses while any elemental bonus effect is active.",
           TextMapId = "Buff_Content_211"
         },
         Buff_Content_30 = {
@@ -1309,11 +1329,11 @@ local Data = {
           TextMapId = "Buff_Content_30"
         },
         Buff_Content_301 = {
-          ContentEN = "For every #1 time(s) an allied unit deals Skill Damage or Weapon Damage, they gain 1 stack that increases Attack by #2 for #3s, up to #4 stacks.",
+          ContentEN = "Every #1 instances of damage dealt by any ally grant 1 stack of #2 Skill Damage Increase, lasting #3 s and stacking up to #4 times.",
           TextMapId = "Buff_Content_301"
         },
         Buff_Content_302 = {
-          ContentEN = "Increases Ranged Weapon damage dealt by allied units when they are moving.",
+          ContentEN = "Increases all allies' Ranged Weapon DMG by #1.",
           TextMapId = "Buff_Content_302"
         },
         Buff_Content_303 = {
@@ -1325,7 +1345,7 @@ local Data = {
           TextMapId = "Buff_Content_304"
         },
         Buff_Content_401 = {
-          ContentEN = "When Primander is on the field, they increase the Attack of enemy units around them by #1 and reduces their Damage Taken by #2.",
+          ContentEN = "While a Primander is present, nearby enemies take #1 less damage.",
           TextMapId = "Buff_Content_401"
         },
         Buff_Content_402 = {
@@ -1339,6 +1359,14 @@ local Data = {
         Buff_Content_512 = {
           ContentEN = "Allies lose #1 CRIT Damage. Skill damage has a #2 chance to trigger an elemental bonus effect.",
           TextMapId = "Buff_Content_512"
+        },
+        Buff_Content_935 = {
+          ContentEN = "Enemy units take increased Pyro and Anemo Damage by <H>400%</>, and take reduced damage from other Attributes by <W>50%</>.",
+          TextMapId = "Buff_Content_935"
+        },
+        Buff_Content_951 = {
+          ContentEN = "Enemy units take increased Anemo and Umbro Damage by <H>400%</>, and take reduced damage from other Attributes by <W>50%</>.",
+          TextMapId = "Buff_Content_951"
         },
         Buff_Title_100 = {
           ContentEN = "Invincible Cadence: Bastion of Loyalty",
@@ -1365,7 +1393,7 @@ local Data = {
           TextMapId = "Buff_Title_30"
         },
         Buff_Title_301 = {
-          ContentEN = "Andante Furioso: Onslaught's Boon",
+          ContentEN = "Andante Furioso: Ingenuity's Boon",
           TextMapId = "Buff_Title_301"
         },
         Buff_Title_302 = {
@@ -1395,6 +1423,14 @@ local Data = {
         Buff_Title_512 = {
           ContentEN = "Coordinated Adagio: Soul Insight",
           TextMapId = "Buff_Title_512"
+        },
+        Buff_Title_935 = {
+          ContentEN = "Verdict Cadence: Fire & Wind's Ballad",
+          TextMapId = "Buff_Title_935"
+        },
+        Buff_Title_951 = {
+          ContentEN = "Verdict Cadence: Wind & Shadow's Ballad",
+          TextMapId = "Buff_Title_951"
         },
         CAPTURE_BULLETJUMP_PC = {
           ContentEN = "Use Helix Leap (&Slide& + &Jump&) to catch up with the target faster",
@@ -1496,6 +1532,10 @@ local Data = {
           ContentEN = "龟娘",
           TextMapId = "CVName1022",
         },
+        CVName1023 = {
+          ContentEN = "Cai Shujin",
+          TextMapId = "CVName1023",
+        },
         CVName2001 = {
           ContentEN = "Alexandra Guelff",
           TextMapId = "CVName2001"
@@ -1583,6 +1623,10 @@ local Data = {
         CVName2022 = {
           ContentEN = "Fern Deacon",
           TextMapId = "CVName2022"
+        },
+        CVName2023 = {
+          ContentEN = "Penelope Rawlins",
+          TextMapId = "CVName2023"
         },
         CVName3001 = {
           ContentEN = "石川由依",
@@ -1672,6 +1716,10 @@ local Data = {
           ContentEN = "石見舞菜香",
           TextMapId = "CVName3022"
         },
+        CVName3023 = {
+          ContentEN = "Asumi Kana",
+          TextMapId = "CVName3023",
+        },
         CVName4001 = {
           ContentEN = "김하영",
           TextMapId = "CVName4001",
@@ -1760,6 +1808,10 @@ local Data = {
           ContentEN = "이현진",
           TextMapId = "CVName4022",
         },
+        CVName4023 = {
+          ContentEN = "Kim Suyoung",
+          TextMapId = "CVName4023"
+        },
         Caesura = {
           ContentEN = ",
           ",
@@ -1834,7 +1886,7 @@ local Data = {
           TextMapId = "CharTrialEvent_Des_Baiheng"
         },
         CharTrialEvent_Des_Feina = {
-          ContentEN = "You met her beneath a sliver of tiny starry sky.\n With fairytales, she rewrote the scars of yesterday.\n Her snow-white quill lofted tender dreams — \n Unbound, they ride the wind over walls, wastes, and the chill of night.",
+          ContentEN = "You met her beneath a sliver of tiny starry sky.\n With fairytales, she rewrote the scars of yesterday.\n Her snow-white quill lofted myriad tender dreams — \n Unbound, they ride the wind over walls, wastes, and the chill of night.",
           TextMapId = "CharTrialEvent_Des_Feina"
         },
         CharTrialEvent_Des_Saiqi = {
@@ -1941,6 +1993,10 @@ local Data = {
           ContentEN = "Yale and Oliver",
           TextMapId = "ChatCharacter24"
         },
+        ChatCharacter25 = {
+          ContentEN = "Phantasio",
+          TextMapId = "ChatCharacter25"
+        },
         ChatCharacter26 = {
           ContentEN = "Margie",
           TextMapId = "ChatCharacter26"
@@ -2023,27 +2079,27 @@ local Data = {
           TextMapId = "Condition_Toast_DungeonUnlock_3042"
         },
         Condition_Toast_DungeonUnlock_3051 = {
-          ContentEN = "Unlocks after clearing Commission: Expedition ∞ (Ⅰ)",
+          ContentEN = "Unlocks after clearing Commission: Exploration ∞ (Ⅰ)",
           TextMapId = "Condition_Toast_DungeonUnlock_3051"
         },
         Condition_Toast_DungeonUnlock_3052 = {
-          ContentEN = "Unlocks after clearing Commission: Expedition ∞ (Ⅱ)",
+          ContentEN = "Unlocks after clearing Commission: Exploration ∞ (Ⅱ)",
           TextMapId = "Condition_Toast_DungeonUnlock_3052"
         },
         Condition_Toast_DungeonUnlock_3053 = {
-          ContentEN = "Unlocks after clearing Commission: Expedition ∞ (Ⅲ)",
+          ContentEN = "Unlocks after clearing Commission: Exploration ∞ (Ⅲ)",
           TextMapId = "Condition_Toast_DungeonUnlock_3053"
         },
         Condition_Toast_DungeonUnlock_3054 = {
-          ContentEN = "Unlocks after clearing Commission: Expedition ∞ (Ⅳ)",
+          ContentEN = "Unlocks after clearing Commission: Exploration ∞ (Ⅳ)",
           TextMapId = "Condition_Toast_DungeonUnlock_3054"
         },
         Condition_Toast_DungeonUnlock_3055 = {
-          ContentEN = "Unlocks after clearing Commission: Expedition ∞ (Ⅴ)",
+          ContentEN = "Unlocks after clearing Commission: Exploration ∞ (Ⅴ)",
           TextMapId = "Condition_Toast_DungeonUnlock_3055"
         },
         Condition_Toast_DungeonUnlock_3056 = {
-          ContentEN = "Unlocks after clearing Commission: Expedition ∞ (Ⅵ)",
+          ContentEN = "Unlocks after clearing Commission: Exploration ∞ (Ⅵ)",
           TextMapId = "Condition_Toast_DungeonUnlock_3056"
         },
         Condition_Toast_DungeonUnlock_3061 = {
@@ -2483,27 +2539,27 @@ local Data = {
           TextMapId = "Condition_Toast_PlayerLv_9"
         },
         Condition_Toast_PlayerLv_ModGuideBook_10 = {
-          ContentEN = "Unlocks at Trial Rank Lv. 10",
+          ContentEN = "Unlocks at Trial Lv. 10",
           TextMapId = "Condition_Toast_PlayerLv_ModGuideBook_10"
         },
         Condition_Toast_PlayerLv_ModGuideBook_12 = {
-          ContentEN = "Unlocks at Trial Rank Lv. 12",
+          ContentEN = "Unlocks at Trial Lv. 12",
           TextMapId = "Condition_Toast_PlayerLv_ModGuideBook_12"
         },
         Condition_Toast_PlayerLv_ModGuideBook_20 = {
-          ContentEN = "Unlocks at Trial Rank Lv. 20",
+          ContentEN = "Unlocks at Trial Lv. 20",
           TextMapId = "Condition_Toast_PlayerLv_ModGuideBook_20"
         },
         Condition_Toast_PlayerLv_ModGuideBook_25 = {
-          ContentEN = "Unlocks at Trial Rank Lv. 25",
+          ContentEN = "Unlocks at Trial Lv. 25",
           TextMapId = "Condition_Toast_PlayerLv_ModGuideBook_25"
         },
         Condition_Toast_PlayerLv_ModGuideBook_30 = {
-          ContentEN = "Unlocks at Trial Rank Lv. 30",
+          ContentEN = "Unlocks at Trial Lv. 30",
           TextMapId = "Condition_Toast_PlayerLv_ModGuideBook_30"
         },
         Condition_Toast_PlayerLv_ModGuideBook_35 = {
-          ContentEN = "Unlocks at Trial Rank Lv. 35",
+          ContentEN = "Unlocks at Trial Lv. 35",
           TextMapId = "Condition_Toast_PlayerLv_ModGuideBook_35"
         },
         Condition_Toast_PlayerLv_ModGuideBook_40 = {
@@ -2738,43 +2794,43 @@ local Data = {
           ContentEN = "This is your final hurdle tonight.\nGet past the gate guards without raising suspicion — and make it out of Icelake.",
           TextMapId = "Content_120003_9"
         Content_120101_1 = {
-          ContentEN = "Speak with Zhiliu",
+          ContentEN = "After a long voyage across distant seas, you've finally arrived in Huaxu.\nThe graceful scenery unfurling before you is a quiet reminder — you are far from home. Speak with Zhiliu to learn more about this place.",
           TextMapId = "Content_120101_1"
         Content_120101_10 = {
-          ContentEN = "Head to EverSpring",
+          ContentEN = "Now that you've learnt the Nine Chapters, you're starting to find your footing in Huaxu.\nFollow Lunocarp to the merchant guild, EverSpring, and rejoin Zhiliu.",
           TextMapId = "Content_120101_10"
         Content_120101_11 = {
-          ContentEN = "Speak with the travelling merchant",
+          ContentEN = "Midway through your journey, the ground trembles without warning.\nAn Enforcer you briefly met at the docks turns hostile, its form an uncanny hue — unlike any Bi'an you've seen.\nWith help from a passing merchant, you survive the threat. Speak with her to learn more.",
           TextMapId = "Content_120101_11"
         Content_120101_12 = {
-          ContentEN = "Head to EverSpring",
+          ContentEN = "From Yusheng, you learn the blessing that shielded you is bound to something called Incense — and it can be replenished at the Argent Loong Temple near EverSpring.\nFollow Lunocarp to the merchant guild, EverSpring, and rejoin Zhiliu.",
           TextMapId = "Content_120101_12"
         Content_120101_13 = {
           ContentEN = "Midway through your journey, the ground trembles without warning.\n An Enforcer you briefly met at the docks turns hostile, its form an uncanny hue — unlike any Bi'an you've seen.\n No time to think. Prepare for battle.",
           TextMapId = "Content_120101_13"
         Content_120101_2 = {
-          ContentEN = "Talk to the porter",
+          ContentEN = "The ship has only just docked when a call for Zhiliu rings out from the pier.\nDisembark and see what's going on.",
           TextMapId = "Content_120101_2"
         Content_120101_3 = {
-          ContentEN = "Head to the Market by the Pier",
+          ContentEN = "Everything in Huaxu feels new and exciting.\nThe dock buzzes with the calls of vendors and travellers alike. With time to spare, take a look around.",
           TextMapId = "Content_120101_3"
         Content_120101_4 = {
-          ContentEN = "Look around the area",
+          ContentEN = "Everything in Huaxu feels new and exciting.\nThe dock buzzes with the calls of vendors and travellers alike. With time to spare, take a look around.",
           TextMapId = "Content_120101_4"
         Content_120101_5 = {
-          ContentEN = "Look for Snow",
+          ContentEN = "In the blink of an eye, Snow has wandered off. Best go and find her.",
           TextMapId = "Content_120101_5"
         Content_120101_6 = {
-          ContentEN = "Speak with Zhiliu",
+          ContentEN = "You arrive just in time to cut short Snow's bragging to Lunocarp. Now that the Demon King's picked up a little admirer, she's positively preening.\nBest get Snow back to Zhiliu before it goes to her head.",
           TextMapId = "Content_120101_6"
         Content_120101_7 = {
-          ContentEN = "Speak with Du Li",
+          ContentEN = "Just when all seems calm in Huaxu, a disturbance erupts.\nA robbery breaks out at the docks — only to be swiftly ended by a Bi'an, a divine beast borne on the wind. Zhiliu explains that the realm is protected by the Nine Chapters of Dafeng, making crime nearly unheard of.\nAs she speaks, one of her aides arrives, breathless.\nWhat drew the criminal here? Go find out.",
           TextMapId = "Content_120101_7"
         Content_120101_8 = {
-          ContentEN = "Head to the Celestial Notice Post",
+          ContentEN = "Zhiliu has to leave to attend to pressing duties.\nBefore she leaves, she reminds you that all in the realm of Huaxu must abide by the Nine Chapters of Dafeng.\nTo walk as a law-abiding guest, follow Lunocarp to the Stele.",
           TextMapId = "Content_120101_8"
         Content_120101_9 = {
-          ContentEN = "Interact with the Stele",
+          ContentEN = "As Lunocarp explains the Nine Chapters, a faint voice brushes your mind — the Stele seems to be speaking to you...",
           TextMapId = "Content_120101_9"
         Content_120102_1 = {
           ContentEN = "After parting ways with Lunocarp, your path leads just beyond the steps of EverSpring.\n Meet with Zhiliu to learn more about the commission ahead.",
@@ -3152,7 +3208,7 @@ local Data = {
           ContentEN = "With the poachers dealt with, you finally had time to take a closer look at the pig.\nWait... did it just talk? Or was it someone else?",
           TextMapId = "Content_200103_4"
         Content_200103_5 = {
-          ContentEN = "The Geniemons system is now unlocked. Obtain a Geniemon to assist you on your journey ahead.",
+          ContentEN = "The Geniemons system is now unlocked. Feed a Geniemon and become friends with it to assist you on your journey ahead.",
           TextMapId = "Content_200103_5"
         Content_200104_1 = {
           ContentEN = "Word of a giant pig's reached The Asphodel too... Could Truffle still be around?\nBetter ask Camilla what's going on.",
@@ -3175,6 +3231,9 @@ local Data = {
         Content_200104_8 = {
           ContentEN = "You've made lots of new Geniemon friends — which is lovely, but looking after this many might be a challenge.\nBetter ask Camilla. If anyone can help, it's Camilla. Probably. Hopefully.",
           TextMapId = "Content_200104_8"
+        Content_200104_9 = {
+          ContentEN = "Bring the Geniemon with you, and set them free. With kindness in your heart, help them find their way out. Leave the dark sewer behind, and return to the light above.",
+          TextMapId = "Content_200104_9"
         Content_200201_1 = {
           ContentEN = "Sally is a warm-hearted elderly woman living by the side gate of Icelake. You can always smell the inviting scent of cream of mushroom soup near her.\nHowever, she's seemed rather preoccupied lately. Perhaps it's a good time for a comforting chat.",
           TextMapId = "Content_200201_1"
@@ -3191,7 +3250,7 @@ local Data = {
           ContentEN = "In the pit's depths, you discovered an old journal with Hamel Dickinson's name on the title page.\nIt seems to chronicle events related to him. Return to Icelake and deliver it to Lady Hilin.",
           TextMapId = "Content_200201_5"
         Content_200201_6 = {
-          ContentEN = "After reading the journal, Lady Hilin asked for some time alone.\n Speak to her maid, Sally, to collect your reward — and hear the rest of the story.",
+          ContentEN = "After reading the journal, Lady Hilin asked for some time alone.\nSpeak to her maid, Sally, to collect your reward — and hear the rest of the story.",
           TextMapId = "Content_200201_6"
         Content_200201_7 = {
           ContentEN = "You kept the journal a secret — perhaps that's for the best.\n Find Lady Hilin's maid, Sally, to claim your reward and learn the story of Lady Hilin and Hamel Dickinson.",
@@ -3209,7 +3268,7 @@ local Data = {
           ContentEN = "The lady, with a hoarse voice and dirty dressy clothes, stopped passers-by over and over again, as if she were trying to find something...",
           TextMapId = "Content_200203_1"
         Content_200203_12 = {
-          ContentEN = "Since you left that sorrowful woman behind, someone's been watching you. Seems like he's got something to say.",
+          ContentEN = "Since leaving that sorrowful woman behind, you've felt eyes on you. Seems like she's got something to say.",
           TextMapId = "Content_200203_12"
         Content_200203_13 = {
           ContentEN = "Ask around — someone else might know something.",
@@ -3221,7 +3280,7 @@ local Data = {
           ContentEN = "Ms Elsa's only daughter, Annie, went missing.\nKeep an eye out for anyone who might be Annie when you're in Icelake.",
           TextMapId = "Content_200203_2"
         Content_200203_3 = {
-          ContentEN = "Beyond the city walls, a pack of Filthoids has cornered a woman.\nFight them off and get her to safety.",
+          ContentEN = "Try searching beyond the city walls — the doctor may not have gone far.\nWith luck, you'll still catch her.",
           TextMapId = "Content_200203_3"
         Content_200203_3_2 = {
           ContentEN = "The Filthoids lie defeated. The woman you saved now stands before you, as if she has something to say.\nSpeak with her.",
@@ -3329,13 +3388,13 @@ local Data = {
           ContentEN = "In Mist Aken, you find the elderly woman Emma spoke of — Belinda, a psychic who soothes the hearts of fellow Charons with her words.\nHand over Emma's gift to her.",
           TextMapId = "Content_200207_4"
         Content_200207_5 = {
-          ContentEN = "Belinda noted that you've recently lost someone dear and hinted at an eventual reunion.\nShe wishes to craft a gift for you — but she'll need an iron item imbued with your presence. Search Glevum Pit to find a suitable piece.",
+          ContentEN = "Belinda noted that you've recently lost someone dear and hinted at an eventual reunion.\nShe wishes to craft a gift for you — but she'll need an iron wire that bears your presence. Search Glevum Pit to find a suitable piece.",
           TextMapId = "Content_200207_5"
         Content_200207_6 = {
-          ContentEN = "You've recovered the iron object carrying your presence from Lulu Lunoloot. Head back to Icelake and bring it to Belinda. Let's see what kind of gift she has prepared for you.",
+          ContentEN = "You've recovered the iron wire carrying your presence from Lulu Lunoloot. Return to Icelake and bring it to Belinda. Let's see what kind of gift she will craft for you.",
           TextMapId = "Content_200207_6"
         Content_200207_7 = {
-          ContentEN = "Just as you retrieved the item Belinda asked for in Glevum Pit, Lulu Lunoloot leapt out of nowhere and snatched it right out from under your nose. You still don't know why a psychic would want a piece of iron bearing your presence... but that doesn't mean you're going to let her walk off with it.\nGo after Lulu Lunoloot — and give her a lesson she won't forget.",
+          ContentEN = "Just as you found the wire Belinda asked for in Glevum Pit, Lulu Lunoloot popped out of nowhere and snatched it right out from under your nose. You still don't know why a psychic would need a piece of wire bearing your presence... but that doesn't mean you're going to let a petty thief walk away with it.\nGo after Lulu Lunoloot — and teach her a lesson she won't forget.",
           TextMapId = "Content_200207_7"
         Content_200208_1 = {
           ContentEN = "Margie gave you a key with a design that stirs old memories. If you're right, you once saw a matching lock at Henrik's place. What story might be waiting behind that lock?\nHead to Hypnos' House and find out.",
@@ -3398,7 +3457,7 @@ local Data = {
           ContentEN = "After a brief chat with Faye, you learn that her classmates have been bullying her.\nIt's time to teach those bullies a lesson and help Faye stand up for herself.",
           TextMapId = "Content_200211_4"
         Content_200211_5 = {
-          ContentEN = "With your help, Faye gathered enough courage and stood up to her bullies. Furious, they brought backup.\n But those thugs were no match for you. Now that they've scattered, check in on Faye.",
+          ContentEN = "With your help, Faye gathered enough courage and stood up to her bullies. Furious, they brought backup.\nBut those thugs were no match for you. Now that they've scattered, check in on Faye.",
           TextMapId = "Content_200211_5"
         Content_200212_2 = {
           ContentEN = "Near Icelake, you notice a miner looking visibly uneasy, a sack of ore stained with something that might be blood lying beside him.\nThe whole situation feels off. Report it to Kevin, one of the Escort soldiers stationed at the city gate — it's the safest move.",
@@ -3437,7 +3496,7 @@ local Data = {
           ContentEN = "Marcus, a chef with a passion for culinary experiments, is always on the lookout for new ingredients. You know of a good fishing spot near Lamenting Lake. Head there and see if you can reel in something special for him.",
           TextMapId = "Content_200215_1"
         Content_200215_2 = {
-          ContentEN = "Marcus, a chef with a passion for culinary experiments, is always on the lookout for new ingredients. You know of a good fishing spot near Lamenting Lake. Head there and see if you can reel in something special for him.",
+          ContentEN = "Cast your line and reel in a Phoxenetrout for Marcus. This time, he's after a particular flavour — let's hope the dish hits the mark.",
           TextMapId = "Content_200215_2"
         Content_200215_3 = {
           ContentEN = "You've gathered the marinade ingredients Marcus needs. Take them to him.",
@@ -3449,7 +3508,7 @@ local Data = {
           ContentEN = "You're still sceptical. But since you caught the fish yourself, might as well give Marcus' cooking a try.",
           TextMapId = "Content_200215_41"
         Content_200215_5 = {
-          ContentEN = "Marcus' experimental dishes haven't won over many fans yet, but he's not ready to give up. He's now set his sights on plump Frostspines for his next recipe. Help him gather a few.",
+          ContentEN = "Excellent work — no one knows their way around a fishing rod like you! Now bring the freshly caught Phoxenetrout to Marcus.",
           TextMapId = "Content_200215_5"
         Content_200215_6 = {
           ContentEN = "Excellent work — no one knows their way around a fishing rod like you! Now bring the freshly caught Phoxenetrout to Marcus.",
@@ -3491,7 +3550,7 @@ local Data = {
           ContentEN = "The old scavenger keeps glancing your way, as if he's trying to work up the courage to say something. Might be worth going over for a chat.",
           TextMapId = "Content_200219_4"
         Content_200219_5 = {
-          ContentEN = "Join Li An'de in completing the origami — a quiet, heartfelt gesture of good wishes, made by hand.",
+          ContentEN = "Join the foreign merchant in completing the origami — a quiet, heartfelt gesture of good wishes, made by hand.",
           TextMapId = "Content_200219_5"
         Content_200220_1 = {
           ContentEN = "As a dedicated Phoxhunter, you make it a point not to miss any interesting commissions. Head to The Asphodel and pick up some new gigs.",
@@ -3682,6 +3741,12 @@ local Data = {
         Content_200235_2 = {
           ContentEN = "Complete a Noctoyager Manual commission",
           TextMapId = "Content_200235_2"
+        Content_200236_1 = {
+          ContentEN = "Complete [Truffle and Filbert]'s Covert Commission to obtain their Thoughts",
+          TextMapId = "Content_200236_1"
+        Content_200236_2 = {
+          ContentEN = "In Armoury, use [Truffle and Filbert]'s Thoughts to complete Reminiscence and unlock the character.",
+          TextMapId = "Content_200236_2"
         Content_200301_1 = {
           ContentEN = "A rambling old man stops you with cryptic talk. He has a commission for you.",
           TextMapId = "Content_200301_1"
@@ -3834,6 +3899,14 @@ local Data = {
           ContentEN = "Captive Elysian Soldier",
           TextMapId = "Cp2CharacterName31"
         },
+        Cp2CharacterName32 = {
+          ContentEN = "Voice within the Alchemy Academy",
+          TextMapId = "Cp2CharacterName32"
+        },
+        Cp2CharacterName33 = {
+          ContentEN = "Exuberant Civilian",
+          TextMapId = "Cp2CharacterName33"
+        },
         DROP_DES_1001 = {
           ContentEN = "Restores HP",
           TextMapId = "DROP_DES_1001"
@@ -3905,6 +3978,14 @@ local Data = {
         DROP_QUEST_200209D3 = {
           ContentEN = "Prescription",
           TextMapId = "DROP_QUEST_200209D3"
+        },
+        DROP_QUEST_BODY01 = {
+          ContentEN = "Obscure the wounds",
+          TextMapId = "DROP_QUEST_BODY01"
+        },
+        DROP_QUEST_BODY02 = {
+          ContentEN = "Obscure the wounds",
+          TextMapId = "DROP_QUEST_BODY02"
         },
         DROP_QUEST_CHECK_KUANGKENG = {
           ContentEN = "Investigate the pit",
@@ -4183,7 +4264,7 @@ local Data = {
           TextMapId = "DUNGEON_DEFENCE_117"
         },
         DUNGEON_DEFENCE_118 = {
-          ContentEN = "Water level has dropped below the safe threshold. Safety gate unlocked.",
+          ContentEN = "Water level has dropped below the safe threshold. Safety gate is being unlocked.",
           TextMapId = "DUNGEON_DEFENCE_118"
         },
         DUNGEON_DEFENCE_119 = {
@@ -4357,6 +4438,10 @@ local Data = {
         DUNGEON_MOD_ELITE = {
           ContentEN = "A Primander has emerged!",
           TextMapId = "DUNGEON_MOD_ELITE"
+        },
+        DUNGEON_NAME_0 = {
+          ContentEN = "Testing Ground",
+          TextMapId = "DUNGEON_NAME_0"
         },
         DUNGEON_NAME_10 = {
           ContentEN = "Boss: Crystalophile",
@@ -4594,6 +4679,14 @@ local Data = {
           ContentEN = "Shooting from Cover Ⅳ",
           TextMapId = "DUNGEON_NAME_81204"
         },
+        DUNGEON_NAME_81501 = {
+          ContentEN = "Aerial Shot (Ⅰ)",
+          TextMapId = "DUNGEON_NAME_81501"
+        },
+        DUNGEON_NAME_81502 = {
+          ContentEN = "Aerial Shot (Ⅱ)",
+          TextMapId = "DUNGEON_NAME_81502"
+        },
         DUNGEON_NAME_900001 = {
           ContentEN = "Sandrealm Meditation",
           TextMapId = "DUNGEON_NAME_900001"
@@ -4739,7 +4832,7 @@ local Data = {
           TextMapId = "DUNGEON_PAOTAI_110"
         },
         DUNGEON_PAOTAI_201 = {
-          ContentEN = "Turret #4 in transit",
+          ContentEN = "Turret 4 in transit",
           TextMapId = "DUNGEON_PAOTAI_201"
         },
         DUNGEON_PAOTAI_202 = {
@@ -4823,7 +4916,7 @@ local Data = {
           TextMapId = "DUNGEON_SABOTAGE_109"
         },
         DUNGEON_SABOTAGE_110 = {
-          ContentEN = "Find and expose the detonator of Finale Flare",
+          ContentEN = "Find and expose the detonator of "Finale Flare"",
           TextMapId = "DUNGEON_SABOTAGE_110"
         },
         DUNGEON_SABOTAGE_111 = {
@@ -4831,7 +4924,7 @@ local Data = {
           TextMapId = "DUNGEON_SABOTAGE_111"
         },
         DUNGEON_SABOTAGE_112 = {
-          ContentEN = "Before exposing the detonator of Finale Flare, you can defeat the leader of The Forsakens in the area first to make the subsequent challenge easier.",
+          ContentEN = "Before exposing the detonator of "Finale Flare," you can defeat the leader of The Forsakens in the area first to make the subsequent challenge easier.",
           TextMapId = "DUNGEON_SABOTAGE_112"
         },
         DUNGEON_SABOTAGE_113 = {
@@ -4839,11 +4932,11 @@ local Data = {
           TextMapId = "DUNGEON_SABOTAGE_113"
         },
         DUNGEON_SABOTAGE_114 = {
-          ContentEN = "After destroying the detonator of "Finale Flare", head to the Evacuation Point as fast as possible for greater rewards.",
+          ContentEN = "After destroying the detonator of "Finale Flare," head to the Evacuation Point as fast as possible.",
           TextMapId = "DUNGEON_SABOTAGE_114"
         },
         DUNGEON_SABOTAGE_115 = {
-          ContentEN = "Bombaholic has been defeated. Several roadblocks have collapsed. "Finale Flare" is fuse has weakened.",
+          ContentEN = "The Bombaholic has been defeated. Finale Flare's detonator is now more vulnerable.",
           TextMapId = "DUNGEON_SABOTAGE_115"
         },
         DUNGEON_SABOTAGE_116 = {
@@ -4871,7 +4964,7 @@ local Data = {
           TextMapId = "DUNGEON_SURVIVALMINIPRO_101"
         },
         DUNGEON_SURVIVALMINIPRO_102 = {
-          ContentEN = "Once the device is activated, the Serum will begin to drain",
+          ContentEN = "Activate the device to begin the commission",
           TextMapId = "DUNGEON_SURVIVALMINIPRO_102"
         },
         DUNGEON_SURVIVALMINIPRO_103 = {
@@ -4935,7 +5028,7 @@ local Data = {
           TextMapId = "DUNGEON_SURVIVALPRO_113"
         },
         DUNGEON_SURVIVALPRO_114 = {
-          ContentEN = "Serum concentration begins at <Highlight>0%</>. Activate the device, then raise it through various means. (Draft)",
+          ContentEN = "Serum concentration begins at <Highlight>0%</>. Activate the device, then raise it through various means.",
           TextMapId = "DUNGEON_SURVIVALPRO_114"
         },
         DUNGEON_SURVIVALPRO_115 = {
@@ -4947,7 +5040,7 @@ local Data = {
           TextMapId = "DUNGEON_SURVIVALPRO_116"
         },
         DUNGEON_SURVIVALPRO_117 = {
-          ContentEN = "When Serum concentration reaches <Highlight>100%</>, you may retreat or press on. If you continue, Serum will reset to 0%. (Draft)",
+          ContentEN = "When Serum concentration reaches <Highlight>100%</>, you may retreat or press on. If you continue, Serum will reset to 0%.",
           TextMapId = "DUNGEON_SURVIVALPRO_117"
         },
         DUNGEON_SURVIVALPRO_118 = {
@@ -5003,7 +5096,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_103"
         },
         DUNGEON_SYNTHESIS_104 = {
-          ContentEN = "Prize Chest Progress (%d/%d)",
+          ContentEN = "Prize Chest Progress （%d/%d）",
           TextMapId = "DUNGEON_SYNTHESIS_104"
         },
         DUNGEON_SYNTHESIS_105 = {
@@ -5015,7 +5108,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_106"
         },
         DUNGEON_SYNTHESIS_107 = {
-          ContentEN = "Prize Chest",
+          ContentEN = "Prize Chest Durability",
           TextMapId = "DUNGEON_SYNTHESIS_107"
         },
         DUNGEON_SYNTHESIS_108 = {
@@ -5039,7 +5132,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_112"
         },
         DUNGEON_SYNTHESIS_113 = {
-          ContentEN = "Seeded players from other teams found (%d/%d)",
+          ContentEN = "Seeded players from other teams found （%d/%d）",
           TextMapId = "DUNGEON_SYNTHESIS_113"
         },
         DUNGEON_SYNTHESIS_114 = {
@@ -5047,7 +5140,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_114"
         },
         DUNGEON_SYNTHESIS_115 = {
-          ContentEN = "Marked zones secured (%d/%d)",
+          ContentEN = "Marked zones secured （%d/%d）",
           TextMapId = "DUNGEON_SYNTHESIS_115"
         },
         DUNGEON_SYNTHESIS_116 = {
@@ -5079,7 +5172,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_122"
         },
         DUNGEON_SYNTHESIS_123 = {
-          ContentEN = "In Match Three, all teams battle for the Prize Chest. Defend it, gather the keys, and open it to claim victory.",
+          ContentEN = "In Match Three, all teams battle for the Prize Chest. Defend it and gather all the 6 keys!",
           TextMapId = "DUNGEON_SYNTHESIS_123"
         },
         DUNGEON_SYNTHESIS_124 = {
@@ -5103,7 +5196,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_128"
         },
         DUNGEON_SYNTHESIS_129 = {
-          ContentEN = "Team "The Fantastic Forsakens" enters the arena",
+          ContentEN = "Team "The Fork Shakens" enters the arena",
           TextMapId = "DUNGEON_SYNTHESIS_129"
         },
         DUNGEON_SYNTHESIS_130 = {
@@ -5115,7 +5208,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_131"
         },
         DUNGEON_SYNTHESIS_132 = {
-          ContentEN = "Seeded player from another team located — search progress updated",
+          ContentEN = "Search Progress Updated",
           TextMapId = "DUNGEON_SYNTHESIS_132"
         },
         DUNGEON_SYNTHESIS_133 = {
@@ -5207,7 +5300,7 @@ local Data = {
           TextMapId = "DailyTaskDes_10000104"
         },
         DailyTaskDes_10000105 = {
-          ContentEN = "Complete any Commission <Highlight>3</> times",
+          ContentEN = "Complete any Commission <Highlight>1</> time",
           TextMapId = "DailyTaskDes_10000105"
         },
         DailyTaskDes_10000106 = {
@@ -5223,7 +5316,7 @@ local Data = {
           TextMapId = "DailyTaskDes_10000108"
         },
         DailyTaskDes_10000109 = {
-          ContentEN = "Complete Expedition <Highlight>1</> time",
+          ContentEN = "Complete [Commission: Chase] <Highlight>1</> time",
           TextMapId = "DailyTaskDes_10000109"
         },
         DailyTaskDes_10000110 = {
@@ -5251,7 +5344,7 @@ local Data = {
           TextMapId = "DailyTaskDes_10000115"
         },
         DailyTaskDes_10000116 = {
-          ContentEN = "Complete <Highlight>1</> Sealed Commission",
+          ContentEN = "Complete <Highlight>1</> Covert Commission",
           TextMapId = "DailyTaskDes_10000116"
         },
         DailyTaskDes_10000117 = {
@@ -5271,11 +5364,11 @@ local Data = {
           TextMapId = "DailyTaskDes_10000120"
         },
         Decimal = {
-          ContentEN = "Decimal",
+          ContentEN = "Num .",
           TextMapId = "Decimal",
         },
         Delete = {
-          ContentEN = "Delete",
+          ContentEN = "Del",
           TextMapId = "Delete",
         },
         Description_100101_0 = {
@@ -5819,7 +5912,7 @@ local Data = {
           TextMapId = "Description_110113_5"
         },
         Description_110113_6 = {
-          ContentEN = "(Optional) Read the Warden's notes",
+          ContentEN = "Read the Warden's notes",
           TextMapId = "Description_110113_6"
         },
         Description_12000103_1 = {
@@ -5919,7 +6012,7 @@ local Data = {
           TextMapId = "Description_120101_10"
         },
         Description_120101_11 = {
-          ContentEN = "Speak with the travelling merchant",
+          ContentEN = "Speak with the passing merchant",
           TextMapId = "Description_120101_11"
         },
         Description_120101_12 = {
@@ -5931,11 +6024,11 @@ local Data = {
           TextMapId = "Description_120101_13"
         },
         Description_120101_2 = {
-          ContentEN = "Talk to the porter",
+          ContentEN = "Speak with the porter",
           TextMapId = "Description_120101_2"
         },
         Description_120101_3 = {
-          ContentEN = "Head to the Market by the Pier",
+          ContentEN = "Head to the market",
           TextMapId = "Description_120101_3"
         },
         Description_120101_4 = {
@@ -5943,15 +6036,15 @@ local Data = {
           TextMapId = "Description_120101_4"
         },
         Description_120101_4_1 = {
-          ContentEN = "(Optional) See what Snow's up to",
+          ContentEN = "Check on Snow",
           TextMapId = "Description_120101_4_1"
         },
         Description_120101_4_2 = {
-          ContentEN = "(Optional) Participate in the incense rite",
+          ContentEN = "/",
           TextMapId = "Description_120101_4_2"
         },
         Description_120101_4_3 = {
-          ContentEN = "Speak with Zhiliu",
+          ContentEN = "Speak with the vendor",
           TextMapId = "Description_120101_4_3"
         },
         Description_120101_5 = {
@@ -5959,7 +6052,7 @@ local Data = {
           TextMapId = "Description_120101_5"
         },
         Description_120101_6 = {
-          ContentEN = "Speak with Zhiliu",
+          ContentEN = "Rejoin Zhiliu",
           TextMapId = "Description_120101_6"
         },
         Description_120101_7 = {
@@ -5967,7 +6060,7 @@ local Data = {
           TextMapId = "Description_120101_7"
         },
         Description_120101_8 = {
-          ContentEN = "Head to the Celestial Notice Post",
+          ContentEN = "Go to the Stele",
           TextMapId = "Description_120101_8"
         },
         Description_120101_9 = {
@@ -6451,7 +6544,7 @@ local Data = {
           TextMapId = "Description_120114_9"
         },
         Description_120114_9_1 = {
-          ContentEN = "Defeat the Filthoids",
+          ContentEN = "Defeat the Filthoids drawn by the sound",
           TextMapId = "Description_120114_9_1"
         },
         Description_200101_1 = {
@@ -6479,7 +6572,7 @@ local Data = {
           TextMapId = "Description_200101_4_1"
         },
         Description_200101_4_2 = {
-          ContentEN = "Craft a Supply Crate",
+          ContentEN = "Craft an Ammo Supply Chest",
           TextMapId = "Description_200101_4_2"
         },
         Description_200102_1 = {
@@ -6549,6 +6642,10 @@ local Data = {
         Description_200104_8 = {
           ContentEN = "Return to The Asphodel and see if Camilla has a plan",
           TextMapId = "Description_200104_8"
+        },
+        Description_200104_9 = {
+          ContentEN = "Rescue these Geniemons",
+          TextMapId = "Description_200104_9"
         },
         Description_200201_1 = {
           ContentEN = "Talk to Sally",
@@ -6771,11 +6868,11 @@ local Data = {
           TextMapId = "Description_200207_4"
         },
         Description_200207_5 = {
-          ContentEN = "Search Glevum Pit for a piece of iron",
+          ContentEN = "Search Glevum Pit for wire",
           TextMapId = "Description_200207_5"
         },
         Description_200207_6 = {
-          ContentEN = "Return to Belinda with the iron",
+          ContentEN = "Bring the wire to Belinda",
           TextMapId = "Description_200207_6"
         },
         Description_200207_7 = {
@@ -6951,7 +7048,7 @@ local Data = {
           TextMapId = "Description_200215_41"
         },
         Description_200215_5 = {
-          ContentEN = "Catch a plump Frostspine",
+          ContentEN = "Deliver the Phoxenetrout to Marcus",
           TextMapId = "Description_200215_5"
         },
         Description_200215_6 = {
@@ -7007,7 +7104,7 @@ local Data = {
           TextMapId = "Description_200219_4"
         },
         Description_200219_5 = {
-          ContentEN = "Fold paper with Li An'de",
+          ContentEN = "Fold paper with the foreign merchant",
           TextMapId = "Description_200219_5"
         },
         Description_200220_1 = {
@@ -7273,6 +7370,14 @@ local Data = {
         Description_200235_2 = {
           ContentEN = "Try your first Noctoyager Manual commission.",
           TextMapId = "Description_200235_2"
+        },
+        Description_200236_1 = {
+          ContentEN = "Complete Covert Commission: [Truffle and Filbert]",
+          TextMapId = "Description_200236_1"
+        },
+        Description_200236_2 = {
+          ContentEN = "Complete Reminiscence to obtain [Truffle and Filbert]",
+          TextMapId = "Description_200236_2"
         },
         Description_200301_1 = {
           ContentEN = "Head into the Gritblight Expanse",
@@ -7643,7 +7748,7 @@ local Data = {
           TextMapId = "DynQuest_IcelakeCityLesuo_Title"
         },
         DynQuest_IcelakeCityStealCar_Des = {
-          ContentEN = "Inspect the vehicle(s) in the parking lot",
+          ContentEN = "Inspect the vehicle",
           TextMapId = "DynQuest_IcelakeCityStealCar_Des"
         },
         DynQuest_IcelakeCityStealCar_Title = {
@@ -8470,6 +8575,10 @@ local Data = {
           ContentEN = "Game of the Overlookers (Ⅹ)",
           TextMapId = "Episode_11_10"
         },
+        Episode_1200 = {
+          ContentEN = "Mistwharf – Veiled in Fragrant Haze",
+          TextMapId = "Episode_1200"
+        },
         Episode_1201 = {
           ContentEN = "Mistwharf – Veiled in Fragrant Haze",
           TextMapId = "Episode_1201"
@@ -8498,6 +8607,10 @@ local Data = {
           ContentEN = "Mistwharf – Veiled in Fragrant Haze: Finale",
           TextMapId = "Episode_1201_06"
         },
+        Episode_Feina = {
+          ContentEN = "A Rainbow-coloured Dream",
+          TextMapId = "Episode_Feina"
+        },
         Equals = {
           ContentEN = "0.0",
           TextMapId = "Equals",
@@ -8525,6 +8638,14 @@ local Data = {
         EventPortal_UnlockTips_103004 = {
           ContentEN = "Continue with the Main Story to unlock",
           TextMapId = "EventPortal_UnlockTips_103004"
+        },
+        EventPortal_UnlockTips_103012 = {
+          ContentEN = "Complete "On a Gentle Breeze" to unlock",
+          TextMapId = "EventPortal_UnlockTips_103012"
+        },
+        EventPortal_UnlockTips_103013 = {
+          ContentEN = "Complete "The Art of Survival" to unlock",
+          TextMapId = "EventPortal_UnlockTips_103013"
         },
         EventPortal_UnlockTips_Common = {
           ContentEN = "Complete prerequisite quests to unlock",
@@ -8563,11 +8684,11 @@ local Data = {
           TextMapId = "Event_Des_101003"
         },
         Event_Des_102001 = {
-          ContentEN = "Huaxu — a tranquil land wreathed in incense.\n You arrive by invitation, awaiting the vision Zhiliu has promised to paint: a scene both timeless and unseen.",
+          ContentEN = "Huaxu — a tranquil land wreathed in incense.\nYou arrive by invitation, awaiting the vision Zhiliu has promised to paint: a scene both timeless and unseen.",
           TextMapId = "Event_Des_102001"
         },
         Event_Des_103001 = {
-          ContentEN = "The Abyss of Wonderland: Volume Ⅰ is now unlocked.\nAllow me to lead you onto the endless pathways of time.",
+          ContentEN = "Allow me to lead you onto the endless pathways of time.",
           TextMapId = "Event_Des_103001"
         },
         Event_Des_103002 = {
@@ -8575,11 +8696,11 @@ local Data = {
           TextMapId = "Event_Des_103002"
         },
         Event_Des_103003 = {
-          ContentEN = "Complete the Main Story "Prey VS Hunter" to claim your Quest Rewards, including the character [Outsider].",
+          ContentEN = "Complete the Main Story "Prey VS Hunter" to claim your Quest Rewards, including the [Thought: Outsider].",
           TextMapId = "Event_Des_103003"
         },
         Event_Des_103004 = {
-          ContentEN = "Complete the Main Story "The Overlookers" to claim your Quest Rewards, including the character [Daphne].",
+          ContentEN = "Complete the Main Story "The Overlookers" to claim your Quest Rewards, including the [Thought: Daphne].",
           TextMapId = "Event_Des_103004"
         },
         Event_Des_103005 = {
@@ -8606,20 +8727,28 @@ local Data = {
           ContentEN = "When a young nightingale leaves its nest, it sees the vast skies and sweeps across soft meadows — but also faces cold rain and raging winds.\n But the girl has made up her mind: no more turning back. With her magic brush, she'll paint a dream in every hue — and in this harsh, unforgiving world... find a sky forever warm and bright, just like the ones in her favourite fairytales.",
           TextMapId = "Event_Des_103010"
         },
+        Event_Des_103012 = {
+          ContentEN = "Clear Mystic Maze Ⅰ–Ⅵ to earn rewards, including Thoughts: Lisbell.",
+          TextMapId = "Event_Des_103012"
+        },
+        Event_Des_103013 = {
+          ContentEN = "Complete the special Side Quests "Go, Geniemons!" and "Tutorial: Covert Commissions" to earn rewards, including "Thought: Truffle and Filbert".",
+          TextMapId = "Event_Des_103013"
+        },
         Event_Des_105102011 = {
-          ContentEN = "Midsummer night, beneath a sky of stars—a forest where violets and butterfly wings waltzed in delicate steps. A sight she had never seen.",
+          ContentEN = "Midsummer night, beneath a sky of stars, a forest where violets and butterfly wings waltzed in delicate steps. A sight she had never seen.",
           TextMapId = "Event_Des_105102011"
         },
         Event_Des_105102012 = {
-          ContentEN = "Behind layered veils, love is whispered in hush while death's fingers trace the edges of eternity.",
+          ContentEN = "A murmur of love through the silks, an eternity sealed in a fatal kiss.",
           TextMapId = "Event_Des_105102012"
         },
         Event_Des_105102013 = {
-          ContentEN = "Golden sunlight, finely ground, lavishly scattered!",
+          ContentEN = "Sunshine gathered, sunshine scattered!",
           TextMapId = "Event_Des_105102013"
         },
         Event_Des_106001 = {
-          ContentEN = "Reach higher Trial Ranks to earn 40 Pristine Hourglasses, 1,600 Phoxene cubes, one 5-star weapon, and more.",
+          ContentEN = "Reach higher Trial Ranks to earn bountiful rewards.",
           TextMapId = "Event_Des_106001"
         },
         Event_Des_106101 = {
@@ -8633,6 +8762,10 @@ local Data = {
         Event_Des_107002 = {
           ContentEN = "Log in on both PC and mobile to receive rewards, including the Silent Censer avatar frame and Pristine Hourglasses.",
           TextMapId = "Event_Des_107002"
+        },
+        Event_Des_107003 = {
+          ContentEN = "Co-op areas will be available upon completion of "Black Iron and White Flower" of the Chapter Noctoyager. Go to Icelake Square to participate in co-op game and receive amazing rewards.",
+          TextMapId = "Event_Des_107003"
         },
         Event_Des_WorldLan_101001 = {
           ContentEN = "In this age of splendour, we reunite",
@@ -8667,7 +8800,7 @@ local Data = {
           TextMapId = "Event_STitle_103002"
         },
         Event_Tab_101001 = {
-          ContentEN = "Luno's Heptameron",
+          ContentEN = "Ode to the Bloom",
           TextMapId = "Event_Tab_101001"
         },
         Event_Tab_101002 = {
@@ -8715,8 +8848,16 @@ local Data = {
           TextMapId = "Event_Tab_103009001"
         },
         Event_Tab_103010 = {
-          ContentEN = "The Nightingale and Her Rainbow-Coloured Dream",
+          ContentEN = "A Rainbow-coloured Dream",
           TextMapId = "Event_Tab_103010"
+        },
+        Event_Tab_103012 = {
+          ContentEN = "Restless Hum",
+          TextMapId = "Event_Tab_103012"
+        },
+        Event_Tab_103013 = {
+          ContentEN = "Tummy Full, Hands Full",
+          TextMapId = "Event_Tab_103013"
         },
         Event_Tab_105001 = {
           ContentEN = "Top-Up Refund",
@@ -8742,6 +8883,10 @@ local Data = {
           ContentEN = "Helix of Bonds",
           TextMapId = "Event_Tab_107002"
         },
+        Event_Tab_107003 = {
+          ContentEN = "Intersecting Footprints",
+          TextMapId = "Event_Tab_107003"
+        },
         Event_Tab_107101 = {
           ContentEN = "Curated Sealed Missive",
           TextMapId = "Event_Tab_107101"
@@ -8751,7 +8896,7 @@ local Data = {
           TextMapId = "Event_Tab_CharTrialEvent"
         },
         Event_Title_101001 = {
-          ContentEN = "<112>Luno's</> \n         <63>Heptameron</>",
+          ContentEN = "Ode to the Bloom",
           TextMapId = "Event_Title_101001"
         },
         Event_Title_101002 = {
@@ -8799,8 +8944,16 @@ local Data = {
           TextMapId = "Event_Title_103009001"
         },
         Event_Title_103010 = {
-          ContentEN = "The Nightingale and Her Rainbow-Coloured Dream",
+          ContentEN = "A Rainbow-coloured Dream",
           TextMapId = "Event_Title_103010"
+        },
+        Event_Title_103012 = {
+          ContentEN = "Restless Hum",
+          TextMapId = "Event_Title_103012"
+        },
+        Event_Title_103013 = {
+          ContentEN = "Tummy Full, Hands Full",
+          TextMapId = "Event_Title_103013"
         },
         Event_Title_106001 = {
           ContentEN = "Bon Voyage",
@@ -8813,6 +8966,10 @@ local Data = {
         Event_Title_107002 = {
           ContentEN = "Helix of Bonds",
           TextMapId = "Event_Title_107002"
+        },
+        Event_Title_107003 = {
+          ContentEN = "Intersecting Footprints",
+          TextMapId = "Event_Title_107003"
         },
         Event_Title_107101 = {
           ContentEN = "Curated Sealed Missive: Elpides Abound",
@@ -8863,7 +9020,7 @@ local Data = {
           TextMapId = "FailureGuidance_Text_1003"
         },
         FailureGuidance_Text_1004 = {
-          ContentEN = "Retrace for more characters and weapons to strengthen The Noctoyagers.",
+          ContentEN = "The Eclosioner excels in aerial combat. Prioritise <H>ranged weapon</> progression to strike from a distance.",
           TextMapId = "FailureGuidance_Text_1004"
         },
         FailureGuidance_Text_1005 = {
@@ -8883,7 +9040,7 @@ local Data = {
           TextMapId = "FailureGuidance_Title_1003"
         },
         FailureGuidance_Title_1004 = {
-          ContentEN = "Retrace",
+          ContentEN = "Ranged Weapon Progression",
           TextMapId = "FailureGuidance_Title_1004"
         },
         FailureGuidance_Title_1005 = {
@@ -8959,15 +9116,15 @@ local Data = {
           TextMapId = "FeinaEvent_DungeonFinish_Title"
         },
         FeinaEvent_DungeonLock_1 = {
-          ContentEN = "Unlocks after completing Quest XXXX",
+          ContentEN = "Unlocks after completing <highlight>Beyond the Page</>",
           TextMapId = "FeinaEvent_DungeonLock_1"
         },
         FeinaEvent_DungeonLock_2 = {
-          ContentEN = "Unlocks after completing Quest XXXX",
+          ContentEN = "Unlocks after completing <highlight>Beyond the Page</>",
           TextMapId = "FeinaEvent_DungeonLock_2"
         },
         FeinaEvent_DungeonLock_3 = {
-          ContentEN = "Unlocks after completing Quest XXXX",
+          ContentEN = "Unlocks after completing <highlight>Beyond the Page</>",
           TextMapId = "FeinaEvent_DungeonLock_3"
         },
         FeinaEvent_DungeonLock_3_2 = {
@@ -8975,7 +9132,7 @@ local Data = {
           TextMapId = "FeinaEvent_DungeonLock_3_2"
         },
         FeinaEvent_DungeonLock_4 = {
-          ContentEN = "Unlocks after completing Quest XXXX",
+          ContentEN = "Unlocks after completing <highlight>Beyond the Page</>",
           TextMapId = "FeinaEvent_DungeonLock_4"
         },
         FeinaEvent_DungeonLock_4_2 = {
@@ -9015,16 +9172,48 @@ local Data = {
           TextMapId = "FeinaEvent_DungeonName_4_2"
         },
         FeinaEvent_DungeonTask_1 = {
-          ContentEN = "Collect a total of %d White Bird Plumes",
+          ContentEN = "Collect a total of %d White Feathers",
           TextMapId = "FeinaEvent_DungeonTask_1"
         },
         FeinaEvent_Exit_Content = {
-          ContentEN = "End the challenge and lock in your current collection progress?",
+          ContentEN = "Leaving now will forfeit rewards. Do you wish to exit?",
           TextMapId = "FeinaEvent_Exit_Content"
         },
         FeinaEvent_Exit_Title = {
           ContentEN = "Exit",
           TextMapId = "FeinaEvent_Exit_Title"
+        },
+        FeinaEvent_SimpleDungeonDes_1 = {
+          ContentEN = "Search for the Great Magician",
+          TextMapId = "FeinaEvent_SimpleDungeonDes_1"
+        },
+        FeinaEvent_SimpleDungeonDes_2 = {
+          ContentEN = "Solve the maze with {性别:Mr|Miss} Unicorn",
+          TextMapId = "FeinaEvent_SimpleDungeonDes_2"
+        },
+        FeinaEvent_SimpleDungeonDes_3_1 = {
+          ContentEN = "Reach the far side of the lake",
+          TextMapId = "FeinaEvent_SimpleDungeonDes_3_1"
+        },
+        FeinaEvent_SimpleDungeonDes_3_2 = {
+          ContentEN = "Head to the destination with Miss Butterfly",
+          TextMapId = "FeinaEvent_SimpleDungeonDes_3_2"
+        },
+        FeinaEvent_SimpleDungeonDes_4_1 = {
+          ContentEN = "Find the Little Nightingale in the forest",
+          TextMapId = "FeinaEvent_SimpleDungeonDes_4_1"
+        },
+        FeinaEvent_SimpleDungeonDes_4_2 = {
+          ContentEN = "Escape the mists with the Little Nightingale",
+          TextMapId = "FeinaEvent_SimpleDungeonDes_4_2"
+        },
+        FeinaEvent_Toast_1 = {
+          ContentEN = "You have strayed beyond the protective aura",
+          TextMapId = "FeinaEvent_Toast_1"
+        },
+        FeinaEvent_Toast_2 = {
+          ContentEN = "Fina was lost in the mists, but the Little Nightingale guided her back to safety",
+          TextMapId = "FeinaEvent_Toast_2"
         },
         FishingSpot_Name_10010101 = {
           ContentEN = "Fishing Spot: Purgatorio Island",
@@ -9123,7 +9312,7 @@ local Data = {
           TextMapId = "Four",
         },
         GACHAMAIN_TITLE_SHOWTIMES = {
-          ContentEN = "Guaranteed to obtain within <highlight>%d</> Retraces",
+          ContentEN = "Guaranteed 5★ within <highlight>%d</> Retraces",
           TextMapId = "GACHAMAIN_TITLE_SHOWTIMES"
         },
         GACHA_BONUS = {
@@ -9218,8 +9407,12 @@ local Data = {
           ContentEN = "Event Weapon Chrono",
           TextMapId = "GACHA_TYPE_WEAPON_UP"
         },
+        GACHA_Toast_Nona = {
+          ContentEN = "No available banners",
+          TextMapId = "GACHA_Toast_Nona"
+        },
         GACHA_WARNING_MUSTUP = {
-          ContentEN = "<Title>About Chrono Drop Rates</>\nIn this Chrono, the base probability of winning a 5★ character is <highlight>0.6%</>, with an overall rate (incl. guarantees) of <highlight>1.6%</>. You are guaranteed to obtain the featured 5★ character "Chrysalis' Daydream" Psyche within <highlight>90</> Retraces.\nThe base probability of winning a 4★ character/weapon is <highlight>5.1%</> (<highlight>2.55%</> for a 4★ character and <highlight>2.55%</> for a 4★ weapon), with an overall rate (incl. guarantees) of <highlight>13.0%</>. You are guaranteed to obtain a 4★ or better character/weapon within every <highlight>10</> Retraces. The probability of winning a 4★ character/weapon through a guarantee is <highlight>99.4%</>, and for a 5★ character is <highlight>0.6%</>.\n \n<Title>About Duplicate Items</>\nOn obtaining a 5★ character that you already own, from the 2nd to the 7th time, you'll receive the character's Intron x<highlight>1</> and Brilliant Grit x<highlight>50</>; from the 8th time onwards, you'll receive Brilliant Grit x<highlight>125</>.\nOn obtaining a 4★ character that you already own, from the 2nd to the 7th time, you'll receive the character's Intron x<highlight>1</> and Brilliant Grit x<highlight>10</>; from the 8th time onwards, you'll receive Brilliant Grit x<highlight>25</>.\nEvery 5★ weapon won in this Chrono comes with Brilliant Grit x<highlight>25</>; Every 4★ weapon won in this Chrono comes with Brilliant Grit x<highlight>5</>; Every 3★ weapon won in this Chrono comes with Pristine Grit x<highlight>20</>.\n \nFor any Destined Chrono, the count of Retraces without a 5★ character drop will continue to accumulate within this Chrono type, and it is tallied separately and does not carry over to other Chronos.\nOnce this Chrono ends, the event-exclusive character "Chrysalis' Daydream" Psyche will not be available in the Standard Chrono "Sojourns Entwined".\n\nDestined Chrono is exclusively available during the character's first drop-rate boost event.",
+          ContentEN = "<Title>About Chrono Drop Rates</>\n The base drop rate for a 5★ character is <highlight>0.6%</>, with an overall chance (including guarantees) of <highlight>1.6%</>. You are guaranteed the featured 5★ character, <highlight>&Char&</>, within <highlight>90</> Retraces.\n The base drop rate for a 4★ character or weapon is <highlight>5.1%</> (<highlight>2.55%</> for 4★ characters and <highlight>2.55%</> for 4★ weapons). The overall chance to obtain a 4★ character or weapon (including guarantees) is <highlight>13.0%</>. You are guaranteed a 4★ or higher character or a 4★ weapon within every <highlight>10</> Retraces. When a guarantee is triggered, there is a <highlight>99.4%</> chance to obtain a 4★ character or weapon, and a <highlight>0.6%</> chance to obtain a 5★ character.\n \n <Title>About Duplicates</>\n For a 5★ character you already own: on the 2nd to 7th duplicate, you'll receive the character's Intron ×<highlight>1</> and Brilliant Grit ×<highlight>50</>; from the 8th duplicate onward, you'll receive Brilliant Grit ×<highlight>125</>.\n For a 4★ character you already own: on the 2nd to 7th duplicate, you'll receive the character's Intron ×<highlight>1</> and Brilliant Grit ×<highlight>10</>; from the 8th duplicate onward, you'll receive Brilliant Grit ×<highlight>25</>.\n Every 4★ weapon obtained from this banner comes with Brilliant Grit ×<highlight>5</>; every 3★ weapon comes with Pristine Grit ×<highlight>20</>.\n \n For any Destined Chrono, Retrace counts without a 5★ character drop will continue to accumulate within this banner type. This count is tracked separately and does not carry over to other banners. \n Once this banner ends, the event-exclusive character <highlight>&Char&</> will not be available in the Standard Chrono "Sojourns Entwined."\n The Destined Chrono banner opens only when a character is featured for the first time.",
           TextMapId = "GACHA_WARNING_MUSTUP"
         },
         GACHA_WARNING_NORMAL = {
@@ -9231,15 +9424,15 @@ local Data = {
           TextMapId = "GACHA_WARNING_NORMAL_WEAPON"
         },
         GACHA_WARNING_START = {
-          ContentEN = "<Title>About Chrono Drop Rates</>\nIn this Chrono, the base probability of winning a 5★ character is <highlight>0.6%</>, with an overall rate (incl. guarantees) of <highlight>1.6%</>. You are guaranteed to obtain a <highlight>selected</> 5★ starting character within <highlight>50</> Retraces.\nThe base probability of winning a 4★ character/weapon is <highlight>5.1%</> (<highlight>2.55%</> for a 4★ character and <highlight>2.55%</> for a 4★ weapon), with an overall rate (incl. guarantees) of <highlight>13.0%</>. You are guaranteed to obtain a 4★ or better character/weapon within every <highlight>10</> Retraces. The probability of winning a 4★ character/weapon through a guarantee is <highlight>99.4%</>, and for a 5★ character is <highlight>0.6%</>.\n\n<Title>About the Selected Starting Character</>\nOnce you've selected a Starting Character, the first 5★ character obtained from the Starter Chrono is guaranteed to be the <highlight>selected</> character.\nBefore obtaining a 5★ character through the Starter Chrono, you may freely change your selection at any time.\n\n<Title>About Duplicate Items</>\nOn obtaining a 5★ character that you already own, from the 2nd to the 7th time, you'll receive the character's Intron x<highlight>1</> and Brilliant Grit x<highlight>50</>; from the 8th time onwards, you'll receive Brilliant Grit x<highlight>125</>.\nOn obtaining a 4★ character that you already own, from the 2nd to the 7th time, you'll receive the character's Intron x<highlight>1</> and Brilliant Grit x<highlight>10</>; from the 8th time onwards, you'll receive Brilliant Grit x<highlight>25</>.\nEvery 5★ weapon won in this Chrono comes with Brilliant Grit x<highlight>25</>; Every 4★ weapon won in this Chrono comes with Brilliant Grit x<highlight>5</>; Every 3★ weapon won in this Chrono comes with Pristine Grit x<highlight>20</>.\n \nThe count of Retraces for the Starter Chrono is tallied separately and does not carry over to other Chronos.",
+          ContentEN = "<Title>About Chrono Drop Rates</>\n The base drop rate for a 5★ character is <highlight>0.6%</>. You are guaranteed your <highlight>selected</> 5★ Starter Character within <highlight>50</> Retraces.\n The base drop rate for a 4★ character or weapon is <highlight>5.1%</> (<highlight>2.55%</> for 4★ characters and <highlight>2.55%</> for 4★ weapons). The overall chance to obtain a 4★ character or weapon (including guarantees) is <highlight>13.0%</>. You are guaranteed a 4★ or higher character or a 4★ weapon within every <highlight>10</> Retraces. When a guarantee is triggered, there is a <highlight>99.4%</> chance to obtain a 4★ character or weapon, and a <highlight>0.6%</> chance to obtain a 5★ character.\n \n <Title>About the Selected Starter Character</>\n Once you've selected a Starter Character, the first 5★ character you obtain from the Starter Chrono banner is guaranteed to be your <highlight>selected</> character.\n You may change your selection freely, up until you obtain your first 5★ character from the Starter Chrono.\n \n <Title>About Duplicates</>\n For a 5★ character you already own: on the 2nd to 7th duplicate, you'll receive the character's Intron ×<highlight>1</> and Brilliant Grit ×<highlight>50</>; from the 8th duplicate onward, you'll receive Brilliant Grit ×<highlight>125</>.\n For a 4★ character you already own: on the 2nd to 7th duplicate, you'll receive the character's Intron ×<highlight>1</> and Brilliant Grit ×<highlight>10</>; from the 8th duplicate onward, you'll receive Brilliant Grit ×<highlight>25</>.\n Every 4★ weapon obtained from this banner comes with Brilliant Grit ×<highlight>5</>; every 3★ weapon comes with Pristine Grit ×<highlight>20</>.\n \n Retrace counts for the Starter Chrono are tracked separately and do not carry over to other banners.",
           TextMapId = "GACHA_WARNING_START"
         },
         GACHA_WARNING_UP = {
-          ContentEN = "<Title>About Chrono Drop Rates</>\nThe base probability of winning a 5★ character is <highlight>0.6%</>, with an overall rate (incl. guarantees) of <highlight>1.6%</>. You are guaranteed to obtain a 5★ character within <highlight>90</> Retraces.\nIn this Chrono, when you win a 5★ character, there's a <highlight>50%</> chance it will be the featured character "Chrysalis' Daydream" Psyche. If you don't win the featured character, the next 5★ character you win is guaranteed to be the featured character.\nThe base probability of winning a 4★ character/weapon is <highlight>5.1%</> (<highlight>2.55%</> for a 4★ character and <highlight>2.55%</> for a 4★ weapon), with an overall rate (incl. guarantees) of <highlight>13.0%</>. You are guaranteed to obtain a 4★ or better character/weapon within every <highlight>10</> Retraces. The probability of winning a 4★ character/weapon through a guarantee is <highlight>99.4%</>, and for a 5★ character is <highlight>0.6%</>.\n \n<Title>About Duplicate Items</>\nOn obtaining a 5★ character that you already own, from the 2nd to the 7th time, you'll receive the character's Intron x<highlight>1</> and Brilliant Grit x<highlight>50</>; from the 8th time onwards, you'll receive Brilliant Grit x<highlight>125</>.\nOn obtaining a 4★ character that you already own, from the 2nd to the 7th time, you'll receive the character's Intron x<highlight>1</> and Brilliant Grit x<highlight>10</>; from the 8th time onwards, you'll receive Brilliant Grit x<highlight>25</>.\nEvery 5★ weapon won in this Chrono comes with Brilliant Grit x<highlight>25</>; Every 4★ weapon won in this Chrono comes with Brilliant Grit x<highlight>5</>; Every 3★ weapon won in this Chrono comes with Pristine Grit x<highlight>20</>.\n \nFor any Event Character Chrono, the count of Retraces without a 5★ character drop will continue to accumulate within this Chrono type, and it is tallied separately and does not carry over to other Chronos. \nOnce this Chrono ends, the event-exclusive character "Chrysalis' Daydream" Psyche will not be available in the Standard Chrono "Sojourns Entwined".",
+          ContentEN = "<Title>About Chrono Drop Rates</>\n The base drop rate for a 5★ character is <highlight>0.6%</>, with an overall chance (including guarantees) of <highlight>1.6%</>. You are guaranteed a 5★ character within <highlight>90</> Retraces. In this banner, when you obtain a 5★ character, there's a <highlight>50%</> chance it will be the featured character <highlight>&Char&</>. If not, the next 5★ character you obtain is guaranteed to be the featured character.\n The base drop rate for a 4★ character or weapon is <highlight>5.1%</> (<highlight>2.55%</> for 4★ characters and <highlight>2.55%</> for 4★ weapons). The overall chance to obtain a 4★ character or weapon (including guarantees) is <highlight>13.0%</>. You are guaranteed a 4★ or higher character or a 4★ weapon within every <highlight>10</> Retraces. When a guarantee is triggered, there is a <highlight>99.4%</> chance to obtain a 4★ character or weapon, and a <highlight>0.6%</> chance to obtain a 5★ character.\n \n <Title>About Duplicates</>\n For a 5★ character you already own: on the 2nd to 7th duplicate, you'll receive the character's Intron ×<highlight>1</> and Brilliant Grit ×<highlight>50</>; from the 8th duplicate onward, you'll receive Brilliant Grit ×<highlight>125</>.\n For a 4★ character you already own: on the 2nd to 7th duplicate, you'll receive the character's Intron ×<highlight>1</> and Brilliant Grit ×<highlight>10</>; from the 8th duplicate onward, you'll receive Brilliant Grit ×<highlight>25</>.\n Every 4★ weapon obtained from this banner comes with Brilliant Grit ×<highlight>5</>; every 3★ weapon comes with Pristine Grit ×<highlight>20</>.\n \n For any Event Character Chrono, Retrace counts without a 5★ character drop will continue to accumulate within this banner type. This count is tracked separately and does not carry over to other banners. \n Once this banner ends, the event-exclusive character <highlight>&Char&</> will not be available in the Standard Chrono "Sojourns Entwined."",
           TextMapId = "GACHA_WARNING_UP"
         },
         GACHA_WARNING_WEAPON_UP = {
-          ContentEN = "<Title>About Chrono Drop Rates</>\nIn this Chrono, the base probability of winning a 5★ weapon is <highlight>0.8%</>, with an overall rate (incl. guarantees) of <highlight>1.87%</>. You are guaranteed to obtain the featured 5★ weapon "Elpides Abound" within <highlight>80</> Retraces.\nThe base probability of winning a 4★ character/weapon is <highlight>6.6%</> (<highlight>3.3%</> for a 4★ character and <highlight>3.3%</> for a 4★ weapon), with an overall rate (incl. guarantees) of <highlight>14.8%</>. You are guaranteed to obtain a 4★ or better character/weapon within every <highlight>10</> Retraces. The probability of winning a 4★ character/weapon through a guarantee is <highlight>99.2%</>.\n \n<Title>About Duplicate Items</>\nOn obtaining a a 4★ character that you already own, from the 2nd to the 7th time, you'll receive the character's Intron x<highlight>1</> and Brilliant Grit x<highlight>10</>; from the 8th time onwards, you'll receive Brilliant Grit x<highlight>25</>.\nEvery 5★ weapon won in this Chrono comes with Brilliant Grit x<highlight>25</>; Every 4★ weapon won in this Chrono comes with Brilliant Grit x<highlight>5</>; Every 3★ weapon won in this Chrono comes with Pristine Grit x<highlight>20</>.\n\nFor any Event Weapon Chrono, the count of Retraces without a 5★ weapon drop will continue to accumulate within this Chrono type, and it is tallied separately and does not carry over to other Chronos.\nOnce this Chrono ends, the event-exclusive weapon "Elpides Abound" will not be available in the Standard Chrono "Sojourns Entwined".",
+          ContentEN = "<Title>About Chrono Drop Rates</>\n In this Chrono, the base drop rate for a 5★ weapon per draw is <highlight>0.8%</>, with an overall chance (including guarantees) of <highlight>1.87%</>. You are guaranteed the featured 5★ weapon, <highlight>&Weapon&</>, within <highlight>80</> Retraces.\n The base drop rate for a 4★ character or weapon is <highlight>6.6%</>, including a <highlight>3.3%</> for 4★ characters and another <highlight>3.3%</> for 4★ weapons. The overall chance to obtain a 4★ character or weapon (including guarantees) is <highlight>14.8%</>. You are guaranteed a 4★ character or a 4★ or higher weapon within every <highlight>10</> Retraces. When a guarantee is triggered, there is a <highlight>99.2%</> chance to obtain a 4★ character or weapon, and a <highlight>0.8%</> chance to obtain a 5★ weapon.\n \n <Title>About Duplicates</>\n For a 4★ character you already own: on the 2nd to 7th duplicate, you'll receive the character's Intron ×<highlight>1</> and Brilliant Grit ×<highlight>10</>; from the 8th duplicate onward, you'll receive Brilliant Grit ×<highlight>25</>.\n Every 5★ weapon obtained from this banner comes with Brilliant Grit ×<highlight>25</>; every 4★ weapon comes with Brilliant Grit ×<highlight>5</>; every 3★ weapon comes with Pristine Grit ×<highlight>20</>.\n \n For any Event Weapon Chrono, Retrace counts without a 5★ weapon drop will continue to accumulate within this banner type. This count is tracked separately and does not carry over to other banners. \n Once this banner ends, the featured weapon will not be available in the Standard Chrono "Sojourns Entwined."",
           TextMapId = "GACHA_WARNING_WEAPON_UP"
         },
         GRADEUP_1101_01 = {
@@ -9279,7 +9472,7 @@ local Data = {
           TextMapId = "GRADEUP_1103_03"
         },
         GRADEUP_1103_04 = {
-          ContentEN = "When dealing damage with the 4-hit of [Furious Claws] and Plunging Attack, increases the damage taken by the target who is inflicted with 10 stacks of [Adagio] by #4.",
+          ContentEN = "When dealing damage with the 4th hit of [Savage Claws] or a Plunging Attack, increases damage by #3 if the target has 10 stacks of [Adagio].",
           TextMapId = "GRADEUP_1103_04"
         },
         GRADEUP_1103_05 = {
@@ -9287,7 +9480,7 @@ local Data = {
           TextMapId = "GRADEUP_1103_05"
         },
         GRADEUP_1103_06 = {
-          ContentEN = "Enables [Presto] to increase Morale by #5. Each time Phantasio gains [Immersion] from [Duo], [Presto]'s duration is extended by 0.2 0.2s.",
+          ContentEN = "[Presto] grants an additional #4 Morale Increase. When [Duo]'s [Immersion] is triggered, extends [Presto]'s duration by 0.2s.",
           TextMapId = "GRADEUP_1103_06"
         },
         GRADEUP_1501_01 = {
@@ -9295,7 +9488,7 @@ local Data = {
           TextMapId = "GRADEUP_1501_01"
         },
         GRADEUP_1501_02 = {
-          ContentEN = "When damage triggers a bonus effect, there is a #3 chance to gain 1 additional combo point.",
+          ContentEN = "When damage triggers a bonus effect, gain 1 additional combo point.",
           TextMapId = "GRADEUP_1501_02"
         },
         GRADEUP_1501_03 = {
@@ -9319,11 +9512,11 @@ local Data = {
           TextMapId = "GRADEUP_1502_01"
         },
         GRADEUP_1502_02 = {
-          ContentEN = "After [Solar Eclipse] deals damage, the target takes #2 increased damage from [Lunar Hunt] for 3s.\nAfter [Lunar Hunt] deals damage, the target takes #2 increased damage from [Solar Eclipse] for 3s.",
+          ContentEN = "When [Lunar Hunt] deals damage, [Solar Eclipse] gains +#2 damage against the target for 3s. When [Solar Eclipse] deals damage, [Lunar Hunt] gains +#2 damage against the target for 3s.",
           TextMapId = "GRADEUP_1502_02"
         },
         GRADEUP_1502_03 = {
-          ContentEN = "[Solar Eclipse] Level +2; [Interwoven Cries] Level +1.",
+          ContentEN = "[Lunar Hunt] Level +2, [Interwoven Cries] Level +1.",
           TextMapId = "GRADEUP_1502_03"
         },
         GRADEUP_1502_04 = {
@@ -9343,7 +9536,7 @@ local Data = {
           TextMapId = "GRADEUP_1503_01"
         },
         GRADEUP_1503_02 = {
-          ContentEN = "Restores #2 points of Sanity once every #3s when triggering Bonus Effect.",
+          ContentEN = "When damage triggers a bonus effect, gains +#8 Damage Dealt for #9s and restores #2 Sanity. Sanity restoration can occur once every #3s.",
           TextMapId = "GRADEUP_1503_02"
         },
         GRADEUP_1503_03 = {
@@ -9367,11 +9560,11 @@ local Data = {
           TextMapId = "GRADEUP_1601_01"
         },
         GRADEUP_1601_02 = {
-          ContentEN = "Using [Flare] generates a [Dark Side of the Moon] field with a 10-metre radius, lasting #2s. Continuously reduces the Movement Speed of enemies within by #3.",
+          ContentEN = "Casting [Flare] creates a [Prism] field with a 10-metre radius that lasts for #2s. Continuously reduces the Movement Speed of enemies inside by #3.",
           TextMapId = "GRADEUP_1601_02"
         },
         GRADEUP_1601_03 = {
-          ContentEN = "[Blazing Blade] Level +2, [Diffusion] Level +1.",
+          ContentEN = "[Dawn Beyond Night] Level +2, [Diffusion] Level +1.",
           TextMapId = "GRADEUP_1601_03"
         },
         GRADEUP_1601_04 = {
@@ -9391,7 +9584,7 @@ local Data = {
           TextMapId = "GRADEUP_1801_01"
         },
         GRADEUP_1801_02 = {
-          ContentEN = "Increases the stack cap of [Taleweaver Quill] to 45. When using ["On a Warm Afternoon"], Fina gains 2 additional stacks of [Taleweaver Quill] and gains 1 additional stack of [Taleweaver Quill] per second during [Boisterous Tea Party].",
+          ContentEN = "Increases max [Taleweaver Quill] stacks to 45. Using ["On a Warm Afternoon"] grants 3 additional stacks. While [Boisterous Tea Party] is active, gains 1 extra stack per second.",
           TextMapId = "GRADEUP_1801_02"
         },
         GRADEUP_1801_03 = {
@@ -9575,7 +9768,7 @@ local Data = {
           TextMapId = "GRADEUP_3201_05"
         },
         GRADEUP_3201_06 = {
-          ContentEN = "For every 5 Sanity-consuming skills used by nearby teammate(s), Hellfire automatically uses [Cage of Despair] 1 time. This effect can only be triggered once every #3s.",
+          ContentEN = "For every 5 Sanity-consuming skill uses by nearby allies, Hellfire automatically unleashes [Cage of Despair]. Can trigger once every #3s.",
           TextMapId = "GRADEUP_3201_06"
         },
         GRADEUP_3202_01 = {
@@ -9583,11 +9776,11 @@ local Data = {
           TextMapId = "GRADEUP_3202_01"
         },
         GRADEUP_3202_02 = {
-          ContentEN = "Attacks from [Burgundy Twirl] can block incoming projectiles. Each stack of [Inebriation] reduces Damage Taken by #2.",
+          ContentEN = "Attacks from [Burgundy Flurry] can block incoming projectiles. Each stack of [Inebriation] reduces Damage Taken by #2.",
           TextMapId = "GRADEUP_3202_02"
         },
         GRADEUP_3202_03 = {
-          ContentEN = "[Burgundy Twirl] Level +2, [Claret Waltz] Level +1.",
+          ContentEN = "[Burgundy Flurry] Level +2, [Claret Waltz] Level +1.",
           TextMapId = "GRADEUP_3202_03"
         },
         GRADEUP_3202_04 = {
@@ -9595,7 +9788,7 @@ local Data = {
           TextMapId = "GRADEUP_3202_04"
         },
         GRADEUP_3202_05 = {
-          ContentEN = "[Claret Waltz] Level +2, [Burgundy Twirl] Level +1.",
+          ContentEN = "[Claret Waltz] Level +2, [Burgundy Flurry] Level +1.",
           TextMapId = "GRADEUP_3202_05"
         },
         GRADEUP_3202_06 = {
@@ -9615,7 +9808,7 @@ local Data = {
           TextMapId = "GRADEUP_3301_03"
         },
         GRADEUP_3301_04 = {
-          ContentEN = "Increases the duration of Zealous Zone created by [Margie's Combustible Bin] to 20s.",
+          ContentEN = "Extends the duration of the Zealous Zone created by [Margie's Combustible Bin] to #3s.",
           TextMapId = "GRADEUP_3301_04"
         },
         GRADEUP_3301_05 = {
@@ -9651,11 +9844,11 @@ local Data = {
           TextMapId = "GRADEUP_4101_06"
         },
         GRADEUP_4102_01 = {
-          ContentEN = "When using [Thunder's Oracle Peal], the effect of [Four Realms Align] is additionally triggered once to generate several strikes of [Zhen-Xun Convergence].",
+          ContentEN = "Casting [Thunder's Oracle Peal] extends the Skill DMG bonus from [Fortune's Clarity] by #1s and causes [Four Realms Align] to trigger [Zhen-Xun Convergence] one additional time, each [Zhen-Xun Convergence] bolt dealing 60% of the base damage.",
           TextMapId = "GRADEUP_4102_01"
         },
         GRADEUP_4102_02 = {
-          ContentEN = "When using the Ultimate Skill, increases the [Talisman] retention chance by #1. The max number of stacks provided by [Mutual Generation] is increased to #2.",
+          ContentEN = "Empowers [Myriad Things Thrive] with alternate trigger effects. Tap: [Zhen-Xun Convergence] targets up to 8 enemies. Hold: [Four Realms Align] persists for the rest of the battle, consuming #2 Sanity per second; ends when Sanity reaches 0 or upon casting a skill or using a weapon.",
           TextMapId = "GRADEUP_4102_02"
         },
         GRADEUP_4102_03 = {
@@ -9675,11 +9868,11 @@ local Data = {
           TextMapId = "GRADEUP_4102_06"
         },
         GRADEUP_4201_01 = {
-          ContentEN = "When in [Xuanjiao Manifest] state, gains 1 extra [Reverse Scale] each time [Precipitous Thunderfall] is used.\nUsing [Starstorm Descent] increases Weapon Attack Range by #1 and Skill Range by #2 for Yuming and the nearby teammate(s) for #3s.",
+          ContentEN = "While in [Xuanjiao Manifest], each [Precipitous Thunderfall] grants 1 extra [Reverse Scale]. Using [Starstorm Descent] also increases Weapon Attack Range by #1 and Skill Range by #2 for self and allies, lasting #3s.",
           TextMapId = "GRADEUP_4201_01"
         },
         GRADEUP_4201_02 = {
-          ContentEN = "When Yuming or his teammates unleash [Fish-Dragon Dance], unleashes 2 additional strikes of [Fish-Dragon Dance] within a 10-metre range around the location of the target, with priority given to different target locations.",
+          ContentEN = "[Fish-Dragon Dance] deals #8 of its base damage.",
           TextMapId = "GRADEUP_4201_02"
         },
         GRADEUP_4201_03 = {
@@ -9695,7 +9888,7 @@ local Data = {
           TextMapId = "GRADEUP_4201_05"
         },
         GRADEUP_4201_06 = {
-          ContentEN = "When [Starlight Descent] or [Starstorm Descent] deals damage, the damage is increased by #6 for each stack of [Thunderous Onslaught] inflicted on the target.\nWhen using [Starstorm Descent], restores [Xuanjiao]'s Damage Absorption by #7.",
+          ContentEN = "[Starlight Descent] and [Starstorm Descent] deal #6 more damage to targets affected by [Thunderous Onslaught]. Using [Starstorm Descent] restores [Xuanjiao]'s DMG absorption by #7.",
           TextMapId = "GRADEUP_4201_06"
         },
         GRADEUP_4202_01 = {
@@ -9719,7 +9912,7 @@ local Data = {
           TextMapId = "GRADEUP_4202_05"
         },
         GRADEUP_4202_06 = {
-          ContentEN = "When dealing non-periodic damage, deals additional Electro Damage equivalent to #2 of Randy's [Shield Points+Ultra Shield Points] 1 time.",
+          ContentEN = "When [Impact] hits a target, it also deals additional Electro DMG equal to #2 of Randy's [Shield points + Ultra Shield points].",
           TextMapId = "GRADEUP_4202_06"
         },
         GRADEUP_4301_01 = {
@@ -9743,7 +9936,7 @@ local Data = {
           TextMapId = "GRADEUP_4301_05"
         },
         GRADEUP_4301_06 = {
-          ContentEN = "When an enemy is first linked to [Chaotic Thunderorb], Sibylle deals an additional instance of [Legion's Punishment] damage to the target. This damage is amplified to 350% of the original damage multiplier and is guaranteed to trigger Bonus Effect: Electro.",
+          ContentEN = "When an enemy is linked to the [Summon: Chaotic Thunderorb] for the first time, [Sibylle] deals an additional instance of [Legion's Punishment] damage to that target at 500% of the base multiplier, guaranteed to trigger the Electro bonus effect.",
           TextMapId = "GRADEUP_4301_06"
         },
         GRADEUP_5101_01 = {
@@ -9799,7 +9992,7 @@ local Data = {
           TextMapId = "GRADEUP_5301_01"
         },
         GRADEUP_5301_02 = {
-          ContentEN = "When [Ethereal Powder] or [Powder Stigma] deals damage, there's a #1 chance to generate 1 [Phantasm] at the target's location.",
+          ContentEN = "While in [Flamboyance], fires 16 [Ethereal Powder] particles every #7s. When [Ethereal Powder] or [Powder Stigma] deals damage, there is a #1 chance to spawn a [Phantasm] at the target's location.",
           TextMapId = "GRADEUP_5301_02"
         },
         GRADEUP_5301_03 = {
@@ -9819,7 +10012,7 @@ local Data = {
           TextMapId = "GRADEUP_5301_06"
         },
         GRADEUP_5401_01 = {
-          ContentEN = "Increases Damage dealt by teammates within the range of [Emerald Effusion] by #3.",
+          ContentEN = "While [Emerald Effusion] is active, self and allies gain +#3 Damage Dealt.",
           TextMapId = "GRADEUP_5401_01"
         },
         GRADEUP_5401_02 = {
@@ -9962,6 +10155,14 @@ local Data = {
           ContentEN = "Start Commission",
           TextMapId = "Guide_Message_ModArchiveUI_14"
         },
+        Guide_Message_ModArchiveUI_15 = {
+          ContentEN = "A new Demon Wedge has been unlocked. Click anywhere to return to the Demon Chest screen.",
+          TextMapId = "Guide_Message_ModArchiveUI_15"
+        },
+        Guide_Message_ModArchiveUI_15_Pad = {
+          ContentEN = "A new Demon Wedge has been unlocked. Press to return to the Demon Chest screen.",
+          TextMapId = "Guide_Message_ModArchiveUI_15_Pad"
+        },
         Guide_Message_ModArchiveUI_2 = {
           ContentEN = "Hold <H>&ShowCursor&</> to bring up the cursor, then click <H>Menu</> to open the menu screen.",
           TextMapId = "Guide_Message_ModArchiveUI_2"
@@ -9987,7 +10188,7 @@ local Data = {
           TextMapId = "Guide_Message_ModArchiveUI_4"
         },
         Guide_Message_ModArchiveUI_5 = {
-          ContentEN = "Complete them to earn Trial EXP and valuable rewards.",
+          ContentEN = "Complete Demon Wedge quests to earn valuable rewards",
           TextMapId = "Guide_Message_ModArchiveUI_5"
         },
         Guide_Message_ModArchiveUI_6 = {
@@ -10079,15 +10280,15 @@ local Data = {
           TextMapId = "Home",
         },
         HomePianoAcc_1001001 = {
-          ContentEN = "Currently cannot acquire",
+          ContentEN = "Source: Purchase from Lunoeggy at Silverpeace Square",
           TextMapId = "HomePianoAcc_1001001"
         },
         HomePianoAcc_1001002 = {
-          ContentEN = "Currently cannot acquire",
+          ContentEN = "Source: Complete the main quest "Whispers of the Sands"",
           TextMapId = "HomePianoAcc_1001002"
         },
         HomePianoAcc_1001003 = {
-          ContentEN = "Currently cannot acquire",
+          ContentEN = "Source: Complete the main quest "Escape the Purgatorio Island"",
           TextMapId = "HomePianoAcc_1001003"
         },
         HomePianoAcc_1001004 = {
@@ -10283,7 +10484,7 @@ local Data = {
           TextMapId = "HomePianoAcc_1009001"
         },
         HomePianoAcc_1009002 = {
-          ContentEN = "Source: Complete the main quest "Old Wounds"",
+          ContentEN = "Source: Complete the main quest "Time of Innocence"",
           TextMapId = "HomePianoAcc_1009002"
         },
         HomePianoAcc_1009003 = {
@@ -10295,23 +10496,23 @@ local Data = {
           TextMapId = "HomePianoAcc_1009004"
         },
         HomePianoAcc_1009005 = {
-          ContentEN = "Source: Complete the main quest "Like the Beaconlight"",
+          ContentEN = "Source: Complete the main quest "The Scarlet Land"",
           TextMapId = "HomePianoAcc_1009005"
         },
         HomePianoAcc_1009006 = {
-          ContentEN = "Source: After completing the main quest "The Judgment Day", purchase from Lunoeggy at Silverpeace Square",
+          ContentEN = "Source: After completing the main quest "Requiem for the Nameless," purchase from Lunoeggy at Silverpeace Square",
           TextMapId = "HomePianoAcc_1009006"
         },
         HomePianoAcc_1009007 = {
-          ContentEN = "Source: Complete the main quest "Starlight in the Now"",
+          ContentEN = "Source: Complete the main quest "Heart of Innocence"",
           TextMapId = "HomePianoAcc_1009007"
         },
         HomePianoAcc_1009008 = {
-          ContentEN = "Source: After completing the main quest "The Judgment Day", purchase from Lunoeggy at Silverpeace Square",
+          ContentEN = "Source: After completing the main quest "Requiem for the Nameless," purchase from Lunoeggy at Silverpeace Square",
           TextMapId = "HomePianoAcc_1009008"
         },
         HomePianoDes_1001001 = {
-          ContentEN = "Before the final destination is reached, this place will always be home.",
+          ContentEN = "Bathed in twilight, we sailed through the boundless dark — together, ever onward, toward the dawn.",
           TextMapId = "HomePianoDes_1001001"
         },
         HomePianoDes_1001002 = {
@@ -10319,7 +10520,7 @@ local Data = {
           TextMapId = "HomePianoDes_1001002"
         },
         HomePianoDes_1001003 = {
-          ContentEN = "The island was once a haven of tranquility, until it faded into memory.",
+          ContentEN = "Never look back.",
           TextMapId = "HomePianoDes_1001003"
         },
         HomePianoDes_1001004 = {
@@ -10543,7 +10744,7 @@ local Data = {
           TextMapId = "HomePianoDes_1009008"
         },
         HomePianoNAme_1001001 = {
-          ContentEN = "Lullaby for a Voyager",
+          ContentEN = "Duet Night Abyss Main Theme",
           TextMapId = "HomePianoNAme_1001001"
         },
         HomePianoNAme_1001002 = {
@@ -10551,7 +10752,7 @@ local Data = {
           TextMapId = "HomePianoNAme_1001002"
         },
         HomePianoNAme_1001003 = {
-          ContentEN = "The Deserted Village",
+          ContentEN = "Tranquility of My Yesterdays",
           TextMapId = "HomePianoNAme_1001003"
         },
         HomePianoNAme_1001004 = {
@@ -10811,7 +11012,7 @@ local Data = {
           TextMapId = "HomePiano_PlayMusic"
         },
         HomePiano_SetAsHome = {
-          ContentEN = "Set as Background Music",
+          ContentEN = "Set as Sanctuary Music",
           TextMapId = "HomePiano_SetAsHome"
         },
         HomePiano_SetAsHomeAlready = {
@@ -10935,7 +11136,7 @@ local Data = {
           TextMapId = "Impression_UI_Recheck_03"
         },
         Insert = {
-          ContentEN = "Insert",
+          ContentEN = "Ins",
           TextMapId = "Insert",
         },
         Insufficient_Cash = {
@@ -11015,7 +11216,7 @@ local Data = {
           TextMapId = "MAINUIGUIDE_TITLE_BULLETJUMP"
         },
         MAINUIGUIDE_TITLE_Badge = {
-          ContentEN = "Lunoxplorer's Adventurer's Badges",
+          ContentEN = "Lunoxplorer's Advensphere",
           TextMapId = "MAINUIGUIDE_TITLE_Badge"
         },
         MAINUIGUIDE_TITLE_COMBO = {
@@ -11037,6 +11238,10 @@ local Data = {
         MAINUIGUIDE_TITLE_DAMAGEMECHANISM = {
           ContentEN = "Auto-Defence Mechanisms",
           TextMapId = "MAINUIGUIDE_TITLE_DAMAGEMECHANISM"
+        },
+        MAINUIGUIDE_TITLE_DEDUCE = {
+          ContentEN = "Deduce",
+          TextMapId = "MAINUIGUIDE_TITLE_DEDUCE"
         },
         MAINUIGUIDE_TITLE_DELIVERY = {
           ContentEN = "Teleport",
@@ -11067,7 +11272,7 @@ local Data = {
           TextMapId = "MAINUIGUIDE_TITLE_Defence"
         },
         MAINUIGUIDE_TITLE_DefenceMove = {
-          ContentEN = "Commission: Defence · Limited-Time",
+          ContentEN = "Commission: Defence",
           TextMapId = "MAINUIGUIDE_TITLE_DefenceMove"
         },
         MAINUIGUIDE_TITLE_ELEVATOR = {
@@ -11109,6 +11314,54 @@ local Data = {
         MAINUIGUIDE_TITLE_FORT = {
           ContentEN = "Turret 4",
           TextMapId = "MAINUIGUIDE_TITLE_FORT"
+        },
+        MAINUIGUIDE_TITLE_Feina_1 = {
+          ContentEN = "Paint: Colour",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_1"
+        },
+        MAINUIGUIDE_TITLE_Feina_10 = {
+          ContentEN = "Gems: Dispel Mists",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_10"
+        },
+        MAINUIGUIDE_TITLE_Feina_11 = {
+          ContentEN = "Nightingale: Safe Zone",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_11"
+        },
+        MAINUIGUIDE_TITLE_Feina_12 = {
+          ContentEN = "Engraved Disc",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_12"
+        },
+        MAINUIGUIDE_TITLE_Feina_2 = {
+          ContentEN = "White Feathers",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_2"
+        },
+        MAINUIGUIDE_TITLE_Feina_3 = {
+          ContentEN = "Paint: Switch Colour",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_3"
+        },
+        MAINUIGUIDE_TITLE_Feina_4 = {
+          ContentEN = "Flower: Colour",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_4"
+        },
+        MAINUIGUIDE_TITLE_Feina_5 = {
+          ContentEN = "Flower: Fade",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_5"
+        },
+        MAINUIGUIDE_TITLE_Feina_6 = {
+          ContentEN = "Enchanted Basin",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_6"
+        },
+        MAINUIGUIDE_TITLE_Feina_7 = {
+          ContentEN = "Thorns",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_7"
+        },
+        MAINUIGUIDE_TITLE_Feina_8 = {
+          ContentEN = "Nightingale: Remove Thorns",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_8"
+        },
+        MAINUIGUIDE_TITLE_Feina_9 = {
+          ContentEN = "Mists",
+          TextMapId = "MAINUIGUIDE_TITLE_Feina_9"
         },
         MAINUIGUIDE_TITLE_GUNANDAMMO = {
           ContentEN = "Ranged Weapons",
@@ -11166,6 +11419,26 @@ local Data = {
           ContentEN = "Danger Zone",
           TextMapId = "MAINUIGUIDE_TITLE_MONSTEREXITMECHANISM"
         },
+        MAINUIGUIDE_TITLE_MirrorPuzzle = {
+          ContentEN = "Luno's Device",
+          TextMapId = "MAINUIGUIDE_TITLE_MirrorPuzzle"
+        },
+        MAINUIGUIDE_TITLE_ONLINEAREA = {
+          ContentEN = "Co-op Areas",
+          TextMapId = "MAINUIGUIDE_TITLE_ONLINEAREA"
+        },
+        MAINUIGUIDE_TITLE_ONLINEAREAPRE_1 = {
+          ContentEN = "Co-op Function",
+          TextMapId = "MAINUIGUIDE_TITLE_ONLINEAREAPRE_1"
+        },
+        MAINUIGUIDE_TITLE_ONLINEAREAPRE_2 = {
+          ContentEN = "Co-op Area",
+          TextMapId = "MAINUIGUIDE_TITLE_ONLINEAREAPRE_2"
+        },
+        MAINUIGUIDE_TITLE_ONLINEAREAPRE_3 = {
+          ContentEN = "Want a more immersive experience?",
+          TextMapId = "MAINUIGUIDE_TITLE_ONLINEAREAPRE_3"
+        },
         MAINUIGUIDE_TITLE_ONLINE_COMMISSION = {
           ContentEN = "Team: Private & Public Commissions",
           TextMapId = "MAINUIGUIDE_TITLE_ONLINE_COMMISSION"
@@ -11199,7 +11472,7 @@ local Data = {
           TextMapId = "MAINUIGUIDE_TITLE_PARTIALDAMAGE_CRYSTALOPHILE"
         },
         MAINUIGUIDE_TITLE_PERFECTDODGE = {
-          ContentEN = "Protagonist's Perfect Dodge",
+          ContentEN = "Protagonist's Perfect Dodge in Chapter Twilight",
           TextMapId = "MAINUIGUIDE_TITLE_PERFECTDODGE"
         },
         MAINUIGUIDE_TITLE_PET = {
@@ -11278,17 +11551,29 @@ local Data = {
           ContentEN = "Commission: Dismantle",
           TextMapId = "MAINUIGUIDE_TITLE_SabotagePro"
         },
+        MAINUIGUIDE_TITLE_Saiqi_1 = {
+          ContentEN = "Chrysalis Dreamweave",
+          TextMapId = "MAINUIGUIDE_TITLE_Saiqi_1"
+        },
+        MAINUIGUIDE_TITLE_Saiqi_2 = {
+          ContentEN = "Fluorescent Eclosion",
+          TextMapId = "MAINUIGUIDE_TITLE_Saiqi_2"
+        },
         MAINUIGUIDE_TITLE_SpecialSideStoryUI = {
           ContentEN = "Special Side Quest",
           TextMapId = "MAINUIGUIDE_TITLE_SpecialSideStoryUI"
         },
         MAINUIGUIDE_TITLE_SurvivalMini = {
-          ContentEN = "Commission: Expedition ∞",
+          ContentEN = "Commission: Exploration ∞",
           TextMapId = "MAINUIGUIDE_TITLE_SurvivalMini"
         },
         MAINUIGUIDE_TITLE_SurvivalMiniPro = {
           ContentEN = "Commission: Hedge",
           TextMapId = "MAINUIGUIDE_TITLE_SurvivalMiniPro"
+        },
+        MAINUIGUIDE_TITLE_Synthesis = {
+          ContentEN = "Commission: Chase",
+          TextMapId = "MAINUIGUIDE_TITLE_Synthesis"
         },
         MAINUIGUIDE_TITLE_TASKACCEPTANCE = {
           ContentEN = "Side Quests & Town Exploration",
@@ -11313,6 +11598,10 @@ local Data = {
         MAINUIGUIDE_TITLE_TRAININGGROUND_2 = {
           ContentEN = "Exit Sandrealm Meditation",
           TextMapId = "MAINUIGUIDE_TITLE_TRAININGGROUND_2"
+        },
+        MAINUIGUIDE_TITLE_TRIALRANK = {
+          ContentEN = "Trial Rank",
+          TextMapId = "MAINUIGUIDE_TITLE_TRIALRANK"
         },
         MAINUIGUIDE_TITLE_TRIGGEREFFECT = {
           ContentEN = "Additional Effects",
@@ -11373,6 +11662,10 @@ local Data = {
         MAIN_UI_DAILYGOAL = {
           ContentEN = "Memo",
           TextMapId = "MAIN_UI_DAILYGOAL"
+        },
+        MAIN_UI_DISPATCH = {
+          ContentEN = "Expedition",
+          TextMapId = "MAIN_UI_DISPATCH"
         },
         MAIN_UI_ENTERTAINMENT = {
           ContentEN = "Ripples of Talk",
@@ -11678,6 +11971,10 @@ local Data = {
           ContentEN = "Tap twice to perform Double Jump",
           TextMapId = "MESSAGE_DOUBLEJUMP_PHONE"
         },
+        MESSAGE_HIGHLIGHT_TARGET_PAD = {
+          ContentEN = "Press &GamepadUseSkill&+&ActiveGuide& to show the indicator",
+          TextMapId = "MESSAGE_HIGHLIGHT_TARGET_PAD"
+        },
         MESSAGE_HIGHLIGHT_TARGET_PC = {
           ContentEN = "Press &ActiveGuide& to show the indicator",
           TextMapId = "MESSAGE_HIGHLIGHT_TARGET_PC"
@@ -11707,7 +12004,7 @@ local Data = {
           TextMapId = "MESSAGE_LOADING_11_PC"
         },
         MESSAGE_LOADING_12_PC = {
-          ContentEN = "A race born with "magic", bearing the ominous title of "Demon's Children" within the Hyperborean Empire.",
+          ContentEN = "The race born with "magic" are called Charons, the name that carries vastly different weight from one nation to the next. Here within the Hyperborean Empire, they bear the ominous title of "Demon's Children".",
           TextMapId = "MESSAGE_LOADING_12_PC"
         },
         MESSAGE_LOADING_13_PC = {
@@ -11787,7 +12084,7 @@ local Data = {
           TextMapId = "MESSAGE_LOADING_32_PC"
         },
         MESSAGE_LOADING_33_PC = {
-          ContentEN = "Each Demon Wedge has an affinity that resonates with certain Charons, which is known as Track. When a Wedge's Track matches the bearer's (character/weapon), it requires less Tolerance, while mismatching requires more.",
+          ContentEN = "Each Demon Wedge has an affinity that resonates with certain bearers, which is known as Track. When a Wedge's Track matches the bearer's (character/weapon), it requires less Tolerance, while mismatching requires more.",
           TextMapId = "MESSAGE_LOADING_33_PC"
         },
         MESSAGE_LOADING_34_PC = {
@@ -11806,6 +12103,18 @@ local Data = {
           ContentEN = "Utilize Bouncepads to reach the Evacuation Point more quickly after dealing with the evil "Finale Flare" bomb.",
           TextMapId = "MESSAGE_LOADING_37_PC"
         },
+        MESSAGE_LOADING_38_PC = {
+          ContentEN = "Within the imperial fortress, observe the paths of the differently colored cables to help you disable the defences.",
+          TextMapId = "MESSAGE_LOADING_38_PC"
+        },
+        MESSAGE_LOADING_39_PC = {
+          ContentEN = "Click &Avoid& to dodge. Hold a direction to dodge toward that direction.",
+          TextMapId = "MESSAGE_LOADING_39_PC"
+        },
+        MESSAGE_LOADING_39_Phone = {
+          ContentEN = "Tap the Dodge button to perform a dodge. Hold a direction to dodge toward that direction.",
+          TextMapId = "MESSAGE_LOADING_39_Phone"
+        },
         MESSAGE_LOADING_3_PC = {
           ContentEN = "&Attack& when sliding to perform Sliding Attack",
           TextMapId = "MESSAGE_LOADING_3_PC"
@@ -11814,16 +12123,64 @@ local Data = {
           ContentEN = "Hold the Jump button and swipe left to execute a Sliding Attack.",
           TextMapId = "MESSAGE_LOADING_3_Phone"
         },
+        MESSAGE_LOADING_40_PC = {
+          ContentEN = "Use dyes to change colours for character skins and weapons.",
+          TextMapId = "MESSAGE_LOADING_40_PC"
+        },
+        MESSAGE_LOADING_41_PC = {
+          ContentEN = "Equip various accessories for your characters to create your own unique style.",
+          TextMapId = "MESSAGE_LOADING_41_PC"
+        },
+        MESSAGE_LOADING_42_PC = {
+          ContentEN = "Visit the Lunosmith to forge weapons and other items.",
+          TextMapId = "MESSAGE_LOADING_42_PC"
+        },
+        MESSAGE_LOADING_43_PC = {
+          ContentEN = "While exploring the world, you may come across <H>Geniemons</>. Use <H>Treats</> to become friends with them. Geniemons can empower your team in battle through Geniemon Support.",
+          TextMapId = "MESSAGE_LOADING_43_PC"
+        },
+        MESSAGE_LOADING_44_PC = {
+          ContentEN = "Landing a large catch may trigger a <H>Fish for Bigger Fish</> chance! Use your current catch as bait and cast again — you might land an even rarer prize.",
+          TextMapId = "MESSAGE_LOADING_44_PC"
+        },
+        MESSAGE_LOADING_45_PC = {
+          ContentEN = "Completing Special Side Quests may unlock some new system functions.",
+          TextMapId = "MESSAGE_LOADING_45_PC"
+        },
+        MESSAGE_LOADING_46_PC = {
+          ContentEN = "Visit <Highlight>Sojourns of the Pages of Time</> to view stories from different stages of a character's life.",
+          TextMapId = "MESSAGE_LOADING_46_PC"
+        },
+        MESSAGE_LOADING_47_PC = {
+          ContentEN = "Reflect on one or more clues to uncover new leads.",
+          TextMapId = "MESSAGE_LOADING_47_PC"
+        },
+        MESSAGE_LOADING_48_PC = {
+          ContentEN = "From time to time, dynamic quests will occur throughout the world. Your involvement may alter their outcomes.",
+          TextMapId = "MESSAGE_LOADING_48_PC"
+        },
+        MESSAGE_LOADING_49_PC = {
+          ContentEN = "Lunoeggy's shop offers a wide selection of valuable items. Complete Lunoeggy's Impression Checks to earn generous rewards.",
+          TextMapId = "MESSAGE_LOADING_49_PC"
+        },
         MESSAGE_LOADING_4_PC = {
           ContentEN = "Raising an alarm will attract more enemies",
           TextMapId = "MESSAGE_LOADING_4_PC"
         },
+        MESSAGE_LOADING_50_PC = {
+          ContentEN = "You can summon Combat Partners to fight at your side during world exploration, commissions and Nocturnal Echoes.",
+          TextMapId = "MESSAGE_LOADING_50_PC"
+        },
+        MESSAGE_LOADING_51_PC = {
+          ContentEN = "Paniemon — the cleverest of all Geniemons! Their traces can be found all over. Follow them, and you just might stumble upon something delightful.",
+          TextMapId = "MESSAGE_LOADING_51_PC"
+        },
         MESSAGE_LOADING_5_PC = {
-          ContentEN = "If your character gets stuck, go to "Reset Location" in "Settings" to get free",
+          ContentEN = "If you get stuck while playing the game, go to "Reset Location" in "Settings" to get free.",
           TextMapId = "MESSAGE_LOADING_5_PC"
         },
         MESSAGE_LOADING_6_PC = {
-          ContentEN = "Attacking mechas can also deal damage to enemies",
+          ContentEN = "Attacking mechas can also deal damage to enemies.",
           TextMapId = "MESSAGE_LOADING_6_PC"
         },
         MESSAGE_LOADING_7_PC = {
@@ -11873,6 +12230,10 @@ local Data = {
         MESSAGE_QUESTFINISHTEST_PC = {
           ContentEN = "Testing quests completion toast",
           TextMapId = "MESSAGE_QUESTFINISHTEST_PC"
+        },
+        MESSAGE_REACHQUESTAREA_PC = {
+          ContentEN = "<H>Reach the quest area</>",
+          TextMapId = "MESSAGE_REACHQUESTAREA_PC"
         },
         MESSAGE_RECETCAMERA_2_PC = {
           ContentEN = "Press &LockMonster& again to cancel the lock-on",
@@ -12098,9 +12459,65 @@ local Data = {
           ContentEN = "Commission for Phoxhunters: Mediation",
           TextMapId = "MESSAGE_TITLE_LOADING_37_PC"
         },
+        MESSAGE_TITLE_LOADING_38_PC = {
+          ContentEN = "Clues in the imperial fortress",
+          TextMapId = "MESSAGE_TITLE_LOADING_38_PC"
+        },
+        MESSAGE_TITLE_LOADING_39_PC = {
+          ContentEN = "Dodge",
+          TextMapId = "MESSAGE_TITLE_LOADING_39_PC"
+        },
         MESSAGE_TITLE_LOADING_3_PC = {
           ContentEN = "Slide Attack",
           TextMapId = "MESSAGE_TITLE_LOADING_3_PC"
+        },
+        MESSAGE_TITLE_LOADING_40_PC = {
+          ContentEN = "Show some colours",
+          TextMapId = "MESSAGE_TITLE_LOADING_40_PC"
+        },
+        MESSAGE_TITLE_LOADING_41_PC = {
+          ContentEN = "Make up yourself",
+          TextMapId = "MESSAGE_TITLE_LOADING_41_PC"
+        },
+        MESSAGE_TITLE_LOADING_42_PC = {
+          ContentEN = "Lunosmith, the forging master",
+          TextMapId = "MESSAGE_TITLE_LOADING_42_PC"
+        },
+        MESSAGE_TITLE_LOADING_43_PC = {
+          ContentEN = "Geniemons love Treats",
+          TextMapId = "MESSAGE_TITLE_LOADING_43_PC"
+        },
+        MESSAGE_TITLE_LOADING_44_PC = {
+          ContentEN = "Fishing Frenzy",
+          TextMapId = "MESSAGE_TITLE_LOADING_44_PC"
+        },
+        MESSAGE_TITLE_LOADING_45_PC = {
+          ContentEN = "Special Side Quests",
+          TextMapId = "MESSAGE_TITLE_LOADING_45_PC"
+        },
+        MESSAGE_TITLE_LOADING_46_PC = {
+          ContentEN = "The Pages of Time",
+          TextMapId = "MESSAGE_TITLE_LOADING_46_PC"
+        },
+        MESSAGE_TITLE_LOADING_47_PC = {
+          ContentEN = "You're on, detective",
+          TextMapId = "MESSAGE_TITLE_LOADING_47_PC"
+        },
+        MESSAGE_TITLE_LOADING_48_PC = {
+          ContentEN = "Dynamic Quests",
+          TextMapId = "MESSAGE_TITLE_LOADING_48_PC"
+        },
+        MESSAGE_TITLE_LOADING_49_PC = {
+          ContentEN = "Lunoeggy's shop",
+          TextMapId = "MESSAGE_TITLE_LOADING_49_PC"
+        },
+        MESSAGE_TITLE_LOADING_50_PC = {
+          ContentEN = "Combat Partner",
+          TextMapId = "MESSAGE_TITLE_LOADING_50_PC"
+        },
+        MESSAGE_TITLE_LOADING_51_PC = {
+          ContentEN = "Paniemon",
+          TextMapId = "MESSAGE_TITLE_LOADING_51_PC"
         },
         MESSAGE_TITLE_SHOOT_PC = {
           ContentEN = "Ranged Attack",
@@ -12113,6 +12530,10 @@ local Data = {
         MESSAGE_TRACKQUEST_30_PC = {
           ContentEN = "Follow the pipes to locate the mechanism. Navigation to be configured.",
           TextMapId = "MESSAGE_TRACKQUEST_30_PC"
+        },
+        MESSAGE_TRACKQUEST_910001_PC = {
+          ContentEN = "Click &OpenTask& to open the quest list for more details",
+          TextMapId = "MESSAGE_TRACKQUEST_910001_PC"
         },
         MESSAGE_WALLJUMP_PC = {
           ContentEN = "Consecutively press &Jump& to jump up the wall",
@@ -12203,7 +12624,7 @@ local Data = {
           TextMapId = "MOD_DESC_1314"
         },
         MOD_DESC_1315 = {
-          ContentEN = "Increases Damage Dealt by #1 when attacking off-balance enemies.",
+          ContentEN = "Increases Damage Dealt by #1 when attacking off-balance enemies (with Stance completely weakened).",
           TextMapId = "MOD_DESC_1315"
         },
         MOD_DESC_1316 = {
@@ -12215,7 +12636,7 @@ local Data = {
           TextMapId = "MOD_DESC_1400"
         },
         MOD_DESC_1410 = {
-          ContentEN = "Malaise: The lower the HP percentage, the higher the damage dealt, up to #1.",
+          ContentEN = "Resolve: The lower the HP percentage, the higher the damage dealt, up to #1.",
           TextMapId = "MOD_DESC_1410"
         },
         MOD_DESC_1420 = {
@@ -12259,7 +12680,7 @@ local Data = {
           TextMapId = "MOD_DESC_1524"
         },
         MOD_DESC_1525 = {
-          ContentEN = "When using an Ultimate Skill, restores HP equal to #1 of max HP to the character and teammates within a 10-metre range. This effect can only be triggered once every #2s. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
+          ContentEN = "When using an Ultimate Skill, restores HP equal to #1 of max HP to teammates within a 10-metre range. This effect can only be triggered once every #2s. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
           TextMapId = "MOD_DESC_1525"
         },
         MOD_DESC_1526 = {
@@ -12295,11 +12716,11 @@ local Data = {
           TextMapId = "MOD_DESC_1606"
         },
         MOD_DESC_1700 = {
-          ContentEN = "This Demon Wedge can be equipped in multiples.",
+          ContentEN = "Once upgraded to +#1, this Demon Wedge can be equipped in multiples.",
           TextMapId = "MOD_DESC_1700"
         },
         MOD_DESC_1710 = {
-          ContentEN = "Activates only when at least 4 Demon Wedges aligned to Track #1 are equipped.",
+          ContentEN = "Activates only when at least 4 Demon Wedges aligned to Track <Polarity>#1</> are equipped.",
           TextMapId = "MOD_DESC_1710"
         },
         MOD_DESC_1801 = {
@@ -12359,7 +12780,7 @@ local Data = {
           TextMapId = "MOD_DESC_1921"
         },
         MOD_DESC_1922 = {
-          ContentEN = "When a Hydro character uses skills, all teammates within range get an ATK Increase equal to #2 of the character's ATK, with a maximum increase of 275, for #1s.",
+          ContentEN = "When a Hydro character uses a skill, the user and nearby allies gain an ATK Increase equal to #2 of the user's ATK (up to 275) for #1s.",
           TextMapId = "MOD_DESC_1922"
         },
         MOD_DESC_1931 = {
@@ -12375,11 +12796,11 @@ local Data = {
           TextMapId = "MOD_DESC_1951"
         },
         MOD_DESC_1952 = {
-          ContentEN = "When an Anemo character's Ranged Weapon triggers bonus effects, teammates within range get a Malaise Increase by #2 for #1s.",
+          ContentEN = "When an Anemo character's ranged weapon triggers a bonus effect, grants +#2 Resolve to the user and nearby allies for #1s.",
           TextMapId = "MOD_DESC_1952"
         },
         MOD_DESC_1961 = {
-          ContentEN = "Increases Damage taken by enemies near a Lumino character by #1. For each elemental Bonus Effect inflicted on the target, further increases the said damage taken by #1.",
+          ContentEN = "When enemies near a Lumino character take Weapon DMG, CRIT Chance increases by #1. Gains an additional +#2 against targets with debuffs.",
           TextMapId = "MOD_DESC_1961"
         },
         MOD_DESC_1962 = {
@@ -12499,7 +12920,7 @@ local Data = {
           TextMapId = "MOD_DESC_6141"
         },
         MOD_DESC_6143 = {
-          ContentEN = "Grants +#2 Berserker to self and allies when Max Sanity is ≥ #1.",
+          ContentEN = "Grants +#2 Resolve to self and allies when Max Sanity is ≥ #1.",
           TextMapId = "MOD_DESC_6143"
         },
         MOD_DESC_6151 = {
@@ -12507,7 +12928,7 @@ local Data = {
           TextMapId = "MOD_DESC_6151"
         },
         MOD_DESC_6153 = {
-          ContentEN = "Grants +#2 Berserker to self and allies when Max Sanity is ≥ #1.",
+          ContentEN = "Grants +#2 Resolve to self and allies when Max Sanity is ≥ #1.",
           TextMapId = "MOD_DESC_6153"
         },
         MOD_DESC_6161 = {
@@ -12578,6 +12999,10 @@ local Data = {
           ContentEN = "Whirl of Illusion",
           TextMapId = "MOD_NAME_101001"
         },
+        MOD_NAME_101002 = {
+          ContentEN = "Sundering Edgefield",
+          TextMapId = "MOD_NAME_101002"
+        },
         MOD_NAME_1011 = {
           ContentEN = "Nirvana·Wings",
           TextMapId = "MOD_NAME_1011"
@@ -12606,8 +13031,12 @@ local Data = {
           ContentEN = "Shockwave Echo",
           TextMapId = "MOD_NAME_102002"
         },
+        MOD_NAME_102003 = {
+          ContentEN = "Commanding Thrust",
+          TextMapId = "MOD_NAME_102003"
+        },
         MOD_NAME_102004 = {
-          ContentEN = "Skypiercer",
+          ContentEN = "Piercing Ascent",
           TextMapId = "MOD_NAME_102004"
         },
         MOD_NAME_103001 = {
@@ -12621,6 +13050,10 @@ local Data = {
         MOD_NAME_104001 = {
           ContentEN = "In Full Bloom",
           TextMapId = "MOD_NAME_104001"
+        },
+        MOD_NAME_104002 = {
+          ContentEN = "Blade Feint",
+          TextMapId = "MOD_NAME_104002"
         },
         MOD_NAME_106001 = {
           ContentEN = "Crescent Flurry",
@@ -12759,7 +13192,7 @@ local Data = {
           TextMapId = "MOD_NAME_1401"
         },
         MOD_NAME_1402 = {
-          ContentEN = "Prime·Malaise",
+          ContentEN = "Prime·Resolve",
           TextMapId = "MOD_NAME_1402"
         },
         MOD_NAME_1403 = {
@@ -12903,11 +13336,11 @@ local Data = {
           TextMapId = "MOD_NAME_1732"
         },
         MOD_NAME_1733 = {
-          ContentEN = "Blaze·Spectrum",
+          ContentEN = "Blaze·Inspo",
           TextMapId = "MOD_NAME_1733"
         },
         MOD_NAME_1734 = {
-          ContentEN = "Nirvana·Volition",
+          ContentEN = "Nirvana·Spectrum",
           TextMapId = "MOD_NAME_1734"
         },
         MOD_NAME_1735 = {
@@ -12947,7 +13380,7 @@ local Data = {
           TextMapId = "MOD_NAME_1751"
         },
         MOD_NAME_1752 = {
-          ContentEN = "Blaze·Malaise",
+          ContentEN = "Blaze·Resolve",
           TextMapId = "MOD_NAME_1752"
         },
         MOD_NAME_1753 = {
@@ -12959,7 +13392,7 @@ local Data = {
           TextMapId = "MOD_NAME_1754"
         },
         MOD_NAME_1755 = {
-          ContentEN = "Berserker",
+          ContentEN = "Resolve",
           TextMapId = "MOD_NAME_1755"
         },
         MOD_NAME_1756 = {
@@ -12971,7 +13404,7 @@ local Data = {
           TextMapId = "MOD_NAME_1761"
         },
         MOD_NAME_1762 = {
-          ContentEN = "Blaze·Malaise",
+          ContentEN = "Blaze·Resolve",
           TextMapId = "MOD_NAME_1762"
         },
         MOD_NAME_1763 = {
@@ -13411,7 +13844,7 @@ local Data = {
           TextMapId = "MOD_NAME_6111"
         },
         MOD_NAME_6112 = {
-          ContentEN = "Wings · Inspo · Huntdown",
+          ContentEN = "Wings·Inspo·Huntdown",
           TextMapId = "MOD_NAME_6112"
         },
         MOD_NAME_6113 = {
@@ -13419,7 +13852,7 @@ local Data = {
           TextMapId = "MOD_NAME_6113"
         },
         MOD_NAME_6114 = {
-          ContentEN = "Wings · Inspo · Focus",
+          ContentEN = "Wings·Inspo·Focus",
           TextMapId = "MOD_NAME_6114"
         },
         MOD_NAME_6121 = {
@@ -13427,7 +13860,7 @@ local Data = {
           TextMapId = "MOD_NAME_6121"
         },
         MOD_NAME_6122 = {
-          ContentEN = "Wings · Inspo · Blaze",
+          ContentEN = "Wings·InspoBlaze",
           TextMapId = "MOD_NAME_6122"
         },
         MOD_NAME_6123 = {
@@ -13435,7 +13868,7 @@ local Data = {
           TextMapId = "MOD_NAME_6123"
         },
         MOD_NAME_6124 = {
-          ContentEN = "Wings · Inspo · Volition",
+          ContentEN = "Wings·Inspo·Volition",
           TextMapId = "MOD_NAME_6124"
         },
         MOD_NAME_6131 = {
@@ -13443,7 +13876,7 @@ local Data = {
           TextMapId = "MOD_NAME_6131"
         },
         MOD_NAME_6132 = {
-          ContentEN = "Wings · Inspo · Blaze",
+          ContentEN = "Wings·Inspo·Blaze",
           TextMapId = "MOD_NAME_6132"
         },
         MOD_NAME_6133 = {
@@ -13451,7 +13884,7 @@ local Data = {
           TextMapId = "MOD_NAME_6133"
         },
         MOD_NAME_6134 = {
-          ContentEN = "Wings · Inspo · Volition",
+          ContentEN = "Wings·Inspo·Volition",
           TextMapId = "MOD_NAME_6134"
         },
         MOD_NAME_6141 = {
@@ -13459,15 +13892,15 @@ local Data = {
           TextMapId = "MOD_NAME_6141"
         },
         MOD_NAME_6142 = {
-          ContentEN = "Wings · Inspo · Volition",
+          ContentEN = "Wings·Inspo·Volition",
           TextMapId = "MOD_NAME_6142"
         },
         MOD_NAME_6143 = {
-          ContentEN = "Berserker",
+          ContentEN = "Resolve",
           TextMapId = "MOD_NAME_6143"
         },
         MOD_NAME_6144 = {
-          ContentEN = "Wings · Inspo · Berserker",
+          ContentEN = "Wings·Inspo·Resolve",
           TextMapId = "MOD_NAME_6144"
         },
         MOD_NAME_6151 = {
@@ -13475,15 +13908,15 @@ local Data = {
           TextMapId = "MOD_NAME_6151"
         },
         MOD_NAME_6152 = {
-          ContentEN = "Wings · Inspo · Volition",
+          ContentEN = "Wings·Inspo·Volition",
           TextMapId = "MOD_NAME_6152"
         },
         MOD_NAME_6153 = {
-          ContentEN = "Berserker",
+          ContentEN = "Resolve",
           TextMapId = "MOD_NAME_6153"
         },
         MOD_NAME_6154 = {
-          ContentEN = "Wings · Inspo · Berserker",
+          ContentEN = "Wings·Inspo·Resolve",
           TextMapId = "MOD_NAME_6154"
         },
         MOD_NAME_6161 = {
@@ -13491,7 +13924,7 @@ local Data = {
           TextMapId = "MOD_NAME_6161"
         },
         MOD_NAME_6162 = {
-          ContentEN = "Wings · Inspo · Huntdown",
+          ContentEN = "Wings·Inspo·Huntdown",
           TextMapId = "MOD_NAME_6162"
         },
         MOD_NAME_6163 = {
@@ -13499,7 +13932,7 @@ local Data = {
           TextMapId = "MOD_NAME_6163"
         },
         MOD_NAME_6164 = {
-          ContentEN = "Wings · Inspo · Focus",
+          ContentEN = "Wings·Inspo·Focus",
           TextMapId = "MOD_NAME_6164"
         },
         MOD_Tag_Type_Name_Anubis01 = {
@@ -13719,19 +14152,19 @@ local Data = {
           TextMapId = "Mail_Content_10008"
         },
         Mail_Content_10009 = {
-          ContentEN = "Dear Phoxhunter,\n\nThank you for filling out the survey. Below are some rewards for you.\n\nWe value all feedback and suggestions. Your kind feedback will help us continuously improve the player experience and game quality.",
+          ContentEN = "Dear Phoxhunter,\n Your <highlight>Prismatic Hourglass (Limited-Time)</> are about to expire. Please use them soon.\n Once expired, they'll automatically convert into an equivalent amount of <highlight>Pristine Hourglasses</>.",
           TextMapId = "Mail_Content_10009"
         },
         Mail_Content_10010 = {
-          ContentEN = "Your verification code: {Code} (Draft)",
+          ContentEN = "You are attempting to bind an account. To ensure account security, please complete identity verification.\nYour verification code: {Code}",
           TextMapId = "Mail_Content_10010"
         },
         Mail_Content_10011 = {
-          ContentEN = "Dear Phoxhunter,\nThe drops rewards you earned by watching Twitch streams have been delivered to your game account.\nPlease check the attachment below to claim them.\n\nThank you for your support!\n\n— Duet Night Abyss Team",
+          ContentEN = "Dear Phoxhunter,\n The rewards you earned through Twitch Drops have been delivered to your game account.\n Please claim them from the attachment below.\n \n Thank you for your support!\n \n – Duet Night Abyss Live Ops",
           TextMapId = "Mail_Content_10011"
         },
         Mail_Content_10012 = {
-          ContentEN = "Dear Phoxhunter,\nThe drops rewards you earned by watching CHZZK streams have been delivered to your game account.\nPlease check the attachment below to claim them.\n\nThank you for your support!\n\n— Duet Night Abyss Team",
+          ContentEN = "Dear Phoxhunter,\n The rewards you earned through CHZZK Drops have been delivered to your game account.\n Please claim them from the attachment below.\n \n Thank you for your support!\n \n – Duet Night Abyss Live Ops",
           TextMapId = "Mail_Content_10012"
         },
         Mail_Content_10014 = {
@@ -13739,8 +14172,12 @@ local Data = {
           TextMapId = "Mail_Content_10014"
         },
         Mail_Content_10016 = {
-          ContentEN = "Dear Phoxhunter,\nThe following are thought carrying Rebecca's memories.\nPlease claim them in the attachment.",
+          ContentEN = "Dear Phoxhunter,\n Please find the Thought of Rebecca's memory attached.",
           TextMapId = "Mail_Content_10016"
+        },
+        Mail_Content_10021 = {
+          ContentEN = "Dear Phoxhunter,\n The rewards for this event have been delivered to your account. Please claim them from your mailbox.\n Wishing you a pleasant journey through Atlasia!",
+          TextMapId = "Mail_Content_10021"
         },
         Mail_Content_100301 = {
           ContentEN = "An error occurred during reward distribution. The recovered rewards have been reclaimed and delivered to Inventory.",
@@ -13751,19 +14188,35 @@ local Data = {
           TextMapId = "Mail_Content_100401"
         },
         Mail_Content_100402 = {
-          ContentEN = "Dear Phoxhunter, Your repeated purchase of the Bard's Tome has been refunded in Phoxene Plumule equivalent to your purchase. Thank you for your patience and understanding. Happy gaming!",
+          ContentEN = "Dear Phoxhunter, Your repeated purchase of the Bard's Tome has been refunded in Phoxene equivalent to your purchase. Thank you for your patience and understanding. Happy gaming!",
           TextMapId = "Mail_Content_100402"
         },
+        Mail_Content_10055 = {
+          ContentEN = "Dear Phoxhunter,\n  The rewards for this event have been delivered to your account. Please claim them from your mailbox.\n  Wishing you a pleasant journey through Atlasia!",
+          TextMapId = "Mail_Content_10055"
+        },
+        Mail_Content_10056 = {
+          ContentEN = "Dear Phoxhunter,\n  Thank you for participating the Mini Program events. Please claim your rewards from your mailbox.",
+          TextMapId = "Mail_Content_10056"
+        },
+        Mail_Content_10058 = {
+          ContentEN = "Dear Phoxhunters,\nThank you for every 'Like' you gave in the DNArt Fanwork Contest. Your support makes the efforts of our creators shine even brighter!\n— Duet Night Abyss Operation Team",
+          TextMapId = "Mail_Content_10058"
+        },
+        Mail_Content_10059 = {
+          ContentEN = "Dear Phoxhunter,\n  The rewards for this event have been delivered to your account. Please claim them from your mailbox.\n  Wishing you a pleasant journey through Atlasia!",
+          TextMapId = "Mail_Content_10059"
+        },
         Mail_Content_101001 = {
-          ContentEN = "Dear Phoxhunter, \n\nUnclaimed rewards from the [Luno's Heptameron] event have been sent to your mailbox. Don't forget to get them!",
+          ContentEN = "Dear Phoxhunter, \n \n Your unclaimed rewards from the %s event have been sent to your mailbox. Don't forget to claim them!",
           TextMapId = "Mail_Content_101001"
         },
         Mail_Content_102001 = {
-          ContentEN = "Dear Phoxhunter, \n\nUnclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been sent to your mailbox. Don't forget to get them!",
+          ContentEN = "Dear Phoxhunter, \n \n Your unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been sent to your mailbox. Don't forget to claim them!",
           TextMapId = "Mail_Content_102001"
         },
         Mail_Content_19101 = {
-          ContentEN = "Ah, my little minion, you've finally arrived! Took you so long my hair's starting to go grey!\nPhoxhunters are all set! Here, take this upfront bounty, and let the adventure on Atlasia commence!",
+          ContentEN = "\"Little Minion! Took you long enough. I was about to turn grey waiting for you!\n I've got everything ready for our Phoxhunter squad. Here, take this advance, and let's begin our adventure across the Continent of Atlasia!\"",
           TextMapId = "Mail_Content_19101"
         },
         Mail_Sender_100005 = {
@@ -13803,8 +14256,12 @@ local Data = {
           TextMapId = "Mail_Title_10008"
         },
         Mail_Title_10009 = {
-          ContentEN = "Survey Completion Rewards",
+          ContentEN = "Expiry Notice: Prismatic Hourglasses (Limited-Time)",
           TextMapId = "Mail_Title_10009"
+        },
+        Mail_Title_10010 = {
+          ContentEN = "Account Binding Verification Code",
+          TextMapId = "Mail_Title_10010"
         },
         Mail_Title_10011 = {
           ContentEN = "Twitch Drops Rewards Delivered",
@@ -13819,8 +14276,12 @@ local Data = {
           TextMapId = "Mail_Title_10014"
         },
         Mail_Title_10016 = {
-          ContentEN = "Thought Rewards",
+          ContentEN = "Thought Reward Mail",
           TextMapId = "Mail_Title_10016"
+        },
+        Mail_Title_10021 = {
+          ContentEN = ""Leap! Helix Leap!" Event Rewards",
+          TextMapId = "Mail_Title_10021"
         },
         Mail_Title_100301 = {
           ContentEN = "Recovered Reward Notice",
@@ -13835,19 +14296,35 @@ local Data = {
           TextMapId = "Mail_Title_100401"
         },
         Mail_Title_100402 = {
-          ContentEN = "[Bard's Tome] Purchase failed",
+          ContentEN = "[Bard's Tome] Purchase Failed",
           TextMapId = "Mail_Title_100402"
         },
+        Mail_Title_10055 = {
+          ContentEN = "Set Sail for Tomorrow: Limited-Time Open Beta Rewards",
+          TextMapId = "Mail_Title_10055"
+        },
+        Mail_Title_10056 = {
+          ContentEN = "Mini Program Reward",
+          TextMapId = "Mail_Title_10056"
+        },
+        Mail_Title_10058 = {
+          ContentEN = "DNArt Fanwork Contest: Thank You for Your Likes!",
+          TextMapId = "Mail_Title_10058"
+        },
+        Mail_Title_10059 = {
+          ContentEN = ""Lunoracle's Fortune Telling" Event Rewards",
+          TextMapId = "Mail_Title_10059"
+        },
         Mail_Title_101001 = {
-          ContentEN = "[Luno's Heptameron] Claim Your Rewards",
+          ContentEN = "Unclaimed [%s] Rewards Issued",
           TextMapId = "Mail_Title_101001"
         },
         Mail_Title_102001 = {
-          ContentEN = "[Beginner's Guide for Phoxhunters] Claim Your Rewards",
+          ContentEN = "Claim Your Rewards — [Beginner's Guide for Phoxhunters]",
           TextMapId = "Mail_Title_102001"
         },
         Mail_Title_19101 = {
-          ContentEN = "Onward! Invitation from the Demon King!",
+          ContentEN = "Adventure Calls! A Team Invite from the Demon King!",
           TextMapId = "Mail_Title_19101"
         },
         MainType_Character = {
@@ -13915,7 +14392,7 @@ local Data = {
           TextMapId = "Message_Guide_Alt"
         },
         Message_Guide_Badge_1 = {
-          ContentEN = "Lunoxplorer has left badges across Atlasia, marking the paths of her journeys. Collect them and return them to her to earn recognition and rewards.",
+          ContentEN = "Lunoxplorer has left badges called Advensphere across Atlasia, marking the paths of her journeys. \nCollect them and return them to her to earn recognition and rewards.",
           TextMapId = "Message_Guide_Badge_1"
         },
         Message_Guide_Bag_1_PC = {
@@ -14047,7 +14524,7 @@ local Data = {
           TextMapId = "Message_Guide_ChangeColor_14"
         },
         Message_Guide_ChangeColor_15 = {
-          ContentEN = "Blueprints for Standard Dyes can be obtained from the <H>Beginner's Guide</> in the Combat screen",
+          ContentEN = "Standard Dyes can be obtained from the <H>Beginner's Guide</> in the Combat screen",
           TextMapId = "Message_Guide_ChangeColor_15"
         },
         Message_Guide_ChangeColor_1_Pad = {
@@ -14107,7 +14584,7 @@ local Data = {
           TextMapId = "Message_Guide_ChangeColor_9_Pad"
         },
         Message_Guide_ChangeWeapon_1 = {
-          ContentEN = "You've just obtained a new weapon. Try it now!",
+          ContentEN = "We need some fundamental knowledge before exploring this world.",
           TextMapId = "Message_Guide_ChangeWeapon_1"
         },
         Message_Guide_ChangeWeapon_10 = {
@@ -14179,7 +14656,7 @@ local Data = {
           TextMapId = "Message_Guide_Dispatch_02"
         },
         Message_Guide_Dispatch_02_Pad = {
-          ContentEN = "Press to view the list of dispatchable characters",
+          ContentEN = "Press to view the Expedition list",
           TextMapId = "Message_Guide_Dispatch_02_Pad"
         },
         Message_Guide_Dispatch_03 = {
@@ -14203,7 +14680,7 @@ local Data = {
           TextMapId = "Message_Guide_Dispatch_07"
         },
         Message_Guide_Dispatch_07_Pad = {
-          ContentEN = "Press to open the list of dispatchable characters",
+          ContentEN = "Press to view the Character list",
           TextMapId = "Message_Guide_Dispatch_07_Pad"
         },
         Message_Guide_Dispatch_08 = {
@@ -14222,6 +14699,38 @@ local Data = {
           ContentEN = "Each Secret Letter offers six possible rewards across three rarity tiers.",
           TextMapId = "Message_Guide_DungeonSec_1"
         },
+        Message_Guide_DungeonSec_10 = {
+          ContentEN = "Click <H>Select a Covert Commission</>.",
+          TextMapId = "Message_Guide_DungeonSec_10"
+        },
+        Message_Guide_DungeonSec_10_Pad = {
+          ContentEN = "Press <H>Select a Covert Commission</>.",
+          TextMapId = "Message_Guide_DungeonSec_10_Pad"
+        },
+        Message_Guide_DungeonSec_11 = {
+          ContentEN = "Select a Covert Commission.",
+          TextMapId = "Message_Guide_DungeonSec_11"
+        },
+        Message_Guide_DungeonSec_12 = {
+          ContentEN = "Confirm selection to begin the Commission.",
+          TextMapId = "Message_Guide_DungeonSec_12"
+        },
+        Message_Guide_DungeonSec_13 = {
+          ContentEN = "Click to select [Truffle and Filbert]'s <H>Thoughts</>.",
+          TextMapId = "Message_Guide_DungeonSec_13"
+        },
+        Message_Guide_DungeonSec_13_Pad = {
+          ContentEN = "Press to select [Truffle and Filbert]'s <H>Thoughts</>.",
+          TextMapId = "Message_Guide_DungeonSec_13_Pad"
+        },
+        Message_Guide_DungeonSec_14 = {
+          ContentEN = "Click to confirm selection and claim rewards.",
+          TextMapId = "Message_Guide_DungeonSec_14"
+        },
+        Message_Guide_DungeonSec_14_Pad = {
+          ContentEN = "Press to confirm selection and claim rewards.",
+          TextMapId = "Message_Guide_DungeonSec_14_Pad"
+        },
         Message_Guide_DungeonSec_2 = {
           ContentEN = "Upon completion, three out of the six rewards will be randomly presented. You may choose one to claim.",
           TextMapId = "Message_Guide_DungeonSec_2"
@@ -14229,6 +14738,34 @@ local Data = {
         Message_Guide_DungeonSec_3 = {
           ContentEN = "New Covert Commissions refresh every hour.",
           TextMapId = "Message_Guide_DungeonSec_3"
+        },
+        Message_Guide_DungeonSec_4 = {
+          ContentEN = "Wow! This isn't a Commission just any Phoxhunter could receive. Come and take a look~",
+          TextMapId = "Message_Guide_DungeonSec_4"
+        },
+        Message_Guide_DungeonSec_6 = {
+          ContentEN = "Click to enter the <H>Covert Commission</> screen. ",
+          TextMapId = "Message_Guide_DungeonSec_6"
+        },
+        Message_Guide_DungeonSec_6_Pad = {
+          ContentEN = "Press to enter the <H>Covert Commission</> screen.",
+          TextMapId = "Message_Guide_DungeonSec_6_Pad"
+        },
+        Message_Guide_DungeonSec_7 = {
+          ContentEN = "Select a Covert Commission.",
+          TextMapId = "Message_Guide_DungeonSec_7"
+        },
+        Message_Guide_DungeonSec_8 = {
+          ContentEN = "Here you can view the possible drops for the Covert Commission. Upon completion, three of the six rewards will be randomly presented. Choose one to claim.",
+          TextMapId = "Message_Guide_DungeonSec_8"
+        },
+        Message_Guide_DungeonSec_9 = {
+          ContentEN = "Click to open the Commissions screen.",
+          TextMapId = "Message_Guide_DungeonSec_9"
+        },
+        Message_Guide_DungeonSec_9_Pad = {
+          ContentEN = "Press to enter the Commissions screen.",
+          TextMapId = "Message_Guide_DungeonSec_9_Pad"
         },
         Message_Guide_Dungeon_10 = {
           ContentEN = "You can also customise your team setup by selecting a main character and the right Combat Partners for each challenge.",
@@ -14267,19 +14804,19 @@ local Data = {
           TextMapId = "Message_Guide_Dungeon_14_Pad"
         },
         Message_Guide_Dungeon_15 = {
-          ContentEN = "Select here to save the setup",
+          ContentEN = "Select here to save the team preset",
           TextMapId = "Message_Guide_Dungeon_15"
         },
         Message_Guide_Dungeon_15_Pad = {
-          ContentEN = "Press here to save the setup",
+          ContentEN = "Press here to save the team preset",
           TextMapId = "Message_Guide_Dungeon_15_Pad"
         },
         Message_Guide_Dungeon_16 = {
-          ContentEN = "Selet here to confirm and save",
+          ContentEN = "Select again to confirm",
           TextMapId = "Message_Guide_Dungeon_16"
         },
         Message_Guide_Dungeon_16_Pad = {
-          ContentEN = "Press here to confirm and save",
+          ContentEN = "Press again to confirm",
           TextMapId = "Message_Guide_Dungeon_16_Pad"
         },
         Message_Guide_Dungeon_17 = {
@@ -14331,7 +14868,7 @@ local Data = {
           TextMapId = "Message_Guide_Dungeon_5_Pad"
         },
         Message_Guide_Dungeon_6 = {
-          ContentEN = "Standard Commissions consume Sanergy.",
+          ContentEN = "Standard Commissions consume Sanergy — but those in the Noctoyager Manual do not.",
           TextMapId = "Message_Guide_Dungeon_6"
         },
         Message_Guide_Dungeon_7 = {
@@ -14375,8 +14912,16 @@ local Data = {
           TextMapId = "Message_Guide_Forge_1"
         },
         Message_Guide_Forge_10 = {
-          ContentEN = "That's about it. Time to find Lunosmith, have her make us a Supply Crate — and admire her craftsmanship~",
+          ContentEN = "That's about it. Time to find Lunosmith, have her make us a Supply Chest — and admire her craftsmanship~",
           TextMapId = "Message_Guide_Forge_10"
+        },
+        Message_Guide_Forge_11 = {
+          ContentEN = "When holding a <H>Toy Hammer</> in your Inventory, click "Speed Up Forging" to shorten forging time.",
+          TextMapId = "Message_Guide_Forge_11"
+        },
+        Message_Guide_Forge_11_Pad = {
+          ContentEN = "When holding a <H>Toy Hammer</> in your Inventory, press to select "Speed Up Forging" to shorten forging time.",
+          TextMapId = "Message_Guide_Forge_11_Pad"
         },
         Message_Guide_Forge_2 = {
           ContentEN = "Before forging, make sure you've got the blueprints and the necessary materials.",
@@ -14423,11 +14968,11 @@ local Data = {
           TextMapId = "Message_Guide_Forge_8_Pad"
         },
         Message_Guide_Forge_9 = {
-          ContentEN = "In the Blueprints Compendium, you can view the blueprints you've obtained.",
+          ContentEN = "In Blueprints, you can view the blueprints you've obtained.",
           TextMapId = "Message_Guide_Forge_9"
         },
         Message_Guide_Forge_9_Pad = {
-          ContentEN = "In the Blueprints Compendium, you can view the blueprints you've obtained.",
+          ContentEN = "In Blueprints, you can view the blueprints you've obtained.",
           TextMapId = "Message_Guide_Forge_9_Pad"
         },
         Message_Guide_Gacha_1 = {
@@ -14462,9 +15007,29 @@ local Data = {
           ContentEN = "Press to select "Claim All" and collect all available event rewards",
           TextMapId = "Message_Guide_GameEvent_3_Pad"
         },
+        Message_Guide_HardBoss_2 = {
+          ContentEN = "Click to enter <H>Nocturnal Echoes</>.",
+          TextMapId = "Message_Guide_HardBoss_2"
+        },
+        Message_Guide_HardBoss_2_Pad = {
+          ContentEN = "Press to enter <H>Nocturnal Echoes</>.",
+          TextMapId = "Message_Guide_HardBoss_2_Pad"
+        },
+        Message_Guide_HardBoss_3 = {
+          ContentEN = "Nocturnal Echoes stages feature powerful enemies.",
+          TextMapId = "Message_Guide_HardBoss_3"
+        },
         Message_Guide_HardBoss_4 = {
-          ContentEN = "Challenge the Nocturnal Echoes for a chance to earn rewards including Secret Letters.",
+          ContentEN = "Clearing Nocturnal Echoes challenges may yield valuable rewards, including Secret Letters.",
           TextMapId = "Message_Guide_HardBoss_4"
+        },
+        Message_Guide_HardBoss_5 = {
+          ContentEN = "Click <H>Start Challenge</> to view details about the stage and fast-travel to the battle site.",
+          TextMapId = "Message_Guide_HardBoss_5"
+        },
+        Message_Guide_HardBoss_5_Pad = {
+          ContentEN = "Press to select <H>Start Challenge</> to view details about the stage and fast-travel to the battle site.",
+          TextMapId = "Message_Guide_HardBoss_5_Pad"
         },
         Message_Guide_Impression_1 = {
           ContentEN = "Curious about how the rest of Atlasia sees us? Take a gander at the "Impressions" we get across different regions!",
@@ -14482,9 +15047,93 @@ local Data = {
           ContentEN = "<H>Lunoeggy</> admires those with personality. Once you've built up a strong reputation with enough Impression scores, you can challenge <H>Lunoeggy</> in the city to a dice game for a chance to win <H>Lunoeggy's Rewards</>!",
           TextMapId = "Message_Guide_Impression_4"
         },
+        Message_Guide_Intron_1 = {
+          ContentEN = "Use <H>Thoughts</> to raise a character's <H>Intron Level</>.",
+          TextMapId = "Message_Guide_Intron_1"
+        },
+        Message_Guide_Intron_3 = {
+          ContentEN = "Click to open the <H>character list</>.",
+          TextMapId = "Message_Guide_Intron_3"
+        },
+        Message_Guide_Intron_3_Pad = {
+          ContentEN = "Press to open the <H>character list</>.",
+          TextMapId = "Message_Guide_Intron_3_Pad"
+        },
+        Message_Guide_Intron_4 = {
+          ContentEN = "Select <H>Truffle and Filbert</>.",
+          TextMapId = "Message_Guide_Intron_4"
+        },
+        Message_Guide_Intron_4_Pad = {
+          ContentEN = "Press to select <H>Truffle and Filbert</>.",
+          TextMapId = "Message_Guide_Intron_4_Pad"
+        },
+        Message_Guide_Intron_5 = {
+          ContentEN = "Click <H>Intron</>.",
+          TextMapId = "Message_Guide_Intron_5"
+        },
+        Message_Guide_Intron_5_Pad = {
+          ContentEN = "Press to select <H>Intron</>.",
+          TextMapId = "Message_Guide_Intron_5_Pad"
+        },
+        Message_Guide_Intron_6 = {
+          ContentEN = "Click <H>Intron Lv. 1</> to view details.",
+          TextMapId = "Message_Guide_Intron_6"
+        },
+        Message_Guide_Intron_6_Pad = {
+          ContentEN = "Press <H>Intron Lv. 1</> to view details.",
+          TextMapId = "Message_Guide_Intron_6_Pad"
+        },
+        Message_Guide_Intron_7 = {
+          ContentEN = "Click to use <H>Thoughts</> and unlock <H>Intron Lv. 1</>.",
+          TextMapId = "Message_Guide_Intron_7"
+        },
+        Message_Guide_Intron_7_Pad = {
+          ContentEN = "Press to use <H>Thoughts</> and unlock <H>Intron Lv. 1</>.",
+          TextMapId = "Message_Guide_Intron_7_Pad"
+        },
+        Message_Guide_MaerJ = {
+          ContentEN = "Click the Reminiscence button to combine Thoughts into a character.",
+          TextMapId = "Message_Guide_MaerJ"
+        },
+        Message_Guide_MaerJ_2 = {
+          ContentEN = "Select Deploy to deploy your character.",
+          TextMapId = "Message_Guide_MaerJ_2"
+        },
+        Message_Guide_MaerJ_Pad = {
+          ContentEN = "Press the Reminiscence button to combine Thoughts into a character.",
+          TextMapId = "Message_Guide_MaerJ_Pad"
+        },
+        Message_Guide_MaerJ_Pad_2 = {
+          ContentEN = "Select Deploy to deploy your character.",
+          TextMapId = "Message_Guide_MaerJ_Pad_2"
+        },
         Message_Guide_Mail_1 = {
           ContentEN = "You've received a new email.",
           TextMapId = "Message_Guide_Mail_1"
+        },
+        Message_Guide_Mail_10 = {
+          ContentEN = "Click to open the <H>character list</>.",
+          TextMapId = "Message_Guide_Mail_10"
+        },
+        Message_Guide_Mail_10_Pad = {
+          ContentEN = "Press to open the <H>character list</>.",
+          TextMapId = "Message_Guide_Mail_10_Pad"
+        },
+        Message_Guide_Mail_11 = {
+          ContentEN = "Select <H>Berenica</>.",
+          TextMapId = "Message_Guide_Mail_11"
+        },
+        Message_Guide_Mail_11_Pad = {
+          ContentEN = "Press to select <H>Berenica</>.",
+          TextMapId = "Message_Guide_Mail_11_Pad"
+        },
+        Message_Guide_Mail_12 = {
+          ContentEN = "Click <H>Reminiscence</> to unlock the character.",
+          TextMapId = "Message_Guide_Mail_12"
+        },
+        Message_Guide_Mail_12_Pad = {
+          ContentEN = "Press to select <H>Reminiscence</> to unlock the character.",
+          TextMapId = "Message_Guide_Mail_12_Pad"
         },
         Message_Guide_Mail_2_PC = {
           ContentEN = "Hold <H>&ShowCursor&</> to bring up the cursor, then click the icon to open the menu.",
@@ -14666,6 +15315,30 @@ local Data = {
           ContentEN = "<H>Tolerance</> refers to the capacity of characters and weapons to bear Demon Wedges. The number below represents the Tolerance cap of a character or a weapon.",
           TextMapId = "Message_Guide_Mod_9"
         },
+        Message_Guide_OnlineAreaPre_1 = {
+          ContentEN = "Complete "Black Iron and White Flower" of the Chapter Noctoyager to unlock co-op. Meet other players from across time in dedicated co-op areas.",
+          TextMapId = "Message_Guide_OnlineAreaPre_1"
+        },
+        Message_Guide_OnlineAreaPre_2 = {
+          ContentEN = "Some areas become co-op areas after unlocking the feature. Entering these areas automatically enables co-op mode. Leaving them disables it.",
+          TextMapId = "Message_Guide_OnlineAreaPre_2"
+        },
+        Message_Guide_OnlineAreaPre_3 = {
+          ContentEN = "You can toggle Auto-Join on or off in Settings.",
+          TextMapId = "Message_Guide_OnlineAreaPre_3"
+        },
+        Message_Guide_OnlineArea_1 = {
+          ContentEN = "Some areas are Co-op Areas, where you may encounter players from different timelines.",
+          TextMapId = "Message_Guide_OnlineArea_1"
+        },
+        Message_Guide_OnlineArea_2 = {
+          ContentEN = "Entering these areas automatically enables co-op mode. Leaving them disables it.",
+          TextMapId = "Message_Guide_OnlineArea_2"
+        },
+        Message_Guide_OnlineArea_3 = {
+          ContentEN = "You can toggle Auto-Join on or off in Settings.",
+          TextMapId = "Message_Guide_OnlineArea_3"
+        },
         Message_Guide_OpenArmory_PC = {
           ContentEN = "Hold <H>&ShowCursor&</> to show the cursor, then select <H>Armoury</> to open the Armoury page",
           TextMapId = "Message_Guide_OpenArmory_PC"
@@ -14714,6 +15387,46 @@ local Data = {
           ContentEN = "Inactive Geniemons cannot join battle, but their Traits can be learned by other Geniemons through Geniemon Training.",
           TextMapId = "Message_Guide_PetTrain_6"
         },
+        Message_Guide_PetTraits_1 = {
+          ContentEN = "You have obtained an <H>Inactive Geniemon</>. View it in the Geniemon screen.",
+          TextMapId = "Message_Guide_PetTraits_1"
+        },
+        Message_Guide_PetTraits_2 = {
+          ContentEN = "Click to switch to <H>Inactive Geniemons</>.",
+          TextMapId = "Message_Guide_PetTraits_2"
+        },
+        Message_Guide_PetTraits_2_Pad = {
+          ContentEN = "Press to switch to <H>Inactive Geniemons</>.",
+          TextMapId = "Message_Guide_PetTraits_2_Pad"
+        },
+        Message_Guide_PetTraits_4 = {
+          ContentEN = "Click to switch to <H>Active Geniemons</>.",
+          TextMapId = "Message_Guide_PetTraits_4"
+        },
+        Message_Guide_PetTraits_4_Pad = {
+          ContentEN = "Press to switch to <H>Active Geniemons</>.",
+          TextMapId = "Message_Guide_PetTraits_4_Pad"
+        },
+        Message_Guide_PetTraits_5 = {
+          ContentEN = "Geniemon are either <H>Active</> or <H>Inactive</>. Active Geniemons have Potential slots, which unlock as their star level increases.",
+          TextMapId = "Message_Guide_PetTraits_5"
+        },
+        Message_Guide_PetTraits_6 = {
+          ContentEN = "Gain Geniemon Potential through <H>Geniemon Training</>.",
+          TextMapId = "Message_Guide_PetTraits_6"
+        },
+        Message_Guide_PetTraits_6_Pad = {
+          ContentEN = "Gain Geniemon Potential through <H>Geniemon Training</>.",
+          TextMapId = "Message_Guide_PetTraits_6_Pad"
+        },
+        Message_Guide_PetTraits_7 = {
+          ContentEN = "Click to add an <H>Inactive Geniemon</> as a training partner, allowing others to inherit its Potential.",
+          TextMapId = "Message_Guide_PetTraits_7"
+        },
+        Message_Guide_PetTraits_7_Pad = {
+          ContentEN = "Press to add an <H>Inactive Geniemon</> as a training partner, allowing others to inherit its Potential.",
+          TextMapId = "Message_Guide_PetTraits_7_Pad"
+        },
         Message_Guide_Pet_01 = {
           ContentEN = "Select "Feed the Geniemon"",
           TextMapId = "Message_Guide_Pet_01"
@@ -14751,7 +15464,7 @@ local Data = {
           TextMapId = "Message_Guide_Pet_08_Pad"
         },
         Message_Guide_Pet_09 = {
-          ContentEN = "Select here to release a Geniemon. You can use the essence it leaves behind to boost the level of another Geniemon. You can also level up Geniemon directly using nourishing treats.",
+          ContentEN = "You can view your Geniemons and feed them here",
           TextMapId = "Message_Guide_Pet_09"
         },
         Message_Guide_Pet_10 = {
@@ -14763,7 +15476,7 @@ local Data = {
           TextMapId = "Message_Guide_Pet_11"
         },
         Message_Guide_Pet_11_PAD = {
-          ContentEN = "Press &GamepadUseSkill& + &Skill3& during combat to trigger Geniemon Support",
+          ContentEN = "Tap &GamepadUseSkill& + &Skill3& during combat to activate Geniemon Support.",
           TextMapId = "Message_Guide_Pet_11_PAD"
         },
         Message_Guide_Pet_11_PHONE = {
@@ -15023,7 +15736,7 @@ local Data = {
           TextMapId = "Message_Guide_Rouge_9"
         },
         Message_Guide_Tracking_1 = {
-          ContentEN = "Select here to enable navigation guidance. Follow the markers to reach your destination.",
+          ContentEN = "Select <H>&ActiveGuide&</> to enable navigation guidance. Follow the markers to reach your destination.",
           TextMapId = "Message_Guide_Tracking_1"
         },
         Message_Guide_Tracking_1_PAD = {
@@ -15055,7 +15768,7 @@ local Data = {
           TextMapId = "Message_Guide_TrainingGround_4"
         },
         Message_Guide_TrainingGround_4_Pad = {
-          ContentEN = "If <H>multiple enemies</> are selected, you can press to customise their respective spawn numbers",
+          ContentEN = "If <H>multiple enemies</> are selected, you can adjust their respective spawn numbers here.",
           TextMapId = "Message_Guide_TrainingGround_4_Pad"
         },
         Message_Guide_TrainingGround_5 = {
@@ -15090,6 +15803,42 @@ local Data = {
           ContentEN = "Follow the page's clues to the right spot, and a hidden treasure may be yours.",
           TextMapId = "Message_Guide_Treasure_2"
         },
+        Message_Guide_WalnutShop_1 = {
+          ContentEN = "You can exchange for <H>Secret Letters</> in the <H>Shop</> with <H>Secret Letters Clues</>.",
+          TextMapId = "Message_Guide_WalnutShop_1"
+        },
+        Message_Guide_WalnutShop_3 = {
+          ContentEN = "Click to open the <H>Shop</>.",
+          TextMapId = "Message_Guide_WalnutShop_3"
+        },
+        Message_Guide_WalnutShop_3_Pad = {
+          ContentEN = "Press to open the <H>Shop</>.",
+          TextMapId = "Message_Guide_WalnutShop_3_Pad"
+        },
+        Message_Guide_WalnutShop_4 = {
+          ContentEN = "Click <H>Items</>.",
+          TextMapId = "Message_Guide_WalnutShop_4"
+        },
+        Message_Guide_WalnutShop_4_Pad = {
+          ContentEN = "Press to select <H>Items</>.",
+          TextMapId = "Message_Guide_WalnutShop_4_Pad"
+        },
+        Message_Guide_WalnutShop_5 = {
+          ContentEN = "Select a <H>Secret Letter</>.",
+          TextMapId = "Message_Guide_WalnutShop_5"
+        },
+        Message_Guide_WalnutShop_5_Pad = {
+          ContentEN = "Press to select a <H>Secret Letter</>.",
+          TextMapId = "Message_Guide_WalnutShop_5_Pad"
+        },
+        Message_Guide_WalnutShop_6 = {
+          ContentEN = "Purchasing a <H>Secret Letter</> requires <H>the matching type of Secret Letter Clues</>.",
+          TextMapId = "Message_Guide_WalnutShop_6"
+        },
+        Message_Guide_WalnutShop_7 = {
+          ContentEN = "You've accepted a new Commission! Take the Secret Letter to the <H>Combat</> screen to begin.",
+          TextMapId = "Message_Guide_WalnutShop_7"
+        },
         Message_Guide_WeaponTrigger_1 = {
           ContentEN = "When dealing damage with a weapon, there's a chance to trigger physical <H>Bonus Effect</>. The chance is based on the weapon's <H>Trigger Probability</>.",
           TextMapId = "Message_Guide_WeaponTrigger_1"
@@ -15111,7 +15860,7 @@ local Data = {
           TextMapId = "Message_Guide_WeaponTrigger_5"
         },
         MidTermGoal_Des_0_1 = {
-          ContentEN = "Complete any Sealed Commission <Highlight>3</> times",
+          ContentEN = "Complete any Covert Commission <Highlight>3</> times",
           TextMapId = "MidTermGoal_Des_0_1"
         },
         MidTermGoal_Des_0_2 = {
@@ -15127,7 +15876,7 @@ local Data = {
           TextMapId = "MidTermGoal_Des_1_2"
         },
         MidTermGoal_Des_1_3 = {
-          ContentEN = "Use <highlight>1</> Commission Manual",
+          ContentEN = "Use Commission Manual <highlight>1</> time",
           TextMapId = "MidTermGoal_Des_1_3"
         },
         MidTermGoal_Des_1_4 = {
@@ -15135,7 +15884,7 @@ local Data = {
           TextMapId = "MidTermGoal_Des_1_4"
         },
         MidTermGoal_Des_2_1 = {
-          ContentEN = "Clear the Carmine Globule dungeon <highlight>1</> time",
+          ContentEN = "Complete [Commission: Escort] <highlight>1</> time (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_2_1"
         },
         MidTermGoal_Des_2_2 = {
@@ -15147,11 +15896,11 @@ local Data = {
           TextMapId = "MidTermGoal_Des_2_3"
         },
         MidTermGoal_Des_2_4 = {
-          ContentEN = "Use <highlight>1</> Commission Manual",
+          ContentEN = "Use Commission Manual <highlight>1</> time",
           TextMapId = "MidTermGoal_Des_2_4"
         },
         MidTermGoal_Des_3_1 = {
-          ContentEN = "Complete a Noctoyager Manual commission",
+          ContentEN = "Complete a Noctoyager Manual commission <highlight>1</> time",
           TextMapId = "MidTermGoal_Des_3_1"
         },
         MidTermGoal_Des_3_2 = {
@@ -15167,11 +15916,11 @@ local Data = {
           TextMapId = "MidTermGoal_Des_3_4"
         },
         MidTermGoal_Des_4_1 = {
-          ContentEN = "Clear the Character EXP dungeon 5 times",
+          ContentEN = "Complete [Commission: Hedge] <highlight>5</> times (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_4_1"
         },
         MidTermGoal_Des_4_2 = {
-          ContentEN = "Clear the Character EXP dungeon 1 time",
+          ContentEN = "Complete [Commission: Hedge] <highlight>1</> time (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_4_2"
         },
         MidTermGoal_Des_4_3 = {
@@ -15179,31 +15928,31 @@ local Data = {
           TextMapId = "MidTermGoal_Des_4_3"
         },
         MidTermGoal_Des_4_4 = {
-          ContentEN = "Use <highlight>1</> Commission Manual",
+          ContentEN = "Use Commission Manual <highlight>1</> time",
           TextMapId = "MidTermGoal_Des_4_4"
         },
         MidTermGoal_Des_5_1 = {
-          ContentEN = "Clear the Character Ascension Material dungeon 5 times",
+          ContentEN = "Complete [Commission: Exploration ∞] <highlight>5</> times (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_5_1"
         },
         MidTermGoal_Des_5_2 = {
-          ContentEN = "Clear the Character Ascension Material dungeon 1 time",
+          ContentEN = "Complete [Commission: Exploration ∞] <highlight>1</> time (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_5_2"
         },
         MidTermGoal_Des_5_3 = {
-          ContentEN = "Obtain 1 Blue-tier Character Ascension Material",
+          ContentEN = "Obtain <highlight>1</> Blue-tier Character Ascension Material",
           TextMapId = "MidTermGoal_Des_5_3"
         },
         MidTermGoal_Des_5_4 = {
-          ContentEN = "Use <highlight>1</> Commission Manual",
+          ContentEN = "Use Commission Manual <highlight>1</> time",
           TextMapId = "MidTermGoal_Des_5_4"
         },
         MidTermGoal_Des_6_1 = {
-          ContentEN = "Clear the Weapon EXP dungeon 5 times",
+          ContentEN = "Complete [Commission: Termination] <highlight>5</> times (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_6_1"
         },
         MidTermGoal_Des_6_2 = {
-          ContentEN = "Clear the Weapon EXP dungeon 1 time",
+          ContentEN = "Complete [Commission: Termination] <highlight>1</> time (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_6_2"
         },
         MidTermGoal_Des_6_3 = {
@@ -15211,23 +15960,23 @@ local Data = {
           TextMapId = "MidTermGoal_Des_6_3"
         },
         MidTermGoal_Des_6_4 = {
-          ContentEN = "Use <highlight>1</> Commission Manual",
+          ContentEN = "Use Commission Manual <highlight>1</> time",
           TextMapId = "MidTermGoal_Des_6_4"
         },
         MidTermGoal_Des_7_1 = {
-          ContentEN = "Clear the Weapon Ascension Material dungeon 5 times",
+          ContentEN = "Complete [Commission: Mediation] <highlight>5</> times (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_7_1"
         },
         MidTermGoal_Des_7_2 = {
-          ContentEN = "Clear the Weapon Ascension Material dungeon 1 time",
+          ContentEN = "Complete [Commission: Mediation] <highlight>1</> time (excluding Covert Commissions)",
           TextMapId = "MidTermGoal_Des_7_2"
         },
         MidTermGoal_Des_7_3 = {
-          ContentEN = "Obtain 1 Blue-tier Weapon Ascension Material",
+          ContentEN = "Obtain <highlight>1</> Blue-tier Weapon Ascension Material",
           TextMapId = "MidTermGoal_Des_7_3"
         },
         MidTermGoal_Des_7_4 = {
-          ContentEN = "Use <highlight>1</> Commission Manual",
+          ContentEN = "Use Commission Manual <highlight>1</> time",
           TextMapId = "MidTermGoal_Des_7_4"
         },
         MidTermGoal_Des_A1_1 = {
@@ -15335,7 +16084,7 @@ local Data = {
           TextMapId = "MidTermGoal_Des_A2_14"
         },
         MidTermGoal_Des_A2_15 = {
-          ContentEN = "Complete [Commission: Expedition ∞] a total of <highlight>5</> times",
+          ContentEN = "Complete [Commission: Exploration ∞] a total of <highlight>5</> times",
           TextMapId = "MidTermGoal_Des_A2_15"
         },
         MidTermGoal_Des_A2_16 = {
@@ -15363,11 +16112,11 @@ local Data = {
           TextMapId = "MidTermGoal_Des_A2_20"
         },
         MidTermGoal_Des_A2_3 = {
-          ContentEN = "Complete any Sealed Commission <Highlight>10</> times",
+          ContentEN = "Complete any Covert Commission <Highlight>10</> times",
           TextMapId = "MidTermGoal_Des_A2_3"
         },
         MidTermGoal_Des_A2_4 = {
-          ContentEN = "Complete any Sealed Commission <Highlight>30</> times",
+          ContentEN = "Complete any Covert Commission <Highlight>30</> times",
           TextMapId = "MidTermGoal_Des_A2_4"
         },
         MidTermGoal_Des_A2_5 = {
@@ -15411,7 +16160,7 @@ local Data = {
           TextMapId = "Minigame_Textmap_100304"
         },
         Minigame_Textmap_100305 = {
-          ContentEN = "Clue Acquired",
+          ContentEN = "Clue Acquired: ",
           TextMapId = "Minigame_Textmap_100305"
         },
         Minigame_Textmap_100306 = {
@@ -15443,7 +16192,7 @@ local Data = {
           TextMapId = "Minigame_Textmap_100312"
         },
         Minigame_Textmap_100313 = {
-          ContentEN = "Combine Clues",
+          ContentEN = "Reflect",
           TextMapId = "Minigame_Textmap_100313"
         },
         Minigame_Textmap_100314 = {
@@ -15451,7 +16200,7 @@ local Data = {
           TextMapId = "Minigame_Textmap_100314"
         },
         Minigame_Textmap_100315 = {
-          ContentEN = "Combining Clues (%s/%s)",
+          ContentEN = "Reflect (%s/%s)",
           TextMapId = "Minigame_Textmap_100315"
         },
         Minigame_Textmap_100316 = {
@@ -15511,11 +16260,11 @@ local Data = {
           TextMapId = "Minigame_Textmap_100329"
         },
         Minigame_Textmap_100330 = {
-          ContentEN = "Unlock New Clue",
+          ContentEN = "No clues available yet. Try exploring the area. 【Draft】",
           TextMapId = "Minigame_Textmap_100330"
         },
         Minigame_Textmap_100331 = {
-          ContentEN = "Acquired via %s",
+          ContentEN = "Acquired via [%s]",
           TextMapId = "Minigame_Textmap_100331"
         },
         Minigame_Textmap_100332 = {
@@ -15922,6 +16671,10 @@ local Data = {
           ContentEN = "Fenrir: Katana",
           TextMapId = "ModArchive_Name_Melee_2160"
         },
+        ModArchive_Name_Melee_2161 = {
+          ContentEN = "Fenrir: Sword",
+          TextMapId = "ModArchive_Name_Melee_2161"
+        },
         ModArchive_Name_Melee_2170 = {
           ContentEN = "Cerberus Ⅴ",
           TextMapId = "ModArchive_Name_Melee_2170"
@@ -15987,11 +16740,11 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3120"
         },
         ModArchive_Name_Range_3130 = {
-          ContentEN = "Fafnir Ⅸ",
+          ContentEN = "Lilith Ⅶ",
           TextMapId = "ModArchive_Name_Range_3130"
         },
         ModArchive_Name_Range_3140 = {
-          ContentEN = "Fafnir Ⅶ",
+          ContentEN = "Lilith Ⅷ",
           TextMapId = "ModArchive_Name_Range_3140"
         },
         ModArchive_Name_Range_3150 = {
@@ -16162,6 +16915,10 @@ local Data = {
           ContentEN = "Total Attributes",
           TextMapId = "Mod_AttrTotal"
         },
+        Mod_CardUp_Success = {
+          ContentEN = "Demon Wedge amplification successful",
+          TextMapId = "Mod_CardUp_Success"
+        },
         Mod_Sell_Tip = {
           ContentEN = "The Demon Wedge is currently equipped. Are you sure you want to sell it?",
           TextMapId = "Mod_Sell_Tip"
@@ -16295,7 +17052,7 @@ local Data = {
           TextMapId = "Mon_DesDetail_7003005"
         },
         Mon_DesDetail_7004001 = {
-          ContentEN = "The standard assault troops of Hyperborea Legions, serving as guardians at the vanguard. T They excel at close-range reconnaissance and defence against enemy attacks. Their hefty shields, a centuries-old standard, remain emblematic of their role.",
+          ContentEN = "The standard assault troops of Hyperborea Legions, serving as guardians at the vanguard. They excel at close-range reconnaissance and defence against enemy attacks. Their hefty shields, a centuries-old standard, remain emblematic of their role.",
           TextMapId = "Mon_DesDetail_7004001"
         },
         Mon_DesDetail_7006001 = {
@@ -16511,7 +17268,7 @@ local Data = {
           TextMapId = "Mon_Guide_7002005_02"
         },
         Mon_Guide_7002005_03 = {
-          ContentEN = "<Highlight>Magnetix Drone</>: Chases down hostile target and self-destructs, and then creates a [Magnetic Storm] centered on itself.\n[Magnetic Storm]: deals damage to and inflicts [Slowness] on hostile targets within range.\n[Slowness]: Reduces Movement Speed for #1 second. Deals damage to and inflicts [Paralysis] on targets within range.\n[Paralysis]: Unable to move or attack for #2s.",
+          ContentEN = "<Highlight>Magnetix Drone</>: Chases down hostile target and self-destructs, and then creates a [Magnetic Storm] centered on itself.\n[Magnetic Storm]: deals damage to and inflicts [Slackness] on hostile targets within range.\n[Slackness]: Decreases Movement Speed for #1s. Deals damage to and inflicts [Paralysis] on targets within range.\n[Paralysis]: Unable to move or attack for #2s.",
           TextMapId = "Mon_Guide_7002005_03"
         },
         Mon_Guide_7003005_01 = {
@@ -16547,7 +17304,7 @@ local Data = {
           TextMapId = "Mon_Guide_8501002_01"
         },
         Mon_Guide_8515001_01 = {
-          ContentEN = "While <Highlight>the Devourer</> is casting <Highlight>Spore Burst</> or <Highlight>Scorching Breath</>, striking the <Highlight>glowing spot on its head</> will temporarily stun it.",
+          ContentEN = "When the <Highlight>Devourer</> unleashes <Highlight>Spore Burst</> or <Highlight>Scorching Breath</>, aim for its <Highlight>glowing head</> to briefly incapacitate it.",
           TextMapId = "Mon_Guide_8515001_01"
         },
         Mon_Guide_9003001_01 = {
@@ -16583,7 +17340,7 @@ local Data = {
           TextMapId = "Mon_Guide_Strong_Fade_01"
         },
         Mon_Guide_Strong_Frozen_01 = {
-          ContentEN = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\nWhen <Highlight>Primander – Frostbite</> is hit by a ranged weapon, it retaliates by firing icicles at the attacker, dealing damage and applying 1 stack of [Slow].\n[Slow]: Reduces Attack Speed and Movement Speed for #1s, up to #2 stacks.",
+          ContentEN = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\nWhen <Highlight>Primander – Frostbite</> is hit by a ranged weapon, it retaliates by firing icicles at the attacker, dealing damage and applying 1 stack of [Slowness].\n[Slowness]: Reduces Attack Speed and Movement Speed for #1s, up to #2 stacks.",
           TextMapId = "Mon_Guide_Strong_Frozen_01"
         },
         Mon_Guide_Strong_IceOrb_01 = {
@@ -16599,7 +17356,7 @@ local Data = {
           TextMapId = "Mon_Guide_Strong_Multiple_01"
         },
         Mon_Guide_Strong_Poison_01 = {
-          ContentEN = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\n<Highlight>Primander – Corrosion</> periodically generates a pool of [Venom] beneath its feet.\n[Venom]: Inflicts a DEF reduction and deals periodic damage to targets within its area.\nAdditionally, <Highlight>Primander – Corrosion</> accelerates Serum decay while active.",
+          ContentEN = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\n<Highlight>Primander – Corrosion</> periodically generates a pool of [Venom] beneath its feet.\n[Venom]: Inflicts a DEF reduction and deals periodic damage to targets within its area.\nAdditionally, <Highlight>Primander – Corrosion</> accelerates Serum decay while alive.",
           TextMapId = "Mon_Guide_Strong_Poison_01"
         },
         Mon_Guide_Strong_Reflect_01 = {
@@ -16751,7 +17508,7 @@ local Data = {
           TextMapId = "Mon_Guide_Title_Strong_Vampire"
         },
         Mon_Guide_Weakness_Label = {
-          ContentEN = "Weakness",
+          ContentEN = "Element Type",
           TextMapId = "Mon_Guide_Weakness_Label"
         },
         Mon_Name_10001001 = {
@@ -17059,7 +17816,7 @@ local Data = {
           TextMapId = "Mon_Name_6004201"
         },
         Mon_Name_6004301 = {
-          ContentEN = "Soul-Scorching Filthoid - Blast & Thunderbolt",
+          ContentEN = "Savage Filthoid - Thunderbolt & Blast & Icehell",
           TextMapId = "Mon_Name_6004301"
         },
         Mon_Name_6005001 = {
@@ -17087,7 +17844,7 @@ local Data = {
           TextMapId = "Mon_Name_6007013"
         },
         Mon_Name_6007014 = {
-          ContentEN = "Soul-Scorching Filthoid - Corrosion",
+          ContentEN = "Soul-Scorching Filthoid - Thunderbolt",
           TextMapId = "Mon_Name_6007014"
         },
         Mon_Name_6007015 = {
@@ -19343,7 +20100,7 @@ local Data = {
           TextMapId = "Multiply",
         },
         MusicScoreName_1001 = {
-          ContentEN = "The Song of Dusk and Night",
+          ContentEN = "Dawn Beyond Night",
           TextMapId = "MusicScoreName_1001"
         },
         MusicScoreName_10011 = {
@@ -19523,19 +20280,19 @@ local Data = {
           TextMapId = "Name_120106"
         },
         Name_120111 = {
-          ContentEN = "The Nightingale and Her Rainbow-Coloured Dream",
+          ContentEN = "Beyond the Page",
           TextMapId = "Name_120111"
         },
         Name_120112 = {
-          ContentEN = "The Nightingale and Her Rainbow-Coloured Dream",
+          ContentEN = "Old Friends, New Tales",
           TextMapId = "Name_120112"
         },
         Name_120113 = {
-          ContentEN = "The Nightingale and Her Rainbow-Coloured Dream",
+          ContentEN = "Unexpected Commission",
           TextMapId = "Name_120113"
         },
         Name_120114 = {
-          ContentEN = "The Nightingale and Her Rainbow-Coloured Dream",
+          ContentEN = "Little Nightingale, Take Wing for Tomorrow",
           TextMapId = "Name_120114"
         },
         Name_200101 = {
@@ -19690,6 +20447,10 @@ local Data = {
           ContentEN = "Phoxhunter 101",
           TextMapId = "Name_200235"
         },
+        Name_200236 = {
+          ContentEN = "Tutorial Quest: Covert Commissions",
+          TextMapId = "Name_200236"
+        },
         Name_200301 = {
           ContentEN = "The Grace of a God",
           TextMapId = "Name_200301"
@@ -19701,6 +20462,10 @@ local Data = {
         Name_200303 = {
           ContentEN = "Huaxu Side Quest: Beyond Dafeng's Reach",
           TextMapId = "Name_200303"
+        },
+        Name_200304 = {
+          ContentEN = "Where the Osmanthus Bloomed",
+          TextMapId = "Name_200304"
         },
         Name_200305 = {
           ContentEN = "A Reunion Out of Time",
@@ -19762,6 +20527,10 @@ local Data = {
           ContentEN = "Born into nobility, Elsa is a woman of etiquette and discipline. As a mother, she imparted these values to her daughter, Annie, hoping she would grow up to become a better person. However, Elsa never anticipated that her expectations would drive her daughter away. Despite a lingering fear that her runaway daughter might have met with misfortune, Elsa tirelessly continues her search for Annie.",
           TextMapId = "NpcBiography_Information_Aier"
         },
+        NpcBiography_Information_Aier_2 = {
+          ContentEN = "Born into nobility, Elsa is a woman of etiquette and discipline. As a mother, she strove to pass these virtues on to her daughter, Annie, hoping the girl might one day outshine her. Yet Elsa never foresaw that such expectations would become the very weight that drove her daughter away.",
+          TextMapId = "NpcBiography_Information_Aier_2"
+        },
         NpcBiography_Information_Aima = {
           ContentEN = "Emma is unusually absent-minded today. Though she has never ventured beyond Icelake, she has visited the monument in the plaza at least fifty times. Normally, she would approach these rituals with solemn reverence. But every so often, in fleeting moments, she would yearn to break free from the repetitive ceremonies and wander to the far end of the square to see what new trinkets the old horned lady might be crafting in her quaint tent.",
           TextMapId = "NpcBiography_Information_Aima"
@@ -19806,6 +20575,10 @@ local Data = {
           ContentEN = "Dean, a master in the art of the perfect amount of adulteration — how to lace fermented drinks without sending patrons to casualty was his family's craft. This trick of the trade had him in cahoots with every tavern owner in town, without exception — until he met Camilla.\n\nMoney wasn't the issue for Dean, yet The Asphodel was the missing piece in his empire of adulteration, a niggling gap he was hell-bent on closing. After all, not just the tavern owners, but all boozers in Icelake were hooked on his cut-price tipple. Just a bit of discomfort for half the cost – why not?\n\nThe vendors are happy, the customers are happy, and Dean's happy — a clear-cut case of a triple win. So why on earth wouldn't Camilla come on board?!\n\nThat's a riddle Dean might never fathom.",
           TextMapId = "NpcBiography_Information_Dien"
         },
+        NpcBiography_Information_Donat = {
+          ContentEN = "In stark contrast to his ordinary life as a fisherman, Donat is known throughout Icelake as a man of exceptional kindness. Though not wealthy himself, he gives nearly all he owns to the poor, while living in self-imposed, ascetic poverty for years.\nWhen asked why he chooses this path, he simply smiles or replies, \"For an unpardonable sin I committed.\"\nThe nature of his sin, however, remains his secret alone.",
+          TextMapId = "NpcBiography_Information_Donat"
+        },
         NpcBiography_Information_Feiyi_1 = {
           ContentEN = "A young girl who appears to be a student from the inner city. It's easy to notice her fine clothes juxtaposed against perpetually untidy hair. Despite her unmistakably Sola appearance, she fervently believes herself to be a Charon with horns.",
           TextMapId = "NpcBiography_Information_Feiyi_1"
@@ -19815,7 +20588,7 @@ local Data = {
           TextMapId = "NpcBiography_Information_Feiyi_2"
         },
         NpcBiography_Information_Giselle = {
-          ContentEN = "Giselle is a woman of warmth and strength — outspoken yet attentive, quick to protect those around her.\n It is said she once served with the Icelake Escort, though for reasons unknown she eventually left their ranks.",
+          ContentEN = "Giselle is a woman of warmth and strength — outspoken yet attentive, quick to protect those around her.\nIt is said she once served with the Icelake Escort, though for reasons unknown she eventually left their ranks.",
           TextMapId = "NpcBiography_Information_Giselle"
         },
         NpcBiography_Information_Hainuo = {
@@ -19831,7 +20604,7 @@ local Data = {
           TextMapId = "NpcBiography_Information_Jiexi"
         },
         NpcBiography_Information_Jimu = {
-          ContentEN = "Born into privilege, Frank came from a long line of imperial loyalists. Thanks to a fine education, he became a modestly accomplished alchemist — until his family was swept up in a treasonous conspiracy. They paid dearly for backing the wrong side. Only Frank escaped. He's been on the run ever since, drifting from place to place, reduced to begging and living under aliases.",
+          ContentEN = "Born into privilege, Jim came from a long line of imperial loyalists. Thanks to a fine education, he became a modestly accomplished alchemist — until his family was swept up in a treasonous conspiracy. They paid dearly for backing the wrong side. Only Jim escaped. He's been on the run ever since, drifting from place to place, reduced to begging and living under aliases.",
           TextMapId = "NpcBiography_Information_Jimu"
         },
         NpcBiography_Information_Kaiwen = {
@@ -19843,7 +20616,7 @@ local Data = {
           TextMapId = "NpcBiography_Information_Kenong"
         },
         NpcBiography_Information_Kongkongjiaojiao = {
-          ContentEN = "Lunolaze has no interest in the strife between Charon and Sola, nor does she harbour ambitions of her own — her one true passion is sunbathing. She never imagined she'd end up a wealthy merchant.\n A few years ago, she picked up a seemingly worthless gem for a song. When she resold it, she discovered it was worth a fortune. Unsure what to do with the windfall, she invested in a handful of shops near the town square — picked more or less at random. Somehow, every one of them thrived. Those lucky picks grew into one of the pillar industries of Icelake's outer city, and by sheer happenstance she herself ended up a rich merchant. Her only real bother these days? A tenant named Valen, constantly asking her to pass along love notes to the "lovely proprietress" of the clothing boutique.",
+          ContentEN = "Lunolaze has no interest in the strife between Charon and Sola, nor does she harbour ambitions of her own — her one true passion is sunbathing. She never imagined she'd end up a wealthy merchant.\nA few years ago, she picked up a seemingly worthless gem for a song. When she resold it, she discovered it was worth a fortune. Unsure what to do with the windfall, she invested in a handful of shops near the town square — picked more or less at random. Somehow, every one of them thrived. Those lucky picks grew into one of the pillar industries of Icelake's outer city, and by sheer happenstance she herself ended up a rich merchant. Her only real bother these days? A tenant named Valen, constantly asking her to pass along love notes to the "lovely proprietress" of the clothing boutique.",
           TextMapId = "NpcBiography_Information_Kongkongjiaojiao"
         },
         NpcBiography_Information_Laina = {
@@ -19853,6 +20626,10 @@ local Data = {
         NpcBiography_Information_Lali = {
           ContentEN = "Once a model worker in Glevum Pit, Larry's life unravelled when the Phoxene veins ran dry, leaving him jobless.\nStruggling to survive, he tried his hand at various ventures like other unemployed miners in Icelake, from small businesses to aquaculture and farming, only to end up bankrupt. Driven to despair, he and his miner buddies picked up their pickaxes one last time, spending their final coins on a few loaves of coarse rye bread before vanishing into the depths of the now-abandoned pit.\nA few weeks ago, Larry reemerged alone in Icelake, lugging a heavy sack of Phoxene. His friends, however, remained forever lost in the dark recesses of the pit.",
           TextMapId = "NpcBiography_Information_Lali"
+        },
+        NpcBiography_Information_Lars = {
+          ContentEN = "The young Charon whom Donat had aided saw his selfless poverty and feared for his health, praying that such virtue would not go unrewarded.",
+          TextMapId = "NpcBiography_Information_Lars"
         },
         NpcBiography_Information_Liao = {
           ContentEN = "Lio, a cleaner by the city gates, tasked with the grim cleanup after any skirmishes within the city. Initially, the sight of bloodshed tormented him, but over time he's grown numb to the violence. The toughest part, he finds, is scrubbing away the stubborn bloodstains. He quietly wishes for a swift, lethal blow to end the fights, as it would minimise the workload. After all, even a faint trace of uncleaned bloodstains would lead to him shedding some blood afterwards.",
@@ -19887,11 +20664,11 @@ local Data = {
           TextMapId = "NpcBiography_Information_Shali"
         },
         NpcBiography_Information_Violetta = {
-          ContentEN = "At thirty-two, Violetta is the prima soprano of the opera house in Icelake — a radiant star of the stage. Born in Luca, she brought her homeland’s celebrated style of singing into the Empire, reshaping it with her own innovations. Her marvellous performances have garnered her a devoted following. Even those indifferent to opera in Icelake know her name. Every show she graces sells out the moment tickets are released, with wealthy admirers paying extravagant sums for the privilege of a front-row seat.\n Violetta possesses a mastery of make-up bordering on sorcery. With each role she plays, her visage shifts beyond recognition. None can say which visage is her true one — and so she is hailed as "The Thousand-Faced Violetta."",
+          ContentEN = "At thirty-four, Violetta is the prima soprano of the opera house in Icelake — a radiant star of the stage. Born in Luca, she brought her homeland's celebrated style of singing into the Empire, reshaping it with her own innovations. Her marvellous performances have garnered her a devoted following. Even those indifferent to opera in Icelake know her name. Every show she graces sells out the moment tickets are released, with wealthy admirers paying extravagant sums for the privilege of a front-row seat.\nVioletta possesses a mastery of make-up bordering on sorcery. With each role she plays, her visage shifts beyond recognition. None can say which visage is her true one — and so she is hailed as "The Thousand-Faced Violetta."",
           TextMapId = "NpcBiography_Information_Violetta"
         },
         NpcBiography_Information_Walun = {
-          ContentEN = "Once a soldier, Valen suffered an injury that cost him his edge in battle. Seeking a quieter life, he left the army and took over the family orchard. With inherited greenhouse techniques — and a special fertiliser from local alchemists — his crops flourished. Business was good enough for him to rent a shop from Lunolaze, where he now sells his produce.\n Still, his dream of a peaceful life feels incomplete — all he lacks is someone to share it with. One day, while making a delivery, he glimpsed the graceful silhouette of the clothing boutique's elusive "proprietress," framed in the window. He never saw her face, but her fluttering skirt and elegant figure left a mark on his heart.\n Since then, he's enlisted Lunolaze to pass along messages of adoration... but to this day, he's yet to exchange a single word with the lady herself.",
+          ContentEN = "Once a soldier, Valen suffered an injury that cost him his edge in battle. Seeking a quieter life, he left the army and took over the family orchard. With inherited greenhouse techniques — and a special fertiliser from local alchemists — his crops flourished. Business was good enough for him to rent a shop from Lunolaze, where he now sells his produce.\nStill, his dream of a peaceful life feels incomplete — all he lacks is someone to share it with. One day, while making a delivery, he glimpsed the graceful silhouette of the clothing boutique's elusive "proprietress," framed in the window. He never saw her face, but her fluttering skirt and elegant figure left a mark on his heart.\nSince then, he's enlisted Lunolaze to pass along messages of adoration... but to this day, he's yet to exchange a single word with the lady herself.",
           TextMapId = "NpcBiography_Information_Walun"
         },
         NpcBiography_Information_Weier = {
@@ -19927,7 +20704,7 @@ local Data = {
           TextMapId = "NpcBiography_UI_Probe"
         },
         NumLock = {
-          ContentEN = "Num",
+          ContentEN = "NumLk",
           TextMapId = "NumLock",
         },
         NumPadEight = {
@@ -19987,7 +20764,7 @@ local Data = {
           TextMapId = "PET_402_PASSIVE"
         },
         PET_402_SKILL = {
-          ContentEN = "Increases ATK for teammates within range by #1 for #2s.",
+          ContentEN = "Increases ATK for self and allies by #1 for #2s.",
           TextMapId = "PET_402_SKILL"
         },
         PET_403_PASSIVE = {
@@ -19995,7 +20772,7 @@ local Data = {
           TextMapId = "PET_403_PASSIVE"
         },
         PET_403_SKILL = {
-          ContentEN = "Restores #1 points of Sanity for teammates within range.",
+          ContentEN = "Restores #1 Sanity to self and allies.",
           TextMapId = "PET_403_SKILL"
         },
         PET_404_PASSIVE = {
@@ -20003,7 +20780,7 @@ local Data = {
           TextMapId = "PET_404_PASSIVE"
         },
         PET_404_SKILL = {
-          ContentEN = "Grants teammates within range #2 points of Ultra Shield and randomly increases ATK by #3, DEF by #4, Skill Damage by #5, or Skill Duration by #6 for #1s.",
+          ContentEN = "Grants #2 Ultra Shield points to self and allies, and randomly applies one of the following effects for #1s: +#3 ATK, +#4 DEF, +#5 Skill Damage, or +#6 Skill Duration.",
           TextMapId = "PET_404_SKILL"
         },
         PET_405_PASSIVE = {
@@ -20011,7 +20788,7 @@ local Data = {
           TextMapId = "PET_405_PASSIVE"
         },
         PET_405_SKILL = {
-          ContentEN = "Heals teammates within range by #1 of the main character's Max HP.",
+          ContentEN = "Heals self and allies by #1 of the main character's Max HP.",
           TextMapId = "PET_405_SKILL"
         },
         PET_406_PASSIVE = {
@@ -20023,11 +20800,11 @@ local Data = {
           TextMapId = "PET_406_SKILL"
         },
         PET_407_PASSIVE = {
-          ContentEN = "EXP gained by defeating enemies +#2, with a chance for bonus loot.",
+          ContentEN = "Auto-Pickup Range +#3m, EXP gained from defeated enemies +#2, and a #1 chance to drop bonus loot.",
           TextMapId = "PET_407_PASSIVE"
         },
         PET_407_SKILL = {
-          ContentEN = "Deals damage equal to #1 of the main character's ATK to surrounding enemies, and can directly destroy Special Destructibles covering chests.\nDetects 1 Geniemon and 1 chest within a 100-metre range, marking their locations for 30s.",
+          ContentEN = "Deals damage equal to #1 of the main character's ATK to nearby enemies. Detects 1 Geniemon and 1 Chest within 100m, marking their positions for 30s.",
           TextMapId = "PET_407_SKILL"
         },
         PET_408_PASSIVE = {
@@ -20035,7 +20812,7 @@ local Data = {
           TextMapId = "PET_408_PASSIVE"
         },
         PET_408_SKILL = {
-          ContentEN = "Decreases the damage taken by nearby teammates by #1 for #2s.",
+          ContentEN = "Grants self and allies -#1 Damage Taken for #2s.",
           TextMapId = "PET_408_SKILL"
         },
         PET_409_PASSIVE = {
@@ -20043,7 +20820,7 @@ local Data = {
           TextMapId = "PET_409_PASSIVE"
         },
         PET_409_SKILL = {
-          ContentEN = "Heals teammates within range by #1 of their Max HP per second for #2s.",
+          ContentEN = "Continuously heals self and allies, restoring #1 of their Max HP per second for #2s.",
           TextMapId = "PET_409_SKILL"
         },
         PET_411_PASSIVE = {
@@ -20059,7 +20836,7 @@ local Data = {
           TextMapId = "PET_412_PASSIVE"
         },
         PET_412_SKILL = {
-          ContentEN = "Increases ATK for the [summoned item] of teammates within range by #1 for #2s.",
+          ContentEN = "Increases ATK of all allied [Summons] by #1 for #2s.",
           TextMapId = "PET_412_SKILL"
         },
         PET_413_PASSIVE = {
@@ -20067,7 +20844,7 @@ local Data = {
           TextMapId = "PET_413_PASSIVE"
         },
         PET_413_SKILL = {
-          ContentEN = "Spawns 1 [Activated Sal Volatile], 1 [Tranquilizer Dewdrop], and 1 [Ammo Supply Chest]. Increases Skill Duration for teammates within range by #1 for #2s.",
+          ContentEN = "Spawns 1 [Activated Sal Volatile], 1 [Tranquilizer Dewdrop], and 1 [Ammo Supply Chest]. Increases Skill Duration for self and allies by #1 for #2s.",
           TextMapId = "PET_413_SKILL"
         },
         PET_414_PASSIVE = {
@@ -20075,7 +20852,7 @@ local Data = {
           TextMapId = "PET_414_PASSIVE"
         },
         PET_414_SKILL = {
-          ContentEN = "Increases the points of Ultra Shield for teammates within range by #1 and restores their Sanity by #2.",
+          ContentEN = "Grants self and allies #1 Ultra Shield points and restores their Sanity by #2.",
           TextMapId = "PET_414_SKILL"
         },
         PET_415_PASSIVE = {
@@ -20083,7 +20860,7 @@ local Data = {
           TextMapId = "PET_415_PASSIVE"
         },
         PET_415_SKILL = {
-          ContentEN = "Heals teammates within range by #3 of the main character's Max HP and increases their DEF Increase by #1 for #2s.",
+          ContentEN = "Heals self and allies for #3 of the main character's Max HP and grants +#1 DEF for #2s.",
           TextMapId = "PET_415_SKILL"
         },
         PET_416_PASSIVE = {
@@ -20099,7 +20876,7 @@ local Data = {
           TextMapId = "PET_421_PASSIVE"
         },
         PET_421_SKILL = {
-          ContentEN = "Deals Umbro Damage equal to #1 of the main character's ATK to enemies within range and increases [Morale] for nearby teammates by #2 for #3s.",
+          ContentEN = "Deals Umbro DMG equal to #1 of the main character's ATK to nearby enemies, and increases [Morale] for self and allies by #2 for #3s.",
           TextMapId = "PET_421_SKILL"
         },
         PET_422_PASSIVE = {
@@ -20107,7 +20884,7 @@ local Data = {
           TextMapId = "PET_422_PASSIVE"
         },
         PET_422_SKILL = {
-          ContentEN = "For each item summoned by the main character, increases damage dealt by teammates within range by #1 for #3s, up to a maximum of #2.",
+          ContentEN = "For each [Summon] summoned by the main character, increases damage dealt by self and allies by #1 for #3s, up to #2.",
           TextMapId = "PET_422_SKILL"
         },
         PET_423_PASSIVE = {
@@ -20115,7 +20892,7 @@ local Data = {
           TextMapId = "PET_423_PASSIVE"
         },
         PET_423_SKILL = {
-          ContentEN = "Deals Pyro Damage equal to #1 of the main character's ATK to enemies within range and increases nearby teammates' [Multishot] by #2 for #3s.",
+          ContentEN = "Deals Pyro DMG equal to #1 of the main character's ATK to nearby enemies, and increases [Multishot] for self and allies by #2 for #3s.",
           TextMapId = "PET_423_SKILL"
         },
         PET_424_PASSIVE = {
@@ -20123,7 +20900,7 @@ local Data = {
           TextMapId = "PET_424_PASSIVE"
         },
         PET_424_SKILL = {
-          ContentEN = "Restores #1 points of Sanity for teammates within range and increases their Skill Damage by #2 for #3s.",
+          ContentEN = "Restores #1 Sanity to self and allies, and increases their Skill DMG by #2 for #3s.",
           TextMapId = "PET_424_SKILL"
         },
         PET_425_PASSIVE = {
@@ -20131,7 +20908,7 @@ local Data = {
           TextMapId = "PET_425_PASSIVE"
         },
         PET_425_SKILL = {
-          ContentEN = "Increases [Malaise] by #1 for teammates within range for #2s. When the main character's HP percentage falls below 25%, instantly restores their HP by #3.",
+          ContentEN = "Increases [Resolve] by #1 for self and allies for #2s. If the main character's HP falls below 25%, instantly heals them for #3 HP.",
           TextMapId = "PET_425_SKILL"
         },
         PET_426_PASSIVE = {
@@ -20139,11 +20916,11 @@ local Data = {
           TextMapId = "PET_426_PASSIVE"
         },
         PET_426_SKILL = {
-          ContentEN = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases Lumino Damage by #2 for nearby teammates for #3s.",
+          ContentEN = "Deals Lumino DMG equal to #1 of the main character's ATK to nearby enemies, and grants +#2 Lumino bonus DMG to self and allies for #3s.",
           TextMapId = "PET_426_SKILL"
         },
         PET_491_SKILL = {
-          ContentEN = "Heals nearby allies by #1 of the main character's Max HP.",
+          ContentEN = "Heals the user and one selected ally for #1 of the main character's Max HP.",
           TextMapId = "PET_491_SKILL"
         },
         PET_492_SKILL = {
@@ -20151,7 +20928,7 @@ local Data = {
           TextMapId = "PET_492_SKILL"
         },
         PET_493_SKILL = {
-          ContentEN = "Grants nearby teammates an Ultra Shield equal to #1 of their Max Shield.",
+          ContentEN = "Grants Ultra Shield to self and allies equal to #1 of their respective Max Shield.",
           TextMapId = "PET_493_SKILL"
         },
         PROLOGUE_SELECTGUN_DESC_20298 = {
@@ -20167,7 +20944,7 @@ local Data = {
           TextMapId = "PROLOGUE_SELECTGUN_TIP_1"
         },
         PROLOGUE_SELECTGUN_TIP_2 = {
-          ContentEN = "ㅤ",
+          ContentEN = "{空格}",
           TextMapId = "PROLOGUE_SELECTGUN_TIP_2"
         },
         PROLOGUE_SELECTGUN_TIP_3 = {
@@ -20370,6 +21147,14 @@ local Data = {
           ContentEN = "Dispatch Battle Reward Pack Lv. 9",
           TextMapId = "Pack_Name_Battle_Dispatch_9"
         },
+        Pack_Name_Battle_Dispatch_Des = {
+          ContentEN = "The pack may contain:\n Damaged Sal Volatile\n Stone Powder\n Vermilion Teardrop\n Creeping Tendrils\n Filthoid Clot\n Chain",
+          TextMapId = "Pack_Name_Battle_Dispatch_Des"
+        },
+        Pack_Name_Char_Progress = {
+          ContentEN = "Character Progression Supply Chest Ⅰ",
+          TextMapId = "Pack_Name_Char_Progress"
+        },
         Pack_Name_Char_Track = {
           ContentEN = "Character Track-Shift Chest",
           TextMapId = "Pack_Name_Char_Track"
@@ -20414,6 +21199,10 @@ local Data = {
           ContentEN = "Dispatch Gathering Reward Pack Lv. 9",
           TextMapId = "Pack_Name_Collect_Dispatch_9"
         },
+        Pack_Name_Collect_Dispatch_Des = {
+          ContentEN = "The pack may contain:\n Virifly\n Indigofly\n Spring Water\n Snowcap\n Phoxichor Canister\n Dewiolet\n Seashell\n Eclipta Grass\n Portable Power Unit\n Crackbloom\n Sacral Bellflower\n Bird Egg\n Caramellus",
+          TextMapId = "Pack_Name_Collect_Dispatch_Des"
+        },
         Pack_Name_Draft_Melee = {
           ContentEN = "Unknown Blueprint of Melee Weapon",
           TextMapId = "Pack_Name_Draft_Melee"
@@ -20421,6 +21210,78 @@ local Data = {
         Pack_Name_Draft_Mod = {
           ContentEN = "Unknown Blueprint of Demon Wedge",
           TextMapId = "Pack_Name_Draft_Mod"
+        },
+        Pack_Name_Draft_Mod_140026 = {
+          ContentEN = "Blueprint: ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140026"
+        },
+        Pack_Name_Draft_Mod_140027 = {
+          ContentEN = "Blueprint: CRIT",
+          TextMapId = "Pack_Name_Draft_Mod_140027"
+        },
+        Pack_Name_Draft_Mod_140028 = {
+          ContentEN = "Blueprint: CRIT DMG",
+          TextMapId = "Pack_Name_Draft_Mod_140028"
+        },
+        Pack_Name_Draft_Mod_140029 = {
+          ContentEN = "Blueprint: ATK Speed",
+          TextMapId = "Pack_Name_Draft_Mod_140029"
+        },
+        Pack_Name_Draft_Mod_140030 = {
+          ContentEN = "Blueprint: ATK Range",
+          TextMapId = "Pack_Name_Draft_Mod_140030"
+        },
+        Pack_Name_Draft_Mod_140031 = {
+          ContentEN = "Blueprint: Trigger",
+          TextMapId = "Pack_Name_Draft_Mod_140031"
+        },
+        Pack_Name_Draft_Mod_140032 = {
+          ContentEN = "Blueprint: Slash ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140032"
+        },
+        Pack_Name_Draft_Mod_140033 = {
+          ContentEN = "Blueprint: Spike ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140033"
+        },
+        Pack_Name_Draft_Mod_140034 = {
+          ContentEN = "Blueprint: Smash ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140034"
+        },
+        Pack_Name_Draft_Mod_140035 = {
+          ContentEN = "Blueprint: ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140035"
+        },
+        Pack_Name_Draft_Mod_140036 = {
+          ContentEN = "Blueprint: CRIT",
+          TextMapId = "Pack_Name_Draft_Mod_140036"
+        },
+        Pack_Name_Draft_Mod_140037 = {
+          ContentEN = "Blueprint: CRIT DMG",
+          TextMapId = "Pack_Name_Draft_Mod_140037"
+        },
+        Pack_Name_Draft_Mod_140038 = {
+          ContentEN = "Blueprint: ATK Speed",
+          TextMapId = "Pack_Name_Draft_Mod_140038"
+        },
+        Pack_Name_Draft_Mod_140039 = {
+          ContentEN = "Blueprint: Multishot",
+          TextMapId = "Pack_Name_Draft_Mod_140039"
+        },
+        Pack_Name_Draft_Mod_140040 = {
+          ContentEN = "Blueprint: Trigger",
+          TextMapId = "Pack_Name_Draft_Mod_140040"
+        },
+        Pack_Name_Draft_Mod_140041 = {
+          ContentEN = "Blueprint: Slash ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140041"
+        },
+        Pack_Name_Draft_Mod_140042 = {
+          ContentEN = "Blueprint: Spike ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140042"
+        },
+        Pack_Name_Draft_Mod_140043 = {
+          ContentEN = "Blueprint: Smash ATK",
+          TextMapId = "Pack_Name_Draft_Mod_140043"
         },
         Pack_Name_Draft_Range = {
           ContentEN = "Unknown Blueprint of Ranged Weapon",
@@ -20494,6 +21355,10 @@ local Data = {
           ContentEN = "Dispatch Fishing Reward Pack Lv. 9",
           TextMapId = "Pack_Name_Fish_Dispatch_9"
         },
+        Pack_Name_Fish_Dispatch_Des = {
+          ContentEN = "The pack may contain:\n Prismspike\n Silverslip\n Longwhisker\n Spotted Tagalong\n Shellgnarl\n Nomnom",
+          TextMapId = "Pack_Name_Fish_Dispatch_Des"
+        },
         Pack_Name_Globule_Normal = {
           ContentEN = "Carmine Globule Supply Chest Ⅰ",
           TextMapId = "Pack_Name_Globule_Normal"
@@ -20503,31 +21368,31 @@ local Data = {
           TextMapId = "Pack_Name_Globule_Plenty"
         },
         Pack_Name_MainChar_General_1 = {
-          ContentEN = "Phoxhunter Character Chest (Starlit)",
+          ContentEN = "Phoxhunter Skin Chest - Starlit",
           TextMapId = "Pack_Name_MainChar_General_1"
         },
         Pack_Name_Midsummer_Gacha01 = {
-          ContentEN = "[Midsummer Myriad Chest] Pack Ⅰ",
+          ContentEN = "Midsummer Myriad Chest Ⅰ",
           TextMapId = "Pack_Name_Midsummer_Gacha01"
         },
         Pack_Name_Midsummer_Gacha02 = {
-          ContentEN = "[Midsummer Myriad Chest] Pack Ⅱ",
+          ContentEN = "Midsummer Myriad Chest Ⅱ",
           TextMapId = "Pack_Name_Midsummer_Gacha02"
         },
         Pack_Name_Midsummer_Gacha03 = {
-          ContentEN = "[Midsummer Myriad Chest] Pack Ⅲ",
+          ContentEN = "Midsummer Myriad Chest Ⅲ",
           TextMapId = "Pack_Name_Midsummer_Gacha03"
         },
         Pack_Name_Midsummer_Gacha04 = {
-          ContentEN = "[Midsummer Myriad Chest] Pack Ⅳ",
+          ContentEN = "Myriad Mirage Chest Ⅰ",
           TextMapId = "Pack_Name_Midsummer_Gacha04"
         },
         Pack_Name_Midsummer_Gacha05 = {
-          ContentEN = "[Midsummer Myriad Chest] Pack Ⅴ",
+          ContentEN = "Myriad Mirage Chest Ⅱ",
           TextMapId = "Pack_Name_Midsummer_Gacha05"
         },
         Pack_Name_Midsummer_Gacha06 = {
-          ContentEN = "[Midsummer Myriad Chest] Pack Ⅵ",
+          ContentEN = "Myriad Mirage Chest Ⅲ",
           TextMapId = "Pack_Name_Midsummer_Gacha06"
         },
         Pack_Name_Mine_Dispatch_1 = {
@@ -20569,6 +21434,10 @@ local Data = {
         Pack_Name_Mine_Dispatch_9 = {
           ContentEN = "Dispatch Mining Reward Pack Lv. 9",
           TextMapId = "Pack_Name_Mine_Dispatch_9"
+        },
+        Pack_Name_Mine_Dispatch_Des = {
+          ContentEN = "The pack may contain:\n Ironshell Nut\n Goldshell Nut\n Silverite\n Lumite\n Plop Plop Stone",
+          TextMapId = "Pack_Name_Mine_Dispatch_Des"
         },
         Pack_Name_Mod_Char = {
           ContentEN = "Unknown Demon Wedge: Character",
@@ -20623,27 +21492,35 @@ local Data = {
           TextMapId = "Pack_Name_Shop_Jingli"
         },
         Pack_Name_Shop_Level_10 = {
-          ContentEN = "Trial Rank Gift Bundle Lv. 10",
+          ContentEN = "Trial Rank Gift Chest Lv. 10",
           TextMapId = "Pack_Name_Shop_Level_10"
         },
         Pack_Name_Shop_Level_20 = {
-          ContentEN = "Trial Rank Gift Bundle Lv. 20",
+          ContentEN = "Trial Rank Gift Chest Lv. 20",
           TextMapId = "Pack_Name_Shop_Level_20"
         },
         Pack_Name_Shop_Level_30 = {
-          ContentEN = "Trial Rank Gift Bundle Lv. 30",
+          ContentEN = "Trial Rank Gift Chest Lv. 30",
           TextMapId = "Pack_Name_Shop_Level_30"
         },
         Pack_Name_Shop_Level_40 = {
-          ContentEN = "Trial Rank Gift Bundle Lv. 40",
+          ContentEN = "Trial Rank Gift Chest Lv. 40",
           TextMapId = "Pack_Name_Shop_Level_40"
         },
+        Pack_Name_Shop_Level_45 = {
+          ContentEN = "Trial Rank Chest Lv. 45",
+          TextMapId = "Pack_Name_Shop_Level_45"
+        },
         Pack_Name_Shop_Level_50 = {
-          ContentEN = "Trial Rank Gift Bundle Lv. 50",
+          ContentEN = "Trial Rank Gift Chest Lv. 50",
           TextMapId = "Pack_Name_Shop_Level_50"
         },
+        Pack_Name_Shop_Level_55 = {
+          ContentEN = "Trial Rank Chest Lv. 55",
+          TextMapId = "Pack_Name_Shop_Level_55"
+        },
         Pack_Name_Shop_Level_60 = {
-          ContentEN = "Trial Rank Gift Bundle Lv. 60",
+          ContentEN = "Trial Rank Gift Chest Lv. 60",
           TextMapId = "Pack_Name_Shop_Level_60"
         },
         Pack_Name_Shop_Mod = {
@@ -20651,19 +21528,19 @@ local Data = {
           TextMapId = "Pack_Name_Shop_Mod"
         },
         Pack_Name_Shop_Pay_01 = {
-          ContentEN = ""Awaiting Spring's Embrace" Exclusive Bundle Ⅰ",
+          ContentEN = ""Awaiting Spring's Embrace" Exclusive Chest Ⅰ",
           TextMapId = "Pack_Name_Shop_Pay_01"
         },
         Pack_Name_Shop_Pay_02 = {
-          ContentEN = ""Awaiting Spring's Embrace" Exclusive Bundle Ⅱ",
+          ContentEN = ""Awaiting Spring's Embrace" Exclusive Chest Ⅱ",
           TextMapId = "Pack_Name_Shop_Pay_02"
         },
         Pack_Name_Shop_Pay_03 = {
-          ContentEN = ""Awaiting Spring's Embrace" Exclusive Bundle Ⅲ",
+          ContentEN = ""Awaiting Spring's Embrace" Exclusive Chest Ⅲ",
           TextMapId = "Pack_Name_Shop_Pay_03"
         },
         Pack_Name_Shop_Pay_04 = {
-          ContentEN = ""Awaiting Spring's Embrace" Exclusive Bundle Ⅳ",
+          ContentEN = ""Awaiting Spring's Embrace" Exclusive Chest Ⅳ",
           TextMapId = "Pack_Name_Shop_Pay_04"
         },
         Pack_Name_Shop_Random_Ranse = {
@@ -20703,28 +21580,36 @@ local Data = {
           TextMapId = "Pack_Name_Shop_Songlu02"
         },
         Pack_Name_Shop_Songlu03 = {
-          ContentEN = "Truffle: Sunlit Gristmill",
+          ContentEN = "Truffle and Filbert: Sunlit Gristmill",
           TextMapId = "Pack_Name_Shop_Songlu03"
         },
         Pack_Name_Shop_Start_01 = {
-          ContentEN = "Starter Gift Bundle Ⅰ",
+          ContentEN = "Starter Gift Chest Ⅰ",
           TextMapId = "Pack_Name_Shop_Start_01"
         },
         Pack_Name_Shop_Start_02 = {
-          ContentEN = "Starter Gift Bundle Ⅱ",
+          ContentEN = "Starter Gift Chest Ⅱ",
           TextMapId = "Pack_Name_Shop_Start_02"
         },
         Pack_Name_Shop_Start_03 = {
-          ContentEN = "Starter Gift Bundle Ⅲ",
+          ContentEN = "Starter Gift Chest Ⅲ",
           TextMapId = "Pack_Name_Shop_Start_03"
         },
         Pack_Name_Shop_Start_04 = {
-          ContentEN = "Starter Gift Bundle Ⅳ",
+          ContentEN = "Starter Gift Chest Ⅳ",
           TextMapId = "Pack_Name_Shop_Start_04"
         },
         Pack_Name_Shop_WeiTuo = {
           ContentEN = "Supply Bundle: Commission Manuals",
           TextMapId = "Pack_Name_Shop_WeiTuo"
+        },
+        Pack_Name_Ticket1 = {
+          ContentEN = "Commission Manuals Supply Chest Ⅰ",
+          TextMapId = "Pack_Name_Ticket1"
+        },
+        Pack_Name_Ticket2 = {
+          ContentEN = "Commission Manuals Supply Chest Ⅱ",
+          TextMapId = "Pack_Name_Ticket2"
         },
         Pack_Name_Walnut_Order_001_015 = {
           ContentEN = "Random Secret Letter: Order",
@@ -20735,20 +21620,24 @@ local Data = {
           TextMapId = "Pack_Name_Weapon_Decompose"
         },
         Pack_Name_Weapon_ForgeA_Normal = {
-          ContentEN = "Repulsive Crystal & Gold Sand Supply Pack Ⅰ",
+          ContentEN = "Weapon Forging Supply Chest B (Ⅰ)",
           TextMapId = "Pack_Name_Weapon_ForgeA_Normal"
         },
         Pack_Name_Weapon_ForgeA_Plenty = {
-          ContentEN = "Repulsive Crystal & Gold Sand Supply Pack Ⅱ",
+          ContentEN = "Weapon Forging Supply Chest B (Ⅱ)",
           TextMapId = "Pack_Name_Weapon_ForgeA_Plenty"
         },
         Pack_Name_Weapon_ForgeB_Normal = {
-          ContentEN = "Sharpening Potion & Bomb Supply Pack Ⅰ",
+          ContentEN = "Weapon Forging Supply Chest A (Ⅰ)",
           TextMapId = "Pack_Name_Weapon_ForgeB_Normal"
         },
         Pack_Name_Weapon_ForgeB_Plenty = {
-          ContentEN = "Sharpening Potion & Bomb Supply Pack Ⅱ",
+          ContentEN = "Weapon Forging Supply Chest A (Ⅱ)",
           TextMapId = "Pack_Name_Weapon_ForgeB_Plenty"
+        },
+        Pack_Name_Weapon_Progress = {
+          ContentEN = "Weapon Progression Supply Chest Ⅰ",
+          TextMapId = "Pack_Name_Weapon_Progress"
         },
         Pack_Name_Weapon_Track = {
           ContentEN = "Weapon Track-Shift Chest",
@@ -22295,7 +23184,7 @@ local Data = {
           TextMapId = "Pet_IpDes_491"
         },
         Pet_IpDes_492 = {
-          ContentEN = "A Geniemon that has mimicked the form of a Magnetix Drone. Though the mechanisms behind Geniemon mimicry remain an enigma, this variant has fully adapted to life in the Aeolipile, evolving traits optimised for survival.",
+          ContentEN = "Magnetix Drone is created from the whimsy of those who are both alchemists and Geniemon enthusiasts.\n\nMagnetix Drone deals damage to nearby enemies through Resonance Support.",
           TextMapId = "Pet_IpDes_492"
         },
         Pet_IpDes_493 = {
@@ -22631,7 +23520,7 @@ local Data = {
           TextMapId = "Pet_Name_4912"
         },
         Pet_Name_4913 = {
-          ContentEN = "Shiny Healing Drone",
+          ContentEN = "Ethereal Healing Drone",
           TextMapId = "Pet_Name_4913"
         },
         Pet_Name_492 = {
@@ -22647,7 +23536,7 @@ local Data = {
           TextMapId = "Pet_Name_4922"
         },
         Pet_Name_4923 = {
-          ContentEN = "Shiny Magnetix Drone",
+          ContentEN = "Ethereal Magnetix Drone",
           TextMapId = "Pet_Name_4923"
         },
         Pet_Name_493 = {
@@ -22663,19 +23552,15 @@ local Data = {
           TextMapId = "Pet_Name_4932"
         },
         Pet_Name_4933 = {
-          ContentEN = "Shiny Jellomon",
-          TextMapId = "Pet_Name_4933"
-        },
-        Pet_Name_4941 = {
           ContentEN = "Ethereal Jellomon",
-          TextMapId = "Pet_Name_4941"
+          TextMapId = "Pet_Name_4933"
         },
         Pet_PremiumTransform_Lock = {
           ContentEN = "Eldritch Geniemon not found. Cannot use this item.",
           TextMapId = "Pet_PremiumTransform_Lock"
         },
         Pet_RarePet_ReConfirm = {
-          ContentEN = "<highlight>This is a rare Geniemon</>. Use anyway?",
+          ContentEN = "<highlight>This Geniemon is rare</>. Use anyway?",
           TextMapId = "Pet_RarePet_ReConfirm"
         },
         Pet_Rarity_3 = {
@@ -22745,6 +23630,14 @@ local Data = {
         PhantomTalk_1503_Chest = {
           ContentEN = "Be a shame to leave this treasure buried in the dirt. Go on — take it.",
           TextMapId = "PhantomTalk_1503_Chest"
+        },
+        PhantomTalk_160101_Chest = {
+          ContentEN = "Well, what a pleasant surprise.",
+          TextMapId = "PhantomTalk_160101_Chest"
+        },
+        PhantomTalk_1601_Chest = {
+          ContentEN = "Well, what a pleasant surprise.",
+          TextMapId = "PhantomTalk_1601_Chest"
         },
         PhantomTalk_1801_Chest = {
           ContentEN = "Fina's friends say... they smell the King's treasure!",
@@ -22826,6 +23719,22 @@ local Data = {
           ContentEN = "No pieces available. Collect scores to play.",
           TextMapId = "Piano_NoMusic"
         },
+        PlayerBuff_LockedTips_1 = {
+          ContentEN = "Unlocks at Lv. 15",
+          TextMapId = "PlayerBuff_LockedTips_1"
+        },
+        PlayerBuff_LockedTips_2 = {
+          ContentEN = "Unlocks at Lv. 25",
+          TextMapId = "PlayerBuff_LockedTips_2"
+        },
+        PlayerBuff_LockedTips_3 = {
+          ContentEN = "Unlocks at Lv. 35",
+          TextMapId = "PlayerBuff_LockedTips_3"
+        },
+        PlayerBuff_LockedTips_4 = {
+          ContentEN = "Unlocks at Lv. 45",
+          TextMapId = "PlayerBuff_LockedTips_4"
+        },
         PlayerDefaultName = {
           ContentEN = "Vita",
           TextMapId = "PlayerDefaultName"
@@ -22871,11 +23780,11 @@ local Data = {
           TextMapId = "PlayerLevel_ExpNow"
         },
         PlayerLevel_ExpSource = {
-          ContentEN = "Earning Trial EXP",
+          ContentEN = "Earned Trial EXP",
           TextMapId = "PlayerLevel_ExpSource"
         },
         PlayerLevel_FirstObtain_Char = {
-          ContentEN = "Character Unlocks",
+          ContentEN = "Character Unlocks{空格}",
           TextMapId = "PlayerLevel_FirstObtain_Char"
         },
         PlayerLevel_FirstObtain_Mod = {
@@ -22887,8 +23796,40 @@ local Data = {
           TextMapId = "PlayerLevel_FirstObtain_Pet"
         },
         PlayerLevel_FirstObtain_Weapon = {
-          ContentEN = "Weapon Unlocks",
+          ContentEN = "Weapon Unlocks{空格}",
           TextMapId = "PlayerLevel_FirstObtain_Weapon"
+        },
+        PlayerLevel_Growth_Unlock = {
+          ContentEN = "Character progression cap increased",
+          TextMapId = "PlayerLevel_Growth_Unlock"
+        },
+        PlayerLevel_Growth_Unlock_Content = {
+          ContentEN = "Character & weapon ascension cap increased\nDemon Wedge extraction cap increased",
+          TextMapId = "PlayerLevel_Growth_Unlock_Content"
+        },
+        PlayerLevel_HardBoss_Unlock = {
+          ContentEN = "Challenge Unlocked",
+          TextMapId = "PlayerLevel_HardBoss_Unlock"
+        },
+        PlayerLevel_HardBoss_Unlock_Content2 = {
+          ContentEN = "Nocturnal Echoes: Difficulty II Unlocked",
+          TextMapId = "PlayerLevel_HardBoss_Unlock_Content2"
+        },
+        PlayerLevel_HardBoss_Unlock_Content3 = {
+          ContentEN = "Nocturnal Echoes: Difficulty III Unlocked",
+          TextMapId = "PlayerLevel_HardBoss_Unlock_Content3"
+        },
+        PlayerLevel_HardBoss_Unlock_Content4 = {
+          ContentEN = "Nocturnal Echoes: Difficulty IV Unlocked",
+          TextMapId = "PlayerLevel_HardBoss_Unlock_Content4"
+        },
+        PlayerLevel_HardBoss_Unlock_Content5 = {
+          ContentEN = "Nocturnal Echoes: Difficulty V Unlocked",
+          TextMapId = "PlayerLevel_HardBoss_Unlock_Content5"
+        },
+        PlayerLevel_HardBoss_Unlock_Content6 = {
+          ContentEN = "Nocturnal Echoes: Difficulty VI Unlocked",
+          TextMapId = "PlayerLevel_HardBoss_Unlock_Content6"
         },
         PlayerLevel_ModProgress = {
           ContentEN = "Demon Wedge Progression",
@@ -22925,6 +23866,14 @@ local Data = {
         PlayerLevel_WeaponSmelt = {
           ContentEN = "Weapon Smelting",
           TextMapId = "PlayerLevel_WeaponSmelt"
+        },
+        PlayerLevel_World_Unlock = {
+          ContentEN = "Area enemies enhanced",
+          TextMapId = "PlayerLevel_World_Unlock"
+        },
+        PlayerLevel_World_Unlock_Content = {
+          ContentEN = "Area enemies combat difficulty increased\nArea enemies item drop rates increased",
+          TextMapId = "PlayerLevel_World_Unlock_Content"
         },
         PlayerLv_Insufficient = {
           ContentEN = "Trial Rank requirement not met",
@@ -23487,7 +24436,7 @@ local Data = {
           TextMapId = "QuestDesc_10020807"
         },
         QuestDesc_10020808 = {
-          ContentEN = "Amid lingering pain and farewells, the long day finally comes to an end.\nSleep evades you tonight — perhaps a quiet walk through the city will help you clear your mind.",
+          ContentEN = "A lone figure stands in the Thawing Caverns — a woman unknown to you.\nAs your eyes meet, she seems poised to speak.",
           TextMapId = "QuestDesc_10020808"
         },
         QuestDesc_10020809 = {
@@ -23927,7 +24876,7 @@ local Data = {
           TextMapId = "QuestDesc_1003plus33"
         },
         QuestDesc_1003plus34 = {
-          ContentEN = "After a brief exchange, you decide to cooperate with the 13th Legion. Now hear Commander Lynn’s orders for you.",
+          ContentEN = "After a brief exchange, you decide to cooperate with the 13th Legion. Now hear Commander Lynn's orders for you.",
           TextMapId = "QuestDesc_1003plus34"
         },
         QuestDesc_1003plus35 = {
@@ -24095,7 +25044,7 @@ local Data = {
           TextMapId = "QuestName_10020214"
         },
         QuestName_10020215 = {
-          ContentEN = "Chase the Thief and Defeat Him",
+          ContentEN = "Chase the Thief",
           TextMapId = "QuestName_10020215"
         },
         QuestName_10020221 = {
@@ -24115,11 +25064,11 @@ local Data = {
           TextMapId = "QuestName_10020224"
         },
         QuestName_10020225 = {
-          ContentEN = "Collect the Crystallo of Stella",
+          ContentEN = "Defeat the thief",
           TextMapId = "QuestName_10020225"
         },
         QuestName_10020226 = {
-          ContentEN = "Leave Glevum Pit and return to Icelake",
+          ContentEN = "Catch the thief",
           TextMapId = "QuestName_10020226"
         },
         QuestName_10020301 = {
@@ -24157,6 +25106,22 @@ local Data = {
         QuestName_10020307_2 = {
           ContentEN = "Continue searching for a way to open the gate",
           TextMapId = "QuestName_10020307_2"
+        },
+        QuestName_10020307_3 = {
+          ContentEN = "Browse through notes",
+          TextMapId = "QuestName_10020307_3"
+        },
+        QuestName_10020307_4 = {
+          ContentEN = "Open",
+          TextMapId = "QuestName_10020307_4"
+        },
+        QuestName_10020307_5 = {
+          ContentEN = "Place the powder keg",
+          TextMapId = "QuestName_10020307_5"
+        },
+        QuestName_10020307_6 = {
+          ContentEN = "Detonate the powder keg",
+          TextMapId = "QuestName_10020307_6"
         },
         QuestName_10020308 = {
           ContentEN = "Venture deep into Glevum Pit and search for Crystallo of Stella",
@@ -24293,6 +25258,10 @@ local Data = {
         QuestName_10020602 = {
           ContentEN = "Follow Henrik to the outskirts of the town",
           TextMapId = "QuestName_10020602"
+        },
+        QuestName_10020602_1 = {
+          ContentEN = "Take cover nearby",
+          TextMapId = "QuestName_10020602_1"
         },
         QuestName_10020603 = {
           ContentEN = "Follow Henrik to the outskirts of the town",
@@ -24619,7 +25588,7 @@ local Data = {
           TextMapId = "QuestName_100303sp102"
         },
         QuestName_100303sp103 = {
-          ContentEN = "Gather three fish",
+          ContentEN = "Gather three fish ",
           TextMapId = "QuestName_100303sp103"
         },
         QuestName_100303sp104 = {
@@ -24931,7 +25900,7 @@ local Data = {
           TextMapId = "Quest_Tips_LeaveHintTrigger"
         },
         Quest_Tips_QuestTrackLock = {
-          ContentEN = "Quest Navigation not available now",
+          ContentEN = "Quest navigation temporarily unavailable",
           TextMapId = "Quest_Tips_QuestTrackLock"
         },
         Quest_ToBeContinued = {
@@ -24973,6 +25942,22 @@ local Data = {
         READSERIES_1048 = {
           ContentEN = "Momiji: A Chronicle of Rebellion",
           TextMapId = "READSERIES_1048"
+        },
+        READSERIES_1057 = {
+          ContentEN = "Silvercandle Hymn",
+          TextMapId = "READSERIES_1057"
+        },
+        READSERIES_1069 = {
+          ContentEN = "Secret Histories of the Forsakens",
+          TextMapId = "READSERIES_1069"
+        },
+        READSERIES_1070 = {
+          ContentEN = "Betwixt Leaves and Branches",
+          TextMapId = "READSERIES_1070"
+        },
+        READSERIES_1096 = {
+          ContentEN = "Alchemist's Journal",
+          TextMapId = "READSERIES_1096"
         },
         READSERIES_DESC_1039 = {
           ContentEN = "Retrieved from among countless folders within the cabinet, these files contain photographs and meticulous daily records of each child who once lived at the Hypnos' House.",
@@ -25185,6 +26170,34 @@ local Data = {
         READ_DESC_2000053 = {
           ContentEN = "(These loose pages were found scattered in the theatre's corners, penned in Parsifal's hand. From the wear on the pages, it appears to be a script he studied often — perhaps hoping to one day take the stage himself.)\n\nOn the north-western cape beyond the reach of the Elysian Church, there once stood a duchy called Yashnia, a slender strip of land facing the Hyperborean Empire across the sea. A crossroads of trade and diplomacy, Yashnia balanced precariously between the Church and the Empire — until the Church annexed it more than three centuries ago.\nThough small in size, the duchy endured for generations. Its dukes clung to power through a history steeped in blood: palace intrigue, aulic murders, and political assassinations. In the centuries since, wandering bards have mined Yashnia's crimson legacy for their dramas and ballads. Even the Empire — despite its official ban on the dramatisation of royal assassinations — permits such plays to be performed, viewing them as a fitting indictment of the Church's bloody past. Among these works, Momiji: A Chronicle of Rebellion remains one of the most beloved, praised for its sweeping music, elaborate choreography, and stirring depictions of battle.",
           TextMapId = "READ_DESC_2000053"
+        },
+        READ_DESC_2000057 = {
+          ContentEN = "A hymn sung at the Silvercandle Carnival, recounting its legendary origin: Soranus, younger brother to Dis Ⅰ, first emperor of Hyperborea, was struck down by the Charon. Yet after conquest was won, Dis Ⅰ chose not vengeance but peace, and held a great feast.\n From that feast is said to descend the Silvercandle Carnival as it is known today.",
+          TextMapId = "READ_DESC_2000057"
+        },
+        READ_DESC_2000067 = {
+          ContentEN = "A hand-scrawled flyer, its jagged script so fierce you can almost hear it shouting. Line by line it denounces the Silvercandle Hymn, proclaiming the truth turned on its head.",
+          TextMapId = "READ_DESC_2000067"
+        },
+        READ_DESC_2000068 = {
+          ContentEN = "The Asphodel's drinks menu — every glass, full-bodied and fragrant. One sip, and you'll be back for more.",
+          TextMapId = "READ_DESC_2000068"
+        },
+        READ_DESC_2000069 = {
+          ContentEN = "Rumours of the Forsakens' upper echelons — their credibility uncertain, but entertaining enough for a light read.",
+          TextMapId = "READ_DESC_2000069"
+        },
+        READ_DESC_2000070 = {
+          ContentEN = "The following is drawn from the writings of Comnena, a scholar of Aethyrie. Her histories are notoriously abstruse, diverging in places from the official records of the Hyperborean Empire — and thus seldom seen beyond the shelves of collectors. Indeed, such tomes are more often purchased as ornament than for study; a single set may languish five years before leaving a bookseller's hand.",
+          TextMapId = "READ_DESC_2000070"
+        },
+        READ_DESC_2000096 = {
+          ContentEN = "A journal left behind in Glevum Pit. The tone suggests it might belong to a scholar.",
+          TextMapId = "READ_DESC_2000096"
+        },
+        READ_DESC_2000097 = {
+          ContentEN = "A journal left behind in Glevum Pit, stained dark red. The handwriting matches the earlier journal found. The latter part is extremely messy, as if it was scribbled in frantic haste.",
+          TextMapId = "READ_DESC_2000097"
         },
         READ_DESC_20600 = {
           ContentEN = "A collection of enigmatic pages discovered by chance. Some are delicate scrolls of fine parchment; others, freshly printed sheets with ink still crisp and dark. A few are no more than torn scraps from half-used notebooks. Whether neatly penned or barely legible, they all share one thing in common — each contains a hint pointing to the whereabouts of a hidden treasure.",
@@ -25423,12 +26436,72 @@ local Data = {
           TextMapId = "READ_NAME_2000056"
         },
         READ_NAME_2000057 = {
-          ContentEN = "※ Oath of Allegiance",
+          ContentEN = "Silvercandle Hymns (Ⅰ)",
           TextMapId = "READ_NAME_2000057"
         },
         READ_NAME_2000058 = {
-          ContentEN = "※ Investigation into the Family Background of Daphne Theodore",
+          ContentEN = "Silvercandle Hymns (Ⅱ)",
           TextMapId = "READ_NAME_2000058"
+        },
+        READ_NAME_2000059 = {
+          ContentEN = "Silvercandle Hymn (Ⅲ)",
+          TextMapId = "READ_NAME_2000059"
+        },
+        READ_NAME_2000060 = {
+          ContentEN = "Silvercandle Hymn (Ⅳ)",
+          TextMapId = "READ_NAME_2000060"
+        },
+        READ_NAME_2000061 = {
+          ContentEN = "Silvercandle Hymn (Ⅴ)",
+          TextMapId = "READ_NAME_2000061"
+        },
+        READ_NAME_2000062 = {
+          ContentEN = "Silvercandle Hymn (Ⅵ)",
+          TextMapId = "READ_NAME_2000062"
+        },
+        READ_NAME_2000063 = {
+          ContentEN = "Silvercandle Hymn (Ⅶ)",
+          TextMapId = "READ_NAME_2000063"
+        },
+        READ_NAME_2000064 = {
+          ContentEN = "Silvercandle Hymn (Ⅷ)",
+          TextMapId = "READ_NAME_2000064"
+        },
+        READ_NAME_2000065 = {
+          ContentEN = "Silvercandle Hymn (Ⅸ)",
+          TextMapId = "READ_NAME_2000065"
+        },
+        READ_NAME_2000066 = {
+          ContentEN = "Silvercandle Hymn (Ⅹ)",
+          TextMapId = "READ_NAME_2000066"
+        },
+        READ_NAME_2000067 = {
+          ContentEN = "Boycott the Silvercandle Carnival!",
+          TextMapId = "READ_NAME_2000067"
+        },
+        READ_NAME_2000068 = {
+          ContentEN = "What'll It Be? Just Say the Word!",
+          TextMapId = "READ_NAME_2000068"
+        },
+        READ_NAME_2000069 = {
+          ContentEN = "Secret Histories of the Forsakens (Ⅰ)",
+          TextMapId = "READ_NAME_2000069"
+        },
+        READ_NAME_2000070 = {
+          ContentEN = "Betwixt Leaves and Branches: The Filthoid Waves",
+          TextMapId = "READ_NAME_2000070"
+        },
+        READ_NAME_2000071 = {
+          ContentEN = "Betwixt Leaves and Branches: The Eve of Uprising",
+          TextMapId = "READ_NAME_2000071"
+        },
+        READ_NAME_2000096 = {
+          ContentEN = "Alchemist's Journal (Ⅰ)",
+          TextMapId = "READ_NAME_2000096"
+        },
+        READ_NAME_2000097 = {
+          ContentEN = "Alchemist's Journal (Ⅱ)",
+          TextMapId = "READ_NAME_2000097"
         },
         READ_NAME_20602 = {
           ContentEN = "Purgatorio Island: Volume Ⅰ",
@@ -25497,6 +26570,14 @@ local Data = {
         READ_NAME_20622 = {
           ContentEN = "Lonza Fortress (Ⅲ)",
           TextMapId = "READ_NAME_20622"
+        },
+        READ_NAME_JailInves01 = {
+          ContentEN = "Warden's notes (I)",
+          TextMapId = "READ_NAME_JailInves01"
+        },
+        READ_NAME_JailInves02 = {
+          ContentEN = "Warden's notes (Ⅱ)",
+          TextMapId = "READ_NAME_JailInves02"
         },
         READ_TEXT_2000001 = {
           ContentEN = "Fusa, the Goddess of Fate —\n... of the Stellar Path, and the architect of the Threads of Destiny. \nAs the dome and ... bear witness, we offer you our devout hymns. \n\nThe radiance we see among the sprays of water was ... bestowed by you... \nYour believers gather at the hidden reefs, travelling to the edges of this remote island. \nPeople of ... bear witness to the revelation,\nswearing to manifest their faith with the divine instruments. \nAnd so, the frozen melodies begi... to play. \n\nThe first melody arises from the ... caves,\nwhere the daylight spills out in rich waves.\nThe ... stone forms an elegant visage,\nand destiny softly breathes within the encircling columns. \n\nThe second ... is in a cavern with cascading waterfalls,\nwhere the years have smoothed the cliffs ...\nand the waters descending from the Nine Heavens have transformed into stained glass.\nIt is a place of scattered hymns, ... this sanctuary. \n\nThe third melody sings of an ascending corridor,\nextending to ... constellations, and the sun and moon.\nCatching glimpses of stars beyond the constellations,\nweaving a curtain that envelops all of Atlasia. \n\nFusa, the stargazing Goddess—\nHere we pay homage to you.\nMay you protect your faithful believers,\nand grant us impeccable ... luck and happiness!",
@@ -25723,8 +26804,72 @@ local Data = {
           TextMapId = "READ_TEXT_2000056"
         },
         READ_TEXT_2000057 = {
-          ContentEN = "Source: Testimony by Calem, soldier of the Narwhals\n According to Calem, his commanding officer, Falsi, retrieved this document from the central control room shortly before the explosion. \n It is a letter of defection, pledging allegiance to the Forsakens — signed by Avar Hrodland. \n  \n Hellfire's Note: \n Handwriting and fingerprints confirmed. \n Still — could it be forged? \n  \n  \n ※ Correspondence from Avar Hrodland \n This letter contains specific instructions addressed to {nickname2} and Theodore, detailing acts of disruption to be carried out during the assault.\n \n \n ※ Control Panel: Central Control Room \n Status: Data compromised due to blast damage. \n Recovered via classified recorder — access logs from the final three days: \n • 18 Nov: No entries\n • 19 Nov: No entries\n • 20 Nov: Avar Hrodland, {nickname2}\n  \n Hellfire's Note: \n Important.\n \n \n ※ Audio Recorder \n Recovered from the hallway by Catto (Narwhals unit), allegedly dropped during the Forsakens' retreat. \n At timestamp 33:17, a voice resembling Avar Hrodland is heard in conversation with an unidentified Forsakens operative. \n  \n Hellfire's Note: \n May prove useful in establishing a timeline. Credibility remains in question.\n \n  \n ※ Testimony from Calem (Narwhals unit) \n Statements as follows:\n • "I saw Captain {nickname2} of the Griffins exit the central control room alone — there was blood all over {性别:his|her} chest."\n • "{nickname2} told us to hold position while {性别:he|she} went to check the sewers for any remaining Forsakens personnel."\n • "Two minutes later, the alarm sounded. Captain Falsi and I rushed in — found Captain Avar of the Snow Wolves lying in a pool of blood. The self-destruct sequence had already been triggered."\n  \n Hellfire's Note: \n Internal conflict?\n \n \n ※ Outstanding Questions\n • Why was the control room destroyed?\n → A cover-up to eliminate further evidence?\n \n Conflicting Accounts:\n → Testimonies from {nickname2} and Theodore directly contradict the findings above.",
+          ContentEN = "Ⅰ. Overture\n\nHast thou ever heard of such a revelry,\n\nWhere profane soldiers and demon's progeny joined hand in hand?\n\nWhere the southerling and the nordling raised a song as one,\n\nTo hymn the silver peace ‘twixt Sola and Charon!\n\nTears of wax did drip from Sola's candlelight,\n\nUpon Charon's face, naught but carefree delight.\n\nThey twisted their waists, they swung limb and limb,\n\nWith steps of dance, their joy did brim.\n\nThrough joy they reached madness, a fevered state,\n\nThrough madness, forgot sorrow and fate.\n\nThrough sorrow, bestowed upon the past its weight,\n\nAnd at the end of past — a name to celebrate!\n\nSoranus Galea!\n\nHe who took an ancient name, yet defied the false god's claim,\n\nHe who inherited an armored surname, to aid the Emperor's frame.\n\nThe younger brother of His Majesty Dis Galea, departed from our world too soon,\n\nSoranus Galea!",
           TextMapId = "READ_TEXT_2000057"
+        },
+        READ_TEXT_2000058 = {
+          ContentEN = "Ⅱ. In Praise of Soranus Galea\n\nNorthward! To lands afar from the false god's gaze,\n\nNorthward! To fields unbound by mortal chains,\n\nNorthward! To realms abundant with liberty!\n\nIn the third early winter since the Exodus,\n\nHouse Galea pressed on, never to repose.\n\nThey swore to flee the Elysian Church's hold,\n\nWith silver blades against the world's end cold.\n\nAt the forefront of that argent tide,\n\nHis form you'd see, striding with pride.\n\nHis helm shone bright, a guiding star afar,\n\nHis steps held firm, like flowers unmarred.\n\nHis eyes gleamed keen, rare diamonds untold,\n\nHis form sped light, as dust on winds old.\n\nSoranus Galea!\n\nTreasure of Dis the First, the household's young wolf,\n\nWhenever he drew his sword, comedy unfolded—\n\nVictory assured, the battle's ending foretold.",
+          TextMapId = "READ_TEXT_2000058"
+        },
+        READ_TEXT_2000059 = {
+          ContentEN = "Ⅲ. The Gift of Fate\n \n From revelry did tragedy arise;\n \n From the eternal was born what must pass.\n \n South of Lamenting Lake, the snows lay deep.\n \n And those from gentler lands had never beheld such boundless white.\n \n Fallen feathers, ashen earth, lips pale as the ivory lake's milk-stone.\n \n What once was marvel at the snow became dread of death.\n \n Empty bellies growled, heralds of despair unborn.\n \n Even Soranus, fairest and steadfast,\n \n Scoured desperately for a single morsel.\n \n But not even Soranus could conjure wheat from icefields.\n \n He gnawed upon blocks of snow,\n \n Leant upon his longsword as a crutch,\n \n And ventured into the blizzard for one last charge,\n \n Hoping fate concealed a gift beyond the winter's end.\n \n When the storm at last relented,\n \n A village appeared above Lamenting Lake.\n \n With the last of his strength, Soranus knocked upon its gate,\n \n And gave thanks for fate's final, merciful gift.\n \n Yet perhaps, for he and his brother had spurned the gods,\n \n He knew not in that hour the first verse of his downfall was already writ.",
+          TextMapId = "READ_TEXT_2000059"
+        },
+        READ_TEXT_2000060 = {
+          ContentEN = "Ⅳ. The Snow-Owl's Ballad, Canto Ⅰ\n \n The snow-owl rejoiced, the snow-owl sang,\n \n Thrice it wheeled through the nighted sky,\n \n Seeking fattened mice to still its hunger.\n \n Yet beneath the vault of the Far North,\n \n No breath of life was to be found...\n \n Save for that place — \n \n A hamlet of snow, a village of ice.\n \n The Charon hastened upon the lake's edge ,\n \n While from the south the Solarian sang.\n \n The fish cast off its cloak of brine,\n \n Unfolding blossoms of glistening fat,\n \n More fragrant than the buds of a springvine.\n \n The mash unveiled as its froth fell away,\n \n Revealing crimson draperies of the closing day,\n \n More splendid than autumn's dusk.\n \n Since the day Soranus struck the door of that village by Lamenting Lake,\n \n The feast where strangers became kin has never ceased.\n \n Every Sola laid down their sword,\n \n And embraced the Charon newly met,\n \n Praising their bounty,\n \n Giving thanks for their shelter.\n \n Even Dis Galea, ever wary,\n \n Exchanged oaths with the Charon's chief,\n \n Swearing to treat the Charon as brothers, as dear as Soranus himself,\n \n To stand as one against Filthoids, against winter, against every foe to come.\n \n Even the snow-owl, vigilant hunter, raised its voice in joy,\n \n And sought to alight upon the laden platters that it, too, would share the feast.",
+          TextMapId = "READ_TEXT_2000060"
+        },
+        READ_TEXT_2000061 = {
+          ContentEN = "Ⅴ. The Snow-Owl's Ballad, Canto Ⅱ\n \n The snow-owl faltered, the snow-owl cried,\n \n Six times it wheeled through the nighted sky.\n \n It longed to feast at the banquet...\n \n Yet as it poised to descend,\n \n A wall of spears and blades arose.\n \n Perhaps the wine had been too sweet,\n \n For the hapless Solarian forgot —\n \n The truth bound in the name "Charon": the Children of the Demon.\n \n Children of the Demon, bereft of all virtue, delighting in the defilement of oaths.\n \n Children of the Demon, sly and venomous, weaving their webs of lies.\n \n The salted fish was but prelude to slaughter;\n \n The goblet brimming but crimson-veiled malice.\n \n The Charon chieftain, raising his cup, loosed a baleful laugh —\n \n The kindly feast laid bare as nothing but a snare.\n \n The northern snow fell like Death's scythe;\n \n Could it ever suffer two peoples in peace?\n \n Golden hair dishevelled, silver goblets overturned, iron armour rent.\n \n Swords clamoured loud, driving ever closer upon the Solarian guests.\n \n Arrows sped in volleys, hounding the Solarian like a hunted pack of wolves.",
+          TextMapId = "READ_TEXT_2000061"
+        },
+        READ_TEXT_2000062 = {
+          ContentEN = "Ⅵ. The Snow-Owl's Ballad, Canto Ⅲ\n \n The snow-owl wept, the snow-owl cried,\n \n Nine times it wheeled through the nighted sky.\n \n It longed to flee the tumult —\n \n Yet cunning are the demons,\n \n Who beguile not only the bewildered bird.\n \n Even Dis Galea, who once struck down a false god,\n \n Deemed himself scorned by Fate,\n \n Doomed to an end unimagined.\n \n Only one carved a path through the tightening snare of the Charon:\n \n Soranus Galea, blazing with wrath at deceit.\n \n In fury he cast a burning candelabrum as a spear, piercing the armour of his foes.\n \n In defiance he swung a brimming silver goblet as a hammer, shattering the helms of the wicked.\n \n Before him, the Charon fell in heaps;\n \n Behind him, stretched a road of blood and flesh.\n \n It was he who had once knocked upon that door,\n \n And so he swore he would depart in whole.\n \n Dis Galea followed close behind,\n \n As though clawing free from a demon's ravenous maw.\n \n He rejoiced that his banner yet stood, unswallowed by the snow.\n \n But Soranus had spent his final strength.\n \n The demons overtook him, their blades came down,\n \n And from that noble brow there burst a white flame.\n \n The glacier crumbled, blood welled forth, hardening into stones of crimson agate.\n \n So fell Soranus Galea, sole brother of Dis Ⅰ.\n \n On the day the Great Migration began, he had sworn to march hand in hand with Death.\n \n Yet none foresaw that Fate would on this day bare its fangs in laughter.\n \n And the snow-owl, too, seeking its feast,\n \n Was struck by an accursed arrow,\n \n Its breath lost amid the bloodied waters.\n \n Alas! Soranus — hero who called for peace...\n \n He never lived to behold the birth of the Hyperborean Empire,\n \n Yet he became its first and truest hero.",
+          TextMapId = "READ_TEXT_2000062"
+        },
+        READ_TEXT_2000063 = {
+          ContentEN = "Ⅶ. The Proclamation of Vengeance\n \n Dis Galea returned into the snowbound wilderness.\n \n Words forsook him; darkness veiled his sight without end.\n \n In silence he recalled his brother's face.\n \n Had he yet trod the sacred halls of Elysium,\n \n He would have cried aloud the names of the Great Nine,\n \n Entreating the power that guides the fallen home.\n \n But blind faith was long renounced, the idols cast down,\n \n And death itself bore witness: the gods were gone.\n \n So the host kept silence, and with Dis Galea they mourned wordlessly.\n \n The soldiers, wrath bound in silence, awaited his command.\n \n The frozen earth trembled beneath his wrath.\n \n Three days and three nights his silence endured.\n \n The host waited, and waited still — for their lord to call forth vengeance, to cast the demons into dust.\n \n At last he spoke, slow and measured: "Leave these snows. Let us bide our time.\n \n The Charon are indeed our foes; yet more loathsome still is our own frailty.\n \n The demons bear no Solarian virtue. They wield their strength in wanton excess.\n \n Then must we forge a strength redoubled, to cast them down and bind them fast in chains.\n \n Better to gather strength, to lie low in wait for a just vengeance,\n \n Than to squander rage to our common ruin."",
+          TextMapId = "READ_TEXT_2000063"
+        },
+        READ_TEXT_2000064 = {
+          ContentEN = "Ⅷ. The Iron Hooves in Their Charge\n \n The host stirred and swelled like waters brought to the boil.\n \n Far-sighted was Dis Galea,\n \n Prudent was Dis Galea!\n \n And so they mourned with Dis Galea for Solanus,\n \n For Solanus, revered and feared, had fallen.\n \n Dirges rose and tears fell,\n \n As though a thousand stars descended all at once.\n \n The night lay veiled in mist; no guiding star remained.\n \n This day we endure the bitterness of deceit;\n \n Yet when the tide of the Great Migration next sweeps the snowbound plain:\n \n Though death descends as equal fate on every soul, Sola and Charon alike,\n \n The demons' blood shall drench the earth.\n \n Their bones shall be wrought into goblets;\n \n Their houses shall become graveyards;\n \n Their horns shall be broken and cast into Lamenting Lake, until its waters brim with ruin.\n \n And this land, bright with Phoxene, shall rise as offering unto Soranus.\n \n Thus, feeding on hatred,\n \n Dis Galea and his host endured the winter.\n \n They unsheathed their swords and seized the hamlets;\n \n They tightened their reins and trampled the houses.\n \n Yet endless massacre slowly dulled their wrath,\n \n And the Solarian, guided by reason, turned from the path of carnage and blood, \n \n And sought instead a road of concord.",
+          TextMapId = "READ_TEXT_2000064"
+        },
+        READ_TEXT_2000065 = {
+          ContentEN = "Ⅸ. The Dissolving of Hatred\n \n Ten times did the ice of Lamenting Lake melt, and ten times it froze anew.\n \n And in the villages the Charon's dread deepened day by day —\n \n For ten years past it was they who had plotted a massacre that failed,\n \n And it was they who must now taste its bitter fruit.\n \n Dis Galea, clinging to life by Fate's frail thread,\n \n Endured the harsh winters of the North by means unknown,\n \n And with the silver tide of his host he laid waste to every land round about.\n \n At last he came,\n \n And with his coming an ending surely fell.\n \n With his host he cast down in swift might the fortress reared upon Soranus's grave.\n \n The Charon, in despair, murmured prayers to Mother Embla,\n \n Believing that this day would see them sink into the Misty Sea's embrace.\n \n Yet what came was neither slaughter nor conquest,\n \n But leniency beyond all measure.\n \n Dis Galea cursed Fate,\n \n Yet ten years of war had bent his heart toward peace.\n \n In his letters he wrote thus, grave and rational:\n \n "Vengeance is scarlet, fair to behold — yet it only ends in withering.\n \n Peace is silver, grievous to bear — yet it composes the song of prosperity.\n \n Even if we let the Charon's blood sink into the stone, yet the stone shall one day crumble to desert.\n \n But once the seeds of peace are sown, for centuries, for millennia, flowers shall bloom."\n \n "My Solarian brothers, burdened with hatred — let us together cast scorn upon Fate.\n \n To deny anger its dominion over the mind — that is the very proof of our humanity.\n \n These Charon, once branded Children of the Demon, \n \n Are righteous folk who rose against the Church.\n \n Rather than cross swords and raise the dirge,\n \n Let Soranus be the first and last sacrifice.\n \n And the Charon shall mourn him with us as sisters and brothers.\n \n So long as Lamenting Lake endures,\n \n So long as the mountains stand,\n \n The name of Soranus shall be sung without end, echoing between mountain and lake.",
+          TextMapId = "READ_TEXT_2000065"
+        },
+        READ_TEXT_2000066 = {
+          ContentEN = "Ⅹ. Silver Candles Aflame, the Carnival Begins\n \n Thus did Galea's soldiers, the Solarian host who had reached the uttermost North,\n \n Lay down their swords, set aside their hatred,\n \n And lifted silver candles on high with hearts of mercy.\n \n Following close upon Galea, they came unto the dwellings of the Charon.\n \n White mountains stretched, the keen winds howled,\n \n And the Charon, who thought the flame of war was at hand, beheld instead from afar the silver candlelight.\n \n They marvelled: the Solarian host comes not for vengeance, but for peace!\n \n Dis I had lost a brother;\n \n Yet were not the Charon themselves a vaster host of brethren?\n \n Then the Charon brought forth their finest wine,\n \n With meats newly cured and berries preserved.\n \n They pledged kinship with Dis I,\n \n And hailed the gracious, gentle Galea as their lord.\n \n They raised a city meant to endure — \n \n Walls, a great plaza, lofty halls, and a theatre of song.\n \n There, Solarian and Charon alike\n \n Would share their finest days without divide.\n \n All who heard Dis I proclaim that vision were enthralled;\n \n And each vowed to be the cornerstone of the Empire's enduring dream.\n \n From that day, with each returning year, \n \n In Icelake — where Soranus fell and the tragedy found its end — \n \n The people gather.\n \n They kindle candles in silver candlesticks,\n \n And strike the festival's first note in the Far North.\n \n The flames soar, recalling ages past;\n \n The bells resound long, and grief is cast away.\n \n So hear — hear the songs that shall never fade;\n \n Sing — sing the hymn to the everlasting Empire.",
+          TextMapId = "READ_TEXT_2000066"
+        },
+        READ_TEXT_2000067 = {
+          ContentEN = "Charon brothers, Charon sisters — remember that verse they drilled into us when we were kids?\n"Have you heard of such a carnival, where blasphemers clasp the hands of Demon's Children?"\nYeah, that one. The Silvercandle Hymn. We've heard it so many times our ears grew numb.\nEvery year, when that day comes, we Charon — scraping through bitter lives — stitch together masks and costumes. Because only then do the Solarian pretend to treat us as human. Only then do they hold back their scorn. They dance, they laugh — and they blast that cursed Hymn at us a hundred times over.\nAnd I know many of you can recite its lines, maybe even feel sorry for the "kind-hearted" Dis I and his brother Soranus. Some even believe — because our ancestors supposedly killed Soranus — that we're bound to serve the Solarian forever. They say it's our destiny. To repay a blood debt. I say that's all lies.\nDon't buy it.\nDon't buy it!\nDon't buy it!!!\nThe Silvercandle Carnival is a lie from start to finish. There never was a carnival. Only a massacre. And Soranus? He wasn't some poor victim. He was the butcher — the worst of them all!\n \nListen, I'll tell you another story. The truth.\n \nOur ancestors, the Charon, lived in the North. Because of Deterioration, they didn't build great cities — just small scattered villages. One clan lived by Lamenting Lake, warming themselves with Phoxene from the Heaventree nearby, living on what little they had.\nThen came rumours from the South — trouble in the Elysian Church, rebels driven out, exiles wandering north. At first it was just gossip. Elysium was too far to matter. Until Solarian soldiers showed up, armed, on our lake shore.\nOur ancestors pitied them. Thought they'd never survive the northern winter. So they took them in, gave them food.\nThat winter was cruel, as if Father Ask and Mother Embla cursed us with the storm. But the cold didn't kill them — it only fed their greed. Galea, their leader, seemed harmless enough. But his brother? A greedy wolf. The first time he stepped into the village, his eyes went straight to our granaries. Already he was thinking of plunder.\nAnd on the night meant for peace, that brute Soranus had his blades and shields ready. At the feast our ancestors prepared, he struck.\nBy dawn, except for a handful of hunters out in the wilds, none were left alive... Galea built Icelake on our ancestors' graves, and from it rose his Empire. His men enslaved us, lied to us, branded us sinners.\n \nThink about it! Really think about it! The Hymn — every line is about the Solarian. Not once does it name a single Charon. Why? Because they didn't know? Or because they never cared?\nThe Silvercandle Carnival? A sham. The Hymn? Lies. They boast, "On this day we're equal; on this day we dance together." Liars! That wall between Solarian and Charon? They built it! And Soranus? He wasn't a hero or martyr. He was a filthy butcher!\nDon't be fooled. Boycott the Silvercandle Carnival!",
+          TextMapId = "READ_TEXT_2000067"
+        },
+        READ_TEXT_2000068 = {
+          ContentEN = "Welcome to The Asphodel. Our tavern serves drinks from every corner of the continent. And don't worry — we always collect the coin before you pass out.\n \n The Hyperborean Empire:\n Most of our Empire's brews find their way into the bellies of alchemists and soldiers, so the names may not sound drinkable... yet the taste is finer than you'd think. Craving something strong? Just say the word!\n Legion Wolfblood\n Standard issue across the Legions — a spirit strong enough to burn off fear on the battlefield and double as a battlefield disinfectant. The taste is strong — deliberately so, they say, to stop soldiers from overindulging.\n \n Phoxichor Engine Lubricant\n A favourite among Imperial alchemists. Named for its uncanny resemblance — in both colour and texture — to the actual lubricant used in Phoxichor engines. Rumour has it one absent-minded alchemist once took a swig of the real thing by mistake.\n \n Fortress Barrage\n A fiery spirit from the Empire's southern reaches. Best downed in one go to savour the full effect — like a fortress cannon blasting through your body, leaving your limbs no longer your own. Intense. Devastating. Glorious.\n \n Laurelled Delight\n The go-to toast when a Charon earns their Laurel. Often shaken into a froth for the ceremony — but beneath the bubbles lies a crisp, refreshing flavour, delightful on the tongue.\n \n Huaxu:\n If spirits are too strong for your taste, why not try something from the Eastern realm? Unlike the grape wines we know, theirs are brewed from rice — smooth, mellow, and golden as amber. And with Huaxu's travelling merchants scattered far and wide, these delicacies are never far from hand. In the mood for something different? Just say the word!\n Tiger's Soul\n An amber-hued rice wine with a rich, mellow depth — said to carry the essence of a tiger's spirit. In Huaxu, it is a common daily draught, a medicinal tonic, and a warming comfort all in one.\n \n Peach Blush\n A light, sweet wine with the fragrance of fresh fruit. Blended with peach gum, its texture is as soft to chew as it is to sip. Its delicate blush has long made it a favourite among ladies.\n \n A Goblet Above\n A Huaxu proverb says: "One day above is a year below." True to its name, a single goblet of this potent brew sends you into a deep slumber — and when you wake, much time will have fled. Best not overindulge — lest you find yourself in Heaven sooner than you wished.\n \n Azure Dragon's Draught\n In Huaxu, the Charon are honoured as Loongscions — descendants of the Eastern dragon. This is their drink of choice: crisp as a mountain spring, with a finish that lingers like the breath of a Loong.\n \n Republic of Luca:\n You may know Luca for its artists, sailors, dreamers and madcaps... but did you know it also gave birth to a world of cocktails? Try them, and you'll be won over by their rich layers and flights of fancy. They rarely leave one truly drunk... but they do have a way of stirring inspiration. So, what shall it be? Just say the word!\n Palette\n A cascade of spirits, layered in dazzling colours — a painting in a glass. Stir it, and all brilliance collapses into black.\n \n Masquerade Rhapsody\n Not one drink, but ten — each wearing the same disguise. You won't know what lies within until you taste it... just as you never truly know the face behind a mask at the ball.\n \n Poet's Rhyme\n Soft upon the tongue, yet echoing long after — like the rhyme that closes a verse. Poets and playwrights drink deep in pursuit of inspiration... sometimes yielding a masterpiece, and sometimes, a grand puddle of vomit.\n \n Chisel\n A rare Luca spirit, named by sailors who once gazed upon statues crated in their holds and thought of the tool that shaped them. True to its name, it etches fire through the body with each swallow.\n \n Aethyrie:\n Do scholars drink? Indeed they do. They drink to dull the sting of failure... and to raise a jubilant toast with a ringing "Eureka!" when discovery strikes. Like knowledge, wine intoxicates all the same. The only pity is that even in naming it, they cannot resist teaching a lesson. If such hidden meanings amuse you — just say the word.\n Truth in the Cup\n Aethyrie's scholars once argued fiercely over the world's first principle — some claimed it was air, others fire, others still countless tiny particles. At last, they agreed on one thing: whatever its origin, it must be plentiful in wine, for nothing else so swiftly brings joy, and peace among rivals.\n \n Philosopher's Tears\n One tale tells of a philosopher who, upon realising that the diagonal of a square vessel could not be expressed by rational number, wept until his tears ran dry, and bled instead. Thus, the crimson hue of this wine. Aethyrie's scholars adore the tale. Of course, the truth is simpler and far less poignant: it's just the colour of grapes.\n \n O, Bounty!\n Brewed only in years of true abundance, this wine heralds the coming of plenty. Once the vats are filled, the people of Aethyrie gather in celebration — drinking deep, lifting their voices in song or spirited debate, rejoicing in the bounty of the year.\n \n The Syllogism\n Major premise: wine brings inspiration.\n Minor premise: inspiration is the wellspring of creation.\n Conclusion: wine is the wellspring of creation.\n In Aethyrie, only students sharp enough to name the fallacy earn the right to drink it. Luckily for you, here in Hyperborea, no riddle need be solved before your glass is filled.\n \n Khemet:\n Life in the desert is harsh, its people rugged — yet their welcome is as warm as the sands are fierce. When Starweavers or Phoxhunters pass through their villages, the locals pour out drinks as bold and mysterious as the desert itself. This tavern may not lie among the dunes, but our welcome is no less hearty. Care to taste the desert wind? Just say the word!\n Black Honey\n Dark as pitch, yet heavy with sweetness. Its deep shade comes from carbon — said to draw out every impurity.\n \n Serpent's Kiss\n Rumoured to be laced with snake venom, it numbs the tongue with a venomous tingle and chills the body with a creeping cool. In truth, it's nothing but fizzing gases.\n \n Experimental Dregs\n A dangerous concoction brewed from industrial alcohol and leftover dregs of countless alchemical experiments. They say you might find a lizard's claw or rat's tail adrift within. Only the daring drink it — more a test of courage than a toast.\n \n The Burning Wind\n Steeped with spice and peppers, this fiery brew scours the throat like the desert wind itself. One mouthful, and you're carried to Khemet's sands in all their scorching glory.\n \n The Elysian Church:\n To the south lies the Elysian Church — the Empire's sworn foe. Its folk drown in scripture, bowing to false gods in blind faith... hopeless, if you ask me. But their wines — now those are worth a taste. Rare, costly, and hard to come by. If your purse is heavy enough, just say the word!\n The Tenth God\n The war with Elysium grinds on, and so their wares are forbidden in the Empire. Even so, one brew still finds its way to our shelves: The Tenth God. It's named in jest — as if one drink could rival the blessings of all nine gods. Perhaps that sly irreverence is why the officials turned a blind eye — a blasphemous name, for a drink too fine to ban.\n \n Traditional Charon Brews:\n The mountains beyond the Empire's northern edge are not empty. There, the Charon who still defy its yoke dwell — honouring their Father Ask and Mother Embla. They brew their own drinks for rites that preserve their faith and legend. Sometimes, these brews are traded for a handful of coins. They're not strong, but in Icelake's biting cold, nothing warms you better. If you'd warm your bones — and hear a tale of the Charon — just say the word!\n Heaventree Sap\n A light, clear blue liquor that recalls the gleam of Phoxene. Unlike Phoxichor Engine Lubricant, it runs bright and fluid. Its name honours the Heaventrees — sacred to Charon tradition.\n \n Borealberry Brew\n Brewed from Borealberries — a prized fruit of Icelake and the far north — this wine is fragrant and best enjoyed steaming hot. The Charon may not fear the cold, but none would turn down a sweet, steaming glass of fruit-rich delight in the heart of winter.\n \n \n We don't serve minors. And don't bother with "it's for my parents" — that tale's worn thin.\n Also, no vomiting in the tavern. You'll pay for the cleaning... and we'll throw in a good thrashing, free of charge.",
+          TextMapId = "READ_TEXT_2000068"
+        },
+        READ_TEXT_2000069 = {
+          ContentEN = "The "Benefactor" — so named for their role as giver — is one of the few Forsaken leaders whose existence can be confirmed. True to their name, they are famed for immense wealth. Before we go further, two points must be made clear: first, the Forsakens are not a profit-driven organisation; second, most of their members possess no honest livelihood.\n \nIndeed, the Forsakens care little for profit — their focus lies squarely in undermining the order of the Hyperborean Empire. Other resistance groups may raid treasuries or stage kidnappings for ransom, but the Forsakens have never stooped to such schemes. This makes them easy to distinguish: if a crime was committed for money, it likely wasn't their doing. The Forsakens care only for destruction. Alchemy factories, interregional roads, and the manors of prominent officials are among their favourite targets. Some claim this pattern reflects a kind of moral fastidiousness in their founders. I cannot agree. Morality restrains those who revere rules — but given the Forsakens' origins and conduct, one can hardly argue that morality plays any meaningful part in shaping them.\n \nAccording to statistics gathered by Warden Hellfire, at least half the Forsaken members now imprisoned had already been convicted of other crimes before joining the organisation. Thugs, petty thieves, armed robbers — criminals unmoved by the law, let alone by morality. Yet once inside the Forsakens, none of them committed crimes for money alone. This can only mean the organisation upholds a code more binding than law — and possesses financial resources sufficient to sustain its members' lives, even to fuel their crimes. From this, Warden Hellfire drew a prediction: among the Forsakens' leaders, there must be one who bears the cost of the organisation's daily needs. As the Forsakens grew active again and more members were thrown behind bars, a certain codename began surfacing in warden reports — "Benefactor."\n \nThe "Benefactor" is said to reach out in one's hour of deepest desperation, sending a letter with whatever the recipient most craves. Most often it is money; at times, something bloodier — a grisly token of vengeance, such as the severed limb of a sworn enemy. Though recipients may technically refuse these sudden acts of generosity, the timing is so uncannily precise that in practice, no one ever does. And so, wastrels and dangerous marauders alike find themselves drawn into the Forsakens. When their old vices drag them back into hardship, another letter arrives. After several such cycles, they become puppets — marionettes strung with coin, dancing at the Benefactor's whim. The tasks assigned differ little from their former crimes. A thief is told to break the chains on an alchemy factory gate. A bomber, to plant charges beside its Phoxichor engine. A repeat escapee, to present himself before the constables — drawing their attention elsewhere. Thus, strangers who've never met, acting solely on the direction of letters from a single hand, carry out crimes near impossible to unravel. None of them knows whether they have accomplices, whether they're the bait in someone else's scheme, or what the mission's true purpose might be. Such is the Benefactor's method. Though their schemes leave ample traces, the Benefactor makes no real effort to conceal their presence. To the wardens, each letter sent to an underling reads like an open declaration of war. And so, in the years when the Benefactor was most active, wardens across the Hyperborean Empire poured untold hours into unmasking them.\n \nIn theory, it should have been simple. The Benefactor's letters came with great sums of money — and wealth, after all, leaves a trail. Soon enough, the wardens caught a supposed Benefactor: a cloth merchant in Scarletriver who had recently struck it rich. He claimed he had taken up the name out of outrage at the Empire's oppression of the Charon, and that his crimes were acts of rebellion. To any clear-eyed observer, it was a flimsy excuse. No ordinary merchant could bankroll a resistance force spanning the continent. This "Benefactor" was nothing but a decoy — a scapegoat. So the wardens pressed on. One captured, then another... more than ten in all, over the span of two years. Yet the Forsakens' resistance showed no sign of waning. There could be no doubt: above these pretenders stood a true magnate — one wealthy enough to bankroll a dozen prosperous merchants at once.\n \nSo the wardens followed every lead, tracing financial channels in search of the true Benefactor. But they found nothing — no records of large transfers, no sign of hidden accounts. The merchants they'd seized came from every walk of life: different trades, origins, ages, genders, even quirks of personality. Their only common ground was this: each had found sudden success in recent years, and each commanded considerable wealth. Every one of them swore the funds used to support Forsaken operations came from their own trade — and all, with striking unanimity, claimed they had adopted the name "Benefactor" out of discontent with the Empire's oppression of the Charon. It was all too familiar. Just as Forsaken criminals ignored the law but never broke their own code, so too must these merchants have been lured by profit — or threatened into compliance — to act in such perfect unison.\n \nThe wardens reached a chilling conclusion: however the true Benefactor passed their money to these seemingly law-abiding merchants, they must possess insight beyond ordinary men — and a hand ruthless enough to enforce obedience. How many such merchants might already dance to their tune was impossible to say. If the merchants were fishermen chasing the tides along the shore, then the Benefactor was the one who commanded the sea itself. A trace of fear crept into the wardens' hearts. Perhaps this Benefactor truly stood at some higher vantage — and perhaps their very investigation was already unfolding in the palm of their hand.\n \nYet for most ordinary folk, the details scarcely matter. They know only this: that within the Forsakens is a leader known as the Benefactor — one of Atlasia's three great magnates, spoken of in the same breath as Ms Zhiliu of Huaxu and Lord Generous, one of the Seven Virtues of Elysium. Tavern chatter delights in speculation: how many zeroes trail the sum of their fortune; how many roast turkeys and lambs vanish at their table in a single feast; whether the candles in their manor ever need be blown out to save on lamp oil... And for those at the end of their rope, one last hope remains: that when they wake from their dreams, a letter from the Benefactor will be waiting before them.\n ",
+          TextMapId = "READ_TEXT_2000069"
+        },
+        READ_TEXT_2000070 = {
+          ContentEN = "Sacred Tower Era, Year 1–500: The Filthoid Waves\n \nLong millennia past, the world was believed to consist of but two realms: in the south, the theocracy of Elysium; in the north, only untamed wilds. Elysium was a land consecrated to the Great Nine, where each community served its chosen deity. To the Patriarch the gods gave revelation, which was passed down through the ranks of the priesthood. These revelations, however, spoke only of reverence, awe, and piety — with little bearing on life, law, or anything of practical worth. In Elysium, life changed little from day to day. The Sacred Canon dictated when to rise, when to labour, when to take meals, and when to kneel in prayer and confession at the halls of praise. The faithful believed that when their time came, they would ascend to the Heaven above Heavens — a realm where honey ran in rivers and even the air itself was sweet. To us it may seem a stagnant existence — yet to those of that age, it was both the best and only way to live. To remain within the Church's fold was life; to leave it was to embrace near-certain death.\n \nAt that time, Filthoids were the shared plight of all humankind.\n \nThese were no ordinary beasts, but creatures that came in hordes — possessed of strength and cunning beyond common animals, and a boundless hatred for mankind. Be they Solarian, countless though they were, or the horned but fewer-numbered Charon, none could stand alone against a Filthoid pack. In the south, the Great Nine bestowed their might upon the faithful of Elysium. Their divine power was forged into sacred relics, and whoso bore them served as a vessel of the gods' authority, spreading their grace across the land. Only the most virtuous and pure of heart were chosen to wield such relics. These champions gathered followers and smote the Filthoids, their deeds honoured with titles echoing the Seven Virtues.\n \nYet as the wars wore on, some of these paragons fell in battle — and amid the chaos of the front lines, there was neither time to return their relics to the Holy Capital, nor to perform the long rites of selection and investiture. So with centuries passing thus, the relics ceased to return to the Holy Capital, and were passed instead from bearer to bearer, guided by the will of the predecessors. These heirs became the first knight-commanders. Around them gathered retainers and the faithful alike, forming the first knightly orders.\n \nIn their wars against the Filthoids, each knightly order honed a style of war all their own. Commander Patience favoured the hammer-and-anvil. Clad in full plate, his heavy infantry would draw the Filthoid swarms upon themselves. While the beasts clawed in vain at walls of iron, the Commander led his cavalry forth from ambush — crashing in from all sides like a god's own hammer, to crush the foe between them. By contrast, the order of Generosity practised war with splendour. Their commander, an archer without peer, commanded the largest host of bowmen in Elysium. Before battle, he would seize a high ridge for his killing ground, arraying his archers in scattered bands to cover every angle. Their storm of arrows would break the Filthoids before they ever reached the lines — so that in the best of cases, the heavy infantry might win the day without spilling a drop of blood.\n \nThrough long years of war these tactics reached refinement, and the southern reaches of the continent were slowly drawn beneath the Church's dominion. Yet the shadow of failure never strayed far. In the five-hundredth year of the Sacred Tower Era, a horde rose greater than any before. As though guided by cunning, the Filthoids bypassed several knightly garrisons and drove straight for the Church's heart — the Holy Capital itself. By the time the orders grasped the threat, no hour remained to marshal stratagems or shape the field. They could only stand with mortal flesh against a countless swarm, fighting in chaos and desperation. Mankind's one advantage over the Filthoids lay in the discipline of ordered war. Once battle collapsed into primal struggle, the outcome could be nothing but tragedy. Midway through the clash, the orders of Loyalty and Humility were slain to the last — commanders and cohorts alike. Even the order of Diligence, famed for the might of its individual warriors, fared little better: their commander lost an arm to the beasts' onslaught. Just as the remaining knights steeled themselves to perish, resolved that no Filthoid would breach the high walls of the Holy Capital, a miracle was wrought. From the central spire of the city rose a perfect moon, which descended to the heart of the battlefield. Thus appeared the ninth of the Great Nine — the first to reveal divinity — the Goddess of the Full Moon and Fate. The Sacred Canon of Elysium speaks of many wonders, oft dismissed as embellishment. Yet the chronicles of this descent record marvels more astounding still — eclipsing even the Canon's own miracles.\n \nThe goddess raised her sacred right arm and pointed to the heavens. The sky split asunder, revealing its black foundation. With her finger she struck that dark vault ten times, and at each touch a light was kindled. At first no larger than a pinhole, the lights swelled — to the size of camels, then of hippos — until at last they plunged earthward. The roars of the falling lights surpassed the bellow of a hundred lions. Their blasts scorched like molten iron, driving before them clouds of poisoned dust. The Filthoids, driven to frenzy by the goddess's falling lights, burst apart — their forms shattered, their essence undone. Yet the faithful who fought in her name were bathed in that same radiance and felt not fire, but coolness. Though their eyes beheld a vision of hellfire, their skin knew only the touch of spring water — and in their hearts welled a rapture beyond measure. Such was the goddess's grace.\n \nThus was the second great crisis of the Elysian Church ended under the goddess's protection. In later ages, some would claim the chronicles of this miracle were pure invention. Yet the knights who endured the battle became zealots unshakable — vowing to spend their every drop of sweat and blood in defence of the Holy Capital. Fortunate indeed that never again did a Filthoid wave of such scale rise upon Elysian soil.\n \nYet across the continent lay lands untouched by divine gaze. At the Church's northernmost bounds stretched the Emerald Forest. Beyond it lay country unknown: not barren, but rich with plains and ample rain. But long harried by Filthoids, men knew well what awaited any who strayed beyond the gods' protection and the knights' guard: it was no different from exile into a perilous wilderness. A few fervent preachers, undaunted by death, ventured northward — but seldom returned whole. To the common folk of Elysium, daily life may have mirrored the pages of the Canon a little too closely, yet even tedium was preferable to death. Thus it was only dimly known that a vast land stretched beyond the north, equal in breadth to the Church's own dominion. Few gave thought to that Filthoid-haunted land — not until the Great Migration of Sacred Tower Year 998.",
+          TextMapId = "READ_TEXT_2000070"
+        },
+        READ_TEXT_2000071 = {
+          ContentEN = "Sacred Tower Era, Year 900–998: The Eve of Uprising\n \nIn Sacred Tower Year 998, a great uprising swept across the southern continent, shaking even the seemingly unshakable Elysian Church. Though the revolt failed to overthrow the Church, its remnants fled north — founding a succession of new realms. Together, these events became known as the Great Migration.\n \nFor a thousand years, the Church upheld its theocracy. From high priest to commoner, all believed this order eternal — shielding the world from the Filthoid threat beyond, and sustaining life within, day after day, until the end of time. Yet each new Filthoid wave, though deepening fear and strengthening the Church's authority, quietly set in motion changes that reshaped the land itself.\n \nThe Filthoid invasions placed different burdens upon each stratum of Elysian society.\n \nForemost among the burdened were the knightly orders, who suffered grievous losses in every Filthoid invasion. Yet after each war, they rebounded with startling speed. The valour of the knights — and the claim that they had seen gods with their own eyes — inspired the common folk. Thus the faithful flocked to join the orders. Most would never rise to knighthood, serving instead as common soldiers, yet they felt thereby closer to the divine, and some even yielded their lands willingly to the orders.\n \nThus the knightly orders — once purely martial — became institutions of military, economic, commercial, and even religious power. Their devotion to the Great Nine merged with personal loyalty to their commanders. From this fusion of faith and wealth emerged a new social force: the military nobility.\n \nThey were called nobility because the post of knight-commander — once granted by divine choice, election, or contest — began to pass by blood. Commanders' kin filled the orders' ranks, managing finances, land disputes, and rites. In the more arrogant orders, it's said their feasts even outshone ceremonies for the gods. At the time few thought this amiss — but later events proved the danger. For when reverence for a man outstrips reverence for the gods, that man holds power enough to cast them down.\n \nNext came the plight of the freeholding farmers. Before the Filthoid invasions, most lived near towns in modest self-sufficiency. But war left many lands desolate. Those who lost their fields sought the protection of knight-commanders — becoming tenant farmers, bound to their estates. At the same time, rebuilding the ravaged regions gave rise to a new force: the merchant.\n \nThese merchants were no peddlers or wandering hawkers. They bought up the goods of entire regions, then sold them wholesale to lands under reconstruction. Their trade spanned vast distances — yet many never left their grand estates. All was moved by money alone, while the dispossessed farmers became mere cogs within their elaborate designs.\n \nAt first, these merchants still feared the Church's edicts, taking only what they deemed a rightful share. But in time, their sense of what was "rightful" grew warped — and their fortunes soared to staggering heights.\n \nAs these great magnates rose, the farmers' plight grew ever more dire. When a farmer stood before not just a merchant, but a knight-commander too, he bore a double yoke — of coin and of arms. In famine years — or even sooner — he might sell his land, fall into tenancy, and still be forced to offer tribute for knightly rites. Such lives were no longer bearable. Yet many clung to the belief that all was divine will... until a new thought stirred: Why would the gods ordain such misery for us?\n \nAnd what of the gods' own servants? The clergy — those closest to divinity — remained secure in their sanctuaries, faithfully obeying oracles from the Holy Capital. In principle, they stood untouched by the turmoil — and in truth, most were. Yet some began to think otherwise. A few even joined the uprising and the Great Migration. Their numbers in the resistance were few — but their influence, profound.\n \nAt the root lay one question: What is divinity?\nIs it a perfect being, who split its holiness into nine — becoming the Great Nine?\nOr are the Nine each perfect — distinct, yet united in will, together forming the foundation of creation?\nWere the Nine born in sequence? And if so, is one greater than the rest?\nAbove the gods... is there yet another god?\n \nFor centuries, such questions plagued Elysium's theologians. At last, in Sacred Tower Year 480, during the Eighth Universal Council, they reached a fragile consensus:\nDivinity is manifold — its consciousness encompassing all things. It divided itself into nine, and so came the Great Nine: equal and one.\nThe divine is perfect, whole. All that occurs is its flawless design — both change and changelessness. For the divine is the immutable beyond change, the necessary beyond chance.\nThe divine is infinite, abiding at the beginning and end of time — the primal cause of all things.\n \nThe clergy debated for more than a century, forging a fragile accord. Yet just twenty years later, in Year 500, the Filthoid Waves shattered it.\n \nThe descent of the Goddess of the Full Moon and Fate proved divinity was real — yet also sparked new doubts: Were the Nine truly equal?\nIf all things are ordained by the divine... then were the Filthoid Waves too? And if so — why did the divine descend in person to end them?\n \nThose already discontent with the Universal Councils' decrees found these questions echoing within. Their doubts mirrored the farmers': Could the gods truly be trusted?\nAs faith gave way to scepticism, some priests turned to old records — devising tests and studies to prove whether the divine existed at all.\n \nThe eight Universal Councils, once meant as pillars of doctrine, became weapons of dissent. The First was overturned by the Seventh; the Sixth absolved those condemned by the Second. Line after line of contradiction chipped away at the very idea of divine truth.\n \nIn response, the Church created a new role — the scholastic priests — tasked with quelling doubt and realigning thought. Over centuries, their efforts slowly brought unity back to the clergy. Yet a few remained fixated on old texts and speculative works, preferring ancient scrolls over new teachings. They were few, and the Church dismissed them as harmless cranks, lost in their books.\n \nAmong those few scholars stood a curious young priest named Alexis. He dreamed of writing a tome that answered every question — a book to mend the flaws in doctrine. To do so, he left the Holy Capital, journeying through the dioceses to see how the gods' grace truly moved among the people. He recorded all he saw.\n \nBut Alexis never returned. In time, he gained another name — the Sage. He joined with Dis Galea of the Three-Wolf Order, and together they led the uprising and opened a new chapter of history.",
+          TextMapId = "READ_TEXT_2000071"
+        },
+        READ_TEXT_2000096 = {
+          ContentEN = "Alchemist's Journal (Ⅰ)\n\n(A journal left behind in Glevum Pit. The tone suggests it might belong to a scholar.)\n...\nApril 16\nWe've found a peculiar <H>yellow crystal cluster</> in this pit. Judging by its texture, it's neither the legendary Crystallo of Stella said to be hidden deep in mountain caves, nor the Phoxene left behind in Glevum Pit. Instead, it appears to be a completely new, undiscovered mineral.\n...\nApril 18\nBob was astonished to find that these yellow crystal clusters, which emitted a dim glow, had <H>grown larger</>. They had expanded from the size of a palm to that of a low shrub.\n...\nApril 20\n...The yellow crystal clusters had again "grown larger" and turned into spiky crystals that blocked our way, as if they were alive. Fortunately, they were fragile and could be easily broken with a small amount of <H>gunpowder</>.\nBob hypothesized that these crystals were not minerals but some kind of secretion from Filthoids — even a "subordinate form" of it. Over time, they expanded like a sponge soaked in water. Although Bob was well-versed in the Biology of Filthoids, this was still a bold assumption.\n...\nApril 21\nTo verify Bob's hypothesis, we decided to venture deeper into the pit. If his guess is right, there must be a special Filthoid <H>parent form</> down there, different from the ones we've seen in the wild.\n...",
+          TextMapId = "READ_TEXT_2000096"
+        },
+        READ_TEXT_2000097 = {
+          ContentEN = "Alchemist's Journal (Ⅱ)\n\n(A journal left behind in Glevum Pit, stained dark red. The handwriting matches the earlier journal found. The latter part is extremely messy, as if it was scribbled in frantic haste.)\n\n...\nApril 23\nAs Bob predicted, we found that special Filthoid deep in the pit, an area once deemed the "Forbidden Zone" of Glevum Pit.\nIt measures over 20 meters in length, making it the largest Filthoid I've ever encountered. It resembles a skeleton, with yellow crystals continuously "growing" from the ends of its limbs—we can be certain that it is the "parent form" of the yellow crystals we've seen along the way.\nWe've decided to stay hidden and continue observing this creature.\n...\nApril 26\nWe've found that, compared to other wandering Filthoids, this one has a distinct peculiarity in addition to its larger size: It seems to have a particular fascination with <H>glowing minerals</>. It often wanders to abandoned mining pits, repeatedly performing the same digging motions. Whenever it unearths glowing minerals—such as Phoxene fragments from the mines or the Silverite from the mountains—it grows yellow crystals from the tips of its limbs to encase these luminous rocks.\nBob is extremely intrigued by this habit: Its behavior of excavating, collecting, and encapsulating the glowing objects doesn't seem to be a mere phototaxis. This series of actions appears to be something more akin to "conscious" behavior.\nIs it possible that Filthoids retain some form of consciousness similar to that of humans? If this hypothesis is proven to be true, it would completely overturn the existing research findings in the field of the Biology of Filthoids.\n...\nApril 27\nWe made a grave mistake.\nIn an attempt to further verify its behavioral patterns, Bob tried to provoke it by stealing from its "collection" and observing its reaction.\nHowever, we severely underestimated its reaction speed. It lunged at us with a speed we had never witnessed before, attempting to tear us, the unwelcome intruders, into pieces.\nThough Bob bought me enough time to escape its lair, I knew all too well that the injuries I had sustained were fatal. I would never make it out of this abandoned mine alive.\nIf anyone finds this journal, I implore you to take it to The Spathatoi Academy in Dismania. The study of this Filthoid—whom we named "the Crystalophile"—could bring about a monumental shift in the Biology of Filthoids as we know it.\nKnowledge should not be buried with us in this pit.\n\nInes Morley, an Alchemist",
+          TextMapId = "READ_TEXT_2000097"
         },
         READ_TEXT_20602 = {
           ContentEN = "January 1st\nToday, ▇▇▇▇ gave me some Phoxene shards as "pocket money." She said that back in the capital, kids get pocket money from their elders before they come of age — to spend on treats or toys.\nThere aren't any shops around here, so she told me to save it. Then, when there's something I really want or need, I can use it to ask for her help.\nThing is... I can't really think of anything I want.\n\n\nJanuary 2nd\nI've got it! I could get {nickname} a "birthday present"! Maybe one of those "birthday cakes" kids in the capital have when they turn a year older — I read they're really tasty! They might be expensive... but if I save enough pocket money to give to ▇▇▇▇, I bet she could help me get one.\nI found an old clay jar in the kitchen. It's just right for keeping my savings.\n\n\nJanuary 16th\nWe were playing hide-and-seek today, and {nickname} found the jar and almost opened it... I need to find a better hiding spot.\nMaybe tomorrow I'll sneak into the room where ▇▇▇▇ does her alchemy work. There are loads of strange machines in there — she never lets {nickname} go near them.\n\n\nJanuary 17th\nI hid my piggy bank under the <H>waterfall, right next to the alchemy chamber</>. That way, neither {nickname} nor ▇▇▇▇ will stumble across it.\n\n\n...\n\n\n▇▇ ▇▇\n{nickname}'s birthday is coming up, and I've saved a whole box full of pocket money. It should be enough for a cake. But ▇▇▇▇ seems really busy these days. She's been staying up late a lot... Maybe it's not the right time to bother her. I guess I'll ask her next year.\nWith another year of saving, I can get an even bigger cake — big enough for all three of us.",
@@ -25791,8 +26936,16 @@ local Data = {
           TextMapId = "READ_TEXT_20621"
         },
         READ_TEXT_20622 = {
-          ContentEN = "Hey, my dear ex-teammates — let's celebrate a little festival of our own!\n \n Now, don't be hasty to shoot me down. I know the Fortress only allows Triumph Day... but surely there's no harm in a secret celebration or two, right?\n Back home, we mark the first of April with the Snowmelt Festival: trinkets hung from pine boughs as the snow retreats, gifts exchanged beneath the trees, and a fond farewell to winter as spring draws near.\n You all remember that pine in the <H>Simulated Battlefield</>, don't you? The one we riddled with bullet holes and cordite burns during drills? If you squint, I'd say those count as decorations. Next week just happens to be your training rotation — and I may have buried a little something <H>beneath that tree by the water</>. Volunteer for post-training clean-up and "accidentally" dig them up, yeah~?\n (One each — no hoarding! I'll be watching, 0^0)\n \n Even though I've been transferred to another squad, we'll always be best buds!",
+          ContentEN = "Hey, my dear ex-teammates — let's celebrate a little festival of our own!\n \nNow, don't be hasty to shoot me down. I know the Fortress only allows Triumph Day... but surely there's no harm in a secret celebration or two, right?\nBack home, we mark the first of April with the Snowmelt Festival: trinkets hung from pine boughs as the snow retreats, gifts exchanged beneath the trees, and a fond farewell to winter as spring draws near.\nYou all remember that pine in the <H>Simulated Battlefield</>, don't you? The one we riddled with bullet holes and cordite burns during drills? If you squint, I'd say those count as decorations. Next week just happens to be your training rotation — and I may have buried a little something <H>beneath that tree by the water</>. Volunteer for post-training clean-up and "accidentally" dig them up, yeah~?\n(One each — no hoarding! I'll be watching, 0^0)\n \nEven though I've been transferred to another squad, we'll always be best buds!",
           TextMapId = "READ_TEXT_20622"
+        },
+        READ_TEXT_JailInves01 = {
+          ContentEN = " ※ Oath of Allegiance\n\nSource: Testimony by Calem, soldier of the Narwhals \n According to Calem, his commanding officer, Falsi, retrieved this document from the central control room shortly before the explosion. \n It is a letter of defection, pledging allegiance to the Forsakens — signed by Avar Hrodland. \n  \n Hellfire's Note: \n Handwriting and fingerprints confirmed. \n Still — could it be forged? \n  \n  \n ※ Correspondence from Avar Hrodland \n This letter contains specific instructions addressed to {nickname2} and Theodore, detailing acts of disruption to be carried out during the assault.\n \n \n ※ Control Panel: Central Control Room \n Status: Data compromised due to blast damage. \n Recovered via classified recorder — access logs from the final three days: \n • 18 Nov: No entries\n • 19 Nov: No entries\n • 20 Nov: Avar Hrodland, {nickname2}\n  \n Hellfire's Note: \n Worth noting.\n \n \n ※ Audio Recorder \n Recovered from the hallway by Catto (Narwhals unit), allegedly dropped during the Forsakens' retreat. \n At timestamp 33:17, a voice resembling Avar Hrodland is heard in conversation with an unidentified Forsakens operative. \n  \n Hellfire's Note: \n May prove useful in establishing a timeline. Credibility remains in question.\n \n  \n ※ Testimony from Calem (Narwhals unit) \n Statements as follows:\n • "I saw Captain {nickname2} of the Griffins exit the central control room alone — there was blood all over {性别2:his|her} chest."\n • "{性别2:He|She} told us to hold position while {性别2:he|she} went to check the sewers for any remaining Forsakens personnel."\n • "Two minutes later, the alarm sounded. Captain Falsi and I rushed in — found Captain Avar of the Snow Wolves lying in a pool of blood. The self-destruct sequence had already been triggered."\n  \n Hellfire's Note: \n Internal conflict?\n \n \n ※ Outstanding Questions\n • Why was the control room destroyed?\n → A cover-up to eliminate further evidence?\n \n Conflicting Accounts:\n → Testimonies from {nickname2} and Theodore directly contradict the findings above.",
+          TextMapId = "READ_TEXT_JailInves01"
+        },
+        READ_TEXT_JailInves02 = {
+          ContentEN = " ※ Investigation into the Family Background of Daphne Theodore\n\nThe Theodore family currently resides in the royal capital, Dismania. Several members serve at the Royal Alchemy Academy. Notably, both Marcus Theodore (Daphne's maternal grandfather) and Claudia Theodore (her mother) have been awarded the First-Class Emerald Order by the Aeolipile.\nNo criminal record has been found in connection with the Theodore family.\n \n Further inquiry reveals that Daphne's biological father is Avar Hrodland. Although Avar and Claudia officially divorced five years ago, Avar has continued to maintain contact with Daphne since.\n\n ※ Investigation into the Family Background of {nickname2}\n {nickname2} is a confirmed survivor of the Alexis airship crash, which occurred three years ago during a military operation against the Elysian Church. According to {nickname2}, {性别2:he|she} suffers from memory loss, though exhibits no signs of cognitive dysfunction.\nNotably, eyewitness accounts from other survivors confirm that {nickname2} was not listed among the original passengers on the Alexis. In other words, <H>{nickname2} was a bona fide "ghost passenger."</>\nAt the time, the 13th Legion conducted a comprehensive investigation into {nickname2}'s background but was unable to verify {性别2:his|her} identity. However, the possibility of {性别2:him|her} being an Elysian Church spy was definitively ruled out. A leading theory suggests that {性别2:he|she} may have been a local civilian who sought shelter in the wreckage during the bombing and suffered a head injury, resulting in partial amnesia.\nPlaced under close observation by the 13th Legion, and with Prince Vergilius acting as guarantor, {nickname2} was granted admission to the Imperial Military College. {性别2:He|She} graduated with distinction. During this time, Avar Hrodland served as one of {性别2:his|her} instructors.",
+          TextMapId = "READ_TEXT_JailInves02"
         },
         RESOURCE_DESC_100 = {
           ContentEN = "High-grade Phoxene derived from Phoxene Plumule.\nLike precious metals, they function as common currency across Atlasia, accepted universally for trade.",
@@ -25895,7 +27048,7 @@ local Data = {
           TextMapId = "RESOURCE_DESC_10022"
         },
         RESOURCE_DESC_10023 = {
-          ContentEN = "The Selenism, renouncing the Great Nine to embrace the "Abyss", compiles its doctrines in a tome naturally deemed taboo. Yet, such forbidden knowledge beckons enticingly — for the curious, it unlocks gateways to a new world.",
+          ContentEN = "The Noclunism, renouncing the Great Nine to embrace the "Abyss", compiles its doctrines in a tome naturally deemed taboo. Yet, such forbidden knowledge beckons enticingly — for the curious, it unlocks gateways to a new world.",
           TextMapId = "RESOURCE_DESC_10023"
         },
         RESOURCE_DESC_10024 = {
@@ -26491,15 +27644,15 @@ local Data = {
           TextMapId = "RESOURCE_DESC_12102"
         },
         RESOURCE_DESC_12103 = {
-          ContentEN = "Crafted with precision from the blueprint of Eastern Trailblazer. There is no turning back once the trigger is pulled, much like the commitment that seals a decisive moment.",
+          ContentEN = "Crafted with precision from the blueprint of Soulrend. Like a tightly coiled spring, a mere touch on the string is enough to unleash a torrent of pent-up energy.",
           TextMapId = "RESOURCE_DESC_12103"
         },
         RESOURCE_DESC_12104 = {
-          ContentEN = "Crafted with precision from the blueprint of Eastern Trailblazer. Sturdy and robust, it doubles effectively as a blunt instrument or a throwable weapon when out of bullets.",
+          ContentEN = "Crafted with precision from the blueprint of Soulrend. The graceful curve not only withstands immense stress but also enhances the bow's resilience, ensuring efficient and precise energy transfer.",
           TextMapId = "RESOURCE_DESC_12104"
         },
         RESOURCE_DESC_12105 = {
-          ContentEN = "Crafted with precision from the blueprint of Eastern Trailblazer. Bullets burst forth from here, as both the barrel and the warrior's heart blaze with unrelenting fervour.",
+          ContentEN = "Crafted with precision from the blueprint of Soulrend. The graceful curve not only withstands immense stress but also enhances the bow's resilience, ensuring efficient and precise energy transfer.",
           TextMapId = "RESOURCE_DESC_12105"
         },
         RESOURCE_DESC_12106 = {
@@ -26883,19 +28036,19 @@ local Data = {
           TextMapId = "RESOURCE_DESC_20518"
         },
         RESOURCE_DESC_206 = {
-          ContentEN = "Increases commission rewards by 100%.\n As your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
+          ContentEN = "Increases commission rewards by 100%.\nAs your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
           TextMapId = "RESOURCE_DESC_206"
         },
         RESOURCE_DESC_207 = {
-          ContentEN = "Increases commission rewards by 200%.\n As your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
+          ContentEN = "Increases commission rewards by 200%.\nAs your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
           TextMapId = "RESOURCE_DESC_207"
         },
         RESOURCE_DESC_208 = {
-          ContentEN = "Increases commission rewards by 800%.\n As your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
+          ContentEN = "Increases commission rewards by 800%.\nAs your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
           TextMapId = "RESOURCE_DESC_208"
         },
         RESOURCE_DESC_209 = {
-          ContentEN = "Increases commission rewards by 2000%.\n As your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
+          ContentEN = "Increases commission rewards by 2000%.\nAs your team, The Noctoyagers, rise to prominence among the Phoxhunters, more and more commissions come your way. While this entails heavier responsibilities, it also leads to greater rewards.",
           TextMapId = "RESOURCE_DESC_209"
         },
         RESOURCE_DESC_210 = {
@@ -26907,11 +28060,11 @@ local Data = {
           TextMapId = "RESOURCE_DESC_211"
         },
         RESOURCE_DESC_214 = {
-          ContentEN = "A ticket stub from the Theatre, which can be used to exchange for items at the "Theatre Gift Shop."",
+          ContentEN = "Etched with stage-light and heartbeat, it keeps the show's afterglow. Redeemable for various items.",
           TextMapId = "RESOURCE_DESC_214"
         },
         RESOURCE_DESC_215 = {
-          ContentEN = "Forged in the crucible of alchemists' madness, it hones the talents embedded in one's bloodline through absolute rationality. Can be used to exchange for Consanance Weapon Demon Wedges.",
+          ContentEN = "Spun from a tangle of paths, this thread bears silent witness to your every step. All that is uncertain, all that faltered, all left unresolved... shall one day find its answer along Her silken weave.",
           TextMapId = "RESOURCE_DESC_215"
         },
         RESOURCE_DESC_29001 = {
@@ -27011,7 +28164,7 @@ local Data = {
           TextMapId = "RESOURCE_DESC_3007"
         },
         RESOURCE_DESC_3008 = {
-          ContentEN = "A beloved snack among Geniemons. Feed one this treat, and it'll twist into an Eldritch Geniemon.\n So tasty, it's literally transformative.",
+          ContentEN = "A beloved snack among Geniemons. Feed one this treat, and it'll twist into an Eldritch Geniemon.\nSo tasty, it's literally transformative.",
           TextMapId = "RESOURCE_DESC_3008"
         },
         RESOURCE_DESC_3010 = {
@@ -27067,7 +28220,7 @@ local Data = {
           TextMapId = "RESOURCE_DESC_30111"
         },
         RESOURCE_DESC_30112 = {
-          ContentEN = "A blended dye crafted from myriad ingredients, capable of producing any colour the eye can imagine.",
+          ContentEN = "A blended dye crafted from myriad ingredients, capable of producing the colour of any Standard Dye.",
           TextMapId = "RESOURCE_DESC_30112"
         },
         RESOURCE_DESC_3012 = {
@@ -27087,7 +28240,7 @@ local Data = {
           TextMapId = "RESOURCE_DESC_40001"
         },
         RESOURCE_DESC_40003 = {
-          ContentEN = "A supply crate brimming with bullets, which both saves and ends lives on the battlefield.",
+          ContentEN = "A supply chest brimming with bullets, which both saves and ends lives on the battlefield.",
           TextMapId = "RESOURCE_DESC_40003"
         },
         RESOURCE_DESC_4010001 = {
@@ -27111,7 +28264,7 @@ local Data = {
           TextMapId = "RESOURCE_DESC_4010005"
         },
         RESOURCE_DESC_4010006 = {
-          ContentEN = "A common flower found across Atlasia, used in both medicine and as a natural dye.",
+          ContentEN = "A common flower found across Atlasia, used in medicine.",
           TextMapId = "RESOURCE_DESC_4010006"
         },
         RESOURCE_DESC_4010007 = {
@@ -27151,20 +28304,32 @@ local Data = {
           TextMapId = "RESOURCE_DESC_4020002"
         },
         RESOURCE_DESC_4020003 = {
-          ContentEN = "A silvery mineral with a metallic lustre that ranges from black to silver depending on its purity. It is widely used in the manufacture of dyes and pigments.",
+          ContentEN = "A silvery mineral with a metallic lustre that ranges from black to silver depending on its purity.",
           TextMapId = "RESOURCE_DESC_4020003"
         },
         RESOURCE_DESC_4020004 = {
-          ContentEN = "A rarer variant of Silverite, mixed with impurities that unexpectedly enhance its lustre. It is widely used in the manufacture of dyes and pigments.",
+          ContentEN = "A rarer variant of Silverite, mixed with impurities that unexpectedly enhance its lustre.",
           TextMapId = "RESOURCE_DESC_4020004"
         },
         RESOURCE_DESC_4020005 = {
           ContentEN = "With a scientific name "Lakestone," this stone is commonly known as the "Plop Plop Stone" due to its widespread use in stone-skipping games. The number of "plops" made across the water is crucial in determining who gets to be an aspiring leader among the local kids.",
           TextMapId = "RESOURCE_DESC_4020005"
         },
+        RESOURCE_DESC_41001 = {
+          ContentEN = "Somehow, a cheerful, familiar tune always drifts by when grilling meat.",
+          TextMapId = "RESOURCE_DESC_41001"
+        },
         RESOURCE_DESC_41002 = {
           ContentEN = "No one's here. Just a cardboard box.",
           TextMapId = "RESOURCE_DESC_41002"
+        },
+        RESOURCE_DESC_41003 = {
+          ContentEN = "Magic... marvellous, isn't it?",
+          TextMapId = "RESOURCE_DESC_41003"
+        },
+        RESOURCE_DESC_41004 = {
+          ContentEN = "No one's here. Only the tall grass.",
+          TextMapId = "RESOURCE_DESC_41004"
         },
         RESOURCE_DESC_41005 = {
           ContentEN = "No one's here. Just a cardboard box.",
@@ -27174,9 +28339,57 @@ local Data = {
           ContentEN = "No one's here. Just a cardboard box.",
           TextMapId = "RESOURCE_DESC_41006"
         },
+        RESOURCE_DESC_41007 = {
+          ContentEN = "Regularly checking your weapon's condition may tip the odds in your favour.",
+          TextMapId = "RESOURCE_DESC_41007"
+        },
+        RESOURCE_DESC_41008 = {
+          ContentEN = "Regularly checking your weapon's condition may tip the odds in your favour.",
+          TextMapId = "RESOURCE_DESC_41008"
+        },
+        RESOURCE_DESC_41009 = {
+          ContentEN = "Habitual gestures often reveal what lies beneath the mind.",
+          TextMapId = "RESOURCE_DESC_41009"
+        },
+        RESOURCE_DESC_41010 = {
+          ContentEN = "No traveller can resist a chest found along the road.",
+          TextMapId = "RESOURCE_DESC_41010"
+        },
+        RESOURCE_DESC_41011 = {
+          ContentEN = "Help! The bed refuses to let me go.",
+          TextMapId = "RESOURCE_DESC_41011"
+        },
+        RESOURCE_DESC_41012 = {
+          ContentEN = "A melody of midsummer and violets, plays upon the strings.",
+          TextMapId = "RESOURCE_DESC_41012"
+        },
+        RESOURCE_DESC_41013 = {
+          ContentEN = "How'd you know I landed a big catch today?",
+          TextMapId = "RESOURCE_DESC_41013"
+        },
         RESOURCE_DESC_41014 = {
           ContentEN = "After a headlong sprint, savour a moment of stillness.",
           TextMapId = "RESOURCE_DESC_41014"
+        },
+        RESOURCE_DESC_41015 = {
+          ContentEN = "A melody of midsummer and violets, plays upon the strings.",
+          TextMapId = "RESOURCE_DESC_41015"
+        },
+        RESOURCE_DESC_41016 = {
+          ContentEN = "A melody of midsummer and violets, plays upon the strings.",
+          TextMapId = "RESOURCE_DESC_41016"
+        },
+        RESOURCE_DESC_41017 = {
+          ContentEN = "After a headlong sprint, savour a moment of stillness.",
+          TextMapId = "RESOURCE_DESC_41017"
+        },
+        RESOURCE_DESC_41018 = {
+          ContentEN = "After a headlong sprint, savour a moment of stillness.",
+          TextMapId = "RESOURCE_DESC_41018"
+        },
+        RESOURCE_DESC_5000000 = {
+          ContentEN = "Used to enhance Demon Wedges with high rarity",
+          TextMapId = "RESOURCE_DESC_5000000"
         },
         RESOURCE_DESC_5011010 = {
           ContentEN = "A key commercial species across Atlasia, this fish can be found in every sea. It forms vast schools in the open ocean and migrates to coastal shallows with the turning of the seasons, year after year.",
@@ -27363,12 +28576,16 @@ local Data = {
           TextMapId = "RESOURCE_DESC_CANCELPHANTOM"
         },
         RESOURCE_DESC_GENERALSKIN_1 = {
-          ContentEN = "Grants a character from: Berenica, Phantasio, Lisbell, Lady Nifle, Fina, Rebecca, Tabethe, Lynn, Yale and Oliver, Hellfire, Margie, Rhythm, Randy, Sibylle, Truffle and Filbert, Outsider, Psyche, or Daphne.",
+          ContentEN = "Grants a character skin from: Berenica, Phantasio, Lisbell, Lady Nifle, Fina, Rebecca, Tabethe, Lynn, Yale and Oliver, Hellfire, Margie, Rhythm, Randy, Sibylle, Truffle and Filbert, Outsider, Psyche, or Daphne.",
           TextMapId = "RESOURCE_DESC_GENERALSKIN_1"
         },
         RESOURCE_DESC_MUSIC = {
           ContentEN = "A piece of sheet music — its notes trace a story like footprints in the sand.",
           TextMapId = "RESOURCE_DESC_MUSIC"
+        },
+        RESOURCE_DESC_OPTWEAPON_1 = {
+          ContentEN = "Grants a weapon of your choice.",
+          TextMapId = "RESOURCE_DESC_OPTWEAPON_1"
         },
         RESOURCE_DESC_PHANTOM = {
           ContentEN = "A sigil for summoning Combat Partners. It is a staff to lean on in a battle, a pact of companionship, and an oath unspoken.\nHeartfelt prayers shall be answered, and the desired one shall appear by your side.",
@@ -27438,6 +28655,10 @@ local Data = {
           ContentEN = "Used to open locked chest",
           TextMapId = "RESOURCE_FUNCTION_20511"
         },
+        RESOURCE_FUNCTION_211 = {
+          ContentEN = "After the Covert Commissions feature unlocks, you can use it to exchange for Secret Letters in the Shop",
+          TextMapId = "RESOURCE_FUNCTION_211"
+        },
         RESOURCE_FUNCTION_29001 = {
           ContentEN = "Exchanges for exploration rewards from Lunoxplorer in Icelake.",
           TextMapId = "RESOURCE_FUNCTION_29001"
@@ -27467,7 +28688,7 @@ local Data = {
           TextMapId = "RESOURCE_FUNCTION_APRecovery"
         },
         RESOURCE_FUNCTION_BATTLEPASSEXP = {
-          ContentEN = "Used to complete Bard's Tome progress in exchange for Lirico's rewards",
+          ContentEN = "Used to complete [Bard's Tome] progress in exchange for rewards",
           TextMapId = "RESOURCE_FUNCTION_BATTLEPASSEXP"
         },
         RESOURCE_FUNCTION_BONUSTICKET = {
@@ -27475,7 +28696,7 @@ local Data = {
           TextMapId = "RESOURCE_FUNCTION_BONUSTICKET"
         },
         RESOURCE_FUNCTION_BREAK_DARK = {
-          ContentEN = "Lumino Ascension Material",
+          ContentEN = "Umbro Ascension Material",
           TextMapId = "RESOURCE_FUNCTION_BREAK_DARK"
         },
         RESOURCE_FUNCTION_BREAK_FIRE = {
@@ -27483,7 +28704,7 @@ local Data = {
           TextMapId = "RESOURCE_FUNCTION_BREAK_FIRE"
         },
         RESOURCE_FUNCTION_BREAK_LIGHT = {
-          ContentEN = "Umbro Ascension Material",
+          ContentEN = "Lumino Ascension Material",
           TextMapId = "RESOURCE_FUNCTION_BREAK_LIGHT"
         },
         RESOURCE_FUNCTION_BREAK_MELEE = {
@@ -27523,7 +28744,7 @@ local Data = {
           TextMapId = "RESOURCE_FUNCTION_COIN"
         },
         RESOURCE_FUNCTION_DAILYGOALEXP = {
-          ContentEN = "Used to claim daily rewards in Memo",
+          ContentEN = "Used to claim daily rewards in [Memo]",
           TextMapId = "RESOURCE_FUNCTION_DAILYGOALEXP"
         },
         RESOURCE_FUNCTION_DYE = {
@@ -27566,8 +28787,12 @@ local Data = {
           ContentEN = "Can be sold for Coins",
           TextMapId = "RESOURCE_FUNCTION_FORSALE"
         },
+        RESOURCE_FUNCTION_GACHACOIN = {
+          ContentEN = "Can be exchanged for items at the shop",
+          TextMapId = "RESOURCE_FUNCTION_GACHACOIN"
+        },
         RESOURCE_FUNCTION_GENERALSKIN_1 = {
-          ContentEN = "Use to claim a character.",
+          ContentEN = "Use to claim a character skin.",
           TextMapId = "RESOURCE_FUNCTION_GENERALSKIN_1"
         },
         RESOURCE_FUNCTION_IMPRESSION = {
@@ -27594,12 +28819,16 @@ local Data = {
           ContentEN = "Use at the Sanctuary to play a track on the piano",
           TextMapId = "RESOURCE_FUNCTION_MUSIC"
         },
+        RESOURCE_FUNCTION_OPTWEAPON_1 = {
+          ContentEN = "Used to claim a weapon.",
+          TextMapId = "RESOURCE_FUNCTION_OPTWEAPON_1"
+        },
         RESOURCE_FUNCTION_PETBREAK = {
           ContentEN = "Ascends Geniemons",
           TextMapId = "RESOURCE_FUNCTION_PETBREAK"
         },
         RESOURCE_FUNCTION_PETCLAIM = {
-          ContentEN = "Redeemable for a Geniemon from the Lore Compilation reward pool",
+          ContentEN = "Redeemable for a Geniemon from [Bard's Tome - Binding Bounty]",
           TextMapId = "RESOURCE_FUNCTION_PETCLAIM"
         },
         RESOURCE_FUNCTION_PETEXP = {
@@ -27627,7 +28856,7 @@ local Data = {
           TextMapId = "RESOURCE_FUNCTION_ROOT"
         },
         RESOURCE_FUNCTION_ROUGECOIN = {
-          ContentEN = "Redeemable for items at the Mystic Maze Shop",
+          ContentEN = "Redeemable for items at the [Mystic Maze Shop]",
           TextMapId = "RESOURCE_FUNCTION_ROUGECOIN"
         },
         RESOURCE_FUNCTION_SKILL = {
@@ -27655,11 +28884,11 @@ local Data = {
           TextMapId = "RESOURCE_FUNCTION_WEAPON_EXP"
         },
         RESOURCE_FUNCTION_XIANSHIZHUIMI = {
-          ContentEN = "Allows one [Retrace].\nExpires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon expiry)",
+          ContentEN = "Used to make a Weave in Myriads during the specified window.",
           TextMapId = "RESOURCE_FUNCTION_XIANSHIZHUIMI"
         },
         RESOURCE_FUNCTION_ZHUIMI = {
-          ContentEN = "Grants one chance of Chrono Retrace.",
+          ContentEN = "Grants one chance of Myriad Weave.",
           TextMapId = "RESOURCE_FUNCTION_ZHUIMI"
         },
         RESOURCE_NAME_100 = {
@@ -27719,11 +28948,11 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1001101"
         },
         RESOURCE_NAME_1001103 = {
-          ContentEN = "Intron: Phantasio",
+          ContentEN = "Thought: Phantasio",
           TextMapId = "RESOURCE_NAME_1001103"
         },
         RESOURCE_NAME_1001104 = {
-          ContentEN = "Intron: Mr Qiu",
+          ContentEN = "Thought: Mr Qiu",
           TextMapId = "RESOURCE_NAME_1001104"
         },
         RESOURCE_NAME_10012 = {
@@ -27743,15 +28972,15 @@ local Data = {
           TextMapId = "RESOURCE_NAME_10015"
         },
         RESOURCE_NAME_1001501 = {
-          ContentEN = "Thought: Lisbell",
+          ContentEN = "Thought: Furyborne",
           TextMapId = "RESOURCE_NAME_1001501"
         },
         RESOURCE_NAME_1001502 = {
-          ContentEN = "Intron: Lady Nifle",
+          ContentEN = "Thought: Lady Nifle",
           TextMapId = "RESOURCE_NAME_1001502"
         },
         RESOURCE_NAME_1001503 = {
-          ContentEN = "Intron: Kezhou",
+          ContentEN = "Thought: Kezhou",
           TextMapId = "RESOURCE_NAME_1001503"
         },
         RESOURCE_NAME_1001504 = {
@@ -27811,7 +29040,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_10022"
         },
         RESOURCE_NAME_10023 = {
-          ContentEN = "Tome of the Selenism Ritual",
+          ContentEN = "Tome of the Noclunism Ritual",
           TextMapId = "RESOURCE_NAME_10023"
         },
         RESOURCE_NAME_1002301 = {
@@ -27839,7 +29068,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1003102"
         },
         RESOURCE_NAME_1003103 = {
-          ContentEN = "Thought: Yale",
+          ContentEN = "Thought: Yale and Oliver",
           TextMapId = "RESOURCE_NAME_1003103"
         },
         RESOURCE_NAME_1003201 = {
@@ -27855,7 +29084,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1003301"
         },
         RESOURCE_NAME_1004 = {
-          ContentEN = "Brilliant Hourglass (Limited-Time)",
+          ContentEN = "Prismatic Hourglass (Limited-Time)",
           TextMapId = "RESOURCE_NAME_1004"
         },
         RESOURCE_NAME_1004101 = {
@@ -27863,7 +29092,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1004101"
         },
         RESOURCE_NAME_1004102 = {
-          ContentEN = "Intron: Zhiliu",
+          ContentEN = "Thought: Zhiliu",
           TextMapId = "RESOURCE_NAME_1004102"
         },
         RESOURCE_NAME_1004201 = {
@@ -27887,7 +29116,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1005101"
         },
         RESOURCE_NAME_1005102 = {
-          ContentEN = "Intron: Outsider",
+          ContentEN = "Thought: Outsider",
           TextMapId = "RESOURCE_NAME_1005102"
         },
         RESOURCE_NAME_1005301 = {
@@ -27895,7 +29124,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1005301"
         },
         RESOURCE_NAME_1005401 = {
-          ContentEN = "Intron: Daphne",
+          ContentEN = "Thought: Daphne",
           TextMapId = "RESOURCE_NAME_1005401"
         },
         RESOURCE_NAME_1006 = {
@@ -28115,7 +29344,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_110001"
         },
         RESOURCE_NAME_110006 = {
-          ContentEN = "Beginner Character Selection (Ⅰ)",
+          ContentEN = "Beginner Character Skin Selection - Starlit",
           TextMapId = "RESOURCE_NAME_110006"
         },
         RESOURCE_NAME_11001 = {
@@ -28611,15 +29840,15 @@ local Data = {
           TextMapId = "RESOURCE_NAME_12102"
         },
         RESOURCE_NAME_12103 = {
-          ContentEN = "Eastern Trailblazer: Bolt",
+          ContentEN = "Soulrend: Bowstring",
           TextMapId = "RESOURCE_NAME_12103"
         },
         RESOURCE_NAME_12104 = {
-          ContentEN = "Eastern Trailblazer: Frame",
+          ContentEN = "Soulrend: Upper Limb",
           TextMapId = "RESOURCE_NAME_12104"
         },
         RESOURCE_NAME_12105 = {
-          ContentEN = "Eastern Trailblazer: Barrel",
+          ContentEN = "Soulrend: Lower Limb",
           TextMapId = "RESOURCE_NAME_12105"
         },
         RESOURCE_NAME_12106 = {
@@ -28735,11 +29964,11 @@ local Data = {
           TextMapId = "RESOURCE_NAME_122"
         },
         RESOURCE_NAME_123 = {
-          ContentEN = "Poetry Anthology: Standard Edition",
+          ContentEN = "Bard's Tome: Hardcover Edition",
           TextMapId = "RESOURCE_NAME_123"
         },
         RESOURCE_NAME_124 = {
-          ContentEN = "Poetry Anthology: Collector's Edition",
+          ContentEN = "Bard's Tome: Collector's Edition",
           TextMapId = "RESOURCE_NAME_124"
         },
         RESOURCE_NAME_125 = {
@@ -28907,7 +30136,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_20029"
         },
         RESOURCE_NAME_2003 = {
-          ContentEN = "Progress",
+          ContentEN = "Progress Score",
           TextMapId = "RESOURCE_NAME_2003"
         },
         RESOURCE_NAME_20030 = {
@@ -29043,7 +30272,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_210"
         },
         RESOURCE_NAME_211 = {
-          ContentEN = "Secret Letter Clue: Order",
+          ContentEN = "Secret Letter Clue",
           TextMapId = "RESOURCE_NAME_211"
         },
         RESOURCE_NAME_214 = {
@@ -29051,7 +30280,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_214"
         },
         RESOURCE_NAME_215 = {
-          ContentEN = "Concertite",
+          ContentEN = "Thread of Time",
           TextMapId = "RESOURCE_NAME_215"
         },
         RESOURCE_NAME_29001 = {
@@ -29159,7 +30388,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_3010"
         },
         RESOURCE_NAME_30101 = {
-          ContentEN = "Standard Dye: Lamenting Lake",
+          ContentEN = "Premium Dye: Lamenting Lake",
           TextMapId = "RESOURCE_NAME_30101"
         },
         RESOURCE_NAME_30102 = {
@@ -29187,7 +30416,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_30107"
         },
         RESOURCE_NAME_30108 = {
-          ContentEN = "Standard Dye: Crows",
+          ContentEN = "Premium Dye: Crows",
           TextMapId = "RESOURCE_NAME_30108"
         },
         RESOURCE_NAME_30109 = {
@@ -29463,7 +30692,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_40002"
         },
         RESOURCE_NAME_40003 = {
-          ContentEN = "Ammo Supply Crate Ⅰ",
+          ContentEN = "Ammo Supply Chest Ⅰ",
           TextMapId = "RESOURCE_NAME_40003"
         },
         RESOURCE_NAME_40011 = {
@@ -29475,7 +30704,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_40012"
         },
         RESOURCE_NAME_40013 = {
-          ContentEN = "Ammo Supply Crate Ⅱ",
+          ContentEN = "Ammo Supply Chest Ⅱ",
           TextMapId = "RESOURCE_NAME_40013"
         },
         RESOURCE_NAME_4010001 = {
@@ -29571,19 +30800,19 @@ local Data = {
           TextMapId = "RESOURCE_NAME_41005"
         },
         RESOURCE_NAME_41006 = {
-          ContentEN = "Cat in a Box - White Sakura",
+          ContentEN = "Cat in a Box: White Sakura",
           TextMapId = "RESOURCE_NAME_41006"
         },
         RESOURCE_NAME_41007 = {
-          ContentEN = "Posture: Melee Weapon",
+          ContentEN = "Tactical Posture: Melee Weapon",
           TextMapId = "RESOURCE_NAME_41007"
         },
         RESOURCE_NAME_41008 = {
-          ContentEN = "Posture: Ranged Weapon",
+          ContentEN = "Tactical Posture: Ranged Weapon",
           TextMapId = "RESOURCE_NAME_41008"
         },
         RESOURCE_NAME_41009 = {
-          ContentEN = "Posture",
+          ContentEN = "Tactical Posture",
           TextMapId = "RESOURCE_NAME_41009"
         },
         RESOURCE_NAME_41010 = {
@@ -29607,12 +30836,32 @@ local Data = {
           TextMapId = "RESOURCE_NAME_41014"
         },
         RESOURCE_NAME_41015 = {
-          ContentEN = "Verses on the String – Caramel",
+          ContentEN = "Verses on the String: Caramel",
           TextMapId = "RESOURCE_NAME_41015"
         },
         RESOURCE_NAME_41016 = {
-          ContentEN = "Verses on the String – Opaque White",
+          ContentEN = "Verses on the String: Opaque White",
           TextMapId = "RESOURCE_NAME_41016"
+        },
+        RESOURCE_NAME_41017 = {
+          ContentEN = "Snapfreeze: White Sakura",
+          TextMapId = "RESOURCE_NAME_41017"
+        },
+        RESOURCE_NAME_41018 = {
+          ContentEN = "Snapfreeze: Gilt",
+          TextMapId = "RESOURCE_NAME_41018"
+        },
+        RESOURCE_NAME_42001 = {
+          ContentEN = "Mechanical Nexus",
+          TextMapId = "RESOURCE_NAME_42001"
+        },
+        RESOURCE_NAME_42002 = {
+          ContentEN = "Mechanical Nexus: Evilbane",
+          TextMapId = "RESOURCE_NAME_42002"
+        },
+        RESOURCE_NAME_5000000 = {
+          ContentEN = "Demon Wedge: Treasure ",
+          TextMapId = "RESOURCE_NAME_5000000"
         },
         RESOURCE_NAME_5011010 = {
           ContentEN = "Tidewanderer",
@@ -30123,7 +31372,7 @@ local Data = {
           TextMapId = "RESOURCE_TEXT_10013"
         },
         RESOURCE_TEXT_10014 = {
-          ContentEN = ""In Huaxu's history, meteors were never symbols of luck or wish fulfillment. Instead, they called them 'Broom Stars', regarding them as omens of disaster and peril. Yet ironically, Huaxu became the earliest recorded nation to use meteorite products. It seems that when faced with practicality, the people of Huaxu were not opposed to overturning a few beliefs."\n\n— Tacitus, Elysian Historian, in "Chronicles"",
+          ContentEN = ""In Huaxu's history, meteors were never symbols of luck or wish fulfilment. Instead, they called them 'Broom Stars', regarding them as omens of disaster and peril. Yet ironically, Huaxu became the earliest recorded nation to use meteorite products. It seems that when faced with practicality, the people of Huaxu were not opposed to overturning a few beliefs."\n\n— Tacitus, Elysian Historian, in "Chronicles"",
           TextMapId = "RESOURCE_TEXT_10014"
         },
         RESOURCE_TEXT_10015 = {
@@ -30163,7 +31412,7 @@ local Data = {
           TextMapId = "RESOURCE_TEXT_10022"
         },
         RESOURCE_TEXT_10023 = {
-          ContentEN = ""The full moon weeps despair,\nThe abyss cradles lunacy.\nThe gods' domain lies in the unilluminated side,\nWhile feeble fakes mire in a futile dither."\n\n— Tome of The Selenism Ritual, Heresy of Elysium, "Beyond the Moon's Veil - Chapter Ⅱ"",
+          ContentEN = ""The full moon weeps despair,\nThe abyss cradles lunacy.\nThe gods' domain lies in the unilluminated side,\nWhile feeble fakes mire in a futile dither."\n\n— Tome of The Noclunism Ritual, Heresy of Elysium, "Beyond the Moon's Veil - Chapter Ⅱ"",
           TextMapId = "RESOURCE_TEXT_10023"
         },
         RESOURCE_TEXT_10024 = {
@@ -30194,6 +31443,10 @@ local Data = {
           ContentEN = ""Lamp on my helmet, pick in my grip — down the shaft we chase Phoxene's glint.\nWe sweat, we bleed, we strain our bones — so we'll get rich with these stones!"\n\n— Miner's folk rhyme, Icelake",
           TextMapId = "RESOURCE_TEXT_10102"
         },
+        RESOURCE_TEXT_10103 = {
+          ContentEN = ""Time does not speak. It merely ushers each newborn dawn into the hush of night, and each bitter winter into the bloom of spring."\n\n— Lady Nifle, Ferrywoman of the Misty Sea",
+          TextMapId = "RESOURCE_TEXT_10103"
+        },
         RESOURCE_TEXT_10104 = {
           ContentEN = ""Sure, we've all got our brand of justice. And justice always arrives late. So today, right here — let my blade call the shots. Sound good?"\n\n— Kezhou, Swordsman of Huaxu",
           TextMapId = "RESOURCE_TEXT_10104"
@@ -30219,15 +31472,15 @@ local Data = {
           TextMapId = "RESOURCE_TEXT_10202"
         },
         RESOURCE_TEXT_10203 = {
-          ContentEN = ""I lit the first candle — I saw a voiceless youth;\nI lit the second candle — I saw a blinded believer;\nI lit the third candle — I saw a devout divine envoy.\nThe tender glow, carrying hymns, brushed past my eyes,\nAnd I realized, each candle revealed a version of myself."\n\n— A Nameless Divine Envoy Lost in the Abyss",
+          ContentEN = ""I lit the first candle — I saw a voiceless youth;\nI lit the second candle — I saw a blinded believer;\nI lit the third candle — I saw a devout divine priest.\nThe tender glow, carrying hymns, brushed past my eyes,\nAnd I realized, each candle revealed a version of myself."\n\n— A Nameless Divine Envoy Lost in the Abyss",
           TextMapId = "RESOURCE_TEXT_10203"
         },
         RESOURCE_TEXT_10204 = {
-          ContentEN = ""I lit the first candle — I saw a voiceless youth;\nI lit the second candle — I saw a blinded believer;\nI lit the third candle — I saw a devout divine envoy.\nThe tender glow, carrying hymns, brushed past my eyes,\nAnd I realized, each candle revealed a version of myself."\n\n— A Nameless Divine Envoy Lost in the Abyss",
+          ContentEN = ""I lit the first candle — I saw a voiceless youth;\nI lit the second candle — I saw a blinded believer;\nI lit the third candle — I saw a devout divine priest.\nThe tender glow, carrying hymns, brushed past my eyes,\nAnd I realized, each candle revealed a version of myself."\n\n— A Nameless Divine Envoy Lost in the Abyss",
           TextMapId = "RESOURCE_TEXT_10204"
         },
         RESOURCE_TEXT_10205 = {
-          ContentEN = ""I lit the first candle — I saw a voiceless youth;\nI lit the second candle — I saw a blinded believer;\nI lit the third candle — I saw a devout divine envoy.\nThe tender glow, carrying hymns, brushed past my eyes,\nAnd I realized, each candle revealed a version of myself."\n\n— A Nameless Divine Envoy Lost in the Abyss",
+          ContentEN = ""I lit the first candle — I saw a voiceless youth;\nI lit the second candle — I saw a blinded believer;\nI lit the third candle — I saw a devout divine priest.\nThe tender glow, carrying hymns, brushed past my eyes,\nAnd I realized, each candle revealed a version of myself."\n\n— A Nameless Divine Envoy Lost in the Abyss",
           TextMapId = "RESOURCE_TEXT_10205"
         },
         RESOURCE_TEXT_10206 = {
@@ -30575,11 +31828,11 @@ local Data = {
           TextMapId = "RESOURCE_TEXT_211"
         },
         RESOURCE_TEXT_215 = {
-          ContentEN = ""I shall prove to the world that talent and genius can be reforged by the hand of an alchemist."\n\n— Chief Alchemist Flamel",
+          ContentEN = ""On the night of the full moon, its light spills across every corner of the tower. And the Goddess of Fate, in all Her grace, gathers that silver radiance — spinning it into the finest thread, weaving it into a veil of glistening white. So fine no mortal eye can trace it... and yet vast enough to enfold the fates of the world."\n \n — Tales of the Tower, an Elysian children's book",
           TextMapId = "RESOURCE_TEXT_215"
         },
         RESOURCE_TEXT_29001 = {
-          ContentEN = "An island beyond divine gaze and imperial reach. A place where seabirds wheel above crumbled colonnades, and memories lie buried beneath moss and the slow tides of time.\nVenture forth — to witness, to listen, to explore the land called Purgatorio Island, where secrets linger and echoes of the past still stir.",
+          ContentEN = "An island beyond divine gaze and imperial reach.\nHere, seabirds wheel above crumbled colonnades, and memories sleep beneath moss and the slow tides of time.\nVenture forth — to witness, to listen, to explore Purgatorio Island, where secrets linger and echoes of the past still stir.",
           TextMapId = "RESOURCE_TEXT_29001"
         },
         RESOURCE_TEXT_29002 = {
@@ -30587,12 +31840,16 @@ local Data = {
           TextMapId = "RESOURCE_TEXT_29002"
         },
         RESOURCE_TEXT_29003 = {
-          ContentEN = "A fortress unmoved by rivers of iron or storms of steel. Only laments now cross its ramparts — but no wall is truly unbreachable. The strongest bastions fall not to force, but to what stirs unseen within the heart.\nGo deeper into the Fortress — to witness, to listen, where smoke still hangs and memory refuses to fade.",
+          ContentEN = "A fortress untouched by rivers of iron or storms of steel. Now, only laments drift across its ramparts.\nYet no wall is truly unbreachable. The strongest bastions fall not to force, but to what stirs unseen in the heart.\nGo deeper — to witness, to listen — into the Fortress, where smoke still hangs and memory refuses to fade.",
           TextMapId = "RESOURCE_TEXT_29003"
         },
         RESOURCE_TEXT_29004 = {
-          ContentEN = "Where land and sea fall away — the first breath and final hush of every trade route.\n The incense-laced air hums with legend; beneath the eaves, whispers still drift. When the smoke lifts and dust settles... what will tomorrow hold?\n Go forth — to see, to listen — and explore Huaxu, a realm ready to leave its yesterdays behind.",
+          ContentEN = "Where land and sea fall away — the first breath and final hush of every trade route.\nThe incense-laced air hums with legend; beneath the eaves, whispers still drift. When the smoke lifts and dust settles... what will tomorrow hold?\nGo forth — to see, to listen — and explore Huaxu, a realm ready to leave its yesterdays behind.",
           TextMapId = "RESOURCE_TEXT_29004"
+        },
+        RESOURCE_TEXT_29005 = {
+          ContentEN = "#Placeholder: Gritblight Rune",
+          TextMapId = "RESOURCE_TEXT_29005"
         },
         RESOURCE_TEXT_30001 = {
           ContentEN = ""Purity cuts both ways: a single component enhances its potency but also accelerates its expiration. My task is simply to adjust the impurity ratio, seeking a balance between strength and eternity. In fact, this principle applies not only to alchemy but also to any groups."\n\n— Ecodna, Chief of Biological Applications at The Spathatoi, in "Disassembly and Reassembly: Biology of Filthoids"",
@@ -30678,6 +31935,10 @@ local Data = {
           ContentEN = ""The rubbish bins with little green flowers painted on them, near the west side of town — those are Leonie's. The ones by Glevum Pit, painted with grey stones are Edwin's. And those with the big yellow suns? All mine! But staring at the same colours gets boring after a while, so we switch things up now and then — that's the secret to keeping it fresh."\n\n—Margie, Icelake Scavenger",
           TextMapId = "RESOURCE_TEXT_30111"
         },
+        RESOURCE_TEXT_30112 = {
+          ContentEN = ""People often believe colours carry emotion — red for passion, green for calm, blue for sorrow. Flowers are much the same: the very same bloom can feel different when its hue changes. So, when customers arrive, I suggest a colour to suit their mood. Now then... which shade will you choose?"\n \n — Psyche, Icelake",
+          TextMapId = "RESOURCE_TEXT_30112"
+        },
         RESOURCE_TEXT_40001 = {
           ContentEN = ""There were times, after I inadvertently had poisonous berries, tumbled down slopes, or fought fierce beasts, I thought I'd slip into sleep and never wake again. What woke me wasn't strong will, dreams, or even anyone's voice — it was merely instinct and a small vial of smelling salts."\n\n— Outsider the Phoxhunter",
           TextMapId = "RESOURCE_TEXT_40001"
@@ -30757,6 +32018,10 @@ local Data = {
         RESOURCE_TEXT_4020005 = {
           ContentEN = ""Troubles to stones, 'plop, plop' as they go, where they're gone from sight, in Lamenting Lake they're beyond." \n\n— A folk ballad of Icelake",
           TextMapId = "RESOURCE_TEXT_4020005"
+        },
+        RESOURCE_TEXT_5000000 = {
+          ContentEN = "Rare material extracted from Demon Wedges",
+          TextMapId = "RESOURCE_TEXT_5000000"
         },
         RESOURCE_TEXT_5011010 = {
           ContentEN = "Tidewanderers follow the seasons like clockwork, setting off on their great migration the same month each year, no matter how rough the seas. In honour of their uncanny punctuality — and to better profit from it — coastal folk began forging clock hands in the shape of a Tidewanderer.\n\n— Dylan the Know-It-All, Unknown Corners",
@@ -30939,7 +32204,7 @@ local Data = {
           TextMapId = "RESOURCE_TEXT_CANCELPHANTOM"
         },
         RESOURCE_TEXT_MUSIC = {
-          ContentEN = ""When your fingers brush the keys, the notes awaken — the wind's whispers, time's soft sigh, the hush of new shoots breaking soil. They give voice to ancient histories, to heroes' unspoken vows, to tales never etched on any page. They stand as testament to all that has ever been upon this land."\n \n — Lirico, the Wandering Bard",
+          ContentEN = ""When your fingers brush the keys, the notes awaken — the wind's whispers, time's soft sigh, the hush of new shoots breaking soil. They give voice to ancient histories, to heroes' unspoken vows, to tales never etched on any page. They stand as testament to all that has ever been upon this land."\n \n— Lirico, the Wandering Bard",
           TextMapId = "RESOURCE_TEXT_MUSIC"
         },
         RESOURCE_TEXT_PHANTOM = {
@@ -30947,7 +32212,7 @@ local Data = {
           TextMapId = "RESOURCE_TEXT_PHANTOM"
         },
         RESOURCE_TEXT_ROOT = {
-          ContentEN = ""You have three lives.\n\nYour first life is breath and heartbeat. You measure and perceive the world with your flesh and blood.\nYour second life is connection and bond. Your soul dwells in the nourishment of family, a lover’s kiss, and the embrace of friends.\nYour third life is thought and memory. When a reader sees your name upon a page, when a traveler hears it in a bard's song, when a child draws wisdom and courage from your story—your life echoes once more in this world.\n\nAll return to the Misty Sea, but not all truly die."\n\n— Lady Nifle, Ferrywoman of the Misty Sea",
+          ContentEN = ""You have three lives.\n\nYour first life is breath and heartbeat. You measure and perceive the world with your flesh and blood.\nYour second life is connection and bond. Your soul dwells in the nourishment of family, a lover's kiss, and the embrace of friends.\nYour third life is thought and memory. When a reader sees your name upon a page, when a traveler hears it in a bard's song, when a child draws wisdom and courage from your story—your life echoes once more in this world.\n\nAll return to the Misty Sea, but not all truly die."\n\n— Lady Nifle, Ferrywoman of the Misty Sea",
           TextMapId = "RESOURCE_TEXT_ROOT"
         },
         RESOURCE_TEXT_daoren = {
@@ -31015,7 +32280,7 @@ local Data = {
           TextMapId = "RLArchive_EventUnlock"
         },
         RLArchive_ID = {
-          ContentEN = "No. %s",
+          ContentEN = "No. %s{空格}",
           TextMapId = "RLArchive_ID"
         },
         RLArchive_StorySubtitle = {
@@ -31055,19 +32320,19 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_1"
         },
         RLBlessingGroup_Desc_101 = {
-          ContentEN = "Dealing damage with a melee weapon has a <Highlight>10%</> chance to inflict 1 stack of <Highlight>[Molten Blaze]</> and increases the target's Damage Taken by <Highlight>2.5%</> for <Highlight>5</>s, up to <Highlight>10</> stacks.",
+          ContentEN = "Each Lampwick in this set additionally grants +<Highlight>15%</> CRIT Chance and +<Highlight>15%</> CRIT Damage for melee weapons.\nDealing damage with melee weapons has a <Highlight>10%</> chance to apply 1 stack of [Molten Blaze].",
           TextMapId = "RLBlessingGroup_Desc_101"
         },
         RLBlessingGroup_Desc_102 = {
-          ContentEN = "<Highlight>[Molten Blaze]</> deals periodic damage equal to <Highlight>15%</> of the character's ATK to the target once <Highlight>per second</>.",
+          ContentEN = "[Molten Blaze] deals <Highlight>35%</> of Character ATK as periodic damage every <Highlight>1</>s.",
           TextMapId = "RLBlessingGroup_Desc_102"
         },
         RLBlessingGroup_Desc_103 = {
-          ContentEN = "Grants 1 stack that increases the duration of <Highlight>[Molten Blaze]</> to <Highlight>10</>s, up to <Highlight>20</> stacks.",
+          ContentEN = "Extends [Molten Blaze] duration to <Highlight>10</>s. Now stacks up to <Highlight>20</> times.",
           TextMapId = "RLBlessingGroup_Desc_103"
         },
         RLBlessingGroup_Desc_104 = {
-          ContentEN = "Targets with <Highlight>[Molten Blaze]</> take 1 <Highlight>[Molten Blaze Sabre]</> effect every <Highlight>5</>s. Dealing damage with Melee Weapon has a <Highlight>10%</> chance to trigger an additional <Highlight>[Molten Blaze Sabre]</>. [Molten Blaze Sabre]: Deals <Highlight>563%</> of the character's ATK Damage.",
+          ContentEN = "Targets afflicted with [Molten Blaze] suffer a [Molten Blaze Sabre] hit every <Highlight>5</>s. Dealing damage with melee weapons has a <Highlight>10%</> chance to trigger an additional [Molten Blaze Sabre].",
           TextMapId = "RLBlessingGroup_Desc_104"
         },
         RLBlessingGroup_Desc_2 = {
@@ -31075,19 +32340,19 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_2"
         },
         RLBlessingGroup_Desc_201 = {
-          ContentEN = "Increases Auto-Pickup Range. Immune to Hitstun for <Highlight>3</>s after picking up an item.",
+          ContentEN = "Each Lampwick in this set additionally grants +<Highlight>15%</> CRIT Chance and +<Highlight>15%</>> CRIT Damage for ranged weapons.\nIncreases Auto-Pickup Range. Grants Hitstun immunity for <Highlight>3</>s after picking up loot.",
           TextMapId = "RLBlessingGroup_Desc_201"
         },
         RLBlessingGroup_Desc_202 = {
-          ContentEN = "When dealing damage with a ranged weapon, there is a chance to trigger [Seaborne Moon].\n[Seaborne Moon]: Deals AoE Damage equal to <Highlight>1350%</> of the character's ATK 1 time and spawns <Highlight>3</> [Mini Seaborne Moons]. This effect can only be triggered once every <Highlight>10</>s. \n[Mini Seaborne Moon] is regarded as a pickable item. Picking it up restores HP, Sanity, and Ammo.",
+          ContentEN = "Dealing damage with any ranged weapon activates [Seaborne Moon] and spawns <Highlight>3</> additional [Mini Seaborne Moons] (max once every <Highlight>10</>s).",
           TextMapId = "RLBlessingGroup_Desc_202"
         },
         RLBlessingGroup_Desc_203 = {
-          ContentEN = "Picking up a [Mini Seaborne Moon] grants 1 [Veiled Moon]. A maximum of <Highlight>6</> [Veiled Moons] can exist at the same time. Dealing Ranged Weapon damage consumes 1 [Veiled Moon] to fire a [Stinger], dealing AoE Damage equal to <Highlight>270%</> of the character's ATK.",
+          ContentEN = "Collecting a [Mini Seaborne Moon] grants 1 [Veiled Moon].",
           TextMapId = "RLBlessingGroup_Desc_203"
         },
         RLBlessingGroup_Desc_204 = {
-          ContentEN = "When [Veiled Moon] is consumed, it turns into a burst of <Highlight>3</> [Stingers]. When successfully picking up any items, grants 1 stack of [Phantom Drift] that increases Ranged Weapon Damage by <Highlight>6%</> for <Highlight>15</>s, up to <Highlight>10</> stacks.",
+          ContentEN = "Consuming [Veiled Moon] fires <Highlight>3</> [Stingers] in a fan-shaped spread. Picking up loot grants 1 stack of [Phantom Drift].",
           TextMapId = "RLBlessingGroup_Desc_204"
         },
         RLBlessingGroup_Desc_3 = {
@@ -31095,19 +32360,19 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_3"
         },
         RLBlessingGroup_Desc_301 = {
-          ContentEN = "Increases Skill Damage by <Highlight>75%</>.",
+          ContentEN = "Each Lampwick in this set additionally grants +<Highlight>15%</> Max Shield.\nGrants +<Highlight>25%</> Skill DMG.",
           TextMapId = "RLBlessingGroup_Desc_301"
         },
         RLBlessingGroup_Desc_302 = {
-          ContentEN = "Grants 1 stack of <Highlight>[Gleam]</> per second, up to 60 stacks. Using skills at 60 stacks of <Highlight>[Gleam]</> removes all stacks and enters <Highlight>[Radiance]</> state for <Highlight>10</>s, during which Skill Damage is increased by <Highlight>50%</>.",
+          ContentEN = "Gains 1 stack of <Highlight>[Gleam]</> per second (max 60). At 60 stacks, casting a skill consumes all <Highlight>[Gleam]</> and grants <Highlight>[Radiance]</> for 10s</>, increasing Skill DMG by <Highlight>50%</>.",
           TextMapId = "RLBlessingGroup_Desc_302"
         },
         RLBlessingGroup_Desc_303 = {
-          ContentEN = "When in <Highlight>[Radiance]</> state, <Highlight>[Emission]</> is triggered once every 2s, dealing damage equal to <Highlight>810%</> of the character's ATK to enemies within a <Highlight>6</>-metre range.",
+          ContentEN = "While under [Radiance], triggers 1 [Emission] every 2s, dealing Skill DMG equal to <Highlight>810%</> of Character ATK to enemies within <Highlight>6</>m.",
           TextMapId = "RLBlessingGroup_Desc_303"
         },
         RLBlessingGroup_Desc_304 = {
-          ContentEN = "Increases <Highlight>[Radiance]</> duration to <Highlight>20</>s.",
+          ContentEN = "Extends [Radiance] to <Highlight>20</>s.",
           TextMapId = "RLBlessingGroup_Desc_304"
         },
         RLBlessingGroup_Desc_4 = {
@@ -31115,19 +32380,19 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_4"
         },
         RLBlessingGroup_Desc_401 = {
-          ContentEN = "Increases Detection Range and Damage Range of <Highlight>[Lumiseed]</> and <Highlight>[Lumileaf]</> by 100%. \n<Highlight>[Lumiseed]</>: Detonates when detecting enemies within <Highlight>3</> metres, dealing damage equal to <Highlight>600%</> of the ATK.\n<Highlight>[Lumiseed]</> lasts for <Highlight>10</>s, with a maximum of 10 existing at the same time.",
+          ContentEN = "Each Lampwick in this set additionally grants +<Highlight>15%</> Summon DMG. Summoning a non-Lumitwig Summon also spawns 1 [Lumiseed].\n[Lumiseed]: Detonates when an enemy enters within <Highlight>3</>m, dealing <Highlight>600%</> ATK as damage. Lasts <Highlight>10</>s; up to 10 may exist.",
           TextMapId = "RLBlessingGroup_Desc_401"
         },
         RLBlessingGroup_Desc_402 = {
-          ContentEN = "When summoning <Highlight>[Lumiseed]</>, there is a <Highlight>40%</> chance for it to evolve into <Highlight>[Lumileaf]</>.\n<Highlight>[Lumileaf]</>: Detonates when detecting enemies within <Highlight>3</> metres, dealing damage equal to <Highlight>1000%</> of the ATK.\n<Highlight>[Lumileaf]</> lasts for <Highlight>10</>s, with a maximum of 10 existing at the same time.",
+          ContentEN = "Each [Lumiseed] has a <Highlight>40%</> chance to evolve into [Lumileaf] when summoned. \n[Lumileaf]: Detonates when an enemy enters within <Highlight>3</>m, dealing <Highlight>1000%</> ATK as damage. Lasts <Highlight>10</>s; up to 10 may exist.",
           TextMapId = "RLBlessingGroup_Desc_402"
         },
         RLBlessingGroup_Desc_403 = {
-          ContentEN = "When <Highlight>[Lumileaf]</> detomates, summons 1 <Highlight>[Lumiwood]</> at its current location. \n<Highlight>[Lumiwood]</>: Heals teammates within a <Highlight>10</>-metre range by <Highlight>5%</> of their Max HP per second. <Highlight>[Lumiwood]</> lasts for <Highlight>10</>s, with a maximum of 1 existing at the same time.",
+          ContentEN = "[Lumileaf] spawns 1 [Lumiwood] on detonation. When healed, deals <Highlight>4000%</> of that value as damage to enemies within 6m.\n[Lumiwood]: Heals allies within <Highlight>10</>m by <Highlight>5%</> Max HP per second. Lasts <Highlight>10</>s; only 1 may exist.",
           TextMapId = "RLBlessingGroup_Desc_403"
         },
         RLBlessingGroup_Desc_404 = {
-          ContentEN = "Increases the chances of summoning <Highlight>[Lumiseed]</> by 100%. <Highlight>[Lumiwood]</> deals damage equal to <Highlight>650%</> of the ATK per second to enemies within range.",
+          ContentEN = "Doubles the chance for all effects that may summon [Lumiseed]. [Lumiwood] deals damage equal to <Highlight>650%</> ATK per second to enemies in range.",
           TextMapId = "RLBlessingGroup_Desc_404"
         },
         RLBlessingGroup_Desc_5 = {
@@ -31135,19 +32400,19 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_5"
         },
         RLBlessingGroup_Desc_501 = {
-          ContentEN = "When performing Helix Leap, there is a <Highlight>30%</> chance to create a <Highlight>4</>-metre <Highlight>[Powder]</> field on the ground for <Highlight>5</>s. A maximum of <Highlight>1</> [Powder] field can exist at the same time.\n<Highlight>[Powder]</> field deals damage equal to <Highlight>270%</> of the character's ATK per second to enemies within range.",
+          ContentEN = "Each Lampwick in this set grants +<Highlight>10%</> Max Sanity.\nEach stack of [Umbral Devourer] increases Character ATK by <Highlight>1%</>.",
           TextMapId = "RLBlessingGroup_Desc_501"
         },
         RLBlessingGroup_Desc_502 = {
-          ContentEN = "Increases <Highlight>[Powder]</> field duration to <Highlight>10</>s and allows <Highlight>2</> [Powder] fields to exist at the same time.",
+          ContentEN = "Dealing damage grants <Highlight>5</> stacks of [Umbral Devourer] (max once every <Highlight>5</>s).",
           TextMapId = "RLBlessingGroup_Desc_502"
         },
         RLBlessingGroup_Desc_503 = {
-          ContentEN = "Increases <Highlight>[Powder]</> field radius to <Highlight>8</> metres and allows <Highlight>3</> [Powder] fields to exist at the same time.",
+          ContentEN = "Restores <Highlight>2</> Sanity per second for every 10 stacks of [Umbral Devourer].",
           TextMapId = "RLBlessingGroup_Desc_503"
         },
         RLBlessingGroup_Desc_504 = {
-          ContentEN = "When dealing damage, the <Highlight>[Powder]</> field deals an addtional instance of damage equal to <Highlight>12% × Character's ATK × Max Sanity</>.",
+          ContentEN = "[Powder], [Windwing], and [Bladewing] deal an additional hit when damaging enemies, dealing <Highlight>1% × Character ATK × Max Sanity</> as damage.",
           TextMapId = "RLBlessingGroup_Desc_504"
         },
         RLBlessingGroup_Desc_6 = {
@@ -31155,15 +32420,15 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_6"
         },
         RLBlessingGroup_Desc_601 = {
-          ContentEN = "The maximum number of [Glimmerfly] <Highlight>+1</>, and they gain the ability to deal AoE Damage within a <Highlight>2</>-metre radius.",
+          ContentEN = "Each Lampwick in this set additionally grants +<Highlight>10%</> Skill Range.\nMax [Glimmerflies] <Highlight>+1</>. [Glimmerflies] now deal AoE damage in a <Highlight>2</>m radius.",
           TextMapId = "RLBlessingGroup_Desc_601"
         },
         RLBlessingGroup_Desc_602 = {
-          ContentEN = "When [Glimmerfly] is around, there is a <Highlight>30%</> chance to obtain a <Highlight>large</> variant, dealing AoE Damage equal to <Highlight>700%</> of the character's ATK within a <Highlight>4</>-metre range.",
+          ContentEN = "Gaining a [Glimmerfly] has a <Highlight>30%</> chance to spawn a larger variant.",
           TextMapId = "RLBlessingGroup_Desc_602"
         },
         RLBlessingGroup_Desc_603 = {
-          ContentEN = "The maximum number of [Glimmerfly] <Highlight>+1</>. When a <Highlight>large</> [Glimmerfly] hits a target, it splits into <Highlight>3</> <Highlight>small</> [Glimmerflies].",
+          ContentEN = "Max [Glimmerflies] <Highlight>+1</>. Larger variants split into <Highlight>3</> standard [Glimmerflies] on hit.",
           TextMapId = "RLBlessingGroup_Desc_603"
         },
         RLBlessingGroup_Desc_604 = {
@@ -31175,11 +32440,11 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_7"
         },
         RLBlessingGroup_Desc_701 = {
-          ContentEN = "Defeating an enemy increases Max HP by <Highlight>1%</> (up to <Highlight>100%</>).",
+          ContentEN = "Each Lampwick in this set additionally grants +<Highlight>10%</> Skill Duration.\nDefeating an enemy increases Max HP by <Highlight>0.5%</> (max <Highlight>50%</>).",
           TextMapId = "RLBlessingGroup_Desc_701"
         },
         RLBlessingGroup_Desc_702 = {
-          ContentEN = "Restores <Highlight>0.5%</> of Max HP per second. For every <Highlight>25%</> decrease in HP, the effect is increased by <Highlight>0.167%</>.",
+          ContentEN = "Restores <Highlight>1%</> Max HP per second. Effect boosted by <Highlight>0.33%</> for every <Highlight>25%</> HP lost.",
           TextMapId = "RLBlessingGroup_Desc_702"
         },
         RLBlessingGroup_Desc_703 = {
@@ -31187,7 +32452,7 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_703"
         },
         RLBlessingGroup_Desc_704 = {
-          ContentEN = "When taking damage, the character's Max HP is increased by <Highlight>100%</> for <Highlight>60</>s. This effect can only be triggered once every <Highlight>20</>s.\nWhen the HP percentage is above <Highlight>40%</>, the HP value related to [Vamprose] effect will be regarded as <Highlight>40%</>.",
+          ContentEN = "When above <Highlight>40%</> HP, all [Vamprose] effects that scale with current HP percentage (including Morale and Resolve) use a capped value of <Highlight>40%</>.",
           TextMapId = "RLBlessingGroup_Desc_704"
         },
         RLBlessingGroup_Desc_unknown = {
@@ -31243,15 +32508,15 @@ local Data = {
           TextMapId = "RLBlessing_Desc_103"
         },
         RLBlessing_Desc_104 = {
-          ContentEN = "Restores <Highlight>$1</> HP when defeating enemies within an <Highlight>8</>-metre range.",
+          ContentEN = "Defeating enemies within <Highlight>$2</>m restores <Highlight>$1</> HP.",
           TextMapId = "RLBlessing_Desc_104"
         },
         RLBlessing_Desc_105 = {
-          ContentEN = "Decreases Damage Taken from enemies within an <Highlight>8</>-metre range or those with <Highlight>[Molten Blaze]</> by <Highlight>$1</>.",
+          ContentEN = "Takes <Highlight>$1</> less damage from enemies within <Highlight>$2</>m, or from those afflicted with [Molten Blaze].",
           TextMapId = "RLBlessing_Desc_105"
         },
         RLBlessing_Desc_106 = {
-          ContentEN = "When <Highlight>taking damage</>, inflicts <Highlight>1</> stack of <Highlight>[Molten Blaze]</> to enemies within an <Highlight>8</>-metre range. This effect can only be triggered once every <Highlight>$1</>s.",
+          ContentEN = "Taking damage applies <Highlight>1</> stack of [Molten Blaze] to enemies within <Highlight>8</>m. Can trigger once every <Highlight>$1</>s.",
           TextMapId = "RLBlessing_Desc_106"
         },
         RLBlessing_Desc_107 = {
@@ -31267,11 +32532,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_109"
         },
         RLBlessing_Desc_110 = {
-          ContentEN = "Applies <Highlight>1</> stack of <Highlight>[Molten Blaze]</> to enemies within an <Highlight>8</>-metre range every <Highlight>$1</>s.",
+          ContentEN = "Applies <Highlight>1</> stack of [Molten Blaze] to enemies within <Highlight>8</>m every <Highlight>$1</>s.",
           TextMapId = "RLBlessing_Desc_110"
         },
         RLBlessing_Desc_111 = {
-          ContentEN = "When dealing damage to enemies with more than <Highlight>2</> stacks of <Highlight>[Molten Blaze]</>, restores HP by <Highlight>$1</>. This effect can only be triggered once every <Highlight>0.5</>s.",
+          ContentEN = "Dealing damage to enemies afflicted with more than <Highlight>$3</> stacks of [Molten Blaze] restores <Highlight>$1</> HP. Can trigger once every <Highlight>$2</>s.",
           TextMapId = "RLBlessing_Desc_111"
         },
         RLBlessing_Desc_112 = {
@@ -31279,11 +32544,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_112"
         },
         RLBlessing_Desc_113 = {
-          ContentEN = "When any damage reduces a target's HP below <Highlight>30%</>, deal 1 additional <Highlight>$1</> character ATK. This effect can only be triggered once every <Highlight>$2</>s on the same target.",
+          ContentEN = "If damage reduces a target's HP below <Highlight>$3</>, deals bonus damage equal to <Highlight>$1</> of Character ATK. Can only trigger once every <Highlight>$2</>s on the same target.",
           TextMapId = "RLBlessing_Desc_113"
         },
         RLBlessing_Desc_114 = {
-          ContentEN = "Melee Weapon deals an additional <Highlight>$1</> character ATK against targets with over <Highlight>4</> stacks of <Highlight>[Molten Blaze]</>.",
+          ContentEN = "Melee weapons deal bonus damage equal to <Highlight>$1</> of Character ATK to targets afflicted with more than <Highlight>$2</> stacks of [Molten Blaze].",
           TextMapId = "RLBlessing_Desc_114"
         },
         RLBlessing_Desc_115 = {
@@ -31299,7 +32564,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_202"
         },
         RLBlessing_Desc_203 = {
-          ContentEN = "Spawns [Ammo Supply Chest] when dealing damage with a ranged weapon. This effect can only be triggered once every <Highlight>$1</>s. While [Seaborne Moon] Phase II is active, spawns <Highlight>1</> additional [Mini Seaborne Moon].",
+          ContentEN = "Dealing damage with ranged weapons spawns an [Ammo Supply Chest] (max once per <Highlight>$1</>s). While [Seaborne Moon] Phase II is active, spawns <Highlight>1</> extra [Mini Seaborne Moon].",
           TextMapId = "RLBlessing_Desc_203"
         },
         RLBlessing_Desc_204 = {
@@ -31311,7 +32576,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_205"
         },
         RLBlessing_Desc_206 = {
-          ContentEN = "Spawns <Highlight>3</> [Mini Seaborne Moons] upon entering the [R&R] Zone.",
+          ContentEN = "If enemies are within <Highlight>20</>m and Phase III is active, increases Character ATK by <Highlight>$1</>; otherwise, increases Character ATK by <Highlight>$2</>.",
           TextMapId = "RLBlessing_Desc_206"
         },
         RLBlessing_Desc_207 = {
@@ -31323,7 +32588,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_208"
         },
         RLBlessing_Desc_209 = {
-          ContentEN = "Increases supply probability of [Stash of the Ocean] to <Highlight>$1</> when HP or Sanity drops below 50%. Increases [Mini Seaborne Moons] spawned by 100% when HP, Sanity, or Ammo drops below 50%.",
+          ContentEN = "When HP or Sanity drops below <Highlight>$2</>, <Highlight>[Stash of the Ocean]</> is more likely to generate matching supplies (boosted chance: <Highlight>$1</>).\nWhen HP, Sanity, or Ammo falls below <Highlight>$2</>, increases [Mini Seaborne Moons] spawned by <Highlight>100%</>.",
           TextMapId = "RLBlessing_Desc_209"
         },
         RLBlessing_Desc_210 = {
@@ -31331,7 +32596,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_210"
         },
         RLBlessing_Desc_211 = {
-          ContentEN = "Decreases Geniemon Support cooldown by <Highlight>$1</>s.",
+          ContentEN = "Reduces Geniemon Support cooldown by <Highlight>$1</>.",
           TextMapId = "RLBlessing_Desc_211"
         },
         RLBlessing_Desc_212 = {
@@ -31343,7 +32608,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_213"
         },
         RLBlessing_Desc_214 = {
-          ContentEN = "Dealing damage with Ranged Weapon to targets over <Highlight>8</> metres away applies 1 stack of Ranged Weapon DMG Increase by 1% (up to <Highlight>$1</>).",
+          ContentEN = "Dealing Ranged Weapon DMG to targets beyond <Highlight>$2</>m inflicts +<Highlight>$1</> Ranged Weapon DMG Taken (up to <Highlight>$3</> max).",
           TextMapId = "RLBlessing_Desc_214"
         },
         RLBlessing_Desc_215 = {
@@ -31359,7 +32624,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_302"
         },
         RLBlessing_Desc_303 = {
-          ContentEN = "When using skills, gains 1 stack that increases Skill Efficiency by <Highlight>$2</> for <Highlight>$1</>s, up to <Highlight>$3</> stacks.",
+          ContentEN = "Increases Skill Efficiency by <Highlight>#1</>.",
           TextMapId = "RLBlessing_Desc_303"
         },
         RLBlessing_Desc_304 = {
@@ -31391,11 +32656,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_310"
         },
         RLBlessing_Desc_311 = {
-          ContentEN = "While in <Highlight>[Radiance]</> status, restores Sanity by <Highlight>$1</> per second.",
+          ContentEN = "While under [Radiance], restores ‍<Highlight>$1</>‍ Sanity per second.",
           TextMapId = "RLBlessing_Desc_311"
         },
         RLBlessing_Desc_312 = {
-          ContentEN = "When using skills, gains 1 stack that increases Skill Damage by <Highlight>$2</> for <Highlight>$1</>s, up to <Highlight>$3</> stacks.",
+          ContentEN = "Increases Skill Damage by <Highlight>#1</>.",
           TextMapId = "RLBlessing_Desc_312"
         },
         RLBlessing_Desc_313 = {
@@ -31403,23 +32668,23 @@ local Data = {
           TextMapId = "RLBlessing_Desc_313"
         },
         RLBlessing_Desc_314 = {
-          ContentEN = "<Highlight>[Radiance]</> now increases Skill DMG to <Highlight>$1</>.",
+          ContentEN = "The Skill Damage Increase granted by [Radiance] is raised to <Highlight>$1</>.",
           TextMapId = "RLBlessing_Desc_314"
         },
         RLBlessing_Desc_315 = {
-          ContentEN = "Decreases <Highlight>[Emission]</> intervals to <Highlight>$1</>s.",
+          ContentEN = "Reduces [Emission] cooldown to <Highlight>$1</>s.",
           TextMapId = "RLBlessing_Desc_315"
         },
         RLBlessing_Desc_401 = {
-          ContentEN = "When dealing damage, there is a <Highlight>$1</> chance to summon 1 <Highlight>[Lumiseed]</>. This effect can only be triggered once every <Highlight>$2</>s.",
+          ContentEN = "Dealing damage has a <Highlight>$1</> chance to summon 1 [Lumiseed] (max once per <Highlight>$2</>s).",
           TextMapId = "RLBlessing_Desc_401"
         },
         RLBlessing_Desc_402 = {
-          ContentEN = "Defeating enemies grants a <Highlight>$1</> chance to summon 1 <Highlight>[Lumiseed]</>.",
+          ContentEN = "Summoning grants +<Highlight>$1</> Skill Damage for <Highlight>$2</>s. Stacks up to <Highlight>$3</> times.",
           TextMapId = "RLBlessing_Desc_402"
         },
         RLBlessing_Desc_403 = {
-          ContentEN = "Summoning any non-<Highlight>Lumitwig</> items also calls forth 1 <Highlight>[Lumiseed]</>.",
+          ContentEN = "Summoning grants +<Highlight>$1</> Character ATK for <Highlight>$2</>s. Stacks up to <Highlight>$3</> times.",
           TextMapId = "RLBlessing_Desc_403"
         },
         RLBlessing_Desc_404 = {
@@ -31435,11 +32700,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_406"
         },
         RLBlessing_Desc_407 = {
-          ContentEN = "Summons 1 <Highlight>[Lumiseed]</> every <Highlight>$1</>s.",
+          ContentEN = "Every <Highlight>$1</>s, summons 1 [Lumiseed] ",
           TextMapId = "RLBlessing_Desc_407"
         },
         RLBlessing_Desc_408 = {
-          ContentEN = "When taking damage, there is a <Highlight>$1</> chance to summon 1 <Highlight>[Lumiseed]</>. This effect can only be triggered once every <Highlight>$2</>s.",
+          ContentEN = "Taking damage has a <Highlight>$1</> chance to summon 1 [Lumiseed] (max once per <Highlight>$2</>s).",
           TextMapId = "RLBlessing_Desc_408"
         },
         RLBlessing_Desc_409 = {
@@ -31447,11 +32712,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_409"
         },
         RLBlessing_Desc_410 = {
-          ContentEN = "<Highlight>[Lumiseed]</> and <Highlight>[Lumileaf]</> explosions deal an extra <Highlight>$1</> ATK Damage.",
+          ContentEN = "Receiving healing grants +<Highlight>$1</> Damage Dealt for $2s.",
           TextMapId = "RLBlessing_Desc_410"
         },
         RLBlessing_Desc_411 = {
-          ContentEN = "<Highlight>[Lumiseed]</> and <Highlight>[Lumileaf]</> explosions weaken the target's Stance more effectively.",
+          ContentEN = "Summoning reduces the Stance of enemies within <Highlight>6</>m of the summon location.",
           TextMapId = "RLBlessing_Desc_411"
         },
         RLBlessing_Desc_412 = {
@@ -31463,23 +32728,23 @@ local Data = {
           TextMapId = "RLBlessing_Desc_413"
         },
         RLBlessing_Desc_414 = {
-          ContentEN = "Triggers 1 <Highlight>[Lumileaf]</> explosion at the location when summoning Summons.",
+          ContentEN = "Summoning a non-Lumitwig Summon triggers an explosion at its location, dealing damage equal to <Highlight>$1</> ATK.",
           TextMapId = "RLBlessing_Desc_414"
         },
         RLBlessing_Desc_415 = {
-          ContentEN = "<Highlight>[Lumiseed]</> now evolves into <Highlight>[Lumileaf]</> <Highlight>100%</> of the time.",
+          ContentEN = "Increases the chance for a [Lumiseed] to evolve into a [Lumileaf] to <Highlight>100%</>.",
           TextMapId = "RLBlessing_Desc_415"
         },
         RLBlessing_Desc_501 = {
-          ContentEN = "Increases ATK by <Highlight>$1</> for <Highlight>$2</>s when performing Helix Leap.",
+          ContentEN = "Helix Leap grants +<Highlight>$1</> ATK for <Highlight>$2</>s and <Highlight>$3</> stack(s) of [Umbral Devourer].",
           TextMapId = "RLBlessing_Desc_501"
         },
         RLBlessing_Desc_502 = {
-          ContentEN = "Decreases Damage Taken by <Highlight>$1</> for <Highlight>$2</>s when performing Helix Leap.",
+          ContentEN = "Sliding spawns 3 [Windwings], each dealing damage equal to <Highlight>$1</> of Character ATK on hit. Also grants <Highlight>$2</> stack(s) of [Umbral Devourer].",
           TextMapId = "RLBlessing_Desc_502"
         },
         RLBlessing_Desc_503 = {
-          ContentEN = "Immune to Hitstun for <Highlight>$1</>s after performing a Dodge.",
+          ContentEN = "Dodging grants -<Highlight>$1</> Damage Taken for <Highlight>$2</>s and <Highlight>$3</> stack(s) of [Umbral Devourer].",
           TextMapId = "RLBlessing_Desc_503"
         },
         RLBlessing_Desc_504 = {
@@ -31487,11 +32752,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_504"
         },
         RLBlessing_Desc_505 = {
-          ContentEN = "Increases Melee Attack Speed by <Highlight>#1</>.",
+          ContentEN = "Skill Speed +<Highlight>$1</>.",
           TextMapId = "RLBlessing_Desc_505"
         },
         RLBlessing_Desc_506 = {
-          ContentEN = "Plunging Attack grants a <Highlight>$1</> chance to spawn 1 <Highlight>[Powder]</> field.",
+          ContentEN = "When dealing damage to an enemy with Plunging Attacks, grants <Highlight>$3</> stack(s) of [Umbral Devourer] and creates a [Powder] zone on hit, dealing damage equal to <Highlight>$2</> of Character ATK per second to enemies inside. Can trigger once every <Highlight>$1</>s.",
           TextMapId = "RLBlessing_Desc_506"
         },
         RLBlessing_Desc_507 = {
@@ -31507,11 +32772,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_509"
         },
         RLBlessing_Desc_510 = {
-          ContentEN = "When performing a Dodge, creates 1 <Highlight>[Powder]</> field. This effect can only be triggered once every <Highlight>$1</>s.",
+          ContentEN = "Dodging spawns a [Powder] field, dealing damage equal to <Highlight>$2</> of Character ATK per second to enemies inside. Can trigger once every <Highlight>$1</>s.",
           TextMapId = "RLBlessing_Desc_510"
         },
         RLBlessing_Desc_511 = {
-          ContentEN = "Increases <Highlight>[Powder]</>'s Damage Dealt per second Multiplier to <Highlight>$1</>.",
+          ContentEN = "Gains <Highlight>$2</> stack(s) of [Umbral Devourer] every <Highlight>$1</>s. When stacks exceed <Highlight>$3</>, each new stack granted by this Blessing also launches a [Bladewing] that deals damage equal to <Highlight>$4</> of Character ATK on hit.",
           TextMapId = "RLBlessing_Desc_511"
         },
         RLBlessing_Desc_512 = {
@@ -31519,11 +32784,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_512"
         },
         RLBlessing_Desc_513 = {
-          ContentEN = "Increases CRIT Damage by <Highlight>$1</>.",
+          ContentEN = "Character ATK +<Highlight>#1</>.",
           TextMapId = "RLBlessing_Desc_513"
         },
         RLBlessing_Desc_514 = {
-          ContentEN = "Increases CRIT Chance by <Highlight>$1</> while standing within the <Highlight>[Powder]</> range.",
+          ContentEN = "ATK Speed +<Highlight>$1</>.",
           TextMapId = "RLBlessing_Desc_514"
         },
         RLBlessing_Desc_515 = {
@@ -31535,11 +32800,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_601"
         },
         RLBlessing_Desc_602 = {
-          ContentEN = "When dealing damage, there is a <Highlight>$1</> chance to get <Highlight>1</> [Glimmerfly] that lasts for <Highlight>30</>s, with a maximum of <Highlight>3</> [Glimmerflies] existing at the same time.\n[Glimmerfly] flies to the target after locking on and deals damage equal to <Highlight>300%</> of the character's ATK.",
+          ContentEN = "When dealing damage, there's a <Highlight>$1</> chance to spawn <Highlight>1</> Glimmerfly.",
           TextMapId = "RLBlessing_Desc_602"
         },
         RLBlessing_Desc_603 = {
-          ContentEN = "Grants <Highlight>$1</> [Glimmerfly] that lasts for <Highlight>30</>s every <Highlight>$1</>s, with a maximum of <Highlight>3</> [Glimmerflies] existing at the same time.\n[Glimmerfly] flies to the target after locking on and deals damage equal to <Highlight>300%</> of the character's ATK.",
+          ContentEN = "Gains <Highlight>1</> [Glimmerfly] every <Highlight>$1</>s.",
           TextMapId = "RLBlessing_Desc_603"
         },
         RLBlessing_Desc_604 = {
@@ -31559,7 +32824,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_607"
         },
         RLBlessing_Desc_608 = {
-          ContentEN = "When taking damage or summoning a creature, gains <Highlight>$1</> [Glimmerfly] that lasts for <Highlight>30</>s, with a maximum of <Highlight>3</> [Glimmerflies] existing at the same time.\nThis effect can only be triggered once every <Highlight>$1</>s.\n[Glimmerfly] flies to the target after locking on and deals damage equal to <Highlight>300%</> of the character's ATK.",
+          ContentEN = "Taking damage or summoning grants <Highlight>1</> [Glimmerfly] (max once per <Highlight>$1</>s).",
           TextMapId = "RLBlessing_Desc_608"
         },
         RLBlessing_Desc_609 = {
@@ -31571,7 +32836,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_610"
         },
         RLBlessing_Desc_611 = {
-          ContentEN = "Grants <Highlight>1</> Revival attempt. Decreases Damage Taken by <Highlight>$1</> when [Glimmerfly] is around. The effect is removed upon the next revival.",
+          ContentEN = "+<Highlight>#1</> Revival(s). Reduces Damage Taken by <Highlight>$1</> when carrying at least 1 [Glimmerfly]. Effect is consumed on revival.",
           TextMapId = "RLBlessing_Desc_611"
         },
         RLBlessing_Desc_612 = {
@@ -31583,7 +32848,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_613"
         },
         RLBlessing_Desc_614 = {
-          ContentEN = "When there are enemies within range, the attack interval of [Glimmerfly] is significantly reduced for <Highlight>5</>s. This effect can only be triggered once every <Highlight>$1</>s.",
+          ContentEN = "[Glimmerflies] attack much more frequently for <Highlight>$2</>s when an enemy is nearby (max once per <Highlight>$1</>s).",
           TextMapId = "RLBlessing_Desc_614"
         },
         RLBlessing_Desc_615 = {
@@ -31607,11 +32872,11 @@ local Data = {
           TextMapId = "RLBlessing_Desc_704"
         },
         RLBlessing_Desc_705 = {
-          ContentEN = "When taking damage, increases Damage Dealt by <Highlight>$1</> for <Highlight>10</>s. This effect can only be triggered once every <Highlight>20</>s.",
+          ContentEN = "+<Highlight>#1</> DEF. When taking damage, gains +<Highlight>$1</> Damage Dealt for <Highlight>$2</>s. Can trigger once every <Highlight>$3</> seconds.",
           TextMapId = "RLBlessing_Desc_705"
         },
         RLBlessing_Desc_706 = {
-          ContentEN = "When dealing damage, deals an additional AoE Damage equal to <Highlight>$1</> of the character's Max HP to the target. This effect can only be triggerd once every <Highlight>1</>s.",
+          ContentEN = "When dealing damage, also deals bonus AoE DMG equal to <Highlight>$1</> Max HP at the target's location (max once per <Highlight>$2</>s).",
           TextMapId = "RLBlessing_Desc_706"
         },
         RLBlessing_Desc_707 = {
@@ -31631,15 +32896,15 @@ local Data = {
           TextMapId = "RLBlessing_Desc_710"
         },
         RLBlessing_Desc_711 = {
-          ContentEN = "When taking damage, gains <Highlight>$1</> Ultra Shields. This effect can only be triggered once every <Highlight>5</>s.",
+          ContentEN = "When taking damage, grants <Highlight>$1</> Ultra Shield points (once every <Highlight>$2</>s max).",
           TextMapId = "RLBlessing_Desc_711"
         },
         RLBlessing_Desc_712 = {
-          ContentEN = "Max Damage Taken per hit will not exceed <Highlight>#1</> of your Max HP. After taking damage equal to over <Highlight>20%</> of Max HP, restores <Highlight>$1</> of Max HP per second for the following <Highlight>5</>s.",
+          ContentEN = "Your Damage Taken per hit will not exceed <Highlight>#1</> Max HP. After taking damage exceeding <Highlight>$2</> Max HP, restores <Highlight>$1</> Max HP per second for <Highlight>$3</>s.",
           TextMapId = "RLBlessing_Desc_712"
         },
         RLBlessing_Desc_713 = {
-          ContentEN = "Increases Melee Weapon ATK Speed by <Highlight>$2</> when HP is below <Highlight>100%</> and by <Highlight>$1</> when HP is <Highlight>100%</>.",
+          ContentEN = "Ultimate consumes all DEF, converting <Highlight>$1</> of it into Character ATK for <Highlight>$2</>s. This effect can only be triggered once every <Highlight>$3</>s on the same target.",
           TextMapId = "RLBlessing_Desc_713"
         },
         RLBlessing_Desc_714 = {
@@ -31647,7 +32912,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_714"
         },
         RLBlessing_Desc_715 = {
-          ContentEN = "Increases Malaise by <Highlight>$2</> when HP is below <Highlight>40%</> and by <Highlight>$1</> when HP equal to or above <Highlight>40%</>.",
+          ContentEN = "Increases Resolve by <Highlight>$2</> when HP is below <Highlight>40%</> and by <Highlight>$1</> when HP equal to or above <Highlight>40%</>.",
           TextMapId = "RLBlessing_Desc_715"
         },
         RLBlessing_Name_101 = {
@@ -31835,11 +33100,11 @@ local Data = {
           TextMapId = "RLBlessing_Name_401"
         },
         RLBlessing_Name_402 = {
-          ContentEN = "Cycle of Life",
+          ContentEN = "Nature's Rhythm",
           TextMapId = "RLBlessing_Name_402"
         },
         RLBlessing_Name_403 = {
-          ContentEN = "Nature's Cultivation",
+          ContentEN = "Nature's Roar",
           TextMapId = "RLBlessing_Name_403"
         },
         RLBlessing_Name_404 = {
@@ -32091,11 +33356,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_104"
         },
         RLBlessing_SimpleDesc_105 = {
-          ContentEN = "Takes less Damage from enemies at <Highlight>close range</> or those affected by <Highlight>[Molten Blaze]</>.",
+          ContentEN = "Takes reduced damage from <Highlight>nearby</> enemies or those afflicted with [Molten Blaze].",
           TextMapId = "RLBlessing_SimpleDesc_105"
         },
         RLBlessing_SimpleDesc_106 = {
-          ContentEN = "<Highlight>When taking Damage</>, applies <Highlight>[Molten Blaze]</> to enemies at <Highlight>close range</>.",
+          ContentEN = "Taking damage applies [Molten Blaze] to <Highlight>nearby</> enemies.",
           TextMapId = "RLBlessing_SimpleDesc_106"
         },
         RLBlessing_SimpleDesc_107 = {
@@ -32111,11 +33376,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_109"
         },
         RLBlessing_SimpleDesc_110 = {
-          ContentEN = "Applies <Highlight>[Molten Blaze]</> at intervals to enemies at close range</>.",
+          ContentEN = "Periodically applies [Molten Blaze] to <Highlight>nearby</> enemies.",
           TextMapId = "RLBlessing_SimpleDesc_110"
         },
         RLBlessing_SimpleDesc_111 = {
-          ContentEN = "Dealing damage to enemies with more than <Highlight>2</> stacks of <Highlight>[Molten Flame]</> restores HP.",
+          ContentEN = "Restores HP when dealing damage to enemies afflicted with [Molten Blaze].",
           TextMapId = "RLBlessing_SimpleDesc_111"
         },
         RLBlessing_SimpleDesc_112 = {
@@ -32127,7 +33392,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_113"
         },
         RLBlessing_SimpleDesc_114 = {
-          ContentEN = "Melee Weapon deals <Highlight>additional</> damage against targets with higher <Highlight>[Molten Blaze]</> stacks.",
+          ContentEN = "Melee weapons deal <Highlight>bonus</> damage to enemies afflicted with more [Molten Blaze] stacks.",
           TextMapId = "RLBlessing_SimpleDesc_114"
         },
         RLBlessing_SimpleDesc_115 = {
@@ -32155,7 +33420,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_205"
         },
         RLBlessing_SimpleDesc_206 = {
-          ContentEN = "Spawns [Mini Seaborne Moon] upon entering the [R&R] Zone.",
+          ContentEN = "Character ATK increases when enemies are nearby.",
           TextMapId = "RLBlessing_SimpleDesc_206"
         },
         RLBlessing_SimpleDesc_207 = {
@@ -32187,7 +33452,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_213"
         },
         RLBlessing_SimpleDesc_214 = {
-          ContentEN = "Targets over <Highlight>8</> metres away take progressively more Ranged Weapon DMG.",
+          ContentEN = "Ranged weapons deal more damage the further away the target is.",
           TextMapId = "RLBlessing_SimpleDesc_214"
         },
         RLBlessing_SimpleDesc_215 = {
@@ -32235,11 +33500,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_310"
         },
         RLBlessing_SimpleDesc_311 = {
-          ContentEN = "While in <Highlight>[Radiance]</> status, restores Sanity per second.",
+          ContentEN = "Restores Sanity every second while under [Radiance].",
           TextMapId = "RLBlessing_SimpleDesc_311"
         },
         RLBlessing_SimpleDesc_312 = {
-          ContentEN = "Increases Skill Damage when using skills.",
+          ContentEN = "Increases Skill Damage.",
           TextMapId = "RLBlessing_SimpleDesc_312"
         },
         RLBlessing_SimpleDesc_313 = {
@@ -32247,23 +33512,23 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_313"
         },
         RLBlessing_SimpleDesc_314 = {
-          ContentEN = "<Highlight>[Radiance]</> now grants higher Skill DMG Increase.",
+          ContentEN = "[Radiance] now grants higher Skill DMG Increase.",
           TextMapId = "RLBlessing_SimpleDesc_314"
         },
         RLBlessing_SimpleDesc_315 = {
-          ContentEN = "Decreases <Highlight>[Emission]</> intervals.",
+          ContentEN = "[Emission] triggers more frequently.",
           TextMapId = "RLBlessing_SimpleDesc_315"
         },
         RLBlessing_SimpleDesc_401 = {
-          ContentEN = "Deals damage with a chance to summon 1 <Highlight>[Lumiseed]</>.",
+          ContentEN = "Dealing damage has a chance to summon 1 [Lumiseed].",
           TextMapId = "RLBlessing_SimpleDesc_401"
         },
         RLBlessing_SimpleDesc_402 = {
-          ContentEN = "Defeating enemies grants a chance to summon 1 <Highlight>[Lumiseed]</>.",
+          ContentEN = "Grants Skill Damage Increase when summoning.",
           TextMapId = "RLBlessing_SimpleDesc_402"
         },
         RLBlessing_SimpleDesc_403 = {
-          ContentEN = "Summoning any non-<Highlight>Lumitwig</> items also calls forth 1 <Highlight>[Lumiseed]</>.",
+          ContentEN = "Increases your ATK when summoning Summons.",
           TextMapId = "RLBlessing_SimpleDesc_403"
         },
         RLBlessing_SimpleDesc_404 = {
@@ -32279,11 +33544,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_406"
         },
         RLBlessing_SimpleDesc_407 = {
-          ContentEN = "Summons 1 <Highlight>[Lumiseed]</> at intervals.",
+          ContentEN = "Periodically summons 1 [Lumiseed].",
           TextMapId = "RLBlessing_SimpleDesc_407"
         },
         RLBlessing_SimpleDesc_408 = {
-          ContentEN = "Taking damage grants a chance to summon 1 <Highlight>[Lumiseed]</>.",
+          ContentEN = "Taking damage has a chance to summon 1 [Lumiseed].",
           TextMapId = "RLBlessing_SimpleDesc_408"
         },
         RLBlessing_SimpleDesc_409 = {
@@ -32291,11 +33556,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_409"
         },
         RLBlessing_SimpleDesc_410 = {
-          ContentEN = "<Highlight>[Lumiseed]</> and <Highlight>[Lumileaf]</> explosions deal an extra Damage.",
+          ContentEN = "Receiving healing increases Damage Dealt for a short period of time.",
           TextMapId = "RLBlessing_SimpleDesc_410"
         },
         RLBlessing_SimpleDesc_411 = {
-          ContentEN = "<Highlight>[Lumiseed]</> and <Highlight>[Lumileaf]</> explosions weaken the target's Stance more effectively.",
+          ContentEN = "Summoning reduces the Stance of enemies near the summon location.",
           TextMapId = "RLBlessing_SimpleDesc_411"
         },
         RLBlessing_SimpleDesc_412 = {
@@ -32307,23 +33572,23 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_413"
         },
         RLBlessing_SimpleDesc_414 = {
-          ContentEN = "Triggers 1 <Highlight>[Lumileaf]</> explosion at the location when summoning Summons.",
+          ContentEN = "Summoning a non-Lumitwig Summon triggers an explosion at its location.",
           TextMapId = "RLBlessing_SimpleDesc_414"
         },
         RLBlessing_SimpleDesc_415 = {
-          ContentEN = "<Highlight>[Lumiseed]</> now evolves into <Highlight>[Lumileaf]</> <Highlight>100%</> of the time.",
+          ContentEN = "Increases the chance for a [Lumiseed] to evolve into a [Lumileaf] to <Highlight>100%</>.",
           TextMapId = "RLBlessing_SimpleDesc_415"
         },
         RLBlessing_SimpleDesc_501 = {
-          ContentEN = "Incrases ATK when performing Helix Leap.",
+          ContentEN = "Performing a Helix Leap grants an ATK Increase and 1 stack of [Umbral Devourer].",
           TextMapId = "RLBlessing_SimpleDesc_501"
         },
         RLBlessing_SimpleDesc_502 = {
-          ContentEN = "Decreases Damage Taken when performing Helix Leap.",
+          ContentEN = "Performing a Slide spawns 3 [Windwings] and grants 1 stack of [Umbral Devourer].",
           TextMapId = "RLBlessing_SimpleDesc_502"
         },
         RLBlessing_SimpleDesc_503 = {
-          ContentEN = "Immune to Hitstun for a certain period after performing a Dodge.",
+          ContentEN = "Dodging reduces Damage Taken and grants 1 stack of [Umbral Devourer].",
           TextMapId = "RLBlessing_SimpleDesc_503"
         },
         RLBlessing_SimpleDesc_504 = {
@@ -32331,11 +33596,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_504"
         },
         RLBlessing_SimpleDesc_505 = {
-          ContentEN = "Increases Melee Attack Speed.",
+          ContentEN = "Increases Skill Speed",
           TextMapId = "RLBlessing_SimpleDesc_505"
         },
         RLBlessing_SimpleDesc_506 = {
-          ContentEN = "Plunging Attack grants a chance to spawn 1 <Highlight>[Powder]</> field.",
+          ContentEN = "When dealing damage to an enemy with Plunging Attacks, creates a [Powder] zone on hit and grants 1 stack of [Umbral Devourer].",
           TextMapId = "RLBlessing_SimpleDesc_506"
         },
         RLBlessing_SimpleDesc_507 = {
@@ -32351,11 +33616,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_509"
         },
         RLBlessing_SimpleDesc_510 = {
-          ContentEN = "Dodging spawns 1 <Highlight>[Powder]</> field.",
+          ContentEN = "Dodging creates a [Powder] zone.",
           TextMapId = "RLBlessing_SimpleDesc_510"
         },
         RLBlessing_SimpleDesc_511 = {
-          ContentEN = "Increases <Highlight>[Powder]</>'s Damage Dealt per second multiplier.",
+          ContentEN = "Periodically grants 1 stack of [Umbral Devourer]. When stacks exceed a threshold, fires an extra [Bladewing].",
           TextMapId = "RLBlessing_SimpleDesc_511"
         },
         RLBlessing_SimpleDesc_512 = {
@@ -32363,11 +33628,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_512"
         },
         RLBlessing_SimpleDesc_513 = {
-          ContentEN = "Increases CRIT Damage.",
+          ContentEN = "Increases Character ATK.",
           TextMapId = "RLBlessing_SimpleDesc_513"
         },
         RLBlessing_SimpleDesc_514 = {
-          ContentEN = "Increases CRIT Chance while standing within the <Highlight>[Powder]</> range.",
+          ContentEN = "Increases ATK Speed.",
           TextMapId = "RLBlessing_SimpleDesc_514"
         },
         RLBlessing_SimpleDesc_515 = {
@@ -32379,11 +33644,11 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_601"
         },
         RLBlessing_SimpleDesc_602 = {
-          ContentEN = "When dealing damage, there is a chance to get [Glimmerflies].\n[Glimmerfly]: Automatically seeks and attacks enemies.",
+          ContentEN = "Dealing damage has a chance to spawn 1 [Glimmerfly].",
           TextMapId = "RLBlessing_SimpleDesc_602"
         },
         RLBlessing_SimpleDesc_603 = {
-          ContentEN = "Gets [Glimmerflies] every <Highlight>10</>s.\n[Glimmerfly]: Automatically seeks and attacks enemies.",
+          ContentEN = "Grants 1 [Glimmerfly] every <Highlight>10</>s.",
           TextMapId = "RLBlessing_SimpleDesc_603"
         },
         RLBlessing_SimpleDesc_604 = {
@@ -32403,7 +33668,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_607"
         },
         RLBlessing_SimpleDesc_608 = {
-          ContentEN = "Gets [Glimmerflies] when taking damage or summoning items.\n[Glimmerfly]: Automatically seeks and attacks enemies.",
+          ContentEN = "Taking damage or summoning grants 1 [Glimmerfly].",
           TextMapId = "RLBlessing_SimpleDesc_608"
         },
         RLBlessing_SimpleDesc_609 = {
@@ -32415,7 +33680,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_610"
         },
         RLBlessing_SimpleDesc_611 = {
-          ContentEN = "Grants <Highlight>1</> Revival attempt. Decreases Damage Taken when [Glimmerfly] is around. The effect is removed upon the next revival.",
+          ContentEN = "Grants 1 extra Revival. Reduces Damage Taken while carrying [Glimmerflies]. Effect is consumed on revival.",
           TextMapId = "RLBlessing_SimpleDesc_611"
         },
         RLBlessing_SimpleDesc_612 = {
@@ -32451,7 +33716,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_704"
         },
         RLBlessing_SimpleDesc_705 = {
-          ContentEN = "Increases Damage Dealt when taking damage.",
+          ContentEN = "Increases DEF. Increases Damage Dealt when taking damage.",
           TextMapId = "RLBlessing_SimpleDesc_705"
         },
         RLBlessing_SimpleDesc_706 = {
@@ -32483,7 +33748,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_712"
         },
         RLBlessing_SimpleDesc_713 = {
-          ContentEN = "Increases Melee Weapon ATK Speed. The effect intensifies at lower HP.",
+          ContentEN = "Using an Ultimate consumes all DEF to boost Character ATK.",
           TextMapId = "RLBlessing_SimpleDesc_713"
         },
         RLBlessing_SimpleDesc_714 = {
@@ -32491,7 +33756,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_714"
         },
         RLBlessing_SimpleDesc_715 = {
-          ContentEN = "Increases Malaise. The effect intensifies at lower HP.",
+          ContentEN = "Increases Resolve. The effect intensifies at lower HP.",
           TextMapId = "RLBlessing_SimpleDesc_715"
         },
         RLBlessing_SimpleDesc_Switch = {
@@ -32947,143 +34212,143 @@ local Data = {
           TextMapId = "RLGroup_InActive"
         },
         RLTalent_Desc_101 = {
-          ContentEN = "Skill Damage +<Highlight>4.8%</>",
+          ContentEN = "+<Highlight>#1</> Skill Damage",
           TextMapId = "RLTalent_Desc_101"
         },
         RLTalent_Desc_102 = {
-          ContentEN = "Skill Efficiency +<Highlight>3%</>",
+          ContentEN = "+<Highlight>#1</> Skill Efficiency",
           TextMapId = "RLTalent_Desc_102"
         },
         RLTalent_Desc_103 = {
-          ContentEN = "Skill Range +<Highlight>5.4%</>",
+          ContentEN = "+<Highlight>#1</> Skill Range",
           TextMapId = "RLTalent_Desc_103"
         },
         RLTalent_Desc_104 = {
-          ContentEN = "Skill Duration +<Highlight>5.4%</>",
+          ContentEN = "+<Highlight>#1</> Skill Duration",
           TextMapId = "RLTalent_Desc_104"
         },
         RLTalent_Desc_105 = {
-          ContentEN = "ATK +<Highlight>6%</>",
+          ContentEN = "+<Highlight>#1</> ATK",
           TextMapId = "RLTalent_Desc_105"
         },
         RLTalent_Desc_106 = {
-          ContentEN = "Malaise +<Highlight>10.8%</>",
+          ContentEN = "+<Highlight>#1</> Resolve",
           TextMapId = "RLTalent_Desc_106"
         },
         RLTalent_Desc_107 = {
-          ContentEN = "Skill Damage +<Highlight>9.6%</>",
+          ContentEN = "+<Highlight>#1</> Skill Damage",
           TextMapId = "RLTalent_Desc_107"
         },
         RLTalent_Desc_108 = {
-          ContentEN = "Morale +<Highlight>10.8%</>",
+          ContentEN = "+<Highlight>#1</> Morale",
           TextMapId = "RLTalent_Desc_108"
         },
         RLTalent_Desc_109 = {
-          ContentEN = "Damage Dealt +<Highlight>12%</>",
+          ContentEN = "+<Highlight>#1</> Damage Dealt",
           TextMapId = "RLTalent_Desc_109"
         },
         RLTalent_Desc_201 = {
-          ContentEN = "Increases Max HP by <Highlight>4.8%</>",
+          ContentEN = "+<Highlight>#1</> Max HP",
           TextMapId = "RLTalent_Desc_201"
         },
         RLTalent_Desc_202 = {
-          ContentEN = "DEF +<Highlight>4.8%</>",
+          ContentEN = "+<Highlight>#1</> DEF",
           TextMapId = "RLTalent_Desc_202"
         },
         RLTalent_Desc_203 = {
-          ContentEN = "Shield +<Highlight>4.8%</>",
+          ContentEN = "+<Highlight>#1</> Shield",
           TextMapId = "RLTalent_Desc_203"
         },
         RLTalent_Desc_204 = {
-          ContentEN = "Increases Max Sanity by <Highlight>10%</>",
+          ContentEN = "+<Highlight>#1</> Max Sanity",
           TextMapId = "RLTalent_Desc_204"
         },
         RLTalent_Desc_205 = {
-          ContentEN = "Trace Point +<Highlight>20%</>",
+          ContentEN = "+<Highlight>@1</> Trace Points",
           TextMapId = "RLTalent_Desc_205"
         },
         RLTalent_Desc_206 = {
-          ContentEN = "Ember Collection from Combat +<Highlight>20%</>",
+          ContentEN = "+<Highlight>@1</> Combat Ember Gain",
           TextMapId = "RLTalent_Desc_206"
         },
         RLTalent_Desc_207 = {
-          ContentEN = "Grants <Highlight>200</> Embers at the beginning of a new exploration",
+          ContentEN = "Start with <Highlight>@1 Embers</>",
           TextMapId = "RLTalent_Desc_207"
         },
         RLTalent_Desc_208 = {
-          ContentEN = "Sanity Point Auto-Recovery +<Highlight>3</>.",
+          ContentEN = "Sanity Auto-Recovery +<Highlight>#1</>.",
           TextMapId = "RLTalent_Desc_208"
         },
         RLTalent_Desc_301 = {
-          ContentEN = "ATK +<Highlight>6%</>",
+          ContentEN = "+<Highlight>#1</> ATK",
           TextMapId = "RLTalent_Desc_301"
         },
         RLTalent_Desc_302 = {
-          ContentEN = "CRIT Damage +<Highlight>6%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Damage",
           TextMapId = "RLTalent_Desc_302"
         },
         RLTalent_Desc_303 = {
-          ContentEN = "Trigger Probability +<Highlight>12%</>",
+          ContentEN = "+<Highlight>#1</> Trigger Probability",
           TextMapId = "RLTalent_Desc_303"
         },
         RLTalent_Desc_304 = {
-          ContentEN = "CRIT Chance +<Highlight>4.8%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Chance",
           TextMapId = "RLTalent_Desc_304"
         },
         RLTalent_Desc_305 = {
-          ContentEN = "Increases Slash, Spike, and Smash ATK by <Highlight>3%</>",
+          ContentEN = "+<Highlight>#1</> Slash, Spike, and Smash ATK",
           TextMapId = "RLTalent_Desc_305"
         },
         RLTalent_Desc_306 = {
-          ContentEN = "ATK Range +<Highlight>0.8 metres</>",
+          ContentEN = "+<Highlight>#1</> ATK Range",
           TextMapId = "RLTalent_Desc_306"
         },
         RLTalent_Desc_307 = {
-          ContentEN = "CRIT Chance +<Highlight>9.6%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Chance",
           TextMapId = "RLTalent_Desc_307"
         },
         RLTalent_Desc_308 = {
-          ContentEN = "ATK Speed +<Highlight>12%</>",
+          ContentEN = "+<Highlight>#1</> ATK Speed",
           TextMapId = "RLTalent_Desc_308"
         },
         RLTalent_Desc_309 = {
-          ContentEN = "CRIT Damage +<Highlight>12%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Damage",
           TextMapId = "RLTalent_Desc_309"
         },
         RLTalent_Desc_401 = {
-          ContentEN = "ATK +<Highlight>6%</>",
+          ContentEN = "+<Highlight>#1</> ATK",
           TextMapId = "RLTalent_Desc_401"
         },
         RLTalent_Desc_402 = {
-          ContentEN = "CRIT Damage +<Highlight>6%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Damage",
           TextMapId = "RLTalent_Desc_402"
         },
         RLTalent_Desc_403 = {
-          ContentEN = "Trigger Probability +<Highlight>12%</>",
+          ContentEN = "+<Highlight>#1</> Trigger Probability",
           TextMapId = "RLTalent_Desc_403"
         },
         RLTalent_Desc_404 = {
-          ContentEN = "CRIT Chance +<Highlight>4.8%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Chance",
           TextMapId = "RLTalent_Desc_404"
         },
         RLTalent_Desc_405 = {
-          ContentEN = "Increases Slash, Spike, and Smash ATK by <Highlight>3%</>",
+          ContentEN = "+<Highlight>#1</> Slash, Spike, and Smash ATK",
           TextMapId = "RLTalent_Desc_405"
         },
         RLTalent_Desc_406 = {
-          ContentEN = "CRIT Chance +<Highlight>9.6%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Chance",
           TextMapId = "RLTalent_Desc_406"
         },
         RLTalent_Desc_407 = {
-          ContentEN = "Multishot +<Highlight>18%</>",
+          ContentEN = "+<Highlight>#1</> Multishot",
           TextMapId = "RLTalent_Desc_407"
         },
         RLTalent_Desc_408 = {
-          ContentEN = "ATK Speed +<Highlight>12%</>",
+          ContentEN = "+<Highlight>#1</> ATK Speed",
           TextMapId = "RLTalent_Desc_408"
         },
         RLTalent_Desc_409 = {
-          ContentEN = "CRIT Damage +<Highlight>12%</>",
+          ContentEN = "+<Highlight>#1</> CRIT Damage",
           TextMapId = "RLTalent_Desc_409"
         },
         RLTalent_Name_101 = {
@@ -33107,7 +34372,7 @@ local Data = {
           TextMapId = "RLTalent_Name_105"
         },
         RLTalent_Name_106 = {
-          ContentEN = "Malaise Boost",
+          ContentEN = "Resolve Boost",
           TextMapId = "RLTalent_Name_106"
         },
         RLTalent_Name_107 = {
@@ -33267,59 +34532,59 @@ local Data = {
           TextMapId = "RLTreasureGroup_Name_105"
         },
         RLTreasure_Desc_10101 = {
-          ContentEN = "Grants <Highlight>1</> extra [Refresh]. The first selection refresh costs no [Embers].",
+          ContentEN = "Grants <Highlight>@1</> extra Refresh(es). First refresh costs no [Embers].",
           TextMapId = "RLTreasure_Desc_10101"
         },
         RLTreasure_Desc_10102 = {
-          ContentEN = "The holder of this pass enjoys a <Highlight>20%</> discount at the Mysterious Merchant's stall.",
+          ContentEN = "Grants a <Highlight>@1</> discount at the Mysterious Merchant.",
           TextMapId = "RLTreasure_Desc_10102"
         },
         RLTreasure_Desc_10103 = {
-          ContentEN = "Restores HP by <Highlight>25%</> when advancing to the next level.",
+          ContentEN = "Restores <Highlight>$1</> HP when entering a new depth.",
           TextMapId = "RLTreasure_Desc_10103"
         },
         RLTreasure_Desc_10104 = {
-          ContentEN = "Restores Sanity by <Highlight>50</> when advancing to the next level.",
+          ContentEN = "Restores <Highlight>$1</> Sanity when entering a new depth.",
           TextMapId = "RLTreasure_Desc_10104"
         },
         RLTreasure_Desc_10105 = {
-          ContentEN = "Increases Trace Points received by <Highlight>30%</>.",
+          ContentEN = "Trace Points +<Highlight>@1</>.",
           TextMapId = "RLTreasure_Desc_10105"
         },
         RLTreasure_Desc_10106 = {
-          ContentEN = "Increases Max Revival by <Highlight>1</>.",
+          ContentEN = "Max Revives +<Highlight>#1</>.",
           TextMapId = "RLTreasure_Desc_10106"
         },
         RLTreasure_Desc_10107 = {
-          ContentEN = "When the HP percentage drops below <Highlight>30%</>, for the next <Highlight>3</>s, the character will be immune to Hitstun, and the damage they take will be reduced by <Highlight>50%</>. This effect can only be triggered once every <Highlight>30</>s.",
+          ContentEN = "When HP falls below <Highlight>$1</>, for the next <Highlight>$2</>s, grants Hitstun immunity and -<Highlight>$3</> Damage Taken. Can trigger once every <Highlight>$4</>s.",
           TextMapId = "RLTreasure_Desc_10107"
         },
         RLTreasure_Desc_10108 = {
-          ContentEN = "Increases Skill DMG by <Highlight>30%</> and decreases Melee Weapon DMG by <Highlight>30%</>.",
+          ContentEN = "Increases Skill DMG by <Highlight>$1</> and reduces Melee Weapon DMG by <Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_10108"
         },
         RLTreasure_Desc_10109 = {
-          ContentEN = "Increases Skill DMG by <Highlight>30%</> and decreases Ranged Weapon DMG by <Highlight>30%</>.",
+          ContentEN = "Increases Skill DMG by <Highlight>$1</> and reduces Ranged Weapon DMG by <Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_10109"
         },
         RLTreasure_Desc_10110 = {
-          ContentEN = "Increases Melee Weapon Damage by <Highlight>30%</> and decreases Skill Damage by <Highlight>30%</>.",
+          ContentEN = "Increases Melee Weapon DMG by <Highlight>$1</> and reduces Skill DMG by <Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_10110"
         },
         RLTreasure_Desc_10111 = {
-          ContentEN = "Increases Melee Weapon Damage by <Highlight>30%</> and decreases Ranged Weapon Damage by <Highlight>30%</>.",
+          ContentEN = "Increases Melee Weapon DMG by <Highlight>$1</> and reduces Ranged Weapon DMG by <Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_10111"
         },
         RLTreasure_Desc_10112 = {
-          ContentEN = "Increases Ranged Weapon DMG by <Highlight>30%</> and decreases Skill DMG by <Highlight>30%</>.",
+          ContentEN = "Increases Ranged Weapon DMG by <Highlight>$1</> and reduces Skill DMG by <Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_10112"
         },
         RLTreasure_Desc_10113 = {
-          ContentEN = "Increases Ranged Weapon DMG by <Highlight>30%</> and decreases Melee Weapon DMG by <Highlight>30%</>.",
+          ContentEN = "Increases Ranged Weapon DMG by <Highlight>$1</> and reduces Melee Weapon DMG by <Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_10113"
         },
         RLTreasure_Desc_10114 = {
-          ContentEN = "With Geniemon Support, increases Damage Dealt by <Highlight>30%</> for <Highlight>8</>s.",
+          ContentEN = "After casting Geniemon Support, increases Damage Dealt by <Highlight>$1</> for <Highlight>$2</>s.",
           TextMapId = "RLTreasure_Desc_10114"
         },
         RLTreasure_Desc_10201 = {
@@ -33331,23 +34596,23 @@ local Data = {
           TextMapId = "RLTreasure_Desc_10202"
         },
         RLTreasure_Desc_10203 = {
-          ContentEN = "Increases the character's Max Dodge Attempts by <Highlight>2</>.",
+          ContentEN = "Max Dodge Attempts +<Highlight>#1</>.",
           TextMapId = "RLTreasure_Desc_10203"
         },
         RLTreasure_Desc_10204 = {
-          ContentEN = "Restores Sanity by <Highlight>15</> when the character uses skills. This effect can be triggered up to 3 times per level.",
+          ContentEN = "Restores <Highlight>$1</> Sanity after using a skill. Cooldown: <Highlight>$2</>s. \n Active only in [Abyssoids].",
           TextMapId = "RLTreasure_Desc_10204"
         },
         RLTreasure_Desc_10205 = {
-          ContentEN = "After obtaining this Artefact, each revival increases Damage Dealt by <Highlight>40%</>.",
+          ContentEN = "This Artefact grants 1 stack of +<Highlight>$1</> Damage Dealt following each revival.",
           TextMapId = "RLTreasure_Desc_10205"
         },
         RLTreasure_Desc_10206 = {
-          ContentEN = "Ignores the target's DEF by <Highlight>50%</> when dealing Skill DMG. This effect decreases by <Highlight>10%</> with each type of Lampwick owned, with a minimum of <Highlight>10%</>.",
+          ContentEN = "Skill DMG ignores <Highlight>$1</> of the target's DEF. For each type of Lampwick owned, this effect is reduced by <Highlight>$3</>, to a minimum of <Highlight>$2</>.",
           TextMapId = "RLTreasure_Desc_10206"
         },
         RLTreasure_Desc_10207 = {
-          ContentEN = "When entering the next level, consumes <Highlight>50</> Embers to decrease Damage Taken by <Highlight>30%</> on that level.\nIf the amount of Embers is less than <Highlight>50</> when entering the next level, this effect will not be triggered.",
+          ContentEN = "On entering a new depth, consumes <Highlight>@1</> Ember to grant -<Highlight>$1</> Damage Taken on that floor. \nRequires at least <Highlight>@1</> Embers to trigger.",
           TextMapId = "RLTreasure_Desc_10207"
         },
         RLTreasure_Desc_10208 = {
@@ -33359,7 +34624,7 @@ local Data = {
           TextMapId = "RLTreasure_Desc_10209"
         },
         RLTreasure_Desc_10210 = {
-          ContentEN = "Defeats <Highlight>3</> Primanders to get <Highlight>150</> Embers.",
+          ContentEN = "Grants <Highlight>@2</> Ember for every <Highlight>@1</> Primander(s) defeated.",
           TextMapId = "RLTreasure_Desc_10210"
         },
         RLTreasure_Desc_10211 = {
@@ -33407,11 +34672,11 @@ local Data = {
           TextMapId = "RLTreasure_Desc_10302"
         },
         RLTreasure_Desc_10303 = {
-          ContentEN = "Sanity Point Auto-Recovery +<Highlight>6</>.",
+          ContentEN = "Sanity Auto-Recovery +<Highlight>#1</>.",
           TextMapId = "RLTreasure_Desc_10303"
         },
         RLTreasure_Desc_10304 = {
-          ContentEN = "Replaces all Lampwicks with random ones, potentially of higher Rarity, and grants <Highlight>50</> Embers for <Highlight>each</> Lampwick held.",
+          ContentEN = "Replaces all Lampwicks with random ones, potentially of higher Rarity, and grants <Highlight>@1</> Embers per Lampwick held.",
           TextMapId = "RLTreasure_Desc_10304"
         },
         RLTreasure_Desc_10305 = {
@@ -33419,11 +34684,11 @@ local Data = {
           TextMapId = "RLTreasure_Desc_10305"
         },
         RLTreasure_Desc_10306 = {
-          ContentEN = "Increases Damage Dealt by <Highlight>5%</> for <Highlight>each</> Artefact held.",
+          ContentEN = "Increases Damage Dealt by <Highlight>$1</> per Artefact owned.",
           TextMapId = "RLTreasure_Desc_10306"
         },
         RLTreasure_Desc_10307 = {
-          ContentEN = "Increases all Attribute PENs by <Highlight>10%</> for each type of Lampwick held (up to <Highlight>70%</>).",
+          ContentEN = "Increases All-Element Penetrations by <Highlight>$1</> for each type of Lampwick owned, up to a maximum of <Highlight>$2</>.",
           TextMapId = "RLTreasure_Desc_10307"
         },
         RLTreasure_Desc_10308 = {
@@ -33431,7 +34696,7 @@ local Data = {
           TextMapId = "RLTreasure_Desc_10308"
         },
         RLTreasure_Desc_10309 = {
-          ContentEN = "When revivals are exhausted, spend <Highlight>500</> Embers to get <Highlight>1</> extra Revival.",
+          ContentEN = "When out of Revivals, you may spend <Highlight>@1</> Embers to gain <Highlight>1</> extra Revival.",
           TextMapId = "RLTreasure_Desc_10309"
         },
         RLTreasure_Desc_10310 = {
@@ -33463,55 +34728,55 @@ local Data = {
           TextMapId = "RLTreasure_Desc_10316"
         },
         RLTreasure_Desc_11101 = {
-          ContentEN = "Decreases Damage Taken by <Highlight>20%</> when shielded.\nAfter collecting the full set (<Highlight>2</> pieces) of the [Guardian Knight] series, the character gains a Ultra Shield equal to <Highlight>10%</> of their Max HP every <Highlight>10</>s until this level is cleared.",
+          ContentEN = "While shielded, Damage Taken -<Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_11101"
         },
         RLTreasure_Desc_11201 = {
-          ContentEN = "Increases Damage Dealt by 10% when shielded.\nAfter collecting the full set (<Highlight>2</> pieces) of the [Guardian Knight] series, the character gains a Ultra Shield equal to <Highlight>10%</> of their Max HP every <Highlight>10</>s until this level is cleared.",
+          ContentEN = "While shielded, Damage Dealt +<Highlight>$1</>.",
           TextMapId = "RLTreasure_Desc_11201"
         },
         RLTreasure_Desc_12101 = {
-          ContentEN = "Increases the refresh cost for selection by <Highlight>100%</>. The effect expires after clearing <Highlight>3</> levels and grants <Highlight>300</> Embers.\nAfter collecting all <Highlight>3</> Artefacts of [Covenant of the God of Abundance] series, increases Damage Dealt by <Highlight>10%</> for every <Highlight>100</> Embers possessed.",
+          ContentEN = "Selection refresh cost +<Highlight>@1</>. Effect expires after <Highlight>@2</> depth(s) to grant <Highlight>@3</> Embers.",
           TextMapId = "RLTreasure_Desc_12101"
         },
         RLTreasure_Desc_12102 = {
-          ContentEN = "Increases the prices of the items at Mysterious Merchant by <Highlight>20%</>. The effect expires after clearing <Highlight>3</> levels and grants <Highlight>300</> Embers.\nAfter collecting all <Highlight>3</> Artefacts of [Covenant of the God of Abundance] series, increases Damage Dealt by <Highlight>10%</> for every <Highlight>100</> Embers possessed.",
+          ContentEN = "Mysterious Merchant prices +<Highlight>@1</>. Effect expires after <Highlight>@2</> depth(s) to grant <Highlight>@3</> Embers.",
           TextMapId = "RLTreasure_Desc_12102"
         },
         RLTreasure_Desc_12201 = {
-          ContentEN = "Unable to get Embers. This effect expires after clearing <Highlight>5</> levels and grants <Highlight>1000</> Embers.\nAfter collecting all <Highlight>3</> Artefacts of [Covenant of the God of Abundance] series, increases Damage Dealt by <Highlight>10%</> for every <Highlight>100</> Embers possessed.",
+          ContentEN = "Damage Dealt -<Highlight>$1</>. Effect expires after <Highlight>@1</> depth(s) to grant <Highlight>@2</> Embers.",
           TextMapId = "RLTreasure_Desc_12201"
         },
         RLTreasure_Desc_13101 = {
-          ContentEN = "When dealing damage, there is a 25% chance to deal additional Pyro Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
+          ContentEN = "When dealing damage, there's a <Highlight>$1</> chance to deal bonus Pyro Damage equal to <Highlight>$2</> of Character ATK.",
           TextMapId = "RLTreasure_Desc_13101"
         },
         RLTreasure_Desc_13102 = {
-          ContentEN = "When dealing damage, there is a 25% chance to deal additional Hydro Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
+          ContentEN = "When dealing damage, there's a <Highlight>$1</> chance to deal bonus Hydro Damage equal to <Highlight>$2</> of Character ATK.",
           TextMapId = "RLTreasure_Desc_13102"
         },
         RLTreasure_Desc_13103 = {
-          ContentEN = "When dealing damage, there is a 25% chance to deal additional Anemo Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
+          ContentEN = "When dealing damage, there's a <Highlight>$1</> chance to deal bonus Anemo Damage equal to <Highlight>$2</> of Character ATK.",
           TextMapId = "RLTreasure_Desc_13103"
         },
         RLTreasure_Desc_13104 = {
-          ContentEN = "When dealing damage, there is a 25% chance to deal additional Electro Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
+          ContentEN = "When dealing damage, there's a <Highlight>$1</> chance to deal bonus Electro Damage equal to <Highlight>$2</> of Character ATK.",
           TextMapId = "RLTreasure_Desc_13104"
         },
         RLTreasure_Desc_14101 = {
-          ContentEN = "Damage Dealt +<Highlight>50%</>, but Skill Efficiency -<Highlight>50%</>.\nAfter collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
+          ContentEN = "Grants +<Highlight>$2</> Damage Dealt at the cost of -<Highlight>$1</> Skill Efficiency.",
           TextMapId = "RLTreasure_Desc_14101"
         },
         RLTreasure_Desc_14201 = {
-          ContentEN = "Damage Dealt +<Highlight>75%</>, but Melee Weapon Damage -<Highlight>50%</>. \nAfter collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
+          ContentEN = "Grants +<Highlight>$2</> Damage Dealt at the cost of -<Highlight>$1</> Melee Weapon DMG.",
           TextMapId = "RLTreasure_Desc_14201"
         },
         RLTreasure_Desc_14202 = {
-          ContentEN = "Damage Dealt +<Highlight>75%</>, but Ranged Weapon Damage -<Highlight>50%</>.\nAfter collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
+          ContentEN = "Grants +<Highlight>$2</> Damage Dealt at the cost of -<Highlight>$1</> Ranged Weapon DMG.",
           TextMapId = "RLTreasure_Desc_14202"
         },
         RLTreasure_Desc_14301 = {
-          ContentEN = "Damage Dealt +<Highlight>100%</>, but Damage Taken +<Highlight>50%</>.\nAfter collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
+          ContentEN = "Grants +<Highlight>$2</> Damage Dealt at the cost of +<Highlight>$1</> Damage Taken.",
           TextMapId = "RLTreasure_Desc_14301"
         },
         RLTreasure_Desc_15101 = {
@@ -33851,7 +35116,7 @@ local Data = {
           TextMapId = "RLTreasure_Name_10203"
         },
         RLTreasure_Name_10204 = {
-          ContentEN = "Holy Grail of The Hecatism Believer",
+          ContentEN = "Holy Grail of The Noclunism Believer",
           TextMapId = "RLTreasure_Name_10204"
         },
         RLTreasure_Name_10205 = {
@@ -33863,7 +35128,7 @@ local Data = {
           TextMapId = "RLTreasure_Name_10206"
         },
         RLTreasure_Name_10207 = {
-          ContentEN = "Offering of The Hecatism Believer",
+          ContentEN = "Offering of The Noclunism Believer",
           TextMapId = "RLTreasure_Name_10207"
         },
         RLTreasure_Name_10208 = {
@@ -34111,7 +35376,7 @@ local Data = {
           TextMapId = "RLTreasure_SimpleDesc_10203"
         },
         RLTreasure_SimpleDesc_10204 = {
-          ContentEN = "Restores Sanity when the character uses skills.",
+          ContentEN = "Restores Sanity after using a skill.\n Active only in [Abyssoids].",
           TextMapId = "RLTreasure_SimpleDesc_10204"
         },
         RLTreasure_SimpleDesc_10205 = {
@@ -34239,11 +35504,11 @@ local Data = {
           TextMapId = "RLTreasure_SimpleDesc_10316"
         },
         RLTreasure_SimpleDesc_11101 = {
-          ContentEN = "Decreases Damage Taken when shielded. After collecting the full set of the [Guardian Knight] series, the character continuously gains a Ultra Shield until this level is cleared.",
+          ContentEN = "While shielded, reduces Damage Taken.",
           TextMapId = "RLTreasure_SimpleDesc_11101"
         },
         RLTreasure_SimpleDesc_11201 = {
-          ContentEN = "Increases Damage Dealt when shielded. After collecting the full set of the [Guardian Knight] series, the character continuously gains a Ultra Shield until the level is cleared.",
+          ContentEN = "While shielded, increases Damage Dealt.",
           TextMapId = "RLTreasure_SimpleDesc_11201"
         },
         RLTreasure_SimpleDesc_12101 = {
@@ -34255,39 +35520,39 @@ local Data = {
           TextMapId = "RLTreasure_SimpleDesc_12102"
         },
         RLTreasure_SimpleDesc_12201 = {
-          ContentEN = "Unable to get Embers until clearing a certain number of levels.",
+          ContentEN = "Loses Damage Dealt. Clear a set number of depths to remove this effect and gain Embers.",
           TextMapId = "RLTreasure_SimpleDesc_12201"
         },
         RLTreasure_SimpleDesc_13101 = {
-          ContentEN = "There is a chance to deal additional Pyro Damage when dealing damage. After collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
+          ContentEN = "When dealing damage, may trigger bonus Pyro Damage.",
           TextMapId = "RLTreasure_SimpleDesc_13101"
         },
         RLTreasure_SimpleDesc_13102 = {
-          ContentEN = "There is a chance to deal additional Hydro Damage when dealing damage. After collecting collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
+          ContentEN = "When dealing damage, may trigger bonus Hydro Damage.",
           TextMapId = "RLTreasure_SimpleDesc_13102"
         },
         RLTreasure_SimpleDesc_13103 = {
-          ContentEN = "There is a chance to deal additional Anemo Damage when dealing damage. After collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
+          ContentEN = "When dealing damage, may trigger bonus Anemo Damage.",
           TextMapId = "RLTreasure_SimpleDesc_13103"
         },
         RLTreasure_SimpleDesc_13104 = {
-          ContentEN = "There is a chance to deal additional Electro Damage when dealing damage. After collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
+          ContentEN = "When dealing damage, may trigger bonus Electro Damage.",
           TextMapId = "RLTreasure_SimpleDesc_13104"
         },
         RLTreasure_SimpleDesc_14101 = {
-          ContentEN = "Sacrifices Skill Efficiency to increase Damage Dealt. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
+          ContentEN = "Increases Damage Dealt at the cost of reduced Skill Efficiency.",
           TextMapId = "RLTreasure_SimpleDesc_14101"
         },
         RLTreasure_SimpleDesc_14201 = {
-          ContentEN = "Sacrifices Melee Weapon Damage to increase Damage Dealt. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
+          ContentEN = "Increases Damage Dealt at the cost of reduced Melee Weapon DMG.",
           TextMapId = "RLTreasure_SimpleDesc_14201"
         },
         RLTreasure_SimpleDesc_14202 = {
-          ContentEN = "Sacrifices Ranged Weapon Damage to increase Damage Dealt Increase. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
+          ContentEN = "Increases Damage Dealt at the cost of reduced Ranged Weapon DMG.",
           TextMapId = "RLTreasure_SimpleDesc_14202"
         },
         RLTreasure_SimpleDesc_14301 = {
-          ContentEN = "Taking higher damage to increase Damage Dealt. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
+          ContentEN = "Increases Damage Dealt at the cost of increased Damage Taken.",
           TextMapId = "RLTreasure_SimpleDesc_14301"
         },
         RLTreasure_SimpleDesc_15101 = {
@@ -34595,11 +35860,11 @@ local Data = {
           TextMapId = "RL_Event317_Select_3"
         },
         RL_Event318_Select_1 = {
-          ContentEN = "Select a <Highlight>Lumitwig</> [Lampwick].",
+          ContentEN = "Grants a <Highlight>Luminite</> [Lampwick] of your choice.",
           TextMapId = "RL_Event318_Select_1"
         },
         RL_Event318_Select_2 = {
-          ContentEN = "Select a <Highlight>Glimmerfly</> [Lampwick].",
+          ContentEN = "Grants a <Highlight>Vamprose</> [Lampwick] of your choice.",
           TextMapId = "RL_Event318_Select_2"
         },
         RL_Event318_Select_3 = {
@@ -34607,83 +35872,83 @@ local Data = {
           TextMapId = "RL_Event318_Select_3"
         },
         RL_Event319_Select_1 = {
-          ContentEN = "Grants a random [Lampwick].",
+          ContentEN = "Grants a <Highlight>Lumitwig</> [Lampwick] of your choice.",
           TextMapId = "RL_Event319_Select_1"
         },
         RL_Event319_Select_2 = {
-          ContentEN = "Gain <highlight>100</> Embers.",
+          ContentEN = "Grants a <Highlight>Glimmerfly</> [Lampwick] of your choice.",
           TextMapId = "RL_Event319_Select_2"
         },
         RL_Event320_Select_1 = {
-          ContentEN = "Select a <Highlight>Blue</>-tier [Artefact].",
+          ContentEN = "Obtain <Highlight>250</> [Embers].",
           TextMapId = "RL_Event320_Select_1"
         },
         RL_Event320_Select_2 = {
-          ContentEN = "[Price: Embers -100] Gain a <Highlight>Purple</>-tier [Artefact].",
+          ContentEN = "Grants a random <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Lampwick].",
           TextMapId = "RL_Event320_Select_2"
         },
         RL_Event321_Select_1 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Win a battle to get <Highlight>450</> [Embers].",
           TextMapId = "RL_Event321_Select_1"
         },
         RL_Event321_Select_2 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain a random <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Lampwick].",
           TextMapId = "RL_Event321_Select_2"
         },
         RL_Event322_Select_1 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Win a battle to get a random <Highlight>Purple</>-tier [Lampwick].",
           TextMapId = "RL_Event322_Select_1"
         },
         RL_Event322_Select_2 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain <Highlight>200</> [Embers].",
           TextMapId = "RL_Event322_Select_2"
         },
         RL_Event323_Select_1 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain <Highlight>300</> [Embers].",
           TextMapId = "RL_Event323_Select_1"
         },
         RL_Event323_Select_2 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain a <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Artefact].",
           TextMapId = "RL_Event323_Select_2"
         },
         RL_Event324_Select_1 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain a random <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Artefact].",
           TextMapId = "RL_Event324_Select_1"
         },
         RL_Event324_Select_2 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain <Highlight>250</> [Embers].",
           TextMapId = "RL_Event324_Select_2"
         },
         RL_Event325_Select_1 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain <Highlight>200</> [Embers].",
           TextMapId = "RL_Event325_Select_1"
         },
         RL_Event325_Select_2 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain a <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Artefact].",
           TextMapId = "RL_Event325_Select_2"
         },
         RL_Event326_Select_1 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain <Highlight>500</> [Embers].",
           TextMapId = "RL_Event326_Select_1"
         },
         RL_Event326_Select_2 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Win a battle to get a random <Highlight>Purple</>-tier or <Highlight>Golden</>-tier [Lampwick].",
           TextMapId = "RL_Event326_Select_2"
         },
         RL_Event327_Select_1 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Obtain <Highlight>750</> [Embers].",
           TextMapId = "RL_Event327_Select_1"
         },
         RL_Event327_Select_2 = {
-          ContentEN = "[Rewards TBD]",
+          ContentEN = "Win a battle to get a random <Highlight>Golden</>-tier [Lampwick].",
           TextMapId = "RL_Event327_Select_2"
         },
         RL_Event328_Select_1 = {
-          ContentEN = "Grants an [Artefact] of great rarity of your choice.",
+          ContentEN = "Obtain an [Artefact] of great rarity of your choice.",
           TextMapId = "RL_Event328_Select_1"
         },
         RL_Event328_Select_2 = {
-          ContentEN = "Grants <Highlight>800</> [Embers].",
+          ContentEN = "Obtain <Highlight>800</> [Embers].",
           TextMapId = "RL_Event328_Select_2"
         },
         RL_Event381_Select_1 = {
@@ -34723,7 +35988,7 @@ local Data = {
           TextMapId = "Ranged",
         },
         Reading_Content_101223 = {
-          ContentEN = "(Looks like a scrawled note left behind by a Phoxhunter — the paper's yellowed with age.)\n\n...\n\nThis bloody mine's been shut for ages — nothing down here but dust and Filthoids. Wouldn't've come to this gods-forsaken dump if it weren't for two little pests. Had to scrape up some Phoxene just so they could stay in school. Don't see the point in burying your nose in books. When trouble hits, a punch'll sort things faster than any page ever could.\n\n...\n\nDidn't think I'd actually find any Phoxene — let alone this much. Ought to keep those two brats in school a while longer.\n\n...\n\nPlace is crawling with Filthoids. Wouldn't take much for someone to get themselves killed out here. Well... since I'm in a good mood, maybe I'll leave a warning for the next poor sod who stumbles through. Might even fix a few busted lamps while I'm at it.\n\n...",
+          ContentEN = "(A journal recovered from Glevum Pit. Based on the writing style, it appears to belong to a scholar.)\n ...\n 16 April\n We discovered a curious <H>yellow crystal cluster</> in this long-abandoned mine. Its composition suggests it is neither the Crystallo of Stella — said to lie hidden deep within the mountain caverns — nor residual Phoxene from past excavations. It appears to be an entirely undocumented mineral.\n ...\n 18 April\n To our surprise, Bob observed that the dimly glowing yellow crystals had <H>grown</>. What was once no larger than a handspan had developed into squat, shrub-like clusters.\n ...\n 20 April\n The clusters had grown again — this time into jagged, spire-like forms that blocked off several inner passageways. They seemed almost... alive. Fortunately, the crystals are extremely brittle; only a modest amount of <H>gunpowder</> is needed to blast them apart.\n Bob has put forward a hypothesis: these formations may not be minerals at all, but a type of <H>Filthoid secretion</> — perhaps even a form of "progeny." Like sponges left in water, they appear to swell and expand over time. It remains a bold theory, even for someone of Bob's expertise in Filthoid biology.\n ...\n 21 April\n To test Bob's theory, we've decided to press deeper into the mine. If his conjecture proves correct, then somewhere within this forsaken pit lies a unique strain of Filthoid, distinct from those found in the wild — a <H>progenitor</>, perhaps...\n ...",
           TextMapId = "Reading_Content_101223"
         },
         Reading_Content_200208 = {
@@ -34731,7 +35996,7 @@ local Data = {
           TextMapId = "Reading_Content_200208"
         },
         Reading_Title_101223 = {
-          ContentEN = "Phoxhunter's Journal",
+          ContentEN = "Alchemist's Notes (Ⅰ)",
           TextMapId = "Reading_Title_101223"
         },
         Reading_Title_200208 = {
@@ -34923,11 +36188,11 @@ local Data = {
           TextMapId = "RougeLike_RoomName_301"
         },
         RougeLike_RoomName_302 = {
-          ContentEN = "What Night is Tonight? (Ⅰ)",
+          ContentEN = "What Night is Tonight? (Ⅲ)",
           TextMapId = "RougeLike_RoomName_302"
         },
         RougeLike_RoomName_303 = {
-          ContentEN = "Dreamweaver (Ⅰ)",
+          ContentEN = "Dreamweaver",
           TextMapId = "RougeLike_RoomName_303"
         },
         RougeLike_RoomName_304 = {
@@ -34975,7 +36240,7 @@ local Data = {
           TextMapId = "RougeLike_RoomName_314"
         },
         RougeLike_RoomName_315 = {
-          ContentEN = "Gilded Feathers (Ⅰ)",
+          ContentEN = "Gilded Feathers",
           TextMapId = "RougeLike_RoomName_315"
         },
         RougeLike_RoomName_316 = {
@@ -34991,11 +36256,11 @@ local Data = {
           TextMapId = "RougeLike_RoomName_318"
         },
         RougeLike_RoomName_319 = {
-          ContentEN = "Dreamweaver (Ⅱ)",
+          ContentEN = "What Night is Tonight? (Ⅰ)",
           TextMapId = "RougeLike_RoomName_319"
         },
         RougeLike_RoomName_320 = {
-          ContentEN = "Gilded Feathers (Ⅱ)",
+          ContentEN = "The Tome of Eternity — Recurrence",
           TextMapId = "RougeLike_RoomName_320"
         },
         RougeLike_RoomName_321 = {
@@ -35155,7 +36420,7 @@ local Data = {
           TextMapId = "Rouge_FirstTimeReward"
         },
         SKILL_100001_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases ATK for self and allies.",
           TextMapId = "SKILL_100001_DESC"
         },
         SKILL_100001_NAME = {
@@ -35163,7 +36428,7 @@ local Data = {
           TextMapId = "SKILL_100001_NAME"
         },
         SKILL_100003_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases Skill DMG for the character and their nearby teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases Skill DMG for self and allies.",
           TextMapId = "SKILL_100003_DESC"
         },
         SKILL_100003_NAME = {
@@ -35171,7 +36436,7 @@ local Data = {
           TextMapId = "SKILL_100003_NAME"
         },
         SKILL_100005_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases Skill DMG for the character and their nearby teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases Weapon DMG for self and allies.",
           TextMapId = "SKILL_100005_DESC"
         },
         SKILL_100005_NAME = {
@@ -35179,7 +36444,7 @@ local Data = {
           TextMapId = "SKILL_100005_NAME"
         },
         SKILL_100007_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases DEF for the character and their nearby teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases DEF for self and allies.",
           TextMapId = "SKILL_100007_DESC"
         },
         SKILL_100007_NAME = {
@@ -35187,7 +36452,7 @@ local Data = {
           TextMapId = "SKILL_100007_NAME"
         },
         SKILL_100009_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases CRIT Chance for the character and their nearby teammate(s)",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases CRIT Chance for self and allies.",
           TextMapId = "SKILL_100009_DESC"
         },
         SKILL_100009_NAME = {
@@ -35195,15 +36460,15 @@ local Data = {
           TextMapId = "SKILL_100009_NAME"
         },
         SKILL_10101_DESC = {
-          ContentEN = "When dealing CRIT Damage with this weapon, there is a <H>#2</> chance to restore <H>#1</> points of Sanity.",
+          ContentEN = "Character ATK ‍+<H>#1</>.",
           TextMapId = "SKILL_10101_DESC"
         },
         SKILL_10102_DESC = {
-          ContentEN = "CRIT Chance +<H>#1</>. When dealing CRIT Damage with this weapon, there is a <H>#2</> chance to get 1 projectile.",
+          ContentEN = "Trigger Probability +<H>#1</>. When a Hydro character triggers a bonus effect with this weapon, other allies gain +<H>#2</> ATK for <H>#3</>s.",
           TextMapId = "SKILL_10102_DESC"
         },
         SKILL_10103_DESC = {
-          ContentEN = "When dealing Charged Attack using this weapon, there is a <H>#1</> chance to not consume any Combo Points.",
+          ContentEN = "ATK Range ‍+<H>#1</>. Landing a CRIT with this weapon has a <H>#2</> chance to restore <H>#3</> Sanity. Can trigger once every <H>#4</>s.",
           TextMapId = "SKILL_10103_DESC"
         },
         SKILL_10104_DESC = {
@@ -35211,43 +36476,43 @@ local Data = {
           TextMapId = "SKILL_10104_DESC"
         },
         SKILL_10105_DESC = {
-          ContentEN = "When performing Charged Attack using this weapon, there is a <H>#1</> chance to decrease the CD of Resonance Support by <H>#2</>s.",
+          ContentEN = "ATK Speed +<H>#1</>‍. When performing a Charged Attack with this weapon, there is a <H>#2</> chance to reduce Resonance Support CD by <H>#3</>s.",
           TextMapId = "SKILL_10105_DESC"
         },
         SKILL_10201_DESC = {
-          ContentEN = "Character ATK +<H>#1</>. When dealing Normal Attack with this weapon, grants 1 stack that increases ATK Speed by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "Skill Range +<H>#1</>. When performing Normal Attacks with this weapon, grants a <H>#2</> ATK Speed Increase for <H>#3</>s (up to <H>#4</> stacks). Effect is removed when switching weapons.",
           TextMapId = "SKILL_10201_DESC"
         },
         SKILL_10202_DESC = {
-          ContentEN = "Increases damage dealt to targets inflicted with Bonus Effects by <H>#1</>.",
+          ContentEN = "ATK Speed‍ +<H>#1</>. Deals +<H>#2</> damage to targets afflicted with bonus effects.",
           TextMapId = "SKILL_10202_DESC"
         },
         SKILL_10203_DESC = {
-          ContentEN = "Skill Damage +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants 1 stack that increases Skill Damage by <H>#2</> for <H>#3</>s, up to 10 stacks.",
+          ContentEN = "Skill Damage +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants +<H>#2</> Skill Damage for <H>#3</>s (up to <H>3</> stacks).",
           TextMapId = "SKILL_10203_DESC"
         },
         SKILL_10204_DESC = {
-          ContentEN = "Malaise +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Malaise by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. Each instance of Skill Damage or Ranged Weapon Damage extends the duration by <H>#5</>s.",
+          ContentEN = "Resolve +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Resolve by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. Each instance of Skill Damage or Ranged Weapon Damage extends the duration by <H>#5</>s.",
           TextMapId = "SKILL_10204_DESC"
         },
         SKILL_10206_DESC = {
-          ContentEN = "When dealing CRIT Damage using this weapon, there is a <H>#1</> chance to reload the ranged weapon Magazine to maximum by consuming the Ammo.",
+          ContentEN = "Skill Damage +<H>#1</>.",
           TextMapId = "SKILL_10206_DESC"
         },
         SKILL_10301_DESC = {
-          ContentEN = "Max HP +<H>#1</>. When attacking with this weapon, grants 1 stack that increases DEF by <H>#3</> and Healing Received by <H>#2</> for <H>#4</>s, up to <H>#5</> stacks.",
+          ContentEN = "Max HP +<H>#1</>. When a Pyro character takes damage, grants +<H>#2</> Skill Duration for <H>#3</>s (up to <H>#4</> stacks).",
           TextMapId = "SKILL_10301_DESC"
         },
         SKILL_10302_DESC = {
-          ContentEN = "When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to increase the Combo Level to maximum.",
+          ContentEN = "CRIT Chance +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to increase the Combo Level to maximum.",
           TextMapId = "SKILL_10302_DESC"
         },
         SKILL_10303_DESC = {
-          ContentEN = "When dealing damage with this weapon, the farther away the user is from the target, the higher the damage dealt, up to a maximum increase of <H>#1</>.",
+          ContentEN = "Skill Duration +<H>#1</>.",
           TextMapId = "SKILL_10303_DESC"
         },
         SKILL_10304_DESC = {
-          ContentEN = "Character ATK +<H>#1</>. When an Electro character uses their Ultimate Skill, they gain 1 stack that increases their Skill Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
+          ContentEN = "Morale +<H>#1</>. When an Electro character uses their Ultimate Skill, grants +<H>#2</> Skill Damage for <H>#3</>s (up to <H>#4</> stacks).",
           TextMapId = "SKILL_10304_DESC"
         },
         SKILL_10401_DESC = {
@@ -35255,27 +36520,27 @@ local Data = {
           TextMapId = "SKILL_10401_DESC"
         },
         SKILL_10402_DESC = {
-          ContentEN = "When dealing Sliding Attack damage with this weapon, increases CRIT Chance by <H>#1</>.",
+          ContentEN = "CRIT Damage +<H>#1</>. Sliding Attacks with this weapon gain +<H>#2</> CRIT Chance.",
           TextMapId = "SKILL_10402_DESC"
         },
         SKILL_10403_DESC = {
-          ContentEN = "When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to gain 1 more Combo Point.",
+          ContentEN = "Skill Range +<H>#1</>.",
           TextMapId = "SKILL_10403_DESC"
         },
         SKILL_10501_DESC = {
-          ContentEN = "Trigger Probability +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, grants 1 stack that increases Max HP by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
+          ContentEN = "Max HP +<H>#1</>. When this weapon triggers a bonus effect on hit, grants ‍+<H>#2</>‍ Max HP for <H>#3</>‍s (up to <H>#4</> stacks).",
           TextMapId = "SKILL_10501_DESC"
         },
         SKILL_10502_DESC = {
-          ContentEN = "Skill Damage +<H>#1</>. When a Hydro character deals CRIT Damage with this weapon, increases Skill Damage for teammates within range by <H>#2</> for <H>#3</>s.",
+          ContentEN = "Skill Damage +<H>#1</>. When a Hydro character deals CRIT Damage with this weapon, increases Skill DMG for allies by <H>#2</> for <H>#3</>s.",
           TextMapId = "SKILL_10502_DESC"
         },
         SKILL_10503_DESC = {
-          ContentEN = "In whip form, increases ATK Range by <H>#1</>; in sword form, increases Trigger Probability by <H>#2</>.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "Skill Duration +<H>#1</>.",
           TextMapId = "SKILL_10503_DESC"
         },
         SKILL_10504_DESC = {
-          ContentEN = "When performing Charged Attack with this weapon, increases ATK Speed by <H>#1</> for <H>#2</>s.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "Trigger Probability +<H>#1</>. Charged Attacks with this weapon grant +<H>#2</> ATK Speed for <H>#3</>s. Effect is removed when switching weapons.",
           TextMapId = "SKILL_10504_DESC"
         },
         SKILL_10601_DESC = {
@@ -35283,15 +36548,15 @@ local Data = {
           TextMapId = "SKILL_10601_DESC"
         },
         SKILL_10602_DESC = {
-          ContentEN = "When performing Charged Attack with this weapon, increases CRIT Damage by <H>#1</> for <H>#2</>s.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "Skill Range +<H>#1</>.",
           TextMapId = "SKILL_10602_DESC"
         },
         SKILL_10603_DESC = {
-          ContentEN = "When performing Sliding Attack with this weapon, grants 1 stack that increases ATK by <H>#1</> for <H>#2</>s, up to <H>#3</> stacks. This effect is removed when switching to another weapon.",
+          ContentEN = "Character ATK +<H>#1</>. Charged Attacks with this weapon grant +<H>#2</> CRIT Damage for <H>#3</>s. Effect is removed when switching weapons.",
           TextMapId = "SKILL_10603_DESC"
         },
         SKILL_110001_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Umbro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases ATK for self and Umbro allies.",
           TextMapId = "SKILL_110001_DESC"
         },
         SKILL_110001_NAME = {
@@ -35299,7 +36564,7 @@ local Data = {
           TextMapId = "SKILL_110001_NAME"
         },
         SKILL_110003_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Umbro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases ATK for self and Umbro allies.",
           TextMapId = "SKILL_110003_DESC"
         },
         SKILL_110003_NAME = {
@@ -35307,7 +36572,7 @@ local Data = {
           TextMapId = "SKILL_110003_NAME"
         },
         SKILL_110101_DESC = {
-          ContentEN = "Berenica dashes forward, dealing AoE Damage 4 times along the way.",
+          ContentEN = "Charges forward, dealing Umbro AoE DMG 4 times along the path.",
           TextMapId = "SKILL_110101_DESC"
         },
         SKILL_110101_NAME = {
@@ -35371,7 +36636,7 @@ local Data = {
           TextMapId = "SKILL_110304_NAME"
         },
         SKILL_150001_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Lumino teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Lumino allies.",
           TextMapId = "SKILL_150001_DESC"
         },
         SKILL_150001_NAME = {
@@ -35379,7 +36644,7 @@ local Data = {
           TextMapId = "SKILL_150001_NAME"
         },
         SKILL_150003_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Lumino teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Lumino allies.",
           TextMapId = "SKILL_150003_DESC"
         },
         SKILL_150003_NAME = {
@@ -35419,7 +36684,7 @@ local Data = {
           TextMapId = "SKILL_150104_NAME"
         },
         SKILL_150202_DESC = {
-          ContentEN = "Enters [Funeral Rite] state. If Lady Nifle's Skill Range exceeds 100%, converts the excess portion into Skill Damage at a certain percentage, and the Skill Range will be reduced to and remain at 100% until the [Funeral Rite] state ends.\n\nWhile in [Funeral Rite] state:\nIncreases Lady Nifle's Ranged Weapon Trigger Probability;\nDoes not consume Sanity when summoning [Solar Eclipse] and increases the damage dealt by [Solar Eclipse];\nDoes not consume Sanity when summoning [Lunar Hunt] and pulls all targets on hit towards the center.\n\nThe [Funeral Rite] state ends after a certain period of time or after summoning [Lunar Hunt] and [Solar Eclipse] 6 times.",
+          ContentEN = "Enters [Funeral Rite] status. Upon entry, if the user's Skill Range exceeds 100%, the excess is converted into Skill Damage at a fixed ratio, and Skill Range is reduced to 100% for the duration.\nWhile under [Funeral Rite], gains Trigger Probability Increase for ranged weapons; [Lunar Hunt] and [Solar Eclipse] cost no Sanity; [Lunar Hunt] pulls enemies toward its centre; [Solar Eclipse] deals increased damage.\n[Funeral Rite] ends after a set duration or after casting a total of 6 [Lunar Hunt] and/or [Solar Eclipse].",
           TextMapId = "SKILL_150202_DESC"
         },
         SKILL_150202_NAME = {
@@ -35427,7 +36692,7 @@ local Data = {
           TextMapId = "SKILL_150202_NAME"
         },
         SKILL_150203_DESC = {
-          ContentEN = "Based on Lady Nifle's Ranged Weapon Trigger Probability, there is a chance to summon 1 additional [Lunar Hunt] when summoning [Solar Eclipse] at the same location, and vice versa.\n\nThe additional summoned [Solar Eclipse] and [Lunar Hunt] will not be enhanced by [Misty Sea Requiem].",
+          ContentEN = "Based on the user's Trigger Probability for ranged weapons, casting [Lunar Hunt] has a chance to also spawn [Solar Eclipse] at the same location, which in turn may spawn another [Lunar Hunt]. [Solar Eclipse] and [Lunar Hunt] instances generated this way are not enhanced by [Misty Sea Requiem].",
           TextMapId = "SKILL_150203_DESC"
         },
         SKILL_150203_NAME = {
@@ -35435,7 +36700,7 @@ local Data = {
           TextMapId = "SKILL_150203_NAME"
         },
         SKILL_150204_DESC = {
-          ContentEN = "[Solar Eclipse] can trigger "Bonus Effects: Lumino," while [Lunar Hunt] can trigger "Bonus Effects: Umbro."",
+          ContentEN = "[Lunar Hunt] can trigger Umbro bonus effects. [Solar Eclipse] can trigger Lumino bonus effects.",
           TextMapId = "SKILL_150204_DESC"
         },
         SKILL_150204_NAME = {
@@ -35515,7 +36780,7 @@ local Data = {
           TextMapId = "SKILL_160104_NAME"
         },
         SKILL_180101_DESC = {
-          ContentEN = "Deals Lumino Damage to enemies within range and decreases their Movement Speed. When using this skill in [Boisterous Tea Party], the damage is increased, and the damage range is expanded to the same range of [Boisterous Tea Party].",
+          ContentEN = "Deals Lumino Damage to enemies in front and reduces their Movement Speed.\nWhile [Boisterous Tea Party] is active, using this skill relocates the field to the user's position, expands its range to match [Boisterous Tea Party], and increases its damage.",
           TextMapId = "SKILL_180101_DESC"
         },
         SKILL_180101_NAME = {
@@ -35531,7 +36796,7 @@ local Data = {
           TextMapId = "SKILL_180102_NAME"
         },
         SKILL_180103_DESC = {
-          ContentEN = "Fina gains the ability to deal additional Lumino Damage throughout the battle. When using ["On a Warm Afternoon"], gains 3 stacks of [Taleweaver Quill]. During [Boisterous Tea Party], gains 1 stack of [Taleweaver Quill] per second, up to 30 stacks.",
+          ContentEN = "Grants bonus Lumino Damage that lasts throughout the battle. Each time ["On a Warm Afternoon"] is used, grants 6 stacks of [Taleweaver Quill]. While [Boisterous Tea Party] is active, generates 1 stack of [Taleweaver Quill] per second (up to 30 stacks).",
           TextMapId = "SKILL_180103_DESC"
         },
         SKILL_180103_NAME = {
@@ -35539,7 +36804,7 @@ local Data = {
           TextMapId = "SKILL_180103_NAME"
         },
         SKILL_180104_DESC = {
-          ContentEN = "When using ["On a Warm Afternoon"], increases the CRIT Chance of Fina's and her nearby teammates' weapon attack based on the number of [Taleweaver Quill] stacks gained.",
+          ContentEN = "Using ["On a Warm Afternoon"] increases the user's and allies' damage based on the number of [Taleweaver Quill] stacks.",
           TextMapId = "SKILL_180104_DESC"
         },
         SKILL_180104_NAME = {
@@ -35547,7 +36812,7 @@ local Data = {
           TextMapId = "SKILL_180104_NAME"
         },
         SKILL_180191_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases Weapon DMG for the character and their nearby teammates mastering in Sword or Assault Rifle.",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases Weapon DMG for self and allies proficient in Swords or Assault Rifles.",
           TextMapId = "SKILL_180191_DESC"
         },
         SKILL_180191_NAME = {
@@ -35555,19 +36820,19 @@ local Data = {
           TextMapId = "SKILL_180191_NAME"
         },
         SKILL_20101_DESC = {
-          ContentEN = "Character ATK +<H>#1</>. When shooting with this weapon, there is a chance to fire an extra projectile without consuming Ammo based on its Trigger Probability, dealing AoE Damage equal to <H>#2</> of its ATK.",
+          ContentEN = "Trigger Probability +<H>#1</>. Each shot with this weapon has a chance (based on its Weapon Trigger Probability) to fire an extra projectile at no Ammo cost, dealing AoE Damage equal to <H>#2</> of its ATK.",
           TextMapId = "SKILL_20101_DESC"
         },
         SKILL_20102_DESC = {
-          ContentEN = "Defeating targets with this weapon grants a <H>#1</> chance to reload 1 projectile.",
+          ContentEN = "Character ATK ‍+<H>#1</>.",
           TextMapId = "SKILL_20102_DESC"
         },
         SKILL_20103_DESC = {
-          ContentEN = "When dealing damage with this weapon triggers Bonus Effect, increases Damage Dealt by Melee Weapons by <H>#1</> for #2s.",
+          ContentEN = "Multishot +<H>#1</>. When this weapon triggers a bonus effect on hit, increases Melee Weapon DMG by <H>#2</> for #3s.",
           TextMapId = "SKILL_20103_DESC"
         },
         SKILL_20201_DESC = {
-          ContentEN = "When shooting with this weapon, grants 1 stack that increases ATK Speed by <H>#1</>, up to <H>#2</>. The duration refreshes on each new stack gained. This effect is removed when switching to another weapon.",
+          ContentEN = "Skill Damage +<H>#1</>.",
           TextMapId = "SKILL_20201_DESC"
         },
         SKILL_20203_DESC = {
@@ -35575,11 +36840,11 @@ local Data = {
           TextMapId = "SKILL_20203_DESC"
         },
         SKILL_20205_DESC = {
-          ContentEN = "When dealing CRIT Damage with this weapon, grants 1 stack that increases Multishot by <H>#1</> for <H>#2</>s, up to <H>#3</> stacks.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "CRIT Chance +<H>#1</>. Dealing CRIT Damage with this weapon grants +<H>#2</> Multishot for <H>#3</>s (up to <H>#4</> stacks). Effect is removed when switching weapons.",
           TextMapId = "SKILL_20205_DESC"
         },
         SKILL_20301_DESC = {
-          ContentEN = "Explosion Range +<H>#1</>. When its projectiles explode, they split into 8 additional projectiles that explode and deal damage. When defeating a target with this weapon, grants 1 stack that increases CRIT Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "Explosion Range +<H>#1</>. When its projectiles explode, they split into 6 additional projectiles that explode and deal damage. When defeating a target with this weapon, grants 1 stack that increases CRIT Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.\nThis effect is removed when switching to another weapon.",
           TextMapId = "SKILL_20301_DESC"
         },
         SKILL_20302_DESC = {
@@ -35587,7 +36852,7 @@ local Data = {
           TextMapId = "SKILL_20302_DESC"
         },
         SKILL_20303_DESC = {
-          ContentEN = "After switching to this weapon, increases the user's ATK, up to <H>#1</>, with the increase effect weakening over time. This effect can only be triggered once every 10s. When switching to another weapon, immediately removes this effect.",
+          ContentEN = "Skill Range +<H>#1</>.",
           TextMapId = "SKILL_20303_DESC"
         },
         SKILL_20304_DESC = {
@@ -35595,35 +36860,35 @@ local Data = {
           TextMapId = "SKILL_20304_DESC"
         },
         SKILL_20305_DESC = {
-          ContentEN = "When attacking with this weapon triggers Bonus Effect, grants 1 stack that increases ATK Speed by <H>#1</> for <H>#2</>s, up to <H>#3</> stacks.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "ATK Speed +<H>#1</>. When this weapon triggers a bonus effect on hit, grants +<H>#2</> ATK Speed for <H>#3</>s (up to <H>#4</> stacks). Effect is removed when switching weapons.",
           TextMapId = "SKILL_20305_DESC"
         },
         SKILL_20401_DESC = {
-          ContentEN = "When dealing damage with this weapon, the closer to the target, the higher the damage it deals, with a maximum increase of <H>#1</>.",
+          ContentEN = "Skill Duration +<H>#1</>.",
           TextMapId = "SKILL_20401_DESC"
         },
         SKILL_20402_DESC = {
-          ContentEN = "Smash ATK +<H>#1</>. The projectile it shoots attaches to the target and explodes after 3s. Projectiles attached to one another in the same position will stack up, increasing the damage and the range of the incoming explosion. When 1/2/3 projectiles are stacked, it deals <H>#2</>/<H>#3</>/<H>#4</> of the original damage.",
+          ContentEN = "CRIT Chance +<H>#1</>. The projectile it shoots attaches to the target and explodes after 3s. Projectiles attached to one another in the same position will stack up, increasing the damage and the range of the incoming explosion. When 1/2/3 projectiles are stacked, it deals <H>#2</>/<H>#3</>/<H>#4</> of the original damage.",
           TextMapId = "SKILL_20402_DESC"
         },
         SKILL_20403_DESC = {
-          ContentEN = "Once the projectiles are fired, they follow the crosshair. When dealing damage with this weapon, the further away from the target, the higher the damage it deals, with a maximum increase of <H>#1</>.",
+          ContentEN = "CRIT Damage +<H>#1</>. Fired projectiles track the crosshair. When dealing damage with this weapon, the farther the target, the higher the damage, up to a maximum increase of <H>#2</>.",
           TextMapId = "SKILL_20403_DESC"
         },
         SKILL_20405_DESC = {
-          ContentEN = "Character ATK +<H>#1</>. When charging, fires a special projectile that travels slowly and explodes after a short delay, dealing AoE damage. When shooting by a quick press, fires normal projectiles that can prematurely detonate the special projectile on hit. When defeating a target with this weapon, increases Skill Efficiency by <H>#2</> for <H>#3</>s.",
+          ContentEN = "Character ATK +<H>#1</>. Charging fires a special bullet that travels slowly and explodes after a short delay, dealing AoE damage. Tap-firing bullets can trigger its early detonation on contact. When an Umbro character casts their Ultimate, grants +<H>#2</> Skill Efficiency for <H>#3</>s.",
           TextMapId = "SKILL_20405_DESC"
         },
         SKILL_20501_DESC = {
-          ContentEN = "When dealing damage using this weapon, the more the percentage of the remaining projectiles left in Magazine, the higher the damage it deals, with a maximum increase of <H>#1</>.",
+          ContentEN = "Skill Duration +<H>#1</>.",
           TextMapId = "SKILL_20501_DESC"
         },
         SKILL_20502_DESC = {
-          ContentEN = "CRIT Chance +<H>#1</>. Fires a beam that can ricochet to up to 4 surrounding enemies after hitting an enemy. When dealing CRIT Damage with this weapon, grants 1 stack of [Exiled Thunderwyrm] that increases damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
+          ContentEN = "Trigger Probability +<H>#1</>. Fires a Beam Attack that ricochets off the target and hits up to 4 enemies within range. When an Electro character triggers bonus effects with this weapon, the user gains +<H>#2</> Skill Damage for <H>#3</>s.",
           TextMapId = "SKILL_20502_DESC"
         },
         SKILL_20503_DESC = {
-          ContentEN = "When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to reload 1 projectile.",
+          ContentEN = "Trigger Probability +<H>#1</>. When this weapon triggers a bonus effect on hit, there is a <H>#2</> chance to reload 1 projectile.",
           TextMapId = "SKILL_20503_DESC"
         },
         SKILL_20504_DESC = {
@@ -35635,7 +36900,7 @@ local Data = {
           TextMapId = "SKILL_20507_DESC"
         },
         SKILL_20509_DESC = {
-          ContentEN = "Skill Range +<H>#1</>. When a Lumino character deals additional damage, it will have a <H>#2</> chance to grant 1 stack that increases ATK for the nearby teammates by <H>#3</> for <H>#4</>s, up to <H>#5</> stacks.",
+          ContentEN = "Skill Range +<H>#1</>. When a Lumino character deals bonus damage, there is a <H>#2</> chance to grant allies +<H>#3</> ATK for <H>#4</>s (up to <H>#5</> stacks).",
           TextMapId = "SKILL_20509_DESC"
         },
         SKILL_20510_DESC = {
@@ -35643,15 +36908,15 @@ local Data = {
           TextMapId = "SKILL_20510_DESC"
         },
         SKILL_20601_DESC = {
-          ContentEN = "For each enemy hit by a single arrow it shoots, the damage it deals is increased by <H>#1</>, with a maximum increase of <H>#2</>.",
+          ContentEN = "ATK Speed +<H>#1</>‍. Each enemy struck by a single arrow increases the arrow's damage by <H>#2</>, with a maximum increase of <H>#3</>.",
           TextMapId = "SKILL_20601_DESC"
         },
         SKILL_20602_DESC = {
-          ContentEN = "CRIT Chance +<H>#1</>. When the user deals CRIT Damage with this weapon, their nearby teammate(s) will be granted one of the following enhancements for <H>#2</>s: Attack +<H>#3</>, DEF +<H>#4</>, Skill Damage +<H>#5</>, or Skill Duration +<H>#6</>.",
+          ContentEN = "Skill Duration +<H>#1</>. Landing a CRIT hit with this weapon randomly grants other allies one of the following for <H>#2</>s: +<H>#3</> ATK, +<H>#4</> DEF, +<H>#5</> Skill Damage, or +<H>#6</> Skill Duration.",
           TextMapId = "SKILL_20602_DESC"
         },
         SKILL_20603_DESC = {
-          ContentEN = "Trigger Probability +<H>#1</>. While charging, gradually locks onto enemies within range; upon release, fires tracking arrows at the locked targets. When dealing damage with this weapon triggers Bonus Effect, grants 1 stack that increases CRIT Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.\nThis effect is removed when switching to another weapon.",
+          ContentEN = "Skill Range +<H>#1</>. While charging, the weapon gradually locks onto nearby enemies. Upon release, fires tracking arrows at all locked targets. When a Lumino character deals Skill Damage, grants +<H>#2</> Skill DMG for <H>#3</>s.",
           TextMapId = "SKILL_20603_DESC"
         },
         SKILL_20604_DESC = {
@@ -35659,7 +36924,7 @@ local Data = {
           TextMapId = "SKILL_20604_DESC"
         },
         SKILL_210001_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Hydro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Hydro allies.",
           TextMapId = "SKILL_210001_DESC"
         },
         SKILL_210001_NAME = {
@@ -35667,7 +36932,7 @@ local Data = {
           TextMapId = "SKILL_210001_NAME"
         },
         SKILL_210003_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Hydro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\n Increases ATK for self and Hydro allies.",
           TextMapId = "SKILL_210003_DESC"
         },
         SKILL_210003_NAME = {
@@ -35707,7 +36972,7 @@ local Data = {
           TextMapId = "SKILL_210104_NAME"
         },
         SKILL_230101_DESC = {
-          ContentEN = "Commands all [Tentacles] to attack 1 time and increases the Damage Dealt from this attack.\nGrants Tabethe and her nearby teammate(s) the ability to deal additional Hydro Damage.",
+          ContentEN = "Commands all [Summon: Tentacles] to attack once, increasing their Damage Dealt. Also grants self and allies a boost to Skill DMG.",
           TextMapId = "SKILL_230101_DESC"
         },
         SKILL_230101_NAME = {
@@ -35747,7 +37012,7 @@ local Data = {
           TextMapId = "SKILL_240101_NAME"
         },
         SKILL_240102_DESC = {
-          ContentEN = "Deals Hydro Damage to nearby enemies. Grants Fushu an Ultra Shield and increases her ATK Speed. In addition, Fushu's nearby teammates also receive an Ultra Shield and gain [Nine-Needle Therapy].",
+          ContentEN = "Deals Hydro Damage to nearby enemies. Grants the user an Ultra Shield and an ATK Speed Increase. Nearby allies receive an Ultra Shield and [Nine-Needle Therapy].",
           TextMapId = "SKILL_240102_DESC"
         },
         SKILL_240102_NAME = {
@@ -35755,7 +37020,7 @@ local Data = {
           TextMapId = "SKILL_240102_NAME"
         },
         SKILL_240103_DESC = {
-          ContentEN = "Using a Combat Sill or Ultimate Skill (either it's Fushu or her nearby teammates) gains 1 stack that increases Skill Speed, up to 10 stacks. The remaining time of the effect is refreshed with each new stack gained.",
+          ContentEN = "Using a Combat or Ultimate Skill (by the user or nearby allies) grants 1 stack of Skill Speed Increase, up to 2 stacks. Remaining Time refreshes each time a new stack is gained.",
           TextMapId = "SKILL_240103_DESC"
         },
         SKILL_240103_NAME = {
@@ -35771,7 +37036,7 @@ local Data = {
           TextMapId = "SKILL_240104_NAME"
         },
         SKILL_240191_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases Skill DMG for the character and their nearby teammate(s) when 2 or more characters in the team share the same element type.",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases Skill DMG for self and allies if 2 or more characters on the team share the same element.",
           TextMapId = "SKILL_240191_DESC"
         },
         SKILL_240191_NAME = {
@@ -35779,7 +37044,7 @@ local Data = {
           TextMapId = "SKILL_240191_NAME"
         },
         SKILL_310001_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Pyro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Pyro allies.",
           TextMapId = "SKILL_310001_DESC"
         },
         SKILL_310001_NAME = {
@@ -35787,7 +37052,7 @@ local Data = {
           TextMapId = "SKILL_310001_NAME"
         },
         SKILL_310003_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Pyro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Pyro allies.",
           TextMapId = "SKILL_310003_DESC"
         },
         SKILL_310003_NAME = {
@@ -35803,7 +37068,7 @@ local Data = {
           TextMapId = "SKILL_310101_NAME"
         },
         SKILL_310102_DESC = {
-          ContentEN = "Switches the ranged weapon to [Hansel and Gretel]. In this state, Lynn can shoot and use skills, but cannot move.\nShooting deals damage to all enemies in front, during which Lynn gains 1 stack that increases Lynn's ATK Speed every 0.2s, up to 35 stacks.\nUsing [Hansel and Gretel] continuously consumes Sanity, during which Lynn is immune to Hitstun when taking damage. When Sanity drops to 0 or the skill is used again, sheathes [Hansel and Gretel].",
+          ContentEN = "Switches the ranged weapon to [Hansel and Gretel]. In this state, Lynn can shoot and use skills, but can only move using [Deadly Blossom].\nShooting deals damage to all enemies in front, during which Lynn gains 1 stack that increases Lynn's ATK Speed every 0.2s, up to 35 stacks.\nUsing [Hansel and Gretel] continuously consumes Sanity, during which Lynn is immune to Hitstun when taking damage. When Sanity drops to 0 or the skill is used again, sheathes [Hansel and Gretel].",
           TextMapId = "SKILL_310102_DESC"
         },
         SKILL_310102_NAME = {
@@ -35923,7 +37188,7 @@ local Data = {
           TextMapId = "SKILL_320104_NAME"
         },
         SKILL_320201_DESC = {
-          ContentEN = "Deals Pyro DMG to enemies in front and gains 1 stack of [Inebriation]. Tap repeatedly or hold the Attack button to unleash a flurry of attacks. Holding the button triggers [Burgundy Twirl], dealing Pyro DMG to nearby enemies and launching all [Spinblades].",
+          ContentEN = "Launches all [Spinblades], dealing Pyro DMG to enemies in front and granting 1 stack of [Inebriation] to the user. Tap repeatedly or hold the Attack button to unleash a flurry of attacks.",
           TextMapId = "SKILL_320201_DESC"
         },
         SKILL_320201_NAME = {
@@ -35971,7 +37236,7 @@ local Data = {
           TextMapId = "SKILL_330102_NAME"
         },
         SKILL_330103_DESC = {
-          ContentEN = "When Margie or her nearby teammate(s) pick up any item, Margie gains 1 stack of [Jackpot!] that persists, which increases Margie's Skill Damage, up to 20 stacks.",
+          ContentEN = "When the user or nearby allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill DMG, up to 20 stacks.",
           TextMapId = "SKILL_330103_DESC"
         },
         SKILL_330103_NAME = {
@@ -35979,7 +37244,7 @@ local Data = {
           TextMapId = "SKILL_330103_NAME"
         },
         SKILL_330104_DESC = {
-          ContentEN = "Increases the ATK for nearby teammate(s).",
+          ContentEN = "Grants ATK Increase to other allies.",
           TextMapId = "SKILL_330104_DESC"
         },
         SKILL_330104_NAME = {
@@ -35987,7 +37252,7 @@ local Data = {
           TextMapId = "SKILL_330104_NAME"
         },
         SKILL_410001_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Electro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Electro allies.",
           TextMapId = "SKILL_410001_DESC"
         },
         SKILL_410001_NAME = {
@@ -35995,7 +37260,7 @@ local Data = {
           TextMapId = "SKILL_410001_NAME"
         },
         SKILL_410003_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and their nearby Electro teammate(s).",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Electro allies.",
           TextMapId = "SKILL_410003_DESC"
         },
         SKILL_410003_NAME = {
@@ -36043,7 +37308,7 @@ local Data = {
           TextMapId = "SKILL_410201_NAME"
         },
         SKILL_410202_DESC = {
-          ContentEN = "When Zhiliu has fewer than 2 [Talismans], deals Electro Damage to enemies within range. \nWhen Zhiliu has 2 [Talismans], this skill is replaced with another skill based on the type of [Talismans].",
+          ContentEN = "When the user holds fewer than 2 [Talismans], deals Electro Damage to nearby enemies. \nWhen the user holds 2 or more [Talismans], this skill transforms based on the combination.",
           TextMapId = "SKILL_410202_DESC"
         },
         SKILL_410202_NAME = {
@@ -36059,7 +37324,7 @@ local Data = {
           TextMapId = "SKILL_410203_NAME"
         },
         SKILL_410204_DESC = {
-          ContentEN = "When Zhiliu or her nearby teammate(s) deal Electro Skill Damage, gains 1 stack that increases Morale, up to 12 stacks.",
+          ContentEN = "Grants 1 stack of Morale when the user or any ally deals Electro Skill DMG (up to 20 stacks).",
           TextMapId = "SKILL_410204_DESC"
         },
         SKILL_410204_NAME = {
@@ -36075,7 +37340,7 @@ local Data = {
           TextMapId = "SKILL_420101_NAME"
         },
         SKILL_420102_DESC = {
-          ContentEN = "Deals Electro Damage to enemies in front and enters [Xuanjiao Manifest] state.",
+          ContentEN = "Deals Electro AoE Damage to enemies in front and enters the [Xuanjiao Manifest] state.\n While active, the user and all Electro allies gain [Fish-Dragon Dance].",
           TextMapId = "SKILL_420102_DESC"
         },
         SKILL_420102_NAME = {
@@ -36083,7 +37348,7 @@ local Data = {
           TextMapId = "SKILL_420102_NAME"
         },
         SKILL_420103_DESC = {
-          ContentEN = "When dealing Skill Damage, inflicts 1 stack of [Thunderous Onslaught] on the target, up to 3 stacks.\n[Thunderous Onslaught]: reduces Electro Resistance.",
+          ContentEN = "When dealing damage with a melee weapon, inflicts [Thunderous Onslaught] on enemies, reducing their Electro Resistance.\n During [Xuanjiao Manifest], [Thunderous Onslaught] is automatically applied to all enemies.",
           TextMapId = "SKILL_420103_DESC"
         },
         SKILL_420103_NAME = {
@@ -36099,7 +37364,7 @@ local Data = {
           TextMapId = "SKILL_420104_NAME"
         },
         SKILL_420191_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases Morale for you and Electro teammates within range.",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases Morale for self and Electro allies.",
           TextMapId = "SKILL_420191_DESC"
         },
         SKILL_420191_NAME = {
@@ -36115,7 +37380,7 @@ local Data = {
           TextMapId = "SKILL_420201_NAME"
         },
         SKILL_420202_DESC = {
-          ContentEN = "Throws 1 [Bespoke Shield] forward, causing [Impact] 1 time when it halts. [Bespoke Shield] triggers [Impact] once every 3s when it's on the field.\n[Impact] deals damage only against target's Shield based on Randy's DEF, and grants an Ultra Shield based on Randy's DEF to teammate(s) within range.\nFor targets with 0 Shield point, [Impact] paralyses them.",
+          ContentEN = "Throws 1 [Bespoke Shield] forward, triggering [Impact] once when it halts. While active on the battlefield, [Bespoke Shield] triggers [Impact] every 3s.\n[Impact] deals damage only to Shields, based on Randy's DEF, and grants an Ultra Shield based on Randy's DEF to Randy and allies. For targets with 0 Shield, [Impact] paralyses them.",
           TextMapId = "SKILL_420202_DESC"
         },
         SKILL_420202_NAME = {
@@ -36171,7 +37436,7 @@ local Data = {
           TextMapId = "SKILL_430104_NAME"
         },
         SKILL_510001_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and nearby Anemo teammates.",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Anemo allies.",
           TextMapId = "SKILL_510001_DESC"
         },
         SKILL_510001_NAME = {
@@ -36179,7 +37444,7 @@ local Data = {
           TextMapId = "SKILL_510001_NAME"
         },
         SKILL_510003_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases ATK for the character and nearby Anemo teammates.",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases ATK for self and Anemo allies.",
           TextMapId = "SKILL_510003_DESC"
         },
         SKILL_510003_NAME = {
@@ -36187,7 +37452,7 @@ local Data = {
           TextMapId = "SKILL_510003_NAME"
         },
         SKILL_510101_DESC = {
-          ContentEN = "Commands [Filbert] to charge forwards, dealing Anemo Damage to enemies in the path. Upon hitting any obstacles, deals AoE Anemo Damage at the endpoint. When using this skill, heals Truffle and Filbert and her nearby teammates and increases their damage.\nWhen Truffle rides on [Filbert], this skill is replaced with [Trotters Charge-Charge].",
+          ContentEN = "Commands [Filbert] to charge forwards, dealing Anemo Damage to enemies in the path. Upon hitting any obstacles, triggers Anemo AoE Damage at the endpoint. While this skill is active, heals Truffle and allies, and increases their damage.\nWhen Truffle rides on [Filbert], this skill is replaced with [Trotters Charge-Charge].",
           TextMapId = "SKILL_510101_DESC"
         },
         SKILL_510101_NAME = {
@@ -36219,7 +37484,7 @@ local Data = {
           TextMapId = "SKILL_510104_NAME"
         },
         SKILL_510191_DESC = {
-          ContentEN = "<H>[Only effective when deployed as a Combat Partner]</>\nIncreases Malaise for the character and nearby teammates when 2 or more characters in the team share the same element type.",
+          ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases Resolve for self and allies if 2 or more characters on the team share the same element.",
           TextMapId = "SKILL_510191_DESC"
         },
         SKILL_510191_NAME = {
@@ -36275,7 +37540,7 @@ local Data = {
           TextMapId = "SKILL_530102_NAME"
         },
         SKILL_530103_DESC = {
-          ContentEN = "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Damage Boost, or Malaise Boost.\nIncreases Psyche's damage for each buff she gains, up to 12 buffs.",
+          ContentEN = "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Damage Boost, or Resolve Boost.\nIncreases Psyche's damage for each buff she gains, up to 12 buffs.",
           TextMapId = "SKILL_530103_DESC"
         },
         SKILL_530103_NAME = {
@@ -36283,7 +37548,7 @@ local Data = {
           TextMapId = "SKILL_530103_NAME"
         },
         SKILL_530104_DESC = {
-          ContentEN = "When using [Fluorescent Eclosion], if Psyche's HP percentage is no less than 75%, gains [Ephemeral as Dew].\n[Ephemeral as Dew]: When triggering the effect of Morale/Malaise, it regards Psyche's HP percentage as 1%. This effect can only be triggered once every 120s.",
+          ContentEN = "When using [Fluorescent Eclosion], if Psyche's HP percentage is no less than 75%, gains [Ephemeral as Dew].\n[Ephemeral as Dew]: When triggering the effect of Morale/Resolve, it regards Psyche's HP percentage as 1%. This effect can only be triggered once every 120s.",
           TextMapId = "SKILL_530104_DESC"
         },
         SKILL_530104_NAME = {
@@ -36291,7 +37556,7 @@ local Data = {
           TextMapId = "SKILL_530104_NAME"
         },
         SKILL_540101_DESC = {
-          ContentEN = "Daphne enters the [Emerald Effusion] state, during which an alchemical mist permeates the area around Daphne, continuously healing Daphne and the teammate(s) within range and decreasing the Movement Speed of the enemies in the mist.\nDuring [Emerald Effusion] state, Daphne gains 2 [Azoth Projectiles] per second.",
+          ContentEN = "Grants [Emerald Effusion]. While active, alchemical smoke fills the area around the user, continuously healing self and allies while slowing enemies in the area. \nWhile [Emerald Effusion] is active, generates 2 [Azoth Projectiles] per second.",
           TextMapId = "SKILL_540101_DESC"
         },
         SKILL_540101_NAME = {
@@ -36299,7 +37564,7 @@ local Data = {
           TextMapId = "SKILL_540101_NAME"
         },
         SKILL_540102_DESC = {
-          ContentEN = "Heals and applies [Purification Formula] to Daphne and the nearby teammate(s). Temporarily immobilises and inflicts 1 stack of [Decay Formula] on enemies around, up to 3 stacks.\nDaphne gains [Azoth Projectiles] equal to the total number of affected teammates and enemies, up to 12 projectiles.",
+          ContentEN = "Heals self and allies, applying [Purification Formula]. Briefly restrains nearby enemies and inflicts [Decay Formula] on them. \n Generates 1 [Azoth Projectile] per affected target (ally or enemy), up to a maximum of 12.",
           TextMapId = "SKILL_540102_DESC"
         },
         SKILL_540102_NAME = {
@@ -36371,7 +37636,7 @@ local Data = {
           TextMapId = "SKILL_DESC_1103DamageRadius"
         },
         SKILL_DESC_1103ExSpToAtk = {
-          ContentEN = "[Bestial Fury: Devotion] ATK Boost",
+          ContentEN = "Bonus ATK Boost",
           TextMapId = "SKILL_DESC_1103ExSpToAtk"
         },
         SKILL_DESC_1103FallAttackDamage = {
@@ -36379,7 +37644,7 @@ local Data = {
           TextMapId = "SKILL_DESC_1103FallAttackDamage"
         },
         SKILL_DESC_1103LimitOff = {
-          ContentEN = "[Bestial Fury: Devotion] Max ATK Boost",
+          ContentEN = "Bonus ATK Boost Cap",
           TextMapId = "SKILL_DESC_1103LimitOff"
         },
         SKILL_DESC_1103MarkRate = {
@@ -36399,7 +37664,7 @@ local Data = {
           TextMapId = "SKILL_DESC_1103MarkSustain"
         },
         SKILL_DESC_1103MaxAtk = {
-          ContentEN = "[Bestial Fury] Max ATK Boost",
+          ContentEN = "ATK Boost Cap",
           TextMapId = "SKILL_DESC_1103MaxAtk"
         },
         SKILL_DESC_1103RayDamage = {
@@ -36415,7 +37680,7 @@ local Data = {
           TextMapId = "SKILL_DESC_1103Restore"
         },
         SKILL_DESC_1103Skill01Damage = {
-          ContentEN = "[Aria] DMG",
+          ContentEN = "Damage",
           TextMapId = "SKILL_DESC_1103Skill01Damage"
         },
         SKILL_DESC_1103Skill01Msp1 = {
@@ -36431,7 +37696,7 @@ local Data = {
           TextMapId = "SKILL_DESC_1103Skill01SkillRange"
         },
         SKILL_DESC_1103Skill01SpCost = {
-          ContentEN = "[Aria] Sanity Cost",
+          ContentEN = "Sanity Cost",
           TextMapId = "SKILL_DESC_1103Skill01SpCost"
         },
         SKILL_DESC_1103Skill01Sustain = {
@@ -36443,11 +37708,11 @@ local Data = {
           TextMapId = "SKILL_DESC_1103Skill02Msp"
         },
         SKILL_DESC_1103SpToAtk = {
-          ContentEN = "[Bestial Fury] ATK Boost",
+          ContentEN = "ATK Boost",
           TextMapId = "SKILL_DESC_1103SpToAtk"
         },
         SKILL_DESC_1103SspCost = {
-          ContentEN = "[Bestial Fury: Devotion] Immersion Cost per second",
+          ContentEN = "Immersion Drain (per sec)",
           TextMapId = "SKILL_DESC_1103SspCost"
         },
         SKILL_DESC_1501DmgdDown = {
@@ -36466,6 +37731,10 @@ local Data = {
           ContentEN = "Gains Combo Points while Charging",
           TextMapId = "SKILL_DESC_1501HeavyAttackCombo"
         },
+        SKILL_DESC_1501HeavyAttackLoopSp = {
+          ContentEN = "Sanity Cost While Charging",
+          TextMapId = "SKILL_DESC_1501HeavyAttackLoopSp"
+        },
         SKILL_DESC_1501HeavyAttackSp = {
           ContentEN = "Continuously Consumes Sanity while Charging",
           TextMapId = "SKILL_DESC_1501HeavyAttackSp"
@@ -36479,35 +37748,35 @@ local Data = {
           TextMapId = "SKILL_DESC_1501PassiveTime"
         },
         SKILL_DESC_1502Skill01Buff1 = {
-          ContentEN = "[Solar Eclipse] Decreases ATK by",
+          ContentEN = "ATK Reduced",
           TextMapId = "SKILL_DESC_1502Skill01Buff1"
         },
         SKILL_DESC_1502Skill01Buff2 = {
-          ContentEN = "[Lunar Hunt] Decreases Movement SPD by",
+          ContentEN = "Movement Speed Decrease",
           TextMapId = "SKILL_DESC_1502Skill01Buff2"
         },
         SKILL_DESC_1502Skill01BuffTime1 = {
-          ContentEN = "[Solar Eclipse] Decreases ATK for",
+          ContentEN = "ATK Decrease Duration",
           TextMapId = "SKILL_DESC_1502Skill01BuffTime1"
         },
         SKILL_DESC_1502Skill01BuffTime2 = {
-          ContentEN = "[Lunar Hunt] Decreases Movement SPD for",
+          ContentEN = "Movement Speed Decrease Duration",
           TextMapId = "SKILL_DESC_1502Skill01BuffTime2"
         },
         SKILL_DESC_1502Skill01Damage1 = {
-          ContentEN = "[Solar Eclipse] DMG",
+          ContentEN = "Damage",
           TextMapId = "SKILL_DESC_1502Skill01Damage1"
         },
         SKILL_DESC_1502Skill01Damage2 = {
-          ContentEN = "[Lunar Hunt] DMG",
+          ContentEN = "Damage",
           TextMapId = "SKILL_DESC_1502Skill01Damage2"
         },
         SKILL_DESC_1502Skill01Radius1 = {
-          ContentEN = "[Solar Eclipse] DMG Radius",
+          ContentEN = "Damage Radius",
           TextMapId = "SKILL_DESC_1502Skill01Radius1"
         },
         SKILL_DESC_1502Skill01Radius2 = {
-          ContentEN = "[Lunar Hunt] DMG Radius",
+          ContentEN = "Damage Radius",
           TextMapId = "SKILL_DESC_1502Skill01Radius2"
         },
         SKILL_DESC_1502Skill02BuffTime = {
@@ -36531,15 +37800,15 @@ local Data = {
           TextMapId = "SKILL_DESC_1502Skill02Rate"
         },
         SKILL_DESC_1502Skill03MaxRate = {
-          ContentEN = "[Interwoven Cries] Effect\nMax Trigger Probability",
+          ContentEN = "Effect Trigger Probability Cap",
           TextMapId = "SKILL_DESC_1502Skill03MaxRate"
         },
         SKILL_DESC_1502Skill03Rate = {
-          ContentEN = "[Interwoven Cries]\nEffect Trigger Probability",
+          ContentEN = "Effect Trigger Probability",
           TextMapId = "SKILL_DESC_1502Skill03Rate"
         },
         SKILL_DESC_1502Skill04Rate = {
-          ContentEN = "[Nightfall] Effect Trigger Probability",
+          ContentEN = "Effect Trigger Probability",
           TextMapId = "SKILL_DESC_1502Skill04Rate"
         },
         SKILL_DESC_1503Passive2LastTime = {
@@ -36575,27 +37844,27 @@ local Data = {
           TextMapId = "SKILL_DESC_1503Skill02Damage02Rate"
         },
         SKILL_DESC_1503Skill02Damage03 = {
-          ContentEN = "[Feathers Chase Dust In Dreams] DMG",
+          ContentEN = "Damage",
           TextMapId = "SKILL_DESC_1503Skill02Damage03"
         },
         SKILL_DESC_1503Skill02Damage03Range = {
-          ContentEN = "[Feathers Chase Dust In Dreams] DMG Radius",
+          ContentEN = "Damage Radius",
           TextMapId = "SKILL_DESC_1503Skill02Damage03Range"
         },
         SKILL_DESC_1503Skill02SpCost01 = {
-          ContentEN = "[Lightswords Slice Starry Streams] Sanity Cost Decrease",
+          ContentEN = "Sanity Cost Reduced",
           TextMapId = "SKILL_DESC_1503Skill02SpCost01"
         },
         SKILL_DESC_1503Skill02SpCost03 = {
-          ContentEN = "[Feathers Chase Dust In Dreams] Sanity Cost Decrease",
+          ContentEN = "Sanity Cost Reduced",
           TextMapId = "SKILL_DESC_1503Skill02SpCost03"
         },
         SKILL_DESC_1503Skill02SpCostClose = {
-          ContentEN = "[Feathers Chase Dust In Dreams] Sanity Cost",
+          ContentEN = "Sanity Cost",
           TextMapId = "SKILL_DESC_1503Skill02SpCostClose"
         },
         SKILL_DESC_1503Skill02SpCostOpen = {
-          ContentEN = "[Lightswords Slice Starry Streams] Sanity Cost",
+          ContentEN = "Sanity Cost",
           TextMapId = "SKILL_DESC_1503Skill02SpCostOpen"
         },
         SKILL_DESC_1503Skill02WeaponRange = {
@@ -36603,19 +37872,19 @@ local Data = {
           TextMapId = "SKILL_DESC_1503Skill02WeaponRange"
         },
         SKILL_DESC_1503Skill02_Claymore_RunAttack = {
-          ContentEN = "Greatsword Normal Attack DMG",
+          ContentEN = "Damage from Greatswords' Normal Attacks",
           TextMapId = "SKILL_DESC_1503Skill02_Claymore_RunAttack"
         },
         SKILL_DESC_1503Skill02_Dualblade_RunAttack = {
-          ContentEN = "Dual Blades Normal Attack DMG",
+          ContentEN = "Damage from Dual Blades' Normal Attacks",
           TextMapId = "SKILL_DESC_1503Skill02_Dualblade_RunAttack"
         },
         SKILL_DESC_1503Skill02_Polearm_RunAttack = {
-          ContentEN = "Polearm Normal Attack DMG",
+          ContentEN = "Damage from Polearms' Normal Attacks",
           TextMapId = "SKILL_DESC_1503Skill02_Polearm_RunAttack"
         },
         SKILL_DESC_1503Skill02_Sword_RunAttack = {
-          ContentEN = "Sword Normal Attack DMG",
+          ContentEN = "Damage from Swords' Normal Attacks",
           TextMapId = "SKILL_DESC_1503Skill02_Sword_RunAttack"
         },
         SKILL_DESC_1503Skill02_Weapon_Change = {
@@ -36635,11 +37904,11 @@ local Data = {
           TextMapId = "SKILL_DESC_1601Skill01Width"
         },
         SKILL_DESC_1801Buff = {
-          ContentEN = "[Taleweaver Quill] Additional DMG\nper stack",
+          ContentEN = "Each Stack Grants DMG Bonus",
           TextMapId = "SKILL_DESC_1801Buff"
         },
         SKILL_DESC_1801BuffTime = {
-          ContentEN = "[Taleweaver Quill] Duration",
+          ContentEN = "Duration",
           TextMapId = "SKILL_DESC_1801BuffTime"
         },
         SKILL_DESC_1801Passive = {
@@ -36679,7 +37948,7 @@ local Data = {
           TextMapId = "SKILL_DESC_2301Rate"
         },
         SKILL_DESC_2401MaxSkill02SkillIntensity = {
-          ContentEN = "Skill DMG Boost Cap",
+          ContentEN = "Skill Damage Cap Boost",
           TextMapId = "SKILL_DESC_2401MaxSkill02SkillIntensity"
         },
         SKILL_DESC_2401PassiveBase = {
@@ -36687,7 +37956,7 @@ local Data = {
           TextMapId = "SKILL_DESC_2401PassiveBase"
         },
         SKILL_DESC_2401Skill02BuffSustain = {
-          ContentEN = "[Nine-Needle Therapy] Duration",
+          ContentEN = "Duration",
           TextMapId = "SKILL_DESC_2401Skill02BuffSustain"
         },
         SKILL_DESC_2401Skill02Damage = {
@@ -36699,7 +37968,7 @@ local Data = {
           TextMapId = "SKILL_DESC_2401Skill02DamageRadius"
         },
         SKILL_DESC_2401Skill02SkillIntensityRate = {
-          ContentEN = "[Nine-Needle Therapy] Skill DMG Boost",
+          ContentEN = "Skill Damage Increase",
           TextMapId = "SKILL_DESC_2401Skill02SkillIntensityRate"
         },
         SKILL_DESC_3101WildFireCountMax = {
@@ -36755,23 +38024,23 @@ local Data = {
           TextMapId = "SKILL_DESC_3103BuffSkillEff"
         },
         SKILL_DESC_3103DomainBuffRate = {
-          ContentEN = "Explosion DMG Bonus per [Tot Popper] Detonated",
+          ContentEN = "Bonus Damage Multiplier per [Tot Popper] Detonated",
           TextMapId = "SKILL_DESC_3103DomainBuffRate"
         },
         SKILL_DESC_3103DomainDamage = {
-          ContentEN = "[Nightmare Lab] Explosion DMG",
+          ContentEN = "Explosion DMG",
           TextMapId = "SKILL_DESC_3103DomainDamage"
         },
         SKILL_DESC_3103DomainDebuff = {
-          ContentEN = "[Nightmare Lab] M.SPD Decrease",
+          ContentEN = "Movement Speed Decrease",
           TextMapId = "SKILL_DESC_3103DomainDebuff"
         },
         SKILL_DESC_3103DomainLifeTime = {
-          ContentEN = "[Nightmare Lab] Duration",
+          ContentEN = "Duration",
           TextMapId = "SKILL_DESC_3103DomainLifeTime"
         },
         SKILL_DESC_3103DomainRadius = {
-          ContentEN = "[Nightmare Lab] Radius",
+          ContentEN = "Radius",
           TextMapId = "SKILL_DESC_3103DomainRadius"
         },
         SKILL_DESC_3103DomainSpRecover = {
@@ -36803,27 +38072,27 @@ local Data = {
           TextMapId = "SKILL_DESC_3103YeerFallRange"
         },
         SKILL_DESC_3201Skill01Damage = {
-          ContentEN = "[Puncture Retribution] DMG",
+          ContentEN = "Damage",
           TextMapId = "SKILL_DESC_3201Skill01Damage"
         },
         SKILL_DESC_3201Skill01DamageRadius = {
-          ContentEN = "[Puncture Retribution] DMG Radius",
+          ContentEN = "Damage Radius",
           TextMapId = "SKILL_DESC_3201Skill01DamageRadius"
         },
         SKILL_DESC_3201Skill01Dot = {
-          ContentEN = "[Retribution] DoT",
+          ContentEN = "Periodic Damage",
           TextMapId = "SKILL_DESC_3201Skill01Dot"
         },
         SKILL_DESC_3201Skill01DotRadius = {
-          ContentEN = "[Retribution] DoT Radius",
+          ContentEN = "Periodic Damage Radius",
           TextMapId = "SKILL_DESC_3201Skill01DotRadius"
         },
         SKILL_DESC_3201Skill01Sustain = {
-          ContentEN = "[Retribution] Duration Extension",
+          ContentEN = "Duration Extension",
           TextMapId = "SKILL_DESC_3201Skill01Sustain"
         },
         SKILL_DESC_3201Skill01Time = {
-          ContentEN = "[Retribution] Duration",
+          ContentEN = "Duration",
           TextMapId = "SKILL_DESC_3201Skill01Time"
         },
         SKILL_DESC_3202Passive01Damage01 = {
@@ -36835,7 +38104,7 @@ local Data = {
           TextMapId = "SKILL_DESC_3202Skill01Buff01"
         },
         SKILL_DESC_3202Skill01Buff02 = {
-          ContentEN = "+[Spinblade] Spin Speed & Launch Speed per [Inebriation] Stack",
+          ContentEN = "+[Spinblade] Launch Speed per [Inebriation] Stack",
           TextMapId = "SKILL_DESC_3202Skill01Buff02"
         },
         SKILL_DESC_3202Skill01CostSp01 = {
@@ -36915,7 +38184,7 @@ local Data = {
           TextMapId = "SKILL_DESC_4101Skill02_BuffLastTime"
         },
         SKILL_DESC_4101Skill02_Damage01 = {
-          ContentEN = "[Electro Surge] DMG",
+          ContentEN = "Targeted Damage",
           TextMapId = "SKILL_DESC_4101Skill02_Damage01"
         },
         SKILL_DESC_4101Skill02_Damage02 = {
@@ -36923,7 +38192,7 @@ local Data = {
           TextMapId = "SKILL_DESC_4101Skill02_Damage02"
         },
         SKILL_DESC_4101Skill02_Radius01 = {
-          ContentEN = "[Electro Surge] Effect Radius",
+          ContentEN = "Effect Radius",
           TextMapId = "SKILL_DESC_4101Skill02_Radius01"
         },
         SKILL_DESC_4101Skill02_Radius02 = {
@@ -37067,19 +38336,19 @@ local Data = {
           TextMapId = "SKILL_DESC_4201ThunderDamageRadius"
         },
         SKILL_DESC_4202Skill01DebuffDmg = {
-          ContentEN = "[Overwork Grudge] DoT",
+          ContentEN = "Periodic Damage",
           TextMapId = "SKILL_DESC_4202Skill01DebuffDmg"
         },
         SKILL_DESC_4202Skill01DebuffRate = {
-          ContentEN = "[Overwork Grudge] ATK Decrease",
+          ContentEN = "ATK Reduced",
           TextMapId = "SKILL_DESC_4202Skill01DebuffRate"
         },
         SKILL_DESC_4202Skill02EsConvertRate = {
-          ContentEN = "Ultra Shield from [Impact]",
+          ContentEN = "Grants Ultra Shield",
           TextMapId = "SKILL_DESC_4202Skill02EsConvertRate"
         },
         SKILL_DESC_4202Skill02EsDamage = {
-          ContentEN = "[Impact] DMG",
+          ContentEN = "Damage",
           TextMapId = "SKILL_DESC_4202Skill02EsDamage"
         },
         SKILL_DESC_4202Skill02Sustain = {
@@ -37111,15 +38380,15 @@ local Data = {
           TextMapId = "SKILL_DESC_4301Skill02DamageRate"
         },
         SKILL_DESC_4301Skill02ExploreDamage = {
-          ContentEN = "[Devastating Storm] DMG",
+          ContentEN = "Damage",
           TextMapId = "SKILL_DESC_4301Skill02ExploreDamage"
         },
         SKILL_DESC_4301Skill02ExploreRange = {
-          ContentEN = "[Devastating Storm] DMG Radius",
+          ContentEN = "Damage Radius",
           TextMapId = "SKILL_DESC_4301Skill02ExploreRange"
         },
         SKILL_DESC_4301Skill02LastTime = {
-          ContentEN = "[Chaotic Thunderorb] Duration",
+          ContentEN = "Duration",
           TextMapId = "SKILL_DESC_4301Skill02LastTime"
         },
         SKILL_DESC_4301Skill02LinkDamage = {
@@ -37131,7 +38400,7 @@ local Data = {
           TextMapId = "SKILL_DESC_4301Skill02LinkDamageSp"
         },
         SKILL_DESC_4301Skill02Radius = {
-          ContentEN = "[Chaotic Thunderorb] Effect Radius",
+          ContentEN = "Effect Radius",
           TextMapId = "SKILL_DESC_4301Skill02Radius"
         },
         SKILL_DESC_4301Skill02SecondEnergy = {
@@ -37163,11 +38432,11 @@ local Data = {
           TextMapId = "SKILL_DESC_5101FallAtkDamage"
         },
         SKILL_DESC_5101GoalDamage = {
-          ContentEN = "[Trotters Charge-Charge]\nEndpoint DMG",
+          ContentEN = "Endpoint DMG",
           TextMapId = "SKILL_DESC_5101GoalDamage"
         },
         SKILL_DESC_5101GoalDamageRadius = {
-          ContentEN = "[Trotters Charge-Charge]\nEndpoint DMG Radius",
+          ContentEN = "Endpoint DMG Radius",
           TextMapId = "SKILL_DESC_5101GoalDamageRadius"
         },
         SKILL_DESC_5101IncreasePerHit = {
@@ -37175,7 +38444,7 @@ local Data = {
           TextMapId = "SKILL_DESC_5101IncreasePerHit"
         },
         SKILL_DESC_5101SpCostDot = {
-          ContentEN = "[Trotters Charge-Charge]\nSanity Cost per second",
+          ContentEN = "Sanity Cost per Second",
           TextMapId = "SKILL_DESC_5101SpCostDot"
         },
         SKILL_DESC_5102Skill01Buff = {
@@ -37231,7 +38500,7 @@ local Data = {
           TextMapId = "SKILL_DESC_5301Skill01Range"
         },
         SKILL_DESC_5301Skill01SpCost = {
-          ContentEN = "[Phototaxis] Sanity Cost",
+          ContentEN = "Sanity Cost",
           TextMapId = "SKILL_DESC_5301Skill01SpCost"
         },
         SKILL_DESC_5301Skill01Sustain = {
@@ -37447,7 +38716,7 @@ local Data = {
           TextMapId = "SKILL_DESC_EffectRadiusEnemy"
         },
         SKILL_DESC_Enmity = {
-          ContentEN = "Malaise Boost",
+          ContentEN = "Resolve Boost",
           TextMapId = "SKILL_DESC_Enmity"
         },
         SKILL_DESC_ExploreDamage = {
@@ -37967,15 +39236,15 @@ local Data = {
           TextMapId = "Skill_DESC_DefDown"
         },
         SkinGacha_Des_Normal = {
-          ContentEN = "You are guaranteed a Purple- or higher-tier item within every <highlight>X</> Weaves, and a Golden-tier item is guaranteed within <highlight>Y</> Weaves. Weave counts for the "%s" banner are tracked independently and do not carry over to other Myriad banners.",
+          ContentEN = "You are guaranteed a Purple- or higher-tier item within every <highlight>10</> Weaves, and a Golden-tier item is guaranteed within <highlight>90</> Weaves. Weave counts for the "%s" banner are tracked independently and do not carry over to other Myriad banners.",
           TextMapId = "SkinGacha_Des_Normal"
         },
         SkinGacha_Des_Special = {
-          ContentEN = "You are guaranteed a Purple- or higher-tier item within every <highlight>X</> Weaves, and Prismatic Grit ×1 is guaranteed within <highlight>Y</> Weaves. Weave counts for the "%s" banner are tracked independently and do not carry over to other Myriad banners.",
+          ContentEN = "You are guaranteed a Purple- or higher-tier item within every <highlight>10</> Weaves, and Iridescent Prism ×25 is guaranteed within <highlight>90</> Weaves.",
           TextMapId = "SkinGacha_Des_Special"
         },
         SkinGacha_Name_Normal_1 = {
-          ContentEN = "Iridescent Rondo",
+          ContentEN = "Starlight Rondo",
           TextMapId = "SkinGacha_Name_Normal_1"
         },
         SkinGacha_Name_Special_1 = {
@@ -37983,11 +39252,11 @@ local Data = {
           TextMapId = "SkinGacha_Name_Special_1"
         },
         SkinGacha_Warning_Normal = {
-          ContentEN = "<Title>Guaranteed Golden-tier Item</>\n Current Weaves: <highlight>%d</>/90\n \n <Title>Standard Myriad Drop Rates</>\n The base drop rate per Weave for a Golden-tier item is <highlight>0.6%</>. The overall rate, including guarantee, is <highlight>1.6%</>. A Golden-tier item is guaranteed within <highlight>90</> Weaves at most. Upon obtaining one, the chance of it being Skin 1 is <highlight>X</>, Skin 2 is <highlight>Y</>, and Skin 3 is <highlight>Z</>.\n The base drop rate per Weave for a Purple-tier item is <highlight>5.1%</>. The overall rate, including guarantee, is <highlight>13.0%</>. A Purple-tier item is guaranteed within <highlight>10</> Weaves at most. When the guarantee triggers, the chance of receiving a Purple-tier item is <highlight>99.4%</>, and a Golden-tier item is <highlight>0.6%</>.\n In cases involving rate-ups or guarantees, please refer to the specific banner rules.\n \n <Title>About Duplicates</>\n On obtaining a skin you already own, it converts into Pristine Grit:\n Each duplicate Golden-tier skin converts to Pristine Grit ×<highlight>A</>.\n Each duplicate Purple-tier skin converts to Pristine Grit ×<highlight>B</>.\n Each duplicate Blue-tier skin converts to Pristine Grit ×<highlight>C</>.",
+          ContentEN = "<Title>Guaranteed Golden-tier Item</>\n Current Weaves: <highlight>%d</>/90\n \n <Title>Standard Myriad Drop Rates</>\n The base drop rate per Weave for a Golden-tier item is <highlight>0.3%%</>. The overall rate, including guarantee, is <highlight>1.42%%</>. A Golden-tier item is guaranteed within <highlight>90</> Weaves. \n The drop rates for each item are as follows:\n Tideborn Rhapsody: <highlight>0.427%%</>\n Sunrise Scherzo: <highlight>0.427%%</>\n Veils and Whispers: <highlight>0.285%%</>\n Sunlit Gristmill: <highlight>0.285%%</>\n \n The base drop rate per Weave for a Purple-tier item is <highlight>5.1%%</>. The overall rate, including guarantee, is <highlight>12.46%%</>. A Purple-tier item is guaranteed within <highlight>10</> Weaves;\n When the guarantee triggers, the chance of receiving a Purple-tier item is <highlight>99.7%%</>, and a Golden-tier item is <highlight>0.3%%</>.\n In cases involving rate-ups or guarantees, please refer to the specific banner rules.\n \n <Title>About Duplicates</>\n \n On obtaining a skin you already own, it converts into Lucent Prism:\n Each duplicate Golden-tier character skin converts to Lucent Prism ×<highlight>60</>.\n Each duplicate Golden-tier weapon skin converts to Lucent Prism ×<highlight>40</>.\n Each duplicate Purple-tier skin converts to Lucent Prism ×<highlight>4</>.\n Each duplicate Blue-tier skin converts to Lucent Prism ×<highlight>1</>.\n \n <Title>About Pity System</>\n The count of Weaves for the <highlight> Starlight Rondo</> is tallied separately and does not carry over to other Myriad banners.",
           TextMapId = "SkinGacha_Warning_Normal"
         },
         SkinGacha_Warning_Special = {
-          ContentEN = "<Title>Guaranteed Prismatic Grit</>\n Current Weaves: <highlight>%d</>/90\n \n <Title>Event-Exclusive Myriad Drop Rates</>\n The base drop rate per Weave for a Golden- or higher-tier item is <highlight>0.6%</>. The overall drop rate, including guarantee, is <highlight>1.6%</>. Prismatic Grit ×<highlight>1</> is guaranteed within <highlight>90</> Weaves at most. Upon obtaining a Golden- or higher-tier item, the chance of it being Skin 1 is <highlight>X</>, Skin 2 is <highlight>Y</>, and Skin 3 is <highlight>Z</>.\n The base drop rate per Weave for a Purple-tier item is <highlight>5.1%</>. The overall drop rate, including guarantee, is <highlight>13.0%</>. A Purple-tier item is guaranteed within <highlight>10</> Weaves at most. When the guarantee triggers, the chance of receiving a Purple-tier item is <highlight>99.4%</>, and a Golden- or higher-tier item is <highlight>0.6%</>.\n In cases involving rate-ups or guarantees, please refer to the specific banner rules.\n \n <Title>About Duplicates</>\n On obtaining a Golden-tier skin you already own, it converts into Prismatic Grit ×<highlight>A</>.\n On obtaining a Purple- or Blue-tier skin you already own, it converts to Pristine Grit;\n Each duplicate Purple-tier skin converts to Pristine Grit ×<highlight>B</>.\n Each duplicate Blue-tier skin converts to Pristine Grit ×<highlight>C</>.",
+          ContentEN = "<Title>Guaranteed Golden-tier Item</>\n Current Weaves: <highlight>%d</>/90\n \n <Title>Event-Exclusive Myriad Drop Rates</>\n The base drop rate per Weave for a Golden-tier item is <highlight>0.3%%</>. The overall drop rate, including guarantee, is <highlight>1.42%%</>. A Golden-tier item is guaranteed within <highlight>90</> Weaves. \n The drop rates for each item are as follows:\n Minuet Reverie：<highlight>0.641%%</>\n Iridescent Prism × 25: <highlight>0.641%%</>\n Iridescent Prism × 50：<highlight>0.142%%</>\n \n The base drop rate per Weave for a Purple-tier item is <highlight>5.1%%</>. The overall drop rate, including guarantee, is <highlight>12.46%%</>. A Purple-tier item is guaranteed within <highlight>10</> Weaves.\n When the guarantee triggers, the chance of receiving a Purple-tier item is <highlight>99.7%%</>, and a Golden- or higher-tier item is <highlight>0.3%%</>.\n In cases involving rate-ups or guarantees, please refer to the specific banner rules.\n \n <Title>About Duplicates</>\n On obtaining a Golden-tier skin: Minuet Reverie you already own, it converts into Iridescent Prism ×<highlight>25</>.\n On obtaining other skins you already own, they convert to Lucent Prism:\n Each duplicate Purple-tier skin converts to Lucent Prism ×<highlight>4</>.\n Each duplicate Blue-tier skin converts to Lucent Prism ×<highlight>1</>.\n \n <Title>About Pity System</>\n The count of Weaves for the <highlight>Summer Dreams Aflutter</> is tallied separately and does not carry over to other Myriad banners.",
           TextMapId = "SkinGacha_Warning_Special"
         },
         SkinTrialEvent_Title_Saiqi = {
@@ -38047,7 +39316,7 @@ local Data = {
           TextMapId = "StarterQuest_Des_102001_1_5"
         },
         StarterQuest_Des_102001_2_1 = {
-          ContentEN = "Complete Commission: Hedge ∞ once",
+          ContentEN = "Complete Commission: Hedge once",
           TextMapId = "StarterQuest_Des_102001_2_1"
         },
         StarterQuest_Des_102001_2_2 = {
@@ -38147,7 +39416,7 @@ local Data = {
           TextMapId = "StarterQuest_Des_102001_6_3"
         },
         StarterQuest_Des_102001_6_4 = {
-          ContentEN = "Forge any 4★ weapon 1 time",
+          ContentEN = "Forge any weapon 1 time",
           TextMapId = "StarterQuest_Des_102001_6_4"
         },
         StarterQuest_Des_102001_6_5 = {
@@ -38319,11 +39588,11 @@ local Data = {
           TextMapId = "StoryEvent_Shop01"
         },
         StoryEvent_Shop01_1 = {
-          ContentEN = "Abyssal Merchant (Ⅰ)",
+          ContentEN = "Abyssal Merchant: Lampwicks and the Lantern",
           TextMapId = "StoryEvent_Shop01_1"
         },
         StoryEvent_Shop01_2 = {
-          ContentEN = "Abyssal Merchant (Ⅱ)",
+          ContentEN = "Abyssal Merchant: The Flame That Remains",
           TextMapId = "StoryEvent_Shop01_2"
         },
         StoryEvent_Shop01_3 = {
@@ -38619,12 +39888,16 @@ local Data = {
           TextMapId = "System_Des_PhotoCamera_CBT3"
         },
         System_Des_Play = {
-          ContentEN = "<Highlight>Commissions</> is now unlocked. Complete more commissions to become an excellent Phoxhunter.",
+          ContentEN = "<Highlight>Combat</> is now unlocked. Complete more commissions to become an excellent Phoxhunter.",
           TextMapId = "System_Des_Play"
         },
         System_Des_Polarity = {
           ContentEN = "<Highlight>Track Adjustment</> is now unlocked. Time to maximise the potential of your Demon Wedges.",
           TextMapId = "System_Des_Polarity"
+        },
+        System_Des_Polarity_CBT3 = {
+          ContentEN = "<Highlight>Track Adjustment</> unlocked",
+          TextMapId = "System_Des_Polarity_CBT3"
         },
         System_Des_Quest = {
           ContentEN = "<Highlight>Quests</> is now unlocked, where you can check all your ongoing quests.",
@@ -38835,11 +40108,11 @@ local Data = {
           TextMapId = "TARGET_DUNGEON_DEFENCE_111"
         },
         TARGET_DUNGEON_DEFENCE_112 = {
-          ContentEN = "Protect <Highlight>Lunoxplorer</> from the <Highlight>three waves</> of enemy attacks. The commission fails if the device she's inspecting is destroyed.",
+          ContentEN = "Protect <Highlight>Lunoxplorer</> through <Highlight>two waves</> of enemy attacks. The Commission fails if the device she's working on is destroyed.",
           TextMapId = "TARGET_DUNGEON_DEFENCE_112"
         },
         TARGET_DUNGEON_DEFENCE_113 = {
-          ContentEN = "You can choose to evacuate after every three waves or continue.",
+          ContentEN = "You can choose to retreat after withstanding two waves",
           TextMapId = "TARGET_DUNGEON_DEFENCE_113"
         },
         TARGET_DUNGEON_DEFENCE_WAVE = {
@@ -38987,7 +40260,7 @@ local Data = {
           TextMapId = "TERMEXP_1103_Finish"
         },
         TERMEXP_1103_HyperForm = {
-          ContentEN = "When in [Bestial Fury: Devotion] state, continuously consumes [Immersion] instead of Sanity to maintain the [Bestial Fury] state and increases Movement Speed, Skill Speed and ATK based on Phantasio's Max Sanity.\nWhen in [Bestial Fury: Devotion] state, Phantasio cannot gain [Immersion] per second through [Bestial Fury] state.",
+          ContentEN = "While under [Bestial Fury: Devotion], continuously drains [Immersion] instead of Sanity to maintain the state. Increases Skill Speed, and boosts ATK based on the user's Max Sanity. \nWhile active, [Bestial Fury: Devotion] prevents [Immersion] gain from sustaining Beast Form.",
           TextMapId = "TERMEXP_1103_HyperForm"
         },
         TERMEXP_1103_Skill01 = {
@@ -38999,7 +40272,7 @@ local Data = {
           TextMapId = "TERMEXP_1501_Buff01"
         },
         TERMEXP_1502_Skill01 = {
-          ContentEN = "Summons [Lunar Hunt] and replaces this skill with [Solar Eclipse]. \n[Lunar Hunt]: Deals Umbro Damage to all enemies within range when summoned and reduces their Movement Speed.",
+          ContentEN = "Creates 1 [Solar Eclipse] and replaces this skill with [Lunar Hunt]. \n[Solar Eclipse]: Deals Lumino Damage to all enemies in range upon creation and reduces their ATK.",
           TextMapId = "TERMEXP_1502_Skill01"
         },
         TERMEXP_1503_Skill02 = {
@@ -39023,7 +40296,7 @@ local Data = {
           TextMapId = "TERMEXP_1801_Passive"
         },
         TERMEXP_1801_Skill02 = {
-          ContentEN = "Generates an elemental field that corresponds to the element type of the [Tea Party Guests], with [Nightingale] for Hydro, [Hound] for Pyro, [Unicorn] for Electro, and [Butterfly] for Anemo.\n\nWhen [Boisterous Tea Party] starts, grants Fina and all her nearby teammates the ability to deal additional elemental damage based on the element type of the field. In addition, the [Boisterous Tea Party] field deals corresponding elemental damage to enemies within range once every 2 seconds.",
+          ContentEN = "Generates an elemental field based on the type of the [Tea Party Guests] — [Nightingale] for Hydro, [Hound] for Pyro, [Unicorn] for Electro, and [Butterfly] for Anemo.\nWhen the field appears or its element shifts, Fina and allies gain bonus elemental damage matching the field's type. While [Boisterous Tea Party] is active, the field also deals elemental damage to enemies within range every 2s.",
           TextMapId = "TERMEXP_1801_Skill02"
         },
         TERMEXP_2101_Dot = {
@@ -39079,15 +40352,15 @@ local Data = {
           TextMapId = "TERMEXP_3202_Passive01"
         },
         TERMEXP_3202_Skill01 = {
-          ContentEN = "Gains increased Skill Speed. [Spinblades] spin faster and their duration is paused. Gains immunity to Hitstun. All [Inebriation] stacks are removed when [Burgundy Flurry] ends.",
+          ContentEN = "Gains Skill Speed. [Spinblades] travel faster and their duration is paused. Gains immunity to Hitstun. All [Inebriation] stacks are removed when [Burgundy Flurry] ends.",
           TextMapId = "TERMEXP_3202_Skill01"
         },
         TERMEXP_3202_Skill02 = {
-          ContentEN = "Each [Spinblade] completes one orbit around the character every 2s. When launched, it travels up to 25m at 15 m/s before returning. If struck by [Burgundy Twirl] while returning, it redirects toward a random enemy within 20m. Each launch refreshes its speed based on [Inebriation] stacks. A maximum of 8 [Spinblades] can exist at once.",
+          ContentEN = "Each [Spinblade] completes one orbit around the character every 2s. When launched, it travels up to 30m before returning. If struck by [Burgundy Flurry] while returning, it is relaunched toward a random enemy within 20m. Each launch refreshes its speed based on [Inebriation] stacks. A maximum of 8 [Spinblades] can exist at once.",
           TextMapId = "TERMEXP_3202_Skill02"
         },
         TERMEXP_4101_Skill02_01 = {
-          ContentEN = "Increases Movement Speed for Rhythm and her nearby teammate(s). Deals Electro Damage to 1 random enemy within range per second and alternately inflicts [Positive Charge] and [Negative Charge] on them, prioritizing enemies without [Electric Charge].",
+          ContentEN = "Increases Movement Speed for self and allies. Every second, deals Electro Damage to 1 random enemy in range, alternating between [Positive Charge] and [Negative Charge]. Prioritises enemies with no [Electric Charge].",
           TextMapId = "TERMEXP_4101_Skill02_01"
         },
         TERMEXP_4101_Skill02_02 = {
@@ -39099,7 +40372,7 @@ local Data = {
           TextMapId = "TERMEXP_4102_Skill02_01"
         },
         TERMEXP_4102_Skill02_02 = {
-          ContentEN = "When Zhiliu has 1 [Talisman: Zhen] and 1 [Talisman: Xun], [Heaven-Earth Divination] is replaced with [Myriad Things Thrive].\n[Myriad Things Thrive]: Consumes all [Talismans], dealing periodic damage to enemies within range in front, then creates a [Four Realms Align] field at the location.\n[Four Realms Align]: Selects several enemies within range every 3s and inflicts 1 strike of [Zhen-Xun Convergence] on them.\n[Zhen-Xun Convergence]: Deals AoE Electro Damage.",
+          ContentEN = "When holding 1 [Talisman: Zhen] and 1 [Talisman: Xun], replaces [Heaven-Earth Divination] with this skill. \nRemoves all [Talismans]. Deals DoT to enemies in a forward area, then creates a [Four Realms Align] field at their location. Every 3s, targets up to 5 enemies within the field to creates a [Zhen-Xun Convergence] at their location, dealing Electro AoE Damage.",
           TextMapId = "TERMEXP_4102_Skill02_02"
         },
         TERMEXP_4102_Skill02_03 = {
@@ -39107,7 +40380,7 @@ local Data = {
           TextMapId = "TERMEXP_4102_Skill02_03"
         },
         TERMEXP_4201_BonusAttack = {
-          ContentEN = "Unleashes 5 strikes of [Raging Thunder] at the location of the target attacked by [Starlight Descent] or [Starstorm Descent], dealing AoE Electro Damage, with priority given to different target locations.",
+          ContentEN = "Spawns [Raging Thunders] at targets struck by [Starlight Descent] or [Starstorm Descent], dealing Electro AoE Damage. A maximum of 5 targets can be selected.",
           TextMapId = "TERMEXP_4201_BonusAttack"
         },
         TERMEXP_4201_FallAttack = {
@@ -39123,11 +40396,11 @@ local Data = {
           TextMapId = "TERMEXP_4201_Skill2Buff"
         },
         TERMEXP_4201_Summon = {
-          ContentEN = "Grants immunity to Hitstun when taking damage. Xuanjiao hovers around Yuming, dealing Electro Damage to enemies on contact. Can only deal damage to the same target once every 2s.\nAfter Yuming or his nearby teammates consume Sanity to use a skill, the next time they deal Skill Damage unleashes 1 strike of [Fish-Dragon Dance] at the location of the target, dealing AoE Electro Damage. This effect can only be triggered once every 2s.\nXuanjiao absorbs the damage dealt to Yuming's HP. When the absorbed damage reaches a percentage of Yuming's Max HP, the [Xuanjiao Manifest] state ends.",
+          ContentEN = "Immune to Hitstun. Xuanjiao hovers around [Yuming], dealing Electro Damage to enemies on contact (once every 2s per enemy).\n Xuanjiao absorbs HP damage inflicted on [Yuming]. When the absorbed amount reaches a set percentage of [Yuming]'s Max HP, [Xuanjiao Manifest] ends.",
           TextMapId = "TERMEXP_4201_Summon"
         },
         TERMEXP_4201_SuperFallAttack = {
-          ContentEN = "Consumes all [Reverse Scales] to increase Skill Damage for Yuming and the nearby teammate(s).\nThen Yuming plunges at high speed, dealing AoE Electro Damage on impact. This attack is regarded as a melee weapon Plunging Attack. Using this skill in [Xuanjiao Manifest] state triggers [Wyrmcall Clouds].",
+          ContentEN = "Consumes all [Reverse Scales] to grant a Damage Dealt Increase to self and allies.\n Then plunges at high speed, dealing Electro AoE Damage on impact. Counts as a Plunging Attack from a melee weapon. While in [Xuanjiao Manifest], also triggers [Wyrmcall Clouds].",
           TextMapId = "TERMEXP_4201_SuperFallAttack"
         },
         TERMEXP_4202_Skill01 = {
@@ -39139,11 +40412,11 @@ local Data = {
           TextMapId = "TERMEXP_4202_Skill01Buff"
         },
         TERMEXP_4301_Skill01 = {
-          ContentEN = "When created and after a 1.5s delay, [Legion's Punishment] consumes a certain amount of [Might of Thunder] every 0.4s to deal Electro Damage to 1 random enemy within range, lasting up to 10s.\nWhen [Might of Thunder] drops to 0, the [Legion's Punishment] field dissipates. A maximum of 5 [Legion's Punishment] fields can exist at the same time.",
+          ContentEN = "After a 1.5-second delay, consumes [Might of Thunder] every 0.4s to strike a random enemy within range, dealing Electro Damage. Lasts up to 10s. When [Might of Thunder] is depleted, the [Legion's Punishment] field dissipates. A maximum of 3 fields can exist at once.",
           TextMapId = "TERMEXP_4301_Skill01"
         },
         TERMEXP_4301_Skill02 = {
-          ContentEN = "Inherits a certain percentage of Sibylle's Max HP with 0 DEF, and is considered an enemy unit.\nOnce summoned, [Chaotic Thunderorb] calls forth [Devastating Storm] once every 3s and links to the furthest 5 enemies within range. It links 1 more enemy per second, up to 10 enemies, dealing Electro Damage to the linked targets once per second.\nWhen [Chaotic Thunderorb] takes damage, it transfers the damage taken to the linked targets at a certain percentage.",
+          ContentEN = "Inherits a percentage of Sibylle's Max HP, has 0 DEF, and is treated as an enemy unit.\n[Summon: Chaotic Thunderorb] calls forth a [Devastating Storm] once every 3s.\nUpon summoning, [Summon: Chaotic Thunderorb] links to the 5 furthest enemies in range, linking 1 additional enemy per second, up to 10 in total. [Summon: Chaotic Thunderorb] deals Electro Damage to all linked targets once per second.\nWhen [Summon: Chaotic Thunderorb] takes damage, a percentage is transferred to the linked enemies.",
           TextMapId = "TERMEXP_4301_Skill02"
         },
         TERMEXP_4301_Skill02Damage = {
@@ -39163,7 +40436,7 @@ local Data = {
           TextMapId = "TERMEXP_5102_Skill01"
         },
         TERMEXP_5102_Skill02 = {
-          ContentEN = "When in [Relentless Hunt] state, Outsider is immune to Hitstun and gains weapon Attack Speed boost and Malaise boost.\nOutsider cannot receive Healing in this state, and any Healing received is converted into an equivalent amount of Ultra Shield.",
+          ContentEN = "When in [Relentless Hunt] state, Outsider is immune to Hitstun and gains weapon Attack Speed boost and Resolve boost.\nOutsider cannot receive Healing in this state, and any Healing received is converted into an equivalent amount of Ultra Shield.",
           TextMapId = "TERMEXP_5102_Skill02"
         },
         TERMEXP_5102_Skill03 = {
@@ -39175,7 +40448,7 @@ local Data = {
           TextMapId = "TERMEXP_5301_Skill01"
         },
         TERMEXP_5301_Skill01Mark = {
-          ContentEN = "When a target inflicted with [Powder Stigma] takes CRIT Damage from [Psyche], 1 stack of [Powder Stigma] is consumed to deal Anemo Damage to the target.",
+          ContentEN = "When a target afflicted with [Powder Stigma] takes Ranged Weapon DMG from [Psyche], 1 stack of [Powder Stigma] is consumed to deal Anemo Damage.",
           TextMapId = "TERMEXP_5301_Skill01Mark"
         },
         TERMEXP_5301_Summon = {
@@ -39183,7 +40456,7 @@ local Data = {
           TextMapId = "TERMEXP_5301_Summon"
         },
         TERMEXP_5401_Buff = {
-          ContentEN = "Increases Attack.",
+          ContentEN = "Gains bonus Anemo Damage.",
           TextMapId = "TERMEXP_5401_Buff"
         },
         TERMEXP_5401_Debuff = {
@@ -39307,7 +40580,7 @@ local Data = {
           TextMapId = "TERM_1501_Buff01"
         },
         TERM_1502_Skill01 = {
-          ContentEN = "Lunar Hunt",
+          ContentEN = "Solar Eclipse",
           TextMapId = "TERM_1502_Skill01"
         },
         TERM_1503_Skill02 = {
@@ -39731,7 +41004,7 @@ local Data = {
           TextMapId = "Tag_ES",
         },
         Tag_EnmityValue = {
-          ContentEN = "Malaise",
+          ContentEN = "Resolve",
           TextMapId = "Tag_EnmityValue"
         },
         Tag_ExcelWeapon = {
@@ -40235,12 +41508,44 @@ local Data = {
           TextMapId = "Textmap_NodeText001"
         },
         Textmap_UnlockContent = {
-          ContentEN = "Raise your Trial Rank and complete certain side quests to continue the main story.\n\nYou can earn Trial EXP by:\n1.  Complete any kind of <H>Commissions</> (excluding Noctoyager Manual Commissions)\n2. Complete Demon Wedge quests in <H>Demon Wedge Casket</>\n3. Talk to local residents and complete certain <H>Side Quests</>\n4. Open <H>chests</> in areas outside of Commissions",
+          ContentEN = "Raise your Trial Rank and complete certain side quests to continue the main story.\n\nYou can earn Trial EXP by:\n1. <H>Collecting and enhancing characters</>, <H>weapons</>, <H>Geniemons</>, and <H>collecting Demon Wedges</>\n2. Talk to local residents and complete certain <H>Side Quests</>",
           TextMapId = "Textmap_UnlockContent"
         },
         Textmap_UnlockTitle = {
           ContentEN = "Fulfil the requirements to continue the main story",
           TextMapId = "Textmap_UnlockTitle"
+        },
+        TheaterOnline_Donate_Explain = {
+          ContentEN = "Server rewards will be sent via mail once unlocked",
+          TextMapId = "TheaterOnline_Donate_Explain"
+        },
+        TheaterOnline_Donate_Progress = {
+          ContentEN = "Server Progress",
+          TextMapId = "TheaterOnline_Donate_Progress"
+        },
+        TheaterOnline_Donate_Puy = {
+          ContentEN = "Present",
+          TextMapId = "TheaterOnline_Donate_Puy"
+        },
+        TheaterOnline_Donate_Reward = {
+          ContentEN = "Server Rewards",
+          TextMapId = "TheaterOnline_Donate_Reward"
+        },
+        TheaterOnline_Donate_Step = {
+          ContentEN = "Phase %d",
+          TextMapId = "TheaterOnline_Donate_Step"
+        },
+        TheaterOnline_Game_Name = {
+          ContentEN = "Together We're Strong",
+          TextMapId = "TheaterOnline_Game_Name"
+        },
+        TheaterOnline_Task_Daily = {
+          ContentEN = "Daily",
+          TextMapId = "TheaterOnline_Task_Daily"
+        },
+        TheaterOnline_Task_Total = {
+          ContentEN = "Total",
+          TextMapId = "TheaterOnline_Task_Total"
         },
         Three = {
           ContentEN = "3.0",
@@ -40255,7 +41560,7 @@ local Data = {
           TextMapId = "ThumbMouseButton2"
         },
         Tilde = {
-          ContentEN = "·",
+          ContentEN = "`",
           TextMapId = "Tilde",
         },
         Tips_EastNight_Start = {
@@ -40270,49 +41575,569 @@ local Data = {
           ContentEN = "You are about to start a special quest. Leaving the designated area will interrupt your progress, requiring you to restart from the last save point. For the best experience, we recommend completing the quest when you have enough time to enjoy the full storyline.",
           TextMapId = "Tips_SpecialQuest_Start"
         },
+        TitleFrame_10001 = {
+          ContentEN = "Default",
+          TextMapId = "TitleFrame_10001"
+        },
         TitleFrame_10002 = {
-          ContentEN = "Custom",
+          ContentEN = "Duet Night Abyss Ⅰ",
           TextMapId = "TitleFrame_10002"
         },
         TitleFrame_10003 = {
-          ContentEN = "Custom",
+          ContentEN = "Duet Night Abyss Ⅱ",
           TextMapId = "TitleFrame_10003"
         },
+        TitleFrame_10004 = {
+          ContentEN = " Duet Night Abyss (Ⅲ)",
+          TextMapId = "TitleFrame_10004"
+        },
+        TitleFrame_10005 = {
+          ContentEN = " Movement (Ⅰ)",
+          TextMapId = "TitleFrame_10005"
+        },
+        TitleFrame_10006 = {
+          ContentEN = " Movement (Ⅱ)",
+          TextMapId = "TitleFrame_10006"
+        },
+        TitleFrame_10007 = {
+          ContentEN = " Movement (Ⅲ)",
+          TextMapId = "TitleFrame_10007"
+        },
+        TitleFrame_Des = {
+          ContentEN = "Equip this in [Title] - [Frame]",
+          TextMapId = "TitleFrame_Des"
+        },
+        Title_10001 = {
+          ContentEN = "Affluent",
+          TextMapId = "Title_10001"
+        },
         Title_10002 = {
-          ContentEN = "Prefix Ⅱ",
+          ContentEN = "Scarlet",
           TextMapId = "Title_10002"
         },
         Title_10003 = {
-          ContentEN = "Prefix Ⅲ",
+          ContentEN = "Fiery",
           TextMapId = "Title_10003"
         },
         Title_10004 = {
-          ContentEN = "Prefix Ⅳ",
+          ContentEN = "Veteran",
           TextMapId = "Title_10004"
         },
         Title_10005 = {
-          ContentEN = "Prefix Ⅴ",
+          ContentEN = "Lively",
           TextMapId = "Title_10005"
         },
+        Title_10006 = {
+          ContentEN = "Soaring",
+          TextMapId = "Title_10006"
+        },
+        Title_10007 = {
+          ContentEN = "Mourning",
+          TextMapId = "Title_10007"
+        },
+        Title_10008 = {
+          ContentEN = "Awakened",
+          TextMapId = "Title_10008"
+        },
+        Title_10009 = {
+          ContentEN = "Diligent",
+          TextMapId = "Title_10009"
+        },
+        Title_10010 = {
+          ContentEN = "Bestial",
+          TextMapId = "Title_10010"
+        },
+        Title_10011 = {
+          ContentEN = "Fateful",
+          TextMapId = "Title_10011"
+        },
+        Title_10012 = {
+          ContentEN = "Radiant",
+          TextMapId = "Title_10012"
+        },
+        Title_10013 = {
+          ContentEN = "Geniemons'",
+          TextMapId = "Title_10013"
+        },
+        Title_10014 = {
+          ContentEN = "Judicious",
+          TextMapId = "Title_10014"
+        },
+        Title_10015 = {
+          ContentEN = "Classic",
+          TextMapId = "Title_10015"
+        },
+        Title_10016 = {
+          ContentEN = "Epic",
+          TextMapId = "Title_10016"
+        },
+        Title_10017 = {
+          ContentEN = "Gloomy",
+          TextMapId = "Title_10017"
+        },
+        Title_10018 = {
+          ContentEN = "Merciful",
+          TextMapId = "Title_10018"
+        },
+        Title_10019 = {
+          ContentEN = "Despicable",
+          TextMapId = "Title_10019"
+        },
+        Title_10020 = {
+          ContentEN = "Halting",
+          TextMapId = "Title_10020"
+        },
+        Title_10021 = {
+          ContentEN = "Abrupt",
+          TextMapId = "Title_10021"
+        },
+        Title_10022 = {
+          ContentEN = "Skunked",
+          TextMapId = "Title_10022"
+        },
+        Title_10023 = {
+          ContentEN = "Winsome and Awesome",
+          TextMapId = "Title_10023"
+        },
+        Title_10024 = {
+          ContentEN = "Apprentice",
+          TextMapId = "Title_10024"
+        },
+        Title_10025 = {
+          ContentEN = "Erudite",
+          TextMapId = "Title_10025"
+        },
+        Title_10026 = {
+          ContentEN = "Midsummer Night's",
+          TextMapId = "Title_10026"
+        },
+        Title_10027 = {
+          ContentEN = "Clumsy-Footed",
+          TextMapId = "Title_10027"
+        },
+        Title_10028 = {
+          ContentEN = "Dazzling",
+          TextMapId = "Title_10028"
+        },
+        Title_10029 = {
+          ContentEN = "Timeless",
+          TextMapId = "Title_10029"
+        },
+        Title_10030 = {
+          ContentEN = "Babbling",
+          TextMapId = "Title_10030"
+        },
+        Title_10031 = {
+          ContentEN = "Proper",
+          TextMapId = "Title_10031"
+        },
+        Title_10032 = {
+          ContentEN = "Skilled",
+          TextMapId = "Title_10032"
+        },
+        Title_10033 = {
+          ContentEN = "Seasoned",
+          TextMapId = "Title_10033"
+        },
+        Title_10034 = {
+          ContentEN = "Lucky",
+          TextMapId = "Title_10034"
+        },
+        Title_10035 = {
+          ContentEN = "Ivory-Keyed",
+          TextMapId = "Title_10035"
+        },
+        Title_10036 = {
+          ContentEN = "Mighty",
+          TextMapId = "Title_10036"
+        },
+        Title_10037 = {
+          ContentEN = "Flamboyant",
+          TextMapId = "Title_10037"
+        },
+        Title_10038 = {
+          ContentEN = "Enlightened",
+          TextMapId = "Title_10038"
+        },
+        Title_10039 = {
+          ContentEN = "Well-Connected",
+          TextMapId = "Title_10039"
+        },
+        Title_10040 = {
+          ContentEN = "Reborn",
+          TextMapId = "Title_10040"
+        },
+        Title_10041 = {
+          ContentEN = "Journeying",
+          TextMapId = "Title_10041"
+        },
+        Title_10042 = {
+          ContentEN = "Perfect",
+          TextMapId = "Title_10042"
+        },
+        Title_10043 = {
+          ContentEN = "Icy",
+          TextMapId = "Title_10043"
+        },
+        Title_10044 = {
+          ContentEN = "Lyrical",
+          TextMapId = "Title_10044"
+        },
+        Title_10045 = {
+          ContentEN = "Armed",
+          TextMapId = "Title_10045"
+        },
+        Title_10046 = {
+          ContentEN = "Pragmatic",
+          TextMapId = "Title_10046"
+        },
+        Title_10047 = {
+          ContentEN = "Virtuous",
+          TextMapId = "Title_10047"
+        },
+        Title_10048 = {
+          ContentEN = "Resourceful",
+          TextMapId = "Title_10048"
+        },
+        Title_10049 = {
+          ContentEN = "Considerate",
+          TextMapId = "Title_10049"
+        },
+        Title_10050 = {
+          ContentEN = "Chaotic Evil",
+          TextMapId = "Title_10050"
+        },
+        Title_10051 = {
+          ContentEN = "Renowned",
+          TextMapId = "Title_10051"
+        },
+        Title_10052 = {
+          ContentEN = "Night-Walker",
+          TextMapId = "Title_10052"
+        },
+        Title_10053 = {
+          ContentEN = "Dreambound",
+          TextMapId = "Title_10053"
+        },
+        Title_10054 = {
+          ContentEN = "Invincible",
+          TextMapId = "Title_10054"
+        },
+        Title_10055 = {
+          ContentEN = "Surreal",
+          TextMapId = "Title_10055"
+        },
+        Title_10056 = {
+          ContentEN = "Streetwise",
+          TextMapId = "Title_10056"
+        },
+        Title_10057 = {
+          ContentEN = "Kinlike",
+          TextMapId = "Title_10057"
+        },
+        Title_10058 = {
+          ContentEN = "Wronged",
+          TextMapId = "Title_10058"
+        },
+        Title_10059 = {
+          ContentEN = "Sand-isolated",
+          TextMapId = "Title_10059"
+        },
+        Title_10060 = {
+          ContentEN = "Flower-Honoured",
+          TextMapId = "Title_10060"
+        },
+        Title_10061 = {
+          ContentEN = "Resilient",
+          TextMapId = "Title_10061"
+        },
+        Title_10062 = {
+          ContentEN = "Starlit",
+          TextMapId = "Title_10062"
+        },
+        Title_10063 = {
+          ContentEN = "Imperial",
+          TextMapId = "Title_10063"
+        },
+        Title_10064 = {
+          ContentEN = "Wise",
+          TextMapId = "Title_10064"
+        },
+        Title_10065 = {
+          ContentEN = "Burdensome",
+          TextMapId = "Title_10065"
+        },
+        Title_10066 = {
+          ContentEN = "Mad",
+          TextMapId = "Title_10066"
+        },
+        Title_10067 = {
+          ContentEN = "Masked",
+          TextMapId = "Title_10067"
+        },
+        Title_10068 = {
+          ContentEN = "Grand",
+          TextMapId = "Title_10068"
+        },
+        Title_10069 = {
+          ContentEN = "Petty",
+          TextMapId = "Title_10069"
+        },
+        Title_10070 = {
+          ContentEN = "Deadly",
+          TextMapId = "Title_10070"
+        },
+        Title_10071 = {
+          ContentEN = "Amiable",
+          TextMapId = "Title_10071"
+        },
+        Title_10072 = {
+          ContentEN = "Optimistic",
+          TextMapId = "Title_10072"
+        },
+        Title_20001 = {
+          ContentEN = " Strength",
+          TextMapId = "Title_20001"
+        },
         Title_20002 = {
-          ContentEN = "Suffix Ⅱ",
+          ContentEN = "Weapon Master",
           TextMapId = "Title_20002"
         },
         Title_20003 = {
-          ContentEN = "Suffix Ⅲ",
+          ContentEN = "Bounty Hunter",
           TextMapId = "Title_20003"
         },
         Title_20004 = {
-          ContentEN = "Suffix Ⅳ",
+          ContentEN = "scholar",
           TextMapId = "Title_20004"
         },
         Title_20005 = {
-          ContentEN = "Suffix Ⅴ",
+          ContentEN = "Master",
           TextMapId = "Title_20005"
+        },
+        Title_20006 = {
+          ContentEN = " Chief",
+          TextMapId = "Title_20006"
+        },
+        Title_20007 = {
+          ContentEN = " Warden",
+          TextMapId = "Title_20007"
+        },
+        Title_20008 = {
+          ContentEN = " Captain",
+          TextMapId = "Title_20008"
+        },
+        Title_20009 = {
+          ContentEN = " Hero",
+          TextMapId = "Title_20009"
+        },
+        Title_20010 = {
+          ContentEN = " Senior",
+          TextMapId = "Title_20010"
+        },
+        Title_20011 = {
+          ContentEN = " Geniemon Master",
+          TextMapId = "Title_20011"
+        },
+        Title_20012 = {
+          ContentEN = " Explorer",
+          TextMapId = "Title_20012"
+        },
+        Title_20013 = {
+          ContentEN = " Roamer",
+          TextMapId = "Title_20013"
+        },
+        Title_20014 = {
+          ContentEN = " Remembrance",
+          TextMapId = "Title_20014"
+        },
+        Title_20015 = {
+          ContentEN = " Consumer",
+          TextMapId = "Title_20015"
+        },
+        Title_20016 = {
+          ContentEN = " BFF",
+          TextMapId = "Title_20016"
+        },
+        Title_20017 = {
+          ContentEN = " Doombringer",
+          TextMapId = "Title_20017"
+        },
+        Title_20018 = {
+          ContentEN = " Superior",
+          TextMapId = "Title_20018"
+        },
+        Title_20019 = {
+          ContentEN = " Executioner",
+          TextMapId = "Title_20019"
+        },
+        Title_20020 = {
+          ContentEN = " Beacon",
+          TextMapId = "Title_20020"
+        },
+        Title_20021 = {
+          ContentEN = " Angler",
+          TextMapId = "Title_20021"
+        },
+        Title_20022 = {
+          ContentEN = " Collector",
+          TextMapId = "Title_20022"
+        },
+        Title_20023 = {
+          ContentEN = " Magnate",
+          TextMapId = "Title_20023"
+        },
+        Title_20024 = {
+          ContentEN = " Father",
+          TextMapId = "Title_20024"
+        },
+        Title_20025 = {
+          ContentEN = " Messenger",
+          TextMapId = "Title_20025"
+        },
+        Title_20026 = {
+          ContentEN = " Photographer",
+          TextMapId = "Title_20026"
+        },
+        Title_20027 = {
+          ContentEN = " Poet",
+          TextMapId = "Title_20027"
+        },
+        Title_20028 = {
+          ContentEN = " Dismantler",
+          TextMapId = "Title_20028"
+        },
+        Title_20029 = {
+          ContentEN = " Time Traveler",
+          TextMapId = "Title_20029"
+        },
+        Title_20030 = {
+          ContentEN = " New Garb",
+          TextMapId = "Title_20030"
+        },
+        Title_20031 = {
+          ContentEN = " Rising Star",
+          TextMapId = "Title_20031"
+        },
+        Title_20032 = {
+          ContentEN = " Dancer",
+          TextMapId = "Title_20032"
+        },
+        Title_20033 = {
+          ContentEN = " Sun",
+          TextMapId = "Title_20033"
+        },
+        Title_20034 = {
+          ContentEN = " Lover",
+          TextMapId = "Title_20034"
+        },
+        Title_20035 = {
+          ContentEN = " Mother",
+          TextMapId = "Title_20035"
+        },
+        Title_20036 = {
+          ContentEN = " Knight",
+          TextMapId = "Title_20036"
+        },
+        Title_20037 = {
+          ContentEN = " Egg",
+          TextMapId = "Title_20037"
+        },
+        Title_20038 = {
+          ContentEN = " Challenger",
+          TextMapId = "Title_20038"
+        },
+        Title_20039 = {
+          ContentEN = " Friend",
+          TextMapId = "Title_20039"
+        },
+        Title_20040 = {
+          ContentEN = " Impression",
+          TextMapId = "Title_20040"
+        },
+        Title_20041 = {
+          ContentEN = " Kaleidoscope",
+          TextMapId = "Title_20041"
+        },
+        Title_20042 = {
+          ContentEN = " Blacksmith",
+          TextMapId = "Title_20042"
+        },
+        Title_20043 = {
+          ContentEN = " Drifter",
+          TextMapId = "Title_20043"
+        },
+        Title_20044 = {
+          ContentEN = " Phoxhunter",
+          TextMapId = "Title_20044"
+        },
+        Title_20045 = {
+          ContentEN = " Dreamt-of One",
+          TextMapId = "Title_20045"
+        },
+        Title_20046 = {
+          ContentEN = " Outlander",
+          TextMapId = "Title_20046"
+        },
+        Title_20047 = {
+          ContentEN = " Performer",
+          TextMapId = "Title_20047"
+        },
+        Title_20048 = {
+          ContentEN = " Geniemon",
+          TextMapId = "Title_20048"
+        },
+        Title_20049 = {
+          ContentEN = " Will",
+          TextMapId = "Title_20049"
+        },
+        Title_20050 = {
+          ContentEN = " Demon",
+          TextMapId = "Title_20050"
+        },
+        Title_20051 = {
+          ContentEN = " Fool",
+          TextMapId = "Title_20051"
+        },
+        Title_20052 = {
+          ContentEN = " Dog",
+          TextMapId = "Title_20052"
+        },
+        Title_20053 = {
+          ContentEN = " Unicorn",
+          TextMapId = "Title_20053"
+        },
+        Title_20054 = {
+          ContentEN = " Butterfly",
+          TextMapId = "Title_20054"
         },
         Title_20055 = {
           ContentEN = "Nightingale",
           TextMapId = "Title_20055"
+        },
+        Title_20056 = {
+          ContentEN = " Nemesis",
+          TextMapId = "Title_20056"
+        },
+        Title_20057 = {
+          ContentEN = " Menace",
+          TextMapId = "Title_20057"
+        },
+        Title_20058 = {
+          ContentEN = " Hermit",
+          TextMapId = "Title_20058"
+        },
+        Title_20059 = {
+          ContentEN = " Magician",
+          TextMapId = "Title_20059"
+        },
+        Title_20060 = {
+          ContentEN = " Warrior",
+          TextMapId = "Title_20060"
+        },
+        Title_Des = {
+          ContentEN = "Equip this in [Title]",
+          TextMapId = "Title_Des"
         },
         Toast_DonglishiJiaoxue = {
           ContentEN = "Attack the active Phoxynamo Wheels to switch them off",
@@ -40495,7 +42320,7 @@ local Data = {
           TextMapId = "UIGuide_AssistanceSkill"
         },
         UIGuide_BattleWheel_1 = {
-          ContentEN = "The <H>Tactical Backpack</> is vital for combat. It allows you to <H>summon allies</> and <H>use items</> for a tactical edge.\n You can also add <H>Postures</> to the Tactical Backpack from the <H>Armoury</> screen.",
+          ContentEN = "The <H>Tactical Backpack</> is vital for combat. It allows you to <H>summon allies</> and <H>use items</> for a tactical edge.\nYou can also add <H>Postures</> to the Tactical Backpack from the <H>Armoury</> screen.",
           TextMapId = "UIGuide_BattleWheel_1"
         },
         UIGuide_BattleWheel_2_PC = {
@@ -40558,12 +42383,28 @@ local Data = {
           ContentEN = "They can either be avoided or neutralised.",
           TextMapId = "UIGuide_DamageMechanism_2"
         },
+        UIGuide_Deduce_1 = {
+          ContentEN = "Reflect on one or more clues to uncover new leads.",
+          TextMapId = "UIGuide_Deduce_1"
+        },
+        UIGuide_Deduce_2 = {
+          ContentEN = "Present key clues to complete the deduction.",
+          TextMapId = "UIGuide_Deduce_2"
+        },
+        UIGuide_Deduce_SubTitle_1 = {
+          ContentEN = "Reflect",
+          TextMapId = "UIGuide_Deduce_SubTitle_1"
+        },
+        UIGuide_Deduce_SubTitle_2 = {
+          ContentEN = "Submit Clue",
+          TextMapId = "UIGuide_Deduce_SubTitle_2"
+        },
         UIGuide_Delivery_01 = {
-          ContentEN = "Press &Interactive& to summon the Oneiric Avian Spirit to record the current Avian Tower.",
+          ContentEN = "Approach to summon the Oneiric Avian Spirit to record the current Avian Tower.",
           TextMapId = "UIGuide_Delivery_01"
         },
         UIGuide_Delivery_01_phone = {
-          ContentEN = "Interact to summon an Oneiric Avian Spirit to record the current Avian Tower.",
+          ContentEN = "Approach to summon an Oneiric Avian Spirit to record the current Avian Tower.",
           TextMapId = "UIGuide_Delivery_01_phone"
         },
         UIGuide_Delivery_02 = {
@@ -40630,6 +42471,66 @@ local Data = {
           ContentEN = "Complete the challenge by following the navigation to shoot the designated targets within the time limit.",
           TextMapId = "UIGuide_ExplorationMechanism_3"
         },
+        UIGuide_Feina_1 = {
+          ContentEN = "In this unfinished fairy tale, all things are cast in grayscale.\n Click &Fire& to paint the world with <H>Dreamweave Pigment</> and bring colour to the tale.",
+          TextMapId = "UIGuide_Feina_1"
+        },
+        UIGuide_Feina_10 = {
+          ContentEN = "Observe each gem's <H>surroundings</>, and paint it the correct colour to kindle its light and dispel the mists.",
+          TextMapId = "UIGuide_Feina_10"
+        },
+        UIGuide_Feina_11 = {
+          ContentEN = "Absorbing a gem's energy forms a protective aura around the Little Nightingale, shielding her from the mists. The aura wanes over time — light gems swiftly to renew its strength.",
+          TextMapId = "UIGuide_Feina_11"
+        },
+        UIGuide_Feina_12 = {
+          ContentEN = "Strike an engraved disc with pigment <H>of the matching colour</> to shatter it and open the path ahead.",
+          TextMapId = "UIGuide_Feina_12"
+        },
+        UIGuide_Feina_1_Phone = {
+          ContentEN = "In this unfinished fairy tale, all things are cast in grayscale.\n Tap to paint the world with <H>Dreamweave Pigment</> and bring colour to the tale.",
+          TextMapId = "UIGuide_Feina_1_Phone"
+        },
+        UIGuide_Feina_2 = {
+          ContentEN = "<H>White Feathers</> are scattered across the fairy-tale realm. Collect enough to earn bonus rewards.",
+          TextMapId = "UIGuide_Feina_2"
+        },
+        UIGuide_Feina_3 = {
+          ContentEN = "Some devices can only be triggered by certain colours. Click &ChargeBullet& to switch between pigments.",
+          TextMapId = "UIGuide_Feina_3"
+        },
+        UIGuide_Feina_3_Gamepad = {
+          ContentEN = "Some devices can only be triggered by a specific colour. Press &GamepadUseSkill& + &Fire& to switch between different pigments.",
+          TextMapId = "UIGuide_Feina_3_Gamepad"
+        },
+        UIGuide_Feina_3_Phone = {
+          ContentEN = "Some devices can only be triggered by certain colours. Tap the button to switch between pigments.",
+          TextMapId = "UIGuide_Feina_3_Phone"
+        },
+        UIGuide_Feina_4 = {
+          ContentEN = "Some flowers remain colourless. Observe nearby flowers <H>of the same shape</>, and paint them with the matching colour.",
+          TextMapId = "UIGuide_Feina_4"
+        },
+        UIGuide_Feina_5 = {
+          ContentEN = "Some flowers lose their colours over time. <H>Restore them all in time</> to activate the device.",
+          TextMapId = "UIGuide_Feina_5"
+        },
+        UIGuide_Feina_6 = {
+          ContentEN = "Paint the basin to release magical light of the same colour. Observe the surroundings and use the <H>correct colour</> to light the basin and activate the device.",
+          TextMapId = "UIGuide_Feina_6"
+        },
+        UIGuide_Feina_7 = {
+          ContentEN = "Follow the gem's glow and <H>paint all the thorns the correct colour</> to break their binding branches.",
+          TextMapId = "UIGuide_Feina_7"
+        },
+        UIGuide_Feina_8 = {
+          ContentEN = "Once all thorns are coloured, the Little Nightingale will use the gem's power to help Fina open the way.",
+          TextMapId = "UIGuide_Feina_8"
+        },
+        UIGuide_Feina_9 = {
+          ContentEN = "Dangerous mists pervade the forest. Linger too long, and Fina will lose her way.",
+          TextMapId = "UIGuide_Feina_9"
+        },
         UIGuide_FireMechanism = {
           ContentEN = "<H>Flame Traps</> will <H>activate</> when attacked, dealing damage to <H>all targets</> passing through. Some <H>Flame Traps</> deal higher damage but require a longer cooldown before reactivation.",
           TextMapId = "UIGuide_FireMechanism"
@@ -40687,7 +42588,7 @@ local Data = {
           TextMapId = "UIGuide_HardBoss_01"
         },
         UIGuide_HardBoss_02 = {
-          ContentEN = "Bosses in Nocturnal Echoes challenges are much stronger than regular ones. You can acquire rewards from Nocturnal Echoes challenges <H>3 times per week</>.",
+          ContentEN = "Bosses in Nocturnal Echoes challenges are much stronger than regular ones. You can acquire rewards from Nocturnal Echoes challenges <H>5 times per week</>.",
           TextMapId = "UIGuide_HardBoss_02"
         },
         UIGuide_Hook_PC = {
@@ -40745,6 +42646,10 @@ local Data = {
         UIGuide_LongPressedSkills = {
           ContentEN = "Some skills trigger different effects based on whether they are <H>held</> or <H>pressed</>.",
           TextMapId = "UIGuide_LongPressedSkills"
+        },
+        UIGuide_MirrorPuzzle_1 = {
+          ContentEN = "This measuring device was placed here by Lunoxplorer. Once activated, it gathers the data she seeks. Rotate it into position and activate it to claim the rewards she left for kind-hearted travellers.",
+          TextMapId = "UIGuide_MirrorPuzzle_1"
         },
         UIGuide_ModTendency_1 = {
           ContentEN = "The top of a Demon Wedge slot shows its <H>Track</> (if any).",
@@ -40823,11 +42728,11 @@ local Data = {
           TextMapId = "UIGuide_Online_06_01"
         },
         UIGuide_OverloadShield = {
-          ContentEN = "A character's bonus shield gained through certain means will be <H>consumed first</> when taking damage.\nThe cap of Ultra Shield increases as the <H>Character Level</> rises.",
+          ContentEN = "A character's bonus shield gained through certain means. Ultra Shield will be <H>consumed first</> when taking damage.\nThe cap of Ultra Shield increases as the <H>Character Level</> rises.",
           TextMapId = "UIGuide_OverloadShield"
         },
         UIGuide_PerfectDodge = {
-          ContentEN = "When facing strong enemies, <H>dodging</> at the last moment before an attack hit will <H>slow</> nearby enemies for a brief period.",
+          ContentEN = "When facing strong enemies In Chapter Twilight, <H>dodging</> at the last moment before an attack hit will <H>slow</> nearby enemies for a brief period.",
           TextMapId = "UIGuide_PerfectDodge"
         },
         UIGuide_PetPan_01 = {
@@ -40930,6 +42835,30 @@ local Data = {
           ContentEN = "When near a climbable wall, hold a direction and press &Jump& <H>repeatedly</> to leap sideways and perform consecutive wall jumps.",
           TextMapId = "UIGuide_SIDEWAYSJUMP"
         },
+        UIGuide_Saiqi_1 = {
+          ContentEN = "Press &Skill1& for Psyche to create 1 [Phantasm] and then flashes forward. This skill can be used at any time without interrupting Psyche's current action.",
+          TextMapId = "UIGuide_Saiqi_1"
+        },
+        UIGuide_Saiqi_1_Gamepad = {
+          ContentEN = "Press &GamepadUseSkill& + &Attack& for Psyche to create 1 [Phantasm] and then flashes forward. This skill can be used at any time without interrupting Psyche's current action.",
+          TextMapId = "UIGuide_Saiqi_1_Gamepad"
+        },
+        UIGuide_Saiqi_1_Phone = {
+          ContentEN = "Press the button for Psyche to create 1 [Phantasm] and then flashes forward. This skill can be used at any time without interrupting Psyche's current action.",
+          TextMapId = "UIGuide_Saiqi_1_Phone"
+        },
+        UIGuide_Saiqi_2 = {
+          ContentEN = "Press &Skill2& for Psyche to enter [Flamboyance] state and gain the ability to fly. When in [Flamboyance] state, Psyche can only use skills and shoot. In [Flamboyance] state, [Chrysalis Dreamweave] is replaced with [Phototaxis]: Dashes forward and fires [Ethereal Powder] that auto-locks onto a random enemy, dealing Anemo Damage on hit.",
+          TextMapId = "UIGuide_Saiqi_2"
+        },
+        UIGuide_Saiqi_2_Gamepad = {
+          ContentEN = "Press &GamepadUseSkill& + &Interactive& for Psyche to enter [Flamboyance] state and gain the ability to fly. When in [Flamboyance] state, Psyche can only use skills and shoot. In [Flamboyance] state, [Chrysalis Dreamweave] is replaced with [Phototaxis]: Dashes forward and fires [Ethereal Powder] that auto-locks onto a random enemy, dealing Anemo Damage on hit.",
+          TextMapId = "UIGuide_Saiqi_2_Gamepad"
+        },
+        UIGuide_Saiqi_2_Phone = {
+          ContentEN = "Press the button for Psyche to enter [Flamboyance] state and gain the ability to fly. When in [Flamboyance] state, Psyche can only use skills and shoot. In [Flamboyance] state, [Chrysalis Dreamweave] is replaced with [Phototaxis]: Dashes forward and fires [Ethereal Powder] that auto-locks onto a random enemy, dealing Anemo Damage on hit.",
+          TextMapId = "UIGuide_Saiqi_2_Phone"
+        },
         UIGuide_Shadow_1 = {
           ContentEN = "Use <H>Combat Partner Sigil</> to summon allies in battle. Drag Combat Partner Sigils into the Tactical Backpack to enable summoning.",
           TextMapId = "UIGuide_Shadow_1"
@@ -40967,7 +42896,7 @@ local Data = {
           TextMapId = "UIGuide_Sojourns_04_Pad"
         },
         UIGuide_Sojourns_05 = {
-          ContentEN = "Use <Highlight>Mindscape</> shards to assemble these memories. Some stories have special prerequisites.",
+          ContentEN = "Use <Highlight>Soulprints</> to piece together these stories. Some entries have special prerequisites.",
           TextMapId = "UIGuide_Sojourns_05"
         },
         UIGuide_Sojourns_06 = {
@@ -41045,6 +42974,10 @@ local Data = {
         UIGuide_Temple_2 = {
           ContentEN = "You will receive star-rated rewards after your first successful completion of the Trials. You can replay these Trials to achieve higher ratings and earn better rewards.",
           TextMapId = "UIGuide_Temple_2"
+        },
+        UIGuide_Temple_3 = {
+          ContentEN = "You can challenge [Avian Spirit Trials] by clicking the recorded locations on the map.",
+          TextMapId = "UIGuide_Temple_3"
         },
         UIGuide_Title_203001 = {
           ContentEN = "Geniemon Feeding",
@@ -41267,7 +43200,7 @@ local Data = {
           TextMapId = "UIGuide_Title_OverloadShield"
         },
         UIGuide_Title_PerfectDodge = {
-          ContentEN = "Protagonist's Perfect Dodge",
+          ContentEN = "Perfect Dodge of Protagonist in Chapter Twilight",
           TextMapId = "UIGuide_Title_PerfectDodge"
         },
         UIGuide_Title_Pet = {
@@ -41351,7 +43284,7 @@ local Data = {
           TextMapId = "UIGuide_Title_Team"
         },
         UIGuide_Title_Temple_1 = {
-          ContentEN = "Avian Spirit Trial",
+          ContentEN = "Avian Spirit Trials",
           TextMapId = "UIGuide_Title_Temple_1"
         },
         UIGuide_Title_Temple_2 = {
@@ -41414,6 +43347,14 @@ local Data = {
           ContentEN = "Select <H>Exit Sandrealm Meditation</> in <H>Menu</> at the <H>top left</> to leave.",
           TextMapId = "UIGuide_TrainingGround_4_Phone"
         },
+        UIGuide_TrialRank_1 = {
+          ContentEN = "Earn EXP from character, weapon, Geniemon, and Demon Wedge progression, or by completing quests, to raise your Trial Rank.",
+          TextMapId = "UIGuide_TrialRank_1"
+        },
+        UIGuide_TrialRank_2 = {
+          ContentEN = "Advancing to higher Trial Ranks grants valuable rewards and powerful buffs.",
+          TextMapId = "UIGuide_TrialRank_2"
+        },
         UIGuide_TriggerEffect_1 = {
           ContentEN = "<H>Characters</> have element types. There are six elements: <H>Hydro, Pyro, Anemo, Electro, Lumino, and Umbro</>. Each element has its <H>bonus effect</> that applies a debuff, dealing <H>periodic damage</>:\n Hydro: Deals periodic Hydro DMG.\n Pyro: Deals periodic Pyro DMG.\n Electro: Deals periodic Electro DMG.\n Anemo: Deals periodic Anemo DMG.\n Lumino: Deals periodic Lumino DMG and <H>refreshes</> the Remaining Time of all active elemental bonus effects.\n Umbro: Deals periodic Umbro DMG and <H>slows</> the target's Stance recovery.",
           TextMapId = "UIGuide_TriggerEffect_1"
@@ -41451,7 +43392,7 @@ local Data = {
           TextMapId = "UIGuide_WallJump_Phone"
         },
         UIGuide_content_203001 = {
-          ContentEN = "While exploring the world, you may come across <H>Geniemons</>. Use <H>Treats</> to feed them and make friends with them. Geniemons can empower your team in battle through Geniemon Support.",
+          ContentEN = "While exploring the world, you may come across <H>Geniemons</>. Use <H>Treats</> to become friends with them. Geniemons can empower your team in battle through Geniemon Support.",
           TextMapId = "UIGuide_content_203001"
         },
         UIGuide_content_203501 = {
@@ -41659,12 +43600,20 @@ local Data = {
           TextMapId = "UI_Accessory_Desc_10037"
         },
         UI_Accessory_Desc_10049 = {
-          ContentEN = "A coronet cast in aurora’s light, bearing witness to vows of warmth and love.",
+          ContentEN = "A coronet cast in aurora's light, bearing witness to vows of warmth and love.",
           TextMapId = "UI_Accessory_Desc_10049"
         },
         UI_Accessory_Desc_10050 = {
           ContentEN = "The little bird has left its cosy nest. What story will it bring back this time?",
           TextMapId = "UI_Accessory_Desc_10050"
+        },
+        UI_Accessory_Desc_10052 = {
+          ContentEN = "Among the people of Huaxu, there lingers a fondness for a hardy creature of ages past — a sentiment now woven into this ornament.",
+          TextMapId = "UI_Accessory_Desc_10052"
+        },
+        UI_Accessory_Desc_10053 = {
+          ContentEN = "No blaze of sun can keep us from carrying an entire summer within our gaze.",
+          TextMapId = "UI_Accessory_Desc_10053"
         },
         UI_Accessory_Desc_20001 = {
           ContentEN = "Wisdom precisely encircled in those round frames, greatly magnifying the wearer's aura of sagacity.",
@@ -41731,8 +43680,12 @@ local Data = {
           TextMapId = "UI_Accessory_Desc_20031"
         },
         UI_Accessory_Desc_20036 = {
-          ContentEN = "Even through veiled sight, the world’s splendour may still be felt.",
+          ContentEN = "Even through veiled sight, the world's splendour may still be felt.",
           TextMapId = "UI_Accessory_Desc_20036"
+        },
+        UI_Accessory_Desc_20039 = {
+          ContentEN = "Wisdom, framed to perfection. These reflective specs greatly magnify an air of intelligence... or at least, make you look incredibly reflective.",
+          TextMapId = "UI_Accessory_Desc_20039"
         },
         UI_Accessory_Desc_30001 = {
           ContentEN = "A beacon of light to keep by your side. A constant source of comfort on your journey.",
@@ -41770,6 +43723,10 @@ local Data = {
           ContentEN = "Toss it. Trust it. Try again when it ruins your life.",
           TextMapId = "UI_Accessory_Desc_30009"
         },
+        UI_Accessory_Desc_30010 = {
+          ContentEN = "Obtained through special events.",
+          TextMapId = "UI_Accessory_Desc_30010"
+        },
         UI_Accessory_Desc_30016 = {
           ContentEN = "Forged beneath a full moon, this famed sabre holds its glow. Tilt the blade gently — moonlight ripples across the steel.",
           TextMapId = "UI_Accessory_Desc_30016"
@@ -41795,7 +43752,7 @@ local Data = {
           TextMapId = "UI_Accessory_Desc_40004"
         },
         UI_Accessory_Desc_40005 = {
-          ContentEN = "Sink into the darkness and hunt for the light.",
+          ContentEN = "Wings on the breeze, arms to the sky — sing, soar, and never look down.",
           TextMapId = "UI_Accessory_Desc_40005"
         },
         UI_Accessory_Desc_40006 = {
@@ -41805,6 +43762,26 @@ local Data = {
         UI_Accessory_Desc_40007 = {
           ContentEN = "Wings on the breeze, arms to the sky — sing, soar, and never look down.",
           TextMapId = "UI_Accessory_Desc_40007"
+        },
+        UI_Accessory_Desc_40008 = {
+          ContentEN = "Among the people of Huaxu, there lingers a fondness for a hardy creature of ages past — a sentiment now woven into this ornament.",
+          TextMapId = "UI_Accessory_Desc_40008"
+        },
+        UI_Accessory_Desc_40009 = {
+          ContentEN = "Fragile though they seem, such wings can still bear children safely through the harshest of winters.",
+          TextMapId = "UI_Accessory_Desc_40009"
+        },
+        UI_Accessory_Desc_40010 = {
+          ContentEN = "An old cape, once steeped in fantasies of "heroes." Perhaps it will see the light again one day, or perhaps never at all.",
+          TextMapId = "UI_Accessory_Desc_40010"
+        },
+        UI_Accessory_Desc_50004 = {
+          ContentEN = "{空格}",
+          TextMapId = "UI_Accessory_Desc_50004"
+        },
+        UI_Accessory_Desc_60001 = {
+          ContentEN = "{空格}",
+          TextMapId = "UI_Accessory_Desc_60001"
         },
         UI_Accessory_Desc_70001 = {
           ContentEN = "A butterfly flutters, stirring midsummer from its slumber.",
@@ -41850,6 +43827,18 @@ local Data = {
           ContentEN = ""It's just a cloak. I liked the look, so I threw it on. That's all."",
           TextMapId = "UI_Accessory_Desc_90009"
         },
+        UI_Accessory_Desc_90010 = {
+          ContentEN = "An old cape, once steeped in dreams of "heroes." Lynn locked it away — perhaps it will see the light again one day, or perhaps never at all.",
+          TextMapId = "UI_Accessory_Desc_90010"
+        },
+        UI_Accessory_Desc_90011 = {
+          ContentEN = "A cape of the 6th Legion, hard-won through Rhythm's tireless effort. It marked her first step towards her dream... and her last.",
+          TextMapId = "UI_Accessory_Desc_90011"
+        },
+        UI_Accessory_Desc_90012 = {
+          ContentEN = "Its hem flutters in the cold wind, recalling the soft white sands of Purgatorio Island — and two children, hand in hand, wading through the foam.",
+          TextMapId = "UI_Accessory_Desc_90012"
+        },
         UI_Accessory_Desc_91001 = {
           ContentEN = "Berenica's Headpiece\n\"Wish? I... don't have any particular wish. Your smile in the morning is already the greatest pick-me-up of all.\"",
           TextMapId = "UI_Accessory_Desc_91001"
@@ -41879,7 +43868,7 @@ local Data = {
           TextMapId = "UI_Accessory_Desc_91007"
         },
         UI_Accessory_Desc_91008 = {
-          ContentEN = "Truffle's Headpiece\n\"An empty tummy won't get you far in battle. So gobble up some grub and prepare to charge towards victory!\"",
+          ContentEN = "Truffle and Filbert's Headpiece\n\"An empty tummy won't get you far in battle. So gobble up some grub and prepare to charge towards victory!\"",
           TextMapId = "UI_Accessory_Desc_91008"
         },
         UI_Accessory_Desc_91009 = {
@@ -41907,7 +43896,7 @@ local Data = {
           TextMapId = "UI_Accessory_Name_10003"
         },
         UI_Accessory_Name_10004 = {
-          ContentEN = "Chickie JoeJoe: Dark Blue",
+          ContentEN = "Chickie JoeJoe: Azure",
           TextMapId = "UI_Accessory_Name_10004"
         },
         UI_Accessory_Name_10005 = {
@@ -42011,7 +44000,7 @@ local Data = {
           TextMapId = "UI_Accessory_Name_10030"
         },
         UI_Accessory_Name_10031 = {
-          ContentEN = "Coronal Aureole",
+          ContentEN = "Solar Aureole",
           TextMapId = "UI_Accessory_Name_10031"
         },
         UI_Accessory_Name_10032 = {
@@ -42059,7 +44048,7 @@ local Data = {
           TextMapId = "UI_Accessory_Name_10042"
         },
         UI_Accessory_Name_10043 = {
-          ContentEN = "Mood: Good",
+          ContentEN = "Mood: Complicated",
           TextMapId = "UI_Accessory_Name_10043"
         },
         UI_Accessory_Name_10044 = {
@@ -42090,16 +44079,24 @@ local Data = {
           ContentEN = "Nightingale of Dreams",
           TextMapId = "UI_Accessory_Name_10050"
         },
+        UI_Accessory_Name_10052 = {
+          ContentEN = "Fortune's Favour — Headpiece",
+          TextMapId = "UI_Accessory_Name_10052"
+        },
+        UI_Accessory_Name_10053 = {
+          ContentEN = "Midsummer Shades – Dark Jade",
+          TextMapId = "UI_Accessory_Name_10053"
+        },
         UI_Accessory_Name_20001 = {
           ContentEN = "Sage's Spectacles",
           TextMapId = "UI_Accessory_Name_20001"
         },
         UI_Accessory_Name_20002 = {
-          ContentEN = "Sage's Spectacles: Rust Red",
+          ContentEN = "Sage's Spectacles: Rose Red",
           TextMapId = "UI_Accessory_Name_20002"
         },
         UI_Accessory_Name_20003 = {
-          ContentEN = "Sage's Spectacles: Opaque White",
+          ContentEN = "Sage's Spectacles: Leaden Grey",
           TextMapId = "UI_Accessory_Name_20003"
         },
         UI_Accessory_Name_20004 = {
@@ -42171,15 +44168,15 @@ local Data = {
           TextMapId = "UI_Accessory_Name_20020"
         },
         UI_Accessory_Name_20021 = {
-          ContentEN = "Skyward Plume: Dark Jade",
+          ContentEN = "Skyward Plume",
           TextMapId = "UI_Accessory_Name_20021"
         },
         UI_Accessory_Name_20022 = {
-          ContentEN = "Reversed Magician's Flower",
+          ContentEN = "Reversed Magician's Flower: Rose Red",
           TextMapId = "UI_Accessory_Name_20022"
         },
         UI_Accessory_Name_20023 = {
-          ContentEN = "Upright Magician's Flower",
+          ContentEN = "Upright Magician's Flower: Opaque White",
           TextMapId = "UI_Accessory_Name_20023"
         },
         UI_Accessory_Name_20024 = {
@@ -42231,16 +44228,20 @@ local Data = {
           TextMapId = "UI_Accessory_Name_20035"
         },
         UI_Accessory_Name_20036 = {
-          ContentEN = "Butterfly Dream - Midnight Blue",
+          ContentEN = "Butterfly Dream: Azure",
           TextMapId = "UI_Accessory_Name_20036"
         },
         UI_Accessory_Name_20037 = {
-          ContentEN = "Butterfly Dream - Opaque White",
+          ContentEN = "Butterfly Dream: Opaque White",
           TextMapId = "UI_Accessory_Name_20037"
         },
         UI_Accessory_Name_20038 = {
-          ContentEN = "Butterfly Dream - Dark Jade",
+          ContentEN = "Butterfly Dream: Dark Jade",
           TextMapId = "UI_Accessory_Name_20038"
+        },
+        UI_Accessory_Name_20039 = {
+          ContentEN = "Reflective Glasses",
+          TextMapId = "UI_Accessory_Name_20039"
         },
         UI_Accessory_Name_30001 = {
           ContentEN = "Lantern",
@@ -42303,7 +44304,7 @@ local Data = {
           TextMapId = "UI_Accessory_Name_40004"
         },
         UI_Accessory_Name_40005 = {
-          ContentEN = "Nightowl Feathers",
+          ContentEN = "Hymn to the Wind",
           TextMapId = "UI_Accessory_Name_40005"
         },
         UI_Accessory_Name_40006 = {
@@ -42313,6 +44314,26 @@ local Data = {
         UI_Accessory_Name_40007 = {
           ContentEN = "Hymn to the Wind",
           TextMapId = "UI_Accessory_Name_40007"
+        },
+        UI_Accessory_Name_40008 = {
+          ContentEN = "Fortune's Favour — Backpiece",
+          TextMapId = "UI_Accessory_Name_40008"
+        },
+        UI_Accessory_Name_40009 = {
+          ContentEN = "Iridescent Wings",
+          TextMapId = "UI_Accessory_Name_40009"
+        },
+        UI_Accessory_Name_40010 = {
+          ContentEN = "Faded Fantasy",
+          TextMapId = "UI_Accessory_Name_40010"
+        },
+        UI_Accessory_Name_50004 = {
+          ContentEN = "Argent Flare",
+          TextMapId = "UI_Accessory_Name_50004"
+        },
+        UI_Accessory_Name_60001 = {
+          ContentEN = "{空格}",
+          TextMapId = "UI_Accessory_Name_60001"
         },
         UI_Accessory_Name_70001 = {
           ContentEN = "Flow of Grace",
@@ -42357,6 +44378,18 @@ local Data = {
         UI_Accessory_Name_90009 = {
           ContentEN = ""It's a Cloak"",
           TextMapId = "UI_Accessory_Name_90009"
+        },
+        UI_Accessory_Name_90010 = {
+          ContentEN = "Faded Fantasy",
+          TextMapId = "UI_Accessory_Name_90010"
+        },
+        UI_Accessory_Name_90011 = {
+          ContentEN = "Silent Sentinel",
+          TextMapId = "UI_Accessory_Name_90011"
+        },
+        UI_Accessory_Name_90012 = {
+          ContentEN = "Refrain of White Sands",
+          TextMapId = "UI_Accessory_Name_90012"
         },
         UI_Accessory_Name_91001 = {
           ContentEN = "The Other Side",
@@ -42427,19 +44460,19 @@ local Data = {
           TextMapId = "UI_Accessory_Unlock_Shop"
         },
         UI_Accessory_Unlock_Shop_Start_01 = {
-          ContentEN = "Source: Starter Gift Bundle Ⅰ",
+          ContentEN = "Source: Starter Gift Chest Ⅰ",
           TextMapId = "UI_Accessory_Unlock_Shop_Start_01"
         },
         UI_Accessory_Unlock_Shop_Start_02 = {
-          ContentEN = "Source: Starter Gift Bundle Ⅱ",
+          ContentEN = "Source: Starter Gift Chest Ⅱ",
           TextMapId = "UI_Accessory_Unlock_Shop_Start_02"
         },
         UI_Accessory_Unlock_Shop_Start_03 = {
-          ContentEN = "Source: Starter Gift Bundle Ⅲ",
+          ContentEN = "Source: Starter Gift Chest Ⅲ",
           TextMapId = "UI_Accessory_Unlock_Shop_Start_03"
         },
         UI_Accessory_Unlock_Shop_Start_04 = {
-          ContentEN = "Source: Starter Gift Bundle Ⅳ",
+          ContentEN = "Source: Starter Gift Chest Ⅳ",
           TextMapId = "UI_Accessory_Unlock_Shop_Start_04"
         },
         UI_Accessory_Unlock_Task = {
@@ -42459,7 +44492,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_1001"
         },
         UI_Achievement_Des_100101 = {
-          ContentEN = "Make a total of <highlight>#1</> Chrono Retraces",
+          ContentEN = "Make a total of <highlight>#1</> Weave pulls",
           TextMapId = "UI_Achievement_Des_100101"
         },
         UI_Achievement_Des_10051601 = {
@@ -42475,7 +44508,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_10051702"
         },
         UI_Achievement_Des_101 = {
-          ContentEN = "Trial Rank reaches Lv. 8",
+          ContentEN = "Trial Rank reaches Lv. 10",
           TextMapId = "UI_Achievement_Des_101"
         },
         UI_Achievement_Des_1010 = {
@@ -42538,6 +44571,14 @@ local Data = {
           ContentEN = "Deal <H>#1</> points of Hydro Damage",
           TextMapId = "UI_Achievement_Des_1012"
         },
+        UI_Achievement_Des_10125 = {
+          ContentEN = "Collect all ten chapters of the Silvercandle Hymn throughout Icelake",
+          TextMapId = "UI_Achievement_Des_10125"
+        },
+        UI_Achievement_Des_10126 = {
+          ContentEN = "Collect all four chapters of Redleaf: A Chronicle of Rebellion at Galea Theatre",
+          TextMapId = "UI_Achievement_Des_10126"
+        },
         UI_Achievement_Des_1013 = {
           ContentEN = "Deal <H>#1</> points of Pyro Damage",
           TextMapId = "UI_Achievement_Des_1013"
@@ -42563,7 +44604,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_1018"
         },
         UI_Achievement_Des_102 = {
-          ContentEN = "Trial Rank reaches Lv. 10",
+          ContentEN = "Trial Rank reaches Lv. 20",
           TextMapId = "UI_Achievement_Des_102"
         },
         UI_Achievement_Des_10201 = {
@@ -42578,6 +44619,14 @@ local Data = {
           ContentEN = "Restore <H>#1</> points of HP in one action",
           TextMapId = "UI_Achievement_Des_1021"
         },
+        UI_Achievement_Des_1021001 = {
+          ContentEN = "Use <highlight>10</> Toy Hammers",
+          TextMapId = "UI_Achievement_Des_1021001"
+        },
+        UI_Achievement_Des_1021002 = {
+          ContentEN = "Use <highlight>50</> Toy Hammers",
+          TextMapId = "UI_Achievement_Des_1021002"
+        },
         UI_Achievement_Des_1022 = {
           ContentEN = "Deal <H>#1</> points of damage in one action with any weapon",
           TextMapId = "UI_Achievement_Des_1022"
@@ -42587,20 +44636,52 @@ local Data = {
           TextMapId = "UI_Achievement_Des_1023"
         },
         UI_Achievement_Des_103 = {
-          ContentEN = "Trial Rank reaches Lv. 20",
+          ContentEN = "Trial Rank reaches Lv. 30",
           TextMapId = "UI_Achievement_Des_103"
+        },
+        UI_Achievement_Des_1030101 = {
+          ContentEN = "Obtain <highlight>10</> types of fish",
+          TextMapId = "UI_Achievement_Des_1030101"
+        },
+        UI_Achievement_Des_1030102 = {
+          ContentEN = "Obtain <highlight>30</> types of fish",
+          TextMapId = "UI_Achievement_Des_1030102"
+        },
+        UI_Achievement_Des_1030103 = {
+          ContentEN = "Obtain <highlight>70</> types of fish",
+          TextMapId = "UI_Achievement_Des_1030103"
         },
         UI_Achievement_Des_10351 = {
           ContentEN = "Collected <highlight>#1</> readables",
           TextMapId = "UI_Achievement_Des_10351"
         },
+        UI_Achievement_Des_1035201 = {
+          ContentEN = "Obtain <highlight>5</> sheets of music",
+          TextMapId = "UI_Achievement_Des_1035201"
+        },
+        UI_Achievement_Des_1035202 = {
+          ContentEN = "Obtain <highlight>20</> sheets of music",
+          TextMapId = "UI_Achievement_Des_1035202"
+        },
+        UI_Achievement_Des_1035203 = {
+          ContentEN = "Obtain <highlight>50</> sheets of music",
+          TextMapId = "UI_Achievement_Des_1035203"
+        },
         UI_Achievement_Des_104 = {
-          ContentEN = "Trial Rank reaches Lv. 35",
+          ContentEN = "Trial Rank reaches Lv. 40",
           TextMapId = "UI_Achievement_Des_104"
         },
         UI_Achievement_Des_105 = {
-          ContentEN = "Trial Rank reaches Lv. 40",
+          ContentEN = "Trial Rank reaches Lv. 50",
           TextMapId = "UI_Achievement_Des_105"
+        },
+        UI_Achievement_Des_106 = {
+          ContentEN = "Trial Rank reaches Lv. 60",
+          TextMapId = "UI_Achievement_Des_106"
+        },
+        UI_Achievement_Des_107030501 = {
+          ContentEN = "Complete all side quests in Hyperborean Empire - Icelake",
+          TextMapId = "UI_Achievement_Des_107030501"
         },
         UI_Achievement_Des_1301 = {
           ContentEN = "Log in for <highlight>#1</> day(s) <highlight>(The 2nd Closed Beta Exclusive)</>",
@@ -42686,6 +44767,18 @@ local Data = {
           ContentEN = "Unlock <highlight>#1</> Sojourns of the Pages of Time in Ripples of Talk",
           TextMapId = "UI_Achievement_Des_1700101"
         },
+        UI_Achievement_Des_200010101 = {
+          ContentEN = "Colour skins <highlight>1</> time",
+          TextMapId = "UI_Achievement_Des_200010101"
+        },
+        UI_Achievement_Des_200010102 = {
+          ContentEN = "Colour skins <highlight>5</> times",
+          TextMapId = "UI_Achievement_Des_200010102"
+        },
+        UI_Achievement_Des_200010103 = {
+          ContentEN = "Colour skins <highlight>10</> times",
+          TextMapId = "UI_Achievement_Des_200010103"
+        },
         UI_Achievement_Des_2001 = {
           ContentEN = "Defeat <highlight>#1</> Filthoids",
           TextMapId = "UI_Achievement_Des_2001"
@@ -42705,6 +44798,30 @@ local Data = {
         UI_Achievement_Des_200301 = {
           ContentEN = "All Hyperborean Empire Impressions reach <highlight>30</>",
           TextMapId = "UI_Achievement_Des_200301"
+        },
+        UI_Achievement_Des_20030102 = {
+          ContentEN = "All Hyperborean Empire Benefit Impressions reach <highlight>100</>",
+          TextMapId = "UI_Achievement_Des_20030102"
+        },
+        UI_Achievement_Des_20030103 = {
+          ContentEN = "All Hyperborean Empire Morality Impressions reach <highlight>100</>",
+          TextMapId = "UI_Achievement_Des_20030103"
+        },
+        UI_Achievement_Des_20030104 = {
+          ContentEN = "All Hyperborean Empire Wisdom Impressions reach <highlight>100</>",
+          TextMapId = "UI_Achievement_Des_20030104"
+        },
+        UI_Achievement_Des_20030105 = {
+          ContentEN = "All Hyperborean Empire Empathy Impressions reach <highlight>100</>",
+          TextMapId = "UI_Achievement_Des_20030105"
+        },
+        UI_Achievement_Des_20030106 = {
+          ContentEN = "All Hyperborean Empire Chaos Impressions reach <highlight>100</>",
+          TextMapId = "UI_Achievement_Des_20030106"
+        },
+        UI_Achievement_Des_20030107 = {
+          ContentEN = "All Hyperborean Empire Impressions reach <highlight>100</>",
+          TextMapId = "UI_Achievement_Des_20030107"
         },
         UI_Achievement_Des_2004 = {
           ContentEN = "Defeat <highlight>#1</> Primanders",
@@ -42826,6 +44943,10 @@ local Data = {
           ContentEN = "Inflict Paralysis on any enemy <H>#1</> times in solo-mode [Commission: Capture]",
           TextMapId = "UI_Achievement_Des_2053"
         },
+        UI_Achievement_Des_210010101 = {
+          ContentEN = "Take <highlight>5</> photos",
+          TextMapId = "UI_Achievement_Des_210010101"
+        },
         UI_Achievement_Des_2101 = {
           ContentEN = "In a solo Commission, defeat 1 <highlight>Primander – Icehell</> without taking any damage from their [Icehell]",
           TextMapId = "UI_Achievement_Des_2101"
@@ -42902,6 +45023,10 @@ local Data = {
           ContentEN = "Obtain any Golden-tier Demon Wedge for the first time",
           TextMapId = "UI_Achievement_Des_30303"
         },
+        UI_Achievement_Des_3030401 = {
+          ContentEN = "Obtain <highlight>1</> Lv.10 Golden-tier Demon Wedge",
+          TextMapId = "UI_Achievement_Des_3030401"
+        },
         UI_Achievement_Des_3031 = {
           ContentEN = "Inflict a total of <H>#1</> seconds of Bonus Effect: Hydro on any enemy",
           TextMapId = "UI_Achievement_Des_3031"
@@ -42929,6 +45054,10 @@ local Data = {
         UI_Achievement_Des_30401 = {
           ContentEN = "Equip any character with at least 7 Demon Wedges",
           TextMapId = "UI_Achievement_Des_30401"
+        },
+        UI_Achievement_Des_3040102 = {
+          ContentEN = "Equip any character with at least 9 Demon Wedges",
+          TextMapId = "UI_Achievement_Des_3040102"
         },
         UI_Achievement_Des_3041 = {
           ContentEN = "Summon any Combat Partner <H>#1</> times",
@@ -43022,6 +45151,10 @@ local Data = {
           ContentEN = "Secured victory within <highlight>#1</>s in solo-mode "Nocturnal Echoes · The Warden of the Inferno" on the highest difficulty",
           TextMapId = "UI_Achievement_Des_5004"
         },
+        UI_Achievement_Des_5005 = {
+          ContentEN = "Secured victory within <highlight>#1</>s in solo-mode "Nocturnal Echoes: Beast From the Snowfield" on the highest difficulty",
+          TextMapId = "UI_Achievement_Des_5005"
+        },
         UI_Achievement_Des_501001 = {
           ContentEN = "Take a seat in "The Chair Full Of Power"",
           TextMapId = "UI_Achievement_Des_501001"
@@ -43086,6 +45219,10 @@ local Data = {
           ContentEN = "Secured victory in "Nocturnal Echoes · The Warden of the Inferno" on the highest difficulty <highlight>without summoning any Combat Partners</>",
           TextMapId = "UI_Achievement_Des_5014"
         },
+        UI_Achievement_Des_5015 = {
+          ContentEN = "Secured victory in "Nocturnal Echoes: Beast From the Snowfield" on the highest difficulty <highlight>without summoning any Combat Partners</>",
+          TextMapId = "UI_Achievement_Des_5015"
+        },
         UI_Achievement_Des_5021 = {
           ContentEN = "Secure victory in solo-mode [Commission: Capture] on the highest difficulty <H>without summoning any Combat Partners</>",
           TextMapId = "UI_Achievement_Des_5021"
@@ -43143,8 +45280,16 @@ local Data = {
           TextMapId = "UI_Achievement_Des_5042"
         },
         UI_Achievement_Des_5043 = {
-          ContentEN = "Secure victory in [Nocturnal Echoes: The Eclosioner] once",
+          ContentEN = "Achieve victory in [Nocturnal Echoes: The Eclosioner] once",
           TextMapId = "UI_Achievement_Des_5043"
+        },
+        UI_Achievement_Des_5044 = {
+          ContentEN = "Achieve victory in [Nocturnal Echoes: The Warden of the Inferno] once",
+          TextMapId = "UI_Achievement_Des_5044"
+        },
+        UI_Achievement_Des_5045 = {
+          ContentEN = "Achieve victory in [Nocturnal Echoes: Beast From the Snowfield] once",
+          TextMapId = "UI_Achievement_Des_5045"
         },
         UI_Achievement_Des_505001 = {
           ContentEN = "Find <highlight>#1</> treasure(s) recorded on the Lost Sheets in Purgatorio Island",
@@ -43205,6 +45350,10 @@ local Data = {
         UI_Achievement_Des_5054 = {
           ContentEN = "Secured victory in "Nocturnal Echoes · The Warden of the Inferno" on the highest difficulty <highlight>without losing HP or summoning any Combat Partners</>",
           TextMapId = "UI_Achievement_Des_5054"
+        },
+        UI_Achievement_Des_5055 = {
+          ContentEN = "Secured victory in "Nocturnal Echoes: Beast From the Snowfield" on the highest difficulty <highlight>without losing HP or summoning any Combat Partners</>",
+          TextMapId = "UI_Achievement_Des_5055"
         },
         UI_Achievement_Des_5061001 = {
           ContentEN = "In Solo mode, secure victory within <highlight>300</>s in [Commission: Capture] on the highest difficulty",
@@ -43299,7 +45448,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_50905"
         },
         UI_Achievement_Des_50906 = {
-          ContentEN = "Complete [Commission: Hedge ∞] for the first time",
+          ContentEN = "Complete [Commission: Hedge] for the first time",
           TextMapId = "UI_Achievement_Des_50906"
         },
         UI_Achievement_Des_50907 = {
@@ -43339,7 +45488,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_50924"
         },
         UI_Achievement_Des_50925 = {
-          ContentEN = "Complete [Commission: Hedge ∞] a total of <highlight>#1</> time(s)",
+          ContentEN = "Complete [Commission: Hedge] a total of <highlight>#1</> times",
           TextMapId = "UI_Achievement_Des_50925"
         },
         UI_Achievement_Des_50926 = {
@@ -43483,7 +45632,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60501"
         },
         UI_Achievement_Des_60601 = {
-          ContentEN = "Raise <highlight>#1</> characters' Intron Level to Lv. <highlight>3</>",
+          ContentEN = "Raise <highlight>#1</> characters' Intron Level to Lv. <highlight>6</>",
           TextMapId = "UI_Achievement_Des_60601"
         },
         UI_Achievement_Des_60701 = {
@@ -43583,7 +45732,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_70123"
         },
         UI_Achievement_Des_70124 = {
-          ContentEN = "Never tempt fate by saying, “I’ll do it once the war is over.”",
+          ContentEN = "Never tempt fate by saying, "I'll do it once the war is over."",
           TextMapId = "UI_Achievement_Des_70124"
         },
         UI_Achievement_Des_70125 = {
@@ -43595,15 +45744,15 @@ local Data = {
           TextMapId = "UI_Achievement_Des_70126"
         },
         UI_Achievement_Des_70131 = {
-          ContentEN = "Complete the quest "Old Wounds"",
+          ContentEN = "Complete the quest "Time of Innocence"",
           TextMapId = "UI_Achievement_Des_70131"
         },
         UI_Achievement_Des_70132 = {
-          ContentEN = "Complete the quest "Like the Beaconlight"",
+          ContentEN = "Complete the quest "The Scarlet Land"",
           TextMapId = "UI_Achievement_Des_70132"
         },
         UI_Achievement_Des_70133 = {
-          ContentEN = "Complete the quest "Whither Now?"",
+          ContentEN = "Complete the quest "Requiem for the Nameless"",
           TextMapId = "UI_Achievement_Des_70133"
         },
         UI_Achievement_Des_70134 = {
@@ -43663,12 +45812,24 @@ local Data = {
           TextMapId = "UI_Achievement_Des_9004"
         },
         UI_Achievement_Des_90103 = {
-          ContentEN = "Forge <highlight>#1</> blueprint(s) of any <highlight>4</>★ <highlight>weapon</>",
+          ContentEN = "Forge <highlight>#1</> <highlight>weapon</> blueprint(s)",
           TextMapId = "UI_Achievement_Des_90103"
         },
         UI_Achievement_Des_90104 = {
-          ContentEN = "Forge <highlight>#1</> blueprint(s) of any <highlight>5</>★ <highlight>weapon</>",
+          ContentEN = "Forge <highlight>#1</> <highlight>weapon</> blueprint(s)",
           TextMapId = "UI_Achievement_Des_90104"
+        },
+        UI_Achievement_Des_9010501 = {
+          ContentEN = "Forge <highlight>1</> items",
+          TextMapId = "UI_Achievement_Des_9010501"
+        },
+        UI_Achievement_Des_9010502 = {
+          ContentEN = "Forge <highlight>5</> items",
+          TextMapId = "UI_Achievement_Des_9010502"
+        },
+        UI_Achievement_Des_9010503 = {
+          ContentEN = "Forge <highlight>10</> items",
+          TextMapId = "UI_Achievement_Des_9010503"
         },
         UI_Achievement_Des_9100 = {
           ContentEN = "Light up the Lantern of Mystic Maze #1 time(s)",
@@ -43843,43 +46004,43 @@ local Data = {
           TextMapId = "UI_Achievement_LockTip"
         },
         UI_Achievement_Name_100101 = {
-          ContentEN = "Keep the Grim Reaper Waiting (Ⅰ)",
+          ContentEN = "Keep the Grim Reaper Waiting Ⅰ",
           TextMapId = "UI_Achievement_Name_100101"
         },
         UI_Achievement_Name_10010101 = {
-          ContentEN = "Searching a Thousand Times (Ⅰ)",
+          ContentEN = "Searching a Thousand Times Ⅰ",
           TextMapId = "UI_Achievement_Name_10010101"
         },
         UI_Achievement_Name_10010102 = {
-          ContentEN = "Searching a Thousand Times (Ⅱ)",
+          ContentEN = "Searching a Thousand Times Ⅱ",
           TextMapId = "UI_Achievement_Name_10010102"
         },
         UI_Achievement_Name_10010103 = {
-          ContentEN = "Searching a Thousand Times (Ⅲ)",
+          ContentEN = "Searching a Thousand Times Ⅲ",
           TextMapId = "UI_Achievement_Name_10010103"
         },
         UI_Achievement_Name_100102 = {
-          ContentEN = "Keep the Grim Reaper Waiting (Ⅱ)",
+          ContentEN = "Keep the Grim Reaper Waiting Ⅱ",
           TextMapId = "UI_Achievement_Name_100102"
         },
         UI_Achievement_Name_100103 = {
-          ContentEN = "Keep the Grim Reaper Waiting (Ⅲ)",
+          ContentEN = "Keep the Grim Reaper Waiting Ⅲ",
           TextMapId = "UI_Achievement_Name_100103"
         },
         UI_Achievement_Name_1005160101 = {
-          ContentEN = "Just A Passer-By (Ⅰ)",
+          ContentEN = "Just A Passer-By Ⅰ",
           TextMapId = "UI_Achievement_Name_1005160101"
         },
         UI_Achievement_Name_1005160102 = {
-          ContentEN = "Just a Passer-By (Ⅱ)",
+          ContentEN = "Just a Passer-By Ⅱ",
           TextMapId = "UI_Achievement_Name_1005160102"
         },
         UI_Achievement_Name_1005160103 = {
-          ContentEN = "Just a Passer-By (Ⅲ)",
+          ContentEN = "Just a Passer-By Ⅲ",
           TextMapId = "UI_Achievement_Name_1005160103"
         },
         UI_Achievement_Name_1005160104 = {
-          ContentEN = "Just a Passer-By (Ⅳ)",
+          ContentEN = "Just a Passer-By Ⅳ",
           TextMapId = "UI_Achievement_Name_1005160104"
         },
         UI_Achievement_Name_1005170101 = {
@@ -43891,7 +46052,7 @@ local Data = {
           TextMapId = "UI_Achievement_Name_1005170201"
         },
         UI_Achievement_Name_101001 = {
-          ContentEN = "Blessed by the Divine Light (Ⅰ)",
+          ContentEN = "Crusader of Light Ⅰ",
           TextMapId = "UI_Achievement_Name_101001"
         },
         UI_Achievement_Name_10100101 = {
@@ -43899,7 +46060,7 @@ local Data = {
           TextMapId = "UI_Achievement_Name_10100101"
         },
         UI_Achievement_Name_101002 = {
-          ContentEN = "Blessed by the Divine Light (Ⅱ)",
+          ContentEN = "Crusader of Light Ⅱ",
           TextMapId = "UI_Achievement_Name_101002"
         },
         UI_Achievement_Name_10100201 = {
@@ -43907,7 +46068,7 @@ local Data = {
           TextMapId = "UI_Achievement_Name_10100201"
         },
         UI_Achievement_Name_101003 = {
-          ContentEN = "Blessed by the Divine Light (Ⅲ)",
+          ContentEN = "Crusader of Light Ⅲ",
           TextMapId = "UI_Achievement_Name_101003"
         },
         UI_Achievement_Name_10100301 = {
@@ -43915,31 +46076,39 @@ local Data = {
           TextMapId = "UI_Achievement_Name_10100301"
         },
         UI_Achievement_Name_1010101 = {
-          ContentEN = "Joyful Chime (Ⅰ)",
+          ContentEN = "Joyful Chime Ⅰ",
           TextMapId = "UI_Achievement_Name_1010101"
         },
         UI_Achievement_Name_1010102 = {
-          ContentEN = "Joyful Chime (Ⅱ)",
+          ContentEN = "Joyful Chime Ⅱ",
           TextMapId = "UI_Achievement_Name_1010102"
         },
+        UI_Achievement_Name_1010103 = {
+          ContentEN = "Joyful Chime Ⅲ",
+          TextMapId = "UI_Achievement_Name_1010103"
+        },
         UI_Achievement_Name_1010201 = {
-          ContentEN = "Your Name Is Red (Ⅰ)",
+          ContentEN = "Your Name Is Red Ⅰ",
           TextMapId = "UI_Achievement_Name_1010201"
         },
         UI_Achievement_Name_1010202 = {
-          ContentEN = "Your Name Is Red (Ⅱ)",
+          ContentEN = "Your Name Is Red Ⅱ",
           TextMapId = "UI_Achievement_Name_1010202"
         },
+        UI_Achievement_Name_1010203 = {
+          ContentEN = "Your Name Is Red Ⅲ",
+          TextMapId = "UI_Achievement_Name_1010203"
+        },
         UI_Achievement_Name_1010301 = {
-          ContentEN = "Sparks on Paper (Ⅰ)",
+          ContentEN = "Sparks on Paper Ⅰ",
           TextMapId = "UI_Achievement_Name_1010301"
         },
         UI_Achievement_Name_1010302 = {
-          ContentEN = "Sparks on Paper (Ⅱ)",
+          ContentEN = "Sparks on Paper Ⅱ",
           TextMapId = "UI_Achievement_Name_1010302"
         },
         UI_Achievement_Name_1010303 = {
-          ContentEN = "Sparks on Paper (Ⅲ)",
+          ContentEN = "Sparks on Paper Ⅲ",
           TextMapId = "UI_Achievement_Name_1010303"
         },
         UI_Achievement_Name_1010304 = {
@@ -43967,179 +46136,223 @@ local Data = {
           TextMapId = "UI_Achievement_Name_1010801"
         },
         UI_Achievement_Name_101101 = {
-          ContentEN = "When Darkness Falls (Ⅰ)",
+          ContentEN = "When Darkness Falls Ⅰ",
           TextMapId = "UI_Achievement_Name_101101"
         },
         UI_Achievement_Name_101102 = {
-          ContentEN = "When Darkness Falls (Ⅱ)",
+          ContentEN = "When Darkness Falls Ⅱ",
           TextMapId = "UI_Achievement_Name_101102"
         },
         UI_Achievement_Name_101103 = {
-          ContentEN = "When Darkness Falls (Ⅲ)",
+          ContentEN = "When Darkness Falls Ⅲ",
           TextMapId = "UI_Achievement_Name_101103"
         },
         UI_Achievement_Name_101201 = {
-          ContentEN = "The Discontent of Water (Ⅰ)",
+          ContentEN = "The Discontent of Water Ⅰ",
           TextMapId = "UI_Achievement_Name_101201"
         },
         UI_Achievement_Name_101202 = {
-          ContentEN = "The Discontent of Water (Ⅱ)",
+          ContentEN = "The Discontent of Water Ⅱ",
           TextMapId = "UI_Achievement_Name_101202"
         },
         UI_Achievement_Name_101203 = {
-          ContentEN = "The Discontent of Water (Ⅲ)",
+          ContentEN = "The Discontent of Water Ⅲ",
           TextMapId = "UI_Achievement_Name_101203"
         },
+        UI_Achievement_Name_1012501 = {
+          ContentEN = "Memory Archive",
+          TextMapId = "UI_Achievement_Name_1012501"
+        },
+        UI_Achievement_Name_1012601 = {
+          ContentEN = "Tales of the Redleaf",
+          TextMapId = "UI_Achievement_Name_1012601"
+        },
         UI_Achievement_Name_101301 = {
-          ContentEN = "The Glee of Fire (Ⅰ)",
+          ContentEN = "The Glee of Fire Ⅰ",
           TextMapId = "UI_Achievement_Name_101301"
         },
         UI_Achievement_Name_101302 = {
-          ContentEN = "The Glee of Fire (Ⅱ)",
+          ContentEN = "The Glee of Fire Ⅱ",
           TextMapId = "UI_Achievement_Name_101302"
         },
         UI_Achievement_Name_101303 = {
-          ContentEN = "The Glee of Fire (Ⅲ)",
+          ContentEN = "The Glee of Fire Ⅲ",
           TextMapId = "UI_Achievement_Name_101303"
         },
         UI_Achievement_Name_101401 = {
-          ContentEN = "Don't Stand Under the Tree (Ⅰ)",
+          ContentEN = "Don't Stand Under the Tree Ⅰ",
           TextMapId = "UI_Achievement_Name_101401"
         },
         UI_Achievement_Name_101402 = {
-          ContentEN = "Don't Stand Under the Tree (Ⅱ)",
+          ContentEN = "Don't Stand Under the Tree Ⅱ",
           TextMapId = "UI_Achievement_Name_101402"
         },
         UI_Achievement_Name_101403 = {
-          ContentEN = "Don't Stand Under the Tree (Ⅲ)",
+          ContentEN = "Don't Stand Under the Tree Ⅲ",
           TextMapId = "UI_Achievement_Name_101403"
         },
         UI_Achievement_Name_101501 = {
-          ContentEN = "Quite the Racket... (Ⅰ)",
+          ContentEN = "Quite the Racket... Ⅰ",
           TextMapId = "UI_Achievement_Name_101501"
         },
         UI_Achievement_Name_101502 = {
-          ContentEN = "Quite the Racket... (Ⅱ)",
+          ContentEN = "Quite the Racket... Ⅱ",
           TextMapId = "UI_Achievement_Name_101502"
         },
         UI_Achievement_Name_101503 = {
-          ContentEN = "Quite the Racket... (Ⅲ)",
+          ContentEN = "Quite the Racket... Ⅲ",
           TextMapId = "UI_Achievement_Name_101503"
         },
         UI_Achievement_Name_101601 = {
-          ContentEN = "Dimension Asunder (Ⅰ)",
+          ContentEN = "Dimension Asunder Ⅰ",
           TextMapId = "UI_Achievement_Name_101601"
         },
         UI_Achievement_Name_101602 = {
-          ContentEN = "Dimension Asunder (Ⅱ)",
+          ContentEN = "Dimension Asunder Ⅱ",
           TextMapId = "UI_Achievement_Name_101602"
         },
         UI_Achievement_Name_101603 = {
-          ContentEN = "Dimension Asunder (Ⅲ)",
+          ContentEN = "Dimension Asunder Ⅲ",
           TextMapId = "UI_Achievement_Name_101603"
         },
         UI_Achievement_Name_101701 = {
-          ContentEN = "Deadbeat Warrior (Ⅰ)",
+          ContentEN = "Deadbeat Warrior Ⅰ",
           TextMapId = "UI_Achievement_Name_101701"
         },
         UI_Achievement_Name_101702 = {
-          ContentEN = "Deadbeat Warrior (Ⅱ)",
+          ContentEN = "Deadbeat Warrior Ⅱ",
           TextMapId = "UI_Achievement_Name_101702"
         },
         UI_Achievement_Name_101703 = {
-          ContentEN = "Deadbeat Warrior (Ⅲ)",
+          ContentEN = "Deadbeat Warrior Ⅲ",
           TextMapId = "UI_Achievement_Name_101703"
         },
         UI_Achievement_Name_101801 = {
-          ContentEN = "Don't Forget the Helmet (Ⅰ)",
+          ContentEN = "Don't Forget the Helmet Ⅰ",
           TextMapId = "UI_Achievement_Name_101801"
         },
         UI_Achievement_Name_101802 = {
-          ContentEN = "Don't Forget the Helmet (Ⅱ)",
+          ContentEN = "Don't Forget the Helmet Ⅱ",
           TextMapId = "UI_Achievement_Name_101802"
         },
         UI_Achievement_Name_101803 = {
-          ContentEN = "Don't Forget the Helmet (Ⅲ)",
+          ContentEN = "Don't Forget the Helmet Ⅲ",
           TextMapId = "UI_Achievement_Name_101803"
         },
         UI_Achievement_Name_1020101 = {
-          ContentEN = "Beware of the Consumerism Trap (Ⅰ)",
+          ContentEN = "Beware of the Consumerism Trap Ⅰ",
           TextMapId = "UI_Achievement_Name_1020101"
         },
         UI_Achievement_Name_1020102 = {
-          ContentEN = "Beware of the Consumerism Trap (Ⅱ)",
+          ContentEN = "Beware of the Consumerism Trap Ⅱ",
           TextMapId = "UI_Achievement_Name_1020102"
         },
         UI_Achievement_Name_1020103 = {
-          ContentEN = "Beware of the Consumerism Trap (Ⅲ)",
+          ContentEN = "Beware of the Consumerism Trap Ⅲ",
           TextMapId = "UI_Achievement_Name_1020103"
         },
         UI_Achievement_Name_1020201 = {
-          ContentEN = "I Want Power (Ⅰ)",
+          ContentEN = "I Want Power Ⅰ",
           TextMapId = "UI_Achievement_Name_1020201"
         },
         UI_Achievement_Name_1020202 = {
-          ContentEN = "I Want Power (Ⅱ)",
+          ContentEN = "I Want Power Ⅱ",
           TextMapId = "UI_Achievement_Name_1020202"
         },
         UI_Achievement_Name_1020203 = {
-          ContentEN = "I Want Power (Ⅲ)",
+          ContentEN = "I Want Power Ⅲ",
           TextMapId = "UI_Achievement_Name_1020203"
         },
+        UI_Achievement_Name_1021001 = {
+          ContentEN = "Time Acceleration Guide Ⅰ",
+          TextMapId = "UI_Achievement_Name_1021001"
+        },
+        UI_Achievement_Name_1021002 = {
+          ContentEN = "Time Acceleration Guide Ⅱ",
+          TextMapId = "UI_Achievement_Name_1021002"
+        },
         UI_Achievement_Name_102101 = {
-          ContentEN = "Medical Miracle (Ⅰ)",
+          ContentEN = "Medical Miracle Ⅰ",
           TextMapId = "UI_Achievement_Name_102101"
         },
         UI_Achievement_Name_102102 = {
-          ContentEN = "Medical Miracle (Ⅱ)",
+          ContentEN = "Medical Miracle Ⅱ",
           TextMapId = "UI_Achievement_Name_102102"
         },
         UI_Achievement_Name_102103 = {
-          ContentEN = "Medical Miracle (Ⅲ)",
+          ContentEN = "Medical Miracle Ⅲ",
           TextMapId = "UI_Achievement_Name_102103"
         },
         UI_Achievement_Name_102201 = {
-          ContentEN = "Just a Punch (Ⅰ)",
+          ContentEN = "Just a Punch Ⅰ",
           TextMapId = "UI_Achievement_Name_102201"
         },
         UI_Achievement_Name_102202 = {
-          ContentEN = "Just a Punch (Ⅱ)",
+          ContentEN = "Just a Punch Ⅱ",
           TextMapId = "UI_Achievement_Name_102202"
         },
         UI_Achievement_Name_102203 = {
-          ContentEN = "Just a Punch (Ⅲ)",
+          ContentEN = "Just a Punch Ⅲ",
           TextMapId = "UI_Achievement_Name_102203"
         },
         UI_Achievement_Name_102301 = {
-          ContentEN = "Standard Kick (Ⅰ)",
+          ContentEN = "Standard Kick Ⅰ",
           TextMapId = "UI_Achievement_Name_102301"
         },
         UI_Achievement_Name_102302 = {
-          ContentEN = "Standard Kick (Ⅱ)",
+          ContentEN = "Standard Kick Ⅱ",
           TextMapId = "UI_Achievement_Name_102302"
         },
         UI_Achievement_Name_102303 = {
-          ContentEN = "Standard Kick (Ⅲ)",
+          ContentEN = "Standard Kick Ⅲ",
           TextMapId = "UI_Achievement_Name_102303"
         },
+        UI_Achievement_Name_1030101 = {
+          ContentEN = "Seafood Tycoon Ⅰ",
+          TextMapId = "UI_Achievement_Name_1030101"
+        },
+        UI_Achievement_Name_1030102 = {
+          ContentEN = "Seafood Tycoon Ⅱ",
+          TextMapId = "UI_Achievement_Name_1030102"
+        },
+        UI_Achievement_Name_1030103 = {
+          ContentEN = "Seafood Tycoon Ⅲ",
+          TextMapId = "UI_Achievement_Name_1030103"
+        },
         UI_Achievement_Name_1035101 = {
-          ContentEN = "The Weight of Knowledge (Ⅰ)",
+          ContentEN = "The Weight of Knowledge Ⅰ",
           TextMapId = "UI_Achievement_Name_1035101"
         },
         UI_Achievement_Name_1035102 = {
-          ContentEN = "The Weight of Knowledge (Ⅱ)",
+          ContentEN = "The Weight of Knowledge Ⅱ",
           TextMapId = "UI_Achievement_Name_1035102"
         },
         UI_Achievement_Name_1035103 = {
-          ContentEN = "The Weight of Knowledge (Ⅲ)",
+          ContentEN = "The Weight of Knowledge Ⅲ",
           TextMapId = "UI_Achievement_Name_1035103"
         },
+        UI_Achievement_Name_1035201 = {
+          ContentEN = "City of Love Ⅰ",
+          TextMapId = "UI_Achievement_Name_1035201"
+        },
+        UI_Achievement_Name_1035202 = {
+          ContentEN = "City of Love Ⅱ",
+          TextMapId = "UI_Achievement_Name_1035202"
+        },
+        UI_Achievement_Name_1035203 = {
+          ContentEN = "City of Love Ⅲ",
+          TextMapId = "UI_Achievement_Name_1035203"
+        },
+        UI_Achievement_Name_107030501 = {
+          ContentEN = "Roaming the Earth - Icelake",
+          TextMapId = "UI_Achievement_Name_107030501"
+        },
         UI_Achievement_Name_1301 = {
-          ContentEN = "Fate's Spiral: The Second Encounter (Ⅰ)",
+          ContentEN = "Fate's Spiral: The Second Encounter Ⅰ",
           TextMapId = "UI_Achievement_Name_1301"
         },
         UI_Achievement_Name_1302 = {
-          ContentEN = "Fate's Spiral: The Second Encounter (Ⅱ)",
+          ContentEN = "Fate's Spiral: The Second Encounter Ⅱ",
           TextMapId = "UI_Achievement_Name_1302"
         },
         UI_Achievement_Name_1303 = {
@@ -44159,39 +46372,39 @@ local Data = {
           TextMapId = "UI_Achievement_Name_1306"
         },
         UI_Achievement_Name_140010101 = {
-          ContentEN = "Just a Passing Geniemon Enthusiast (Ⅰ)",
+          ContentEN = "Just a Passing Geniemon Enthusiast Ⅰ",
           TextMapId = "UI_Achievement_Name_140010101"
         },
         UI_Achievement_Name_140010102 = {
-          ContentEN = "Just a Passing Geniemon Enthusiast (Ⅱ)",
+          ContentEN = "Just a Passing Geniemon Enthusiast Ⅱ",
           TextMapId = "UI_Achievement_Name_140010102"
         },
         UI_Achievement_Name_140010103 = {
-          ContentEN = "Just a Passing Geniemon Enthusiast (Ⅲ)",
+          ContentEN = "Just a Passing Geniemon Enthusiast Ⅲ",
           TextMapId = "UI_Achievement_Name_140010103"
         },
         UI_Achievement_Name_140020101 = {
-          ContentEN = "Geniemon Club (Ⅰ)",
+          ContentEN = "Geniemon Club Ⅰ",
           TextMapId = "UI_Achievement_Name_140020101"
         },
         UI_Achievement_Name_140020102 = {
-          ContentEN = "Geniemon Club (Ⅱ)",
+          ContentEN = "Geniemon Club Ⅱ",
           TextMapId = "UI_Achievement_Name_140020102"
         },
         UI_Achievement_Name_140020103 = {
-          ContentEN = "Geniemon Club (Ⅲ)",
+          ContentEN = "Geniemon Club Ⅲ",
           TextMapId = "UI_Achievement_Name_140020103"
         },
         UI_Achievement_Name_140030101 = {
-          ContentEN = "Next Stop: Geniemon Master (Ⅰ)",
+          ContentEN = "Next Stop: Geniemon Master Ⅰ",
           TextMapId = "UI_Achievement_Name_140030101"
         },
         UI_Achievement_Name_140030201 = {
-          ContentEN = "Next Stop: Geniemon Master (Ⅱ)",
+          ContentEN = "Next Stop: Geniemon Master Ⅱ",
           TextMapId = "UI_Achievement_Name_140030201"
         },
         UI_Achievement_Name_140030301 = {
-          ContentEN = "Next Stop: Geniemon Master (Ⅲ)",
+          ContentEN = "Next Stop: Geniemon Master Ⅲ",
           TextMapId = "UI_Achievement_Name_140030301"
         },
         UI_Achievement_Name_150010101 = {
@@ -44199,271 +46412,315 @@ local Data = {
           TextMapId = "UI_Achievement_Name_150010101"
         },
         UI_Achievement_Name_150010201 = {
-          ContentEN = "An Unforgettable Night (Ⅰ)",
+          ContentEN = "An Unforgettable Night Ⅰ",
           TextMapId = "UI_Achievement_Name_150010201"
         },
         UI_Achievement_Name_150010202 = {
-          ContentEN = "An Unforgettable Night (Ⅱ)",
+          ContentEN = "An Unforgettable Night Ⅱ",
           TextMapId = "UI_Achievement_Name_150010202"
         },
         UI_Achievement_Name_150010203 = {
-          ContentEN = "An Unforgettable Night (Ⅲ)",
+          ContentEN = "An Unforgettable Night Ⅲ",
           TextMapId = "UI_Achievement_Name_150010203"
         },
         UI_Achievement_Name_150010301 = {
-          ContentEN = "A Sleepless Night (Ⅰ)",
+          ContentEN = "A Sleepless Night Ⅰ",
           TextMapId = "UI_Achievement_Name_150010301"
         },
         UI_Achievement_Name_150010401 = {
-          ContentEN = "A Sleepless Night (Ⅱ)",
+          ContentEN = "A Sleepless Night Ⅱ",
           TextMapId = "UI_Achievement_Name_150010401"
         },
         UI_Achievement_Name_150010501 = {
-          ContentEN = "A Sleepless Night (Ⅲ)",
+          ContentEN = "A Sleepless Night Ⅲ",
           TextMapId = "UI_Achievement_Name_150010501"
         },
         UI_Achievement_Name_150010601 = {
-          ContentEN = "A Starlit Night (Ⅰ)",
+          ContentEN = "A Starlit Night Ⅰ",
           TextMapId = "UI_Achievement_Name_150010601"
         },
         UI_Achievement_Name_150010701 = {
-          ContentEN = "A Starlit Night (Ⅱ)",
+          ContentEN = "A Starlit Night Ⅱ",
           TextMapId = "UI_Achievement_Name_150010701"
         },
         UI_Achievement_Name_150010801 = {
-          ContentEN = "A Starlit Night (Ⅲ)",
+          ContentEN = "A Starlit Night Ⅲ",
           TextMapId = "UI_Achievement_Name_150010801"
         },
         UI_Achievement_Name_160010101 = {
-          ContentEN = "Atlasipedia (Ⅰ)",
+          ContentEN = "Atlasipedia Ⅰ",
           TextMapId = "UI_Achievement_Name_160010101"
         },
         UI_Achievement_Name_160010102 = {
-          ContentEN = "Atlasipedia (Ⅱ)",
+          ContentEN = "Atlasipedia Ⅱ",
           TextMapId = "UI_Achievement_Name_160010102"
         },
         UI_Achievement_Name_160010103 = {
-          ContentEN = "Atlasipedia (Ⅲ)",
+          ContentEN = "Atlasipedia Ⅲ",
           TextMapId = "UI_Achievement_Name_160010103"
         },
         UI_Achievement_Name_170010101 = {
-          ContentEN = "Chronicle of Time (Ⅰ)",
+          ContentEN = "Chronicle of Time Ⅰ",
           TextMapId = "UI_Achievement_Name_170010101"
         },
         UI_Achievement_Name_170010102 = {
-          ContentEN = "Chronicle of Time (Ⅱ)",
+          ContentEN = "Chronicle of Time Ⅱ",
           TextMapId = "UI_Achievement_Name_170010102"
         },
         UI_Achievement_Name_170010103 = {
-          ContentEN = "Chronicle of Time (Ⅲ)",
+          ContentEN = "Chronicle of Time Ⅲ",
           TextMapId = "UI_Achievement_Name_170010103"
         },
+        UI_Achievement_Name_200010101 = {
+          ContentEN = "Iridescent Black Ⅰ",
+          TextMapId = "UI_Achievement_Name_200010101"
+        },
+        UI_Achievement_Name_200010102 = {
+          ContentEN = "Iridescent Black Ⅱ",
+          TextMapId = "UI_Achievement_Name_200010102"
+        },
+        UI_Achievement_Name_200010103 = {
+          ContentEN = "Iridescent Black Ⅲ",
+          TextMapId = "UI_Achievement_Name_200010103"
+        },
         UI_Achievement_Name_200101 = {
-          ContentEN = "Save the Environment (Ⅰ)",
+          ContentEN = "Save the Environment Ⅰ",
           TextMapId = "UI_Achievement_Name_200101"
         },
         UI_Achievement_Name_20010101 = {
-          ContentEN = "Loaded Dice (Ⅰ)",
+          ContentEN = "Loaded Dice Ⅰ",
           TextMapId = "UI_Achievement_Name_20010101"
         },
         UI_Achievement_Name_20010102 = {
-          ContentEN = "Loaded Dice (Ⅱ)",
+          ContentEN = "Loaded Dice Ⅱ",
           TextMapId = "UI_Achievement_Name_20010102"
         },
         UI_Achievement_Name_20010103 = {
-          ContentEN = "Loaded Dice (Ⅲ)",
+          ContentEN = "Loaded Dice Ⅲ",
           TextMapId = "UI_Achievement_Name_20010103"
         },
         UI_Achievement_Name_200102 = {
-          ContentEN = "Save the Environment (Ⅱ)",
+          ContentEN = "Save the Environment Ⅱ",
           TextMapId = "UI_Achievement_Name_200102"
         },
         UI_Achievement_Name_200103 = {
-          ContentEN = "Save the Environment (Ⅲ)",
+          ContentEN = "Save the Environment Ⅲ",
           TextMapId = "UI_Achievement_Name_200103"
         },
         UI_Achievement_Name_200201 = {
-          ContentEN = "Foe of Hyperborea (Ⅰ)",
+          ContentEN = "Foe of Hyperborea Ⅰ",
           TextMapId = "UI_Achievement_Name_200201"
         },
         UI_Achievement_Name_200202 = {
-          ContentEN = "Foe of Hyperborea (Ⅰ)",
+          ContentEN = "Foe of Hyperborea Ⅰ",
           TextMapId = "UI_Achievement_Name_200202"
         },
         UI_Achievement_Name_200203 = {
-          ContentEN = "Foe of Hyperborea (Ⅲ)",
+          ContentEN = "Foe of Hyperborea Ⅲ",
           TextMapId = "UI_Achievement_Name_200203"
         },
         UI_Achievement_Name_200301 = {
-          ContentEN = "Nemesis of Elysium (Ⅰ)",
+          ContentEN = "Nemesis of Elysium Ⅰ",
           TextMapId = "UI_Achievement_Name_200301"
         },
         UI_Achievement_Name_20030101 = {
           ContentEN = "Winsome and Awesome - Hyperborea",
           TextMapId = "UI_Achievement_Name_20030101"
         },
+        UI_Achievement_Name_20030102 = {
+          ContentEN = "Philosophy of Survival - Hyperborea",
+          TextMapId = "UI_Achievement_Name_20030102"
+        },
+        UI_Achievement_Name_20030103 = {
+          ContentEN = "Justice Enforcement - Hyperborea",
+          TextMapId = "UI_Achievement_Name_20030103"
+        },
+        UI_Achievement_Name_20030104 = {
+          ContentEN = "Astonishing Wisdom - Hyperborea",
+          TextMapId = "UI_Achievement_Name_20030104"
+        },
+        UI_Achievement_Name_20030105 = {
+          ContentEN = "A Guiding Light - Hyperborea",
+          TextMapId = "UI_Achievement_Name_20030105"
+        },
+        UI_Achievement_Name_20030106 = {
+          ContentEN = "Cradle of Chaos - Hyperborea",
+          TextMapId = "UI_Achievement_Name_20030106"
+        },
+        UI_Achievement_Name_20030107 = {
+          ContentEN = "Winsome and Awesome - Hyperborea",
+          TextMapId = "UI_Achievement_Name_20030107"
+        },
         UI_Achievement_Name_200302 = {
-          ContentEN = "Nemesis of Elysium (Ⅱ)",
+          ContentEN = "Nemesis of Elysium Ⅱ",
           TextMapId = "UI_Achievement_Name_200302"
         },
         UI_Achievement_Name_200303 = {
-          ContentEN = "Nemesis of Elysium (Ⅲ)",
+          ContentEN = "Nemesis of Elysium Ⅲ",
           TextMapId = "UI_Achievement_Name_200303"
         },
         UI_Achievement_Name_200401 = {
-          ContentEN = "Worthy Opponent (Ⅰ)",
+          ContentEN = "Worthy Opponent Ⅰ",
           TextMapId = "UI_Achievement_Name_200401"
         },
         UI_Achievement_Name_200402 = {
-          ContentEN = "Worthy Opponent (Ⅱ)",
+          ContentEN = "Worthy Opponent Ⅱ",
           TextMapId = "UI_Achievement_Name_200402"
         },
         UI_Achievement_Name_200403 = {
-          ContentEN = "Worthy Opponent (Ⅲ)",
+          ContentEN = "Worthy Opponent Ⅲ",
           TextMapId = "UI_Achievement_Name_200403"
         },
         UI_Achievement_Name_200501 = {
-          ContentEN = "Nemesis of The Forsakens (Ⅰ)",
+          ContentEN = "Nemesis of The Forsakens Ⅰ",
           TextMapId = "UI_Achievement_Name_200501"
         },
         UI_Achievement_Name_200502 = {
-          ContentEN = "Nemesis of The Forsakens (Ⅱ)",
+          ContentEN = "Nemesis of The Forsakens Ⅱ",
           TextMapId = "UI_Achievement_Name_200502"
         },
         UI_Achievement_Name_200503 = {
-          ContentEN = "Nemesis of The Forsakens (Ⅲ)",
+          ContentEN = "Nemesis of The Forsakens Ⅲ",
           TextMapId = "UI_Achievement_Name_200503"
         },
         UI_Achievement_Name_200601 = {
-          ContentEN = "Just Another Foe (Ⅰ)",
+          ContentEN = "Just Another Foe Ⅰ",
           TextMapId = "UI_Achievement_Name_200601"
         },
         UI_Achievement_Name_200602 = {
-          ContentEN = "Just Another Foe (Ⅱ)",
+          ContentEN = "Just Another Foe Ⅱ",
           TextMapId = "UI_Achievement_Name_200602"
         },
         UI_Achievement_Name_200603 = {
-          ContentEN = "Just Another Foe (Ⅲ)",
+          ContentEN = "Just Another Foe Ⅲ",
           TextMapId = "UI_Achievement_Name_200603"
         },
         UI_Achievement_Name_200701 = {
-          ContentEN = "A Worthy Challenge (Ⅰ)",
+          ContentEN = "A Worthy Challenge Ⅰ",
           TextMapId = "UI_Achievement_Name_200701"
         },
         UI_Achievement_Name_200702 = {
-          ContentEN = "A Worthy Challenge (Ⅱ)",
+          ContentEN = "A Worthy Challenge Ⅱ",
           TextMapId = "UI_Achievement_Name_200702"
         },
         UI_Achievement_Name_200703 = {
-          ContentEN = "A Worthy Challenge (Ⅲ)",
+          ContentEN = "A Worthy Challenge Ⅲ",
           TextMapId = "UI_Achievement_Name_200703"
         },
         UI_Achievement_Name_200801 = {
-          ContentEN = "A World Without Thieves (Ⅰ)",
+          ContentEN = "A World Without Thieves Ⅰ",
           TextMapId = "UI_Achievement_Name_200801"
         },
         UI_Achievement_Name_200802 = {
-          ContentEN = "A World Without Thieves (Ⅱ)",
+          ContentEN = "A World Without Thieves Ⅱ",
           TextMapId = "UI_Achievement_Name_200802"
         },
         UI_Achievement_Name_200803 = {
-          ContentEN = "A World Without Thieves (Ⅲ)",
+          ContentEN = "A World Without Thieves Ⅲ",
           TextMapId = "UI_Achievement_Name_200803"
         },
         UI_Achievement_Name_20101 = {
-          ContentEN = "Fate's Spiral (Ⅰ)",
+          ContentEN = "Fate's Spiral Ⅰ",
           TextMapId = "UI_Achievement_Name_20101"
         },
         UI_Achievement_Name_20102 = {
-          ContentEN = "Fate's Spiral (Ⅱ)",
+          ContentEN = "Fate's Spiral Ⅱ",
           TextMapId = "UI_Achievement_Name_20102"
         },
         UI_Achievement_Name_20103 = {
-          ContentEN = "Fate's Spiral (Ⅲ)",
+          ContentEN = "Fate's Spiral Ⅲ",
           TextMapId = "UI_Achievement_Name_20103"
         },
+        UI_Achievement_Name_20104 = {
+          ContentEN = "Fate's Spiral Ⅳ",
+          TextMapId = "UI_Achievement_Name_20104"
+        },
+        UI_Achievement_Name_20105 = {
+          ContentEN = "Fate's Spiral Ⅴ",
+          TextMapId = "UI_Achievement_Name_20105"
+        },
         UI_Achievement_Name_201101 = {
-          ContentEN = "It Said, Do It (Ⅰ)",
+          ContentEN = "It Said, Do It Ⅰ",
           TextMapId = "UI_Achievement_Name_201101"
         },
         UI_Achievement_Name_201102 = {
-          ContentEN = "It Said, Do It (Ⅱ)",
+          ContentEN = "It Said, Do It Ⅱ",
           TextMapId = "UI_Achievement_Name_201102"
         },
         UI_Achievement_Name_201103 = {
-          ContentEN = "It Said, Do It (Ⅲ)",
+          ContentEN = "It Said, Do It Ⅲ",
           TextMapId = "UI_Achievement_Name_201103"
         },
         UI_Achievement_Name_201201 = {
-          ContentEN = "Fortune Favours the Bold (Ⅰ)",
+          ContentEN = "Fortune Favours the Bold Ⅰ",
           TextMapId = "UI_Achievement_Name_201201"
         },
         UI_Achievement_Name_201202 = {
-          ContentEN = "Fortune Favours the Bold (Ⅱ)",
+          ContentEN = "Fortune Favours the Bold Ⅱ",
           TextMapId = "UI_Achievement_Name_201202"
         },
         UI_Achievement_Name_201203 = {
-          ContentEN = "Fortune Favours the Bold (Ⅲ)",
+          ContentEN = "Fortune Favours the Bold Ⅲ",
           TextMapId = "UI_Achievement_Name_201203"
         },
         UI_Achievement_Name_201301 = {
-          ContentEN = "Watch Your Head (Ⅰ)",
+          ContentEN = "Watch Your Head Ⅰ",
           TextMapId = "UI_Achievement_Name_201301"
         },
         UI_Achievement_Name_201302 = {
-          ContentEN = "Watch Your Head (Ⅱ)",
+          ContentEN = "Watch Your Head Ⅱ",
           TextMapId = "UI_Achievement_Name_201302"
         },
         UI_Achievement_Name_201303 = {
-          ContentEN = "Watch Your Head (Ⅲ)",
+          ContentEN = "Watch Your Head Ⅲ",
           TextMapId = "UI_Achievement_Name_201303"
         },
         UI_Achievement_Name_201401 = {
-          ContentEN = "Let the Attack Brew (Ⅰ)",
+          ContentEN = "Let the Attack Brew Ⅰ",
           TextMapId = "UI_Achievement_Name_201401"
         },
         UI_Achievement_Name_201402 = {
-          ContentEN = "Let the Attack Brew (Ⅱ)",
+          ContentEN = "Let the Attack Brew Ⅱ",
           TextMapId = "UI_Achievement_Name_201402"
         },
         UI_Achievement_Name_201403 = {
-          ContentEN = "Let the Attack Brew (Ⅲ)",
+          ContentEN = "Let the Attack Brew Ⅲ",
           TextMapId = "UI_Achievement_Name_201403"
         },
         UI_Achievement_Name_201501 = {
-          ContentEN = "Robot Cleaner (Ⅰ)",
+          ContentEN = "Robot Cleaner Ⅰ",
           TextMapId = "UI_Achievement_Name_201501"
         },
         UI_Achievement_Name_201502 = {
-          ContentEN = "Robot Cleaner (Ⅱ)",
+          ContentEN = "Robot Cleaner Ⅱ",
           TextMapId = "UI_Achievement_Name_201502"
         },
         UI_Achievement_Name_201503 = {
-          ContentEN = "Robot Cleaner (Ⅲ)",
+          ContentEN = "Robot Cleaner Ⅲ",
           TextMapId = "UI_Achievement_Name_201503"
         },
         UI_Achievement_Name_201601 = {
-          ContentEN = "Zap, Crackle, Boom! (Ⅰ)",
+          ContentEN = "Zap, Crackle, Boom! Ⅰ",
           TextMapId = "UI_Achievement_Name_201601"
         },
         UI_Achievement_Name_201602 = {
-          ContentEN = "Zap, Crackle, Boom! (Ⅱ)",
+          ContentEN = "Zap, Crackle, Boom! Ⅱ",
           TextMapId = "UI_Achievement_Name_201602"
         },
         UI_Achievement_Name_201603 = {
-          ContentEN = "Zap, Crackle, Boom! (Ⅲ)",
+          ContentEN = "Zap, Crackle, Boom! Ⅲ",
           TextMapId = "UI_Achievement_Name_201603"
         },
         UI_Achievement_Name_201701 = {
-          ContentEN = "Art of Explosion (Ⅰ)",
+          ContentEN = "Blooming Fireworks Ⅰ",
           TextMapId = "UI_Achievement_Name_201701"
         },
         UI_Achievement_Name_201702 = {
-          ContentEN = "Art of Explosion (Ⅱ)",
+          ContentEN = "Blooming Fireworks Ⅱ",
           TextMapId = "UI_Achievement_Name_201702"
         },
         UI_Achievement_Name_201703 = {
-          ContentEN = "Art of Explosion (Ⅲ)",
+          ContentEN = "Blooming Fireworks Ⅲ",
           TextMapId = "UI_Achievement_Name_201703"
         },
         UI_Achievement_Name_201801 = {
@@ -44535,399 +46792,411 @@ local Data = {
           TextMapId = "UI_Achievement_Name_201903"
         },
         UI_Achievement_Name_202101 = {
-          ContentEN = "You're a Goner (Ⅰ)",
+          ContentEN = "You're a Goner Ⅰ",
           TextMapId = "UI_Achievement_Name_202101"
         },
         UI_Achievement_Name_202102 = {
-          ContentEN = "You're a Goner (Ⅱ)",
+          ContentEN = "You're a Goner Ⅱ",
           TextMapId = "UI_Achievement_Name_202102"
         },
         UI_Achievement_Name_202103 = {
-          ContentEN = "You're a Goner (Ⅲ)",
+          ContentEN = "You're a Goner Ⅲ",
           TextMapId = "UI_Achievement_Name_202103"
         },
         UI_Achievement_Name_202201 = {
-          ContentEN = "Legendary Blitz: Combat Skill (Ⅰ)",
+          ContentEN = "Legendary Blitz: Combat Skill Ⅰ",
           TextMapId = "UI_Achievement_Name_202201"
         },
         UI_Achievement_Name_202202 = {
-          ContentEN = "Legendary Blitz: Combat Skill (Ⅱ)",
+          ContentEN = "Legendary Blitz: Combat Skill Ⅱ",
           TextMapId = "UI_Achievement_Name_202202"
         },
         UI_Achievement_Name_202203 = {
-          ContentEN = "Legendary Blitz: Combat Skill (Ⅲ)",
+          ContentEN = "Legendary Blitz: Combat Skill Ⅲ",
           TextMapId = "UI_Achievement_Name_202203"
         },
         UI_Achievement_Name_202301 = {
-          ContentEN = "Legendary Blitz: Ultimate Skill (Ⅰ)",
+          ContentEN = "Legendary Blitz: Ultimate Skill Ⅰ",
           TextMapId = "UI_Achievement_Name_202301"
         },
         UI_Achievement_Name_202302 = {
-          ContentEN = "Legendary Blitz: Ultimate Skill (Ⅱ)",
+          ContentEN = "Legendary Blitz: Ultimate Skill Ⅱ",
           TextMapId = "UI_Achievement_Name_202302"
         },
         UI_Achievement_Name_202303 = {
-          ContentEN = "Legendary Blitz: Ultimate Skill (Ⅲ)",
+          ContentEN = "Legendary Blitz: Ultimate Skill Ⅲ",
           TextMapId = "UI_Achievement_Name_202303"
         },
         UI_Achievement_Name_202401 = {
-          ContentEN = "Legendary Blitz: Elemental Bonus Effect (Ⅰ)",
+          ContentEN = "Legendary Blitz: Elemental Bonus Effect Ⅰ",
           TextMapId = "UI_Achievement_Name_202401"
         },
         UI_Achievement_Name_202402 = {
-          ContentEN = "Legendary Blitz: Elemental Bonus Effect (Ⅱ)",
+          ContentEN = "Legendary Blitz: Elemental Bonus Effect Ⅱ",
           TextMapId = "UI_Achievement_Name_202402"
         },
         UI_Achievement_Name_202403 = {
-          ContentEN = "Legendary Blitz: Elemental Bonus Effect (Ⅲ)",
+          ContentEN = "Legendary Blitz: Elemental Bonus Effect Ⅲ",
           TextMapId = "UI_Achievement_Name_202403"
         },
         UI_Achievement_Name_203101 = {
-          ContentEN = "Practice Makes Perfect: Combat Skill (Ⅰ)",
+          ContentEN = "Practice Makes Perfect: Combat Skill Ⅰ",
           TextMapId = "UI_Achievement_Name_203101"
         },
         UI_Achievement_Name_203102 = {
-          ContentEN = "Practice Makes Perfect: Combat Skill (Ⅱ)",
+          ContentEN = "Practice Makes Perfect: Combat Skill Ⅱ",
           TextMapId = "UI_Achievement_Name_203102"
         },
         UI_Achievement_Name_203103 = {
-          ContentEN = "Practice Makes Perfect: Combat Skill (Ⅲ)",
+          ContentEN = "Practice Makes Perfect: Combat Skill Ⅲ",
           TextMapId = "UI_Achievement_Name_203103"
         },
         UI_Achievement_Name_203201 = {
-          ContentEN = "Practice Makes Perfect: Ultimate Skill (Ⅰ)",
+          ContentEN = "Practice Makes Perfect: Ultimate Skill Ⅰ",
           TextMapId = "UI_Achievement_Name_203201"
         },
         UI_Achievement_Name_203202 = {
-          ContentEN = "Practice Makes Perfect: Ultimate Skill (Ⅱ)",
+          ContentEN = "Practice Makes Perfect: Ultimate Skill Ⅱ",
           TextMapId = "UI_Achievement_Name_203202"
         },
         UI_Achievement_Name_203203 = {
-          ContentEN = "Practice Makes Perfect: Ultimate Skill (Ⅲ)",
+          ContentEN = "Practice Makes Perfect: Ultimate Skill Ⅲ",
           TextMapId = "UI_Achievement_Name_203203"
         },
         UI_Achievement_Name_203301 = {
-          ContentEN = "Practice Makes Perfect: Geniemon Support (Ⅰ)",
+          ContentEN = "Practice Makes Perfect: Geniemon Support Ⅰ",
           TextMapId = "UI_Achievement_Name_203301"
         },
         UI_Achievement_Name_203302 = {
-          ContentEN = "Practice Makes Perfect: Geniemon Support (Ⅱ)",
+          ContentEN = "Practice Makes Perfect: Geniemon Support Ⅱ",
           TextMapId = "UI_Achievement_Name_203302"
         },
         UI_Achievement_Name_203303 = {
-          ContentEN = "Practice Makes Perfect: Geniemon Support (Ⅲ)",
+          ContentEN = "Practice Makes Perfect: Geniemon Support Ⅲ",
           TextMapId = "UI_Achievement_Name_203303"
         },
+        UI_Achievement_Name_210010101 = {
+          ContentEN = "Timeless Warmth",
+          TextMapId = "UI_Achievement_Name_210010101"
+        },
         UI_Achievement_Name_300101 = {
-          ContentEN = "Raging Blitz (Ⅰ)",
+          ContentEN = "Raging Blitz Ⅰ",
           TextMapId = "UI_Achievement_Name_300101"
         },
         UI_Achievement_Name_30010101 = {
-          ContentEN = "Shine Bright Because of You",
+          ContentEN = "Shine Bright Because of You Ⅰ",
           TextMapId = "UI_Achievement_Name_30010101"
         },
         UI_Achievement_Name_30010102 = {
-          ContentEN = "Shine Bright Because of You (Ⅱ)",
+          ContentEN = "Shine Bright Because of You Ⅱ",
           TextMapId = "UI_Achievement_Name_30010102"
         },
         UI_Achievement_Name_30010103 = {
-          ContentEN = "Shine Bright Because of You (Ⅲ)",
+          ContentEN = "Shine Bright Because of You Ⅲ",
           TextMapId = "UI_Achievement_Name_30010103"
         },
         UI_Achievement_Name_300102 = {
-          ContentEN = "Raging Blitz (Ⅱ)",
+          ContentEN = "Raging Blitz Ⅱ",
           TextMapId = "UI_Achievement_Name_300102"
         },
         UI_Achievement_Name_300103 = {
-          ContentEN = "Raging Blitz (Ⅲ)",
+          ContentEN = "Raging Blitz Ⅲ",
           TextMapId = "UI_Achievement_Name_300103"
         },
         UI_Achievement_Name_3010101 = {
-          ContentEN = "The Secret of Power (Ⅰ)",
+          ContentEN = "The Secret of Power Ⅰ",
           TextMapId = "UI_Achievement_Name_3010101"
         },
         UI_Achievement_Name_3010102 = {
-          ContentEN = "The Secret of Power (Ⅱ)",
+          ContentEN = "The Secret of Power Ⅱ",
           TextMapId = "UI_Achievement_Name_3010102"
         },
         UI_Achievement_Name_3010103 = {
-          ContentEN = "The Secret of Power (Ⅲ)",
+          ContentEN = "The Secret of Power Ⅲ",
           TextMapId = "UI_Achievement_Name_3010103"
         },
         UI_Achievement_Name_3010104 = {
-          ContentEN = "The Secret of Power (Ⅳ)",
+          ContentEN = "The Secret of Power Ⅳ",
           TextMapId = "UI_Achievement_Name_3010104"
         },
         UI_Achievement_Name_3010105 = {
-          ContentEN = "The Secret of Power (Ⅴ)",
+          ContentEN = "The Secret of Power Ⅴ",
           TextMapId = "UI_Achievement_Name_3010105"
         },
         UI_Achievement_Name_301101 = {
-          ContentEN = "Fortify to the Max (Ⅰ)",
+          ContentEN = "Fortify to the Max Ⅰ",
           TextMapId = "UI_Achievement_Name_301101"
         },
         UI_Achievement_Name_301102 = {
-          ContentEN = "Fortify to the Max (Ⅱ)",
+          ContentEN = "Fortify to the Max Ⅱ",
           TextMapId = "UI_Achievement_Name_301102"
         },
         UI_Achievement_Name_301103 = {
-          ContentEN = "Fortify to the Max (Ⅲ)",
+          ContentEN = "Fortify to the Max Ⅲ",
           TextMapId = "UI_Achievement_Name_301103"
         },
         UI_Achievement_Name_301201 = {
-          ContentEN = "Infinite Compassion (Ⅰ)",
+          ContentEN = "Infinite Compassion Ⅰ",
           TextMapId = "UI_Achievement_Name_301201"
         },
         UI_Achievement_Name_301202 = {
-          ContentEN = "Infinite Compassion (Ⅱ)",
+          ContentEN = "Infinite Compassion Ⅱ",
           TextMapId = "UI_Achievement_Name_301202"
         },
         UI_Achievement_Name_301203 = {
-          ContentEN = "Infinite Compassion (Ⅲ)",
+          ContentEN = "Infinite Compassion Ⅲ",
           TextMapId = "UI_Achievement_Name_301203"
         },
         UI_Achievement_Name_3020101 = {
-          ContentEN = "Fire of Rebirth (Ⅰ)",
+          ContentEN = "Fire of Rebirth Ⅰ",
           TextMapId = "UI_Achievement_Name_3020101"
         },
         UI_Achievement_Name_3020102 = {
-          ContentEN = "Fire of Rebirth (Ⅱ)",
+          ContentEN = "Fire of Rebirth Ⅱ",
           TextMapId = "UI_Achievement_Name_3020102"
         },
         UI_Achievement_Name_3020103 = {
-          ContentEN = "Fire of Rebirth (Ⅲ)",
+          ContentEN = "Fire of Rebirth Ⅲ",
           TextMapId = "UI_Achievement_Name_3020103"
         },
         UI_Achievement_Name_3020201 = {
-          ContentEN = "Whispers of the Witch (Ⅰ)",
+          ContentEN = "Whispers of the Witch Ⅰ",
           TextMapId = "UI_Achievement_Name_3020201"
         },
         UI_Achievement_Name_3020202 = {
-          ContentEN = "Whispers of the Witch (Ⅱ)",
+          ContentEN = "Whispers of the Witch Ⅱ",
           TextMapId = "UI_Achievement_Name_3020202"
         },
         UI_Achievement_Name_3020301 = {
-          ContentEN = "Roar of the Enchained (Ⅰ)",
+          ContentEN = "Roar of the Enchained Ⅰ",
           TextMapId = "UI_Achievement_Name_3020301"
         },
         UI_Achievement_Name_3020302 = {
-          ContentEN = "Roar of the Enchained (Ⅱ)",
+          ContentEN = "Roar of the Enchained Ⅱ",
           TextMapId = "UI_Achievement_Name_3020302"
         },
         UI_Achievement_Name_302101 = {
-          ContentEN = "Skybreaker (Ⅰ)",
+          ContentEN = "Skybreaker Ⅰ",
           TextMapId = "UI_Achievement_Name_302101"
         },
         UI_Achievement_Name_302102 = {
-          ContentEN = "Skybreaker (Ⅱ)",
+          ContentEN = "Skybreaker Ⅱ",
           TextMapId = "UI_Achievement_Name_302102"
         },
         UI_Achievement_Name_302103 = {
-          ContentEN = "Skybreaker (Ⅲ)",
+          ContentEN = "Skybreaker Ⅲ",
           TextMapId = "UI_Achievement_Name_302103"
         },
         UI_Achievement_Name_3030101 = {
-          ContentEN = "Wedge Collector (Ⅰ)",
+          ContentEN = "Wedge Collector Ⅰ",
           TextMapId = "UI_Achievement_Name_3030101"
         },
         UI_Achievement_Name_3030201 = {
-          ContentEN = "Wedge Collector (Ⅱ)",
+          ContentEN = "Wedge Collector Ⅱ",
           TextMapId = "UI_Achievement_Name_3030201"
         },
         UI_Achievement_Name_3030301 = {
-          ContentEN = "Wedge Collector (Ⅲ)",
+          ContentEN = "Wedge Collector Ⅲ",
           TextMapId = "UI_Achievement_Name_3030301"
         },
+        UI_Achievement_Name_3030401 = {
+          ContentEN = "Hit the Limit of Strength",
+          TextMapId = "UI_Achievement_Name_3030401"
+        },
         UI_Achievement_Name_303101 = {
-          ContentEN = "Bathing Time (Ⅰ)",
+          ContentEN = "Bathing Time Ⅰ",
           TextMapId = "UI_Achievement_Name_303101"
         },
         UI_Achievement_Name_303102 = {
-          ContentEN = "Bathing Time (Ⅱ)",
+          ContentEN = "Bathing Time Ⅱ",
           TextMapId = "UI_Achievement_Name_303102"
         },
         UI_Achievement_Name_303103 = {
-          ContentEN = "Bathing Time (Ⅲ)",
+          ContentEN = "Bathing Time Ⅲ",
           TextMapId = "UI_Achievement_Name_303103"
         },
         UI_Achievement_Name_303201 = {
-          ContentEN = "Sweating Time (Ⅰ)",
+          ContentEN = "Sweating Time Ⅰ",
           TextMapId = "UI_Achievement_Name_303201"
         },
         UI_Achievement_Name_303202 = {
-          ContentEN = "Sweating Time (Ⅱ)",
+          ContentEN = "Sweating Time Ⅱ",
           TextMapId = "UI_Achievement_Name_303202"
         },
         UI_Achievement_Name_303203 = {
-          ContentEN = "Sweating Time (Ⅲ)",
+          ContentEN = "Sweating Time Ⅲ",
           TextMapId = "UI_Achievement_Name_303203"
         },
         UI_Achievement_Name_303301 = {
-          ContentEN = "Twitching Time (Ⅰ)",
+          ContentEN = "Twitching Time Ⅰ",
           TextMapId = "UI_Achievement_Name_303301"
         },
         UI_Achievement_Name_303302 = {
-          ContentEN = "Twitching Time (Ⅱ)",
+          ContentEN = "Twitching Time Ⅱ",
           TextMapId = "UI_Achievement_Name_303302"
         },
         UI_Achievement_Name_303303 = {
-          ContentEN = "Twitching Time (Ⅲ)",
+          ContentEN = "Twitching Time Ⅲ",
           TextMapId = "UI_Achievement_Name_303303"
         },
         UI_Achievement_Name_303401 = {
-          ContentEN = "Hair-Blowing Time (Ⅰ)",
+          ContentEN = "Hair-Blowing Time Ⅰ",
           TextMapId = "UI_Achievement_Name_303401"
         },
         UI_Achievement_Name_303402 = {
-          ContentEN = "Hair-Blowing Time (Ⅱ)",
+          ContentEN = "Hair-Blowing Time Ⅱ",
           TextMapId = "UI_Achievement_Name_303402"
         },
         UI_Achievement_Name_303403 = {
-          ContentEN = "Hair-BlowingTime (Ⅲ)",
+          ContentEN = "Hair-BlowingTime Ⅲ",
           TextMapId = "UI_Achievement_Name_303403"
         },
         UI_Achievement_Name_303501 = {
-          ContentEN = "Lights-Out Time (Ⅰ)",
+          ContentEN = "Lights-Out Time Ⅰ",
           TextMapId = "UI_Achievement_Name_303501"
         },
         UI_Achievement_Name_303502 = {
-          ContentEN = "Lights-Out Time (Ⅱ)",
+          ContentEN = "Lights-Out Time Ⅱ",
           TextMapId = "UI_Achievement_Name_303502"
         },
         UI_Achievement_Name_303503 = {
-          ContentEN = "Lights-Out Time (Ⅲ)",
+          ContentEN = "Lights-Out Time Ⅲ",
           TextMapId = "UI_Achievement_Name_303503"
         },
         UI_Achievement_Name_303601 = {
-          ContentEN = "Lights-On Time (Ⅰ)",
+          ContentEN = "Lights-On Time Ⅰ",
           TextMapId = "UI_Achievement_Name_303601"
         },
         UI_Achievement_Name_303602 = {
-          ContentEN = "Lights-On Time (Ⅱ)",
+          ContentEN = "Lights-On Time Ⅱ",
           TextMapId = "UI_Achievement_Name_303602"
         },
         UI_Achievement_Name_303603 = {
-          ContentEN = "Lights-On Time (Ⅲ)",
+          ContentEN = "Lights-On Time Ⅲ",
           TextMapId = "UI_Achievement_Name_303603"
         },
         UI_Achievement_Name_3040101 = {
-          ContentEN = "The Pride of the City (Ⅰ)",
+          ContentEN = "The Pride of the City Ⅰ",
           TextMapId = "UI_Achievement_Name_3040101"
         },
+        UI_Achievement_Name_3040102 = {
+          ContentEN = "The Last Resort",
+          TextMapId = "UI_Achievement_Name_3040102"
+        },
         UI_Achievement_Name_304101 = {
-          ContentEN = "I Have Many Friends (Ⅰ)",
+          ContentEN = "I Have Many Friends Ⅰ",
           TextMapId = "UI_Achievement_Name_304101"
         },
         UI_Achievement_Name_304102 = {
-          ContentEN = "I Have Many Friends (Ⅱ)",
+          ContentEN = "I Have Many Friends Ⅱ",
           TextMapId = "UI_Achievement_Name_304102"
         },
         UI_Achievement_Name_304103 = {
-          ContentEN = "I Have Many Friends (Ⅲ)",
+          ContentEN = "I Have Many Friends Ⅲ",
           TextMapId = "UI_Achievement_Name_304103"
         },
         UI_Achievement_Name_304201 = {
-          ContentEN = "The Receding Figure of a Hero (Ⅰ)",
+          ContentEN = "The Receding Figure of a Hero Ⅰ",
           TextMapId = "UI_Achievement_Name_304201"
         },
         UI_Achievement_Name_304202 = {
-          ContentEN = "The Receding Figure of a Hero (Ⅱ)",
+          ContentEN = "The Receding Figure of a Hero Ⅱ",
           TextMapId = "UI_Achievement_Name_304202"
         },
         UI_Achievement_Name_304203 = {
-          ContentEN = "The Receding Figure of a Hero (Ⅲ)",
+          ContentEN = "The Receding Figure of a Hero Ⅲ",
           TextMapId = "UI_Achievement_Name_304203"
         },
         UI_Achievement_Name_304301 = {
-          ContentEN = "I've Got Your Back (Ⅰ)",
+          ContentEN = "I've Got Your Back Ⅰ",
           TextMapId = "UI_Achievement_Name_304301"
         },
         UI_Achievement_Name_304302 = {
-          ContentEN = "I've Got Your Back (Ⅱ)",
+          ContentEN = "I've Got Your Back Ⅱ",
           TextMapId = "UI_Achievement_Name_304302"
         },
         UI_Achievement_Name_304303 = {
-          ContentEN = "I've Got Your Back (Ⅲ)",
+          ContentEN = "I've Got Your Back Ⅲ",
           TextMapId = "UI_Achievement_Name_304303"
         },
         UI_Achievement_Name_304401 = {
-          ContentEN = "Guilty as Charged (Ⅰ)",
+          ContentEN = "Guilty as Charged Ⅰ",
           TextMapId = "UI_Achievement_Name_304401"
         },
         UI_Achievement_Name_304402 = {
-          ContentEN = "Guilty as Charged (Ⅱ)",
+          ContentEN = "Guilty as Charged Ⅱ",
           TextMapId = "UI_Achievement_Name_304402"
         },
         UI_Achievement_Name_304403 = {
-          ContentEN = "Guilty as Charged (Ⅲ)",
+          ContentEN = "Guilty as Charged Ⅲ",
           TextMapId = "UI_Achievement_Name_304403"
         },
         UI_Achievement_Name_3050101 = {
-          ContentEN = "The Best Sword (Ⅰ)",
+          ContentEN = "The Best Sword Ⅰ",
           TextMapId = "UI_Achievement_Name_3050101"
         },
         UI_Achievement_Name_3050201 = {
-          ContentEN = "The Best Gun (Ⅰ）",
+          ContentEN = "The Best Gun Ⅰ",
           TextMapId = "UI_Achievement_Name_3050201"
         },
         UI_Achievement_Name_4010101 = {
-          ContentEN = "Firepower Advantage (Ⅰ)",
+          ContentEN = "Firepower Advantage Ⅰ",
           TextMapId = "UI_Achievement_Name_4010101"
         },
         UI_Achievement_Name_4010102 = {
-          ContentEN = "Firepower Advantage (Ⅱ)",
+          ContentEN = "Firepower Advantage Ⅱ",
           TextMapId = "UI_Achievement_Name_4010102"
         },
         UI_Achievement_Name_4010103 = {
-          ContentEN = "Firepower Advantage (Ⅲ)",
+          ContentEN = "Firepower Advantage Ⅲ",
           TextMapId = "UI_Achievement_Name_4010103"
         },
         UI_Achievement_Name_4020101 = {
-          ContentEN = "Warrior's Blade (Ⅰ)",
+          ContentEN = "Warrior's Blade Ⅰ",
           TextMapId = "UI_Achievement_Name_4020101"
         },
         UI_Achievement_Name_4020102 = {
-          ContentEN = "Hero's Blade (Ⅱ)",
+          ContentEN = "Hero's Blade Ⅱ",
           TextMapId = "UI_Achievement_Name_4020102"
         },
         UI_Achievement_Name_4020103 = {
-          ContentEN = "Hero's Blade (Ⅲ)",
+          ContentEN = "Hero's Blade Ⅲ",
           TextMapId = "UI_Achievement_Name_4020103"
         },
         UI_Achievement_Name_4020202 = {
-          ContentEN = "Hero's Blade (Ⅳ)",
+          ContentEN = "Hero's Blade Ⅳ",
           TextMapId = "UI_Achievement_Name_4020202"
         },
         UI_Achievement_Name_4020301 = {
-          ContentEN = "Hero's Blade (Ⅴ)",
+          ContentEN = "Hero's Blade Ⅴ",
           TextMapId = "UI_Achievement_Name_4020301"
         },
         UI_Achievement_Name_4020302 = {
-          ContentEN = "Hero's Blade (Ⅵ)",
+          ContentEN = "Hero's Blade Ⅵ",
           TextMapId = "UI_Achievement_Name_4020302"
         },
         UI_Achievement_Name_4030101 = {
-          ContentEN = "Thoroughly Tempered (Ⅰ)",
+          ContentEN = "Thoroughly Tempered Ⅰ",
           TextMapId = "UI_Achievement_Name_4030101"
         },
         UI_Achievement_Name_4030102 = {
-          ContentEN = "Thoroughly Tempered (Ⅱ)",
+          ContentEN = "Thoroughly Tempered Ⅱ",
           TextMapId = "UI_Achievement_Name_4030102"
         },
         UI_Achievement_Name_4030103 = {
-          ContentEN = "Thoroughly Tempered (Ⅲ)",
+          ContentEN = "Thoroughly Tempered Ⅲ",
           TextMapId = "UI_Achievement_Name_4030103"
         },
         UI_Achievement_Name_4060101 = {
-          ContentEN = "Turn Stone Into Gold",
+          ContentEN = "Turn Stone Into Gold Ⅰ",
           TextMapId = "UI_Achievement_Name_4060101"
         },
         UI_Achievement_Name_4060102 = {
-          ContentEN = "Turn Stone Into Gold (Ⅱ)",
+          ContentEN = "Turn Stone Into Gold Ⅱ",
           TextMapId = "UI_Achievement_Name_4060102"
         },
         UI_Achievement_Name_4060103 = {
-          ContentEN = "Turn Stone Into Gold (Ⅲ)",
+          ContentEN = "Turn Stone Into Gold Ⅲ",
           TextMapId = "UI_Achievement_Name_4060103"
         },
         UI_Achievement_Name_4070101 = {
@@ -44935,39 +47204,39 @@ local Data = {
           TextMapId = "UI_Achievement_Name_4070101"
         },
         UI_Achievement_Name_500101 = {
-          ContentEN = "Nocturnal Finale: Sibylle (Ⅰ)",
+          ContentEN = "Nocturnal Finale: Sibylle Ⅰ",
           TextMapId = "UI_Achievement_Name_500101"
         },
         UI_Achievement_Name_500102 = {
-          ContentEN = "Nocturnal Finale: Sibylle (Ⅱ)",
+          ContentEN = "Nocturnal Finale: Sibylle Ⅱ",
           TextMapId = "UI_Achievement_Name_500102"
         },
         UI_Achievement_Name_500103 = {
-          ContentEN = "Nocturnal Finale: Sibylle (Ⅲ)",
+          ContentEN = "Nocturnal Finale: Sibylle Ⅲ",
           TextMapId = "UI_Achievement_Name_500103"
         },
         UI_Achievement_Name_500201 = {
-          ContentEN = "Nocturnal Finale: Crystalophile (Ⅰ)",
+          ContentEN = "Nocturnal Finale: Crystalophile Ⅰ",
           TextMapId = "UI_Achievement_Name_500201"
         },
         UI_Achievement_Name_500202 = {
-          ContentEN = "Nocturnal Finale: Crystalophile (Ⅱ)",
+          ContentEN = "Nocturnal Finale: Crystalophile Ⅱ",
           TextMapId = "UI_Achievement_Name_500202"
         },
         UI_Achievement_Name_500203 = {
-          ContentEN = "Nocturnal Finale: Crystalophile (Ⅲ)",
+          ContentEN = "Nocturnal Finale: Crystalophile Ⅲ",
           TextMapId = "UI_Achievement_Name_500203"
         },
         UI_Achievement_Name_500301 = {
-          ContentEN = "Nocturnal Finale: The Eclosioner (Ⅰ)",
+          ContentEN = "Nocturnal Finale: The Eclosioner Ⅰ",
           TextMapId = "UI_Achievement_Name_500301"
         },
         UI_Achievement_Name_500302 = {
-          ContentEN = "Nocturnal Finale: The Eclosioner (Ⅱ)",
+          ContentEN = "Nocturnal Finale: The Eclosioner Ⅱ",
           TextMapId = "UI_Achievement_Name_500302"
         },
         UI_Achievement_Name_500303 = {
-          ContentEN = "Nocturnal Finale: The Eclosioner (Ⅲ)",
+          ContentEN = "Nocturnal Finale: The Eclosioner Ⅲ",
           TextMapId = "UI_Achievement_Name_500303"
         },
         UI_Achievement_Name_500401 = {
@@ -44981,6 +47250,18 @@ local Data = {
         UI_Achievement_Name_500403 = {
           ContentEN = "Nocturnal Finale: The Warden of the Inferno Ⅲ",
           TextMapId = "UI_Achievement_Name_500403"
+        },
+        UI_Achievement_Name_500501 = {
+          ContentEN = "Nocturnal Finale: Beast From the Snowfield Ⅰ",
+          TextMapId = "UI_Achievement_Name_500501"
+        },
+        UI_Achievement_Name_500502 = {
+          ContentEN = "Nocturnal Finale: Beast From the Snowfield Ⅱ",
+          TextMapId = "UI_Achievement_Name_500502"
+        },
+        UI_Achievement_Name_500503 = {
+          ContentEN = "Nocturnal Finale: Beast From the Snowfield Ⅲ",
+          TextMapId = "UI_Achievement_Name_500503"
         },
         UI_Achievement_Name_50100101 = {
           ContentEN = "A Brewing Storm",
@@ -45023,15 +47304,15 @@ local Data = {
           TextMapId = "UI_Achievement_Name_5012101"
         },
         UI_Achievement_Name_5012401 = {
-          ContentEN = "What is this? Let's find out! (Ⅰ)",
+          ContentEN = "What is this? Let's find out! Ⅰ",
           TextMapId = "UI_Achievement_Name_5012401"
         },
         UI_Achievement_Name_5012402 = {
-          ContentEN = "What is this? Let's find out! (Ⅱ)",
+          ContentEN = "What is this? Let's find out! Ⅱ",
           TextMapId = "UI_Achievement_Name_5012402"
         },
         UI_Achievement_Name_5012403 = {
-          ContentEN = "What is this? Let's find out! (Ⅲ)",
+          ContentEN = "What is this? Let's find out! Ⅲ",
           TextMapId = "UI_Achievement_Name_5012403"
         },
         UI_Achievement_Name_501301 = {
@@ -45039,19 +47320,19 @@ local Data = {
           TextMapId = "UI_Achievement_Name_501301"
         },
         UI_Achievement_Name_50130101 = {
-          ContentEN = "Fantastic Treasure and Where to Find It (Ⅰ)",
+          ContentEN = "Fantastic Treasure and Where to Find It Ⅰ",
           TextMapId = "UI_Achievement_Name_50130101"
         },
         UI_Achievement_Name_50130102 = {
-          ContentEN = "Fantastic Treasure and Where to Find It (Ⅱ)",
+          ContentEN = "Fantastic Treasure and Where to Find It Ⅱ",
           TextMapId = "UI_Achievement_Name_50130102"
         },
         UI_Achievement_Name_50130103 = {
-          ContentEN = "Fantastic Treasure and Where to Find It (Ⅲ)",
+          ContentEN = "Fantastic Treasure and Where to Find It Ⅲ",
           TextMapId = "UI_Achievement_Name_50130103"
         },
         UI_Achievement_Name_50130104 = {
-          ContentEN = "Fantastic Treasure and Where to Find It (Ⅳ)",
+          ContentEN = "Fantastic Treasure and Where to Find It Ⅳ",
           TextMapId = "UI_Achievement_Name_50130104"
         },
         UI_Achievement_Name_50131701 = {
@@ -45067,20 +47348,24 @@ local Data = {
           TextMapId = "UI_Achievement_Name_50131703"
         },
         UI_Achievement_Name_50131901 = {
-          ContentEN = "An Enigma (Ⅰ)",
+          ContentEN = "An Enigma Ⅰ",
           TextMapId = "UI_Achievement_Name_50131901"
         },
         UI_Achievement_Name_50131902 = {
-          ContentEN = "An Enigma (Ⅱ)",
+          ContentEN = "An Enigma Ⅱ",
           TextMapId = "UI_Achievement_Name_50131902"
         },
         UI_Achievement_Name_50131903 = {
-          ContentEN = "An Enigma (Ⅲ)",
+          ContentEN = "An Enigma Ⅲ",
           TextMapId = "UI_Achievement_Name_50131903"
         },
         UI_Achievement_Name_501401 = {
           ContentEN = "Nocturnal Finale · Solo: The Warden of the Inferno",
           TextMapId = "UI_Achievement_Name_501401"
+        },
+        UI_Achievement_Name_501501 = {
+          ContentEN = "Nocturnal Finale - Solo: Beast From the Snowfield",
+          TextMapId = "UI_Achievement_Name_501501"
         },
         UI_Achievement_Name_502101 = {
           ContentEN = "You Can Run But You Can't Hide - Solo",
@@ -45119,27 +47404,27 @@ local Data = {
           TextMapId = "UI_Achievement_Name_5030901"
         },
         UI_Achievement_Name_503101 = {
-          ContentEN = "Warm-Hearted Investigator - Peerless (Ⅰ)",
+          ContentEN = "Warm-Hearted Investigator - Peerless Ⅰ",
           TextMapId = "UI_Achievement_Name_503101"
         },
         UI_Achievement_Name_503102 = {
-          ContentEN = "Warm-Hearted Investigator - Peerless (Ⅱ)",
+          ContentEN = "Warm-Hearted Investigator - Peerless Ⅱ",
           TextMapId = "UI_Achievement_Name_503102"
         },
         UI_Achievement_Name_503103 = {
-          ContentEN = "Warm-Hearted Investigator - Peerless (Ⅲ)",
+          ContentEN = "Warm-Hearted Investigator - Peerless Ⅲ",
           TextMapId = "UI_Achievement_Name_503103"
         },
         UI_Achievement_Name_503201 = {
-          ContentEN = "The Eternal Guardian of Luno - Peerless (Ⅰ)",
+          ContentEN = "The Eternal Guardian of Luno - Peerless Ⅰ",
           TextMapId = "UI_Achievement_Name_503201"
         },
         UI_Achievement_Name_503202 = {
-          ContentEN = "The Eternal Guardian of Luno - Peerless (Ⅱ)",
+          ContentEN = "The Eternal Guardian of Luno - Peerless Ⅱ",
           TextMapId = "UI_Achievement_Name_503202"
         },
         UI_Achievement_Name_503203 = {
-          ContentEN = "The Eternal Guardian of Luno - Peerless (Ⅲ)",
+          ContentEN = "The Eternal Guardian of Luno - Peerless Ⅲ",
           TextMapId = "UI_Achievement_Name_503203"
         },
         UI_Achievement_Name_5040101 = {
@@ -45158,6 +47443,14 @@ local Data = {
           ContentEN = "Nocturnal Resurgence - The Eclosioner",
           TextMapId = "UI_Achievement_Name_504301"
         },
+        UI_Achievement_Name_504401 = {
+          ContentEN = "Nocturnal Resurgence: The Warden of the Inferno",
+          TextMapId = "UI_Achievement_Name_504401"
+        },
+        UI_Achievement_Name_504501 = {
+          ContentEN = "Nocturnal Resurgence: Beast From the Snowfield",
+          TextMapId = "UI_Achievement_Name_504501"
+        },
         UI_Achievement_Name_5050101 = {
           ContentEN = "Homeland Treasures",
           TextMapId = "UI_Achievement_Name_5050101"
@@ -45167,15 +47460,15 @@ local Data = {
           TextMapId = "UI_Achievement_Name_505101"
         },
         UI_Achievement_Name_50510101 = {
-          ContentEN = "Thus Spoke Paniemon (Ⅰ)",
+          ContentEN = "Thus Spoke Paniemon Ⅰ",
           TextMapId = "UI_Achievement_Name_50510101"
         },
         UI_Achievement_Name_50510102 = {
-          ContentEN = "Thus Spoke Paniemon (Ⅱ)",
+          ContentEN = "Thus Spoke Paniemon Ⅱ",
           TextMapId = "UI_Achievement_Name_50510102"
         },
         UI_Achievement_Name_50510103 = {
-          ContentEN = "Thus Spoke Paniemon (Ⅲ)",
+          ContentEN = "Thus Spoke Paniemon Ⅲ",
           TextMapId = "UI_Achievement_Name_50510103"
         },
         UI_Achievement_Name_505201 = {
@@ -45190,52 +47483,56 @@ local Data = {
           ContentEN = "Nocturnal Finale · Peerless: The Warden of the Inferno",
           TextMapId = "UI_Achievement_Name_505401"
         },
+        UI_Achievement_Name_505501 = {
+          ContentEN = "Nocturnal Finale - Peerless: Beast From the Snowfield",
+          TextMapId = "UI_Achievement_Name_505501"
+        },
         UI_Achievement_Name_506101 = {
-          ContentEN = "No Way Out - Speedrun (Ⅰ)",
+          ContentEN = "No Way Out - Speedrun Ⅰ",
           TextMapId = "UI_Achievement_Name_506101"
         },
         UI_Achievement_Name_506102 = {
-          ContentEN = "No Way Out - Speedrun (Ⅱ)",
+          ContentEN = "No Way Out - Speedrun Ⅱ",
           TextMapId = "UI_Achievement_Name_506102"
         },
         UI_Achievement_Name_506103 = {
-          ContentEN = "No Way Out - Speedrun (Ⅲ)",
+          ContentEN = "No Way Out - Speedrun Ⅲ",
           TextMapId = "UI_Achievement_Name_506103"
         },
         UI_Achievement_Name_506201 = {
-          ContentEN = "Physical Mediation - Speedrun (Ⅰ)",
+          ContentEN = "Physical Mediation - Speedrun Ⅰ",
           TextMapId = "UI_Achievement_Name_506201"
         },
         UI_Achievement_Name_506202 = {
-          ContentEN = "Physical Mediation - Speedrun (Ⅱ)",
+          ContentEN = "Physical Mediation - Speedrun Ⅱ",
           TextMapId = "UI_Achievement_Name_506202"
         },
         UI_Achievement_Name_506203 = {
-          ContentEN = "Physical Mediation - Speedrun (Ⅲ)",
+          ContentEN = "Physical Mediation - Speedrun Ⅲ",
           TextMapId = "UI_Achievement_Name_506203"
         },
         UI_Achievement_Name_506301 = {
-          ContentEN = "Complete Termination - Breakneck Speed (Ⅰ)",
+          ContentEN = "Complete Termination - Breakneck Speed Ⅰ",
           TextMapId = "UI_Achievement_Name_506301"
         },
         UI_Achievement_Name_506302 = {
-          ContentEN = "Complete Termination - Breakneck Speed (Ⅱ)",
+          ContentEN = "Complete Termination - Breakneck Speed Ⅱ",
           TextMapId = "UI_Achievement_Name_506302"
         },
         UI_Achievement_Name_506303 = {
-          ContentEN = "Complete Termination - Breakneck Speed (Ⅲ)",
+          ContentEN = "Complete Termination - Breakneck Speed Ⅲ",
           TextMapId = "UI_Achievement_Name_506303"
         },
         UI_Achievement_Name_506401 = {
-          ContentEN = "Speed Rescue - Breakneck Speed (Ⅰ)",
+          ContentEN = "Speed Rescue - Breakneck Speed Ⅰ",
           TextMapId = "UI_Achievement_Name_506401"
         },
         UI_Achievement_Name_506402 = {
-          ContentEN = "Speed Rescue - Breakneck Speed (Ⅱ)",
+          ContentEN = "Speed Rescue - Breakneck Speed Ⅱ",
           TextMapId = "UI_Achievement_Name_506402"
         },
         UI_Achievement_Name_506403 = {
-          ContentEN = "Speed Rescue - Breakneck Speed (Ⅲ)",
+          ContentEN = "Speed Rescue - Breakneck Speed Ⅲ",
           TextMapId = "UI_Achievement_Name_506403"
         },
         UI_Achievement_Name_506501 = {
@@ -45263,83 +47560,83 @@ local Data = {
           TextMapId = "UI_Achievement_Name_507301"
         },
         UI_Achievement_Name_5090101 = {
-          ContentEN = "The Eternal Guardian of Luno (Ⅰ)",
+          ContentEN = "The Eternal Guardian of Luno Ⅰ",
           TextMapId = "UI_Achievement_Name_5090101"
         },
         UI_Achievement_Name_5090201 = {
-          ContentEN = "Guardian of Luno (Ⅰ)",
+          ContentEN = "Guardian of Luno Ⅰ",
           TextMapId = "UI_Achievement_Name_5090201"
         },
         UI_Achievement_Name_5090301 = {
-          ContentEN = "Field Research Expert (Ⅰ)",
+          ContentEN = "Field Research Expert Ⅰ",
           TextMapId = "UI_Achievement_Name_5090301"
         },
         UI_Achievement_Name_5090401 = {
-          ContentEN = "You Can Run But You Can't Hide (Ⅰ)",
+          ContentEN = "You Can Run But You Can't Hide Ⅰ",
           TextMapId = "UI_Achievement_Name_5090401"
         },
         UI_Achievement_Name_5090501 = {
-          ContentEN = "Warm-Hearted Investigator (Ⅰ)",
+          ContentEN = "Warm-Hearted Investigator Ⅰ",
           TextMapId = "UI_Achievement_Name_5090501"
         },
         UI_Achievement_Name_5090601 = {
-          ContentEN = "Legendary Investigator (Ⅰ)",
+          ContentEN = "Legendary Investigator Ⅰ",
           TextMapId = "UI_Achievement_Name_5090601"
         },
         UI_Achievement_Name_5090701 = {
-          ContentEN = "Physical Mediation (Ⅰ)",
+          ContentEN = "Physical Mediation Ⅰ",
           TextMapId = "UI_Achievement_Name_5090701"
         },
         UI_Achievement_Name_5090801 = {
-          ContentEN = "Not Born a Racer (Ⅰ)",
+          ContentEN = "Not Born a Racer Ⅰ",
           TextMapId = "UI_Achievement_Name_5090801"
         },
         UI_Achievement_Name_5090901 = {
-          ContentEN = "Expel 'Em All (Ⅰ)",
+          ContentEN = "Expel 'Em All Ⅰ",
           TextMapId = "UI_Achievement_Name_5090901"
         },
         UI_Achievement_Name_5091001 = {
-          ContentEN = "Rapid Rescue (Ⅰ)",
+          ContentEN = "Rapid Rescue Ⅰ",
           TextMapId = "UI_Achievement_Name_5091001"
         },
         UI_Achievement_Name_5092001 = {
-          ContentEN = "The Eternal Guardian of Luno (Ⅱ)",
+          ContentEN = "The Eternal Guardian of Luno Ⅱ",
           TextMapId = "UI_Achievement_Name_5092001"
         },
         UI_Achievement_Name_5092101 = {
-          ContentEN = "Guardian of Luno (Ⅱ)",
+          ContentEN = "Guardian of Luno Ⅱ",
           TextMapId = "UI_Achievement_Name_5092101"
         },
         UI_Achievement_Name_5092201 = {
-          ContentEN = "Field Research Expert (Ⅱ)",
+          ContentEN = "Field Research Expert Ⅱ",
           TextMapId = "UI_Achievement_Name_5092201"
         },
         UI_Achievement_Name_5092301 = {
-          ContentEN = "You Can Run But You Can't Hide (Ⅱ)",
+          ContentEN = "You Can Run But You Can't Hide Ⅱ",
           TextMapId = "UI_Achievement_Name_5092301"
         },
         UI_Achievement_Name_5092401 = {
-          ContentEN = "Warm-Hearted Investigator (Ⅱ)",
+          ContentEN = "Warm-Hearted Investigator Ⅱ",
           TextMapId = "UI_Achievement_Name_5092401"
         },
         UI_Achievement_Name_5092501 = {
-          ContentEN = "Legendary Investigator (Ⅱ)",
+          ContentEN = "Legendary Investigator Ⅱ",
           TextMapId = "UI_Achievement_Name_5092501"
         },
         UI_Achievement_Name_5092601 = {
-          ContentEN = "Physical Mediation (Ⅱ)",
+          ContentEN = "Physical Mediation Ⅱ",
           TextMapId = "UI_Achievement_Name_5092601"
         },
         UI_Achievement_Name_5092701 = {
-          ContentEN = "Not Born a Racer (Ⅱ)",
+          ContentEN = "Not Born a Racer Ⅱ",
           TextMapId = "UI_Achievement_Name_5092701"
         },
         UI_Achievement_Name_5092801 = {
-          ContentEN = "Expel 'Em All (Ⅱ)",
+          ContentEN = "Expel 'Em All Ⅱ",
           TextMapId = "UI_Achievement_Name_5092801"
         },
         UI_Achievement_Name_5092901 = {
-          ContentEN = "Rapid Rescue (Ⅱ)",
+          ContentEN = "Rapid Rescue Ⅱ",
           TextMapId = "UI_Achievement_Name_5092901"
         },
         UI_Achievement_Name_5093001 = {
@@ -45375,15 +47672,15 @@ local Data = {
           TextMapId = "UI_Achievement_Name_5180101"
         },
         UI_Achievement_Name_519001001 = {
-          ContentEN = "Odd Jobs Inc. (Ⅰ)",
+          ContentEN = "Odd Jobs Inc. Ⅰ",
           TextMapId = "UI_Achievement_Name_519001001"
         },
         UI_Achievement_Name_519001002 = {
-          ContentEN = "Odd Jobs Inc. (Ⅱ)",
+          ContentEN = "Odd Jobs Inc. Ⅱ",
           TextMapId = "UI_Achievement_Name_519001002"
         },
         UI_Achievement_Name_519001003 = {
-          ContentEN = "Odd Jobs Inc. (Ⅲ)",
+          ContentEN = "Odd Jobs Inc. Ⅲ",
           TextMapId = "UI_Achievement_Name_519001003"
         },
         UI_Achievement_Name_5190101 = {
@@ -45463,51 +47760,51 @@ local Data = {
           TextMapId = "UI_Achievement_Name_5270101"
         },
         UI_Achievement_Name_6010101 = {
-          ContentEN = "Promising Future (Ⅰ)",
+          ContentEN = "Promising Future Ⅰ",
           TextMapId = "UI_Achievement_Name_6010101"
         },
         UI_Achievement_Name_6010102 = {
-          ContentEN = "Promising Future (Ⅱ)",
+          ContentEN = "Promising Future Ⅱ",
           TextMapId = "UI_Achievement_Name_6010102"
         },
         UI_Achievement_Name_6010103 = {
-          ContentEN = "Promising Future (Ⅲ)",
+          ContentEN = "Promising Future Ⅲ",
           TextMapId = "UI_Achievement_Name_6010103"
         },
         UI_Achievement_Name_6010202 = {
-          ContentEN = "Promising Future (Ⅳ)",
+          ContentEN = "Promising Future Ⅳ",
           TextMapId = "UI_Achievement_Name_6010202"
         },
         UI_Achievement_Name_6010301 = {
-          ContentEN = "Promising Future (Ⅴ)",
+          ContentEN = "Promising Future Ⅴ",
           TextMapId = "UI_Achievement_Name_6010301"
         },
         UI_Achievement_Name_6010302 = {
-          ContentEN = "Promising Future (Ⅵ)",
+          ContentEN = "Promising Future Ⅵ",
           TextMapId = "UI_Achievement_Name_6010302"
         },
         UI_Achievement_Name_6020101 = {
-          ContentEN = "It Takes Three (Ⅰ)",
+          ContentEN = "It Takes Three Ⅰ",
           TextMapId = "UI_Achievement_Name_6020101"
         },
         UI_Achievement_Name_6020201 = {
-          ContentEN = "It Takes Three (Ⅱ)",
+          ContentEN = "It Takes Three Ⅱ",
           TextMapId = "UI_Achievement_Name_6020201"
         },
         UI_Achievement_Name_6020202 = {
-          ContentEN = "It Takes Three (Ⅲ)",
+          ContentEN = "It Takes Three Ⅲ",
           TextMapId = "UI_Achievement_Name_6020202"
         },
         UI_Achievement_Name_6040101 = {
-          ContentEN = "Hit the Limit of Strength (Ⅰ)",
+          ContentEN = "Hit the Limit of Strength Ⅰ",
           TextMapId = "UI_Achievement_Name_6040101"
         },
         UI_Achievement_Name_6040102 = {
-          ContentEN = "Hit the Limit of Strength (Ⅱ)",
+          ContentEN = "Hit the Limit of Strength Ⅱ",
           TextMapId = "UI_Achievement_Name_6040102"
         },
         UI_Achievement_Name_6040103 = {
-          ContentEN = "Hit the Limit of Strength (Ⅲ)",
+          ContentEN = "Hit the Limit of Strength Ⅲ",
           TextMapId = "UI_Achievement_Name_6040103"
         },
         UI_Achievement_Name_6050101 = {
@@ -45515,15 +47812,15 @@ local Data = {
           TextMapId = "UI_Achievement_Name_6050101"
         },
         UI_Achievement_Name_6060101 = {
-          ContentEN = "My DNA Is Responding (Ⅰ)",
+          ContentEN = "My DNA Is Responding Ⅰ",
           TextMapId = "UI_Achievement_Name_6060101"
         },
         UI_Achievement_Name_6060102 = {
-          ContentEN = "My DNA Is Responding (Ⅱ)",
+          ContentEN = "My DNA Is Responding Ⅱ",
           TextMapId = "UI_Achievement_Name_6060102"
         },
         UI_Achievement_Name_6060103 = {
-          ContentEN = "My DNA Is Responding (Ⅲ)",
+          ContentEN = "My DNA Is Responding Ⅲ",
           TextMapId = "UI_Achievement_Name_6060103"
         },
         UI_Achievement_Name_6070101 = {
@@ -45531,15 +47828,15 @@ local Data = {
           TextMapId = "UI_Achievement_Name_6070101"
         },
         UI_Achievement_Name_6080101 = {
-          ContentEN = "Suddenly Look Back (Ⅰ)",
+          ContentEN = "Suddenly Look Back Ⅰ",
           TextMapId = "UI_Achievement_Name_6080101"
         },
         UI_Achievement_Name_6080102 = {
-          ContentEN = "Suddenly Look Back (Ⅱ)",
+          ContentEN = "Suddenly Look Back Ⅱ",
           TextMapId = "UI_Achievement_Name_6080102"
         },
         UI_Achievement_Name_6080103 = {
-          ContentEN = "Suddenly Look Back (Ⅲ)",
+          ContentEN = "Suddenly Look Back Ⅲ",
           TextMapId = "UI_Achievement_Name_6080103"
         },
         UI_Achievement_Name_7010101 = {
@@ -45691,99 +47988,111 @@ local Data = {
           TextMapId = "UI_Achievement_Name_7014101"
         },
         UI_Achievement_Name_8010101 = {
-          ContentEN = "Hello, My Friend (Ⅰ)",
+          ContentEN = "Hello, My Friend Ⅰ",
           TextMapId = "UI_Achievement_Name_8010101"
         },
         UI_Achievement_Name_8010102 = {
-          ContentEN = "Hello, My Friend (Ⅱ)",
+          ContentEN = "Hello, My Friend Ⅱ",
           TextMapId = "UI_Achievement_Name_8010102"
         },
         UI_Achievement_Name_900001 = {
-          ContentEN = "Mazexplorer: Gaze into the Abyss (Ⅰ)",
+          ContentEN = "Mazexplorer: Gaze into the Abyss Ⅰ",
           TextMapId = "UI_Achievement_Name_900001"
         },
         UI_Achievement_Name_900101 = {
-          ContentEN = "Mazexplorer: Gaze into the Abyss (Ⅱ)",
+          ContentEN = "Mazexplorer: Gaze into the Abyss Ⅱ",
           TextMapId = "UI_Achievement_Name_900101"
         },
         UI_Achievement_Name_900201 = {
-          ContentEN = "Mazexplorer: Gaze into the Abyss (Ⅲ)",
+          ContentEN = "Mazexplorer: Gaze into the Abyss Ⅲ",
           TextMapId = "UI_Achievement_Name_900201"
         },
         UI_Achievement_Name_900301 = {
-          ContentEN = "Mazexplorer: Gaze into the Abyss (Ⅳ)",
+          ContentEN = "Mazexplorer: Gaze into the Abyss Ⅳ",
           TextMapId = "UI_Achievement_Name_900301"
         },
         UI_Achievement_Name_900401 = {
-          ContentEN = "Mazexplorer: Gaze into the Abyss (Ⅴ)",
+          ContentEN = "Mazexplorer: Gaze into the Abyss Ⅴ",
           TextMapId = "UI_Achievement_Name_900401"
         },
         UI_Achievement_Name_9010401 = {
-          ContentEN = "Blacksmithing Club (Ⅱ)",
+          ContentEN = "Blacksmithing Club Ⅰ",
           TextMapId = "UI_Achievement_Name_9010401"
         },
         UI_Achievement_Name_9010402 = {
-          ContentEN = "Blacksmithing Club (Ⅱ)",
+          ContentEN = "Blacksmithing Club Ⅱ",
           TextMapId = "UI_Achievement_Name_9010402"
         },
         UI_Achievement_Name_9010403 = {
-          ContentEN = "Blacksmithing Club (Ⅲ)",
+          ContentEN = "Blacksmithing Club Ⅲ",
           TextMapId = "UI_Achievement_Name_9010403"
+        },
+        UI_Achievement_Name_9010501 = {
+          ContentEN = "Introduction to Blacksmith Ⅰ",
+          TextMapId = "UI_Achievement_Name_9010501"
+        },
+        UI_Achievement_Name_9010502 = {
+          ContentEN = "Introduction to Blacksmith Ⅱ",
+          TextMapId = "UI_Achievement_Name_9010502"
+        },
+        UI_Achievement_Name_9010503 = {
+          ContentEN = "Introduction to Blacksmith Ⅲ",
+          TextMapId = "UI_Achievement_Name_9010503"
         },
         UI_Achievement_Name_910001 = {
           ContentEN = "Let There Be Light",
           TextMapId = "UI_Achievement_Name_910001"
         },
         UI_Achievement_Name_910101 = {
-          ContentEN = "Glory for the Lone Wanderer (Ⅰ)",
+          ContentEN = "Glory for the Lone Wanderer Ⅰ",
           TextMapId = "UI_Achievement_Name_910101"
         },
         UI_Achievement_Name_910102 = {
-          ContentEN = "Glory for the Lone Wanderer (Ⅱ)",
+          ContentEN = "Glory for the Lone Wanderer Ⅱ",
           TextMapId = "UI_Achievement_Name_910102"
         },
         UI_Achievement_Name_910201 = {
-          ContentEN = "Bestow Light Upon the Steadfast (Ⅰ)",
+          ContentEN = "Bestow Light Upon the Steadfast Ⅰ",
           TextMapId = "UI_Achievement_Name_910201"
         },
         UI_Achievement_Name_910202 = {
-          ContentEN = "Bestow Light Upon the Steadfast (Ⅱ)",
+          ContentEN = "Bestow Light Upon the Steadfast Ⅱ",
           TextMapId = "UI_Achievement_Name_910202"
         },
         UI_Achievement_Name_910301 = {
-          ContentEN = "Courage for the Blade Wielder (Ⅰ)",
+          ContentEN = "Courage for the Blade Wielder Ⅰ",
           TextMapId = "UI_Achievement_Name_910301"
         },
         UI_Achievement_Name_910302 = {
-          ContentEN = "Courage for the Blade Wielder (Ⅱ)",
+          ContentEN = "Courage for the Blade Wielder Ⅱ",
           TextMapId = "UI_Achievement_Name_910302"
         },
         UI_Achievement_Name_910401 = {
-          ContentEN = "Justice for the Seeker (Ⅰ)",
+          ContentEN = "Justice for the Seeker Ⅰ",
           TextMapId = "UI_Achievement_Name_910401"
         },
         UI_Achievement_Name_910402 = {
-          ContentEN = "Justice for the Seeker (Ⅱ)",
+          ContentEN = "Justice for the Seeker Ⅱ",
           TextMapId = "UI_Achievement_Name_910402"
         },
         UI_Achievement_Name_911101 = {
-          ContentEN = "Blooms of Bloodshed (Ⅰ)",
+          ContentEN = "Blooms of Bloodshed Ⅰ",
           TextMapId = "UI_Achievement_Name_911101"
         },
         UI_Achievement_Name_911102 = {
-          ContentEN = "Blooms of Bloodshed (Ⅱ)",
+          ContentEN = "Blooms of Bloodshed Ⅱ",
           TextMapId = "UI_Achievement_Name_911102"
         },
         UI_Achievement_Name_911201 = {
-          ContentEN = "Ephemeral Illusions (Ⅰ)",
+          ContentEN = "Ephemeral Illusions Ⅰ",
           TextMapId = "UI_Achievement_Name_911201"
         },
         UI_Achievement_Name_911202 = {
-          ContentEN = "Ephemeral Illusions (Ⅱ)",
+          ContentEN = "Ephemeral Illusions Ⅱ",
           TextMapId = "UI_Achievement_Name_911202"
         },
         UI_Achievement_Name_912101 = {
-          ContentEN = "Fire Keeper (Ⅰ)",
+          ContentEN = "Fire Keeper Ⅰ",
           TextMapId = "UI_Achievement_Name_912101"
         },
         UI_Achievement_Name_912201 = {
@@ -45795,67 +48104,67 @@ local Data = {
           TextMapId = "UI_Achievement_Name_912301"
         },
         UI_Achievement_Name_920101 = {
-          ContentEN = "Core Meltdown (Ⅰ)",
+          ContentEN = "Core Meltdown Ⅰ",
           TextMapId = "UI_Achievement_Name_920101"
         },
         UI_Achievement_Name_920102 = {
-          ContentEN = "Core Meltdown (Ⅱ)",
+          ContentEN = "Core Meltdown Ⅱ",
           TextMapId = "UI_Achievement_Name_920102"
         },
         UI_Achievement_Name_920201 = {
-          ContentEN = "Mirage (Ⅰ)",
+          ContentEN = "Mirage Ⅰ",
           TextMapId = "UI_Achievement_Name_920201"
         },
         UI_Achievement_Name_920202 = {
-          ContentEN = "Mirage (Ⅱ)",
+          ContentEN = "Mirage Ⅱ",
           TextMapId = "UI_Achievement_Name_920202"
         },
         UI_Achievement_Name_920301 = {
-          ContentEN = "Desert Beneath the Starry Vault (Ⅰ)",
+          ContentEN = "Desert Beneath the Starry Vault Ⅰ",
           TextMapId = "UI_Achievement_Name_920301"
         },
         UI_Achievement_Name_920302 = {
-          ContentEN = "Desert Beneath the Starry Vault (Ⅱ)",
+          ContentEN = "Desert Beneath the Starry Vault Ⅱ",
           TextMapId = "UI_Achievement_Name_920302"
         },
         UI_Achievement_Name_920401 = {
-          ContentEN = "Whispering Woods (Ⅰ)",
+          ContentEN = "Whispering Woods Ⅰ",
           TextMapId = "UI_Achievement_Name_920401"
         },
         UI_Achievement_Name_920402 = {
-          ContentEN = "Whispering Woods (Ⅱ)",
+          ContentEN = "Whispering Woods Ⅱ",
           TextMapId = "UI_Achievement_Name_920402"
         },
         UI_Achievement_Name_920501 = {
-          ContentEN = "Butterfly Effect (Ⅰ)",
+          ContentEN = "Butterfly Effect Ⅰ",
           TextMapId = "UI_Achievement_Name_920501"
         },
         UI_Achievement_Name_920502 = {
-          ContentEN = "Butterfly Effect (Ⅱ)",
+          ContentEN = "Butterfly Effect Ⅱ",
           TextMapId = "UI_Achievement_Name_920502"
         },
         UI_Achievement_Name_920601 = {
-          ContentEN = "Fireflies in the Woods (Ⅰ)",
+          ContentEN = "Fireflies in the Woods Ⅰ",
           TextMapId = "UI_Achievement_Name_920601"
         },
         UI_Achievement_Name_920602 = {
-          ContentEN = "Fireflies in the Woods (Ⅱ)",
+          ContentEN = "Fireflies in the Woods Ⅱ",
           TextMapId = "UI_Achievement_Name_920602"
         },
         UI_Achievement_Name_920701 = {
-          ContentEN = "Harbinger Bloom (Ⅰ)",
+          ContentEN = "Harbinger Bloom Ⅰ",
           TextMapId = "UI_Achievement_Name_920701"
         },
         UI_Achievement_Name_920702 = {
-          ContentEN = "Harbinger Bloom (Ⅱ)",
+          ContentEN = "Harbinger Bloom Ⅱ",
           TextMapId = "UI_Achievement_Name_920702"
         },
         UI_Achievement_Name_930001 = {
-          ContentEN = "Holy Artefacts (Ⅰ)",
+          ContentEN = "Holy Artefacts Ⅰ",
           TextMapId = "UI_Achievement_Name_930001"
         },
         UI_Achievement_Name_930002 = {
-          ContentEN = "Holy Artefacts (Ⅱ)",
+          ContentEN = "Holy Artefacts Ⅱ",
           TextMapId = "UI_Achievement_Name_930002"
         },
         UI_Achievement_Name_940001 = {
@@ -45919,24 +48228,28 @@ local Data = {
           TextMapId = "UI_Achievement_Name_942201"
         },
         UI_Achievement_Name_9910101 = {
-          ContentEN = "Heroic Path (Ⅰ)",
+          ContentEN = "Heroic Path Ⅰ",
           TextMapId = "UI_Achievement_Name_9910101"
         },
         UI_Achievement_Name_9910201 = {
-          ContentEN = "Heroic Path (Ⅱ)",
+          ContentEN = "Heroic Path Ⅱ",
           TextMapId = "UI_Achievement_Name_9910201"
         },
         UI_Achievement_Name_9910301 = {
-          ContentEN = "Heroic Path (Ⅲ)",
+          ContentEN = "Heroic Path Ⅲ",
           TextMapId = "UI_Achievement_Name_9910301"
         },
         UI_Achievement_Name_9910401 = {
-          ContentEN = "Heroic Path (Ⅳ)",
+          ContentEN = "Heroic Path Ⅳ",
           TextMapId = "UI_Achievement_Name_9910401"
         },
         UI_Achievement_Name_9910501 = {
-          ContentEN = "Heroic Path (Ⅴ)",
+          ContentEN = "Heroic Path Ⅴ",
           TextMapId = "UI_Achievement_Name_9910501"
+        },
+        UI_Achievement_Name_9910601 = {
+          ContentEN = "Heroic Path Ⅵ",
+          TextMapId = "UI_Achievement_Name_9910601"
         },
         UI_Achievement_SubTitle = {
           ContentEN = "Achievements",
@@ -46083,7 +48396,7 @@ local Data = {
           TextMapId = "UI_ActionPoint_Use"
         },
         UI_Activated = {
-          ContentEN = "Lit",
+          ContentEN = "Unlocked",
           TextMapId = "UI_Activated"
         },
         UI_Add = {
@@ -46145,6 +48458,10 @@ local Data = {
         UI_Appearance_Head_Current = {
           ContentEN = "Current Avatar",
           TextMapId = "UI_Appearance_Head_Current"
+        },
+        UI_Appearance_None = {
+          ContentEN = "No Cosmetics",
+          TextMapId = "UI_Appearance_None"
         },
         UI_ArchiveCollectionReward = {
           ContentEN = "Collection Progress",
@@ -46263,11 +48580,11 @@ local Data = {
           TextMapId = "UI_Armory_Char"
         },
         UI_Armory_CharBreakExp = {
-          ContentEN = "Ascend to Phase %s to earn %s Trial EXP",
+          ContentEN = "Ascend to Phase %s to earn <H>%s</> Trial EXP",
           TextMapId = "UI_Armory_CharBreakExp"
         },
         UI_Armory_CharCardUpExp = {
-          ContentEN = "Level up Intron to earn %s Trial EXP",
+          ContentEN = "Level up Intron to earn <H>%s</> Trial EXP",
           TextMapId = "UI_Armory_CharCardUpExp"
         },
         UI_Armory_CharExcelWeapon = {
@@ -46279,7 +48596,7 @@ local Data = {
           TextMapId = "UI_Armory_Char_Empty"
         },
         UI_Armory_ClickEmpty = {
-          ContentEN = "{空格}",
+          ContentEN = "Click in the blank area to close",
           TextMapId = "UI_Armory_ClickEmpty"
         },
         UI_Armory_Conflict = {
@@ -46298,6 +48615,10 @@ local Data = {
           ContentEN = "Ascend to Phase %s to unlock",
           TextMapId = "UI_Armory_Dispatch_Locked"
         },
+        UI_Armory_Dress = {
+          ContentEN = "Accessories",
+          TextMapId = "UI_Armory_Dress"
+        },
         UI_Armory_Dye_Common = {
           ContentEN = "Part",
           TextMapId = "UI_Armory_Dye_Common"
@@ -46309,6 +48630,10 @@ local Data = {
         UI_Armory_Dye_Special = {
           ContentEN = "Overall",
           TextMapId = "UI_Armory_Dye_Special"
+        },
+        UI_Armory_Dye_Toast = {
+          ContentEN = "Draft %d loaded",
+          TextMapId = "UI_Armory_Dye_Toast"
         },
         UI_Armory_Exit = {
           ContentEN = "Exit",
@@ -46383,7 +48708,7 @@ local Data = {
           TextMapId = "UI_Armory_Passive"
         },
         UI_Armory_PetBreakExp = {
-          ContentEN = "Ascend [%s] to Tier %s to earn %s Trial EXP",
+          ContentEN = "Ascend [%s] to Phase %s to earn <H>%s</> Trial EXP",
           TextMapId = "UI_Armory_PetBreakExp"
         },
         UI_Armory_PetListIsEmpty = {
@@ -46411,7 +48736,7 @@ local Data = {
           TextMapId = "UI_Armory_PutOn_Success"
         },
         UI_Armory_Quick_Equip = {
-          ContentEN = "Put In Backpack",
+          ContentEN = "Put In",
           TextMapId = "UI_Armory_Quick_Equip"
         },
         UI_Armory_Quick_Unequip = {
@@ -46443,7 +48768,7 @@ local Data = {
           TextMapId = "UI_Armory_SelectedConsumeIsEmpty"
         },
         UI_Armory_Share_Chat = {
-          ContentEN = "Copy chat link",
+          ContentEN = "Copy share link",
           TextMapId = "UI_Armory_Share_Chat"
         },
         UI_Armory_Share_Community = {
@@ -46495,12 +48820,16 @@ local Data = {
           TextMapId = "UI_Armory_View"
         },
         UI_Armory_WeaponBreakExp = {
-          ContentEN = "First ascension to Tier %s grants %s Trial EXP",
+          ContentEN = "First ascension to Phase %s grants <H>%s</> Trial EXP",
           TextMapId = "UI_Armory_WeaponBreakExp"
         },
         UI_Armory_WeaponCardUpExp = {
-          ContentEN = "Reach Smelting Lv. %s to earn %s Trial EXP",
+          ContentEN = "Reach Smelting Lv. %s to earn <H>%s</> Trial EXP",
           TextMapId = "UI_Armory_WeaponCardUpExp"
+        },
+        UI_Armory_WeaponPurchaseConfirm = {
+          ContentEN = "Spend <H>%s</> Phoxene Plumules to purchase <H>%s</>?",
+          TextMapId = "UI_Armory_WeaponPurchaseConfirm"
         },
         UI_Armory_Weapon_Adjust = {
           ContentEN = "Weapon Loadout",
@@ -46527,8 +48856,12 @@ local Data = {
           TextMapId = "UI_Armory_Weapon_Remove"
         },
         UI_ArmourySquad_AutoSummon = {
-          ContentEN = "Auto-Summon Combat Partners",
+          ContentEN = "Auto-Summon",
           TextMapId = "UI_ArmourySquad_AutoSummon"
+        },
+        UI_ArmourySquad_AutoSummonTips = {
+          ContentEN = "When "Auto-Summon" is on, entering a battle with Preset Loadout will automatically summon fitting Combat Partners.",
+          TextMapId = "UI_ArmourySquad_AutoSummonTips"
         },
         UI_ArmourySquad_Edit_Toast = {
           ContentEN = "Go to Armoury to adjust the loadout",
@@ -46650,6 +48983,14 @@ local Data = {
           ContentEN = "Weakness Exposed",
           TextMapId = "UI_BOSSBATTLE_TAKEDOWN"
         },
+        UI_BPTitle_100001 = {
+          ContentEN = "Bard's Tome: Starlit Hymn Ⅰ",
+          TextMapId = "UI_BPTitle_100001"
+        },
+        UI_BPTitle_100002 = {
+          ContentEN = "Bard's Tome: Starlit Hymn Ⅱ",
+          TextMapId = "UI_BPTitle_100002"
+        },
         UI_BTN_AGREE = {
           ContentEN = "Accept",
           TextMapId = "UI_BTN_AGREE"
@@ -46707,7 +49048,7 @@ local Data = {
           TextMapId = "UI_Bag_Equipped"
         },
         UI_Bag_Fish_Weight = {
-          ContentEN = "Weight: ",
+          ContentEN = "Size:",
           TextMapId = "UI_Bag_Fish_Weight"
         },
         UI_Bag_IgnoreEquipped = {
@@ -46723,7 +49064,7 @@ local Data = {
           TextMapId = "UI_Bag_ModExtract"
         },
         UI_Bag_ModExtract_Delete = {
-          ContentEN = "You've reached today's Carmine Globule extraction cap. Upon confirmation, items pending extraction will be removed.",
+          ContentEN = "You've reached today's extraction cap. Upon confirmation, items pending extraction will be removed.",
           TextMapId = "UI_Bag_ModExtract_Delete"
         },
         UI_Bag_ModExtract_Forbid = {
@@ -46735,11 +49076,11 @@ local Data = {
           TextMapId = "UI_Bag_ModExtract_Get"
         },
         UI_Bag_ModExtract_MaxNum = {
-          ContentEN = "Remaining Attempts Today",
+          ContentEN = "Daily Remaining Extractions",
           TextMapId = "UI_Bag_ModExtract_MaxNum"
         },
         UI_Bag_ModExtract_NotGet = {
-          ContentEN = "Cap reached. No further Carmine Globule can be obtained.",
+          ContentEN = "Today's extraction cap reached.",
           TextMapId = "UI_Bag_ModExtract_NotGet"
         },
         UI_Bag_ModExtract_Overflow = {
@@ -46751,7 +49092,7 @@ local Data = {
           TextMapId = "UI_Bag_ModExtract_Ready"
         },
         UI_Bag_ModExtract_Warning = {
-          ContentEN = "You've reached today's Carmine Globule extraction cap. Any overflow will not be refunded.",
+          ContentEN = "You've reached today's extraction cap. Any overflow will not be refunded.",
           TextMapId = "UI_Bag_ModExtract_Warning"
         },
         UI_Bag_Passive = {
@@ -46799,7 +49140,7 @@ local Data = {
           TextMapId = "UI_Bag_Sellconfirm_Polarity"
         },
         UI_Bag_Sellconfirm_Tips = {
-          ContentEN = "The following item(s) will be sold. This action cannot be undone. Confirm to proceed?",
+          ContentEN = "This action cannot be undone. Confirm to proceed?",
           TextMapId = "UI_Bag_Sellconfirm_Tips"
         },
         UI_Bag_Sellconfirm_Title = {
@@ -46822,6 +49163,10 @@ local Data = {
           ContentEN = "Map unavailable for the current area",
           TextMapId = "UI_Banned_Des_Map"
         },
+        UI_Banner_MonthlyCard = {
+          ContentEN = "Monthly Order",
+          TextMapId = "UI_Banner_MonthlyCard"
+        },
         UI_Banner_Pack_All = {
           ContentEN = "Delivered instantly upon purchase",
           TextMapId = "UI_Banner_Pack_All"
@@ -46835,7 +49180,7 @@ local Data = {
           TextMapId = "UI_Banner_RemainTime"
         },
         UI_Banner_Remain_Buy = {
-          ContentEN = "Remaining Purchases",
+          ContentEN = "Remaining Purchases:{空格}",
           TextMapId = "UI_Banner_Remain_Buy"
         },
         UI_Banner_Reminder = {
@@ -46863,7 +49208,7 @@ local Data = {
           TextMapId = "UI_Banner_Tab_WeaponSkinForNew"
         },
         UI_BattlePass_BPExp = {
-          ContentEN = "Verses:",
+          ContentEN = "Level: ",
           TextMapId = "UI_BattlePass_BPExp"
         },
         UI_BattlePass_BPWeeklyMaxExp = {
@@ -46871,7 +49216,7 @@ local Data = {
           TextMapId = "UI_BattlePass_BPWeeklyMaxExp"
         },
         UI_BattlePass_BuyLevel = {
-          ContentEN = "Purchase Ballad",
+          ContentEN = "Purchase Level: ",
           TextMapId = "UI_BattlePass_BuyLevel"
         },
         UI_BattlePass_BuyLevelConfirm = {
@@ -46923,11 +49268,11 @@ local Data = {
           TextMapId = "UI_BattlePass_JumptoPetReward"
         },
         UI_BattlePass_LevelUp = {
-          ContentEN = "This ballad is complete.",
+          ContentEN = "Bard's Tome Level-Up",
           TextMapId = "UI_BattlePass_LevelUp"
         },
         UI_BattlePass_MaxLevel = {
-          ContentEN = "Ballad Collection Complete",
+          ContentEN = "Max Level Reached",
           TextMapId = "UI_BattlePass_MaxLevel"
         },
         UI_BattlePass_MissionTab = {
@@ -46947,7 +49292,7 @@ local Data = {
           TextMapId = "UI_BattlePass_PetClaim"
         },
         UI_BattlePass_PetClaimDetail = {
-          ContentEN = "Unlock the Hardcover Edition and complete <highlight>30</> ballads to obtain a Geniemon",
+          ContentEN = "Unlock the Hardcover or Collector's Edition and reach Bard's Tome Lv. <highlight>30</> to receive a Geniemon of your choice.",
           TextMapId = "UI_BattlePass_PetClaimDetail"
         },
         UI_BattlePass_PetClaimTitle = {
@@ -46982,6 +49327,10 @@ local Data = {
           ContentEN = "Collector's Edition",
           TextMapId = "UI_BattlePass_PlatinumRank"
         },
+        UI_BattlePass_QuestFinished = {
+          ContentEN = "Completed",
+          TextMapId = "UI_BattlePass_QuestFinished"
+        },
         UI_BattlePass_QuestJump = {
           ContentEN = "Go",
           TextMapId = "UI_BattlePass_QuestJump"
@@ -46995,11 +49344,11 @@ local Data = {
           TextMapId = "UI_BattlePass_QuestToBeFinish"
         },
         UI_BattlePass_RefreshReminder = {
-          ContentEN = "New Ballad Pass period starts. Bardic Inspiration progress has been reset. Unclaimed rewards from the previous period have been claimed automatically.",
+          ContentEN = "Unclaimed Ballad Rewards have been collected automatically",
           TextMapId = "UI_BattlePass_RefreshReminder"
         },
         UI_BattlePass_RefreshReminder_Title = {
-          ContentEN = "Update Notice",
+          ContentEN = "Missed Reward Notification",
           TextMapId = "UI_BattlePass_RefreshReminder_Title"
         },
         UI_BattlePass_RemainTime = {
@@ -47027,7 +49376,7 @@ local Data = {
           TextMapId = "UI_BattlePass_RewardTab"
         },
         UI_BattlePass_UnlockGoldRank = {
-          ContentEN = "Unlock Hardcover Edition",
+          ContentEN = "Hardcover Edition",
           TextMapId = "UI_BattlePass_UnlockGoldRank"
         },
         UI_BattlePass_UnlockPlatinumRank = {
@@ -47035,7 +49384,7 @@ local Data = {
           TextMapId = "UI_BattlePass_UnlockPlatinumRank"
         },
         UI_BattlePass_VersionQuest = {
-          ContentEN = "This BP Period",
+          ContentEN = "Seasonal Inspiration",
           TextMapId = "UI_BattlePass_VersionQuest"
         },
         UI_BattlePass_WeeklyQuest = {
@@ -47150,6 +49499,10 @@ local Data = {
           ContentEN = "Hyperborean Empire",
           TextMapId = "UI_CHAR_BIRTH_1103"
         },
+        UI_CHAR_BIRTH_1501 = {
+          ContentEN = "The Elysian Church",
+          TextMapId = "UI_CHAR_BIRTH_1501"
+        },
         UI_CHAR_BIRTH_1502 = {
           ContentEN = "The Elysian Church",
           TextMapId = "UI_CHAR_BIRTH_1502"
@@ -47229,6 +49582,22 @@ local Data = {
         UI_CHAR_BIRTH_5401 = {
           ContentEN = "Hyperborean Empire",
           TextMapId = "UI_CHAR_BIRTH_5401"
+        },
+        UI_CHAR_DATA_DES_10010101 = {
+          ContentEN = "Prerequisites of Witness: Ⅰ",
+          TextMapId = "UI_CHAR_DATA_DES_10010101"
+        },
+        UI_CHAR_DATA_DES_10010201 = {
+          ContentEN = "Prerequisites of Anecdote: Ⅰ",
+          TextMapId = "UI_CHAR_DATA_DES_10010201"
+        },
+        UI_CHAR_DATA_DES_10010301 = {
+          ContentEN = "Prerequisites of Secret: Ⅰ",
+          TextMapId = "UI_CHAR_DATA_DES_10010301"
+        },
+        UI_CHAR_DATA_DES_10010401 = {
+          ContentEN = "Prerequisites of Reminiscence: Ⅰ",
+          TextMapId = "UI_CHAR_DATA_DES_10010401"
         },
         UI_CHAR_DATA_TEXT_11010101 = {
           ContentEN = "For as long as you can remember, Berenica has always been by your side. \nYou may have spent more time with her than with anyone else in the world, yet there are still parts of her that remain a mystery to you — just as there are aspects of yourself that you don't fully understand.\nWho are you? Who is she? Where did you come from, and how did you meet? Whenever you pose these questions, Berenica hesitates, her words faltering, eventually retreating into prolonged silence. Over time, you stopped asking.\nThere's much you don't know, but of one thing you're certain—\nYou can always trust her, no matter what.",
@@ -47343,7 +49712,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_11030203"
         },
         UI_CHAR_DATA_TEXT_11030204 = {
-          ContentEN = "Years ago, the name Herzeleide was known across all of Icelake's high society. She was the muse of countless fantasies, the bellwether of fashion, the star of every ballroom. Some adored her — hopelessly smitten, longing to set her upon a pedestal and proclaim her the perfect woman. Others loathed her — sneering that she was nothing but a lowborn seductress who had clawed her way up by charming powerful men, eager to see her dragged back into the dirt.\n\nBut who was she, really?\n\nShe was born into an ordinary Charon household. Orphaned young, she took work as a maid in an inn to fend for herself. She was clever, meticulous, hard-working — until the night her beauty caught the wrong kind of attention from a nobleman staying at the inn.\n\nThe hearts of Icelake's folk were like the lake itself — cold to the core. No one pitied this lowborn Charon girl, even knowing full well she was the victim. She was cast out in disgrace, branded with shame, and left to scrape by in the slums.\n\nShe thought she would rot there, forgotten. But fate wasn't finished toying with her yet.\nYears later, the same nobleman returned — sickly, dying — and, perhaps seeking to soothe his conscience before the end, he showered her with gifts: wealth, a home in the inner city, even the hollow honour of a Laurelled Charon's title.\n\nTo the world, it looked as though she had struck gold overnight. To her, however, it was nothing but a sick joke. No apology, no fortune could ever mend the hollow torn open inside her. No one could imagine the life she had been forced to endure — the pain that clung to her like a second skin. She came to despise mirrors, and anything that dared reflect her face. She hated her beauty. She hated her own naivety. Because the world had taught her it was her fault: Why hadn't she been plainer? Why hadn't she known better?\n\nThen, everything turned on its head overnight. Her beauty — once a curse that had damned her — became a prize nobles worshipped. After a brief stunned hesitation, she steeled herself — and chose revenge. She would learn their games, speak their tongue, and wound them where it hurt most. She crafted herself a surname of elegance. She immersed herself in etiquette, literature, the arts, and current affairs. Before long, her beauty and sharpened mind made her the most coveted courtesan in all the inner city.\n\nShe drifted from gala to gala, relishing the quiet satisfaction of turning nobles into puppets of their own longing — pulling at their strings with effortless grace. Her heart, day by day, froze into something unrecognisable. She all but forgot the girl she had once been. Until the day she met him.\n\nHe wasn't a noble. He, too, wore a mask at every glittering gathering. And because of that, he saw through hers — glimpsed the loneliness buried beneath the dazzle. She believed it to be fate's final mercy — a chance to reclaim the self she had lost to the world. Beneath the hush of a tender night, she laid bare her heart. In his presence, even amid the glittering halls and their hollow splendour, her heart could beat warm and alive once more.\n\nMonths later, when she discovered she was carrying his child, her heart overflowed with joy. But the man grew hesitant. His business had already soared; wealth alone no longer satisfied him. What he craved now was standing — privilege, acceptance. And she, a Charon, could offer him none of it. She was like a fish flung from its tank, left gasping on cold floor. She pleaded. She reasoned. She said she had connections, that she could help grow his ventures. She cried. She humbled herself. At last, he relented — and made a single, conditional promise: If the child was born Solarian, he would make her his wife.\n\nOn an autumn night beneath the silver moon, her child was born. He was a beautiful boy — fair-skinned, delicate, lovely — and on his brow, a pair of small, black horns. They were beautiful horns, gleaming faintly at the tips — rare even among Charons. It was believed that children born with such horns were destined to awaken as Daimons.\n\nShe stared at those tiny horns, her heart sinking into despair. With trembling hands, she fumbled for a knife. If only the horns were gone. It was all their fault. If she were to cut them away... she could still have her happy ending.\n\nBut just as the blade caught the cold gleam of the moonlight, the baby opened his eyes — and looked at her. In those clear, bright eyes, she saw her own reflection.\n\nShe, too, bore horns. Horns just like his. Only then did she realise: after all these years, she had never truly stopped hating herself — or denying who she was.\n\nSlowly, she set the knife down.\nShe gathered the child into her arms and whispered:\n"Come, my little one. Let's leave this place."\nThus ended the tale of Herzeleide — once a belle among the glittering halls of the inner city.",
+          ContentEN = "Years ago, the name Herzeleide was known across all of Icelake's high society. She was the muse of countless fantasies, the bellwether of fashion, the star of every ballroom. Some adored her — hopelessly smitten, longing to set her upon a pedestal and proclaim her the perfect woman. Others loathed her — sneering that she was nothing but a lowborn seductress who had clawed her way up by charming powerful men, eager to see her dragged back into the dirt.\nBut who was she, really?\nShe was born into an ordinary Charon household. Orphaned young, she took work as a maid in an inn to fend for herself. She was clever, meticulous, hard-working — until the night her beauty caught the wrong kind of attention from a nobleman staying at the inn.\nThe hearts of Icelake's folk were like the lake itself — cold to the core. No one pitied this lowborn Charon girl, even knowing full well she was the victim. She was cast out in disgrace, branded with shame, and left to scrape by in the slums.\nShe thought she would rot there, forgotten. But fate wasn't finished toying with her yet.\nYears later, the same nobleman returned — sickly, dying — and, perhaps seeking to soothe his conscience before the end, he showered her with gifts: wealth, a home in the inner city, even the hollow honour of a Laurelled Charon's title.\nTo the world, it looked as though she had struck gold overnight. To her, however, it was nothing but a sick joke. No apology, no fortune could ever mend the hollow torn open inside her. No one could imagine the life she had been forced to endure — the pain that clung to her like a second skin. She came to despise mirrors, and anything that dared reflect her face. She hated her beauty. She hated her own naivety. Because the world had taught her it was her fault: Why hadn't she been plainer? Why hadn't she known better?\nThen, everything turned on its head overnight. Her beauty — once a curse that had damned her — became a prize nobles worshipped. After a brief stunned hesitation, she steeled herself — and chose revenge. She would learn their games, speak their tongue, and wound them where it hurt most. She crafted herself a surname of elegance. She immersed herself in etiquette, literature, the arts, and current affairs. Before long, her beauty and sharpened mind made her the most coveted courtesan in all the inner city.\nShe drifted from gala to gala, relishing the quiet satisfaction of turning nobles into puppets of their own longing — pulling at their strings with effortless grace. Her heart, day by day, froze into something unrecognisable. She all but forgot the girl she had once been. Until the day she met him.\nHe wasn't a noble. He, too, wore a mask at every glittering gathering. And because of that, he saw through hers — glimpsed the loneliness buried beneath the dazzle. She believed it to be fate's final mercy — a chance to reclaim the self she had lost to the world. Beneath the hush of a tender night, she laid bare her heart. In his presence, even amid the glittering halls and their hollow splendour, her heart could beat warm and alive once more.\nMonths later, when she discovered she was carrying his child, her heart overflowed with joy. But the man grew hesitant. His business had already soared; wealth alone no longer satisfied him. What he craved now was standing — privilege, acceptance. And she, a Charon, could offer him none of it. She was like a fish flung from its tank, left gasping on cold floor. She pleaded. She reasoned. She said she had connections, that she could help grow his ventures. She cried. She humbled herself. At last, he relented — and made a single, conditional promise: If the child was born Solarian, he would make her his wife.\nOn an autumn night beneath the silver moon, her child was born. He was a beautiful boy — fair-skinned, delicate, lovely — and on his brow, a pair of small, black horns. They were beautiful horns, gleaming faintly at the tips — rare even among Charons. It was believed that children born with such horns were destined to awaken as Daimons.\nShe stared at those tiny horns, her heart sinking into despair. With trembling hands, she fumbled for a knife. If only the horns were gone. It was all their fault. If she were to cut them away... she could still have her happy ending.\nBut just as the blade caught the cold gleam of the moonlight, the baby opened his eyes — and looked at her. In those clear, bright eyes, she saw her own reflection.\nShe, too, bore horns. Horns just like his. Only then did she realise: after all these years, she had never truly stopped hating herself — or denying who she was.\nSlowly, she set the knife down.\nShe gathered the child into her arms and whispered:\n"Come, my little one. Let's leave this place."\nThus ended the tale of Herzeleide — once a belle among the glittering halls of the inner city.",
           TextMapId = "UI_CHAR_DATA_TEXT_11030204"
         },
         UI_CHAR_DATA_TEXT_11030205 = {
@@ -47390,6 +49759,86 @@ local Data = {
           ContentEN = "So the story has reached its final act: our meeting. If I had a choice, I would have rather met you another way, wearing a face less grotesque.\n\nI thought my disguise flawless. Yet you saw through it — and your deduction left no room for denial.\n\nI could mimic his mannerisms perfectly — the tilt of his head, the cadence of his voice — but I could never be him. His warmth, his love for life, his faith in tomorrow, the way he cared for others — these were things I could never recreate, no matter how hard I tried. I never imagined anyone would rewrite Children From the Snowfield — stripping away its polished elegance, disrupting its arc, compromising its internal logic — simply to give the frost fairy a happy ending.\n\nI once believed the worst thing for a performer was to be caught slipping before the audience. And yet, when you unmasked me... I felt a peace I had never known.\nPerhaps I spent so long pretending to be someone else, I forgot how much I longed to be seen as myself.\n\nYou said you wished to hear my story. I don't know if these scattered memories will suffice — but they're all I have.\n\nMy life was never a grand voyage. Every chapter ended half-written, like drafts abandoned by a mediocre playwright — always reaching for the next scene, never quite arriving.\n\nAfter my first curtain call, I lost my stage.\nAfter the second, I lost my human face.\nAfter the third, even my name.\n\nI am glad you witnessed this final curtain call — for this time, I walked a path of my own choosing, and I carry no regrets.\n\nO, weep not for me — for the curtain has fallen, and it fell at its perfect cue.",
           TextMapId = "UI_CHAR_DATA_TEXT_11030405"
         },
+        UI_CHAR_DATA_TEXT_15010101 = {
+          ContentEN = "While idly leafing through an old newspaper in a tavern, you come upon a headline from far-off Elysium in the south. Across the front page sprawls a vast photograph of a girl named Lisbell.\n \nThe Empire's press, of course, heaps scorn upon that ancient land: Look! How far Elysium has fallen, that it should entrust the supreme name of the Seven Virtues to a mere slip of a little girl! So low has the realm of the divine decayed!\n \nYet such derision cannot dim the radiance of the girl in the picture. A slight figure lifts high a sacred sword taller than herself, its brilliance overflowing to illuminate her face. Her gaze burns with unfeigned candour, and her stance resounds with unshakable conviction. In that instant captured, the noonday sun hung above her — as though crowning her with a brilliance none could endure to behold.\n \nThis Lisbell seemed almost a stranger, and for the first time you understood: the Seven Virtues is no mere title for a girl to mention in passing, but the living embodiment of Elysium's faith — the Gods' Favoured.",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010101"
+        },
+        UI_CHAR_DATA_TEXT_15010102 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010102"
+        },
+        UI_CHAR_DATA_TEXT_15010103 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010103"
+        },
+        UI_CHAR_DATA_TEXT_15010104 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010104"
+        },
+        UI_CHAR_DATA_TEXT_15010105 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010105"
+        },
+        UI_CHAR_DATA_TEXT_15010201 = {
+          ContentEN = "Across the streets and alleys of the Continent of Atlasia, when talk turns to the Elysian Church, it is not the Great Nine — lofty as the sun and moon — nor the star-scattered ranks of priests that linger on people's lips. The heavens of the gods lie far beyond the reach of common folk, and the priests' prayers, disputes, and fiscal minutiae prove all too dull.\n  \nWhat they speak of, always, is the group known as the Seven Virtues — a body born with humanity's first nation, Elysium, and shrouded in legend. Church records tell that two millennia past, the gods descended from the high tower, bringing an end to the Age of Darkness — a time steeped in bloodshed and strife. Into sacred relics they poured their divine power, bestowing them upon the Patriarch and seven chosen ones — those who first bore the name Seven Virtues.\n \nBathed in holy radiance, they became agents of the divine will, safeguarding the harmony and prosperity of Elysium. Clad in gleaming arms, they repelled the tides of Filthoids and the fallen heretics, that the people might dwell in safety. And when a Virtue's mortal vessel fades, the relic falls silent — awaiting the hand of its next bearer. Thus has the mercy and might of the gods flowed through the dawns and dusks of Elysium, unbroken across the ages.",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010201"
+        },
+        UI_CHAR_DATA_TEXT_15010202 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010202"
+        },
+        UI_CHAR_DATA_TEXT_15010203 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010203"
+        },
+        UI_CHAR_DATA_TEXT_15010204 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010204"
+        },
+        UI_CHAR_DATA_TEXT_15010205 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010205"
+        },
+        UI_CHAR_DATA_TEXT_15010301 = {
+          ContentEN = "The young Lisbell, having drawn the sacred sword Samael, was duly named candidate for Patience among the Seven Virtues of the Elysian Church.\n \nShe did not at once assume the vacant seat of Patience — not merely because her years were too tender for so great a burden, but more so because Samael, from that moment on, never again deigned to answer her.\n \nThus, to rouse the slumbering spirit within the sacred blade, Lisbell set forth upon her path of cultivation.",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010301"
+        },
+        UI_CHAR_DATA_TEXT_15010302 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010302"
+        },
+        UI_CHAR_DATA_TEXT_15010303 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010303"
+        },
+        UI_CHAR_DATA_TEXT_15010304 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010304"
+        },
+        UI_CHAR_DATA_TEXT_15010305 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010305"
+        },
+        UI_CHAR_DATA_TEXT_15010401 = {
+          ContentEN = "Lisbell once set all of Elysium astir — for at the tender age of twelve, she drew the long-unclaimed sacred sword, Samael. In that instant, the young noblewoman shone like a diamond newly unearthed, no longer merely a child of lineage, but one deemed worthy to stand among the Seven Virtues — to wield authority and ascend to the very pinnacle of that ancient divine nation.\n \nTo the adults about her, however, there was little astonishment. The mantle of Patience had ever been borne by the ancient and honourable house of Evangelinos. Sooner or later, it was fated to rest upon Lisbell, their sole heir. Yet, still but a child, she understood nothing of it. The morning after she drew the sacred sword, Lisbell sat at the dining table as always, drowsily tapping the rim of her bowl with a spoon. Like any child, she had her fussy dislikes — quinoa, meat pies, sturgeon, pike. Yet for the sake of her health, the old steward unfailingly set those very dishes before her.\n \nUnable to vent her anger at him, she showed her displeasure in the only way she could — a small breach of etiquette, the clink of a spoon against porcelain. The day was already shaping into an irksome one... She forced her way through breakfast, then, as her parents required, turned to the customary post-meal reading. Stretching on tiptoe, she tugged a stack of newspapers from a shelf four times her height — The Morning Bell of the Sacred Tower, a novelty of the northern lands, and at least less soporific than the usual tomes. Rubbing her eyes, Lisbell unfolded the paper. Petite as she was, her feet swung above the floor, and the paper, once unfolded, spanned nearly the breadth of her arms.\n \nShe wrestled with its yellowed, crinkling pages, which rustled faintly, when suddenly she came face to face with her own likeness.\n \n"Huh!!?" A loud, bewildered cry rang out — wholly unfitting for a young lady of her station. It took her a heartbeat to grasp what she saw. Then her voice went echoing through the manor halls: "Mr Steward! Mr Steward! How did I end up in the newspaper!?" Still astonished, she dragged the unwieldy sheet along behind her as she ran, not fully understanding what had happened — but certain that the ever-reliable steward with the long white beard would have the answer.The steward, however, had scarcely slept all night.\n \nAs a son of Elysium and loyal servant of the house of Evangelinos, he knew full well: the girl in the paper, favoured by the gods, must be the long-vacant Patience. Yet he prayed to the Great Nine that time might be turned back — that he might somehow have stayed the hand of fate, held back his headstrong young mistress. If only it could have been a few years later! If the gods, or the family head, willed that she must join the Seven Virtues, why could they not show greater generosity, greater patience? At least until she had lived out the fullness of her childhood... until she came to understand the world's ways... until she learned to temper bewilderment with restraint, discontent with discipline... until she outgrew her wayward sympathy and compassion, and learned to accept and endure the fate bestowed upon all by the Great Nine.\n \nLisbell's shouts and hurried footsteps rang closer and closer. The old steward knew too well — in a moment, his young mistress would come bursting through the drawing-room door.\n \nHe had only just seen off the Patriarch's envoy. In his hands he now held the golden laurel crown bestowed by the Church, together with the summons calling Lisbell to an audience. They weighed almost nothing, yet in his grasp they felt heavy as lead. He could scarcely bring himself to imagine laying such burdens upon those slight, unready shoulders.\n \nAh, her footsteps — still brisk — the privilege of one unburdened by duty. He listened as they drew near, until Lisbell burst into the room, a crumpled newspaper clutched in her hands, her eyes wide with innocent wonder. "Mr Steward — what's that you're holding?"\n \nAnd in that moment, he knew: the carefree days of his young mistress had come to their end.",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010401"
+        },
+        UI_CHAR_DATA_TEXT_15010402 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010402"
+        },
+        UI_CHAR_DATA_TEXT_15010403 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010403"
+        },
+        UI_CHAR_DATA_TEXT_15010404 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010404"
+        },
+        UI_CHAR_DATA_TEXT_15010405 = {
+          ContentEN = "Coming Soon",
+          TextMapId = "UI_CHAR_DATA_TEXT_15010405"
+        },
         UI_CHAR_DATA_TEXT_15020101 = {
           ContentEN = "Lady Nifle leaves a quiet first impression — gentle, poised, and seemingly untouched by even the deepest stirrings of emotion.",
           TextMapId = "UI_CHAR_DATA_TEXT_15020101"
@@ -47419,7 +49868,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_15020202"
         },
         UI_CHAR_DATA_TEXT_15020203 = {
-          ContentEN = "In the annals of Atlasia, the year 998 stands as a boundary no historian dares overlook. Some scholars divide the continent's past into two distinct eras: Before 998, and After 998. For it was in that year that the disillusioned cast aside the gods. They tore down the icons they once revered, raised blades in defiance, and abandoned the lands they had long called home. Marching northward into hardship and uncertainty, they began what would come to be known as the Great Migration — an event forever entwined with the name Erika.\nDaughter of Lord Generous, Erika could have lived a life of comfort and privilege. Instead, she chose to fight — for freedom, for equality — even if it meant standing against her own blood. Records describe her as valiant and passionate, a warrior who led from the front, spear in hand — her unshakable back becoming a banner for others to follow.\nAs for Erika's closest companion, the chronicles mention only one name: Alexis, the sage who would one day found the Free State of Aethyrie. Yet in the stories passed down by those who walked the Great Migration themselves, there is always mention of another —\na young woman, rarely seen apart from Erika. The two were like sisters, inseparable in both step and spirit. But their temperaments could not have been more different: Erika shone with the brilliance of the noonday sun; while the other girl was quiet, reserved — a gentle soul, more akin to the aurora that quietly graces the polar night.",
+          ContentEN = "Sacred Tower Era, Year 998 — known also as Year One of the New Era — stands as a boundary no historian dares overlook. Some scholars divide the continent's past into two distinct eras: Before 998, and After 998. For it was in that year that the disillusioned cast aside the gods. They tore down the icons they once revered, raised blades in defiance, and abandoned the lands they had long called home. Marching northward into hardship and uncertainty, they began what would come to be known as the Great Migration — an event forever bound to the name Erika.\n \nDaughter of Lord Generous, Erika could have lived a life of comfort and privilege. Instead, she chose to fight — for freedom, for equality — even if it meant standing against her own blood. Records describe her as valiant and passionate — a warrior who led from the front, spear in hand; her unshakable back a banner for others to follow.\n \nAs for Erika's closest companion, the chronicles mention only one name: Alexis — the sage who would one day found the Free State of Aethyrie. Yet in stories passed down by those who walked the Great Migration themselves, there is always mention of another — a young woman, rarely seen apart from Erika. The two were like sisters, inseparable in both step and spirit. Yet their temperaments could not have been more different: Erika shone with the brilliance of the noonday sun, while the other girl was quiet, reserved — a gentle soul, more akin to the aurora that softly graces the polar night.",
           TextMapId = "UI_CHAR_DATA_TEXT_15020203"
         },
         UI_CHAR_DATA_TEXT_15020204 = {
@@ -47523,7 +49972,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_18010203"
         },
         UI_CHAR_DATA_TEXT_18010204 = {
-          ContentEN = "Later, rumours swirled that Mrs Glenville — the widow who had married a wealthy man years ago — had suddenly gone mad. On one stormy night, she lost her senses and attempted to set fire to her mansion. Thankfully, the fire was quickly extinguished. The madwoman then fled with her Charon daughter, only to be tragically caught in a brawl among vagrants in the Icelake Suburb, where she was fatally wounded by a stray bullet.\nIn the tavern, patrons eagerly speculated about the details, painting vivid pictures of how the madwoman irrationally sought to destroy riches that most could only dream of, leaving her handsome, successful husband to wander the streets.\nWhile skillfully mixing syrup into base spirits, the landlady mused without looking up, "But wasn't it pouring all night? How does one even start a fire in such a downpour?"\nYet, the allure of a sensational tale always triumphs over minor inconsistencies. As the story was retold, it morphed, eventually placing all blame for the family's misfortunes squarely on the Charon girl. Her purported hatred for her stepfather and Mortalan siblings supposedly drove her to unleash endless misfortunes on her family through her wicked magic.\n"But where did the girl end up?" someone wondered.\n"Who knows? Probably living with the rats in the sewers by now. Better watch out on your nighttime strolls, folks — she might snatch you for a midnight snack!"\nLaughter filled the tavern, echoing merrily against the clink of glasses.",
+          ContentEN = "Later, rumours swirled that Mrs Glenville — the widow who had married a wealthy man years ago — had suddenly gone mad. On one stormy night, she lost her senses and attempted to set fire to her mansion. Thankfully, the fire was quickly extinguished. The madwoman then fled with her Charon daughter, only to be tragically caught in a brawl among vagrants in the Icelake Suburb, where she was fatally wounded by a stray bullet.\nIn the tavern, patrons eagerly speculated about the details, painting vivid pictures of how the madwoman irrationally sought to destroy riches that most could only dream of, leaving her handsome, successful husband to wander the streets.\nWhile skillfully mixing syrup into base spirits, the landlady mused without looking up, "But wasn't it pouring all night? How does one even start a fire in such a downpour?"\nYet, the allure of a sensational tale always triumphs over minor inconsistencies. As the story was retold, it morphed, eventually placing all blame for the family's misfortunes squarely on the Charon girl. Her purported hatred for her stepfather and Sola siblings supposedly drove her to unleash endless misfortunes on her family through her wicked magic.\n"But where did the girl end up?" someone wondered.\n"Who knows? Probably living with the rats in the sewers by now. Better watch out on your nighttime strolls, folks — she might snatch you for a midnight snack!"\nLaughter filled the tavern, echoing merrily against the clink of glasses.",
           TextMapId = "UI_CHAR_DATA_TEXT_18010204"
         },
         UI_CHAR_DATA_TEXT_18010205 = {
@@ -47535,7 +49984,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_18010301"
         },
         UI_CHAR_DATA_TEXT_18010302 = {
-          ContentEN = "Fina was born into an unconventional family, with a Charon father and a Mortalan mother — a rare occurrence in Hyperborea for obvious reasons.\nHer parents were clandestine devotees of the Great Nine of Elysium, practising a faith that preached indistinguishable equality between Mortalans and Charons, despite their disparate physical appearances and abilities. However, such beliefs were strictly prohibited in Hyperborea. Fina's father was eventually apprehended and executed for his convictions. In a final act of protection, he claimed sole responsibility for hiding the forbidden Elysian scriptures found in their home, hoping to shield his wife and daughter from persecution.",
+          ContentEN = "Fina was born into an unconventional family, with a Charon father and a Sola mother — a rare occurrence in Hyperborea for obvious reasons.\nHer parents were clandestine devotees of the Great Nine of Elysium, practising a faith that preached indistinguishable equality between Solas and Charons, despite their disparate physical appearances and abilities. However, such beliefs were strictly prohibited in Hyperborea. Fina's father was eventually apprehended and executed for his convictions. In a final act of protection, he claimed sole responsibility for hiding the forbidden Elysian scriptures found in their home, hoping to shield his wife and daughter from persecution.",
           TextMapId = "UI_CHAR_DATA_TEXT_18010302"
         },
         UI_CHAR_DATA_TEXT_18010303 = {
@@ -47551,7 +50000,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_18010305"
         },
         UI_CHAR_DATA_TEXT_18010401 = {
-          ContentEN = "From the hazy memories of her early childhood, Fina recalls a phrase her parents often mentioned with profound reverence — "The Elysian Canon."\nUnaware of its meaning, she asked with the lisp of a toddler, "What is that, Mommy?"\n”It's what Mommy and Daddy believe in," her mother explained, "All of us — Mortalans and Charons alike — were sculpted by the earliest deities from the sacred tree. The tree's branches formed our bodies, its leaves our hair, and its sap our souls. Every sentient creature in this world possesses a soul of equal worth."\nLittle Fina, with confusion clouding her young face, struggled with the concepts of "Mortalans," "Charons," and "souls" — words far too complex for a three-year-old to grasp. Sensing Fina's bewilderment, her mother gently stroked her hair and picked up a storybook from the shelf. She sketched two figures: one with a regular head and another with two horns protruding from the forehead.\n"See, this one is a Mortalan, and this one is a sprite. They come from different families. Their families told them they were born to be enemies because they look different."\n"But... why can't they be friends?" Fina asked softly, biting her lower lip.\n"They couldn't do that, at least not at first. But one day, a fairy gave them each a book called the Elysian Canon. Through it, they realised that their souls were no different from each other's, and that they were meant to cherish and love each other instead of fighting."\n"Ah... so it's like Mommy and Daddy!” Fina exclaimed, beginning to understand. "Daddy has horns, and Mommy doesn't. But you still love each other, and you had me."\n"Yes, my dear," her mother smiled, tenderly kissing Fina on the forehead. "Just like how Mommy loves Daddy, and how we love you."\nFina's fairy tale began with the "Elysian Canon," but in the end, it was also the very reason things fell apart.\nOne night, the guards of Icelake burst into Fina's home unannounced, ransacking the place with brutal efficiency. Fina's mother hid with her in a cramped space beneath the basement, listening as the soldiers' boots pounded the floor above like a relentless storm. Fina could hear her father arguing desperately with the guards, fragments of heated words reaching her ears — something about "illegal possession of Elysian scriptures" and "worshipping false Elysian gods"... Then came sounds of a scuffle and the heavy thud of a body hitting the floor... Her mother clamped a hand over her mouth, silencing her screams and cries as Fina held her breath, clutching her fear tightly.\n"Daddy's gone to a faraway place. He's not coming back," Fina's mother whispered to her, her voice trembling as she looked around the house left in shambles after the search that night.\nIt was then that Fina understood — Papa Nightingale had fallen. Her fairy tale had come to an end.",
+          ContentEN = "From the hazy memories of her early childhood, Fina recalls a phrase her parents often mentioned with profound reverence — "The Elysian Canon."\nUnaware of its meaning, she asked with the lisp of a toddler, "What is that, Mommy?"\n”It's what Mommy and Daddy believe in," her mother explained, "All of us — Solas and Charons alike — were sculpted by the earliest deities from the sacred tree. The tree's branches formed our bodies, its leaves our hair, and its sap our souls. Every sentient creature in this world possesses a soul of equal worth."\nLittle Fina, with confusion clouding her young face, struggled with the concepts of "Solas," "Charons," and "souls" — words far too complex for a three-year-old to grasp. Sensing Fina's bewilderment, her mother gently stroked her hair and picked up a storybook from the shelf. She sketched two figures: one with a regular head and another with two horns protruding from the forehead.\n"See, this one is a Sola, and this one is a sprite. They come from different families. Their families told them they were born to be enemies because they look different."\n"But... why can't they be friends?" Fina asked softly, biting her lower lip.\n"They couldn't do that, at least not at first. But one day, a fairy gave them each a book called the Elysian Canon. Through it, they realised that their souls were no different from each other's, and that they were meant to cherish and love each other instead of fighting."\n"Ah... so it's like Mommy and Daddy!” Fina exclaimed, beginning to understand. "Daddy has horns, and Mommy doesn't. But you still love each other, and you had me."\n"Yes, my dear," her mother smiled, tenderly kissing Fina on the forehead. "Just like how Mommy loves Daddy, and how we love you."\nFina's fairy tale began with the "Elysian Canon," but in the end, it was also the very reason things fell apart.\nOne night, the guards of Icelake burst into Fina's home unannounced, ransacking the place with brutal efficiency. Fina's mother hid with her in a cramped space beneath the basement, listening as the soldiers' boots pounded the floor above like a relentless storm. Fina could hear her father arguing desperately with the guards, fragments of heated words reaching her ears — something about "illegal possession of Elysian scriptures" and "worshipping false Elysian gods"... Then came sounds of a scuffle and the heavy thud of a body hitting the floor... Her mother clamped a hand over her mouth, silencing her screams and cries as Fina held her breath, clutching her fear tightly.\n"Daddy's gone to a faraway place. He's not coming back," Fina's mother whispered to her, her voice trembling as she looked around the house left in shambles after the search that night.\nIt was then that Fina understood — Papa Nightingale had fallen. Her fairy tale had come to an end.",
           TextMapId = "UI_CHAR_DATA_TEXT_18010401"
         },
         UI_CHAR_DATA_TEXT_18010402 = {
@@ -47563,7 +50012,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_18010403"
         },
         UI_CHAR_DATA_TEXT_18010404 = {
-          ContentEN = ""Fina, I'm home—"\nAs night fell, with the wind howling and snow swirling outside, Outsider pushed open the wooden door adorned with a small bird motif, carrying a bag of discounted groceries he had carefully picked out from a street vendor.\nThis small, humble house was Fina's new home.\nIn this simple dwelling, there were no beautiful dresses, fine china, or glittering gold... Yet it was a place where she no longer had to worry about stumbling over the hem of her long dress while trying to curtsey, endure cold leftovers served on elegant plates, or fear a thrashing from an exquisite gold cane. Instead, there were kirtles carefully sewn from rough linen, warm soup served in chipped wooden bowls, and a lovely nightlight made from scrap glass.\nAs the snow melted into droplets on his coat, Outsider haphazardly wiped them off with a towel and moved to the stove to start preparing dinner. Soon, the enticing aroma of cooking filled the air. Fina closed the half-finished picture book she was drawing in, carefully placing it on her lap to make room for the warm soup Outsider brought over.\nIt was just an ordinary evening — until a harsh knock rattled the old wooden door. Standing outside was a well-dressed gentleman, clutching a familiar gold cane. Upon seeing the cane, Fina's utensils clattered to the floor, along with the picture book and pencils in her lap.\n"Mr Outsider, I presume?" The gentleman removed his hat with a polite nod. "I am Morris Glenville. Thank you for taking care of Serafina, my runaway daughter. I've come to take her home."\n\nOutsider turned to see Fina shrinking into a corner, her small form curled up in fear. Her eyes, wide with terror, brimmed with tears. No words needed; Outsider understood what he had to do.\nHe stepped forward, shielding Fina with his body. "Please leave. She is my sister, not your daughter."\n"Perhaps there's been some misunderstanding, sir," Morris replied with a chilling smile, his eyes growing colder. "Her status isn't for someone of your kind to determine." He produced a pistol from his coat, aiming it steadily at Outsider. "You may have heard of me — I have little patience for pointless negotiations. Rest assured, I mean no harm if you understand your place. In fact, I'm even prepared to offer you a generous reward for your troubles in caring for my daughter these days."\nHe then turned to Fina, still cowering in the corner. "Come now, my dear. Be a good girl — just give Daddy the box your mommy gave you and come home."\nNeither Outsider nor Fina responded. Morris's patience began to wear thin. He pressed the gun to Outsider's forehead, raising his voice. "Don't test my patience. I'm going to count to ten. If you don't cooperate, I'll have to resort to less civil means."\n\n"Ten."\nFina's gaze fixed on the pistol. She remembered that stormy night two weeks ago — the very same gun had taken her mother's life. The bullet had been meant for her, but her mother had shielded her from it. She fell to the ground, blood gushing from the wound like a crimson blossom in the rain.\nShe kept saying, "Run, Fina. Don't look back."\n\n"Nine."\nFina looked to Outsider. His hand was hidden behind him, discreetly reaching for the hilt of a dagger, yet trembling slightly. Even Fina, who had rarely left home, had heard from the servants what fate awaited a Charon who dared to harm a Mortalan.\n"Eight."\nFina's mind raced back to that rainy night. She had run with all her might, her stepfather and the servants' footsteps closing in behind her. She had called forth Mr White Bird from her fairy tales, who briefly slowed them down. But just when she gasped for breath, relieved at her escape, her foot slipped, and she tumbled into the icy torrent.\nIn the darkness, she felt the cold water pulling her deeper into an abyss darker than the stormy night. She struggled desperately, grasping at splintered planks that could barely keep her afloat; she also felt rotting vegetables and sharp, slimy fish bones. Eventually, she lost the strength to hold on, letting the current drag her to an unknown fate.\n\n"Seven."\nFina remembered that rainy night. As the water engulfed her, Fina thought to herself, "Maybe I'm going to join Mommy and Daddy in another world." She felt her consciousness, her memories, and her very essence ebbing away. "Mommy," she murmured weakly, "Mommy."\nPerhaps her cry reached the heavens — she thought she heard footsteps halt beside her. Then she felt gentle arms pull her from the cold darkness. It must be Mommy, she thought, and she finally drifted off to sleep.\n\n"Six."\nFina recalled waking in an unfamiliar room. The room was tiny, smaller even than the attic she used to live in; the bed was hard, harder than any servant's bed. But a beam of sunlight had found its way through a crack in the roof. Dust motes danced merrily in the rays before settling on the back of a stranger, yet she wasn't afraid. The image reminded her of her mother — when she was very little and still had a "home," she would always wake up to see her mother's silhouette in the morning light.\n"Mommy," she whispered hoarsely to the figure. "Mommy..."\n\n"Five."\nFina remembered the day she called Outsider "Mommy." He had crossed his arms, utterly baffled. "Don't you mean 'Daddy'...? No, wait, I'm not that old... 'Brother' would be the right title."\nBut her mind was in a fog, and she couldn't bring herself to figure out the situation. "Mommy," she kept muttering. Outsider eventually shrugged, resigned. "Alright, whatever you like."\n\n"Four."\nFina's hand discreetly fumbled around her. Since she was severely wounded from falling into the sewer, her faint magic powers hadn't recovered. She groped desperately for anything that might help.\nSuddenly, her fingers brushed against something cold and hard — it was a gun. Outsider's gun.\n\n"Three."\nFina remembered how Outsider was clueless about caring for a child when she first arrived. She missed her mother a lot and was always tearful. Failing to comfort her, Outsider frustratedly raked his hands through his hair. Then, a spark of inspiration struck — he rummaged and retrieved a gun from the cabinet, carefully removing the bullets before handing it to her. "Here, take this. When I was a kid, this was my favourite toy."\nHowever, the sight of the gun — the same kind of metal that had taken her mother's life — only intensified Fina's sobbing.\n\n"Two."\nFina remembered how Outsider fell silent when she tossed the gun away. But eventually, he still picked it up and placed it back in her hands. With a mix of seriousness and tenderness, he told Fina—\n"Don't fear this thing," he instructed softly. "I'll teach you how to master it. Though it's dangerous, it's the only thing you can rely on to protect yourself and the people you care about."\n\n"One."\nFina remembered her little birthday celebration. That day, she wrapped her mother in the wings of her Mr White Bird plush. \n"Fina will protect Mommy."\n\n"Zero."\nThe plush bird's feathers fell like snow, clouding her vision.\n\n"Bang—"\nThe gunshot echoed.\nMorris Glenville staggered backwards, his frame hitting the ground with a heavy thud. Disbelief etched his features as he collapsed, a dagger piercing his heart and a bullet hole in his chest.\nThe gun tumbled from Fina's hand, the smoke from the muzzle curling up into the air. She looked towards Outsider, her sweet smile tinged with sadness. "Outsider, now we're both 'bad sorcerers,' aren't we?"",
+          ContentEN = ""Fina, I'm home—"\nAs night fell, with the wind howling and snow swirling outside, Outsider pushed open the wooden door adorned with a small bird motif, carrying a bag of discounted groceries he had carefully picked out from a street vendor.\nThis small, humble house was Fina's new home.\nIn this simple dwelling, there were no beautiful dresses, fine china, or glittering gold... Yet it was a place where she no longer had to worry about stumbling over the hem of her long dress while trying to curtsey, endure cold leftovers served on elegant plates, or fear a thrashing from an exquisite gold cane. Instead, there were kirtles carefully sewn from rough linen, warm soup served in chipped wooden bowls, and a lovely nightlight made from scrap glass.\nAs the snow melted into droplets on his coat, Outsider haphazardly wiped them off with a towel and moved to the stove to start preparing dinner. Soon, the enticing aroma of cooking filled the air. Fina closed the half-finished picture book she was drawing in, carefully placing it on her lap to make room for the warm soup Outsider brought over.\nIt was just an ordinary evening — until a harsh knock rattled the old wooden door. Standing outside was a well-dressed gentleman, clutching a familiar gold cane. Upon seeing the cane, Fina's utensils clattered to the floor, along with the picture book and pencils in her lap.\n"Mr Outsider, I presume?" The gentleman removed his hat with a polite nod. "I am Morris Glenville. Thank you for taking care of Serafina, my runaway daughter. I've come to take her home."\n\nOutsider turned to see Fina shrinking into a corner, her small form curled up in fear. Her eyes, wide with terror, brimmed with tears. No words needed; Outsider understood what he had to do.\nHe stepped forward, shielding Fina with his body. "Please leave. She is my sister, not your daughter."\n"Perhaps there's been some misunderstanding, sir," Morris replied with a chilling smile, his eyes growing colder. "Her status isn't for someone of your kind to determine." He produced a pistol from his coat, aiming it steadily at Outsider. "You may have heard of me — I have little patience for pointless negotiations. Rest assured, I mean no harm if you understand your place. In fact, I'm even prepared to offer you a generous reward for your troubles in caring for my daughter these days."\nHe then turned to Fina, still cowering in the corner. "Come now, my dear. Be a good girl — just give Daddy the box your mommy gave you and come home."\nNeither Outsider nor Fina responded. Morris's patience began to wear thin. He pressed the gun to Outsider's forehead, raising his voice. "Don't test my patience. I'm going to count to ten. If you don't cooperate, I'll have to resort to less civil means."\n\n"Ten."\nFina's gaze fixed on the pistol. She remembered that stormy night two weeks ago — the very same gun had taken her mother's life. The bullet had been meant for her, but her mother had shielded her from it. She fell to the ground, blood gushing from the wound like a crimson blossom in the rain.\nShe kept saying, "Run, Fina. Don't look back."\n\n"Nine."\nFina looked to Outsider. His hand was hidden behind him, discreetly reaching for the hilt of a dagger, yet trembling slightly. Even Fina, who had rarely left home, had heard from the servants what fate awaited a Charon who dared to harm a Sola.\n"Eight."\nFina's mind raced back to that rainy night. She had run with all her might, her stepfather and the servants' footsteps closing in behind her. She had called forth Mr White Bird from her fairy tales, who briefly slowed them down. But just when she gasped for breath, relieved at her escape, her foot slipped, and she tumbled into the icy torrent.\nIn the darkness, she felt the cold water pulling her deeper into an abyss darker than the stormy night. She struggled desperately, grasping at splintered planks that could barely keep her afloat; she also felt rotting vegetables and sharp, slimy fish bones. Eventually, she lost the strength to hold on, letting the current drag her to an unknown fate.\n\n"Seven."\nFina remembered that rainy night. As the water engulfed her, Fina thought to herself, "Maybe I'm going to join Mommy and Daddy in another world." She felt her consciousness, her memories, and her very essence ebbing away. "Mommy," she murmured weakly, "Mommy."\nPerhaps her cry reached the heavens — she thought she heard footsteps halt beside her. Then she felt gentle arms pull her from the cold darkness. It must be Mommy, she thought, and she finally drifted off to sleep.\n\n"Six."\nFina recalled waking in an unfamiliar room. The room was tiny, smaller even than the attic she used to live in; the bed was hard, harder than any servant's bed. But a beam of sunlight had found its way through a crack in the roof. Dust motes danced merrily in the rays before settling on the back of a stranger, yet she wasn't afraid. The image reminded her of her mother — when she was very little and still had a "home," she would always wake up to see her mother's silhouette in the morning light.\n"Mommy," she whispered hoarsely to the figure. "Mommy..."\n\n"Five."\nFina remembered the day she called Outsider "Mommy." He had crossed his arms, utterly baffled. "Don't you mean 'Daddy'...? No, wait, I'm not that old... 'Brother' would be the right title."\nBut her mind was in a fog, and she couldn't bring herself to figure out the situation. "Mommy," she kept muttering. Outsider eventually shrugged, resigned. "Alright, whatever you like."\n\n"Four."\nFina's hand discreetly fumbled around her. Since she was severely wounded from falling into the sewer, her faint magic powers hadn't recovered. She groped desperately for anything that might help.\nSuddenly, her fingers brushed against something cold and hard — it was a gun. Outsider's gun.\n\n"Three."\nFina remembered how Outsider was clueless about caring for a child when she first arrived. She missed her mother a lot and was always tearful. Failing to comfort her, Outsider frustratedly raked his hands through his hair. Then, a spark of inspiration struck — he rummaged and retrieved a gun from the cabinet, carefully removing the bullets before handing it to her. "Here, take this. When I was a kid, this was my favourite toy."\nHowever, the sight of the gun — the same kind of metal that had taken her mother's life — only intensified Fina's sobbing.\n\n"Two."\nFina remembered how Outsider fell silent when she tossed the gun away. But eventually, he still picked it up and placed it back in her hands. With a mix of seriousness and tenderness, he told Fina—\n"Don't fear this thing," he instructed softly. "I'll teach you how to master it. Though it's dangerous, it's the only thing you can rely on to protect yourself and the people you care about."\n\n"One."\nFina remembered her little birthday celebration. That day, she wrapped her mother in the wings of her Mr White Bird plush. \n"Fina will protect Mommy."\n\n"Zero."\nThe plush bird's feathers fell like snow, clouding her vision.\n\n"Bang—"\nThe gunshot echoed.\nMorris Glenville staggered backwards, his frame hitting the ground with a heavy thud. Disbelief etched his features as he collapsed, a dagger piercing his heart and a bullet hole in his chest.\nThe gun tumbled from Fina's hand, the smoke from the muzzle curling up into the air. She looked towards Outsider, her sweet smile tinged with sadness. "Outsider, now we're both 'bad sorcerers,' aren't we?"",
           TextMapId = "UI_CHAR_DATA_TEXT_18010404"
         },
         UI_CHAR_DATA_TEXT_18010405 = {
@@ -47755,7 +50204,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_31010204"
         },
         UI_CHAR_DATA_TEXT_31010301 = {
-          ContentEN = "Though Lynn is one of the most trusted subordinates of Sibylle, she is somewhat strapped for money.",
+          ContentEN = "Though counted among Sibylle's most trusted subordinates, Lynn lives with modest means.",
           TextMapId = "UI_CHAR_DATA_TEXT_31010301"
         },
         UI_CHAR_DATA_TEXT_31010302 = {
@@ -48063,7 +50512,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_33010303"
         },
         UI_CHAR_DATA_TEXT_33010304 = {
-          ContentEN = "Margie once harboured deep disappointment towards Icelake. At that time, she had just witnessed the deep-seated hatred that Mortalans held for Charons and experienced firsthand the harsh conditions the Charon community was forced to endure. As a child, she couldn't understand why such relentless persecution persisted — why pain and hardship, meant to be avoided, were wielded as instruments of power. In Icelake, the privileged often demonstrated their status by inflicting misery on others, a practice Margie found utterly senseless.\nDuring that time, Icelake seemed to Margie to be shrouded in a strange, purplish haze — a hue that reminded her of the numbing cold of frostbite.",
+          ContentEN = "Margie once harboured deep disappointment towards Icelake. At that time, she had just witnessed the deep-seated hatred that Solas held for Charons and experienced firsthand the harsh conditions the Charon community was forced to endure. As a child, she couldn't understand why such relentless persecution persisted — why pain and hardship, meant to be avoided, were wielded as instruments of power. In Icelake, the privileged often demonstrated their status by inflicting misery on others, a practice Margie found utterly senseless.\nDuring that time, Icelake seemed to Margie to be shrouded in a strange, purplish haze — a hue that reminded her of the numbing cold of frostbite.",
           TextMapId = "UI_CHAR_DATA_TEXT_33010304"
         },
         UI_CHAR_DATA_TEXT_33010305 = {
@@ -48071,7 +50520,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_33010305"
         },
         UI_CHAR_DATA_TEXT_33010401 = {
-          ContentEN = "Spring in Icelake is fleeting, which makes it all the more precious.\nIt's a time of unusually pleasant weather, with blossoming flowers, returning migratory birds, and emerald green butterflies fluttering by. If you miss out on such a lovely season due to relentless work, you'll heartbreakingly regret it once the long winter sets in.\nSo, Margie easily convinced herself that taking a rare break wouldn't hurt. Instead of bustling about as usual, she chose to lounge lazily on a bench, soaking up the warm spring sunshine.\nAs she drifted towards sleep, a conversation about a stray cat caught her ear.\n"Look, Mom, it's licking my hand! It's so sad this little kitty doesn't have a home. Can we take it home?"\n"Sweetheart, I can let you take this one home. But you know, there are so many stray cats and dogs out there. We can't possibly take care of them all, right? So, it can only happen once. Are you sure you want to take this one home?"\nThe dialogue tapered off, not because their conversation ended, but because Margie finally dozed off, torn between guilt and the rare pleasure of lazing around.\n\nWhen she woke, the sun had nearly vanished behind the city walls. Just as she was about to rub her bleary eyes, she felt something furry resting on her hand.\nShe glanced down to see a tiny black kitten curled up beside her, blending into the night as the sun set, probably seeking warmth from her. Lifting the kitten gently, Margie chuckled at its peculiar appearance — a skinny little thing with long white eyebrows that made it look like a quirky old man, which was probably why the mother and child hadn't taken it home.\nWrapping the kitten in her coat, Margie walked through the slum, bathed in the glow of streetlights. She smiled and responded to greetings from the residents as she made her way back to her humble home. Cuddling the kitten in her arms, she smiled and murmured, "Everyone needs a bit of care now and then, whether it's a Mortalan, a Charon, or a kitten like you."\nThe kitten, looking simultaneously old and young, didn't understand her words but timidly accepted her caress, retracting its tiny claws.\nAfter pondering for a moment, Margie playfully grabbed the kitten's flicking tail and kneaded it, giggling, "From now on, you're Blacktail... Ow!"\nThe next day, with three fresh scratches on her face, Margie resumed her tasks with a heavy heart. Even the warmth of Icelake's sun failed to lift her spirits. But everyone knew that by lunchtime, the cheerful Margie would return to brighten their day.",
+          ContentEN = "Spring in Icelake is fleeting, which makes it all the more precious.\nIt's a time of unusually pleasant weather, with blossoming flowers, returning migratory birds, and emerald green butterflies fluttering by. If you miss out on such a lovely season due to relentless work, you'll heartbreakingly regret it once the long winter sets in.\nSo, Margie easily convinced herself that taking a rare break wouldn't hurt. Instead of bustling about as usual, she chose to lounge lazily on a bench, soaking up the warm spring sunshine.\nAs she drifted towards sleep, a conversation about a stray cat caught her ear.\n"Look, Mom, it's licking my hand! It's so sad this little kitty doesn't have a home. Can we take it home?"\n"Sweetheart, I can let you take this one home. But you know, there are so many stray cats and dogs out there. We can't possibly take care of them all, right? So, it can only happen once. Are you sure you want to take this one home?"\nThe dialogue tapered off, not because their conversation ended, but because Margie finally dozed off, torn between guilt and the rare pleasure of lazing around.\n\nWhen she woke, the sun had nearly vanished behind the city walls. Just as she was about to rub her bleary eyes, she felt something furry resting on her hand.\nShe glanced down to see a tiny black kitten curled up beside her, blending into the night as the sun set, probably seeking warmth from her. Lifting the kitten gently, Margie chuckled at its peculiar appearance — a skinny little thing with long white eyebrows that made it look like a quirky old man, which was probably why the mother and child hadn't taken it home.\nWrapping the kitten in her coat, Margie walked through the slum, bathed in the glow of streetlights. She smiled and responded to greetings from the residents as she made her way back to her humble home. Cuddling the kitten in her arms, she smiled and murmured, "Everyone needs a bit of care now and then, whether it's a Sola, a Charon, or a kitten like you."\nThe kitten, looking simultaneously old and young, didn't understand her words but timidly accepted her caress, retracting its tiny claws.\nAfter pondering for a moment, Margie playfully grabbed the kitten's flicking tail and kneaded it, giggling, "From now on, you're Blacktail... Ow!"\nThe next day, with three fresh scratches on her face, Margie resumed her tasks with a heavy heart. Even the warmth of Icelake's sun failed to lift her spirits. But everyone knew that by lunchtime, the cheerful Margie would return to brighten their day.",
           TextMapId = "UI_CHAR_DATA_TEXT_33010401"
         },
         UI_CHAR_DATA_TEXT_33010402 = {
@@ -48083,7 +50532,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_33010403"
         },
         UI_CHAR_DATA_TEXT_33010404 = {
-          ContentEN = "When Margie first stood before the city gates of Icelake, she was completely captivated by its sheer enormity.\nHer already blurry memories of her homeland, further clouded by a high fever, had faded into a vague haze. To her, the world had consisted solely of endless snowfields, extreme cold, predators and prey, starry skies, and the lonely warmth of a campfire shared with her father — her only companion.\nBut then Icelake, the destination her father had spoken of, abruptly appeared before her. At that moment, she could only describe her impression of the city in the simplest of terms: "Wow! What a big camp! So many people! So many new smells!"\nMargie felt like a lost child who had finally found her tribe. She was neither scared nor nervous. Instead, an overwhelming sense of belonging took root in her heart — she realised, for the first time, that the world wasn't just her and her father. And when night fell, the city's transformation was nothing short of breathtaking for Margie. If a single campfire at night had once sufficed to warm her, the myriad lights twinkling from the city's windows would now surely bathe her in an unimaginable glow of warmth.\nSo, when her father asked if she wanted to live there, she nodded without hesitation. Shortly thereafter, a woman named Camilla provided a long list of "dos & don'ts and off-limit places within Icelake", which overwhelmed young Margie into drowsiness. When she was awakened by Camilla for the fourth time, she finally blurted her confusion out, "There weren't this many rules living on the snowfields! Is it more dangerous here than in the wild?"\nCamilla and her father fell into a long, silent pause. Just as Margie was about to doze off again, her father gently patted her head and murmured, "Sweetie, perhaps you're right."\n\nThe second time Margie stood at the gates of Icelake, she was leaving. The towering city she once marvelled at had transformed in her eyes — it now resembled a silent, hulking beast, its gates a gaping maw. The joy and excitement of her initial visit had dissipated, replaced by a mix of confusion and disillusionment.\nShe couldn't understand why being impervious to the cold and having horns was enough to make her a target of scorn. She didn't understand why sneaking into the "inner city" out of curiosity could warrant harsh punishment. Most terrifyingly, everyone else seemed to accept this as normal — even the Mortalan children would unhesitatingly throw stones at her, as if she were an outright monster. It was then that Margie realised, belatedly, that what she had thought was her haven had never truly welcomed her.\nPerhaps a child born of the snowfields is destined to return to the endless white.\nTurning back, fighting the tears that threatened to fall, she embarked on a solitary adventure.",
+          ContentEN = "When Margie first stood before the city gates of Icelake, she was completely captivated by its sheer enormity.\nHer already blurry memories of her homeland, further clouded by a high fever, had faded into a vague haze. To her, the world had consisted solely of endless snowfields, extreme cold, predators and prey, starry skies, and the lonely warmth of a campfire shared with her father — her only companion.\nBut then Icelake, the destination her father had spoken of, abruptly appeared before her. At that moment, she could only describe her impression of the city in the simplest of terms: "Wow! What a big camp! So many people! So many new smells!"\nMargie felt like a lost child who had finally found her tribe. She was neither scared nor nervous. Instead, an overwhelming sense of belonging took root in her heart — she realised, for the first time, that the world wasn't just her and her father. And when night fell, the city's transformation was nothing short of breathtaking for Margie. If a single campfire at night had once sufficed to warm her, the myriad lights twinkling from the city's windows would now surely bathe her in an unimaginable glow of warmth.\nSo, when her father asked if she wanted to live there, she nodded without hesitation. Shortly thereafter, a woman named Camilla provided a long list of "dos & don'ts and off-limit places within Icelake", which overwhelmed young Margie into drowsiness. When she was awakened by Camilla for the fourth time, she finally blurted her confusion out, "There weren't this many rules living on the snowfields! Is it more dangerous here than in the wild?"\nCamilla and her father fell into a long, silent pause. Just as Margie was about to doze off again, her father gently patted her head and murmured, "Sweetie, perhaps you're right."\n\nThe second time Margie stood at the gates of Icelake, she was leaving. The towering city she once marvelled at had transformed in her eyes — it now resembled a silent, hulking beast, its gates a gaping maw. The joy and excitement of her initial visit had dissipated, replaced by a mix of confusion and disillusionment.\nShe couldn't understand why being impervious to the cold and having horns was enough to make her a target of scorn. She didn't understand why sneaking into the "inner city" out of curiosity could warrant harsh punishment. Most terrifyingly, everyone else seemed to accept this as normal — even the Sola children would unhesitatingly throw stones at her, as if she were an outright monster. It was then that Margie realised, belatedly, that what she had thought was her haven had never truly welcomed her.\nPerhaps a child born of the snowfields is destined to return to the endless white.\nTurning back, fighting the tears that threatened to fall, she embarked on a solitary adventure.",
           TextMapId = "UI_CHAR_DATA_TEXT_33010404"
         },
         UI_CHAR_DATA_TEXT_33010405 = {
@@ -48275,7 +50724,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_43010105"
         },
         UI_CHAR_DATA_TEXT_43010201 = {
-          ContentEN = "If you were to ask around the Hyperborean Empire about Sibylle Mason, you'd hear a thousand different stories.\nHistorians in their ivory towers will tell you that she's the first Charon-born ever to rise to the rank of Legion Chief — a milestone of great significance in the Empire's long history. \nAspiring Charons, eager to claim their place among the Laurelled, see Sibylle as an icon of inspiration — a figure who rose from meagre beginnings to wield a sceptre traditionally reserved for the Solarian.\nBut among the bitter and resentful Charons, those who harbour a deep hatred for the Empire, she is scorned as a traitor who abandoned her own kind for a scrap of power. They label her a lapdog of the regime, reviled and cursed by many.\nHer peers in the Legion are similarly divided: some admire her decisive methods and unwavering loyalty, while others whisper behind closed doors, viewing her as a dormant threat — a coiled viper, waiting for the right moment to strike.\nYet, despite these varied narratives, one shared piece of advice remains true: crossing Sibylle Mason is a perilous game.",
+          ContentEN = "Ask around the Hyperborean Empire about Sibylle Mason, and you'll hear a thousand different stories.\nHistorians in their ivory towers will tell you she's the first Charon-born ever to rise to the rank of Legion Chief — a milestone of great significance in the Empire's long history.\nAspiring Charons, eager to claim their place among the Laurelled, see Sibylle as an icon of inspiration — a figure who rose from meagre beginnings to wield a sceptre traditionally reserved for the Solarian.\nBut among the bitter and resentful Charons — those who harbour a deep hatred for the Empire — she is scorned as a traitor who abandoned her own kind for a scrap of power. They brand her a lapdog of the regime, reviled and cursed by many.\nHer peers in the Legion are similarly divided: some admire her decisive methods and unwavering loyalty, while others whisper behind closed doors, viewing her as a dormant threat — a coiled viper, waiting for the right moment to strike.\nYet despite these varied narratives, one piece of advice holds true: crossing Sibylle Mason is a perilous game.",
           TextMapId = "UI_CHAR_DATA_TEXT_43010201"
         },
         UI_CHAR_DATA_TEXT_43010202 = {
@@ -48323,7 +50772,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_43010403"
         },
         UI_CHAR_DATA_TEXT_43010404 = {
-          ContentEN = "Sibylle believes she's a survivor of what can only be likened to hell.\nWhat does hell look like? It's an expanse of flames that surge towards you no matter how desperately you try to escape, engulfing everything. The scalding air seeps into your nostrils, viscous and oppressive, while it crackles and roars around your ears. \nAbove this fiery sea, any birds brave enough to soar are reduced to blind ravens, plummeting into the scorched earth, stirring ripples of flame.\n\nThis operation was meant to be highly classified. The commander had run through countless scenarios before departure, yet no one truly understood the defensive might at the heart of the enemy's stronghold — the Elysian Church.\nAfter three days and nights of contemplation, the commander decided to roll the dice. A small but elite team would be deployed via the Empire's newest airships, aiming for a swift, decisive strike at the core of the enemy to "decapitate" their force.\nIt seemed a desperate gamble, but also their best shot at victory. Thirteen Daimons, disguised as regular soldiers, were dispatched quietly as provisions to the front, embarking on what might well be a one-way mission.\nThough they were mentally prepared for the worst, it wasn't until they stood under the gaze of the divine that they truly understood the terror of facing the gods.\n\nBeams of searing light tore through the night, burning as they streaked across the sky like an eternal fire, devouring everything in their path.\nAt that moment, Sibylle stood on the brink of this inferno. The most she could make out beyond the blaze were charred branches, or remnants of what might have been wildlife — though she no longer had the strength to tell them apart.\nLucky for Sibylle, she wasn't part of the commando unit but was reserved as the last resort. If all went to plan, once the team reached the heart of the tower and completed their mission, she would extract them from the shadows before the enemy even realized what had happened. If the mission failed, she would rescue as many wounded as possible to minimize losses.\nBut what unfolded was far beyond their darkest expectations.\nOut of the thirteen Daimons deployed, twelve reached the target area. Two were critically injured by the horrifying beams of light upon arrival. The commander quickly assessed the situation and made the grim decision to leave them behind, leading the remaining nine deeper into the stronghold.\nSibylle understood the harsh necessity — abandoning the wounded was the only viable strategy in the face of overwhelming enemy strength. Had she been in command, she would have made the same call.\nBut unlike the commander, who didn't look back after giving the order, Sibylle, stationed as a last resort outside the battlefield, had to watch her comrades confront their fate.\n\nThe two injured Daimons, thanks to their resilient nature, managed to prop themselves up with their swords.\nAs the flames around them subsided, their laboured breathing eased slightly, and they no longer spat hot blood with every breath.\nBut as the fire faded, a battalion of heavily armed knights appeared. Their footsteps alone, echoing through the battlefield, spoke of their elite status — soldiers sent not to take prisoners, but to eradicate every intruder.\nOrdinarily, Daimons could scatter foes like rabbits before a hound, but incapacitated, they were helpless prey.\nGunfire tore through the air, shredding the already feeble defences of sword arcs and tearing through the bodies of the two soldiers.\nInitially hesitant, the knights advanced, growing bolder with each step. Within moments, they were close enough to drive their blades into the spines of the fallen.\n\nWatching this brutal scene unfold, Sibylle felt a surreal detachment. These were her comrades, soldiers who had trained alongside her mere days before. Now, they stood at death's door, as she watched from afar.\nWith their last strength, they leaned on each other for support. Whether by chance or intent, their eyes met Sibylle's, where she lay hidden in the shadows.\nSibylle's rational mind, honed by years of discipline, told her to obey orders, to let her comrades die. But deep within, a faint voice desperately protested.\nThey had never treated her poorly. Like her, they were fiercely loyal to the Empire, determined to earn glory, each burdened by their own troubled pasts. Many nights had passed in the dim barracks, filled with exchanges of stories about the past and dreams for the future. For someone who claimed to have no friends, these soldiers had come the closest.\nAnd now, these almost-friends stood before her, gazing at her as they faced death. \nBut what did their gaze mean? Was it a plea for help? Doubt? Resentment? Or something else entirely?\n\nSibylle knew she should ignore these thoughts. She had to follow orders without question, to snuff out the last remnants of emotion within her, emotions that shouldn't have existed in the first place.\nBut... could she? Could she stand by and let her comrades, her almost-friends, die?\nIn a futile attempt to escape the weight of her decision, she closed her eyes, hoping the nightmare would disappear.\nBut in that very moment, her comrades made the decision for her — they drew their daggers, and with grim determination, plunged them into each other's throats. No hesitation, no second thoughts, as if they had made this choice long before. Smiling, they fell.\n\nAs the enemy troops pulled back to pursue the deeper intrusion within the tower, Sibylle exhaled a breath she hadn't even realized she was holding.\nBlinking, she felt something unexpected on her face — a single tear, something no one had ever seen from her. She didn't know what the tear meant, just as she hadn't understood the meaning behind her comrades' final gaze.\nPerhaps it was a tear of relief that she no longer had to make such a cruel, agonizing choice. Or perhaps it was something else entirely.\n\n...\nThe mission was ultimately a success — though all but Sibylle and the commander perished.\nShortly after, Sibylle was promoted to legion chief, and she would forever refer to this operation as her "survival from hell."",
+          ContentEN = "Sibylle believes herself a survivor of what can only be likened to hell.\nWhat does hell look like? It's an expanse of flame that surges toward you no matter how desperately you try to escape, engulfing everything. Scalding air seeps into your nostrils — viscous, oppressive — while it crackles and roars around your ears.\n Above this fiery sea, any bird brave enough to soar becomes a blind raven, plummeting into scorched earth, stirring ripples of flame.\n \nThe operation was meant to be highly classified. The commander had run through countless scenarios before departure — yet no one truly grasped the defensive might at the heart of the enemy stronghold.\nAfter three days and nights of contemplation, the commander decided to roll the dice. A small but elite team would be deployed via the Empire's newest airships, aiming for a swift, decisive strike at the enemy's core — to "decapitate" their force.\nIt seemed a desperate gamble — but also their best shot at victory. Thirteen Daimons, clad in the same uniforms as ordinary soldiers, were quietly dispatched without farewell or ceremony — sent off as plainly as one might deliver rations to the front, on what might well have been a one-way mission.\nThough mentally prepared for the worst, it wasn't until they stood beneath the gaze of the divine that they truly understood the terror of facing the gods.\n \nBeams of searing light tore through the night, burning as they streaked across the sky like eternal fire, devouring everything in their path.\nAt that moment, Sibylle stood at the edge of the inferno. The most she could make out beyond the blaze were charred branches, or the remains of what might once have been wildlife — though she no longer had the strength to tell them apart.\nSibylle was fortunate not to be part of the strike team — she had been held back as their last resort. If all went according to plan, once the others reached the tower's heart and completed their task, she would spirit them away under cover of shadows, before the enemy ever took notice. And if the mission failed, she would carry off as many of the wounded as she could, to lessen the toll.\nShe didn't know what her comrades had faced deep within the tower — but the hellish scene before her could only be the worst of all their countless reckonings.\nOf the twelve who had entered, only three emerged. Behind them, a dreadful light pursued relentlessly: wherever it fell, flames erupted — even stone was pierced through. Yet that radiance was no knight's weapon; it was as though the gods themselves had cast down divine punishment.\nTwo comrades thrust the unconscious, grievously wounded commander into Sibylle's care, then dragged their battered bodies toward the distance — choosing to stay behind and cover the rear.\n \nThanks to the Daimons' resilient constitution, the two could still — barely — draw their swords to support themselves.\nAs the flames around them subsided, their laboured breathing eased slightly, and they no longer spat hot blood with every breath.\nBut as the fire faded, a battalion of heavily armed knights appeared. Their footsteps alone, echoing across the battlefield, spoke of their elite status — soldiers sent not to take prisoners, but to eradicate every intruder.\nOrdinarily, Daimons could scatter foes like rabbits before a hound — but incapacitated, they were helpless prey.\nGunfire tore through the air, ripping apart the already feeble arcs of their blades and tearing through their bodies.\nInitially hesitant, the Elysian knights advanced, growing bolder with each step. Within moments, they were close enough to drive their blades into the spines of the wounded Daimons.\n \nWatching the brutal scene unfold, Sibylle felt a surreal detachment. These were her comrades — soldiers who had trained alongside her mere days before. Now they stood at death's door, as she watched from afar.\nWith the last of their strength, they leaned on each other for support, their bodies swaying, their gaze turning — perhaps by chance, perhaps by will — toward Sibylle's airship.\nSibylle's rational mind, honed by years of discipline, told her to obey orders — to let her comrades die. But deep within, a faint voice desperately protested.\nThey had never treated her poorly. Like her, they were fiercely loyal to the Empire, determined to earn glory, each burdened by their own troubled pasts. Many nights had passed in the dim barracks, filled with stories of the past and dreams of the future. For someone who claimed to have no friends, they had come the closest.\nAnd now, these almost-friends stood before her, gazing at her as they faced death.\nBut what did their gaze mean? A plea for help? Doubt? Resentment? Or something else entirely?\n \nSibylle knew she should ignore these thoughts. She had to follow orders without question — to snuff out the last remnants of emotion within her, emotions that shouldn't have existed in the first place.\nBut... could she? Could she stand by and let her comrades — her almost-friends — die?\nIn a futile attempt to escape the weight of her decision, she closed her eyes, hoping the nightmare would disappear.\nBut in that very moment, her comrades made the decision for her. They drew their daggers and, with grim determination, plunged them into each other's throats. No hesitation. No second thoughts. As if they had made this choice long ago. Smiling, they fell. At that same moment, Sibylle set the airship's engines to life.\n \nAmidst the roar of the machinery, she let out the breath she had held for so long. Blinking, she found a tear upon her cheek — a tear no one had ever seen from her. She did not know what it meant, just as she did not know what their final gaze had meant.\nPerhaps it was relief — that she hadn't needed to wrestle with breaking her orders. Or perhaps... it was something else entirely.\n \n...\nFor setting foot upon the tower of the gods, the Empire declared the mission a victory. In the official obituary, it was written: of the thirteen who had gone, only Sibylle returned.\nShe was soon elevated to Legion Chief, and ever after she would call the operation her "Survival from Hell."",
           TextMapId = "UI_CHAR_DATA_TEXT_43010404"
         },
         UI_CHAR_DATA_TEXT_43010405 = {
@@ -48415,8 +50864,12 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_51020102"
         },
         UI_CHAR_DATA_TEXT_51020103 = {
-          ContentEN = "Outsider used to be a poor cook. He neither had time nor skills for cooking, so he just caught some insects randomly in the wild whenever he was hungry. But later on, Fina grumbled about this and so he decided to cook food that was both tasty and nutritious. But cooking was a real headache for him, and he found it even harder than learning how to fight. After breaking countless knives and pans, and flipping through a faded thin cookbook filled with densely packed notes on every page, Outsider finally made cooking an instinctual skill akin to fighting. However, the downside is that his expression while cooking tends to be solemn and fierce, as if he is battling an indomitable Filthoid.",
+          ContentEN = "Outsider has a plethora of useful and less useful skills, such as three basic etiquettes for entering a tavern, how to feign drunkenness, how to be a good drinking companion, how to sew clothes for maximum durability, how to incapacitate someone without leaving lasting damage, etc. One day, he wants to write a book named One Hundred Life Tips from Outsider, which he is certain will be a bestseller on the continent. When that time comes, he envisions being highly famous and surrounded by fans. \"Maybe I should practice how to sign autographs now,\" he often says.\nAs you listen to Outsider chatter away, it is hard to discern whether he is spouting drunken nonsense or casually making things up. However, if such a book were to be published, it could indeed become a captivating topic of conversation in people's lives.",
           TextMapId = "UI_CHAR_DATA_TEXT_51020103"
+        },
+        UI_CHAR_DATA_TEXT_51020104 = {
+          ContentEN = "Although Outsider claims to everyone that they are only his convenience friends, he rarely turns down his so-called "convenience friends", and might even put himself in danger repeatedly for them. When asked why, he simply turns his head away to prevent others from seeing his cheeks blush. He then mumbles that he just does not want to lose a long-term source of free meals.",
+          TextMapId = "UI_CHAR_DATA_TEXT_51020104"
         },
         UI_CHAR_DATA_TEXT_51020201 = {
           ContentEN = "Sharp words, cold eyes, and exposed scars—any of these factors might cause some people to keep their distance. But Outsider has all three of them. Consequently, when people encounter him, their initial reaction is often to keep their distance. But in fact, Outsider is an approachable and kind person, although this side of him is rarely revealed to others. People who understand his kind personality are often regarded as spreading false rumours at Outsider's behest.",
@@ -48427,7 +50880,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_51020202"
         },
         UI_CHAR_DATA_TEXT_51020203 = {
-          ContentEN = "Outsider warned his peers time and again against the Forsaken. He said they have no lofty dreams, only ugly desires. Nobody knows what Outsider's true feelings towards the Forsaken are beneath his contemptuous tone. But what they can tell is that even the cunning Outsider cannot hide a fleeting trace of sadness in his eyes when he speaks about them.",
+          ContentEN = "Outsider buys a newspaper whenever he sees a newsboy. Although the media is nothing more than a government mouthpiece, he can still glean hints of danger from these fraudulent words.",
           TextMapId = "UI_CHAR_DATA_TEXT_51020203"
         },
         UI_CHAR_DATA_TEXT_51020204 = {
@@ -48439,11 +50892,11 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_51020301"
         },
         UI_CHAR_DATA_TEXT_51020302 = {
-          ContentEN = "Outsider buys a newspaper whenever he sees a newsboy. Although the media is nothing more than a government mouthpiece, he can still glean hints of danger from these fraudulent words.",
+          ContentEN = "Outsider doesn't like being in high places because of an impulse deep within him that compels him to step into the air and towards the "freedom" most humans desire. Yet, this act of forsaking everything is something Outsider cannot bring himself to accept. To cope with this, he carries items like ropes and carabiners with him to prevent himself or others from accidentally falling. This habit naturally extends to his everyday life. When faced with a problem, Outsider always pulls out the most practical tools for the situation at hand. However, no one knows exactly where he stores all of them.",
           TextMapId = "UI_CHAR_DATA_TEXT_51020302"
         },
         UI_CHAR_DATA_TEXT_51020303 = {
-          ContentEN = "Outsider is often woken up by thunder. Looking around, he sees no burning battleships raining down apocalyptic barrages outside his window, and no shimmering gunfire tracing paths of death inside his room. The sound of rain pattering against the windows replaces the muffled sounds of bodies crushed under military boots in his memories. A raindrop slips through a crack in the window and splashes on his face. He reaches to wipe it away, unable to tell whether he is wiping away the rain or tears.",
+          ContentEN = "Although Outsider deliberately keeps his distance from those around him, when necessary, he can swiftly forge strong relationships. A simple drink can make a moon hunter spill intel, and a whole night can make thieves wish they could call Outsider their brother the next day. A cup of tea, a pack of cigarettes, a round of nonsense talk—this is all it takes to halve the fees charged by infamous hard-nosed merchants, not because of any remarkable social prowess, but solely because Outsider, who has also scraped by at the bottom for countless years, deeply understands everyone's real needs. Once you know someone's needs, all you have to do is find ways to fulfil them. Of course, this method does not work with the upper echelons of society. Outsider, who never frets over unknown filth, feels perplexed and helpless when encountering upper-class folk.",
           TextMapId = "UI_CHAR_DATA_TEXT_51020303"
         },
         UI_CHAR_DATA_TEXT_51020304 = {
@@ -48451,15 +50904,15 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_51020304"
         },
         UI_CHAR_DATA_TEXT_51020401 = {
-          ContentEN = "Outsider has a plethora of useful and less useful skills, such as three basic etiquettes for entering a tavern, how to feign drunkenness, how to be a good drinking companion, how to sew clothes for maximum durability, how to incapacitate someone without leaving lasting damage, etc. One day, he wants to write a book named One Hundred Life Tips from Outsider, which he is certain will be a bestseller on the continent. When that time comes, he envisions being highly famous and surrounded by fans. \"Maybe I should practice how to sign autographs now,\" he often says.\nAs you listen to Outsider chatter away, it is hard to discern whether he is spouting drunken nonsense or casually making things up. However, if such a book were to be published, it could indeed become a captivating topic of conversation in people's lives.",
+          ContentEN = "Outsider used to be a poor cook. He neither had time nor skills for cooking, so he just caught some insects randomly in the wild whenever he was hungry. But later on, Fina grumbled about this and so he decided to cook food that was both tasty and nutritious. But cooking was a real headache for him, and he found it even harder than learning how to fight. After breaking countless knives and pans, and flipping through a faded thin cookbook filled with densely packed notes on every page, Outsider finally made cooking an instinctual skill akin to fighting. However, the downside is that his expression while cooking tends to be solemn and fierce, as if he is battling an indomitable Filthoid.",
           TextMapId = "UI_CHAR_DATA_TEXT_51020401"
         },
         UI_CHAR_DATA_TEXT_51020402 = {
-          ContentEN = "Outsider doesn't like being in high places because of an impulse deep within him that compels him to step into the air and towards the "freedom" most humans desire. Yet, this act of forsaking everything is something Outsider cannot bring himself to accept. To cope with this, he carries items like ropes and carabiners with him to prevent himself or others from accidentally falling. This habit naturally extends to his everyday life. When faced with a problem, Outsider always pulls out the most practical tools for the situation at hand. However, no one knows exactly where he stores all of them.",
+          ContentEN = "Outsider warned his peers time and again against the Forsaken. He said they have no lofty dreams, only ugly desires. Nobody knows what Outsider's true feelings towards the Forsaken are beneath his contemptuous tone. But what they can tell is that even the cunning Outsider cannot hide a fleeting trace of sadness in his eyes when he speaks about them.",
           TextMapId = "UI_CHAR_DATA_TEXT_51020402"
         },
         UI_CHAR_DATA_TEXT_51020403 = {
-          ContentEN = "Although Outsider deliberately keeps his distance from those around him, when necessary, he can swiftly forge strong relationships. A simple drink can make a moon hunter spill intel, and a whole night can make thieves wish they could call Outsider their brother the next day. A cup of tea, a pack of cigarettes, a round of nonsense talk—this is all it takes to halve the fees charged by infamous hard-nosed merchants, not because of any remarkable social prowess, but solely because Outsider, who has also scraped by at the bottom for countless years, deeply understands everyone's real needs. Once you know someone's needs, all you have to do is find ways to fulfil them. Of course, this method does not work with the upper echelons of society. Outsider, who never frets over unknown filth, feels perplexed and helpless when encountering upper-class folk.",
+          ContentEN = "Outsider is often woken up by thunder. Looking around, he sees no burning battleships raining down apocalyptic barrages outside his window, and no shimmering gunfire tracing paths of death inside his room. The sound of rain pattering against the windows replaces the muffled sounds of bodies crushed under military boots in his memories. A raindrop slips through a crack in the window and splashes on his face. He reaches to wipe it away, unable to tell whether he is wiping away the rain or tears.",
           TextMapId = "UI_CHAR_DATA_TEXT_51020403"
         },
         UI_CHAR_DATA_TEXT_51020404 = {
@@ -48531,7 +50984,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_53010401"
         },
         UI_CHAR_DATA_TEXT_53010402 = {
-          ContentEN = ""Stay away from her!"\nGrowing up, Psyche was all too familiar with this admonition, uttered by numerous adults to their children. Following such warnings, her newly made friends would be whisked away by them, never to appear again.\nYet, there was once an exception — a Mortalan girl her own age, whom Psyche chanced upon at the flower shop. That girl, brimming with curiosity about Psyche, would often ignore her servant's warnings and dash into the flower shop to find Psyche and play with her. She even invited Psyche to her grand mansion to play with her exquisite toy blocks together.\n"See, this little one is me, and the one with horns, that's you..." she said with excitement while arranging the blocks, "and they're playing together..."\n"Don't you find my horns scary?" Psyche asked timidly.\n"Not at all, I think they are pretty!" the girl replied without hesitation, "Oh, right! Let's decorate your horns with some cute accessories!"\nSpringing to her feet, she ran to the accessory cabinet and started to carefully go through a variety of ribbons and hair accessories: "Hmm... this red one is cute, but it doesn't quite match your dress. What about this golden one...?"\nAs she stood, her dress billowed, knocking over the horned figurine. Psyche noticed this, and she gently righted it to stand beside its little friend, then smiled.\n"Psyche, which one do you like?" the girl rushed back, thrusting a heap of colourful accessories into Psyche's arms, "You can take anything you like!"\n"I—"\nPsyche's words were interrupted by the creak of the door. The girl's mother — a well-dressed lady — entered the room, her face a mix of anger and disgust, as if she saw not a little girl in Psyche, but a dirty mongrel. What followed were the usual rebukes and curses that Psyche had grown accustomed to. As Psyche was driven out of the mansion, she heard the girl crying, "Psyche, I'm sorry...! I'll go to your place and we can play together again!"\nBut from that day on, the girl was grounded by her parents, even the windows of her room were locked and covered with opaque paper.\nPsyche knew it would end up this way, but she still felt that she owed it to the girl's kindness to at least tell her "I would cherish anything you give me".\nThese words lingered in Psyche's heart for many years until one day, she accidentally bumped into a lavishly dressed Mortalan boy on the street. Before she could apologise, a girl, also in fine clothes, pulled the boy away, "How many times have I told you to stay away from those horned people! And you, you dirty Charon, are you blind? How dare you push my little broth—"\nThe scolding abruptly ceased. The girl's gaze fixed on Psyche's horns, and her accusing finger awkwardly froze mid-air. Psyche recognised the girl — it was her wealthy little friend from the past, whom she had always felt beholden to.\n"Psyche...? You..." the girl was flustered, "I..."\n"You've mistaken me for someone else, miss," Psyche offered an apologetic smile, "I'm terribly sorry, I was a bit dizzy just now and didn't see your little brother."\nPsyche turned away and left. Those words she kept in her heart for years were ultimately discarded into the bin of time, just like those accessories and toy blocks she once touched.",
+          ContentEN = ""Stay away from her!"\nGrowing up, Psyche was all too familiar with this admonition, uttered by numerous adults to their children. Following such warnings, her newly made friends would be whisked away by them, never to appear again.\nYet, there was once an exception — a Sola girl her own age, whom Psyche chanced upon at the flower shop. That girl, brimming with curiosity about Psyche, would often ignore her servant's warnings and dash into the flower shop to find Psyche and play with her. She even invited Psyche to her grand mansion to play with her exquisite toy blocks together.\n"See, this little one is me, and the one with horns, that's you..." she said with excitement while arranging the blocks, "and they're playing together..."\n"Don't you find my horns scary?" Psyche asked timidly.\n"Not at all, I think they are pretty!" the girl replied without hesitation, "Oh, right! Let's decorate your horns with some cute accessories!"\nSpringing to her feet, she ran to the accessory cabinet and started to carefully go through a variety of ribbons and hair accessories: "Hmm... this red one is cute, but it doesn't quite match your dress. What about this golden one...?"\nAs she stood, her dress billowed, knocking over the horned figurine. Psyche noticed this, and she gently righted it to stand beside its little friend, then smiled.\n"Psyche, which one do you like?" the girl rushed back, thrusting a heap of colourful accessories into Psyche's arms, "You can take anything you like!"\n"I—"\nPsyche's words were interrupted by the creak of the door. The girl's mother — a well-dressed lady — entered the room, her face a mix of anger and disgust, as if she saw not a little girl in Psyche, but a dirty mongrel. What followed were the usual rebukes and curses that Psyche had grown accustomed to. As Psyche was driven out of the mansion, she heard the girl crying, "Psyche, I'm sorry...! I'll go to your place and we can play together again!"\nBut from that day on, the girl was grounded by her parents, even the windows of her room were locked and covered with opaque paper.\nPsyche knew it would end up this way, but she still felt that she owed it to the girl's kindness to at least tell her "I would cherish anything you give me".\nThese words lingered in Psyche's heart for many years until one day, she accidentally bumped into a lavishly dressed Sola boy on the street. Before she could apologise, a girl, also in fine clothes, pulled the boy away, "How many times have I told you to stay away from those horned people! And you, you dirty Charon, are you blind? How dare you push my little broth—"\nThe scolding abruptly ceased. The girl's gaze fixed on Psyche's horns, and her accusing finger awkwardly froze mid-air. Psyche recognised the girl — it was her wealthy little friend from the past, whom she had always felt beholden to.\n"Psyche...? You..." the girl was flustered, "I..."\n"You've mistaken me for someone else, miss," Psyche offered an apologetic smile, "I'm terribly sorry, I was a bit dizzy just now and didn't see your little brother."\nPsyche turned away and left. Those words she kept in her heart for years were ultimately discarded into the bin of time, just like those accessories and toy blocks she once touched.",
           TextMapId = "UI_CHAR_DATA_TEXT_53010402"
         },
         UI_CHAR_DATA_TEXT_53010403 = {
@@ -48547,24 +51000,140 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_53010405"
         },
         UI_CHAR_DATA_TEXT_54010101 = {
-          ContentEN = "Coming Soon",
+          ContentEN = ""Alchemy" — in the Hyperborean Empire, the word is synonymous with "miracle."\n \nThe Empire's first alchemists were eccentric scholars, steeped in cryptic philosophies and convinced they could transmute common metals into gold. Gold they never found — but through ceaseless study, they drew from Phoxene a substance known as Phoxichor. This faintly luminous blue fluid fuelled the rise of cities wrought from gears, furnaces, and steel. As looms devoured cotton to spin endless cloth, as railways spread like veins of iron across the land, as steel-clad ships soared like migrating birds into the sky, as cannons roared in human hands like the thunder of fallen gods — who could deny that Solarian alchemy had wrought miracles greater than any Charon sorcery?\n \nIt was only natural that alchemists became the Empire's most coveted profession. As the saying goes: "Between a pauper and a noble lies but a single Emerald Medal." Countless youths — hungry for knowledge, glory, or the chance to rise above their station — poured years into study and experiment, spent fortunes, and bartered honeyed words — all for a place at one of the Empire's alchemical institutes. Yet above them all towered the Royal Alchemy Academy in the capital, Dismania: a citadel of learning, admired from afar yet all but unattainable.\n \nThus, when Daphne Theodore renounced her place at the Academy and chose instead the life of an ordinary field medic, all agreed: she had lost her mind.",
           TextMapId = "UI_CHAR_DATA_TEXT_54010101"
         },
         UI_CHAR_DATA_TEXT_54010102 = {
-          ContentEN = "Coming Soon",
+          ContentEN = "Daphne was known as one of the finest students ever to attend the Spathatoi. Every course she took, every project she completed, earned an A — for no higher grade existed.\n \nBut after enlisting with the Legion, she received the first truly dismal mark of her life: a mere C in physical training — only just enough to pass, even for a medic.\n \nPerhaps that's why she's so often found stealing moments to exercise whenever she can.",
           TextMapId = "UI_CHAR_DATA_TEXT_54010102"
         },
+        UI_CHAR_DATA_TEXT_54010103 = {
+          ContentEN = "Upon Daphne's desk rests an old photograph. In it, a young Daphne clings tightly to the arm of an elegant woman — the right half of the picture has been torn away.",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010103"
+        },
+        UI_CHAR_DATA_TEXT_54010104 = {
+          ContentEN = "You've noticed that when Daphne grows tense, she straightens her back all the more.",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010104"
+        },
+        UI_CHAR_DATA_TEXT_54010105 = {
+          ContentEN = "On the day you departed for Flagson, Daphne came to see you off. No words were exchanged — only a silence laden with meaning, and the bittersweet curve of a smile.\n \n"Stay safe." She held you in a soft embrace. "I will always be praying for you."\n \nYou're not one to make promises where certainty is scarce. Yet you took her hand, and with steady resolve, said: "I will find the truth... and bring it back to you."",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010105"
+        },
         UI_CHAR_DATA_TEXT_54010201 = {
-          ContentEN = "Coming Soon",
+          ContentEN = "To reach the wards from the treatment wing at Riverside Hospital, one had to walk a long, narrow corridor.\nUnlike the other hospitals in Dismania, Riverside housed mostly patients with lingering chronic illnesses — the sort that brought no swift end, only slow suffering. These were not ailments that made corpses of people overnight, but over long years turned them into what the doctors came to call "madmen."\nSince the age of seven, I'd been running back and forth along that corridor. My hands were quick, my feet quicker — faster even than most grown Solarian orderlies. And because all I ever asked for was a meal and a place to sleep, they graciously allowed me — a lowborn little Charon girl with horns on her head — to work in their domain. My tasks were almost always the lowest sort: hauling off soiled bedding, sweeping up shards of glass dropped by patients, dragging them to the washroom or the refuse yard. Now and then, a passing nurse would shove a crate of medicine or a bundle of vials into my arms to deliver. Most of the time, you'd find me staggering down that corridor with boxes taller than I was. They blocked my view, so I often bumped into people rushing past — and every time, I'd catch a torrent of curses for it.\nI once heard a bard in the square say Hyperboreans were the most short-tempered folk in all of Atlasia. If that's true, then by my reckoning, the ones at Riverside Hospital were the angriest of the lot — patients, doctors, nurses, even the kin who came to visit. Later I came to understand it was those long, drawn-out illnesses that drove them to the edge. But still, whenever someone barked at me, I'd raise a defiant middle finger at their retreating back.\nOnly once did someone bump into me and not curse, but apologise. Her name, I would learn much later, was Daphne Theodore.\nI remember it clearly. One afternoon, I was carrying a stack of underpads to the washroom when I collided at the far corner of the corridor with a young blonde woman. My underpads and her flowers both went flying, then scattered across the floor. Without missing a beat, I squatted down and wailed at the top of my lungs — louder than the most tormented patient. I wasn't hurt, not even upset about the mess. It was just a trick: if I howled like that, the adults who might scold or strike me would flinch and back off, like they'd brushed up against something filthy.\nBut the blonde woman didn't curse and scurry off like I expected. Instead, she knelt beside me, stroked my back with a gentle hand, and asked in a worried voice if I was hurt. She sounded more unsettled than I was. When I didn't reply, she tried again — even softer this time — though the tremble in her fingers gave her away.\nI don't remember what I said in reply — perhaps only, "It doesn't hurt." Whatever it was, it eased the crease in her brow. She helped me to my feet, and together we picked up the scattered underpads and crushed flowers.\n"I'm sorry," she said, giving my head a light pat. "Little one, what flavour of sweets do you like? I'll bring you some next time, shall I?"\n"Strawberry," I told her. I shouldn't have accepted her apology — after all, it was me who hadn't been looking. But her question stirred something in me. I remembered the last thing my bedridden mother had murmured before she died: that there were strawberry boiled sweets in the cupboard drawer. When I looked, there was nothing. Only later did I find out my greedy brother had taken them all.\n"Strawberry. I'll remember." The blonde woman gathered up her flowers and walked on toward the far end of the corridor. She was of middling height, slim and slight. The afternoon sun caught her matte hairpin, and for a moment it shimmered with a faint golden glow.\nI never knew her name, so in my heart I gave her one: Miss Strawberry Sweets.\nOther than my mother, no one had ever asked me so gently if I was in pain.\n \n— From the diary of Tiori Stone",
           TextMapId = "UI_CHAR_DATA_TEXT_54010201"
         },
+        UI_CHAR_DATA_TEXT_54010202 = {
+          ContentEN = "The second time I met Daphne Theodore, I was being scolded by a young nurse named Madeleine. She grabbed me by the collar like I was some stray kitten, lifting me clean off the floor. I'd had no idea she was that strong. She shouted in my face, demanding to know why I'd brought her the wrong medicine.\nI couldn't read, but I remembered every label by the shape of its letters — and beyond that, I recognised each medicine by its colour. Lots of medicines were blue, but only this one had that bright, glassy blue — the same shade as Phoxichor.\nI denied the accusation, but Nurse Madeleine raised her hand to strike me. I shut my eyes, wondering whether silence or sobbing might spare me another slap. But the first one never came. When I opened my eyes, the hand clutching my collar had been pried loose — her wrist caught fast in a slender, elegant hand.\nIt was Miss Strawberry Sweets.\n"Pardon me. I couldn't help but overhear your quarrel. Madam — before reproaching this Charon child, might I first see the medicine in question?"\nNurse Madeleine tried to jerk her arm free, but Miss Strawberry Sweets's slender fingers held fast with surprising strength. With a muttered curse, the nurse shoved the vial into her hand.\nShe held it up, gave it a slow swirl, then pulled the stopper and took a careful sniff.\n"There's no mistake. The girl gave you the correct medicine. This is AP-1718, as the label clearly states. You shouldn't lie in front of a child who cannot read."\n"That's not the right colour for AP-1718! This little twerp switched the labels!" Madeleine shrieked. "She's been sulking ever since her last punishment — trying to trip me up!"\n"The Alchemy Academy recently revised the formula. The latest batch differs from what you remember." She lifted her gaze, meeting the nurse's furious stare. "Rather than accusing an innocent child, Madam... perhaps you should spend more time familiarising yourself with your own medicines."\n"What new formula? You're just here visiting someone — how would you know? Who's to say you're not just covering for this little twerp?"\n"Oh, I know very well," she replied calmly. "My name is Daphne Theodore. AP-1718 was developed under my supervision. Here — this is my insignia from the Alchemy Academy. I trust you recognise it."\n \n— From the diary of Tiori Stone",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010202"
+        },
+        UI_CHAR_DATA_TEXT_54010203 = {
+          ContentEN = "The day Daphne Theodore saved me from the nasty nurse, I was so happy I thought I might burst. She gave me some boiled sweets — I tore off the wrappers, stuffed a few into my mouth, and pulled faces at Madeleine's back as she slunk away.\n \n"What's your name?" Daphne asked, as we sat together on the bench outside the ward.\n"Tiori."\n"Do you know how it's spelled?"\nI shook my head. She picked up a twig and traced a few letters in the sand.\n"This is your name. It means 'Dewiolet.'"\nFor most of my life, my name had only ever come paired with words like "twerp" or "lowborn wretch." I never imagined it could mean something so beautiful.\n"Miss Dewiolet, may I teach you to write?" she asked gently.\n"Why should I learn to write?" I said, confused. Most of us Charons could only ever do hard labour, and I had no special gift that might make me a Laurelled Charon someday. I knew that much.\n"If you could read, what happened today might never have happened," Daphne replied, smiling softly. "Knowledge is a kind of strength — a weapon to protect ourselves."\nI shook my head, still confused... then nodded, hard. I didn't understand what she meant, not really. But it was her advice — and that meant I couldn't say no.\nThat afternoon, Daphne Theodore taught me the whole alphabet. I copied it down into the little notepad she gave me — my letters crooked and uneven, but all my own. Before she left, I hesitated... then called out after her.\n"Miss Theodore — I remember you said you were an alchemist."\n"I am."\n"What is alchemy?"\n"It's a study meant to make people's lives better."\nAs she spoke, her eyes lit up. It was as if some flame had kindled behind them, making them shine.\n"So then... the Alchemy Academy is where people study alchemy?"\n"...Yes."\n"If I learn to write well," I asked, "could I go to the Academy too? Could I study alchemy with you, Miss Theodore?"\nI'd always known my place. And I could read the way people looked at things. Even without asking, I could tell from the nurse's reaction that the Academy must be some grand, untouchable place. But just for a heartbeat — with the fire in Daphne's eyes — I let myself believe that maybe, just maybe, I had the right to walk towards it too.\nBut it wasn't what I imagined. That fire in her eyes vanished at once. Her expression grew distant... conflicted. She turned away, no longer meeting my gaze.\n"No, Tiori," she said quietly. "Don't go there."\n"Hyperborea's Alchemy Academy has lost its way," she whispered. "It's no longer the great tower I once dreamed of."\n \n— From the diary of Tiori Stone",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010203"
+        },
+        UI_CHAR_DATA_TEXT_54010204 = {
+          ContentEN = "After I filled up the notepad Daphne had given me, I finally saw her again at Riverside Hospital.\nI'd known she'd come back.\nThe last time we met, I'd begged her to help me find someone — a man named Gary Stone. I told her, tears in my eyes, that Gary was my brother — my only family in the world. I said I hadn't heard from him in ages, and that the last I knew, he'd gone to the Alchemy Academy.\nJust as I'd hoped, Daphne agreed without hesitation.\nMost of what I told her was true. But in one thing, I lied:\nI didn't miss Gary Stone at all. He was my brother, yes — but not all siblings are born to love each other. When I was still no taller than his thigh, Gary would grab me by the neck and squeeze until I couldn't breathe — all because I'd dared to steal a scrap of "his" food.\nI couldn't care less where Gary had gone. What I wanted was simply to see Daphne again. I thought she must've grown up in a loving family — because the moment she heard Gary was my brother, she assumed he must be someone dear to me.\n \nDaphne came back, bringing news about Gary Stone.\nBut this time, she looked exhausted. The dark circles under her eyes were plain to see, and it looked like she'd been crying — faint streaks still marked her cheeks.\nI saw her pacing at the far end of the corridor for ages before she finally walked over. I figured she must've brought bad news. Was she hesitating? Unsure whether to tell me? Or just trying to find the right way to say it?\n"Tiori," she said, kneeling and gripping my shoulders, "I found out what happened to your brother. Please... promise me you'll stay strong, no matter what. Will you?"\nAh — so she was going to tell me everything after all. Maybe she wasn't any good at lying. Or maybe she just believed that even a child had the right to know the truth.\n"Gary Stone won't be coming back," Daphne said, her voice hoarse. "He was caught in an alchemical accident."\nI didn't feel a thing. But I still had questions. I didn't care about Gary — what I wanted to know was: What kinds of endings waited for people like us — the ones they treated like rubbish?\n"...An accident? Did someone die?"\n"Yes."\n"Did the alchemist kill them?"\n"No."\n"Did Gary kill them?"\n"...No."\n"Then who was the killer?"\n"It was a ghost no one could see," she said. "Or perhaps... it was all of us."\nI shook my head. I didn't understand.\n"Then... Miss Theodore," I asked, "will I die like Gary someday too?"\n"If I learn enough words — enough to understand all the books you gave me, enough to master alchemy — will that keep me from ending up like my brother?"\n"I wish I could tell you yes. I used to believe it. I knew people like you — who rose from nothing, and climbed to the top through what they'd learned." Daphne said softly, brushing her hand over the horn on my head. "But now... I've seen far more fall before they ever reached the peak — shattered to pieces on the way up. There are more of them than the ones who made it."\n"There's one thing you must remember, Tiori," she said, enunciating every word. "Stay away from the Academy. Even if you come to love alchemy — never go near that place."\nI nodded, slowly and with all the seriousness I could muster.\nDaphne rose and took out the notepad she always carried. She tore out a blank page.\nI thought she was going to write something — but instead, she folded the paper into a tiny boat.\n"I've heard that among the Charon people, every soul is bound to the water. Tell this boat what you want to say, then set it adrift on the Whisper River. It will carry your thoughts to your brother."\nI held the little boat in both hands and watched her walk away. After that, a long time passed — and I never saw Daphne again.\nOne day, when an Academy staffer came to deliver medicine to Riverside Hospital, I gathered my courage and asked where she'd gone — why she never came anymore.\nHe told me she'd gone to the battlefield. A place where those who go may never return. Perhaps she would never come back.\nThe box of strawberry sweets slipped from my hand and fell to the floor.\n \n— From the diary of Tiori Stone",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010204"
+        },
+        UI_CHAR_DATA_TEXT_54010205 = {
+          ContentEN = "By the time I'd learned to read the simpler newspapers, Daphne came back.\nShe still held a bouquet of flowers — but this time, she looked gaunt, hollowed out. As if the lightest breeze could blow her straight into the Whisper River.\nAs she walked down the corridor, all talk ceased. Every gaze turned to her — full of hatred, disgust, envy, and fear. Then someone sneered, spitting out the word "traitor." Others followed, repeating it.\nSo that was it. I'd overheard the nurses' gossip a few days ago — that Daphne Theodore was suspected of betraying her country in the war.\n—But so what?\nIf a country could drive someone like Daphne Theodore to betrayal, then surely the fault lies with the country... not with her.\n \nDaphne gave no reply to the slurs. She didn't even glance at them — only kept her thin back straight as she walked on towards the wards.\n"How is Mr Gaston?" she asked the nurse on duty.\n"If you mean Roger Gaston — he's already dead," the nurse replied. "Not long ago, after another bout of pain, he smashed a glass when no one was watching and slit his wrist."\n"But I had the medicine sent — the one that could cure him!" It was the first time I'd ever seen Daphne lose control. Her voice cracked with despair. "Did AG-1899 not work?"\n"You were a little too late, Miss. He killed himself the night before it arrived." The nurse's voice was cool, with a mocking curl at her lips. "And anyway... Mr Gaston was a decorated veteran. Even if he'd survived the night, once he heard of your 'heroics' at Lonza Fortress... he wouldn't have dared take your medicine."\nDaphne's face went even paler. The nail of her thumb dug deep into the flesh of her index finger.\n"No! I didn't—"\nShe looked ready to defend herself — but in the end, she said nothing.\nI reached out and took her hand, gently prising her fingers apart. Her skin was ice-cold — like a corpse in the morgue.\n"Miss Theodore... no, Daphne."\nIt was the first time I'd ever called her that. I almost dragged her down to the bench below — the one where she once taught me to write.\nCopying her, I snapped off a twig and scratched two clumsy words into the dirt:\n"Cheer up."\nThen I took her hand and placed something in it — a paper boat I had folded.\n"Tell this boat what you want to say, then set it adrift on the Whisper River. It'll carry your thoughts to your father — let him know how much you miss him."\nAt the mention of her father, Daphne looked astonished. But then the shock softened in her green eyes... and became a faint smile.\n"Thank you, Tiori," she said. "I'll do that."\nSuddenly, as if remembering something, she rummaged through her backpack and pulled out a few books. She pressed them into my arms — she hadn't forgotten that I once told her I wanted to read more. We sat on the bench together for a while. Then she rose, and walked away into the crimson sunset.\n \nWhen I could read every section of the newspaper, Daphne Theodore still hadn't come back.\nWhen the design on the candy box she gave me had worn away, Daphne Theodore still hadn't come back.\nWhen I'd grown tall enough that the underpads I carried no longer hid my face, Daphne Theodore still hadn't come back.\nWhen I could read even the most complex alchemical texts, Daphne Theodore still hadn't come back.\nWhen I learned how to extract potion from Dewiolet blossoms, Daphne Theodore still hadn't come back.\nWhen I'd saved enough to leave Hyperborea and study in Aethyrie, Daphne Theodore still hadn't come back.\nWell... the family she came to visit was gone. She had no reason to return.\n \nAt dusk, I stood in the corridor, bidding farewell to the hospital where I had lived and worked for nearly twenty years. The dusk that day was a vivid crimson — just like the last time I saw Daphne.\nThen I saw a figure approaching from the far end of the corridor. She looked like a young, slender girl with blonde hair. My suitcase slipped from my hand. But when I bent to pick it up and looked again... there was no one there.\n"Did you see a girl just now?" I asked Nurse Madeleine. "Tall, thin — blonde hair..."\n"What blonde girl?" she muttered. "And here I thought it was us old ladies who needed glasses."\n"Oh. I must've been mistaken."\nI walked downstairs with my suitcase, and never looked back.\n \n— From the diary of Tiori Stone",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010205"
+        },
         UI_CHAR_DATA_TEXT_54010301 = {
-          ContentEN = "Coming Soon",
+          ContentEN = "You once watched Daphne lay out the contents of her emergency kit. Its compartments held no secrets from your eyes.\n \nIn the upper tier, she kept disinfectant, gauze, and bandages; in the middle, needles and thread, anaesthetic, painkillers, and a set of simple surgical tools. She had reworked the case's structure with care, so it could hold as many supplies as possible — yet it was never enough. Against wounds and deaths that multiplied with every passing moment, what could a single medic — with a single box — truly fix?\n \nThe lowest tier carried more personal things: a handkerchief, a comb, and a sidearm. Once, she asked you in quiet dismay — if the worst came to pass, should the final bullet be spared for the enemy... or for herself?",
           TextMapId = "UI_CHAR_DATA_TEXT_54010301"
         },
+        UI_CHAR_DATA_TEXT_54010302 = {
+          ContentEN = "Daphne had a quiet fondness for romance novels — especially the old-fashioned kind, filled with princesses and gallant knights. Among the youth of Dismania — and the iconoclastic young alchemists of the Spathatoi in particular — such tales were thought terribly passé. So she would slip a different cover over them: Selected Speeches of His Majesty Julius, or On the Origins Shared by Filthoids and the Charon.",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010302"
+        },
+        UI_CHAR_DATA_TEXT_54010303 = {
+          ContentEN = "On humanitarian grounds, Daphne Theodore refused to participate in the Spathatoi's Intensification Project — a programme designed to forcibly unlock the magical potential of the Charon. For this, she openly defied the Spathatoi's dean not once, but twice.\n \nYet as the final disciple of Madame Flamel — the Spathatoi's revered founder — and a fellow pupil of Chief Sibylle, Daphne was spared formal reprimand. By now, the matter has become an open secret within the Spathatoi's halls.",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010303"
+        },
+        UI_CHAR_DATA_TEXT_54010304 = {
+          ContentEN = "Back in her Academy days, Daphne displayed an unusual sensitivity to the wars. Whenever a battle broke out, she would find a way to obtain the list of the fallen.\n \nEach time, she scanned it in anxious silence for one particular name — and each time, let out the faintest sigh of relief when it was not there.\n \nBut now... she no longer needs to look.",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010304"
+        },
+        UI_CHAR_DATA_TEXT_54010305 = {
+          ContentEN = "Daphne's world was once a simple one — everything she could observe obeyed logic and cause. Step by step, through analysis, deduction, and experiment, even the most intricate of problems would come undone, like a cat teasing apart a ball of yarn. For a time, she believed there was nothing beyond human reach.\n \nBut later, she came to understand: even a mind vast enough to chart the laws of stars could be ended in an instant — by a stray bullet, a common stone, or an ordinary brick.\n \nDaphne Theodore stays true to her ideals. But the road that once led to that great tower... she can no longer find.",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010305"
+        },
         UI_CHAR_DATA_TEXT_54010401 = {
-          ContentEN = "Coming Soon",
+          ContentEN = "Dismania's Rain beat against the windows of the pallid hospital ward, where a four-year-old girl lay dying.\nThe cloth on her brow had been changed countless times. Medicines dripped through rubber tubes into her veins — yet the fever would not break.\n \nOn the first day, her father clasped her frail, small hand in his own broad palm and pressed it to his tear-soaked stubble. She did not wake.\nOn the second, her mother brought the finest physician in Dismania — a man who had once served the Emperor himself. Yet for all the gold he was paid, he merely shook his head and murmured there was only one chance in ten. She did not wake.\nOn the third, the young nurse tending her lit a candle, folded her hands to her chest, and prayed in a low voice. She did not wake.\nOn the fourth, a funeral director barged in with a sycophant's smile, speaking to the parents of splendid hearses and grand processions. The girl's enraged father seized a chair and drove him out. She did not wake.\nOn the fifth day, the girl's ageing grandmother arrived from her country estate. She looked down at the child, still unconscious, and drew a worn book from her purse. Settling beside the bed, she began to read in a gentle murmur.\n"Long, long ago, mankind dreamed of transmuting base metals into gold as if by magic. They mixed sulphur, salt, and mercury... and many years later, we gained Phoxene."\n"Long, long ago, mankind dreamed of soaring through the skies like birds. They strove to lift balloons with fire... and many years later, we gained the airship."\n"Why are you telling these stories now?" the girl's mother protested, eyes red with grief. "She's still unconscious — she can't hear you! I... I only asked you here to see her one last time, Mother."\n"No, Claudia.' The old woman smiled faintly. "Daphne always loved to hear these tales. She will wake."\n"Long, long ago, mankind dreamed of driving out sickness like the gods themselves. They ground every herb and root they could find... and many years later, we gained the draughts and tonics we call medicine. These are our alchemy — what is called gezhi in Huaxu, and science in Aethyrie."\nShe kissed the girl's pallid cheek. "Believe in the power of great alchemy, Daphne. You will wake. For alchemy is—"\n"...an art that brings... happiness... to humankind."\nIn the ward, eyes first widened in shock, then filled with tears of joy, as the girl's pale lips stirred with the secret phrase she shared with her grandmother.\nThe needle of fate spun — and came to rest on its slender tenth. Four-year-old Daphne Theodore awoke.\n \nThough she has long known it was no more than coincidence, Daphne often jokes that it was her grandmother's stories of alchemy that granted her a second life. It was also that brush with death that set her resolve: to take up the family calling, to become an alchemist worthy of her mother and the grandparents. Like the generations of alchemists who came before her, she would use this discipline to bring happiness to others — just as the frail, pale child she once was had been drawn back from death, drop by drop, by its medicines.\n \nOnce, she believed this with all her heart.",
           TextMapId = "UI_CHAR_DATA_TEXT_54010401"
+        },
+        UI_CHAR_DATA_TEXT_54010402 = {
+          ContentEN = "The Royal Alchemy Academy stood atop the highest of Dismania's seven hills. From the tower at its summit, the Whisper River stretched out below like a drawn horizon, dividing the city in two — the old town of white brick on one side, the new town of black iron on the other. And the people looked so small, like ants scurrying with grains of rice. This was the daily view of the Academy's alchemists — and for many, it became their view of the world: that great alchemists were the architects of a prosperous nation, and thus its rightful overseers.\n \nMeanwhile, in the grand hall of the Spathatoi, Sibylle Mason looked down on the assembled alchemists. It was the entrance ceremony of Azoth College — the Academy's subordinate school — and time for the customary speeches from the new intake. Sibylle stifled a yawn. To her, the hall was no different from a ballroom, and these speeches — whether stiff or flamboyant — were just another kind of social currency. She didn't need to listen to know what they'd say. The safest speech was a pledge of loyalty to Hyperborea: a vow to sacrifice all for the Emperor's glory. The fashionable choice was to pose as an eccentric researcher, rhapsodising about their love for the "mysteries of life" — usually Filthoids, Charons, and other magical beings. The more outlandish the tone, the more peculiar the manner, the better. The more they resembled lunatics, the louder the applause.\n \nThe final student's florid speech came to an end, and the hall broke into applause. Sibylle caught only part of the next name — some Daphne Theo-something — before a thin girl stepped onto the stage. Among students dressed to make themselves look as bizarre as possible, the girl in a plain white blouse and black skirt was almost invisible.\n She began to speak. Her voice sounded younger than the others'. And suddenly, Sibylle remembered where she'd heard the name before — from Madame Flamel, who was her mentor. She had once pointed to an essay and said to Sibylle: This girl, Daphne Theodore, is bright — as clever as you were once. Only fifteen, but certain to become a fine alchemist one day.\n \nBut what use was brilliance? Hyperborea's Alchemy Academy had never lacked for geniuses. Still bored, Sibylle turned another page of her book. The new student speeches were drawing to a close. The girl was already delivering her final words:\n \n"So, let me end with my true ideal: Alchemy is the study that brings happiness to humankind. That is why I stand here today."\n \nA smattering of applause followed — laced with soft laughter and scattered jeers. Sibylle closed her book. She understood the age they lived in — one growing steadily more vulgar, where people had learned to sneer at ideals and dreams. And here, in a hall where madness and cold-bloodedness were the fashion, Daphne's words were nothing short of a declaration: That she was a relic of the past. Or a naive child, blind to how the world truly worked.\n \nThe freshmen laughed — but their smiles soon froze. From the dais came the sharp sound of applause. It was Sibylle Mason, senior officer of the Legion and honorary dean of the Academy. The Laurelled Charon they scorned for her blood, yet still bowed to in fear. And so, begrudgingly, they followed her lead and clapped along.\n \nOn the stage, Daphne turned her face toward Sibylle. A shaft of light caught her — and for a moment, Sibylle could see only a silhouette, haloed in brightness. What expression lay behind it? A smile? Bewilderment? Gratitude? Or the same calm resolve she had shown in her words?\n \nAt the time, Sibylle paid it no mind. What stirred in her was only a trace of cruel amusement. It had been a long time since the Spathatoi had seen one who still carried such outdated, guileless ideals. And all Sibylle wished to know was this: Once the Academy's gilding was stripped away — when all that remained was bare flesh and bone — how long would the "ideal" of this girl, Daphne Theodore, endure?",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010402"
+        },
+        UI_CHAR_DATA_TEXT_54010403 = {
+          ContentEN = "Daphne handed over her rucksack without a word, submitted to the soldier's search, and passed through two heavy doors. It was said the doors were forged with powerful magnets, designed to expose any concealed blade or firearm — a safeguard against assassination for the Legion's high command. Yet upon crossing the final threshold, Daphne found herself faintly taken aback: beyond all that elaborate security, Sibylle Mason's private residence was stark to the point of austerity. The walls were coarse and grey, stripped of paintings or adornment. A broad dining table and a scattering of hard-backed chairs were all that furnished the space — angular, unembellished, as bare and functional as barrack stock, crafted for nothing but to bear the weight of a body.\n \n"You've come, Daphne." Sibylle's voice reached her, muffled through the corridor. "I'm in the kitchen. Come in."\n \nDaphne responded softly and made her way towards the sound. Her steps were cautious — she had no idea why a senior Legion officer, who had once studied above her at the Alchemy Academy, had summoned her to a private home.\n \nThe kitchen, like the parlour, was framed in bare grey walls. The only trace of colour lay in the vivid red of a pomegranate resting in the violet-haired woman's palm. The tip of her knife traced the fruit's smooth, taut skin.\n \n"You're fifteen minutes early. I wasn't yet prepared to receive you." Sibylle's blade slipped through the rind, revealing the glistening cluster of translucent seeds. "I dislike hiring servants. Everything here is done by my own hand."\n \n"I'm sorry to trouble you." Daphne clasped her hands, uneasy. "Perhaps... perhaps you'd like me to hel—"\n \nRing—ring.\nThe telephone rang, abruptly cutting her short.\n \n"Daphne." Sibylle began dropping the seeds into a white porcelain dish. "Pick it up. Hold the receiver for me." She showed no sign of concern over her guest's presence.\n \nDaphne complied, gently raising the earpiece to Sibylle's ear. A young man's voice came through — clear enough for them both to hear.\n \n"Chief Sibylle, it's about the two Forsakens spies. They've been under torture for four days now, but still refuse to name their accomplices. I believe they're reaching their limit."\n \n"For many, the body's pain means little. You are still green. Do not strike what is hardest in them — strike what is softest."\n \nThe pomegranate seeds landed in the dish with soft, brittle clinks. Sibylle didn't lift her gaze. "As I recall, those two are brothers."\n \n"We've already threatened them with each other's lives, but neither gave in. It appears they made a pact — resolved to die from the start."\n \n"No. You still haven't grasped what I meant by 'the softest part.'"\n \nShe tipped the pale seeds into a fine copper sieve resting over a glass jug. With a steady, unrelenting grip, she began to press — knuckles whitening as juice seeped crimson through the mesh in a slow, thin stream.\n \n"Do not threaten them with death. Tempt them with hope. Say this: the one who speaks will die — but his brother will live."\n \nA crisp "Yes, ma'am" crackled down the line, and the call ended. In the sieve, the seeds had turned pale and shrivelled. Sibylle poured the half-jug of juice into two glasses. Daphne's hand, still holding the receiver, remained suspended mid-air. A fine film of sweat gathered on her brow. Without a glance back, Sibylle turned and walked ahead. Daphne followed in silence, a few steps behind.\n \n"Daphne. You wish to know the brothers' fate, do you not?" Sibylle held out a glass of pomegranate juice. "Then stay — and witness their end."\n \nDaphne faltered, then gave a small nod, biting her lower lip. She feigned calm as she swirled the glass, eyes fixed on the red within. Pomegranates had once been dear to her; as a child, she would walk the orchards hand in hand with her parents. But now, in that same familiar crimson, she felt only a creeping dread.\n \nThe minute hand had turned a full circuit and a half when the telephone rang again. It was the same young man's voice. "The elder brother has confessed his contact. We're already moving to make the arrest. As promised, we released the younger — even returned his sidearm."\n \nDaphne exhaled in quiet relief, only for her smile to falter at the next words. "The younger couldn't bear the thought that his brother had traded such precious secrets for his life. Once free, he raised the pistol to his own head and pulled the trigger."\n \n"Ah, such a pity... a will of iron, in one so young." The words were spoken — but not a trace of pity coloured her voice. Her gaze lingered on Daphne, lips curved in a subtle, unreadable smile.\n \n"You knew this would happen. That's why you're not surprised. You brought me here today so I'd hear it with my own ears." Daphne's lips were dry; her voice wavered despite her effort to steady it. "It was... Dean Silas who asked you to persuade me — to tell me how I should serve the Empire. Wasn't it?"\n \n"Silas's grievances don't concern me," Sibylle said flatly. "Daphne, I brought you here for one reason: to show you what it takes to survive — whether in the Legion or the Academy. Empathy must be kept in measure. Sharp enough to sense weakness... never so unchecked that it renders you useless."\n \n"Excess empathy won't just make you useless, Daphne — it will drag you into your own misfortune."\n \nDaphne could scarcely recall how she had managed to feign thanks for Sibylle's lesson, nor how she had all but fled that stark house of grey and white. What lingered was the memory of two glasses of pomegranate juice: Sibylle's, drained in a single draught, and her own, left untouched. Sometimes, she dreamt of that glass — of the liquid within it: the colour of the pomegranate, the colour of life itself. In her dreams, it spilled over the rim, more and more, until it rose into a crimson river that closed over her... and swallowed her whole.",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010403"
+        },
+        UI_CHAR_DATA_TEXT_54010404 = {
+          ContentEN = "It was still raining in Dismania.\nThudding knocks and angry shouts echoed through the rain-streaked glass. Someone was calling Daphne's name at the top of their lungs.\n \nShe sat curled in a velvet chair by the window. Four days had passed since her release from the Royal Military Prison — and for four days straight, the rain had not let up. A sudden creak from the door made her jolt like a startled kitten, the book slipping from her hands to the floor.\n \n"Forgive me — did I startle you?" The maid stammered. "I only came to bring your supper. You... you haven't eaten all day again, Miss Daphne."\n \n"I'm fine." Daphne's gaze remained fixed on the rain-smeared window. Beyond the glass, shadowy figures gathered at the estate gates, umbrellas tilted against the downpour. "More rabble. Is it the same lot as yesterday?"\n \n"They look different — younger, maybe." The maid frowned, trying to recall. "Ah — the one leading them... I think he was one of your classmates from the Alchemic Academy."\n Daphne rose, bracing herself against the armrest. "I'll go and see."\n \n"No, Miss Daphne..." The maid seized her hand in fright. "You know they've come for you."\n \nDaphne sighed. "Then what other choice do I have? Shall I let them wake my mother again — and watch her faint a second time?"\n \nShe remembered, two nights ago, standing at this very window as her mother stepped out to face the crowd. She had worn a corset — long out of fashion, but lending her frail frame a touch of dignity. The rain had drowned her words, yet Daphne had seen her curtsey again and again. Always proud, never had she bowed so low. At last, to the maid's cry of alarm, her mother collapsed — and only then did the crowd disperse. She had fallen hard on the courtyard stones, her face smeared with mud. Pride and grief had pulled her down, and not even the whalebone corset could keep her upright. Daphne had cradled her where she lay, her own tears vanishing soundlessly into the rain.\n \nNow, the scene beyond the window remained unchanged. And Daphne knew she could not bear to lose another of her kin.\n \nShe pulled her arm free from the maid's grasp, went downstairs, and stepped outside without an umbrella. The uproar beyond the gate faltered — the crowd stunned that she had truly come out.\n \n"What is it you want to say?" Daphne unlatched the gate and stepped into the street. The walls of the Theodore estate were smeared with graffiti — "traitor," "demon-spawn," scrawled in harsh, uneven strokes. She forced her eyes away. "Do not wake my mother. We'll talk elsewhere."\n \n"You betrayed Hyperborea — just like you betrayed the Alchemy Academy!"\n"Because of you, our brothers and sisters died young!"\n"How can you still wear that calm face? Why haven't you knelt and repented?"\n"Always the same pious mask. Now we see your true face!"\n \nHer former classmates drove her back into a corner of the street. She tried to speak, but her voice was lost in the downpour — and in their fury. Someone gave a sharp whistle. Hands seized her shoulders. Overhead, thunder rumbled, low and heavy.\n \nWhy do people cling so stubbornly to the "truth" they choose to believe?\nHer spine slammed against a metal bin with a hollow clang. A fist struck her in the gut. The world spun; she curled in on herself like a shrimp. A boot came down on the hand she had braced against the ground — pain shuddered through her knuckles, as if they might snap beneath the weight.\n \nWhy does it take only a single excuse for people to bare their fangs at their own kind?\nShe thought of the corpses at Lonza Fortress — some comrades, some foes. Some still faintly warm, others already cold. Yes... for a single reason, they had slaughtered one another.\n \nWhy do people shut their eyes to the suffering of others?\nShe thought of the white rabbits she once kept. Pinned to the pristine-white lab bench, they struggled helplessly. Until at last, the syringe in her hand delivered its contents — and the small bodies stilled. She thought of Emilia, her friend from years past. The girl lay sprawled on a snow-white floor, blood blooming from her chest — like a pomegranate burst across a clean white cloth.\n \n"What's the point in talking to her? She's nothing but demon-spawn — like her traitor father, Avar!"\nThat familiar name wrenched her back to the rain-drenched streets of Dismania.\n"Exactly. Even if you crown them in laurels and keep them on a tight leash, these mongrels still—"\n \nThe ringleader never finished. His smug grin froze. A moment later, he clutched his ear with a cry. The crowd reeled back as lightning split the sky — casting Daphne's face in stark, searing relief. She stood with pistol raised, fury blazing in her eyes — a fire no rain could quench.\n \n"Insult my father again, and the next shot won't just graze your ear." She forced each word through clenched teeth. "Now get lost."\n \nStudents of the Academy weren't allowed to carry firearms in the capital. Though their mouths still spat curses, their feet carried them away at a full run. Daphne leaned against the wall, using the bin at her back to push herself upright. Behind her lay the street leading home, where the maids had likely prepared some fresh dessert to cheer her. But she would not return. Not like this. She couldn't bear for the maids to worry — nor let them see her in such disgrace.\n But then... where else could she go?\n \nShe wandered aimlessly through the rain. Night had fully fallen, and she had no idea how long she'd walked before a bridge loomed ahead — vaguely familiar. She strained to recall. Yes — Sibylle lived near this bridge. They had once spoken in her house... a meeting that ended bitterly.\n \nNow the woman in violet stood on the bridge, a long-handled umbrella in hand. She's here to see me at my lowest, Daphne thought. No doubt she'll sneer and ask what she asked before — Do you still stay true to your ideals? But she had no answer. The unrelenting rain had rusted her thoughts.\n \nYet Sibylle's face held no scorn, no anger. It was as calm as the Whisper River when no wind stirred its surface. She handed Daphne an umbrella, almost casually.\n \n"Go home. Take a hot bath. Change your clothes."",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010404"
+        },
+        UI_CHAR_DATA_TEXT_54010405 = {
+          ContentEN = "Daphne dreamed a long dream — one that seemed to have no end.\nShe wandered the streets of Dismania, where the air clung heavy with damp. Rain slid from the mouths of stone gargoyles, leaving dark brown trails along the walls.\nFamiliar figures lined both sides of the street, each standing beneath a long-handled umbrella.\n \n"Alchemy is a science meant to bring happiness to the people," said an elderly woman.\n"Daphne, you will be my pride," said a bright-eyed woman.\n"All I ever wanted was for you to be happy," said a man with a gentle smile.\nShe tried to draw closer, to see if they truly bore the faces she remembered — but their features had blurred, as if the rain had soaked right through their skin.\n\n"Those who suffer in pain — will we ever truly find relief for them?" asked a young researcher.\n"If I learn enough words... if I master alchemy one day — will that keep me from ending up like my brother?" asked a little girl in a hospital orderly's uniform.\n"Dismania's too far... The rain's pouring. The roads are all mud. Will we ever make it back...?" asked a dying soldier.\nDaphne opened her lips to answer — to shape a single "yes." But her throat closed. It was as though her voice had been torn away. No sound came.\n \n"Do you still stay true to your ideals?" The Legion Chief's gaze bore down from above.\n The stare seared her eyes. She wanted to flee — but as she turned, a vast chasm yawned before her, bottomless and black.\n"We need to focus on this battle — and on surviving." Her silver-haired, red-eyed comrade laid a steady hand on her shoulder. "Remember what you once said."\nYes... that we might all live on. That was all she'd wanted then.\n \n"Daphne, do you still remember the dream you had as a child?" A little girl stepped from the corner of the street. Her voice was soft, her brows and eyes uncannily familiar — yes, it was herself, long ago.\n"To bring happiness to people, through alchemy," she replied. "I've never forgotten."\n"But every dream comes at a price," said another voice behind her. It was her own — but cold, in a way she had never heard before. "To gain something, you must give something up. Daphne, ideals are also a luxury for the strong."\n"Then what am I supposed to do?" Daphne asked.\n"Abandon your hollow principles and your useless empathy. Go among them. Become one of them," said the cold voice.\n"No! Befriend beasts — and how can you be sure you won't become one yourself?" the child's voice cried.\n"Only from a great enough height can you wield the power to change anything," said the cold voice.\n"But once you take that step, there's no turning back!" the child's voice protested.\n \nTheir voices tangled in endless argument. Daphne's head throbbed as though it might split — she felt herself about to be torn in two. She sank to her knees, clutching her head. Slowly, the voices faded, and the last light drained from Dismania's sky.\n \nDaphne Theodore awoke in her bedchamber. The rain had stopped; sunlight gleamed on the ivy leaves outside her window.\n "Miss Daphne, someone from the Legion has come to see you." A maid knocked gently at the door. "She... doesn't seem to mean any harm."\n \nDaphne rose, put on her coat, and stepped into the courtyard. A young man in a Legion officer's uniform stood waiting. Daphne recognised him at once — Sibylle Mason's adjutant.\n \n"Miss Theodore," the man said, "Chief Sibylle has asked me to invite you to join a project — if you're willing."\n "It's called the Second Scion Program."",
+          TextMapId = "UI_CHAR_DATA_TEXT_54010405"
+        },
+        UI_CHAR_DATA_UNLOCK_20 = {
+          ContentEN = "Character Reaches Lv. 20",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_20"
+        },
+        UI_CHAR_DATA_UNLOCK_30 = {
+          ContentEN = "Character Reaches Lv. 30",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_30"
+        },
+        UI_CHAR_DATA_UNLOCK_40 = {
+          ContentEN = "Character Reaches Lv. 40",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_40"
+        },
+        UI_CHAR_DATA_UNLOCK_50 = {
+          ContentEN = "Character Reaches Lv. 50",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_50"
+        },
+        UI_CHAR_DATA_UNLOCK_60 = {
+          ContentEN = "Character Reaches Lv. 60",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_60"
+        },
+        UI_CHAR_DATA_UNLOCK_task01 = {
+          ContentEN = "Character Reaches Lv. 50\nComplete Quest: On a Gentle Breeze",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task01"
+        },
+        UI_CHAR_DATA_UNLOCK_task02 = {
+          ContentEN = "Character Reaches Lv. 60\nComplete Quest: On a Gentle Breeze",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task02"
+        },
+        UI_CHAR_DATA_UNLOCK_task03 = {
+          ContentEN = "Character Reaches Lv. 50\nComplete Quest: A Bouquet for a Maiden",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task03"
+        },
+        UI_CHAR_DATA_UNLOCK_task04 = {
+          ContentEN = "Character Reaches Lv. 40\nComplete Quest: A Bouquet for a Maiden",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task04"
+        },
+        UI_CHAR_DATA_UNLOCK_task05 = {
+          ContentEN = "Character Reaches Lv. 40\nComplete Quest: Requiem for the Nameless",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task05"
+        },
+        UI_CHAR_DATA_UNLOCK_task06 = {
+          ContentEN = "Character Reaches Lv. 50\nComplete Quest: Requiem for the Nameless",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task06"
+        },
+        UI_CHAR_DATA_UNLOCK_task07 = {
+          ContentEN = "Character Reaches Lv. 60\nComplete Quest: Requiem for the Nameless",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task07"
+        },
+        UI_CHAR_DATA_UNLOCK_task08 = {
+          ContentEN = "Character Reaches Lv. 20\nComplete Quest: Requiem for the Nameless",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task08"
+        },
+        UI_CHAR_DATA_UNLOCK_task09 = {
+          ContentEN = "Character Reaches Lv. 30\nComplete Quest: Requiem for the Nameless",
+          TextMapId = "UI_CHAR_DATA_UNLOCK_task09"
         },
         UI_CHAR_FORCE_1101 = {
           ContentEN = "Unaffiliated",
@@ -48573,6 +51142,10 @@ local Data = {
         UI_CHAR_FORCE_1103 = {
           ContentEN = "Unaffiliated",
           TextMapId = "UI_CHAR_FORCE_1103"
+        },
+        UI_CHAR_FORCE_1501 = {
+          ContentEN = "The Elysian Church",
+          TextMapId = "UI_CHAR_FORCE_1501"
         },
         UI_CHAR_FORCE_1502 = {
           ContentEN = "Unaffiliated",
@@ -48593,6 +51166,10 @@ local Data = {
         UI_CHAR_FORCE_2301 = {
           ContentEN = "Unaffiliated",
           TextMapId = "UI_CHAR_FORCE_2301"
+        },
+        UI_CHAR_FORCE_2401 = {
+          ContentEN = "Hall of Ephemerality",
+          TextMapId = "UI_CHAR_FORCE_2401"
         },
         UI_CHAR_FORCE_3101 = {
           ContentEN = "The 13th Legion",
@@ -48795,7 +51372,7 @@ local Data = {
           TextMapId = "UI_CHAR_SUBTITLE_1103"
         },
         UI_CHAR_SUBTITLE_1501 = {
-          ContentEN = "Patience · Petulance",
+          ContentEN = "Patience·Petulance",
           TextMapId = "UI_CHAR_SUBTITLE_1501"
         },
         UI_CHAR_SUBTITLE_1502 = {
@@ -49483,7 +52060,7 @@ local Data = {
           TextMapId = "UI_CMNpc_Name_Yusheng"
         },
         UI_CMNpc_Name_ZLSecretary = {
-          ContentEN = "Zhiliu's Secretary",
+          ContentEN = "Wangchun",
           TextMapId = "UI_CMNpc_Name_ZLSecretary"
         },
         UI_CMNpc_Name_ZhaoShu = {
@@ -49863,7 +52440,7 @@ local Data = {
           TextMapId = "UI_COMMONPOP_TEXT_100119"
         },
         UI_COMMONPOP_TEXT_100121 = {
-          ContentEN = "Dear Phoxhunter, we regret to inform you that you are not eligible for this test. We deeply appreciate your support and enthusiasm for the game.",
+          ContentEN = "Dear Phoxhunter, we regret to inform you that you are not eligible for the First Closed Beta Test. We deeply appreciate your support and enthusiasm for the game.",
           TextMapId = "UI_COMMONPOP_TEXT_100121"
         },
         UI_COMMONPOP_TEXT_100135_1 = {
@@ -49881,6 +52458,10 @@ local Data = {
         UI_COMMONPOP_TEXT_100137 = {
           ContentEN = "Insufficient Phoxene and Phoxene Plumule. Go to Shop?",
           TextMapId = "UI_COMMONPOP_TEXT_100137"
+        },
+        UI_COMMONPOP_TEXT_100138 = {
+          ContentEN = "Not enough Phoxene Plumules. Visit the Shop?",
+          TextMapId = "UI_COMMONPOP_TEXT_100138"
         },
         UI_COMMONPOP_TEXT_100141 = {
           ContentEN = "Retreat now?",
@@ -49909,6 +52490,10 @@ local Data = {
         UI_COMMONPOP_TEXT_100228 = {
           ContentEN = "Skip cutscene?",
           TextMapId = "UI_COMMONPOP_TEXT_100228"
+        },
+        UI_COMMONPOP_TEXT_100229 = {
+          ContentEN = "Skin already owned. Duplicates will be converted into resources.",
+          TextMapId = "UI_COMMONPOP_TEXT_100229"
         },
         UI_COMMONPOP_TITLE_100002 = {
           ContentEN = "This Demon Wedge is currently equipped. Are you sure you want to sell it?_Title",
@@ -50095,8 +52680,12 @@ local Data = {
           TextMapId = "UI_COMMONPOP_TITLE_100136"
         },
         UI_COMMONPOP_TITLE_100137 = {
-          ContentEN = "Insufficient Phoxene and Phoxene Plumule",
+          ContentEN = "Insufficient Phoxene",
           TextMapId = "UI_COMMONPOP_TITLE_100137"
+        },
+        UI_COMMONPOP_TITLE_100138 = {
+          ContentEN = "Insufficient Phoxene Plumules",
+          TextMapId = "UI_COMMONPOP_TITLE_100138"
         },
         UI_COMMONPOP_TITLE_100151 = {
           ContentEN = "Update Notice",
@@ -50123,7 +52712,7 @@ local Data = {
           TextMapId = "UI_CONFIRM_90202"
         },
         UI_CONFIRM_90203 = {
-          ContentEN = "R&R",
+          ContentEN = "Rest",
           TextMapId = "UI_CONFIRM_90203"
         },
         UI_CONFIRM_90204 = {
@@ -50191,7 +52780,7 @@ local Data = {
           TextMapId = "UI_CONTINUOUSINTERACTIVE_100"
         },
         UI_CONTINUOUSINTERACTIVE_101 = {
-          ContentEN = "Press and hold to conclude the final act",
+          ContentEN = "Draw back the curtains",
           TextMapId = "UI_CONTINUOUSINTERACTIVE_101"
         },
         UI_COST_NAME = {
@@ -50218,6 +52807,14 @@ local Data = {
           ContentEN = "Materials Required",
           TextMapId = "UI_CTL_Armory_Consumables"
         },
+        UI_CTL_BattleBag_Check = {
+          ContentEN = "Open Tactical Backpack",
+          TextMapId = "UI_CTL_BattleBag_Check"
+        },
+        UI_CTL_BattleBag_Input_Slot = {
+          ContentEN = "Place in selected slot",
+          TextMapId = "UI_CTL_BattleBag_Input_Slot"
+        },
         UI_CTL_BulletJump = {
           ContentEN = "Helix Leap",
           TextMapId = "UI_CTL_BulletJump"
@@ -50242,9 +52839,17 @@ local Data = {
           ContentEN = "View Attributes",
           TextMapId = "UI_CTL_CheckProperty"
         },
+        UI_CTL_Choose_InputItem = {
+          ContentEN = "Select item to place",
+          TextMapId = "UI_CTL_Choose_InputItem"
+        },
         UI_CTL_Choose_Mod = {
           ContentEN = "Select a Demon Wedge",
           TextMapId = "UI_CTL_Choose_Mod"
+        },
+        UI_CTL_Choose_ReplaceItem = {
+          ContentEN = "Select item to replace",
+          TextMapId = "UI_CTL_Choose_ReplaceItem"
         },
         UI_CTL_Claim = {
           ContentEN = "Claim Reward",
@@ -50301,6 +52906,10 @@ local Data = {
         UI_CTL_Fish_Throw = {
           ContentEN = "Cast",
           TextMapId = "UI_CTL_Fish_Throw"
+        },
+        UI_CTL_Focus_List = {
+          ContentEN = "Focus List",
+          TextMapId = "UI_CTL_Focus_List"
         },
         UI_CTL_Focus_ModList = {
           ContentEN = "Focus",
@@ -50382,6 +52991,10 @@ local Data = {
           ContentEN = "Remove",
           TextMapId = "UI_CTL_Remove"
         },
+        UI_CTL_ReplaceItem = {
+          ContentEN = "Replace",
+          TextMapId = "UI_CTL_ReplaceItem"
+        },
         UI_CTL_Replace_Mod = {
           ContentEN = "Replace this Demon Wedge",
           TextMapId = "UI_CTL_Replace_Mod"
@@ -50389,6 +53002,10 @@ local Data = {
         UI_CTL_Replace_SelectedMod = {
           ContentEN = "Replace selected Demon Wedge",
           TextMapId = "UI_CTL_Replace_SelectedMod"
+        },
+        UI_CTL_Replace_Slot = {
+          ContentEN = "Replace item in slot",
+          TextMapId = "UI_CTL_Replace_Slot"
         },
         UI_CTL_RotatePreview = {
           ContentEN = "Rotate Preview",
@@ -50511,7 +53128,7 @@ local Data = {
           TextMapId = "UI_CameraSystem_CameraModeDefault"
         },
         UI_CameraSystem_CameraModePhotography = {
-          ContentEN = "Camera Lens",
+          ContentEN = "First-person",
           TextMapId = "UI_CameraSystem_CameraModePhotography"
         },
         UI_CameraSystem_CameraModeSelfie = {
@@ -50539,7 +53156,7 @@ local Data = {
           TextMapId = "UI_CameraSystem_HideModelAll"
         },
         UI_CameraSystem_HideModel_Character = {
-          ContentEN = "Characters",
+          ContentEN = "Character",
           TextMapId = "UI_CameraSystem_HideModel_Character"
         },
         UI_CameraSystem_HideModel_Monster = {
@@ -50551,7 +53168,7 @@ local Data = {
           TextMapId = "UI_CameraSystem_HideModel_NPC"
         },
         UI_CameraSystem_HideModel_OtherPlayer = {
-          ContentEN = "Other Phoxhunters",
+          ContentEN = "Players",
           TextMapId = "UI_CameraSystem_HideModel_OtherPlayer"
         },
         UI_CameraSystem_HideModel_Pet = {
@@ -50623,7 +53240,7 @@ local Data = {
           TextMapId = "UI_Channel_Name_1"
         },
         UI_Channel_Name_2 = {
-          ContentEN = "FAQ",
+          ContentEN = "Chat",
           TextMapId = "UI_Channel_Name_2"
         },
         UI_Channel_Name_3 = {
@@ -50681,6 +53298,10 @@ local Data = {
         UI_ChapterNumber_E0 = {
           ContentEN = "Huaxu",
           TextMapId = "UI_ChapterNumber_E0"
+        },
+        UI_ChapterNumber_W0 = {
+          ContentEN = "Hyperborea",
+          TextMapId = "UI_ChapterNumber_W0"
         },
         UI_CharArchive_MainProgress = {
           ContentEN = "Characters Owned:",
@@ -50758,6 +53379,10 @@ local Data = {
           ContentEN = "Voice-Over",
           TextMapId = "UI_CharVoice_Tab"
         },
+        UI_Char_Accessory = {
+          ContentEN = "Character Accessories",
+          TextMapId = "UI_Char_Accessory"
+        },
         UI_Char_Data_Step_1 = {
           ContentEN = "Stage Ⅰ",
           TextMapId = "UI_Char_Data_Step_1"
@@ -50785,6 +53410,10 @@ local Data = {
         UI_Char_Locked = {
           ContentEN = "This character is not owned",
           TextMapId = "UI_Char_Locked"
+        },
+        UI_Char_Skin = {
+          ContentEN = "Character Skins",
+          TextMapId = "UI_Char_Skin"
         },
         UI_Char_Unlock = {
           ContentEN = "Reminiscence",
@@ -50889,6 +53518,10 @@ local Data = {
         UI_Chat_Accuse = {
           ContentEN = "Report",
           TextMapId = "UI_Chat_Accuse"
+        },
+        UI_Chat_BackToBottom = {
+          ContentEN = "Back to Bottom",
+          TextMapId = "UI_Chat_BackToBottom"
         },
         UI_Chat_CannotOpenFriend = {
           ContentEN = "Unable to open Friends",
@@ -51166,6 +53799,10 @@ local Data = {
           ContentEN = "Yay!",
           TextMapId = "UI_Chat_Imagine9"
         },
+        UI_Chat_ImagineGroup1 = {
+          ContentEN = "Lunarian",
+          TextMapId = "UI_Chat_ImagineGroup1"
+        },
         UI_Chat_ImagineGroup2 = {
           ContentEN = "Luno Emotes (Ⅱ)",
           TextMapId = "UI_Chat_ImagineGroup2"
@@ -51331,7 +53968,7 @@ local Data = {
           TextMapId = "UI_Complete_The_Prerequisite"
         },
         UI_Consumable_CardLevel_Max = {
-          ContentEN = "Confirm to receive %s ×1? (This character is already at Intron Lv. 6. Upon confirmation, it will auto-convert to Grit ×%s)",
+          ContentEN = "Confirm to receive <highlight>%s</> ×1? (This character is already at Intron Lv. 6.)",
           TextMapId = "UI_Consumable_CardLevel_Max"
         },
         UI_Consumable_Choose = {
@@ -51339,7 +53976,7 @@ local Data = {
           TextMapId = "UI_Consumable_Choose"
         },
         UI_Consumable_Choose_Confirm = {
-          ContentEN = "Confirm to receive %s ×1?",
+          ContentEN = "Confirm to receive <highlight>%s</> ×1?",
           TextMapId = "UI_Consumable_Choose_Confirm"
         },
         UI_Consumable_Choose_Confirm_Have_Skin = {
@@ -51351,7 +53988,7 @@ local Data = {
           TextMapId = "UI_Consumable_Effect"
         },
         UI_Consumable_Effect_ResourcePack = {
-          ContentEN = "Consumes %s: %d/%d (each grants reward ×%d)",
+          ContentEN = "Consumes %s: %d/%d",
           TextMapId = "UI_Consumable_Effect_ResourcePack"
         },
         UI_Consumable_Get_Confirm = {
@@ -51359,15 +53996,15 @@ local Data = {
           TextMapId = "UI_Consumable_Get_Confirm"
         },
         UI_Consumable_Goto_Bag = {
-          ContentEN = "Use from Inventory?",
+          ContentEN = "Go to Inventory to use now?",
           TextMapId = "UI_Consumable_Goto_Bag"
         },
         UI_Consumable_Goto_Bag_Title = {
-          ContentEN = "Item Use Notice",
+          ContentEN = "Consumable Use Reminder",
           TextMapId = "UI_Consumable_Goto_Bag_Title"
         },
         UI_Consumable_HasGot = {
-          ContentEN = "Owned: %s",
+          ContentEN = "Owned:",
           TextMapId = "UI_Consumable_HasGot"
         },
         UI_Consumable_Invert = {
@@ -51389,6 +54026,10 @@ local Data = {
         UI_Consumable_Open_Confirm = {
           ContentEN = "Open Now",
           TextMapId = "UI_Consumable_Open_Confirm"
+        },
+        UI_Consumable_Open_Count = {
+          ContentEN = "Quantity: ",
+          TextMapId = "UI_Consumable_Open_Count"
         },
         UI_Consume_Select_Skin = {
           ContentEN = "Consume your Choice Pack to unlock this skin",
@@ -51579,7 +54220,7 @@ local Data = {
           TextMapId = "UI_DUNGEON_CONTENT_DEFENCE_2"
         },
         UI_DUNGEON_CONTENT_DEFENCE_3 = {
-          ContentEN = ""Most people only regard Crystallo as beautiful ornaments, and neglect the research value of their formation and luminescent properties. I heard someone found a bunch of powerful Kijings. How can I just sit and do nothing after hearing that?! Hmm... Great research requires formidable Phoxhunters. You'll protect me well while I'm researching Kijings, right? Right?" — Lunoxplorer",
+          ContentEN = "I heard someone found a bunch of powerful devices. How can I just sit and do nothing after hearing that?! Hmm... Great research requires formidable Phoxhunters. You'll protect me well while I'm researching these devices, right? Right?" — Lunoxplorer",
           TextMapId = "UI_DUNGEON_CONTENT_DEFENCE_3"
         },
         UI_DUNGEON_CONTENT_EXCAVATION_1 = {
@@ -51835,7 +54476,7 @@ local Data = {
           TextMapId = "UI_DUNGEON_DES_TRAINING_33"
         },
         UI_DUNGEON_DES_TRAINING_34 = {
-          ContentEN = "Can be unlocked through Commissions, Mazes, or World Exploration (Placeholder)",
+          ContentEN = "Can be unlocked through Commissions, Mazes, or World Exploration",
           TextMapId = "UI_DUNGEON_DES_TRAINING_34"
         },
         UI_DUNGEON_DES_TRAINING_35 = {
@@ -51943,7 +54584,7 @@ local Data = {
           TextMapId = "UI_DUNGEON_GUIDE_EXIT"
         },
         UI_DUNGEON_GUIDE_MECHANISM = {
-          ContentEN = "Operating Device",
+          ContentEN = "Operate the Device",
           TextMapId = "UI_DUNGEON_GUIDE_MECHANISM"
         },
         UI_DUNGEON_HOSTAGE = {
@@ -51995,7 +54636,7 @@ local Data = {
           TextMapId = "UI_DUNGEON_PRISON"
         },
         UI_DUNGEON_SHENGQIZHE = {
-          ContentEN = "Captain of "The Fantastic Forsakens"",
+          ContentEN = "Captain of "The Fork Shakens"",
           TextMapId = "UI_DUNGEON_SHENGQIZHE"
         },
         UI_DUNGEON_TITLE_MATCHING = {
@@ -52065,6 +54706,10 @@ local Data = {
         UI_DUNGEON_TYPE_SYNTHESIS = {
           ContentEN = "Chase",
           TextMapId = "UI_DUNGEON_TYPE_SYNTHESIS"
+        },
+        UI_DUNGEON_TYPE_TESTING = {
+          ContentEN = "Expulsion",
+          TextMapId = "UI_DUNGEON_TYPE_TESTING"
         },
         UI_DUNGEON_TYPE_TRAINING = {
           ContentEN = "Sandrealm Meditation",
@@ -52162,6 +54807,18 @@ local Data = {
           ContentEN = "Select to see more",
           TextMapId = "UI_Detail_Text"
         },
+        UI_Deteal_Abyss_1 = {
+          ContentEN = "Immersive Theatre: Progress",
+          TextMapId = "UI_Deteal_Abyss_1"
+        },
+        UI_Deteal_Abyss_2 = {
+          ContentEN = "Immersive Theatre: Season Rating",
+          TextMapId = "UI_Deteal_Abyss_2"
+        },
+        UI_Deteal_Rouge_1 = {
+          ContentEN = "Mystic Maze: Difficulty",
+          TextMapId = "UI_Deteal_Rouge_1"
+        },
         UI_Dialogue_Review = {
           ContentEN = "History",
           TextMapId = "UI_Dialogue_Review"
@@ -52202,6 +54859,10 @@ local Data = {
           ContentEN = "Memo temporarily unavailable",
           TextMapId = "UI_Disabled_Des_DailyGoal"
         },
+        UI_Disabled_Des_Dispatch = {
+          ContentEN = "Expedition temporarily unavailable",
+          TextMapId = "UI_Disabled_Des_Dispatch"
+        },
         UI_Disabled_Des_Entertainment = {
           ContentEN = "Ripples of Talk temporarily unavailable",
           TextMapId = "UI_Disabled_Des_Entertainment"
@@ -52219,7 +54880,7 @@ local Data = {
           TextMapId = "UI_Disabled_Des_Friend"
         },
         UI_Disabled_Des_Gacha = {
-          ContentEN = "Retrace temporarily unavailable",
+          ContentEN = "Myriad temporarily unavailable",
           TextMapId = "UI_Disabled_Des_Gacha"
         },
         UI_Disabled_Des_GameEvent = {
@@ -52235,7 +54896,7 @@ local Data = {
           TextMapId = "UI_Disabled_Des_HardBoss"
         },
         UI_Disabled_Des_Invite = {
-          ContentEN = "Sojourns temporarily unavailable",
+          ContentEN = "Ripples of Talk temporarily unavailable",
           TextMapId = "UI_Disabled_Des_Invite"
         },
         UI_Disabled_Des_Mail = {
@@ -52527,7 +55188,7 @@ local Data = {
           TextMapId = "UI_Dispatch_Toast_Overdate"
         },
         UI_Dispatch_Toast_RewardWarm = {
-          ContentEN = "Expedition Complete Rewards",
+          ContentEN = "Assign a character to complete the event and earn Expedition rewards",
           TextMapId = "UI_Dispatch_Toast_RewardWarm"
         },
         UI_Dispatch_Toast_Unlock = {
@@ -52603,7 +55264,7 @@ local Data = {
           TextMapId = "UI_Disptach_Goto"
         },
         UI_Disptach_GotoConfirm = {
-          ContentEN = "Teleport to the nearest Avain Tower from the location of this <Highlight>Dynamic Quest</>?",
+          ContentEN = "Teleport to the <Highlight>Dynamic Quest</> location?",
           TextMapId = "UI_Disptach_GotoConfirm"
         },
         UI_Disptach_List = {
@@ -52693,6 +55354,10 @@ local Data = {
         UI_Disptach_Warm_ManualDoing = {
           ContentEN = "Relevant Dynamic Quest in progress",
           TextMapId = "UI_Disptach_Warm_ManualDoing"
+        },
+        UI_DraftDes_General = {
+          ContentEN = "A page of forging blueprint, outlining the item's fabrication process. The steps are deceptively simple, yet brimming with the designer's meticulous craft.",
+          TextMapId = "UI_DraftDes_General"
         },
         UI_Dress_Back = {
           ContentEN = "Back",
@@ -52875,11 +55540,11 @@ local Data = {
           TextMapId = "UI_Dye_HideUI"
         },
         UI_Dye_Input_Content = {
-          ContentEN = "Enter Plan ID",
+          ContentEN = "Enter Plan code",
           TextMapId = "UI_Dye_Input_Content"
         },
         UI_Dye_Input_Invaluable = {
-          ContentEN = "Import failed. Please enter a valid Plan ID.",
+          ContentEN = "Import failed. Please enter a valid Plan code.",
           TextMapId = "UI_Dye_Input_Invaluable"
         },
         UI_Dye_Input_NoChar = {
@@ -52915,11 +55580,11 @@ local Data = {
           TextMapId = "UI_Dye_Name"
         },
         UI_Dye_Output_Build = {
-          ContentEN = "Plan ID created",
+          ContentEN = "Plan code created",
           TextMapId = "UI_Dye_Output_Build"
         },
         UI_Dye_Output_Copy = {
-          ContentEN = "Plan ID copied",
+          ContentEN = "Plan code copied",
           TextMapId = "UI_Dye_Output_Copy "
         },
         UI_Dye_Output_CopyBoard = {
@@ -52927,7 +55592,7 @@ local Data = {
           TextMapId = "UI_Dye_Output_CopyBoard"
         },
         UI_Dye_Output_Temporary = {
-          ContentEN = "Drafts cannot be shared",
+          ContentEN = "Unapplied drafts cannot be shared",
           TextMapId = "UI_Dye_Output_Temporary"
         },
         UI_Dye_Previewing = {
@@ -52981,6 +55646,14 @@ local Data = {
         UI_ENERGYSUPPLY_100 = {
           ContentEN = "Hold to claim",
           TextMapId = "UI_ENERGYSUPPLY_100"
+        },
+        UI_EVENT_FEINA_LeftCheck = {
+          ContentEN = "Some White Feathers remain uncollected in this story",
+          TextMapId = "UI_EVENT_FEINA_LeftCheck"
+        },
+        UI_EVENT_FEINA_RightClick = {
+          ContentEN = "Click Ranged Attack button to paint the world with Dreamweave Pigment.",
+          TextMapId = "UI_EVENT_FEINA_RightClick"
         },
         UI_EXPLORE_BOX_1 = {
           ContentEN = "Open",
@@ -53039,35 +55712,35 @@ local Data = {
           TextMapId = "UI_ElementDes"
         },
         UI_ElementDes_Dark = {
-          ContentEN = "When this bonus effect is triggered, deals periodic <H>Umbro</> DMG to the target and <H>reduces</> their <H>Stance recovery speed</> for <H>6</>s. Stacks up to <H>6</> times.",
+          ContentEN = "Deals periodic <H>Umbro</> DMG and slows the target's <H>Stance recovery</>",
           TextMapId = "UI_ElementDes_Dark"
         },
         UI_ElementDes_Fire = {
-          ContentEN = "When this bonus effect is triggered, deals periodic <H>Pyro</> DMG to the target for <H>6</>s. Stacks up to <H>6</> times.",
+          ContentEN = "Deals periodic <H>Pyro</> DMG",
           TextMapId = "UI_ElementDes_Fire"
         },
         UI_ElementDes_General = {
-          ContentEN = "Damage from advantaged elements is increased by <H>400%</>, while damage from <H>disadvantaged</> elements is reduced by <H>50%</>.",
+          ContentEN = "Damage from advantaged elements is increased by <H>400%</>, while damage from <H>non-advantaged</> elements is reduced by <H>50%</>.",
           TextMapId = "UI_ElementDes_General"
         },
         UI_ElementDes_Light = {
-          ContentEN = "When this bonus effect is triggered, deals periodic <H>Lumino</> DMG to the target for <H>6</>s. Stacks up to <H>6</> times. Also refreshes the Remaining Time of <H>all</> bonus effects.",
+          ContentEN = "Deals periodic <H>Lumino</> DMG and refreshes the Remaining Time of all active <H>Elemental</> bonus effects",
           TextMapId = "UI_ElementDes_Light"
         },
         UI_ElementDes_Thunder = {
-          ContentEN = "When this bonus effect is triggered, deals periodic <H>Anemo</> DMG to the target for <H>6</>s. Stacks up to <H>6</> times.",
+          ContentEN = "Deals periodic <H>Electro</> DMG",
           TextMapId = "UI_ElementDes_Thunder"
         },
         UI_ElementDes_Water = {
-          ContentEN = "When this bonus effect is triggered, deals periodic <H>Hydro</> DMG to the target for <H>6</>s. Stacks up to <H>6</> times.",
+          ContentEN = "Deals periodic <H>Hydro</> DMG",
           TextMapId = "UI_ElementDes_Water"
         },
         UI_ElementDes_Wind = {
-          ContentEN = "When this bonus effect is triggered, deals periodic <H>Electro</> DMG to the target for <H>6</>s. Stacks up to <H>6</> times.",
+          ContentEN = "Deals periodic <H>Anemo</> DMG",
           TextMapId = "UI_ElementDes_Wind"
         },
         UI_End_Forge_Confirm = {
-          ContentEN = "Cancel",
+          ContentEN = "Confirm",
           TextMapId = "UI_End_Forge_Confirm"
         },
         UI_EnemyArchive_All = {
@@ -53311,7 +55984,7 @@ local Data = {
           TextMapId = "UI_Event_ModDrop_Bubble"
         },
         UI_Event_ModDrop_Challenge = {
-          ContentEN = "Limited-Time Demon Wedge Commission",
+          ContentEN = "Limited-Time Commission",
           TextMapId = "UI_Event_ModDrop_Challenge"
         },
         UI_Event_ModDrop_ChallengeName = {
@@ -53367,7 +56040,7 @@ local Data = {
           TextMapId = "UI_Event_ModDrop_Reset"
         },
         UI_Event_ModDrop_Rule = {
-          ContentEN = "1. During the event, Commissions in the Noctoyager Manual receive a daily <highlight>%d</> bonus to Demon Wedge rewards. This stacks with the Manual's base bonus. Complete a Commission while the boost is active to earn more Demon Wedges.\n 2. Logging in each day grants <highlight>%d</> attempts for Limited-Time Demon Wedge Commissions. Attempts do not carry over and reset to zero at the daily server reset.\n 3. Each Commission in the Noctoyager Manual has a corresponding Limited-Time variant, with Primanders appearing in large numbers.",
+          ContentEN = "1. During the event, Noctoyager Manual Commissions grant extra Demon Wedges (up to <highlight>5</> times daily). This stacks with the Manual's base bonus. Complete a Commission while the boost is active to earn more Demon Wedges.\n 2. Logging in each day grants <highlight>5</> attempts for Limited-Time Demon Wedge Commissions. Attempts do not carry over and reset at the daily server reset.\n 3. Each Demon Wedge Commission in the Noctoyager Manual has a Limited-Time variant, where Primanders appear in large numbers.",
           TextMapId = "UI_Event_ModDrop_Rule"
         },
         UI_Event_ModDrop_Title1 = {
@@ -53458,6 +56131,14 @@ local Data = {
           ContentEN = "Davy",
           TextMapId = "UI_FNNpc_Name_David"
         },
+        UI_FNNpc_Name_FNThief01 = {
+          ContentEN = "Bandit Leader",
+          TextMapId = "UI_FNNpc_Name_FNThief01"
+        },
+        UI_FNNpc_Name_FNThief02 = {
+          ContentEN = "Bandit Henchman",
+          TextMapId = "UI_FNNpc_Name_FNThief02"
+        },
         UI_FNNpc_Name_Freida = {
           ContentEN = "Freda",
           TextMapId = "UI_FNNpc_Name_Freida"
@@ -53527,7 +56208,7 @@ local Data = {
           TextMapId = "UI_FORGING_CURRENT"
         },
         UI_FORGING_EMPTY = {
-          ContentEN = "No Blueprint",
+          ContentEN = "No Blueprints Available",
           TextMapId = "UI_FORGING_EMPTY"
         },
         UI_FORGING_FORBIDDEN = {
@@ -53615,7 +56296,7 @@ local Data = {
           TextMapId = "UI_Fishing_AutoFishing"
         },
         UI_Fishing_BuyFishingLure = {
-          ContentEN = "Purchase",
+          ContentEN = "Purchase Baits",
           TextMapId = "UI_Fishing_BuyFishingLure"
         },
         UI_Fishing_Fail = {
@@ -53703,7 +56384,7 @@ local Data = {
           TextMapId = "UI_Fishing_SmallToBig"
         },
         UI_Fishing_SmallToBigChance = {
-          ContentEN = "A chance to teach a man to fish!",
+          ContentEN = "A chance for a bigger fish!",
           TextMapId = "UI_Fishing_SmallToBigChance"
         },
         UI_Fishing_StartFishing = {
@@ -53743,7 +56424,7 @@ local Data = {
           TextMapId = "UI_Forge_Num"
         },
         UI_Forging_Archive = {
-          ContentEN = "Blueprints Compendium",
+          ContentEN = "Blueprints",
           TextMapId = "UI_Forging_Archive"
         },
         UI_Fort03_CountDown_1 = {
@@ -53943,7 +56624,7 @@ local Data = {
           TextMapId = "UI_GACHA_LIST"
         },
         UI_GACHA_NEXT = {
-          ContentEN = "ㅤ",
+          ContentEN = "Click to continue",
           TextMapId = "UI_GACHA_NEXT"
         },
         UI_GACHA_NOHISTORY = {
@@ -53955,7 +56636,7 @@ local Data = {
           TextMapId = "UI_GACHA_ONE"
         },
         UI_GACHA_OVERDUE = {
-          ContentEN = "The Retraces have been updated. Select "Confirm" to return.",
+          ContentEN = "The Myriad information has been updated. Select "Confirm" to return.",
           TextMapId = "UI_GACHA_OVERDUE"
         },
         UI_GACHA_PAGE = {
@@ -53995,7 +56676,7 @@ local Data = {
           TextMapId = "UI_GACHA_TEN"
         },
         UI_GACHA_TITLE_OVERDUE = {
-          ContentEN = "Featured Retrace Notice",
+          ContentEN = "Featured Myriad Notice",
           TextMapId = "UI_GACHA_TITLE_OVERDUE"
         },
         UI_GACHA_TRANSFORMED = {
@@ -54079,11 +56760,11 @@ local Data = {
           TextMapId = "UI_GameEvent_EventPortal_RewardPreview"
         },
         UI_GameEvent_EventTimeRemain = {
-          ContentEN = "Event ends in ",
+          ContentEN = "Event Duration: ",
           TextMapId = "UI_GameEvent_EventTimeRemain"
         },
         UI_GameEvent_GachaPortal = {
-          ContentEN = "Retrace",
+          ContentEN = "Weave",
           TextMapId = "UI_GameEvent_GachaPortal"
         },
         UI_GameEvent_Goto = {
@@ -54171,7 +56852,7 @@ local Data = {
           TextMapId = "UI_HardBoss_Abandon_Tips"
         },
         UI_HardBoss_ChancesRemain = {
-          ContentEN = "Remaining attempts to claim rewards this week:",
+          ContentEN = "Remaining attempts to claim rewards this week:{空格}",
           TextMapId = "UI_HardBoss_ChancesRemain"
         },
         UI_HardBoss_Des_1 = {
@@ -54231,15 +56912,15 @@ local Data = {
           TextMapId = "UI_HardBoss_Difficulty_Des_1014"
         },
         UI_HardBoss_Difficulty_Des_1021 = {
-          ContentEN = "The Eclosioner",
+          ContentEN = "The seed in the frozen soil that has forfeited the opportunity for a gentle descent into the night.",
           TextMapId = "UI_HardBoss_Difficulty_Des_1021"
         },
         UI_HardBoss_Difficulty_Des_1022 = {
-          ContentEN = "The Eclosioner",
+          ContentEN = "The seed in the frozen soil that has forfeited the opportunity for a gentle descent into the night.",
           TextMapId = "UI_HardBoss_Difficulty_Des_1022"
         },
         UI_HardBoss_Difficulty_Des_1023 = {
-          ContentEN = "The Eclosioner",
+          ContentEN = "The seed in the frozen soil that has forfeited the opportunity for a gentle descent into the night.",
           TextMapId = "UI_HardBoss_Difficulty_Des_1023"
         },
         UI_HardBoss_Difficulty_Des_1024 = {
@@ -54466,6 +57147,10 @@ local Data = {
           ContentEN = "Tread lightly — beware the crimson blooms that nest atop the thorns.",
           TextMapId = "UI_HeadFrame_Des_10015"
         },
+        UI_HeadFrame_Des_10016 = {
+          ContentEN = "Inscribe dream-spun wishes with a tender quill.",
+          TextMapId = "UI_HeadFrame_Des_10016"
+        },
         UI_HeadFrame_Frame = {
           ContentEN = "Avatar Frame",
           TextMapId = "UI_HeadFrame_Frame"
@@ -54515,7 +57200,7 @@ local Data = {
           TextMapId = "UI_HeadFrame_Name_10010"
         },
         UI_HeadFrame_Name_10011 = {
-          ContentEN = "Butterfly: Emerald",
+          ContentEN = "Butterfly: Emerald Green",
           TextMapId = "UI_HeadFrame_Name_10011"
         },
         UI_HeadFrame_Name_10012 = {
@@ -54533,6 +57218,10 @@ local Data = {
         UI_HeadFrame_Name_10015 = {
           ContentEN = "The Umbral Forest",
           TextMapId = "UI_HeadFrame_Name_10015"
+        },
+        UI_HeadFrame_Name_10016 = {
+          ContentEN = "White Quill",
+          TextMapId = "UI_HeadFrame_Name_10016"
         },
         UI_HeadFrame_None = {
           ContentEN = "No avatar frames available",
@@ -54627,7 +57316,7 @@ local Data = {
           TextMapId = "UI_ImpressionShop_ShopName_Short"
         },
         UI_ImpressionShop_Tips = {
-          ContentEN = "Each item is limited to 1 purchase per customer (except Mindscape items)",
+          ContentEN = "One per customer (excludes Soulprints)",
           TextMapId = "UI_ImpressionShop_Tips"
         },
         UI_ImpressionShop_UnlockCon_All = {
@@ -54954,12 +57643,20 @@ local Data = {
           ContentEN = ""Even if left all alone, you should be brave and live on."",
           TextMapId = "UI_LOGO_DIALOGUE_10018201"
         },
+        UI_LOGO_DIALOGUE_10018201_WORLD = {
+          ContentEN = ""Even if just thee could survive in the future, you shall live through all the obstacle."",
+          TextMapId = "UI_LOGO_DIALOGUE_10018201_WORLD"
+        },
         UI_LOGO_DIALOGUE_10018202 = {
           ContentEN = ""Until the day we meet again."",
           TextMapId = "UI_LOGO_DIALOGUE_10018202"
         },
+        UI_LOGO_DIALOGUE_10018202_WORLD = {
+          ContentEN = ""Until we meeting again."",
+          TextMapId = "UI_LOGO_DIALOGUE_10018202_WORLD"
+        },
         UI_LackOfMoney = {
-          ContentEN = "Not enough Phoxene. Visit the Store to get more?",
+          ContentEN = "Not enough Phoxene Plumules. Visit the Shop?",
           TextMapId = "UI_LackOfMoney"
         },
         UI_Lack_of_Resources = {
@@ -54981,6 +57678,54 @@ local Data = {
         UI_Language_Switch_Voice = {
           ContentEN = "Voice-Over",
           TextMapId = "UI_Language_Switch_Voice"
+        },
+        UI_Language_Text_CN = {
+          ContentEN = "简体中文",
+          TextMapId = "UI_Language_Text_CN"
+        },
+        UI_Language_Text_DE = {
+          ContentEN = "Deutsch",
+          TextMapId = "UI_Language_Text_DE"
+        },
+        UI_Language_Text_EN = {
+          ContentEN = "English",
+          TextMapId = "UI_Language_Text_EN"
+        },
+        UI_Language_Text_ES = {
+          ContentEN = "Español",
+          TextMapId = "UI_Language_Text_ES"
+        },
+        UI_Language_Text_FR = {
+          ContentEN = "Français",
+          TextMapId = "UI_Language_Text_FR"
+        },
+        UI_Language_Text_JP = {
+          ContentEN = "日本語",
+          TextMapId = "UI_Language_Text_JP"
+        },
+        UI_Language_Text_KR = {
+          ContentEN = "한국어",
+          TextMapId = "UI_Language_Text_KR"
+        },
+        UI_Language_Text_TC = {
+          ContentEN = "繁體中文",
+          TextMapId = "UI_Language_Text_TC"
+        },
+        UI_Language_Voice_CN = {
+          ContentEN = "汉语",
+          TextMapId = "UI_Language_Voice_CN"
+        },
+        UI_Language_Voice_EN = {
+          ContentEN = "English",
+          TextMapId = "UI_Language_Voice_EN"
+        },
+        UI_Language_Voice_JP = {
+          ContentEN = "日本語",
+          TextMapId = "UI_Language_Voice_JP"
+        },
+        UI_Language_Voice_KR = {
+          ContentEN = "한국어",
+          TextMapId = "UI_Language_Voice_KR"
         },
         UI_LevelFinish_HL_Damage = {
           ContentEN = "Damage Dealt",
@@ -55130,6 +57875,10 @@ local Data = {
           ContentEN = "Memo not unlocked",
           TextMapId = "UI_Locked_Des_DailyGoal"
         },
+        UI_Locked_Des_Dispatch = {
+          ContentEN = "Expedition not unlocked",
+          TextMapId = "UI_Locked_Des_Dispatch"
+        },
         UI_Locked_Des_Entertainment = {
           ContentEN = "Ripples of Talk not yet available",
           TextMapId = "UI_Locked_Des_Entertainment"
@@ -55147,7 +57896,7 @@ local Data = {
           TextMapId = "UI_Locked_Des_Friend"
         },
         UI_Locked_Des_Gacha = {
-          ContentEN = "Chrono not yet unlocked",
+          ContentEN = "Myriad not yet unlocked",
           TextMapId = "UI_Locked_Des_Gacha"
         },
         UI_Locked_Des_GameEvent = {
@@ -55235,7 +57984,7 @@ local Data = {
           TextMapId = "UI_Locked_Des_Quest"
         },
         UI_Locked_Des_Rouge = {
-          ContentEN = "Mystic Maze not yet available",
+          ContentEN = "Echoes of Missteps not yet available",
           TextMapId = "UI_Locked_Des_Rouge"
         },
         UI_Locked_Des_Shop = {
@@ -55277,6 +58026,10 @@ local Data = {
         UI_Login_Success = {
           ContentEN = "Login successful",
           TextMapId = "UI_Login_Success"
+        },
+        UI_Login_Waiting = {
+          ContentEN = "The game server is currently full and you have been placed in the login queue. Please wait patiently or try again later.",
+          TextMapId = "UI_Login_Waiting"
         },
         UI_MECHANISM_100 = {
           ContentEN = "Open",
@@ -55478,6 +58231,14 @@ local Data = {
           ContentEN = "Rubbish Bin",
           TextMapId = "UI_MECHANISM_10460"
         },
+        UI_MECHANISM_10463 = {
+          ContentEN = "Natural Gem",
+          TextMapId = "UI_MECHANISM_10463"
+        },
+        UI_MECHANISM_10475 = {
+          ContentEN = "Abandoned Notices",
+          TextMapId = "UI_MECHANISM_10475"
+        },
         UI_MECHANISM_105 = {
           ContentEN = "Teleport",
           TextMapId = "UI_MECHANISM_105"
@@ -55585,6 +58346,14 @@ local Data = {
         UI_MECHANISM_1231 = {
           ContentEN = "Strong winds incoming! Take cover!",
           TextMapId = "UI_MECHANISM_1231"
+        },
+        UI_MECHANISM_39045 = {
+          ContentEN = "Finish the Story",
+          TextMapId = "UI_MECHANISM_39045"
+        },
+        UI_MECHANISM_39046 = {
+          ContentEN = "Board the Boat",
+          TextMapId = "UI_MECHANISM_39046"
         },
         UI_MECHANISM_400 = {
           ContentEN = "Launch",
@@ -55707,7 +58476,7 @@ local Data = {
           TextMapId = "UI_MODIMPORT_ENSURE"
         },
         UI_MOD_Effect = {
-          ContentEN = "<Title>Effect: </> ",
+          ContentEN = "<Title>Effect: </>",
           TextMapId = "UI_MOD_Effect"
         },
         UI_MOD_Limit_Exceed_MainText = {
@@ -55939,7 +58708,7 @@ local Data = {
           TextMapId = "UI_MiniGame_Fail"
         },
         UI_MiniGame_Hint_LianXian_1 = {
-          ContentEN = "Drag <img id="MiniGame_Point"></> to the endpoint <img id="MiniGame_End"></>. No route intersection during the process.",
+          ContentEN = "Manipulate or drag <img id="MiniGame_Point"></> to the endpoint <img id="MiniGame_End"></>. No route intersection during the process.",
           TextMapId = "UI_MiniGame_Hint_LianXian_1"
         },
         UI_MiniGame_Hint_LianXian_2 = {
@@ -55995,7 +58764,7 @@ local Data = {
           TextMapId = "UI_MiniGame_Success"
         },
         UI_ModArchive_TotalExpReward = {
-          ContentEN = "Collect the whole set to earn %s Trial EXP",
+          ContentEN = "Collect the whole set to earn <H>%s</> Trial EXP (claimed automatically)",
           TextMapId = "UI_ModArchive_TotalExpReward"
         },
         UI_ModEnhance_Max = {
@@ -56206,6 +58975,18 @@ local Data = {
           ContentEN = "Stats when equipped",
           TextMapId = "UI_Mod_EquipPreview"
         },
+        UI_Mod_ImportError_WrongCode = {
+          ContentEN = "Import failed. Please enter a valid code.",
+          TextMapId = "UI_Mod_ImportError_WrongCode"
+        },
+        UI_Mod_ImportError_WrongTarget = {
+          ContentEN = "Import failed. This Demon Wedge plan is not compatible.",
+          TextMapId = "UI_Mod_ImportError_WrongTarget"
+        },
+        UI_Mod_ImportError_WrongType = {
+          ContentEN = "Import failed. Code does not match a valid Demon Wedge plan.",
+          TextMapId = "UI_Mod_ImportError_WrongType"
+        },
         UI_Mod_ImportPlan = {
           ContentEN = "Import Plan",
           TextMapId = "UI_Mod_ImportPlan"
@@ -56295,7 +59076,7 @@ local Data = {
           TextMapId = "UI_Mod_Warning_Import"
         },
         UI_MoneyConvertCharPiece = {
-          ContentEN = "Not enough Thoughts. Spend Phoxene ×<H>%s</> to purchase <H>%s</> <H>%s</>?",
+          ContentEN = "Not enough Thoughts. Spend Phoxene Plumule ×<H>%s</> to purchase <H>%s</> <H>%s</>(s)?",
           TextMapId = "UI_MoneyConvertCharPiece"
         },
         UI_Monster_Tutorial = {
@@ -56523,7 +59304,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151411"
         },
         UI_Name_Walnut_151412 = {
-          ContentEN = "Secret Letter: Typhon's Prime – Berserker",
+          ContentEN = "Secret Letter: Typhon's Prime – Resolve",
           TextMapId = "UI_Name_Walnut_151412"
         },
         UI_Name_Walnut_151413 = {
@@ -56543,7 +59324,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151421"
         },
         UI_Name_Walnut_151422 = {
-          ContentEN = "Secret Letter: Typhon's Prime – Berserker",
+          ContentEN = "Secret Letter: Typhon's Prime – Resolve",
           TextMapId = "UI_Name_Walnut_151422"
         },
         UI_Name_Walnut_151423 = {
@@ -56563,7 +59344,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151431"
         },
         UI_Name_Walnut_151432 = {
-          ContentEN = "Secret Letter: Typhon's Prime – Berserker",
+          ContentEN = "Secret Letter: Typhon's Prime – Resolve",
           TextMapId = "UI_Name_Walnut_151432"
         },
         UI_Name_Walnut_151433 = {
@@ -56583,7 +59364,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151441"
         },
         UI_Name_Walnut_151442 = {
-          ContentEN = "Secret Letter: Typhon's Prime – Berserker",
+          ContentEN = "Secret Letter: Typhon's Prime – Resolve",
           TextMapId = "UI_Name_Walnut_151442"
         },
         UI_Name_Walnut_151443 = {
@@ -56603,7 +59384,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151451"
         },
         UI_Name_Walnut_151452 = {
-          ContentEN = "Secret Letter: Typhon's Prime – Berserker",
+          ContentEN = "Secret Letter: Typhon's Prime – Resolve",
           TextMapId = "UI_Name_Walnut_151452"
         },
         UI_Name_Walnut_151453 = {
@@ -56623,7 +59404,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151461"
         },
         UI_Name_Walnut_151462 = {
-          ContentEN = "Secret Letter: Typhon's Prime – Berserker",
+          ContentEN = "Secret Letter: Typhon's Prime – Resolve",
           TextMapId = "UI_Name_Walnut_151462"
         },
         UI_Name_Walnut_151463 = {
@@ -56707,7 +59488,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151751"
         },
         UI_Name_Walnut_151752 = {
-          ContentEN = "Secret Letter: Covenanter's Blaze – Berserker",
+          ContentEN = "Secret Letter: Covenanter's Blaze – Resolve",
           TextMapId = "UI_Name_Walnut_151752"
         },
         UI_Name_Walnut_151753 = {
@@ -56723,7 +59504,7 @@ local Data = {
           TextMapId = "UI_Name_Walnut_151761"
         },
         UI_Name_Walnut_151762 = {
-          ContentEN = "Secret Letter: Covenanter's Blaze – Berserker",
+          ContentEN = "Secret Letter: Covenanter's Blaze – Resolve",
           TextMapId = "UI_Name_Walnut_151762"
         },
         UI_Name_Walnut_151763 = {
@@ -56987,8 +59768,12 @@ local Data = {
           TextMapId = "UI_Name_Walnut_2054"
         },
         UI_Need_Preceding_Node = {
-          ContentEN = "Unlock all previous nodes to proceed",
+          ContentEN = "Unlock the previous node to proceed",
           TextMapId = "UI_Need_Preceding_Node"
+        },
+        UI_NewWalnut_Unlock = {
+          ContentEN = "New Secret Letter",
+          TextMapId = "UI_NewWalnut_Unlock"
         },
         UI_New_Content = {
           ContentEN = "New",
@@ -57019,11 +59804,11 @@ local Data = {
           TextMapId = "UI_Npc_All",
         },
         UI_Npc_Aside = {
-          ContentEN = "ㅤ",
+          ContentEN = "{空格}",
           TextMapId = "UI_Npc_Aside"
         },
         UI_Npc_AwaAndMe = {
-          ContentEN = "Avar",
+          ContentEN = "Avar & {nickname2}",
           TextMapId = "UI_Npc_AwaAndMe"
         },
         UI_Npc_Beep = {
@@ -57047,7 +59832,7 @@ local Data = {
           TextMapId = "UI_Npc_CalmVoice"
         },
         UI_Npc_Docs = {
-          ContentEN = "Document",
+          ContentEN = "Signed Document",
           TextMapId = "UI_Npc_Docs"
         },
         UI_Npc_DreamAware = {
@@ -57169,6 +59954,10 @@ local Data = {
         UI_Npc_Name_240051 = {
           ContentEN = "Yang",
           TextMapId = "UI_Npc_Name_240051"
+        },
+        UI_Npc_Name_AfraidUncle = {
+          ContentEN = "Shaken Middle-aged Man",
+          TextMapId = "UI_Npc_Name_AfraidUncle"
         },
         UI_Npc_Name_Aier01 = {
           ContentEN = "Compassionate Young Man",
@@ -57302,6 +60091,10 @@ local Data = {
           ContentEN = "Fierce Dog",
           TextMapId = "UI_Npc_Name_Dog"
         },
+        UI_Npc_Name_DrunkSoldier = {
+          ContentEN = "Drunken Soldier",
+          TextMapId = "UI_Npc_Name_DrunkSoldier"
+        },
         UI_Npc_Name_Duanzao = {
           ContentEN = "Lunosmith",
           TextMapId = "UI_Npc_Name_Duanzao"
@@ -57355,7 +60148,7 @@ local Data = {
           TextMapId = "UI_Npc_Name_Feina"
         },
         UI_Npc_Name_FeinaSystem = {
-          ContentEN = "The Nightingale and Her Rainbow-Coloured Dream",
+          ContentEN = "A Rainbow-coloured Dream",
           TextMapId = "UI_Npc_Name_FeinaSystem"
         },
         UI_Npc_Name_FemaleOfficer = {
@@ -57505,6 +60298,10 @@ local Data = {
         UI_Npc_Name_Haer = {
           ContentEN = "Hal",
           TextMapId = "UI_Npc_Name_Haer"
+        },
+        UI_Npc_Name_HappyBoy = {
+          ContentEN = "Cheerful Boy",
+          TextMapId = "UI_Npc_Name_HappyBoy"
         },
         UI_Npc_Name_Heitao = {
           ContentEN = "Berenica",
@@ -57714,6 +60511,10 @@ local Data = {
           ContentEN = "Anxious Scavenger",
           TextMapId = "UI_Npc_Name_NervouseMaer"
         },
+        UI_Npc_Name_Nickname = {
+          ContentEN = "{nickname}",
+          TextMapId = "UI_Npc_Name_Nickname"
+        },
         UI_Npc_Name_Nifu = {
           ContentEN = "Lady Nifle",
           TextMapId = "UI_Npc_Name_Nifu"
@@ -57779,7 +60580,7 @@ local Data = {
           TextMapId = "UI_Npc_Name_Pan_Empty"
         },
         UI_Npc_Name_Pangbai = {
-          ContentEN = "ㅤ",
+          ContentEN = "{空格}",
           TextMapId = "UI_Npc_Name_Pangbai"
         },
         UI_Npc_Name_Paxi = {
@@ -57789,6 +60590,10 @@ local Data = {
         UI_Npc_Name_Photo = {
           ContentEN = "Tourist",
           TextMapId = "UI_Npc_Name_Photo"
+        },
+        UI_Npc_Name_PoorMan = {
+          ContentEN = "Ragged Commoner",
+          TextMapId = "UI_Npc_Name_PoorMan"
         },
         UI_Npc_Name_QiZhiShuLi = {
           ContentEN = "Aloof Woman",
@@ -57818,6 +60623,10 @@ local Data = {
           ContentEN = "Ren Wu",
           TextMapId = "UI_Npc_Name_RenWu"
         },
+        UI_Npc_Name_ReqingWaiter = {
+          ContentEN = "Cheerful Server",
+          TextMapId = "UI_Npc_Name_ReqingWaiter"
+        },
         UI_Npc_Name_RougeLike_Shop1 = {
           ContentEN = "Mysterious Merchant",
           TextMapId = "UI_Npc_Name_RougeLike_Shop1"
@@ -57837,6 +60646,10 @@ local Data = {
         UI_Npc_Name_RunningMan = {
           ContentEN = "Resigned Father",
           TextMapId = "UI_Npc_Name_RunningMan"
+        },
+        UI_Npc_Name_SadGuy = {
+          ContentEN = "Disheartened Vendor",
+          TextMapId = "UI_Npc_Name_SadGuy"
         },
         UI_Npc_Name_Saiqi = {
           ContentEN = "Psyche",
@@ -57906,6 +60719,10 @@ local Data = {
           ContentEN = "Lively Voice",
           TextMapId = "UI_Npc_Name_SongluVoice"
         },
+        UI_Npc_Name_StableGirl = {
+          ContentEN = "Clear-headed Girl",
+          TextMapId = "UI_Npc_Name_StableGirl"
+        },
         UI_Npc_Name_Staff01Spr = {
           ContentEN = "EverSpring Staffer",
           TextMapId = "UI_Npc_Name_Staff01Spr"
@@ -57921,6 +60738,10 @@ local Data = {
         UI_Npc_Name_SuspiciousMan = {
           ContentEN = "Suspicious Young Man",
           TextMapId = "UI_Npc_Name_SuspiciousMan"
+        },
+        UI_Npc_Name_SuspiciousMan_1 = {
+          ContentEN = "Suspicious Middle-aged Man",
+          TextMapId = "UI_Npc_Name_SuspiciousMan_1"
         },
         UI_Npc_Name_Tanlandeshangren = {
           ContentEN = "Sincere Merchant",
@@ -58065,6 +60886,10 @@ local Data = {
         UI_Npc_Name_Won5 = {
           ContentEN = "Crushed White Flower",
           TextMapId = "UI_Npc_Name_Won5"
+        },
+        UI_Npc_Name_WorriedCustom = {
+          ContentEN = "Concerned Patron",
+          TextMapId = "UI_Npc_Name_WorriedCustom"
         },
         UI_Npc_Name_WuyoushengA = {
           ContentEN = "Wishen",
@@ -58366,6 +61191,14 @@ local Data = {
           ContentEN = "Ultra Performance",
           TextMapId = "UI_OPTION_DLSSQuality_6"
         },
+        UI_OPTION_DamageTextAmount = {
+          ContentEN = "Damage Text Display: Count",
+          TextMapId = "UI_OPTION_DamageTextAmount"
+        },
+        UI_OPTION_DamageTextScale = {
+          ContentEN = "Damage Text Display: Size",
+          TextMapId = "UI_OPTION_DamageTextScale"
+        },
         UI_OPTION_DepthEffect = {
           ContentEN = "Depth of Field Effect",
           TextMapId = "UI_OPTION_DepthEffect"
@@ -58458,6 +61291,14 @@ local Data = {
           ContentEN = "UI Scaling",
           TextMapId = "UI_OPTION_HUDSize"
         },
+        UI_OPTION_HideBackWeapons = {
+          ContentEN = "Hide Back Weapon",
+          TextMapId = "UI_OPTION_HideBackWeapons"
+        },
+        UI_OPTION_HidePlayer = {
+          ContentEN = "Auto-hide Non-Party Players",
+          TextMapId = "UI_OPTION_HidePlayer"
+        },
         UI_OPTION_HorizontalSensitivity = {
           ContentEN = "Horizontal Camera Sensitivity",
           TextMapId = "UI_OPTION_HorizontalSensitivity"
@@ -58510,6 +61351,70 @@ local Data = {
           ContentEN = "Language",
           TextMapId = "UI_OPTION_LANGUAGE"
         },
+        UI_OPTION_Language_Download = {
+          ContentEN = "Download",
+          TextMapId = "UI_OPTION_Language_Download"
+        },
+        UI_OPTION_Language_Download_Confirm = {
+          ContentEN = "The %s voice pack is %dMB. Download now?",
+          TextMapId = "UI_OPTION_Language_Download_Confirm"
+        },
+        UI_OPTION_Language_Download_Continue = {
+          ContentEN = "Resume Download",
+          TextMapId = "UI_OPTION_Language_Download_Continue"
+        },
+        UI_OPTION_Language_Download_Pause = {
+          ContentEN = "Pause Download",
+          TextMapId = "UI_OPTION_Language_Download_Pause"
+        },
+        UI_OPTION_Language_Download_Pausing = {
+          ContentEN = "Download Paused",
+          TextMapId = "UI_OPTION_Language_Download_Pausing"
+        },
+        UI_OPTION_Language_Downloaded = {
+          ContentEN = "Downloaded",
+          TextMapId = "UI_OPTION_Language_Downloaded"
+        },
+        UI_OPTION_Language_Downloading = {
+          ContentEN = "Downloading",
+          TextMapId = "UI_OPTION_Language_Downloading"
+        },
+        UI_OPTION_Language_Manage = {
+          ContentEN = "VO Assets Management",
+          TextMapId = "UI_OPTION_Language_Manage"
+        },
+        UI_OPTION_Language_NoDownload = {
+          ContentEN = "Not Downloaded",
+          TextMapId = "UI_OPTION_Language_NoDownload"
+        },
+        UI_OPTION_Language_Pause_Unable = {
+          ContentEN = "Cannot pause at this stage",
+          TextMapId = "UI_OPTION_Language_Pause_Unable"
+        },
+        UI_OPTION_Language_Unload = {
+          ContentEN = "Uninstall",
+          TextMapId = "UI_OPTION_Language_Unload"
+        },
+        UI_OPTION_Language_Unload_Confirm = {
+          ContentEN = "Uninstall the %s voice pack?",
+          TextMapId = "UI_OPTION_Language_Unload_Confirm"
+        },
+        UI_OPTION_Language_Unload_Fail = {
+          ContentEN = "Uninstall Failed",
+          TextMapId = "UI_OPTION_Language_Unload_Fail"
+        },
+        UI_OPTION_Language_Unload_Success = {
+          ContentEN = "Uninstall Successful",
+          TextMapId = "UI_OPTION_Language_Unload_Success"
+        },
+        UI_OPTION_Language_Unload_Using = {
+          ContentEN = "Cannot uninstall a voice pack in use",
+          TextMapId = "UI_OPTION_Language_Unload_Using"
+        },
+        UI_OPTION_Language_Using = {
+          ContentEN = "In Use",
+          TextMapId = "UI_OPTION_Language_Using"
+        },
         UI_OPTION_LightingEffect = {
           ContentEN = "Lighting Effects",
           TextMapId = "UI_OPTION_LightingEffect"
@@ -58545,6 +61450,10 @@ local Data = {
         UI_OPTION_Medium = {
           ContentEN = "Medium",
           TextMapId = "UI_OPTION_Medium"
+        },
+        UI_OPTION_MobileResolution = {
+          ContentEN = "Resolution",
+          TextMapId = "UI_OPTION_MobileResolution"
         },
         UI_OPTION_ModelDetails = {
           ContentEN = "Model Details",
@@ -58663,7 +61572,7 @@ local Data = {
           TextMapId = "UI_OPTION_SoundVolume"
         },
         UI_OPTION_Strong = {
-          ContentEN = "Strong",
+          ContentEN = "High",
           TextMapId = "UI_OPTION_Strong"
         },
         UI_OPTION_Swicth_Close = {
@@ -58742,6 +61651,10 @@ local Data = {
           ContentEN = "V-Sync",
           TextMapId = "UI_OPTION_VerticalSync"
         },
+        UI_OPTION_VoiceResource = {
+          ContentEN = "VO Assets",
+          TextMapId = "UI_OPTION_VoiceResource"
+        },
         UI_OPTION_VoiceVolume = {
           ContentEN = "SFX Volume",
           TextMapId = "UI_OPTION_VoiceVolume"
@@ -58789,6 +61702,10 @@ local Data = {
         UI_Option_Area_12 = {
           ContentEN = "Basic",
           TextMapId = "UI_Option_Area_12"
+        },
+        UI_Option_Area_13 = {
+          ContentEN = "VO Language",
+          TextMapId = "UI_Option_Area_13"
         },
         UI_Option_Area_2 = {
           ContentEN = "Language",
@@ -59006,17 +61923,41 @@ local Data = {
           ContentEN = "1.0",
           TextMapId = "UI_Option_Dropdown_9"
         },
+        UI_Option_Language_Unload = {
+          ContentEN = "Not Downloaded",
+          TextMapId = "UI_Option_Language_Unload"
+        },
+        UI_PARTY_70101 = {
+          ContentEN = "Reach the Evacuation Point within the time limit",
+          TextMapId = "UI_PARTY_70101"
+        },
+        UI_PARTY_DES_70101 = {
+          ContentEN = "Observe the movement patterns of the devices and proceed accordingly. Touching certain block grants special effect.",
+          TextMapId = "UI_PARTY_DES_70101"
+        },
         UI_PARTY_PARKOUR_ENDPOINT = {
-          ContentEN = "A teammate has reached the destination. Head there quickly!",
+          ContentEN = "Another player has reached the destination. Proceed quickly!",
           TextMapId = "UI_PARTY_PARKOUR_ENDPOINT"
+        },
+        UI_PARTY_PARKOUR_ENDPOINTREACH = {
+          ContentEN = "Endpoint reached",
+          TextMapId = "UI_PARTY_PARKOUR_ENDPOINTREACH"
+        },
+        UI_PARTY_PARKOUR_ENDPOINTWAIT = {
+          ContentEN = "Wait for other players （%d/%d）",
+          TextMapId = "UI_PARTY_PARKOUR_ENDPOINTWAIT"
         },
         UI_PARTY_PARKOUR_PRESTART = {
           ContentEN = "Waiting for other players to load...",
           TextMapId = "UI_PARTY_PARKOUR_PRESTART"
         },
         UI_PARTY_PARKOUR_TEAMWAIT = {
-          ContentEN = "Teammate(s) waiting",
+          ContentEN = "Waiting for other players…",
           TextMapId = "UI_PARTY_PARKOUR_TEAMWAIT"
+        },
+        UI_PARTY_PARKOUR_UNFINISH = {
+          ContentEN = "Incomplete",
+          TextMapId = "UI_PARTY_PARKOUR_UNFINISH"
         },
         UI_PATCH_CANCEL = {
           ContentEN = "Cancel",
@@ -59094,6 +62035,10 @@ local Data = {
           ContentEN = "EXP",
           TextMapId = "UI_Panel_Experience"
         },
+        UI_Panel_LevelName = {
+          ContentEN = "Lv.",
+          TextMapId = "UI_Panel_LevelName"
+        },
         UI_Party_Lockedcondition = {
           ContentEN = "Unlocked when <Highlight>%s</> is complete",
           TextMapId = "UI_Party_Lockedcondition"
@@ -59131,7 +62076,7 @@ local Data = {
           TextMapId = "UI_Party_MiniQuest_SpeedUp"
         },
         UI_Party_Parkour_FinishingRate = {
-          ContentEN = "Completion Rate",
+          ContentEN = "Progress",
           TextMapId = "UI_Party_Parkour_FinishingRate"
         },
         UI_Party_Parkour_Ranking = {
@@ -59167,11 +62112,11 @@ local Data = {
           TextMapId = "UI_Party_Parkour_Skill_ColdDown"
         },
         UI_Party_RewardCoin = {
-          ContentEN = "Repeat clear rewards (%d/%d)",
+          ContentEN = "Repeat clear rewards （%d/%d）",
           TextMapId = "UI_Party_RewardCoin"
         },
         UI_Party_RewardCoin_OnLimit = {
-          ContentEN = "Repeat clear rewards <H>(%d/%d)</>",
+          ContentEN = "Repeat clear rewards <H>（%d/%d）</>",
           TextMapId = "UI_Party_RewardCoin_OnLimit"
         },
         UI_Party_RewardCoin_OnLimit_Toast = {
@@ -59235,7 +62180,7 @@ local Data = {
           TextMapId = "UI_PersonInfo_Select_Mod"
         },
         UI_PersonInfo_ShowCase_Char = {
-          ContentEN = "Character Display Case",
+          ContentEN = "Character Display",
           TextMapId = "UI_PersonInfo_ShowCase_Char"
         },
         UI_PersonInfo_ShowCase_Edit = {
@@ -59243,20 +62188,24 @@ local Data = {
           TextMapId = "UI_PersonInfo_ShowCase_Edit"
         },
         UI_PersonInfo_ShowCase_Weapon = {
-          ContentEN = "Weapon Display Case",
+          ContentEN = "Weapon Display",
           TextMapId = "UI_PersonInfo_ShowCase_Weapon"
         },
         UI_PersonalPage_Friend = {
-          ContentEN = "Friends Only",
+          ContentEN = "Visible to Friends",
           TextMapId = "UI_PersonalPage_Friend"
         },
         UI_PersonalPage_Open = {
-          ContentEN = "Public",
+          ContentEN = "Visible to Public",
           TextMapId = "UI_PersonalPage_Open"
         },
         UI_PersonalPage_Recount_Create = {
           ContentEN = "Account created on %s",
           TextMapId = "UI_PersonalPage_Recount_Create"
+        },
+        UI_PersonalPage_Recount_Hidden = {
+          ContentEN = "Hidden by the Player",
+          TextMapId = "UI_PersonalPage_Recount_Hidden"
         },
         UI_PersonalPage_Recount_Name = {
           ContentEN = "Statistics",
@@ -59399,7 +62348,7 @@ local Data = {
           TextMapId = "UI_Pet_ChooseSnacks"
         },
         UI_Pet_FoodLV0 = {
-          ContentEN = "Edible to Geniemons, which can be used to feed them.",
+          ContentEN = "A favourite treat of Geniemons. Used to feed them.",
           TextMapId = "UI_Pet_FoodLV0"
         },
         UI_Pet_FoodNotEnough = {
@@ -59415,7 +62364,7 @@ local Data = {
           TextMapId = "UI_Pet_LevelUp"
         },
         UI_Pet_Locked = {
-          ContentEN = "Locked Geniemon cannot be used as material.",
+          ContentEN = "This Geniemon is locked and cannot be used",
           TextMapId = "UI_Pet_Locked"
         },
         UI_Pet_Popup_Quit = {
@@ -59539,8 +62488,56 @@ local Data = {
           TextMapId = "UI_PlayerHead_Des_10020"
         },
         UI_PlayerHead_Des_10021 = {
-          ContentEN = "Unlocks Yale as your avatar icon.",
+          ContentEN = "Unlocks Yale and Oliver as your avatar icon.",
           TextMapId = "UI_PlayerHead_Des_10021"
+        },
+        UI_PlayerHead_Des_10022 = {
+          ContentEN = "Unlocks Flora as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10022"
+        },
+        UI_PlayerHead_Des_10023 = {
+          ContentEN = "Unlocks Camilla as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10023"
+        },
+        UI_PlayerHead_Des_10024 = {
+          ContentEN = "Unlocks Kezhou as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10024"
+        },
+        UI_PlayerHead_Des_10025 = {
+          ContentEN = "Unlocks {nickname} as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10025"
+        },
+        UI_PlayerHead_Des_10026 = {
+          ContentEN = "Unlocks {nickname} as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10026"
+        },
+        UI_PlayerHead_Des_10027 = {
+          ContentEN = "Unlocks The Boy in the Dream as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10027"
+        },
+        UI_PlayerHead_Des_10028 = {
+          ContentEN = "Unlocks The Girl in the Dream as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10028"
+        },
+        UI_PlayerHead_Des_10029 = {
+          ContentEN = "Unlocks Lady Nifle as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10029"
+        },
+        UI_PlayerHead_Des_10030 = {
+          ContentEN = "Unlocks Zhiliu as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_10030"
+        },
+        UI_PlayerHead_Des_20001 = {
+          ContentEN = "Unlocks "Minuet Reverie" as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_20001"
+        },
+        UI_PlayerHead_Des_20002 = {
+          ContentEN = "Unlocks "Veils and Whispers" as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_20002"
+        },
+        UI_PlayerHead_Des_20003 = {
+          ContentEN = "Unlocks "Sunlit Gristmill" as your avatar icon.",
+          TextMapId = "UI_PlayerHead_Des_20003"
         },
         UI_PlayerHead_Name_10001 = {
           ContentEN = "Portrait: Memory",
@@ -59626,6 +62623,38 @@ local Data = {
           ContentEN = "Portrait: The Undivided Two",
           TextMapId = "UI_PlayerHead_Name_10021"
         },
+        UI_PlayerHead_Name_10025 = {
+          ContentEN = "Portrait: Phoxhunter",
+          TextMapId = "UI_PlayerHead_Name_10025"
+        },
+        UI_PlayerHead_Name_10026 = {
+          ContentEN = "Portrait: Phoxhunter",
+          TextMapId = "UI_PlayerHead_Name_10026"
+        },
+        UI_PlayerHead_Name_10027 = {
+          ContentEN = "Portrait: The Boy in the Dream",
+          TextMapId = "UI_PlayerHead_Name_10027"
+        },
+        UI_PlayerHead_Name_10028 = {
+          ContentEN = "Portrait: The Girl in the Dream",
+          TextMapId = "UI_PlayerHead_Name_10028"
+        },
+        UI_PlayerHead_Name_10029 = {
+          ContentEN = "Portrait: Ferrywoman of the Misty Sea",
+          TextMapId = "UI_PlayerHead_Name_10029"
+        },
+        UI_PlayerHead_Name_20001 = {
+          ContentEN = "Portrait: The Sower - Midsummer",
+          TextMapId = "UI_PlayerHead_Name_20001"
+        },
+        UI_PlayerHead_Name_20002 = {
+          ContentEN = "Portrait: The Love Seeker - Tidewave",
+          TextMapId = "UI_PlayerHead_Name_20002"
+        },
+        UI_PlayerHead_Name_20003 = {
+          ContentEN = "Portrait: The Commissary - The Sun",
+          TextMapId = "UI_PlayerHead_Name_20003"
+        },
         UI_Player_Level = {
           ContentEN = "Trial Rank",
           TextMapId = "UI_Player_Level"
@@ -59655,7 +62684,7 @@ local Data = {
           TextMapId = "UI_PretextTasks"
         },
         UI_Preview_GestureItem = {
-          ContentEN = "Gestures",
+          ContentEN = "Postures",
           TextMapId = "UI_Preview_GestureItem"
         },
         UI_Preview_Init = {
@@ -59707,7 +62736,7 @@ local Data = {
           TextMapId = "UI_QUEST_CONDITION_FINISHQUEST"
         },
         UI_QUEST_CONDITION_PLAYERLEVEL = {
-          ContentEN = "Trial Rank (can be leveled up through commissions and quests):ㅤ",
+          ContentEN = "Trial Rank:ㅤ",
           TextMapId = "UI_QUEST_CONDITION_PLAYERLEVEL"
         },
         UI_QUEST_CONTENT = {
@@ -59827,7 +62856,7 @@ local Data = {
           TextMapId = "UI_Quest_TakeQuest"
         },
         UI_Quest_TargetArea = {
-          ContentEN = "Mission Area Reached",
+          ContentEN = "<gold>You have arrived at the mission area</>",
           TextMapId = "UI_Quest_TargetArea"
         },
         UI_Quest_WaitDafu = {
@@ -60163,7 +63192,7 @@ local Data = {
           TextMapId = "UI_RegionMap_Scale"
         },
         UI_RegionMap_SeeTemple = {
-          ContentEN = "Check the temple",
+          ContentEN = "View All Avian Spirit Trials",
           TextMapId = "UI_RegionMap_SeeTemple"
         },
         UI_RegionMap_SelectRegion = {
@@ -60205,6 +63234,10 @@ local Data = {
         UI_Review_Chats = {
           ContentEN = "Recollect Sojourn",
           TextMapId = "UI_Review_Chats"
+        },
+        UI_RewardUnlockTips_107003 = {
+          ContentEN = "Complete "On a Gentle Breeze" to unlock",
+          TextMapId = "UI_RewardUnlockTips_107003"
         },
         UI_Reward_Bonus = {
           ContentEN = "Bonus",
@@ -60327,7 +63360,7 @@ local Data = {
           TextMapId = "UI_RougeLike_Blessing_Upgraded"
         },
         UI_RougeLike_ClickEmptyContinue = {
-          ContentEN = "ㅤ",
+          ContentEN = "Click in the blank area to continue",
           TextMapId = "UI_RougeLike_ClickEmptyContinue"
         },
         UI_RougeLike_End_Blessing = {
@@ -60347,11 +63380,11 @@ local Data = {
           TextMapId = "UI_RougeLike_End_Event"
         },
         UI_RougeLike_End_Fail01 = {
-          ContentEN = "Exploration Failure",
+          ContentEN = "Exploration Failed",
           TextMapId = "UI_RougeLike_End_Fail01"
         },
         UI_RougeLike_End_Fail02 = {
-          ContentEN = "Exploration Failure",
+          ContentEN = "Exploration Failed",
           TextMapId = "UI_RougeLike_End_Fail02"
         },
         UI_RougeLike_End_NoMod = {
@@ -60359,11 +63392,11 @@ local Data = {
           TextMapId = "UI_RougeLike_End_NoMod"
         },
         UI_RougeLike_End_Success01 = {
-          ContentEN = "Exploration Success",
+          ContentEN = "Exploration Complete",
           TextMapId = "UI_RougeLike_End_Success01"
         },
         UI_RougeLike_End_Success02 = {
-          ContentEN = "Exploration Success",
+          ContentEN = "Exploration Complete",
           TextMapId = "UI_RougeLike_End_Success02"
         },
         UI_RougeLike_End_TalentPoints = {
@@ -60375,7 +63408,7 @@ local Data = {
           TextMapId = "UI_RougeLike_End_Treasure"
         },
         UI_RougeLike_End__ClickEmpty = {
-          ContentEN = "ㅤ",
+          ContentEN = "Click in the blank area to close",
           TextMapId = "UI_RougeLike_End__ClickEmpty"
         },
         UI_RougeLike_GiveUpSelect = {
@@ -60619,12 +63652,16 @@ local Data = {
           TextMapId = "UI_SHOP_ExploreBadge"
         },
         UI_SHOP_Fishing = {
-          ContentEN = "Angler's Shop",
+          ContentEN = "Icelake Fisheries",
           TextMapId = "UI_SHOP_Fishing"
         },
         UI_SHOP_ITEMOWNED = {
           ContentEN = "Owned: %d",
           TextMapId = "UI_SHOP_ITEMOWNED"
+        },
+        UI_SHOP_MAINTAB_ACCESSORY = {
+          ContentEN = "Accessories",
+          TextMapId = "UI_SHOP_MAINTAB_ACCESSORY"
         },
         UI_SHOP_MAINTAB_ACCESSORY_Back = {
           ContentEN = "Back",
@@ -60659,7 +63696,7 @@ local Data = {
           TextMapId = "UI_SHOP_MAINTAB_COMPLEX"
         },
         UI_SHOP_MAINTAB_GACHA = {
-          ContentEN = "Grit",
+          ContentEN = "Prism",
           TextMapId = "UI_SHOP_MAINTAB_GACHA"
         },
         UI_SHOP_MAINTAB_ITEM = {
@@ -60766,8 +63803,12 @@ local Data = {
           ContentEN = "%ss",
           TextMapId = "UI_SHOP_REMAINTIME_SECOND"
         },
+        UI_SHOP_ROGUE_ITEM = {
+          ContentEN = "Fortune‘s Favour",
+          TextMapId = "UI_SHOP_ROGUE_ITEM"
+        },
         UI_SHOP_SHOPITEMLIMIT = {
-          ContentEN = "Limited Stock",
+          ContentEN = "Limited Stock{空格}",
           TextMapId = "UI_SHOP_SHOPITEMLIMIT"
         },
         UI_SHOP_SOLDOUT = {
@@ -60842,9 +63883,17 @@ local Data = {
           ContentEN = "Phoxene",
           TextMapId = "UI_SHOP_SUBTAB_NAME_YUESHI"
         },
+        UI_SHOP_SUBTAB_NAME_YUESHIJINGPEI = {
+          ContentEN = "Phoxene Plumule Exchange",
+          TextMapId = "UI_SHOP_SUBTAB_NAME_YUESHIJINGPEI"
+        },
         UI_SHOP_SUBTAB_NAME_YUESHITAB = {
           ContentEN = "Phoxene Exchange",
           TextMapId = "UI_SHOP_SUBTAB_NAME_YUESHITAB"
+        },
+        UI_SHOP_SUBTAB_SKIN = {
+          ContentEN = "Skin",
+          TextMapId = "UI_SHOP_SUBTAB_SKIN"
         },
         UI_SHOP_TAB_ExploreBadge_Chapter01 = {
           ContentEN = "Gift From Icelake",
@@ -61402,6 +64451,10 @@ local Data = {
           ContentEN = "Insufficient Sanergy for more challenge",
           TextMapId = "UI_Settlement_Repeat_Notenough"
         },
+        UI_Setup_Panel_Exp = {
+          ContentEN = "Exp",
+          TextMapId = "UI_Setup_Panel_Exp"
+        },
         UI_Shadow_Carrying = {
           ContentEN = "Equipped with",
           TextMapId = "UI_Shadow_Carrying"
@@ -61413,10 +64466,6 @@ local Data = {
         UI_Shop_Bonus = {
           ContentEN = "Double",
           TextMapId = "UI_Shop_Bonus"
-        },
-        UI_Shop_Buy_Unable = {
-          ContentEN = "Paid features are disabled for this confidential test. Thank you for your understanding.",
-          TextMapId = "UI_Shop_Buy_Unable"
         },
         UI_Shop_Contain = {
           ContentEN = "Contents",
@@ -61435,11 +64484,15 @@ local Data = {
           TextMapId = "UI_Shop_JP_Excess_Title"
         },
         UI_Shop_JP_Exchange = {
-          ContentEN = "Redeem Phoxene",
+          ContentEN = "Redeem Phoxene Plumule",
           TextMapId = "UI_Shop_JP_Exchange"
         },
+        UI_Shop_JP_Link = {
+          ContentEN = "Payment Services Act & Specified Commercial Transactions Act",
+          TextMapId = "UI_Shop_JP_Link"
+        },
         UI_Shop_JP_Phoxene = {
-          ContentEN = "Phoxene ×%s",
+          ContentEN = "Phoxene Plumule ×%s",
           TextMapId = "UI_Shop_JP_Phoxene"
         },
         UI_Shop_KR_Confirm_Content = {
@@ -61447,7 +64500,7 @@ local Data = {
           TextMapId = "UI_Shop_KR_Confirm_Content"
         },
         UI_Shop_KR_Link = {
-          ContentEN = "KR Payment Regulations Link (placeholder)",
+          ContentEN = "Korean Payment Regulations",
           TextMapId = "UI_Shop_KR_Link"
         },
         UI_Shop_More = {
@@ -61498,6 +64551,10 @@ local Data = {
           ContentEN = "Upgrade <H>%s</> to Lv. %d to unlock",
           TextMapId = "UI_SkillTree_NeedSkill"
         },
+        UI_SkinDisplay_Suffix = {
+          ContentEN = " (Skin)",
+          TextMapId = "UI_SkinDisplay_Suffix"
+        },
         UI_SkinGacha_Again_One = {
           ContentEN = "Weave Again",
           TextMapId = "UI_SkinGacha_Again_One"
@@ -61509,6 +64566,10 @@ local Data = {
         UI_SkinGacha_Blue = {
           ContentEN = "Blue-tier Drop Rate: <highlight>%s%%</>",
           TextMapId = "UI_SkinGacha_Blue"
+        },
+        UI_SkinGacha_Core_GoldSkin = {
+          ContentEN = "Lustrous Skin",
+          TextMapId = "UI_SkinGacha_Core_GoldSkin"
         },
         UI_SkinGacha_CostRes_Lack = {
           ContentEN = "Not enough gacha items",
@@ -61551,7 +64612,7 @@ local Data = {
           TextMapId = "UI_SkinGacha_Guarantee_Normal"
         },
         UI_SkinGacha_Guarantee_Special = {
-          ContentEN = "<highlight>%d</> Weaves guarantees a(n) %s",
+          ContentEN = "A Golden-tier item is guaranteed within <highlight>%d</> Weaves",
           TextMapId = "UI_SkinGacha_Guarantee_Special"
         },
         UI_SkinGacha_Item_Blue = {
@@ -61570,12 +64631,16 @@ local Data = {
           ContentEN = "Purple-tier",
           TextMapId = "UI_SkinGacha_Item_Purple"
         },
+        UI_SkinGacha_Item_Red = {
+          ContentEN = "Red",
+          TextMapId = "UI_SkinGacha_Item_Red"
+        },
         UI_SkinGacha_Item_White = {
           ContentEN = "White-tier",
           TextMapId = "UI_SkinGacha_Item_White"
         },
         UI_SkinGacha_Normal = {
-          ContentEN = "Standard Myriad",
+          ContentEN = "Standard",
           TextMapId = "UI_SkinGacha_Normal"
         },
         UI_SkinGacha_One = {
@@ -61594,6 +64659,14 @@ local Data = {
           ContentEN = "Weave Results",
           TextMapId = "UI_SkinGacha_Result"
         },
+        UI_SkinGacha_Shop_Bubble = {
+          ContentEN = "Exchangeable for Lustrous Skin: <highlight>%s</>",
+          TextMapId = "UI_SkinGacha_Shop_Bubble"
+        },
+        UI_SkinGacha_Shop_Goto = {
+          ContentEN = "Prism Exchange",
+          TextMapId = "UI_SkinGacha_Shop_Goto"
+        },
         UI_SkinGacha_Skin_Blue = {
           ContentEN = "Glinting",
           TextMapId = "UI_SkinGacha_Skin_Blue"
@@ -61611,7 +64684,7 @@ local Data = {
           TextMapId = "UI_SkinGacha_Skin_Red"
         },
         UI_SkinGacha_Special = {
-          ContentEN = "Event-Exclusive Myriad",
+          ContentEN = "Event-Exclusive",
           TextMapId = "UI_SkinGacha_Special"
         },
         UI_SkinGacha_System_Name = {
@@ -61702,9 +64775,21 @@ local Data = {
           ContentEN = "Colourable",
           TextMapId = "UI_Skin_Candye"
         },
+        UI_Skin_CannotBuy = {
+          ContentEN = "Unavailable",
+          TextMapId = "UI_Skin_CannotBuy"
+        },
         UI_Skin_Cantdye = {
           ContentEN = "Not Colourable",
           TextMapId = "UI_Skin_Cantdye"
+        },
+        UI_Skin_CharHasnotGottenReminder = {
+          ContentEN = "<H>%s</> not yet obtained. Confirm to claim <H>%s</> ×1?",
+          TextMapId = "UI_Skin_CharHasnotGottenReminder"
+        },
+        UI_Skin_Des_0010 = {
+          ContentEN = "The bell chimes on the year's shortest day, and wishes are entrusted to the night, to be carried on starlight toward tomorrow.",
+          TextMapId = "UI_Skin_Des_0010"
         },
         UI_Skin_Des_1101 = {
           ContentEN = "Black is the colour of night — a calm, watchful veil drawn over the world. Black is the colour of shadow — a cloak that lets one remain ever near to those they hold dear. Berenica favours it.",
@@ -61730,6 +64815,10 @@ local Data = {
           ContentEN = "Rain slips from flowing robes, gathers at the sword's tip, then vanishes into the world of drifting blades.",
           TextMapId = "UI_Skin_Des_1503"
         },
+        UI_Skin_Des_1601 = {
+          ContentEN = "Drifting through night and sea, in robes of white, to meet the dawn.",
+          TextMapId = "UI_Skin_Des_1601"
+        },
         UI_Skin_Des_1801 = {
           ContentEN = "The nightingale pins snowy plumes to her tale, letting the delicate wings carry her dreams into the clouds.",
           TextMapId = "UI_Skin_Des_1801"
@@ -61739,7 +64828,7 @@ local Data = {
           TextMapId = "UI_Skin_Des_2101"
         },
         UI_Skin_Des_210102 = {
-          ContentEN = "Beneath veil after veil, she whispers of love — and with poison-laced grace, offers eternity in a single tap.",
+          ContentEN = "A murmur of love through the silks, an eternity sealed in a fatal kiss.",
           TextMapId = "UI_Skin_Des_210102"
         },
         UI_Skin_Des_2301 = {
@@ -61791,7 +64880,7 @@ local Data = {
           TextMapId = "UI_Skin_Des_5101"
         },
         UI_Skin_Des_510101 = {
-          ContentEN = "The sun turns the mill, the flour drifts like snow — and happiness spills out with every sackful.",
+          ContentEN = "Sunshine gathered, sunshine scattered!",
           TextMapId = "UI_Skin_Des_510101"
         },
         UI_Skin_Des_5102 = {
@@ -61803,7 +64892,7 @@ local Data = {
           TextMapId = "UI_Skin_Des_5301"
         },
         UI_Skin_Des_530101 = {
-          ContentEN = "One midsummer night, beneath starlit boughs, violets and butterflies danced a silent minuet — the beauty she had only dreamed of, at last within reach.",
+          ContentEN = "Midsummer night, beneath a sky of stars, a forest where violets and butterfly wings waltzed in delicate steps. A sight she had never seen.",
           TextMapId = "UI_Skin_Des_530101"
         },
         UI_Skin_Des_5401 = {
@@ -61818,25 +64907,137 @@ local Data = {
           ContentEN = "Colouring",
           TextMapId = "UI_Skin_Gotodye"
         },
+        UI_Skin_HasSkin_Short = {
+          ContentEN = "Owned",
+          TextMapId = "UI_Skin_HasSkin_Short"
+        },
         UI_Skin_Name = {
           ContentEN = "Outfit",
           TextMapId = "UI_Skin_Name"
+        },
+        UI_Skin_Name_0010 = {
+          ContentEN = "Starry Hopes",
+          TextMapId = "UI_Skin_Name_0010"
+        },
+        UI_Skin_Name_1101 = {
+          ContentEN = "Berenica's Accessory",
+          TextMapId = "UI_Skin_Name_1101"
+        },
+        UI_Skin_Name_1103 = {
+          ContentEN = "Phantasio's Accessory",
+          TextMapId = "UI_Skin_Name_1103"
+        },
+        UI_Skin_Name_1104 = {
+          ContentEN = "Mr Qiu's Accessory",
+          TextMapId = "UI_Skin_Name_1104"
+        },
+        UI_Skin_Name_1501 = {
+          ContentEN = "Lisbell's Accessory",
+          TextMapId = "UI_Skin_Name_1501"
+        },
+        UI_Skin_Name_1502 = {
+          ContentEN = "Lady Nifle's Accessory",
+          TextMapId = "UI_Skin_Name_1502"
+        },
+        UI_Skin_Name_1503 = {
+          ContentEN = "Kezhou's Accessory",
+          TextMapId = "UI_Skin_Name_1503"
+        },
+        UI_Skin_Name_1601 = {
+          ContentEN = "{nickname}'s Accessory",
+          TextMapId = "UI_Skin_Name_1601"
+        },
+        UI_Skin_Name_1801 = {
+          ContentEN = "Fina's Accessory",
+          TextMapId = "UI_Skin_Name_1801"
+        },
+        UI_Skin_Name_2101 = {
+          ContentEN = "Rebecca's Accessory",
+          TextMapId = "UI_Skin_Name_2101"
         },
         UI_Skin_Name_210102 = {
           ContentEN = "Veils and Whispers",
           TextMapId = "UI_Skin_Name_210102"
         },
+        UI_Skin_Name_2301 = {
+          ContentEN = "Tabethe's Accessory",
+          TextMapId = "UI_Skin_Name_2301"
+        },
+        UI_Skin_Name_2401 = {
+          ContentEN = "Fushu's Accessory",
+          TextMapId = "UI_Skin_Name_2401"
+        },
+        UI_Skin_Name_3101 = {
+          ContentEN = "Lynn's Accessory",
+          TextMapId = "UI_Skin_Name_3101"
+        },
+        UI_Skin_Name_3103 = {
+          ContentEN = "Yale and Oliver's Accessory",
+          TextMapId = "UI_Skin_Name_3103"
+        },
+        UI_Skin_Name_3201 = {
+          ContentEN = "Hellfire's Accessory",
+          TextMapId = "UI_Skin_Name_3201"
+        },
+        UI_Skin_Name_3301 = {
+          ContentEN = "Margie's Accessory",
+          TextMapId = "UI_Skin_Name_3301"
+        },
+        UI_Skin_Name_4101 = {
+          ContentEN = "Rhythm's Accessory",
+          TextMapId = "UI_Skin_Name_4101"
+        },
+        UI_Skin_Name_4102 = {
+          ContentEN = "Zhiliu's Accessory",
+          TextMapId = "UI_Skin_Name_4102"
+        },
+        UI_Skin_Name_4201 = {
+          ContentEN = "Yuming's Accessory",
+          TextMapId = "UI_Skin_Name_4201"
+        },
+        UI_Skin_Name_4202 = {
+          ContentEN = "Randy's Accessory",
+          TextMapId = "UI_Skin_Name_4202"
+        },
+        UI_Skin_Name_4301 = {
+          ContentEN = "Sibylle's Accessory",
+          TextMapId = "UI_Skin_Name_4301"
+        },
+        UI_Skin_Name_5101 = {
+          ContentEN = "Truffle and Filbert's Accessory",
+          TextMapId = "UI_Skin_Name_5101"
+        },
         UI_Skin_Name_510101 = {
           ContentEN = "Sunlit Gristmill",
           TextMapId = "UI_Skin_Name_510101"
+        },
+        UI_Skin_Name_5102 = {
+          ContentEN = "Outsider's Accessory",
+          TextMapId = "UI_Skin_Name_5102"
+        },
+        UI_Skin_Name_5301 = {
+          ContentEN = "Psyche's Accessory",
+          TextMapId = "UI_Skin_Name_5301"
         },
         UI_Skin_Name_530101 = {
           ContentEN = "Minuet Reverie",
           TextMapId = "UI_Skin_Name_530101"
         },
+        UI_Skin_Name_5401 = {
+          ContentEN = "Daphne's Accessory",
+          TextMapId = "UI_Skin_Name_5401"
+        },
+        UI_Skin_Not_Have_Char = {
+          ContentEN = "Character not Unlocked",
+          TextMapId = "UI_Skin_Not_Have_Char"
+        },
         UI_Skin_Preview = {
           ContentEN = "Character Skin Preview",
           TextMapId = "UI_Skin_Preview"
+        },
+        UI_Slot_Empty = {
+          ContentEN = "Selected slot is empty",
+          TextMapId = "UI_Slot_Empty"
         },
         UI_SpecialQuest_GiveUp = {
           ContentEN = "Abort Quest",
@@ -61903,7 +65104,7 @@ local Data = {
           TextMapId = "UI_Squad_Elemental_Weakness"
         },
         UI_Squad_Equip = {
-          ContentEN = "Equip",
+          ContentEN = "Select",
           TextMapId = "UI_Squad_Equip"
         },
         UI_Squad_EssentialMiss_Tips = {
@@ -62041,6 +65242,10 @@ local Data = {
         UI_TAB_NAME_ALL = {
           ContentEN = "All",
           TextMapId = "UI_TAB_NAME_ALL"
+        },
+        UI_TAB_NAME_CHARACCESSORY = {
+          ContentEN = "Accessories",
+          TextMapId = "UI_TAB_NAME_CHARACCESSORY"
         },
         UI_TAB_NAME_FORGING = {
           ContentEN = "Forging",
@@ -62191,7 +65396,7 @@ local Data = {
           TextMapId = "UI_TELEPORTPOINT_NAME_102102_2"
         },
         UI_TELEPORTPOINT_NAME_102102_3 = {
-          ContentEN = "Lonza Fortress Central Control Room",
+          ContentEN = "Lonza Fortress Control Room",
           TextMapId = "UI_TELEPORTPOINT_NAME_102102_3"
         },
         UI_TELEPORTPOINT_NAME_104101_1 = {
@@ -62418,6 +65623,14 @@ local Data = {
           ContentEN = "Defeat enemies to earn points",
           TextMapId = "UI_TEMPLE_81204"
         },
+        UI_TEMPLE_81501 = {
+          ContentEN = "Shoot the rotating mechanism to change its pattern and make it disappear",
+          TextMapId = "UI_TEMPLE_81501"
+        },
+        UI_TEMPLE_81502 = {
+          ContentEN = "Shoot the rotating mechanism to change its pattern and make it disappear",
+          TextMapId = "UI_TEMPLE_81502"
+        },
         UI_TEMPLE_BLANK = {
           ContentEN = "◇",
           TextMapId = "UI_TEMPLE_BLANK"
@@ -62526,6 +65739,10 @@ local Data = {
           ContentEN = "Keep enemies from reaching the endpoint. Each enemy that reaches it will lower your score.",
           TextMapId = "UI_TEMPLE_DES_80804"
         },
+        UI_TEMPLE_DES_80901 = {
+          ContentEN = "Use the right weapon to score higher",
+          TextMapId = "UI_TEMPLE_DES_80901"
+        },
         UI_TEMPLE_DES_81001 = {
           ContentEN = "Defeating enemies with bombs generates extra coins.",
           TextMapId = "UI_TEMPLE_DES_81001"
@@ -62565,6 +65782,14 @@ local Data = {
         UI_TEMPLE_DES_81204 = {
           ContentEN = "Getting hit lowers your score — avoid damage",
           TextMapId = "UI_TEMPLE_DES_81204"
+        },
+        UI_TEMPLE_DES_81501 = {
+          ContentEN = "A falling mechanism will disappear upon reaching the bottom when its pattern matches that of the rotating mechanism.",
+          TextMapId = "UI_TEMPLE_DES_81501"
+        },
+        UI_TEMPLE_DES_81502 = {
+          ContentEN = "A falling mechanism will disappear upon reaching the bottom when its pattern matches that of the rotating mechanism.",
+          TextMapId = "UI_TEMPLE_DES_81502"
         },
         UI_TEMPLE_FAILURE_FALL = {
           ContentEN = "Ran out of Cliff Fall Attempts",
@@ -62607,7 +65832,7 @@ local Data = {
           TextMapId = "UI_TEMPLE_LIMIT_TIME_Reverse"
         },
         UI_TEMPLE_MEASURE_COUNT = {
-          ContentEN = "ㅤ",
+          ContentEN = "{空格}",
           TextMapId = "UI_TEMPLE_MEASURE_COUNT"
         },
         UI_TEMPLE_MEASURE_SECONDS = {
@@ -62707,7 +65932,7 @@ local Data = {
           TextMapId = "UI_TRAINING_FAIL_INTEAM"
         },
         UI_TRAIN_CLOSE = {
-          ContentEN = "ㅤ",
+          ContentEN = "Click in the blank area to close",
           TextMapId = "UI_TRAIN_CLOSE"
         },
         UI_TREASURE_COMPLETE = {
@@ -62890,6 +66115,10 @@ local Data = {
           ContentEN = "Marble Bomb holder full — fire to free up space",
           TextMapId = "UI_Temple_CantGetBall"
         },
+        UI_Temple_Countdown_Go = {
+          ContentEN = "Go!",
+          TextMapId = "UI_Temple_Countdown_Go"
+        },
         UI_Temple_FlyAttack = {
           ContentEN = "Airborne enemies incoming. Time your shots carefully.",
           TextMapId = "UI_Temple_FlyAttack"
@@ -62911,11 +66140,11 @@ local Data = {
           TextMapId = "UI_Temple_Lockedcondition"
         },
         UI_Temple_MonsterIn = {
-          ContentEN = "Enemy reached the endpoint. Points deducted.",
+          ContentEN = "Enemy reached the end — <Warning>points lost</>",
           TextMapId = "UI_Temple_MonsterIn"
         },
         UI_Temple_NormalPattern = {
-          ContentEN = "Pattern matched, points earned",
+          ContentEN = "Pattern matched — <Gold>points awarded</>",
           TextMapId = "UI_Temple_NormalPattern"
         },
         UI_Temple_QuickPattern = {
@@ -62950,6 +66179,10 @@ local Data = {
           ContentEN = "Talk",
           TextMapId = "UI_TextMap_Cat_Inter02"
         },
+        UI_TextMap_Talk_levelTwo = {
+          ContentEN = "Talk",
+          TextMapId = "UI_TextMap_Talk_levelTwo"
+        },
         UI_Text_ExitTime = {
           ContentEN = "Exiting in %ds",
           TextMapId = "UI_Text_ExitTime"
@@ -62970,17 +66203,33 @@ local Data = {
           ContentEN = "<highlight> %s</> day(s)",
           TextMapId = "UI_Time_Day"
         },
+        UI_Time_Day_NotHighlight = {
+          ContentEN = "%sd",
+          TextMapId = "UI_Time_Day_NotHighlight"
+        },
         UI_Time_Hour = {
           ContentEN = "<highlight> %s</> hour(s)",
           TextMapId = "UI_Time_Hour"
+        },
+        UI_Time_Hour_NotHighlight = {
+          ContentEN = "%sh",
+          TextMapId = "UI_Time_Hour_NotHighlight"
         },
         UI_Time_Minute = {
           ContentEN = "<highlight> %s</> minute(s)",
           TextMapId = "UI_Time_Minute"
         },
+        UI_Time_Minute_NotHighlight = {
+          ContentEN = "%sm",
+          TextMapId = "UI_Time_Minute_NotHighlight"
+        },
         UI_Time_Second = {
           ContentEN = "<highlight> %s</> second(s)",
           TextMapId = "UI_Time_Second"
+        },
+        UI_Time_Second_NotHighlight = {
+          ContentEN = "%ss",
+          TextMapId = "UI_Time_Second_NotHighlight"
         },
         UI_Tips_CantSell = {
           ContentEN = "Not for Sale",
@@ -63023,7 +66272,7 @@ local Data = {
           TextMapId = "UI_Toast_Armory_Forbid"
         },
         UI_Toast_Dungeon_Detail = {
-          ContentEN = "1. Some commissions feature enemies with specific <Highlight>element types</>. Characters with the elemental advantage will perform better in these stages.\n 2. <Highlight>Commission rewards</> may vary based on element. Check the commission details screen for more info.",
+          ContentEN = "1. Some commissions feature enemies with specific <Highlight>element types</>. Characters with the elemental advantage will perform better in these stages.\n2. <Highlight>Commission rewards</> may vary based on element. Check the commission details screen for more info.",
           TextMapId = "UI_Toast_Dungeon_Detail"
         },
         UI_Toast_Experience_Title = {
@@ -63135,7 +66384,7 @@ local Data = {
           TextMapId = "UI_Toast_Plot_Noskip"
         },
         UI_Toast_Rouge_Detail = {
-          ContentEN = "General Rules\n 1. You can use <Highlight>Glazeystal</> to light the </>Lantern</>, reducing exploration difficulty.\n 2. Trace Points have no caps and can be exchanged for exploration rewards <Highlight>each week</>. The higher the <Highlight>Combat Level</>, the more Trace Points are required for each week, and the more the rewards.\n 3. <Highlight>Demon Wedge</> effects are disabled in the Mystic Maze.\n 4. <Highlight>Combat Partners</> are disabled in the Mystic Maze.\n \n About Zones\n 1. Combat zones contain enemies known as <Highlight>Abyssoids</>, divided into four escalating difficulty tiers: Flickered, Scattered, Atrocious, and Abysmal. Defeating an <Highlight>Abysmal Abyssoid</> completes the current exploration. All other Abyssoids drop <Highlight>Embers</>.\n 2. <Highlight>R&R</> zones allow you to trade <Highlight>Embers</>, and may feature <Highlight>Avian Spirits</> carrying restorative items.\n 3. <Highlight>Echoes</> are special zones where a variety of <Highlight>Encounters</> may occur.",
+          ContentEN = "General Rules\n1. You can use <Highlight>Glazeystal</> to repair the <Highlight>Lantern</> to ease the exploration.\n2. Trace Points have no caps and can be exchanged for exploration rewards <Highlight>each week</>. The higher your <Highlight>Trial Rank</> is, the more Trace Points are required for more rewards.\n3. <Highlight>Demon Wedge</> effects are disabled in Mystic Maze.\n4. <Highlight>Combat Partners</> cannot be summoned in Mystic Maze.\n\nAbout Zones\n1. <Highlight>Abyssoid</> zones are divided into four escalating difficulty tiers: Penumbral, Scattered, Atrocious, and Abysmal. Clearing an <Highlight>Abysmal Abyssoid</> zone completes the current exploration. All other Abyssoid zones reliably yield <Highlight>Embers</>.\n2. The <Highlight>Abyssal Merchant</> allows you to trade <Highlight>Embers</>, and features <Highlight>Avian Spirits</> that restore your health.\n3. <Highlight>Encounter</> is a special zone where a variety of events may occur.",
           TextMapId = "UI_Toast_Rouge_Detail"
         },
         UI_Toast_WeaponStrength_NoAuto = {
@@ -63346,6 +66595,10 @@ local Data = {
           ContentEN = "Wave",
           TextMapId = "UI_Vote_Wave"
         },
+        UI_WALNUTDUNGEON_REFRESH_TOAST = {
+          ContentEN = "Commission updated. Please exit and restart the challenge",
+          TextMapId = "UI_WALNUTDUNGEON_REFRESH_TOAST"
+        },
         UI_WEAPON_DESC_10101 = {
           ContentEN = "The weapon that Berenica carries. A blade adorned with golden decorations. The blade is made from a black metal that is not commonly found. Clearly, this is not a weapon that the villagers of Purgatorio Island would normally possess.",
           TextMapId = "UI_WEAPON_DESC_10101"
@@ -63395,7 +66648,7 @@ local Data = {
           TextMapId = "UI_WEAPON_DESC_10205"
         },
         UI_WEAPON_DESC_10206 = {
-          ContentEN = "Decay marks the surrender of life. Embrace it — and drift into the still harbour of eternity.",
+          ContentEN = "A type of scythe favoured by Atlasia hunters, capable of taking down small Filthoids one might encounter in the wild with a single swing.",
           TextMapId = "UI_WEAPON_DESC_10206"
         },
         UI_WEAPON_DESC_10207 = {
@@ -63570,6 +66823,10 @@ local Data = {
           ContentEN = "Bronze tempers the steel-born frame; amidst thorns, a soul forged for valour's claim.",
           TextMapId = "UI_WEAPON_DESC_20304"
         },
+        UI_WEAPON_DESC_20305 = {
+          ContentEN = "Hellfire rides upon a thousand silver shells as they rain to the ground, engraving the gods' edict into the hearts of every heretic.",
+          TextMapId = "UI_WEAPON_DESC_20305"
+        },
         UI_WEAPON_DESC_20398 = {
           ContentEN = "A grenade launcher refined with the latest surface-treatment techniques — favoured by fearless siegebreakers.",
           TextMapId = "UI_WEAPON_DESC_20398"
@@ -63650,6 +66907,10 @@ local Data = {
           ContentEN = "No living soul knows what lies beyond the Misty Sea. Perhaps, in that primordial chaos, a single unseen flower still dares to bloom.",
           TextMapId = "UI_WEAPON_DESC_20603"
         },
+        UI_WEAPON_DESC_20604 = {
+          ContentEN = "A twang of life and death, a soul-rending lament.",
+          TextMapId = "UI_WEAPON_DESC_20604"
+        },
         UI_WEAPON_DESC_20698 = {
           ContentEN = "A bow refined with the latest surface-treatment techniques — favoured by silent scouts who strike unseen.",
           TextMapId = "UI_WEAPON_DESC_20698"
@@ -63659,7 +66920,7 @@ local Data = {
           TextMapId = "UI_WEAPON_DESC_20699"
         },
         UI_WEAPON_DESC_310101 = {
-          ContentEN = ""What do you even see in me? I have nothing to sell to you. I had nothing from the very beginning." "No, Lynn. You do. What I want is your ‘dream'."",
+          ContentEN = ""What do you even see in me? I have nothing to sell to you. I had nothing from the very beginning." "No, Lynn. You do. What I want is your 'dream'."",
           TextMapId = "UI_WEAPON_DESC_310101"
         },
         UI_WEAPON_DESC_530101 = {
@@ -64091,7 +67352,7 @@ local Data = {
           TextMapId = "UI_Walnut_Dungeon_Opening"
         },
         UI_Walnut_Dungeon_Refresh = {
-          ContentEN = "until Covert Commissions refresh",
+          ContentEN = "until Commissions refresh",
           TextMapId = "UI_Walnut_Dungeon_Refresh"
         },
         UI_Walnut_Dungeon_Refresh_Warning = {
@@ -64103,7 +67364,7 @@ local Data = {
           TextMapId = "UI_Walnut_Gacha_Des"
         },
         UI_Walnut_Gacha_Des_Detail = {
-          ContentEN = "<Title>Covert Commissions Reward Drop Rate</>\n Completing Sealed Commissions grants a <highlight>5%</> chance of a Golden-tier reward, guaranteed within <highlight>20</> completions.",
+          ContentEN = "<Title>Covert Commission Reward Drop Rate</>\nCompleting Covert Commissions grants a <highlight>10%</> chance of a Golden-tier reward.",
           TextMapId = "UI_Walnut_Gacha_Des_Detail"
         },
         UI_Walnut_Giveup = {
@@ -64143,27 +67404,27 @@ local Data = {
           TextMapId = "UI_Walnut_Selecting"
         },
         UI_Walnut_Type_Des_1 = {
-          ContentEN = "Secret Letter: Order",
+          ContentEN = "Secret Letter: Character",
           TextMapId = "UI_Walnut_Type_Des_1"
         },
         UI_Walnut_Type_Des_2 = {
-          ContentEN = "Secret Letter: Neutral",
+          ContentEN = "Secret Letter: Weapon",
           TextMapId = "UI_Walnut_Type_Des_2"
         },
         UI_Walnut_Type_Des_3 = {
-          ContentEN = "Secret Letter: Chaos",
+          ContentEN = "Secret Letter: Demon Wedge",
           TextMapId = "UI_Walnut_Type_Des_3"
         },
         UI_Walnut_Type_Name_1 = {
-          ContentEN = "Order",
+          ContentEN = "Character",
           TextMapId = "UI_Walnut_Type_Name_1"
         },
         UI_Walnut_Type_Name_2 = {
-          ContentEN = "Neutral",
+          ContentEN = "Weapon",
           TextMapId = "UI_Walnut_Type_Name_2"
         },
         UI_Walnut_Type_Name_3 = {
-          ContentEN = "Chaos",
+          ContentEN = "Demon Wedge",
           TextMapId = "UI_Walnut_Type_Name_3"
         },
         UI_Warning_Age_Content = {
@@ -64247,7 +67508,7 @@ local Data = {
           TextMapId = "UI_WeaponAccessory_Name_10009"
         },
         UI_WeaponAccessory_Name_10010 = {
-          ContentEN = "Rose: Dark Blue",
+          ContentEN = "Rose: Azure",
           TextMapId = "UI_WeaponAccessory_Name_10010"
         },
         UI_WeaponAccessory_Name_10011 = {
@@ -64263,7 +67524,7 @@ local Data = {
           TextMapId = "UI_WeaponAccessory_Name_10013"
         },
         UI_WeaponAccessory_Name_10014 = {
-          ContentEN = "Wing: Dark Blue",
+          ContentEN = "Wing: Azure",
           TextMapId = "UI_WeaponAccessory_Name_10014"
         },
         UI_WeaponAccessory_Name_10015 = {
@@ -64287,7 +67548,7 @@ local Data = {
           TextMapId = "UI_WeaponAccessory_Name_10019"
         },
         UI_WeaponAccessory_Name_10020 = {
-          ContentEN = "Chickie JoeJoe: Dark Blue",
+          ContentEN = "Chickie JoeJoe: Azure",
           TextMapId = "UI_WeaponAccessory_Name_10020"
         },
         UI_WeaponAccessory_Name_10021 = {
@@ -64331,31 +67592,31 @@ local Data = {
           TextMapId = "UI_WeaponCardLevel_Popup_PlayerEquiped"
         },
         UI_WeaponSkin_Des_3010101 = {
-          ContentEN = "Suitable For Greatsword.\nA true angler never comes home empty-handed. Good thing the fish market had a clearance sale — 80 coins a pop, but no one has to know.",
+          ContentEN = "A true angler never comes home empty-handed. Good thing the fish market had a clearance sale — 80 coins a pop, but no one has to know.",
           TextMapId = "UI_WeaponSkin_Des_3010101"
         },
         UI_WeaponSkin_Des_3010102 = {
-          ContentEN = "Suitable For Greatsword.\nJust before they collided, the stars kissed farewell. Their shattered whispers became streaks of fire — lovers' breath adrift across the Milky Way.",
+          ContentEN = "Just before they collided, the stars kissed farewell. Their shattered whispers became streaks of fire — lovers' breath adrift across the Milky Way.",
           TextMapId = "UI_WeaponSkin_Des_3010102"
         },
         UI_WeaponSkin_Des_3010201 = {
-          ContentEN = "Suitable For Sword.\nFrozen Frostline Trout — firm, flavour-rich, and shelf-stable. Outlasts canned meat, cling wrap, and maybe even your survival instincts.",
+          ContentEN = "Frozen Frostline Trout — firm, flavour-rich, and shelf-stable. Outlasts canned meat, cling wrap, and maybe even your survival instincts.",
           TextMapId = "UI_WeaponSkin_Des_3010201"
         },
         UI_WeaponSkin_Des_3010202 = {
-          ContentEN = "Suitable For Sword.\nA sword of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
+          ContentEN = "A sword of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
           TextMapId = "UI_WeaponSkin_Des_3010202"
         },
         UI_WeaponSkin_Des_3010301 = {
-          ContentEN = "Suitable for Bow.\nWhere is the sun? Look — it's dancing in the palm of my hand.",
+          ContentEN = "Where is the sun? Look — it's dancing in the palm of my hand.",
           TextMapId = "UI_WeaponSkin_Des_3010301"
         },
         UI_WeaponSkin_Des_3010401 = {
-          ContentEN = "Suitable for Polearm.\nA single note breaks the hush — waking her from a midsummer dream, and plucking softly at the strings of her heart.",
+          ContentEN = "A single note breaks the hush — waking her from a midsummer dream, and plucking softly at the strings of her heart.",
           TextMapId = "UI_WeaponSkin_Des_3010401"
         },
         UI_WeaponSkin_Des_3010402 = {
-          ContentEN = "Suitable for Polearm.\nWaves leap beneath the dancer's steps — summer's rhythm crashing through the air. Here, the rhapsody crests: wild and bright.",
+          ContentEN = "Waves leap beneath the dancer's steps — summer's rhythm crashing through the air. Here, the rhapsody crests: wild and bright.",
           TextMapId = "UI_WeaponSkin_Des_3010402"
         },
         UI_WeaponSkin_Name_3010101 = {
@@ -64415,7 +67676,7 @@ local Data = {
           TextMapId = "UI_WeaponStrength_Forbid"
         },
         UI_WeaponStrength_Level = {
-          ContentEN = "Smelting Level",
+          ContentEN = "Smelting Lv.",
           TextMapId = "UI_WeaponStrength_Level"
         },
         UI_WeaponStrength_Locked = {
@@ -64446,6 +67707,14 @@ local Data = {
           ContentEN = "Smelting Successful",
           TextMapId = "UI_WeaponStrength_UpGrade"
         },
+        UI_Weapon_Accessory = {
+          ContentEN = "Weapon Ornaments",
+          TextMapId = "UI_Weapon_Accessory"
+        },
+        UI_Weapon_BreakRewardAutoCollect = {
+          ContentEN = "Unclaimed Ascension rewards for <H>%s</> have been automatically collected",
+          TextMapId = "UI_Weapon_BreakRewardAutoCollect"
+        },
         UI_Weapon_Enhancement = {
           ContentEN = "Weapon Loadout",
           TextMapId = "UI_Weapon_Enhancement"
@@ -64458,6 +67727,10 @@ local Data = {
           ContentEN = "Weapon Preview",
           TextMapId = "UI_Weapon_Preview"
         },
+        UI_Weapon_Skin = {
+          ContentEN = "Weapon Skins",
+          TextMapId = "UI_Weapon_Skin"
+        },
         UI_Weapon_Type = {
           ContentEN = "Weapon Type",
           TextMapId = "UI_Weapon_Type"
@@ -64469,6 +67742,14 @@ local Data = {
         UI_Weapons_Carried = {
           ContentEN = "Weapon Equipped",
           TextMapId = "UI_Weapons_Carried"
+        },
+        UI_WeeklyDungeon_ChancesRemain = {
+          ContentEN = "Weekly Demon Wedge Blueprint Obtains: ",
+          TextMapId = "UI_WeeklyDungeon_ChancesRemain"
+        },
+        UI_WeeklyDungeon_NoChanceConfirm = {
+          ContentEN = "No more Weekly Bounty reward - Demon Wedge Blueprint available. Proceed anyway?",
+          TextMapId = "UI_WeeklyDungeon_NoChanceConfirm"
         },
         UI_Wiki_DefaultSearch = {
           ContentEN = "Search for entry title…",
@@ -64559,11 +67840,11 @@ local Data = {
           TextMapId = "Up",
         },
         VoiceDes001 = {
-          ContentEN = "Small Talk -{空格}",
+          ContentEN = "Chitchat:{空格}",
           TextMapId = "VoiceDes001"
         },
         VoiceDes002 = {
-          ContentEN = "First Encounter",
+          ContentEN = "First Encounter{空格}",
           TextMapId = "VoiceDes002"
         },
         VoiceDes003 = {
@@ -64703,43 +67984,43 @@ local Data = {
           TextMapId = "VoiceDes040"
         },
         VoiceDes041 = {
-          ContentEN = "Chance Encounter: Ⅰ",
+          ContentEN = "Chance Encounter Ⅰ",
           TextMapId = "VoiceDes041"
         },
         VoiceDes042 = {
-          ContentEN = "Chance Encounter: Ⅱ",
+          ContentEN = "Chance Encounter Ⅱ",
           TextMapId = "VoiceDes042"
         },
         VoiceDes043 = {
-          ContentEN = "Chance Encounter: Ⅲ",
+          ContentEN = "Chance Encounter Ⅲ",
           TextMapId = "VoiceDes043"
         },
         VoiceDes044 = {
-          ContentEN = "Chance Encounter: Ⅳ",
+          ContentEN = "Chance Encounter Ⅳ",
           TextMapId = "VoiceDes044"
         },
         VoiceDes045 = {
-          ContentEN = "Chance Encounter: Ⅴ",
+          ContentEN = "Chance Encounter Ⅴ",
           TextMapId = "VoiceDes045"
         },
         VoiceDes046 = {
-          ContentEN = "Chance Encounter: Ⅵ",
+          ContentEN = "Chance Encounter Ⅵ",
           TextMapId = "VoiceDes046"
         },
         VoiceDes047 = {
-          ContentEN = "Chance Encounter: Ⅶ",
+          ContentEN = "Chance Encounter Ⅶ",
           TextMapId = "VoiceDes047"
         },
         VoiceDes048 = {
-          ContentEN = "Chance Encounter: Ⅷ",
+          ContentEN = "Chance Encounter Ⅷ",
           TextMapId = "VoiceDes048"
         },
         VoiceDes049 = {
-          ContentEN = "Chance Encounter: Ⅸ",
+          ContentEN = "Chance Encounter Ⅸ",
           TextMapId = "VoiceDes049"
         },
         VoiceDes050 = {
-          ContentEN = "Chance Encounter: Ⅹ",
+          ContentEN = "Chance Encounter Ⅹ",
           TextMapId = "VoiceDes050"
         },
         VoiceDes051 = {
@@ -65015,19 +68296,19 @@ local Data = {
           TextMapId = "VoiceDes118"
         },
         VoiceDes119 = {
-          ContentEN = "About Her Harmonica",
+          ContentEN = "About Her Harmonica Ⅰ",
           TextMapId = "VoiceDes119"
         },
         VoiceDes120 = {
-          ContentEN = "About Her Harmonica",
+          ContentEN = "About Her Harmonica Ⅱ",
           TextMapId = "VoiceDes120"
         },
         VoiceDes121 = {
-          ContentEN = "About the Legion",
+          ContentEN = "About the Legion Ⅰ",
           TextMapId = "VoiceDes121"
         },
         VoiceDes122 = {
-          ContentEN = "About the Legion",
+          ContentEN = "About the Legion Ⅱ",
           TextMapId = "VoiceDes122"
         },
         VoiceDes123 = {
@@ -65142,6 +68423,22 @@ local Data = {
           ContentEN = "Ultimate Skill: Ⅳ",
           TextMapId = "VoiceDes150"
         },
+        VoiceDes151 = {
+          ContentEN = "About Samael",
+          TextMapId = "VoiceDes151"
+        },
+        VoiceDes152 = {
+          ContentEN = "About the Elysian Church",
+          TextMapId = "VoiceDes152"
+        },
+        VoiceDes153 = {
+          ContentEN = "About Patience",
+          TextMapId = "VoiceDes153"
+        },
+        VoiceDes154 = {
+          ContentEN = "About the Seven Virtues",
+          TextMapId = "VoiceDes154"
+        },
         VoiceLocked_Dialogue = {
           ContentEN = "Unlock after small talks in Sanctuary",
           TextMapId = "VoiceLocked_Dialogue"
@@ -65211,7 +68508,7 @@ local Data = {
           TextMapId = "Weapon_LevelUp_Success"
         },
         WikiText_10100301 = {
-          ContentEN = "A monarchy in the northern reaches of the Continent of Atlasia, founded a millennium ago by the Elysians who migrated northward during the Great Migration. The name Hyperborea means \"the land of the far north.\"\n\nThe Empire's history is one of conquest. Through mastery of Phoxichor and alchemical technology, Hyperborea enforces its rule by military might. It remains in long-standing conflict with the Elysian Church, whose people worship the Great Nine.\n\nThe current emperor of Hyperborean Empire is Julius.",
+          ContentEN = "A monarchy in the northern reaches of the Continent of Atlasia, founded a millennium ago by the Elysians who migrated northward during the Great Migration. The name Hyperborea means "the land of the far north."\n\nIn the year 20 of the New Calendar, Dis Galea was crowned as Dis Ⅰ at Icelake Keep, marking the formal establishment of the Hyperborean Empire. In the year 47, Empress Bellona Ⅰ relocated the capital to Dismania.\n\nThe Empire's history is one of conquest. Through mastery of Phoxichor and alchemical technology, Hyperborea enforces its rule by military might. It remains in long-standing conflict with the Elysian Church, whose people worship the Great Nine.\n\nThe current emperor of Hyperborean Empire is Julius.",
           TextMapId = "WikiText_10100301"
         },
         WikiText_10100401 = {
@@ -65223,7 +68520,7 @@ local Data = {
           TextMapId = "WikiText_10100402"
         },
         WikiText_10100403 = {
-          ContentEN = "Within the organisation, members are structured into four hierarchical tiers, descending in authority—"The Hazering", "The Longmane", "The Raven", and "The Wildswarm".",
+          ContentEN = "Within the organisation, members are ranked across four descending tiers of authority: Messenger, Longmane, Raven, and Wildswarm.\nAbove them all stands the Hazering — a conclave of seven Messengers, revered as the supreme authority of the Forsakens.",
           TextMapId = "WikiText_10100403"
         },
         WikiText_10100501 = {
@@ -65251,7 +68548,7 @@ local Data = {
           TextMapId = "WikiText_10100901"
         },
         WikiText_10101001 = {
-          ContentEN = "A Phoxhunter team formed by {nickname}, Outsider, and Snow.\n\nWhile Outsider and Snow proposed naming the group "Intern Researchers on the 99 Innovative Culinary Styles of Delicious Winged Hexapods of the Demon King of Ultralight from the Pure White Infernal," {nickname} ultimately drew inspiration from the words of the mysterious figure in {性别1:his|her} dream and chose Noctoyagers instead — a name simple in form, yet quietly resonant in meaning.",
+          ContentEN = "A Phoxhunter team formed by {nickname}, Outsider, and Snow.\n\nWhile Outsider and Snow proposed naming the group "Intern Researchers on the 99 Innovative Culinary Styles of Delicious Winged Hexapods of the Demon King of Ultralight from the Pure White Infernal," {nickname} ultimately drew inspiration from the words of the mysterious figure in {性别:his|her} dream and chose Noctoyagers instead — a name simple in form, yet quietly resonant in meaning.",
           TextMapId = "WikiText_10101001"
         },
         WikiText_20100101 = {
@@ -65287,11 +68584,11 @@ local Data = {
           TextMapId = "WikiText_20100601"
         },
         WikiText_20100602 = {
-          ContentEN = "Once a renowned physician in Icelake, Henrik was celebrated for his exceptional skill — his patients even included nobles from the inner city. After the early death of his wife, he raised their only daughter, Hayley, on his own.\n\nSeveral years ago, during a journey to Scarletriver, he was arrested and imprisoned for murder. As the victim was a Charon exhibiting signs of Deterioration, Henrik served only a brief sentence before being released. He returned to Icelake alone. Hayley was never seen again.",
+          ContentEN = "Once a renowned physician in Icelake, Henrik was celebrated for his exceptional skill — his patients even included nobles from the inner city. After the early death of his wife, he raised their only daughter, Hayley, on his own.\nSeveral years ago, during a journey to Scarletriver, he was arrested and imprisoned for murder. As the victim was a Charon exhibiting signs of Deterioration, Henrik served only a brief sentence before being released. He returned to Icelake alone. Hayley was never seen again.",
           TextMapId = "WikiText_20100602"
         },
         WikiText_20100603 = {
-          ContentEN = "The Charon citizen Henrik killed was, in truth, his own daughter. When Hayley began to show early signs of Deterioration, Henrik took her to Scarletriver in search of a cure and began researching a suppressant. But the affliction advanced before his work could be completed.\n\nTo spare her the fate of becoming a Filthoid, Henrik ended her life with his own hands — allowing his daughter to depart with the dignity of a human.",
+          ContentEN = "The Charon citizen Henrik killed was, in truth, his own daughter. When Hayley began to show early signs of Deterioration, Henrik took her to Scarletriver in search of a cure and began researching a suppressant. But the affliction advanced before his work could be completed.\nTo spare her the fate of becoming a Filthoid, Henrik ended her life with his own hands — allowing his daughter to depart with the dignity of a human.",
           TextMapId = "WikiText_20100603"
         },
         WikiText_20100701 = {
@@ -65535,7 +68832,7 @@ local Data = {
           TextMapId = "WikiText_30300301"
         },
         WikiText_30300302 = {
-          ContentEN = "Within the Hyperborean Empire, the Charon are believed to carry a cursed lineage and are often branded as "Demon's Children." As a result, they are stripped of the basic rights granted to the Solarian and face systemic discrimination throughout the Empire.",
+          ContentEN = "Within the Hyperborean Empire, the Charon make up about 20% of the population, and are believed to carry a cursed lineage and are often branded as "Demon's Children." As a result, they are stripped of the basic rights granted to the Solarian and face systemic discrimination throughout the Empire.",
           TextMapId = "WikiText_30300302"
         },
         WikiText_30300303 = {
@@ -65591,7 +68888,7 @@ local Data = {
           TextMapId = "WikiText_40100101"
         },
         WikiText_40100201 = {
-          ContentEN = "One of the most pivotal events in early Hyperborean history.\n \n According to official imperial records, near the end of the Great Migration a millennium ago, a band of migrants led by Dis Galea — later crowned as Dis Ⅰ — pressed northward into the southern tundras of the Vidofnir Mountains, now part of the Cocytus Region. There, they clashed intermittently with the local Charon tribes. Seeking peace, the magnanimous Dis Galea brokered an accord with the Charon tribes: a celebration would be held beside Lamenting Lake to mark the dawn of peace. But the gathering became a blood-soaked snare. Feigning goodwill, the Charon launched a massacre that very night. Nearly all the Solarian were slain. Only Dis escaped — shielded by the final sacrifice of his brother, Soranus Galea.\n \n In the wake of the "Night of Lamenting Lake," Dis buried Soranus with a heavy heart and withdrew to the southern Hyperborean plains. Over the next decade, he rebuilt his forces. With overwhelming numbers and honed tactics, he repelled the raiding Charon and led countless triumphs against the mighty Deteriorators. Through fire, blood, and tears, he unified the plains — and then turned north once more. Dis marched again upon Lamenting Lake, crushed the tribes that had betrayed him, and raised the fortress of Icelake Keep upon its shores — the precursor to what would later become the city of Icelake. There, he was crowned Dis Ⅰ, and the Hyperborean Empire was born.\n \n Yet as he stood before his sworn enemies, Dis Ⅰ chose neither vengeance nor retribution. He chose peace — and forgiveness. Through the Edict of Icelake Keep, he proclaimed the Charon to be children of Hyperborea all the same, and bound them beneath the Empire's banner.\n To honour the peacemaker who founded their homeland, the citizens of Icelake gather each year on the day of the Edict's decree to celebrate the Silvercandle Carnival — a festival of peace and unity.",
+          ContentEN = "One of the most pivotal events in early Hyperborean history.\nAccording to official imperial records, near the end of the Great Migration a millennium ago, a band of migrants led by Dis Galea — later crowned as Dis Ⅰ — pressed northward into the southern tundras of the Vidofnir Mountains, now part of the Cocytus Region. There, they clashed intermittently with the local Charon tribes. Seeking peace, the magnanimous Dis Galea brokered an accord with the Charon tribes: a celebration would be held beside Lamenting Lake to mark the dawn of peace. But the gathering became a blood-soaked snare. Feigning goodwill, the Charon launched a massacre that very night. Nearly all the Solarian were slain. Only Dis escaped — shielded by the final sacrifice of his brother, Soranus Galea.\nIn the wake of the "Night of Lamenting Lake," Dis buried Soranus with a heavy heart and withdrew to the southern Hyperborean plains. Over the next decade, he rebuilt his forces. With overwhelming numbers and honed tactics, he repelled the raiding Charon and led countless triumphs against the mighty Deteriorators. Through fire, blood, and tears, he unified the plains — and then turned north once more. Dis marched again upon Lamenting Lake, crushed the tribes that had betrayed him, and raised the fortress of Icelake Keep upon its shores — the precursor to what would later become the city of Icelake. There, in the year 20 of the New Calendar, he was crowned Dis Ⅰ, and the Hyperborean Empire was born.\nYet as he stood before his sworn enemies, Dis Ⅰ chose neither vengeance nor retribution. He chose peace — and forgiveness. Through the Edict of Icelake Keep, he proclaimed the Charon to be children of Hyperborea all the same, and bound them beneath the Empire's banner.\nTo honour the peacemaker who founded their homeland, the citizens of Icelake gather each year on the day of the Edict's decree to celebrate the Silvercandle Carnival — a festival of peace and unity.",
           TextMapId = "WikiText_40100201"
         },
         WikiText_40200101 = {
@@ -65639,7 +68936,7 @@ local Data = {
           TextMapId = "WikiText_40500101"
         },
         WikiText_40500102 = {
-          ContentEN = "According to Henrik's will, ownership of the house was transferred to Ms Lina, who subsequently waived {nickname}'s rent and welcomed {性别1:him|her} to stay indefinitely.",
+          ContentEN = "According to Henrik's will, ownership of the house was transferred to Ms Lina, who subsequently waived {nickname}'s rent and welcomed {性别:him|her} to stay indefinitely.",
           TextMapId = "WikiText_40500102"
         },
         WikiText_40500201 = {
@@ -65786,6 +69083,10 @@ local Data = {
           ContentEN = "0.0",
           TextMapId = "Zero",
         },
+        ZhiLiuEntrustGrandRewardTips = {
+          ContentEN = "Complete all Commissions to claim",
+          TextMapId = "ZhiLiuEntrustGrandRewardTips"
+        },
         ZhiLiuEntrustText01 = {
           ContentEN = "Here's today's shopping list. Could you help gather these items?",
           TextMapId = "ZhiLiuEntrustText01"
@@ -65883,7 +69184,7 @@ local Data = {
           TextMapId = "voice_ch_char_Aote_vo_companio_04"
         },
         voice_ch_char_Aote_vo_die_r01 = {
-          ContentEN = "Even the best of us fall down sometimes...",
+          ContentEN = "*cough*... Even the best of us fall down sometimes...",
           TextMapId = "voice_ch_char_Aote_vo_die_r01"
         },
         voice_ch_char_Aote_vo_die_r02 = {
@@ -65895,7 +69196,7 @@ local Data = {
           TextMapId = "voice_ch_char_Aote_vo_fail"
         },
         voice_ch_char_Aote_vo_gain = {
-          ContentEN = "We already know each other pretty well, do I really have to introduce myself? Alright, fine... I'm Outsider, from the "Noctoyagers". I serve as... a guardian of this sprog-rich team, I guess?",
+          ContentEN = "We already know each other pretty well, do I really have to introduce myself? Alright, fine... I'm Outsider, from the "Noctoyagers." I serve as... a guardian of this sprog-rich team, I guess?",
           TextMapId = "voice_ch_char_Aote_vo_gain"
         },
         voice_ch_char_Aote_vo_idle = {
@@ -65983,11 +69284,11 @@ local Data = {
           TextMapId = "voice_ch_char_Aote_vo_welcome"
         },
         voice_ch_char_Baiheng_vo_appear = {
-          ContentEN = "Let me provide medicine for the battles to come.",
+          ContentEN = "I shall prepare ample medicine for the battles ahead.",
           TextMapId = "voice_ch_char_Baiheng_vo_appear"
         },
         voice_ch_char_Baiheng_vo_battleidle = {
-          ContentEN = "How can I ignore their cries for help?",
+          ContentEN = "How could I turn a deaf ear to such plaintive cries for aid?",
           TextMapId = "voice_ch_char_Baiheng_vo_battleidle"
         },
         voice_ch_char_Baiheng_vo_battlestart = {
@@ -65995,11 +69296,11 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_battlestart"
         },
         voice_ch_char_Baiheng_vo_be_hit_heavy_r01 = {
-          ContentEN = "Filthy things...",
+          ContentEN = "Foul impurities...",
           TextMapId = "voice_ch_char_Baiheng_vo_be_hit_heavy_r01"
         },
         voice_ch_char_Baiheng_vo_be_hit_r02 = {
-          ContentEN = "That's going back in the wash...",
+          ContentEN = "My garments are sullied...",
           TextMapId = "voice_ch_char_Baiheng_vo_be_hit_r02"
         },
         voice_ch_char_Baiheng_vo_birthday = {
@@ -66011,15 +69312,15 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_companio"
         },
         voice_ch_char_Baiheng_vo_companio_01 = {
-          ContentEN = "Mr Randy, it is posited in medical texts that certain vices are in themselves maladies. Indolence, as it happens, is not beyond the reach of remedy. I am prepared to aid your convalescence, though the prescription may be bitter. Please bear with it.",
+          ContentEN = "Mr. Randy, in my humble opinion, lethargy and laxity are no less symptoms of illness. They may not trouble you now, but they sow the seeds of future ailments. Perhaps we could engage in some light sparring? A touch of exercise might do you good.",
           TextMapId = "voice_ch_char_Baiheng_vo_companio_01"
         },
         voice_ch_char_Baiheng_vo_companio_02 = {
-          ContentEN = "I have heard of the purity of the liquor from The Asphodel. The stronger it is, the better. It washes away all your toxins, leaving you feeling refreshed and invigorated. I can only imagine how delightful it must taste.",
+          ContentEN = "While a healer may ease affliction, defying fate is beyond us. I can offer a remedy to cool the heart's heat, yet the root of your troubles lies beyond my grasp. It is best to accept and adapt to the flow of time to find your own path to solace...\n",
           TextMapId = "voice_ch_char_Baiheng_vo_companio_02"
         },
         voice_ch_char_Baiheng_vo_companio_03 = {
-          ContentEN = "You often hear voices that others cannot? How has your slumber been? Have you consumed any unclean sustenance? If none of these apply, it might be a mental affliction.",
+          ContentEN = "You often hear another voice speaking to you? Can others hear it too? How has your slumber been? Has something been weighing on your heart? The mind's afflictions are the most elusive to heal, even with the aid of Zhuyou techniques. But as a healer, I will spare no effort.",
           TextMapId = "voice_ch_char_Baiheng_vo_companio_03"
         },
         voice_ch_char_Baiheng_vo_die_r01 = {
@@ -66027,15 +69328,15 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_die_r01"
         },
         voice_ch_char_Baiheng_vo_die_r02 = {
-          ContentEN = "If only... I was a better doctor...",
+          ContentEN = "If only... I were a better healer...",
           TextMapId = "voice_ch_char_Baiheng_vo_die_r02"
         },
         voice_ch_char_Baiheng_vo_fail = {
-          ContentEN = "Fear not. First, take this painkiller.",
+          ContentEN = "Fear not — here, take this to ease your pain.",
           TextMapId = "voice_ch_char_Baiheng_vo_fail"
         },
         voice_ch_char_Baiheng_vo_gain_1 = {
-          ContentEN = "The road ahead is long, and the future is uncertain... Since providence has intertwined our paths, let us journey side by side for the nonce.",
+          ContentEN = "The road ahead is long and fraught with uncertainty... Yet, as providence has intertwined our paths, let us journey side by side, if only for a while.",
           TextMapId = "voice_ch_char_Baiheng_vo_gain_1"
         },
         voice_ch_char_Baiheng_vo_gain_2 = {
@@ -66043,15 +69344,15 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_gain_2"
         },
         voice_ch_char_Baiheng_vo_idle = {
-          ContentEN = "Sweeping up and venting in the morning, spraying strong liquor in the afternoon, and lighting incense sticks at dusk to drive away insects—that's the only way to keep a room clean.",
+          ContentEN = "Sweeping up and venting in the morning, spraying strong liquor in the afternoon, and lighting incense sticks at dusk to drive away insects — that's the only way to keep a room clean.",
           TextMapId = "voice_ch_char_Baiheng_vo_idle"
         },
         voice_ch_char_Baiheng_vo_lvup = {
-          ContentEN = "Maintaining a healthful regimen and regular exercise constitutes an essential duty for every healer.",
+          ContentEN = "Maintaining a healthful regimen and regular exercise is a fundamental duty for every healer.",
           TextMapId = "voice_ch_char_Baiheng_vo_lvup"
         },
         voice_ch_char_Baiheng_vo_revive = {
-          ContentEN = "Like flowers, I rebloom.",
+          ContentEN = "Like blossoms, I bloom anew.",
           TextMapId = "voice_ch_char_Baiheng_vo_revive"
         },
         voice_ch_char_Baiheng_vo_skill01_r01 = {
@@ -66059,7 +69360,7 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_skill01_r01"
         },
         voice_ch_char_Baiheng_vo_skill01_r02 = {
-          ContentEN = "Let the healing flow!",
+          ContentEN = "Pain, begone!",
           TextMapId = "voice_ch_char_Baiheng_vo_skill01_r02"
         },
         voice_ch_char_Baiheng_vo_skill02_r01 = {
@@ -66067,27 +69368,31 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_skill02_r01"
         },
         voice_ch_char_Baiheng_vo_skill02_r02 = {
-          ContentEN = "Like the moon advancing to the full.",
+          ContentEN = "Like the moon waxing to its fullness.",
           TextMapId = "voice_ch_char_Baiheng_vo_skill02_r02"
         },
         voice_ch_char_Baiheng_vo_skill02_r03 = {
-          ContentEN = "Inhale the perfumed air of healing.",
+          ContentEN = "Breathe deeply the fragrance of healing.",
           TextMapId = "voice_ch_char_Baiheng_vo_skill02_r03"
         },
         voice_ch_char_Baiheng_vo_topic_01_1 = {
-          ContentEN = "It was for an old friend.",
+          ContentEN = "Indeed. Yet, the contents are dense and cryptic, and even the distinctions between certain remedies remain elusive to me. Perhaps I simply lack the aptitude for this craft.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_01_1"
         },
         voice_ch_char_Baiheng_vo_topic_01_2 = {
-          ContentEN = "Mayhap... We were trained under the same master, yet our paths diverged long ago. It was not until the apricot blossoms whispered of her demise, which was tied to an incident in Hyperborea, that I perceived how vast a gulf time had rent between us.",
+          ContentEN = "In my time... medication was not the primary means of healing. People practised a miraculous healing art called "Zhuyou" to ward off illness.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_01_2"
         },
         voice_ch_char_Baiheng_vo_topic_01_3 = {
-          ContentEN = "Grieve not. Neither she nor I harbour regrets over the paths we chose, even though they meant we would never meet again.",
+          ContentEN = "While this method could bring healing and peace, it demanded the sacrifice of a healer's very life force. None of us lived to see old age — pouring out our essence unto death was the only path we knew.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_01_3"
         },
+        voice_ch_char_Baiheng_vo_topic_01_4 = {
+          ContentEN = "The Hall of Ephemerality may now be but a relic of time, yet the path of healing and saving lives has never lacked successors. Even under the heaviest burdens, there will always be those who press forward with unwavering resolve.",
+          TextMapId = "voice_ch_char_Baiheng_vo_topic_01_4"
+        },
         voice_ch_char_Baiheng_vo_topic_02_1 = {
-          ContentEN = "Hyperborea bears a different essence compared to Huaxu; even the same herbs here are tinged with notes of blood and rust.",
+          ContentEN = "Death is like a lamp extinguished — all traces vanish, all voices fade. That isolation, that profound stillness, consumes every glimmer of hope and possibility. If it lies within my power, I would spare any patient from falling into such an abyss.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_02_1"
         },
         voice_ch_char_Baiheng_vo_topic_02_2 = {
@@ -66095,11 +69400,11 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_topic_02_2"
         },
         voice_ch_char_Baiheng_vo_topic_03_1 = {
-          ContentEN = "A sanctuary dedicated to healing and saving lives.",
+          ContentEN = "It's a place for healing and saving lives.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_03_1"
         },
         voice_ch_char_Baiheng_vo_topic_03_2 = {
-          ContentEN = "If more you seek... Each physician initiates their training by planting an apricot tree, now numbering over a thousand.",
+          ContentEN = "The Hall's mission is singular — to heal, and to heal alone. If one were to speak of other aspects... every healer who trained within its walls planted an apricot tree on the first day of their practice. Yet, as time passed, storms and decay claimed many. Now, fewer than half remain.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_03_2"
         },
         voice_ch_char_Baiheng_vo_topic_03_3 = {
@@ -66107,19 +69412,19 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_topic_03_3"
         },
         voice_ch_char_Baiheng_vo_topic_03_4 = {
-          ContentEN = "Should you ever visit, refrain from climbing those apricot trees. If you crave their fruit, I'll pick some for you.",
+          ContentEN = "Life rushes by, like a fleeting horse through a narrow chasm, a spark struck from flint, or a phantom wandering in a dream. How does one find their way back through such transience? The past slips further from reach, while hopes to amend it vanish like morning mist.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_03_4"
         },
         voice_ch_char_Baiheng_vo_topic_04_1 = {
-          ContentEN = "I dream of a world without incurable illnesses.",
+          ContentEN = "I dream of a world without incurable maladies.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_04_1"
         },
         voice_ch_char_Baiheng_vo_topic_04_2 = {
-          ContentEN = "It rings as but a fanciful daydream, doesn't it? Yet someone once cured me when I was thought "incurable". Thus inspired, I aim to fight for others... against even the direst maladies.",
+          ContentEN = "It rings as but a fanciful daydream, doesn't it? Yet, even without the miracles of healing magic, the purpose of a healer remains unchanged. *soft chuckle* I must admit, coming from someone who still struggles to fully grasp medical texts, such a speech must sound absurd.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_04_2"
         },
         voice_ch_char_Baiheng_vo_topic_04_3 = {
-          ContentEN = "It rings as but a fanciful daydream, doesn't it? Yet someone once cured me when I was thought "incurable". Thus inspired, I aim to fight for others... against even the direst maladies.",
+          ContentEN = "But... I'll continue treading this path — not merely for the sake of others or the legacy of the Hall of Ephemerality, but for my own fulfilment as well.",
           TextMapId = "voice_ch_char_Baiheng_vo_topic_04_3"
         },
         voice_ch_char_Baiheng_vo_victory = {
@@ -66127,8 +69432,152 @@ local Data = {
           TextMapId = "voice_ch_char_Baiheng_vo_victory"
         },
         voice_ch_char_Baiheng_vo_welcome = {
-          ContentEN = "Constantly staying indoors is detrimental to health. As the day is clear, why not venture out for a walk? Fall ill, and you may face some bitter potions — next time, I might not sweeten them for you.",
+          ContentEN = "One's surroundings shape the spirit, and mindful care strengthens the body. Perhaps a walk beneath these kindly skies would do wonders for your health.",
           TextMapId = "voice_ch_char_Baiheng_vo_welcome"
+        },
+        voice_ch_char_Baonu_vo_appear = {
+          ContentEN = "Samael, here we go!",
+          TextMapId = "voice_ch_char_Baonu_vo_appear"
+        },
+        voice_ch_char_Baonu_vo_battleidle = {
+          ContentEN = "Come out and accept your thrashing!",
+          TextMapId = "voice_ch_char_Baonu_vo_battleidle"
+        },
+        voice_ch_char_Baonu_vo_battlestart = {
+          ContentEN = "Absolution is God's domain, not mine!",
+          TextMapId = "voice_ch_char_Baonu_vo_battlestart"
+        },
+        voice_ch_char_Baonu_vo_be_hit_heavy_r01 = {
+          ContentEN = "Cowardly wretch!",
+          TextMapId = "voice_ch_char_Baonu_vo_be_hit_heavy_r01"
+        },
+        voice_ch_char_Baonu_vo_be_hit_heavy_r02 = {
+          ContentEN = "Samael!",
+          TextMapId = "voice_ch_char_Baonu_vo_be_hit_heavy_r02"
+        },
+        voice_ch_char_Baonu_vo_birthday = {
+          ContentEN = "Ahem... I chanced upon this cake shop after completing a mission, and they happened to be giving out free birthday cakes, and then I stumbled into you, the little troublemaker that always needs my protection. So, erm, you... Help me finish this leftover raspberry cake. Don't leave a single crumb!",
+          TextMapId = "voice_ch_char_Baonu_vo_birthday"
+        },
+        voice_ch_char_Baonu_vo_companio_01 = {
+          ContentEN = "Samael? Oh, it's alright. It wakes me up every morning, cheers me on during combat, and even has a dozen bedtime stories lined up for me! So, there's nothing to worry about.",
+          TextMapId = "voice_ch_char_Baonu_vo_companio_01"
+        },
+        voice_ch_char_Baonu_vo_companio_02 = {
+          ContentEN = "\"Patience is one of the Seven Virtues. Those gifted with patience can discover hidden secrets and accomplish extraordinary... feats...\"\nI can't take it anymore! Don't imitate me dwarf in the name of the Nine Gods I'll cut you in half with Samel if you do that one more time!",
+          TextMapId = "voice_ch_char_Baonu_vo_companio_02"
+        },
+        voice_ch_char_Baonu_vo_companio_03 = {
+          ContentEN = "Cream? What's wrong? That's how we Elysians take care of our weapons. You got a problem with that?",
+          TextMapId = "voice_ch_char_Baonu_vo_companio_03"
+        },
+        voice_ch_char_Baonu_vo_companio_04 = {
+          ContentEN = "How strange. I've never seen you vent your anger before...\nWell... I, a candidate of the Seven Virtues, order you to show me your anger! No more preaching those silly virtues, doctrines, and scriptures. Let's see some real emotion for once!",
+          TextMapId = "voice_ch_char_Baonu_vo_companio_04"
+        },
+        voice_ch_char_Baonu_vo_die_r01 = {
+          ContentEN = "I can't... befoul... Samael's name...",
+          TextMapId = "voice_ch_char_Baonu_vo_die_r01"
+        },
+        voice_ch_char_Baonu_vo_die_r02 = {
+          ContentEN = "I don't want to meet the Gods alone...",
+          TextMapId = "voice_ch_char_Baonu_vo_die_r02"
+        },
+        voice_ch_char_Baonu_vo_fail = {
+          ContentEN = "No, no, no... I'm not gonna let this get to me...",
+          TextMapId = "voice_ch_char_Baonu_vo_fail"
+        },
+        voice_ch_char_Baonu_vo_gain = {
+          ContentEN = "Behold, I am the great Miss Lisbell, candidate for the Patience of the Seven Virtues of the Elysian Church. In the name of the almighty Tower, the divine nine Gods of Elysian, the... what was it...? Ahem, forget it. Anyway, I command you to address me as "Mistress Patience". Do you understand?",
+          TextMapId = "voice_ch_char_Baonu_vo_gain"
+        },
+        voice_ch_char_Baonu_vo_idle = {
+          ContentEN = "Samael, it's a beautiful day outside! Isn't this the perfect weather to eat something cool? I've heard the Holy City has an amazing dessert called ice cream. It's a commoner's food, but I bet it's way tastier than anything those old farts are handing out. I'll secretly grab you some!",
+          TextMapId = "voice_ch_char_Baonu_vo_idle"
+        },
+        voice_ch_char_Baonu_vo_lvup = {
+          ContentEN = "Samael, I've become even stronger! Let's protect these weirdos together!",
+          TextMapId = "voice_ch_char_Baonu_vo_lvup"
+        },
+        voice_ch_char_Baonu_vo_revive = {
+          ContentEN = "Even Mistress Patience has her limits!",
+          TextMapId = "voice_ch_char_Baonu_vo_revive"
+        },
+        voice_ch_char_Baonu_vo_skill01_r01 = {
+          ContentEN = "Holiness!",
+          TextMapId = "voice_ch_char_Baonu_vo_skill01_r01"
+        },
+        voice_ch_char_Baonu_vo_skill01_r02 = {
+          ContentEN = "In the name of Patience!",
+          TextMapId = "voice_ch_char_Baonu_vo_skill01_r02"
+        },
+        voice_ch_char_Baonu_vo_skill02_r01 = {
+          ContentEN = "I can't take this... anymore!",
+          TextMapId = "voice_ch_char_Baonu_vo_skill02_r01"
+        },
+        voice_ch_char_Baonu_vo_skill02_r02 = {
+          ContentEN = "Samael, answer my call!",
+          TextMapId = "voice_ch_char_Baonu_vo_skill02_r02"
+        },
+        voice_ch_char_Baonu_vo_skill02_r03 = {
+          ContentEN = "Samael, grant me your "wrath"!",
+          TextMapId = "voice_ch_char_Baonu_vo_skill02_r03"
+        },
+        voice_ch_char_Baonu_vo_topic_01_1 = {
+          ContentEN = "Samael's not just a weapon — it's my best friend!",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_01_1"
+        },
+        voice_ch_char_Baonu_vo_topic_01_2 = {
+          ContentEN = "In the Church, only those chosen by one of the Seven Relics can become one of the "Seven Virtues." There were loads of strong warriors that day, but I was the only one who could pull Samael free. It chose me, so of course I've got to treat it right!",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_01_2"
+        },
+        voice_ch_char_Baonu_vo_topic_01_3 = {
+          ContentEN = "...Only thing is, ever since then, it hasn't responded to me. Not once... W—Wait — that's top secret! You can't tell anyone, got it!?",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_01_3"
+        },
+        voice_ch_char_Baonu_vo_topic_01_4 = {
+          ContentEN = "Huh!? It doesn't like ice cream!? Then... what about mashed potatoes? Or salad dressing!?",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_01_4"
+        },
+        voice_ch_char_Baonu_vo_topic_02_1 = {
+          ContentEN = "Ugh—! Shut up! I don't want to talk about those old stick-in-the-muds! Ughhh, you've ruined my day— ...No, no, I can't get angry. Stay calm, Lisbell...",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_02_1"
+        },
+        voice_ch_char_Baonu_vo_topic_02_2 = {
+          ContentEN = "Ahem! Not at all! They are absolutely wonderful. So kind and understanding. When you mess up a hymn, you just have to copy it thirty times. And if they catch you feeding cream to Samael, it's only two days locked up for solitary reflection. Really, they're the best. Absolutely lovely...",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_02_2"
+        },
+        voice_ch_char_Baonu_vo_topic_03_1 = {
+          ContentEN = "Just what it says. Being patient means staying strong and stoic — putting up with anything and never, ever blowing up!",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_03_1"
+        },
+        voice_ch_char_Baonu_vo_topic_03_2 = {
+          ContentEN = "Right!? But because of this title, they're always telling me to "swallow my anger with patience." But it's like... like being forced to stop mid-yawn or raising your sword for a perfect strike, only to be told, "Hey! That's not an enemy, it's a friend!" It just makes you even more—",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_03_2"
+        },
+        voice_ch_char_Baonu_vo_topic_03_3 = {
+          ContentEN = "Argh, they say anger is a grave sin. I mustn't get angry. I mustn't...",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_03_3"
+        },
+        voice_ch_char_Baonu_vo_topic_03_4 = {
+          ContentEN = "Well... it comes with the job! I am Lord Patience, after all! Hehe!",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_03_4"
+        },
+        voice_ch_char_Baonu_vo_topic_04_1 = {
+          ContentEN = "The "Seven Virtues" are the most noble, most powerful, and most drop-dead dazzling champions in all of Elysium! Naturally, they're also the most virtuous — it's in the name!",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_04_1"
+        },
+        voice_ch_char_Baonu_vo_topic_04_2 = {
+          ContentEN = "What's with that look...? How dare you doubt me! I hereby sentence you to copy the Codex thirty — no, a hundred times!",
+          TextMapId = "voice_ch_char_Baonu_vo_topic_04_2"
+        },
+        voice_ch_char_Baonu_vo_victory = {
+          ContentEN = "That was all thanks to me, Mistress Patience!",
+          TextMapId = "voice_ch_char_Baonu_vo_victory"
+        },
+        voice_ch_char_Baonu_vo_welcome = {
+          ContentEN = "Hey! I'm taking Samael out for some fresh air — soaking up the sunlight, getting a feel for this place together. Wanna say hi? It'll be thrilled! ...Well, probably! Hehe~",
+          TextMapId = "voice_ch_char_Baonu_vo_welcome"
         },
         voice_ch_char_Dafu_vo_appear = {
           ContentEN = "Emergency supplies are packed. Ready to deploy at any time.",
@@ -66379,11 +69828,11 @@ local Data = {
           TextMapId = "voice_ch_char_Feina_vo_fail"
         },
         voice_ch_char_Feina_vo_gain = {
-          ContentEN = "Hello, {性别:Mr|Miss} White Unicorn... Oh, we have met before. You're a friend of Outsider, aren't you? I believe we can become really good friends.",
+          ContentEN = ""Chirp, chirp!" said the little nightingale. It means — "Hello there, {性别:Mr|Miss} White Unicorn! From now on, you and Fina are going to be good friends!"",
           TextMapId = "voice_ch_char_Feina_vo_gain"
         },
         voice_ch_char_Feina_vo_idle = {
-          ContentEN = "♪ What a tiny, tiny, little home, it rests in and hides in the treetops~ And the magical golden river flow; do you see that stove? The embers crackle, crackle~ Papa making a toy shining so bright, and Mama humming a lullaby... Good night~",
+          ContentEN = "♪ What a tiny, tiny, little home... It rests in and hides in the treetops; and the magical golden river flow... Do you see that stove? The embers crackle, crackle... Papa making a toy shining so bright, and Mama humming a lullaby... Good night~",
           TextMapId = "voice_ch_char_Feina_vo_idle"
         },
         voice_ch_char_Feina_vo_lvup = {
@@ -66527,7 +69976,7 @@ local Data = {
           TextMapId = "voice_ch_char_Haier_vo_fail"
         },
         voice_ch_char_Haier_vo_gain = {
-          ContentEN = "Interesting. The criminal of the Empire has come to me of their own free will. Well then, prepare yourself for agony as I burn you to a crisp. I am Hellfire, and I'll show you what hell is truly like!",
+          ContentEN = "Interesting. The criminal of the Empire has come to me of their own free will. Well then, prepare yourself for agony as I burn you to a crisp.\nI am Hellfire, and I'll show you what hell is truly like!",
           TextMapId = "voice_ch_char_Haier_vo_gain"
         },
         voice_ch_char_Haier_vo_idle = {
@@ -66963,7 +70412,7 @@ local Data = {
           TextMapId = "voice_ch_char_Landi_vo_companio_01"
         },
         voice_ch_char_Landi_vo_companio_02 = {
-          ContentEN = "Great job on the last mission, but I've received some complaints about damage to public property... *sigh* I find it kinda awkward to apologise to people on your behalf... After all, I'm a bit shy. Soooo, lovely and kind-hearted Miss Lynn, could you handle these urgent tasks for me? Pretty please with a cherry on top!",
+          ContentEN = "Great job on the last mission, but I've received some complaints about damage to public property... I find it kinda awkward to apologise to people on your behalf... After all, I'm a bit shy. Soooo, lovely and kind-hearted Miss Lynn, could you handle these urgent tasks for me? Pretty please with a cherry on top!",
           TextMapId = "voice_ch_char_Landi_vo_companio_02"
         },
         voice_ch_char_Landi_vo_companio_03 = {
@@ -66983,7 +70432,7 @@ local Data = {
           TextMapId = "voice_ch_char_Landi_vo_fail"
         },
         voice_ch_char_Landi_vo_gain = {
-          ContentEN = "Hah, you got me. Looks like my easy days are over... Still, you seem like a decent sort, so I suppose I could lend a hand. In my own personal capacity, of course.",
+          ContentEN = "Hah, you got me. Looks like my easy days are over... Still, you seem like a decent sort,\nso I suppose I could lend a hand. In my own personal capacity, of course.",
           TextMapId = "voice_ch_char_Landi_vo_gain"
         },
         voice_ch_char_Landi_vo_idle = {
@@ -67075,7 +70524,7 @@ local Data = {
           TextMapId = "voice_ch_char_Linen_vo_battlestart"
         },
         voice_ch_char_Linen_vo_be_hit_heavy_r01 = {
-          ContentEN = "That ** hurt!",
+          ContentEN = "** hurt!",
           TextMapId = "voice_ch_char_Linen_vo_be_hit_heavy_r01"
         },
         voice_ch_char_Linen_vo_be_hit_heavy_r02 = {
@@ -67550,6 +70999,62 @@ local Data = {
           ContentEN = "I've cleared the snow from your doorstep on my way here! Touched, huh? Bet you're thinking of treating me to a cup of cocoa~",
           TextMapId = "voice_ch_char_Maer_vo_welcome"
         },
+        voice_ch_char_NanzhuLight_vo_appear = {
+          ContentEN = "The world outside Purgatorio Island defies all accounts — more expansive, yet more brutal. This cannot be its true destiny. That's why a change must be made.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_appear"
+        },
+        voice_ch_char_NanzhuLight_vo_battleidle = {
+          ContentEN = "Where's next? Let me check the map... Ugh... I know maps don't like me.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_battleidle"
+        },
+        voice_ch_char_NanzhuLight_vo_battlestart = {
+          ContentEN = "This sword still fulfils its duty.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_battlestart"
+        },
+        voice_ch_char_NanzhuLight_vo_die_r01 = {
+          ContentEN = "I can't stop... not now...",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_die_r01"
+        },
+        voice_ch_char_NanzhuLight_vo_die_r02 = {
+          ContentEN = "If only... I could make it back to where we promised...",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_die_r02"
+        },
+        voice_ch_char_NanzhuLight_vo_fail = {
+          ContentEN = "Next time, they will pay the price.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_fail"
+        },
+        voice_ch_char_NanzhuLight_vo_lvup = {
+          ContentEN = "Every step I've taken, every word I've heard, and every soul I've met — all have honed my view of this world and the edge of my sword.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_lvup"
+        },
+        voice_ch_char_NanzhuLight_vo_revive = {
+          ContentEN = "Was that... just a nightmare?",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_revive"
+        },
+        voice_ch_char_NanzhuLight_vo_skill01_r01 = {
+          ContentEN = "Vanish.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_skill01_r01"
+        },
+        voice_ch_char_NanzhuLight_vo_skill01_r02 = {
+          ContentEN = "Light slash.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_skill01_r02"
+        },
+        voice_ch_char_NanzhuLight_vo_skill02_r01 = {
+          ContentEN = "This time, I will be the shield.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_skill02_r01"
+        },
+        voice_ch_char_NanzhuLight_vo_skill02_r02 = {
+          ContentEN = "For the future we shall face together.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_skill02_r02"
+        },
+        voice_ch_char_NanzhuLight_vo_skill02_r03 = {
+          ContentEN = "Return to the Misty Sea.",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_skill02_r03"
+        },
+        voice_ch_char_NanzhuLight_vo_victory = {
+          ContentEN = "Another step forward. As long as I keep proceeding, I'll get there...",
+          TextMapId = "voice_ch_char_NanzhuLight_vo_victory"
+        },
         voice_ch_char_Nifu_vo_appear = {
           ContentEN = "I shall offer what humble aid I can.",
           TextMapId = "voice_ch_char_Nifu_vo_appear"
@@ -67855,11 +71360,11 @@ local Data = {
           TextMapId = "voice_ch_char_Saiqi_vo_topic_02_1"
         },
         voice_ch_char_Saiqi_vo_topic_02_2 = {
-          ContentEN = "Probably. They say "Magic is the root of all evil." History books claim our ancestors used it to rule over humans a thousand years ago, committing terrible acts.",
+          ContentEN = "Probably. They say "Magic is the root of all evil." History books claim our ancestors used it to rule over Solas more than a thousand years ago, committing terrible acts.",
           TextMapId = "voice_ch_char_Saiqi_vo_topic_02_2"
         },
         voice_ch_char_Saiqi_vo_topic_02_3 = {
-          ContentEN = "Honestly, I can hardly imagine that... The Charons I know are too terrified of humans to even speak up around them, let alone use magic.",
+          ContentEN = "Honestly, I can hardly imagine that... The Charons I know are too terrified of Solas to even speak up around them, let alone use magic.",
           TextMapId = "voice_ch_char_Saiqi_vo_topic_02_3"
         },
         voice_ch_char_Saiqi_vo_topic_02_4 = {
@@ -67867,7 +71372,7 @@ local Data = {
           TextMapId = "voice_ch_char_Saiqi_vo_topic_02_4"
         },
         voice_ch_char_Saiqi_vo_topic_02_5 = {
-          ContentEN = "Not at all. Why must one rule over the other? Why can't Charons and humans just live in peace?",
+          ContentEN = "Not at all. Why must one rule over the other? Why can't Charons and Solas just live in peace?",
           TextMapId = "voice_ch_char_Saiqi_vo_topic_02_5"
         },
         voice_ch_char_Saiqi_vo_topic_02_6 = {
@@ -67919,7 +71424,7 @@ local Data = {
           TextMapId = "voice_ch_char_Shuimu_vo_battleidle"
         },
         voice_ch_char_Shuimu_vo_battlestart = {
-          ContentEN = "My venom is surging like my passion for love…",
+          ContentEN = "My venom is surging like my passion for love...",
           TextMapId = "voice_ch_char_Shuimu_vo_battlestart"
         },
         voice_ch_char_Shuimu_vo_be_hit_heavy_r01 = {
@@ -67931,7 +71436,7 @@ local Data = {
           TextMapId = "voice_ch_char_Shuimu_vo_be_hit_heavy_r02"
         },
         voice_ch_char_Shuimu_vo_be_hit_r01 = {
-          ContentEN = "Eh!",
+          ContentEN = "Ah!",
           TextMapId = "voice_ch_char_Shuimu_vo_be_hit_r01"
         },
         voice_ch_char_Shuimu_vo_be_hit_r02 = {
@@ -67943,7 +71448,7 @@ local Data = {
           TextMapId = "voice_ch_char_Shuimu_vo_birthday"
         },
         voice_ch_char_Shuimu_vo_companio_01 = {
-          ContentEN = "That dry scent... Oh, it's you. Long time no see. Still planning to take me away in handcuffs? That sounds like a fun idea...\nAfter all, even if I gave you a thousand chances, I would still escape from your grasp... Wouldn't you agree, Ms Warden?",
+          ContentEN = "That dry scent... Oh, it's you. Long time no see. Still planning to take me away in handcuffs? That sounds like a fun idea...\nAfter all, even if I gave you a thousand chances, I would still escape from your grasp... Wouldn't you agree, Ms. Warden?",
           TextMapId = "voice_ch_char_Shuimu_vo_companio_01"
         },
         voice_ch_char_Shuimu_vo_companio_02 = {
@@ -67971,7 +71476,7 @@ local Data = {
           TextMapId = "voice_ch_char_Shuimu_vo_gain"
         },
         voice_ch_char_Shuimu_vo_idle = {
-          ContentEN = "Are you staying here to spend some lovely time with me? *giggle* I'm already looking forward to it.",
+          ContentEN = "Are you staying here to spend some lovely time with me? I'm already looking forward to it.",
           TextMapId = "voice_ch_char_Shuimu_vo_idle"
         },
         voice_ch_char_Shuimu_vo_lvup = {
@@ -68015,7 +71520,7 @@ local Data = {
           TextMapId = "voice_ch_char_Shuimu_vo_topic_01_3"
         },
         voice_ch_char_Shuimu_vo_topic_02_1 = {
-          ContentEN = "Ah, you're initiating a conversation about love with me — how unexpected.",
+          ContentEN = "Ah, you're initiating a conversation about love with me — how unexpected.\n",
           TextMapId = "voice_ch_char_Shuimu_vo_topic_02_1"
         },
         voice_ch_char_Shuimu_vo_topic_02_2 = {
@@ -68115,7 +71620,7 @@ local Data = {
           TextMapId = "voice_ch_char_Songlu_vo_fail"
         },
         voice_ch_char_Songlu_vo_gain = {
-          ContentEN = "Hellooo! It's me, the Commissary, Truffle, with my faithful followers by my side, Filbert and her family. That's it for my self-introduction. But I gotta say, your eyes look as big as saucers! You must be starving!",
+          ContentEN = "Hellooo! It's me, the Commissary, Truffle, with my faithful followers by my side, Filbert and her family. That's it for my self-introduction - but I gotta say - your eyes look as big as saucers! You must be starving!",
           TextMapId = "voice_ch_char_Songlu_vo_gain"
         },
         voice_ch_char_Songlu_vo_idle = {
@@ -68639,7 +72144,7 @@ local Data = {
           TextMapId = "voice_ch_char_Xier_vo_gain"
         },
         voice_ch_char_Xier_vo_idle = {
-          ContentEN = "From dawn till dusk, a maid is always bustling about. But every now and again, she may come across an undesirable distraction, such as a wandering conversationalist seeking her attention while she is busy compiling the next week's menu.",
+          ContentEN = "From dawn till dusk, a maid is always bustling about. But every now and then, she may come across an undesirable distraction, such as a wandering conversationalist seeking her attention while she is busy compiling the next week's menu.",
           TextMapId = "voice_ch_char_Xier_vo_idle"
         },
         voice_ch_char_Xier_vo_lvup = {
@@ -68651,15 +72156,15 @@ local Data = {
           TextMapId = "voice_ch_char_Xier_vo_revive"
         },
         voice_ch_char_Xier_vo_skill01_r01 = {
-          ContentEN = "Basic sounds or short sentences indicating getting injured, but it hurts more than under light attack.",
+          ContentEN = "Filthy worms.",
           TextMapId = "voice_ch_char_Xier_vo_skill01_r01"
         },
         voice_ch_char_Xier_vo_skill01_r02 = {
-          ContentEN = "Filthy worms.",
+          ContentEN = "Hah.",
           TextMapId = "voice_ch_char_Xier_vo_skill01_r02"
         },
         voice_ch_char_Xier_vo_skill02_r01 = {
-          ContentEN = "Hah.",
+          ContentEN = "No dirt shall remain!",
           TextMapId = "voice_ch_char_Xier_vo_skill02_r01"
         },
         voice_ch_char_Xier_vo_skill02_r02 = {
@@ -68727,7 +72232,7 @@ local Data = {
           TextMapId = "voice_ch_char_Xier_vo_topic_05_3"
         },
         voice_ch_char_Xier_vo_topic_05_4 = {
-          ContentEN = "Regrettably, I'm not a poet; otherwise, I'd find the perfect word for her, which combines the meanings of friend and family.",
+          ContentEN = "Regrettably, I'm not a poet; otherwise, I'd find the perfect word for her, which combines the meanings of friends and family.",
           TextMapId = "voice_ch_char_Xier_vo_topic_05_4"
         },
         voice_ch_char_Xier_vo_topic_05_5 = {
@@ -68755,11 +72260,11 @@ local Data = {
           TextMapId = "voice_ch_char_Xier_vo_welcome"
         },
         voice_ch_char_Yeer_vo_appear = {
-          ContentEN = "Oliver should be m-much better at f-fighting than me...",
+          ContentEN = "Yale: Oliver should be m-much better at f-fighting than me...",
           TextMapId = "voice_ch_char_Yeer_vo_appear"
         },
         voice_ch_char_Yeer_vo_battleidle = {
-          ContentEN = "Hey, don't just stand there, find something to blow up.\nShh, we need to stick to the plan.",
+          ContentEN = "Oliver: Hey, don't just stand there, find something to blow up.\nYale: Shh, we need to stick to the plan.",
           TextMapId = "voice_ch_char_Yeer_vo_battleidle"
         },
         voice_ch_char_Yeer_vo_battlestart_r01 = {
@@ -68767,15 +72272,15 @@ local Data = {
           TextMapId = "voice_ch_char_Yeer_vo_battlestart_r01"
         },
         voice_ch_char_Yeer_vo_battlestart_r02 = {
-          ContentEN = "The experiment's about to begin, be c-careful.",
+          ContentEN = "Yale: The experiment's about to begin, be c-careful.",
           TextMapId = "voice_ch_char_Yeer_vo_battlestart_r02"
         },
         voice_ch_char_Yeer_vo_be_hit_heavy_r01 = {
-          ContentEN = "Just you wait!",
+          ContentEN = "Oliver: Just you wait!",
           TextMapId = "voice_ch_char_Yeer_vo_be_hit_heavy_r01"
         },
         voice_ch_char_Yeer_vo_be_hit_heavy_r02 = {
-          ContentEN = "Don't, don't hit me!",
+          ContentEN = "Yale: Don't, don't hit me!",
           TextMapId = "voice_ch_char_Yeer_vo_be_hit_heavy_r02"
         },
         voice_ch_char_Yeer_vo_birthday = {
@@ -68783,123 +72288,123 @@ local Data = {
           TextMapId = "voice_ch_char_Yeer_vo_birthday"
         },
         voice_ch_char_Yeer_vo_companio_01 = {
-          ContentEN = "H-hello... Your singing is really b-beautiful.\nHmph, just another victim.",
+          ContentEN = "Yale: H-hello... Your singing is really b-beautiful.\nOliver: Hmph, just another victim.",
           TextMapId = "voice_ch_char_Yeer_vo_companio_01"
         },
         voice_ch_char_Yeer_vo_companio_02 = {
-          ContentEN = "Is Filbert... your friend? I have a good friend too. He's as r-reliable as F-Filbert.\nWait, seriously?",
+          ContentEN = "Yale: Is Filbert... your friend? I have a good friend too. He's as r-reliable as F-Filbert.\nOliver: Wait, seriously?",
           TextMapId = "voice_ch_char_Yeer_vo_companio_02"
         },
         voice_ch_char_Yeer_vo_companio_03 = {
-          ContentEN = "Uh... p-please don't be mad, a-all my bomb experiments are up to s-s-s-safety s-standards...",
+          ContentEN = "Yale: Uh... p-please don't be mad, a-all my bomb experiments are up to s-s-s-safety s-standards...",
           TextMapId = "voice_ch_char_Yeer_vo_companio_03"
         },
         voice_ch_char_Yeer_vo_die_r01 = {
-          ContentEN = "Yale... must feel the pain too...",
+          ContentEN = "Oliver: Yale... must feel the pain too...",
           TextMapId = "voice_ch_char_Yeer_vo_die_r01"
         },
         voice_ch_char_Yeer_vo_die_r02 = {
-          ContentEN = "It's okay, Oliver. I'm here with you...",
+          ContentEN = "Yale: It's okay, Oliver. I'm here with you...",
           TextMapId = "voice_ch_char_Yeer_vo_die_r02"
         },
         voice_ch_char_Yeer_vo_fail = {
-          ContentEN = "Hmph, you won't get away next time.",
+          ContentEN = "Oliver: Hmph, you won't get away next time.",
           TextMapId = "voice_ch_char_Yeer_vo_fail"
         },
         voice_ch_char_Yeer_vo_gain = {
-          ContentEN = "H-Hello... I'm Yale. Y-You are here for some Tot P-P-Poppers, right?\nUgh, great, no improvement at all.",
+          ContentEN = "Yale: H-Hello... I'm Yale. Y-You are here for some Tot P-P-Poppers, right?\nOliver: Ugh, great, no improvement at all.",
           TextMapId = "voice_ch_char_Yeer_vo_gain"
         },
         voice_ch_char_Yeer_vo_idle = {
-          ContentEN = "Peter Piker p-picked a peck of p-p-peckled peppers…\nIt's "Peter Piper picked a peck of pickled peppers!" Come on, Yale, keep up!\nO-Okay! P-Peter Piker p-picked…",
+          ContentEN = "Yale: Peter Piker p-picked a peck of p-p-peckled peppers...\nOliver: It's \"Peter Piper picked a peck of pickled peppers!\" Come on, Yale, keep up!\nYale: O-Okay! P-Peter Piker p-picked...",
           TextMapId = "voice_ch_char_Yeer_vo_idle"
         },
         voice_ch_char_Yeer_vo_lvup = {
-          ContentEN = "Yay! Oliver, we've grown stronger together.",
+          ContentEN = "Yale: Yay! Oliver, we've grown stronger together.",
           TextMapId = "voice_ch_char_Yeer_vo_lvup"
         },
         voice_ch_char_Yeer_vo_revive = {
-          ContentEN = "Time to settle the score!",
+          ContentEN = "Oliver: Time to settle the score!",
           TextMapId = "voice_ch_char_Yeer_vo_revive"
         },
         voice_ch_char_Yeer_vo_skill01_r01 = {
-          ContentEN = "BOOM—!",
+          ContentEN = "Oliver: BOOM—!",
           TextMapId = "voice_ch_char_Yeer_vo_skill01_r01"
         },
         voice_ch_char_Yeer_vo_skill01_r02 = {
-          ContentEN = "C-Come on, Tot Popper!",
+          ContentEN = "Yale: C-Come on, Tot Popper!",
           TextMapId = "voice_ch_char_Yeer_vo_skill01_r02"
         },
         voice_ch_char_Yeer_vo_skill02_r01 = {
-          ContentEN = "It's about time!",
+          ContentEN = "Oliver: It's about time!",
           TextMapId = "voice_ch_char_Yeer_vo_skill02_r01"
         },
         voice_ch_char_Yeer_vo_skill02_r02 = {
-          ContentEN = "Behold this genius' ultimate creation!",
+          ContentEN = "Oliver: Behold this genius' ultimate creation!",
           TextMapId = "voice_ch_char_Yeer_vo_skill02_r02"
         },
         voice_ch_char_Yeer_vo_skill02_r03 = {
-          ContentEN = "Cover your ears — BOOM!",
+          ContentEN = "Oliver: Cover your ears — BOOM!",
           TextMapId = "voice_ch_char_Yeer_vo_skill02_r03"
         },
         voice_ch_char_Yeer_vo_topic_01_1 = {
-          ContentEN = "Oliver is not a talking bomb... It might sound strange, but... he's actually...",
+          ContentEN = "Yale: Oliver is not a talking bomb... It might sound strange, but... he's actually...",
           TextMapId = "voice_ch_char_Yeer_vo_topic_01_1"
         },
         voice_ch_char_Yeer_vo_topic_01_2 = {
-          ContentEN = "Ugh, you're killing me here! I am Yale, and Yale is me. Got it? Not that I'd expect someone with your pea-sized brain to understand.",
+          ContentEN = "Oliver: Ugh, you're killing me here! I am Yale, and Yale is me. Got it? Not that I'd expect someone with your pea-sized brain to understand.",
           TextMapId = "voice_ch_char_Yeer_vo_topic_01_2"
         },
         voice_ch_char_Yeer_vo_topic_01_3 = {
-          ContentEN = "Oliver's a-a-actually a nice guy! He might s-seem a bit rough, and mean, a-and likes to pop up out of the b-blue, but...",
+          ContentEN = "Yale: Oliver's a-a-actually a nice guy! He might s-seem a bit rough, and mean, a-and likes to pop up out of the b-blue, but...",
           TextMapId = "voice_ch_char_Yeer_vo_topic_01_3"
         },
         voice_ch_char_Yeer_vo_topic_01_4 = {
-          ContentEN = "Hey! That's your idea of nice words?",
+          ContentEN = "Oliver: Hey! That's your idea of nice words?",
           TextMapId = "voice_ch_char_Yeer_vo_topic_01_4"
         },
         voice_ch_char_Yeer_vo_topic_02_1 = {
-          ContentEN = "I... I might not be much help. The only thing I'm good at... is probably making Tot Poppers...",
+          ContentEN = "Yale: I... I might not be much help. The only thing I'm good at... is probably making Tot Poppers...",
           TextMapId = "voice_ch_char_Yeer_vo_topic_02_1"
         },
         voice_ch_char_Yeer_vo_topic_02_2 = {
-          ContentEN = "They're the most popular items at our "Snap 'n' Spark" toy store... They take a lot of time to make.",
+          ContentEN = "Yale: They're the most popular items at our "Snap 'n' Spark" toy store... They take a lot of time to make.",
           TextMapId = "voice_ch_char_Yeer_vo_topic_02_2"
         },
         voice_ch_char_Yeer_vo_topic_02_3 = {
-          ContentEN = "But it's not because I'm skilled... It's all thanks to Oliver's expertise.",
+          ContentEN = "Yale: But it's not because I'm skilled... It's all thanks to Oliver's expertise.",
           TextMapId = "voice_ch_char_Yeer_vo_topic_02_3"
         },
         voice_ch_char_Yeer_vo_topic_03_1 = {
-          ContentEN = "Ah, sorry! B-But if I start speaking fast, my tongue tends to get all t-t-tied up.",
+          ContentEN = "Yale: Ah, sorry! B-But if I start speaking fast, my tongue tends to get all t-t-tied up.",
           TextMapId = "voice_ch_char_Yeer_vo_topic_03_1"
         },
         voice_ch_char_Yeer_vo_topic_03_2 = {
-          ContentEN = "I-It's okay, sometimes Oliver speaks for me... And when no one else's around, Oliver would always hear me out.",
+          ContentEN = "Yale: I-It's okay, sometimes Oliver speaks for me... And when no one else's around, Oliver would always hear me out.",
           TextMapId = "voice_ch_char_Yeer_vo_topic_03_2"
         },
         voice_ch_char_Yeer_vo_topic_04_1 = {
-          ContentEN = "I never really had a "childhood"... From my earliest memories, I've been in this body. Oliver might have one, though.",
+          ContentEN = "Yale: I never really had a "childhood"... From my earliest memories, I've been in this body. Oliver might have one, though.",
           TextMapId = "voice_ch_char_Yeer_vo_topic_04_1"
         },
         voice_ch_char_Yeer_vo_topic_04_2 = {
-          ContentEN = "I've sometimes wondered what having a "childhood" would be like... Would Mr Jones have told me bedtime stories every night, like a normal dad...?",
+          ContentEN = "Yale: I've sometimes wondered what having a "childhood" would be like... Would Mr Jones have told me bedtime stories every night, like a normal dad...?",
           TextMapId = "voice_ch_char_Yeer_vo_topic_04_2"
         },
         voice_ch_char_Yeer_vo_topic_04_3 = {
-          ContentEN = "You expect that jerk to tell you bedtime stories? Have you lost your mind?",
+          ContentEN = "Oliver: You expect that jerk to tell you bedtime stories? Have you lost your mind?",
           TextMapId = "voice_ch_char_Yeer_vo_topic_04_3"
         },
         voice_ch_char_Yeer_vo_topic_04_4 = {
-          ContentEN = "S-Sorry! I-I know he only cared about his experiments... He wouldn't have done that...",
+          ContentEN = "Yale: S-Sorry! I-I know he only cared about his experiments... He wouldn't have done that...",
           TextMapId = "voice_ch_char_Yeer_vo_topic_04_4"
         },
         voice_ch_char_Yeer_vo_victory = {
-          ContentEN = "Did you like my awesome masterpiece?",
+          ContentEN = "Oliver: Did you like my awesome masterpiece?",
           TextMapId = "voice_ch_char_Yeer_vo_victory"
         },
         voice_ch_char_Yeer_vo_welcome = {
-          ContentEN = "Hi... Such a nice day, isn't it... Perfect for some explosive experiments... Um, what a nice day.",
+          ContentEN = "Yale: Hi... Such a nice day, isn't it... Perfect for some explosive experiments... Um, what a nice day.",
           TextMapId = "voice_ch_char_Yeer_vo_welcome"
         },
         voice_ch_char_Yuming_vo_appear = {
@@ -68995,7 +72500,7 @@ local Data = {
           TextMapId = "voice_ch_char_Yuming_vo_topic_01_1"
         },
         voice_ch_char_Yuming_vo_topic_01_2 = {
-          ContentEN = "I am oft preoccupied, and my perspectives are notably skewed. Should your curiosity truly beckon, a visit thither would enlighten you far beyond any second-hand account.",
+          ContentEN = "I am often preoccupied, and my perspectives are notably skewed. Should your curiosity truly beckon, a visit thither would enlighten you far beyond any second-hand account.",
           TextMapId = "voice_ch_char_Yuming_vo_topic_01_2"
         },
         voice_ch_char_Yuming_vo_topic_02_1 = {
@@ -69059,7 +72564,7 @@ local Data = {
           TextMapId = "voice_ch_char_Zhangyu_vo_be_hit_r02"
         },
         voice_ch_char_Zhangyu_vo_birthday = {
-          ContentEN = "I've never celebrated my birthday, so I'm not really sure what I meant to say. But how about this? I wish you never have to know what it's like to be starving or have to steal to survive.",
+          ContentEN = "I've never celebrated my birthday so I'm not sure what I meant to say. So, I wish you never have to know what it's like to be starving or have to steal to survive. How was that?!",
           TextMapId = "voice_ch_char_Zhangyu_vo_birthday"
         },
         voice_ch_char_Zhangyu_vo_companio_01 = {
@@ -69067,11 +72572,11 @@ local Data = {
           TextMapId = "voice_ch_char_Zhangyu_vo_companio_01"
         },
         voice_ch_char_Zhangyu_vo_companio_02 = {
-          ContentEN = "This is for me? Hmm, but you look pretty dangerous, so you'd better keep it. Wait... this scent is making me feel light-headed... My body is going numb... You really are dangerous!",
+          ContentEN = "This is for me? Hmm, but you look pretty dangerous, so you'd better keep it. Wait... this scent is making me feel light-headed... My tentacles are going numb... You really are dangerous!",
           TextMapId = "voice_ch_char_Zhangyu_vo_companio_02"
         },
         voice_ch_char_Zhangyu_vo_companio_03 = {
-          ContentEN = "I love the way you talk to your sword!\n\"Samel, do you like this place? Let's explore more places together!\"\nHey, what's up with you, getting all riled up? Haha, you're a proper laugh!",
+          ContentEN = "I love the way you talk to your sword! \"Samael, do you like this place? Let's explore more places together!\"\nHey, what's up with you, getting all riled up? Haha, you're a proper laugh!",
           TextMapId = "voice_ch_char_Zhangyu_vo_companio_03"
         },
         voice_ch_char_Zhangyu_vo_die_r01 = {
@@ -69087,7 +72592,7 @@ local Data = {
           TextMapId = "voice_ch_char_Zhangyu_vo_fail"
         },
         voice_ch_char_Zhangyu_vo_gain = {
-          ContentEN = "Ooh, what a fine collection you have! It's got me feeling a bit intrigued... Don't worry, Demon Tabethe the Red Hand never steals from the fair and honest. Or, perhaps you're on the naughty list?",
+          ContentEN = "Ooh, what a fine collection you have! It's got me feeling a bit intrigued...Don't worry, Demon Tabethe the Red Hand never steals from the fair and honest. Or, perhaps you're on the naughty list?",
           TextMapId = "voice_ch_char_Zhangyu_vo_gain"
         },
         voice_ch_char_Zhangyu_vo_idle = {
@@ -69171,7 +72676,7 @@ local Data = {
           TextMapId = "voice_ch_char_Zhangyu_vo_topic_04_3"
         },
         voice_ch_char_Zhangyu_vo_victory = {
-          ContentEN = "You idiots. You didn't touch a single hair on my head. Hah!",
+          ContentEN = "You idiots. You didn't touch a single hair on my head. Hahahhh!",
           TextMapId = "voice_ch_char_Zhangyu_vo_victory"
         },
         voice_ch_char_Zhangyu_vo_welcome = {

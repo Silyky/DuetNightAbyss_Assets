@@ -172,7 +172,19 @@ return {
             endPort = "Success"
           },
           {
+            startQuest = "1744788071819824313",
+            startPort = "Out",
+            endQuest = "17601736069901760",
+            endPort = "In"
+          },
+          {
             startQuest = "17447204987571632483",
+            startPort = "Out",
+            endQuest = "17601736173342118",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601736173342118",
             startPort = "Out",
             endQuest = "17501283182784546",
             endPort = "In"
@@ -316,7 +328,7 @@ return {
             key = "17474653364381751337",
             type = "ChangeStaticCreatorNode",
             name = "销毁费恩",
-            pos = {x = 1852.9632666830232, y = -180.55801964643467},
+            pos = {x = 1448.4178183727945, y = -168.4368077120458},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -330,7 +342,7 @@ return {
             key = "17501283182784546",
             type = "ExecuteBlueprintFunctionCheckVarNode",
             name = "0未解锁推理问题，1为已解锁",
-            pos = {x = 1961.898802515757, y = 262.60078401832857},
+            pos = {x = 2092.2018308104375, y = 262.60078401832857},
             propsData = {
               FunctionName = "Equal",
               VarName = "Huozai04Side",
@@ -374,6 +386,35 @@ return {
             propsData = {
               VarName = "Huozai04Side",
               VarValue = 1
+            }
+          },
+          ["17601736069901760"] = {
+            key = "17601736069901760",
+            type = "PlayOrStopBGMNode",
+            name = "播放幽默",
+            pos = {x = 1681.7575761312223, y = 529.4545447539582},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0033_story_humour",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai01-humour"
+            }
+          },
+          ["17601736173342118"] = {
+            key = "17601736173342118",
+            type = "PlayOrStopBGMNode",
+            name = "停止幽默",
+            pos = {x = 1862.060603655257, y = -79.63635494908263},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai01-humour"
             }
           }
         },
@@ -445,16 +486,28 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17447207401481635278",
-            startPort = "Out",
-            endQuest = "1753084042312650056",
-            endPort = "In"
-          },
-          {
             startQuest = "1753084042312650056",
             startPort = "Out",
             endQuest = "17447202917261628811",
             endPort = "Success"
+          },
+          {
+            startQuest = "17447207196511634885",
+            startPort = "Out",
+            endQuest = "17601736331042463",
+            endPort = "In"
+          },
+          {
+            startQuest = "17447207401481635278",
+            startPort = "Out",
+            endQuest = "17601736493072775",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601736493072775",
+            startPort = "Out",
+            endQuest = "1753084042312650056",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -469,7 +522,7 @@ return {
             key = "17447202917261628811",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2327.9780199624815, y = 291.6983206955569},
+            pos = {x = 2515.9780199624815, y = 297.6983206955569},
             propsData = {ModeType = 0}
           },
           ["17447202917261628814"] = {
@@ -601,12 +654,41 @@ return {
             key = "1753084042312650056",
             type = "SwitchMechanismStateNode",
             name = "切换机关状态",
-            pos = {x = 2027.440212950527, y = 292.40383310834375},
+            pos = {x = 2215.440212950527, y = 298.40383310834375},
             propsData = {
               StaticCreatorIdList = {1191512},
               ManualItemIdList = {},
               StateId = 602,
               QuestId = 0
+            }
+          },
+          ["17601736331042463"] = {
+            key = "17601736331042463",
+            type = "PlayOrStopBGMNode",
+            name = "播放幽默",
+            pos = {x = 1678, y = 80},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0033_story_humour",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai01-humour"
+            }
+          },
+          ["17601736493072775"] = {
+            key = "17601736493072775",
+            type = "PlayOrStopBGMNode",
+            name = "停止幽默",
+            pos = {x = 1952, y = 308},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai01-humour"
             }
           }
         },
@@ -683,15 +765,27 @@ return {
             endPort = "Fail"
           },
           {
-            startQuest = "17448049126551652810",
+            startQuest = "17447209628121638770",
             startPort = "Out",
-            endQuest = "17483375599513555292",
+            endQuest = "1760173679699934370",
             endPort = "In"
           },
           {
             startQuest = "17447209628121638770",
             startPort = "Out",
             endQuest = "17447209466161638482",
+            endPort = "In"
+          },
+          {
+            startQuest = "17448049126551652810",
+            startPort = "Out",
+            endQuest = "1760173699031935044",
+            endPort = "In"
+          },
+          {
+            startQuest = "1760173699031935044",
+            startPort = "Out",
+            endQuest = "17483375599513555292",
             endPort = "In"
           }
         },
@@ -707,14 +801,14 @@ return {
             key = "17447202937811628957",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2038.870166146974, y = 553.2328391658093},
+            pos = {x = 2354.870166146974, y = 559.2328391658093},
             propsData = {ModeType = 0}
           },
           ["17447202937811628960"] = {
             key = "17447202937811628960",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2037.142851563538, y = 704.857139717154},
+            pos = {x = 2353.142851563538, y = 710.857139717154},
             propsData = {}
           },
           ["17447209466161638482"] = {
@@ -906,7 +1000,7 @@ return {
             key = "174798309180713190060",
             type = "ChangeStaticCreatorNode",
             name = "销毁小游戏",
-            pos = {x = 1389.5233579342007, y = 119.42010789835675},
+            pos = {x = 1411.5233579342007, y = -256.5798921016433},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -934,7 +1028,7 @@ return {
             key = "17483375599513555292",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "等待特殊任务与士兵战斗开始并完成",
-            pos = {x = 1678.857148799766, y = 646.433856733513},
+            pos = {x = 1994.857148799766, y = 652.433856733513},
             propsData = {SpecialConfigId = 1049, BlackScreenImmediately = true}
           },
           ["17484071132721774341"] = {
@@ -949,6 +1043,35 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
+            }
+          },
+          ["1760173679699934370"] = {
+            key = "1760173679699934370",
+            type = "PlayOrStopBGMNode",
+            name = "播放幽默",
+            pos = {x = 1346, y = 132},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0033_story_humour",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai01-humour"
+            }
+          },
+          ["1760173699031935044"] = {
+            key = "1760173699031935044",
+            type = "PlayOrStopBGMNode",
+            name = "停止幽默",
+            pos = {x = 1656, y = 644},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai01-humour"
             }
           }
         },
@@ -1001,15 +1124,27 @@ return {
             endPort = "Success"
           },
           {
-            startQuest = "17447211024331642191",
-            startPort = "Out",
-            endQuest = "17483418022805326271",
-            endPort = "In"
-          },
-          {
             startQuest = "17483418022805326271",
             startPort = "Out",
             endQuest = "17483418022805326272",
+            endPort = "In"
+          },
+          {
+            startQuest = "17447202960861629130",
+            startPort = "QuestStart",
+            endQuest = "1760173712857935310",
+            endPort = "In"
+          },
+          {
+            startQuest = "17447211024331642191",
+            startPort = "Out",
+            endQuest = "1760173719130935501",
+            endPort = "In"
+          },
+          {
+            startQuest = "1760173719130935501",
+            startPort = "Out",
+            endQuest = "17483418022805326271",
             endPort = "In"
           }
         },
@@ -1126,6 +1261,35 @@ return {
               NewTargetPointName = "",
               StaticCreatorIdList = {1191512}
             }
+          },
+          ["1760173712857935310"] = {
+            key = "1760173712857935310",
+            type = "PlayOrStopBGMNode",
+            name = "播放幽默",
+            pos = {x = 1256, y = 60},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0033_story_humour",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {},
+              SoundUnitKey = "Huozai01-humour"
+            }
+          },
+          ["1760173719130935501"] = {
+            key = "1760173719130935501",
+            type = "PlayOrStopBGMNode",
+            name = "停止幽默",
+            pos = {x = 1588, y = 106},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 2,
+              SoundType = 0,
+              SoundUnitKey = "Huozai01-humour"
+            }
           }
         },
         commentData = {}
@@ -1136,7 +1300,7 @@ return {
       key = "17447202971411629212",
       type = "StoryNode",
       name = "去找薇奥莱塔复命+线索6    ",
-      pos = {x = 1686.6164687167482, y = 541.8394109793866},
+      pos = {x = 1688.229371922707, y = 541.8394109793866},
       propsData = {
         QuestId = 20023007,
         QuestDescriptionComment = "",

@@ -76,12 +76,6 @@ return {
       questNodeData = {
         lineData = {
           {
-            startQuest = "1749002662590156",
-            startPort = "Out",
-            endQuest = "17485895286491784228",
-            endPort = "Success"
-          },
-          {
             startQuest = "17485895286491784225",
             startPort = "QuestStart",
             endQuest = "1749452839498308556",
@@ -122,6 +116,12 @@ return {
             startPort = "Out",
             endQuest = "1758249945472935320",
             endPort = "In"
+          },
+          {
+            startQuest = "1758249945472935320",
+            startPort = "Out",
+            endQuest = "17485895286491784228",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -136,7 +136,7 @@ return {
             key = "17485895286491784228",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1840.7586206896551, y = 295.9310344827586},
+            pos = {x = 2123.1115618661256, y = 296.81338742393507},
             propsData = {ModeType = 0}
           },
           ["17485895286491784231"] = {
@@ -150,7 +150,7 @@ return {
             key = "1749002662590156",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1522.307210031348, y = 270.28213166144195},
+            pos = {x = 1484.3660335607597, y = 272.0468375437949},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80150301,
@@ -240,7 +240,7 @@ return {
             key = "1749452882834309192",
             type = "SendMessageNode",
             name = "发送消息",
-            pos = {x = 1515.4329501915706, y = 443.23084291187735},
+            pos = {x = 1486.3153031327472, y = 444.1131958530538},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "IcelakeCityDay",
@@ -265,27 +265,26 @@ return {
             key = "1758249927667934781",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = 1523.9326225045374, y = 605.0244608732787},
+            pos = {x = 1485.9914460339492, y = 604.1421079321022},
             propsData = {
               SoundStateType = 0,
-              SoundPriority = 0,
+              SoundPriority = 1,
               SoundType = 0,
-              SoundPath = "event:/bgm/mute",
+              SoundPath = "event:/bgm/cbt03/0071_lise_secret",
               ParamKey = "",
               ParamValue = 0,
               RelatedRegionId = {},
-              ClientRelatedRegionId = {},
-              bStoreToServer = false
+              ClientRelatedRegionId = {}
             }
           },
           ["1758249945472935320"] = {
             key = "1758249945472935320",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = 1845.656760435572, y = 446.7485988043132},
+            pos = {x = 1798.8920545532192, y = 293.2191870396073},
             propsData = {
               SoundStateType = 3,
-              SoundPriority = 0,
+              SoundPriority = 1,
               SoundType = 0
             }
           }

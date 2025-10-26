@@ -17,7 +17,7 @@ return ReadOnly("WikiText", {
     EntryId = 101004,
     TextDetail = "WikiText_10100402",
     TextId = 10100402,
-    TextRelatedDialogue = 11010401,
+    TextRelatedDialogue = {11010401},
     TextUnlock = 10100402
   },
   [10100403] = {
@@ -244,7 +244,6 @@ return ReadOnly("WikiText", {
     EntryId = 201013,
     TextDetail = "WikiText_20101301",
     TextId = 20101301,
-    TextRelatedDialogue = 11010401,
     TextUnlock = 20101301
   },
   [20101302] = {

@@ -37,7 +37,7 @@ return ReadOnly("TalkAction", {
     IsOnceAction = true,
     IsSpecialAnim = false,
     MontageSection = "Start",
-    bUseIK = true
+    bUseIK = false
   },
   AgreeHead = {
     ActionMontage = "Emo_AgreeHead",
@@ -47,7 +47,7 @@ return ReadOnly("TalkAction", {
     IsOnceAction = true,
     IsSpecialAnim = false,
     MontageSection = "Start",
-    bUseIK = true
+    bUseIK = false
   },
   Aim_Loop = {
     ActionMontage = "Aim_Idle",
@@ -1375,7 +1375,7 @@ return ReadOnly("TalkAction", {
     IsOnceAction = true,
     IsSpecialAnim = false,
     MontageSection = "Start",
-    bUseIK = true
+    bUseIK = false
   },
   DisagreeHead = {
     ActionMontage = "Emo_DisagreeHead",
@@ -1385,7 +1385,7 @@ return ReadOnly("TalkAction", {
     IsOnceAction = true,
     IsSpecialAnim = false,
     MontageSection = "Start",
-    bUseIK = true
+    bUseIK = false
   },
   Emo_Daydream_End = {
     ActionMontage = "Emo_Daydream",
@@ -1527,6 +1527,15 @@ return ReadOnly("TalkAction", {
     IsOnceAction = true,
     IsSpecialAnim = false,
     MontageSection = "End",
+    bUseIK = false
+  },
+  Explain02_Loop = {
+    ActionMontage = "Emo_Explain02",
+    AnimationId = "Explain02_Loop",
+    BlendInTime = 0.2,
+    BlendOutTime = 0.2,
+    IsSpecialAnim = false,
+    MontageSection = "Loop",
     bUseIK = false
   },
   Explain02_Start = {
@@ -3013,7 +3022,7 @@ return ReadOnly("TalkAction", {
     BlendOutTime = 0.4,
     IsSpecialAnim = false,
     MontageSection = "Start",
-    bUseIK = true
+    bUseIK = false
   },
   Sit_DisagreeHead = {
     ActionMontage = "Emo_DisagreeHead",
@@ -3022,7 +3031,7 @@ return ReadOnly("TalkAction", {
     BlendOutTime = 0.4,
     IsSpecialAnim = false,
     MontageSection = "Start",
-    bUseIK = true
+    bUseIK = false
   },
   Sit_End = {
     ActionMontage = "Interactive_Sit_F",

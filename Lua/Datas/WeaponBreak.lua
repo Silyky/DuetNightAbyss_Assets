@@ -8,9 +8,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -26,9 +26,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11004
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -44,9 +44,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11005
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -63,9 +63,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -81,9 +81,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -100,9 +100,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -230,9 +230,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -248,9 +248,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11004
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -266,9 +266,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11005
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -285,9 +285,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -303,9 +303,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -322,9 +322,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -452,9 +452,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -470,9 +470,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11004
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -488,9 +488,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11005
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -507,9 +507,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -525,9 +525,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -544,9 +544,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -674,9 +674,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -692,9 +692,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11004
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -710,9 +710,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11005
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -729,9 +729,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -747,9 +747,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -766,9 +766,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -1118,9 +1118,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -1136,9 +1136,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11004
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -1154,9 +1154,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11005
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -1173,9 +1173,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -1191,9 +1191,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -1210,9 +1210,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -1673,9 +1673,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11004
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -1691,9 +1691,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11007
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -1709,9 +1709,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11008
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -1728,9 +1728,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -1746,9 +1746,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -1765,9 +1765,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -1784,9 +1784,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11004
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -1802,9 +1802,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11007
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -1820,9 +1820,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11008
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -1839,9 +1839,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -1857,9 +1857,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -1876,9 +1876,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -2117,9 +2117,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11004
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -2135,9 +2135,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11007
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -2153,9 +2153,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11008
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -2172,9 +2172,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -2190,9 +2190,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -2209,9 +2209,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -2228,9 +2228,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11004
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -2246,9 +2246,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11007
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -2264,9 +2264,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11008
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -2283,9 +2283,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -2301,9 +2301,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -2320,9 +2320,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -2561,9 +2561,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -2579,9 +2579,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11004
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -2597,9 +2597,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11005
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -2616,9 +2616,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -2634,9 +2634,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -2653,9 +2653,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -2672,9 +2672,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -2690,9 +2690,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11004
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -2708,9 +2708,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11005
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -2727,9 +2727,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -2745,9 +2745,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -2764,9 +2764,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11006
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -2894,9 +2894,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -2912,9 +2912,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11007
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -2930,9 +2930,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11008
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -2949,9 +2949,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -2967,9 +2967,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -2986,9 +2986,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -3005,9 +3005,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11001
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -3023,9 +3023,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11007
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -3041,9 +3041,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11008
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -3060,9 +3060,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -3078,9 +3078,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -3097,9 +3097,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11009
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -3227,9 +3227,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11010
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -3245,9 +3245,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -3263,9 +3263,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -3282,9 +3282,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -3300,9 +3300,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -3319,9 +3319,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -3338,9 +3338,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11010
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -3356,9 +3356,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -3374,9 +3374,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -3393,9 +3393,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -3411,9 +3411,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -3430,9 +3430,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -3449,9 +3449,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11010
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -3467,9 +3467,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -3485,9 +3485,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -3504,9 +3504,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -3522,9 +3522,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -3541,9 +3541,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -3671,9 +3671,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11010
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -3689,9 +3689,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -3707,9 +3707,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -3726,9 +3726,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -3744,9 +3744,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -3763,9 +3763,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -4004,9 +4004,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11016
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -4022,9 +4022,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11013
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -4040,9 +4040,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11014
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -4059,9 +4059,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11015
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -4077,9 +4077,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11015
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -4096,9 +4096,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11015
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -4226,9 +4226,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11016
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -4244,9 +4244,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11013
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -4262,9 +4262,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11014
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -4281,9 +4281,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11015
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -4299,9 +4299,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11015
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -4318,9 +4318,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11015
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -4337,9 +4337,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11010
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -4355,9 +4355,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -4373,9 +4373,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -4392,9 +4392,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -4410,9 +4410,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -4429,9 +4429,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -4559,9 +4559,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11010
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -4577,9 +4577,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -4595,9 +4595,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -4614,9 +4614,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -4632,9 +4632,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -4651,9 +4651,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -4781,9 +4781,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11013
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -4799,9 +4799,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -4817,9 +4817,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -4836,9 +4836,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -4854,9 +4854,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -4873,9 +4873,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -5003,9 +5003,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11013
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -5021,9 +5021,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11016
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -5039,9 +5039,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11017
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -5058,9 +5058,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -5076,9 +5076,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -5095,9 +5095,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11018
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,
@@ -5558,9 +5558,9 @@ return ReadOnly("WeaponBreak", {
         [3] = 11016
       },
       ItemNum = {
-        [1] = 2240,
-        [2] = 4,
-        [3] = 1
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
       },
       WeaponBreakLevel = 20,
       WeaponBreakNum = 1,
@@ -5576,9 +5576,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11010
       },
       ItemNum = {
-        [1] = 4880,
-        [2] = 2,
-        [3] = 3,
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
         [4] = 2
       },
       WeaponBreakLevel = 30,
@@ -5594,9 +5594,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11011
       },
       ItemNum = {
-        [1] = 5520,
-        [2] = 4,
-        [3] = 2,
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
         [4] = 1
       },
       WeaponBreakLevel = 40,
@@ -5613,9 +5613,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11012
       },
       ItemNum = {
-        [1] = 13600,
-        [2] = 9,
-        [3] = 4,
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
         [4] = 2
       },
       WeaponBreakLevel = 50,
@@ -5631,9 +5631,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11012
       },
       ItemNum = {
-        [1] = 39200,
-        [2] = 19,
-        [3] = 8,
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
         [4] = 4
       },
       WeaponBreakLevel = 60,
@@ -5650,9 +5650,9 @@ return ReadOnly("WeaponBreak", {
         [4] = 11012
       },
       ItemNum = {
-        [1] = 144000,
-        [2] = 38,
-        [3] = 16,
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
         [4] = 8
       },
       WeaponBreakLevel = 70,

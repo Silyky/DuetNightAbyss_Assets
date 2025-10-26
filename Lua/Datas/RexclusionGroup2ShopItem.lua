@@ -1,4 +1,10 @@
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
-return ReadOnly("RexclusionGroup2ShopItem", {})
+return ReadOnly("RexclusionGroup2ShopItem", {
+  [160111] = {
+    [1] = 160111,
+    [2] = 160316
+  },
+  [160316] = {
+    [1] = 160111,
+    [2] = 160316
+  }
+})

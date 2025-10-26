@@ -107,12 +107,6 @@ return {
             endPort = "Fail"
           },
           {
-            startQuest = "17229278621251220010",
-            startPort = "Out",
-            endQuest = "17253713709171133963",
-            endPort = "In"
-          },
-          {
             startQuest = "17229277688621218620",
             startPort = "Fail",
             endQuest = "17284432663408110999",
@@ -215,17 +209,6 @@ return {
               bResetCamera = false,
               bForceAsyncLoading = false,
               IsWhite = false
-            }
-          },
-          ["17253713709171133963"] = {
-            key = "17253713709171133963",
-            type = "SendMessageNode",
-            name = "发送消息",
-            pos = {x = -580.2273925971017, y = 655.7586250646717},
-            propsData = {
-              MessageType = "GameMode",
-              MessageContent = "GoToControl",
-              UnitId = -1
             }
           },
           ["17284432663408110999"] = {
@@ -1052,7 +1035,7 @@ return {
       key = "17309502252793496288",
       type = "StoryNode",
       name = "中控室机关特殊任务",
-      pos = {x = 699.9836662343754, y = -127.91158858493542},
+      pos = {x = 701.2880140604624, y = -127.91158858493542},
       propsData = {
         QuestId = 11010705,
         QuestDescriptionComment = "",

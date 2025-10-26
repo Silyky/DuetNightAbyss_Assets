@@ -6318,7 +6318,11 @@ return ReadOnly("Condition", {
     ConditionId = 6013,
     ConditionLogic = "OR",
     ConditionMap = {
-      InDungeon = {20101, 20102}
+      InDungeon = {
+        20101,
+        20102,
+        20201
+      }
     },
     Remark = "大秘境局内引导显示条件"
   },
@@ -6380,6 +6384,23 @@ return ReadOnly("Condition", {
       QuestChain = {200236}
     },
     Remark = "送松露活动下架条件"
+  },
+  [6021] = {
+    ConditionId = 6021,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      ConditionalRewardEventEnd = {107003}
+    },
+    Remark = "区域联机解锁通知活动下架条件"
+  },
+  [6022] = {
+    ConditionId = 6022,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      PlayerLevelMin = 1,
+      QuestChain = 100208
+    },
+    Remark = "区域联机解锁活动领奖条件"
   },
   [7000] = {
     ConditionId = 7000,
@@ -8675,6 +8696,14 @@ return ReadOnly("Condition", {
     },
     Remark = "菲娜活动任务3完成"
   },
+  [120114] = {
+    ConditionId = 120114,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      QuestChain = {120114}
+    },
+    Remark = "菲娜活动任务4完成"
+  },
   [120201] = {
     ConditionId = 120201,
     ConditionLogic = "AND",
@@ -8818,6 +8847,16 @@ return ReadOnly("Condition", {
       QuestChain = 200225
     },
     Remark = "小小研究者三阶段结束"
+  },
+  [210100] = {
+    ConditionId = 210100,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      OwnCharIdAndLevel = {
+        {2101, 1}
+      }
+    },
+    Remark = "获得1级水母（解锁水母）"
   },
   [310101] = {
     ConditionId = 310101,
@@ -9126,9 +9165,9 @@ return ReadOnly("Condition", {
     ConditionMap = {
       AvatarStatus = {
         {
-          "InRougeLike",
-          "T"
-        }
+  "InRougeLike",
+  "T"
+}
       }
     },
     Remark = "成就-在肉鸽"
@@ -9181,6 +9220,29 @@ return ReadOnly("Condition", {
       }
     },
     Remark = "组合条件-单机副本+大世界"
+  },
+  [1000054] = {
+    ConditionId = 1000054,
+    ConditionLogic = "OR",
+    ConditionMap = {
+      AvatarStatus = {
+        {"InBigWorld", "T"},
+        {
+  "InSingleDungeon",
+  "T"
+},
+        {
+  "InMultiDungeon",
+  "T"
+},
+        {
+  "InRougeLike",
+  "T"
+},
+        {"InHardBoss", "F"}
+      }
+    },
+    Remark = "成就-组合条件-大世界+单机副本+联机副本+肉鸽+梦魇"
   },
   [1000101] = {
     ConditionId = 1000101,
@@ -9644,6 +9706,14 @@ return ReadOnly("Condition", {
     },
     Remark = "挖土和冰湖狩猎都完成"
   },
+  [10020502] = {
+    ConditionId = 10020502,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      Quest = {10020501}
+    },
+    Remark = "调停委托完成"
+  },
   [10020601] = {
     ConditionId = 10020601,
     ConditionLogic = "AND",
@@ -9731,7 +9801,7 @@ return ReadOnly("Condition", {
     ConditionId = 10100402,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = 11010401
+      DialogueHasRead = {11010401}
     },
     Remark = "神弃者同盟（追加1）"
   },
@@ -9885,6 +9955,62 @@ return ReadOnly("Condition", {
     },
     Remark = "东国一期扶疏线、古战场线完成"
   },
+  [12011106] = {
+    ConditionId = 12011106,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      DungeonComplete = {
+        {
+          60001,
+          1,
+          1
+        }
+      }
+    },
+    Remark = "菲娜活动副本1-1完成"
+  },
+  [12011204] = {
+    ConditionId = 12011204,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      DungeonComplete = {
+        {
+          60002,
+          1,
+          1
+        }
+      }
+    },
+    Remark = "菲娜活动副本2-1完成"
+  },
+  [12011306] = {
+    ConditionId = 12011306,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      DungeonComplete = {
+        {
+          60004,
+          1,
+          1
+        }
+      }
+    },
+    Remark = "菲娜活动副本3-2完成"
+  },
+  [12011413] = {
+    ConditionId = 12011413,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      DungeonComplete = {
+        {
+          60006,
+          1,
+          1
+        }
+      }
+    },
+    Remark = "菲娜活动任务4-2完成"
+  },
   [20010104] = {
     ConditionId = 20010104,
     ConditionLogic = "OR",
@@ -10022,6 +10148,16 @@ return ReadOnly("Condition", {
       }
     },
     Remark = "于无眠之夜远航任务接取"
+  },
+  [20023600] = {
+    ConditionId = 20023600,
+    ConditionLogic = "AND",
+    ConditionMap = {
+      OwnCharIdAndLevel = {
+        {5101, 1}
+      }
+    },
+    Remark = "委托密函任务-获得松露"
   },
   [20030401] = {
     ConditionId = 20030401,
@@ -10228,7 +10364,7 @@ return ReadOnly("Condition", {
     ConditionId = 20101301,
     ConditionLogic = "OR",
     ConditionMap = {
-      DialogueHasRead = 11010401
+      Quest = {11010108}
     },
     Remark = "阿瓦尔"
   },

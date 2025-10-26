@@ -232,21 +232,45 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17585328366482169",
+            startPort = "Out",
+            endQuest = "17585328366482170",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585328366482170",
+            startPort = "Out",
+            endQuest = "17585328366482171",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585328366482171",
+            startPort = "Out",
+            endQuest = "17585328366482172",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585328366482172",
+            startPort = "Out",
+            endQuest = "17585328366482173",
+            endPort = "In"
+          },
+          {
+            startQuest = "17585328366482173",
+            startPort = "Out",
+            endQuest = "17184320475062593444",
+            endPort = "In"
+          },
+          {
             startQuest = "17184319496412590174",
             startPort = "Out",
-            endQuest = "174530877267413145348",
+            endQuest = "17585328366482169",
             endPort = "In"
           },
           {
             startQuest = "17184319496412590171",
             startPort = "Out",
-            endQuest = "174530877267413145348",
-            endPort = "In"
-          },
-          {
-            startQuest = "174530877267413145348",
-            startPort = "Out",
-            endQuest = "17184320475062593444",
+            endQuest = "17585328366482169",
             endPort = "In"
           }
         },
@@ -262,7 +286,7 @@ return {
             key = "17184319369392589163",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 3099.514979905005, y = 351.5845535538628},
+            pos = {x = 3861.514979905005, y = 225.5845535538628},
             propsData = {ModeType = 0}
           },
           ["17184319369392589166"] = {
@@ -276,7 +300,7 @@ return {
             key = "17184319496412590171",
             type = "KillMonsterNode",
             name = "万一玩家真打过了",
-            pos = {x = 2295.005575818944, y = 435.69730405192564},
+            pos = {x = 2287.7641965085995, y = 454.3179937070981},
             propsData = {
               KillMonsterType = "Id",
               MonsterNeedNums = 1,
@@ -322,7 +346,7 @@ return {
             key = "17184319496412590174",
             type = "MonitorPlayerStatusNode",
             name = "监听玩家死亡",
-            pos = {x = 2297.1961796041755, y = 291.8331504097042},
+            pos = {x = 2307.5410071903825, y = 268.04004696142835},
             propsData = {
               ListenHPPercent = false,
               ListenESPercent = false,
@@ -334,7 +358,7 @@ return {
             key = "17184319496412590176",
             type = "TalkNode",
             name = "成为野兽吧",
-            pos = {x = 2539.855905344568, y = 109.93438019647704},
+            pos = {x = 2552.2696984480162, y = 120.27920778268393},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10112201,
@@ -425,7 +449,7 @@ return {
             key = "17184320475062593444",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 2800.2169912302215, y = 346.8304159749814},
+            pos = {x = 3897.803198126773, y = 571.158002181878},
             propsData = {}
           },
           ["17187885944831067541"] = {
@@ -517,7 +541,7 @@ return {
             key = "1724923773603728742",
             type = "SendMessageNode",
             name = "挂指引点",
-            pos = {x = 2537.3557202119455, y = 448.04726154136256},
+            pos = {x = 2651.1488236602213, y = 576.3231236103281},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "BossSaiqi02_Stage1End",
@@ -545,7 +569,7 @@ return {
             key = "17253488456182758722",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = 2295.032901444768, y = 587.7174667963016},
+            pos = {x = 2262.9639359275266, y = 644.6140185204395},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -606,12 +630,66 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["174530877267413145348"] = {
-            key = "174530877267413145348",
-            type = "WaitOfTimeNode",
-            name = "0.4",
-            pos = {x = 2544.983693725629, y = 337.9943282523928},
-            propsData = {WaitTime = 0.4}
+          ["17585328366482169"] = {
+            key = "17585328366482169",
+            type = "ShowOrHideUINode",
+            name = "显示或隐藏UI",
+            pos = {x = 3085.708099529844, y = 173.17391098881345},
+            propsData = {
+              Function = "HideUIInScreen",
+              UIParam = "BloodBar",
+              ActionParam = "None",
+              ShowOrHide = false
+            }
+          },
+          ["17585328366482170"] = {
+            key = "17585328366482170",
+            type = "ShowOrHideUINode",
+            name = "显示或隐藏UI",
+            pos = {x = 3084.006597552784, y = 302.85233987543813},
+            propsData = {
+              Function = "HideUIInScreen",
+              UIParam = "EnergySkill",
+              ActionParam = "None",
+              ShowOrHide = false
+            }
+          },
+          ["17585328366482171"] = {
+            key = "17585328366482171",
+            type = "ShowOrHideUINode",
+            name = "显示或隐藏UI",
+            pos = {x = 3093.305273029689, y = 437.30319029512714},
+            propsData = {
+              Function = "HideUIInScreen",
+              UIParam = "Entrance",
+              ActionParam = "None",
+              ShowOrHide = false
+            }
+          },
+          ["17585328366482172"] = {
+            key = "17585328366482172",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 3220.412069882829, y = 597.5696179701936},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
+            }
+          },
+          ["17585328366482173"] = {
+            key = "17585328366482173",
+            type = "ChangeStaticCreatorNode",
+            name = "销毁 一阶段幻影赛琪",
+            pos = {x = 3485.143212943095, y = 598.8813286898384},
+            propsData = {
+              ActiveEnable = false,
+              EnableBlackScreenSync = true,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {1630040}
+            }
           }
         },
         commentData = {}

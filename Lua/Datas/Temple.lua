@@ -1,14 +1,14 @@
 return ReadOnly("Temple", {
   [21] = {
     DungeonId = 21,
-    RewardId = 7101,
+    RewardId = 7104,
     SucRule = "Time",
     UIHideCombo = 1
   },
   [22] = {
     DungeonId = 22,
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -18,7 +18,7 @@ return ReadOnly("Temple", {
   [23] = {
     DungeonId = 23,
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -28,7 +28,7 @@ return ReadOnly("Temple", {
   [27] = {
     DungeonId = 27,
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -38,7 +38,7 @@ return ReadOnly("Temple", {
   [39] = {
     DungeonId = 39,
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -48,7 +48,7 @@ return ReadOnly("Temple", {
   [40] = {
     DungeonId = 40,
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -58,7 +58,7 @@ return ReadOnly("Temple", {
   [41] = {
     DungeonId = 41,
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -68,7 +68,7 @@ return ReadOnly("Temple", {
   [42] = {
     DungeonId = 42,
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -83,7 +83,7 @@ return ReadOnly("Temple", {
       70
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -98,7 +98,7 @@ return ReadOnly("Temple", {
       210
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -113,7 +113,7 @@ return ReadOnly("Temple", {
       210
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -128,7 +128,7 @@ return ReadOnly("Temple", {
       70
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -143,7 +143,7 @@ return ReadOnly("Temple", {
       240
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -158,7 +158,7 @@ return ReadOnly("Temple", {
       240
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -173,7 +173,7 @@ return ReadOnly("Temple", {
       35
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -188,7 +188,7 @@ return ReadOnly("Temple", {
       35
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -203,7 +203,7 @@ return ReadOnly("Temple", {
       55
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -218,7 +218,7 @@ return ReadOnly("Temple", {
       25
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -233,7 +233,7 @@ return ReadOnly("Temple", {
       44
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -248,7 +248,7 @@ return ReadOnly("Temple", {
       180
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -263,7 +263,7 @@ return ReadOnly("Temple", {
       1710
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -279,7 +279,7 @@ return ReadOnly("Temple", {
       3500
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -295,7 +295,7 @@ return ReadOnly("Temple", {
       4500
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -311,7 +311,7 @@ return ReadOnly("Temple", {
       8500
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -327,7 +327,7 @@ return ReadOnly("Temple", {
       7500
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -343,7 +343,7 @@ return ReadOnly("Temple", {
       120
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -358,7 +358,7 @@ return ReadOnly("Temple", {
       1740
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -374,7 +374,7 @@ return ReadOnly("Temple", {
       120
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -389,7 +389,7 @@ return ReadOnly("Temple", {
       120
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -398,32 +398,32 @@ return ReadOnly("Temple", {
   },
   [80701] = {
     DungeonId = 80701,
-    RewardId = 7101,
+    RewardId = 7104,
     SucRule = "Time",
     UIHideCombo = 1
   },
   [80702] = {
     DungeonId = 80702,
-    RewardId = 7101,
+    RewardId = 7104,
     SucRule = "Time",
     UIHideCombo = 1
   },
   [80703] = {
     DungeonId = 80703,
-    RewardId = 7101,
+    RewardId = 7104,
     SucRule = "Time",
     UIHideCombo = 1
   },
   [80704] = {
     DungeonId = 80704,
-    RewardId = 7101,
+    RewardId = 7104,
     SucRule = "Time",
     UIHideCombo = 1,
     UIShowType = 1
   },
   [80705] = {
     DungeonId = 80705,
-    RewardId = 7101,
+    RewardId = 7104,
     SucRule = "Time",
     UIHideCombo = 1,
     UIShowType = 1
@@ -436,7 +436,7 @@ return ReadOnly("Temple", {
       3000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -452,7 +452,7 @@ return ReadOnly("Temple", {
       5000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -468,7 +468,7 @@ return ReadOnly("Temple", {
       7000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -484,7 +484,7 @@ return ReadOnly("Temple", {
       7000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -500,7 +500,7 @@ return ReadOnly("Temple", {
       40
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -515,7 +515,7 @@ return ReadOnly("Temple", {
       25
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -531,7 +531,7 @@ return ReadOnly("Temple", {
       40
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -547,7 +547,7 @@ return ReadOnly("Temple", {
       200
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -557,12 +557,12 @@ return ReadOnly("Temple", {
   [81002] = {
     DungeonId = 81002,
     RatingRange = {
-      100,
+      80,
       160,
-      250
+      240
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -577,7 +577,7 @@ return ReadOnly("Temple", {
       1740
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -593,7 +593,7 @@ return ReadOnly("Temple", {
       240
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -608,7 +608,7 @@ return ReadOnly("Temple", {
       240
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -623,7 +623,7 @@ return ReadOnly("Temple", {
       240
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -638,7 +638,7 @@ return ReadOnly("Temple", {
       4000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -654,7 +654,7 @@ return ReadOnly("Temple", {
       4000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -670,7 +670,7 @@ return ReadOnly("Temple", {
       6000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -681,7 +681,7 @@ return ReadOnly("Temple", {
   [81204] = {
     DungeonId = 81204,
     RatingRange = {4000},
-    RewardId = 7101,
+    RewardId = 7104,
     SucRule = "Score",
     UIHideCombo = 1,
     UIHideFailCond = 1
@@ -694,7 +694,7 @@ return ReadOnly("Temple", {
       80
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -709,7 +709,7 @@ return ReadOnly("Temple", {
       80
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -724,7 +724,7 @@ return ReadOnly("Temple", {
       2500
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },
@@ -740,7 +740,7 @@ return ReadOnly("Temple", {
       4000
     },
     RewardId = {
-      7101,
+      7104,
       7102,
       7103
     },

@@ -995,7 +995,8 @@ return {
                 1640035,
                 1640121,
                 1640236,
-                1640235
+                1640235,
+                1640640
               }
             }
           },
@@ -1887,7 +1888,7 @@ return {
             key = "1723793345854530570",
             type = "TalkNode",
             name = "Free - 汇合后尤里安",
-            pos = {x = 187.44260184559403, y = -348.26514721387844},
+            pos = {x = 190.32589704010203, y = -348.26514721387844},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -1938,7 +1939,7 @@ return {
             key = "1723793345855530571",
             type = "TalkNode",
             name = "Free - 汇合后阿妮塔",
-            pos = {x = 183.53783994083201, y = -204.9105413336381},
+            pos = {x = 183.53783994083201, y = -206.21488915972506},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -1989,7 +1990,7 @@ return {
             key = "1723793345855530572",
             type = "TalkNode",
             name = "Free - 受伤1",
-            pos = {x = 184.1092685122607, y = -59.93181388054501},
+            pos = {x = 182.80492068617374, y = -62.54050953271892},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -2040,9 +2041,9 @@ return {
             key = "1723793345856530575",
             type = "CreatePhantomNode",
             name = "召唤/销毁剧情魅影",
-            pos = {x = 264.4993851516201, y = 398.89487494441335},
+            pos = {x = 265.6104962627312, y = 398.89487494441335},
             propsData = {
-              IsCreate = false,
+              IsCreate = true,
               IsClearOtherPhantom = false,
               IsSync = false,
               StaticCreatorIdList = {1211010205}
@@ -2086,7 +2087,7 @@ return {
             key = "17349400623893658235",
             type = "TalkNode",
             name = "Free - 受伤2",
-            pos = {x = 207.2, y = -540},
+            pos = {x = 207.2, y = -541.304347826087},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -2097,7 +2098,7 @@ return {
               DelayShowGuideTime = 0,
               IsPlayerTurnToNPC = true,
               IsNPCTurnToPlayer = true,
-              FirstDialogueId = 11011022,
+              FirstDialogueId = 11011024,
               FlowAssetPath = "",
               TalkType = "FreeSimple",
               BlendInTime = 1,
@@ -2137,7 +2138,7 @@ return {
             key = "17349400731263658377",
             type = "TalkNode",
             name = "Free - 受伤3",
-            pos = {x = 226, y = -714},
+            pos = {x = 230.73684210526315, y = -713.725400457666},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -2148,7 +2149,7 @@ return {
               DelayShowGuideTime = 0,
               IsPlayerTurnToNPC = true,
               IsNPCTurnToPlayer = true,
-              FirstDialogueId = 11011024,
+              FirstDialogueId = 11011022,
               FlowAssetPath = "",
               TalkType = "FreeSimple",
               BlendInTime = 1,

@@ -69,7 +69,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1001101,
     RegainCharItemNum = 30,
     RoleId = 1101,
-    SkinId = {1101},
+    SkinId = {1101, 11010010},
     SortPriority = 4006,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetHeitao",
@@ -147,7 +147,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1001103,
     RegainCharItemNum = 30,
     RoleId = 1103,
-    SkinId = {1103},
+    SkinId = {1103, 11030010},
     SortPriority = 4006,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetTuosi",
@@ -223,7 +223,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1001501,
     RegainCharItemNum = 30,
     RoleId = 1501,
-    SkinId = {1501},
+    SkinId = {1501, 15010010},
     SortPriority = 5010,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetBaonu",
@@ -299,7 +299,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1001502,
     RegainCharItemNum = 30,
     RoleId = 1502,
-    SkinId = {1502},
+    SkinId = {1502, 15020010},
     SortPriority = 5011,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetNifu"
@@ -534,7 +534,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1001601,
     RegainCharItemNum = 30,
     RoleId = 1601,
-    SkinId = {1601},
+    SkinId = {1601, 16010010},
     SortPriority = 5014,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetBaonu"
@@ -609,7 +609,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1001801,
     RegainCharItemNum = 30,
     RoleId = 1801,
-    SkinId = {1801},
+    SkinId = {1801, 18010010},
     SortPriority = 5009,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetFeina"
@@ -684,7 +684,11 @@ return ReadOnly("Char", {
     RegainCharItemId = 1002101,
     RegainCharItemNum = 30,
     RoleId = 2101,
-    SkinId = {2101, 210102},
+    SkinId = {
+      2101,
+      210102,
+      21010010
+    },
     SortPriority = 5004,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetShuimu"
@@ -836,7 +840,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1002301,
     RegainCharItemNum = 30,
     RoleId = 2301,
-    SkinId = {2301},
+    SkinId = {2301, 23010010},
     SortPriority = 4007,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetZhangyu"
@@ -988,7 +992,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1003101,
     RegainCharItemNum = 30,
     RoleId = 3101,
-    SkinId = {3101},
+    SkinId = {3101, 31010010},
     SortPriority = 5003,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetLinen",
@@ -1141,7 +1145,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1003103,
     RegainCharItemNum = 30,
     RoleId = 3103,
-    SkinId = {3103},
+    SkinId = {3103, 31030010},
     SortPriority = 4003,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetYeer"
@@ -1216,7 +1220,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1003201,
     RegainCharItemNum = 30,
     RoleId = 3201,
-    SkinId = {3201},
+    SkinId = {3201, 32010010},
     SortPriority = 4004,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetHaier"
@@ -1367,7 +1371,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1003301,
     RegainCharItemNum = 30,
     RoleId = 3301,
-    SkinId = {3301},
+    SkinId = {3301, 33010010},
     SortPriority = 4005,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetMaer"
@@ -1442,7 +1446,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1004101,
     RegainCharItemNum = 30,
     RoleId = 4101,
-    SkinId = {4101},
+    SkinId = {4101, 41010010},
     SortPriority = 4001,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetLise"
@@ -1671,7 +1675,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1004202,
     RegainCharItemNum = 30,
     RoleId = 4202,
-    SkinId = {4202},
+    SkinId = {4202, 42020010},
     SortPriority = 4001,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetLandi"
@@ -1746,7 +1750,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1004301,
     RegainCharItemNum = 30,
     RoleId = 4301,
-    SkinId = {4301},
+    SkinId = {4301, 43010010},
     SortPriority = 5001,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetXibi"
@@ -1821,7 +1825,11 @@ return ReadOnly("Char", {
     RegainCharItemId = 1005101,
     RegainCharItemNum = 30,
     RoleId = 5101,
-    SkinId = {5101, 510101},
+    SkinId = {
+      5101,
+      510101,
+      51010010
+    },
     SortPriority = 5006,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetSonglu",
@@ -1897,7 +1905,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1005102,
     RegainCharItemNum = 30,
     RoleId = 5102,
-    SkinId = {5102},
+    SkinId = {5102, 51020010},
     SortPriority = 4002,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetAote"
@@ -1972,7 +1980,11 @@ return ReadOnly("Char", {
     RegainCharItemId = 1005301,
     RegainCharItemNum = 30,
     RoleId = 5301,
-    SkinId = {5301, 530101},
+    SkinId = {
+      5301,
+      530101,
+      53010010
+    },
     SortPriority = 5008,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetSaiqi",
@@ -2048,7 +2060,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1005401,
     RegainCharItemNum = 30,
     RoleId = 5401,
-    SkinId = {5401},
+    SkinId = {5401, 54010010},
     SortPriority = 4002,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetDafu"
@@ -2123,7 +2135,7 @@ return ReadOnly("Char", {
     RegainCharItemId = 1001601,
     RegainCharItemNum = 30,
     RoleId = 160101,
-    SkinId = {160101},
+    SkinId = {160101, 16010110},
     SortPriority = 5015,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetNifu"

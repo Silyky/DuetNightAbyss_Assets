@@ -222,12 +222,6 @@ return {
           {
             startQuest = "17561315982775697631",
             startPort = "true",
-            endQuest = "17557798955765334",
-            endPort = "In"
-          },
-          {
-            startQuest = "17561315982775697631",
-            startPort = "true",
             endQuest = "17557798955765327",
             endPort = "In"
           },
@@ -268,18 +262,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17561316612365699764",
-            startPort = "Out",
-            endQuest = "17561316612365699763",
-            endPort = "In"
-          },
-          {
-            startQuest = "17561316612365699763",
-            startPort = "Out",
-            endQuest = "17557779523735230",
-            endPort = "Success"
-          },
-          {
             startQuest = "17561315398845064756",
             startPort = "Out",
             endQuest = "17557779523735230",
@@ -296,6 +278,12 @@ return {
             startPort = "Out",
             endQuest = "17557832730402482585",
             endPort = "In"
+          },
+          {
+            startQuest = "17561316612365699764",
+            startPort = "Out",
+            endQuest = "17557779523735230",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -414,17 +402,6 @@ return {
               IsPlayStartSound = false,
               GuideTalkStyle = "Normal",
               OverrideFailBlend = false
-            }
-          },
-          ["17557798955765334"] = {
-            key = "17557798955765334",
-            type = "SendMessageNode",
-            name = "发送消息,夜里",
-            pos = {x = 421.0858683233944, y = -587.7085665399501},
-            propsData = {
-              MessageType = "GameMode",
-              MessageContent = "IcelakeCityNight",
-              UnitId = -1
             }
           },
           ["17557798955775339"] = {
@@ -635,17 +612,6 @@ return {
               VarInfos = {
                 {VarName = "Value", VarValue = "0"}
               }
-            }
-          },
-          ["17561316612365699763"] = {
-            key = "17561316612365699763",
-            type = "SendMessageNode",
-            name = "发送消息,夜里",
-            pos = {x = 771.8263987767745, y = -1401.0904041666222},
-            propsData = {
-              MessageType = "GameMode",
-              MessageContent = "IcelakeCityNight",
-              UnitId = -1
             }
           },
           ["17561316612365699764"] = {
@@ -1953,7 +1919,7 @@ return {
       key = "17558569712842533",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1580.198376308124, y = 325.37741688793585},
+      pos = {x = 1581.309487419235, y = 324.26630577682477},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -2030,12 +1996,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17561100406869503779",
-            startPort = "Out",
-            endQuest = "1755857147213632607",
-            endPort = "In"
-          },
-          {
             startQuest = "17558570446595484",
             startPort = "Out",
             endQuest = "17558571079046470",
@@ -2051,12 +2011,6 @@ return {
             startQuest = "17561314356234429810",
             startPort = "Out",
             endQuest = "17558584853281885544",
-            endPort = "In"
-          },
-          {
-            startQuest = "17561314356234429810",
-            startPort = "Out",
-            endQuest = "17561100406869503779",
             endPort = "In"
           },
           {
@@ -2166,6 +2120,18 @@ return {
             startPort = "Out",
             endQuest = "17558569712842537",
             endPort = "Success"
+          },
+          {
+            startQuest = "17561314356234429810",
+            startPort = "Out",
+            endQuest = "17587879159602671",
+            endPort = "In"
+          },
+          {
+            startQuest = "17587879159602671",
+            startPort = "Out",
+            endQuest = "1755857147213632607",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -2352,7 +2318,7 @@ return {
               FirstDialogueId = 10123701,
               FlowAssetPath = "",
               TalkType = "Guide",
-              bIsStandalone = false,
+              bIsStandalone = true,
               GuideMeshIndexList = {},
               IsPlayStartSound = false,
               GuideTalkStyle = "Normal",
@@ -2389,13 +2355,6 @@ return {
               GuideName = "Npc_TraceEnlike02_1191917"
             }
           },
-          ["17561100406869503779"] = {
-            key = "17561100406869503779",
-            type = "WaitOfTimeNode",
-            name = "延迟等待",
-            pos = {x = 1242.4621889534847, y = 454.3013561821279},
-            propsData = {WaitTime = 3}
-          },
           ["17561310617881901388"] = {
             key = "17561310617881901388",
             type = "WaitingSpecialQuestFailNode",
@@ -2407,7 +2366,7 @@ return {
             key = "17561314356234429810",
             type = "TalkNode",
             name = "看恩里克",
-            pos = {x = 646.7838383838383, y = 327.98181818181814},
+            pos = {x = 648.2838383838383, y = 327.98181818181814},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10129301,
@@ -2569,6 +2528,18 @@ return {
               NewTargetPointName = "",
               StaticCreatorIdList = {1191918}
             }
+          },
+          ["17587879159602671"] = {
+            key = "17587879159602671",
+            type = "GoToNode",
+            name = "前往",
+            pos = {x = 1135.9642857142858, y = 441.375},
+            propsData = {
+              GuideUIEnable = false,
+              StaticCreatorId = 1191293,
+              GuideType = "M",
+              GuidePointName = "Mechanism_1191293"
+            }
           }
         },
         commentData = {}
@@ -2579,7 +2550,7 @@ return {
       key = "17561057382925237",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1898.334826307299, y = 357.20920435148474},
+      pos = {x = 1896.334826307299, y = 357.20920435148474},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -2617,12 +2588,6 @@ return {
             startQuest = "17561072474211906458",
             startPort = "Out",
             endQuest = "17561075073642538173",
-            endPort = "In"
-          },
-          {
-            startQuest = "17561076138153169993",
-            startPort = "Out",
-            endQuest = "17561076138153169994",
             endPort = "In"
           },
           {
@@ -3100,23 +3065,6 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["17561076138153169994"] = {
-            key = "17561076138153169994",
-            type = "TalkNode",
-            name = "那位女士",
-            pos = {x = 3733.5109891065717, y = 387.426084579928},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 10123906,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
-            }
-          },
           ["17561076138153169995"] = {
             key = "17561076138153169995",
             type = "TalkNode",
@@ -3136,7 +3084,7 @@ return {
               FlowAssetPath = "",
               TalkType = "FreeSimple",
               BlendInTime = 0.5,
-              BlendOutTime = 0.5,
+              BlendOutTime = 0,
               InType = "BlendIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,

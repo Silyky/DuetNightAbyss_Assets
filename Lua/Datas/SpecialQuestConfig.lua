@@ -285,8 +285,8 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1017,
     StoryPath = "SpecialQuest\1101\Wake.story",
+    SubRegionIds = {102102},
     TalkTriggerId = 1001,
-    TriggerBoxStaticCreatorId = 1650280,
     UniversalConfigId = 1017
   },
   [1018] = {

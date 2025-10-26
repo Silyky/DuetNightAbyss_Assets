@@ -361,6 +361,11 @@ return ReadOnly("GachaStarMap", {
             [1] = {
               Count = 1, Weight = -1
             }
+          },
+          [50002] = {
+            [1] = {
+              Count = 1, Weight = -1
+            }
           }
         },
         Star5 = {},

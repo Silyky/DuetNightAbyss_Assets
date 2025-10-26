@@ -47,7 +47,7 @@ return {
       key = "175447630900011264780",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1308, y = 324},
+      pos = {x = 1308, y = 322},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -88,27 +88,9 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "175447630900011264781",
-            startPort = "QuestStart",
-            endQuest = "175447630900011264796",
-            endPort = "In"
-          },
-          {
-            startQuest = "175447630900011264796",
-            startPort = "Out",
-            endQuest = "175447630900011264795",
-            endPort = "In"
-          },
-          {
             startQuest = "175447630900011264797",
             startPort = "Out",
             endQuest = "175447630900011264799",
-            endPort = "In"
-          },
-          {
-            startQuest = "175447630900011264796",
-            startPort = "Out",
-            endQuest = "1756195042920902",
             endPort = "In"
           },
           {
@@ -124,39 +106,15 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "175447630900011264781",
-            startPort = "QuestStart",
-            endQuest = "17572546133451885675",
-            endPort = "In"
-          },
-          {
             startQuest = "17572546133451885675",
             startPort = "true",
             endQuest = "17572546447581886409",
             endPort = "In"
           },
           {
-            startQuest = "17572546133451885675",
-            startPort = "true",
-            endQuest = "17572547716941889118",
-            endPort = "In"
-          },
-          {
-            startQuest = "175447630900011264796",
-            startPort = "Out",
-            endQuest = "17572547988271889906",
-            endPort = "In"
-          },
-          {
             startQuest = "17572547988271889906",
             startPort = "true",
             endQuest = "17572548447121890703",
-            endPort = "In"
-          },
-          {
-            startQuest = "17572547988271889906",
-            startPort = "true",
-            endQuest = "17572548551361891022",
             endPort = "In"
           },
           {
@@ -248,6 +206,96 @@ return {
             startPort = "Out",
             endQuest = "175447630900011264802",
             endPort = "In"
+          },
+          {
+            startQuest = "17572546133451885675",
+            startPort = "true",
+            endQuest = "17595624411851557155",
+            endPort = "In"
+          },
+          {
+            startQuest = "17572547988271889906",
+            startPort = "true",
+            endQuest = "17595627231421560066",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264781",
+            startPort = "QuestStart",
+            endQuest = "17595644543432181192",
+            endPort = "In"
+          },
+          {
+            startQuest = "17595644543432181192",
+            startPort = "Out",
+            endQuest = "17572546133451885675",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264797",
+            startPort = "Out",
+            endQuest = "17595646187093423433",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264781",
+            startPort = "QuestStart",
+            endQuest = "1756195042920902",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264781",
+            startPort = "QuestStart",
+            endQuest = "1759561835441932532",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264797",
+            startPort = "Out",
+            endQuest = "17595660208532489051",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264781",
+            startPort = "QuestStart",
+            endQuest = "17595660485592489673",
+            endPort = "In"
+          },
+          {
+            startQuest = "17595660485592489673",
+            startPort = "Out",
+            endQuest = "17595666382843111460",
+            endPort = "In"
+          },
+          {
+            startQuest = "17595672980115593620",
+            startPort = "Out",
+            endQuest = "175758259118241490466",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264796",
+            startPort = "Out",
+            endQuest = "175447630900011264795",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264796",
+            startPort = "Out",
+            endQuest = "17572547988271889906",
+            endPort = "In"
+          },
+          {
+            startQuest = "17595666382843111460",
+            startPort = "false",
+            endQuest = "17595672980115593620",
+            endPort = "In"
+          },
+          {
+            startQuest = "175447630900011264781",
+            startPort = "QuestStart",
+            endQuest = "175447630900011264796",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -255,7 +303,7 @@ return {
             key = "175447630900011264781",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 709.5, y = 210.25},
+            pos = {x = 602.6842105263158, y = 391.5131578947368},
             propsData = {ModeType = 0}
           },
           ["175447630900011264782"] = {
@@ -269,14 +317,14 @@ return {
             key = "175447630900011264783",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2098.015734265734, y = 1259.3074425574425},
+            pos = {x = 2668.015734265734, y = 1277.3074425574425},
             propsData = {}
           },
           ["175447630900011264791"] = {
             key = "175447630900011264791",
             type = "WaitingSpecialQuestFailNode",
             name = "等待特殊任务失败",
-            pos = {x = 1259.1193784930238, y = 747.7126997635128},
+            pos = {x = 1719.3035890193396, y = 870.8969102898286},
             propsData = {}
           },
           ["175447630900011264795"] = {
@@ -365,7 +413,7 @@ return {
             key = "175447630900011264796",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 1308.7937686252626, y = 272.96770560340036},
+            pos = {x = 1243.9961495776436, y = 416.96175322244795},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1240944,
@@ -500,8 +548,8 @@ return {
           ["1756195042920902"] = {
             key = "1756195042920902",
             type = "ChangeStaticCreatorNode",
-            name = "生成/销毁节点",
-            pos = {x = 1763.5595238095236, y = 240.1369047619047},
+            name = "生成塞维欧&两个过场强盗",
+            pos = {x = 1237.6706349206347, y = 242.41468253968247},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -519,7 +567,7 @@ return {
             key = "17561969572441263171",
             type = "TalkNode",
             name = "【Seq】大魔法师和蝴蝶",
-            pos = {x = 2012.4285714285713, y = 447.60714285714283},
+            pos = {x = 2009.095238095238, y = 435.94047619047615},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -560,8 +608,8 @@ return {
           ["17572546133451885675"] = {
             key = "17572546133451885675",
             type = "ExecuteBlueprintFunctionCheckVarNode",
-            name = "是否在阶段1",
-            pos = {x = 1253.2051145880093, y = -536.2116520521251},
+            name = "FeinaDay04Thief=1",
+            pos = {x = 1553.4140999760227, y = -810.2813675029149},
             propsData = {
               FunctionName = "Equal",
               VarName = "FeinaDay04Thief",
@@ -575,7 +623,7 @@ return {
             key = "17572546447581886409",
             type = "CreatePhantomNode",
             name = "召唤/销毁剧情魅影",
-            pos = {x = 1575.9630841810408, y = -595.0990417219517},
+            pos = {x = 1926.4691382292947, y = -766.742040666741},
             propsData = {
               IsCreate = true,
               IsClearOtherPhantom = false,
@@ -583,21 +631,11 @@ return {
               StaticCreatorIdList = {1241134}
             }
           },
-          ["17572547716941889118"] = {
-            key = "17572547716941889118",
-            type = "SetVarNode",
-            name = "设置变量值",
-            pos = {x = 1565.1828893758461, y = -733.4035389790806},
-            propsData = {
-              VarName = "FeinaDay04Thief",
-              VarValue = 2
-            }
-          },
           ["17572547988271889906"] = {
             key = "17572547988271889906",
             type = "ExecuteBlueprintFunctionCheckVarNode",
-            name = "是否在阶段1",
-            pos = {x = 2176.699561429283, y = -207.15296282888804},
+            name = "FeinaDay04Thief=2",
+            pos = {x = 1892.2710854934542, y = 1.735611831745473},
             propsData = {
               FunctionName = "Equal",
               VarName = "FeinaDay04Thief",
@@ -611,22 +649,12 @@ return {
             key = "17572548447121890703",
             type = "CreatePhantomNode",
             name = "召唤/销毁剧情魅影",
-            pos = {x = 2463.4772224937087, y = -120.19592236968363},
+            pos = {x = 2182.296968923749, y = 0.2634344499673489},
             propsData = {
               IsCreate = false,
               IsClearOtherPhantom = false,
               IsSync = false,
               StaticCreatorIdList = {1241134}
-            }
-          },
-          ["17572548551361891022"] = {
-            key = "17572548551361891022",
-            type = "SetVarNode",
-            name = "设置变量值",
-            pos = {x = 2464.4544633900673, y = -274.9486611943265},
-            propsData = {
-              VarName = "FeinaDay04Thief",
-              VarValue = 3
             }
           },
           ["17572549117881892082"] = {
@@ -635,7 +663,7 @@ return {
             name = "召唤/销毁剧情魅影",
             pos = {x = 2668.9233817266327, y = 202.31950023660556},
             propsData = {
-              IsCreate = false,
+              IsCreate = true,
               IsClearOtherPhantom = false,
               IsSync = false,
               StaticCreatorIdList = {1241135}
@@ -657,14 +685,14 @@ return {
             key = "175758255269641489401",
             type = "ChangeRoleNode",
             name = "切换角色",
-            pos = {x = 1363.8636686891998, y = -268.1434640643499},
+            pos = {x = 1234.318214143745, y = -473.2504159360077},
             propsData = {QuestRoleId = 10301002, IsPlayFX = false}
           },
           ["175758255269641489402"] = {
             key = "175758255269641489402",
             type = "CameraControlNode",
             name = "镜头控制节点",
-            pos = {x = 1362.9719611528826, y = -146.0359182148776},
+            pos = {x = 1233.4265066074279, y = -340.5546347924177},
             propsData = {
               Duration = 0,
               CameraName = "StoryEast01Nai01",
@@ -679,14 +707,14 @@ return {
             key = "175758255269641489403",
             type = "CameraControlClearNode",
             name = "镜头恢复",
-            pos = {x = 1647.555294486216, y = -153.11925154821088},
+            pos = {x = 1516.2451340584084, y = -342.34385047869216},
             propsData = {Duration = 4}
           },
           ["175758255269641489404"] = {
             key = "175758255269641489404",
             type = "ActivePlayerSkillsNode",
             name = "失效运动能力/小技能/攻击",
-            pos = {x = 1359.1293583222766, y = 13.07476289967365},
+            pos = {x = 1229.583903776822, y = -195.56160073669},
             propsData = {
               PlayerId = 0,
               bActiveEnable = false,
@@ -702,21 +730,21 @@ return {
             key = "175758259118241490466",
             type = "RestoreRoleNode",
             name = "恢复角色",
-            pos = {x = 1634.8788668411394, y = 882.6965929551903},
+            pos = {x = 2093.8788668411394, y = 884.1965929551903},
             propsData = {}
           },
           ["175758259118241490467"] = {
             key = "175758259118241490467",
             type = "CameraControlClearNode",
             name = "镜头恢复",
-            pos = {x = 1701.7996020012324, y = 1005.5501601290745},
+            pos = {x = 2160.7996020012324, y = 1007.0501601290745},
             propsData = {Duration = 0}
           },
           ["175758259118241490468"] = {
             key = "175758259118241490468",
             type = "ActivePlayerSkillsNode",
             name = "激活运动能力/小技能/攻击",
-            pos = {x = 1788.154687066255, y = 1147.83452272995},
+            pos = {x = 2247.154687066255, y = 1149.33452272995},
             propsData = {
               PlayerId = 0,
               bActiveEnable = true,
@@ -757,31 +785,137 @@ return {
             name = "镜头恢复",
             pos = {x = 3348.9403834040068, y = 415.51405225849203},
             propsData = {Duration = 3}
+          },
+          ["1759561835441932532"] = {
+            key = "1759561835441932532",
+            type = "ChangeStaticCreatorNode",
+            name = "生成强盗三人组",
+            pos = {x = 1236.4603174603176, y = 95.31746031746032},
+            propsData = {
+              ActiveEnable = true,
+              EnableBlackScreenSync = false,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {
+                1241148,
+                1241096,
+                1241098
+              }
+            }
+          },
+          ["17595624411851557155"] = {
+            key = "17595624411851557155",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 1918.2209142874735, y = -933.7121126573879},
+            propsData = {
+              VarName = "FeinaDay04Thief",
+              VarValue = 2
+            }
+          },
+          ["17595627231421560066"] = {
+            key = "17595627231421560066",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 2179.0564485909676, y = -126.47918446362691},
+            propsData = {
+              VarName = "FeinaDay04Thief",
+              VarValue = 3
+            }
+          },
+          ["17595644543432181192"] = {
+            key = "17595644543432181192",
+            type = "WaitOfTimeNode",
+            name = "延迟等待",
+            pos = {x = 1276.0013563518041, y = -805.6162658952303},
+            propsData = {WaitTime = 0.5}
+          },
+          ["17595646187093423433"] = {
+            key = "17595646187093423433",
+            type = "ChangeStaticCreatorNode",
+            name = "销毁强盗三人组",
+            pos = {x = 2672.8221115476376, y = 41.417248365454384},
+            propsData = {
+              ActiveEnable = false,
+              EnableBlackScreenSync = false,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {
+                1241148,
+                1241096,
+                1241098
+              }
+            }
+          },
+          ["17595660208532489051"] = {
+            key = "17595660208532489051",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 2664.6688596491226, y = -149.0833333333328},
+            propsData = {
+              VarName = "FeinaDay04Thief",
+              VarValue = 4
+            }
+          },
+          ["17595660485592489673"] = {
+            key = "17595660485592489673",
+            type = "GoToNode",
+            name = "前往",
+            pos = {x = 1014.7862990810358, y = 1147.527109440268},
+            propsData = {
+              GuideUIEnable = false,
+              StaticCreatorId = 1241173,
+              GuideType = "M",
+              GuidePointName = ""
+            }
+          },
+          ["17595666382843111460"] = {
+            key = "17595666382843111460",
+            type = "ExecuteBlueprintFunctionCheckVarNode",
+            name = "FeinaDay04Thief=4",
+            pos = {x = 1258.1915622389306, y = 1150.8797410192153},
+            propsData = {
+              FunctionName = "Equal",
+              VarName = "FeinaDay04Thief",
+              Duration = 0,
+              VarInfos = {
+                {VarName = "Value", VarValue = "4"}
+              }
+            }
+          },
+          ["17595672980115593620"] = {
+            key = "17595672980115593620",
+            type = "SpecialQuestFailNode",
+            name = "特殊任务主动失败",
+            pos = {x = 1715.6948289842253, y = 1165.0240171507207},
+            propsData = {}
           }
         },
         commentData = {
           ["175758251280841488506"] = {
             key = "175758251280841488506",
             name = "Input Commment...",
-            position = {x = 1186, y = -816.5},
-            size = {width = 664.5, height = 445.5}
+            position = {x = 1168.2727272727273, y = -1027.8636363636365},
+            size = {width = 1081.278110288404, height = 444.6285102152749}
           },
           ["175758252136541488797"] = {
             key = "175758252136541488797",
             name = "Input Commment...",
-            position = {x = 2131.117051678971, y = -355.28526633325396},
-            size = {width = 600, height = 400}
+            position = {x = 1846.688575743142, y = -185.76320750972457},
+            size = {width = 694.3696147591658, height = 441.7560225378339}
           },
           ["175758256473541489824"] = {
             key = "175758256473541489824",
-            name = "Input Commment...",
-            position = {x = 1299.1756597375795, y = -339.20101724900485},
+            name = "",
+            position = {x = 1169.6302051921248, y = -547.8373808853685},
             size = {width = 633.3333333333334, height = 473.33333333333337}
           },
           ["175758259709641490688"] = {
             key = "175758259709641490688",
             name = "Input Commment...",
-            position = {x = 1576.1321615690817, y = 791.4194039964163},
+            position = {x = 2035.1321615690817, y = 792.9194039964163},
             size = {width = 463.8461538461538, height = 530.7692307692306}
           },
           ["175758261131641491166"] = {
@@ -789,6 +923,12 @@ return {
             name = "Input Commment...",
             position = {x = 3279.01815058007, y = 297.174898501911},
             size = {width = 761.538461538462, height = 433.8461538461538}
+          },
+          ["17595666790763112479"] = {
+            key = "17595666790763112479",
+            name = "QuestFail",
+            position = {x = 971.4791857093714, y = 1045.9453830655077},
+            size = {width = 569.0546623475684, height = 285.29273942431814}
           }
         }
       }

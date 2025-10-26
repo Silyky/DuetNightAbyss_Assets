@@ -94,12 +94,6 @@ return {
             endPort = "Fail"
           },
           {
-            startQuest = "1742873000169523286",
-            startPort = "Out",
-            endQuest = "17399495097694325",
-            endPort = "In"
-          },
-          {
             startQuest = "1742873003456523442",
             startPort = "Out",
             endQuest = "1739518372244771534",
@@ -109,12 +103,6 @@ return {
             startQuest = "1742873017334524025",
             startPort = "Out",
             endQuest = "1735872982240701756",
-            endPort = "In"
-          },
-          {
-            startQuest = "1742873000169523286",
-            startPort = "Out",
-            endQuest = "17441202548681907",
             endPort = "In"
           },
           {
@@ -256,15 +244,27 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1742873000169523286",
+            startQuest = "17568907090621126",
+            startPort = "Out",
+            endQuest = "1735872982240701755",
+            endPort = "In"
+          },
+          {
+            startQuest = "17441890617704561",
             startPort = "Out",
             endQuest = "17568907090621126",
             endPort = "In"
           },
           {
-            startQuest = "17568907090621126",
+            startQuest = "17441890617704561",
             startPort = "Out",
-            endQuest = "1735872982240701755",
+            endQuest = "17399495097694325",
+            endPort = "In"
+          },
+          {
+            startQuest = "17441890617704561",
+            startPort = "Out",
+            endQuest = "17441202548681907",
             endPort = "In"
           }
         },
@@ -560,7 +560,7 @@ return {
             key = "1742873000169523286",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = -3662.6666666666665, y = 110.83333333333334},
+            pos = {x = -3712.6666666666665, y = 24.833333333333414},
             propsData = {
               NewDescription = "QuestName_1003plus33",
               NewDetail = "QuestDesc_1003plus33",

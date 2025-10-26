@@ -686,7 +686,8 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/A_Common/NS_ParkourStunHammer.NS_ParkourStunHammer",
     PlayLocation = {
       socket = "root"
-    }
+    },
+    SoundID = 221
   },
   [251] = {
     EffectId = 251,
@@ -2996,7 +2997,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_heiyao_buff.NS_heiyao_buff",
     FXPriorityType = 90,
     PlayLocation = {
-      socket = "Root"
+      socket = "Root_Effect"
     }
   },
   [4221] = {
@@ -3014,7 +3015,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Jinqing_Buff.NS_Jinqing_Buff",
     FXPriorityType = 90,
     PlayLocation = {
-      socket = "Root"
+      socket = "Root_Effect"
     }
   },
   [4231] = {
@@ -3032,7 +3033,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_Manao_Buff.NS_Manao_Buff",
     FXPriorityType = 90,
     PlayLocation = {
-      socket = "Root"
+      socket = "Root_Effect"
     }
   },
   [4241] = {
@@ -3050,7 +3051,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_zijing_buff.NS_zijing_buff",
     FXPriorityType = 90,
     PlayLocation = {
-      socket = "Root"
+      socket = "Root_Effect"
     }
   },
   [4251] = {
@@ -3068,7 +3069,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_bixi_buff.NS_bixi_buff",
     FXPriorityType = 90,
     PlayLocation = {
-      socket = "Root"
+      socket = "Root_Effect"
     }
   },
   [4261] = {
@@ -3086,7 +3087,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Pet/NS_oubo_buff.NS_oubo_buff",
     FXPriorityType = 90,
     PlayLocation = {
-      socket = "Root"
+      socket = "Root_Effect"
     }
   },
   [4911] = {
@@ -4174,7 +4175,6 @@ return ReadOnly("VisualEffect", {
     DeactiveParam = "DeadTime",
     DelayDeactiveTime = 2,
     EffectId = 150303,
-    EffectPath = "/Game/Asset/Effect/Niagara/Player/Kezhou/NS_Kezhou_Skill01_Buff.NS_Kezhou_Skill01_Buff",
     FXPriorityType = 90
   },
   [150304] = {
@@ -4219,7 +4219,6 @@ return ReadOnly("VisualEffect", {
     DeactiveParam = "DeadTime",
     DelayDeactiveTime = 2,
     EffectId = 150308,
-    EffectPath = "/Game/Asset/Effect/Niagara/Player/Kezhou/NS_Kezhou_WeaponFX.NS_Kezhou_WeaponFX",
     FXPriorityType = 90
   },
   [150309] = {
@@ -4576,7 +4575,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Shuimu/NS_Shuimu_Debuff_Spread.NS_Shuimu_Debuff_Spread",
     FXPriorityType = 90,
     NotFollowRotation = true,
-    SoundID = 210102
+    SoundID = 210104
   },
   [210102] = {
     EffectId = 210102,
@@ -5218,7 +5217,6 @@ return ReadOnly("VisualEffect", {
   },
   [310312] = {
     EffectId = 310312,
-    EffectPath = "/Game/Asset/Effect/Niagara/Player/Yeer/NS_Yeer_bomb.NS_Yeer_bomb",
     FXPriorityType = 90,
     PlayLocation = {
       socket = "Root"
@@ -5244,6 +5242,13 @@ return ReadOnly("VisualEffect", {
   },
   [320102] = {
     EffectId = 320102,
+    EffectParam = {
+      Rotation = {
+        0,
+        -90,
+        0
+      }
+    },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Haier/NS_Haier_Fire.NS_Haier_Fire",
     FXPriorityType = 90,
     PlayLocation = {
@@ -5322,7 +5327,8 @@ return ReadOnly("VisualEffect", {
     NotBlocking = true,
     PlayLocation = {
       socket = "Root"
-    }
+    },
+    SoundID = 320103
   },
   [320202] = {
     EffectId = 320202,
@@ -5509,7 +5515,7 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Lise/NS_lise_buff_tuowei.NS_lise_buff_tuowei",
     FXPriorityType = 90,
     PlayLocation = {
-      socket = "spine_01"
+      socket = "Root_Effect"
     }
   },
   [410130] = {
@@ -10214,6 +10220,22 @@ return ReadOnly("VisualEffect", {
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Player/Maer/NS_Maer_Skill02_Ground.NS_Maer_Skill02_Ground"
   },
+  [900073] = {
+    EffectId = 900073,
+    EffectParam = {
+      Rotation = {
+        0,
+        90,
+        0
+      }
+    },
+    EffectPath = "/Game/Asset/Effect/Niagara/Weapon/Cannon/NS_Chixing_Explode.NS_Chixing_Explode",
+    FXPriorityType = 90,
+    PlayLocation = {
+      socket = "root"
+    },
+    SoundID = 900000001
+  },
   [900201] = {
     EffectId = 900201,
     EffectPath = "/Game/Asset/Effect/Niagara/Monster/Gr/NS_Gr_Youji_Attack01_Bullet.NS_Gr_Youji_Attack01_Bullet"
@@ -12160,6 +12182,22 @@ return ReadOnly("VisualEffect", {
     FXPriorityType = 90,
     SoundID = 10105202
   },
+  [10105103] = {
+    EffectColor = {
+      0.396,
+      0.99,
+      1,
+      1
+    },
+    EffectId = 10105103,
+    EffectMaxNum = 8,
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_dark.NS_hit_char_dark",
+    FXPriorityType = 45,
+    IsHitFX = true,
+    PlayLocation = {
+      socket = "Root"
+    }
+  },
   [10105203] = {
     DeactiveParam = "Deactive",
     DelayDeactiveTime = 1.5,
@@ -12218,20 +12256,20 @@ return ReadOnly("VisualEffect", {
     SoundID = 10105203
   },
   [10105902] = {
-    DeactiveParam = "DeadTime",
-    DelayDeactiveTime = 0.5,
-    EffectId = 10105902,
-    EffectParam = {
-      scale = {
-        4,
-        4,
-        4
-      }
+    EffectColor = {
+      0.818,
+      0.818,
+      0.13,
+      1
     },
-    EffectPath = "/Game/Asset/Effect/Niagara/Roguelike/NS_Rou_105_Wind.NS_Rou_105_Wind",
-    FXPriorityType = 70,
-    NotFollowRotation = true,
-    SoundID = 10105203
+    EffectId = 10105902,
+    EffectMaxNum = 8,
+    EffectPath = "/Game/Asset/Effect/Niagara/Common/Player/NS_hit_char_dark.NS_hit_char_dark",
+    FXPriorityType = 45,
+    IsHitFX = true,
+    PlayLocation = {
+      socket = "Root"
+    }
   },
   [10106101] = {
     DeactiveParam = "DeadTime",
@@ -12521,6 +12559,11 @@ return ReadOnly("VisualEffect", {
     DelayDeactiveTime = 2,
     EffectId = 20131001,
     EffectParam = {
+      Location = {
+        0,
+        0,
+        200
+      },
       scale = {
         3,
         3,

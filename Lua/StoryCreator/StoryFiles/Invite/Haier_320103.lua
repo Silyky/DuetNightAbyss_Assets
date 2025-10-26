@@ -94,7 +94,19 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17503210771921275167",
+            startPort = "QuestStart",
+            endQuest = "176008100733412439287",
+            endPort = "In"
+          },
+          {
             startQuest = "1752050026115490",
+            startPort = "Out",
+            endQuest = "176008103406612439826",
+            endPort = "In"
+          },
+          {
+            startQuest = "176008103406612439826",
             startPort = "Out",
             endQuest = "17503210771921275168",
             endPort = "Success"
@@ -112,7 +124,7 @@ return {
             key = "17503210771921275168",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1606.7399911502348, y = 297.73968462812275},
+            pos = {x = 1802.9899911502348, y = 297.73968462812275},
             propsData = {ModeType = 0}
           },
           ["17503210771921275169"] = {
@@ -126,7 +138,7 @@ return {
             key = "17503210771921275170",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 758.6516424751705, y = 275.99522536287265},
+            pos = {x = 687.4016424751705, y = 279.74522536287265},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80160301,
@@ -184,7 +196,7 @@ return {
             key = "1752050024188448",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1044, y = 278.00000000000006},
+            pos = {x = 965.25, y = 279.25000000000006},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80160345,
@@ -215,7 +227,7 @@ return {
             key = "1752050026115490",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1324, y = 278.00000000000006},
+            pos = {x = 1244, y = 278.00000000000006},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80160349,
@@ -267,6 +279,33 @@ return {
               SwitchToMaster = "None",
               NormalOptions = {},
               OverrideFailBlend = false
+            }
+          },
+          ["176008100733412439287"] = {
+            key = "176008100733412439287",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 725.3333333333333, y = 127.79131652661059},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0018_scene_iceground",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["176008103406612439826"] = {
+            key = "176008103406612439826",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1526.5833333333335, y = 294.0413165266106},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

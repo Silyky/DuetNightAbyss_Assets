@@ -112,12 +112,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17422085446106240911",
-            startPort = "Out",
-            endQuest = "1742201391512269",
-            endPort = "Success"
-          },
-          {
             startQuest = "17426212030085275",
             startPort = "Out",
             endQuest = "17424865707381047203",
@@ -152,6 +146,24 @@ return {
             startPort = "Out",
             endQuest = "1742201391512265",
             endPort = "In"
+          },
+          {
+            startQuest = "17426212030085275",
+            startPort = "Out",
+            endQuest = "17601720579201246281",
+            endPort = "In"
+          },
+          {
+            startQuest = "17422085446106240911",
+            startPort = "Out",
+            endQuest = "17601720677451246484",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601720677451246484",
+            startPort = "Out",
+            endQuest = "1742201391512269",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -177,7 +189,7 @@ return {
             key = "1742201391512269",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 974.9563492063495, y = 1028.8253968253969},
+            pos = {x = 1323.1706349206354, y = 1026.6825396825398},
             propsData = {ModeType = 0}
           },
           ["1742201391512270"] = {
@@ -270,7 +282,7 @@ return {
                 },
                 {
                   TalkActorType = "Npc",
-                  TalkActorId = 790025,
+                  TalkActorId = 790029,
                   TalkActorVisible = true
                 }
               },
@@ -278,7 +290,7 @@ return {
                 {TalkActorType = "Npc", TalkActorId = 790026},
                 {TalkActorType = "Player", TalkActorId = 0},
                 {TalkActorType = "Npc", TalkActorId = 790027},
-                {TalkActorType = "Npc", TalkActorId = 790025}
+                {TalkActorType = "Npc", TalkActorId = 790029}
               },
               OptionType = "normal",
               FreezeWorldComposition = true,
@@ -509,6 +521,33 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
+            }
+          },
+          ["17601720579201246281"] = {
+            key = "17601720579201246281",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 230.48983957219238, y = 1219.8020435446908},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt02/0040_story_enlike_death",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["17601720677451246484"] = {
+            key = "17601720677451246484",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1000.4898395721925, y = 1031.2306149732622},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

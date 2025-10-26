@@ -434,6 +434,48 @@ return {
             startPort = "Option_2",
             endQuest = "17566972987321904906",
             endPort = "In"
+          },
+          {
+            startQuest = "1730188683018202058",
+            startPort = "Out",
+            endQuest = "17283914455534287",
+            endPort = "Stop"
+          },
+          {
+            startQuest = "1730189069737206863",
+            startPort = "Out",
+            endQuest = "17283914455534287",
+            endPort = "Stop"
+          },
+          {
+            startQuest = "1730112721501774617",
+            startPort = "Out",
+            endQuest = "17601628786941495",
+            endPort = "Input_1"
+          },
+          {
+            startQuest = "1730188810760204286",
+            startPort = "Out",
+            endQuest = "17601628786941495",
+            endPort = "Input_2"
+          },
+          {
+            startQuest = "1730188809592204243",
+            startPort = "Out",
+            endQuest = "17601628786941495",
+            endPort = "Input_3"
+          },
+          {
+            startQuest = "17601628786941495",
+            startPort = "Out",
+            endQuest = "1730188683018202058",
+            endPort = "Stop"
+          },
+          {
+            startQuest = "1730188683018202058",
+            startPort = "Out",
+            endQuest = "1730189069737206863",
+            endPort = "Stop"
           }
         },
         nodeData = {
@@ -448,14 +490,14 @@ return {
             key = "1728391157787453",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 3861.634782608696, y = 388.4347826086957},
+            pos = {x = 4517.634782608696, y = 404.4347826086957},
             propsData = {ModeType = 0}
           },
           ["1728391157787460"] = {
             key = "1728391157787460",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 3813.373913043478, y = 673.6521739130434},
+            pos = {x = 4469.373913043478, y = 689.6521739130434},
             propsData = {}
           },
           ["17283911813281186"] = {
@@ -544,7 +586,7 @@ return {
             key = "17283915532677012",
             type = "TalkNode",
             name = "正常对话",
-            pos = {x = 3266.713781299914, y = 142.7065813219403},
+            pos = {x = 3891.213781299914, y = 292.2065813219403},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -596,7 +638,7 @@ return {
             key = "17283915806647605",
             type = "DynamicQuestSuccessNode",
             name = "动态任务主动成功",
-            pos = {x = 3577.8365501786316, y = 253.92536196921054},
+            pos = {x = 4233.836550178632, y = 269.92536196921054},
             propsData = {
               DialogueId = 0,
               UseTalkFadeOut = false,
@@ -607,7 +649,7 @@ return {
             key = "17283915836417756",
             type = "DynamicQuestSuccessNode",
             name = "动态任务主动成功",
-            pos = {x = 3570.535062764445, y = 543.1551102529634},
+            pos = {x = 4226.535062764445, y = 559.1551102529634},
             propsData = {
               DialogueId = 0,
               UseTalkFadeOut = false,
@@ -663,13 +705,6 @@ return {
               }
             }
           },
-          ["17301018551141678"] = {
-            key = "17301018551141678",
-            type = "WaitQuestFinishedNode",
-            name = "等待任务完成",
-            pos = {x = 3111.9706766917284, y = 1936.5244360902257},
-            propsData = {ListenCount = 2, NeedFinishCount = 2}
-          },
           ["1730112721501774617"] = {
             key = "1730112721501774617",
             type = "ListenActorDestroyNode",
@@ -681,7 +716,7 @@ return {
             key = "17301128548571162267",
             type = "WaitQuestFinishedNode",
             name = "等待任务完成",
-            pos = {x = 2994.3432494279177, y = 771.370823798627},
+            pos = {x = 3120.3432494279177, y = 1161.370823798627},
             propsData = {ListenCount = 2, NeedFinishCount = 2}
           },
           ["1730188523690199787"] = {
@@ -695,7 +730,7 @@ return {
             key = "1730188683018202058",
             type = "WaitQuestFinishedNode",
             name = "矿石群全部破碎",
-            pos = {x = 2894.374043805164, y = 105.90031055900641},
+            pos = {x = 3332.6817361128565, y = 291.70800286669873},
             propsData = {ListenCount = 3, NeedFinishCount = 3}
           },
           ["1730188753156202751"] = {
@@ -723,28 +758,28 @@ return {
             key = "1730188815804204456",
             type = "WaitQuestFinishedNode",
             name = "等待任务完成",
-            pos = {x = 3016.8119320039223, y = 1072.0338509316773},
+            pos = {x = 3142.8119320039223, y = 1462.0338509316773},
             propsData = {ListenCount = 2, NeedFinishCount = 2}
           },
           ["1730188822225204698"] = {
             key = "1730188822225204698",
             type = "WaitQuestFinishedNode",
             name = "等待任务完成",
-            pos = {x = 2983.954789146779, y = 1472.2719461697727},
+            pos = {x = 3125.954789146779, y = 1726.2719461697727},
             propsData = {ListenCount = 2, NeedFinishCount = 2}
           },
           ["1730189069737206863"] = {
             key = "1730189069737206863",
             type = "WaitQuestFinishedNode",
             name = "全部通过落石使矿石破碎",
-            pos = {x = 3544.5126586228425, y = 1057.3631296621006},
+            pos = {x = 3708.5126586228425, y = 1026.8631296621006},
             propsData = {ListenCount = 3, NeedFinishCount = 3}
           },
           ["1730189092375207466"] = {
             key = "1730189092375207466",
             type = "TalkNode",
             name = "落石对话",
-            pos = {x = 3542.3387455793645, y = 818.6674774881876},
+            pos = {x = 3901.3387455793645, y = 564.6674774881876},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -1067,7 +1102,7 @@ return {
             key = "17442004936251093634",
             type = "SwitchMechanismStateNode",
             name = "切换机关状态",
-            pos = {x = 2518.3142857142857, y = -153.80000000000007},
+            pos = {x = 2519.980952380952, y = -152.1333333333334},
             propsData = {
               StaticCreatorIdList = {1440173},
               ManualItemIdList = {},
@@ -1100,6 +1135,13 @@ return {
             name = "动态任务主动失败",
             pos = {x = 1547.4657827870074, y = 643.9982094564474},
             propsData = {UseTalkFadeOut = false, TalkFadeOutTime = 0}
+          },
+          ["17601628786941495"] = {
+            key = "17601628786941495",
+            type = "WaitQuestFinishedNode",
+            name = "等待任务完成",
+            pos = {x = 3121.690540129095, y = 1946.9224789915966},
+            propsData = {ListenCount = 3, NeedFinishCount = 3}
           }
         },
         commentData = {}

@@ -286,5 +286,115 @@ return ReadOnly("AbyssRewardList", {
     Level = 62,
     Reward = 48003,
     RewardAddOn = 2
+  },
+  [101201] = {
+    ItemID = 101201,
+    Level = 2,
+    Reward = 46016,
+    WalnutReward = true
+  },
+  [101202] = {
+    ItemID = 101202,
+    Level = 4,
+    Reward = 46017,
+    WalnutReward = true
+  },
+  [101203] = {
+    ItemID = 101203,
+    Level = 6,
+    Reward = 46018,
+    WalnutReward = true
+  },
+  [101204] = {
+    ItemID = 101204,
+    Level = 8,
+    Reward = 46019,
+    WalnutReward = true
+  },
+  [101205] = {
+    ItemID = 101205,
+    Level = 10,
+    Reward = 46020,
+    WalnutReward = true
+  },
+  [101206] = {
+    ItemID = 101206,
+    Level = 12,
+    Reward = 46021,
+    WalnutReward = true
+  },
+  [101207] = {
+    ItemID = 101207,
+    Level = 14,
+    Reward = 46022,
+    WalnutReward = true
+  },
+  [101208] = {
+    ItemID = 101208,
+    Level = 16,
+    Reward = 46023,
+    WalnutReward = true
+  },
+  [101209] = {
+    ItemID = 101209,
+    Level = 18,
+    Reward = 46024,
+    WalnutReward = true
+  },
+  [101210] = {
+    ItemID = 101210,
+    Level = 20,
+    Reward = 46025,
+    WalnutReward = true
+  },
+  [101211] = {
+    ItemID = 101211,
+    Level = 22,
+    Reward = 46026,
+    WalnutReward = true
+  },
+  [101212] = {
+    ItemID = 101212,
+    Level = 24,
+    Reward = 46027,
+    WalnutReward = true
+  },
+  [101213] = {
+    ItemID = 101213,
+    Level = 26,
+    Reward = 46028,
+    WalnutReward = true
+  },
+  [101214] = {
+    ItemID = 101214,
+    Level = 28,
+    Reward = 46029,
+    WalnutReward = true
+  },
+  [101215] = {
+    ItemID = 101215,
+    Level = 30,
+    Reward = 46030,
+    WalnutReward = true
+  },
+  [101301] = {
+    ItemID = 101301,
+    Level = 10,
+    Reward = 48004,
+    RewardAddOn = 10,
+    WalnutReward = true
+  },
+  [101302] = {
+    ItemID = 101302,
+    Level = 35,
+    Reward = 48005,
+    RewardAddOn = 5,
+    WalnutReward = true
+  },
+  [101303] = {
+    ItemID = 101303,
+    Level = 62,
+    Reward = 48006,
+    RewardAddOn = 2
   }
 })

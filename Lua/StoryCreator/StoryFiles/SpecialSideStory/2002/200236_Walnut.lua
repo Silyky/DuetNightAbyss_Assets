@@ -11,6 +11,30 @@ return {
     {
       startStory = "1756970626911131",
       startPort = "Success",
+      endStory = "1759027391059311649",
+      endPort = "In"
+    },
+    {
+      startStory = "1759027391059311649",
+      startPort = "未合成",
+      endStory = "1756970728690606",
+      endPort = "In"
+    },
+    {
+      startStory = "1759027391059311649",
+      startPort = "已合成",
+      endStory = "1759027518896313758",
+      endPort = "In"
+    },
+    {
+      startStory = "1759027518896313758",
+      startPort = "Success",
+      endStory = "17569706136535",
+      endPort = "StoryEnd"
+    },
+    {
+      startStory = "1756970728690606",
+      startPort = "Success",
       endStory = "17569706136535",
       endPort = "StoryEnd"
     }
@@ -34,7 +58,7 @@ return {
       key = "17569706136535",
       type = "StoryEndNode",
       name = "StoryEnd",
-      pos = {x = 1476, y = 302},
+      pos = {x = 2412.85714988968, y = 319.99999963669546},
       propsData = {},
       questNodeData = {
         lineData = {},
@@ -47,7 +71,7 @@ return {
       key = "1756970626911131",
       type = "GameModeCompleteNode",
       name = "完成目标",
-      pos = {x = 1134, y = 296},
+      pos = {x = 1134, y = 294.5714285973789},
       propsData = {
         QuestId = 20023601,
         QuestDescriptionComment = "完成委托密函",
@@ -80,7 +104,7 @@ return {
       key = "1756970728690606",
       type = "GameModeCompleteNode",
       name = "完成目标",
-      pos = {x = 1618, y = -42},
+      pos = {x = 1873.7142872453546, y = 503.7142823407439},
       propsData = {
         QuestId = 20023602,
         QuestDescriptionComment = "合成松露",
@@ -105,6 +129,171 @@ return {
       questNodeData = {
         lineData = {},
         nodeData = {},
+        commentData = {}
+      }
+    },
+    ["1759027391059311649"] = {
+      isStoryNode = true,
+      key = "1759027391059311649",
+      type = "StoryNode",
+      name = "任务节点",
+      pos = {x = 1478.5714327753808, y = 298.2857232904757},
+      propsData = {
+        QuestId = 20023603,
+        QuestDescriptionComment = "",
+        QuestDescription = "Description_200236_1",
+        QuestDeatil = "Content_200236_1",
+        TaskRegionReName = "UI_REGION_NAME_2101",
+        TaskSubRegionReName = "UI_SUBREGION_NAME_210101",
+        RecommendLevel = -1,
+        bIsStartQuest = false,
+        bIsEndQuest = false,
+        bIsNotifyGameMode = true,
+        bIsStartChapter = false,
+        bIsEndChapter = false,
+        bIsShowOnComplete = true,
+        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnFail = false,
+        bIsDynamicEvent = false,
+        ResurgencePoint = "",
+        bUseQuestCoordinate = false,
+        bDeadTriggerQuestFail = false,
+        IsFairyLand = false,
+        SubRegionId = 0,
+        StoryGuideType = "Point",
+        StoryGuidePointName = ""
+      },
+      questNodeData = {
+        lineData = {
+          {
+            startQuest = "1759027391059311650",
+            startPort = "QuestStart",
+            endQuest = "1759027437493312730",
+            endPort = "In"
+          },
+          {
+            startQuest = "1759027437493312730",
+            startPort = "Success",
+            endQuest = "1759027487200312995",
+            endPort = "In"
+          },
+          {
+            startQuest = "1759027437493312730",
+            startPort = "Fail",
+            endQuest = "1759027498720313257",
+            endPort = "In"
+          }
+        },
+        nodeData = {
+          ["1759027391059311650"] = {
+            key = "1759027391059311650",
+            type = "QuestStartNode",
+            name = "QuestStart",
+            pos = {x = 800, y = 300},
+            propsData = {ModeType = 0}
+          },
+          ["1759027391059311653"] = {
+            key = "1759027391059311653",
+            type = "QuestSuccessNode",
+            name = "QuestSuccess",
+            pos = {x = 2800, y = 300},
+            propsData = {ModeType = 0}
+          },
+          ["1759027391059311656"] = {
+            key = "1759027391059311656",
+            type = "QuestFailNode",
+            name = "QuestFail",
+            pos = {x = 2800, y = 700},
+            propsData = {}
+          },
+          ["1759027437493312730"] = {
+            key = "1759027437493312730",
+            type = "ConditionNode",
+            name = "条件节点",
+            pos = {x = 1264, y = 294},
+            propsData = {ConditionId = 20023600}
+          },
+          ["1759027487200312995"] = {
+            key = "1759027487200312995",
+            type = "QuestConditionNode",
+            name = "QuestCondition",
+            pos = {x = 1842, y = 182},
+            propsData = {PortName = "已合成"}
+          },
+          ["1759027498720313257"] = {
+            key = "1759027498720313257",
+            type = "QuestConditionNode",
+            name = "QuestCondition",
+            pos = {x = 1806, y = 536},
+            propsData = {PortName = "未合成"}
+          }
+        },
+        commentData = {}
+      }
+    },
+    ["1759027518896313758"] = {
+      isStoryNode = true,
+      key = "1759027518896313758",
+      type = "StoryNode",
+      name = "任务节点",
+      pos = {x = 1894.285710938123, y = 205.42858212010367},
+      propsData = {
+        QuestId = 20023604,
+        QuestDescriptionComment = "",
+        QuestDescription = "Description_200236_2",
+        QuestDeatil = "Content_200236_2",
+        TaskRegionReName = "UI_REGION_NAME_2101",
+        TaskSubRegionReName = "UI_SUBREGION_NAME_210101",
+        RecommendLevel = -1,
+        bIsStartQuest = false,
+        bIsEndQuest = true,
+        bIsNotifyGameMode = true,
+        bIsStartChapter = false,
+        bIsEndChapter = false,
+        bIsShowOnComplete = true,
+        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnFail = false,
+        bIsDynamicEvent = false,
+        ResurgencePoint = "",
+        bUseQuestCoordinate = false,
+        bDeadTriggerQuestFail = false,
+        IsFairyLand = false,
+        SubRegionId = 0,
+        StoryGuideType = "Point",
+        StoryGuidePointName = ""
+      },
+      questNodeData = {
+        lineData = {
+          {
+            startQuest = "1759027518896313759",
+            startPort = "QuestStart",
+            endQuest = "1759027518896313762",
+            endPort = "Success"
+          }
+        },
+        nodeData = {
+          ["1759027518896313759"] = {
+            key = "1759027518896313759",
+            type = "QuestStartNode",
+            name = "QuestStart",
+            pos = {x = 800, y = 300},
+            propsData = {ModeType = 0}
+          },
+          ["1759027518896313762"] = {
+            key = "1759027518896313762",
+            type = "QuestSuccessNode",
+            name = "QuestSuccess",
+            pos = {x = 1244, y = 298},
+            propsData = {ModeType = 0}
+          },
+          ["1759027518896313765"] = {
+            key = "1759027518896313765",
+            type = "QuestFailNode",
+            name = "QuestFail",
+            pos = {x = 2800, y = 700},
+            propsData = {}
+          }
+        },
         commentData = {}
       }
     }

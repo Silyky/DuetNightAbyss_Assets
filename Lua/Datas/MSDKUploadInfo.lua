@@ -29,7 +29,8 @@ return ReadOnly("MSDKUploadInfo", {
   },
   anime_end = {EventName = "anime_end"},
   anime_start = {
-    EventName = "anime_start"
+    EventName = "anime_start",
+    QuestSuccess = 10010102
   },
   backpack_active = {
     ConditionUnlock = 4010,
@@ -44,7 +45,7 @@ return ReadOnly("MSDKUploadInfo", {
   },
   chapter1_1_start = {
     EventName = "chapter1_1_start",
-    QuestSuccess = 10020101
+    QuestSuccess = 10010308
   },
   chapter1_2_end = {
     ConditionUnlock = 20010104,

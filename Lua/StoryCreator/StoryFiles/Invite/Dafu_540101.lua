@@ -76,12 +76,6 @@ return {
       questNodeData = {
         lineData = {
           {
-            startQuest = "1750407826687324597",
-            startPort = "Out",
-            endQuest = "17485895692412378024",
-            endPort = "Success"
-          },
-          {
             startQuest = "17485895692412378021",
             startPort = "QuestStart",
             endQuest = "17528091580996737669",
@@ -104,6 +98,24 @@ return {
             startPort = "Out",
             endQuest = "1750407826687324597",
             endPort = "In"
+          },
+          {
+            startQuest = "17528091580996737670",
+            startPort = "Out",
+            endQuest = "17600798070921869320",
+            endPort = "In"
+          },
+          {
+            startQuest = "1750407826687324597",
+            startPort = "Out",
+            endQuest = "17600798369941869768",
+            endPort = "In"
+          },
+          {
+            startQuest = "17600798369941869768",
+            startPort = "Out",
+            endQuest = "17485895692412378024",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -118,7 +130,7 @@ return {
             key = "17485895692412378024",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2034, y = 310},
+            pos = {x = 2220, y = 306},
             propsData = {ModeType = 0}
           },
           ["17485895692412378027"] = {
@@ -144,7 +156,7 @@ return {
             key = "1750407826687324597",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1604, y = 296},
+            pos = {x = 1554, y = 308},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80180101,
@@ -230,6 +242,33 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
+            }
+          },
+          ["17600798070921869320"] = {
+            key = "17600798070921869320",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1556, y = 494.0000000000001},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0036_story_renweidaozu",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["17600798369941869768"] = {
+            key = "17600798369941869768",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1876, y = 312},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

@@ -32,6 +32,173 @@ return ReadOnly("ReddotNode", {
   AchieveMain = {
     Name = "AchieveMain"
   },
+  Acti_Abyss01 = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_Abyss01",
+    NodeModuleName = "Activity.Abyss",
+    Type = 0
+  },
+  Acti_Abyss02 = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_Abyss02",
+    NodeModuleName = "Activity.Abyss",
+    Type = 0
+  },
+  Acti_BetaAward = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_BetaAward",
+    NodeModuleName = "Activity.ConditionReward",
+    Type = 0
+  },
+  Acti_ChallengeLevel = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_ChallengeLevel",
+    NodeModuleName = "Activity.ChallengeLevel",
+    Type = 0
+  },
+  Acti_Community = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_Community",
+    NodeModuleName = "Activity.Community",
+    Type = 0
+  },
+  Acti_FeinaEvent = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_FeinaEvent",
+    NodeModuleName = "Activity.FeinaEvent",
+    Type = 0
+  },
+  Acti_GiveAoge = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_GiveAoge",
+    NodeModuleName = "Activity.ActivityBase",
+    Type = 0
+  },
+  Acti_GiveBaonu = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_GiveBaonu",
+    NodeModuleName = "Activity.ActivityBase",
+    Type = 0
+  },
+  Acti_GiveDafunie = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_GiveDafunie",
+    NodeModuleName = "Activity.ActivityBase",
+    Type = 0
+  },
+  Acti_GiveSonglu = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_GiveSonglu",
+    NodeModuleName = "Activity.ActivityBase",
+    Type = 0
+  },
+  Acti_JJGame = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_JJGame",
+    NodeModuleName = "Activity.JJGame",
+    Type = 0
+  },
+  Acti_MidTerm = {
+    Childs = {
+      "Acti_JJGame",
+      "JJGameTask_Normal_Reddot",
+      "JJGameTask_Challenge_Reddot",
+      "JJGameTask_Normal_New",
+      "JJGameTask_Challenge_New"
+    },
+    Name = "Acti_MidTerm",
+    bInvokeEveryTime = true
+  },
+  Acti_MultiDeviceLogin = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_MultiDeviceLogin",
+    NodeModuleName = "Activity.ConditionReward",
+    Type = 0
+  },
+  Acti_RegionOnline = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_RegionOnline",
+    NodeModuleName = "Activity.ConditionReward",
+    Type = 0
+  },
+  Acti_Rouge = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_Rouge",
+    NodeModuleName = "Activity.Rouge",
+    Type = 0
+  },
+  Acti_SignInFeina = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_SignInFeina",
+    NodeModuleName = "Activity.DailySignIn",
+    Type = 0
+  },
+  Acti_SignInSaiqi = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_SignInSaiqi",
+    NodeModuleName = "Activity.DailySignIn",
+    Type = 0
+  },
+  Acti_TrailFeinaChar = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_TrailFeinaChar",
+    NodeModuleName = "Activity.TrialChar",
+    Type = 1
+  },
+  Acti_TrailSaiqiSkin01 = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_TrailSaiqiSkin01",
+    NodeModuleName = "Activity.TrialChar",
+    Type = 1
+  },
+  Acti_TrailShuimuSkin01 = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_TrailShuimuSkin01",
+    NodeModuleName = "Activity.TrialChar",
+    Type = 1
+  },
+  Acti_TrailSkin01 = {
+    Childs = {
+      "Acti_TrailSaiqiSkin01",
+      "Acti_TrailSongluSkin01",
+      "Acti_TrailShuimuSkin01"
+    },
+    Name = "Acti_TrailSkin01",
+    bInvokeEveryTime = true
+  },
+  Acti_TrailSongluSkin01 = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_TrailSongluSkin01",
+    NodeModuleName = "Activity.TrialChar",
+    Type = 1
+  },
+  Acti_ZhiliuEvent = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Acti_ZhiliuEvent",
+    NodeModuleName = "Activity.ZhiliuEvent",
+    Type = 0
+  },
   ActivityAnnouncement = {
     CacheType = 0,
     IsLeaf = true,
@@ -39,19 +206,30 @@ return ReadOnly("ReddotNode", {
     Type = 1,
     bInvokeEveryTime = true
   },
-  ActivityEvent = {
-    CacheType = 1,
-    IsLeaf = true,
-    Name = "ActivityEvent",
-    NodeModuleName = "ActivityEvent",
-    Type = 1,
-    bInvokeEveryTime = true
-  },
   ActivityHub = {
     Childs = {
-      "ActivityEvent"
+      "Acti_Rouge",
+      "Acti_SignInSaiqi",
+      "Acti_Abyss01",
+      "Acti_GiveAoge",
+      "Acti_GiveDafunie",
+      "Acti_ZhiliuEvent",
+      "Acti_ChallengeLevel",
+      "Acti_TrailSkin01",
+      "Acti_MidTerm",
+      "Acti_TrailFeinaChar",
+      "Acti_Community",
+      "Acti_BetaAward",
+      "Acti_MultiDeviceLogin",
+      "Acti_FeinaEvent",
+      "Acti_SignInFeina",
+      "Acti_GiveBaonu",
+      "Acti_Abyss02",
+      "Acti_GiveSonglu",
+      "Acti_RegionOnline"
     },
-    Name = "ActivityHub"
+    Name = "ActivityHub",
+    bInvokeEveryTime = true
   },
   AnglingMap = {
     CacheType = 1,
@@ -319,6 +497,30 @@ return ReadOnly("ReddotNode", {
     Name = "HardBossMain",
     Type = 0
   },
+  JJGameTask_Challenge_New = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "JJGameTask_Challenge_New",
+    Type = 1
+  },
+  JJGameTask_Challenge_Reddot = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "JJGameTask_Challenge_Reddot",
+    Type = 0
+  },
+  JJGameTask_Normal_New = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "JJGameTask_Normal_New",
+    Type = 1
+  },
+  JJGameTask_Normal_Reddot = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "JJGameTask_Normal_Reddot",
+    Type = 0
+  },
   Map = {
     Childs = {"Dispatch"},
     Name = "Map"
@@ -414,7 +616,7 @@ return ReadOnly("ReddotNode", {
     bInvokeEveryTime = true
   },
   NormalMail = {
-    CacheType = 1,
+    CacheType = -1,
     IsLeaf = true,
     Name = "NormalMail",
     Type = 3,
@@ -573,6 +775,7 @@ return ReadOnly("ReddotNode", {
   Shop_Item = {
     Childs = {
       "Shop_Item_Yueshi",
+      "Shop_Item_Yueshijingpei",
       "Shop_Item_CharPiece",
       "Shop_Item_Weapon"
     },
@@ -596,6 +799,13 @@ return ReadOnly("ReddotNode", {
     CacheType = 1,
     IsLeaf = true,
     Name = "Shop_Item_Yueshi",
+    NodeModuleName = "Shop",
+    Type = 1
+  },
+  Shop_Item_Yueshijingpei = {
+    CacheType = 1,
+    IsLeaf = true,
+    Name = "Shop_Item_Yueshijingpei",
     NodeModuleName = "Shop",
     Type = 1
   },

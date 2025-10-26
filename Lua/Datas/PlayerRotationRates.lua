@@ -72,7 +72,7 @@ return ReadOnly("PlayerRotationRates", {
   BulletJumpResetCapTime = {
     ParamentName = "BulletJumpResetCapTime",
     ParamentValue = {
-      0.6
+      0.4
     }
   },
   BulletJumpZVelocity = {

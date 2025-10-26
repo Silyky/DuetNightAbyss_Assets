@@ -180,12 +180,6 @@ return {
           {
             startQuest = "172147797728112118",
             startPort = "Out",
-            endQuest = "174393580485712864702",
-            endPort = "In"
-          },
-          {
-            startQuest = "172147797728112118",
-            startPort = "Out",
             endQuest = "174393589192912866152",
             endPort = "In"
           },
@@ -326,6 +320,36 @@ return {
             startPort = "Success",
             endQuest = "17555013425712788149",
             endPort = "In"
+          },
+          {
+            startQuest = "172147797728112118",
+            startPort = "Out",
+            endQuest = "174393580485712864702",
+            endPort = "In"
+          },
+          {
+            startQuest = "17544661348624949067",
+            startPort = "Success",
+            endQuest = "174393704952516539916",
+            endPort = "Stop"
+          },
+          {
+            startQuest = "17544661348624949067",
+            startPort = "Success",
+            endQuest = "174688159826019402934",
+            endPort = "Stop"
+          },
+          {
+            startQuest = "17544661348624949067",
+            startPort = "Success",
+            endQuest = "174393706855516540248",
+            endPort = "Stop"
+          },
+          {
+            startQuest = "17544661348624949067",
+            startPort = "Success",
+            endQuest = "174393700742116539241",
+            endPort = "Stop"
           }
         },
         nodeData = {
@@ -607,7 +631,7 @@ return {
             key = "172147797728112119",
             type = "TalkNode",
             name = "赛琪",
-            pos = {x = 931.2140044921001, y = 770.1833040329359},
+            pos = {x = 932.2854330635287, y = 770.1833040329359},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10125108,
@@ -726,7 +750,7 @@ return {
             key = "174392491469211810169",
             type = "CameraNode",
             name = "给赛琪和冰湖城拍照",
-            pos = {x = 594.1363308987214, y = 1576.9611920230363},
+            pos = {x = 593.0649023272929, y = 1575.8897634516077},
             propsData = {
               bFadeInOut = true,
               bIsForceOpenCamera = true,
@@ -771,7 +795,7 @@ return {
             key = "174393566498612863579",
             type = "WaitingMechanismEnterStateNode",
             name = "等待机关进入状态",
-            pos = {x = 304.9608840933629, y = 1016.3556017423796},
+            pos = {x = 314.60374123622006, y = 1020.6413160280939},
             propsData = {
               CreateType = "StaticCreator",
               CreateId = 1240664,
@@ -784,14 +808,14 @@ return {
             key = "174393580485712864702",
             type = "ChangeStaticCreatorNode",
             name = "召唤拍照点",
-            pos = {x = 310.8259654921648, y = 627.7326916604617},
+            pos = {x = 327.968822635022, y = 598.8041202318902},
             propsData = {
               ActiveEnable = true,
-              EnableBlackScreenSync = false,
+              EnableBlackScreenSync = true,
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {1240664, 1240665}
+              StaticCreatorIdList = {1240664, 1241164}
             }
           },
           ["174393587501812865760"] = {
@@ -823,7 +847,7 @@ return {
             key = "174393596135512866588",
             type = "ShowOrHideTaskIndicatorNode",
             name = "干掉拍照指引点",
-            pos = {x = 912.8255823698303, y = 1042.8765033896393},
+            pos = {x = 917.1112966555446, y = 1042.8765033896393},
             propsData = {
               IsShow = false,
               GuideType = "P",
@@ -834,7 +858,7 @@ return {
             key = "174393682828315489229",
             type = "WaitOfTimeNode",
             name = "1",
-            pos = {x = 1164.8397211243594, y = 1077.4117614309173},
+            pos = {x = 1165.911149695788, y = 1077.4117614309173},
             propsData = {WaitTime = 1}
           },
           ["174393683583215489428"] = {
@@ -848,14 +872,14 @@ return {
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {1240665}
+              StaticCreatorIdList = {1241164}
             }
           },
           ["174393700742116539241"] = {
             key = "174393700742116539241",
             type = "TalkNode",
             name = "看这边",
-            pos = {x = 29.840122942403156, y = 1124.4423182469116},
+            pos = {x = 731.4115515138318, y = 1124.0137468183405},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10125107,
@@ -872,14 +896,14 @@ return {
             key = "174393704952516539916",
             type = "WaitOfTimeNode",
             name = "1.5",
-            pos = {x = 308.9579958980371, y = 1153.7553660466767},
+            pos = {x = -41.39914695910579, y = 1086.2553660466765},
             propsData = {WaitTime = 1.5}
           },
           ["174393706855516540248"] = {
             key = "174393706855516540248",
             type = "CameraLookAtNode",
             name = "CameraLookAt",
-            pos = {x = 62.7392826062688, y = 1161.6902174065754},
+            pos = {x = 459.1678540348403, y = 1427.404503120861},
             propsData = {
               TargetType = "Point",
               PointName = "P101099PhotoGuidePoint1",
@@ -904,7 +928,7 @@ return {
             key = "174688158735719402647",
             type = "SwitchMechanismStateNode",
             name = "初始化机关",
-            pos = {x = 302.1302425173395, y = 1269.8207885304662},
+            pos = {x = 1073.558813945911, y = 1403.7493599590377},
             propsData = {
               StaticCreatorIdList = {1240664},
               ManualItemIdList = {},
@@ -916,7 +940,7 @@ return {
             key = "174688159826019402934",
             type = "WaitingMechanismEnterStateNode",
             name = "等待机关进入状态",
-            pos = {x = 552.1302425173394, y = 1269.820788530466},
+            pos = {x = 690.3445282316252, y = 1380.1779313876089},
             propsData = {
               CreateType = "StaticCreator",
               CreateId = 1240664,
@@ -929,7 +953,7 @@ return {
             key = "174832821295411393",
             type = "SendMessageNode",
             name = "赛琪",
-            pos = {x = 834.557387057387, y = 1159.2869106699752},
+            pos = {x = 1206.3431013431014, y = 1268.5726249556894},
             propsData = {
               MessageType = "BehaviorTree",
               MessageContent = "SaiqiTakePhoto",
@@ -940,7 +964,7 @@ return {
             key = "174832824729111701",
             type = "WaitOfTimeNode",
             name = "0.7",
-            pos = {x = 584.9065934065934, y = 1158.4297678128323},
+            pos = {x = 979.1923076923076, y = 1217.3583392414037},
             propsData = {WaitTime = 0.7}
           },
           ["17483494669323516269"] = {
@@ -956,7 +980,7 @@ return {
             name = "给赛琪和冰湖城拍照",
             pos = {x = 579.7965686274508, y = 915.220365418895},
             propsData = {
-              bFadeInOut = true,
+              bFadeInOut = false,
               bIsForceOpenCamera = true,
               bGuideUIEnable = true,
               GuideType = "P",
@@ -970,7 +994,7 @@ return {
               FocalLength = 15,
               LookAtTargetName = "P101099PhotoGuidePoint1",
               StartPos = "(X=-51986.406250,Y=40641.265625,Z=-15757.970703)",
-              bLockCameraPos = true,
+              bLockCameraPos = false,
               bStartHiddenRole = true,
               bLockHiddenRole = true,
               bStartHiddenNPC = false,

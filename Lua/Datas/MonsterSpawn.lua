@@ -1551,7 +1551,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 311,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 55
   },
   [312] = {
     CheckVision = true,
@@ -1617,7 +1617,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 312,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 55
   },
   [313] = {
     CheckVision = true,
@@ -1683,7 +1683,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 313,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 55
   },
   [314] = {
     CheckVision = true,
@@ -1749,7 +1749,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 314,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 55
   },
   [501] = {
     CheckVision = true,
@@ -1817,7 +1817,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 501,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [502] = {
     CheckVision = true,
@@ -1885,7 +1885,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 502,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [503] = {
     CheckVision = true,
@@ -1953,7 +1953,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 503,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [504] = {
     CheckVision = true,
@@ -2021,7 +2021,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 504,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [505] = {
     CheckVision = true,
@@ -2089,7 +2089,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 505,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [506] = {
     CheckVision = true,
@@ -2157,7 +2157,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 506,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [511] = {
     CheckVision = true,
@@ -2451,7 +2451,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 601,
     UnitSpawnRadiusMax = 5000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [611] = {
     CheckVision = true,
@@ -3257,7 +3257,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 10405,
     UnitSpawnRadiusMax = 5000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [10406] = {
     CheckVision = true,
@@ -12647,7 +12647,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100501,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [100502] = {
     CheckVision = true,
@@ -12715,7 +12715,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100502,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [100503] = {
     CheckVision = true,
@@ -12783,7 +12783,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100503,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [100504] = {
     CheckVision = true,
@@ -12851,7 +12851,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100504,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [100505] = {
     CheckVision = true,
@@ -12919,7 +12919,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100505,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [100506] = {
     CheckVision = true,
@@ -12987,7 +12987,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100506,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = -1
+    UnitSpawnTotalNum = 400
   },
   [100601] = {
     CheckVision = true,
@@ -13055,7 +13055,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100601,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100602] = {
     CheckVision = true,
@@ -13123,7 +13123,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100602,
     UnitSpawnRadiusMax = 5000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100603] = {
     CheckVision = true,
@@ -13191,7 +13191,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100603,
     UnitSpawnRadiusMax = 5000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100604] = {
     CheckVision = true,
@@ -13259,7 +13259,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100604,
     UnitSpawnRadiusMax = 5000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100605] = {
     CheckVision = true,
@@ -13327,7 +13327,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100605,
     UnitSpawnRadiusMax = 5000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100606] = {
     CheckVision = true,
@@ -13395,7 +13395,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100606,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [110051] = {
     CheckVision = false,

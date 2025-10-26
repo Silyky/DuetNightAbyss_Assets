@@ -414,6 +414,21 @@ return ReadOnly("TalkTrigger", {
       }
     }
   },
+  [100144] = {
+    StoryLinePath = "Impression/IceLakeCity/Gossip/EnlikeIcelake.story",
+    TalkId = 100144,
+    TalkTriggerId = 100144,
+    TriggerCondition = {
+      And = {
+        {
+          QuestStart = {QuestId = 10020608}
+        },
+        {
+          QuestUnstart = {QuestId = 10020611}
+        }
+      }
+    }
+  },
   [100295] = {TalkId = 100295, TalkTriggerId = 100295},
   [101043] = {
     StoryLinePath = "Other/101043.story",
@@ -2683,6 +2698,11 @@ return ReadOnly("TalkTrigger", {
     StoryLinePath = "Observe/IceLake.story",
     TalkId = 700181,
     TalkTriggerId = 700181
+  },
+  [700182] = {
+    StoryLinePath = "Observe/IceLake.story",
+    TalkId = 700182,
+    TalkTriggerId = 700182
   },
   [700200] = {
     StoryLinePath = "Observe/IceLakeCity_2.story",

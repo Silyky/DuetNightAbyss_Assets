@@ -82,7 +82,7 @@ return ReadOnly("EventPortal", {
     JumpUIId = 14,
     JumpUnlockCondition = 8002,
     JumpUnlockTips = "EventPortal_UnlockTips_Common",
-    RewardPreview = 1030021,
+    RewardPreview = 1030022,
     SubBPPath2 = "/Game/UI/WBP/Activity/Widget/Abyss/WBP_Activity_Abyss_Progress.WBP_Activity_Abyss_Progress"
   }
 })

@@ -17656,7 +17656,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "Buff",
-          Value = 0.11
+          Value = 0.16
         }
       },
       [2] = {
@@ -17665,7 +17665,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "Buff",
-          Value = 0.13
+          Value = 0.2
         }
       },
       [3] = {
@@ -17674,7 +17674,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "Buff",
-          Value = 0.15
+          Value = 0.24
         }
       },
       [4] = {
@@ -17683,7 +17683,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "Buff",
-          Value = 0.17
+          Value = 0.28
         }
       },
       [5] = {
@@ -17692,7 +17692,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "Buff",
-          Value = 0.19
+          Value = 0.32
         }
       },
       [6] = {
@@ -17701,7 +17701,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "Buff",
-          Value = 0.21
+          Value = 0.36
         }
       },
       [7] = {
@@ -17710,7 +17710,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "Buff",
-          Value = 0.23
+          Value = 0.4
         }
       },
       [8] = {
@@ -17719,7 +17719,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "Buff",
-          Value = 0.25
+          Value = 0.44
         }
       },
       [9] = {
@@ -17728,7 +17728,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "Buff",
-          Value = 0.27
+          Value = 0.48
         }
       },
       [10] = {
@@ -17737,7 +17737,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "Buff",
-          Value = 0.29
+          Value = 0.52
         }
       },
       [11] = {
@@ -17746,7 +17746,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "Buff",
-          Value = 0.31
+          Value = 0.56
         }
       },
       [12] = {
@@ -17755,7 +17755,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "Buff",
-          Value = 0.33
+          Value = 0.6
         }
       },
       [13] = {
@@ -17764,7 +17764,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "Buff",
-          Value = 0.35
+          Value = 0.64
         }
       },
       [14] = {
@@ -17773,7 +17773,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "Buff",
-          Value = 0.37
+          Value = 0.68
         }
       },
       [15] = {
@@ -17782,7 +17782,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "Buff",
-          Value = 0.39
+          Value = 0.72
         }
       },
       [16] = {
@@ -17791,7 +17791,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "Buff",
-          Value = 0.41
+          Value = 0.76
         }
       },
       [17] = {
@@ -17800,7 +17800,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "Buff",
-          Value = 0.43
+          Value = 0.8
         }
       },
       [18] = {
@@ -17809,7 +17809,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "Buff",
-          Value = 0.45
+          Value = 0.84
         }
       },
       [19] = {
@@ -17818,7 +17818,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "Buff",
-          Value = 0.47
+          Value = 0.88
         }
       },
       [20] = {
@@ -17827,7 +17827,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "Buff",
-          Value = 0.49
+          Value = 0.92
         }
       }
     },
@@ -23130,7 +23130,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "Buff",
-          Value = 0.27
+          Value = 0.066
         }
       },
       [2] = {
@@ -23139,7 +23139,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "Buff",
-          Value = 0.34
+          Value = 0.082
         }
       },
       [3] = {
@@ -23148,7 +23148,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "Buff",
-          Value = 0.41
+          Value = 0.098
         }
       },
       [4] = {
@@ -23157,7 +23157,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "Buff",
-          Value = 0.48
+          Value = 0.114
         }
       },
       [5] = {
@@ -23166,7 +23166,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "Buff",
-          Value = 0.55
+          Value = 0.13
         }
       },
       [6] = {
@@ -23175,7 +23175,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "Buff",
-          Value = 0.62
+          Value = 0.146
         }
       },
       [7] = {
@@ -23184,7 +23184,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "Buff",
-          Value = 0.69
+          Value = 0.162
         }
       },
       [8] = {
@@ -23193,7 +23193,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "Buff",
-          Value = 0.76
+          Value = 0.178
         }
       },
       [9] = {
@@ -23202,7 +23202,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "Buff",
-          Value = 0.83
+          Value = 0.194
         }
       },
       [10] = {
@@ -23211,7 +23211,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "Buff",
-          Value = 0.9
+          Value = 0.21
         }
       },
       [11] = {
@@ -23220,7 +23220,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "Buff",
-          Value = 0.97
+          Value = 0.226
         }
       },
       [12] = {
@@ -23229,7 +23229,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "Buff",
-          Value = 1.04
+          Value = 0.242
         }
       },
       [13] = {
@@ -23238,7 +23238,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "Buff",
-          Value = 1.11
+          Value = 0.258
         }
       },
       [14] = {
@@ -23247,7 +23247,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "Buff",
-          Value = 1.18
+          Value = 0.274
         }
       },
       [15] = {
@@ -23256,7 +23256,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "Buff",
-          Value = 1.25
+          Value = 0.29
         }
       },
       [16] = {
@@ -23265,7 +23265,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "Buff",
-          Value = 1.32
+          Value = 0.306
         }
       },
       [17] = {
@@ -23274,7 +23274,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "Buff",
-          Value = 1.39
+          Value = 0.322
         }
       },
       [18] = {
@@ -23283,7 +23283,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "Buff",
-          Value = 1.46
+          Value = 0.338
         }
       },
       [19] = {
@@ -23292,7 +23292,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "Buff",
-          Value = 1.53
+          Value = 0.354
         }
       },
       [20] = {
@@ -23301,7 +23301,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "Buff",
-          Value = 1.6
+          Value = 0.37
         }
       }
     },
@@ -23312,7 +23312,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "Buff",
-          Value = 0.27
+          Value = 0.066
         }
       },
       [2] = {
@@ -23321,7 +23321,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "Buff",
-          Value = 0.34
+          Value = 0.082
         }
       },
       [3] = {
@@ -23330,7 +23330,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "Buff",
-          Value = 0.41
+          Value = 0.098
         }
       },
       [4] = {
@@ -23339,7 +23339,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "Buff",
-          Value = 0.48
+          Value = 0.114
         }
       },
       [5] = {
@@ -23348,7 +23348,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "Buff",
-          Value = 0.55
+          Value = 0.13
         }
       },
       [6] = {
@@ -23357,7 +23357,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "Buff",
-          Value = 0.62
+          Value = 0.146
         }
       },
       [7] = {
@@ -23366,7 +23366,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "Buff",
-          Value = 0.69
+          Value = 0.162
         }
       },
       [8] = {
@@ -23375,7 +23375,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "Buff",
-          Value = 0.76
+          Value = 0.178
         }
       },
       [9] = {
@@ -23384,7 +23384,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "Buff",
-          Value = 0.83
+          Value = 0.194
         }
       },
       [10] = {
@@ -23393,7 +23393,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "Buff",
-          Value = 0.9
+          Value = 0.21
         }
       },
       [11] = {
@@ -23402,7 +23402,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "Buff",
-          Value = 0.97
+          Value = 0.226
         }
       },
       [12] = {
@@ -23411,7 +23411,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "Buff",
-          Value = 1.04
+          Value = 0.242
         }
       },
       [13] = {
@@ -23420,7 +23420,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "Buff",
-          Value = 1.11
+          Value = 0.258
         }
       },
       [14] = {
@@ -23429,7 +23429,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "Buff",
-          Value = 1.18
+          Value = 0.274
         }
       },
       [15] = {
@@ -23438,7 +23438,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "Buff",
-          Value = 1.25
+          Value = 0.29
         }
       },
       [16] = {
@@ -23447,7 +23447,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "Buff",
-          Value = 1.32
+          Value = 0.306
         }
       },
       [17] = {
@@ -23456,7 +23456,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "Buff",
-          Value = 1.39
+          Value = 0.322
         }
       },
       [18] = {
@@ -23465,7 +23465,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "Buff",
-          Value = 1.46
+          Value = 0.338
         }
       },
       [19] = {
@@ -23474,7 +23474,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "Buff",
-          Value = 1.53
+          Value = 0.354
         }
       },
       [20] = {
@@ -23483,7 +23483,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "Buff",
-          Value = 1.6
+          Value = 0.37
         }
       }
     },
@@ -90192,7 +90192,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 1,
           Type = "PassiveEffect",
-          Value = 0.18
+          Value = 0.1
         }
       },
       [2] = {
@@ -90208,7 +90208,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 2,
           Type = "PassiveEffect",
-          Value = 0.22
+          Value = 0.1
         }
       },
       [3] = {
@@ -90224,7 +90224,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 3,
           Type = "PassiveEffect",
-          Value = 0.26
+          Value = 0.1
         }
       },
       [4] = {
@@ -90240,7 +90240,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 4,
           Type = "PassiveEffect",
-          Value = 0.3
+          Value = 0.1
         }
       },
       [5] = {
@@ -90256,7 +90256,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 5,
           Type = "PassiveEffect",
-          Value = 0.34
+          Value = 0.1
         }
       },
       [6] = {
@@ -90272,7 +90272,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 6,
           Type = "PassiveEffect",
-          Value = 0.38
+          Value = 0.1
         }
       },
       [7] = {
@@ -90288,7 +90288,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 7,
           Type = "PassiveEffect",
-          Value = 0.42
+          Value = 0.1
         }
       },
       [8] = {
@@ -90304,7 +90304,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 8,
           Type = "PassiveEffect",
-          Value = 0.46
+          Value = 0.1
         }
       },
       [9] = {
@@ -90320,7 +90320,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 9,
           Type = "PassiveEffect",
-          Value = 0.5
+          Value = 0.1
         }
       },
       [10] = {
@@ -90336,7 +90336,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 10,
           Type = "PassiveEffect",
-          Value = 0.54
+          Value = 0.1
         }
       },
       [11] = {
@@ -90352,7 +90352,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 11,
           Type = "PassiveEffect",
-          Value = 0.58
+          Value = 0.1
         }
       },
       [12] = {
@@ -90368,7 +90368,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 12,
           Type = "PassiveEffect",
-          Value = 0.62
+          Value = 0.1
         }
       },
       [13] = {
@@ -90384,7 +90384,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 13,
           Type = "PassiveEffect",
-          Value = 0.66
+          Value = 0.1
         }
       },
       [14] = {
@@ -90400,7 +90400,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 14,
           Type = "PassiveEffect",
-          Value = 0.7
+          Value = 0.1
         }
       },
       [15] = {
@@ -90416,7 +90416,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 15,
           Type = "PassiveEffect",
-          Value = 0.74
+          Value = 0.1
         }
       },
       [16] = {
@@ -90432,7 +90432,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 16,
           Type = "PassiveEffect",
-          Value = 0.78
+          Value = 0.1
         }
       },
       [17] = {
@@ -90448,7 +90448,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 17,
           Type = "PassiveEffect",
-          Value = 0.82
+          Value = 0.1
         }
       },
       [18] = {
@@ -90464,7 +90464,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 18,
           Type = "PassiveEffect",
-          Value = 0.86
+          Value = 0.1
         }
       },
       [19] = {
@@ -90480,7 +90480,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 19,
           Type = "PassiveEffect",
-          Value = 0.9
+          Value = 0.1
         }
       },
       [20] = {
@@ -90496,7 +90496,7 @@ return ReadOnly("SkillGrow", {
           Index = 2,
           Level = 20,
           Type = "PassiveEffect",
-          Value = 0.94
+          Value = 0.1
         }
       }
     },
@@ -117140,7 +117140,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 15.52
+          Value = 12.43
         }
       },
       [2] = {
@@ -117149,7 +117149,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 18.96
+          Value = 15.18
         }
       },
       [3] = {
@@ -117158,7 +117158,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 22.4
+          Value = 17.93
         }
       },
       [4] = {
@@ -117167,7 +117167,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 25.84
+          Value = 20.68
         }
       },
       [5] = {
@@ -117176,7 +117176,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 29.28
+          Value = 23.43
         }
       },
       [6] = {
@@ -117185,7 +117185,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 32.72
+          Value = 26.18
         }
       },
       [7] = {
@@ -117194,7 +117194,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 36.16
+          Value = 28.93
         }
       },
       [8] = {
@@ -117203,7 +117203,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 39.6
+          Value = 31.68
         }
       },
       [9] = {
@@ -117212,7 +117212,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 43.04
+          Value = 34.43
         }
       },
       [10] = {
@@ -117221,7 +117221,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 46.48
+          Value = 37.18
         }
       },
       [11] = {
@@ -117230,7 +117230,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 49.92
+          Value = 39.93
         }
       },
       [12] = {
@@ -117239,7 +117239,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 53.36
+          Value = 42.68
         }
       },
       [13] = {
@@ -117248,7 +117248,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 56.8
+          Value = 45.43
         }
       },
       [14] = {
@@ -117257,7 +117257,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 60.24
+          Value = 48.18
         }
       },
       [15] = {
@@ -117266,7 +117266,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 63.68
+          Value = 50.93
         }
       },
       [16] = {
@@ -117275,7 +117275,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 67.12
+          Value = 53.68
         }
       },
       [17] = {
@@ -117284,7 +117284,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 70.56
+          Value = 56.43
         }
       },
       [18] = {
@@ -117293,7 +117293,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 74
+          Value = 59.18
         }
       },
       [19] = {
@@ -117302,7 +117302,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 77.44
+          Value = 61.93
         }
       },
       [20] = {
@@ -117311,7 +117311,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 80.88
+          Value = 64.68
         }
       }
     },
@@ -117504,7 +117504,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 15.52
+          Value = 12.43
         }
       },
       [2] = {
@@ -117513,7 +117513,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 18.96
+          Value = 15.18
         }
       },
       [3] = {
@@ -117522,7 +117522,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 22.4
+          Value = 17.93
         }
       },
       [4] = {
@@ -117531,7 +117531,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 25.84
+          Value = 20.68
         }
       },
       [5] = {
@@ -117540,7 +117540,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 29.28
+          Value = 23.43
         }
       },
       [6] = {
@@ -117549,7 +117549,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 32.72
+          Value = 26.18
         }
       },
       [7] = {
@@ -117558,7 +117558,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 36.16
+          Value = 28.93
         }
       },
       [8] = {
@@ -117567,7 +117567,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 39.6
+          Value = 31.68
         }
       },
       [9] = {
@@ -117576,7 +117576,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 43.04
+          Value = 34.43
         }
       },
       [10] = {
@@ -117585,7 +117585,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 46.48
+          Value = 37.18
         }
       },
       [11] = {
@@ -117594,7 +117594,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 49.92
+          Value = 39.93
         }
       },
       [12] = {
@@ -117603,7 +117603,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 53.36
+          Value = 42.68
         }
       },
       [13] = {
@@ -117612,7 +117612,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 56.8
+          Value = 45.43
         }
       },
       [14] = {
@@ -117621,7 +117621,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 60.24
+          Value = 48.18
         }
       },
       [15] = {
@@ -117630,7 +117630,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 63.68
+          Value = 50.93
         }
       },
       [16] = {
@@ -117639,7 +117639,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 67.12
+          Value = 53.68
         }
       },
       [17] = {
@@ -117648,7 +117648,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 70.56
+          Value = 56.43
         }
       },
       [18] = {
@@ -117657,7 +117657,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 74
+          Value = 59.18
         }
       },
       [19] = {
@@ -117666,7 +117666,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 77.44
+          Value = 61.93
         }
       },
       [20] = {
@@ -117675,7 +117675,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 80.88
+          Value = 64.68
         }
       }
     },
@@ -121762,7 +121762,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 0.34
+          Value = 0.36
         },
         [2] = {
           ID = 430113,
@@ -121778,7 +121778,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 0.39
+          Value = 0.43
         },
         [2] = {
           ID = 430113,
@@ -121794,7 +121794,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 0.44
+          Value = 0.5
         },
         [2] = {
           ID = 430113,
@@ -121810,7 +121810,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 0.49
+          Value = 0.57
         },
         [2] = {
           ID = 430113,
@@ -121826,7 +121826,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 0.54
+          Value = 0.64
         },
         [2] = {
           ID = 430113,
@@ -121842,7 +121842,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 0.59
+          Value = 0.71
         },
         [2] = {
           ID = 430113,
@@ -121858,7 +121858,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 0.64
+          Value = 0.78
         },
         [2] = {
           ID = 430113,
@@ -121874,7 +121874,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 0.69
+          Value = 0.85
         },
         [2] = {
           ID = 430113,
@@ -121890,7 +121890,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 0.74
+          Value = 0.92
         },
         [2] = {
           ID = 430113,
@@ -121906,7 +121906,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 0.79
+          Value = 0.99
         },
         [2] = {
           ID = 430113,
@@ -121922,7 +121922,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 0.84
+          Value = 1.06
         },
         [2] = {
           ID = 430113,
@@ -121938,7 +121938,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 0.89
+          Value = 1.13
         },
         [2] = {
           ID = 430113,
@@ -121954,7 +121954,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 0.94
+          Value = 1.2
         },
         [2] = {
           ID = 430113,
@@ -121970,7 +121970,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 0.99
+          Value = 1.27
         },
         [2] = {
           ID = 430113,
@@ -121986,7 +121986,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 1.04
+          Value = 1.34
         },
         [2] = {
           ID = 430113,
@@ -122002,7 +122002,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 1.09
+          Value = 1.41
         },
         [2] = {
           ID = 430113,
@@ -122018,7 +122018,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 1.14
+          Value = 1.48
         },
         [2] = {
           ID = 430113,
@@ -122034,7 +122034,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 1.19
+          Value = 1.55
         },
         [2] = {
           ID = 430113,
@@ -122050,7 +122050,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 1.24
+          Value = 1.62
         },
         [2] = {
           ID = 430113,
@@ -122068,7 +122068,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 0.21
+          Value = 0.26
         },
         [2] = {
           ID = 430115,
@@ -122084,7 +122084,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 0.25
+          Value = 0.31
         },
         [2] = {
           ID = 430115,
@@ -122100,7 +122100,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 0.29
+          Value = 0.36
         },
         [2] = {
           ID = 430115,
@@ -122116,7 +122116,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 0.33
+          Value = 0.41
         },
         [2] = {
           ID = 430115,
@@ -122132,7 +122132,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 0.37
+          Value = 0.46
         },
         [2] = {
           ID = 430115,
@@ -122148,7 +122148,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 0.41
+          Value = 0.51
         },
         [2] = {
           ID = 430115,
@@ -122164,7 +122164,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 0.45
+          Value = 0.56
         },
         [2] = {
           ID = 430115,
@@ -122180,7 +122180,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 0.49
+          Value = 0.61
         },
         [2] = {
           ID = 430115,
@@ -122196,7 +122196,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 0.53
+          Value = 0.66
         },
         [2] = {
           ID = 430115,
@@ -122212,7 +122212,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 0.57
+          Value = 0.71
         },
         [2] = {
           ID = 430115,
@@ -122228,7 +122228,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 0.61
+          Value = 0.76
         },
         [2] = {
           ID = 430115,
@@ -122244,7 +122244,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 0.65
+          Value = 0.81
         },
         [2] = {
           ID = 430115,
@@ -122260,7 +122260,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 0.69
+          Value = 0.86
         },
         [2] = {
           ID = 430115,
@@ -122276,7 +122276,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 0.73
+          Value = 0.91
         },
         [2] = {
           ID = 430115,
@@ -122292,7 +122292,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 0.77
+          Value = 0.96
         },
         [2] = {
           ID = 430115,
@@ -122308,7 +122308,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 0.81
+          Value = 1.01
         },
         [2] = {
           ID = 430115,
@@ -122324,7 +122324,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 0.85
+          Value = 1.06
         },
         [2] = {
           ID = 430115,
@@ -122340,7 +122340,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 0.89
+          Value = 1.11
         },
         [2] = {
           ID = 430115,
@@ -122356,7 +122356,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 0.93
+          Value = 1.16
         },
         [2] = {
           ID = 430115,
@@ -122372,7 +122372,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 0.97
+          Value = 1.21
         },
         [2] = {
           ID = 430115,
@@ -122390,7 +122390,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 0.21
+          Value = 0.26
         },
         [2] = {
           ID = 430119,
@@ -122406,7 +122406,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 0.25
+          Value = 0.31
         },
         [2] = {
           ID = 430119,
@@ -122422,7 +122422,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 0.29
+          Value = 0.36
         },
         [2] = {
           ID = 430119,
@@ -122438,7 +122438,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 0.33
+          Value = 0.41
         },
         [2] = {
           ID = 430119,
@@ -122454,7 +122454,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 0.37
+          Value = 0.46
         },
         [2] = {
           ID = 430119,
@@ -122470,7 +122470,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 0.41
+          Value = 0.51
         },
         [2] = {
           ID = 430119,
@@ -122486,7 +122486,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 0.45
+          Value = 0.56
         },
         [2] = {
           ID = 430119,
@@ -122502,7 +122502,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 0.49
+          Value = 0.61
         },
         [2] = {
           ID = 430119,
@@ -122518,7 +122518,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 0.53
+          Value = 0.66
         },
         [2] = {
           ID = 430119,
@@ -122534,7 +122534,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 0.57
+          Value = 0.71
         },
         [2] = {
           ID = 430119,
@@ -122550,7 +122550,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 0.61
+          Value = 0.76
         },
         [2] = {
           ID = 430119,
@@ -122566,7 +122566,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 0.65
+          Value = 0.81
         },
         [2] = {
           ID = 430119,
@@ -122582,7 +122582,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 0.69
+          Value = 0.86
         },
         [2] = {
           ID = 430119,
@@ -122598,7 +122598,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 0.73
+          Value = 0.91
         },
         [2] = {
           ID = 430119,
@@ -122614,7 +122614,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 0.77
+          Value = 0.96
         },
         [2] = {
           ID = 430119,
@@ -122630,7 +122630,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 0.81
+          Value = 1.01
         },
         [2] = {
           ID = 430119,
@@ -122646,7 +122646,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 0.85
+          Value = 1.06
         },
         [2] = {
           ID = 430119,
@@ -122662,7 +122662,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 0.89
+          Value = 1.11
         },
         [2] = {
           ID = 430119,
@@ -122678,7 +122678,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 0.93
+          Value = 1.16
         },
         [2] = {
           ID = 430119,
@@ -122694,7 +122694,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 0.97
+          Value = 1.21
         },
         [2] = {
           ID = 430119,
@@ -122712,7 +122712,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 0.024
+          Value = 0.025
         },
         [2] = {
           ID = 430122,
@@ -122728,7 +122728,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 0.028
+          Value = 0.03
         },
         [2] = {
           ID = 430122,
@@ -122744,7 +122744,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 0.032
+          Value = 0.035
         },
         [2] = {
           ID = 430122,
@@ -122760,7 +122760,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 0.036
+          Value = 0.04
         },
         [2] = {
           ID = 430122,
@@ -122776,7 +122776,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 0.04
+          Value = 0.045
         },
         [2] = {
           ID = 430122,
@@ -122792,7 +122792,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 0.044
+          Value = 0.05
         },
         [2] = {
           ID = 430122,
@@ -122808,7 +122808,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 0.048
+          Value = 0.055
         },
         [2] = {
           ID = 430122,
@@ -122824,7 +122824,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 0.052
+          Value = 0.06
         },
         [2] = {
           ID = 430122,
@@ -122840,7 +122840,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 0.056
+          Value = 0.065
         },
         [2] = {
           ID = 430122,
@@ -122856,7 +122856,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 0.06
+          Value = 0.07
         },
         [2] = {
           ID = 430122,
@@ -122872,7 +122872,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 0.064
+          Value = 0.075
         },
         [2] = {
           ID = 430122,
@@ -122888,7 +122888,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 0.068
+          Value = 0.08
         },
         [2] = {
           ID = 430122,
@@ -122904,7 +122904,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 0.072
+          Value = 0.085
         },
         [2] = {
           ID = 430122,
@@ -122920,7 +122920,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 0.076
+          Value = 0.09
         },
         [2] = {
           ID = 430122,
@@ -122936,7 +122936,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 0.08
+          Value = 0.095
         },
         [2] = {
           ID = 430122,
@@ -122952,7 +122952,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 0.084
+          Value = 0.1
         },
         [2] = {
           ID = 430122,
@@ -122968,7 +122968,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 0.088
+          Value = 0.105
         },
         [2] = {
           ID = 430122,
@@ -122984,7 +122984,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 0.092
+          Value = 0.11
         },
         [2] = {
           ID = 430122,
@@ -123000,7 +123000,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 0.096
+          Value = 0.115
         },
         [2] = {
           ID = 430122,
@@ -123034,7 +123034,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 0.19
+          Value = 0.26
         },
         [2] = {
           ID = 430123,
@@ -123050,7 +123050,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 0.24
+          Value = 0.32
         },
         [2] = {
           ID = 430123,
@@ -123066,7 +123066,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 0.29
+          Value = 0.38
         },
         [2] = {
           ID = 430123,
@@ -123082,7 +123082,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 0.34
+          Value = 0.44
         },
         [2] = {
           ID = 430123,
@@ -123098,7 +123098,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 0.39
+          Value = 0.5
         },
         [2] = {
           ID = 430123,
@@ -123114,7 +123114,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 0.44
+          Value = 0.56
         },
         [2] = {
           ID = 430123,
@@ -123130,7 +123130,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 0.49
+          Value = 0.62
         },
         [2] = {
           ID = 430123,
@@ -123146,7 +123146,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 0.54
+          Value = 0.68
         },
         [2] = {
           ID = 430123,
@@ -123162,7 +123162,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 0.59
+          Value = 0.74
         },
         [2] = {
           ID = 430123,
@@ -123178,7 +123178,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 0.64
+          Value = 0.8
         },
         [2] = {
           ID = 430123,
@@ -123194,7 +123194,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 0.69
+          Value = 0.86
         },
         [2] = {
           ID = 430123,
@@ -123210,7 +123210,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 0.74
+          Value = 0.92
         },
         [2] = {
           ID = 430123,
@@ -123226,7 +123226,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 0.79
+          Value = 0.98
         },
         [2] = {
           ID = 430123,
@@ -123242,7 +123242,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 0.84
+          Value = 1.04
         },
         [2] = {
           ID = 430123,
@@ -123258,7 +123258,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 0.89
+          Value = 1.1
         },
         [2] = {
           ID = 430123,
@@ -123274,7 +123274,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 0.94
+          Value = 1.16
         },
         [2] = {
           ID = 430123,
@@ -123290,7 +123290,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 0.99
+          Value = 1.22
         },
         [2] = {
           ID = 430123,
@@ -123306,7 +123306,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 1.04
+          Value = 1.28
         },
         [2] = {
           ID = 430123,
@@ -123322,7 +123322,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 1.09
+          Value = 1.34
         },
         [2] = {
           ID = 430123,
@@ -123338,7 +123338,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 1.14
+          Value = 1.4
         },
         [2] = {
           ID = 430123,
@@ -123356,7 +123356,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 0.039
+          Value = 0.051
         },
         [2] = {
           ID = 430125,
@@ -123372,7 +123372,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 0.048
+          Value = 0.062
         },
         [2] = {
           ID = 430125,
@@ -123388,7 +123388,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 0.057
+          Value = 0.073
         },
         [2] = {
           ID = 430125,
@@ -123404,7 +123404,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 0.066
+          Value = 0.084
         },
         [2] = {
           ID = 430125,
@@ -123420,7 +123420,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 0.075
+          Value = 0.095
         },
         [2] = {
           ID = 430125,
@@ -123436,7 +123436,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 0.084
+          Value = 0.106
         },
         [2] = {
           ID = 430125,
@@ -123452,7 +123452,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 0.093
+          Value = 0.117
         },
         [2] = {
           ID = 430125,
@@ -123468,7 +123468,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 0.102
+          Value = 0.128
         },
         [2] = {
           ID = 430125,
@@ -123484,7 +123484,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 0.111
+          Value = 0.139
         },
         [2] = {
           ID = 430125,
@@ -123500,7 +123500,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 0.12
+          Value = 0.15
         },
         [2] = {
           ID = 430125,
@@ -123516,7 +123516,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 0.129
+          Value = 0.161
         },
         [2] = {
           ID = 430125,
@@ -123532,7 +123532,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 0.138
+          Value = 0.172
         },
         [2] = {
           ID = 430125,
@@ -123548,7 +123548,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 0.147
+          Value = 0.183
         },
         [2] = {
           ID = 430125,
@@ -123564,7 +123564,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 0.156
+          Value = 0.194
         },
         [2] = {
           ID = 430125,
@@ -123580,7 +123580,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 0.165
+          Value = 0.205
         },
         [2] = {
           ID = 430125,
@@ -123596,7 +123596,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 0.174
+          Value = 0.216
         },
         [2] = {
           ID = 430125,
@@ -123612,7 +123612,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 0.183
+          Value = 0.227
         },
         [2] = {
           ID = 430125,
@@ -123628,7 +123628,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 0.192
+          Value = 0.238
         },
         [2] = {
           ID = 430125,
@@ -123644,7 +123644,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 0.201
+          Value = 0.249
         },
         [2] = {
           ID = 430125,
@@ -123660,7 +123660,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 0.21
+          Value = 0.26
         },
         [2] = {
           ID = 430125,
@@ -123678,7 +123678,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 1,
           Type = "SkillEffects",
-          Value = 1.05
+          Value = 1.3
         },
         [2] = {
           ID = 430155,
@@ -123694,7 +123694,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 2,
           Type = "SkillEffects",
-          Value = 1.25
+          Value = 1.55
         },
         [2] = {
           ID = 430155,
@@ -123710,7 +123710,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 3,
           Type = "SkillEffects",
-          Value = 1.45
+          Value = 1.8
         },
         [2] = {
           ID = 430155,
@@ -123726,7 +123726,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 4,
           Type = "SkillEffects",
-          Value = 1.65
+          Value = 2.05
         },
         [2] = {
           ID = 430155,
@@ -123742,7 +123742,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 5,
           Type = "SkillEffects",
-          Value = 1.85
+          Value = 2.3
         },
         [2] = {
           ID = 430155,
@@ -123758,7 +123758,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 6,
           Type = "SkillEffects",
-          Value = 2.05
+          Value = 2.55
         },
         [2] = {
           ID = 430155,
@@ -123774,7 +123774,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 7,
           Type = "SkillEffects",
-          Value = 2.25
+          Value = 2.8
         },
         [2] = {
           ID = 430155,
@@ -123790,7 +123790,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 8,
           Type = "SkillEffects",
-          Value = 2.45
+          Value = 3.05
         },
         [2] = {
           ID = 430155,
@@ -123806,7 +123806,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 9,
           Type = "SkillEffects",
-          Value = 2.65
+          Value = 3.3
         },
         [2] = {
           ID = 430155,
@@ -123822,7 +123822,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 10,
           Type = "SkillEffects",
-          Value = 2.85
+          Value = 3.55
         },
         [2] = {
           ID = 430155,
@@ -123838,7 +123838,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 11,
           Type = "SkillEffects",
-          Value = 3.05
+          Value = 3.8
         },
         [2] = {
           ID = 430155,
@@ -123854,7 +123854,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 12,
           Type = "SkillEffects",
-          Value = 3.25
+          Value = 4.05
         },
         [2] = {
           ID = 430155,
@@ -123870,7 +123870,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 13,
           Type = "SkillEffects",
-          Value = 3.45
+          Value = 4.3
         },
         [2] = {
           ID = 430155,
@@ -123886,7 +123886,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 14,
           Type = "SkillEffects",
-          Value = 3.65
+          Value = 4.55
         },
         [2] = {
           ID = 430155,
@@ -123902,7 +123902,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 15,
           Type = "SkillEffects",
-          Value = 3.85
+          Value = 4.8
         },
         [2] = {
           ID = 430155,
@@ -123918,7 +123918,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 16,
           Type = "SkillEffects",
-          Value = 4.05
+          Value = 5.05
         },
         [2] = {
           ID = 430155,
@@ -123934,7 +123934,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 17,
           Type = "SkillEffects",
-          Value = 4.25
+          Value = 5.3
         },
         [2] = {
           ID = 430155,
@@ -123950,7 +123950,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 18,
           Type = "SkillEffects",
-          Value = 4.45
+          Value = 5.55
         },
         [2] = {
           ID = 430155,
@@ -123966,7 +123966,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 19,
           Type = "SkillEffects",
-          Value = 4.65
+          Value = 5.8
         },
         [2] = {
           ID = 430155,
@@ -123982,7 +123982,7 @@ return ReadOnly("SkillGrow", {
           Index = 1,
           Level = 20,
           Type = "SkillEffects",
-          Value = 4.85
+          Value = 6.05
         },
         [2] = {
           ID = 430155,

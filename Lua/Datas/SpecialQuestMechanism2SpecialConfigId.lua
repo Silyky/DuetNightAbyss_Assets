@@ -74,9 +74,6 @@ return ReadOnly("SpecialQuestMechanism2SpecialConfigId", {
   [1650074] = {
     [1] = 1006
   },
-  [1650280] = {
-    [1] = 1017
-  },
   [1650281] = {
     [1] = 1018
   },

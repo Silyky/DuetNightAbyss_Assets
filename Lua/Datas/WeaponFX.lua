@@ -4009,7 +4009,7 @@ return ReadOnly("WeaponFX", {
     },
     Mod01_Attack_03_Knife = {
       ChangeColorByChar = true,
-      EffectId = 1030213,
+      EffectId = 1030214,
       FXAsset = "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_ModKnife_03.NS_Claymore_ModKnife_03",
       FXPriorityType = 90,
       GroupName = "Mod01_Attack_03_Knife",
@@ -4035,7 +4035,7 @@ return ReadOnly("WeaponFX", {
     },
     Mod01_Attack_03_Wind = {
       ChangeColorByChar = true,
-      EffectId = 1030213,
+      EffectId = 1030214,
       FXAsset = "/Game/Asset/Effect/Niagara/Weapon/Claymore/NS_Claymore_Mod_GroundWind02.NS_Claymore_Mod_GroundWind02",
       FXPriorityType = 90,
       GroupName = "Mod01_Attack_03_Wind",

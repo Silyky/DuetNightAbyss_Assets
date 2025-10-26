@@ -2,6 +2,10 @@ local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
   return x
 end
 return ReadOnly("GlobalConstant", {
+  AbroadActicityMailId = {
+    ConstantName = "AbroadActicityMailId",
+    ConstantValue = 10058
+  },
   AbyssChallengerMax = {
     ConstantName = "AbyssChallengerMax",
     ConstantValue = 8
@@ -589,6 +593,10 @@ return ReadOnly("GlobalConstant", {
     ConstantName = "MiniProgramMailId_2",
     ConstantValue = 10057
   },
+  ModH5MailId = {
+    ConstantName = "ModH5MailId",
+    ConstantValue = 10059
+  },
   ModPlanMaxSuitCount = {
     ConstantName = "ModPlanMaxSuitCount",
     ConstantValue = 3
@@ -739,7 +747,7 @@ return ReadOnly("GlobalConstant", {
   },
   RegionOnlineMax = {
     ConstantName = "RegionOnlineMax",
-    ConstantValue = 100
+    ConstantValue = 50
   },
   RegionOnlineShowHigh = {
     ConstantName = "RegionOnlineShowHigh",

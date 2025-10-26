@@ -280,7 +280,7 @@ return {
             key = "1756032377236372522",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 2488.441407382622, y = 566.6949241150268},
+            pos = {x = 2488.441407382622, y = 565.3435727915403},
             propsData = {
               ShowEnable = true,
               MessageId = 302805,

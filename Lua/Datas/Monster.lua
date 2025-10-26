@@ -306,7 +306,7 @@ return ReadOnly("Monster", {
       ChannelsSend = {0, 1}
     },
     AlertId = 103,
-    BT = "/Game/AssetDesign/AI/Z_Misc_Test/BT/BT_Test_Jailer.BT_Test_Jailer",
+    BT = "/Game/AssetDesign/AI/Monster/Jt_Zhihui/BT_7Jailer.BT_7Jailer",
     BattleRoleId = 115,
     BloodUIParmas = {
       UIStyleNodeName = "Rescue_Elite_Monster"
@@ -9829,7 +9829,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014001,
     UnitName = "Mon_Name_6014001"
   },
@@ -9869,7 +9869,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014004,
     UnitName = "Mon_Name_6014001"
   },
@@ -9914,7 +9914,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014011,
     UnitName = "Mon_Name_6014011"
   },
@@ -9959,7 +9959,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014012,
     UnitName = "Mon_Name_6014012"
   },
@@ -10006,7 +10006,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014013,
     UnitName = "Mon_Name_6014013"
   },
@@ -10051,7 +10051,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014014,
     UnitName = "Mon_Name_6014014"
   },
@@ -10097,7 +10097,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014015,
     UnitName = "Mon_Name_6014015"
   },
@@ -10142,7 +10142,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014016,
     UnitName = "Mon_Name_6014016"
   },
@@ -10187,7 +10187,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014017,
     UnitName = "Mon_Name_6014017"
   },
@@ -10232,7 +10232,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014018,
     UnitName = "Mon_Name_6014018"
   },
@@ -10277,7 +10277,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014019,
     UnitName = "Mon_Name_6014019"
   },
@@ -10322,7 +10322,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014020,
     UnitName = "Mon_Name_6014020"
   },
@@ -10367,7 +10367,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014021,
     UnitName = "Mon_Name_6014021"
   },
@@ -10413,7 +10413,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014022,
     UnitName = "Mon_Name_6014022"
   },
@@ -10458,7 +10458,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014023,
     UnitName = "Mon_Name_6014023"
   },
@@ -10503,7 +10503,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014024,
     UnitName = "Mon_Name_6014024"
   },
@@ -10549,7 +10549,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014201,
     UnitName = "Mon_Name_6014201"
   },
@@ -10596,7 +10596,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014301,
     UnitName = "Mon_Name_6014301"
   },
@@ -10635,7 +10635,7 @@ return ReadOnly("Monster", {
     NavAgentId = 2,
     RewardId = 5,
     TeamMoveGroup = 6004,
-    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu_Fire.BP_Mon_Gr_Baotu_Fire",
+    UnitBPPath = "/Game/AssetDesign/Char/Monster/Gr_Baotu/BP_Mon_Gr_Baotu.BP_Mon_Gr_Baotu",
     UnitId = 6014601,
     UnitName = "Mon_Name_6014001"
   },
@@ -34534,7 +34534,7 @@ return ReadOnly("Monster", {
       "Mon.Sq",
       "Mon.Ranged",
       "Mon.Summon",
-      "Mon.Reward.C",
+      "Mon.Reward.E",
       "Mon.Elite"
     },
     GuideIconAni = "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Annihilate.WBP_GuidePoint_Annihilate",
@@ -35334,7 +35334,7 @@ return ReadOnly("Monster", {
       "Mon.Sq",
       "Mon.Melee",
       "Mon.Summon",
-      "Mon.Reward.C",
+      "Mon.Reward.E",
       "Mon.Elite"
     },
     GuideIconAni = "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Annihilate.WBP_GuidePoint_Annihilate",
@@ -35376,7 +35376,7 @@ return ReadOnly("Monster", {
       "Mon.Sq",
       "Mon.Melee",
       "Mon.Summon",
-      "Mon.Reward.C",
+      "Mon.Reward.E",
       "Mon.Elite"
     },
     GuideIconAni = "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Annihilate.WBP_GuidePoint_Annihilate",

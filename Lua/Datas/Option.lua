@@ -27,7 +27,7 @@ return ReadOnly("Option", {
     EMCacheName = "ConsoleVariable",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 54,
+    SortId = 55,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -46,7 +46,7 @@ return ReadOnly("Option", {
     EMCacheName = "AntiAliasing",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 46,
+    SortId = 47,
     SubOptionDefaultValue = {
       0,
       4,
@@ -82,7 +82,7 @@ return ReadOnly("Option", {
     DefaultValueM = "True",
     EMCacheName = "AutoJoin",
     Region = 1,
-    SortId = 72,
+    SortId = 73,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -119,7 +119,7 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_Opition_View",
     GameHide = 2,
     Region = 1,
-    SortId = 79,
+    SortId = 80,
     SpecialHide = 1,
     Tag = "Other",
     TagID = 6,
@@ -134,7 +134,7 @@ return ReadOnly("Option", {
     EMCacheName = "ContentPerformance",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 44,
+    SortId = 45,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -155,10 +155,11 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_GameEvent_Goto",
     GameHide = 2,
     Region = 1,
-    SortId = 75,
+    SortId = 76,
     Tag = "Other",
     TagID = 6,
-    TagName = "UI_OPTION_Other"
+    TagName = "UI_OPTION_Other",
+    UCloudHide = true
   },
   DLSS = {
     Cache = "DLSS",
@@ -246,7 +247,7 @@ return ReadOnly("Option", {
     DefaultValueM = "2.0",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 59,
+    SortId = 60,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -267,7 +268,7 @@ return ReadOnly("Option", {
     HideOnPhone = true,
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 60,
+    SortId = 61,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -289,7 +290,7 @@ return ReadOnly("Option", {
     EMCacheName = "ConsoleVariable",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 49,
+    SortId = 50,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -308,7 +309,7 @@ return ReadOnly("Option", {
     EMCacheName = "GameUserSettings",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 33,
+    SortId = 34,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -355,10 +356,11 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_ActionPoint_Use",
     GameHide = 2,
     Region = 1,
-    SortId = 76,
+    SortId = 77,
     Tag = "Other",
     TagID = 6,
-    TagName = "UI_OPTION_Other"
+    TagName = "UI_OPTION_Other",
+    UCloudHide = true
   },
   FSR = {
     Cache = "FSR",
@@ -565,7 +567,7 @@ return ReadOnly("Option", {
     EMCacheName = "HUDScale",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 37,
+    SortId = 38,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -608,7 +610,7 @@ return ReadOnly("Option", {
     DefaultValueM = "False",
     EMCacheName = "HidePlayer",
     Region = 1,
-    SortId = 73,
+    SortId = 74,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -666,7 +668,7 @@ return ReadOnly("Option", {
     GameHide = 2,
     HideOnPhone = true,
     Region = 1,
-    SortId = 71,
+    SortId = 72,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -720,7 +722,7 @@ return ReadOnly("Option", {
     HideOnPhone = true,
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 57,
+    SortId = 58,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -745,11 +747,12 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_OPTION_Logoff",
     GameHide = 2,
     Region = 1,
-    SortId = 82,
+    SortId = 83,
     SpecialHide = 1,
     Tag = "Other",
     TagID = 6,
-    TagName = "UI_OPTION_Other"
+    TagName = "UI_OPTION_Other",
+    UCloudHide = true
   },
   LongPressLockShooting = {
     Cache = "LongPressLockShooting",
@@ -780,7 +783,7 @@ return ReadOnly("Option", {
     EMCacheName = "ConsoleVariable",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 48,
+    SortId = 49,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -802,7 +805,7 @@ return ReadOnly("Option", {
     EMCacheName = "GameUserSettings",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 47,
+    SortId = 48,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -813,6 +816,31 @@ return ReadOnly("Option", {
       "UI_EffectQuality_Middle",
       "UI_EffectQuality_High",
       "UI_EffectQuality_ExtremelyHigh"
+    }
+  },
+  MobileResolution = {
+    Cache = "MobileResolution",
+    CacheText = "UI_OPTION_MobileResolution",
+    ControlType = "UnFold",
+    DefaultValue = "2.0",
+    DefaultValueM = "2.0",
+    HideOnPC = true,
+    Region = 2,
+    RegionName = "UI_Option_Area_11",
+    SortId = 32,
+    Tag = "View",
+    TagID = 3,
+    TagName = "UI_OPTION_DISPLAY",
+    UCloudHide = true,
+    UnFoldText = {
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
+    },
+    UnFoldTextM = {
+      "UI_EffectQuality_Low",
+      "UI_EffectQuality_Middle",
+      "UI_EffectQuality_High"
     }
   },
   MusicVolume = {
@@ -829,7 +857,7 @@ return ReadOnly("Option", {
     ScrollNum = {
       0, 10
     },
-    SortId = 65,
+    SortId = 66,
     Tag = "Voice",
     TagID = 4,
     TagName = "UI_OPTION_AUDIO"
@@ -844,7 +872,7 @@ return ReadOnly("Option", {
     HideOnPhone = true,
     Region = 1,
     RegionName = "UI_Option_Area_4",
-    SortId = 64,
+    SortId = 65,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -885,7 +913,7 @@ return ReadOnly("Option", {
     EMCacheName = "ConsoleVariable",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 61,
+    SortId = 62,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -903,7 +931,7 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_Opition_View",
     GameHide = 2,
     Region = 1,
-    SortId = 78,
+    SortId = 79,
     Tag = "Other",
     TagID = 6,
     TagName = "UI_OPTION_Other"
@@ -919,7 +947,7 @@ return ReadOnly("Option", {
     HideOnPhone = true,
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 50,
+    SortId = 51,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -938,7 +966,7 @@ return ReadOnly("Option", {
     EMCacheName = "ConsoleVariable",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 53,
+    SortId = 54,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -958,7 +986,7 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_OPTION_ReleaseStuck_Default",
     GameHide = 2,
     Region = 1,
-    SortId = 74,
+    SortId = 75,
     Tag = "Other",
     TagID = 6,
     TagName = "UI_OPTION_Other"
@@ -992,7 +1020,7 @@ return ReadOnly("Option", {
     EMCacheName = "ScreenQuality",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 62,
+    SortId = 63,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -1012,7 +1040,7 @@ return ReadOnly("Option", {
     EMCacheName = "GameUserSettings",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 32,
+    SortId = 33,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -1115,7 +1143,7 @@ return ReadOnly("Option", {
     ScrollNum = {
       0, 10
     },
-    SortId = 67,
+    SortId = 68,
     Tag = "Voice",
     TagID = 4,
     TagName = "UI_OPTION_AUDIO"
@@ -1147,10 +1175,11 @@ return ReadOnly("Option", {
     GameHide = 2,
     Region = 1,
     RegionName = "UI_Option_Area_2",
-    SortId = 68,
+    SortId = 69,
     Tag = "Language",
     TagID = 5,
     TagName = "UI_OPTION_LANGUAGE",
+    UCloudHide = true,
     UnFoldText = {
       "UI_Language_Text_CN",
       "UI_Language_Text_EN",
@@ -1169,7 +1198,7 @@ return ReadOnly("Option", {
     GameHide = 2,
     Region = 2,
     RegionName = "UI_Option_Area_13",
-    SortId = 69,
+    SortId = 70,
     Tag = "Language",
     TagID = 5,
     TagName = "UI_OPTION_LANGUAGE",
@@ -1189,7 +1218,7 @@ return ReadOnly("Option", {
     EMCacheName = "TeammateEffects",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 43,
+    SortId = 44,
     Tag = "View",
     TagID = 3,
     TagName = "UI_OPTION_DISPLAY",
@@ -1208,7 +1237,7 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_Opition_View",
     GameHide = 2,
     Region = 1,
-    SortId = 77,
+    SortId = 78,
     SpecialHide = 2,
     Tag = "Other",
     TagID = 6,
@@ -1223,7 +1252,7 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_Opition_View",
     GameHide = 2,
     Region = 1,
-    SortId = 80,
+    SortId = 81,
     SpecialHide = 1,
     Tag = "Other",
     TagID = 6,
@@ -1243,7 +1272,7 @@ return ReadOnly("Option", {
     ScrollNum = {
       0, 10
     },
-    SortId = 63,
+    SortId = 64,
     Tag = "Voice",
     TagID = 4,
     TagName = "UI_OPTION_AUDIO"
@@ -1276,7 +1305,7 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_OPTION_Goto",
     GameHide = 2,
     Region = 1,
-    SortId = 83,
+    SortId = 84,
     SpecialHide = 2,
     Tag = "Other",
     TagID = 6,
@@ -1290,7 +1319,7 @@ return ReadOnly("Option", {
     DefaultValueM = "UI_Opition_View",
     GameHide = 2,
     Region = 1,
-    SortId = 81,
+    SortId = 82,
     SpecialHide = 1,
     Tag = "Other",
     TagID = 6,
@@ -1344,7 +1373,7 @@ return ReadOnly("Option", {
     DefaultValueM = "True",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 38,
+    SortId = 39,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"
@@ -1363,7 +1392,7 @@ return ReadOnly("Option", {
     GameHide = 2,
     Region = 2,
     RegionName = "UI_Option_Area_13",
-    SortId = 70,
+    SortId = 71,
     Tag = "Language",
     TagID = 5,
     TagName = "UI_OPTION_LANGUAGE"
@@ -1382,7 +1411,7 @@ return ReadOnly("Option", {
     ScrollNum = {
       0, 10
     },
-    SortId = 66,
+    SortId = 67,
     Tag = "Voice",
     TagID = 4,
     TagName = "UI_OPTION_AUDIO"
@@ -1396,7 +1425,7 @@ return ReadOnly("Option", {
     EMCacheName = "ConsoleVariable",
     Region = 2,
     RegionName = "UI_Option_Area_11",
-    SortId = 55,
+    SortId = 56,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"

@@ -514,14 +514,14 @@ return ReadOnly("EffectCreature", {
   [10101] = {
     EffectCreatureAnimPath = "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Show_Kaorou01_Girl_Montage.Show_Kaorou01_Girl_Montage",
     EffectCreatureId = 10101,
-    EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture_Kaorou.BP_EffectCreature_Gesture_Kaorou",
     MeshResourceId = 301,
     SocketName = "Root"
   },
   [10102] = {
     EffectCreatureAnimPath = "/Game/Asset/Char/Player/Common/Part/Show/Animation/Montage/Show_Kaorou01_Loli_Montage.Show_Kaorou01_Loli_Montage",
     EffectCreatureId = 10102,
-    EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture.BP_EffectCreature_Gesture",
+    EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/Gesture/BP_EffectCreature_Gesture_Kaorou.BP_EffectCreature_Gesture_Kaorou",
     MeshResourceId = 302,
     SocketName = "Root"
   },

@@ -74,6 +74,30 @@ return ReadOnly("Monitor", {
     TimeInterval = 60,
     Value = 100
   },
+  [10] = {
+    MonitorId = 10,
+    MonitorType = "Resource",
+    SourceType = 0,
+    SubId = 211,
+    TimeInterval = 1,
+    Value = 2000
+  },
+  [11] = {
+    MonitorId = 11,
+    MonitorType = "Resource",
+    SourceType = 0,
+    SubId = 211,
+    TimeInterval = 60,
+    Value = 7500
+  },
+  [12] = {
+    MonitorId = 12,
+    MonitorType = "Resource",
+    SourceType = 0,
+    SubId = 211,
+    TimeInterval = 1440,
+    Value = 100000
+  },
   [10001] = {
     MonitorId = 10001,
     MonitorType = "reward",

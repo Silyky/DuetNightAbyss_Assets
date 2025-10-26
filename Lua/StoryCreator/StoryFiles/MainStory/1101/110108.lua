@@ -107,7 +107,7 @@ return {
       key = "1722421160201347624",
       type = "StoryNode",
       name = "下水道逃脱",
-      pos = {x = 1120.8872587816631, y = -334.85769618109765},
+      pos = {x = 1120.1180280124324, y = -334.85769618109765},
       propsData = {
         QuestId = 11010802,
         QuestDescriptionComment = "下水道逃脱",
@@ -131,7 +131,7 @@ return {
         IsFairyLand = true,
         SubRegionId = 102103,
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "5"
+        StoryGuidePointName = ""
       },
       questNodeData = {
         lineData = {
@@ -941,7 +941,7 @@ return {
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
+        IsFairyLand = true,
         SubRegionId = 102103,
         StoryGuideType = "Mechanism",
         StoryGuidePointName = ""
@@ -1315,7 +1315,7 @@ return {
             key = "17447052896214593585",
             type = "TalkNode",
             name = "达芙涅回忆过场",
-            pos = {x = 327.066385338799, y = 280.8326923076923},
+            pos = {x = 324.4576896866251, y = 279.52834448160536},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 0,
@@ -1666,7 +1666,7 @@ return {
       key = "17237967862881226045",
       type = "StoryNode",
       name = "前往下水道被埋伏",
-      pos = {x = 797.5089667159575, y = -674.2342907505175},
+      pos = {x = 796.3978556048464, y = -674.2342907505175},
       propsData = {
         QuestId = 11010810,
         QuestDescriptionComment = "达芙涅同行",
@@ -1731,21 +1731,15 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17237967863581226341",
-            startPort = "QuestStart",
-            endQuest = "17325105177841225676",
-            endPort = "In"
-          },
-          {
-            startQuest = "17325105177841225676",
-            startPort = "Out",
-            endQuest = "17340781181297265684",
-            endPort = "In"
-          },
-          {
             startQuest = "17340781181297265684",
             startPort = "Out",
             endQuest = "17237967863581226344",
+            endPort = "In"
+          },
+          {
+            startQuest = "17237967863581226341",
+            startPort = "QuestStart",
+            endQuest = "17340781181297265684",
             endPort = "In"
           }
         },
@@ -1820,17 +1814,6 @@ return {
               RelatedRegionId = {102102},
               ClientRelatedRegionId = {},
               bStoreToServer = true
-            }
-          },
-          ["17325105177841225676"] = {
-            key = "17325105177841225676",
-            type = "SendMessageNode",
-            name = "发送消息",
-            pos = {x = -1627.4171473454096, y = 439.4506510965588},
-            propsData = {
-              MessageType = "GameMode",
-              MessageContent = "MaifuStart",
-              UnitId = -1
             }
           },
           ["17340781181297265684"] = {
@@ -2680,7 +2663,7 @@ return {
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
+        IsFairyLand = true,
         SubRegionId = 102104,
         StoryGuideType = "Point",
         StoryGuidePointName = ""

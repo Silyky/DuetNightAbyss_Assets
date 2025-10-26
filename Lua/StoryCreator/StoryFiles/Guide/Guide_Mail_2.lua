@@ -82,12 +82,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17566466119051649760",
-            startPort = "QuestStart",
-            endQuest = "17566466119051649764",
-            endPort = "In"
-          },
-          {
             startQuest = "17566466119051649768",
             startPort = "Out",
             endQuest = "17566466119051649761",
@@ -118,12 +112,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17566466119051649764",
-            startPort = "Out",
-            endQuest = "17566464042671704",
-            endPort = "Input"
-          },
-          {
             startQuest = "17566464042671705",
             startPort = "Out",
             endQuest = "17566466119051649768",
@@ -140,6 +128,30 @@ return {
             startPort = "Out",
             endQuest = "17566466119051649768",
             endPort = "In"
+          },
+          {
+            startQuest = "17566466119051649760",
+            startPort = "QuestStart",
+            endQuest = "17590286999472175224",
+            endPort = "In"
+          },
+          {
+            startQuest = "17590286999472175224",
+            startPort = "Fail",
+            endQuest = "17566466119051649764",
+            endPort = "In"
+          },
+          {
+            startQuest = "17566466119051649764",
+            startPort = "Out",
+            endQuest = "17566464042671704",
+            endPort = "Input"
+          },
+          {
+            startQuest = "17590286999472175224",
+            startPort = "Success",
+            endQuest = "17566466119051649761",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -269,7 +281,7 @@ return {
             key = "17566466119051649760",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 684, y = 524},
+            pos = {x = 596.0689662883455, y = 501.58620709310765},
             propsData = {ModeType = 0}
           },
           ["17566466119051649761"] = {
@@ -320,7 +332,7 @@ return {
             key = "17566466119051649764",
             type = "ShowGuideTextNode",
             name = "Text显示信息",
-            pos = {x = 1032.0384978341551, y = 567.221341453414},
+            pos = {x = 1045.8316011614734, y = 522.3937556396293},
             propsData = {
               MessageId = 302806,
               MessageNote = "合成提示",
@@ -492,6 +504,13 @@ return {
               MessageContent = -1,
               UnitId = -1
             }
+          },
+          ["17590286999472175224"] = {
+            key = "17590286999472175224",
+            type = "ConditionNode",
+            name = "条件节点",
+            pos = {x = 822.2068988650364, y = 335.724136600502},
+            propsData = {ConditionId = 210100}
           }
         },
         commentData = {}

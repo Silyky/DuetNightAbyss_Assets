@@ -440,6 +440,15 @@ return ReadOnly("UIGuide", {
     GuideId = 87,
     MainGuideTitle = "MAINUIGUIDE_TITLE_Saiqi_1"
   },
+  [88] = {
+    ChildGuideId = {
+      8801,
+      8802,
+      8803
+    },
+    GuideId = 88,
+    MainGuideTitle = "MAINUIGUIDE_TITLE_ONLINEAREA"
+  },
   [115] = {
     ChildGuideId = {11501, 11502},
     GuideId = 115,

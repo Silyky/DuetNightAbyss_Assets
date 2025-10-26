@@ -11,7 +11,7 @@ return ReadOnly("ShopTabSub", {
   [1201] = {
     MainTabId = 120,
     ReddotNode = "Shop_Skin_Suit",
-    SubName = "UI_SHOP_MAINTAB_SKIN",
+    SubName = "UI_SHOP_SUBTAB_SKIN",
     SubTabId = 1201,
     TabCoin = {
       99, 100
@@ -74,14 +74,20 @@ return ReadOnly("ShopTabSub", {
     TabCoin = {110},
     TabType = "Normal"
   },
+  [1500] = {
+    MainTabId = 150,
+    ReddotNode = "Shop_Item_Yueshijingpei",
+    SubName = "UI_SHOP_SUBTAB_NAME_YUESHIJINGPEI",
+    SubTabId = 1500,
+    TabCoin = 99,
+    TabType = "Normal"
+  },
   [1501] = {
     MainTabId = 150,
     ReddotNode = "Shop_Item_Yueshi",
     SubName = "UI_SHOP_SUBTAB_NAME_YUESHITAB",
     SubTabId = 1501,
-    TabCoin = {
-      99, 100
-    },
+    TabCoin = {100},
     TabType = "Normal"
   },
   [1502] = {
@@ -89,9 +95,7 @@ return ReadOnly("ShopTabSub", {
     ReddotNode = "Shop_Item_CharPiece",
     SubName = "UI_SHOP_SUBTAB_NAME_CHARPIECE",
     SubTabId = 1502,
-    TabCoin = {
-      99, 100
-    },
+    TabCoin = 99,
     TabType = "Normal"
   },
   [1503] = {
@@ -99,10 +103,18 @@ return ReadOnly("ShopTabSub", {
     ReddotNode = "Shop_Item_Weapon",
     SubName = "UI_SHOP_SUBTAB_NAME_WEAPON",
     SubTabId = 1503,
+    TabCoin = 99,
+    TabType = "Normal"
+  },
+  [1601] = {
+    MainTabId = 160,
+    ReddotNode = "Shop_Pack_Limit",
+    SubName = "UI_SHOP_MAINTAB_PACK_LIMIT",
+    SubTabId = 1601,
     TabCoin = {
       99, 100
     },
-    TabType = "Normal"
+    TabType = "Pack"
   },
   [1604] = {
     MainTabId = 160,
@@ -236,7 +248,7 @@ return ReadOnly("ShopTabSub", {
   },
   [100021] = {
     MainTabId = 10002,
-    SubName = "Rouge_ExchangeShop",
+    SubName = "UI_SHOP_ROGUE_ITEM",
     SubTabId = 100021,
     TabCoin = 215,
     TabType = "Normal"

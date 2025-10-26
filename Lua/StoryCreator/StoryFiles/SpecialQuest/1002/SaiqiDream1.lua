@@ -734,6 +734,12 @@ return {
             startPort = "Out",
             endQuest = "174800614085416893",
             endPort = "In"
+          },
+          {
+            startQuest = "17182738991692003322",
+            startPort = "Out",
+            endQuest = "17606722826121882",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -904,7 +910,7 @@ return {
             key = "17182738991692003322",
             type = "GoToNode",
             name = "前往第二个房间",
-            pos = {x = 748.521178025105, y = -186.9096098179425},
+            pos = {x = 597.521178025105, y = -273.9096098179425},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1630021,
@@ -1000,7 +1006,7 @@ return {
             key = "17182738991702003335",
             type = "GoToNode",
             name = "前往第二个房间触发对话",
-            pos = {x = 740.7564087963817, y = -46.95679149468424},
+            pos = {x = 707.7564087963817, y = -18.956791494684236},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1630034,
@@ -1726,7 +1732,7 @@ return {
             pos = {x = 1340.4981178951762, y = -819.9332856685788},
             propsData = {
               IsNpcNode = true,
-              NpcNodeInteractiveName = "",
+              NpcNodeInteractiveName = "UI_Npc_Name_Won1",
               NpcId = 200081,
               GuideUIEnable = false,
               GuideType = "N",
@@ -1892,7 +1898,7 @@ return {
             pos = {x = 1347.2068021857158, y = -296.68327903137725},
             propsData = {
               IsNpcNode = true,
-              NpcNodeInteractiveName = "",
+              NpcNodeInteractiveName = "UI_Npc_Name_Won2",
               NpcId = 200082,
               GuideUIEnable = false,
               GuideType = "N",
@@ -2045,7 +2051,7 @@ return {
             pos = {x = 1360.441131002381, y = 388.5711114035015},
             propsData = {
               IsNpcNode = true,
-              NpcNodeInteractiveName = "",
+              NpcNodeInteractiveName = "UI_Npc_Name_Won3",
               NpcId = 200083,
               GuideUIEnable = false,
               GuideType = "N",
@@ -2151,7 +2157,7 @@ return {
             pos = {x = 1314.846754516853, y = 932.8604397741458},
             propsData = {
               IsNpcNode = true,
-              NpcNodeInteractiveName = "",
+              NpcNodeInteractiveName = "UI_Npc_Name_Won4",
               NpcId = 200084,
               GuideUIEnable = false,
               GuideType = "N",
@@ -2284,7 +2290,7 @@ return {
             pos = {x = 1731.3504149359403, y = 1503.9835405822244},
             propsData = {
               IsNpcNode = true,
-              NpcNodeInteractiveName = "",
+              NpcNodeInteractiveName = "UI_Npc_Name_Won5",
               NpcId = 200085,
               GuideUIEnable = false,
               GuideType = "N",
@@ -2410,7 +2416,7 @@ return {
             key = "174800614085416893",
             type = "PlayOrStopBGMNode",
             name = "播放 积木效果音",
-            pos = {x = 510.7939052978325, y = -115.31870072703337},
+            pos = {x = 390.7939052978325, y = -168.3187007270334},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -2421,6 +2427,20 @@ return {
               RelatedRegionId = {},
               ClientRelatedRegionId = {},
               bStoreToServer = false
+            }
+          },
+          ["17606722826121882"] = {
+            key = "17606722826121882",
+            type = "ChangeStaticCreatorNode",
+            name = "生成/销毁节点",
+            pos = {x = 803.9565217391303, y = -146.26086956521743},
+            propsData = {
+              ActiveEnable = false,
+              EnableBlackScreenSync = false,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {1630079}
             }
           }
         },

@@ -93,15 +93,21 @@ return {
       endPort = "In"
     },
     {
-      startStory = "17544762212711742429",
-      startPort = "Success",
-      endStory = "17574017033051867104",
-      endPort = "In"
-    },
-    {
       startStory = "17574017033051867104",
       startPort = "Success",
       endStory = "17544762212711742418",
+      endPort = "In"
+    },
+    {
+      startStory = "17544762212711742429",
+      startPort = "完成副本",
+      endStory = "17544762212711742418",
+      endPort = "In"
+    },
+    {
+      startStory = "17544762212711742429",
+      startPort = "未完成副本",
+      endStory = "17574017033051867104",
       endPort = "In"
     }
   },
@@ -111,7 +117,7 @@ return {
       key = "17544762212711742404",
       type = "StoryStartNode",
       name = "StoryStart",
-      pos = {x = 1077.5164502164503, y = -344.237950937951},
+      pos = {x = 1017.5164502164503, y = -530.5236652236653},
       propsData = {QuestChainId = 120114},
       questNodeData = {
         lineData = {},
@@ -124,7 +130,7 @@ return {
       key = "17544762212711742405",
       type = "StoryEndNode",
       name = "StoryEnd",
-      pos = {x = 3570.623295169257, y = 517.6585694065436},
+      pos = {x = 3603.346958270861, y = 276.501884914565},
       propsData = {},
       questNodeData = {
         lineData = {},
@@ -137,7 +143,7 @@ return {
       key = "17544762212711742418",
       type = "StoryNode",
       name = "结束",
-      pos = {x = 3276.279417852603, y = 478.27339664213247},
+      pos = {x = 3309.025139777737, y = 277.74545546566185},
       propsData = {
         QuestId = 12011414,
         QuestDescriptionComment = "",
@@ -165,12 +171,6 @@ return {
       },
       questNodeData = {
         lineData = {
-          {
-            startQuest = "17558546295375255",
-            startPort = "Out",
-            endQuest = "17544762212711742508",
-            endPort = "Success"
-          },
           {
             startQuest = "17576645841834386",
             startPort = "true",
@@ -230,6 +230,24 @@ return {
             startPort = "PassiveFail",
             endQuest = "17544762212711742509",
             endPort = "Fail"
+          },
+          {
+            startQuest = "17576645841834384",
+            startPort = "Success",
+            endQuest = "1759913775428938085",
+            endPort = "In"
+          },
+          {
+            startQuest = "17558546295375255",
+            startPort = "Out",
+            endQuest = "1759913775428938086",
+            endPort = "In"
+          },
+          {
+            startQuest = "1759913775428938086",
+            startPort = "Out",
+            endQuest = "17544762212711742508",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -244,21 +262,21 @@ return {
             key = "17544762212711742508",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2043, y = 348},
+            pos = {x = 2362.714285714286, y = 317.7142857142857},
             propsData = {ModeType = 0}
           },
           ["17544762212711742509"] = {
             key = "17544762212711742509",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2027.4285714285716, y = 615.7142857142858},
+            pos = {x = 1691.4285714285716, y = 487.7142857142858},
             propsData = {}
           },
           ["17558546295375255"] = {
             key = "17558546295375255",
             type = "TalkNode",
             name = "SC04【过场】大合照",
-            pos = {x = 1680.892857142857, y = 324.0357142857143},
+            pos = {x = 1692.892857142857, y = 322.0357142857143},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -374,6 +392,34 @@ return {
               NewTargetPointName = "",
               StaticCreatorIdList = {1230086, 1230087}
             }
+          },
+          ["1759913775428938085"] = {
+            key = "1759913775428938085",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1686.3462217371386, y = 145.78571428571428},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/1_0/0091_feina_activity_cs_01",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {101105},
+              bStoreToServer = false
+            }
+          },
+          ["1759913775428938086"] = {
+            key = "1759913775428938086",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 2020.7966354057187, y = 315.64285714285717},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
+            }
           }
         },
         commentData = {}
@@ -384,7 +430,7 @@ return {
       key = "17544762212711742419",
       type = "StoryNode",
       name = "从床上醒来",
-      pos = {x = 1639.3358371658057, y = -273.9518282098417},
+      pos = {x = 1616.1478672409937, y = -530.3578432474358},
       propsData = {
         QuestId = 12011401,
         QuestDescriptionComment = "",
@@ -606,7 +652,7 @@ return {
       key = "17544762212711742420",
       type = "StoryNode",
       name = "发现线索",
-      pos = {x = 1368.4943539317094, y = -129.94647549940115},
+      pos = {x = 1631.8693539317092, y = -145.32147549940115},
       propsData = {
         QuestId = 12011406,
         QuestDescriptionComment = "",
@@ -867,163 +913,12 @@ return {
         commentData = {}
       }
     },
-    ["17544762212711742421"] = {
-      isStoryNode = true,
-      key = "17544762212711742421",
-      type = "StoryNode",
-      name = "和女主对话",
-      pos = {x = 1676.0039821639077, y = -591.9383498271372},
-      propsData = {
-        QuestId = 12011402,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120114_2",
-        QuestDeatil = "Content_120114_2",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = true,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 101101,
-        StoryGuideType = "Point",
-        StoryGuidePointName = "TargetPoint_OutSiderHome"
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "175446974917220843",
-            startPort = "Success",
-            endQuest = "17544762212721742559",
-            endPort = "Success"
-          },
-          {
-            startQuest = "175446974917220843",
-            startPort = "Fail",
-            endQuest = "17544762212721742560",
-            endPort = "Fail"
-          },
-          {
-            startQuest = "175446974917220843",
-            startPort = "PassiveFail",
-            endQuest = "17544762212721742560",
-            endPort = "Fail"
-          },
-          {
-            startQuest = "17555145038645509308",
-            startPort = "true",
-            endQuest = "17555145038635509307",
-            endPort = "In"
-          },
-          {
-            startQuest = "17544762212721742558",
-            startPort = "QuestStart",
-            endQuest = "17555145038645509308",
-            endPort = "In"
-          },
-          {
-            startQuest = "17555145038645509308",
-            startPort = "false",
-            endQuest = "175455786526319405500",
-            endPort = "In"
-          },
-          {
-            startQuest = "175455786526319405500",
-            startPort = "Out",
-            endQuest = "175446974917220843",
-            endPort = "In"
-          },
-          {
-            startQuest = "17555145038645509308",
-            startPort = "true",
-            endQuest = "175446974917220843",
-            endPort = "In"
-          }
-        },
-        nodeData = {
-          ["175446974917220843"] = {
-            key = "175446974917220843",
-            type = "WaitingSpecialQuestStartAndFinishNode",
-            name = "等待特殊任务开始并完成",
-            pos = {x = 1338, y = 328},
-            propsData = {SpecialConfigId = 2071, BlackScreenImmediately = true}
-          },
-          ["17544762212721742558"] = {
-            key = "17544762212721742558",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 462, y = 352},
-            propsData = {ModeType = 0}
-          },
-          ["17544762212721742559"] = {
-            key = "17544762212721742559",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 1821.967741935484, y = 312.37096774193543},
-            propsData = {ModeType = 0}
-          },
-          ["17544762212721742560"] = {
-            key = "17544762212721742560",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 1824, y = 492},
-            propsData = {}
-          },
-          ["175455786526319405500"] = {
-            key = "175455786526319405500",
-            type = "GoToNode",
-            name = "前往",
-            pos = {x = 1066, y = 559.2631578947369},
-            propsData = {
-              GuideUIEnable = true,
-              StaticCreatorId = 1191788,
-              GuideType = "M",
-              GuidePointName = "Mechanism_TriggerBox_Feina01_1191788"
-            }
-          },
-          ["17555145038635509307"] = {
-            key = "17555145038635509307",
-            type = "SetVarNode",
-            name = "设置变量值",
-            pos = {x = 1118.4057553533366, y = 120.3279220779221},
-            propsData = {
-              VarName = "FeinaDay04Walk01",
-              VarValue = 1
-            }
-          },
-          ["17555145038645509308"] = {
-            key = "17555145038645509308",
-            type = "ExecuteBlueprintFunctionCheckVarNode",
-            name = "是否在阶段1",
-            pos = {x = 761.9420349495235, y = 333.32792207792204},
-            propsData = {
-              FunctionName = "Equal",
-              VarName = "FeinaDay04Walk01",
-              Duration = 0,
-              VarInfos = {
-                {VarName = "Value", VarValue = "0"}
-              }
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
     ["17544762212711742422"] = {
       isStoryNode = true,
       key = "17544762212711742422",
       type = "StoryNode",
       name = "去找弟弟",
-      pos = {x = 1899.0540062276903, y = -234.61414911814535},
+      pos = {x = 2032.3932919419758, y = -531.6498634038596},
       propsData = {
         QuestId = 12011403,
         QuestDescriptionComment = "",
@@ -1425,7 +1320,7 @@ return {
       key = "17544762212711742423",
       type = "StoryNode",
       name = "回家",
-      pos = {x = 2174.2206499187546, y = -186.82981399931435},
+      pos = {x = 2313.774221347326, y = -528.8655282850286},
       propsData = {
         QuestId = 12011404,
         QuestDescriptionComment = "",
@@ -1651,7 +1546,7 @@ return {
       key = "17544762212711742424",
       type = "StoryNode",
       name = "弟弟不见了",
-      pos = {x = 2475.2602259669115, y = -119.34924419362117},
+      pos = {x = 1368.5102259669115, y = -144.1885299079069},
       propsData = {
         QuestId = 12011405,
         QuestDescriptionComment = "",
@@ -2009,7 +1904,7 @@ return {
       key = "17544762212711742425",
       type = "StoryNode",
       name = "强盗营地前",
-      pos = {x = 1640.9087570263212, y = -79.74247262716361},
+      pos = {x = 1899.408757026321, y = -143.6174726271636},
       propsData = {
         QuestId = 12011407,
         QuestDescriptionComment = "",
@@ -2068,12 +1963,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17558650944972790801",
-            startPort = "Out",
-            endQuest = "17544762212721742583",
-            endPort = "Success"
-          },
-          {
             startQuest = "17555146960215515020",
             startPort = "true",
             endQuest = "17544758375291019433",
@@ -2102,6 +1991,24 @@ return {
             startPort = "Out",
             endQuest = "175752404079212076699",
             endPort = "In"
+          },
+          {
+            startQuest = "17544758375291019433",
+            startPort = "Success",
+            endQuest = "17599125586245104",
+            endPort = "In"
+          },
+          {
+            startQuest = "17558650944972790801",
+            startPort = "Out",
+            endQuest = "17599125758545562",
+            endPort = "In"
+          },
+          {
+            startQuest = "17599125758545562",
+            startPort = "Out",
+            endQuest = "17544762212721742583",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -2123,14 +2030,14 @@ return {
             key = "17544762212721742583",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1146.894393241167, y = 369.20674486803506},
+            pos = {x = 1409.9713163180902, y = 389.9759756372659},
             propsData = {ModeType = 0}
           },
           ["17544762212721742584"] = {
             key = "17544762212721742584",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 1150.7142857142858, y = 626.6428571428571},
+            pos = {x = 1254.5604395604396, y = 625.4890109890109},
             propsData = {}
           },
           ["17555146960215515019"] = {
@@ -2161,7 +2068,7 @@ return {
             key = "17558650944972790801",
             type = "TalkNode",
             name = "SC01【过场】女主飞踢",
-            pos = {x = 848.4463109354413, y = 377.19795783926213},
+            pos = {x = 841.5232340123644, y = 373.7364193777237},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -2246,6 +2153,34 @@ return {
               NewTargetPointName = "",
               StaticCreatorIdList = {1241159, 1241160}
             }
+          },
+          ["17599125586245104"] = {
+            key = "17599125586245104",
+            type = "PlayOrStopBGMNode",
+            name = "BGM-Play",
+            pos = {x = 836.8078280896617, y = 203.2761238761238},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/mute",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {101103},
+              bStoreToServer = false
+            }
+          },
+          ["17599125758545562"] = {
+            key = "17599125758545562",
+            type = "PlayOrStopBGMNode",
+            name = "BGM-Stop",
+            pos = {x = 1126.1868131868134, y = 386.7376623376623},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
+            }
           }
         },
         commentData = {}
@@ -2256,7 +2191,7 @@ return {
       key = "17544762212711742426",
       type = "StoryNode",
       name = "战斗",
-      pos = {x = 1901.1106511313792, y = -21.723845973310176},
+      pos = {x = 2159.735651131379, y = -143.72384597331018},
       propsData = {
         QuestId = 12011408,
         QuestDescriptionComment = "",
@@ -2355,6 +2290,18 @@ return {
             startPort = "Out",
             endQuest = "175752481794412085392",
             endPort = "In"
+          },
+          {
+            startQuest = "17561943317184130385",
+            startPort = "Out",
+            endQuest = "17599126388786257",
+            endPort = "In"
+          },
+          {
+            startQuest = "17559600715105639685",
+            startPort = "Out",
+            endQuest = "17599126671586819",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -2383,7 +2330,7 @@ return {
             key = "175455878326919415471",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "等待特殊任务开始并完成",
-            pos = {x = 1295.3587092731827, y = 325.55231829573927},
+            pos = {x = 1299.1087092731827, y = 314.30231829573927},
             propsData = {SpecialConfigId = 2077, BlackScreenImmediately = true}
           },
           ["17555147221025515960"] = {
@@ -2414,7 +2361,7 @@ return {
             key = "17559600715105639685",
             type = "TalkNode",
             name = "SC04【过场】战斗召唤",
-            pos = {x = 915.5714285714286, y = 326.79761904761904},
+            pos = {x = 928.0714285714286, y = 319.29761904761904},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -2459,7 +2406,7 @@ return {
             key = "17561943317184130385",
             type = "TalkNode",
             name = "【36b】菲娜关心塞维欧",
-            pos = {x = 923.9999999999999, y = 154.35714285714272},
+            pos = {x = 930.2499999999999, y = 120.60714285714272},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12033803,
@@ -2593,6 +2540,34 @@ return {
               NewTargetPointName = "",
               StaticCreatorIdList = {1241161, 1241162}
             }
+          },
+          ["17599126388786257"] = {
+            key = "17599126388786257",
+            type = "PlayOrStopBGMNode",
+            name = "BGM-Play",
+            pos = {x = 1205.6447368421054, y = 17.328947368421098},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/1_0/0092_feina_activity_cs_02",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {101103},
+              bStoreToServer = false
+            }
+          },
+          ["17599126671586819"] = {
+            key = "17599126671586819",
+            type = "PlayOrStopBGMNode",
+            name = "BGM-Stop",
+            pos = {x = 1215.6447368421054, y = 199.82894736842104},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
+            }
           }
         },
         commentData = {}
@@ -2603,7 +2578,7 @@ return {
       key = "17544762212711742427",
       type = "StoryNode",
       name = "对话",
-      pos = {x = 2178.979068346296, y = 29.75375220437556},
+      pos = {x = 2601.875172242401, y = -143.51724346662013},
       propsData = {
         QuestId = 12011409,
         QuestDescriptionComment = "",
@@ -3076,7 +3051,7 @@ return {
       key = "17544762212711742428",
       type = "StoryNode",
       name = "到家",
-      pos = {x = 1899.5275226350109, y = 164.94680212606656},
+      pos = {x = 3120.2902931977815, y = -144.7241935449291},
       propsData = {
         QuestId = 12011411,
         QuestDescriptionComment = "",
@@ -3135,12 +3110,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17561186748966314271",
-            startPort = "Out",
-            endQuest = "17544762212721742611",
-            endPort = "Success"
-          },
-          {
             startQuest = "1756199517021953392",
             startPort = "true",
             endQuest = "1756199517021953391",
@@ -3181,6 +3150,24 @@ return {
             startPort = "Out",
             endQuest = "175456309604420419060",
             endPort = "In"
+          },
+          {
+            startQuest = "17561186748966314272",
+            startPort = "Out",
+            endQuest = "17601852407913431",
+            endPort = "In"
+          },
+          {
+            startQuest = "17561186748966314271",
+            startPort = "Out",
+            endQuest = "17601852479103695",
+            endPort = "In"
+          },
+          {
+            startQuest = "17601852479103695",
+            startPort = "Out",
+            endQuest = "17544762212721742611",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -3195,7 +3182,7 @@ return {
             key = "17544762212721742611",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2088.541176470588, y = 293.07394957983195},
+            pos = {x = 2311.1218216318784, y = 295.97717538628353},
             propsData = {
               ModeType = 1,
               Id = 101101,
@@ -3312,9 +3299,9 @@ return {
               BlendEaseExp = 2,
               UseProceduralCamera = false,
               ProceduralCameraId = 1,
-              HideNpcs = false,
+              HideNpcs = true,
               HideMonsters = true,
-              HideAllBattleEntity = true,
+              HideAllBattleEntity = false,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -3394,7 +3381,7 @@ return {
               BlendEaseExp = 2,
               UseProceduralCamera = false,
               ProceduralCameraId = 1,
-              HideNpcs = false,
+              HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
               ShowSkipButton = true,
@@ -3519,6 +3506,34 @@ return {
               NewTargetPointName = "",
               StaticCreatorIdList = {1230086, 1230087}
             }
+          },
+          ["17601852407913431"] = {
+            key = "17601852407913431",
+            type = "ChangeStaticCreatorNode",
+            name = "生成/销毁节点",
+            pos = {x = 1806.2559966914805, y = 135.45651486401027},
+            propsData = {
+              ActiveEnable = true,
+              EnableBlackScreenSync = false,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {1230088}
+            }
+          },
+          ["17601852479103695"] = {
+            key = "17601852479103695",
+            type = "ChangeStaticCreatorNode",
+            name = "生成/销毁节点",
+            pos = {x = 2052.062448304384, y = 295.133934218849},
+            propsData = {
+              ActiveEnable = false,
+              EnableBlackScreenSync = false,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {1230088}
+            }
           }
         },
         commentData = {}
@@ -3529,7 +3544,7 @@ return {
       key = "17544762212711742429",
       type = "StoryNode",
       name = "等待关卡4完成",
-      pos = {x = 2744.238955722646, y = 371.44733974260555},
+      pos = {x = 2659.4528594659623, y = 239.00348947522585},
       propsData = {
         QuestId = 12011413,
         QuestDescriptionComment = "",
@@ -3558,28 +3573,52 @@ return {
       questNodeData = {
         lineData = {
           {
-            startQuest = "17574017676701868338",
-            startPort = "Out",
-            endQuest = "17574017676701868337",
+            startQuest = "17594839194625318040",
+            startPort = "Success",
+            endQuest = "17594839194625318041",
             endPort = "In"
           },
           {
-            startQuest = "17574017676701868339",
-            startPort = "false",
-            endQuest = "17574017676701868336",
+            startQuest = "17594839194625318040",
+            startPort = "Fail",
+            endQuest = "17594839194625318042",
+            endPort = "In"
+          },
+          {
+            startQuest = "17594839194625318039",
+            startPort = "Out",
+            endQuest = "17594839194625318042",
             endPort = "In"
           },
           {
             startQuest = "17544762212721742616",
             startPort = "QuestStart",
+            endQuest = "17574017676701868339",
+            endPort = "In"
+          },
+          {
+            startQuest = "17574017676701868339",
+            startPort = "true",
+            endQuest = "17574017676701868338",
+            endPort = "In"
+          },
+          {
+            startQuest = "17574017676701868338",
+            startPort = "Out",
             endQuest = "175755679420523224854",
             endPort = "In"
           },
           {
             startQuest = "175755679420523224854",
             startPort = "Out",
-            endQuest = "17544762212721742617",
-            endPort = "Success"
+            endQuest = "17594839194625318039",
+            endPort = "In"
+          },
+          {
+            startQuest = "17574017676701868339",
+            startPort = "false",
+            endQuest = "17594839194625318040",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -3594,46 +3633,21 @@ return {
             key = "17544762212721742617",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2040, y = 437.86206896551727},
+            pos = {x = 2606.5, y = 197.36206896551727},
             propsData = {ModeType = 0}
           },
           ["17544762212721742618"] = {
             key = "17544762212721742618",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 2678.5, y = 958},
             propsData = {}
-          },
-          ["17555149164375521572"] = {
-            key = "17555149164375521572",
-            type = "OpenSytstemUINode",
-            name = "打开界面节点",
-            pos = {x = 2232, y = 854},
-            propsData = {
-              UIName = "ActivityFeinaEventLevelSelect"
-            }
-          },
-          ["17574017676701868336"] = {
-            key = "17574017676701868336",
-            type = "WaitOfTimeNode",
-            name = "延迟等待",
-            pos = {x = 1526.745240445781, y = 1021.8275862068965},
-            propsData = {WaitTime = 3}
-          },
-          ["17574017676701868337"] = {
-            key = "17574017676701868337",
-            type = "OpenSytstemUINode",
-            name = "打开界面节点",
-            pos = {x = 1731.3659301009534, y = 801},
-            propsData = {
-              UIName = "ActivityFeinaEventLevelSelect"
-            }
           },
           ["17574017676701868338"] = {
             key = "17574017676701868338",
             type = "SetVarNode",
             name = "设置变量值",
-            pos = {x = 1463.59779030286, y = 793},
+            pos = {x = 1728.8609481975968, y = 249.84210526315792},
             propsData = {
               VarName = "FeinaDay04UI",
               VarValue = 1
@@ -3643,7 +3657,7 @@ return {
             key = "17574017676701868339",
             type = "ExecuteBlueprintFunctionCheckVarNode",
             name = "是否在阶段1",
-            pos = {x = 1204.6340698990468, y = 957},
+            pos = {x = 1322.2130172674679, y = 420.05263157894734},
             propsData = {
               FunctionName = "Equal",
               VarName = "FeinaDay04UI",
@@ -3657,7 +3671,7 @@ return {
             key = "175755679420523224854",
             type = "TalkNode",
             name = "打开书本",
-            pos = {x = 1477.857142857143, y = 417.64285714285717},
+            pos = {x = 1735.751879699248, y = 407.7481203007519},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -3694,6 +3708,40 @@ return {
               SwitchToMaster = "None",
               OverrideFailBlend = false
             }
+          },
+          ["17594839194625318039"] = {
+            key = "17594839194625318039",
+            type = "OpenSytstemUINode",
+            name = "打开界面节点",
+            pos = {x = 2031.766666666666, y = 407.5547619047618},
+            propsData = {
+              UIName = "ActivityFeinaEventLevelSelect"
+            }
+          },
+          ["17594839194625318040"] = {
+            key = "17594839194625318040",
+            type = "ConditionNode",
+            name = "条件节点",
+            pos = {x = 2031.166666666666, y = 627.445238095238},
+            propsData = {ConditionId = 12011413}
+          },
+          ["17594839194625318041"] = {
+            key = "17594839194625318041",
+            type = "QuestConditionNode",
+            name = "QuestCondition",
+            pos = {x = 2608.8333333333335, y = 503.445238095238},
+            propsData = {
+              PortName = "完成副本"
+            }
+          },
+          ["17594839194625318042"] = {
+            key = "17594839194625318042",
+            type = "QuestConditionNode",
+            name = "QuestCondition",
+            pos = {x = 2607.1666666666665, y = 663.445238095238},
+            propsData = {
+              PortName = "未完成副本"
+            }
           }
         },
         commentData = {}
@@ -3704,7 +3752,7 @@ return {
       key = "17544762212711742430",
       type = "StoryNode",
       name = "回冰湖城",
-      pos = {x = 2482.722002202865, y = 98.05521310736322},
+      pos = {x = 2859.6302273110905, y = -147.37941892726883},
       propsData = {
         QuestId = 12011410,
         QuestDescriptionComment = "",
@@ -3918,7 +3966,7 @@ return {
       key = "17544762212711742431",
       type = "StoryNode",
       name = "晚会",
-      pos = {x = 2474.62245494481, y = 304.9264487169248},
+      pos = {x = 3662.003407325763, y = -139.47181968134362},
       propsData = {
         QuestId = 12011412,
         QuestDescriptionComment = "",
@@ -4129,7 +4177,7 @@ return {
               ProceduralCameraId = 1,
               HideNpcs = true,
               HideMonsters = true,
-              HideAllBattleEntity = true,
+              HideAllBattleEntity = false,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -4194,28 +4242,28 @@ return {
             key = "1758202380647935510",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1775.8946048230944, y = 107.7359839816933},
+            pos = {x = 1756.3946048230944, y = 107.7359839816933},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {1230016}
+              StaticCreatorIdList = {1230088}
             }
           },
           ["1758202527344935715"] = {
             key = "1758202527344935715",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 2304.3394208766063, y = 108.93999735961974},
+            pos = {x = 2301.3394208766063, y = 108.93999735961974},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {1230016}
+              StaticCreatorIdList = {1230088}
             }
           }
         },
@@ -4227,7 +4275,7 @@ return {
       key = "17560370834409401448",
       type = "StoryNode",
       name = "出门",
-      pos = {x = 2182.349971573124, y = 246.94580776905443},
+      pos = {x = 3383.3672875904404, y = -140.17973335648668},
       propsData = {
         QuestId = 12011415,
         QuestDescriptionComment = "",
@@ -4374,7 +4422,7 @@ return {
       key = "17574017033051867104",
       type = "GameModeCompleteNode",
       name = "完成目标",
-      pos = {x = 3011.7804689589593, y = 430.52868213022657},
+      pos = {x = 2980.687554520457, y = 393.1984682264832},
       propsData = {
         QuestId = 12011420,
         QuestDescriptionComment = "",
@@ -4407,7 +4455,7 @@ return {
       key = "175751634154018027485",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1355.325, y = -317.67499999999984},
+      pos = {x = 1361.6407894736842, y = -526.7727443609022},
       propsData = {
         QuestId = 12011450,
         QuestDescriptionComment = "",
@@ -4532,5 +4580,36 @@ return {
       }
     }
   },
-  commentData = {}
+  commentData = {
+    ["17594837721525314731"] = {
+      key = "17594837721525314731",
+      name = "Phase01_Bonfire_Start",
+      position = {x = 1295.1264524948733, y = -623.9507860560498},
+      size = {width = 592, height = 296}
+    },
+    ["17594837757225314854"] = {
+      key = "17594837757225314854",
+      name = "Phase02_SandBox_Try&Obstruction",
+      position = {x = 1972.7514524948733, y = -624.7007860560498},
+      size = {width = 580, height = 298}
+    },
+    ["17594838657485316451"] = {
+      key = "17594838657485316451",
+      name = "Phase03_SandBox_Try&Obstruction&Challenge",
+      position = {x = 1286.6308332590363, y = -233.984349955918},
+      size = {width = 1172.7459102301211, height = 261.18391433128266}
+    },
+    ["17594838931965317368"] = {
+      key = "17594838931965317368",
+      name = "Phase04_Back&Review",
+      position = {x = 2540.030423142837, y = -230.5805222047216},
+      size = {width = 1358.3333333333333, height = 271.6666666666667}
+    },
+    ["17594878345145321658"] = {
+      key = "17594878345145321658",
+      name = "Phase05_Reward&Review",
+      position = {x = 2548.1874959719685, y = 119.05943195876219},
+      size = {width = 1011.1764705882355, height = 423.5294117647059}
+    }
+  }
 }

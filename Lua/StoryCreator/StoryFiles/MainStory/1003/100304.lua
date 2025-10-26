@@ -343,6 +343,12 @@ return {
           {
             startQuest = "1730710173051846386",
             startPort = "QuestStart",
+            endQuest = "1759060906425934451",
+            endPort = "In"
+          },
+          {
+            startQuest = "1759060906425934451",
+            startPort = "Out",
             endQuest = "1730710636693850189",
             endPort = "In"
           }
@@ -352,7 +358,7 @@ return {
             key = "1730710173051846386",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 800, y = 300},
+            pos = {x = 708.5, y = 294},
             propsData = {ModeType = 0}
           },
           ["1730710173051846389"] = {
@@ -732,6 +738,13 @@ return {
               SoundPriority = 0,
               SoundType = 0
             }
+          },
+          ["1759060906425934451"] = {
+            key = "1759060906425934451",
+            type = "AuConditionNode",
+            name = "音频条件节点",
+            pos = {x = 962, y = 293.5},
+            propsData = {ActionType = 1, Condition = "cp2_jieyan"}
           }
         },
         commentData = {}
@@ -2139,12 +2152,6 @@ return {
           {
             startQuest = "1750248151252947494",
             startPort = "Out",
-            endQuest = "1750248151253947498",
-            endPort = "In"
-          },
-          {
-            startQuest = "1750248151253947498",
-            startPort = "Out",
             endQuest = "1750248151252947493",
             endPort = "In"
           }
@@ -2234,13 +2241,6 @@ return {
               MessageContent = "IcelakeCityKuanghuan",
               UnitId = -1
             }
-          },
-          ["1750248151253947498"] = {
-            key = "1750248151253947498",
-            type = "AuConditionNode",
-            name = "音频条件节点",
-            pos = {x = 1428, y = 324},
-            propsData = {ActionType = 1, Condition = "cp2_jieyan"}
           }
         },
         commentData = {}

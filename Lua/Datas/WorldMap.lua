@@ -28,8 +28,8 @@ return ReadOnly("WorldMap", {
     WorldMapUnlockCondition = 26
   },
   [3] = {
-    RegionName = "UI_WORLDMAP_REGIONNAME_1",
-    RegionUIIndex = 1,
+    RegionName = "UI_WORLDMAP_REGIONNAME_2",
+    RegionUIIndex = 2,
     UIIndex = 1,
     UIRegionType = "EX",
     WorldMapId = 3,

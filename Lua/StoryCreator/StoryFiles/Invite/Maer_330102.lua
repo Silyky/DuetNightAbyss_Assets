@@ -88,12 +88,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17328641353996229933",
-            startPort = "Out",
-            endQuest = "17328641731317351082",
-            endPort = "Success"
-          },
-          {
             startQuest = "17328641731317351081",
             startPort = "QuestStart",
             endQuest = "17328641731317351084",
@@ -104,6 +98,24 @@ return {
             startPort = "Out",
             endQuest = "17328633597343114521",
             endPort = "In"
+          },
+          {
+            startQuest = "17328641731317351081",
+            startPort = "QuestStart",
+            endQuest = "176008420383726750698",
+            endPort = "In"
+          },
+          {
+            startQuest = "17328641353996229933",
+            startPort = "Out",
+            endQuest = "176008421106126750960",
+            endPort = "In"
+          },
+          {
+            startQuest = "176008421106126750960",
+            startPort = "Out",
+            endQuest = "17328641731317351082",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -219,7 +231,7 @@ return {
             key = "17328641731317351082",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1746.401888341544, y = 260.9003831417625},
+            pos = {x = 2005.601888341544, y = 293.3003831417625},
             propsData = {ModeType = 0}
           },
           ["17328641731317351083"] = {
@@ -334,6 +346,33 @@ return {
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
               OverrideFailBlend = false
+            }
+          },
+          ["176008420383726750698"] = {
+            key = "176008420383726750698",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 641.4127450980392, y = 445.329513681903},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0024_story_pub",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["176008421106126750960"] = {
+            key = "176008421106126750960",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1723.8127450980394, y = 290.529513681903},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

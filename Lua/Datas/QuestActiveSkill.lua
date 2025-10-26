@@ -16,7 +16,8 @@ return ReadOnly("QuestActiveSkill", {
       "Skill2",
       "Skill3",
       "Fire",
-      "Avoid"
+      "Avoid",
+      "Crouch"
     }
   },
   [10010105] = {
@@ -27,7 +28,8 @@ return ReadOnly("QuestActiveSkill", {
     SkillId = {
       "Jump",
       "Slide",
-      "BulletJump"
+      "BulletJump",
+      "Crouch"
     }
   },
   [10010107] = {

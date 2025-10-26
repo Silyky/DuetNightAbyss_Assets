@@ -82,12 +82,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1741747058038514",
-            startPort = "Out",
-            endQuest = "1741602932100121",
-            endPort = "Success"
-          },
-          {
             startQuest = "1754035128344552",
             startPort = "Out",
             endQuest = "1754035128344553",
@@ -110,6 +104,24 @@ return {
             startPort = "QuestStart",
             endQuest = "1754035128344552",
             endPort = "In"
+          },
+          {
+            startQuest = "1754035128344554",
+            startPort = "Out",
+            endQuest = "176008169603322392013",
+            endPort = "In"
+          },
+          {
+            startQuest = "1741747058038514",
+            startPort = "Out",
+            endQuest = "176008171208822392371",
+            endPort = "In"
+          },
+          {
+            startQuest = "176008171208822392371",
+            startPort = "Out",
+            endQuest = "1741602932100121",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -124,7 +136,7 @@ return {
             key = "1741602932100121",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1181.7052677578267, y = 279.09034729946853},
+            pos = {x = 1445.1427677578267, y = 296.90284729946853},
             propsData = {ModeType = 0}
           },
           ["1741602932100122"] = {
@@ -138,7 +150,7 @@ return {
             key = "1741602932100123",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 610.75, y = 275.125},
+            pos = {x = 600.4375, y = 273.25},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80130401,
@@ -208,7 +220,7 @@ return {
             key = "1741747058038514",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 877.9163452560508, y = 269.92460317460313},
+            pos = {x = 877.9163452560508, y = 272.73710317460313},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80130443,
@@ -273,6 +285,33 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
+            }
+          },
+          ["176008169603322392013"] = {
+            key = "176008169603322392013",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 600.7228014282334, y = 432.2625315631658},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/musicbox/0017_story_incave",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["176008171208822392371"] = {
+            key = "176008171208822392371",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1162.5353014282334, y = 297.1375315631658},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

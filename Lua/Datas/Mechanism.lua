@@ -2903,7 +2903,7 @@ return ReadOnly("Mechanism", {
           "Self"
         },
         [500000301] = {
-          7,
+          8,
           "Target",
           "Target",
           "Self"
@@ -2921,7 +2921,7 @@ return ReadOnly("Mechanism", {
           "Self"
         },
         [500000304] = {
-          1,
+          0,
           "Target",
           "Target",
           "Self"
@@ -2956,7 +2956,7 @@ return ReadOnly("Mechanism", {
           "Self"
         },
         [500000301] = {
-          7,
+          8,
           "Target",
           "Target",
           "Self"
@@ -2974,7 +2974,7 @@ return ReadOnly("Mechanism", {
           "Self"
         },
         [500000304] = {
-          1,
+          0,
           "Target",
           "Target",
           "Self"
@@ -3870,7 +3870,7 @@ return ReadOnly("Mechanism", {
       RayConnectTime = 2,
       RayDisDuration = 2,
       RayFixAngle = 10,
-      RayMaxLength = 5000,
+      RayMaxLength = 3500,
       RayMinLength = 500
     },
     UnitRealType = "MirrorExploreMechanism"
@@ -3896,7 +3896,7 @@ return ReadOnly("Mechanism", {
       RayConnectTime = 2,
       RayDisDuration = 2,
       RayFixAngle = 10,
-      RayMaxLength = 5000,
+      RayMaxLength = 3500,
       RayMinLength = 500
     },
     UnitRealType = "MirrorExploreMechanism"
@@ -3916,7 +3916,7 @@ return ReadOnly("Mechanism", {
       RayConnectTime = 2,
       RayDisDuration = 2,
       RayFixAngle = 10,
-      RayMaxLength = 5000,
+      RayMaxLength = 3500,
       RayMinLength = 500
     },
     UnitRealType = "MirrorExploreMechanism"
@@ -9156,7 +9156,7 @@ return ReadOnly("Mechanism", {
     },
     UnitBPPath = "/Game/AssetDesign/Item/InteractiveItems/BP_ContinuousInteractiveMechanism_Void.BP_ContinuousInteractiveMechanism_Void",
     UnitId = 495012,
-    UnitParams = {MaxTime = 3, ReduceTime = 0},
+    UnitParams = {MaxTime = 3, ReduceTime = 0.5},
     UnitRealType = "Mechanism"
   },
   [495021] = {
@@ -10175,6 +10175,11 @@ return ReadOnly("Mechanism", {
   [3900153] = {
     UnitBPPath = "/Game/AssetDesign/Item/PlatForm/BP_Defence_MovePlatForm_Quarry.BP_Defence_MovePlatForm_Quarry",
     UnitId = 3900153,
+    UnitRealType = "Mechanism"
+  },
+  [3900154] = {
+    UnitBPPath = "/Game/AssetDesign/Item/PlatForm/BP_Defence_NavModifier.BP_Defence_NavModifier",
+    UnitId = 3900154,
     UnitRealType = "Mechanism"
   },
   [4900590] = {

@@ -6,6 +6,14 @@ return ReadOnly("StoryVariable", {
     IsGlobal = true,
     VarName = "BH_Thea_Online"
   },
+  BakeInferenceFinish = {
+    IsGlobal = true,
+    VarName = "BakeInferenceFinish"
+  },
+  BossRe10020708 = {
+    IsGlobal = true,
+    VarName = "BossRe10020708"
+  },
   BoxSide = {IsGlobal = true, VarName = "BoxSide"},
   DaDunStage = {IsGlobal = true, VarName = "DaDunStage"},
   DaFengBaoXiang200303 = {

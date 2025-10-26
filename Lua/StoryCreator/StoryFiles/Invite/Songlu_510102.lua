@@ -82,7 +82,19 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "1732783210616496845",
+            startPort = "QuestStart",
+            endQuest = "176008242309324259069",
+            endPort = "In"
+          },
+          {
             startQuest = "1732783210616496848",
+            startPort = "Out",
+            endQuest = "176008243239724259351",
+            endPort = "In"
+          },
+          {
+            startQuest = "176008243239724259351",
             startPort = "Out",
             endQuest = "1732783210616496846",
             endPort = "Success"
@@ -100,7 +112,7 @@ return {
             key = "1732783210616496846",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1015.7352216748772, y = 294.1226053639847},
+            pos = {x = 1287.7352216748773, y = 298.1226053639847},
             propsData = {ModeType = 0}
           },
           ["1732783210616496847"] = {
@@ -166,6 +178,33 @@ return {
               SwitchToMaster = "None",
               NormalOptions = {},
               OverrideFailBlend = false
+            }
+          },
+          ["176008242309324259069"] = {
+            key = "176008242309324259069",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 686, y = 446},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0024_story_pub",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["176008243239724259351"] = {
+            key = "176008243239724259351",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1002, y = 292},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

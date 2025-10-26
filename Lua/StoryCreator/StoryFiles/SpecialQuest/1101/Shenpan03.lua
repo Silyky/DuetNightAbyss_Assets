@@ -496,7 +496,7 @@ return {
               WeaponTags = {"Melee"},
               bForbid = true,
               ForbidTag = "ForbidDefault",
-              bHidewhenForbid = false
+              bHidewhenForbid = true
             }
           },
           ["17485020638095794590"] = {
@@ -1226,7 +1226,7 @@ return {
       key = "173650901461311333931",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1749.9823334960122, y = 263.1378446115288},
+      pos = {x = 1748.618697132376, y = 261.77420824789243},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -1531,12 +1531,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17465008520162791383",
-            startPort = "Out",
-            endQuest = "173650901461411333950",
-            endPort = "In"
-          },
-          {
             startQuest = "17435909241775180205",
             startPort = "Out",
             endQuest = "174229462512139121389",
@@ -1561,12 +1555,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17453326036536823465",
-            startPort = "Out",
-            endQuest = "17465008520162791383",
-            endPort = "In"
-          },
-          {
             startQuest = "173650901461411333948",
             startPort = "Out",
             endQuest = "17448133418241618526",
@@ -1579,33 +1567,69 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1757922023978622451",
+            startQuest = "173650901461411333947",
             startPort = "Out",
-            endQuest = "174472547475413213406",
+            endQuest = "17580138863123494",
             endPort = "In"
           },
           {
             startQuest = "173650901461311333936",
             startPort = "QuestStart",
-            endQuest = "1757922023978622451",
+            endQuest = "17580316278733413526",
             endPort = "In"
           },
           {
-            startQuest = "173650901461411333948",
+            startQuest = "17580316278733413526",
             startPort = "Out",
-            endQuest = "17579220664081240965",
-            endPort = "In"
-          },
-          {
-            startQuest = "17579220664081240965",
-            startPort = "Out",
-            endQuest = "17556109803362452377",
+            endQuest = "174472547475413213406",
             endPort = "In"
           },
           {
             startQuest = "173650901461611333966",
             startPort = "Out",
             endQuest = "173650901461411333949",
+            endPort = "In"
+          },
+          {
+            startQuest = "173650901461411333947",
+            startPort = "Out",
+            endQuest = "17580317479244033140",
+            endPort = "In"
+          },
+          {
+            startQuest = "17580317479244033140",
+            startPort = "Out",
+            endQuest = "17556109803362452377",
+            endPort = "In"
+          },
+          {
+            startQuest = "17580138863123494",
+            startPort = "Out",
+            endQuest = "1758099273715623874",
+            endPort = "In"
+          },
+          {
+            startQuest = "173650901461411333947",
+            startPort = "Out",
+            endQuest = "17582017828784271",
+            endPort = "In"
+          },
+          {
+            startQuest = "17582017828784271",
+            startPort = "Out",
+            endQuest = "17582017968974613",
+            endPort = "In"
+          },
+          {
+            startQuest = "17453326036536823465",
+            startPort = "Out",
+            endQuest = "173650901461411333950",
+            endPort = "In"
+          },
+          {
+            startQuest = "17580317479244033140",
+            startPort = "Out",
+            endQuest = "176017882463115957",
             endPort = "In"
           }
         },
@@ -1621,7 +1645,7 @@ return {
             key = "173650901461311333937",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 5008.635748990991, y = 814.2082228939004},
+            pos = {x = 5274.350034705276, y = 805.6367943224718},
             propsData = {ModeType = 0}
           },
           ["173650901461411333938"] = {
@@ -1694,7 +1718,7 @@ return {
             key = "173650901461411333950",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 5006.236693658117, y = 638.550771881459},
+            pos = {x = 5244.808122229546, y = 638.550771881459},
             propsData = {}
           },
           ["173650901461511333951"] = {
@@ -1763,7 +1787,7 @@ return {
             key = "173650901461611333966",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 3215.7825029325227, y = 1008.2173572154054},
+            pos = {x = 3206.958973520758, y = 1001.1585336859937},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1660119,
@@ -2094,7 +2118,7 @@ return {
             key = "174472547475413213406",
             type = "TalkNode",
             name = "阿瓦尔老师？！",
-            pos = {x = 1251.531188110135, y = -654.5662407767671},
+            pos = {x = 962.7130062919532, y = -717.9480589585853},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 11019041,
@@ -2232,7 +2256,7 @@ return {
             key = "17465008520162791383",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 4721.88803084787, y = 651.6070788664158},
+            pos = {x = 3762.6297210995426, y = 1792.0641626175104},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -2246,7 +2270,7 @@ return {
             key = "17465017215164461420",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 2685.3986185383246, y = 1598.521613190731},
+            pos = {x = 2808.9280303030305, y = 1369.1098484848485},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1660188,
@@ -2258,7 +2282,7 @@ return {
             key = "17465136171406686046",
             type = "CameraLookAtNode",
             name = "CameraLookAt",
-            pos = {x = 3182.323752228164, y = 1652.507798573975},
+            pos = {x = 3106.3056526806527, y = 1533.3901515151513},
             propsData = {
               TargetType = "Point",
               PointName = "BP_DafuFinal",
@@ -2289,7 +2313,7 @@ return {
             key = "17556109803362452377",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 3642.9705599735216, y = 1306.0145942920542},
+            pos = {x = 3606.1745912363767, y = 1239.02858030604},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 11019051,
@@ -2302,24 +2326,84 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["1757922023978622451"] = {
-            key = "1757922023978622451",
+          ["17580091072352714"] = {
+            key = "17580091072352714",
+            type = "AuConditionNode",
+            name = "音频条件节点",
+            pos = {x = 1832.5363636363634, y = 294.1714285714284},
+            propsData = {
+              ActionType = 0,
+              Condition = "ex01_time",
+              SaveToServer = false
+            }
+          },
+          ["17580138863123494"] = {
+            key = "17580138863123494",
             type = "BossBattleFinishNode",
             name = "完成BOSS战阶段",
-            pos = {x = 772.7088376020268, y = -672.6842105263158},
+            pos = {x = 1374.3000999000997, y = 518.8461538461539},
+            propsData = {
+              SendMessage = "",
+              FinishCondition = "JailLSdafu01"
+            }
+          },
+          ["17580316278733413526"] = {
+            key = "17580316278733413526",
+            type = "BossBattleFinishNode",
+            name = "完成BOSS战阶段",
+            pos = {x = 557.7828375286042, y = -654.0832951945079},
             propsData = {
               SendMessage = "",
               FinishCondition = "LS_Fort04_FloorCollaps03_1"
             }
           },
-          ["17579220664081240965"] = {
-            key = "17579220664081240965",
+          ["17580317479244033140"] = {
+            key = "17580317479244033140",
             type = "BossBattleFinishNode",
             name = "完成BOSS战阶段",
-            pos = {x = 3236.9601745004225, y = 1229.5885167464116},
+            pos = {x = 3182.056168036655, y = 1220.9963132035555},
             propsData = {
               SendMessage = "",
               FinishCondition = "LS_Fort04_FloorCollaps05_C"
+            }
+          },
+          ["1758099273715623874"] = {
+            key = "1758099273715623874",
+            type = "PlayNormalSoundNode",
+            name = "播放普通音效",
+            pos = {x = 1653.113225504472, y = 580.0314057764858},
+            propsData = {
+              EventPath = "event:/sfx/common/story/ex01/time01",
+              TargetPointName = "",
+              EventKey = "FortTimer",
+              PlayAs2D = false
+            }
+          },
+          ["17582017828784271"] = {
+            key = "17582017828784271",
+            type = "BossBattleFinishNode",
+            name = "完成BOSS战阶段",
+            pos = {x = 1328.125, y = 897.65},
+            propsData = {
+              SendMessage = "",
+              FinishCondition = "LS_Fort04_FloorCollaps05_B"
+            }
+          },
+          ["17582017968974613"] = {
+            key = "17582017968974613",
+            type = "SetGlobalSoundParamNode",
+            name = "设置全局音效参数",
+            pos = {x = 1661.65, y = 947.8},
+            propsData = {ParamName = "ex01_time", ParamValue = 1}
+          },
+          ["176017882463115957"] = {
+            key = "176017882463115957",
+            type = "StopNormalSoundNode",
+            name = "停止普通音效",
+            pos = {x = 3577.8101951486724, y = 1429.9554741739407},
+            propsData = {
+              TargetPointName = "event:/sfx/common/story/ex01/time01",
+              EventKey = "FortTimer"
             }
           }
         },

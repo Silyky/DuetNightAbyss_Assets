@@ -2265,13 +2265,13 @@ return {
           {
             startQuest = "17482476220241176553",
             startPort = "Out",
-            endQuest = "17482486937414067641",
+            endQuest = "17604410913372112",
             endPort = "In"
           },
           {
-            startQuest = "17482476220241176553",
+            startQuest = "17604410913372112",
             startPort = "Out",
-            endQuest = "174687711753914252489",
+            endQuest = "17482486937414067641",
             endPort = "In"
           }
         },
@@ -2413,7 +2413,7 @@ return {
               TalkStageName = "Stage_20005425",
               BlendInTime = 0,
               BlendOutTime = 0.5,
-              InType = "BlendIn",
+              InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
               BlendEaseExp = 2,
@@ -2487,6 +2487,13 @@ return {
               ActiveType = "Lock",
               SkillNameList = {"Skill3"}
             }
+          },
+          ["17604410913372112"] = {
+            key = "17604410913372112",
+            type = "WaitOfTimeNode",
+            name = "等待捕捉魔灵音效结束",
+            pos = {x = 1386.3997252747254, y = 344.74999999999994},
+            propsData = {WaitTime = 5}
           }
         },
         commentData = {}

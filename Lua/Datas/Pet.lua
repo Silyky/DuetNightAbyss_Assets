@@ -2873,7 +2873,7 @@ return ReadOnly("Pet", {
       10
     },
     MiniGameCaptureId = 901,
-    ModelId = 64931,
+    ModelId = 64932,
     Name = "Pet_Name_4932",
     PetExp = 40,
     PetMaxLevel = 1,

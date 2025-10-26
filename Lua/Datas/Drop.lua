@@ -198,7 +198,7 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/AutoPick/ResourceNew.ResourceNew",
     UseEffectType = "GetResource",
     UseParam = 101,
-    UseParam2 = {400, 600}
+    UseParam2 = {1400, 1600}
   },
   [1007] = {
     CreateMode = "client",
@@ -1822,6 +1822,7 @@ return ReadOnly("Drop", {
     },
     InteractiveId = 100018,
     IsBanProjectile = true,
+    NotResDrop = true,
     PickType = "Manual",
     PickUpAudioPath = 12,
     Rarity = 1,
@@ -1842,6 +1843,7 @@ return ReadOnly("Drop", {
     },
     InteractiveId = 100019,
     IsBanProjectile = true,
+    NotResDrop = true,
     PickType = "Manual",
     PickUpAudioPath = 12,
     Rarity = 1,
@@ -2488,6 +2490,29 @@ return ReadOnly("Drop", {
     ShowRarityEffect = false,
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Chapter01_Bomb.Chapter01_Bomb"
   },
+  [10071] = {
+    CreateMode = "client",
+    DropId = 10071,
+    DropMaxNum = 1,
+    IconShowCondition = {
+      Name = "Distance",
+      Op = "Min",
+      Type = "MainPlayer",
+      ValueNum = 15,
+      ValueType = "Number"
+    },
+    InteractiveId = 100025,
+    IsBanGravity = true,
+    IsBanProjectile = true,
+    NotResDrop = true,
+    PickType = "Manual",
+    PickUpAudioPath = 12,
+    Rarity = 1,
+    ShowRarityEffect = false,
+    UnitBPPath = "/Game/AssetDesign/Item/Pickups/Chapter01_Yinhuishi.Chapter01_Yinhuishi",
+    UseEffectType = "GetResource",
+    UseParam = 4020003
+  },
   [11001] = {
     CreateMode = "client",
     DropId = 11001,
@@ -2500,7 +2525,7 @@ return ReadOnly("Drop", {
       ValueNum = 15,
       ValueType = "Number"
     },
-    InteractiveId = 904,
+    InteractiveId = 100039,
     IsBanGravity = true,
     IsBanProjectile = true,
     NotResDrop = true,
@@ -2521,7 +2546,7 @@ return ReadOnly("Drop", {
       ValueNum = 15,
       ValueType = "Number"
     },
-    InteractiveId = 904,
+    InteractiveId = 100039,
     IsBanGravity = true,
     IsBanProjectile = true,
     NotResDrop = true,
@@ -2542,7 +2567,7 @@ return ReadOnly("Drop", {
       ValueNum = 15,
       ValueType = "Number"
     },
-    InteractiveId = 904,
+    InteractiveId = 100039,
     IsBanGravity = true,
     IsBanProjectile = true,
     NotResDrop = true,
@@ -2563,7 +2588,7 @@ return ReadOnly("Drop", {
       ValueNum = 15,
       ValueType = "Number"
     },
-    InteractiveId = 904,
+    InteractiveId = 100039,
     IsBanGravity = true,
     IsBanProjectile = true,
     NotResDrop = true,
@@ -2584,7 +2609,7 @@ return ReadOnly("Drop", {
       ValueNum = 15,
       ValueType = "Number"
     },
-    InteractiveId = 904,
+    InteractiveId = 100039,
     IsBanGravity = true,
     IsBanProjectile = true,
     NotResDrop = true,
@@ -3580,6 +3605,26 @@ return ReadOnly("Drop", {
     Rarity = 1,
     ShowRarityEffect = false,
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Empty_Pickup.Empty_Pickup"
+  },
+  [11054] = {
+    CreateMode = "client",
+    DropId = 11054,
+    DropMaxNum = 1,
+    IconShowCondition = {
+      Name = "Distance",
+      Op = "Min",
+      Type = "MainPlayer",
+      ValueNum = 15,
+      ValueType = "Number"
+    },
+    IsBanGravity = true,
+    IsBanProjectile = true,
+    NotResDrop = true,
+    PickType = "Manual",
+    PickUpAudioPath = 12,
+    Rarity = 1,
+    ShowRarityEffect = false,
+    UnitBPPath = "/Game/AssetDesign/Item/Pickups/Feina_Cake.Feina_Cake"
   },
   [12001] = {
     CreateMode = "client",
@@ -21395,6 +21440,60 @@ return ReadOnly("Drop", {
     UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
     UseEffectType = "GetResource",
     UseParam = 2000071,
+    UseParam2 = 1
+  },
+  [2000096] = {
+    CreateMode = "client",
+    DropId = 2000096,
+    DropMaxNum = 1,
+    DropName = "READ_NAME_2000096",
+    GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Book.T_Gp_Book",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Read_East01.T_Read_East01",
+    IconShowCondition = {
+      Name = "Distance",
+      Op = "Min",
+      Type = "MainPlayer",
+      ValueNum = 15,
+      ValueType = "Number"
+    },
+    IsBanGravity = true,
+    IsBanProjectile = true,
+    ModelId = 944,
+    NotResDrop = true,
+    PickType = "Manual",
+    PickUpAudioPath = 12,
+    Rarity = 1,
+    ShowRarityEffect = false,
+    UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
+    UseEffectType = "GetResource",
+    UseParam = 2000096,
+    UseParam2 = 1
+  },
+  [2000097] = {
+    CreateMode = "client",
+    DropId = 2000097,
+    DropMaxNum = 1,
+    DropName = "READ_NAME_2000097",
+    GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Book.T_Gp_Book",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Read_East01.T_Read_East01",
+    IconShowCondition = {
+      Name = "Distance",
+      Op = "Min",
+      Type = "MainPlayer",
+      ValueNum = 15,
+      ValueType = "Number"
+    },
+    IsBanGravity = true,
+    IsBanProjectile = true,
+    ModelId = 944,
+    NotResDrop = true,
+    PickType = "Manual",
+    PickUpAudioPath = 12,
+    Rarity = 1,
+    ShowRarityEffect = false,
+    UnitBPPath = "/Game/AssetDesign/Item/Pickups/Book.Book",
+    UseEffectType = "GetResource",
+    UseParam = 2000097,
     UseParam2 = 1
   },
   [2001041] = {

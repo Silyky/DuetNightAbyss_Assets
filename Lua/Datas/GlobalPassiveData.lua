@@ -42,7 +42,7 @@ return ReadOnly("GlobalPassiveData", {
     BPPath = "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff",
     Camp = "Monster",
     ID = 20202,
-    Vars = {Buff = 2010102, Condition = "Crit"}
+    Vars = {Buff = 2010202, Condition = "Crit"}
   },
   [20203] = {
     BPPath = "/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Abyss/BP_AbyssGP_HittedRemoveBuff.BP_AbyssGP_HittedRemoveBuff",

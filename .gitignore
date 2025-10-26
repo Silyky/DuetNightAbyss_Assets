@@ -12,3 +12,6 @@ Lua/Datas/DesignLevel_data/
 Lua/*.lua
 UI/Materials/
 UI/WBP/
+Old_Lua/
+Old_File/
+Translate/

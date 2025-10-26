@@ -82,7 +82,19 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "1732783210616496933",
+            startPort = "QuestStart",
+            endQuest = "176008246779524881542",
+            endPort = "In"
+          },
+          {
             startQuest = "1732783210616496936",
+            startPort = "Out",
+            endQuest = "176008247846024881839",
+            endPort = "In"
+          },
+          {
+            startQuest = "176008247846024881839",
             startPort = "Out",
             endQuest = "1732783210616496934",
             endPort = "Success"
@@ -100,7 +112,7 @@ return {
             key = "1732783210616496934",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1015.7352216748772, y = 294.1226053639847},
+            pos = {x = 1294.9659909056463, y = 295.2764515178308},
             propsData = {ModeType = 0}
           },
           ["1732783210616496935"] = {
@@ -166,6 +178,33 @@ return {
               SwitchToMaster = "None",
               NormalOptions = {},
               OverrideFailBlend = false
+            }
+          },
+          ["176008246779524881542"] = {
+            key = "176008246779524881542",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 686.3418243521186, y = 442.99294822824237},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 1,
+              SoundType = 0,
+              SoundPath = "event:/bgm/cbt01/0024_story_pub",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {}
+            }
+          },
+          ["176008247846024881839"] = {
+            key = "176008247846024881839",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 1001.3418243521186, y = 292.99294822824237},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 1,
+              SoundType = 0
             }
           }
         },

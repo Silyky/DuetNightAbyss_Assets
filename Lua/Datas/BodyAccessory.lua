@@ -610,7 +610,9 @@ return ReadOnly("BodyAccessory", {
       "NPC_BaiSD_WP02_Write_Start"
     },
     AnimPath = "/Game/Asset/Char/Npc/NPC_BaiSD/Animation/Summon/",
-    AttachRule = {SocketA = "Root", SocketB = "hook_arm_l"},
+    AttachRule = {
+      SocketA = "Root", SocketB = "hook_arm_l"
+    },
     ModelPath = "/Game/Asset/Char/Npc/NPC_BaiSD/Mesh/NPC_BaiSD_WP02.NPC_BaiSD_WP02"
   },
   [950003] = {
@@ -730,7 +732,7 @@ return ReadOnly("BodyAccessory", {
     },
     AnimPath = "/Game/Asset/Char/Player/Char034_Lilikou/Animation/Summon/Sequence/",
     AttachRule = {
-      SocketA = "Root", SocketB = "Root"
+      SocketA = "Root", SocketB = "hook_arm_l"
     },
     ModelPath = "/Game/Asset/Char/Player/Char034_Lilikou/Mesh/Lilikou_Part02_SM.Lilikou_Part02_SM"
   }

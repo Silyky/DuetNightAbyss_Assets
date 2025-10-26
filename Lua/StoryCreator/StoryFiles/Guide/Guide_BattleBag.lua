@@ -827,7 +827,7 @@ return {
               SkillNameList = {"OpenMenu"},
               LastTime = -1,
               bIsForceTouch = true,
-              bIsTimeDilation = true,
+              bIsTimeDilation = false,
               HighLightUIPath = "BattleMain.Btn_Esc",
               UICompName = "Btn_top",
               UIShape = "Square",

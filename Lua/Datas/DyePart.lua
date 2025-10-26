@@ -10,7 +10,7 @@ return ReadOnly("DyePart", {
   [6] = {PartID = 6},
   [7] = {PartID = 7},
   [8] = {
-    ColorID = {1001, 1024},
+    ColorID = {1022, 1027},
     PartID = 8
   }
 })

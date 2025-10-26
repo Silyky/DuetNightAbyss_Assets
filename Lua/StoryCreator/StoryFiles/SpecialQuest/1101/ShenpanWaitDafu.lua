@@ -88,12 +88,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17544629572531861",
-            startPort = "QuestStart",
-            endQuest = "17549072583021528783",
-            endPort = "In"
-          },
-          {
             startQuest = "17549138376482408600",
             startPort = "Out",
             endQuest = "17549138376482408601",
@@ -232,9 +226,21 @@ return {
             endPort = "Branch_2"
           },
           {
+            startQuest = "17544629572531861",
+            startPort = "QuestStart",
+            endQuest = "17549072583021528783",
+            endPort = "In"
+          },
+          {
+            startQuest = "17544629572531861",
+            startPort = "QuestStart",
+            endQuest = "17544639380262452",
+            endPort = "In"
+          },
+          {
             startQuest = "17549151256314824790",
             startPort = "Out",
-            endQuest = "17544639380262452",
+            endQuest = "17544639483572827",
             endPort = "In"
           }
         },
@@ -264,7 +270,7 @@ return {
             key = "17544639323682249",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1139.066502463054, y = 35.1555555555556},
+            pos = {x = 1140.4950738916252, y = -61.98730158730155},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -278,7 +284,7 @@ return {
             key = "17544639380262452",
             type = "PickUpNode",
             name = "拾取物品",
-            pos = {x = 2509.871010860485, y = 388.4160401002506},
+            pos = {x = 1549.8710108604848, y = 48.416040100250626},
             propsData = {
               bActiveEnable = true,
               StaticCreatorIdList = {},
@@ -295,7 +301,7 @@ return {
             key = "17544639483572827",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 2852.9712614870514, y = 373.0944862155389},
+            pos = {x = 2521.5426900584803, y = 18.808771929824545},
             propsData = {}
           },
           ["17544639567953055"] = {
@@ -309,7 +315,7 @@ return {
             key = "1754471431961456",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1878.5028340080976, y = 549.0411156095366},
+            pos = {x = 1814.5897905298366, y = 542.5193764791019},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 11019418,
@@ -395,7 +401,7 @@ return {
             key = "1754471704233658894",
             type = "PickUpNode",
             name = "拾取物品",
-            pos = {x = 1520.2491861838503, y = 573.426168870452},
+            pos = {x = 1453.7274470534155, y = 539.5131253921911},
             propsData = {
               bActiveEnable = true,
               StaticCreatorIdList = {},
@@ -412,7 +418,7 @@ return {
             key = "1754471709147659007",
             type = "PickUpNode",
             name = "拾取物品",
-            pos = {x = 1519.1886382623222, y = 223.7103793967678},
+            pos = {x = 1520.4929860884092, y = 223.7103793967678},
             propsData = {
               bActiveEnable = true,
               StaticCreatorIdList = {},
@@ -429,7 +435,7 @@ return {
             key = "17549072311841527920",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1146.814957264957, y = -132.89273504273515},
+            pos = {x = 1138.2435286935283, y = -222.89273504273515},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -443,7 +449,7 @@ return {
             key = "17549072583021528783",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1134.6693633952254, y = -279.55940170940175},
+            pos = {x = 1557.5265062523683, y = -108.13083028083031},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -620,7 +626,7 @@ return {
             key = "17549150941664824270",
             type = "BranchQuestStartNode",
             name = "子任务开始节点",
-            pos = {x = 1229.1445648417032, y = 292.09460813198336},
+            pos = {x = 1204.361956146051, y = 290.7902603058964},
             propsData = {
               AllQuestOptions = {
                 {

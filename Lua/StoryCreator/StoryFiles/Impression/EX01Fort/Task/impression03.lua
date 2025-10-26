@@ -480,7 +480,7 @@ return {
               IsNpcNode = false,
               TalkType = "Cinematic",
               TalkStageName = "",
-              ShowFilePath = "LevelSequence'/Game/Asset/Cinematics/Story/OBT01/OBT0102/OBT0102_SC018/SQ_OBT0102_SC018_EM_PC_Movie.SQ_OBT0102_SC018_EM_PC_Movie'",
+              ShowFilePath = "/Game/Asset/Cinematics/Story/OBT01/OBT0102/OBT0102_SC018/SQ_OBT0102_SC018",
               BlendInTime = 0,
               BlendOutTime = 0,
               InType = "FadeIn",

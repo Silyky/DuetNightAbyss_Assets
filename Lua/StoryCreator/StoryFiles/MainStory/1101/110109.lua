@@ -575,7 +575,7 @@ return {
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
+        IsFairyLand = true,
         SubRegionId = 102104,
         StoryGuideType = "Mechanism",
         StoryGuidePointName = ""
@@ -865,7 +865,7 @@ return {
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
+        IsFairyLand = true,
         SubRegionId = 102104,
         StoryGuideType = "Mechanism",
         StoryGuidePointName = ""
@@ -1063,7 +1063,7 @@ return {
               IsNpcNode = false,
               TalkType = "Cinematic",
               TalkStageName = "",
-              ShowFilePath = "/Game/Asset/Cinematics/Story/OBT01/OBT0102/OBT0102_SC018/SQ_OBT0102_SC018_PC.SQ_OBT0102_SC018_PC",
+              ShowFilePath = "LevelSequence'/Game/Asset/Cinematics/Story/OBT01/OBT0102/OBT0102_SC020/SQ_OBT0102_SC020.SQ_OBT0102_SC020'",
               BlendInTime = 0,
               BlendOutTime = 0,
               InType = "FadeIn",
@@ -1411,7 +1411,7 @@ return {
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
+        IsFairyLand = true,
         SubRegionId = 101901,
         StoryGuideType = "Point",
         StoryGuidePointName = ""

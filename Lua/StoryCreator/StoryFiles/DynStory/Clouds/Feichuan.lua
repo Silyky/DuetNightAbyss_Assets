@@ -214,7 +214,7 @@ return {
               FirstDialogueId = 71004102,
               FlowAssetPath = "",
               TalkType = "UnimportGuide",
-              bIsStandalone = false,
+              bIsStandalone = true,
               GuideMeshIndexList = {},
               IsPlayStartSound = false,
               GuideTalkStyle = "Normal",

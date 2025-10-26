@@ -88,6 +88,7 @@ return ReadOnly("ShopTabMain", {
     MainTabId = 10001
   },
   [10002] = {
+    ConditionId = "Rouge",
     Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Tab/T_Tab_ShopClothes.T_Tab_ShopClothes'",
     MainName = "Rouge_ExchangeShop",
     MainTabId = 10002

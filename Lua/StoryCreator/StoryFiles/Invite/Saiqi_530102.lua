@@ -110,6 +110,12 @@ return {
             startPort = "Out",
             endQuest = "171851536925411592381",
             endPort = "In"
+          },
+          {
+            startQuest = "17528094453643207666",
+            startPort = "Out",
+            endQuest = "1725259081013202362",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -131,14 +137,14 @@ return {
             key = "171851536925411592380",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 1572.0000000000002, y = 434.5},
+            pos = {x = 1726.8387096774195, y = 437.4032258064516},
             propsData = {}
           },
           ["171851536925411592381"] = {
             key = "171851536925411592381",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1079.3599878382488, y = 287.07230330056404},
+            pos = {x = 1085.6099878382488, y = 274.57230330056404},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80080201,
@@ -202,12 +208,12 @@ return {
             key = "1725259081013202362",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = 1083.7733990147788, y = 440.10837438423675},
+            pos = {x = 1082.5233990147788, y = 440.10837438423675},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 1,
               SoundType = 0,
-              SoundPath = "event:/bgm/cbt02/0050_story_saiqi_grow_flower",
+              SoundPath = "event:/bgm/cbt02/0044_story_first_meet_saiqi_loop",
               ParamKey = "",
               ParamValue = 0,
               RelatedRegionId = {},
@@ -218,7 +224,7 @@ return {
             key = "1725259096623202616",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = 1380.916256157636, y = 278.6798029556653},
+            pos = {x = 1400.916256157636, y = 289.2039965040524},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 1,

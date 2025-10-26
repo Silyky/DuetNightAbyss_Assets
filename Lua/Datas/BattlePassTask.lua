@@ -231,7 +231,6 @@ return ReadOnly("BattlePassTask", {
     QuestReward = 22000,
     Target = 1000,
     TargetId = {2200601},
-    TaskEndTime = 1764014400,
     TaskUnlockTime = 1762135200
   },
   [100002001] = {
@@ -436,7 +435,6 @@ return ReadOnly("BattlePassTask", {
     QuestReward = 22000,
     Target = 10,
     TargetId = {2200301},
-    TaskEndTime = 1766394000,
     TaskUnlockTime = 1765159200
   },
   [100002208] = {
@@ -447,7 +445,6 @@ return ReadOnly("BattlePassTask", {
     QuestReward = 22000,
     Target = 1,
     TargetId = {2200501},
-    TaskEndTime = 1766394000,
-    TaskUnlockTime = 1764036001
+    TaskUnlockTime = 1764036000
   }
 })

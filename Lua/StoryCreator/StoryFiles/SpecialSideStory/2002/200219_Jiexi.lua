@@ -610,7 +610,7 @@ return {
         IsFairyLand = false,
         SubRegionId = 101101,
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_200219daye_1191257"
+        StoryGuidePointName = "Npc_daye20021904_1191720"
       },
       questNodeData = {
         lineData = {
@@ -666,7 +666,7 @@ return {
               NpcId = 700231,
               GuideUIEnable = true,
               GuideType = "N",
-              GuidePointName = "Npc_200219daye_1191257",
+              GuidePointName = "Npc_daye20021904_1191720",
               DelayShowGuideTime = 0,
               IsPlayerTurnToNPC = true,
               IsNPCTurnToPlayer = true,

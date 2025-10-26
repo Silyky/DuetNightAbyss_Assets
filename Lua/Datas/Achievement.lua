@@ -3407,6 +3407,56 @@ return ReadOnly("Achievement", {
       400000
     }
   },
+  [1021001] = {
+    AchievementDescribe = "UI_Achievement_Des_1021001",
+    AchievementId = 1021001,
+    AchievementName = "UI_Achievement_Name_1021001",
+    AchievementRarity = 2,
+    AchievementReward = 7479,
+    AchievementType = 10,
+    TargetId = 10210,
+    TargetProgress = 10
+  },
+  [1021002] = {
+    AchievementDescribe = "UI_Achievement_Des_1021002",
+    AchievementId = 1021002,
+    AchievementName = "UI_Achievement_Name_1021002",
+    AchievementRarity = 1,
+    AchievementReward = 7003,
+    AchievementType = 10,
+    TargetId = 10210,
+    TargetProgress = 50
+  },
+  [1030101] = {
+    AchievementDescribe = "UI_Achievement_Des_1030101",
+    AchievementId = 1030101,
+    AchievementName = "UI_Achievement_Name_1030101",
+    AchievementRarity = 3,
+    AchievementReward = 7003,
+    AchievementType = 10,
+    TargetId = 10301,
+    TargetProgress = 10
+  },
+  [1030102] = {
+    AchievementDescribe = "UI_Achievement_Des_1030102",
+    AchievementId = 1030102,
+    AchievementName = "UI_Achievement_Name_1030102",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 10,
+    TargetId = 10301,
+    TargetProgress = 30
+  },
+  [1030103] = {
+    AchievementDescribe = "UI_Achievement_Des_1030103",
+    AchievementId = 1030103,
+    AchievementName = "UI_Achievement_Name_1030103",
+    AchievementRarity = 1,
+    AchievementReward = 7476,
+    AchievementType = 10,
+    TargetId = 10301,
+    TargetProgress = 70
+  },
   [1035101] = {
     AchievementDescribe = "UI_Achievement_Des_10351",
     AchievementId = 1035101,
@@ -3440,6 +3490,36 @@ return ReadOnly("Achievement", {
     TargetId = 10351,
     TargetProgress = 50,
     TargetProgressRenew = {20}
+  },
+  [1035201] = {
+    AchievementDescribe = "UI_Achievement_Des_1035201",
+    AchievementId = 1035201,
+    AchievementName = "UI_Achievement_Name_1035201",
+    AchievementRarity = 3,
+    AchievementReward = 7474,
+    AchievementType = 10,
+    TargetId = 10352,
+    TargetProgress = 5
+  },
+  [1035202] = {
+    AchievementDescribe = "UI_Achievement_Des_1035202",
+    AchievementId = 1035202,
+    AchievementName = "UI_Achievement_Name_1035202",
+    AchievementRarity = 2,
+    AchievementReward = 7483,
+    AchievementType = 10,
+    TargetId = 10352,
+    TargetProgress = 20
+  },
+  [1035203] = {
+    AchievementDescribe = "UI_Achievement_Des_1035203",
+    AchievementId = 1035203,
+    AchievementName = "UI_Achievement_Name_1035203",
+    AchievementRarity = 1,
+    AchievementReward = 7475,
+    AchievementType = 10,
+    TargetId = 10352,
+    TargetProgress = 50
   },
   [3010101] = {
     AchievementDescribe = "UI_Achievement_Des_30101",
@@ -3530,6 +3610,16 @@ return ReadOnly("Achievement", {
     TargetId = {30303},
     TargetProgress = 1
   },
+  [3030401] = {
+    AchievementDescribe = "UI_Achievement_Des_3030401",
+    AchievementId = 3030401,
+    AchievementName = "UI_Achievement_Name_3030401",
+    AchievementRarity = 1,
+    AchievementReward = 7470,
+    AchievementType = 10,
+    TargetId = {30615},
+    TargetProgress = 1
+  },
   [3040101] = {
     AchievementDescribe = "UI_Achievement_Des_30401",
     AchievementId = 3040101,
@@ -3538,6 +3628,16 @@ return ReadOnly("Achievement", {
     AchievementReward = 7001,
     AchievementType = 11,
     TargetId = {30401},
+    TargetProgress = 1
+  },
+  [3040102] = {
+    AchievementDescribe = "UI_Achievement_Des_3040102",
+    AchievementId = 3040102,
+    AchievementName = "UI_Achievement_Name_3040102",
+    AchievementRarity = 1,
+    AchievementReward = 7471,
+    AchievementType = 11,
+    TargetId = {30406},
     TargetProgress = 1
   },
   [3050101] = {
@@ -4913,6 +5013,36 @@ return ReadOnly("Achievement", {
     TargetId = 90104,
     TargetProgress = 10
   },
+  [9010501] = {
+    AchievementDescribe = "UI_Achievement_Des_9010501",
+    AchievementId = 9010501,
+    AchievementName = "UI_Achievement_Name_9010501",
+    AchievementRarity = 3,
+    AchievementReward = 7478,
+    AchievementType = 11,
+    TargetId = 90105,
+    TargetProgress = 1
+  },
+  [9010502] = {
+    AchievementDescribe = "UI_Achievement_Des_9010502",
+    AchievementId = 9010502,
+    AchievementName = "UI_Achievement_Name_9010502",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 11,
+    TargetId = 90105,
+    TargetProgress = 5
+  },
+  [9010503] = {
+    AchievementDescribe = "UI_Achievement_Des_9010503",
+    AchievementId = 9010503,
+    AchievementName = "UI_Achievement_Name_9010503",
+    AchievementRarity = 1,
+    AchievementReward = 7003,
+    AchievementType = 11,
+    TargetId = 90105,
+    TargetProgress = 10
+  },
   [9910101] = {
     AchievementDescribe = "UI_Achievement_Des_101",
     AchievementId = 9910101,
@@ -4984,7 +5114,7 @@ return ReadOnly("Achievement", {
     AchievementId = 10010101,
     AchievementName = "UI_Achievement_Name_10010101",
     AchievementRarity = 3,
-    AchievementReward = 7001,
+    AchievementReward = 7480,
     AchievementType = 10,
     TargetId = 100101,
     TargetProgress = 20
@@ -5006,7 +5136,7 @@ return ReadOnly("Achievement", {
     AchievementName = "UI_Achievement_Name_10010103",
     AchievementRarity = 1,
     AchievementRequire = {10010102},
-    AchievementReward = 7003,
+    AchievementReward = 7481,
     AchievementType = 10,
     TargetId = 100101,
     TargetProgress = 100
@@ -5088,6 +5218,67 @@ return ReadOnly("Achievement", {
     AchievementReward = 7001,
     AchievementType = 4,
     TargetId = {200301},
+    TargetProgress = 1
+  },
+  [20030102] = {
+    AchievementDescribe = "UI_Achievement_Des_20030102",
+    AchievementId = 20030102,
+    AchievementName = "UI_Achievement_Name_20030102",
+    AchievementRarity = 1,
+    AchievementReward = 7465,
+    AchievementType = 4,
+    TargetId = {200208},
+    TargetProgress = 1
+  },
+  [20030103] = {
+    AchievementDescribe = "UI_Achievement_Des_20030103",
+    AchievementId = 20030103,
+    AchievementName = "UI_Achievement_Name_20030103",
+    AchievementRarity = 1,
+    AchievementReward = 7466,
+    AchievementType = 4,
+    TargetId = {200209},
+    TargetProgress = 1
+  },
+  [20030104] = {
+    AchievementDescribe = "UI_Achievement_Des_20030104",
+    AchievementId = 20030104,
+    AchievementName = "UI_Achievement_Name_20030104",
+    AchievementRarity = 1,
+    AchievementReward = 7467,
+    AchievementType = 4,
+    TargetId = {200210},
+    TargetProgress = 1
+  },
+  [20030105] = {
+    AchievementDescribe = "UI_Achievement_Des_20030105",
+    AchievementId = 20030105,
+    AchievementName = "UI_Achievement_Name_20030105",
+    AchievementRarity = 1,
+    AchievementReward = 7468,
+    AchievementType = 4,
+    TargetId = {200211},
+    TargetProgress = 1
+  },
+  [20030106] = {
+    AchievementDescribe = "UI_Achievement_Des_20030106",
+    AchievementId = 20030106,
+    AchievementName = "UI_Achievement_Name_20030106",
+    AchievementRarity = 1,
+    AchievementReward = 7469,
+    AchievementType = 4,
+    TargetId = {200302},
+    TargetProgress = 1
+  },
+  [20030107] = {
+    AchievementDescribe = "UI_Achievement_Des_20030107",
+    AchievementId = 20030107,
+    AchievementName = "UI_Achievement_Name_20030107",
+    AchievementRarity = 1,
+    AchievementRequire = {20030101},
+    AchievementReward = 7464,
+    AchievementType = 4,
+    TargetId = {200207},
     TargetProgress = 1
   },
   [30010101] = {
@@ -5465,6 +5656,16 @@ return ReadOnly("Achievement", {
     },
     TargetProgress = 3
   },
+  [107030501] = {
+    AchievementDescribe = "UI_Achievement_Des_107030501",
+    AchievementId = 107030501,
+    AchievementName = "UI_Achievement_Name_107030501",
+    AchievementRarity = 1,
+    AchievementReward = 7473,
+    AchievementType = 1,
+    TargetId = {1070305},
+    TargetProgress = 35
+  },
   [140010101] = {
     AchievementDescribe = "UI_Achievement_Des_1400101",
     AchievementId = 140010101,
@@ -5718,7 +5919,7 @@ return ReadOnly("Achievement", {
     AchievementName = "UI_Achievement_Name_160010103",
     AchievementRarity = 1,
     AchievementRequire = {160010102},
-    AchievementReward = 7003,
+    AchievementReward = 7482,
     AchievementType = 10,
     TargetId = 1600101,
     TargetProgress = 75,
@@ -5759,6 +5960,46 @@ return ReadOnly("Achievement", {
     AchievementType = 2,
     TargetId = 1700101,
     TargetProgress = 20
+  },
+  [200010101] = {
+    AchievementDescribe = "UI_Achievement_Des_200010101",
+    AchievementId = 200010101,
+    AchievementName = "UI_Achievement_Name_200010101",
+    AchievementRarity = 3,
+    AchievementReward = 7472,
+    AchievementType = 10,
+    TargetId = 2000101,
+    TargetProgress = 1
+  },
+  [200010102] = {
+    AchievementDescribe = "UI_Achievement_Des_200010102",
+    AchievementId = 200010102,
+    AchievementName = "UI_Achievement_Name_200010102",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 10,
+    TargetId = 2000101,
+    TargetProgress = 5
+  },
+  [200010103] = {
+    AchievementDescribe = "UI_Achievement_Des_200010103",
+    AchievementId = 200010103,
+    AchievementName = "UI_Achievement_Name_200010103",
+    AchievementRarity = 1,
+    AchievementReward = 7003,
+    AchievementType = 10,
+    TargetId = 2000101,
+    TargetProgress = 10
+  },
+  [210010101] = {
+    AchievementDescribe = "UI_Achievement_Des_210010101",
+    AchievementId = 210010101,
+    AchievementName = "UI_Achievement_Name_210010101",
+    AchievementRarity = 2,
+    AchievementReward = 7477,
+    AchievementType = 4,
+    TargetId = {2100101},
+    TargetProgress = 5
   },
   [519001001] = {
     AchievementDescribe = "UI_Achievement_Des_519001",

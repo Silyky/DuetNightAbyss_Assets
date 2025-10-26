@@ -23788,7 +23788,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [8002061] = {
-    ATK = 26.2,
+    ATK = 10,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -23802,14 +23802,14 @@ return ReadOnly("BattleMonster", {
       [49] = 15
     },
     CollisionLevel = 20,
-    DEF = 300,
+    DEF = 130,
     DEFLevelGrow = "DEFMon",
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 817,
+    MaxES = 82,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 102,
+    MaxHp = 14,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -23831,7 +23831,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [8002062] = {
-    ATK = 26.2,
+    ATK = 10,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -23845,14 +23845,14 @@ return ReadOnly("BattleMonster", {
       [49] = 15
     },
     CollisionLevel = 20,
-    DEF = 300,
+    DEF = 130,
     DEFLevelGrow = "DEFMon",
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 817,
+    MaxES = 82,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 102,
+    MaxHp = 14,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -26858,7 +26858,7 @@ return ReadOnly("BattleMonster", {
     },
     CannotBePushed = 1,
     CollisionLevel = 999,
-    DEF = 300,
+    DEF = 0,
     DEFLevelGrow = "DEFElite",
     DeductToughnessHit = {
       [0] = "LightHit",
