@@ -1082,6 +1082,34 @@ return ReadOnly("TextMapWildcard", {
     TextMapId = "voice_ch_char_NanzhuLight_vo_skill02_r01",
     WildcardClassification = "Story"
   },
+  voice_ch_char_NvzhuLight_vo_appear = {
+    TextMapId = "voice_ch_char_NvzhuLight_vo_appear",
+    WildcardClassification = "Story"
+  },
+  voice_ch_char_NvzhuLight_vo_battleidle = {
+    TextMapId = "voice_ch_char_NvzhuLight_vo_battleidle",
+    WildcardClassification = "Story"
+  },
+  voice_ch_char_NvzhuLight_vo_battlestart = {
+    TextMapId = "voice_ch_char_NvzhuLight_vo_battlestart",
+    WildcardClassification = "Story"
+  },
+  voice_ch_char_NvzhuLight_vo_die_r02 = {
+    TextMapId = "voice_ch_char_NvzhuLight_vo_die_r02",
+    WildcardClassification = "Story"
+  },
+  voice_ch_char_NvzhuLight_vo_lvup = {
+    TextMapId = "voice_ch_char_NvzhuLight_vo_lvup",
+    WildcardClassification = "Story"
+  },
+  voice_ch_char_NvzhuLight_vo_revive = {
+    TextMapId = "voice_ch_char_NvzhuLight_vo_revive",
+    WildcardClassification = "Story"
+  },
+  voice_ch_char_NvzhuLight_vo_skill02_r01 = {
+    TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r01",
+    WildcardClassification = "Story"
+  },
   voice_ch_char_Saiqi_vo_topic_04_2 = {
     TextMapId = "voice_ch_char_Saiqi_vo_topic_04_2",
     WildcardClassification = "Story"

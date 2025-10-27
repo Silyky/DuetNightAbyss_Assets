@@ -12570,7 +12570,7 @@ return ReadOnly("RewardView", {
     },
     Quantity = {
       [1] = 65,
-      [2] = 50,
+      [2] = 30,
       [3] = 280
     },
     RewardViewId = 1030021,
@@ -12598,7 +12598,7 @@ return ReadOnly("RewardView", {
     },
     Quantity = {
       [1] = 65,
-      [2] = 50,
+      [2] = 30,
       [3] = 280
     },
     RewardViewId = 1030022,

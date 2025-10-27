@@ -36504,7 +36504,7 @@ local Data = {
           TextMapId = "SKILL_10301_DESC"
         },
         SKILL_10302_DESC = {
-          ContentEN = "CRIT Chance +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to increase the Combo Level to maximum.",
+          ContentEN = "CRIT Chance +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, there is a <H>#2</> chance to increase the Combo Level to maximum.",
           TextMapId = "SKILL_10302_DESC"
         },
         SKILL_10303_DESC = {
@@ -36660,7 +36660,7 @@ local Data = {
           TextMapId = "SKILL_150101_NAME"
         },
         SKILL_150102_DESC = {
-          ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\nNormal Attacks with [Samael] chain up to 4 hits.\nWhile wielding [Samael], hold the skill button to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\nReleasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
+          ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\nNormal Attacks with [Samael] chain up to 4 hits.\nWhile wielding [Samael], hold attack to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\nReleasing attack, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
           TextMapId = "SKILL_150102_DESC"
         },
         SKILL_150102_NAME = {
@@ -71250,6 +71250,62 @@ local Data = {
         voice_ch_char_Nifu_vo_welcome = {
           ContentEN = "Ah, it's you, my dear child. Good day. Is there something on your mind you'd like to share with me?",
           TextMapId = "voice_ch_char_Nifu_vo_welcome"
+        },
+        voice_ch_char_NvzhuLight_vo_appear = {
+          ContentEN = "The world outside Purgatorio Island defies all accounts — more expansive, yet more brutal. This cannot be its true destiny. That's why a change must be made.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_appear"
+        },
+        voice_ch_char_NvzhuLight_vo_battleidle = {
+          ContentEN = "Where's next? Let me check the map... Ugh... I know maps don't like me.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battleidle"
+        },
+        voice_ch_char_NvzhuLight_vo_battlestart = {
+          ContentEN = "This sword still fulfils its duty.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battlestart"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r01 = {
+          ContentEN = "I can't stop... not now...",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r02 = {
+          ContentEN = "If only... I could make it back to where we promised...",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_fail = {
+          ContentEN = "Next time, they will pay the price.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_fail"
+        },
+        voice_ch_char_NvzhuLight_vo_lvup = {
+          ContentEN = "Every step I've taken, every word I've heard, and every soul I've met — all have honed my view of this world and the edge of my sword.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_lvup"
+        },
+        voice_ch_char_NvzhuLight_vo_revive = {
+          ContentEN = "Was that... just a nightmare?",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_revive"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r01 = {
+          ContentEN = "Vanish.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r02 = {
+          ContentEN = "Light slash.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r01 = {
+          ContentEN = "This time, I will be the shield.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r02 = {
+          ContentEN = "For the future we shall face together.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r03 = {
+          ContentEN = "Return to the Misty Sea.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r03"
+        },
+        voice_ch_char_NvzhuLight_vo_victory = {
+          ContentEN = "Another step forward. As long as I keep proceeding, I'll get there...",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_victory"
         },
         voice_ch_char_Saiqi_vo_appear = {
           ContentEN = "I knew you'd bring me along.",

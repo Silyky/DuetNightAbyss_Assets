@@ -71306,6 +71306,62 @@ local Data = {
           ContentTC = "是你呀，親愛的孩子。日安，有什麼事想要講給我聽嗎？",
           TextMapId = "voice_ch_char_Nifu_vo_welcome"
         },
+        voice_ch_char_NvzhuLight_vo_appear = {
+          ContentTC = "淨界島以外的世界，比書裡還要廣闊，也比書裡更殘酷。它不應該是這副模樣，所以，我想我應該做些什麼。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_appear"
+        },
+        voice_ch_char_NvzhuLight_vo_battleidle = {
+          ContentTC = "接下來該去哪裡？讓我看看地圖……嗯……好難認。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battleidle"
+        },
+        voice_ch_char_NvzhuLight_vo_battlestart = {
+          ContentTC = "這把劍，依舊還在派上用場。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battlestart"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r01 = {
+          ContentTC = "至少……不是在這裡……",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r02 = {
+          ContentTC = "好想回到……約定的地方……",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_fail = {
+          ContentTC = "下一次，他們必將付出代價。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_fail"
+        },
+        voice_ch_char_NvzhuLight_vo_lvup = {
+          ContentTC = "我行過的每一步路、聽到的每一句話、遇見的每一個人，都讓我更加了解這個世界，讓我的劍更加鋒利。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_lvup"
+        },
+        voice_ch_char_NvzhuLight_vo_revive = {
+          ContentTC = "剛剛是……一場噩夢？",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_revive"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r01 = {
+          ContentTC = "消散。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r02 = {
+          ContentTC = "飛光。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r01 = {
+          ContentTC = "這次，輪到我來保護別人。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r02 = {
+          ContentTC = "為了去往明天。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r03 = {
+          ContentTC = "回歸霧海吧。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r03"
+        },
+        voice_ch_char_NvzhuLight_vo_victory = {
+          ContentTC = "又前進了一步。只要我走得足夠遠，就一定可以……",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_victory"
+        },
         voice_ch_char_Saiqi_vo_appear = {
           ContentTC = "我知道的，你會帶我一起去。",
           TextMapId = "voice_ch_char_Saiqi_vo_appear"

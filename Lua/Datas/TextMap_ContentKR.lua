@@ -71255,6 +71255,62 @@ local Data = {
           ContentKR = "너구나, 내가 아끼는 아이. 내게 들려주고 싶은 이야기라도 있니?",
           TextMapId = "voice_ch_char_Nifu_vo_welcome"
         },
+        voice_ch_char_NvzhuLight_vo_appear = {
+          ContentKR = "연옥도 밖은 책에서 본 것보다 넓고... 훨씬 더 잔인했어. 이런 세상은 잘못된 거니까, 내가 뭘 해야 할지 생각하고 있어.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_appear"
+        },
+        voice_ch_char_NvzhuLight_vo_battleidle = {
+          ContentKR = "그다음엔 어디로 가야 하지? 지도를 볼까... 음... 잘 모르겠네.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battleidle"
+        },
+        voice_ch_char_NvzhuLight_vo_battlestart = {
+          ContentKR = "이 검은, 아직 쓰일 곳이 있어.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battlestart"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r01 = {
+          ContentKR = "아직... 여기서만은...",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r02 = {
+          ContentKR = "약속한 곳으로... 돌아가고 싶어...",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_fail = {
+          ContentKR = "다음번엔, 반드시 대가를 치르게 될 거다.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_fail"
+        },
+        voice_ch_char_NvzhuLight_vo_lvup = {
+          ContentKR = "이 길을 걸으며 이야기를 듣고, 수많은 사람들을 만나면서, 세상을 더 깊이 알게 됐어. 내 검도, 한층 더 날카로워졌지.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_lvup"
+        },
+        voice_ch_char_NvzhuLight_vo_revive = {
+          ContentKR = "악몽을... 꾼 건가?",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_revive"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r01 = {
+          ContentKR = "사라져라.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r02 = {
+          ContentKR = "빛의 속도로.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r01 = {
+          ContentKR = "이번엔 내가 지켜줄 차례야.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r02 = {
+          ContentKR = "내일을 향해.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r03 = {
+          ContentKR = "안개의 바다로 돌아가라.",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r03"
+        },
+        voice_ch_char_NvzhuLight_vo_victory = {
+          ContentKR = "또 한발 전진했어. 계속 나아간다면 반드시...",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_victory"
+        },
         voice_ch_char_Saiqi_vo_appear = {
           ContentKR = "역시 날 부를 줄 알았어.",
           TextMapId = "voice_ch_char_Saiqi_vo_appear"

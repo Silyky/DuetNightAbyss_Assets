@@ -75261,7 +75261,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_10301_DESC"
         },
   SKILL_10302_DESC = {
-    ContentEN = "CRIT Chance +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to increase the Combo Level to maximum.",
+    ContentEN = "CRIT Chance +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, there is a <H>#2</> chance to increase the Combo Level to maximum.",
     ContentJP = "クリティカル率+<H>#1</>。この武器でダメージを与えて追加効果を発動すると、<H>#2</>の確率で自身のコンボレベルを最大までアップさせる。",
     ContentKR = "크리티컬 확률+<H>#1</>. 해당 무기로 대미지를 입혀 추가 효과 발동 시, <H>#2</> 확률로 자신의 콤보 레벨이 최대치에 도달한다.",
     ContentTC = "暴擊率+<H>#1</>。使用此武器造成傷害觸發額外效果時，有<H>#2</>概率令自身連擊等級達到最高。",
@@ -75573,7 +75573,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_150101_NAME"
         },
   SKILL_150102_DESC = {
-    ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\nNormal Attacks with [Samael] chain up to 4 hits.\nWhile wielding [Samael], hold the skill button to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\nReleasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
+    ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\nNormal Attacks with [Samael] chain up to 4 hits.\nWhile wielding [Samael], hold attack to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\nReleasing attack, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
     ContentJP = "近接武器を「サマエル」に切り替え、前方範囲の敵に光属性ダメージを与える。「サマエル」使用中にこのスキルを再発動すると「サマエル」は解除される。\n通常攻撃は最大4段の連続攻撃。\n溜め攻撃はSPを消費する。溜め中は「不堅忍」を得て、0.5秒ごとにコンボポイントを獲得する。\n長押しで溜め状態を維持し、終了時・SP不足時・最大コンボLv.時に放ち、前方範囲の敵に光属性ダメージを与える。",
     ContentKR = "근접 무기를 [사마엘]로 전환하고 전방 범위 내의 적에게 빛 속성 대미지를 입힌다. [사마엘] 사용 기간, 해당 스킬을 다시 사용하면 [사마엘]이 회수된다.\n[사마엘]로 기본 공격 시전 시, 최대 4단계의 연속 공격을 발동한다.\n[사마엘]로 차지 공격 시전 시 정신력을 소모하며, 길게 눌러 차지 상태를 유지할 수 있다. 차지 기간 [못 참아]를 획득하고, 0.5초마다 정신력을 소모하여 콤보 포인트를 획득한다. \n길게 누르기 종료, 정신력 부족 또는 콤보 레벨이 최대에 도달하면 차지 공격을 발동하여, 전방 범위 내의 적에게 빛 속성 대미지를 입힌다.",
     ContentTC = "將近戰武器切換為[薩麥爾]並對面前範圍內的敵人造成光屬性傷害。使用[薩麥爾]期間再次使用此技能時收回[薩麥爾]。\n使用[薩麥爾]進行普通攻擊時，會進行最多四段的連續攻擊。\n使用[薩麥爾]進行蓄力攻擊需要消耗神智，可以長按維持蓄力狀態，蓄力期間獲得[不堅忍]，每0.5秒消耗神智並獲得連擊點數。\n長按結束、神智不足或連擊等級達到最高時釋放蓄力攻擊，對面前範圍內的敵人造成光屬性傷害。",
@@ -145917,6 +145917,118 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "是你呀，親愛的孩子。日安，有什麼事想要講給我聽嗎？",
     TextMapContent = "是你呀，亲爱的孩子。日安，有什么事想要讲给我听吗？",
     TextMapId = "voice_ch_char_Nifu_vo_welcome"
+        },
+  voice_ch_char_NvzhuLight_vo_appear = {
+    ContentEN = "The world outside Purgatorio Island defies all accounts — more expansive, yet more brutal. This cannot be its true destiny. That's why a change must be made.",
+    ContentJP = "パーガトリー島の外の世界は、本の中よりもずっと広くて、そして残酷だった......こんな世界であっていいはずがない。だから{性别:僕|私}は動く。",
+    ContentKR = "연옥도 밖은 책에서 본 것보다 넓고... 훨씬 더 잔인했어. 이런 세상은 잘못된 거니까, 내가 뭘 해야 할지 생각하고 있어.",
+    ContentTC = "淨界島以外的世界，比書裡還要廣闊，也比書裡更殘酷。它不應該是這副模樣，所以，我想我應該做些什麼。",
+    TextMapContent = "净界岛以外的世界，比书里还要广阔，也比书里更残酷。它不应该是这副模样，所以，我想我应该做些什么。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_appear"
+        },
+  voice_ch_char_NvzhuLight_vo_battleidle = {
+    ContentEN = "Where's next? Let me check the map... Ugh... I know maps don't like me.",
+    ContentJP = "これからどこへ行く{性别:んだ|の}？ちょっと地図を確認させて......うん......読みにくい{性别:な|ね}。",
+    ContentKR = "그다음엔 어디로 가야 하지? 지도를 볼까... 음... 잘 모르겠네.",
+    ContentTC = "接下來該去哪裡？讓我看看地圖……嗯……好難認。",
+    TextMapContent = "接下来该去哪里？让我看看地图……嗯……好难认。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_battleidle"
+        },
+  voice_ch_char_NvzhuLight_vo_battlestart = {
+    ContentEN = "This sword still fulfils its duty.",
+    ContentJP = "この剣は、まだ役に立てる{性别:んだ|の}。",
+    ContentKR = "이 검은, 아직 쓰일 곳이 있어.",
+    ContentTC = "這把劍，依舊還在派上用場。",
+    TextMapContent = "这把剑，依旧还在派上用场。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_battlestart"
+        },
+  voice_ch_char_NvzhuLight_vo_die_r01 = {
+    ContentEN = "I can't stop... not now...",
+    ContentJP = "せめて……こんなところで……",
+    ContentKR = "아직... 여기서만은...",
+    ContentTC = "至少……不是在這裡……",
+    TextMapContent = "至少……不是在这里……",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_die_r01"
+        },
+  voice_ch_char_NvzhuLight_vo_die_r02 = {
+    ContentEN = "If only... I could make it back to where we promised...",
+    ContentJP = "戻りたい{性别:な|ね}。……約束した場所に……",
+    ContentKR = "약속한 곳으로... 돌아가고 싶어...",
+    ContentTC = "好想回到……約定的地方……",
+    TextMapContent = "好想回到……约定的地方……",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_die_r02"
+        },
+  voice_ch_char_NvzhuLight_vo_fail = {
+    ContentEN = "Next time, they will pay the price.",
+    ContentJP = "今度こそ、彼らに報いを受けさせる！",
+    ContentKR = "다음번엔, 반드시 대가를 치르게 될 거다.",
+    ContentTC = "下一次，他們必將付出代價。",
+    TextMapContent = "下一次，他们必将付出代价。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_fail"
+        },
+  voice_ch_char_NvzhuLight_vo_lvup = {
+    ContentEN = "Every step I've taken, every word I've heard, and every soul I've met — all have honed my view of this world and the edge of my sword.",
+    ContentJP = "今まで歩んできた道、聞いてきた話、出会ってきた人......それらすべてが、{性别:僕|私}にこの世界をもっと深く知らせ、{性别:僕|私}の剣を研ぎ澄ませてくれたものだ。",
+    ContentKR = "이 길을 걸으며 이야기를 듣고, 수많은 사람들을 만나면서, 세상을 더 깊이 알게 됐어. 내 검도, 한층 더 날카로워졌지.",
+    ContentTC = "我行過的每一步路、聽到的每一句話、遇見的每一個人，都讓我更加了解這個世界，讓我的劍更加鋒利。",
+    TextMapContent = "我行过的每一步路、听到的每一句话、遇见的每一个人，都让我更加了解这个世界，让我的剑更加锋利。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_lvup"
+        },
+  voice_ch_char_NvzhuLight_vo_revive = {
+    ContentEN = "Was that... just a nightmare?",
+    ContentJP = "さっきのは......悪夢だったの{性别:か|}？",
+    ContentKR = "악몽을... 꾼 건가?",
+    ContentTC = "剛剛是……一場噩夢？",
+    TextMapContent = "刚刚是……一场噩梦？",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_revive"
+        },
+  voice_ch_char_NvzhuLight_vo_skill01_r01 = {
+    ContentEN = "Vanish.",
+    ContentJP = "消えて。",
+    ContentKR = "사라져라.",
+    ContentTC = "消散。",
+    TextMapContent = "消散。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r01"
+        },
+  voice_ch_char_NvzhuLight_vo_skill01_r02 = {
+    ContentEN = "Light slash.",
+    ContentJP = "光よ、飛べ！",
+    ContentKR = "빛의 속도로.",
+    ContentTC = "飛光。",
+    TextMapContent = "飞光。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r02"
+        },
+  voice_ch_char_NvzhuLight_vo_skill02_r01 = {
+    ContentEN = "This time, I will be the shield.",
+    ContentJP = "今度は、{性别:僕|私}が守ってあげる！",
+    ContentKR = "이번엔 내가 지켜줄 차례야.",
+    ContentTC = "這次，輪到我來保護別人。",
+    TextMapContent = "这次，轮到我来保护别人。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r01"
+        },
+  voice_ch_char_NvzhuLight_vo_skill02_r02 = {
+    ContentEN = "For the future we shall face together.",
+    ContentJP = "明日を迎えるために",
+    ContentKR = "내일을 향해.",
+    ContentTC = "為了去往明天。",
+    TextMapContent = "为了去往明天。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r02"
+        },
+  voice_ch_char_NvzhuLight_vo_skill02_r03 = {
+    ContentEN = "Return to the Misty Sea.",
+    ContentJP = "ニヴルヘイムに帰れ",
+    ContentKR = "안개의 바다로 돌아가라.",
+    ContentTC = "回歸霧海吧。",
+    TextMapContent = "回归雾海吧。",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r03"
+        },
+  voice_ch_char_NvzhuLight_vo_victory = {
+    ContentEN = "Another step forward. As long as I keep proceeding, I'll get there...",
+    ContentJP = "また一歩、前へ進んだ。こうして一歩ずつ重ねていけば、いつかきっと......",
+    ContentKR = "또 한발 전진했어. 계속 나아간다면 반드시...",
+    ContentTC = "又前進了一步。只要我走得足夠遠，就一定可以……",
+    TextMapContent = "又前进了一步。只要我走得足够远，就一定可以……",
+    TextMapId = "voice_ch_char_NvzhuLight_vo_victory"
         },
   voice_ch_char_Saiqi_vo_appear = {
     ContentEN = "I knew you'd bring me along.",

@@ -948,7 +948,7 @@
       },
       {
         "SkillName": "That's It!",
-        "SkillDesc": "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\\nNormal Attacks with [Samael] chain up to 4 hits.\\nWhile wielding [Samael], hold the skill button to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\\nReleasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
+        "SkillDesc": "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\\nNormal Attacks with [Samael] chain up to 4 hits.\\nWhile wielding [Samael], hold attack to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\\nReleasing attack, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
         "SkillBtnDesc": "Buff",
         "SkillBtnIcon": "Skill_Baonu02_On",
         "SkillParams": [

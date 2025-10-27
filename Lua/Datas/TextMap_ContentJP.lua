@@ -71246,6 +71246,62 @@ local Data = {
           ContentJP = "まあ、いらっしゃったのね。ごきげんよう。どうなさいましたの？",
           TextMapId = "voice_ch_char_Nifu_vo_welcome"
         },
+        voice_ch_char_NvzhuLight_vo_appear = {
+          ContentJP = "パーガトリー島の外の世界は、本の中よりもずっと広くて、そして残酷だった......こんな世界であっていいはずがない。だから{性别:僕|私}は動く。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_appear"
+        },
+        voice_ch_char_NvzhuLight_vo_battleidle = {
+          ContentJP = "これからどこへ行く{性别:んだ|の}？ちょっと地図を確認させて......うん......読みにくい{性别:な|ね}。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battleidle"
+        },
+        voice_ch_char_NvzhuLight_vo_battlestart = {
+          ContentJP = "この剣は、まだ役に立てる{性别:んだ|の}。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_battlestart"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r01 = {
+          ContentJP = "せめて……こんなところで……",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_die_r02 = {
+          ContentJP = "戻りたい{性别:な|ね}。……約束した場所に……",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_die_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_fail = {
+          ContentJP = "今度こそ、彼らに報いを受けさせる！",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_fail"
+        },
+        voice_ch_char_NvzhuLight_vo_lvup = {
+          ContentJP = "今まで歩んできた道、聞いてきた話、出会ってきた人......それらすべてが、{性别:僕|私}にこの世界をもっと深く知らせ、{性别:僕|私}の剣を研ぎ澄ませてくれたものだ。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_lvup"
+        },
+        voice_ch_char_NvzhuLight_vo_revive = {
+          ContentJP = "さっきのは......悪夢だったの{性别:か|}？",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_revive"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r01 = {
+          ContentJP = "消えて。",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill01_r02 = {
+          ContentJP = "光よ、飛べ！",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill01_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r01 = {
+          ContentJP = "今度は、{性别:僕|私}が守ってあげる！",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r01"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r02 = {
+          ContentJP = "明日を迎えるために",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r02"
+        },
+        voice_ch_char_NvzhuLight_vo_skill02_r03 = {
+          ContentJP = "ニヴルヘイムに帰れ",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_skill02_r03"
+        },
+        voice_ch_char_NvzhuLight_vo_victory = {
+          ContentJP = "また一歩、前へ進んだ。こうして一歩ずつ重ねていけば、いつかきっと......",
+          TextMapId = "voice_ch_char_NvzhuLight_vo_victory"
+        },
         voice_ch_char_Saiqi_vo_appear = {
           ContentJP = "うん、わかってたよ。あなたなら私を連れていってくれるって。",
           TextMapId = "voice_ch_char_Saiqi_vo_appear"
