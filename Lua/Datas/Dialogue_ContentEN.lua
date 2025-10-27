@@ -7191,7 +7191,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1001/100121/191072D0"
         },
         [10012110] = {
-          ContentEN = "Come to think of it, the appearance of that brat just now was...",
+          ContentEN = "Come to think of it, {性别:his|her} face was...",
           DialogueId = 10012110,
           GUID = "191072D1",
           NextDialogue = 10012105,
@@ -15495,7 +15495,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100336/191E3B24"
         },
         [10033611] = {
-          Content = "咦？不是说有人在这儿接我们吗，他们人呢？",
+          ContentEN = "Hmm? Weren't there supposed to be soldiers meeting us here? Where are they?",
           DialogueId = 10033611,
           GUID = "191E3B25",
           NextDialogue = 10033612,
@@ -19371,7 +19371,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100346/191EDF60"
         },
         [10034613] = {
-          Content = "（<H>地面都被士兵封锁了</>……或许可以试试别的路——比如<H>楼顶</>？）",
+          ContentEN = "(The ground is blockaded by soldiers... Maybe try another way — what about the rooftops?)",
           DialogueId = 10034613,
           GUID = "191EDF61",
           SpeakNpcId = 100001,
@@ -22515,7 +22515,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100355/191F71B6"
         },
         [10035504] = {
-          ContentEN = "(This glare... Where am I? I remember passing the tests, being assigned to the 6th Legion's alchemy academy, and then...)",
+          ContentEN = "(Ah, this glare... Where am I? I remember passing the tests, being assigned to the 6th Legion's alchemy academy, and then...)",
           DialogueId = 10035504,
           GUID = "191F71E0",
           RelatedWikiId = {
@@ -22548,7 +22548,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100355/191F725E"
         },
         [10035508] = {
-          ContentEN = "Professor, the data is in. This one shows exceptional resistance among this batch of augmented subjects. \nThe current test failed to breach the secondary heart you implanted, while fire has damaged its synthetic skin, causing its body temperature to spike far beyond normal limits.",
+          ContentEN = "Professor, the data is in. This one shows exceptional resistance among this batch of augmented subjects. \nThe current test failed to breach the secondary heart you implanted, while fire has damaged its synthetic skin,\ncausing its body temperature to spike far beyond normal limits.",
           DialogueId = 10035508,
           GUID = "191F7288",
           SpeakNpcName = "Cp2CharacterName05",
@@ -22562,7 +22562,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100355/191F72B2"
         },
         [10035510] = {
-          ContentEN = "Do not waste your compassion on these demons. Administer the sedative, secure its limbs, and prepare for the next enhancement experiment.",
+          ContentEN = "Do not waste your compassion on these demons.\nAdminister the sedative, secure its limbs, and prepare for the next enhancement experiment.",
           DialogueId = 10035510,
           GUID = "191F72DC",
           SpeakNpcName = "Cp2CharacterName04",
@@ -47474,7 +47474,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/101123/1950A9E0"
         },
         [10112305] = {
-          ContentEN = "Don't yield to this cold, unfeeling world!",
+          ContentEN = "Stand up... Don't yield to this cold, unfeeling world!",
           DialogueId = 10112305,
           Duration = 2,
           ExStoryInfo = "Player",
@@ -51576,12 +51576,12 @@ local Data = {
           IsBlack = 1
         },
         [10123404] = {
-          Content = "恩里克消失在了视线外……似乎是跟丢了。",
+          ContentEN = "Henrik has vanished... Looks like the trail has gone cold.",
           DialogueId = 10123404,
           GUID = "1957C6A5"
         },
         [10123405] = {
-          Content = "恩里克走进了一间花店，你们决定在一旁的咖啡厅稍作等待。",
+          ContentEN = "Henrik stepped into a flower shop, and you decided to wait at a nearby café.",
           DialogueId = 10123405,
           GUID = "1957C6A6"
         },
@@ -54300,7 +54300,7 @@ local Data = {
         },
         [10130304] = {
           Camera = "-353.71582,-276.680176,199.59375,0.000172,-9.398859,23.610058,20.0,407.218628,false,DoNotOverride,4.0",
-          ContentEN = "Well, nothing pairs with a good view like a good drink! We've got all kinds of coffee, Icelake's own Borealberry Juice... Oh! Or how about our newest special — rich, creamy Pickled Herring Soup?",
+          ContentEN = "Well, nothing pairs with a good view like a good drink! We've got all kinds of coffee, Icelake's own Borealberry Juice... Oh! And how about our newest special — rich, creamy Pickled Herring Soup?",
           DefaultLookAt = "TalkNpc",
           DialogueId = 10130304,
           GUID = "195BD026",
@@ -61905,7 +61905,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/110125/1B9193C2"
         },
         [11012510] = {
-          ContentEN = "Captain! Commander Avar! The Captain's gone mad! Stay away from me! Help! STOP! NOOOO!",
+          ContentEN = "STOP! NOOOO! Captain! Commander Avar! The Captain's gone mad!",
           DialogueId = 11012510,
           Duration = 3,
           GUID = "1B9193EC",
@@ -72043,21 +72043,21 @@ local Data = {
           GUID = "1B9600CA"
         },
         [11019420] = {
-          Content = "你向典狱长承认了罪行，等待你的将是更为严酷的裁决。",
+          ContentEN = "You have made the confession of guilt, and a far sterner retribution now lies in wait.",
           DialogueId = 11019420,
           Duration = 4,
           GUID = "1B9600CB",
           NextDialogue = 11019421
         },
         [11019421] = {
-          Content = "你听见她的嗤笑——她曾认为你坚强无匹，但如今看来，你和她审判过的其他囚犯也并无分别。",
+          ContentEN = "You hear her scornful laugh — she once believed you were unbreakable, but now sees you as no different from the other prisoners she has judged.",
           DialogueId = 11019421,
           Duration = 4,
           GUID = "1B9600CC",
           NextDialogue = 11019422
         },
         [11019422] = {
-          Content = "你意识到自己正在坠入漆黑的深渊——你开始思索，如果当时你的意志能够更坚定一些，结局会不会有所不同？",
+          ContentEN = "You find yourself plunging into an abyss of darkness — and you begin to wonder, if only your resolve had been firmer, would things have ended differently?",
           DialogueId = 11019422,
           Duration = 4,
           GUID = "1B9600CD"
@@ -89453,12 +89453,12 @@ local Data = {
           VoiceName = "voice/$Locale$/story/2001/200071/3215EFD4"
         },
         [20007107] = {
-          Content = "若干道深深的刻痕，似是某周尖锐物体留下的痕迹。",
+          ContentEN = "Several deep gouges, as if left by some jagged object.",
           DialogueId = 20007107,
           GUID = "3215EFD5"
         },
         [20007108] = {
-          Content = "写着“禁区危险，严禁通行”的告示。贴了厚厚一叠，似乎是当老告示变旧了就会贴一张新告示上去。最新的一张告示落款是新历1004年，也就是二十年前——格雷姆矿场应当就是在那时彻底废弃的。",
+          ContentEN = "A sign reading "Danger: No Entry" was piled up with multiple layers, as if a new one was posted each time the old one faded. The latest was dated 1004 — twenty years ago — suggesting Glevum Pit was abandoned around that time.",
           DialogueId = 20007108,
           GUID = "3215EFD6"
         },
@@ -91901,7 +91901,7 @@ local Data = {
           Subtitle = "(In silence, the elder periodically snaps from his thoughts, letting out a lingering sigh.)\n(It's unclear whether it's a tribute to a fallen comrade or a lament for the changing times.)"
         },
         [51001212] = {
-          Content = "老人温柔地注视着空中的一小片黑点，你顺着他的视线远眺，看到了一群离去的飞鸟。待到所有鸟群飞走后，老人才转身继续与你交谈。",
+          ContentEN = "The elder watched a dark speck in the sky with a soft gaze. You looked out and saw a distant flock of birds. The conversation resumed only after the last one had vanished.",
           DialogueId = 51001212,
           GUID = "7FAD188B",
           NextOptions = {
@@ -93522,7 +93522,7 @@ local Data = {
         },
         [51001935] = {
           Camera = "122.0,278.0,139.0,0.000007,0.0,-95.0,35.0,200.0,false,Manual,2.8",
-          ContentEN = "(And yet... beneath the laughter, his fingers curl around the broken pocket watch, a quiet sorrow flickering beneath the surface.)\n(Like the shattered timepiece, a part of him is no longer easily mended.) ",
+          ContentEN = "(You pop open the last keg. Glancing back, you see Wells already raising a glass, his grin wide and familiar as ever.)",
           DialogueId = 51001935,
           FinalCamera = "102.0,278.0,139.0,0.000007,0.0,-95.0,35.0,350.0,false,Manual,2.8",
           GUID = "7FAD907A",
@@ -95984,7 +95984,7 @@ local Data = {
           GUID = "7FAEA5C5"
         },
         [51003721] = {
-          Content = "打打打打打劫皎皎已逃走，任务失败，请重新开始。",
+          ContentEN = "Lulu Lunoloot has escaped. Quest failed, please try again.",
           DialogueId = 51003721,
           Duration = 3,
           GUID = "7FAEA5C6"
@@ -98999,13 +98999,13 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51005314] = {
-          Content = "钓到了，回去找马库斯吧。",
+          ContentEN = "Caught it. Time to go back to Marcus.",
           DialogueId = 51005314,
           GUID = "7FAFBB54",
           SpeakNpcId = 100001
         },
         [51005315] = {
-          Content = "钓到了，回去找马库斯吧。",
+          ContentEN = "Caught it. Time to go back to Marcus.",
           DialogueId = 51005315,
           GUID = "7FAFBB7E",
           SpeakNpcId = 100001
@@ -102885,7 +102885,7 @@ local Data = {
           bForbidSkipOptions = true
         },
         [51007303] = {
-          ContentEN = "That’s an interesting take. Can you help me get what passion really means?",
+          ContentEN = "That's an interesting take. Can you help me get what passion really means?",
           DialogueId = 51007303,
           GUID = "7FB101A6",
           NextOptions = {
@@ -102895,14 +102895,14 @@ local Data = {
           SpeakNpcId = 700077
         },
         [51007304] = {
-          ContentEN = "I am a researcher with the Imperial Branch of Archaeological Society of Atlasia. Lately, the research reports I’ve submitted keeps being returned with the same remark — no passion can be felt within.",
+          ContentEN = "I am a researcher with the Imperial Branch of Archaeological Society of Atlasia. Lately, the research reports I've submitted keeps being returned with the same remark — no passion can be felt within.",
           DialogueId = 51007304,
           GUID = "7FB101D0",
           NextDialogue = 51007305,
           SpeakNpcId = 700077
         },
         [51007305] = {
-          ContentEN = "Ugh... I just don’t get what the investor want...",
+          ContentEN = "Ugh... I just don't get what the investor want...",
           DialogueId = 51007305,
           GUID = "7FB101FA",
           NextDialogue = 51007306,
@@ -102916,14 +102916,14 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51007307] = {
-          ContentEN = "Mr Qiu isn’t just some investor. He is the investor who uncovered the century-sunken ships in the Republic of Luca, the ruins in Elysium buried for thousands years, and the battlefield in Hyperborea lost to time. Each stands a milestone in the annals of archaeology.",
+          ContentEN = "Mr Qiu isn't just some investor. He is the investor who uncovered the century-sunken ships in the Republic of Luca, the ruins in Elysium buried for thousands years, and the battlefield in Hyperborea lost to time. Each stands a milestone in the annals of archaeology.",
           DialogueId = 51007307,
           GUID = "7FB1024E",
           NextDialogue = 51007308,
           SpeakNpcId = 700077
         },
         [51007308] = {
-          ContentEN = "(With eyes brimming with reverence, Shirley poured forth tale after tale of Mr Qiu’s past.)",
+          ContentEN = "(With eyes brimming with reverence, Shirley poured forth tale after tale of Mr Qiu's past.)",
           DialogueId = 51007308,
           GUID = "7FB10278",
           NextDialogue = 51007309
@@ -102936,14 +102936,14 @@ local Data = {
           SpeakNpcId = 700077
         },
         [51007310] = {
-          ContentEN = "If it weren’t for his backing, the Archaeological Society wouldn’t have developed into such a a huge organization spreading across the continent today.",
+          ContentEN = "If it weren't for his backing, the Archaeological Society wouldn't have developed into such a a huge organization spreading across the continent today.",
           DialogueId = 51007310,
           GUID = "7FB102CC",
           NextDialogue = 51007311,
           SpeakNpcId = 700077
         },
         [51007311] = {
-          ContentEN = "Ugh... He never really cared before, so why’s he suddenly clinging to us now? Is life in retirement truly so idle in Huaxu?",
+          ContentEN = "Ugh... He never really cared before, so why's he suddenly clinging to us now? Is life in retirement truly so idle in Huaxu?",
           DialogueId = 51007311,
           GUID = "7FB102F6",
           NextDialogue = 51007312,
@@ -102957,7 +102957,7 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51007313] = {
-          ContentEN = "Of course! A Brief Analysis of the Customer Flow in Icelake’s Taverns, The Craft and Evolution of Drink-Brewing in Asphodel, or Observational Records of the Luno Naming Itself the Demon King. Which one would you like to read?",
+          ContentEN = "Of course! A Brief Analysis of the Customer Flow in Icelake's Taverns, The Craft and Evolution of Drink-Brewing in Asphodel, or Observational Records of the Luno Naming Itself the Demon King. Which one would you like to read?",
           DialogueId = 51007313,
           GUID = "7FB1034A",
           NextOptions = {
@@ -102984,13 +102984,13 @@ local Data = {
           NextDialogue = 510073152
         },
         [51007316] = {
-          ContentEN = "Please don’t give up on me!",
+          ContentEN = "Please don't give up on me!",
           DialogueId = 51007316,
           GUID = "7FB103C8",
           SpeakNpcId = 700077
         },
         [51007317] = {
-          ContentEN = "This sewer is a real maze. I’d certainly get lost if you didn’t lead me in.",
+          ContentEN = "This sewer is a real maze. I'd certainly get lost if you didn't lead me in.",
           DialogueId = 51007317,
           GUID = "7FB103F2",
           NextDialogue = 51007318,
@@ -103011,7 +103011,7 @@ local Data = {
           SpeakNpcId = 700172
         },
         [51007320] = {
-          ContentEN = "By the records of the Hyperborean Empire’s official chronicles, it was in Icelake that the nation first took root. Perhaps that’s why the sewers here are almost as big as the city on the surface.",
+          ContentEN = "By the records of the Hyperborean Empire's official chronicles, it was in Icelake that the nation first took root. Perhaps that's why the sewers here are almost as big as the city on the surface.",
           DialogueId = 51007320,
           GUID = "7FB10447",
           NextDialogue = 51007321,
@@ -103025,7 +103025,7 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51007322] = {
-          ContentEN = "Probably it was expanded with Icelake’s growth. I heard that Icelake itself began only as a settlement of Charons.",
+          ContentEN = "Probably it was expanded with Icelake's growth. I heard that Icelake itself began only as a settlement of Charons.",
           DialogueId = 51007322,
           GUID = "7FB1049A",
           NextDialogue = 51007323,
@@ -103039,14 +103039,14 @@ local Data = {
           SpeakNpcId = 700172
         },
         [51007325] = {
-          ContentEN = "Aaaahhhh, this is way too high! I can’t tell if it’s higher than the Hall of Adjudication in Huaxu... No, my fear of heights is back...",
+          ContentEN = "Aaaahhhh, this is way too high! I can't tell if it's higher than the Hall of Adjudication in Huaxu... No, my fear of heights is back...",
           DialogueId = 51007325,
           GUID = "7FB10542",
           NextDialogue = 51007326,
           SpeakNpcId = 700173
         },
         [51007326] = {
-          ContentEN = "Don’t look out there yet. Just stare at your feet and calm down.",
+          ContentEN = "Don't look out there yet. Just stare at your feet and calm down.",
           DialogueId = 51007326,
           GUID = "7FB1056C",
           NextDialogue = 51007327,
@@ -103088,7 +103088,7 @@ local Data = {
           SpeakNpcId = 700173
         },
         [51007333] = {
-          ContentEN = "That’s why Dis Ⅰ believed that Charons were demons, and led his knights to subdue them, declaring the so-called "Silverpeace."",
+          ContentEN = "That's why Dis Ⅰ believed that Charons were demons, and led his knights to subdue them, declaring the so-called "Silverpeace."",
           DialogueId = 51007333,
           GUID = "7FB10692",
           NextDialogue = 51007334,
@@ -103123,7 +103123,7 @@ local Data = {
           SpeakNpcId = 700173
         },
         [51007340] = {
-          ContentEN = "Without you, I’d probably still think Icelake held no archaeological values and write those superficial reports, like a fool overlooking all that matters.",
+          ContentEN = "Without you, I'd probably still think Icelake held no archaeological values and write those superficial reports, like a fool overlooking all that matters.",
           DialogueId = 51007340,
           GUID = "7FB107B8",
           NextDialogue = 51007341,
@@ -103168,7 +103168,7 @@ local Data = {
           NextDialogue = 51007346
         },
         [51007346] = {
-          ContentEN = "Master, these are the latest volumes of the Official Chronicles of the Hyperborean Empire, Volume ⅩⅩⅩⅡ, newly received by the Archaeological Society. A humble token of gratitude — hope you won’t find it unworthy.",
+          ContentEN = "Master, these are the latest volumes of the Official Chronicles of the Hyperborean Empire, Volume ⅩⅩⅩⅡ, newly received by the Archaeological Society. A humble token of gratitude — hope you won't find it unworthy.",
           DialogueId = 51007346,
           GUID = "7FB108B4",
           NextDialogue = 51007347,
@@ -114796,7 +114796,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/510104/7FB2FF10"
         },
         [51010409] = {
-          ContentEN = "Still — I was lucky to arrive just in time for the Silvercandle Carnival. It's the city's one day when even paupers like me can step through the theatre doors for free. Unlucky, though... to hear there'd been a shootout inside. Absolutely dreadful.",
+          ContentEN = "Still — I was lucky to arrive just in time for the Silvercandle Carnival. It's the city's one day when even paupers like me can step through the theatre doors for free. Tragic, though... to hear there'd been a shootout inside. Absolutely dreadful.",
           DialogueId = 51010409,
           GUID = "7FB2FF3A",
           NextDialogue = 51010410,
@@ -116468,7 +116468,7 @@ local Data = {
           NextDialogue = 51012109
         },
         [51012109] = {
-          ContentEN = "You remembered my scent, didn’t you? And, brought me a gift in return?",
+          ContentEN = "You remembered my scent, didn't you? And, brought me a gift in return?",
           DialogueId = 51012109,
           GUID = "7FB41622",
           NextDialogue = 51012110,
@@ -116505,7 +116505,7 @@ local Data = {
           NextDialogue = 51012114
         },
         [51012114] = {
-          ContentEN = "(The cat nods and bounces away. You may not know what it’ll bring you next time, yet you know you’ll see it around at the Sanctuary for a long while.)",
+          ContentEN = "(The cat nods and bounces away. You may not know what it'll bring you next time, yet you know you'll see it around at the Sanctuary for a long while.)",
           DialogueId = 51012114,
           GUID = "7FB416F4"
         },
@@ -116528,7 +116528,7 @@ local Data = {
           NextDialogue = 51012204
         },
         [51012204] = {
-          ContentEN = "{catname} it is! That’ll be your name from now on!",
+          ContentEN = "{catname} it is! That'll be your name from now on!",
           DialogueId = 51012204,
           GUID = "7FB425B8",
           SpeakNpcId = 100001
@@ -124827,7 +124827,7 @@ local Data = {
         },
         [80001024] = {
           Camera = "-4.021118,-147.850586,140.854248,0.000064,-3.469995,89.231857,35.0,160.025635,false,Manual,12.0",
-          Content = "（好像还没有把小夜莺的羽毛收集全……要再回去找找看吗？）",
+          ContentEN = "(Still missing some feathers... Should we head back and search again?)",
           DialogueId = 80001024,
           Duration = 12,
           GUID = "C8462FD7",
@@ -155053,7 +155053,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Dafu/002/C8B90B1E"
         },
         [80180244] = {
-          Content = "（子弹上膛声）",
+          ContentEN = "{空格}",
           DialogueId = 80180244,
           GUID = "C8B90B48",
           IsBlack = 1,
@@ -165751,6 +165751,7 @@ local Data = {
           TalkActionId = {
             [1] = "81501:Agree"
           },
+          VoiceName = "voice/$Locale$/char/Baonu/vo_topic_03_4",
           bForbidSkipOptions = true
         },
         [90250400] = {
@@ -169596,7 +169597,7 @@ local Data = {
           NextDialogue = 510073026
         },
         [510073024] = {
-          ContentEN = "I don’t even know what I really want...",
+          ContentEN = "I don't even know what I really want...",
           DialogueId = 510073024,
           GUID = "7FB1017D",
           NextDialogue = 51007303,
@@ -169610,7 +169611,7 @@ local Data = {
           SpeakNpcId = 700077
         },
         [510073026] = {
-          ContentEN = "Oh, I see! No wonder I didn’t get it.",
+          ContentEN = "Oh, I see! No wonder I didn't get it.",
           DialogueId = 510073026,
           GUID = "7FB1017F",
           NextDialogue = 51007303,
@@ -169629,7 +169630,7 @@ local Data = {
           Scripts = "SetOutport{FinishType{"Fail"}}"
         },
         [510073131] = {
-          ContentEN = "For an academic report, it doesn’t really sound that academic.",
+          ContentEN = "For an academic report, it doesn't really sound that academic.",
           DialogueId = 510073131,
           GUID = "510073131.0",
           ImprPlusId = 1005,
@@ -169643,7 +169644,7 @@ local Data = {
           NextDialogue = 51007314
         },
         [510073141] = {
-          ContentEN = "That’s it — you see nothing up top and give up right away. No wonder the investor said he can’t feel any passion.",
+          ContentEN = "That's it — you see nothing up top and give up right away. No wonder the investor said he can't feel any passion.",
           DialogueId = 510073141,
           GUID = "510073141.0",
           ImprPlusId = 1002,
@@ -169651,7 +169652,7 @@ local Data = {
           SpeakNpcId = 100001
         },
         [510073142] = {
-          ContentEN = "It’s not like I want it this way! Passion, what is it? I am sure haven’t found it here in Icelake.",
+          ContentEN = "It's not like I want it this way! Passion, what is it? I am sure haven't found it here in Icelake.",
           DialogueId = 510073142,
           GUID = "510073142.0",
           NextOptions = {
@@ -169661,27 +169662,27 @@ local Data = {
           SpeakNpcId = 700077
         },
         [510073151] = {
-          ContentEN = "Ugh... if I had one, do you think I’d still be stuck here worrying?",
+          ContentEN = "Ugh... if I had one, do you think I'd still be stuck here worrying?",
           DialogueId = 510073151,
           GUID = "510073151.0",
           SpeakNpcId = 700077
         },
         [510073152] = {
-          ContentEN = "I can’t find one. Phoxhunters here only care about fights and drinks. I once asked if there were any historic ruins nearby, only to be asked back whether their stewpots counted as relics.",
+          ContentEN = "I can't find one. Phoxhunters here only care about fights and drinks. I once asked if there were any historic ruins nearby, only to be asked back whether their stewpots counted as relics.",
           DialogueId = 510073152,
           GUID = "510073152",
           NextDialogue = 510073156,
           SpeakNpcId = 700077
         },
         [510073153] = {
-          ContentEN = "Alright, let’s see if we can dig up some inspiration for you.",
+          ContentEN = "Alright, let's see if we can dig up some inspiration for you.",
           DialogueId = 510073153,
           GUID = "510073153",
           ImprPlusId = 1004,
           NextDialogue = 51007316
         },
         [510073154] = {
-          ContentEN = "Pay up, and I’ll help you brainstorm.",
+          ContentEN = "Pay up, and I'll help you brainstorm.",
           DialogueId = 510073154,
           GUID = "510073154",
           ImprPlusId = 1001,
@@ -169713,7 +169714,7 @@ local Data = {
           SpeakNpcId = 700172
         },
         [510073232] = {
-          ContentEN = "I could probably write a report on this. It’s kind of more like urban history... I wonder if anyone has already worked on it.",
+          ContentEN = "I could probably write a report on this. It's kind of more like urban history... I wonder if anyone has already worked on it.",
           DialogueId = 510073232,
           GUID = "7FB104C6",
           NextDialogue = 510073233,
@@ -169733,7 +169734,7 @@ local Data = {
           NextDialogue = 51007344
         },
         [510073412] = {
-          ContentEN = "I’m just an ordinary Phoxhunter passing by.",
+          ContentEN = "I'm just an ordinary Phoxhunter passing by.",
           DialogueId = 510073412,
           GUID = "510073412.0",
           ImprPlusId = 1002,
@@ -169747,7 +169748,7 @@ local Data = {
           NextDialogue = 51007342
         },
         [510073441] = {
-          ContentEN = "I get it. You’re trying to keep your identity secret from others.",
+          ContentEN = "I get it. You're trying to keep your identity secret from others.",
           DialogueId = 510073441,
           GUID = "510073441.0",
           NextDialogue = 51007342,
@@ -169949,7 +169950,7 @@ local Data = {
           NextDialogue = 51009486
         },
         [510095121] = {
-          Content = "……",
+          ContentEN = "…",
           DialogueId = 510095121,
           GUID = "510095121.0",
           NextOptions = {

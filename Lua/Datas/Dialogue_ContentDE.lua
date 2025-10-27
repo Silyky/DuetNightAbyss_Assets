@@ -165740,6 +165740,7 @@ local Data = {
           TalkActionId = {
             [1] = "81501:Agree"
           },
+          VoiceName = "voice/$Locale$/char/Baonu/vo_topic_03_4",
           bForbidSkipOptions = true
         },
         [90250400] = {

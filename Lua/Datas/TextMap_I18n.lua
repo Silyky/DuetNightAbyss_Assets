@@ -365,7 +365,7 @@ return ReadOnly("TextMap_I18n", {
   Abyss_Battle_RemainTime = {
     ContentEN = "Remaining Time:",
     ContentJP = "残り時間：",
-    ContentKR = "남은 시간:",
+    ContentKR = "남은 시간:{空格}",
     ContentTC = "剩餘時間：",
     TextMapContent = "剩余时间：",
     TextMapId = "Abyss_Battle_RemainTime"
@@ -555,7 +555,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Abyss_InfiniteReward_Title"
         },
   Abyss_LevelName = {
-    ContentEN = "Act %s",
+    ContentEN = "Act %s{空格}",
     ContentJP = "第%s幕",
     ContentKR = "제%s막{空格}",
     ContentTC = "第%s幕",
@@ -1076,7 +1076,6 @@ return ReadOnly("TextMap_I18n", {
   AnnouncementFixedTimeZone = {
     ContentJP = "(JST)",
     ContentKR = "(KST)",
-    ContentTC = "nan",
     TextMapId = "AnnouncementFixedTimeZone"
         },
   AnnouncementTimeFormatLong = {
@@ -19183,24 +19182,24 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Event_102001_QuestName4"
         },
   Event_Des_101001 = {
-    ContentEN = "Sign in for 7 days during the event to claim rewards",
-    ContentJP = "イベント期間中、7日間ログインしてボーナスをゲット",
+    ContentEN = "Log in for 7 days to claim rewards",
+    ContentJP = "イベント期間中、7日間ログインして\nプレゼントを受け取る",
     ContentKR = "이벤트 기간 중 7일 출석 시 선물 지급",
     ContentTC = "活動期間簽到7日領取贈禮",
     TextMapContent = "活动期间签到7日领取赠礼",
     TextMapId = "Event_Des_101001"
         },
   Event_Des_101002 = {
-    ContentEN = "Log in for 7 days during the event to claim rewards",
-    ContentJP = "イベント期間中、7日間ログインしてプレゼントを受け取る",
+    ContentEN = "Log in for 7 days to claim rewards",
+    ContentJP = "イベント期間中、7日間ログインして\nプレゼントを受け取る",
     ContentKR = "이벤트 기간 중 7일 출석 시 선물 지급",
     ContentTC = "活動期間簽到7日領取贈禮",
     TextMapContent = "活动期间签到7日领取赠礼",
     TextMapId = "Event_Des_101002"
         },
   Event_Des_101003 = {
-    ContentEN = "Log in for 7 days during the event to claim rewards",
-    ContentJP = "イベント期間中、7日間ログインしてプレゼント\nを受け取る",
+    ContentEN = "Log in for 7 days to claim rewards",
+    ContentJP = "イベント期間中、7日間ログインして\nプレゼントを受け取る",
     ContentKR = "이벤트 기간 중 7일 출석 시 선물 지급",
     ContentTC = "活動期間簽到7日領取贈禮",
     TextMapContent = "活动期间签到7日领取赠礼",
@@ -19287,10 +19286,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Event_Des_103009001"
         },
   Event_Des_103010 = {
-    ContentEN = "When a young nightingale leaves its nest, it sees the vast skies and sweeps across soft meadows — but also faces cold rain and raging winds.\n But the girl has made up her mind: no more turning back. With her magic brush, she'll paint a dream in every hue — and in this harsh, unforgiving world... find a sky forever warm and bright, just like the ones in her favourite fairytales.",
-    ContentJP = "小さなナイチンゲールが巣を飛び立つとき、広大な空を見上げ、柔らかな草原を越えるだろう。だがそれは同時に、冷たい雨や荒れ狂う風と出会う運命でもある。\n けれど少女はもう退くことを選ばない。彼女は魔法の筆で彩りの夢を描き、この残酷な現実の世界の中に、童話のように暖かく明るい空を見つけ出すのだ。",
+    ContentEN = "When a young nightingale leaves its nest, it sees the vast skies and sweeps across soft meadows — but also faces cold rain and raging winds.\nBut the girl has made up her mind: no more turning back. With her magic brush, she'll paint a dream in every hue — and in this harsh, unforgiving world... find a sky forever warm and bright, just like the ones in her favourite fairytales.",
+    ContentJP = "小さなナイチンゲールが巣を飛び立つとき、広大な空を見上げ、柔らかな草原を越えるだろう。だがそれは同時に、冷たい雨や荒れ狂う風と出会う運命でもある。\nけれど少女はもう退くことを選ばない。彼女は魔法の筆で彩りの夢を描き、この残酷な現実の世界の中に、童話のように暖かく明るい空を見つけ出すのだ。",
     ContentKR = "둥지를 떠난 어린 나이팅게일은 넓은 하늘을 보고,\n부드러운 초원을 넘지만 차가운 빗방울과\n난폭한 바람을 맞이하게 된다.\n하지만 소녀는 더는 물러서지 않기로 결심했다.\n그녀는 마법의 붓으로 알록달록한 꿈을 그리고\n잔혹한 현실 세계에서 동화 속처럼 따뜻하고\n맑게 갠 하늘을 찾을 것이다.",
-    ContentTC = "當一隻小夜鶯飛出巢穴，它會見到廣闊的天空，掠過柔軟的草地，卻也注定會迎上冰冷的雨和狂暴的風。\n 但少女已決心不再退卻，她將用魔法的畫筆描繪彩色的夢，在這依然殘酷的現實世界裡，尋得一片永遠如童話般溫暖明亮的晴天。",
+    ContentTC = "當一隻小夜鶯飛出巢穴，它會見到廣闊的天空，掠過柔軟的草地，卻也注定會迎上冰冷的雨和狂暴的風。\n但少女已決心不再退卻，她將用魔法的畫筆描繪彩色的夢，在這依然殘酷的現實世界裡，尋得一片永遠如童話般溫暖明亮的晴天。",
     TextMapContent = "当一只小夜莺飞出巢穴，它会见到广阔的天空，掠过柔软的草地，却也注定会迎上冰冷的雨和狂暴的风。\n但少女已决心不再退却，她将用魔法的画笔描绘彩色的梦，在这依然残酷的现实世界里，寻得一片永远如童话般温暖明亮的晴天。",
     TextMapId = "Event_Des_103010"
         },
@@ -21969,7 +21968,7 @@ return ReadOnly("TextMap_I18n", {
   Guide_Message_AbyssUI_1 = {
     ContentEN = "<H>Immersive Theatre</> is now available. Challenge performers posing as enemies and hone your battle skills.",
     ContentJP = "<H>体験型劇場</>が解放されたよ。ここでは敵役を演じる俳優たちとの戦闘を通じて、戦闘スキルを磨くことができる。",
-    ContentKR = "<H>몰입형 연극</>이 열렸습니다. 여기서 적으로 분장한 배우들과 싸우며 전투 기술을 연마할 수 있어.",
+    ContentKR = "<H>몰입형 연극</>이 열렸어. 여기서 적으로 분장한 배우들과 싸우며 전투 기술을 연마할 수 있어.",
     ContentTC = "<H>沉浸式戲劇</>已開放。可以在此與扮作敵人的演員對戰，磨練戰鬥技巧。",
     TextMapContent = "<H>沉浸式戏剧</>已开放。可以在此与扮作敌人的演员对战，磨练战斗技巧。",
     TextMapId = "Guide_Message_AbyssUI_1"
@@ -22033,7 +22032,7 @@ return ReadOnly("TextMap_I18n", {
   Guide_Message_AbyssUI_8 = {
     ContentEN = "Select <H>Go</> to start the challenge",
     ContentJP = "<H>GO</>をタップすると、その幕の挑戦が開始されます。",
-    ContentKR = "<H>이동하기</>를 클릭하여 해당 막의 도전을 시작하세요.",
+    ContentKR = "<H>이동</>을 클릭하여 해당 막의 도전을 시작하세요.",
     ContentTC = "點擊<H>前往</>，開啟本幕挑戰。",
     TextMapContent = "点击<H>前往</>，开启本幕挑战。",
     TextMapId = "Guide_Message_AbyssUI_8"
@@ -30380,10 +30379,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Content_10014"
         },
   Mail_Content_10016 = {
-    ContentEN = "Dear Phoxhunter,\n Please find the Thought of Rebecca's memory attached.",
-    ContentJP = "親愛なる月狩り人様：\n 以下はレベッカの記憶を宿した想いの欠片です。添付よりお受け取りください。",
+    ContentEN = "Dear Phoxhunter,\nPlease find the Thought of Rebecca's memory attached.",
+    ContentJP = "親愛なる月狩り人様：\n以下はレベッカの記憶を宿した想いの欠片です。添付よりお受け取りください。",
     ContentKR = "월석 사냥꾼님께,\n첨부 아이템에서 레베카의 기억이 담긴 아이디어 조각을 수령해 주세요.",
-    ContentTC = "親愛的狩月人： _x000D_\n以下為承載著麗蓓卡記憶的思緒片段，請於附件中領取。",
+    ContentTC = "親愛的狩月人： \n以下為承載著麗蓓卡記憶的思緒片段，請於附件中領取。",
     TextMapContent = "亲爱的狩月人： \n以下为承载着丽蓓卡记忆的思绪片段，请于附件中领取。",
     TextMapId = "Mail_Content_10016"
         },
@@ -30419,7 +30418,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Dear Phoxhunter, The latest volume of the Bard's Tome is now complete. All unclaimed rewards have been sent to your mailbox. Don't forget to get them!",
     ContentJP = "親愛なる月狩り人様、今期の詩歌集の配布は終了しました。未受領の報酬はメールで配布いたしました。ご確認ください。",
     ContentKR = "월석 사냥꾼님, 이번 음유 시집 장정이 종료되었습니다. 모든 미수령한 보상은 우편을 통해 지급되었으니, 확인해 주세요",
-    ContentTC = "親愛的狩月人，本期吟遊詩集裝訂已經結束。所有尚未領取的獎勵已通過郵件發放，請查收。",
+    ContentTC = "親愛的狩月人，本期吟遊詩集裝訂已經結束。所有尚未領取的獎勵已通過信件發放，請查收。",
     TextMapContent = "亲爱的狩月人，本期吟游诗集装订已经结束。所有尚未领取的奖励已通过邮件发放，请查收。",
     TextMapId = "Mail_Content_100401"
         },
@@ -30440,10 +30439,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Content_10055"
         },
   Mail_Content_10056 = {
-    ContentEN = "Dear Phoxhunter,\n  Thank you for participating the Mini Program events. Please claim your rewards from your mailbox.",
+    ContentEN = "Dear Phoxhunter,\nThank you for participating the Mini Program events. Please claim your rewards from your mailbox.",
     ContentJP = "親愛なる月狩り人様、アプレットイベントに参加していただき、誠にありがとうございます。用意した報酬が全てメールで配布されました。どうぞご確認ください。",
     ContentKR = "월석 사냥꾼님, 미니 프로그램 이벤트에 참여해 주셔서 감사드립니다. 보상이 우편으로 지급되었으니 확인해 주세요.",
-    ContentTC = "親愛的狩月人 感謝您在小程序參與活動，獎勵已通過郵件發放，請注意查收。",
+    ContentTC = "親愛的狩月人 感謝您在小程序參與活動，獎勵已通過信件發放，請注意查收。",
     TextMapContent = "亲爱的狩月人 感谢您在小程序参与活动，奖励已通过邮件发放，请注意查收。",
     TextMapId = "Mail_Content_10056"
         },
@@ -30464,18 +30463,18 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Content_10059"
         },
   Mail_Content_101001 = {
-    ContentEN = "Dear Phoxhunter, \n \n Your unclaimed rewards from the %s event have been sent to your mailbox. Don't forget to claim them!",
-    ContentJP = "親愛なる月狩り人様、\n 「%s」の未受け取りの報酬が全てメールで配布されました。ご確認ください。",
+    ContentEN = "Dear Phoxhunter, \n\nYour unclaimed rewards from the %s event have been sent to your mailbox. Don't forget to claim them!",
+    ContentJP = "親愛なる月狩り人様、\n「%s」の未受け取りの報酬が全てメールで配布されました。ご確認ください。",
     ContentKR = "월석 사냥꾼님께,\n'%s' 이벤트에서 미수령한 보상이 있습니다. 우편을 통해 지급되었으니, 확인해 주세요.",
-    ContentTC = "親愛的狩月人：\n  您在「%s」活動中有未領取的獎勵內容，現已通過本郵件發放，請注意查收。",
+    ContentTC = "親愛的狩月人：\n您在「%s」活動中有未領取的獎勵內容，現已通過本信件發放，請注意查收。",
     TextMapContent = "亲爱的狩月人：\n  您在“%s”活动中有未领取的奖励内容，现已通过本邮件发放，请注意查收。",
     TextMapId = "Mail_Content_101001"
         },
   Mail_Content_102001 = {
-    ContentEN = "Dear Phoxhunter, \n \n Your unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been sent to your mailbox. Don't forget to claim them!",
-    ContentJP = "親愛なる月狩り人様、\n 「月狩り人の初心者ガイド」の未受領の報酬が全てメールで配布されました。ご確認ください。",
+    ContentEN = "Dear Phoxhunter, \n\nYour unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been sent to your mailbox. Don't forget to claim them!",
+    ContentJP = "親愛なる月狩り人様、\n「月狩り人の初心者ガイド」の未受領の報酬が全てメールで配布されました。ご確認ください。",
     ContentKR = "월석 사냥꾼님께,\n'월석 사냥꾼 입문 가이드' 이벤트에서 미수령한 보상이 있습니다. 우편을 통해 지급되었으니, 확인해 주세요.",
-    ContentTC = "親愛的狩月人：\n  您在「狩月人入門指南」活動中有未領取的獎勵內容，現已通過本郵件發放，請注意查收。",
+    ContentTC = "親愛的狩月人：\n您在「狩月人入門指南」活動中有未領取的獎勵內容，現已通過本信件發放，請注意查收。",
     TextMapContent = "亲爱的狩月人：\n  您在“狩月人入门指南”活动中有未领取的奖励内容，现已通过本邮件发放，请注意查收。",
     TextMapId = "Mail_Content_102001"
         },
@@ -30611,7 +30610,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Login Rewards",
     ContentJP = "ログイン報酬メール",
     ContentKR = "출석 보상 우편",
-    ContentTC = "簽到獎勵郵件",
+    ContentTC = "簽到獎勵信件",
     TextMapContent = "签到奖励邮件",
     TextMapId = "Mail_Title_10014"
         },
@@ -30619,7 +30618,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Thought Reward Mail",
     ContentJP = "想いの欠片報酬メール",
     ContentKR = "아이디어 조각 보상 우편",
-    ContentTC = "思緒片段獎勵郵件",
+    ContentTC = "思緒片段獎勵信件",
     TextMapContent = "思绪片段奖励邮件",
     TextMapId = "Mail_Title_10016"
         },
@@ -31598,7 +31597,7 @@ return ReadOnly("TextMap_I18n", {
   Message_Guide_DungeonSec_8 = {
     ContentEN = "Here you can view the possible drops for the Covert Commission. Upon completion, three of the six rewards will be randomly presented. Choose one to claim.",
     ContentJP = "ここで、その依頼密書を完了した時に得られる可能性のある報酬内容を確認できます。任務を完了すると、その6種の中からランダムで3種が表示され、1つを選んで受け取ることができます。",
-    ContentKR = "이곳에서는 해당 의뢰 편지를 완료 시 획득 가능한 보상을 확인할 수 있습니다. 의뢰 편지 퀘스트를 완료할 때마다 6종의 보상 중 랜덤으로 3종이 퀘스트 보상으로 제공되며, 그중 1개를 선택해 수령할 수 있습니다.",
+    ContentKR = "해당 의뢰 편지 완료 시 획득 가능한 보상입니다. 의뢰 편지 퀘스트를 완료할 때마다 6종 중 랜덤 3종이 퀘스트 보상으로 제공되며, 그중 1개를 선택할 수 있습니다.",
     ContentTC = "此處可查看完成該委托密函後可能獲得的獎勵內容。每次完成委托密函任務後，將從6種報酬隨機3種作為任務獎勵，可從其中選擇1項領取。",
     TextMapContent = "此处可查看完成该委托密函后可能获得的奖励内容。每次完成委托密函任务后，将从6种报酬随机3种作为任务奖励，可从其中选择1项领取。",
     TextMapId = "Message_Guide_DungeonSec_8"
@@ -32311,7 +32310,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "You've received a new email.",
     ContentJP = "新しいメールが来たよ。",
     ContentKR = "새로운 우편이 도착했어!",
-    ContentTC = "收到了一封新郵件。",
+    ContentTC = "收到了一封新信件。",
     TextMapContent = "收到了一封新邮件。",
     TextMapId = "Message_Guide_Mail_1"
         },
@@ -32391,7 +32390,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Open the Mail screen",
     ContentJP = "メール画面を開く",
     ContentKR = "우편 화면을 여세요",
-    ContentTC = "打開郵件界面",
+    ContentTC = "打開信件界面",
     TextMapContent = "打开邮件界面",
     TextMapId = "Message_Guide_Mail_3"
         },
@@ -32399,7 +32398,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Select an email",
     ContentJP = "メールをタップ",
     ContentKR = "우편을 클릭하세요",
-    ContentTC = "點擊一封郵件",
+    ContentTC = "點擊一封信件",
     TextMapContent = "点击一封邮件",
     TextMapId = "Message_Guide_Mail_4"
         },
@@ -32439,7 +32438,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Click anywhere to return to the Mailbox screen",
     ContentJP = "空白部分をタップしてメール画面に戻る",
     ContentKR = "빈 곳을 클릭하여 우편 화면으로 돌아가세요",
-    ContentTC = "點擊空白處返回郵件界面",
+    ContentTC = "點擊空白處返回信件界面",
     TextMapContent = "点击空白处返回邮件界面",
     TextMapId = "Message_Guide_Mail_9"
         },
@@ -32447,7 +32446,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Press to return to the Mailbox screen",
     ContentJP = "ボタンを押してメール画面に戻る",
     ContentKR = "버튼을 눌러 우편 화면으로 돌아가세요",
-    ContentTC = "按下返回郵件界面",
+    ContentTC = "按下返回信件界面",
     TextMapContent = "按下返回邮件界面",
     TextMapId = "Message_Guide_Mail_9_Pad"
         },
@@ -54028,7 +54027,7 @@ return ReadOnly("TextMap_I18n", {
   Quest_Tips_LeaveHintTrigger = {
     ContentEN = "Exiting the quest area",
     ContentJP = "まもなくクエストエリアから離脱します。",
-    ContentKR = "퀘스트 지역 떠나기",
+    ContentKR = "퀘스트 지역을 떠납니다",
     ContentTC = "即將離開任務區域",
     TextMapContent = "即将离开任务区域",
     TextMapId = "Quest_Tips_LeaveHintTrigger"
@@ -55844,7 +55843,7 @@ return ReadOnly("TextMap_I18n", {
   READ_TEXT_2000057 = {
     ContentEN = "Ⅰ. Overture\n\nHast thou ever heard of such a revelry,\n\nWhere profane soldiers and demon's progeny joined hand in hand?\n\nWhere the southerling and the nordling raised a song as one,\n\nTo hymn the silver peace ‘twixt Sola and Charon!\n\nTears of wax did drip from Sola's candlelight,\n\nUpon Charon's face, naught but carefree delight.\n\nThey twisted their waists, they swung limb and limb,\n\nWith steps of dance, their joy did brim.\n\nThrough joy they reached madness, a fevered state,\n\nThrough madness, forgot sorrow and fate.\n\nThrough sorrow, bestowed upon the past its weight,\n\nAnd at the end of past — a name to celebrate!\n\nSoranus Galea!\n\nHe who took an ancient name, yet defied the false god's claim,\n\nHe who inherited an armored surname, to aid the Emperor's frame.\n\nThe younger brother of His Majesty Dis Galea, departed from our world too soon,\n\nSoranus Galea!",
     ContentJP = "Ⅰ. 序曲\n聞け、この宴を！\n涜神の兵　悪魔の裔\n手に手を取り　輪を組む\n南の来客　北の住民\n声を一つに上げよ\nソラとカロン　平和を讃えよ\n\n万歳！シルバーピースに！\n\nソラの手に　蝋燭の涙\nカロンの頬に　歓喜の笑み\n腰をひねれ　腕を振れ\n一歩ごとに　歓びあふれよ\n\n歓びは狂気へ\n狂気は憂いを忘れさせ\n憂いは過去に重みを与え\nその果てに――讃え、ただ一つの名を\n\nオール・ハイル・ソラヌス・ゲレア！\n\nいにしえの名を掲げ　偽りの神の宣りを退けし者\n甲冑めく姓を継ぎ　帝皇の御身を支えし者\nディズ陛下の弟君　あまりにも早く世を去れり――\n\nオール・ハイル・ソラヌス・ゲレア！\n\n万歳！その名を掲げよ！",
-    ContentKR = "Ⅰ. 서곡\n\n이런 광란의 축제를 들어본 적 있는가\n\n신을 모독하는 군사가 악마의 후예와 손잡고\n\n남쪽의 손님과 극북의 주민이 함께 노래하여\n\n솔라와 카론의 은빛 평화를 찬미하노라\n\n솔라는 등불을 든 채 눈물 흘리고\n\n카론은 걱정 없이 기쁘게 웃네\n\n허리를 돌려라, 손발을 흔들자\n\n춤추며 즐거움에 젖어라\n\n즐거움에 열광하라\n\n열광으로 슬픔을 지우고\n\n슬픔을 과거에 선물하라\n\n과거의 끝, 그곳에서 칭송할 성과 이름\n\n솔라누스 갈레아\n\n오랜 이름을 얻되 신에게 반기를 들어라\n\n갑주의 이름을 계승하여 제왕을 보필하라\n\n디스 갈레아 폐하의 너무 일찍 세상을 떠난 동생\n\n솔라누스 갈레아!",
+    ContentKR = "1. 서곡\n\n이런 광란의 축제를 들어본 적 있는가\n\n신을 모독하는 군사가 악마의 후예와 손잡고\n\n남쪽의 손님과 극북의 주민이 함께 노래하여\n\n솔라와 카론의 은빛 평화를 찬미하노라\n\n솔라는 등불을 든 채 눈물 흘리고\n\n카론은 걱정 없이 기쁘게 웃네\n\n허리를 돌려라, 손발을 흔들자\n\n춤추며 즐거움에 젖어라\n\n즐거움에 열광하라\n\n열광으로 슬픔을 지우고\n\n슬픔을 과거에 선물하라\n\n과거의 끝, 그곳에서 칭송할 성과 이름\n\n솔라누스 갈레아\n\n오랜 이름을 얻되 신에게 반기를 들어라\n\n갑주의 이름을 계승하여 제왕을 보필하라\n\n디스 갈레아 폐하의 너무 일찍 세상을 떠난 동생\n\n솔라누스 갈레아!",
     ContentTC = "一、序曲\n\n你是否曾聽聞這樣一場狂歡\n\n瀆神軍士與惡魔後嗣拉起手\n\n南方來客與極北住民唱起歌\n\n歌頌索拉與卡戎的銀色和平\n\n索拉手中燭火垂淚\n\n卡戎面上歡笑無憂\n\n扭轉腰肢，擺動手腳\n\n以舞步踏出歡樂\n\n以歡樂抵達瘋狂\n\n以瘋狂忘記悲痛\n\n以悲痛贈予過往\n\n在過往的盡頭 是那需要稱頌的名與姓\n\n索拉努斯·蓋雷亞\n\n獲得古老的名字但反抗偽神\n\n繼承盔甲的姓氏而輔弼帝皇\n\n迪斯·蓋雷亞陛下那過早離開了人世的皇弟\n\n索拉努斯·蓋雷亞！",
     TextMapContent = "一、序曲\n\n你是否曾听闻这样一场狂欢\n\n渎神军士与恶魔后嗣拉起手\n\n南方来客与极北住民唱起歌\n\n歌颂索拉与卡戎的银色和平\n\n索拉手中烛火垂泪\n\n卡戎面上欢笑无忧\n\n扭转腰肢，摆动手脚\n\n以舞步踏出欢乐\n\n以欢乐抵达疯狂\n\n以疯狂忘记悲痛\n\n以悲痛赠予过往\n\n在过往的尽头 是那需要称颂的名与姓\n\n索拉努斯·盖雷亚\n\n获得古老的名字但反抗伪神\n\n继承盔甲的姓氏而辅弼帝皇\n\n迪斯·盖雷亚陛下那过早离开了人世的皇弟\n\n索拉努斯·盖雷亚！"",
     TextMapId = "READ_TEXT_2000057"
@@ -59173,7 +59172,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "A fish bearing a striking resemblance to Phoxene, with an uncanny texture that feels almost indistinguishable from the real thing. No two look quite the same — but they all share one unfortunate trait: flesh as tough as stone. It's rarely eaten except in times of true desperation.",
     ContentJP = "まるで月ノ石のような質感を持つ奇妙な魚。個体ごとに微妙な違いがあり、見た目は美しいが、食べるときはまるで石を噛んでいるよう。非常時以外に口にされることは少ない。",
     ContentKR = "월석처럼 생긴 어류, 질감이 신기하게도 진짜 월석과 똑같다. 개체마다 미묘하게 다르긴 하나 식감도 돌과 비슷해 정말 굶주린 게 아니라면 이걸 먹는 사람은 거의 없다.",
-    ContentTC = "一种状如月石的鱼类，质感奇异，摸起来和真的月石一般无二，每个个体之间都有着微妙的差异，但口感也和石头十分接近，除了实在吃不上饭的时候，几乎没有人会以它为食。",
+    ContentTC = "一種狀如月石的魚類，質感奇異，摸起來和真的月石一般無二，每個個體之間都有著微妙的差異，但口感也和石頭十分接近，除了實在吃不上飯的時候，幾乎沒有人會以它為食。",
     TextMapContent = "一种状如月石的鱼类，质感奇异，摸起来和真的月石一般无二，每个个体之间都有着微妙的差异，但口感也和石头十分接近，除了实在吃不上饭的时候，几乎没有人会以它为食。",
     TextMapId = "RESOURCE_DESC_5023010"
         },
@@ -62938,7 +62937,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_NAME_30002"
         },
   RESOURCE_NAME_3001 = {
-    ContentEN = "d10",
+    ContentEN = "D10 Die",
     ContentJP = "十面ダイス",
     ContentKR = "십면 주사위",
     ContentTC = "十面骰",
@@ -74230,10 +74229,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Ranged"
         },
   Reading_Content_101223 = {
-    ContentEN = "(A journal recovered from Glevum Pit. Based on the writing style, it appears to belong to a scholar.)\n ...\n 16 April\n We discovered a curious <H>yellow crystal cluster</> in this long-abandoned mine. Its composition suggests it is neither the Crystallo of Stella — said to lie hidden deep within the mountain caverns — nor residual Phoxene from past excavations. It appears to be an entirely undocumented mineral.\n ...\n 18 April\n To our surprise, Bob observed that the dimly glowing yellow crystals had <H>grown</>. What was once no larger than a handspan had developed into squat, shrub-like clusters.\n ...\n 20 April\n The clusters had grown again — this time into jagged, spire-like forms that blocked off several inner passageways. They seemed almost... alive. Fortunately, the crystals are extremely brittle; only a modest amount of <H>gunpowder</> is needed to blast them apart.\n Bob has put forward a hypothesis: these formations may not be minerals at all, but a type of <H>Filthoid secretion</> — perhaps even a form of "progeny." Like sponges left in water, they appear to swell and expand over time. It remains a bold theory, even for someone of Bob's expertise in Filthoid biology.\n ...\n 21 April\n To test Bob's theory, we've decided to press deeper into the mine. If his conjecture proves correct, then somewhere within this forsaken pit lies a unique strain of Filthoid, distinct from those found in the wild — a <H>progenitor</>, perhaps...\n ...",
-    ContentJP = "（グルビューム廃坑に残された手記。文体からして、どうやら学者のものだ。）\n ……\n 4月16日\n この廃鉱で、奇妙な<H>黄色の結晶群</>を発見した。質感から判断するに、噂にある山の奥深い洞穴に眠る群星のジェムでも、廃鉱に残された月ノ石でもなく、未確認の鉱物らしい。\n ……\n 4月18日\n ボブは驚きながら、このほの暗い光を放つこの黄色の結晶群が<H>大きくなっていた</>と報告した。手のひら大だったものが、低木のような群生へと育っている。\n ……\n 4月20日\n ……結晶の群生はさらに「成長」し、棘状の結晶となって坑道の扉を塞いでしまった。まるで生き物のようだ。幸い、この黄色い結晶は脆く、触っただけで砕ける。少量の<H>火薬</>で爆破できる。\n ボブは仮説を立てた。これは鉱物ではなく、何らかの<H>穢獣の分泌物</>——ひいては穢獣の「子体」なのではないか。時間とともに、水を吸ったスポンジのように膨張するという。ボブは穢獣生物学に通じているが、それでもやや大胆な仮説だ。\n ……\n 4月21日\n ボブの仮説を検証するため、鉱道のさらに奥へ進むことにした。もし推測が正しければ、この廃鉱の深部には、野外で見かける穢獣とは異なる特別な穢獣の<H>母体</>が存在するはずだ。\n ……",
-    ContentKR = "(글로스터 광산에 남겨져 있는 노트. 내용으로 보아, 어떤 학자가 쓴 듯하다.)\n......\n4월 16일\n우리는 이 폐광에서 특이한 <H>노란색 정동</H>을 발견했다. 재질로 볼 때, 산속 깊은 동굴에 숨겨져 있다는 반짝이는 수정이나 폐광에 남겨진 월석은 아닌 듯하며, 아마도 현재까지 발견되지 않은 광물인 듯하다.\n......\n4월 18일\n놀랍게도, 이 은은한 빛을 내뿜는 노란 정동의 크기가 <H>커진</H> 것을 밥이 발견했다. 분명히 손바닥만 하던 것이 덤불 크기만 한 결정 군락이 되어 있었다.\n......\n4월 20일\n...정동이 또 '자라났다'. 마치 살아있는 생물체처럼, 가시 모양의 수정체가 되어, 광갱 안의 통로를 막아버렸다. 다행히 재질이 약해서 쉽게 깨지기 때문에, 약간의 <H>화약</>만 있으면 폭파할 수 있다.\n 밥이 이 결정은 광물이 아니라 어떤 <H>필토이드의 분비물</>, 또는 이를 모체로 한 생성물이며, 시간이 흐르면서 물에 젖은 스펀지처럼 팽창하는 것이 아닐까 하는 가설을 제시했다. 밥이 필토이드 생물학에 관해 조예가 깊기는 하지만, 아직까지는 대담한 가설에 불과하다.\n......\n4월 21일\n밥의 가설을 검증하기 위해, 광갱 깊숙히 들어가 보기로 했다. 만약 그의 추측이 맞다면, 이 폐광 깊은 곳에는 야외의 필트이드와 다른 특수한 필토이드 <H>모체</>가 반드시 존재할 것이다.\n.......",
-    ContentTC = "（遺留在格雷姆礦場的筆記，看行文口吻，似乎是某位學者。）\n ……\n 4月16日\n 我們在這座廢棄的礦場裡發現了一種奇特的<H>黃色晶簇</>。從質地判斷，這並非傳聞裡山體深處洞穴埋藏的群星綺晶，也不是遺留在廢棄礦場中的月石，而是某種尚未發現的礦物。\n ……\n 4月18日\n 鮑勃驚訝地發現，這些散發著幽暗光芒的黃色晶簇<H>變大了</>，從只有巴掌那麼大，長成了低矮灌木一樣的晶簇叢。\n ……\n 4月20日\n ……晶簇叢又「長大」了，變成了尖刺狀晶體，把礦洞中的門都堵住了，簡直像是活物一樣。好在這些黃色晶體質地脆弱，一觸即碎，只需要少量<H>火藥</>就能爆破。\n 鮑勃提出了一種假設：這種晶體並非礦物，而是某種<H>穢獸的分泌物</>——甚至可以說是穢獸的某種「子體」；隨著時間推移，它會像沾了水的海綿那樣膨脹。儘管鮑勃在穢獸生物學上頗有造詣，這依舊是一種有些大膽的假設。\n ……\n 4月21日\n 為了驗證鮑勃的假設，我們決定向礦洞深處進發。如果他的推測為真，那麼在這個廢棄礦場深處，一定存在某個和這些野外穢獸不同的，特殊的穢獸<H>母體</>。\n ……",
+    ContentEN = "(A journal recovered from Glevum Pit. Based on the writing style, it appears to belong to a scholar.)\n...\n16 April\nWe discovered a curious <H>yellow crystal cluster</> in this long-abandoned mine. Its composition suggests it is neither the Crystallo of Stella — said to lie hidden deep within the mountain caverns — nor residual Phoxene from past excavations. It appears to be an entirely undocumented mineral.\n...\n18 April\nTo our surprise, Bob observed that the dimly glowing yellow crystals had <H>grown</>. What was once no larger than a handspan had developed into squat, shrub-like clusters.\n...\n20 April\nThe clusters had grown again — this time into jagged, spire-like forms that blocked off several inner passageways. They seemed almost... alive. Fortunately, the crystals are extremely brittle; only a modest amount of <H>gunpowder</> is needed to blast them apart.\nBob has put forward a hypothesis: these formations may not be minerals at all, but a type of <H>Filthoid secretion</> — perhaps even a form of "progeny." Like sponges left in water, they appear to swell and expand over time. It remains a bold theory, even for someone of Bob's expertise in Filthoid biology.\n...\n21 April\nTo test Bob's theory, we've decided to press deeper into the mine. If his conjecture proves correct, then somewhere within this forsaken pit lies a unique strain of Filthoid, distinct from those found in the wild — a <H>progenitor</>, perhaps...\n...",
+    ContentJP = "（グルビューム廃坑に残された手記。文体からして、どうやら学者のものだ。）\n……\n4月16日\nこの廃鉱で、奇妙な<H>黄色の結晶群</>を発見した。質感から判断するに、噂にある山の奥深い洞穴に眠る群星のジェムでも、廃鉱に残された月ノ石でもなく、未確認の鉱物らしい。\n……\n4月18日\nボブは驚きながら、このほの暗い光を放つこの黄色の結晶群が<H>大きくなっていた</>と報告した。手のひら大だったものが、低木のような群生へと育っている。\n……\n4月20日\n……結晶の群生はさらに「成長」し、棘状の結晶となって坑道の扉を塞いでしまった。まるで生き物のようだ。幸い、この黄色い結晶は脆く、触っただけで砕ける。少量の<H>火薬</>で爆破できる。\nボブは仮説を立てた。これは鉱物ではなく、何らかの<H>穢獣の分泌物</>——ひいては穢獣の「子体」なのではないか。時間とともに、水を吸ったスポンジのように膨張するという。ボブは穢獣生物学に通じているが、それでもやや大胆な仮説だ。\n……\n4月21日\nボブの仮説を検証するため、鉱道のさらに奥へ進むことにした。もし推測が正しければ、この廃鉱の深部には、野外で見かける穢獣とは異なる特別な穢獣の<H>母体</>が存在するはずだ。\n……",
+    ContentKR = "(글로스터 광산에 남겨져 있는 노트. 내용으로 보아, 어떤 학자가 쓴 듯하다.)\n......\n4월 16일\n우리는 이 폐광에서 특이한 <H>노란색 정동</>을 발견했다. 재질로 볼 때, 산속 깊은 동굴에 숨겨져 있다는 반짝이는 수정이나 폐광에 남겨진 월석은 아닌 듯하며, 아마도 현재까지 발견되지 않은 광물인 듯하다.\n......\n4월 18일\n놀랍게도, 이 은은한 빛을 내뿜는 노란 정동의 크기가 <H>커진</> 것을 밥이 발견했다. 분명히 손바닥만 하던 것이 덤불 크기만 한 결정 군락이 되어 있었다.\n......\n4월 20일\n...정동이 또 '자라났다'. 마치 살아있는 생물체처럼, 가시 모양의 수정체가 되어, 광갱 안의 통로를 막아버렸다. 다행히 재질이 약해서 쉽게 깨지기 때문에, 약간의 <H>화약</>만 있으면 폭파할 수 있다.\n밥이 이 결정은 광물이 아니라 어떤 <H>필토이드의 분비물</>, 또는 이를 모체로 한 생성물이며, 시간이 흐르면서 물에 젖은 스펀지처럼 팽창하는 것이 아닐까 하는 가설을 제시했다. 밥이 필토이드 생물학에 관해 조예가 깊기는 하지만, 아직까지는 대담한 가설에 불과하다.\n......\n4월 21일\n밥의 가설을 검증하기 위해, 광갱 깊숙히 들어가 보기로 했다. 만약 그의 추측이 맞다면, 이 폐광 깊은 곳에는 야외의 필트이드와 다른 특수한 필토이드 <H>모체</>가 반드시 존재할 것이다.\n.......",
+    ContentTC = "（遺留在格雷姆礦場的筆記，看行文口吻，似乎是某位學者。）\n……\n4月16日\n我們在這座廢棄的礦場裡發現了一種奇特的<H>黃色晶簇</>。從質地判斷，這並非傳聞裡山體深處洞穴埋藏的群星綺晶，也不是遺留在廢棄礦場中的月石，而是某種尚未發現的礦物。\n……\n4月18日\n鮑勃驚訝地發現，這些散發著幽暗光芒的黃色晶簇<H>變大了</>，從只有巴掌那麼大，長成了低矮灌木一樣的晶簇叢。\n……\n4月20日\n……晶簇叢又「長大」了，變成了尖刺狀晶體，把礦洞中的門都堵住了，簡直像是活物一樣。好在這些黃色晶體質地脆弱，一觸即碎，只需要少量<H>火藥</>就能爆破。\n鮑勃提出了一種假設：這種晶體並非礦物，而是某種<H>穢獸的分泌物</>——甚至可以說是穢獸的某種「子體」；隨著時間推移，它會像沾了水的海綿那樣膨脹。儘管鮑勃在穢獸生物學上頗有造詣，這依舊是一種有些大膽的假設。\n……\n4月21日\n為了驗證鮑勃的假設，我們決定向礦洞深處進發。如果他的推測為真，那麼在這個廢棄礦場深處，一定存在某個和這些野外穢獸不同的，特殊的穢獸<H>母體</>。\n……",
     TextMapContent = "（遗留在格雷姆矿场的笔记，看行文口吻，似乎是某位学者。）\n……\n4月16日\n我们在这座废弃的矿场里发现了一种奇特的<H>黄色晶簇</>。从质地判断，这并非传闻里山体深处洞穴埋藏的群星绮晶，也不是遗留在废弃矿场中的月石，而是某种尚未发现的矿物。\n……\n4月18日\n鲍勃惊讶地发现，这些散发着幽暗光芒的黄色晶簇<H>变大了</>，从只有巴掌那么大，长成了低矮灌木一样的晶簇丛。\n……\n4月20日\n……晶簇丛又“长大”了，变成了尖刺状晶体，把矿洞中的门都堵住了，简直像是活物一样。好在这些黄色晶体质地脆弱，一触即碎，只需要少量<H>火药</>就能爆破。\n鲍勃提出了一种假设：这种晶体并非矿物，而是某种<H>秽兽的分泌物</>——甚至可以说是秽兽的某种“子体”；随着时间推移，它会像沾了水的海绵那样膨胀。尽管鲍勃在秽兽生物学上颇有造诣，这依旧是一种有些大胆的假设。\n……\n4月21日\n为了验证鲍勃的假设，我们决定向矿洞深处进发。如果他的推测为真，那么在这个废弃矿场深处，一定存在某个和这些野外秽兽不同的，特殊的秽兽<H>母体</>。\n……",
     TextMapId = "Reading_Content_101223"
         },
@@ -75574,9 +75573,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_150101_NAME"
         },
   SKILL_150102_DESC = {
-    ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], Sanity drains continuously. When Sanity reaches 0 or the skill is used again, [Samael] is withdrawn.\n Normal Attacks with [Samael] chain up to 4 hits.\n While wielding [Samael], hold the skill button to charge — Sanity is consumed over time. Releasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.\n While charging, gains [Impatience], generating combo points every 0.5s.",
-    ContentJP = "近接武器を「サマエル」に切り替え、前方範囲の敵に光属性ダメージを与える。「サマエル」使用中はSPを継続消費し、SPが0になる、またはこのスキルを再発動すると「サマエル」は解除される。\n 通常攻撃は最大4段の連続攻撃。\n 溜め攻撃は長押しでSPを消費して維持し、終了時・SP不足時・最大コンボLv.時に放ち、前方範囲の敵に光属性ダメージ。\n 溜め中は「不堅忍」を得て、0.5秒ごとにコンボポイントを獲得する。",
-    ContentKR = "근접 무기를 [사마엘]로 전환하고 전방 범위 내의 적에게 빛 속성 대미지를 입힌다. [사마엘] 사용 기간, 자신의 정신력이 지속적으로 소모되며, 정신력이 0이 되거나 해당 스킬을 다시 사용할 때 [사마엘]을 회수한다.\n[사마엘]로 기본 공격 시전 시, 최대 4단계의 연속 공격을 발동한다.\n[사마엘]로 차지 공격 시전 시, 길게 누르면 정신력을 지속적으로 소모하여 차지 상태를 유지한다. 길게 누러 종료, 정신력 부족 또는 콤보 레벨이 최대에 도달하면 차지 공격을 발동하여 전방 범위 내의 적에게 빛 속성 대미지를 입힌다.\n차지 지속 기간, [못 참아]를 획득하고 0.5초마다 일정한 콤보 포인트를 획득한다.",
+    ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\nNormal Attacks with [Samael] chain up to 4 hits.\nWhile wielding [Samael], hold the skill button to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\nReleasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
+    ContentJP = "近接武器を「サマエル」に切り替え、前方範囲の敵に光属性ダメージを与える。「サマエル」使用中にこのスキルを再発動すると「サマエル」は解除される。\n通常攻撃は最大4段の連続攻撃。\n溜め攻撃はSPを消費する。溜め中は「不堅忍」を得て、0.5秒ごとにコンボポイントを獲得する。\n長押しで溜め状態を維持し、終了時・SP不足時・最大コンボLv.時に放ち、前方範囲の敵に光属性ダメージを与える。",
+    ContentKR = "근접 무기를 [사마엘]로 전환하고 전방 범위 내의 적에게 빛 속성 대미지를 입힌다. [사마엘] 사용 기간, 해당 스킬을 다시 사용하면 [사마엘]이 회수된다.\n[사마엘]로 기본 공격 시전 시, 최대 4단계의 연속 공격을 발동한다.\n[사마엘]로 차지 공격 시전 시 정신력을 소모하며, 길게 눌러 차지 상태를 유지할 수 있다. 차지 기간 [못 참아]를 획득하고, 0.5초마다 정신력을 소모하여 콤보 포인트를 획득한다. \n길게 누르기 종료, 정신력 부족 또는 콤보 레벨이 최대에 도달하면 차지 공격을 발동하여, 전방 범위 내의 적에게 빛 속성 대미지를 입힌다.",
     ContentTC = "將近戰武器切換為[薩麥爾]並對面前範圍內的敵人造成光屬性傷害。使用[薩麥爾]期間再次使用此技能時收回[薩麥爾]。\n使用[薩麥爾]進行普通攻擊時，會進行最多四段的連續攻擊。\n使用[薩麥爾]進行蓄力攻擊需要消耗神智，可以長按維持蓄力狀態，蓄力期間獲得[不堅忍]，每0.5秒消耗神智並獲得連擊點數。\n長按結束、神智不足或連擊等級達到最高時釋放蓄力攻擊，對面前範圍內的敵人造成光屬性傷害。",
     TextMapContent = "将近战武器切换为[萨麦尔]并对面前范围内的敌人造成光属性伤害。使用[萨麦尔]期间再次使用此技能时收回[萨麦尔]。\n使用[萨麦尔]进行普通攻击时，会进行最多四段的连续攻击。\n使用[萨麦尔]进行蓄力攻击需要消耗神智，可以长按维持蓄力状态，蓄力期间获得[不坚忍]，每0.5秒消耗神智并获得连击点数。\n长按结束、神智不足或连击等级达到最高时释放蓄力攻击，对面前范围内的敌人造成光属性伤害。",
     TextMapId = "SKILL_150102_DESC"
@@ -76696,7 +76695,7 @@ return ReadOnly("TextMap_I18n", {
   SKILL_330101_DESC = {
     ContentEN = "Attack enemies within range in front, dealing Pyro Damage and stunning them. When using this skill by holding, Margie makes a continuous attack.",
     ContentJP = "自身の前方範囲内にいる複数の敵を攻撃して火属性ダメージを与え、スタン効果を付加する。 長押しでスキルを発動すると持続的に攻撃を行う。",
-    ContentKR = "전방 범위 내의 여러명의 적에게 불 속성 대미지를 입히고 기절 효과를 부여한다. 길게 눌러 시 지속적인 공격을 가한다.",
+    ContentKR = "전방 범위 내의 여러명의 적에게 불 속성 대미지를 입히고 기절 효과를 부여한다. 길게 누를 시 지속적인 공격을 가한다.",
     ContentTC = "攻擊自身面前範圍內的多名敵人，造成火屬性傷害並附加眩暈效果。長按時，持續釋放。",
     TextMapContent = "攻击自身周围范围内的多名敌人，造成火属性伤害并附加眩晕效果。长按时，持续释放。",
     TextMapId = "SKILL_330101_DESC"
@@ -77239,9 +77238,9 @@ return ReadOnly("TextMap_I18n", {
         },
   SKILL_510201_DESC = {
     ContentEN = "Enters [Stealth] state and exits [Relentless Hunt] state. \nGenerates 2 [Fang Spikes] to attack nearby enemies when exiting [Stealth] state or using [Stealthy Prowl] again in [Stealth] state.",
-    ContentJP = "「潜行」状態に、「狩猟」状態を解除する。\n自ら「潜行」状態を解除すると、もしくは「潜行」状態で再び「隠密」を発動する時、2本の「ファングスラスト」を生成し、ランダムに周囲の敵を攻撃する。",
+    ContentJP = "「潜行」状態となって、「狩猟」状態を解除する。\n自ら「潜行」状態を解除すると、もしくは「潜行」状態で再び「隠密」を発動する時、2本の「ファングスラスト」を生成し、周囲のランダムな敵を攻撃する",
     ContentKR = "[종적 감추기] 상태에 진입하고, [쟁취] 상태에서 나간다. 자발적으로 [종적 감추기] 상태에서 나가거나 [종적 감추기] 상태에서 [은닉]을 다시 시전할 때, 2발의 [송곳니의 가시]를 생성해 주위의 랜덤 적을 공격한다.",
-    ContentTC = "進入「匿蹤」狀態，並退出「追獵」狀態。\n 主動退出「匿蹤」狀態和在「匿蹤」狀態中再次釋放「隱匿」時，生成2枚「獠牙之刺」攻擊周圍的隨機敵人。",
+    ContentTC = "進入「匿蹤」狀態，並退出「追獵」狀態。\n主動退出「匿蹤」狀態和在「匿蹤」狀態中再次釋放「隱匿」時，生成2枚「獠牙之刺」攻擊周圍的隨機敵人。",
     TextMapContent = "进入[匿踪]状态，并退出[追猎]状态。\n主动退出[匿踪]状态和在[匿踪]状态中再次释放[隐匿]时，生成2枚[獠牙之刺]攻击周围的随机敌人。",
     TextMapId = "SKILL_510201_DESC"
         },
@@ -85147,7 +85146,7 @@ return ReadOnly("TextMap_I18n", {
   TextMap_Inference_1003 = {
     ContentEN = "Where could the assailant be hiding? (Ⅰ)",
     ContentJP = "犯人が現れそうな場所はどこですか？Ⅰ",
-    ContentKR = "범인이 출몰할 가능성이 있는 장소는 어디인가? I",
+    ContentKR = "범인이 출몰할 가능성이 있는 장소는 어디인가? Ⅰ",
     ContentTC = "凶手可能出沒在哪裡？I",
     TextMapContent = "凶手可能出没在哪里？I",
     TextMapId = "TextMap_Inference_1003"
@@ -85179,7 +85178,7 @@ return ReadOnly("TextMap_I18n", {
   TextMap_Inference_2002 = {
     ContentEN = "{$Huozai04Tag$|Connect the dots and uncover the hidden truth: ？？？}",
     ContentJP = "{$Huozai04Tag$｜いくつかの出来事のつながりを思い出し、隠された真実を見つける：？？？}",
-    ContentKR = "($Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기: ???)",
+    ContentKR = "{$Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기: ???}",
     ContentTC = "{$Huozai04Tag$|回憶幾個事件間的聯係，找到隱藏的真相:？？？}",
     TextMapContent = "{$Huozai04Tag$|回忆几个事件间的联系，找到隐藏的真相:？？？}",
     TextMapId = "TextMap_Inference_2002"
@@ -85300,7 +85299,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Server rewards will be sent via mail once unlocked",
     ContentJP = "全サーバー報酬達成後、報酬はメールで配布されます",
     ContentKR = "서버 보상 달성 후, 보상은 우편을 통해 발송됩니다.",
-    ContentTC = "全服獎勵達成後，獎勵將通過郵件發送",
+    ContentTC = "全服獎勵達成後，獎勵將通過信件發送",
     TextMapContent = "全服奖励达成后，奖励将通过邮件发送",
     TextMapId = "TheaterOnline_Donate_Explain"
         },
@@ -100001,7 +100000,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Armory_WeaponPurchaseConfirm"
         },
   UI_Armory_Weapon_Adjust = {
-    ContentEN = "Weapon Loadout",
+    ContentEN = "Weapon",
     ContentJP = "武器の変更",
     ContentKR = "무기 조정",
     ContentTC = "調整武器",
@@ -100388,7 +100387,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Selected weapons have <H>upgrades</>. Disassembling them won't refund costs. Proceed?",
     ContentJP = "現在の分解対象に<H>育成済み</>の武器が含まれています。分解すると消費した資源は返還されませんが、よろしいですか？",
     ContentKR = "현재 분해할 무기에 <H>이미 육성된</> 무기가 포함되어 있습니다. 분해 시 소모한 부분은 반환되지 않습니다. 계속하시겠습니까?",
-    ContentTC = "目前分解的武器中含有<H>已培育</>的武器，分解後不會返還消耗的資源，是否繼續？",
+    ContentTC = "目前分解的武器中含有<H>已養成</>的武器，分解後不會返還消耗的資源，是否繼續？",
     TextMapContent = "当前分解武器内含有<H>已养成</>的武器，分解后不会返还消耗，是否继续？",
     TextMapId = "UI_Bag_Decompose_Tip_2"
         },
@@ -109344,7 +109343,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CharTrial_AccessWalnut"
         },
   UI_CharTrial_CharIntro = {
-    ContentEN = "Character Bio",
+    ContentEN = "Character Info",
     ContentJP = "キャラクター紹介",
     ContentKR = "캐릭터 소개",
     ContentTC = "角色介紹",
@@ -110752,9 +110751,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Consumable_Open_Count"
         },
   UI_Consume_Select_Skin = {
-    ContentEN = "Consume your Choice Pack to unlock this skin",
+    ContentEN = "Consume the item to unlock",
     ContentJP = "選択パックを消費して外見を獲得",
-    ContentKR = "선택 패키지를 사용하여 해당 캐릭터 코스튬을 획득하세요.",
+    ContentKR = "선택 패키지로 해당 캐릭터 코스튬 획득",
     ContentTC = "消耗自選包獲得該角色形象",
     TextMapContent = "消耗自选包获得该角色形象",
     TextMapId = "UI_Consume_Select_Skin"
@@ -111845,7 +111844,7 @@ return ReadOnly("TextMap_I18n", {
   UI_DUNGEON_GUIDE_DEFENCEMECHANISM = {
     ContentEN = "Protect the target",
     ContentJP = "目標を守る",
-    ContentKR = "목표 보호",
+    ContentKR = "보호 목표",
     ContentTC = "保護目標",
     TextMapContent = "保护目标",
     TextMapId = "UI_DUNGEON_GUIDE_DEFENCEMECHANISM"
@@ -113067,7 +113066,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Dispatch_Toast_Overdate"
         },
   UI_Dispatch_Toast_RewardWarm = {
-    ContentEN = "Assign a character to complete the event and earn Expedition rewards",
+    ContentEN = "Assign a character to earn Expedition rewards",
     ContentJP = "代理人でイベントを完了すると派遣報酬を獲得。",
     ContentKR = "대리인을 통해 사건 완료 시 파견 보상을 수령 가능합니다.",
     ContentTC = "選擇代理人完成事件可獲得派遣獎勵",
@@ -113077,7 +113076,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Dispatch_Toast_Unlock = {
     ContentEN = "%s is currently on Expedition",
     ContentJP = "%sは派遣可能",
-    ContentKR = "%s을(를) 파견할 수 있습니다.",
+    ContentKR = "이제 %s에 파견할 수 있습니다.",
     ContentTC = "%s已支持派遣",
     TextMapContent = "%s已支持派遣",
     TextMapId = "UI_Dispatch_Toast_Unlock"
@@ -114132,7 +114131,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_ElementDes_General = {
     ContentEN = "Damage from advantaged elements is increased by <H>400%</>, while damage from <H>non-advantaged</> elements is reduced by <H>50%</>.",
-    ContentJP = "<H>有利</>属性で与えるダメージが<H>400%</>上昇し、<W>不利</>属性で与えるダメージは<W>50%</>低下する。",
+    ContentJP = "<H>有利</>属性で与えるダメージが<H>400%</>上昇し、<W>その他の</>属性で与えるダメージは<W>50%</>低下する。",
     ContentKR = "<H>카운터</> 속성이 입히는 대미지가 <H>400%</> 상승하고, <H>카운터 이외</>의 속성이 입히는 대미지가 <H>50%</> 감소한다.",
     ContentTC = "<H>克製</>屬性傷害提高<H>400%</>，<W>非克製</>屬性傷害降低<W>50%</>",
     TextMapContent = "<H>克制</>属性伤害提高<H>400%</>，<W>非克制</>属性伤害降低<W>50%</>",
@@ -114621,16 +114620,16 @@ return ReadOnly("TextMap_I18n", {
   UI_Event_MidTerm_RepeatTask = {
     ContentEN = "Repeatable Games",
     ContentJP = "繰り返しの賭け",
-    ContentKR = "중복 대결",
+    ContentKR = "반복 대결",
     ContentTC = "重複博弈",
     TextMapContent = "重复博弈",
     TextMapId = "UI_Event_MidTerm_RepeatTask"
         },
   UI_Event_MidTerm_Rule = {
-    ContentEN = "1. Complete Regular Games curated by Lulu Lunoloot to earn Luno Points.\n At each daily server reset, your Luno Collections are calculated based on your Luno Points. Any excess beyond the cap will be converted into Coins at a fixed rate.\n 2. <highlight>Four</> Daily Games refresh with each daily server reset. After settling the previous day's Luno Collection, new Daily Games will unlock. Repeatable Games can be completed multiple times and do not reset daily.\n 3. Complete Challenge Games to earn Challenge Points, which can be exchanged for Lulu Lunoloot's Challenge Collections.\n 4. Challenge Games are released in <highlight>two</> phases. Lulu Lunoloot will unveil the next batch of her hard-crafted Games on 7 November 2025.",
-    ContentJP = "1．天下御免の大泥棒が用意したノーマルな賭けをクリアすると、ルーナ族ポイントを獲得できます。\n サーバーの日付が更新されるたびにルーナ族ポイントが集計され、ルーナ族の秘蔵品が決算されます。上限を超えたポイントは一定の割合で銅貨に変換されます。\n 2．デイリー賭けはサーバー日付が更新されるたびに<highlight>4</>件リセットされ、前日のルーナ族の秘蔵品が決算された後、新しいデイリー賭けが開放されます。繰り返しの賭けは繰り返し挑戦でき、進行度はサーバー更新でリセットされません。\n 3．チャレンジの賭けをクリアするとチャレンジポイントを獲得でき、天下御免の大泥棒のチャレンジ秘蔵品と交換できます。\n 4．チャレンジの賭けは<highlight>2</>段階に分かれており、天下御免の大泥棒は2025年11月7日に新たな賭け事をひねり出す予定です。",
-    ContentKR = "1. 말더듬이 강, 강도 루나가 준비한 일반 대결 완료 시 루나 포인트를 획득합니다.\n매일 서버 날짜가 갱신될 때마다, 루나 포인트에 따라 루나의 보물이 결산됩니다. 루나 포인트 최대치를 초과한 포인트는 일정 비율에 따라 쿠퍼로 전환됩니다.\n2. 일일 대결은 매일 서버 날짜가 갱신될 때, <highlight>4</>개의 새로운 대결이 리셋됩니다. 이전 날의 루나의 보물을 결산한 후, 새로운 일일 대결이 오픈됩니다. 중복 대결은 여러 번 완료할 수 있으며, 서버 날짜 갱신 시에도 진행도가 초기화되지 않습니다.\n3. 도전 대결을 완료하면 도전 포인트가 지급됩니다. 도전 포인트를 사용하여 말더듬이 강, 강도 루나의 도전 보물을 획득할 수 있습니다.\n4. 도전 대결은 <highlight>2</>단계로 나뉩니다. 말더듬이 강, 강도 루나는 2025년 11월 7일에 새로운 대결을 생각해 낼 것입니다.",
-    ContentTC = "1、完成打打打打打劫皎皎準備的常規博弈獲取皎皎積分。_x000D_\n 每天服務器日期更新時，根據皎皎積分結算皎皎珍藏，皎皎積分上限之外的超額積分將按照一定比例轉化為銅幣_x000D_\n 2、每日博弈將在每天服務器日期更新時刷新<highlight>4</>個，結算前一天的皎皎珍藏後，將開啟新的每日博弈；重複博弈可以多次完成，且重複博弈的進度不會隨著服務器日期更新而重置_x000D_\n 3、完成挑戰博弈可以獲得挑戰積分，用於獲得打打打打打劫皎皎的挑戰珍藏_x000D_\n 4、挑戰博弈分為<highlight>2</>個階段，打打打打打劫皎皎將會在2025年11月7日絞盡腦汁想出來新的博弈",
+    ContentEN = "1. Complete Regular Games curated by Lulu Lunoloot to earn Luno Points.\nAt each daily server reset, your Luno Collections are calculated based on your Luno Points. Any excess beyond the cap will be converted into Coins at a fixed rate.\n2. <highlight>Four</> Daily Games refresh with each daily server reset. After settling the previous day's Luno Collection, new Daily Games will unlock. Repeatable Games can be completed multiple times and do not reset daily.\n3. Complete Challenge Games to earn Challenge Points, which can be exchanged for Lulu Lunoloot's Challenge Collections.\n4. Challenge Games are released in <highlight>two</> phases. Lulu Lunoloot will unveil the next batch of her hard-crafted Games on 7 November 2025.",
+    ContentJP = "1．天下御免の大泥棒が用意したノーマルな賭けをクリアすると、ルーナ族ポイントを獲得できます。\nサーバーの日付が更新されるたびにルーナ族ポイントが集計され、ルーナ族の秘蔵品が決算されます。上限を超えたポイントは一定の割合で銅貨に変換されます。\n2．デイリー賭けはサーバー日付が更新されるたびに<highlight>4</>件リセットされ、前日のルーナ族の秘蔵品が決算された後、新しいデイリー賭けが開放されます。繰り返しの賭けは繰り返し挑戦でき、進行度はサーバー更新でリセットされません。\n3．チャレンジの賭けをクリアするとチャレンジポイントを獲得でき、天下御免の大泥棒のチャレンジ秘蔵品と交換できます。\n4．チャレンジの賭けは<highlight>2</>段階に分かれており、天下御免の大泥棒は2025年11月7日に新たな賭け事をひねり出す予定です。",
+    ContentKR = "1. 말더듬이 강, 강도 루나가 준비한 일반 대결 완료 시 루나 포인트를 획득합니다.\n매일 서버 날짜가 갱신될 때마다, 루나 포인트에 따라 루나의 보물이 결산됩니다. 루나 포인트 최대치를 초과한 포인트는 일정 비율에 따라 쿠퍼로 전환됩니다.\n2. 일일 대결은 매일 서버 날짜가 갱신될 때, <highlight>4</>개의 새로운 대결이 리셋됩니다. 이전 날의 루나의 보물을 결산한 후, 새로운 일일 대결이 오픈됩니다. 반복 대결은 여러 번 완료할 수 있으며, 서버 날짜 갱신 시에도 진행도가 초기화되지 않습니다.\n3. 도전 대결을 완료하면 도전 포인트가 지급됩니다. 도전 포인트를 사용하여 말더듬이 강, 강도 루나의 도전 보물을 획득할 수 있습니다.\n4. 도전 대결은 <highlight>2</>단계로 나뉩니다. 말더듬이 강, 강도 루나는 2025년 11월 7일에 새로운 대결을 생각해 낼 것입니다.",
+    ContentTC = "1、完成打打打打打劫皎皎準備的常規博弈獲取皎皎積分。\n\n每天服務器日期更新時，根據皎皎積分結算皎皎珍藏，皎皎積分上限之外的超額積分將按照一定比例轉化為銅幣\n\n2、每日博弈將在每天服務器日期更新時刷新<highlight>4</>個，結算前一天的皎皎珍藏後，將開啟新的每日博弈；重複博弈可以多次完成，且重複博弈的進度不會隨著服務器日期更新而重置\n\n3、完成挑戰博弈可以獲得挑戰積分，用於獲得打打打打打劫皎皎的挑戰珍藏\n\n4、挑戰博弈分為<highlight>2</>個階段，打打打打打劫皎皎將會在2025年11月7日絞盡腦汁想出來新的博弈",
     TextMapContent = "1、完成打打打打打劫皎皎准备的常规博弈获取皎皎积分。\n每天服务器日期更新时，根据皎皎积分结算皎皎珍藏，皎皎积分上限之外的超额积分将按照一定比例转化为铜币\n2、每日博弈将在每天服务器日期更新时刷新<highlight>4</>个，结算前一天的皎皎珍藏后，将开启新的每日博弈；重复博弈可以多次完成，且重复博弈的进度不会随着服务器日期更新而重置\n3、完成挑战博弈可以获得挑战积分，用于获得打打打打打劫皎皎的挑战珍藏\n4、挑战博弈分为<highlight>2</>个阶段，打打打打打劫皎皎将会在2025年11月7日绞尽脑汁想出来新的博弈",
     TextMapId = "UI_Event_MidTerm_Rule"
         },
@@ -118397,7 +118396,6 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_Loading_Warn_Content_KR = {
     ContentKR = "본 게임물은 12세 이용가 게임으로서 해당 연령 미만의 어린이나 청소년이 이용하기에 부적절합니다.",
-    ContentTC = "nan",
     TextMapId = "UI_Loading_Warn_Content_KR"
         },
   UI_Loading_Warn_Title = {
@@ -119919,7 +119917,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Deleting this mail will result in the permanent loss of any unclaimed rewards contained within. Proceed?",
     ContentJP = "メール削除後、未受取の報酬は復元できません。削除しますか？",
     ContentKR = "우편 삭제 후 미수령한 보상은 복구할 수 없습니다. 정말 삭제하시겠습니까?",
-    ContentTC = "郵件刪除後未領取的獎勵將無法恢復，是否確認刪除？",
+    ContentTC = "信件刪除後未領取的獎勵將無法恢復，是否確認刪除？",
     TextMapContent = "邮件删除后未领取的奖励将不可恢复，是否确认删除？",
     TextMapId = "UI_Mail_Delete_Confirm_1"
         },
@@ -119927,7 +119925,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Delete all read mail? (Excluding starred mail and mail with unclaimed rewards)",
     ContentJP = "すべての既読メールを削除しますか？（重要メールや報酬未受領のメールは除く）",
     ContentKR = "정말 모든 읽은 우편을 삭제하시겠습니까?\n(즐겨찾기 우편과 보상을 수령하지 않은 우편 제외)",
-    ContentTC = "是否確認刪除所有已讀郵件？（不包含星標郵件和未領取獎勵的郵件）",
+    ContentTC = "是否確認刪除所有已讀信件？（不包含星標信件和未領取獎勵的信件）",
     TextMapContent = "是否确认删除所有已读邮件？（不包括星标邮件和未领取奖励的邮件）",
     TextMapId = "UI_Mail_Delete_Confirm_2"
         },
@@ -119999,7 +119997,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Unstar this mail? (It will be removed on daily refresh.)",
     ContentJP = "重要メール標記を取り消してもよろしいですか？（毎日の更新時に当該メールは完全削除）",
     ContentKR = "즐겨찾기한 우편을 취소하시겠습니까?\n(해당 즐겨찾기 우편은 매일 새로고침 시 삭제됩니다)",
-    ContentTC = "是否確認取消星標郵件？（該星標郵件將在每天更新時刪除）",
+    ContentTC = "是否確認取消星標信件？（該星標信件將在每天更新時刪除）",
     TextMapContent = "是否确认取消星标邮件？（该星标邮件将在每天刷新时删除）",
     TextMapId = "UI_Mail_Unstar_Confirm"
         },
@@ -120182,7 +120180,7 @@ return ReadOnly("TextMap_I18n", {
   UI_MiniGame_Hint_TiaoPin = {
     ContentEN = "Tap <img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></> to move <img id="MiniGame_TiaoPin_S"></> to the correct position <img id="MiniGame_TiaoPin_E"></>",
     ContentJP = "<img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></> をタップして<img id="MiniGame_TiaoPin_S"></>を正しい<img id="MiniGame_TiaoPin_E"></>まで移動させよう",
-    ContentKR = "<img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></> 버튼을 눌러 <img id="MiniGame_TiaoPin_S"></>를 올바른 <img id="MiniGame_TiaoPin_E">로 옮기세요.</>",
+    ContentKR = "<img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></> 버튼을 눌러 <img id="MiniGame_TiaoPin_S"></>를 <img id="MiniGame_TiaoPin_E"></>로 이동",
     ContentTC = "點擊<img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></>移動<img id="MiniGame_TiaoPin_S"></>至正確的<img id="MiniGame_TiaoPin_E"></>",
     TextMapContent = "点击<img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></>移动<img id="MiniGame_TiaoPin_S"></>至正确的<img id="MiniGame_TiaoPin_E"></>",
     TextMapId = "UI_MiniGame_Hint_TiaoPin"
@@ -128284,7 +128282,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_PretextTasks"
         },
   UI_Preview_GestureItem = {
-    ContentEN = "Postures",
+    ContentEN = "Posture",
     ContentJP = "ジェスチャー",
     ContentKR = "전시 동작",
     ContentTC = "展示動作",
@@ -130684,7 +130682,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_SHOP_SUBTAB_NAME_YUESHI"
         },
   UI_SHOP_SUBTAB_NAME_YUESHIJINGPEI = {
-    ContentEN = "Phoxene Plumule Exchange",
+    ContentEN = "Plumule Exchange",
     ContentJP = "月ノ核交換",
     ContentKR = "월석의 싹 교환",
     ContentTC = "月石晶胚兌換",

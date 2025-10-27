@@ -11623,7 +11623,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100319/191D243C"
         },
         [10032001] = {
-          ContentJP = "<H>銀燭祭り</>は予定通り、ガレア劇場で開催されます。参加者はお好きな衣装を用意し、ご自分の演じたい役を選んでください。\nさあ、職業や種族、争いごとを忘れ、ここに集いましょう。\n皇帝の恩寵を浴び、皇帝の仁徳をたたえるために！\n皇帝に栄光あれ！",
+          ContentJP = "<H>銀燭祭り</>は予定通り、ガレア劇場で開催されます。参加者はお好きな衣装を用意し、ご自分の演じたい役を選んでください。さあ、職業や種族、争いごとを忘れ、ここに集いましょう。\n皇帝の恩寵を浴び、皇帝の仁徳をたたえるために！皇帝に栄光あれ！",
           DialogueId = 10032001,
           GUID = "191D332A",
           VoiceName = "voice/$Locale$/story/1003/100320/191D332A"
@@ -15495,7 +15495,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100336/191E3B24"
         },
         [10033611] = {
-          Content = "咦？不是说有人在这儿接我们吗，他们人呢？",
+          ContentJP = "あれ？ここでお迎えが待ってるんじゃなかったの？誰もいないじゃん。",
           DialogueId = 10033611,
           GUID = "191E3B25",
           NextDialogue = 10033612,
@@ -18999,7 +18999,7 @@ local Data = {
         },
         [10034532] = {
           Camera = "379.26709,-408.699371,228.950928,0.000039,-18.000458,96.800278,35.000011,544.895874,false,Manual,22.0",
-          ContentJP = "ところでリズムはどこに？この時間帯はたいてい駐車場で待ってるはずなのに。",
+          ContentJP = "ところでリズムはどこに？この時間はたいてい駐車場で待ってるはずなのに。",
           DialogueId = 10034532,
           FacialId = {
             [1] = "200021:None",
@@ -19371,7 +19371,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100346/191EDF60"
         },
         [10034613] = {
-          Content = "（<H>地面都被士兵封锁了</>……或许可以试试别的路——比如<H>楼顶</>？）",
+          ContentJP = "（<H>地面は兵士に封鎖されてる</>……別の道を試すしかない。たとえば――<H>屋上</>とか？）",
           DialogueId = 10034613,
           GUID = "191EDF61",
           SpeakNpcId = 100001,
@@ -45343,7 +45343,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/101013/19499D06"
         },
         [10110234] = {
-          ContentJP = "ごめんなさい……！急に見えなくなっちゃって……あいつに気づかれた……",
+          ContentJP = "ごめんなさい……！急に目がかすんじゃって……あいつに気づかれた……",
           DialogueId = 10110234,
           GUID = "10110234.0",
           GraphPath = "Texture2D'/Game/UI/Texture/Dynamic/Image/Story/Recall/T_Story_Recall_10110234.T_Story_Recall_10110234'",
@@ -47475,7 +47475,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/101123/1950A9E0"
         },
         [10112305] = {
-          Content = "不要向这个冷冰冰的世界投降！",
+          ContentJP = "……この冷たい世界に負けないで！",
           DialogueId = 10112305,
           Duration = 2,
           ExStoryInfo = "Player",
@@ -51577,12 +51577,12 @@ local Data = {
           IsBlack = 1
         },
         [10123404] = {
-          Content = "恩里克消失在了视线外……似乎是跟丢了。",
+          ContentJP = "ヘンリックは視界から消えた…見失ってしまったらしい。",
           DialogueId = 10123404,
           GUID = "1957C6A5"
         },
         [10123405] = {
-          Content = "恩里克走进了一间花店，你们决定在一旁的咖啡厅稍作等待。",
+          ContentJP = "ヘンリックは花屋に入った。あなたたちは、すぐ隣の喫茶店で彼を待つことにした。",
           DialogueId = 10123405,
           GUID = "1957C6A6"
         },
@@ -72044,21 +72044,21 @@ local Data = {
           GUID = "1B9600CA"
         },
         [11019420] = {
-          Content = "你向典狱长承认了罪行，等待你的将是更为严酷的裁决。",
+          ContentJP = "あなたは典獄に罪を認めた。この先にはより苛酷な裁決が来るのであろう。",
           DialogueId = 11019420,
           Duration = 4,
           GUID = "1B9600CB",
           NextDialogue = 11019421
         },
         [11019421] = {
-          Content = "你听见她的嗤笑——她曾认为你坚强无匹，但如今看来，你和她审判过的其他囚犯也并无分别。",
+          ContentJP = "彼女のせせら笑いが耳に刺さる.。かつて彼女は、あなたは決して折れぬ者だと信じていたけれど、今では、これまで裁いてきた囚人たちと何も変わらぬ存在にしか見えていない。",
           DialogueId = 11019421,
           Duration = 4,
           GUID = "1B9600CC",
           NextDialogue = 11019422
         },
         [11019422] = {
-          Content = "你意识到自己正在坠入漆黑的深渊——你开始思索，如果当时你的意志能够更坚定一些，结局会不会有所不同？",
+          ContentJP = "奈落の闇へと沈んでいく時、あなたは考え始めた。もしあの頃は、覚悟がもう少し強かったなら、結末は違っていたのだろうか、と。",
           DialogueId = 11019422,
           Duration = 4,
           GUID = "1B9600CD"
@@ -89454,12 +89454,12 @@ local Data = {
           VoiceName = "voice/$Locale$/story/2001/200071/3215EFD4"
         },
         [20007107] = {
-          Content = "若干道深深的刻痕，似是某周尖锐物体留下的痕迹。",
+          ContentJP = "ぎざぎざの何かで抉られたような、深い傷跡がいくつも残っている。",
           DialogueId = 20007107,
           GUID = "3215EFD5"
         },
         [20007108] = {
-          Content = "写着“禁区危险，严禁通行”的告示。贴了厚厚一叠，似乎是当老告示变旧了就会贴一张新告示上去。最新的一张告示落款是新历1004年，也就是二十年前——格雷姆矿场应当就是在那时彻底废弃的。",
+          ContentJP = "「危険!立入禁止」と書かれた掲示が、何枚も分厚く重ねて貼られている。\n古い掲示が色あせるたびに上から足してきたのだろう。いちばん新しい一枚の日付は新暦1004年――およそ二十年前。グルビューム鉱山はその頃に廃棄されたらしい。",
           DialogueId = 20007108,
           GUID = "3215EFD6"
         },
@@ -91902,7 +91902,7 @@ local Data = {
           Subtitle = "(In silence, the elder periodically snaps from his thoughts, letting out a lingering sigh.)\n(It's unclear whether it's a tribute to a fallen comrade or a lament for the changing times.)"
         },
         [51001212] = {
-          Content = "老人温柔地注视着空中的一小片黑点，你顺着他的视线远眺，看到了一群离去的飞鸟。待到所有鸟群飞走后，老人才转身继续与你交谈。",
+          ContentJP = "老人は、空に浮かぶ小さな黒点を優しい目で見つめていた。あなたも視線を上げると、はるか遠く空へ飛ぶ鳥の群れが見えた。最後の一羽が消えたのち、老人はようやくこっちに向き直った。",
           DialogueId = 51001212,
           GUID = "7FAD188B",
           NextOptions = {
@@ -93523,7 +93523,7 @@ local Data = {
         },
         [51001935] = {
           Camera = "122.0,278.0,139.0,0.000007,0.0,-95.0,35.0,200.0,false,Manual,2.8",
-          ContentJP = "けれど、その笑顔の奥に隠された寂しげな表情は、\nまるで壊れた懐中時計のように──簡単には修復できないものなのかもしれない。",
+          ContentJP = "目の前の酒樽をすべて開け、ふと振り返ると──ウェルズはいつもの気さくな笑顔に戻り、グラスを掲げていた。",
           DialogueId = 51001935,
           FinalCamera = "102.0,278.0,139.0,0.000007,0.0,-95.0,35.0,350.0,false,Manual,2.8",
           GUID = "7FAD907A",
@@ -95985,7 +95985,7 @@ local Data = {
           GUID = "7FAEA5C5"
         },
         [51003721] = {
-          Content = "打打打打打劫皎皎已逃走，任务失败，请重新开始。",
+          ContentJP = "天下御免の大泥棒が逃げてしまった。クエスト失敗、再チャレンジしてください。",
           DialogueId = 51003721,
           Duration = 3,
           GUID = "7FAEA5C6"
@@ -99000,13 +99000,13 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51005314] = {
-          Content = "钓到了，回去找马库斯吧。",
+          ContentJP = "釣れたよ。マーカスのところへ戻ろう。",
           DialogueId = 51005314,
           GUID = "7FAFBB54",
           SpeakNpcId = 100001
         },
         [51005315] = {
-          Content = "钓到了，回去找马库斯吧。",
+          ContentJP = "釣れたよ。マーカスのところへ戻ろう。",
           DialogueId = 51005315,
           GUID = "7FAFBB7E",
           SpeakNpcId = 100001
@@ -101298,7 +101298,7 @@ local Data = {
         },
         [51006736] = {
           Camera = "38.65332,-125.365479,127.959717,0.000135,-12.798094,77.399048,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentJP = "けど今の俺にゃ、道標なんて要らねえ。この大陸のことは骨の髄まで知ってる。",
+          ContentJP = "けど今の俺にゃ、道標なんて要らねえ。この大陸のことは骨の髄まで知ってるから。",
           DialogueId = 51006736,
           GUID = "7FB0A3FC",
           NextDialogue = 51006737,
@@ -101352,7 +101352,7 @@ local Data = {
         },
         [51006741] = {
           Camera = "38.65332,-125.365479,127.959717,0.000135,-12.798094,77.399048,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentJP = "見覚えあるか？あるなら、お前はもう冒険慣れってことだ。ないなら気にすんな。これは、俺が昔作った道標だ。冒険の途中で通った道を記録するためにな。",
+          ContentJP = "見覚えあるか？あるなら、お前はもう冒険慣れってことだ。なくても気にすんな。これは、俺が昔作った道標なんだ。冒険の途中で通った道を記録するためにな。",
           DialogueId = 51006741,
           GUID = "7FB0A3FB",
           NextDialogue = 51006736,
@@ -114348,7 +114348,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/510102/7FB2DD98"
         },
         [51010205] = {
-          ContentJP = "ごめんなさい！でも、あちらの衛兵さんに確認わ。この広場では、吟遊詩人が歌ってはいけないお触れなんて、なかったと思うけど……",
+          ContentJP = "ごめんなさい！でも、あちらの衛兵さんに確認したわ。この広場では、吟遊詩人が歌ってはいけないお触れなんて、なかったと思うけど……",
           DialogueId = 51010205,
           GUID = "7FB2DDC2",
           NextDialogue = 51010206,
@@ -155054,7 +155054,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Dafu/002/C8B90B1E"
         },
         [80180244] = {
-          Content = "（子弹上膛声）",
+          ContentJP = "{空格}",
           DialogueId = 80180244,
           GUID = "C8B90B48",
           IsBlack = 1,
@@ -165752,6 +165752,7 @@ local Data = {
           TalkActionId = {
             [1] = "81501:Agree"
           },
+          VoiceName = "voice/$Locale$/char/Baonu/vo_topic_03_4",
           bForbidSkipOptions = true
         },
         [90250400] = {
@@ -169950,7 +169951,7 @@ local Data = {
           NextDialogue = 51009486
         },
         [510095121] = {
-          Content = "……",
+          ContentJP = "……",
           DialogueId = 510095121,
           GUID = "510095121.0",
           NextOptions = {

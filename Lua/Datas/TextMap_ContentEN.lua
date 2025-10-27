@@ -269,7 +269,7 @@ local Data = {
           TextMapId = "Abyss_InfiniteReward_Title"
         },
         Abyss_LevelName = {
-          ContentEN = "Act %s",
+          ContentEN = "Act %s{空格}",
           TextMapId = "Abyss_LevelName"
         },
         Abyss_Level_Back = {
@@ -8672,15 +8672,15 @@ local Data = {
           TextMapId = "Event_102001_QuestName4"
         },
         Event_Des_101001 = {
-          ContentEN = "Sign in for 7 days during the event to claim rewards",
+          ContentEN = "Log in for 7 days to claim rewards",
           TextMapId = "Event_Des_101001"
         },
         Event_Des_101002 = {
-          ContentEN = "Log in for 7 days during the event to claim rewards",
+          ContentEN = "Log in for 7 days to claim rewards",
           TextMapId = "Event_Des_101002"
         },
         Event_Des_101003 = {
-          ContentEN = "Log in for 7 days during the event to claim rewards",
+          ContentEN = "Log in for 7 days to claim rewards",
           TextMapId = "Event_Des_101003"
         },
         Event_Des_102001 = {
@@ -8724,7 +8724,7 @@ local Data = {
           TextMapId = "Event_Des_103009001"
         },
         Event_Des_103010 = {
-          ContentEN = "When a young nightingale leaves its nest, it sees the vast skies and sweeps across soft meadows — but also faces cold rain and raging winds.\n But the girl has made up her mind: no more turning back. With her magic brush, she'll paint a dream in every hue — and in this harsh, unforgiving world... find a sky forever warm and bright, just like the ones in her favourite fairytales.",
+          ContentEN = "When a young nightingale leaves its nest, it sees the vast skies and sweeps across soft meadows — but also faces cold rain and raging winds.\nBut the girl has made up her mind: no more turning back. With her magic brush, she'll paint a dream in every hue — and in this harsh, unforgiving world... find a sky forever warm and bright, just like the ones in her favourite fairytales.",
           TextMapId = "Event_Des_103010"
         },
         Event_Des_103012 = {
@@ -14172,7 +14172,7 @@ local Data = {
           TextMapId = "Mail_Content_10014"
         },
         Mail_Content_10016 = {
-          ContentEN = "Dear Phoxhunter,\n Please find the Thought of Rebecca's memory attached.",
+          ContentEN = "Dear Phoxhunter,\nPlease find the Thought of Rebecca's memory attached.",
           TextMapId = "Mail_Content_10016"
         },
         Mail_Content_10021 = {
@@ -14196,7 +14196,7 @@ local Data = {
           TextMapId = "Mail_Content_10055"
         },
         Mail_Content_10056 = {
-          ContentEN = "Dear Phoxhunter,\n  Thank you for participating the Mini Program events. Please claim your rewards from your mailbox.",
+          ContentEN = "Dear Phoxhunter,\nThank you for participating the Mini Program events. Please claim your rewards from your mailbox.",
           TextMapId = "Mail_Content_10056"
         },
         Mail_Content_10058 = {
@@ -14208,11 +14208,11 @@ local Data = {
           TextMapId = "Mail_Content_10059"
         },
         Mail_Content_101001 = {
-          ContentEN = "Dear Phoxhunter, \n \n Your unclaimed rewards from the %s event have been sent to your mailbox. Don't forget to claim them!",
+          ContentEN = "Dear Phoxhunter, \n\nYour unclaimed rewards from the %s event have been sent to your mailbox. Don't forget to claim them!",
           TextMapId = "Mail_Content_101001"
         },
         Mail_Content_102001 = {
-          ContentEN = "Dear Phoxhunter, \n \n Your unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been sent to your mailbox. Don't forget to claim them!",
+          ContentEN = "Dear Phoxhunter, \n\nYour unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been sent to your mailbox. Don't forget to claim them!",
           TextMapId = "Mail_Content_102001"
         },
         Mail_Content_19101 = {
@@ -30352,7 +30352,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_30002"
         },
         RESOURCE_NAME_3001 = {
-          ContentEN = "d10",
+          ContentEN = "D10 Die",
           TextMapId = "RESOURCE_NAME_3001"
         },
         RESOURCE_NAME_3002 = {
@@ -35988,7 +35988,7 @@ local Data = {
           TextMapId = "Ranged",
         },
         Reading_Content_101223 = {
-          ContentEN = "(A journal recovered from Glevum Pit. Based on the writing style, it appears to belong to a scholar.)\n ...\n 16 April\n We discovered a curious <H>yellow crystal cluster</> in this long-abandoned mine. Its composition suggests it is neither the Crystallo of Stella — said to lie hidden deep within the mountain caverns — nor residual Phoxene from past excavations. It appears to be an entirely undocumented mineral.\n ...\n 18 April\n To our surprise, Bob observed that the dimly glowing yellow crystals had <H>grown</>. What was once no larger than a handspan had developed into squat, shrub-like clusters.\n ...\n 20 April\n The clusters had grown again — this time into jagged, spire-like forms that blocked off several inner passageways. They seemed almost... alive. Fortunately, the crystals are extremely brittle; only a modest amount of <H>gunpowder</> is needed to blast them apart.\n Bob has put forward a hypothesis: these formations may not be minerals at all, but a type of <H>Filthoid secretion</> — perhaps even a form of "progeny." Like sponges left in water, they appear to swell and expand over time. It remains a bold theory, even for someone of Bob's expertise in Filthoid biology.\n ...\n 21 April\n To test Bob's theory, we've decided to press deeper into the mine. If his conjecture proves correct, then somewhere within this forsaken pit lies a unique strain of Filthoid, distinct from those found in the wild — a <H>progenitor</>, perhaps...\n ...",
+          ContentEN = "(A journal recovered from Glevum Pit. Based on the writing style, it appears to belong to a scholar.)\n...\n16 April\nWe discovered a curious <H>yellow crystal cluster</> in this long-abandoned mine. Its composition suggests it is neither the Crystallo of Stella — said to lie hidden deep within the mountain caverns — nor residual Phoxene from past excavations. It appears to be an entirely undocumented mineral.\n...\n18 April\nTo our surprise, Bob observed that the dimly glowing yellow crystals had <H>grown</>. What was once no larger than a handspan had developed into squat, shrub-like clusters.\n...\n20 April\nThe clusters had grown again — this time into jagged, spire-like forms that blocked off several inner passageways. They seemed almost... alive. Fortunately, the crystals are extremely brittle; only a modest amount of <H>gunpowder</> is needed to blast them apart.\nBob has put forward a hypothesis: these formations may not be minerals at all, but a type of <H>Filthoid secretion</> — perhaps even a form of "progeny." Like sponges left in water, they appear to swell and expand over time. It remains a bold theory, even for someone of Bob's expertise in Filthoid biology.\n...\n21 April\nTo test Bob's theory, we've decided to press deeper into the mine. If his conjecture proves correct, then somewhere within this forsaken pit lies a unique strain of Filthoid, distinct from those found in the wild — a <H>progenitor</>, perhaps...\n...",
           TextMapId = "Reading_Content_101223"
         },
         Reading_Content_200208 = {
@@ -36660,7 +36660,7 @@ local Data = {
           TextMapId = "SKILL_150101_NAME"
         },
         SKILL_150102_DESC = {
-          ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], Sanity drains continuously. When Sanity reaches 0 or the skill is used again, [Samael] is withdrawn.\n Normal Attacks with [Samael] chain up to 4 hits.\n While wielding [Samael], hold the skill button to charge — Sanity is consumed over time. Releasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.\n While charging, gains [Impatience], generating combo points every 0.5s.",
+          ContentEN = "Switches the user's melee weapon to [Samael], dealing Lumino DMG to enemies ahead. While wielding [Samael], use the skill is used again to withdraw [Samael].\nNormal Attacks with [Samael] chain up to 4 hits.\nWhile wielding [Samael], hold the skill button to charge — Sanity is consumed over time. While charging, gains [Impatience], generating combo points every 0.5s.\nReleasing the button, reaching max Combo Level, or running out of Sanity unleashes a powerful Charged Attack, dealing Lumino AoE DMG to enemies ahead.",
           TextMapId = "SKILL_150102_DESC"
         },
         SKILL_150102_NAME = {
@@ -48832,7 +48832,7 @@ local Data = {
           TextMapId = "UI_Armory_WeaponPurchaseConfirm"
         },
         UI_Armory_Weapon_Adjust = {
-          ContentEN = "Weapon Loadout",
+          ContentEN = "Weapon",
           TextMapId = "UI_Armory_Weapon_Adjust"
         },
         UI_Armory_Weapon_Dispose = {
@@ -53328,7 +53328,7 @@ local Data = {
           TextMapId = "UI_CharTrial_AccessWalnut"
         },
         UI_CharTrial_CharIntro = {
-          ContentEN = "Character Bio",
+          ContentEN = "Character Info",
           TextMapId = "UI_CharTrial_CharIntro"
         },
         UI_CharTrial_ClosePop = {
@@ -54032,7 +54032,7 @@ local Data = {
           TextMapId = "UI_Consumable_Open_Count"
         },
         UI_Consume_Select_Skin = {
-          ContentEN = "Consume your Choice Pack to unlock this skin",
+          ContentEN = "Consume the item to unlock",
           TextMapId = "UI_Consume_Select_Skin"
         },
         UI_Content_SaiqiBossWarning = {
@@ -55188,7 +55188,7 @@ local Data = {
           TextMapId = "UI_Dispatch_Toast_Overdate"
         },
         UI_Dispatch_Toast_RewardWarm = {
-          ContentEN = "Assign a character to complete the event and earn Expedition rewards",
+          ContentEN = "Assign a character to earn Expedition rewards",
           TextMapId = "UI_Dispatch_Toast_RewardWarm"
         },
         UI_Dispatch_Toast_Unlock = {
@@ -55968,7 +55968,7 @@ local Data = {
           TextMapId = "UI_Event_MidTerm_RepeatTask"
         },
         UI_Event_MidTerm_Rule = {
-          ContentEN = "1. Complete Regular Games curated by Lulu Lunoloot to earn Luno Points.\n At each daily server reset, your Luno Collections are calculated based on your Luno Points. Any excess beyond the cap will be converted into Coins at a fixed rate.\n 2. <highlight>Four</> Daily Games refresh with each daily server reset. After settling the previous day's Luno Collection, new Daily Games will unlock. Repeatable Games can be completed multiple times and do not reset daily.\n 3. Complete Challenge Games to earn Challenge Points, which can be exchanged for Lulu Lunoloot's Challenge Collections.\n 4. Challenge Games are released in <highlight>two</> phases. Lulu Lunoloot will unveil the next batch of her hard-crafted Games on 7 November 2025.",
+          ContentEN = "1. Complete Regular Games curated by Lulu Lunoloot to earn Luno Points.\nAt each daily server reset, your Luno Collections are calculated based on your Luno Points. Any excess beyond the cap will be converted into Coins at a fixed rate.\n2. <highlight>Four</> Daily Games refresh with each daily server reset. After settling the previous day's Luno Collection, new Daily Games will unlock. Repeatable Games can be completed multiple times and do not reset daily.\n3. Complete Challenge Games to earn Challenge Points, which can be exchanged for Lulu Lunoloot's Challenge Collections.\n4. Challenge Games are released in <highlight>two</> phases. Lulu Lunoloot will unveil the next batch of her hard-crafted Games on 7 November 2025.",
           TextMapId = "UI_Event_MidTerm_Rule"
         },
         UI_Event_MidTerm_Settled = {
@@ -62684,7 +62684,7 @@ local Data = {
           TextMapId = "UI_PretextTasks"
         },
         UI_Preview_GestureItem = {
-          ContentEN = "Postures",
+          ContentEN = "Posture",
           TextMapId = "UI_Preview_GestureItem"
         },
         UI_Preview_Init = {
@@ -63884,7 +63884,7 @@ local Data = {
           TextMapId = "UI_SHOP_SUBTAB_NAME_YUESHI"
         },
         UI_SHOP_SUBTAB_NAME_YUESHIJINGPEI = {
-          ContentEN = "Phoxene Plumule Exchange",
+          ContentEN = "Plumule Exchange",
           TextMapId = "UI_SHOP_SUBTAB_NAME_YUESHIJINGPEI"
         },
         UI_SHOP_SUBTAB_NAME_YUESHITAB = {

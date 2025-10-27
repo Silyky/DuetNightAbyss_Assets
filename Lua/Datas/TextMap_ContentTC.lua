@@ -528,10 +528,6 @@ local Data = {
           ContentTC = "(伺服器時間)",
           TextMapId = "AnnouncementAutoTimeZone"
         },
-        AnnouncementFixedTimeZone = {
-          ContentTC = "nan",
-          TextMapId = "AnnouncementFixedTimeZone"
-        },
         AnnouncementTimeFormatLong = {
           ContentTC = "{YY}年{MM}月{DD}日 {H}:{M}~{YY1}年{MM1}月{DD1}日 {H1}:{M1}",
           TextMapId = "AnnouncementTimeFormatLong"
@@ -8727,7 +8723,7 @@ local Data = {
           TextMapId = "Event_Des_103009001"
         },
         Event_Des_103010 = {
-          ContentTC = "當一隻小夜鶯飛出巢穴，它會見到廣闊的天空，掠過柔軟的草地，卻也注定會迎上冰冷的雨和狂暴的風。\n 但少女已決心不再退卻，她將用魔法的畫筆描繪彩色的夢，在這依然殘酷的現實世界裡，尋得一片永遠如童話般溫暖明亮的晴天。",
+          ContentTC = "當一隻小夜鶯飛出巢穴，它會見到廣闊的天空，掠過柔軟的草地，卻也注定會迎上冰冷的雨和狂暴的風。\n但少女已決心不再退卻，她將用魔法的畫筆描繪彩色的夢，在這依然殘酷的現實世界裡，尋得一片永遠如童話般溫暖明亮的晴天。",
           TextMapId = "Event_Des_103010"
         },
         Event_Des_103012 = {
@@ -14179,7 +14175,7 @@ local Data = {
           TextMapId = "Mail_Content_10014"
         },
         Mail_Content_10016 = {
-          ContentTC = "親愛的狩月人： _x000D_\n以下為承載著麗蓓卡記憶的思緒片段，請於附件中領取。",
+          ContentTC = "親愛的狩月人： \n以下為承載著麗蓓卡記憶的思緒片段，請於附件中領取。",
           TextMapId = "Mail_Content_10016"
         },
         Mail_Content_10021 = {
@@ -14191,7 +14187,7 @@ local Data = {
           TextMapId = "Mail_Content_100301"
         },
         Mail_Content_100401 = {
-          ContentTC = "親愛的狩月人，本期吟遊詩集裝訂已經結束。所有尚未領取的獎勵已通過郵件發放，請查收。",
+          ContentTC = "親愛的狩月人，本期吟遊詩集裝訂已經結束。所有尚未領取的獎勵已通過信件發放，請查收。",
           TextMapId = "Mail_Content_100401"
         },
         Mail_Content_100402 = {
@@ -14203,7 +14199,7 @@ local Data = {
           TextMapId = "Mail_Content_10055"
         },
         Mail_Content_10056 = {
-          ContentTC = "親愛的狩月人 感謝您在小程序參與活動，獎勵已通過郵件發放，請注意查收。",
+          ContentTC = "親愛的狩月人 感謝您在小程序參與活動，獎勵已通過信件發放，請注意查收。",
           TextMapId = "Mail_Content_10056"
         },
         Mail_Content_10058 = {
@@ -14215,11 +14211,11 @@ local Data = {
           TextMapId = "Mail_Content_10059"
         },
         Mail_Content_101001 = {
-          ContentTC = "親愛的狩月人：\n  您在「%s」活動中有未領取的獎勵內容，現已通過本郵件發放，請注意查收。",
+          ContentTC = "親愛的狩月人：\n您在「%s」活動中有未領取的獎勵內容，現已通過本信件發放，請注意查收。",
           TextMapId = "Mail_Content_101001"
         },
         Mail_Content_102001 = {
-          ContentTC = "親愛的狩月人：\n  您在「狩月人入門指南」活動中有未領取的獎勵內容，現已通過本郵件發放，請注意查收。",
+          ContentTC = "親愛的狩月人：\n您在「狩月人入門指南」活動中有未領取的獎勵內容，現已通過本信件發放，請注意查收。",
           TextMapId = "Mail_Content_102001"
         },
         Mail_Content_19101 = {
@@ -14279,11 +14275,11 @@ local Data = {
           TextMapId = "Mail_Title_10012"
         },
         Mail_Title_10014 = {
-          ContentTC = "簽到獎勵郵件",
+          ContentTC = "簽到獎勵信件",
           TextMapId = "Mail_Title_10014"
         },
         Mail_Title_10016 = {
-          ContentTC = "思緒片段獎勵郵件",
+          ContentTC = "思緒片段獎勵信件",
           TextMapId = "Mail_Title_10016"
         },
         Mail_Title_10021 = {
@@ -15123,7 +15119,7 @@ local Data = {
           TextMapId = "Message_Guide_MaerJ_Pad_2"
         },
         Message_Guide_Mail_1 = {
-          ContentTC = "收到了一封新郵件。",
+          ContentTC = "收到了一封新信件。",
           TextMapId = "Message_Guide_Mail_1"
         },
         Message_Guide_Mail_10 = {
@@ -15163,11 +15159,11 @@ local Data = {
           TextMapId = "Message_Guide_Mail_2_Phone"
         },
         Message_Guide_Mail_3 = {
-          ContentTC = "打開郵件界面",
+          ContentTC = "打開信件界面",
           TextMapId = "Message_Guide_Mail_3"
         },
         Message_Guide_Mail_4 = {
-          ContentTC = "點擊一封郵件",
+          ContentTC = "點擊一封信件",
           TextMapId = "Message_Guide_Mail_4"
         },
         Message_Guide_Mail_5 = {
@@ -15187,11 +15183,11 @@ local Data = {
           TextMapId = "Message_Guide_Mail_8"
         },
         Message_Guide_Mail_9 = {
-          ContentTC = "點擊空白處返回郵件界面",
+          ContentTC = "點擊空白處返回信件界面",
           TextMapId = "Message_Guide_Mail_9"
         },
         Message_Guide_Mail_9_Pad = {
-          ContentTC = "按下返回郵件界面",
+          ContentTC = "按下返回信件界面",
           TextMapId = "Message_Guide_Mail_9_Pad"
         },
         Message_Guide_ModLevelUp_1 = {
@@ -28483,7 +28479,7 @@ local Data = {
           TextMapId = "RESOURCE_DESC_5022050"
         },
         RESOURCE_DESC_5023010 = {
-          ContentTC = "一种状如月石的鱼类，质感奇异，摸起来和真的月石一般无二，每个个体之间都有着微妙的差异，但口感也和石头十分接近，除了实在吃不上饭的时候，几乎没有人会以它为食。",
+          ContentTC = "一種狀如月石的魚類，質感奇異，摸起來和真的月石一般無二，每個個體之間都有著微妙的差異，但口感也和石頭十分接近，除了實在吃不上飯的時候，幾乎沒有人會以它為食。",
           TextMapId = "RESOURCE_DESC_5023010"
         },
         RESOURCE_DESC_5023020 = {
@@ -36003,7 +35999,7 @@ local Data = {
           TextMapId = "Ranged",
         },
         Reading_Content_101223 = {
-          ContentTC = "（遺留在格雷姆礦場的筆記，看行文口吻，似乎是某位學者。）\n ……\n 4月16日\n 我們在這座廢棄的礦場裡發現了一種奇特的<H>黃色晶簇</>。從質地判斷，這並非傳聞裡山體深處洞穴埋藏的群星綺晶，也不是遺留在廢棄礦場中的月石，而是某種尚未發現的礦物。\n ……\n 4月18日\n 鮑勃驚訝地發現，這些散發著幽暗光芒的黃色晶簇<H>變大了</>，從只有巴掌那麼大，長成了低矮灌木一樣的晶簇叢。\n ……\n 4月20日\n ……晶簇叢又「長大」了，變成了尖刺狀晶體，把礦洞中的門都堵住了，簡直像是活物一樣。好在這些黃色晶體質地脆弱，一觸即碎，只需要少量<H>火藥</>就能爆破。\n 鮑勃提出了一種假設：這種晶體並非礦物，而是某種<H>穢獸的分泌物</>——甚至可以說是穢獸的某種「子體」；隨著時間推移，它會像沾了水的海綿那樣膨脹。儘管鮑勃在穢獸生物學上頗有造詣，這依舊是一種有些大膽的假設。\n ……\n 4月21日\n 為了驗證鮑勃的假設，我們決定向礦洞深處進發。如果他的推測為真，那麼在這個廢棄礦場深處，一定存在某個和這些野外穢獸不同的，特殊的穢獸<H>母體</>。\n ……",
+          ContentTC = "（遺留在格雷姆礦場的筆記，看行文口吻，似乎是某位學者。）\n……\n4月16日\n我們在這座廢棄的礦場裡發現了一種奇特的<H>黃色晶簇</>。從質地判斷，這並非傳聞裡山體深處洞穴埋藏的群星綺晶，也不是遺留在廢棄礦場中的月石，而是某種尚未發現的礦物。\n……\n4月18日\n鮑勃驚訝地發現，這些散發著幽暗光芒的黃色晶簇<H>變大了</>，從只有巴掌那麼大，長成了低矮灌木一樣的晶簇叢。\n……\n4月20日\n……晶簇叢又「長大」了，變成了尖刺狀晶體，把礦洞中的門都堵住了，簡直像是活物一樣。好在這些黃色晶體質地脆弱，一觸即碎，只需要少量<H>火藥</>就能爆破。\n鮑勃提出了一種假設：這種晶體並非礦物，而是某種<H>穢獸的分泌物</>——甚至可以說是穢獸的某種「子體」；隨著時間推移，它會像沾了水的海綿那樣膨脹。儘管鮑勃在穢獸生物學上頗有造詣，這依舊是一種有些大膽的假設。\n……\n4月21日\n為了驗證鮑勃的假設，我們決定向礦洞深處進發。如果他的推測為真，那麼在這個廢棄礦場深處，一定存在某個和這些野外穢獸不同的，特殊的穢獸<H>母體</>。\n……",
           TextMapId = "Reading_Content_101223"
         },
         Reading_Content_200208 = {
@@ -37507,7 +37503,7 @@ local Data = {
           TextMapId = "SKILL_510191_NAME"
         },
         SKILL_510201_DESC = {
-          ContentTC = "進入「匿蹤」狀態，並退出「追獵」狀態。\n 主動退出「匿蹤」狀態和在「匿蹤」狀態中再次釋放「隱匿」時，生成2枚「獠牙之刺」攻擊周圍的隨機敵人。",
+          ContentTC = "進入「匿蹤」狀態，並退出「追獵」狀態。\n主動退出「匿蹤」狀態和在「匿蹤」狀態中再次釋放「隱匿」時，生成2枚「獠牙之刺」攻擊周圍的隨機敵人。",
           TextMapId = "SKILL_510201_DESC"
         },
         SKILL_510201_NAME = {
@@ -41531,7 +41527,7 @@ local Data = {
           TextMapId = "Textmap_UnlockTitle"
         },
         TheaterOnline_Donate_Explain = {
-          ContentTC = "全服獎勵達成後，獎勵將通過郵件發送",
+          ContentTC = "全服獎勵達成後，獎勵將通過信件發送",
           TextMapId = "TheaterOnline_Donate_Explain"
         },
         TheaterOnline_Donate_Progress = {
@@ -49051,7 +49047,7 @@ local Data = {
           TextMapId = "UI_Bag_Decompose_Tip_1"
         },
         UI_Bag_Decompose_Tip_2 = {
-          ContentTC = "目前分解的武器中含有<H>已培育</>的武器，分解後不會返還消耗的資源，是否繼續？",
+          ContentTC = "目前分解的武器中含有<H>已養成</>的武器，分解後不會返還消耗的資源，是否繼續？",
           TextMapId = "UI_Bag_Decompose_Tip_2"
         },
         UI_Bag_Decompose_Tip_3 = {
@@ -55999,7 +55995,7 @@ local Data = {
           TextMapId = "UI_Event_MidTerm_RepeatTask"
         },
         UI_Event_MidTerm_Rule = {
-          ContentTC = "1、完成打打打打打劫皎皎準備的常規博弈獲取皎皎積分。_x000D_\n 每天服務器日期更新時，根據皎皎積分結算皎皎珍藏，皎皎積分上限之外的超額積分將按照一定比例轉化為銅幣_x000D_\n 2、每日博弈將在每天服務器日期更新時刷新<highlight>4</>個，結算前一天的皎皎珍藏後，將開啟新的每日博弈；重複博弈可以多次完成，且重複博弈的進度不會隨著服務器日期更新而重置_x000D_\n 3、完成挑戰博弈可以獲得挑戰積分，用於獲得打打打打打劫皎皎的挑戰珍藏_x000D_\n 4、挑戰博弈分為<highlight>2</>個階段，打打打打打劫皎皎將會在2025年11月7日絞盡腦汁想出來新的博弈",
+          ContentTC = "1、完成打打打打打劫皎皎準備的常規博弈獲取皎皎積分。\n\n每天服務器日期更新時，根據皎皎積分結算皎皎珍藏，皎皎積分上限之外的超額積分將按照一定比例轉化為銅幣\n\n2、每日博弈將在每天服務器日期更新時刷新<highlight>4</>個，結算前一天的皎皎珍藏後，將開啟新的每日博弈；重複博弈可以多次完成，且重複博弈的進度不會隨著服務器日期更新而重置\n\n3、完成挑戰博弈可以獲得挑戰積分，用於獲得打打打打打劫皎皎的挑戰珍藏\n\n4、挑戰博弈分為<highlight>2</>個階段，打打打打打劫皎皎將會在2025年11月7日絞盡腦汁想出來新的博弈",
           TextMapId = "UI_Event_MidTerm_Rule"
         },
         UI_Event_MidTerm_Settled = {
@@ -57854,10 +57850,6 @@ local Data = {
           ContentTC = "在電子遊戲中會出現一些閃光或圖形的視覺影像,這可能會使極少數人出現癲癇癥狀,甚至不具備癲癇病史的人也有可能因此出現類似癲癇的癥狀。癲癇癥狀包括四肢抽搐暈眩昏厥、痙攣、肢體麻木、視力異常等等。如您或您的家人曾有癲癇病史或出現過類似癥狀,請一定要在進行遊戲前諮詢醫生。如您在遊戲過程中出現了類似癲癇癥狀,或者感到身體有些不適,請立即停止遊戲。如在短暫休息後,癥狀仍未有緩解,請您立即就醫並遵循醫囑進行診療。",
           TextMapId = "UI_Loading_Warn_Content"
         },
-        UI_Loading_Warn_Content_KR = {
-          ContentTC = "nan",
-          TextMapId = "UI_Loading_Warn_Content_KR"
-        },
         UI_Loading_Warn_Title = {
           ContentTC = "光敏性癲癇警告",
           TextMapId = "UI_Loading_Warn_Title"
@@ -58615,11 +58607,11 @@ local Data = {
           TextMapId = "UI_Mail_Delete_All"
         },
         UI_Mail_Delete_Confirm_1 = {
-          ContentTC = "郵件刪除後未領取的獎勵將無法恢復，是否確認刪除？",
+          ContentTC = "信件刪除後未領取的獎勵將無法恢復，是否確認刪除？",
           TextMapId = "UI_Mail_Delete_Confirm_1"
         },
         UI_Mail_Delete_Confirm_2 = {
-          ContentTC = "是否確認刪除所有已讀郵件？（不包含星標郵件和未領取獎勵的郵件）",
+          ContentTC = "是否確認刪除所有已讀信件？（不包含星標信件和未領取獎勵的信件）",
           TextMapId = "UI_Mail_Delete_Confirm_2"
         },
         UI_Mail_Delete_Success = {
@@ -58655,7 +58647,7 @@ local Data = {
           TextMapId = "UI_Mail_Tab_Star"
         },
         UI_Mail_Unstar_Confirm = {
-          ContentTC = "是否確認取消星標郵件？（該星標郵件將在每天更新時刪除）",
+          ContentTC = "是否確認取消星標信件？（該星標信件將在每天更新時刪除）",
           TextMapId = "UI_Mail_Unstar_Confirm"
         },
         UI_MainTitle_Archive = {

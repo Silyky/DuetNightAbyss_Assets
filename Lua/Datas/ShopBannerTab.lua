@@ -7,7 +7,7 @@ return ReadOnly("ShopBannerTab", {
     BannerIcon = "Texture2D'/Game/UI/Texture/Dynamic/Image/Shop/T_Shop_Recommend_Saiqi01.T_Shop_Recommend_Saiqi01'",
     BgVideoPath = "FileMediaSource'/Game/Asset/UIVideo/SystemShow/ShopSkin/Shop_Skin_SaiqiCar01.Shop_Skin_SaiqiCar01'",
     Bp = "WBP_Shop_Recommend_AvatarSkin",
-    EndTime = 1767240000,
+    EndTime = 1766394000,
     Id = 1,
     InterfaceJumpId = 5,
     PreviewId = {530101},

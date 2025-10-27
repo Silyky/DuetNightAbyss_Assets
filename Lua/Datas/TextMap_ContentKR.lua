@@ -173,7 +173,7 @@ local Data = {
           TextMapId = "Abyss_Battle_Fail"
         },
         Abyss_Battle_RemainTime = {
-          ContentKR = "남은 시간:",
+          ContentKR = "남은 시간:{空格}",
           TextMapId = "Abyss_Battle_RemainTime"
         },
         Abyss_Battle_Win = {
@@ -10056,7 +10056,7 @@ local Data = {
           TextMapId = "Guide_HighlightButton_Skill2"
         },
         Guide_Message_AbyssUI_1 = {
-          ContentKR = "<H>몰입형 연극</>이 열렸습니다. 여기서 적으로 분장한 배우들과 싸우며 전투 기술을 연마할 수 있어.",
+          ContentKR = "<H>몰입형 연극</>이 열렸어. 여기서 적으로 분장한 배우들과 싸우며 전투 기술을 연마할 수 있어.",
           TextMapId = "Guide_Message_AbyssUI_1"
         },
         Guide_Message_AbyssUI_2 = {
@@ -10088,7 +10088,7 @@ local Data = {
           TextMapId = "Guide_Message_AbyssUI_7"
         },
         Guide_Message_AbyssUI_8 = {
-          ContentKR = "<H>이동하기</>를 클릭하여 해당 막의 도전을 시작하세요.",
+          ContentKR = "<H>이동</>을 클릭하여 해당 막의 도전을 시작하세요.",
           TextMapId = "Guide_Message_AbyssUI_8"
         },
         Guide_Message_DailyGoalUI_1 = {
@@ -14764,7 +14764,7 @@ local Data = {
           TextMapId = "Message_Guide_DungeonSec_7"
         },
         Message_Guide_DungeonSec_8 = {
-          ContentKR = "이곳에서는 해당 의뢰 편지를 완료 시 획득 가능한 보상을 확인할 수 있습니다. 의뢰 편지 퀘스트를 완료할 때마다 6종의 보상 중 랜덤으로 3종이 퀘스트 보상으로 제공되며, 그중 1개를 선택해 수령할 수 있습니다.",
+          ContentKR = "해당 의뢰 편지 완료 시 획득 가능한 보상입니다. 의뢰 편지 퀘스트를 완료할 때마다 6종 중 랜덤 3종이 퀘스트 보상으로 제공되며, 그중 1개를 선택할 수 있습니다.",
           TextMapId = "Message_Guide_DungeonSec_8"
         },
         Message_Guide_DungeonSec_9 = {
@@ -25904,7 +25904,7 @@ local Data = {
           TextMapId = "Quest_Tips_GuideBookInDungeon"
         },
         Quest_Tips_LeaveHintTrigger = {
-          ContentKR = "퀘스트 지역 떠나기",
+          ContentKR = "퀘스트 지역을 떠납니다",
           TextMapId = "Quest_Tips_LeaveHintTrigger"
         },
         Quest_Tips_QuestTrackLock = {
@@ -26812,7 +26812,7 @@ local Data = {
           TextMapId = "READ_TEXT_2000056"
         },
         READ_TEXT_2000057 = {
-          ContentKR = "Ⅰ. 서곡\n\n이런 광란의 축제를 들어본 적 있는가\n\n신을 모독하는 군사가 악마의 후예와 손잡고\n\n남쪽의 손님과 극북의 주민이 함께 노래하여\n\n솔라와 카론의 은빛 평화를 찬미하노라\n\n솔라는 등불을 든 채 눈물 흘리고\n\n카론은 걱정 없이 기쁘게 웃네\n\n허리를 돌려라, 손발을 흔들자\n\n춤추며 즐거움에 젖어라\n\n즐거움에 열광하라\n\n열광으로 슬픔을 지우고\n\n슬픔을 과거에 선물하라\n\n과거의 끝, 그곳에서 칭송할 성과 이름\n\n솔라누스 갈레아\n\n오랜 이름을 얻되 신에게 반기를 들어라\n\n갑주의 이름을 계승하여 제왕을 보필하라\n\n디스 갈레아 폐하의 너무 일찍 세상을 떠난 동생\n\n솔라누스 갈레아!",
+          ContentKR = "1. 서곡\n\n이런 광란의 축제를 들어본 적 있는가\n\n신을 모독하는 군사가 악마의 후예와 손잡고\n\n남쪽의 손님과 극북의 주민이 함께 노래하여\n\n솔라와 카론의 은빛 평화를 찬미하노라\n\n솔라는 등불을 든 채 눈물 흘리고\n\n카론은 걱정 없이 기쁘게 웃네\n\n허리를 돌려라, 손발을 흔들자\n\n춤추며 즐거움에 젖어라\n\n즐거움에 열광하라\n\n열광으로 슬픔을 지우고\n\n슬픔을 과거에 선물하라\n\n과거의 끝, 그곳에서 칭송할 성과 이름\n\n솔라누스 갈레아\n\n오랜 이름을 얻되 신에게 반기를 들어라\n\n갑주의 이름을 계승하여 제왕을 보필하라\n\n디스 갈레아 폐하의 너무 일찍 세상을 떠난 동생\n\n솔라누스 갈레아!",
           TextMapId = "READ_TEXT_2000057"
         },
         READ_TEXT_2000058 = {
@@ -35996,7 +35996,7 @@ local Data = {
           TextMapId = "Ranged",
         },
         Reading_Content_101223 = {
-          ContentKR = "(글로스터 광산에 남겨져 있는 노트. 내용으로 보아, 어떤 학자가 쓴 듯하다.)\n......\n4월 16일\n우리는 이 폐광에서 특이한 <H>노란색 정동</H>을 발견했다. 재질로 볼 때, 산속 깊은 동굴에 숨겨져 있다는 반짝이는 수정이나 폐광에 남겨진 월석은 아닌 듯하며, 아마도 현재까지 발견되지 않은 광물인 듯하다.\n......\n4월 18일\n놀랍게도, 이 은은한 빛을 내뿜는 노란 정동의 크기가 <H>커진</H> 것을 밥이 발견했다. 분명히 손바닥만 하던 것이 덤불 크기만 한 결정 군락이 되어 있었다.\n......\n4월 20일\n...정동이 또 '자라났다'. 마치 살아있는 생물체처럼, 가시 모양의 수정체가 되어, 광갱 안의 통로를 막아버렸다. 다행히 재질이 약해서 쉽게 깨지기 때문에, 약간의 <H>화약</>만 있으면 폭파할 수 있다.\n 밥이 이 결정은 광물이 아니라 어떤 <H>필토이드의 분비물</>, 또는 이를 모체로 한 생성물이며, 시간이 흐르면서 물에 젖은 스펀지처럼 팽창하는 것이 아닐까 하는 가설을 제시했다. 밥이 필토이드 생물학에 관해 조예가 깊기는 하지만, 아직까지는 대담한 가설에 불과하다.\n......\n4월 21일\n밥의 가설을 검증하기 위해, 광갱 깊숙히 들어가 보기로 했다. 만약 그의 추측이 맞다면, 이 폐광 깊은 곳에는 야외의 필트이드와 다른 특수한 필토이드 <H>모체</>가 반드시 존재할 것이다.\n.......",
+          ContentKR = "(글로스터 광산에 남겨져 있는 노트. 내용으로 보아, 어떤 학자가 쓴 듯하다.)\n......\n4월 16일\n우리는 이 폐광에서 특이한 <H>노란색 정동</>을 발견했다. 재질로 볼 때, 산속 깊은 동굴에 숨겨져 있다는 반짝이는 수정이나 폐광에 남겨진 월석은 아닌 듯하며, 아마도 현재까지 발견되지 않은 광물인 듯하다.\n......\n4월 18일\n놀랍게도, 이 은은한 빛을 내뿜는 노란 정동의 크기가 <H>커진</> 것을 밥이 발견했다. 분명히 손바닥만 하던 것이 덤불 크기만 한 결정 군락이 되어 있었다.\n......\n4월 20일\n...정동이 또 '자라났다'. 마치 살아있는 생물체처럼, 가시 모양의 수정체가 되어, 광갱 안의 통로를 막아버렸다. 다행히 재질이 약해서 쉽게 깨지기 때문에, 약간의 <H>화약</>만 있으면 폭파할 수 있다.\n밥이 이 결정은 광물이 아니라 어떤 <H>필토이드의 분비물</>, 또는 이를 모체로 한 생성물이며, 시간이 흐르면서 물에 젖은 스펀지처럼 팽창하는 것이 아닐까 하는 가설을 제시했다. 밥이 필토이드 생물학에 관해 조예가 깊기는 하지만, 아직까지는 대담한 가설에 불과하다.\n......\n4월 21일\n밥의 가설을 검증하기 위해, 광갱 깊숙히 들어가 보기로 했다. 만약 그의 추측이 맞다면, 이 폐광 깊은 곳에는 야외의 필트이드와 다른 특수한 필토이드 <H>모체</>가 반드시 존재할 것이다.\n.......",
           TextMapId = "Reading_Content_101223"
         },
         Reading_Content_200208 = {
@@ -36668,7 +36668,7 @@ local Data = {
           TextMapId = "SKILL_150101_NAME"
         },
         SKILL_150102_DESC = {
-          ContentKR = "근접 무기를 [사마엘]로 전환하고 전방 범위 내의 적에게 빛 속성 대미지를 입힌다. [사마엘] 사용 기간, 자신의 정신력이 지속적으로 소모되며, 정신력이 0이 되거나 해당 스킬을 다시 사용할 때 [사마엘]을 회수한다.\n[사마엘]로 기본 공격 시전 시, 최대 4단계의 연속 공격을 발동한다.\n[사마엘]로 차지 공격 시전 시, 길게 누르면 정신력을 지속적으로 소모하여 차지 상태를 유지한다. 길게 누러 종료, 정신력 부족 또는 콤보 레벨이 최대에 도달하면 차지 공격을 발동하여 전방 범위 내의 적에게 빛 속성 대미지를 입힌다.\n차지 지속 기간, [못 참아]를 획득하고 0.5초마다 일정한 콤보 포인트를 획득한다.",
+          ContentKR = "근접 무기를 [사마엘]로 전환하고 전방 범위 내의 적에게 빛 속성 대미지를 입힌다. [사마엘] 사용 기간, 해당 스킬을 다시 사용하면 [사마엘]이 회수된다.\n[사마엘]로 기본 공격 시전 시, 최대 4단계의 연속 공격을 발동한다.\n[사마엘]로 차지 공격 시전 시 정신력을 소모하며, 길게 눌러 차지 상태를 유지할 수 있다. 차지 기간 [못 참아]를 획득하고, 0.5초마다 정신력을 소모하여 콤보 포인트를 획득한다. \n길게 누르기 종료, 정신력 부족 또는 콤보 레벨이 최대에 도달하면 차지 공격을 발동하여, 전방 범위 내의 적에게 빛 속성 대미지를 입힌다.",
           TextMapId = "SKILL_150102_DESC"
         },
         SKILL_150102_NAME = {
@@ -37228,7 +37228,7 @@ local Data = {
           TextMapId = "SKILL_320204_NAME"
         },
         SKILL_330101_DESC = {
-          ContentKR = "전방 범위 내의 여러명의 적에게 불 속성 대미지를 입히고 기절 효과를 부여한다. 길게 눌러 시 지속적인 공격을 가한다.",
+          ContentKR = "전방 범위 내의 여러명의 적에게 불 속성 대미지를 입히고 기절 효과를 부여한다. 길게 누를 시 지속적인 공격을 가한다.",
           TextMapId = "SKILL_330101_DESC"
         },
         SKILL_330101_NAME = {
@@ -41448,7 +41448,7 @@ local Data = {
           TextMapId = "TextMap_Inference_1002"
         },
         TextMap_Inference_1003 = {
-          ContentKR = "범인이 출몰할 가능성이 있는 장소는 어디인가? I",
+          ContentKR = "범인이 출몰할 가능성이 있는 장소는 어디인가? Ⅰ",
           TextMapId = "TextMap_Inference_1003"
         },
         TextMap_Inference_1004 = {
@@ -41464,7 +41464,7 @@ local Data = {
           TextMapId = "TextMap_Inference_2001"
         },
         TextMap_Inference_2002 = {
-          ContentKR = "($Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기: ???)",
+          ContentKR = "{$Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기: ???}",
           TextMapId = "TextMap_Inference_2002"
         },
         TextMap_ResultTips_10010101 = {
@@ -54036,7 +54036,7 @@ local Data = {
           TextMapId = "UI_Consumable_Open_Count"
         },
         UI_Consume_Select_Skin = {
-          ContentKR = "선택 패키지를 사용하여 해당 캐릭터 코스튬을 획득하세요.",
+          ContentKR = "선택 패키지로 해당 캐릭터 코스튬 획득",
           TextMapId = "UI_Consume_Select_Skin"
         },
         UI_Content_SaiqiBossWarning = {
@@ -54580,7 +54580,7 @@ local Data = {
           TextMapId = "UI_DUNGEON_Enter"
         },
         UI_DUNGEON_GUIDE_DEFENCEMECHANISM = {
-          ContentKR = "목표 보호",
+          ContentKR = "보호 목표",
           TextMapId = "UI_DUNGEON_GUIDE_DEFENCEMECHANISM"
         },
         UI_DUNGEON_GUIDE_EXIT = {
@@ -55196,7 +55196,7 @@ local Data = {
           TextMapId = "UI_Dispatch_Toast_RewardWarm"
         },
         UI_Dispatch_Toast_Unlock = {
-          ContentKR = "%s을(를) 파견할 수 있습니다.",
+          ContentKR = "이제 %s에 파견할 수 있습니다.",
           TextMapId = "UI_Dispatch_Toast_Unlock"
         },
         UI_Disptach_Ability = {
@@ -55968,11 +55968,11 @@ local Data = {
           TextMapId = "UI_Event_MidTerm_RepeatCount"
         },
         UI_Event_MidTerm_RepeatTask = {
-          ContentKR = "중복 대결",
+          ContentKR = "반복 대결",
           TextMapId = "UI_Event_MidTerm_RepeatTask"
         },
         UI_Event_MidTerm_Rule = {
-          ContentKR = "1. 말더듬이 강, 강도 루나가 준비한 일반 대결 완료 시 루나 포인트를 획득합니다.\n매일 서버 날짜가 갱신될 때마다, 루나 포인트에 따라 루나의 보물이 결산됩니다. 루나 포인트 최대치를 초과한 포인트는 일정 비율에 따라 쿠퍼로 전환됩니다.\n2. 일일 대결은 매일 서버 날짜가 갱신될 때, <highlight>4</>개의 새로운 대결이 리셋됩니다. 이전 날의 루나의 보물을 결산한 후, 새로운 일일 대결이 오픈됩니다. 중복 대결은 여러 번 완료할 수 있으며, 서버 날짜 갱신 시에도 진행도가 초기화되지 않습니다.\n3. 도전 대결을 완료하면 도전 포인트가 지급됩니다. 도전 포인트를 사용하여 말더듬이 강, 강도 루나의 도전 보물을 획득할 수 있습니다.\n4. 도전 대결은 <highlight>2</>단계로 나뉩니다. 말더듬이 강, 강도 루나는 2025년 11월 7일에 새로운 대결을 생각해 낼 것입니다.",
+          ContentKR = "1. 말더듬이 강, 강도 루나가 준비한 일반 대결 완료 시 루나 포인트를 획득합니다.\n매일 서버 날짜가 갱신될 때마다, 루나 포인트에 따라 루나의 보물이 결산됩니다. 루나 포인트 최대치를 초과한 포인트는 일정 비율에 따라 쿠퍼로 전환됩니다.\n2. 일일 대결은 매일 서버 날짜가 갱신될 때, <highlight>4</>개의 새로운 대결이 리셋됩니다. 이전 날의 루나의 보물을 결산한 후, 새로운 일일 대결이 오픈됩니다. 반복 대결은 여러 번 완료할 수 있으며, 서버 날짜 갱신 시에도 진행도가 초기화되지 않습니다.\n3. 도전 대결을 완료하면 도전 포인트가 지급됩니다. 도전 포인트를 사용하여 말더듬이 강, 강도 루나의 도전 보물을 획득할 수 있습니다.\n4. 도전 대결은 <highlight>2</>단계로 나뉩니다. 말더듬이 강, 강도 루나는 2025년 11월 7일에 새로운 대결을 생각해 낼 것입니다.",
           TextMapId = "UI_Event_MidTerm_Rule"
         },
         UI_Event_MidTerm_Settled = {
@@ -58720,7 +58720,7 @@ local Data = {
           TextMapId = "UI_MiniGame_Hint_LianXian_2"
         },
         UI_MiniGame_Hint_TiaoPin = {
-          ContentKR = "<img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></> 버튼을 눌러 <img id="MiniGame_TiaoPin_S"></>를 올바른 <img id="MiniGame_TiaoPin_E">로 옮기세요.</>",
+          ContentKR = "<img id="MiniGame_TiaoPin_L"></><img id="MiniGame_TiaoPin_U"></><img id="MiniGame_TiaoPin_R"></><img id="MiniGame_TiaoPin_D"></> 버튼을 눌러 <img id="MiniGame_TiaoPin_S"></>를 <img id="MiniGame_TiaoPin_E"></>로 이동",
           TextMapId = "UI_MiniGame_Hint_TiaoPin"
         },
         UI_MiniGame_Hint_ZhuanQuanQuan = {

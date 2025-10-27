@@ -2,6 +2,10 @@ local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
   return x
 end
 return ReadOnly("TextMapWildcard", {
+  Abyss_Battle_RemainTime = {
+    TextMapId = "Abyss_Battle_RemainTime",
+    WildcardClassification = "Story"
+  },
   Abyss_LevelName = {
     TextMapId = "Abyss_LevelName",
     WildcardClassification = "Story"
