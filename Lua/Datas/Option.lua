@@ -167,7 +167,6 @@ return ReadOnly("Option", {
       1,
       1,
       1,
-      1,
       1
     },
     SubOptionName = "UI_OPTION_DLSSOption",
@@ -188,7 +187,6 @@ return ReadOnly("Option", {
       "UI_OPTION_DLSSQuality_3",
       "UI_OPTION_DLSSQuality_2",
       "UI_OPTION_DLSSQuality_5",
-      "UI_OPTION_DLSSQuality_6",
       "UI_Option_Dropdown_20"
     }
   },

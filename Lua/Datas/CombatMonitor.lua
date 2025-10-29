@@ -51,7 +51,7 @@ return ReadOnly("CombatMonitor", {
     MonitorType = "Time",
     ServerMark = true,
     SubId = {"Rouge"},
-    Value = 4
+    Value = 0
   },
   [8] = {
     MonitorId = 8,

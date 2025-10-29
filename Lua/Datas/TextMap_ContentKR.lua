@@ -44447,9 +44447,17 @@ local Data = {
           ContentKR = "[해제 조건]",
           TextMapId = "UI_Accessory_Unlock_Condition"
         },
+        UI_Accessory_Unlock_Exchange = {
+          ContentKR = "프리즘 교환으로 획득",
+          TextMapId = "UI_Accessory_Unlock_Exchange"
+        },
         UI_Accessory_Unlock_Forge = {
           ContentKR = "주조를 통해 획득",
           TextMapId = "UI_Accessory_Unlock_Forge"
+        },
+        UI_Accessory_Unlock_Gacha = {
+          ContentKR = "광채에서 획득",
+          TextMapId = "UI_Accessory_Unlock_Gacha"
         },
         UI_Accessory_Unlock_Hardboss = {
           ContentKR = "악몽의 잔향을 통해 획득",

@@ -44443,9 +44443,17 @@ local Data = {
           ContentEN = "[Prerequisites]",
           TextMapId = "UI_Accessory_Unlock_Condition"
         },
+        UI_Accessory_Unlock_Exchange = {
+          ContentEN = "Available though Prism Exchange",
+          TextMapId = "UI_Accessory_Unlock_Exchange"
+        },
         UI_Accessory_Unlock_Forge = {
           ContentEN = "Available though Forging",
           TextMapId = "UI_Accessory_Unlock_Forge"
+        },
+        UI_Accessory_Unlock_Gacha = {
+          ContentEN = "Available though Myriad",
+          TextMapId = "UI_Accessory_Unlock_Gacha"
         },
         UI_Accessory_Unlock_Hardboss = {
           ContentEN = "Nocturnal Echoes Challenge Reward",

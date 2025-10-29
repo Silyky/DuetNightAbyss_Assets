@@ -91204,6 +91204,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Accessory_Unlock_Condition"
         },
   UI_Accessory_Unlock_Exchange = {
+    ContentEN = "Available though Prism Exchange",
+    ContentJP = "プリズムの交換で獲得",
+    ContentKR = "프리즘 교환으로 획득",
+    ContentTC = "通過稜鏡兌換獲得",
     TextMapContent = "通过棱镜兑换获得",
     TextMapId = "UI_Accessory_Unlock_Exchange"
         },
@@ -91216,6 +91220,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Accessory_Unlock_Forge"
         },
   UI_Accessory_Unlock_Gacha = {
+    ContentEN = "Available though Myriad",
+    ContentJP = "万華で獲得",
+    ContentKR = "광채에서 획득",
+    ContentTC = "通過萬華獲得",
     TextMapContent = "通过万华获得",
     TextMapId = "UI_Accessory_Unlock_Gacha"
         },

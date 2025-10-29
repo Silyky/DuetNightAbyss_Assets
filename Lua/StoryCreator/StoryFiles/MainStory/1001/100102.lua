@@ -129,7 +129,7 @@ return {
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
-        SubRegionId = 100101,
+        SubRegionId = 0,
         StoryGuideType = "Point",
         StoryGuidePointName = "QuestPoint_Elevator"
       },
@@ -142,22 +142,10 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "quest_1686551516406624",
-            startPort = "Out",
-            endQuest = "quest_1686551807213630",
-            endPort = "In"
-          },
-          {
             startQuest = "quest_1685414919094944",
             startPort = "QuestStart",
             endQuest = "quest_16914040798541069",
             endPort = "In"
-          },
-          {
-            startQuest = "17412489702022323",
-            startPort = "Out",
-            endQuest = "quest_1685414919094946",
-            endPort = "Success"
           },
           {
             startQuest = "17412489878792871",
@@ -172,22 +160,34 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "quest_1686551807213630",
-            startPort = "Out",
-            endQuest = "174532525150225441258",
-            endPort = "In"
-          },
-          {
             startQuest = "quest_1685414919094944",
             startPort = "QuestStart",
             endQuest = "quest_1686551516406624",
             endPort = "In"
           },
           {
-            startQuest = "174532525150225441258",
-            startPort = "Out",
+            startQuest = "quest_1685414919094944",
+            startPort = "QuestStart",
+            endQuest = "quest_1686551807213630",
+            endPort = "In"
+          },
+          {
+            startQuest = "quest_1685414919094944",
+            startPort = "QuestStart",
             endQuest = "17412489702022323",
             endPort = "In"
+          },
+          {
+            startQuest = "17412489702022323",
+            startPort = "Out",
+            endQuest = "174532525150225441258",
+            endPort = "In"
+          },
+          {
+            startQuest = "174532525150225441258",
+            startPort = "Out",
+            endQuest = "quest_1685414919094946",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -216,7 +216,7 @@ return {
             key = "quest_16854152113881139",
             type = "TalkNode",
             name = "莲妈-100114-以前有飞艇",
-            pos = {x = 740.8189096723995, y = -224.93998944326225},
+            pos = {x = 739.5145618463125, y = -219.72259813891444},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10011401,
@@ -233,7 +233,7 @@ return {
             key = "quest_1686551516406624",
             type = "ElevatorNode",
             name = "与电梯交互",
-            pos = {x = 612.5901985702582, y = 152.87245697330394},
+            pos = {x = 448.24237248330166, y = -213.64928215713087},
             propsData = {
               bGuideUIEnable = true,
               GuideType = "P",
@@ -246,7 +246,7 @@ return {
             key = "quest_1686551807213630",
             type = "ElevatorNode",
             name = "电梯停了",
-            pos = {x = 861.4105942087972, y = 148.2651218818116},
+            pos = {x = 429.67146377401457, y = -60.43053029210145},
             propsData = {
               bGuideUIEnable = false,
               GuideType = "P",
@@ -259,7 +259,7 @@ return {
             key = "quest_16914040798541069",
             type = "TalkNode",
             name = "莲妈-100113-剑是钥匙",
-            pos = {x = 452.1192574423042, y = -212.48139685276848},
+            pos = {x = 436.4670835292607, y = -380.7422664179859},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10011301,
@@ -276,7 +276,7 @@ return {
             key = "17412489702022323",
             type = "GoToRegionNode",
             name = "进入区域",
-            pos = {x = 1442.496336440164, y = 181.20120084102595},
+            pos = {x = 475.9745973097291, y = 153.80989649319986},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",

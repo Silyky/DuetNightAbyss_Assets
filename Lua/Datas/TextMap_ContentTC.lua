@@ -44466,9 +44466,17 @@ local Data = {
           ContentTC = "【解鎖條件】",
           TextMapId = "UI_Accessory_Unlock_Condition"
         },
+        UI_Accessory_Unlock_Exchange = {
+          ContentTC = "通過稜鏡兌換獲得",
+          TextMapId = "UI_Accessory_Unlock_Exchange"
+        },
         UI_Accessory_Unlock_Forge = {
           ContentTC = "通過鑄造獲得",
           TextMapId = "UI_Accessory_Unlock_Forge"
+        },
+        UI_Accessory_Unlock_Gacha = {
+          ContentTC = "通過萬華獲得",
+          TextMapId = "UI_Accessory_Unlock_Gacha"
         },
         UI_Accessory_Unlock_Hardboss = {
           ContentTC = "通過夢魘殘聲獲得",
