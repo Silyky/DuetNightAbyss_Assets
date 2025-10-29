@@ -397,6 +397,12 @@ return ReadOnly("Resource", {
     Type = "Rare"
   },
   [211] = {
+    AccessKey = {
+      "Text_DAILYGOAL",
+      "Text_Abyss",
+      "Text_Rouge",
+      "Text_Monster"
+    },
     DetailDes = "RESOURCE_DESC_211",
     FunctionDes = "RESOURCE_FUNCTION_211",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Icon_Random_Box_Part_01.T_Icon_Random_Box_Part_01",

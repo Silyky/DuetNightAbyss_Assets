@@ -77921,6 +77921,186 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_en_char_Haier_vo_companio_03",
     SoundLength = 21730
   },
+  voice_en_char_Haier_vo_emotion_amaze_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_amaze_01",
+    SoundLength = 1150
+  },
+  voice_en_char_Haier_vo_emotion_amaze_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_amaze_02",
+    SoundLength = 550
+  },
+  voice_en_char_Haier_vo_emotion_complacent_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_complacent_01",
+    SoundLength = 710
+  },
+  voice_en_char_Haier_vo_emotion_conclude_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_conclude_01",
+    SoundLength = 980
+  },
+  voice_en_char_Haier_vo_emotion_confuse_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_confuse_01",
+    SoundLength = 750
+  },
+  voice_en_char_Haier_vo_emotion_continue_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_continue_01",
+    SoundLength = 1350
+  },
+  voice_en_char_Haier_vo_emotion_disdain_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_disdain_01",
+    SoundLength = 580
+  },
+  voice_en_char_Haier_vo_emotion_dislike_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_dislike_01",
+    SoundLength = 1110
+  },
+  voice_en_char_Haier_vo_emotion_dislike_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_dislike_02",
+    SoundLength = 980
+  },
+  voice_en_char_Haier_vo_emotion_dislike_03 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_dislike_03",
+    SoundLength = 1060
+  },
+  voice_en_char_Haier_vo_emotion_excuse_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_excuse_01",
+    SoundLength = 1100
+  },
+  voice_en_char_Haier_vo_emotion_happy_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_happy_01",
+    SoundLength = 1490
+  },
+  voice_en_char_Haier_vo_emotion_happy_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_happy_02",
+    SoundLength = 970
+  },
+  voice_en_char_Haier_vo_emotion_happy_03 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_happy_03",
+    SoundLength = 1940
+  },
+  voice_en_char_Haier_vo_emotion_hesitate_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_hesitate_01",
+    SoundLength = 1230
+  },
+  voice_en_char_Haier_vo_emotion_no_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_no_01",
+    SoundLength = 930
+  },
+  voice_en_char_Haier_vo_emotion_objection_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_objection_01",
+    SoundLength = 1210
+  },
+  voice_en_char_Haier_vo_emotion_personal_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_personal_01",
+    SoundLength = 1340
+  },
+  voice_en_char_Haier_vo_emotion_personal_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_personal_02",
+    SoundLength = 2410
+  },
+  voice_en_char_Haier_vo_emotion_personal_03 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_personal_03",
+    SoundLength = 1100
+  },
+  voice_en_char_Haier_vo_emotion_personal_04 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_personal_04",
+    SoundLength = 1890
+  },
+  voice_en_char_Haier_vo_emotion_personal_05 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_personal_05",
+    SoundLength = 1250
+  },
+  voice_en_char_Haier_vo_emotion_realize_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_realize_01",
+    SoundLength = 840
+  },
+  voice_en_char_Haier_vo_emotion_realize_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_realize_02",
+    SoundLength = 920
+  },
+  voice_en_char_Haier_vo_emotion_refute_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_refute_01",
+    SoundLength = 890
+  },
+  voice_en_char_Haier_vo_emotion_reply_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_reply_01",
+    SoundLength = 710
+  },
+  voice_en_char_Haier_vo_emotion_reply_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_reply_02",
+    SoundLength = 1260
+  },
+  voice_en_char_Haier_vo_emotion_sigh_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_sigh_01",
+    SoundLength = 970
+  },
+  voice_en_char_Haier_vo_emotion_sigh_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_sigh_02",
+    SoundLength = 1520
+  },
+  voice_en_char_Haier_vo_emotion_start_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_start_01",
+    SoundLength = 1690
+  },
+  voice_en_char_Haier_vo_emotion_start_02 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_start_02",
+    SoundLength = 2190
+  },
+  voice_en_char_Haier_vo_emotion_thank_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_thank_01",
+    SoundLength = 1100
+  },
+  voice_en_char_Haier_vo_emotion_think_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_think_01",
+    SoundLength = 740
+  },
+  voice_en_char_Haier_vo_emotion_understand_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_understand_01",
+    SoundLength = 1180
+  },
+  voice_en_char_Haier_vo_emotion_unexpect_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_unexpect_01",
+    SoundLength = 880
+  },
+  voice_en_char_Haier_vo_emotion_yes_01 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_emotion_yes_01",
+    SoundLength = 960
+  },
   voice_en_char_Haier_vo_fail = {
     ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
     SelectKey = "voice_en_char_Haier_vo_fail",
@@ -77951,25 +78131,100 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_en_char_Haier_vo_topic_01",
     SoundLength = 25140
   },
+  voice_en_char_Haier_vo_topic_01_1 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_01_1",
+    SoundLength = 12910
+  },
+  voice_en_char_Haier_vo_topic_01_2 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_01_2",
+    SoundLength = 8230
+  },
+  voice_en_char_Haier_vo_topic_01_3 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_01_3",
+    SoundLength = 16790
+  },
+  voice_en_char_Haier_vo_topic_01_4 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_01_4",
+    SoundLength = 13550
+  },
   voice_en_char_Haier_vo_topic_02 = {
     ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
     SelectKey = "voice_en_char_Haier_vo_topic_02",
     SoundLength = 24150
+  },
+  voice_en_char_Haier_vo_topic_02_1 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_02_1",
+    SoundLength = 9810
+  },
+  voice_en_char_Haier_vo_topic_02_2 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_02_2",
+    SoundLength = 15350
+  },
+  voice_en_char_Haier_vo_topic_02_3 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_02_3",
+    SoundLength = 11620
   },
   voice_en_char_Haier_vo_topic_03 = {
     ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
     SelectKey = "voice_en_char_Haier_vo_topic_03",
     SoundLength = 25790
   },
+  voice_en_char_Haier_vo_topic_03_1 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_03_1",
+    SoundLength = 12470
+  },
+  voice_en_char_Haier_vo_topic_03_2 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_03_2",
+    SoundLength = 9300
+  },
+  voice_en_char_Haier_vo_topic_03_3 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_03_3",
+    SoundLength = 15190
+  },
   voice_en_char_Haier_vo_topic_04 = {
     ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
     SelectKey = "voice_en_char_Haier_vo_topic_04",
     SoundLength = 10030
   },
+  voice_en_char_Haier_vo_topic_04_1 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_04_1",
+    SoundLength = 11080
+  },
+  voice_en_char_Haier_vo_topic_04_2 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_04_2",
+    SoundLength = 19320
+  },
   voice_en_char_Haier_vo_topic_05 = {
     ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
     SelectKey = "voice_en_char_Haier_vo_topic_05",
     SoundLength = 23540
+  },
+  voice_en_char_Haier_vo_topic_05_1 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_05_1",
+    SoundLength = 13270
+  },
+  voice_en_char_Haier_vo_topic_05_2 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_05_2",
+    SoundLength = 17120
+  },
+  voice_en_char_Haier_vo_topic_05_3 = {
+    ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
+    SelectKey = "voice_en_char_Haier_vo_topic_05_3",
+    SoundLength = 5210
   },
   voice_en_char_Haier_vo_victory = {
     ProgrammerSoundPath = "event:/voice/en/char/Haier/vo",
@@ -86269,7 +86524,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_inv_Feina_003_C865C52A_f = {
     ProgrammerSoundPath = "event:/voice/en/inv/Feina/003",
     SelectKey = "voice_en_inv_Feina_003_C865C52A_f",
-    SoundLength = 12420
+    SoundLength = 12010
   },
   voice_en_inv_Feina_003_C865C52A_m = {
     ProgrammerSoundPath = "event:/voice/en/inv/Feina/003",
@@ -156196,7 +156451,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_jp_story_1002_101063_194CD2FA = {
     ProgrammerSoundPath = "event:/voice/jp/story/1002",
     SelectKey = "voice_jp_story_1002_101063_194CD2FA",
-    SoundLength = 8880
+    SoundLength = 16370
   },
   voice_jp_story_1002_101063_194CD324 = {
     ProgrammerSoundPath = "event:/voice/jp/story/1002",
@@ -162091,6 +162346,26 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/story/1002",
     SelectKey = "voice_jp_story_1002_101300_195BD016_m",
     SoundLength = 9810
+  },
+  voice_jp_story_1002_101301_195BD017_f = {
+    ProgrammerSoundPath = "event:/voice/jp/story/1002",
+    SelectKey = "voice_jp_story_1002_101301_195BD017_f",
+    SoundLength = 9560
+  },
+  voice_jp_story_1002_101301_195BD017_m = {
+    ProgrammerSoundPath = "event:/voice/jp/story/1002",
+    SelectKey = "voice_jp_story_1002_101301_195BD017_m",
+    SoundLength = 8740
+  },
+  voice_jp_story_1002_101301_195BD018 = {
+    ProgrammerSoundPath = "event:/voice/jp/story/1002",
+    SelectKey = "voice_jp_story_1002_101301_195BD018",
+    SoundLength = 14800
+  },
+  voice_jp_story_1002_101301_195BD019 = {
+    ProgrammerSoundPath = "event:/voice/jp/story/1002",
+    SelectKey = "voice_jp_story_1002_101301_195BD019",
+    SoundLength = 16040
   },
   voice_jp_story_1002_101301_195BD020 = {
     ProgrammerSoundPath = "event:/voice/jp/story/1002",

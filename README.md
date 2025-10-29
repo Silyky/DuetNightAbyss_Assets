@@ -2,7 +2,7 @@
 
 There will be some useful files for Duet Night Abyss, such as icons and parsed lua files.
 
-> Version: 1.0.28.1 (OBT)
+> Version: 1.0.29.1 (OBT)
 
 ### Parsed_Info Folder
 
