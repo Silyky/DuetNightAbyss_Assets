@@ -14703,6 +14703,18 @@ local Data = {
           ContentKR = "자동 선택 버튼을 눌러 대리인을 한 번에 선택하세요.",
           TextMapId = "Message_Guide_Dispatch_09_Pad"
         },
+        Message_Guide_Dispatch_10 = {
+          ContentKR = "추천 특성에 맞는 캐릭터를 선택하면 성공률을 크게 높일 수 있습니다.",
+          TextMapId = "Message_Guide_Dispatch_10"
+        },
+        Message_Guide_Dispatch_11 = {
+          ContentKR = "여기를 눌러 파견을 시작하세요.",
+          TextMapId = "Message_Guide_Dispatch_11"
+        },
+        Message_Guide_Dispatch_12 = {
+          ContentKR = "참고로, 이미 완료한 돌발 사건만 대리인을 파견할 수 있어. 새로운 돌발 사건은 직접 완료한 후에만 대리인을 파견할 수 있다는 점 잊지 마!",
+          TextMapId = "Message_Guide_Dispatch_12"
+        },
         Message_Guide_DungeonSec_1 = {
           ContentKR = "각 의뢰 편지에는 6가지 다른 보상이 포함되어 있으며, 보상은 세 가지 희귀도로 나뉩니다.",
           TextMapId = "Message_Guide_DungeonSec_1"
@@ -39374,6 +39386,10 @@ local Data = {
         StarterQuest_Des_102001_4_3 = {
           ContentKR = "메인 퀘스트 '문 뒤의 비밀' 완료",
           TextMapId = "StarterQuest_Des_102001_4_3"
+        },
+        StarterQuest_Des_102001_4_4 = {
+          ContentKR = "탐험가 루나의 도전 1회 완료",
+          TextMapId = "StarterQuest_Des_102001_4_4"
         },
         StarterQuest_Des_102001_4_5 = {
           ContentKR = "의뢰 '퇴치' 1회 완료",

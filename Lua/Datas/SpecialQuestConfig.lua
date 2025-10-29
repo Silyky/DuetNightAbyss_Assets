@@ -618,8 +618,8 @@ return ReadOnly("SpecialQuestConfig", {
     QuestFailTalkTriggerId = 1002,
     SpecialConfigId = 1054,
     StoryPath = "SpecialQuest\Side\200103_Pet01Battle01.story",
+    SubRegionIds = 101103,
     TalkTriggerId = 1001,
-    TriggerBoxStaticCreatorId = 1240985,
     UniversalConfigId = 1054
   },
   [1055] = {

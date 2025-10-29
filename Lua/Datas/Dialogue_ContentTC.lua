@@ -123652,7 +123652,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72002902] = {
-          Content = "咿呀——！请不要拿走这个宝箱。",
+          ContentTC = "咿呀——！請不要拿走這個寶箱。",
           DialogueId = 72002902,
           FacialId = {
             [1] = "820000:PetPan_Wink"
@@ -123662,7 +123662,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72002903] = {
-          Content = "我的家被坏老鼠占领了，我正打算用这些钱去雇一只勇敢的小猫，帮我赶跑老鼠。",
+          ContentTC = "我的家被壞老鼠占領了，我正打算用這些錢去雇一隻勇敢的小貓，幫我趕跑老鼠。",
           DialogueId = 72002903,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -123695,7 +123695,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003002] = {
-          Content = "哇，你好厉害，唰唰——咻咻——几下就把附近的老鼠全消灭了。",
+          ContentTC = "哇，你好厲害，唰唰——咻咻——幾下就把附近的老鼠全消滅了。",
           DialogueId = 72003002,
           FacialId = {
             [1] = "820000:PetPan_Smile"
@@ -123705,7 +123705,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003003] = {
-          Content = "那么，这个宝箱就送给你啦。",
+          ContentTC = "那麼，這個寶箱就送給你啦。",
           DialogueId = 72003003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124139,7 +124139,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003902] = {
-          Content = "会动的鸟，不会动的鸟，还有不会动的人都还在这里。",
+          ContentTC = "會動的鳥，不會動的鳥，還有不會動的人都還在這裡。",
           DialogueId = 72003902,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124150,7 +124150,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003903] = {
-          Content = "但是会动的人都离开了，他们还会回来吗？",
+          ContentTC = "但是會動的人都離開了，他們還會回來嗎？",
           DialogueId = 72003903,
           FacialId = {
             [1] = "820000:PetPan_Speechless"
@@ -124184,7 +124184,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004002] = {
-          Content = "每一盏熄灭的灯都是一个没有回家的人……",
+          ContentTC = "每一盞熄滅的燈都是一個沒有回家的人……",
           DialogueId = 72004002,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124194,7 +124194,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004003] = {
-          Content = "那么每一盏亮起的灯都会是一个回到了家的人吧？",
+          ContentTC = "那麼每一盞亮起的燈都會是一個回到了家的人吧？",
           DialogueId = 72004003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124228,7 +124228,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004102] = {
-          Content = "咿呀！你怎么把我的小窝打碎了。",
+          ContentTC = "咿呀！你怎麼把我的小窩打碎了。",
           DialogueId = 72004102,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124239,7 +124239,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004103] = {
-          Content = "据说睡在硬邦邦的床上可以磨炼意志力哦。",
+          ContentTC = "據說睡在硬邦邦的床上可以磨鍊意志力哦。",
           DialogueId = 72004103,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124273,7 +124273,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004202] = {
-          Content = "箱子堆在这么高的地方有什么用呢？",
+          ContentTC = "箱子堆在這麼高的地方有什麼用呢？",
           DialogueId = 72004202,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124284,7 +124284,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004203] = {
-          Content = "不如就让给我当房子吧。",
+          ContentTC = "不如就讓給我當房子吧。",
           DialogueId = 72004203,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124318,7 +124318,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004302] = {
-          Content = "飘啊飘，我是一只自由的小鸭子~",
+          ContentTC = "飄啊飄，我是一隻自由的小鴨子~",
           DialogueId = 72004302,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124329,7 +124329,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004303] = {
-          Content = "咿呀！你怎么把我游泳池里的水放掉了？",
+          ContentTC = "咿呀！你怎麼把我游泳池裡的水放掉了？",
           DialogueId = 72004303,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124363,7 +124363,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004402] = {
-          Content = "咿呀，采蘑菇的小人类你好~",
+          ContentTC = "咿呀，采蘑菇的小人類你好~",
           DialogueId = 72004402,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124373,7 +124373,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004403] = {
-          Content = "蘑菇虽然美味，但一定要等完全煮熟以后再吃哦。",
+          ContentTC = "蘑菇雖然美味，但一定要等完全煮熟以後再吃哦。",
           DialogueId = 72004403,
           FacialId = {
             [1] = "820000:PetPan_Cry"
@@ -124407,7 +124407,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004502] = {
-          Content = "咚咚，咚咚咚！",
+          ContentTC = "咚咚，咚咚咚！",
           DialogueId = 72004502,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124417,7 +124417,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004503] = {
-          Content = "我正在学习演奏这台管道琴。",
+          ContentTC = "我正在學習演奏這台管道琴。",
           DialogueId = 72004503,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124451,7 +124451,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004602] = {
-          Content = "咿呀，恭喜你发现了我的秘密基地~",
+          ContentTC = "咿呀，恭喜你發現了我的秘密基地~",
           DialogueId = 72004602,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124461,7 +124461,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004603] = {
-          Content = "藤蔓、水草、池塘和我，是一个小小生态圈。",
+          ContentTC = "藤蔓、水草、池塘和我，是一個小小生態圈。",
           DialogueId = 72004603,
           FacialId = {
             [1] = "820000:PetPan_Common"

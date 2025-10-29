@@ -14694,6 +14694,18 @@ local Data = {
           ContentJP = "おまかせ選択ボタンをタップすると、代理人を一括で選択できます。",
           TextMapId = "Message_Guide_Dispatch_09_Pad"
         },
+        Message_Guide_Dispatch_10 = {
+          ContentJP = "おすすめ特性を持つキャラで派遣すると、派遣の成功率が大幅アップします。",
+          TextMapId = "Message_Guide_Dispatch_10"
+        },
+        Message_Guide_Dispatch_11 = {
+          ContentJP = "ここをタップして派遣を始めましょう。",
+          TextMapId = "Message_Guide_Dispatch_11"
+        },
+        Message_Guide_Dispatch_12 = {
+          ContentJP = "突発イベントを自分で一回完了しないと、代理人に頼めませんので、ご了承ください。",
+          TextMapId = "Message_Guide_Dispatch_12"
+        },
         Message_Guide_DungeonSec_1 = {
           ContentJP = "各依頼密書には6種類の異なる報酬が含まれており、報酬には3段階のレアリティがあります。",
           TextMapId = "Message_Guide_DungeonSec_1"

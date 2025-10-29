@@ -662,6 +662,7 @@ return ReadOnly("Option", {
     HideOnPhone = true,
     Region = 1,
     SortId = 72,
+    SpecialHide = 99,
     SwitchText = {
       "UI_OPTION_Swicth_Close",
       "UI_OPTION_Swicth_Open"

@@ -14698,6 +14698,18 @@ local Data = {
           ContentTC = "按下自動選擇按鈕可一鍵選擇代理人。",
           TextMapId = "Message_Guide_Dispatch_09_Pad"
         },
+        Message_Guide_Dispatch_10 = {
+          ContentTC = "選擇推薦特質的角色可大大提升派遣成功率。",
+          TextMapId = "Message_Guide_Dispatch_10"
+        },
+        Message_Guide_Dispatch_11 = {
+          ContentTC = "點擊此處開始派遣。",
+          TextMapId = "Message_Guide_Dispatch_11"
+        },
+        Message_Guide_Dispatch_12 = {
+          ContentTC = "需要注意，伙伴只能代理已經完成過的突發事件。新的突發事件要我們親自完成後，才可以派遣代理人哦。",
+          TextMapId = "Message_Guide_Dispatch_12"
+        },
         Message_Guide_DungeonSec_1 = {
           ContentTC = "每種委託密函包含6種不同報酬，報酬有三種稀有度",
           TextMapId = "Message_Guide_DungeonSec_1"

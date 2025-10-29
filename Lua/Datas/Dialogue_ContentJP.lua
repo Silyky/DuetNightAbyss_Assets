@@ -123654,7 +123654,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72002902] = {
-          Content = "咿呀——！请不要拿走这个宝箱。",
+          ContentJP = "ひー——！！！この宝箱をとらないで。",
           DialogueId = 72002902,
           FacialId = {
             [1] = "820000:PetPan_Wink"
@@ -123664,7 +123664,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72002903] = {
-          Content = "我的家被坏老鼠占领了，我正打算用这些钱去雇一只勇敢的小猫，帮我赶跑老鼠。",
+          ContentJP = "うちの家は悪いネズミたちに奪い取れた。この金で勇敢な子猫ちゃんを雇おうと思ってたんだ。",
           DialogueId = 72002903,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -123697,7 +123697,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003002] = {
-          Content = "哇，你好厉害，唰唰——咻咻——几下就把附近的老鼠全消灭了。",
+          ContentJP = "うゎー！ すごい！ちゃちゃっと近くのネズミたちを片付けた。",
           DialogueId = 72003002,
           FacialId = {
             [1] = "820000:PetPan_Smile"
@@ -123707,7 +123707,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003003] = {
-          Content = "那么，这个宝箱就送给你啦。",
+          ContentJP = "じゃあ、この宝箱はあんたにあげるね。",
           DialogueId = 72003003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124141,7 +124141,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003902] = {
-          Content = "会动的鸟，不会动的鸟，还有不会动的人都还在这里。",
+          ContentJP = "動く鳥、動かない鳥、そして動かない人もまだここにいる。",
           DialogueId = 72003902,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124152,7 +124152,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003903] = {
-          Content = "但是会动的人都离开了，他们还会回来吗？",
+          ContentJP = "しかし、動く人はもういない、いつか戻って来るの？",
           DialogueId = 72003903,
           FacialId = {
             [1] = "820000:PetPan_Speechless"
@@ -124186,7 +124186,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004002] = {
-          Content = "每一盏熄灭的灯都是一个没有回家的人……",
+          ContentJP = "…消えた灯火の一つ一つは、家に帰れない人なの。",
           DialogueId = 72004002,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124196,7 +124196,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004003] = {
-          Content = "那么每一盏亮起的灯都会是一个回到了家的人吧？",
+          ContentJP = "つまり…光った灯火の一つ一つは、家に帰れた人ってことね。",
           DialogueId = 72004003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124230,7 +124230,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004102] = {
-          Content = "咿呀！你怎么把我的小窝打碎了。",
+          ContentJP = "ひゃっ！？うちの家がーー！ラブリーマイホームが…どうして…",
           DialogueId = 72004102,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124241,7 +124241,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004103] = {
-          Content = "据说睡在硬邦邦的床上可以磨炼意志力哦。",
+          ContentJP = "硬いベッドで眠ることは体に意志力が鍛えられると言われるんだよ。",
           DialogueId = 72004103,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124275,7 +124275,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004202] = {
-          Content = "箱子堆在这么高的地方有什么用呢？",
+          ContentJP = "あんな高い場所に積まれて、何の意味があるの？",
           DialogueId = 72004202,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124286,7 +124286,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004203] = {
-          Content = "不如就让给我当房子吧。",
+          ContentJP = "私に譲って。マイホームにするよ。",
           DialogueId = 72004203,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124320,7 +124320,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004302] = {
-          Content = "飘啊飘，我是一只自由的小鸭子~",
+          ContentJP = "ひらひら～わがはいは自由なアヒルである。",
           DialogueId = 72004302,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124331,7 +124331,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004303] = {
-          Content = "咿呀！你怎么把我游泳池里的水放掉了？",
+          ContentJP = "ひゃっ！？なんでプールの水を抜いたんだよ！",
           DialogueId = 72004303,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124365,7 +124365,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004402] = {
-          Content = "咿呀，采蘑菇的小人类你好~",
+          ContentJP = "ありゃ、キノコを採ってるの？",
           DialogueId = 72004402,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124375,7 +124375,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004403] = {
-          Content = "蘑菇虽然美味，但一定要等完全煮熟以后再吃哦。",
+          ContentJP = "美味しいけど、しっかり加熱しなきゃダメよ。",
           DialogueId = 72004403,
           FacialId = {
             [1] = "820000:PetPan_Cry"
@@ -124409,7 +124409,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004502] = {
-          Content = "咚咚，咚咚咚！",
+          ContentJP = "ドンドン、ドンドンドン！",
           DialogueId = 72004502,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124419,7 +124419,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004503] = {
-          Content = "我正在学习演奏这台管道琴。",
+          ContentJP = "パイプ・オルガンの練習をしてるんだ。",
           DialogueId = 72004503,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124453,7 +124453,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004602] = {
-          Content = "咿呀，恭喜你发现了我的秘密基地~",
+          ContentJP = "ありゃ、見つかっちゃった。うちの秘密基地へようこそ。",
           DialogueId = 72004602,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124463,7 +124463,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004603] = {
-          Content = "藤蔓、水草、池塘和我，是一个小小生态圈。",
+          ContentJP = "ツタ、水草、池、そして私。小っちゃい生物圏ではないか。",
           DialogueId = 72004603,
           FacialId = {
             [1] = "820000:PetPan_Common"

@@ -14695,6 +14695,18 @@ local Data = {
           ContentEN = "Press to auto-select characters",
           TextMapId = "Message_Guide_Dispatch_09_Pad"
         },
+        Message_Guide_Dispatch_10 = {
+          ContentEN = "Characters with the recommended Trait will significantly increase Expedition Success Rate.",
+          TextMapId = "Message_Guide_Dispatch_10"
+        },
+        Message_Guide_Dispatch_11 = {
+          ContentEN = "Select here to dispatch companions.",
+          TextMapId = "Message_Guide_Dispatch_11"
+        },
+        Message_Guide_Dispatch_12 = {
+          ContentEN = "Companions can only be dispatched to Dynamic Quests you have already completed once.",
+          TextMapId = "Message_Guide_Dispatch_12"
+        },
         Message_Guide_DungeonSec_1 = {
           ContentEN = "Each Secret Letter offers six possible rewards across three rarity tiers.",
           TextMapId = "Message_Guide_DungeonSec_1"

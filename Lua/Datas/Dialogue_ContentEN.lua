@@ -123653,7 +123653,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72002902] = {
-          Content = "咿呀——！请不要拿走这个宝箱。",
+          ContentEN = "Eek! Please don't take that treasure chest!",
           DialogueId = 72002902,
           FacialId = {
             [1] = "820000:PetPan_Wink"
@@ -123663,7 +123663,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72002903] = {
-          Content = "我的家被坏老鼠占领了，我正打算用这些钱去雇一只勇敢的小猫，帮我赶跑老鼠。",
+          ContentEN = "My home's been taken over by nasty rats! I was gonna use these coins to hire a brave little cat to chase them away.",
           DialogueId = 72002903,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -123696,7 +123696,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003002] = {
-          Content = "哇，你好厉害，唰唰——咻咻——几下就把附近的老鼠全消灭了。",
+          ContentEN = "Whoa, you're amazing! Whoosh—swish—BAM! You wiped out all the rats!",
           DialogueId = 72003002,
           FacialId = {
             [1] = "820000:PetPan_Smile"
@@ -123706,7 +123706,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003003] = {
-          Content = "那么，这个宝箱就送给你啦。",
+          ContentEN = "Thank you, you can have this chest!",
           DialogueId = 72003003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124140,7 +124140,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003902] = {
-          Content = "会动的鸟，不会动的鸟，还有不会动的人都还在这里。",
+          ContentEN = "The birds that move, the birds that don't, and the people who don't move are all still here.",
           DialogueId = 72003902,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124151,7 +124151,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003903] = {
-          Content = "但是会动的人都离开了，他们还会回来吗？",
+          ContentEN = "But the people who moved are all gone... Will they ever come back?",
           DialogueId = 72003903,
           FacialId = {
             [1] = "820000:PetPan_Speechless"
@@ -124185,7 +124185,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004002] = {
-          Content = "每一盏熄灭的灯都是一个没有回家的人……",
+          ContentEN = "Every light that goes out is someone who didn't make it home...",
           DialogueId = 72004002,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124195,7 +124195,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004003] = {
-          Content = "那么每一盏亮起的灯都会是一个回到了家的人吧？",
+          ContentEN = "Then every light that turns on must be someone who found their way back, right?",
           DialogueId = 72004003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124229,7 +124229,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004102] = {
-          Content = "咿呀！你怎么把我的小窝打碎了。",
+          ContentEN = "Eeeek! You broke my little house!",
           DialogueId = 72004102,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124240,7 +124240,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004103] = {
-          Content = "据说睡在硬邦邦的床上可以磨炼意志力哦。",
+          ContentEN = "They say sleeping on a super hard bed can help train your willpower!",
           DialogueId = 72004103,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124274,7 +124274,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004202] = {
-          Content = "箱子堆在这么高的地方有什么用呢？",
+          ContentEN = "What's the point of stacking boxes so high?",
           DialogueId = 72004202,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124285,7 +124285,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004203] = {
-          Content = "不如就让给我当房子吧。",
+          ContentEN = "You should just let me have them for my house!",
           DialogueId = 72004203,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124319,7 +124319,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004302] = {
-          Content = "飘啊飘，我是一只自由的小鸭子~",
+          ContentEN = "Floaty float, I'm a free little ducky!",
           DialogueId = 72004302,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124330,7 +124330,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004303] = {
-          Content = "咿呀！你怎么把我游泳池里的水放掉了？",
+          ContentEN = "Eek! Why did you drain my swimming pool?",
           DialogueId = 72004303,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124364,7 +124364,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004402] = {
-          Content = "咿呀，采蘑菇的小人类你好~",
+          ContentEN = "Hiiii, little mushroom-picking human!",
           DialogueId = 72004402,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124374,7 +124374,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004403] = {
-          Content = "蘑菇虽然美味，但一定要等完全煮熟以后再吃哦。",
+          ContentEN = "Mushrooms are yummy, but you have to make sure they're fully cooked, okay?",
           DialogueId = 72004403,
           FacialId = {
             [1] = "820000:PetPan_Cry"
@@ -124408,7 +124408,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004502] = {
-          Content = "咚咚，咚咚咚！",
+          ContentEN = "Dum-dum, dum-dum-dum!",
           DialogueId = 72004502,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124418,7 +124418,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004503] = {
-          Content = "我正在学习演奏这台管道琴。",
+          ContentEN = "I'm learning to play this pipe organ!",
           DialogueId = 72004503,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124452,7 +124452,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004602] = {
-          Content = "咿呀，恭喜你发现了我的秘密基地~",
+          ContentEN = "Ta-daa! Congrats on finding my secret base!",
           DialogueId = 72004602,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124462,7 +124462,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004603] = {
-          Content = "藤蔓、水草、池塘和我，是一个小小生态圈。",
+          ContentEN = "The vines, the water plants, the pond, and me... we're our own little ecosystem!",
           DialogueId = 72004603,
           FacialId = {
             [1] = "820000:PetPan_Common"

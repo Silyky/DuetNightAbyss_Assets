@@ -31463,14 +31463,26 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Message_Guide_Dispatch_09_Pad"
         },
   Message_Guide_Dispatch_10 = {
+    ContentEN = "Characters with the recommended Trait will significantly increase Expedition Success Rate.",
+    ContentJP = "おすすめ特性を持つキャラで派遣すると、派遣の成功率が大幅アップします。",
+    ContentKR = "추천 특성에 맞는 캐릭터를 선택하면 성공률을 크게 높일 수 있습니다.",
+    ContentTC = "選擇推薦特質的角色可大大提升派遣成功率。",
     TextMapContent = "选择推荐特质的角色可大大提升派遣成功率。",
     TextMapId = "Message_Guide_Dispatch_10"
         },
   Message_Guide_Dispatch_11 = {
+    ContentEN = "Select here to dispatch companions.",
+    ContentJP = "ここをタップして派遣を始めましょう。",
+    ContentKR = "여기를 눌러 파견을 시작하세요.",
+    ContentTC = "點擊此處開始派遣。",
     TextMapContent = "点击此处开始派遣。",
     TextMapId = "Message_Guide_Dispatch_11"
         },
   Message_Guide_Dispatch_12 = {
+    ContentEN = "Companions can only be dispatched to Dynamic Quests you have already completed once.",
+    ContentJP = "突発イベントを自分で一回完了しないと、代理人に頼めませんので、ご了承ください。",
+    ContentKR = "참고로, 이미 완료한 돌발 사건만 대리인을 파견할 수 있어. 새로운 돌발 사건은 직접 완료한 후에만 대리인을 파견할 수 있다는 점 잊지 마!",
+    ContentTC = "需要注意，伙伴只能代理已經完成過的突發事件。新的突發事件要我們親自完成後，才可以派遣代理人哦。",
     TextMapContent = "需要注意，伙伴只能代理已经完成过的突发事件。新的突发事件要我们亲自完成后，才可以派遣代理人哦。",
     TextMapId = "Message_Guide_Dispatch_12"
         },
@@ -80995,6 +81007,7 @@ return ReadOnly("TextMap_I18n", {
   StarterQuest_Des_102001_4_4 = {
     ContentEN = "Complete Lunoxplorer's challenge 1 time",
     ContentJP = "ルーナ族の探検家の挑戦を1回クリア",
+    ContentKR = "탐험가 루나의 도전 1회 완료",
     ContentTC = "完成1次探險家皎皎的挑戰",
     TextMapContent = "完成1次探险家皎皎的挑战",
     TextMapId = "StarterQuest_Des_102001_4_4"

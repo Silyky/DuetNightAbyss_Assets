@@ -122547,7 +122547,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72000202] = {
-          ContentKR = "이야, 날 찾아 냈네?",
+          ContentKR = "야하, 날 찾아 냈네?",
           DialogueId = 72000202,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -123177,7 +123177,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72001603] = {
-          ContentKR = "어이? 여기가 산이 아니라고? 그게 말이 돼?",
+          ContentKR = "야하? 여기가 산이 아니라고? 그게 말이 돼?",
           DialogueId = 72001603,
           FacialId = {
             [1] = "820000:PetPan_Speechless"
@@ -123654,7 +123654,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72002902] = {
-          Content = "咿呀——！请不要拿走这个宝箱。",
+          ContentKR = "야하——! 그 상자 가져가지 말아 줘!",
           DialogueId = 72002902,
           FacialId = {
             [1] = "820000:PetPan_Wink"
@@ -123664,7 +123664,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72002903] = {
-          Content = "我的家被坏老鼠占领了，我正打算用这些钱去雇一只勇敢的小猫，帮我赶跑老鼠。",
+          ContentKR = "지금 쥐 떼가 우리 집을 점령했어. 그 돈으로 용감한 고양이를 고용해서 쥐 떼를 몰아낼 생각이었단 말이야!",
           DialogueId = 72002903,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -123697,7 +123697,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003002] = {
-          Content = "哇，你好厉害，唰唰——咻咻——几下就把附近的老鼠全消灭了。",
+          ContentKR = "와, 대단한걸! 몇 번 슬렁슬렁하더니 근처의 쥐 떼를 전부 퇴치해 버렸네.",
           DialogueId = 72003002,
           FacialId = {
             [1] = "820000:PetPan_Smile"
@@ -123707,7 +123707,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003003] = {
-          Content = "那么，这个宝箱就送给你啦。",
+          ContentKR = "그럼 이 보물상자는 너한테 줄게.",
           DialogueId = 72003003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124042,7 +124042,7 @@ local Data = {
         },
         [72003706] = {
           Camera = "196.204834,-2.952148,87.243896,0.0,-7.999989,179.200043,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentKR = "으음, 다시 한 번 세어봐.",
+          ContentKR = "야하, 다시 한 번 세어봐.",
           DialogueId = 72003706,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124141,7 +124141,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72003902] = {
-          Content = "会动的鸟，不会动的鸟，还有不会动的人都还在这里。",
+          ContentKR = "움직이는 새, 움직이지 않는 새, 움직이지 않는 사람은 다 여기에 있어.",
           DialogueId = 72003902,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124152,7 +124152,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72003903] = {
-          Content = "但是会动的人都离开了，他们还会回来吗？",
+          ContentKR = "하지만 움직일 줄 아는 사람은 전부 떠나 버렸어. 그들이 돌아올까?",
           DialogueId = 72003903,
           FacialId = {
             [1] = "820000:PetPan_Speechless"
@@ -124186,7 +124186,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004002] = {
-          Content = "每一盏熄灭的灯都是一个没有回家的人……",
+          ContentKR = "꺼진 램프 하나는 곧 집에 돌아오지 않은 사람 하나를 가리키지...",
           DialogueId = 72004002,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124196,7 +124196,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004003] = {
-          Content = "那么每一盏亮起的灯都会是一个回到了家的人吧？",
+          ContentKR = "그렇다면 불이 켜진 램프는 집에 돌아온 사람 하나인 건가?",
           DialogueId = 72004003,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124230,7 +124230,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004102] = {
-          Content = "咿呀！你怎么把我的小窝打碎了。",
+          ContentKR = "야하! 내 보금자리를 전부 부숴버렸잖아.",
           DialogueId = 72004102,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124241,7 +124241,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004103] = {
-          Content = "据说睡在硬邦邦的床上可以磨炼意志力哦。",
+          ContentKR = "딱딱한 침대에서 자면 의지를 단련할 수 있다던데.",
           DialogueId = 72004103,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124275,7 +124275,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004202] = {
-          Content = "箱子堆在这么高的地方有什么用呢？",
+          ContentKR = "상자를 뭐 하러 이렇게 높은 곳에 쌓아둔 거야?",
           DialogueId = 72004202,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124286,7 +124286,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004203] = {
-          Content = "不如就让给我当房子吧。",
+          ContentKR = "차라리 방으로 쓰게 나한테 주지.",
           DialogueId = 72004203,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124320,7 +124320,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004302] = {
-          Content = "飘啊飘，我是一只自由的小鸭子~",
+          ContentKR = "둥둥, 나는 한 마리 자유로운 오리~",
           DialogueId = 72004302,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124331,7 +124331,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004303] = {
-          Content = "咿呀！你怎么把我游泳池里的水放掉了？",
+          ContentKR = "야하, 내 수영장의 물을 빼 버리면 어떡해!",
           DialogueId = 72004303,
           FacialId = {
             [1] = "820000:PetPan_Dizzy"
@@ -124365,7 +124365,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004402] = {
-          Content = "咿呀，采蘑菇的小人类你好~",
+          ContentKR = "야하, 버섯을 캐는 인간들 안녕~",
           DialogueId = 72004402,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124375,7 +124375,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004403] = {
-          Content = "蘑菇虽然美味，但一定要等完全煮熟以后再吃哦。",
+          ContentKR = "버섯은 맛있지만, 꼭 완전히 익혀 먹도록 해.",
           DialogueId = 72004403,
           FacialId = {
             [1] = "820000:PetPan_Cry"
@@ -124409,7 +124409,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004502] = {
-          Content = "咚咚，咚咚咚！",
+          ContentKR = "둥둥, 둥둥둥!",
           DialogueId = 72004502,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124419,7 +124419,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004503] = {
-          Content = "我正在学习演奏这台管道琴。",
+          ContentKR = "난 이 파이프오르간 연주를 배우는 중이야.",
           DialogueId = 72004503,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124453,7 +124453,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [72004602] = {
-          Content = "咿呀，恭喜你发现了我的秘密基地~",
+          ContentKR = "야하, 내 비밀 기지를 찾아냈구나, 축하해!",
           DialogueId = 72004602,
           FacialId = {
             [1] = "820000:PetPan_Common"
@@ -124463,7 +124463,7 @@ local Data = {
           SpeakNpcId = 820000
         },
         [72004603] = {
-          Content = "藤蔓、水草、池塘和我，是一个小小生态圈。",
+          ContentKR = "여긴 덩굴, 수초, 연못, 그리고 나만의 아주 작은 생태계야.",
           DialogueId = 72004603,
           FacialId = {
             [1] = "820000:PetPan_Common"
