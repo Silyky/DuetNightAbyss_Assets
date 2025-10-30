@@ -29305,7 +29305,7 @@ return ReadOnly("TextMap_I18n", {
   MOD_NAME_2511 = {
     ContentEN = "Pierce",
     ContentJP = "突貫",
-    ContentKR = "꿰뚫어 보기",
+    ContentKR = "꿰뚫기",
     ContentTC = "刺透",
     TextMapContent = "刺透",
     TextMapId = "MOD_NAME_2511"
@@ -29657,7 +29657,7 @@ return ReadOnly("TextMap_I18n", {
   MOD_NAME_3511 = {
     ContentEN = "Pierce",
     ContentJP = "突貫",
-    ContentKR = "꿰뚫어 보기",
+    ContentKR = "꿰뚫기",
     ContentTC = "刺透",
     TextMapContent = "刺透",
     TextMapId = "MOD_NAME_3511"
@@ -80049,7 +80049,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_ShootingRate"
         },
   SKILL_DESC_ShootingRate2 = {
-    ContentEN = "Hit Firing Interval - Phase 2",
+    ContentEN = "Firing Interval - Phase 2",
     ContentJP = "2nd射撃間隔",
     ContentKR = "2급 사격 간격",
     ContentTC = "二階射擊間隔",
@@ -80065,6 +80065,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_ShootingRate3"
         },
   SKILL_DESC_ShootingRate4 = {
+    ContentEN = "Firing Interval - Phase 4",
+    ContentJP = "4th射撃間隔",
+    ContentKR = "4급 사격 간격",
+    ContentTC = "四階射擊間隔",
     TextMapContent = "四阶射击间隔",
     TextMapId = "SKILL_DESC_ShootingRate4"
         },
@@ -125196,7 +125200,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_OPTION_DISPLAY = {
     ContentEN = "Display",
-    ContentJP = "表示",
+    ContentJP = "グラフィック",
     ContentKR = "그래픽",
     ContentTC = "顯示",
     TextMapContent = "显示",
@@ -143124,7 +143128,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "voice_ch_char_Feina_vo_revive"
         },
   voice_ch_char_Feina_vo_skill01_r01 = {
-    ContentEN = "♪ Hmm-hmm, shining bright~",
+    ContentEN = "♪ Starlight, shining bright~",
     ContentJP = "♪ ほっし～　ピカピカ",
     ContentKR = "♪ 별이~ 반짝반짝~",
     ContentTC = "♪ 星星～閃閃發亮～",

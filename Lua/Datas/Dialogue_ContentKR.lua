@@ -107314,27 +107314,27 @@ local Data = {
           SpeakNpcId = 230003
         },
         [51009301] = {
-          Content = "这次就选粉红色的花吧！",
+          ContentKR = "이번엔 핑크색 꽃으로 하자!",
           DialogueId = 51009301,
           GUID = "7FB24972",
           NextDialogue = 51009302,
           SpeakNpcId = 700247
         },
         [51009302] = {
-          Content = "（女子面带微笑地拿起她精心挑选的粉色花朵。抬起头来时，她注意到了你。）",
+          ContentKR = "(여자가 웃으며 정성껏 고른 핑크색 꽃송이를 손에 든다. 고개를 들어 보니 그녀가 날 발견한 듯하다.)",
           DialogueId = 51009302,
           GUID = "7FB2499C",
           NextDialogue = 51009303
         },
         [51009303] = {
-          Content = "你好呀，你也是来买花的吗？",
+          ContentKR = "안녕하세요? 그쪽도 꽃 사러 오셨나요?",
           DialogueId = 51009303,
           GUID = "7FB249C6",
           NextDialogue = 51009304,
           SpeakNpcId = 700247
         },
         [51009304] = {
-          Content = "要不要看看这一种，粉红色的花可不多见喔。",
+          ContentKR = "이건 어때요? 핑크색 꽃은 흔하지 않거든요.",
           DialogueId = 51009304,
           GUID = "7FB249F0",
           NextOptions = {
@@ -107345,14 +107345,14 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009305] = {
-          Content = "可以送我吗？",
+          ContentKR = "선물로 주실 수 있어요?",
           DialogueId = 51009305,
           GUID = "7FB24A1A",
           ImprPlusId = 1001,
           NextDialogue = 51009306
         },
         [51009306] = {
-          Content = "呵呵，当然可以！",
+          ContentKR = "후후, 물론이죠!",
           DialogueId = 51009306,
           GUID = "7FB24A44",
           NextDialogue = 51009307,
@@ -107367,81 +107367,81 @@ local Data = {
     Loader = function()
       return {
         [51009307] = {
-          Content = "（女子伸出手，轻巧地从货架上多取了几支花，一并结账后递给了你。）",
+          ContentKR = "(여자는 진열대의 꽃을 몇 송이 가져와, 함께 계산한 뒤 건네준다.)",
           DialogueId = 51009307,
           GUID = "7FB24A6E",
           NextDialogue = 51009308
         },
         [51009308] = {
-          Content = "来，收好了。",
+          ContentKR = "자, 받아요.",
           DialogueId = 51009308,
           GUID = "7FB24A98",
           NextDialogue = 51009309,
           SpeakNpcId = 700247
         },
         [51009309] = {
-          Content = "不用谢我，你就当作是沾了他的光吧。",
+          ContentKR = "나한테 고마워할 거 없어요. 다 그 친구 덕분이라고 생각해요.",
           DialogueId = 51009309,
           GUID = "7FB24AC2",
           NextDialogue = 51009317,
           SpeakNpcId = 700247
         },
         [51009310] = {
-          Content = "谢谢你，我也觉得很好看。",
+          ContentKR = "고마워요. 제가 보기에도 예쁘네요.",
           DialogueId = 51009310,
           GUID = "7FB24AEC",
           ImprPlusId = 1004,
           NextDialogue = 51009311
         },
         [51009311] = {
-          Content = "如果你喜欢的话，我也可以送给你哦。",
+          ContentKR = "마음에 든다면, 선물로 줄게요.",
           DialogueId = 51009311,
           GUID = "7FB24B16",
           NextDialogue = 51009312
         },
         [51009312] = {
-          Content = "他一定也会很乐意的。",
+          ContentKR = "그 친구도 분명히 기뻐할 거예요.",
           DialogueId = 51009312,
           GUID = "7FB24B40",
           NextDialogue = 51009317
         },
         [51009313] = {
-          Content = "哦不，我讨厌粉红色！",
+          ContentKR = "아니요, 전 핑크색이 싫어요!",
           DialogueId = 51009313,
           GUID = "7FB24B6A",
           ImprPlusId = 1005,
           NextDialogue = 51009314
         },
         [51009314] = {
-          Content = "哎呀，那真是抱歉了。",
+          ContentKR = "이런, 정말 미안해요.",
           DialogueId = 51009314,
           GUID = "7FB24B94",
           NextDialogue = 51009315,
           SpeakNpcId = 700247
         },
         [51009315] = {
-          Content = "也对，不是每个人都会喜欢粉红色的吧……",
+          ContentKR = "하긴, 모두가 핑크색을 좋아할 리는 없죠...",
           DialogueId = 51009315,
           GUID = "7FB24BBE",
           NextDialogue = 51009316,
           SpeakNpcId = 700247
         },
         [51009316] = {
-          Content = "这么说来，或许他也不喜欢……不过没关系啦！就当做他喜欢好了。",
+          ContentKR = "그렇다면 그 친구도 싫어할까요... 하지만 괜찮아요, 좋아한다고 치면 되죠.",
           DialogueId = 51009316,
           GUID = "7FB24BE8",
           NextDialogue = 51009317,
           SpeakNpcId = 700247
         },
         [51009317] = {
-          Content = "这花是用来送人的吗？",
+          ContentKR = "이 꽃을 선물하려는 건가요?",
           DialogueId = 51009317,
           GUID = "7FB24C12",
           NextDialogue = 51009318,
           SpeakNpcId = 100001
         },
         [51009318] = {
-          Content = "是呀。我有一位和你一样头上长着角的精灵朋友，这花就是要送给他的。",
+          ContentKR = "네. 당신처럼 머리에 뿔이 달린 요정 친구가 있는데, 그 친구에게 선물할 거예요.",
           DialogueId = 51009318,
           GUID = "7FB24C3C",
           NextOptions = {
@@ -107451,33 +107451,33 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009319] = {
-          Content = "“精灵？”",
+          ContentKR = "요정이요?",
           DialogueId = 51009319,
           GUID = "7FB24C66",
           NextDialogue = 51009320
         },
         [51009320] = {
-          Content = "呵呵，那是他的说法。",
+          ContentKR = "후후, 그 친구 말에 의하면 그래요.",
           DialogueId = 51009320,
           GUID = "7FB24C90",
           NextDialogue = 51009323,
           SpeakNpcId = 700247
         },
         [51009321] = {
-          Content = "我是卡戎。",
+          ContentKR = "전 카론인데요.",
           DialogueId = 51009321,
           GUID = "7FB24CBA",
           NextDialogue = 51009322
         },
         [51009322] = {
-          Content = "嗯，“精灵”是他的说法。",
+          ContentKR = "네. '요정'은 그 친구 얘기예요.",
           DialogueId = 51009322,
           GUID = "7FB24CE4",
           NextDialogue = 51009323,
           SpeakNpcId = 700247
         },
         [51009323] = {
-          Content = "说起来，外面起风了吗？",
+          ContentKR = "그러고 보니, 밖에 바람이 부나요?",
           DialogueId = 51009323,
           GUID = "7FB24D0E",
           NextOptions = {
@@ -107488,46 +107488,46 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009324] = {
-          Content = "我没注意。",
+          ContentKR = "글쎄요, 따로 신경 쓰지 않아서...",
           DialogueId = 51009324,
           GUID = "7FB24D38",
           NextDialogue = 51009325
         },
         [51009325] = {
-          Content = "这样啊……没关系，我等会儿自己出去确认一下。",
+          ContentKR = "그런가요... 괜찮아요, 제가 이따가 나가서 확인해 볼게요.",
           DialogueId = 51009325,
           GUID = "7FB24D62",
           NextDialogue = 51009330,
           SpeakNpcId = 700247
         },
         [51009326] = {
-          Content = "正在刮大风。",
+          ContentKR = "네, 바람이 세게 불던데요.",
           DialogueId = 51009326,
           GUID = "7FB24D8C",
           NextDialogue = 51009327
         },
         [51009327] = {
-          Content = "那就太好了。",
+          ContentKR = "그렇다면 잘됐네요.",
           DialogueId = 51009327,
           GUID = "7FB24DB6",
           NextDialogue = 51009330,
           SpeakNpcId = 700247
         },
         [51009328] = {
-          Content = "没有风我也可以制造风。",
+          ContentKR = "바람이 없다면 바람을 만들면 되죠.",
           DialogueId = 51009328,
           GUID = "7FB24DE0",
           NextDialogue = 51009329
         },
         [51009329] = {
-          Content = "是吗，原来你这么厉害呀！谢谢你的好意。",
+          ContentKR = "정말요? 정말 대단한 분이셨군요! 호의 감사해요.",
           DialogueId = 51009329,
           GUID = "7FB24E0A",
           NextDialogue = 51009330,
           SpeakNpcId = 700247
         },
         [51009330] = {
-          Content = "我得等到起风的时候，才能把花送给他呢。",
+          ContentKR = "바람이 불어야 그 친구한테 꽃을 선물할 수 있거든요.",
           DialogueId = 51009330,
           GUID = "7FB24E34",
           NextOptions = {
@@ -107538,53 +107538,53 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009331] = {
-          Content = "为什么一定要等起风？",
+          ContentKR = "왜 바람이 불어야 하죠?",
           DialogueId = 51009331,
           GUID = "7FB24E5E",
           NextDialogue = 51009332
         },
         [51009332] = {
-          Content = "因为起风的时候，花才会往空中飘呀。",
+          ContentKR = "바람이 불어야 꽃이 공중에 흩날리니까요.",
           DialogueId = 51009332,
           GUID = "7FB24E88",
           NextDialogue = 51009337,
           SpeakNpcId = 700247
         },
         [51009333] = {
-          Content = "莫非你的朋友是风精灵吗？",
+          ContentKR = "설마 친구분이 요정인가요?",
           DialogueId = 51009333,
           GUID = "7FB24EB2",
           NextDialogue = 51009334
         },
         [51009334] = {
-          Content = "呵呵，很有意思的想法！说不定真的是喔。",
+          ContentKR = "후후, 재미있는 생각이네요. 그럴 수도 있겠어요.",
           DialogueId = 51009334,
           GUID = "7FB24EDC",
           NextDialogue = 51009337,
           SpeakNpcId = 700247
         },
         [51009335] = {
-          Content = "这是某种特殊的仪式吗？",
+          ContentKR = "특수한 의식인 건가요?",
           DialogueId = 51009335,
           GUID = "7FB24F06",
           NextDialogue = 51009336
         },
         [51009336] = {
-          Content = "嗯……是传递思念的仪式。",
+          ContentKR = "음... 그리움을 전하는 의식이에요.",
           DialogueId = 51009336,
           GUID = "7FB24F30",
           NextDialogue = 51009337,
           SpeakNpcId = 700247
         },
         [51009337] = {
-          Content = "我的那位朋友，在几年前就去天上啦。",
+          ContentKR = "제 친구는 몇 년 전에 하늘로 갔어요.",
           DialogueId = 51009337,
           GUID = "7FB24F5A",
           NextDialogue = 51009338,
           SpeakNpcId = 700247
         },
         [51009338] = {
-          Content = "今天是每年一次的纪念日。",
+          ContentKR = "오늘은 매년 돌아오는 기념일이에요.",
           DialogueId = 51009338,
           GUID = "7FB24F84",
           NextOptions = {
@@ -107594,7 +107594,7 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009339] = {
-          Content = "（提醒她卡戎人的习俗。）",
+          ContentKR = "(그녀에게 카론의 풍습에 대해 알려 준다.)",
           DialogueId = 51009339,
           FailDialogue = 51009340,
           GUID = "7FB24FAE",
@@ -107602,46 +107602,46 @@ local Data = {
           NextDialogue = 51009341
         },
         [51009340] = {
-          Content = "（你一时记不起习俗的细节。）",
+          ContentKR = "(풍습의 자세한 내용이 갑자기 기억나지 않는다.)",
           DialogueId = 51009340,
           GUID = "7FB24FD8"
         },
         [51009341] = {
-          Content = "在卡戎人的观念中，雾海才是灵魂的归去之地。如果要纪念他，将花送往水中更加合理。",
+          ContentKR = "카론은 영혼이 돌아가는 곳이 안개의 바다라고 믿어요. 만약 그분을 기념하고 싶다면 꽃을 물에 띄워 보내는 게 나을 거예요.",
           DialogueId = 51009341,
           GUID = "7FB25002",
           NextDialogue = 51009342,
           SpeakNpcId = 100001
         },
         [51009342] = {
-          Content = "嗯……我知道。但是，他不一样。",
+          ContentKR = "음... 알아요. 하지만 그 친구는 달라요.",
           DialogueId = 51009342,
           GUID = "7FB2502C",
           NextDialogue = 51009343,
           SpeakNpcId = 700247
         },
         [51009343] = {
-          Content = "（女子沉默了片刻，看向窗外，眼神中流露着温柔的怀念。）",
+          ContentKR = "(여자는 잠깐 말을 멈추고 그리움이 담긴 눈빛으로 창밖을 바라본다.)",
           DialogueId = 51009343,
           GUID = "7FB25056",
           NextDialogue = 51009344
         },
         [51009344] = {
-          Content = "我第一次遇见他是在城外。我们年纪相仿，性格也很像，所以很快就成了好朋友。",
+          ContentKR = "그 친구를 처음 만난 건 성 밖이었어요. 우린 나이도 비슷하고 성격도 닮아서 금세 친구가 됐죠.",
           DialogueId = 51009344,
           GUID = "7FB25080",
           NextDialogue = 51009345,
           SpeakNpcId = 700247
         },
         [51009345] = {
-          Content = "他对我说自己从是天上来的“精灵”……呵呵，其实我早知道他是卡戎人，但每次看到他那么努力地圆谎，实在是舍不得戳穿。",
+          ContentKR = "그 친구는 자기가 하늘에서 내려온 '요정'이라고 했어요... 후후, 사실 그가 카론이란 건 금방 알았지만, 그렇게 열심히 둘러대는데 아는척하기가 좀 그렇더라고요.",
           DialogueId = 51009345,
           GUID = "7FB250AA",
           NextDialogue = 51009346,
           SpeakNpcId = 700247
         },
         [51009346] = {
-          Content = "而且，他确实就像故事里的精灵一样，知道许多我不知道的事，永远有讲不完的新奇见闻。",
+          ContentKR = "게다가 확실히 동화 속 요정처럼, 제가 모르는 것 신기한 이야기를 끊임없이 알려주기도 했고요.",
           DialogueId = 51009346,
           GUID = "7FB250D4",
           NextOptions = {
@@ -107651,61 +107651,61 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009347] = {
-          Content = "听起来是个很棒的朋友。",
+          ContentKR = "아주 멋진 친구였나 보군요.",
           DialogueId = 51009347,
           GUID = "7FB250FE",
           NextDialogue = 51009348
         },
         [51009348] = {
-          Content = "嗯！他是最棒的朋友。",
+          ContentKR = "맞아요! 최고의 친구였어요.",
           DialogueId = 51009348,
           GUID = "7FB25128",
           NextDialogue = 51009351,
           SpeakNpcId = 700247
         },
         [51009349] = {
-          Content = "所以他从小到大一直在扮演精灵吗？",
+          ContentKR = "그러니까 어릴 때부터 쭉 요정인 척했다는 거군요?",
           DialogueId = 51009349,
           GUID = "7FB25152",
           NextDialogue = 51009350
         },
         [51009350] = {
-          Content = "呵呵，听起来有点幼稚，对吧？",
+          ContentKR = "후후, 좀 유치하죠?",
           DialogueId = 51009350,
           GUID = "7FB2517C",
           NextDialogue = 51009351,
           SpeakNpcId = 700247
         },
         [51009351] = {
-          Content = "我心里一直都有些苦恼——等到我们都长大，过了能理所当然地相信童话的年纪以后，要怎么开口说破这件事？",
+          ContentKR = "저도 쭉 고민이었어요. 우리가 커서 동화를 당연하게 믿지 않을 나이가 되면, 이 이야기를 어떻게 해야 할지 말이에요.",
           DialogueId = 51009351,
           GUID = "7FB251A6",
           NextDialogue = 51009352,
           SpeakNpcId = 700247
         },
         [51009352] = {
-          Content = "无论是我先开口还是他先开口，想象一下都很尴尬呀……",
+          ContentKR = "제가 먼저 말을 꺼내든 그 친구가 먼저 이야기하든, 어색한 건 마찬가지일 테니까요...",
           DialogueId = 51009352,
           GUID = "7FB251D0",
           NextDialogue = 51009353,
           SpeakNpcId = 700247
         },
         [51009353] = {
-          Content = "但最后我们并没有走到那个时间点。他在成年之前便离开了。",
+          ContentKR = "하지만 그 순간은 결국 오지 않았어요. 그 친구는 성년이 되기 전에 떠나버렸거든요.",
           DialogueId = 51009353,
           GUID = "7FB251FA",
           NextDialogue = 51009354,
           SpeakNpcId = 700247
         },
         [51009354] = {
-          Content = "你说，他会不会是想到了这一点，才故意选在那个时候离开的？呵呵，真是个温柔的人啊……",
+          ContentKR = "혹시 그 친구가 그걸 알고, 일부러 그때 떠나버린 걸까요? 후... 정말 따뜻한 친구였거든요...",
           DialogueId = 51009354,
           GUID = "7FB25224",
           NextDialogue = 51009355,
           SpeakNpcId = 700247
         },
         [51009355] = {
-          Content = "（女子抚摸着柔软的花瓣，轻轻垂下了眼眸。你分辨不出她脸上的情绪。）",
+          ContentKR = "(여자는 꽃잎을 부드럽게 어루만지며 눈을 내리깐다. 그녀의 얼굴에서 표정을 읽을 수 없다.)",
           DialogueId = 51009355,
           GUID = "7FB2524E",
           NextOptions = {
@@ -107715,97 +107715,97 @@ local Data = {
           }
         },
         [51009356] = {
-          Content = "抱歉，请节哀……",
+          ContentKR = "죄송해요, 너무 마음 아파하지 마세요...",
           DialogueId = 51009356,
           GUID = "7FB25278",
           ImprPlusId = 1002,
           NextDialogue = 51009357
         },
         [51009357] = {
-          Content = "没关系，已经过去很多年啦。",
+          ContentKR = "괜찮아요. 벌써 몇 년이나 지났는걸요.",
           DialogueId = 51009357,
           GUID = "7FB252A2",
           NextDialogue = 51009362,
           SpeakNpcId = 700247
         },
         [51009358] = {
-          Content = "你们都是非常温柔的人。",
+          ContentKR = "두 분 모두 참 따뜻한 분이네요.",
           DialogueId = 51009358,
           GUID = "7FB252CC",
           ImprPlusId = 1004,
           NextDialogue = 51009359
         },
         [51009359] = {
-          Content = "呵呵，谢谢你。",
+          ContentKR = "후후, 고마워요.",
           DialogueId = 51009359,
           GUID = "7FB252F6",
           NextDialogue = 51009362,
           SpeakNpcId = 700247
         },
         [51009360] = {
-          Content = "成年这个时间点……难道说，他是出现了秽蚀的征兆？",
+          ContentKR = "성년이 되기 전이라... 설마 침식의 조짐이 나타난 건 아닐까요?",
           DialogueId = 51009360,
           GUID = "7FB25320",
           ImprPlusId = 1003,
           NextDialogue = 51009361
         },
         [51009361] = {
-          Content = "嗯，我也这么想。毕竟他离开的时候，刚好是快满十八岁。",
+          ContentKR = "네, 저도 그렇게 생각해요. 그 친구는 겨우 열여덟이 되기 직전에 떠났거든요.",
           DialogueId = 51009361,
           GUID = "7FB2534A",
           NextDialogue = 51009362,
           SpeakNpcId = 700247
         },
         [51009362] = {
-          Content = "他早就预料到了自己的结局……最后见面的那次，他对我说，自己将要回到天上的故乡，从今往后不能再来找我。",
+          ContentKR = "자신의 미래를 일찍부터 알고 있었던 것 같아요... 그 친구를 마지막으로 만났을 때, 하늘의 고향으로 돌아가게 돼서 앞으론 절 찾아오지 못할 거라고 했거든요.",
           DialogueId = 51009362,
           GUID = "7FB25374",
           NextDialogue = 51009363,
           SpeakNpcId = 700247
         },
         [51009363] = {
-          Content = "那是他撒谎撒得最拙劣的一次……明明眼泪已经在眼眶里打转了，还拼命挤出一副微笑的表情，用愉快的语调对我说——",
+          ContentKR = "그 친구치곤 아주 서투른 거짓말이었죠... 분명히 눈물이 흘러내리고 있는데도, 억지로 미소를 지으며 쾌활한 말투로 이렇게 말하더라고요.",
           DialogueId = 51009363,
           GUID = "7FB2539E",
           NextDialogue = 51009364,
           SpeakNpcId = 700247
         },
         [51009364] = {
-          Content = "“请你不要感到难过。虽然我不能再来见你，但我会在云端之上一直、一直注视着你……”",
+          ContentKR = ""나 때문에 슬퍼하지 마. 앞으론 널 만날 수 없겠지만, 난 구름 위에서 쭉 널 지켜보고 있을 테니까..."",
           DialogueId = 51009364,
           GUID = "7FB253C8",
           NextDialogue = 51009365,
           SpeakNpcId = 700247
         },
         [51009365] = {
-          Content = "“无论何时，只要你抬头望向天空，你的思念就能够随风抵达我的身边。”",
+          ContentKR = ""언제든지 고개를 들어 하늘을 바라보면, 네 그리움이 바람에 실려 내 곁으로 찾아올 거야."",
           DialogueId = 51009365,
           GUID = "7FB253F2",
           NextDialogue = 51009366,
           SpeakNpcId = 700247
         },
         [51009366] = {
-          Content = "（说到这里，女子露出了微笑。不知是否是错觉，她的眼中隐约闪过了一丝光亮——那究竟是泪光，还是从玻璃窗中洒下的阳光呢？）",
+          ContentKR = "(여자는 여기까지 말하곤 미소를 짓는다. 착각이었는지 모르지만 그녀의 눈에 한 줄기 빛이 은은하게 빛나는 듯하다. 그건 눈물이었을까, 아니면 유리창에서 쏟아진 햇살이었을까?)",
           DialogueId = 51009366,
           GUID = "7FB2541C",
           NextDialogue = 51009367
         },
         [51009367] = {
-          Content = "所以，你才会把花撒向天空……？",
+          ContentKR = "그래서 꽃을 하늘로 뿌리는 거군요...?",
           DialogueId = 51009367,
           GUID = "7FB25446",
           NextDialogue = 51009368,
           SpeakNpcId = 100001
         },
         [51009368] = {
-          Content = "嗯。既然那是他想要告诉我的故事，那么我也愿意相信，他的归处不是雾海，而是辽阔的蓝天。",
+          ContentKR = "네. 그 친구가 그렇게 말하고 싶었다면 전 그 말을 믿을래요. 그가 돌아갈 곳은 안개의 바다가 아니라 넓고 푸른 하늘이었다고요.",
           DialogueId = 51009368,
           GUID = "7FB25470",
           NextDialogue = 51009369,
           SpeakNpcId = 700247
         },
         [51009369] = {
-          Content = "只要将花瓣撒向天空，他就能感受到我的思念。",
+          ContentKR = "꽃잎을 하늘로 뿌리면, 그 친구가 제 마음을 느낄 수 있을 거예요.",
           DialogueId = 51009369,
           GUID = "7FB2549A",
           NextOptions = {
@@ -107815,53 +107815,53 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009370] = {
-          Content = "如果他能收到你的花就好了。",
+          ContentKR = "그분이 당신의 꽃을 받을 수 있다면 좋겠네요.",
           DialogueId = 51009370,
           GUID = "7FB254C4",
           NextDialogue = 51009372
         },
         [51009371] = {
-          Content = "他一定会收到你的花的。",
+          ContentKR = "그분은 당신의 꽃을 받을 수 있을 거예요.",
           DialogueId = 51009371,
           GUID = "7FB254EE",
           NextDialogue = 51009372
         },
         [51009372] = {
-          Content = "嗯，谢谢你！",
+          ContentKR = "네, 고마워요!",
           DialogueId = 51009372,
           GUID = "7FB25518",
           NextDialogue = 51009373,
           SpeakNpcId = 700247
         },
         [51009373] = {
-          Content = "现在回想起来，他大概也早就知道我已经看穿了他的谎话吧。",
+          ContentKR = "지금 생각해 보면, 그 친구는 제가 자기 거짓말을 알아챈 걸 진작부터 알았을지도 몰라요.",
           DialogueId = 51009373,
           GUID = "7FB25542",
           NextDialogue = 51009374,
           SpeakNpcId = 700247
         },
         [51009374] = {
-          Content = "一个由谎言编织的故事，最后有了一个用谎言写就的结局……不也算是恰如其分吗？",
+          ContentKR = "거짓말로 지어낸 이야기가 거짓말로 끝을 맺다니... 정말 완벽하지 않나요?",
           DialogueId = 51009374,
           GUID = "7FB2556C",
           NextDialogue = 51009375,
           SpeakNpcId = 700247
         },
         [51009375] = {
-          Content = "好啦，我要趁天还没黑，去城外完成和他的约定。",
+          ContentKR = "그럼 이제 어두워지기 전에 얼른 성 밖으로 나가서 그 친구와의 약속을 지켜야겠어요.",
           DialogueId = 51009375,
           GUID = "7FB25596",
           NextDialogue = 51009376,
           SpeakNpcId = 700247
         },
         [51009376] = {
-          Content = "再见了，可爱的小精灵。祝愿你的故事有一个真实而美满的结局。",
+          ContentKR = "잘 가요, 귀여운 요정님. 당신의 이야기에도 진실되고 아름다운 결말이 있기를 바라요!",
           DialogueId = 51009376,
           GUID = "7FB255C0",
           SpeakNpcId = 700247
         },
         [51009377] = {
-          Content = "哎呀，小精灵，又见面了。今天的天色很美吧？",
+          ContentKR = "오, 요정님. 또 만났네요! 오늘은 날이 참 좋죠?",
           DialogueId = 51009377,
           GUID = "7FB255EA",
           SpeakNpcId = 700247

@@ -107314,27 +107314,27 @@ local Data = {
           SpeakNpcId = 230003
         },
         [51009301] = {
-          Content = "这次就选粉红色的花吧！",
+          ContentJP = "今度はピンクの花にいたしましょうか。",
           DialogueId = 51009301,
           GUID = "7FB24972",
           NextDialogue = 51009302,
           SpeakNpcId = 700247
         },
         [51009302] = {
-          Content = "（女子面带微笑地拿起她精心挑选的粉色花朵。抬起头来时，她注意到了你。）",
+          ContentJP = "(女性は丁寧に選んだピンクの花を笑顔で手に取り、顔を上げると、あなたに気づく)",
           DialogueId = 51009302,
           GUID = "7FB2499C",
           NextDialogue = 51009303
         },
         [51009303] = {
-          Content = "你好呀，你也是来买花的吗？",
+          ContentJP = "ご機嫌よう。あなた様もお花をお求めに？",
           DialogueId = 51009303,
           GUID = "7FB249C6",
           NextDialogue = 51009304,
           SpeakNpcId = 700247
         },
         [51009304] = {
-          Content = "要不要看看这一种，粉红色的花可不多见喔。",
+          ContentJP = "でしたら、こちらなどいかが？ ピンクの花は少し珍しいの。",
           DialogueId = 51009304,
           GUID = "7FB249F0",
           NextOptions = {
@@ -107345,14 +107345,14 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009305] = {
-          Content = "可以送我吗？",
+          ContentJP = "これ、もらっていい{性别:か|}？",
           DialogueId = 51009305,
           GUID = "7FB24A1A",
           ImprPlusId = 1001,
           NextDialogue = 51009306
         },
         [51009306] = {
-          Content = "呵呵，当然可以！",
+          ContentJP = "ふふ……もちろん、よろしければ。",
           DialogueId = 51009306,
           GUID = "7FB24A44",
           NextDialogue = 51009307,
@@ -107367,81 +107367,81 @@ local Data = {
     Loader = function()
       return {
         [51009307] = {
-          Content = "（女子伸出手，轻巧地从货架上多取了几支花，一并结账后递给了你。）",
+          ContentJP = "(女性は手を伸ばし、棚からさらに数輪の花をそっと取り出した。会計を済ませた後、ピンク色の花をあなたに手渡した。）",
           DialogueId = 51009307,
           GUID = "7FB24A6E",
           NextDialogue = 51009308
         },
         [51009308] = {
-          Content = "来，收好了。",
+          ContentJP = "はい、どうぞお受け取りになって。",
           DialogueId = 51009308,
           GUID = "7FB24A98",
           NextDialogue = 51009309,
           SpeakNpcId = 700247
         },
         [51009309] = {
-          Content = "不用谢我，你就当作是沾了他的光吧。",
+          ContentJP = "お礼は要りませんわ。これも「彼」のためですもの。",
           DialogueId = 51009309,
           GUID = "7FB24AC2",
           NextDialogue = 51009317,
           SpeakNpcId = 700247
         },
         [51009310] = {
-          Content = "谢谢你，我也觉得很好看。",
+          ContentJP = "ありがとう、めちゃ綺麗な花だ。",
           DialogueId = 51009310,
           GUID = "7FB24AEC",
           ImprPlusId = 1004,
           NextDialogue = 51009311
         },
         [51009311] = {
-          Content = "如果你喜欢的话，我也可以送给你哦。",
+          ContentJP = "もし気に入ってもらえたら、あなた様にあげてもいいです。",
           DialogueId = 51009311,
           GUID = "7FB24B16",
           NextDialogue = 51009312
         },
         [51009312] = {
-          Content = "他一定也会很乐意的。",
+          ContentJP = "「彼」も喜んでくれるでしょう。",
           DialogueId = 51009312,
           GUID = "7FB24B40",
           NextDialogue = 51009317
         },
         [51009313] = {
-          Content = "哦不，我讨厌粉红色！",
+          ContentJP = "ピンク色はちょっと…",
           DialogueId = 51009313,
           GUID = "7FB24B6A",
           ImprPlusId = 1005,
           NextDialogue = 51009314
         },
         [51009314] = {
-          Content = "哎呀，那真是抱歉了。",
+          ContentJP = "あら、失礼いたしました。",
           DialogueId = 51009314,
           GUID = "7FB24B94",
           NextDialogue = 51009315,
           SpeakNpcId = 700247
         },
         [51009315] = {
-          Content = "也对，不是每个人都会喜欢粉红色的吧……",
+          ContentJP = "そうね……誰もがピンクをお好みとは限りませんものね。",
           DialogueId = 51009315,
           GUID = "7FB24BBE",
           NextDialogue = 51009316,
           SpeakNpcId = 700247
         },
         [51009316] = {
-          Content = "这么说来，或许他也不喜欢……不过没关系啦！就当做他喜欢好了。",
+          ContentJP = "もしかすると「彼」も……まぁまぁ、そういうことにしておきましょう。",
           DialogueId = 51009316,
           GUID = "7FB24BE8",
           NextDialogue = 51009317,
           SpeakNpcId = 700247
         },
         [51009317] = {
-          Content = "这花是用来送人的吗？",
+          ContentJP = "誰かへのプレゼントなのか？",
           DialogueId = 51009317,
           GUID = "7FB24C12",
           NextDialogue = 51009318,
           SpeakNpcId = 100001
         },
         [51009318] = {
-          Content = "是呀。我有一位和你一样头上长着角的精灵朋友，这花就是要送给他的。",
+          ContentJP = "ええ。わたしの友だちに、あなた様と同じく角を持つ「妖精さん」がいました。この花は、その彼のためのものなんです。",
           DialogueId = 51009318,
           GUID = "7FB24C3C",
           NextOptions = {
@@ -107451,33 +107451,33 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009319] = {
-          Content = "“精灵？”",
+          ContentJP = "妖精？",
           DialogueId = 51009319,
           GUID = "7FB24C66",
           NextDialogue = 51009320
         },
         [51009320] = {
-          Content = "呵呵，那是他的说法。",
+          ContentJP = "ふふ、彼がそう言ったんです。",
           DialogueId = 51009320,
           GUID = "7FB24C90",
           NextDialogue = 51009323,
           SpeakNpcId = 700247
         },
         [51009321] = {
-          Content = "我是卡戎。",
+          ContentJP = "{性别:僕|私}はカロンだよ。",
           DialogueId = 51009321,
           GUID = "7FB24CBA",
           NextDialogue = 51009322
         },
         [51009322] = {
-          Content = "嗯，“精灵”是他的说法。",
+          ContentJP = "ええ、そう言い張っていたのは彼のほうだけれど。",
           DialogueId = 51009322,
           GUID = "7FB24CE4",
           NextDialogue = 51009323,
           SpeakNpcId = 700247
         },
         [51009323] = {
-          Content = "说起来，外面起风了吗？",
+          ContentJP = "ところで、外は風が強いかしら？",
           DialogueId = 51009323,
           GUID = "7FB24D0E",
           NextOptions = {
@@ -107488,46 +107488,46 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009324] = {
-          Content = "我没注意。",
+          ContentJP = "気づかなかった。",
           DialogueId = 51009324,
           GUID = "7FB24D38",
           NextDialogue = 51009325
         },
         [51009325] = {
-          Content = "这样啊……没关系，我等会儿自己出去确认一下。",
+          ContentJP = "そう……大丈夫。あとで確かめてまいりますわ。",
           DialogueId = 51009325,
           GUID = "7FB24D62",
           NextDialogue = 51009330,
           SpeakNpcId = 700247
         },
         [51009326] = {
-          Content = "正在刮大风。",
+          ContentJP = "強風が吹いているよ。",
           DialogueId = 51009326,
           GUID = "7FB24D8C",
           NextDialogue = 51009327
         },
         [51009327] = {
-          Content = "那就太好了。",
+          ContentJP = "ああ、良かったわ。",
           DialogueId = 51009327,
           GUID = "7FB24DB6",
           NextDialogue = 51009330,
           SpeakNpcId = 700247
         },
         [51009328] = {
-          Content = "没有风我也可以制造风。",
+          ContentJP = "風がなくても大丈夫。{性别:僕|私}なら作れるよ。",
           DialogueId = 51009328,
           GUID = "7FB24DE0",
           NextDialogue = 51009329
         },
         [51009329] = {
-          Content = "是吗，原来你这么厉害呀！谢谢你的好意。",
+          ContentJP = "そうなの。すごいわね……ありがとうございます。",
           DialogueId = 51009329,
           GUID = "7FB24E0A",
           NextDialogue = 51009330,
           SpeakNpcId = 700247
         },
         [51009330] = {
-          Content = "我得等到起风的时候，才能把花送给他呢。",
+          ContentJP = "でも……風が強くなるまで待たないと、彼に花を贈れないんです。",
           DialogueId = 51009330,
           GUID = "7FB24E34",
           NextOptions = {
@@ -107538,53 +107538,53 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009331] = {
-          Content = "为什么一定要等起风？",
+          ContentJP = "なんで？",
           DialogueId = 51009331,
           GUID = "7FB24E5E",
           NextDialogue = 51009332
         },
         [51009332] = {
-          Content = "因为起风的时候，花才会往空中飘呀。",
+          ContentJP = "風が強いほど、花びらは空へと舞い上がるから。",
           DialogueId = 51009332,
           GUID = "7FB24E88",
           NextDialogue = 51009337,
           SpeakNpcId = 700247
         },
         [51009333] = {
-          Content = "莫非你的朋友是风精灵吗？",
+          ContentJP = "もしかして、あなたのお友達は風の妖精？",
           DialogueId = 51009333,
           GUID = "7FB24EB2",
           NextDialogue = 51009334
         },
         [51009334] = {
-          Content = "呵呵，很有意思的想法！说不定真的是喔。",
+          ContentJP = "ふふ、とても素敵な考えね。もしかしたら本当に、そうなのかもしれないわ。",
           DialogueId = 51009334,
           GUID = "7FB24EDC",
           NextDialogue = 51009337,
           SpeakNpcId = 700247
         },
         [51009335] = {
-          Content = "这是某种特殊的仪式吗？",
+          ContentJP = "それは、何か特別な儀式なのか？",
           DialogueId = 51009335,
           GUID = "7FB24F06",
           NextDialogue = 51009336
         },
         [51009336] = {
-          Content = "嗯……是传递思念的仪式。",
+          ContentJP = "ええ……わたしにとっては、想いを届ける儀式なんです。",
           DialogueId = 51009336,
           GUID = "7FB24F30",
           NextDialogue = 51009337,
           SpeakNpcId = 700247
         },
         [51009337] = {
-          Content = "我的那位朋友，在几年前就去天上啦。",
+          ContentJP = "「彼」は……数年前に天に召されました。",
           DialogueId = 51009337,
           GUID = "7FB24F5A",
           NextDialogue = 51009338,
           SpeakNpcId = 700247
         },
         [51009338] = {
-          Content = "今天是每年一次的纪念日。",
+          ContentJP = "今日はちょうど、年に一度の記念日ですから。",
           DialogueId = 51009338,
           GUID = "7FB24F84",
           NextOptions = {
@@ -107594,7 +107594,7 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009339] = {
-          Content = "（提醒她卡戎人的习俗。）",
+          ContentJP = "(カロンの習わしを教える）。",
           DialogueId = 51009339,
           FailDialogue = 51009340,
           GUID = "7FB24FAE",
@@ -107602,46 +107602,46 @@ local Data = {
           NextDialogue = 51009341
         },
         [51009340] = {
-          Content = "（你一时记不起习俗的细节。）",
+          ContentJP = "(習わしの内容は思い出せない）",
           DialogueId = 51009340,
           GUID = "7FB24FD8"
         },
         [51009341] = {
-          Content = "在卡戎人的观念中，雾海才是灵魂的归去之地。如果要纪念他，将花送往水中更加合理。",
+          ContentJP = "カロン族にとって、魂の行き先はニヴルヘイムなんだ。彼のためなら、花を水に入れたほうがいいと思う。",
           DialogueId = 51009341,
           GUID = "7FB25002",
           NextDialogue = 51009342,
           SpeakNpcId = 100001
         },
         [51009342] = {
-          Content = "嗯……我知道。但是，他不一样。",
+          ContentJP = "ええ……存じています。けれど、彼は違うの……。",
           DialogueId = 51009342,
           GUID = "7FB2502C",
           NextDialogue = 51009343,
           SpeakNpcId = 700247
         },
         [51009343] = {
-          Content = "（女子沉默了片刻，看向窗外，眼神中流露着温柔的怀念。）",
+          ContentJP = "(わずかな沈黙。女性は懐かしさと切なさをたたえた目で窓の外を眺める）。",
           DialogueId = 51009343,
           GUID = "7FB25056",
           NextDialogue = 51009344
         },
         [51009344] = {
-          Content = "我第一次遇见他是在城外。我们年纪相仿，性格也很像，所以很快就成了好朋友。",
+          ContentJP = "彼と初めて出会ったのは城の外でした。年も近く、気質も似ていて、すぐに打ち解けましたの。",
           DialogueId = 51009344,
           GUID = "7FB25080",
           NextDialogue = 51009345,
           SpeakNpcId = 700247
         },
         [51009345] = {
-          Content = "他对我说自己从是天上来的“精灵”……呵呵，其实我早知道他是卡戎人，但每次看到他那么努力地圆谎，实在是舍不得戳穿。",
+          ContentJP = "彼は「自分は天から降りてきた妖精だ」と語っていました……わたしは、彼がカロンの出だととうに知っていたのだけれど、あの子が懸命に嘘を繕うのを見るたび、指摘する気にはなれなかった。",
           DialogueId = 51009345,
           GUID = "7FB250AA",
           NextDialogue = 51009346,
           SpeakNpcId = 700247
         },
         [51009346] = {
-          Content = "而且，他确实就像故事里的精灵一样，知道许多我不知道的事，永远有讲不完的新奇见闻。",
+          ContentJP = "それに、彼は物語の妖精のように、わたしの知らないことをたくさん知っていて、面白いことをいくつも教えてくれました。",
           DialogueId = 51009346,
           GUID = "7FB250D4",
           NextOptions = {
@@ -107651,61 +107651,61 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009347] = {
-          Content = "听起来是个很棒的朋友。",
+          ContentJP = "素晴らしい友人のようだ。",
           DialogueId = 51009347,
           GUID = "7FB250FE",
           NextDialogue = 51009348
         },
         [51009348] = {
-          Content = "嗯！他是最棒的朋友。",
+          ContentJP = "ええ、最高の友人でしたわ。",
           DialogueId = 51009348,
           GUID = "7FB25128",
           NextDialogue = 51009351,
           SpeakNpcId = 700247
         },
         [51009349] = {
-          Content = "所以他从小到大一直在扮演精灵吗？",
+          ContentJP = "つまり、彼はいつも「妖精さん」を演じていた{性别:んだ|の}？",
           DialogueId = 51009349,
           GUID = "7FB25152",
           NextDialogue = 51009350
         },
         [51009350] = {
-          Content = "呵呵，听起来有点幼稚，对吧？",
+          ContentJP = "ふふ……少し子どもじみていたのでしょうね。",
           DialogueId = 51009350,
           GUID = "7FB2517C",
           NextDialogue = 51009351,
           SpeakNpcId = 700247
         },
         [51009351] = {
-          Content = "我心里一直都有些苦恼——等到我们都长大，过了能理所当然地相信童话的年纪以后，要怎么开口说破这件事？",
+          ContentJP = "わたしたちが大人になって、おとぎ話を素直に信じていられない年ごろになったら、どう切り出せばよいのか――いつも悩んでいました。",
           DialogueId = 51009351,
           GUID = "7FB251A6",
           NextDialogue = 51009352,
           SpeakNpcId = 700247
         },
         [51009352] = {
-          Content = "无论是我先开口还是他先开口，想象一下都很尴尬呀……",
+          ContentJP = "先に口を開くのがわたしか彼か、想像するだけで気まずくて……。",
           DialogueId = 51009352,
           GUID = "7FB251D0",
           NextDialogue = 51009353,
           SpeakNpcId = 700247
         },
         [51009353] = {
-          Content = "但最后我们并没有走到那个时间点。他在成年之前便离开了。",
+          ContentJP = "けれど結局、その時期には間に合いませんでした。彼は大人になる前に逝ってしまったのです。",
           DialogueId = 51009353,
           GUID = "7FB251FA",
           NextDialogue = 51009354,
           SpeakNpcId = 700247
         },
         [51009354] = {
-          Content = "你说，他会不会是想到了这一点，才故意选在那个时候离开的？呵呵，真是个温柔的人啊……",
+          ContentJP = "ひょっとすると彼も同じことを思って、あの時期を選んで旅立ったのかしら。……本当に、優しい人でした......。",
           DialogueId = 51009354,
           GUID = "7FB25224",
           NextDialogue = 51009355,
           SpeakNpcId = 700247
         },
         [51009355] = {
-          Content = "（女子抚摸着柔软的花瓣，轻轻垂下了眼眸。你分辨不出她脸上的情绪。）",
+          ContentJP = "(女性は柔らかな花びらを撫で、そっと目を伏せる。その表情から感情は読み取れない)",
           DialogueId = 51009355,
           GUID = "7FB2524E",
           NextOptions = {
@@ -107715,97 +107715,97 @@ local Data = {
           }
         },
         [51009356] = {
-          Content = "抱歉，请节哀……",
+          ContentJP = "…ご愁傷様です。",
           DialogueId = 51009356,
           GUID = "7FB25278",
           ImprPlusId = 1002,
           NextDialogue = 51009357
         },
         [51009357] = {
-          Content = "没关系，已经过去很多年啦。",
+          ContentJP = "大丈夫、もう何年も……経ちましたから……",
           DialogueId = 51009357,
           GUID = "7FB252A2",
           NextDialogue = 51009362,
           SpeakNpcId = 700247
         },
         [51009358] = {
-          Content = "你们都是非常温柔的人。",
+          ContentJP = "お二人ともとても優しい人だ。",
           DialogueId = 51009358,
           GUID = "7FB252CC",
           ImprPlusId = 1004,
           NextDialogue = 51009359
         },
         [51009359] = {
-          Content = "呵呵，谢谢你。",
+          ContentJP = "ふふ……ありがとうございます。",
           DialogueId = 51009359,
           GUID = "7FB252F6",
           NextDialogue = 51009362,
           SpeakNpcId = 700247
         },
         [51009360] = {
-          Content = "成年这个时间点……难道说，他是出现了秽蚀的征兆？",
+          ContentJP = "時期って.....もしかして、穢蝕の前触れが現れたの{性别:か|}？",
           DialogueId = 51009360,
           GUID = "7FB25320",
           ImprPlusId = 1003,
           NextDialogue = 51009361
         },
         [51009361] = {
-          Content = "嗯，我也这么想。毕竟他离开的时候，刚好是快满十八岁。",
+          ContentJP = "ええ、わたしもそう思いますよ。彼が旅立ったのは、十八歳になろうという頃でした。",
           DialogueId = 51009361,
           GUID = "7FB2534A",
           NextDialogue = 51009362,
           SpeakNpcId = 700247
         },
         [51009362] = {
-          Content = "他早就预料到了自己的结局……最后见面的那次，他对我说，自己将要回到天上的故乡，从今往后不能再来找我。",
+          ContentJP = "自らの結末を悟っていたのでしょう。最後に会ったとき、間もなく天へ帰るから、もう二度とわたしのもとへは戻れない、と。",
           DialogueId = 51009362,
           GUID = "7FB25374",
           NextDialogue = 51009363,
           SpeakNpcId = 700247
         },
         [51009363] = {
-          Content = "那是他撒谎撒得最拙劣的一次……明明眼泪已经在眼眶里打转了，还拼命挤出一副微笑的表情，用愉快的语调对我说——",
+          ContentJP = "あれほど下手な嘘は見たことがありません。目にはもう涙がのぼっているのに、必死に笑顔を作って、楽しげにそう言うのですもの。",
           DialogueId = 51009363,
           GUID = "7FB2539E",
           NextDialogue = 51009364,
           SpeakNpcId = 700247
         },
         [51009364] = {
-          Content = "“请你不要感到难过。虽然我不能再来见你，但我会在云端之上一直、一直注视着你……”",
+          ContentJP = "「僕のことで、どうか悲しまないで。もう会いに行くことはできないけれど、雲の上から、ずっとずっと君を見守っているよ......"",
           DialogueId = 51009364,
           GUID = "7FB253C8",
           NextDialogue = 51009365,
           SpeakNpcId = 700247
         },
         [51009365] = {
-          Content = "“无论何时，只要你抬头望向天空，你的思念就能够随风抵达我的身边。”",
+          ContentJP = "「空を見上げるたび、君の想いは風に乗って、僕のところへ届くから」",
           DialogueId = 51009365,
           GUID = "7FB253F2",
           NextDialogue = 51009366,
           SpeakNpcId = 700247
         },
         [51009366] = {
-          Content = "（说到这里，女子露出了微笑。不知是否是错觉，她的眼中隐约闪过了一丝光亮——那究竟是泪光，还是从玻璃窗中洒下的阳光呢？）",
+          ContentJP = "（やがて、女性は笑みを浮かべた。気のせいだろうか？彼女の目にはかすかなきらめきがあるーそれは涙なのか、それともガラス窓から差し込む陽の光なのか......)",
           DialogueId = 51009366,
           GUID = "7FB2541C",
           NextDialogue = 51009367
         },
         [51009367] = {
-          Content = "所以，你才会把花撒向天空……？",
+          ContentJP = "なるほど…だから花を空に散らす{性别:んだ|の}",
           DialogueId = 51009367,
           GUID = "7FB25446",
           NextDialogue = 51009368,
           SpeakNpcId = 100001
         },
         [51009368] = {
-          Content = "嗯。既然那是他想要告诉我的故事，那么我也愿意相信，他的归处不是雾海，而是辽阔的蓝天。",
+          ContentJP = "ええ、信じたいの。彼の行き先は「霧の海」ではなく、「広い空」なのだと。",
           DialogueId = 51009368,
           GUID = "7FB25470",
           NextDialogue = 51009369,
           SpeakNpcId = 700247
         },
         [51009369] = {
-          Content = "只要将花瓣撒向天空，他就能感受到我的思念。",
+          ContentJP = "だから空へ花びらを放てば、きっとわたしの想いは、彼に届くはず。",
           DialogueId = 51009369,
           GUID = "7FB2549A",
           NextOptions = {
@@ -107815,53 +107815,53 @@ local Data = {
           SpeakNpcId = 700247
         },
         [51009370] = {
-          Content = "如果他能收到你的花就好了。",
+          ContentJP = "どうか、彼のもとへ届けるように。",
           DialogueId = 51009370,
           GUID = "7FB254C4",
           NextDialogue = 51009372
         },
         [51009371] = {
-          Content = "他一定会收到你的花的。",
+          ContentJP = "きっと、彼のもとへ届けるよ。",
           DialogueId = 51009371,
           GUID = "7FB254EE",
           NextDialogue = 51009372
         },
         [51009372] = {
-          Content = "嗯，谢谢你！",
+          ContentJP = "…………はい、ありがとうございます。",
           DialogueId = 51009372,
           GUID = "7FB25518",
           NextDialogue = 51009373,
           SpeakNpcId = 700247
         },
         [51009373] = {
-          Content = "现在回想起来，他大概也早就知道我已经看穿了他的谎话吧。",
+          ContentJP = "今にして思えば、わたしが彼の嘘に気づいていたことも、彼はとうにわかっていたのでしょう。",
           DialogueId = 51009373,
           GUID = "7FB25542",
           NextDialogue = 51009374,
           SpeakNpcId = 700247
         },
         [51009374] = {
-          Content = "一个由谎言编织的故事，最后有了一个用谎言写就的结局……不也算是恰如其分吗？",
+          ContentJP = "嘘で編んだ物語が、嘘の言葉で幕を引く――それもまた、ふさわしい結末だと思いませんこと？……。",
           DialogueId = 51009374,
           GUID = "7FB2556C",
           NextDialogue = 51009375,
           SpeakNpcId = 700247
         },
         [51009375] = {
-          Content = "好啦，我要趁天还没黑，去城外完成和他的约定。",
+          ContentJP = "あら、暗くなる前に参りませんと。これから城の外へ行って、彼との約束を果たしますの。",
           DialogueId = 51009375,
           GUID = "7FB25596",
           NextDialogue = 51009376,
           SpeakNpcId = 700247
         },
         [51009376] = {
-          Content = "再见了，可爱的小精灵。祝愿你的故事有一个真实而美满的结局。",
+          ContentJP = "さらば、かわいい妖精。どうかその物語が、真実で、幸せな結末に至りますように。",
           DialogueId = 51009376,
           GUID = "7FB255C0",
           SpeakNpcId = 700247
         },
         [51009377] = {
-          Content = "哎呀，小精灵，又见面了。今天的天色很美吧？",
+          ContentJP = "あら、妖精さん。またお会いできましたわね。今日はいいお天気。",
           DialogueId = 51009377,
           GUID = "7FB255EA",
           SpeakNpcId = 700247

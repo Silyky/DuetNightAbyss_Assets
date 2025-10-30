@@ -1464,6 +1464,10 @@ return ReadOnly("ShopItem", {
     ItemType = "Resource",
     Price = 30,
     PriceType = 99,
+    PurchaseLimit = 999,
+    RefreshTime = {
+      DAY = 1
+    },
     Sequence = 92,
     StartTime = 1672545600,
     SubTabId = 1500,
@@ -1838,6 +1842,21 @@ return ReadOnly("ShopItem", {
     StartTime = 1672545600,
     SubTabId = 1502,
     TypeId = 1005401,
+    TypeNum = 1
+  },
+  [150301] = {
+    ItemId = 150301,
+    ItemType = "Resource",
+    Price = 30,
+    PriceType = 100,
+    PurchaseLimit = 12,
+    RefreshTime = {
+      WEEK = 1
+    },
+    Sequence = 92,
+    StartTime = 1672545600,
+    SubTabId = 1501,
+    TypeId = 207,
     TypeNum = 1
   },
   [151000] = {

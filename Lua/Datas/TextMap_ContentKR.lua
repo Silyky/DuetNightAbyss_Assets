@@ -13648,7 +13648,7 @@ local Data = {
           TextMapId = "MOD_NAME_2504"
         },
         MOD_NAME_2511 = {
-          ContentKR = "꿰뚫어 보기",
+          ContentKR = "꿰뚫기",
           TextMapId = "MOD_NAME_2511"
         },
         MOD_NAME_2512 = {
@@ -13824,7 +13824,7 @@ local Data = {
           TextMapId = "MOD_NAME_3504"
         },
         MOD_NAME_3511 = {
-          ContentKR = "꿰뚫어 보기",
+          ContentKR = "꿰뚫기",
           TextMapId = "MOD_NAME_3511"
         },
         MOD_NAME_3512 = {
@@ -38918,6 +38918,10 @@ local Data = {
         SKILL_DESC_ShootingRate3 = {
           ContentKR = "3급 사격 간격",
           TextMapId = "SKILL_DESC_ShootingRate3"
+        },
+        SKILL_DESC_ShootingRate4 = {
+          ContentKR = "4급 사격 간격",
+          TextMapId = "SKILL_DESC_ShootingRate4"
         },
         SKILL_DESC_SkillDmgUp = {
           ContentKR = "스킬 대미지 상승",
@@ -64394,7 +64398,7 @@ local Data = {
         UI_SWITCH = {
           ContentKR = "전환",
           TextMapId = "UI_SWITCH",
-        },
+        }
         UI_SYSTEM_VOTEKICK = {
           ContentKR = "연결 시간 초과",
           TextMapId = "UI_SYSTEM_VOTEKICK"

@@ -38910,6 +38910,10 @@ local Data = {
           ContentJP = "3rd射撃間隔",
           TextMapId = "SKILL_DESC_ShootingRate3"
         },
+        SKILL_DESC_ShootingRate4 = {
+          ContentJP = "4th射撃間隔",
+          TextMapId = "SKILL_DESC_ShootingRate4"
+        },
         SKILL_DESC_SkillDmgUp = {
           ContentJP = "スキルダメージアップ",
           TextMapId = "SKILL_DESC_SkillDmgUp"
@@ -61155,7 +61159,7 @@ local Data = {
           TextMapId = "UI_OPTION_DEFAULT"
         },
         UI_OPTION_DISPLAY = {
-          ContentJP = "表示",
+          ContentJP = "グラフィック",
           TextMapId = "UI_OPTION_DISPLAY"
         },
         UI_OPTION_DLSS = {

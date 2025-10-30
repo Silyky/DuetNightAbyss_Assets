@@ -38922,6 +38922,10 @@ local Data = {
           ContentTC = "三階射擊間隔",
           TextMapId = "SKILL_DESC_ShootingRate3"
         },
+        SKILL_DESC_ShootingRate4 = {
+          ContentTC = "四階射擊間隔",
+          TextMapId = "SKILL_DESC_ShootingRate4"
+        },
         SKILL_DESC_SkillDmgUp = {
           ContentTC = "技能傷害提高",
           TextMapId = "SKILL_DESC_SkillDmgUp"

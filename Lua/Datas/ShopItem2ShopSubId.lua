@@ -704,7 +704,8 @@ return ReadOnly("ShopItem2ShopSubId", {
         [2] = {ShopItemId = 150105, SubTabId = 1501}
       },
       [207] = {
-        [1] = {ShopItemId = 150101, SubTabId = 1500}
+        [1] = {ShopItemId = 150301, SubTabId = 1501},
+        [2] = {ShopItemId = 150101, SubTabId = 1500}
       },
       [208] = {
         [1] = {ShopItemId = 150102, SubTabId = 1500}

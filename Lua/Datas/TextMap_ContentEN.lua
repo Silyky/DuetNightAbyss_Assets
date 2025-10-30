@@ -38904,12 +38904,16 @@ local Data = {
           TextMapId = "SKILL_DESC_ShootingRate"
         },
         SKILL_DESC_ShootingRate2 = {
-          ContentEN = "Hit Firing Interval - Phase 2",
+          ContentEN = "Firing Interval - Phase 2",
           TextMapId = "SKILL_DESC_ShootingRate2"
         },
         SKILL_DESC_ShootingRate3 = {
           ContentEN = "Firing Interval - Phase 3",
           TextMapId = "SKILL_DESC_ShootingRate3"
+        },
+        SKILL_DESC_ShootingRate4 = {
+          ContentEN = "Firing Interval - Phase 4",
+          TextMapId = "SKILL_DESC_ShootingRate4"
         },
         SKILL_DESC_SkillDmgUp = {
           ContentEN = "Skill DMG Boost",
@@ -69864,7 +69868,7 @@ local Data = {
           TextMapId = "voice_ch_char_Feina_vo_revive"
         },
         voice_ch_char_Feina_vo_skill01_r01 = {
-          ContentEN = "♪ Hmm-hmm, shining bright~",
+          ContentEN = "♪ Starlight, shining bright~",
           TextMapId = "voice_ch_char_Feina_vo_skill01_r01"
         },
         voice_ch_char_Feina_vo_skill01_r02 = {
