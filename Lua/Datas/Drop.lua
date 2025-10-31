@@ -181,7 +181,7 @@ return ReadOnly("Drop", {
     CreateMode = "client",
     DropIcon = 2,
     DropId = 1006,
-    DropMaxNum = 20,
+    DropMaxNum = 80,
     DropName = "DROP_NAME_1004",
     DropPositionZ = 180,
     IconShowCondition = {
@@ -456,7 +456,7 @@ return ReadOnly("Drop", {
     CreateMode = "client",
     DropIcon = 2,
     DropId = 1017,
-    DropMaxNum = 20,
+    DropMaxNum = 24,
     DropName = "DROP_NAME_1007",
     DropPositionZ = 180,
     IconShowCondition = {

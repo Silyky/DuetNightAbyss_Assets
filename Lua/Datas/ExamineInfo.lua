@@ -89,6 +89,11 @@ return ReadOnly("ExamineInfo", {
     MirrorChannelID = 0,
     Port = 8000
   },
+  ["20.0"] = {
+    ChannelID = 240,
+    ExamineKey = "20.0",
+    MirrorChannelID = 307
+  },
   ["3.0"] = {
     ChannelID = 46,
     ExamineKey = "3.0",
