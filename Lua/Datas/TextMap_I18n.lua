@@ -11496,10 +11496,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "DUNGEON_SYNTHESIS_132"
         },
   DUNGEON_SYNTHESIS_133 = {
-    ContentEN = "Bounty commissions take time. Ensure you have enough time before proceeding. Continue?",
-    ContentJP = "懸賞依頼は長時間を要します。時間に余裕があるときに行ってください。続けますか？",
-    ContentKR = "현상금 의뢰는 상당한 시간이 소요됩니다. 시간적 여유가 충분할 때 진행하시는 것을 권장합니다. 계속하시겠습니까?",
-    ContentTC = "懸賞委托耗時較長，請在保持時間充裕的情況下進行，是否繼續？",
+    ContentEN = "Bounty commissions take time. Ensure you have enough time before proceeding. Continue? (Co-op recommended)",
+    ContentJP = "懸賞依頼は長時間を要します。時間に余裕があるときに行ってください。続けますか？(マルチプレイ推奨)",
+    ContentKR = "현상금 의뢰는 상당한 시간이 소요됩니다. 시간적 여유가 충분할 때 진행하시는 것을 권장합니다. 계속하시겠습니까? (파티 도전 권장)",
+    ContentTC = "懸賞委托耗時較長，請在保持時間充裕的情況下進行，是否繼續？（建議組隊挑戰）",
     TextMapContent = "悬赏委托耗时较长，请在保持时间充裕的情况下进行，是否继续？",
     TextMapId = "DUNGEON_SYNTHESIS_133"
         },
@@ -19320,7 +19320,7 @@ return ReadOnly("TextMap_I18n", {
   Event_Des_105102012 = {
     ContentEN = "A murmur of love through the silks, an eternity sealed in a fatal kiss.",
     ContentJP = "幾重にも重なる紗幕の下、囁きで愛を伝え、死をもって永遠に触れる。",
-    ContentKR = "겹겹이 쌓인 커튼 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라",
+    ContentKR = "겹겹이 쌓인 베일 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라",
     ContentTC = "重重紗幕之下，以輕語訴說愛意，用死亡觸碰永恒。",
     TextMapContent = "重重纱幕之下，以轻语诉说爱意，用死亡触碰永恒。",
     TextMapId = "Event_Des_105102012"
@@ -19360,7 +19360,7 @@ return ReadOnly("TextMap_I18n", {
   Event_Des_107002 = {
     ContentEN = "Log in on both PC and mobile to receive rewards, including the Silent Censer avatar frame and Pristine Hourglasses.",
     ContentJP = "月狩り人はPC版とモバイル版の両方にログインすると、アイコンフレーム「静寂の香炉」や「純白の砂時計」などを獲得できます。",
-    ContentKR = "PC 클라이언트 또는\n모바일 클라이언트로 로그인 시\n프로필 프레임·고요한 향로, 순백의 모래시계 등\n보상을 수령할 수 있습니다.",
+    ContentKR = "PC 클라이언트와\n모바일 클라이언트로 모두 로그인 시\n프로필 프레임·고요한 향로, 순백의 모래시계 등\n보상을 수령할 수 있습니다.",
     ContentTC = "狩月人完成PC端及移動端登錄後，可獲得頭像框·靜謐香爐和純白沙漏等獎勵。",
     TextMapContent = "狩月人完成PC端及移动端登录后，可获得头像框·静谧香炉和纯白沙漏等奖励。",
     TextMapId = "Event_Des_107002"
@@ -29937,7 +29937,7 @@ return ReadOnly("TextMap_I18n", {
   MOD_Tag_Type_Name_Fafnir01 = {
     ContentEN = "Fafnir (Ranged)",
     ContentJP = "ファフニール（遠隔）",
-    ContentKR = "파브니르 (원거리)",
+    ContentKR = "파프니르 (원거리)",
     ContentTC = "邪龍（遠程）",
     TextMapContent = "邪龙（远程）",
     TextMapId = "MOD_Tag_Type_Name_Fafnir01"
@@ -30119,7 +30119,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_Type_Name_Fafnir01"
         },
   MOD_Type_Name_FeatheredSnake01 = {
-    ContentEN = "Feathered Serpent's",
+    ContentEN = "Feathered Serpent's{空格}",
     ContentJP = "ケツァルの",
     ContentKR = "쿠쿨칸의{空格}",
     ContentTC = "羽蛇之",
@@ -30367,6 +30367,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Content_10012"
         },
   Mail_Content_10013 = {
+    ContentEN = "A little secret for you: today is super important! We've been waiting for this day for so long.\nThe moment the clock struck twelve, we rushed out to get your gift! We haggled with merchants and shooed away those noisy Filthoids, all to bring this little surprise to you!\nBecause we wanted to be the very first to say...\nHappy Birthday!\nOh! And you're supposed to make a wish now, right? Hmm... May your new year be full of adventures we share, more fun than we can imagine, and stories of us written all across Atlasia!\nWait, oops! That's our wish! Let's start over, quick, make a wish in your heart! Whatever it is, someday, it will surely come true!\n\n— With love,\nLunos of Atlasia",
+    ContentJP = "月狩り人様へ\nないしょ話だよ。今日はね、すっごく大事な日なの！ずーっとこの日を待ってたんだ。\n午前0時の鐘が鳴った瞬間、プレゼントを買いにダッシュ！ 商人さんと値切り合戦して、あの騒がしい穢獣を追い払いながら、君へのサプライズを抱えて帰ってきたよ。\n\nだって、いちばん最初に言いたかったから——\nお誕生日おめでとう！\n\nあっ、今って願いごとするタイミングだよね？\nうーん……君の新しい一年が、わたしたちの冒険でいっぱいになって、想像以上に楽しくて、アトラシア大陸のあちこちに「わたしたち」の物語が刻まれますように——\n\n……って、あれ？ それ、わたしたちの願いじゃん！ やり直し！\nさあ、心の中で願って？ どんな願いでも、いつかきっと叶うから。\n\n—アトラシアのルーナ族より",
+    ContentKR = "비밀 하나를 알려 줄게. 오늘은 우리가 아주 오랫동안 기다려온 아주 중요한 날이야.\n그래서 12시의 종이 울리자마자, 우리는 네 선물을 준비하기 위해 곧바로 뛰어나갔어. 상인과 흥정하고, 귀찮은 필토이드를 쫓아버려야 했지만, 그래도 무사히 이걸 네게 가져왔어.\n왜냐하면 제일 아끼는 네게 가장 먼저 이 말을 해주고 싶었거든...\n생일 축하해!\n헤헤... 아, 맞다! 이럴 때는 소원을 빌어야지. 음... 올해도 모험을 계속하면서 더 많은 즐거운 것들을 함께 발견하고, 아트라시아 대륙에 우리만의 이야기를 가득 써내려갈 수 있기를!\n아, 아니지, 아니지! 이러면 우리의 소원이 돼 버리잖아. 다시, 얼른 네 마음 속의 소원을 빌어봐! 그게 무엇이든, 미래의 어느날 반드시 이뤄질 테니까!\n——아트라시아의 루나 일동",
+    ContentTC = "告訴你一個秘密哦，今天是個很重要的日子，我們等這一天可是等了好久好久呢。\n所以午夜的鐘聲剛一敲響，我們就迫不及待地跑出去給你準備禮物啦。又是跟商人討價還價，又是趕跑那些吵鬧的穢獸，總算是把這份心意帶到你的面前啦！\n因為我們想第一時間，為最最親愛的你說上一聲……\n生日快樂！\n嘿嘿……對了對了，這種時候應該許個願望吧，嗯……希望在你新的一歲里，能繼續我們的冒險，一起發現更多好玩的事物，在阿特拉西亞大陸寫下滿滿的、屬於我們的故事！\n誒不對不對，怎麼變成我們許願了！重來重來，快快在你的心裡許下一個願望吧，無論是什麼，它終將在未來的某天實現！\n\n——阿特拉西亞的皎皎們 敬上",
     TextMapContent = "生日邮件正文内容（待包装）",
     TextMapId = "Mail_Content_10013"
         },
@@ -30403,14 +30407,26 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Content_100301"
         },
   Mail_Content_10031 = {
+    ContentEN = "Dear Phoxhunter,\n\nYour Monthly Pass will expire at <H>{Time}</>, please claim your rewards in time to make sure you don't miss them out.",
+    ContentJP = "親愛なる月狩り人様：\n月間オーダーは<H>{Time}</>後に期限切れになります。報酬の受け取り忘れにご注意ください。",
+    ContentKR = "월석 사냥꾼님께,\n월간 주문이 <H>{Time}</>에 만료됩니다. 만료 시간에 유의하여 보상 수령을 놓치지 마세요.",
+    ContentTC = "親愛的狩月人：\n月度訂單將於<H>{Time}</>結束，請留意結束時間，勿錯過獎勵領取。",
     TextMapContent = "月卡将于<H>{Time}</>到期（待包装）",
     TextMapId = "Mail_Content_10031"
         },
   Mail_Content_10032 = {
+    ContentEN = "Dear Phoxhunter,\n\nThis period's Bard's Tome will expire at <H>{Time}</>, please claim your rewards in time to make sure you don't miss them out.",
+    ContentJP = "親愛なる月狩り人様：\n今期の詩歌集は<H>{Time}</>後に期限切れになります。報酬の受け取り忘れにご注意ください。",
+    ContentKR = "월석 사냥꾼님께,\n음유 시집이 <H>{Time}</>에 만료됩니다. 만료 시간에 유의하여 보상 수령을 놓치지 마세요.",
+    ContentTC = "親愛的狩月人：\n本期吟遊詩集將於<H>{Time}</>結束，請留意結束時間，勿錯過獎勵領取。",
     TextMapContent = "亲爱的狩月人：\n    本期吟游诗集将于<H>{Time}</>结束，请留意结束时间，勿错过奖励领取。",
     TextMapId = "Mail_Content_10032"
         },
   Mail_Content_10033 = {
+    ContentEN = "Dear Phoxhunter,\n\nThe [{EventName}] event will conclude at <H>{Time}</> (server time). Please claim your rewards in time to make sure you don't miss them out.",
+    ContentJP = "親愛なる月狩り人様：\nイベント 「{EventName}」は <H>{Time}</>（サーバー時間）後に終了します。報酬の受け取り忘れにご注意ください。",
+    ContentKR = "월석 사냥꾼님께,\n「{EventName}」 이벤트가 <H>{Time}</>(서버 시간)에 만료됩니다. 만료 시간에 유의하여 보상 수령을 놓치지 마세요.",
+    ContentTC = "親愛的狩月人：\n「{EventName}」活動將於 <H>{Time}</>（伺服器時間）結束。請留意結束時間，勿錯過獎勵領取。",
     TextMapContent = "亲爱的狩月人：\n    「{EventName}」活动将于 <H>{Time}</>（服务器时间）结束。请留意结束时间，勿错过奖励领取。",
     TextMapId = "Mail_Content_10033"
         },
@@ -30603,6 +30619,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Title_10012"
         },
   Mail_Title_10013 = {
+    ContentEN = "A Special Day",
+    ContentJP = "大事な日",
+    ContentKR = "특별한 오늘",
+    ContentTC = "重要的節日",
     TextMapContent = "生日邮件（待包装）",
     TextMapId = "Mail_Title_10013"
         },
@@ -30639,10 +30659,18 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Title_100301"
         },
   Mail_Title_10031 = {
+    ContentEN = "Monthly Pass Expiry Notice",
+    ContentJP = "月間オーダー期限切れの通知",
+    ContentKR = "월간 주문 만료 알림",
+    ContentTC = "月度訂單到期提醒",
     TextMapContent = "月卡到期提醒（待包装）",
     TextMapId = "Mail_Title_10031"
         },
   Mail_Title_10032 = {
+    ContentEN = "Bard's Tome Expiry Notice",
+    ContentJP = "詩歌集期限切れの通知",
+    ContentKR = "음유 시집 만료 알림",
+    ContentTC = "吟遊詩集到期提醒",
     TextMapContent = "吟游诗集到期提醒",
     TextMapId = "Mail_Title_10032"
         },
@@ -35505,7 +35533,7 @@ return ReadOnly("TextMap_I18n", {
   ModArchive_Name_Range_3030 = {
     ContentEN = "Fafnir Ⅰ",
     ContentJP = "ファフニール I",
-    ContentKR = "파브니르 Ⅰ",
+    ContentKR = "파프니르 Ⅰ",
     ContentTC = "邪龍 Ⅰ",
     TextMapContent = "邪龙 Ⅰ",
     TextMapId = "ModArchive_Name_Range_3030"
@@ -35513,47 +35541,47 @@ return ReadOnly("TextMap_I18n", {
   ModArchive_Name_Range_3040 = {
     ContentEN = "Fafnir Ⅱ",
     ContentJP = "ファフニール II",
-    ContentKR = "파브니르 Ⅱ",
+    ContentKR = "파프니르 Ⅱ",
     ContentTC = "邪龍 Ⅱ",
     TextMapContent = "邪龙 Ⅱ",
     TextMapId = "ModArchive_Name_Range_3040"
         },
   ModArchive_Name_Range_3050 = {
-    ContentEN = "Lilith Ⅲ",
-    ContentJP = "リリス III",
-    ContentKR = "릴리스 Ⅲ",
-    ContentTC = "夜魔 Ⅲ",
+    ContentEN = "Lilith Ⅳ",
+    ContentJP = "リリス IV",
+    ContentKR = "릴리스 IV",
+    ContentTC = "夜魔 IV",
     TextMapContent = "夜魔 Ⅳ",
     TextMapId = "ModArchive_Name_Range_3050"
         },
   ModArchive_Name_Range_3060 = {
-    ContentEN = "Lilith Ⅳ",
-    ContentJP = "リリス IV",
-    ContentKR = "릴리스 Ⅳ",
-    ContentTC = "夜魔 Ⅳ",
+    ContentEN = "Lilith Ⅴ",
+    ContentJP = "リリス V",
+    ContentKR = "릴리스 V",
+    ContentTC = "夜魔 V",
     TextMapContent = "夜魔 Ⅴ",
     TextMapId = "ModArchive_Name_Range_3060"
         },
   ModArchive_Name_Range_3070 = {
-    ContentEN = "Lilith Ⅴ",
-    ContentJP = "リリス V",
-    ContentKR = "릴리스 Ⅴ",
-    ContentTC = "夜魔 Ⅴ",
+    ContentEN = "Fafnir Ⅲ",
+    ContentJP = "ファフニール III",
+    ContentKR = "파프니르 Ⅲ",
+    ContentTC = "邪龍 III",
     TextMapContent = "邪龙 Ⅲ",
     TextMapId = "ModArchive_Name_Range_3070"
         },
   ModArchive_Name_Range_3080 = {
-    ContentEN = "Fafnir Ⅲ",
-    ContentJP = "ファフニール III",
-    ContentKR = "파브니르 Ⅲ",
-    ContentTC = "邪龍 Ⅲ",
+    ContentEN = "Lilith Ⅵ",
+    ContentJP = "リリス VI",
+    ContentKR = "릴리스 VI",
+    ContentTC = "夜魔 VI",
     TextMapContent = "夜魔 Ⅵ",
     TextMapId = "ModArchive_Name_Range_3080"
         },
   ModArchive_Name_Range_3090 = {
     ContentEN = "Fafnir Ⅳ",
     ContentJP = "ファフニール IV",
-    ContentKR = "파브니르 Ⅳ",
+    ContentKR = "파프니르 Ⅳ",
     ContentTC = "邪龍 Ⅳ",
     TextMapContent = "邪龙 Ⅳ",
     TextMapId = "ModArchive_Name_Range_3090"
@@ -35561,7 +35589,7 @@ return ReadOnly("TextMap_I18n", {
   ModArchive_Name_Range_3100 = {
     ContentEN = "Fafnir Ⅴ",
     ContentJP = "ファフニール V",
-    ContentKR = "파브니르 Ⅴ",
+    ContentKR = "파프니르 Ⅴ",
     ContentTC = "邪龍 Ⅴ",
     TextMapContent = "邪龙 Ⅴ",
     TextMapId = "ModArchive_Name_Range_3100"
@@ -35569,16 +35597,16 @@ return ReadOnly("TextMap_I18n", {
   ModArchive_Name_Range_3110 = {
     ContentEN = "Fafnir Ⅵ",
     ContentJP = "ファフニール VI",
-    ContentKR = "파브니르 Ⅵ",
+    ContentKR = "파프니르 Ⅵ",
     ContentTC = "邪龍 Ⅵ",
     TextMapContent = "邪龙 Ⅵ",
     TextMapId = "ModArchive_Name_Range_3110"
         },
   ModArchive_Name_Range_3120 = {
-    ContentEN = "Fafnir Ⅷ",
-    ContentJP = "ファフニール VIII",
-    ContentKR = "파브니르 Ⅷ",
-    ContentTC = "邪龍 Ⅷ",
+    ContentEN = "Fafnir Ⅶ",
+    ContentJP = "ファフニール VII",
+    ContentKR = "파프니르 Ⅶ",
+    ContentTC = "邪龍 Ⅶ",
     TextMapContent = "邪龙 Ⅶ",
     TextMapId = "ModArchive_Name_Range_3120"
         },
@@ -52419,7 +52447,7 @@ return ReadOnly("TextMap_I18n", {
   QuestName_10020305 = {
     ContentEN = "Venture deep into Glevum Pit and search for Crystallo of Stella",
     ContentJP = "グルビューム廃坑を探索し、群星のジェムを探す",
-    ContentKR = "'히프노스의 집'으로 이동",
+    ContentKR = "글로스터 폐광 깊숙히 들어가 반짝이는 수정 찾기",
     ContentTC = "深入格雷姆廢礦，尋找群星綺晶",
     TextMapContent = "深入格雷姆废矿，寻找群星绮晶",
     TextMapId = "QuestName_10020305"
@@ -52531,7 +52559,7 @@ return ReadOnly("TextMap_I18n", {
   QuestName_10020311 = {
     ContentEN = "Venture deep into Glevum Pit and search for Crystallo of Stella",
     ContentJP = "グルビューム廃坑を探索し、群星のジェムを探す",
-    ContentKR = "다른 투숙객에게서 단서 알아보기",
+    ContentKR = "글로스터 폐광 깊숙히 들어가 반짝이는 수정 찾기",
     ContentTC = "深入格雷姆廢礦，尋找群星綺晶",
     TextMapContent = "深入格雷姆废矿，寻找群星绮晶",
     TextMapId = "QuestName_10020311"
@@ -52547,7 +52575,7 @@ return ReadOnly("TextMap_I18n", {
   QuestName_10020313 = {
     ContentEN = "Defeat the giant Filthoid dwelling in the depths of the pit",
     ContentJP = "廃坑の底に潜む巨大な穢獣を撃破する",
-    ContentKR = "아웃사이더에게 조사 결과 보고",
+    ContentKR = "폐광 깊숙히 도사리고 있는 거대 필토이드 처치하기",
     ContentTC = "擊敗盤踞在廢礦深處的巨型穢獸",
     TextMapContent = "击败盘踞在废矿深处的巨型秽兽",
     TextMapId = "QuestName_10020313"
@@ -52555,7 +52583,7 @@ return ReadOnly("TextMap_I18n", {
   QuestName_10020314 = {
     ContentEN = "Collect the Crystallo of Stella",
     ContentJP = "群星のジェムを拾う",
-    ContentKR = "아웃사이더에게 조사 결과 보고",
+    ContentKR = "반짝이는 수정 줍기",
     ContentTC = "拾取群星綺晶",
     TextMapContent = "拾取群星绮晶",
     TextMapId = "QuestName_10020314"
@@ -52651,8 +52679,8 @@ return ReadOnly("TextMap_I18n", {
   QuestName_10020410 = {
     ContentEN = "Wait for Henrik in the lobby",
     ContentJP = "ロビーでヘンリックを待つ",
-    ContentKR = "아웃사이더 집 근처로 가서 그와 만나기",
-    ContentTC = "返回大廳等待恩裏克",
+    ContentKR = "로비로 돌아가 헨릭 기다리기",
+    ContentTC = "返回大廳等待恩里克",
     TextMapContent = "返回大厅等待恩里克",
     TextMapId = "QuestName_10020410"
         },
@@ -52667,7 +52695,7 @@ return ReadOnly("TextMap_I18n", {
   QuestName_10020412 = {
     ContentEN = "Inform Outsider of your findings",
     ContentJP = "アウトサイダーに調査結果を伝える",
-    ContentKR = "프시케의 안전 확인",
+    ContentKR = "아웃사이더에게 조사 결과 보고하기",
     ContentTC = "向奧特賽德報告調查結果",
     TextMapContent = "向奥特赛德报告调查结果",
     TextMapId = "QuestName_10020412"
@@ -52747,7 +52775,7 @@ return ReadOnly("TextMap_I18n", {
   QuestName_10020601 = {
     ContentEN = "Meet Snow near the Hypnos' House",
     ContentJP = "「ヒュプノスの家」でスノウと合流する",
-    ContentKR = "???",
+    ContentKR = "'히프노스의 집' 근처로 가서 스노우와 만나기",
     ContentTC = "前往「修普諾斯之家」附近與白會合",
     TextMapContent = "前往“修普诺斯之家”附近与白会合",
     TextMapId = "QuestName_10020601"
@@ -60581,10 +60609,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_NAME_1011104"
         },
   RESOURCE_NAME_1011501 = {
-    ContentEN = "Sigil: Furyborne",
+    ContentEN = "Sigil: Lisbell",
     ContentJP = "シジル・リズベル",
-    ContentKR = "인장·분노",
-    ContentTC = "印記·暴怒",
+    ContentKR = "인장·리사벨",
+    ContentTC = "印記·莉茲貝爾",
     TextMapContent = "印记·莉兹贝尔",
     TextMapId = "RESOURCE_NAME_1011501"
         },
@@ -67583,7 +67611,7 @@ return ReadOnly("TextMap_I18n", {
   RLBlessing_Desc_312 = {
     ContentEN = "Increases Skill Damage by <Highlight>#1</>.",
     ContentJP = "スキル威力が<Highlight>#1</>アップする",
-    ContentKR = "스킬 위력이 <Highlight>$1</> 상승한다.",
+    ContentKR = "스킬 위력이 <Highlight>#1</> 상승한다.",
     ContentTC = "技能威力提高<Highlight>#1</>。",
     TextMapContent = "技能威力提高<Highlight>#1</>。",
     TextMapId = "RLBlessing_Desc_312"
@@ -67799,7 +67827,7 @@ return ReadOnly("TextMap_I18n", {
   RLBlessing_Desc_509 = {
     ContentEN = "Increases Max Dodge Attempts by <Highlight>#1</>.",
     ContentJP = "最大回避回数が<Highlight>#1</>回増加する。",
-    ContentKR = "최대 회피 횟수가 <Highlight>$1</>회 증가한다.",
+    ContentKR = "최대 회피 횟수가 <Highlight>#1</>회 증가한다.",
     ContentTC = "最大閃避次數增加<Highlight>#1</>次。",
     TextMapContent = "最大闪避次数增加<Highlight>#1</>次。",
     TextMapId = "RLBlessing_Desc_509"
@@ -75907,7 +75935,7 @@ return ReadOnly("TextMap_I18n", {
   SKILL_20101_DESC = {
     ContentEN = "Trigger Probability +<H>#1</>. Each shot with this weapon has a chance (based on its Weapon Trigger Probability) to fire an extra projectile at no Ammo cost, dealing AoE Damage equal to <H>#2</> of its ATK.",
     ContentJP = "発動確率+<H>#1</>。この武器で射撃すると、武器の発動確率に応じて追加で1発の弾丸を発射する（弾薬を消費しない）。命中時、この武器の攻撃力<H>#2</>に相当する範囲ダメージを与える。",
-    ContentKR = "캐릭터 공격력+<H>#1</>. 해당 무기로 사격 시, 해당 무기의 발동 확률에 따라 1개의 탄환을 추가로 발사하며, 탄환을 소모하지 않는다. 명중 시 해당 무기 공격력 <H>#2</>의 범위 대미지를 입힌다.",
+    ContentKR = "발동 확률+<H>#1</>. 해당 무기로 사격 시, 해당 무기의 발동 확률에 따라 1개의 탄환을 추가로 발사하며, 탄환을 소모하지 않는다. 명중 시 해당 무기 공격력 <H>#2</>의 범위 대미지를 입힌다.",
     ContentTC = "觸發概率+<H>#1</>。使用此武器射擊時，基於該武器觸發概率，額外發射1枚子彈，不消耗備彈，命中時造成此武器攻擊<H>#2</>的範圍傷害。",
     TextMapContent = "触发概率+<H>#1</>。使用此武器射击时，基于该武器触发概率，额外发射1枚子弹，不消耗备弹，命中时造成此武器攻击<H>#2</>的范围伤害。",
     TextMapId = "SKILL_20101_DESC"
@@ -76737,8 +76765,8 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_330102_NAME"
         },
   SKILL_330103_DESC = {
-    ContentEN = "When the user or nearby allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill DMG, up to 20 stacks.",
-    ContentJP = "自身と周囲の味方がアイテムを拾うと、自身はスキル威力を強化する「宝物ゲット！」を1スタック獲得（最大で20スタック）。",
+    ContentEN = "When the user or allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill DMG, up to 20 stacks.",
+    ContentJP = "自身と味方がアイテムを拾うと、自身はスキル威力を強化する「宝物ゲット！」を1スタック獲得（最大で20スタック）。",
     ContentKR = "자신과 팀원이 드롭 아이템을 습득할 시 자신이 영구적인 [보물이다!] 1단계를 획득하여 스킬 위력이 상승한다. 최대 20단계 중첩.",
     ContentTC = "自身和隊友拾取掉落物時，自身獲得1層永續的[撿到寶了！]：技能威力提高，最多疊加20層。",
     TextMapContent = "自身和队友拾取掉落物时，自身获得1层永续的[捡到宝了！]：技能威力提高，最多叠加20层。",
@@ -80923,7 +80951,7 @@ return ReadOnly("TextMap_I18n", {
   StarterQuest_Des_102001_2_3 = {
     ContentEN = "Level up 2 character skills to Lv. 2",
     ContentJP = "キャラのスキルをLv.2まで2回強化する",
-    ContentKR = "임의의 캐릭터 스킬 2레벨 누적 2개 달성",
+    ContentKR = "임의의 캐릭터 스킬 2개 Lv.2 달성",
     ContentTC = "累計提升角色的任意2个技能至2級",
     TextMapContent = "累计提升角色的任意2个技能至2级",
     TextMapId = "StarterQuest_Des_102001_2_3"
@@ -80995,7 +81023,7 @@ return ReadOnly("TextMap_I18n", {
   StarterQuest_Des_102001_4_2 = {
     ContentEN = "Level up 3 character skills to Lv. 3",
     ContentJP = "キャラのスキルをLv.3まで3回強化する",
-    ContentKR = "임의의 캐릭터 스킬 3레벨 누적 3개 달성",
+    ContentKR = "임의의 캐릭터 스킬 3개 Lv.3 달성",
     ContentTC = "累計提升角色的任意3个技能至3級",
     TextMapContent = "累计提升角色的任意3个技能至3级",
     TextMapId = "StarterQuest_Des_102001_4_2"
@@ -81099,7 +81127,7 @@ return ReadOnly("TextMap_I18n", {
   StarterQuest_Des_102001_6_3 = {
     ContentEN = "Level up 12 character skills to Lv. 3",
     ContentJP = "キャラのスキルをLv.3まで12回強化する",
-    ContentKR = "임의의 캐릭터 스킬 12레벨 누적 3개 달성",
+    ContentKR = "임의의 캐릭터 스킬 12개 Lv.3 달성",
     ContentTC = "累計提升角色的任意12个技能至3級",
     TextMapContent = "累计提升角色的任意12个技能至3级",
     TextMapId = "StarterQuest_Des_102001_6_3"
@@ -100753,10 +100781,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Banner_SkinGacha_Goto"
         },
   UI_Banner_Tab_SaleForNew = {
-    ContentEN = "760% Bonus Pack",
-    ContentJP = "760%超お得セール",
-    ContentKR = "초특가 760% 혜택",
-    ContentTC = "超値特惠760%",
+    ContentEN = "2930% Bonus Pack",
+    ContentJP = "2930%超お得セール",
+    ContentKR = "초특가 2930% 혜택",
+    ContentTC = "超値特惠2930%",
     TextMapContent = "超值特惠760%",
     TextMapId = "UI_Banner_Tab_SaleForNew"
         },
@@ -116431,7 +116459,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_GameEvent_TrialToBeFinished"
         },
   UI_HARDBOSS_COMPLETE = {
-    ContentEN = "Challenge complete",
+    ContentEN = "Challenge Complete!",
     ContentJP = "チャレンジ成功",
     ContentKR = "도전 성공",
     ContentTC = "挑戰成功",
@@ -118135,7 +118163,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Deutsch",
     ContentJP = "Deutsch（ドイツ語）",
     ContentKR = "Deutsch",
-    ContentTC = "Deutsch（德語）",
+    ContentTC = "Deutsch（德文）",
     TextMapContent = "Deutsch（德语）",
     TextMapId = "UI_Language_Text_DE"
         },
@@ -118143,7 +118171,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "English",
     ContentJP = "English（英語）",
     ContentKR = "English",
-    ContentTC = "English（英語）",
+    ContentTC = "English（英文）",
     TextMapContent = "English（英语）",
     TextMapId = "UI_Language_Text_EN"
         },
@@ -118151,7 +118179,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Español",
     ContentJP = "Español（スペイン語）",
     ContentKR = "Español",
-    ContentTC = "Español（西班牙語）",
+    ContentTC = "Español（西班牙文）",
     TextMapContent = "Español（西班牙语）",
     TextMapId = "UI_Language_Text_ES"
         },
@@ -118159,7 +118187,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Français",
     ContentJP = "Français（フランス語）",
     ContentKR = "Français",
-    ContentTC = "Français（法語）",
+    ContentTC = "Français（法文）",
     TextMapContent = "Français（法语）",
     TextMapId = "UI_Language_Text_FR"
         },
@@ -118167,7 +118195,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "日本語",
     ContentJP = "日本語（日本語）",
     ContentKR = "日本語",
-    ContentTC = "日本語（日語）",
+    ContentTC = "日本語（日文）",
     TextMapContent = "日本語（日语）",
     TextMapId = "UI_Language_Text_JP"
         },
@@ -120981,7 +121009,7 @@ return ReadOnly("TextMap_I18n", {
   UI_MonthlyCard_Detail_1 = {
     ContentEN = "Lunotress's Monthly Pass refreshes every 30 days, bringing brand-new exclusive gifts. Once this month's Pass is taken off shelf, it will no longer be available for purchase.",
     ContentJP = "ルーナ族のバーテンダーの月間オーダーは30日ごとに更新され、新しいオーダーには最新の特別特典が含まれます。旧オーダーは終了後、契約不可となります。",
-    ContentKR = "루나의 월간 주문은 30일마다 업데이트됩니다. 새로운 주문은 최신 선물이 포함되어 있습니다. 이전 주문이 만료되면 계약할 수 없습니다",
+    ContentKR = "루나의 월간 주문은 30일마다 갱신됩니다. 새로운 주문은 최신 선물이 포함되어 있습니다. 이전 주문이 만료되면 계약할 수 없습니다",
     ContentTC = "皎皎的月度訂單每30天更新，新的訂單將包含全新的獨特贈禮。舊訂單下架後將無法簽約。",
     TextMapContent = "皎皎的月度订单每30天更新，新的订单将包含全新的独特赠礼。旧订单下架后将无法签约。",
     TextMapId = "UI_MonthlyCard_Detail_1"
@@ -130547,7 +130575,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_SHOP_REMAINTIME_SECOND"
         },
   UI_SHOP_ROGUE_ITEM = {
-    ContentEN = "Fortune‘s Favour",
+    ContentEN = "Fortune's Favour",
     ContentJP = "運命の賜物",
     ContentKR = "운명의 선물",
     ContentTC = "命運的饋贈",
@@ -132689,7 +132717,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Skin_Des_210102 = {
     ContentEN = "A murmur of love through the silks, an eternity sealed in a fatal kiss.",
     ContentJP = "幾重にも重なる紗の奥、囁きで愛を語り、死によって永遠に触れ合う。",
-    ContentKR = "겹겹이 쌓인 커튼 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라.",
+    ContentKR = "겹겹이 쌓인 베일 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라.",
     ContentTC = "重重紗幕之下，以輕語訴說愛意，用死亡觸碰永恆。",
     TextMapContent = "重重纱幕之下，以轻语诉说爱意，用死亡触碰永恒。",
     TextMapId = "UI_Skin_Des_210102"
@@ -133298,7 +133326,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Squad_ListName = {
     ContentEN = "Team Loadout{空格}",
     ContentJP = "プリセット設定",
-    ContentKR = "프리셋 설정",
+    ContentKR = "프리셋 설정{空格}",
     ContentTC = "預設配置",
     TextMapContent = "预设配置",
     TextMapId = "UI_Squad_ListName"

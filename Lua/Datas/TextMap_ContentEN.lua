@@ -5212,7 +5212,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_132"
         },
         DUNGEON_SYNTHESIS_133 = {
-          ContentEN = "Bounty commissions take time. Ensure you have enough time before proceeding. Continue?",
+          ContentEN = "Bounty commissions take time. Ensure you have enough time before proceeding. Continue? (Co-op recommended)",
           TextMapId = "DUNGEON_SYNTHESIS_133"
         },
         DUNGEON_SYNTHESIS_134 = {
@@ -14048,7 +14048,7 @@ local Data = {
           TextMapId = "MOD_Type_Name_Fafnir01"
         },
         MOD_Type_Name_FeatheredSnake01 = {
-          ContentEN = "Feathered Serpent's",
+          ContentEN = "Feathered Serpent's{空格}",
           TextMapId = "MOD_Type_Name_FeatheredSnake01"
         },
         MOD_Type_Name_Fenrir01 = {
@@ -14167,6 +14167,10 @@ local Data = {
           ContentEN = "Dear Phoxhunter,\n The rewards you earned through CHZZK Drops have been delivered to your game account.\n Please claim them from the attachment below.\n \n Thank you for your support!\n \n – Duet Night Abyss Live Ops",
           TextMapId = "Mail_Content_10012"
         },
+        Mail_Content_10013 = {
+          ContentEN = "A little secret for you: today is super important! We've been waiting for this day for so long.\nThe moment the clock struck twelve, we rushed out to get your gift! We haggled with merchants and shooed away those noisy Filthoids, all to bring this little surprise to you!\nBecause we wanted to be the very first to say...\nHappy Birthday!\nOh! And you're supposed to make a wish now, right? Hmm... May your new year be full of adventures we share, more fun than we can imagine, and stories of us written all across Atlasia!\nWait, oops! That's our wish! Let's start over, quick, make a wish in your heart! Whatever it is, someday, it will surely come true!\n\n— With love,\nLunos of Atlasia",
+          TextMapId = "Mail_Content_10013"
+        },
         Mail_Content_10014 = {
           ContentEN = "Dear Phoxhunter, \n You've successfully checked in at Lunoloft. Please claim your reward.",
           TextMapId = "Mail_Content_10014"
@@ -14182,6 +14186,18 @@ local Data = {
         Mail_Content_100301 = {
           ContentEN = "An error occurred during reward distribution. The recovered rewards have been reclaimed and delivered to Inventory.",
           TextMapId = "Mail_Content_100301"
+        },
+        Mail_Content_10031 = {
+          ContentEN = "Dear Phoxhunter,\n\nYour Monthly Pass will expire at <H>{Time}</>, please claim your rewards in time to make sure you don't miss them out.",
+          TextMapId = "Mail_Content_10031"
+        },
+        Mail_Content_10032 = {
+          ContentEN = "Dear Phoxhunter,\n\nThis period's Bard's Tome will expire at <H>{Time}</>, please claim your rewards in time to make sure you don't miss them out.",
+          TextMapId = "Mail_Content_10032"
+        },
+        Mail_Content_10033 = {
+          ContentEN = "Dear Phoxhunter,\n\nThe [{EventName}] event will conclude at <H>{Time}</> (server time). Please claim your rewards in time to make sure you don't miss them out.",
+          TextMapId = "Mail_Content_10033"
         },
         Mail_Content_100401 = {
           ContentEN = "Dear Phoxhunter, The latest volume of the Bard's Tome is now complete. All unclaimed rewards have been sent to your mailbox. Don't forget to get them!",
@@ -14271,6 +14287,10 @@ local Data = {
           ContentEN = "CHZZK Drops Rewards Delivered",
           TextMapId = "Mail_Title_10012"
         },
+        Mail_Title_10013 = {
+          ContentEN = "A Special Day",
+          TextMapId = "Mail_Title_10013"
+        },
         Mail_Title_10014 = {
           ContentEN = "Login Rewards",
           TextMapId = "Mail_Title_10014"
@@ -14286,6 +14306,14 @@ local Data = {
         Mail_Title_100301 = {
           ContentEN = "Recovered Reward Notice",
           TextMapId = "Mail_Title_100301"
+        },
+        Mail_Title_10031 = {
+          ContentEN = "Monthly Pass Expiry Notice",
+          TextMapId = "Mail_Title_10031"
+        },
+        Mail_Title_10032 = {
+          ContentEN = "Bard's Tome Expiry Notice",
+          TextMapId = "Mail_Title_10032"
         },
         Mail_Title_10033 = {
           ContentEN = "Event Conclusion Notice: 「{EventName}」‍",
@@ -16720,19 +16748,19 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3040"
         },
         ModArchive_Name_Range_3050 = {
-          ContentEN = "Lilith Ⅲ",
+          ContentEN = "Lilith Ⅳ",
           TextMapId = "ModArchive_Name_Range_3050"
         },
         ModArchive_Name_Range_3060 = {
-          ContentEN = "Lilith Ⅳ",
+          ContentEN = "Lilith Ⅴ",
           TextMapId = "ModArchive_Name_Range_3060"
         },
         ModArchive_Name_Range_3070 = {
-          ContentEN = "Lilith Ⅴ",
+          ContentEN = "Fafnir Ⅲ",
           TextMapId = "ModArchive_Name_Range_3070"
         },
         ModArchive_Name_Range_3080 = {
-          ContentEN = "Fafnir Ⅲ",
+          ContentEN = "Lilith Ⅵ",
           TextMapId = "ModArchive_Name_Range_3080"
         },
         ModArchive_Name_Range_3090 = {
@@ -16748,7 +16776,7 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3110"
         },
         ModArchive_Name_Range_3120 = {
-          ContentEN = "Fafnir Ⅷ",
+          ContentEN = "Fafnir Ⅶ",
           TextMapId = "ModArchive_Name_Range_3120"
         },
         ModArchive_Name_Range_3130 = {
@@ -29180,7 +29208,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1011104"
         },
         RESOURCE_NAME_1011501 = {
-          ContentEN = "Sigil: Furyborne",
+          ContentEN = "Sigil: Lisbell",
           TextMapId = "RESOURCE_NAME_1011501"
         },
         RESOURCE_NAME_1011502 = {
@@ -37248,7 +37276,7 @@ local Data = {
           TextMapId = "SKILL_330102_NAME"
         },
         SKILL_330103_DESC = {
-          ContentEN = "When the user or nearby allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill DMG, up to 20 stacks.",
+          ContentEN = "When the user or allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill DMG, up to 20 stacks.",
           TextMapId = "SKILL_330103_DESC"
         },
         SKILL_330103_NAME = {
@@ -49220,7 +49248,7 @@ local Data = {
           TextMapId = "UI_Banner_SkinGacha_Goto"
         },
         UI_Banner_Tab_SaleForNew = {
-          ContentEN = "760% Bonus Pack",
+          ContentEN = "2930% Bonus Pack",
           TextMapId = "UI_Banner_Tab_SaleForNew"
         },
         UI_Banner_Tab_SpSale_10 = {
@@ -56856,7 +56884,7 @@ local Data = {
           TextMapId = "UI_GameEvent_TrialToBeFinished"
         },
         UI_HARDBOSS_COMPLETE = {
-          ContentEN = "Challenge complete",
+          ContentEN = "Challenge Complete!",
           TextMapId = "UI_HARDBOSS_COMPLETE"
         },
         UI_HIT_SCORE = {
@@ -63828,7 +63856,7 @@ local Data = {
           TextMapId = "UI_SHOP_REMAINTIME_SECOND"
         },
         UI_SHOP_ROGUE_ITEM = {
-          ContentEN = "Fortune‘s Favour",
+          ContentEN = "Fortune's Favour",
           TextMapId = "UI_SHOP_ROGUE_ITEM"
         },
         UI_SHOP_SHOPITEMLIMIT = {

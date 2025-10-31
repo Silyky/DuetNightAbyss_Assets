@@ -35,7 +35,7 @@ return ReadOnly("ComplexTab", {
     CoinId = {214},
     EntrySort = 97,
     InterfaceJumpId = 28,
-    RefreshTime = {WEEK = 1},
+    RefreshTime = {WEEK = 4},
     ShopEntryId = 4,
     ShopName = "Abyss_ExchangeStore"
   },
@@ -44,7 +44,7 @@ return ReadOnly("ComplexTab", {
     CoinId = {215},
     EntrySort = 96,
     InterfaceJumpId = 55,
-    RefreshTime = {WEEK = 8},
+    RefreshTime = {WEEK = 1},
     ShopEntryId = 5,
     ShopName = "UI_RougeExchangeShop_Title"
   }

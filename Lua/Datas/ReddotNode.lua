@@ -448,6 +448,7 @@ return ReadOnly("ReddotNode", {
     CacheType = 1,
     IsLeaf = true,
     Name = "ExperienceItem",
+    NodeModuleName = "Experience",
     Type = 0,
     bInvokeEveryTime = true
   },

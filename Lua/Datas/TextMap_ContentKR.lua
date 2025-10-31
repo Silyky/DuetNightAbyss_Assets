@@ -5216,7 +5216,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_132"
         },
         DUNGEON_SYNTHESIS_133 = {
-          ContentKR = "현상금 의뢰는 상당한 시간이 소요됩니다. 시간적 여유가 충분할 때 진행하시는 것을 권장합니다. 계속하시겠습니까?",
+          ContentKR = "현상금 의뢰는 상당한 시간이 소요됩니다. 시간적 여유가 충분할 때 진행하시는 것을 권장합니다. 계속하시겠습니까? (파티 도전 권장)",
           TextMapId = "DUNGEON_SYNTHESIS_133"
         },
         DUNGEON_SYNTHESIS_134 = {
@@ -8744,7 +8744,7 @@ local Data = {
           TextMapId = "Event_Des_105102011"
         },
         Event_Des_105102012 = {
-          ContentKR = "겹겹이 쌓인 커튼 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라",
+          ContentKR = "겹겹이 쌓인 베일 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라",
           TextMapId = "Event_Des_105102012"
         },
         Event_Des_105102013 = {
@@ -8764,7 +8764,7 @@ local Data = {
           TextMapId = "Event_Des_107001"
         },
         Event_Des_107002 = {
-          ContentKR = "PC 클라이언트 또는\n모바일 클라이언트로 로그인 시\n프로필 프레임·고요한 향로, 순백의 모래시계 등\n보상을 수령할 수 있습니다.",
+          ContentKR = "PC 클라이언트와\n모바일 클라이언트로 모두 로그인 시\n프로필 프레임·고요한 향로, 순백의 모래시계 등\n보상을 수령할 수 있습니다.",
           TextMapId = "Event_Des_107002"
         },
         Event_Des_107003 = {
@@ -13964,7 +13964,7 @@ local Data = {
           TextMapId = "MOD_Tag_Type_Name_Cerberus02"
         },
         MOD_Tag_Type_Name_Fafnir01 = {
-          ContentKR = "파브니르 (원거리)",
+          ContentKR = "파프니르 (원거리)",
           TextMapId = "MOD_Tag_Type_Name_Fafnir01"
         },
         MOD_Tag_Type_Name_FeatheredSnake01 = {
@@ -14175,6 +14175,10 @@ local Data = {
           ContentKR = "월석 사냥꾼님께,\nCHZZK 스트리밍 시청으로 획득한 보상이 계정에 지급되었습니다.\n우편 하단에 첨부된 아이템을 확인해 주세요.\n \n한결같은 성원에 감사드립니다!\n \n<듀엣 나이트 어비스> 운영진",
           TextMapId = "Mail_Content_10012"
         },
+        Mail_Content_10013 = {
+          ContentKR = "비밀 하나를 알려 줄게. 오늘은 우리가 아주 오랫동안 기다려온 아주 중요한 날이야.\n그래서 12시의 종이 울리자마자, 우리는 네 선물을 준비하기 위해 곧바로 뛰어나갔어. 상인과 흥정하고, 귀찮은 필토이드를 쫓아버려야 했지만, 그래도 무사히 이걸 네게 가져왔어.\n왜냐하면 제일 아끼는 네게 가장 먼저 이 말을 해주고 싶었거든...\n생일 축하해!\n헤헤... 아, 맞다! 이럴 때는 소원을 빌어야지. 음... 올해도 모험을 계속하면서 더 많은 즐거운 것들을 함께 발견하고, 아트라시아 대륙에 우리만의 이야기를 가득 써내려갈 수 있기를!\n아, 아니지, 아니지! 이러면 우리의 소원이 돼 버리잖아. 다시, 얼른 네 마음 속의 소원을 빌어봐! 그게 무엇이든, 미래의 어느날 반드시 이뤄질 테니까!\n——아트라시아의 루나 일동",
+          TextMapId = "Mail_Content_10013"
+        },
         Mail_Content_10014 = {
           ContentKR = "월석 사냥꾼님께,\nLunoloft에서 출석을 완료했습니다. 보상을 수령해 주세요.",
           TextMapId = "Mail_Content_10014"
@@ -14190,6 +14194,18 @@ local Data = {
         Mail_Content_100301 = {
           ContentKR = "보상 결산 오류, 재지급 보상이 이미 가방에 지급되었습니다.",
           TextMapId = "Mail_Content_100301"
+        },
+        Mail_Content_10031 = {
+          ContentKR = "월석 사냥꾼님께,\n월간 주문이 <H>{Time}</>에 만료됩니다. 만료 시간에 유의하여 보상 수령을 놓치지 마세요.",
+          TextMapId = "Mail_Content_10031"
+        },
+        Mail_Content_10032 = {
+          ContentKR = "월석 사냥꾼님께,\n음유 시집이 <H>{Time}</>에 만료됩니다. 만료 시간에 유의하여 보상 수령을 놓치지 마세요.",
+          TextMapId = "Mail_Content_10032"
+        },
+        Mail_Content_10033 = {
+          ContentKR = "월석 사냥꾼님께,\n「{EventName}」 이벤트가 <H>{Time}</>(서버 시간)에 만료됩니다. 만료 시간에 유의하여 보상 수령을 놓치지 마세요.",
+          TextMapId = "Mail_Content_10033"
         },
         Mail_Content_100401 = {
           ContentKR = "월석 사냥꾼님, 이번 음유 시집 장정이 종료되었습니다. 모든 미수령한 보상은 우편을 통해 지급되었으니, 확인해 주세요",
@@ -14279,6 +14295,10 @@ local Data = {
           ContentKR = "CHZZK 시청 보상 지급 완료",
           TextMapId = "Mail_Title_10012"
         },
+        Mail_Title_10013 = {
+          ContentKR = "특별한 오늘",
+          TextMapId = "Mail_Title_10013"
+        },
         Mail_Title_10014 = {
           ContentKR = "출석 보상 우편",
           TextMapId = "Mail_Title_10014"
@@ -14294,6 +14314,14 @@ local Data = {
         Mail_Title_100301 = {
           ContentKR = "결산 보상 재지급 우편",
           TextMapId = "Mail_Title_100301"
+        },
+        Mail_Title_10031 = {
+          ContentKR = "월간 주문 만료 알림",
+          TextMapId = "Mail_Title_10031"
+        },
+        Mail_Title_10032 = {
+          ContentKR = "음유 시집 만료 알림",
+          TextMapId = "Mail_Title_10032"
         },
         Mail_Title_10033 = {
           ContentKR = "[{EventName}] 이벤트 종료 알림",
@@ -16720,43 +16748,43 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3020"
         },
         ModArchive_Name_Range_3030 = {
-          ContentKR = "파브니르 Ⅰ",
+          ContentKR = "파프니르 Ⅰ",
           TextMapId = "ModArchive_Name_Range_3030"
         },
         ModArchive_Name_Range_3040 = {
-          ContentKR = "파브니르 Ⅱ",
+          ContentKR = "파프니르 Ⅱ",
           TextMapId = "ModArchive_Name_Range_3040"
         },
         ModArchive_Name_Range_3050 = {
-          ContentKR = "릴리스 Ⅲ",
+          ContentKR = "릴리스 IV",
           TextMapId = "ModArchive_Name_Range_3050"
         },
         ModArchive_Name_Range_3060 = {
-          ContentKR = "릴리스 Ⅳ",
+          ContentKR = "릴리스 V",
           TextMapId = "ModArchive_Name_Range_3060"
         },
         ModArchive_Name_Range_3070 = {
-          ContentKR = "릴리스 Ⅴ",
+          ContentKR = "파프니르 Ⅲ",
           TextMapId = "ModArchive_Name_Range_3070"
         },
         ModArchive_Name_Range_3080 = {
-          ContentKR = "파브니르 Ⅲ",
+          ContentKR = "릴리스 VI",
           TextMapId = "ModArchive_Name_Range_3080"
         },
         ModArchive_Name_Range_3090 = {
-          ContentKR = "파브니르 Ⅳ",
+          ContentKR = "파프니르 Ⅳ",
           TextMapId = "ModArchive_Name_Range_3090"
         },
         ModArchive_Name_Range_3100 = {
-          ContentKR = "파브니르 Ⅴ",
+          ContentKR = "파프니르 Ⅴ",
           TextMapId = "ModArchive_Name_Range_3100"
         },
         ModArchive_Name_Range_3110 = {
-          ContentKR = "파브니르 Ⅵ",
+          ContentKR = "파프니르 Ⅵ",
           TextMapId = "ModArchive_Name_Range_3110"
         },
         ModArchive_Name_Range_3120 = {
-          ContentKR = "파브니르 Ⅷ",
+          ContentKR = "파프니르 Ⅶ",
           TextMapId = "ModArchive_Name_Range_3120"
         },
         ModArchive_Name_Range_3130 = {
@@ -25108,7 +25136,7 @@ local Data = {
           TextMapId = "QuestName_10020304"
         },
         QuestName_10020305 = {
-          ContentKR = "'히프노스의 집'으로 이동",
+          ContentKR = "글로스터 폐광 깊숙히 들어가 반짝이는 수정 찾기",
           TextMapId = "QuestName_10020305"
         },
         QuestName_10020306 = {
@@ -25164,7 +25192,7 @@ local Data = {
           TextMapId = "QuestName_10020310"
         },
         QuestName_10020311 = {
-          ContentKR = "다른 투숙객에게서 단서 알아보기",
+          ContentKR = "글로스터 폐광 깊숙히 들어가 반짝이는 수정 찾기",
           TextMapId = "QuestName_10020311"
         },
         QuestName_10020312 = {
@@ -25172,11 +25200,11 @@ local Data = {
           TextMapId = "QuestName_10020312"
         },
         QuestName_10020313 = {
-          ContentKR = "아웃사이더에게 조사 결과 보고",
+          ContentKR = "폐광 깊숙히 도사리고 있는 거대 필토이드 처치하기",
           TextMapId = "QuestName_10020313"
         },
         QuestName_10020314 = {
-          ContentKR = "아웃사이더에게 조사 결과 보고",
+          ContentKR = "반짝이는 수정 줍기",
           TextMapId = "QuestName_10020314"
         },
         QuestName_10020315 = {
@@ -25224,7 +25252,7 @@ local Data = {
           TextMapId = "QuestName_10020409"
         },
         QuestName_10020410 = {
-          ContentKR = "아웃사이더 집 근처로 가서 그와 만나기",
+          ContentKR = "로비로 돌아가 헨릭 기다리기",
           TextMapId = "QuestName_10020410"
         },
         QuestName_10020411 = {
@@ -25232,7 +25260,7 @@ local Data = {
           TextMapId = "QuestName_10020411"
         },
         QuestName_10020412 = {
-          ContentKR = "프시케의 안전 확인",
+          ContentKR = "아웃사이더에게 조사 결과 보고하기",
           TextMapId = "QuestName_10020412"
         },
         QuestName_10020501 = {
@@ -25272,7 +25300,7 @@ local Data = {
           TextMapId = "QuestName_10020507"
         },
         QuestName_10020601 = {
-          ContentKR = "???",
+          ContentKR = "'히프노스의 집' 근처로 가서 스노우와 만나기",
           TextMapId = "QuestName_10020601"
         },
         QuestName_10020602 = {
@@ -29188,7 +29216,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1011104"
         },
         RESOURCE_NAME_1011501 = {
-          ContentKR = "인장·분노",
+          ContentKR = "인장·리사벨",
           TextMapId = "RESOURCE_NAME_1011501"
         },
         RESOURCE_NAME_1011502 = {
@@ -32680,7 +32708,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_311"
         },
         RLBlessing_Desc_312 = {
-          ContentKR = "스킬 위력이 <Highlight>$1</> 상승한다.",
+          ContentKR = "스킬 위력이 <Highlight>#1</> 상승한다.",
           TextMapId = "RLBlessing_Desc_312"
         },
         RLBlessing_Desc_313 = {
@@ -32788,7 +32816,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_508"
         },
         RLBlessing_Desc_509 = {
-          ContentKR = "최대 회피 횟수가 <Highlight>$1</>회 증가한다.",
+          ContentKR = "최대 회피 횟수가 <Highlight>#1</>회 증가한다.",
           TextMapId = "RLBlessing_Desc_509"
         },
         RLBlessing_Desc_510 = {
@@ -36840,7 +36868,7 @@ local Data = {
           TextMapId = "SKILL_180191_NAME"
         },
         SKILL_20101_DESC = {
-          ContentKR = "캐릭터 공격력+<H>#1</>. 해당 무기로 사격 시, 해당 무기의 발동 확률에 따라 1개의 탄환을 추가로 발사하며, 탄환을 소모하지 않는다. 명중 시 해당 무기 공격력 <H>#2</>의 범위 대미지를 입힌다.",
+          ContentKR = "발동 확률+<H>#1</>. 해당 무기로 사격 시, 해당 무기의 발동 확률에 따라 1개의 탄환을 추가로 발사하며, 탄환을 소모하지 않는다. 명중 시 해당 무기 공격력 <H>#2</>의 범위 대미지를 입힌다.",
           TextMapId = "SKILL_20101_DESC"
         },
         SKILL_20102_DESC = {
@@ -39348,7 +39376,7 @@ local Data = {
           TextMapId = "StarterQuest_Des_102001_2_2"
         },
         StarterQuest_Des_102001_2_3 = {
-          ContentKR = "임의의 캐릭터 스킬 2레벨 누적 2개 달성",
+          ContentKR = "임의의 캐릭터 스킬 2개 Lv.2 달성",
           TextMapId = "StarterQuest_Des_102001_2_3"
         },
         StarterQuest_Des_102001_2_4 = {
@@ -39384,7 +39412,7 @@ local Data = {
           TextMapId = "StarterQuest_Des_102001_4_1"
         },
         StarterQuest_Des_102001_4_2 = {
-          ContentKR = "임의의 캐릭터 스킬 3레벨 누적 3개 달성",
+          ContentKR = "임의의 캐릭터 스킬 3개 Lv.3 달성",
           TextMapId = "StarterQuest_Des_102001_4_2"
         },
         StarterQuest_Des_102001_4_3 = {
@@ -39436,7 +39464,7 @@ local Data = {
           TextMapId = "StarterQuest_Des_102001_6_2"
         },
         StarterQuest_Des_102001_6_3 = {
-          ContentKR = "임의의 캐릭터 스킬 12레벨 누적 3개 달성",
+          ContentKR = "임의의 캐릭터 스킬 12개 Lv.3 달성",
           TextMapId = "StarterQuest_Des_102001_6_3"
         },
         StarterQuest_Des_102001_6_4 = {
@@ -49228,7 +49256,7 @@ local Data = {
           TextMapId = "UI_Banner_SkinGacha_Goto"
         },
         UI_Banner_Tab_SaleForNew = {
-          ContentKR = "초특가 760% 혜택",
+          ContentKR = "초특가 2930% 혜택",
           TextMapId = "UI_Banner_Tab_SaleForNew"
         },
         UI_Banner_Tab_SpSale_10 = {
@@ -59136,7 +59164,7 @@ local Data = {
           TextMapId = "UI_MonthlyCard_DateRemain"
         },
         UI_MonthlyCard_Detail_1 = {
-          ContentKR = "루나의 월간 주문은 30일마다 업데이트됩니다. 새로운 주문은 최신 선물이 포함되어 있습니다. 이전 주문이 만료되면 계약할 수 없습니다",
+          ContentKR = "루나의 월간 주문은 30일마다 갱신됩니다. 새로운 주문은 최신 선물이 포함되어 있습니다. 이전 주문이 만료되면 계약할 수 없습니다",
           TextMapId = "UI_MonthlyCard_Detail_1"
         },
         UI_MonthlyCard_Detail_2 = {
@@ -64398,7 +64426,7 @@ local Data = {
         UI_SWITCH = {
           ContentKR = "전환",
           TextMapId = "UI_SWITCH",
-        }
+        },
         UI_SYSTEM_VOTEKICK = {
           ContentKR = "연결 시간 초과",
           TextMapId = "UI_SYSTEM_VOTEKICK"
@@ -64860,7 +64888,7 @@ local Data = {
           TextMapId = "UI_Skin_Des_2101"
         },
         UI_Skin_Des_210102 = {
-          ContentKR = "겹겹이 쌓인 커튼 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라.",
+          ContentKR = "겹겹이 쌓인 베일 아래, 속삭임으로 사랑을 말하고, 죽음으로 영원을 터치하라.",
           TextMapId = "UI_Skin_Des_210102"
         },
         UI_Skin_Des_2301 = {
@@ -65156,7 +65184,7 @@ local Data = {
           TextMapId = "UI_Squad_InputHint"
         },
         UI_Squad_ListName = {
-          ContentKR = "프리셋 설정",
+          ContentKR = "프리셋 설정{空格}",
           TextMapId = "UI_Squad_ListName"
         },
         UI_Squad_Max = {

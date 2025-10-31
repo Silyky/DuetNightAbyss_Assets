@@ -5211,7 +5211,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_132"
         },
         DUNGEON_SYNTHESIS_133 = {
-          ContentJP = "懸賞依頼は長時間を要します。時間に余裕があるときに行ってください。続けますか？",
+          ContentJP = "懸賞依頼は長時間を要します。時間に余裕があるときに行ってください。続けますか？(マルチプレイ推奨)",
           TextMapId = "DUNGEON_SYNTHESIS_133"
         },
         DUNGEON_SYNTHESIS_134 = {
@@ -14166,6 +14166,10 @@ local Data = {
           ContentJP = " 親愛なる月狩り人様！\n CHZZK配信の視聴によって獲得したドロップ報酬を、ゲームアカウントへお届けしました。\n 詳細は下記の添付をご確認ください。\n \n ご支援に感謝いたします！\n \n 『デュエットナイトアビス』運営チーム",
           TextMapId = "Mail_Content_10012"
         },
+        Mail_Content_10013 = {
+          ContentJP = "月狩り人様へ\nないしょ話だよ。今日はね、すっごく大事な日なの！ずーっとこの日を待ってたんだ。\n午前0時の鐘が鳴った瞬間、プレゼントを買いにダッシュ！ 商人さんと値切り合戦して、あの騒がしい穢獣を追い払いながら、君へのサプライズを抱えて帰ってきたよ。\n\nだって、いちばん最初に言いたかったから——\nお誕生日おめでとう！\n\nあっ、今って願いごとするタイミングだよね？\nうーん……君の新しい一年が、わたしたちの冒険でいっぱいになって、想像以上に楽しくて、アトラシア大陸のあちこちに「わたしたち」の物語が刻まれますように——\n\n……って、あれ？ それ、わたしたちの願いじゃん！ やり直し！\nさあ、心の中で願って？ どんな願いでも、いつかきっと叶うから。\n\n—アトラシアのルーナ族より",
+          TextMapId = "Mail_Content_10013"
+        },
         Mail_Content_10014 = {
           ContentJP = "親愛なる月狩り人様：\n Lunoloftでのサインインが完了しました。報酬を受け取ってください。",
           TextMapId = "Mail_Content_10014"
@@ -14181,6 +14185,18 @@ local Data = {
         Mail_Content_100301 = {
           ContentJP = "報酬の受取は失敗したのでバックパックに転送した。",
           TextMapId = "Mail_Content_100301"
+        },
+        Mail_Content_10031 = {
+          ContentJP = "親愛なる月狩り人様：\n月間オーダーは<H>{Time}</>後に期限切れになります。報酬の受け取り忘れにご注意ください。",
+          TextMapId = "Mail_Content_10031"
+        },
+        Mail_Content_10032 = {
+          ContentJP = "親愛なる月狩り人様：\n今期の詩歌集は<H>{Time}</>後に期限切れになります。報酬の受け取り忘れにご注意ください。",
+          TextMapId = "Mail_Content_10032"
+        },
+        Mail_Content_10033 = {
+          ContentJP = "親愛なる月狩り人様：\nイベント 「{EventName}」は <H>{Time}</>（サーバー時間）後に終了します。報酬の受け取り忘れにご注意ください。",
+          TextMapId = "Mail_Content_10033"
         },
         Mail_Content_100401 = {
           ContentJP = "親愛なる月狩り人様、今期の詩歌集の配布は終了しました。未受領の報酬はメールで配布いたしました。ご確認ください。",
@@ -14270,6 +14286,10 @@ local Data = {
           ContentJP = "CHZZK Drops報酬を受け取りました",
           TextMapId = "Mail_Title_10012"
         },
+        Mail_Title_10013 = {
+          ContentJP = "大事な日",
+          TextMapId = "Mail_Title_10013"
+        },
         Mail_Title_10014 = {
           ContentJP = "ログイン報酬メール",
           TextMapId = "Mail_Title_10014"
@@ -14285,6 +14305,14 @@ local Data = {
         Mail_Title_100301 = {
           ContentJP = "報酬受取失敗の転送メール",
           TextMapId = "Mail_Title_100301"
+        },
+        Mail_Title_10031 = {
+          ContentJP = "月間オーダー期限切れの通知",
+          TextMapId = "Mail_Title_10031"
+        },
+        Mail_Title_10032 = {
+          ContentJP = "詩歌集期限切れの通知",
+          TextMapId = "Mail_Title_10032"
         },
         Mail_Title_10033 = {
           ContentJP = "「{EventName}」イベント終了のお知らせ",
@@ -16719,19 +16747,19 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3040"
         },
         ModArchive_Name_Range_3050 = {
-          ContentJP = "リリス III",
+          ContentJP = "リリス IV",
           TextMapId = "ModArchive_Name_Range_3050"
         },
         ModArchive_Name_Range_3060 = {
-          ContentJP = "リリス IV",
+          ContentJP = "リリス V",
           TextMapId = "ModArchive_Name_Range_3060"
         },
         ModArchive_Name_Range_3070 = {
-          ContentJP = "リリス V",
+          ContentJP = "ファフニール III",
           TextMapId = "ModArchive_Name_Range_3070"
         },
         ModArchive_Name_Range_3080 = {
-          ContentJP = "ファフニール III",
+          ContentJP = "リリス VI",
           TextMapId = "ModArchive_Name_Range_3080"
         },
         ModArchive_Name_Range_3090 = {
@@ -16747,7 +16775,7 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3110"
         },
         ModArchive_Name_Range_3120 = {
-          ContentJP = "ファフニール VIII",
+          ContentJP = "ファフニール VII",
           TextMapId = "ModArchive_Name_Range_3120"
         },
         ModArchive_Name_Range_3130 = {
@@ -37247,7 +37275,7 @@ local Data = {
           TextMapId = "SKILL_330102_NAME"
         },
         SKILL_330103_DESC = {
-          ContentJP = "自身と周囲の味方がアイテムを拾うと、自身はスキル威力を強化する「宝物ゲット！」を1スタック獲得（最大で20スタック）。",
+          ContentJP = "自身と味方がアイテムを拾うと、自身はスキル威力を強化する「宝物ゲット！」を1スタック獲得（最大で20スタック）。",
           TextMapId = "SKILL_330103_DESC"
         },
         SKILL_330103_NAME = {
@@ -49219,7 +49247,7 @@ local Data = {
           TextMapId = "UI_Banner_SkinGacha_Goto"
         },
         UI_Banner_Tab_SaleForNew = {
-          ContentJP = "760%超お得セール",
+          ContentJP = "2930%超お得セール",
           TextMapId = "UI_Banner_Tab_SaleForNew"
         },
         UI_Banner_Tab_SpSale_10 = {

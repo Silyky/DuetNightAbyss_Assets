@@ -52,6 +52,6 @@ return ReadOnly("PolicyLink", {
   },
   UserPolicy = {
     Cache = "UserPolicy",
-    ChinaCN = "https://www.hero.com/p/agreement_global.html"
+    ChinaCN = "https://www.yingxiong.com/p/agreement_global_pan.html"
   }
 })

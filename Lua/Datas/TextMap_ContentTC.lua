@@ -5211,7 +5211,7 @@ local Data = {
           TextMapId = "DUNGEON_SYNTHESIS_132"
         },
         DUNGEON_SYNTHESIS_133 = {
-          ContentTC = "懸賞委托耗時較長，請在保持時間充裕的情況下進行，是否繼續？",
+          ContentTC = "懸賞委托耗時較長，請在保持時間充裕的情況下進行，是否繼續？（建議組隊挑戰）",
           TextMapId = "DUNGEON_SYNTHESIS_133"
         },
         DUNGEON_SYNTHESIS_134 = {
@@ -14170,6 +14170,10 @@ local Data = {
           ContentTC = " 親愛的狩月人，您好！_x000D_\n您通過觀看CHZZK直播獲得的掉落獎勵現已送達您的遊戲帳戶。_x000D_\n詳情請查看下方附件領取。_x000D_\n_x000D_\n感謝您的支持！_x000D_\n_x000D_\n《二重螺旋》運營團隊",
           TextMapId = "Mail_Content_10012"
         },
+        Mail_Content_10013 = {
+          ContentTC = "告訴你一個秘密哦，今天是個很重要的日子，我們等這一天可是等了好久好久呢。\n所以午夜的鐘聲剛一敲響，我們就迫不及待地跑出去給你準備禮物啦。又是跟商人討價還價，又是趕跑那些吵鬧的穢獸，總算是把這份心意帶到你的面前啦！\n因為我們想第一時間，為最最親愛的你說上一聲……\n生日快樂！\n嘿嘿……對了對了，這種時候應該許個願望吧，嗯……希望在你新的一歲里，能繼續我們的冒險，一起發現更多好玩的事物，在阿特拉西亞大陸寫下滿滿的、屬於我們的故事！\n誒不對不對，怎麼變成我們許願了！重來重來，快快在你的心裡許下一個願望吧，無論是什麼，它終將在未來的某天實現！\n\n——阿特拉西亞的皎皎們 敬上",
+          TextMapId = "Mail_Content_10013"
+        },
         Mail_Content_10014 = {
           ContentTC = "親愛的狩月人：_x000D_\n 您已在皎皎角完成簽到，請領取您的獎勵。",
           TextMapId = "Mail_Content_10014"
@@ -14185,6 +14189,18 @@ local Data = {
         Mail_Content_100301 = {
           ContentTC = "獎勵結算異常，巡回獎勵已發送至背包。",
           TextMapId = "Mail_Content_100301"
+        },
+        Mail_Content_10031 = {
+          ContentTC = "親愛的狩月人：\n月度訂單將於<H>{Time}</>結束，請留意結束時間，勿錯過獎勵領取。",
+          TextMapId = "Mail_Content_10031"
+        },
+        Mail_Content_10032 = {
+          ContentTC = "親愛的狩月人：\n本期吟遊詩集將於<H>{Time}</>結束，請留意結束時間，勿錯過獎勵領取。",
+          TextMapId = "Mail_Content_10032"
+        },
+        Mail_Content_10033 = {
+          ContentTC = "親愛的狩月人：\n「{EventName}」活動將於 <H>{Time}</>（伺服器時間）結束。請留意結束時間，勿錯過獎勵領取。",
+          TextMapId = "Mail_Content_10033"
         },
         Mail_Content_100401 = {
           ContentTC = "親愛的狩月人，本期吟遊詩集裝訂已經結束。所有尚未領取的獎勵已通過信件發放，請查收。",
@@ -14274,6 +14290,10 @@ local Data = {
           ContentTC = "CHZZK Drops獎勵已送達",
           TextMapId = "Mail_Title_10012"
         },
+        Mail_Title_10013 = {
+          ContentTC = "重要的節日",
+          TextMapId = "Mail_Title_10013"
+        },
         Mail_Title_10014 = {
           ContentTC = "簽到獎勵信件",
           TextMapId = "Mail_Title_10014"
@@ -14289,6 +14309,14 @@ local Data = {
         Mail_Title_100301 = {
           ContentTC = "結算獎勵尋回郵件",
           TextMapId = "Mail_Title_100301"
+        },
+        Mail_Title_10031 = {
+          ContentTC = "月度訂單到期提醒",
+          TextMapId = "Mail_Title_10031"
+        },
+        Mail_Title_10032 = {
+          ContentTC = "吟遊詩集到期提醒",
+          TextMapId = "Mail_Title_10032"
         },
         Mail_Title_10033 = {
           ContentTC = "「{EventName}」活動結束提醒",
@@ -16731,19 +16759,19 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3040"
         },
         ModArchive_Name_Range_3050 = {
-          ContentTC = "夜魔 Ⅲ",
+          ContentTC = "夜魔 IV",
           TextMapId = "ModArchive_Name_Range_3050"
         },
         ModArchive_Name_Range_3060 = {
-          ContentTC = "夜魔 Ⅳ",
+          ContentTC = "夜魔 V",
           TextMapId = "ModArchive_Name_Range_3060"
         },
         ModArchive_Name_Range_3070 = {
-          ContentTC = "夜魔 Ⅴ",
+          ContentTC = "邪龍 III",
           TextMapId = "ModArchive_Name_Range_3070"
         },
         ModArchive_Name_Range_3080 = {
-          ContentTC = "邪龍 Ⅲ",
+          ContentTC = "夜魔 VI",
           TextMapId = "ModArchive_Name_Range_3080"
         },
         ModArchive_Name_Range_3090 = {
@@ -16759,7 +16787,7 @@ local Data = {
           TextMapId = "ModArchive_Name_Range_3110"
         },
         ModArchive_Name_Range_3120 = {
-          ContentTC = "邪龍 Ⅷ",
+          ContentTC = "邪龍 Ⅶ",
           TextMapId = "ModArchive_Name_Range_3120"
         },
         ModArchive_Name_Range_3130 = {
@@ -25227,7 +25255,7 @@ local Data = {
           TextMapId = "QuestName_10020409"
         },
         QuestName_10020410 = {
-          ContentTC = "返回大廳等待恩裏克",
+          ContentTC = "返回大廳等待恩里克",
           TextMapId = "QuestName_10020410"
         },
         QuestName_10020411 = {
@@ -29191,7 +29219,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_1011104"
         },
         RESOURCE_NAME_1011501 = {
-          ContentTC = "印記·暴怒",
+          ContentTC = "印記·莉茲貝爾",
           TextMapId = "RESOURCE_NAME_1011501"
         },
         RESOURCE_NAME_1011502 = {
@@ -49243,7 +49271,7 @@ local Data = {
           TextMapId = "UI_Banner_SkinGacha_Goto"
         },
         UI_Banner_Tab_SaleForNew = {
-          ContentTC = "超値特惠760%",
+          ContentTC = "超値特惠2930%",
           TextMapId = "UI_Banner_Tab_SaleForNew"
         },
         UI_Banner_Tab_SpSale_10 = {
@@ -57731,23 +57759,23 @@ local Data = {
           TextMapId = "UI_Language_Text_CN"
         },
         UI_Language_Text_DE = {
-          ContentTC = "Deutsch（德語）",
+          ContentTC = "Deutsch（德文）",
           TextMapId = "UI_Language_Text_DE"
         },
         UI_Language_Text_EN = {
-          ContentTC = "English（英語）",
+          ContentTC = "English（英文）",
           TextMapId = "UI_Language_Text_EN"
         },
         UI_Language_Text_ES = {
-          ContentTC = "Español（西班牙語）",
+          ContentTC = "Español（西班牙文）",
           TextMapId = "UI_Language_Text_ES"
         },
         UI_Language_Text_FR = {
-          ContentTC = "Français（法語）",
+          ContentTC = "Français（法文）",
           TextMapId = "UI_Language_Text_FR"
         },
         UI_Language_Text_JP = {
-          ContentTC = "日本語（日語）",
+          ContentTC = "日本語（日文）",
           TextMapId = "UI_Language_Text_JP"
         },
         UI_Language_Text_KR = {
