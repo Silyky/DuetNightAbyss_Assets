@@ -58228,7 +58228,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "A single sheet of music, recording heroic epics passed among minstrels, filled with many handwritten annotations and modifications. To fully express their views, poets didn't hesitate to use tiny writing to exchange and debate in every blank space on the paper, where numerous perspectives are established and then overturned, making reading the entire piece a thrilling experience.",
     ContentJP = "楽譜。吟遊詩人たちの間で語り継がれる英雄譚が記されたもので、手書きの注釈や修正が無数に書き込まれている。自分の意見を主張するため、詩人たちは紙の隙間にアリのように小さな文字で議論を交わしている。その狭い空間に新たな観点が次々と生まれ、また反論が浮かび上がる様子が見て取れる。すべて読み終える頃には、その衝撃的な内容に心が揺さぶられることだろう。",
     ContentKR = "한 장의 악보. 음유시인들 사이에서 전해지는 영웅 서사시가 기록되어 있다. 손으로 쓴 주석과 수정이 많이 보존되어 있으며, 시인들은 자신의 의견을 충분히 말하기 위해 종이의 모든 여백에 깨알 같은 글씨로 의견을 주고받았다. 손바닥만한 공간에서 여러 가지 견해가 확립되고 뒤집히는 것을 볼 수 있으며, 전부 읽어본다면 충격적인 경험을 할 수 있을 것이다.",
-    ContentTC = "單頁樂譜，記錄著流傳於吟游詩人間的英雄史詩，保存了很多手寫的批註與修改，為了完整陳述自己的意見，詩人們不惜用蠅頭小字在紙張的每一個空隙裡交流辯論，方寸之間可以看見若干種觀點被建立又被推翻，讀完全篇幾乎成了一種驚心動魄的體驗。",
+    ContentTC = "單頁樂譜，記錄著流傳於吟遊詩人間的英雄史詩，保存了很多手寫的批註與修改，為了完整陳述自己的意見，詩人們不惜用蠅頭小字在紙張的每一個空隙裡交流辯論，方寸之間可以看見若干種觀點被建立又被推翻，讀完全篇幾乎成了一種驚心動魄的體驗。",
     TextMapContent = "单页乐谱，记录着流传于吟游诗人间的英雄史诗，保存了很多手写的批注与修改，为了完整陈述自己的意见，诗人们不惜用蝇头小字在纸张的每一个空隙里交流辩论，方寸之间可以看见若干种观点被建立又被推翻，读完全篇几乎成了一种惊心动魄的体验。",
     TextMapId = "RESOURCE_DESC_2011"
         },
@@ -65624,7 +65624,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = ""Through wilderness, thorns pierce his bare feet;\nStill, his haste unceased.\nIn search for the lost beloved,\nUntil his arms, aloft, turn to towering peaks,\nHis blood and tears bloom into crimson wreaths."\n\n— Lirico, Wandering Bard, in "Tales of the Misty Sea"",
     ContentJP = "「荒野の荊棘が彼の裸足を突き刺す。\nしかし、急ぐ足取りは一瞬たりとも止まることはなかった。\n彼は依然として、あの逝った者を探し続けている。\nその高く掲げた腕が、ついには雄大な山脈となるまで。\nその血と涙が、朱紅の花となるまで」\n\n――吟遊詩人 リリコ、『ニヴルヘイム紀行』",
     ContentKR = ""황야의 가시가 그의 벌거벗은 두 발을 꿰뚫어도,\n그의 다급한 발걸음을 멈추지 못했네.\n그는 계속해서 떠난 이를 찾아 다닌다네.\n그가 들어올린 팔이 우뚝 솟은 산이 되고,\n그의 피와 눈물이 붉은 꽃으로 변할 때까지." \n\n—— 음유시인 리리코, <안개의 바다 기행>",
-    ContentTC = "「荒野的荊棘刺破他赤裸的雙足，\n卻未能讓他匆忙的腳步停駐。\n他仍找尋著那逝去的人兒，\n直到他高舉的手臂成為巍峨的山嶽，\n他的血和淚化作朱紅的花。」\n\n——吟游詩人 莉莉蔻，《霧海紀》",
+    ContentTC = "「荒野的荊棘刺破他赤裸的雙足，\n卻未能讓他匆忙的腳步停駐。\n他仍找尋著那逝去的人兒，\n直到他高舉的手臂成為巍峨的山嶽，\n他的血和淚化作朱紅的花。」\n\n——吟遊詩人 莉莉蔻，《霧海紀》",
     TextMapContent = "“荒野的荆棘刺破他赤裸的双足，\n却未能让他匆忙的脚步停驻。\n他仍找寻着那逝去的人儿，\n直到他高举的手臂成为巍峨的山岳，\n他的血和泪化作朱红的花。”\n\n——吟游诗人 莉莉蔻，《雾海纪》\n",
     TextMapId = "RESOURCE_TEXT_20009"
         },
@@ -65832,7 +65832,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = ""Take me to see the glacial blues of the North,\nBeneath the grey canopy of sky,\nWhere a vast ocean of stern, metallic hues lies."\n\n— Lirico, the Wandering Bard, in "Tales of the Misty Sea"",
     ContentJP = "「北方の蒼き氷河を一緒に見にいこう。\n灰色の空の下で、\nあの清冽な光沢のある色彩の広がりを見よう」\n\n――吟遊詩人 リリコ、『ニヴルヘイム紀行』",
     ContentKR = ""북쪽의 푸른 빙하로 절 데려다 주세요.\n회색 하늘 아래.\n그 차가운 금속빛의 바다로." \n\n—— 음유시인 리리코, <안개의 바다 여행기>",
-    ContentTC = "「帶我去看北方的冰川藍吧，\n在灰色的天空下，\n那一泓冷峻的金屬色的汪洋。」\n\n——吟游詩人 莉莉蔻，《霧海紀》",
+    ContentTC = "「帶我去看北方的冰川藍吧，\n在灰色的天空下，\n那一泓冷峻的金屬色的汪洋。」\n\n——吟遊詩人 莉莉蔻，《霧海紀》",
     TextMapContent = "“带我去看北方的冰川蓝吧，\n在灰色的天空下，\n那一泓冷峻的金属色的汪洋。”\n\n——吟游诗人 莉莉蔻，《雾海纪》",
     TextMapId = "RESOURCE_TEXT_20032"
         },
