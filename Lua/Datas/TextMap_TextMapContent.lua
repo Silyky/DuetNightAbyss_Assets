@@ -336,6 +336,10 @@ local Data = {
           TextMapContent = "当前配置未达出战要求",
           TextMapId = "Abyss_PartySetup_ConditionsAreNot"
         },
+        Abyss_PartyUnlock = {
+          TextMapContent = "阵容已解锁",
+          TextMapId = "Abyss_PartyUnlock"
+        },
         Abyss_Party_ConditionsAreNot = {
           TextMapContent = "请先配置阵容",
           TextMapId = "Abyss_Party_ConditionsAreNot"

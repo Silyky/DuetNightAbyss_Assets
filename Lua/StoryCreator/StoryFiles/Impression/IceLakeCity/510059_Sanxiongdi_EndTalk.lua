@@ -245,22 +245,10 @@ return {
                   TalkActorType = "Npc",
                   TalkActorId = 700130,
                   TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 700131,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 700132,
-                  TalkActorVisible = true
                 }
               },
               RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700130},
-                {TalkActorType = "Npc", TalkActorId = 700131},
-                {TalkActorType = "Npc", TalkActorId = 700132}
+                {TalkActorType = "Npc", TalkActorId = 700130}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,

@@ -283,24 +283,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10016] = {
-      CharId = 1101,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81101,
-      UnlockDialogue = 90030901,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes041"
-      },
-      VoiceId = 10016,
-      VoiceRes = {
-        "vo_companio_01"
-      },
-      VoiceText = {
-        "voice_ch_char_Heitao_vo_companio_01"
-      },
-      VoiceType = 1
-    },
     [10017] = {
       CharId = 1101,
       LockedDes = "VoiceLocked_Dialogue",
@@ -1171,24 +1153,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10675] = {
-      CharId = 1103,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81103,
-      UnlockDialogue = 90200801,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes043"
-      },
-      VoiceId = 10675,
-      VoiceRes = {
-        "vo_companio_03"
-      },
-      VoiceText = {
-        "voice_ch_char_Tuosi_vo_companio_03"
-      },
-      VoiceType = 1
-    },
     [10676] = {
       CharId = 1103,
       LockedDes = "VoiceLocked_Dialogue",
@@ -1204,24 +1168,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Tuosi_vo_companio_04"
-      },
-      VoiceType = 1
-    },
-    [10677] = {
-      CharId = 1103,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81103,
-      UnlockDialogue = 90201001,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes045"
-      },
-      VoiceId = 10677,
-      VoiceRes = {
-        "vo_companio_05"
-      },
-      VoiceText = {
-        "voice_ch_char_Tuosi_vo_companio_05"
       },
       VoiceType = 1
     },
@@ -1831,24 +1777,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10881] = {
-      CharId = 1501,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81501,
-      UnlockDialogue = 90250501,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes041"
-      },
-      VoiceId = 10881,
-      VoiceRes = {
-        "vo_companio_01"
-      },
-      VoiceText = {
-        "voice_ch_char_Baonu_vo_companio_01"
-      },
-      VoiceType = 1
-    },
     [10882] = {
       CharId = 1501,
       LockedDes = "VoiceLocked_Dialogue",
@@ -1882,24 +1810,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Baonu_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10884] = {
-      CharId = 1501,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81501,
-      UnlockDialogue = 90250801,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes044"
-      },
-      VoiceId = 10884,
-      VoiceRes = {
-        "vo_companio_04"
-      },
-      VoiceText = {
-        "voice_ch_char_Baonu_vo_companio_04"
       },
       VoiceType = 1
     },
@@ -2693,60 +2603,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Nifu_vo_companio_01"
-      },
-      VoiceType = 1
-    },
-    [10579] = {
-      CharId = 1502,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81502,
-      UnlockDialogue = 90220601,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes042"
-      },
-      VoiceId = 10579,
-      VoiceRes = {
-        "vo_companio_02"
-      },
-      VoiceText = {
-        "voice_ch_char_Nifu_vo_companio_02"
-      },
-      VoiceType = 1
-    },
-    [10580] = {
-      CharId = 1502,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81502,
-      UnlockDialogue = 90220701,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes043"
-      },
-      VoiceId = 10580,
-      VoiceRes = {
-        "vo_companio_03"
-      },
-      VoiceText = {
-        "voice_ch_char_Nifu_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10581] = {
-      CharId = 1502,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81502,
-      UnlockDialogue = 90220801,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes044"
-      },
-      VoiceId = 10581,
-      VoiceRes = {
-        "vo_companio_04"
-      },
-      VoiceText = {
-        "voice_ch_char_Nifu_vo_companio_04"
       },
       VoiceType = 1
     },
@@ -4042,24 +3898,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10457] = {
-      CharId = 1801,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 81801,
-      UnlockDialogue = 90150901,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes044"
-      },
-      VoiceId = 10457,
-      VoiceRes = {
-        "vo_companio_04"
-      },
-      VoiceText = {
-        "voice_ch_char_Feina_vo_companio_04"
-      },
-      VoiceType = 1
-    },
     [10458] = {
       CharId = 1801,
       UnitId = 81801,
@@ -4656,24 +4494,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Shuimu_vo_companio_02"
-      },
-      VoiceType = 1
-    },
-    [10056] = {
-      CharId = 2101,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 82101,
-      UnlockDialogue = 90040801,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes043"
-      },
-      VoiceId = 10056,
-      VoiceRes = {
-        "vo_companio_03"
-      },
-      VoiceText = {
-        "voice_ch_char_Shuimu_vo_companio_03"
       },
       VoiceType = 1
     },
@@ -8878,24 +8698,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10415] = {
-      CharId = 3301,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 83301,
-      UnlockDialogue = 90170601,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes041"
-      },
-      VoiceId = 10415,
-      VoiceRes = {
-        "vo_companio_01"
-      },
-      VoiceText = {
-        "voice_ch_char_Maer_vo_companio_01"
-      },
-      VoiceType = 1
-    },
     [10416] = {
       CharId = 3301,
       LockedDes = "VoiceLocked_Dialogue",
@@ -8947,24 +8749,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Maer_vo_companio_04"
-      },
-      VoiceType = 1
-    },
-    [10419] = {
-      CharId = 3301,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 83301,
-      UnlockDialogue = 90171001,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes045"
-      },
-      VoiceId = 10419,
-      VoiceRes = {
-        "vo_companio_05"
-      },
-      VoiceText = {
-        "voice_ch_char_Maer_vo_companio_05"
       },
       VoiceType = 1
     },
@@ -9725,24 +9509,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10625] = {
-      CharId = 4101,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 84101,
-      UnlockDialogue = 90210801,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes041"
-      },
-      VoiceId = 10625,
-      VoiceRes = {
-        "vo_companio_01"
-      },
-      VoiceText = {
-        "voice_ch_char_Lise_vo_companio_01"
-      },
-      VoiceType = 1
-    },
     [10626] = {
       CharId = 4101,
       LockedDes = "VoiceLocked_Dialogue",
@@ -9758,24 +9524,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Lise_vo_companio_02"
-      },
-      VoiceType = 1
-    },
-    [10627] = {
-      CharId = 4101,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 84101,
-      UnlockDialogue = 90211001,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes043"
-      },
-      VoiceId = 10627,
-      VoiceRes = {
-        "vo_companio_03"
-      },
-      VoiceText = {
-        "voice_ch_char_Lise_vo_companio_03"
       },
       VoiceType = 1
     },
@@ -10410,24 +10158,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Zhiliu_vo_companio_03"
-      },
-      VoiceType = 1
-    },
-    [10848] = {
-      CharId = 4102,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 84102,
-      UnlockDialogue = 90230701,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes044"
-      },
-      VoiceId = 10848,
-      VoiceRes = {
-        "vo_companio_04"
-      },
-      VoiceText = {
-        "voice_ch_char_Zhiliu_vo_companio_04"
       },
       VoiceType = 1
     },
@@ -11964,42 +11694,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10373] = {
-      CharId = 4301,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 84301,
-      UnlockDialogue = 90090601,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes042"
-      },
-      VoiceId = 10373,
-      VoiceRes = {
-        "vo_companio_02"
-      },
-      VoiceText = {
-        "voice_ch_char_Xibi_vo_companio_02"
-      },
-      VoiceType = 1
-    },
-    [10374] = {
-      CharId = 4301,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 84301,
-      UnlockDialogue = 90090701,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes043"
-      },
-      VoiceId = 10374,
-      VoiceRes = {
-        "vo_companio_03"
-      },
-      VoiceText = {
-        "voice_ch_char_Xibi_vo_companio_03"
-      },
-      VoiceType = 1
-    },
     [10375] = {
       CharId = 4301,
       LockedDes = "VoiceLocked_Dialogue",
@@ -13259,60 +12953,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceType = 1
     },
-    [10806] = {
-      CharId = 5102,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 85102,
-      UnlockDialogue = 90160801,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes043"
-      },
-      VoiceId = 10806,
-      VoiceRes = {
-        "vo_companio_03_1"
-      },
-      VoiceText = {
-        "voice_ch_char_Aote_vo_companio_03_1"
-      },
-      VoiceType = 1
-    },
-    [10807] = {
-      CharId = 5102,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 85102,
-      UnlockDialogue = 90160802,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes043"
-      },
-      VoiceId = 10807,
-      VoiceRes = {
-        "vo_companio_03_2"
-      },
-      VoiceText = {
-        "voice_ch_char_Aote_vo_companio_03_2"
-      },
-      VoiceType = 1
-    },
-    [10808] = {
-      CharId = 5102,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 85102,
-      UnlockDialogue = 90160901,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes044"
-      },
-      VoiceId = 10808,
-      VoiceRes = {
-        "vo_companio_04"
-      },
-      VoiceText = {
-        "voice_ch_char_Aote_vo_companio_04"
-      },
-      VoiceType = 1
-    },
     [10809] = {
       CharId = 5102,
       UnitId = 85102,
@@ -13930,24 +13570,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Saiqi_vo_companio_01"
-      },
-      VoiceType = 1
-    },
-    [10232] = {
-      CharId = 5301,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 85301,
-      UnlockDialogue = 90100701,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes042"
-      },
-      VoiceId = 10232,
-      VoiceRes = {
-        "vo_companio_02"
-      },
-      VoiceText = {
-        "voice_ch_char_Saiqi_vo_companio_02"
       },
       VoiceType = 1
     },
@@ -14741,24 +14363,6 @@ return ReadOnly("CharVoice", {
       },
       VoiceText = {
         "voice_ch_char_Dafu_vo_idle"
-      },
-      VoiceType = 1
-    },
-    [10728] = {
-      CharId = 5401,
-      LockedDes = "VoiceLocked_Dialogue",
-      UnitId = 85401,
-      UnlockDialogue = 90190601,
-      VoiceDes = {
-        "VoiceDes001",
-        "VoiceDes041"
-      },
-      VoiceId = 10728,
-      VoiceRes = {
-        "vo_companio_01"
-      },
-      VoiceText = {
-        "voice_ch_char_Dafu_vo_companio_01"
       },
       VoiceType = 1
     },

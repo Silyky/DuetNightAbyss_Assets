@@ -117,7 +117,7 @@ return {
             pos = {x = 1232, y = 292},
             propsData = {
               IsNpcNode = false,
-              FirstDialogueId = 90030901,
+              FirstDialogueId = 90031201,
               FlowAssetPath = "",
               TalkType = "Bubble",
               BubblePlayType = "Once",

@@ -336,6 +336,10 @@ local Data = {
           ContentJP = "現在の編成では出撃条件を満たしていません",
           TextMapId = "Abyss_PartySetup_ConditionsAreNot"
         },
+        Abyss_PartyUnlock = {
+          ContentJP = "編成がロック解除済",
+          TextMapId = "Abyss_PartyUnlock"
+        },
         Abyss_Party_ConditionsAreNot = {
           ContentJP = "編成を設定してください",
           TextMapId = "Abyss_Party_ConditionsAreNot"

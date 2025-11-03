@@ -336,6 +336,10 @@ local Data = {
           ContentKR = "현재 설정이 출전 요구 사항을 충족하지 못했습니다",
           TextMapId = "Abyss_PartySetup_ConditionsAreNot"
         },
+        Abyss_PartyUnlock = {
+          ContentKR = "라인업이 해제되었습니다.",
+          TextMapId = "Abyss_PartyUnlock"
+        },
         Abyss_Party_ConditionsAreNot = {
           ContentKR = "먼저 라인업을 설정하세요",
           TextMapId = "Abyss_Party_ConditionsAreNot"

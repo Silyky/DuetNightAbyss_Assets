@@ -158570,16 +158570,6 @@ local Data = {
               }
             },
             [2] = {
-              LookAt = {
-                LookAtDescription = {LookId = 700131, LookedInfo = 0}
-              }
-            },
-            [3] = {
-              LookAt = {
-                LookAtDescription = {LookId = 700132, LookedInfo = 0}
-              }
-            },
-            [4] = {
               TurnTo = {
                 TurnToDescription = {
                   P1 = 700130,
@@ -158587,33 +158577,6 @@ local Data = {
                   Type = "Actor"
                 }
               }
-            },
-            [5] = {
-              TurnTo = {
-                TurnToDescription = {
-                  P1 = 700131,
-                  P2 = 0,
-                  Type = "Actor"
-                }
-              }
-            },
-            [6] = {
-              TurnTo = {
-                TurnToDescription = {
-                  P1 = 700132,
-                  P2 = 0,
-                  Type = "Actor"
-                }
-              }
-            },
-            [7] = {
-              PlayAnimation = {ActorId = 700130, AnimationId = "Agree"}
-            },
-            [8] = {
-              PlayAnimation = {ActorId = 700131, AnimationId = "Agree"}
-            },
-            [9] = {
-              PlayAnimation = {ActorId = 700132, AnimationId = "Agree"}
             }
           },
           bAllowClick = true

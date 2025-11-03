@@ -336,6 +336,10 @@ local Data = {
           ContentEN = "Cannot start. Requirements not met",
           TextMapId = "Abyss_PartySetup_ConditionsAreNot"
         },
+        Abyss_PartyUnlock = {
+          ContentEN = "Team setup unlocked",
+          TextMapId = "Abyss_PartyUnlock"
+        },
         Abyss_Party_ConditionsAreNot = {
           ContentEN = "Please set up a team first",
           TextMapId = "Abyss_Party_ConditionsAreNot"
