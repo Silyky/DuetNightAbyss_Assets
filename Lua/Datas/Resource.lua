@@ -6737,6 +6737,31 @@ return ReadOnly("Resource", {
     UIDisplayTime = 15.9,
     UseBPFunction = "Gesture"
   },
+  [41028] = {
+    AccessKey = {
+      "Shop_Main"
+    },
+    CombatConditionID = {
+      [1] = 500,
+      [2] = 67
+    },
+    CombatConditionToast = {
+      [1] = "UI_DO_NOT_PASS_CONDITION",
+      [2] = "UI_DO_NOT_PASS_CONDITION"
+    },
+    DetailDes = "RESOURCE_DESC_41028",
+    FunctionDes = "RESOURCE_FUNCTION_ACTION",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Action/T_Resource_Gesture_SkillGomoku.T_Resource_Gesture_SkillGomoku",
+    PlayAnim = "Gesture_Dance01",
+    Rarity = 4,
+    ResourceId = 41028,
+    ResourceName = "RESOURCE_NAME_41028",
+    ResourceSType = "GestureItem",
+    ResourceValue = -1,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = "InfiniteBattleItem",
+    UseBPFunction = "Gesture"
+  },
   [42001] = {
     FunctionDes = "RESOURCE_FUNCTION_ACTION",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Action/T_Resource_Gesture_ViolinDarkIndigo.T_Resource_Gesture_ViolinDarkIndigo",

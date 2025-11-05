@@ -29678,6 +29678,10 @@ local Data = {
           TextMapContent = "极速奔驰之后，享受片刻静谧。",
           TextMapId = "RESOURCE_DESC_41018"
         },
+        RESOURCE_DESC_41028 = {
+          TextMapContent = "释放技能“特殊展示动作”。",
+          TextMapId = "RESOURCE_DESC_41028"
+        },
         RESOURCE_DESC_5000000 = {
           TextMapContent = "可用作稀有魔之楔的强化",
           TextMapId = "RESOURCE_DESC_5000000"
@@ -32145,6 +32149,10 @@ local Data = {
         RESOURCE_NAME_41018 = {
           TextMapContent = "极速定格·鎏金",
           TextMapId = "RESOURCE_NAME_41018"
+        },
+        RESOURCE_NAME_41028 = {
+          TextMapContent = "技能五子棋",
+          TextMapId = "RESOURCE_NAME_41028"
         },
         RESOURCE_NAME_42001 = {
           TextMapContent = "牵机方枢",
@@ -43489,7 +43497,7 @@ local Data = {
         Two = {
           TextMapContent = "2",
           TextMapId = "Two",
-        },
+        }
         UIGUIDE_AMMO = {
           TextMapContent = "通过击败敌人，打开储物箱，破坏场景中的可破坏物等方式有几率获得弹药补给，进而补充远程武器的弹药。",
           TextMapId = "UIGUIDE_AMMO"
@@ -50583,7 +50591,7 @@ local Data = {
           TextMapId = "UI_Banner_Tab_SaleForNew"
         },
         UI_Banner_Tab_SpSale_10 = {
-          TextMapContent = "超值返利1000%",
+          TextMapContent = "超值返利1366%",
           TextMapId = "UI_Banner_Tab_SpSale_10"
         },
         UI_Banner_Tab_WeaponSkinForNew = {

@@ -2503,6 +2503,7 @@ return ReadOnly("SkillCreature", {
   },
   [510102] = {
     AttachOwner = 1,
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Songlu_SceneBox.BP_Songlu_SceneBox",
     BoundCount = 1,
     CreatureId = 510102,
     DestroyWithCreator = 1,

@@ -226,12 +226,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17503190879501855441",
-            startPort = "false",
-            endQuest = "17503190879501855433",
-            endPort = "Success"
-          },
-          {
             startQuest = "17503190879501855446",
             startPort = "Out",
             endQuest = "17504112816104526972",
@@ -349,6 +343,12 @@ return {
             startQuest = "17503190879501855436",
             startPort = "Out",
             endQuest = "17503190879501855446",
+            endPort = "In"
+          },
+          {
+            startQuest = "17503190879501855441",
+            startPort = "false",
+            endQuest = "17622264034512014",
             endPort = "In"
           }
         },
@@ -1986,6 +1986,13 @@ return {
             name = "音频条件节点",
             pos = {x = 2594.537395979511, y = 88.56650295923295},
             propsData = {ActionType = 1, Condition = "party"}
+          },
+          ["17622264034512014"] = {
+            key = "17622264034512014",
+            type = "SpecialQuestSuccessNode",
+            name = "成功完成特殊任务",
+            pos = {x = -234.5955882352941, y = 560.6254901960784},
+            propsData = {}
           }
         },
         commentData = {}

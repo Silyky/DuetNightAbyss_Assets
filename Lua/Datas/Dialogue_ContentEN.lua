@@ -29837,7 +29837,7 @@ local Data = {
         },
         [10100613] = {
           Camera = "-184.384766,162.758789,125.498535,0.001232,0.301116,-34.69698,38.839439,410.389923,false,Manual,2.4",
-          ContentEN = "{性别:Whoa... Stop it... aren't you a bit old to be a crybaby, mate?|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!}",
+          ContentEN = "{性别:Stop it... Whoa... aren't you a bit old to be a crybaby, mate?|Whoa... why are you crying? Darn it, Chief never told us how to deal with tearful young ladies!}",
           DefaultLookAt = "TalkNpc",
           DialogueId = 10100613,
           ExStoryInfo = "Player",
@@ -42544,7 +42544,6 @@ local Data = {
         },
         [10108605] = {
           Camera = "-294.443359,996.944824,136.692383,0.00046,2.199457,-90.197632,50.0,334.402466,false,Manual,8.0",
-          ContentEN = "{空格}",
           DialogueId = 10108605,
           GUID = "194E4A85",
           LookAt = {
@@ -42555,7 +42554,6 @@ local Data = {
           Subtitle = "Snow, get back here. This water is freezing, even for a Charon."
         },
         [10108606] = {
-          ContentEN = "{空格}",
           DialogueId = 10108606,
           DisableMouth = 1,
           GUID = "194E4A86",
@@ -93934,7 +93932,7 @@ local Data = {
         },
         [51002107] = {
           Camera = "119.585938,-26.257812,128.0,-0.0,-9.999997,-145.798935,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "I don't even recall what started it. But I do remember the last thing we said before it turned physical — he called me "One-Eye," and I shot back with "googly-eyed toad."",
+          ContentEN = "It's coming back to me now. I once got into a fight with the boy who lived here. Can't quite remember his name... but he must've been Brunetto's grandson.",
           DialogueId = 51002107,
           FinalCamera = "119.585938,-26.257812,128.0,0.0,-9.999997,-138.598923,35.0,100000.0,false,DoNotOverride,2.8",
           GUID = "7FADAC8A",
@@ -93948,7 +93946,7 @@ local Data = {
         },
         [51002108] = {
           Camera = "-180.842773,-670.0,18.0,0.000018,4.000004,83.599602,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "Heh... I was kinda mean back then. Funny thing is, I don't think I was actually mad. I still had Berry with me, after all...",
+          ContentEN = "I don't even recall what started it. But I do remember the last thing we said before it turned physical — he called me "One-Eye," and I shot back with "googly-eyed toad."",
           DialogueId = 51002108,
           GUID = "7FADAC8B",
           NextDialogue = 51002109,
@@ -93957,7 +93955,7 @@ local Data = {
         },
         [51002109] = {
           Camera = "-143.595703,-312.263672,94.0,0.0,0.0,57.398624,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "And later... I think we made up. I remember the two of us climbing up to the roof...",
+          ContentEN = "Heh... I was kinda mean back then. Funny thing is, I don't think I was actually mad. I still had Berry with me, after all...",
           DialogueId = 51002109,
           GUID = "7FADAC8C",
           NextDialogue = 51002110,
@@ -93966,7 +93964,7 @@ local Data = {
         },
         [51002110] = {
           Camera = "70.748047,32.113281,1751.04126,0.000001,-10.799894,-176.601151,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "Yeah — this spot. Right here. A few days later, he came back with food to apologise. I was all ready to yell at him... but when I saw that bread in his hands — big enough for the three of us to eat our fill — well, my stomach won that battle over my pride.",
+          ContentEN = "And later... I think we made up. I remember the two of us climbing up to the roof...",
           DialogueId = 51002110,
           FinalCamera = "70.748047,32.113281,1859.0,0.000001,-10.799894,-176.601151,35.0,100000.0,false,DoNotOverride,2.8",
           GUID = "7FADAC8D",
@@ -93975,7 +93973,7 @@ local Data = {
         },
         [51002111] = {
           Camera = "51.001041,365.471497,103.367798,0.000078,-11.300083,-137.003372,20.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "So we sat up here, the three of us. Quietly chewing on that tough, burnt bread, watching the sun dip low while the grown-ups hauled in the day's catch.",
+          ContentEN = "Yeah — this spot. Right here. A few days later, he came back with food to apologise. I was all ready to yell at him... but when I saw that bread in his hands — big enough for the three of us to eat our fill — well, my stomach won that battle over my pride.",
           DialogueId = 51002111,
           FinalCamera = "14.224466,404.913452,103.367798,0.000078,-11.300083,-137.003372,20.0,100000.0,false,DoNotOverride,2.8",
           GUID = "7FADAC8E",
@@ -93985,7 +93983,7 @@ local Data = {
         },
         [51002112] = {
           Camera = "-78.281792,63.089108,96.67688,0.000094,-0.099919,90.79702,20.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "And then... with one massive bite, he started hiccuping like crazy. We couldn't stop laughing — and just like that, the fight was forgotten.",
+          ContentEN = "So we sat up here, the three of us. Quietly chewing on that tough, burnt bread, watching the sun dip low while the grown-ups hauled in the day's catch.",
           DialogueId = 51002112,
           FinalCamera = "-123.657745,62.460995,96.67688,0.000094,-0.099919,90.797005,20.0,100000.0,false,DoNotOverride,2.8",
           GUID = "7FADAC8F",
@@ -94008,7 +94006,7 @@ local Data = {
         },
         [51002114] = {
           Camera = "-172.15773,415.39325,62.499023,0.000002,0.0,-57.003651,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "If you can't find anything, just bring back something for me. Anything will do, even a blade of grass.",
+          ContentEN = "...Huh. Guess I've known Brunetto — sort of — since way back then.",
           DialogueId = 51002114,
           FacialId = {
             [1] = "700210:Smile02"
@@ -94019,7 +94017,7 @@ local Data = {
         },
         [51002115] = {
           Camera = "-172.15773,415.39325,62.499023,0.000002,0.0,-57.003651,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "Maybe I'll bring him a little extra, too. If I remember right, the fish are nice and plump this time of year.",
+          ContentEN = "If you can't find anything, just bring back something for me. Anything will do, even a blade of grass.",
           DialogueId = 51002115,
           GUID = "7FADAC92",
           GraphPath = "Texture2D'/Game/UI/Texture/Dynamic/Image/Story/Recall/T_Story_Recall_10030106.T_Story_Recall_10030106'",
@@ -94028,7 +94026,7 @@ local Data = {
         },
         [51002116] = {
           Camera = "167.319687,115.790215,166.645142,0.000015,-18.599697,145.793152,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "Alright — time to head back. This should help ease a bit of that homesickness.",
+          ContentEN = "Maybe I'll bring him a little extra, too. If I remember right, the fish are nice and plump this time of year.",
           DialogueId = 51002116,
           FinalCamera = "181.948135,137.309357,166.645142,0.000015,-18.599697,145.793152,35.0,100000.0,false,DoNotOverride,2.8",
           GUID = "7FADAC93",
@@ -94036,7 +94034,7 @@ local Data = {
           ToFinalCameraBlendTime = 7
         },
         [51002117] = {
-          ContentEN = "Huh. Got to know the grandson through a fistfight... and the grandfather through a street scam. Heh. Life really does have a funny way of looping people together, doesn't it?",
+          ContentEN = "Alright — time to head back. This should help ease a bit of that homesickness.",
           DialogueId = 51002117,
           Duration = 3,
           GUID = "7FADAC94",
@@ -95972,7 +95970,7 @@ local Data = {
           SpeakNpcId = 700206
         },
         [51003712] = {
-          ContentEN = "(It took some effort, but you managed to recover the wire — thankfully, it's still intact. By the time you look up again, Lulu Lunoloot has already vanished without a trace.)",
+          ContentEN = "(It took some effort, but the wire is still intact. By the time you look up again, Lulu Lunoloot has already vanished.)",
           DialogueId = 51003712,
           Duration = 5,
           GUID = "7FAEA5C4",
@@ -101917,40 +101915,40 @@ local Data = {
           SpeakNpcId = 700230
         },
         [51006922] = {
-          ContentEN = "Bin diving's not really my thing, thanks.",
+          ContentEN = "I haven't even touched anything!",
           DialogueId = 51006922,
           GUID = "7FB0C0DA",
           NextDialogue = 51006924
         },
         [51006923] = {
-          ContentEN = "Don't play dumb, kid.",
+          ContentEN = "Bin diving's not really my thing, thanks.",
           DialogueId = 51006923,
           GUID = "7FB0C0DB",
           NextDialogue = 51006924
         },
         [51006924] = {
-          ContentEN = "Yesterday, some woman in uniform came by — sobbing her eyes out. She chucked a box right into the bin. Some nice old lady picking through scraps tried to ask if she was okay... got yelled at, real nasty. Told her to shove off and mind her own business.",
+          ContentEN = "Don't play dumb, kid.",
           DialogueId = 51006924,
           GUID = "7FB0C0DC",
           NextDialogue = 51006925,
           SpeakNpcId = 700230
         },
         [51006925] = {
-          ContentEN = "And that box you're holding? Yeah, that one. So... still wanna say you didn't dig through the bin?",
+          ContentEN = "Yesterday, some woman in uniform came by — sobbing her eyes out. She chucked a box right into the bin. Some nice old lady picking through scraps tried to ask if she was okay... got yelled at, real nasty. Told her to shove off and mind her own business.",
           DialogueId = 51006925,
           GUID = "7FB0C0DD",
           NextDialogue = 51006926,
           SpeakNpcId = 700230
         },
         [51006926] = {
-          ContentEN = "It wasn't— ...you know what, forget it. Thanks for the info anyway.",
+          ContentEN = "And that box you're holding? Yeah, that one. So... still wanna say you didn't dig through the bin?",
           DialogueId = 51006926,
           GUID = "7FB0C0DE",
           NextDialogue = 51006927,
           SpeakNpcId = 700230
         },
         [51006927] = {
-          ContentEN = "(A woman in uniform... Could she have something to do with one of the items Margie gave me?)",
+          ContentEN = "It wasn't— ...you know what, forget it. Thanks for the info anyway.",
           DialogueId = 51006927,
           GUID = "7FB0C0DF",
           NextDialogue = 51006928,
@@ -109132,7 +109130,7 @@ local Data = {
           }
         },
         [51009513] = {
-          ContentEN = "(A kidnapping appears to be unfolding before your eyes. Though Violetta has decided to turn to the Escort, perhaps you should keep an eye on the case and see how it plays out.)",
+          ContentEN = "(A kidnapping appears to be unfolding. Though Violetta has decided to turn to the Escort, perhaps you should keep an eye.)",
           DialogueId = 51009513,
           GUID = "7FB26C3A",
           Scripts = "PlayOrStopBGM{_delay{10},PlayType{"Stop"},SoundType{"SOUND_BGM"},EventPath{"event:/bgm/cbt02/0043_story_empire"}}"
@@ -116369,7 +116367,7 @@ local Data = {
           SpeakNpcId = 700338
         },
         [51011601] = {
-          Content = "末日将至啊……末日将至……",
+          ContentEN = "The end draws near... it draws near...",
           DialogueId = 51011601,
           GUID = "7FB3C2CA",
           SpeakNpcId = 700337
@@ -120638,7 +120636,7 @@ local Data = {
           SpeakNpcId = 818041
         },
         [71005101] = {
-          Content = "鱼来，鱼来。",
+          ContentEN = "Come, fish. Come.",
           DialogueId = 71005101,
           GUID = "B1C0EAA3",
           SpeakNpcId = 818045
@@ -120886,14 +120884,14 @@ local Data = {
           SpeakNpcId = 818045
         },
         [71005137] = {
-          Content = "（男人说完指了指你。）",
+          ContentEN = "(He points at you.)",
           DialogueId = 71005137,
           GUID = "B1C0FEFC",
           NextDialogue = 71005138,
           SpeakNpcId = 800006
         },
         [71005138] = {
-          Content = "钓鱼钓的也可以不是鱼。撒下几句话，做一些奇怪的事，就会有无数鱼争相咬钩。",
+          ContentEN = "Not every fish has fins, you know. Sometimes all it takes is a few cryptic words and a strange act or two... And something always bites.",
           DialogueId = 71005138,
           GUID = "B1C0FEFD",
           NextDialogue = 71005139,
@@ -121006,14 +121004,14 @@ local Data = {
           SpeakNpcId = 800006
         },
         [71005212] = {
-          Content = "是呀，幸福硬币就是我们手里的铜币。它不是魔法创造出来的宝贝，而是诞生自大家的善意。",
+          ContentEN = "Yup. Because they are both lucky coins. Not made by magic — made by kindness.",
           DialogueId = 71005212,
           GUID = "B1C10B9F",
           NextDialogue = 71005213,
           SpeakNpcId = 818048
         },
         [71005213] = {
-          Content = "一枚幸福硬币就能买到她的笑容，这么轻松的买卖可不多见呀。",
+          ContentEN = "Just a few spare coins for a little girl's smile. Honestly? That might be one of the best trades you'll ever find.",
           DialogueId = 71005213,
           GUID = "B1C10BA0",
           SpeakNpcId = 818048
@@ -121543,7 +121541,7 @@ local Data = {
           SpeakNpcId = 818054
         },
         [71005921] = {
-          Content = "哇，爸爸真的好厉害！",
+          ContentEN = "Whoa! You're amazing, Daddy!",
           DialogueId = 71005921,
           GUID = "B1C180EA",
           NextDialogue = 71005922,

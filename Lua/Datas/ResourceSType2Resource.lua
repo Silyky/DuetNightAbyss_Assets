@@ -265,7 +265,8 @@ return ReadOnly("ResourceSType2Resource", {
     [15] = 41015,
     [16] = 41016,
     [17] = 41017,
-    [18] = 41018
+    [18] = 41018,
+    [19] = 41028
   },
   Impression = {
     [1] = 3001,

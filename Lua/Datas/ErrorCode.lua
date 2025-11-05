@@ -1318,6 +1318,14 @@ return ReadOnly("ErrorCode", {
     ErrorCodeContent = "调用副本事件生成器时不在副本中",
     ErrorCodeId = 8008
   },
+  [8009] = {
+    ContentEN = "Unable to catch Geniemons after joining ongoing co-op commissions",
+    ContentJP = "マルチプレイの依頼に途中参加する場合、ジェネモンを獲得できません。",
+    ContentKR = "멀티 의뢰에 중도 합류 시 해당 마령을 획득할 수 없습니다.",
+    ContentTC = "中途加入聯機委托，無法獲取該魔靈",
+    ErrorCodeContent = "中途加入联机委托，无法获取该魔灵",
+    ErrorCodeId = 8009
+  },
   [9001] = {
     ContentEN = "The skill does not exist",
     ContentJP = "このスキルが見つかりません",
