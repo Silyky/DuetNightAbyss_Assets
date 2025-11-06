@@ -9591,7 +9591,7 @@ local Data = {
           TextMapId = "GRADEUP_1801_02"
         },
         GRADEUP_1801_03 = {
-          ContentJP = "「あるうららかな午後」Lv.+2、「悪い魔法使いは光が苦手」Lv.+1 ",
+          ContentJP = "「あるうららかな午後」Lv.+2、「悪い魔法使いは光が苦手」Lv.+1",
           TextMapId = "GRADEUP_1801_03"
         },
         GRADEUP_1801_04 = {
@@ -36855,7 +36855,7 @@ local Data = {
           TextMapId = "SKILL_180104_NAME"
         },
         SKILL_180191_DESC = {
-          ContentJP = "<H>「戦友時のみ発動」</>\n 自身および近くにいる、片手剣または突撃槍をを得意武器とする味方の武器ダメージがアップする。",
+          ContentJP = "<H>「戦友時のみ発動」</>\n自身および近くにいる、片手剣またはライフルを熟練武器とする味方の武器ダメージがアップする。",
           TextMapId = "SKILL_180191_DESC"
         },
         SKILL_180191_NAME = {
@@ -37191,7 +37191,7 @@ local Data = {
           TextMapId = "SKILL_310303_NAME"
         },
         SKILL_310304_DESC = {
-          ContentJP = "「キュートちゃん」を発動するたびに「轟く狂気」を1トークン獲得、最大1トークンまで重ねがけ可能。",
+          ContentJP = "「キュートちゃん」を発動するたびに「轟く狂気」を1トークン獲得、最大3トークンまで重ねがけ可能。",
           TextMapId = "SKILL_310304_DESC"
         },
         SKILL_310304_NAME = {

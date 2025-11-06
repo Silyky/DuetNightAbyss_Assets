@@ -21047,8 +21047,8 @@ return ReadOnly("TextMap_I18n", {
         },
   GRADEUP_1801_03 = {
     ContentEN = "["On a Warm Afternoon"] Level +2; ["Bad Sorcerers Hate Sunlight!"] Level +1.",
-    ContentJP = "「あるうららかな午後」Lv.+2、「悪い魔法使いは光が苦手」Lv.+1 ",
-    ContentKR = "["어느 따뜻한 오후에"] 레벨+2, ["나쁜 마녀는 햇빛을 무서워한대!"] 레벨+1.",
+    ContentJP = "「あるうららかな午後」Lv.+2、「悪い魔法使いは光が苦手」Lv.+1",
+    ContentKR = "["어느 따뜻한 오후에"] 레벨+2, ["나쁜 마법사는 햇빛을 무서워한대!"] 레벨+1.",
     ContentTC = "「「在一個暖和的午後」」等級+2，「「壞巫師最怕陽光了！」」等級+1。",
     TextMapContent = "[“在一个暖和的午后”]等级+2，[“坏巫师最怕阳光了！”]等级+1。",
     TextMapId = "GRADEUP_1801_03"
@@ -21064,7 +21064,7 @@ return ReadOnly("TextMap_I18n", {
   GRADEUP_1801_05 = {
     ContentEN = "["Let the Tea Party Begin!"] Level +2; ["Bad Sorcerers Hate Sunlight!"] Level +1.",
     ContentJP = "「お茶会のはじまりです！」Lv.+2、「悪い魔法使いは光が苦手」Lv.+1",
-    ContentKR = "["티타임이 시작됐다!"] 레벨+2, ["나쁜 마녀는 햇빛을 무서워한대!"] 레벨+1.",
+    ContentKR = "["티타임이 시작됐다!"] 레벨+2, ["나쁜 마법사는 햇빛을 무서워한대!"] 레벨+1.",
     ContentTC = "「「下午茶開始了！」」等級+2，「「壞巫師最怕陽光了！」」等級+1。",
     TextMapContent = "[“下午茶开始了！”]等级+2，[“坏巫师最怕阳光了！”]等级+1。",
     TextMapId = "GRADEUP_1801_05"
@@ -75903,7 +75903,7 @@ return ReadOnly("TextMap_I18n", {
   SKILL_180103_NAME = {
     ContentEN = ""Bad Sorcerers Hate Sunlight!"",
     ContentJP = "「悪い魔法使いは光が苦手」",
-    ContentKR = ""나쁜 마녀는 햇빛을 무서워한대!"",
+    ContentKR = ""나쁜 마법사는 햇빛을 무서워한대!"",
     ContentTC = "「壞巫師最怕陽光了！」",
     TextMapContent = "“坏巫师最怕阳光了！”",
     TextMapId = "SKILL_180103_NAME"
@@ -75926,7 +75926,7 @@ return ReadOnly("TextMap_I18n", {
         },
   SKILL_180191_DESC = {
     ContentEN = "<H>[Available only when deployed as a Combat Partner]</>\nIncreases Weapon DMG for self and allies proficient in Swords or Assault Rifles.",
-    ContentJP = "<H>「戦友時のみ発動」</>\n 自身および近くにいる、片手剣または突撃槍をを得意武器とする味方の武器ダメージがアップする。",
+    ContentJP = "<H>「戦友時のみ発動」</>\n自身および近くにいる、片手剣またはライフルを熟練武器とする味方の武器ダメージがアップする。",
     ContentKR = "<H>[협력 동료로 등장할 때에만 적용]</>\n자신과 마스터리 무기에 한손검과 돌격소총을 포함한 팀원이 입히는 무기 대미지가 상승한다.",
     ContentTC = "<H>[僅在作為協戰同伴登場時生效]</>\n自身和精通武器包含單手劍或突擊槍的隊友造成的武器傷害提高。",
     TextMapContent = "<H>[仅在作为协战同伴登场时生效]</>\n自身和精通武器包含单手剑或突击枪的队友造成的武器伤害提高。",
@@ -76598,7 +76598,7 @@ return ReadOnly("TextMap_I18n", {
         },
   SKILL_310304_DESC = {
     ContentEN = "Each time a [Tot Popper] is deployed, Yale and Oliver gains 1 stack of [Bombing Frenzy], up to 3 stacks.\n[Bombing Frenzy]: Increases Skill Efficiency.",
-    ContentJP = "「キュートちゃん」を発動するたびに「轟く狂気」を1トークン獲得、最大1トークンまで重ねがけ可能。",
+    ContentJP = "「キュートちゃん」を発動するたびに「轟く狂気」を1トークン獲得、最大3トークンまで重ねがけ可能。",
     ContentKR = "[귀요미]를 시전할 때마다 [광란의 굉음] 1단계 획득한다. 스킬 효율 상승, 최대 중첩 3단계.",
     ContentTC = "每次釋放「小可愛」時獲得1層「轟鳴狂熱」：技能效益提高，最多疊加3層。",
     TextMapContent = "每次释放[小可爱]时获得1层[轰鸣狂热]：技能效益提高，最多叠加3层。",

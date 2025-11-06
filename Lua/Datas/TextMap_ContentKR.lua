@@ -9596,7 +9596,7 @@ local Data = {
           TextMapId = "GRADEUP_1801_02"
         },
         GRADEUP_1801_03 = {
-          ContentKR = "["어느 따뜻한 오후에"] 레벨+2, ["나쁜 마녀는 햇빛을 무서워한대!"] 레벨+1.",
+          ContentKR = "["어느 따뜻한 오후에"] 레벨+2, ["나쁜 마법사는 햇빛을 무서워한대!"] 레벨+1.",
           TextMapId = "GRADEUP_1801_03"
         },
         GRADEUP_1801_04 = {
@@ -9604,7 +9604,7 @@ local Data = {
           TextMapId = "GRADEUP_1801_04"
         },
         GRADEUP_1801_05 = {
-          ContentKR = "["티타임이 시작됐다!"] 레벨+2, ["나쁜 마녀는 햇빛을 무서워한대!"] 레벨+1.",
+          ContentKR = "["티타임이 시작됐다!"] 레벨+2, ["나쁜 마법사는 햇빛을 무서워한대!"] 레벨+1.",
           TextMapId = "GRADEUP_1801_05"
         },
         GRADEUP_1801_06 = {
@@ -36852,7 +36852,7 @@ local Data = {
           TextMapId = "SKILL_180103_DESC"
         },
         SKILL_180103_NAME = {
-          ContentKR = ""나쁜 마녀는 햇빛을 무서워한대!"",
+          ContentKR = ""나쁜 마법사는 햇빛을 무서워한대!"",
           TextMapId = "SKILL_180103_NAME"
         },
         SKILL_180104_DESC = {
