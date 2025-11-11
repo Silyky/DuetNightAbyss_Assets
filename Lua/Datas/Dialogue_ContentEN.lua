@@ -77562,7 +77562,7 @@ local Data = {
         },
         [12030406] = {
           Camera = "704.098999,-7.766602,177.265137,0.000081,0.200049,-46.484791,39.289318,402.856293,false,Manual,2.8",
-          ContentEN = "Nuh-uh! I promised she could go on her own. If I follow her around, she'll think I don't trust her.",
+          ContentEN = "Shush. I promised she could go on her own. If I follow her around, she'll think I don't trust her.",
           DialogueId = 12030406,
           FinalCamera = "690.504517,6.551758,177.196289,0.000081,0.200049,-46.484791,39.289318,402.856293,false,Manual,2.8",
           GUID = "1E1DEA7C",
@@ -77859,7 +77859,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120111/1E1DFC0A"
         },
         [12030514] = {
-          ContentEN = "Whoa... that sucks. Being sick is the worst!",
+          ContentEN = "...That sucks. Being sick is the worst!",
           DialogueId = 12030514,
           GUID = "1E1DFC34",
           NextDialogue = 12030515,
@@ -78026,7 +78026,7 @@ local Data = {
         },
         [12030530] = {
           Camera = "-224.390625,-505.521484,146.001465,0.000133,-7.598578,76.013123,35.000019,329.374176,false,Manual,22.0",
-          ContentEN = "Then we'll all be roasted potatoes and Fina be the Gobbler! Is that okay, Fina?",
+          ContentEN = "Then we'll all be roasted potatoes and Fina can be the Gobbler! Is that okay, Fina?",
           DialogueId = 12030530,
           FinalCamera = "-229.759766,-527.399414,148.927734,0.000134,-7.398529,76.212738,35.000019,329.374176,false,Manual,22.0",
           GUID = "1E1DFED4",
@@ -78164,7 +78164,7 @@ local Data = {
         },
         [12030701] = {
           Camera = "-360.602539,-341.077148,99.427734,0.000126,-3.59912,46.511829,35.000015,355.657684,false,DoNotOverride,22.0",
-          ContentEN = "Hehe! The magic roasted potatoes win!",
+          ContentEN = "Yes! The magic roasted potatoes win!",
           DialogueId = 12030701,
           FinalCamera = "-409.727051,-288.272461,99.427734,0.000127,-3.19909,37.711613,35.000015,355.657684,false,DoNotOverride,22.0",
           GUID = "1E1E1AE2",
@@ -78767,7 +78767,7 @@ local Data = {
         },
         [12031304] = {
           Camera = "-90.654785,94.521484,120.402344,0.000046,-2.599905,-53.251511,35.000011,300.0,false,DoNotOverride,2.8",
-          ContentEN = "Hello there, Princess of Magic Fingers!",
+          ContentEN = "Hello there, Princess Magic Fingers!",
           DialogueId = 12031304,
           GUID = "1E1E7DD0",
           NextDialogue = 12031305,
@@ -81145,7 +81145,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120114/1E1FC7BE"
         },
         [12033316] = {
-          ContentEN = "Good thinking! Let's go ask him!",
+          ContentEN = "Good thinking! Let's go and ask him!",
           DialogueId = 12033316,
           GUID = "1E1FC7E8",
           Scripts = "PlayOrStopBGM{PlayType{"Stop"},SoundType{"SOUND_BGM"},EventPath{"event:/bgm/cbt02/0051_story_danger"}}",
@@ -81302,7 +81302,7 @@ local Data = {
         },
         [12033415] = {
           Camera = "-296.6315,90.475662,114.222412,0.000088,5.677895,23.727402,35.000011,177.889099,false,DoNotOverride,3.5",
-          ContentEN = "Really!? You are? Then can you help me look for Savio? I'll pay you! Please, Eyepa— Uh, I mean, {性别:Mr|Miss} {nickname} (recorded as Phoxhunter)!",
+          ContentEN = "Really!? You are? Then can you help me look for Savio? I'll pay you! Please, Eyepa— Uh, I mean, {性别:Mr|Miss} {nickname}!",
           DialogueId = 12033415,
           FinalCamera = "-296.6315,90.475662,114.222412,0.000088,5.07789,27.32766,35.000011,177.889099,false,DoNotOverride,3.5",
           GUID = "1E1FD826",
@@ -81840,7 +81840,7 @@ local Data = {
         },
         [12033807] = {
           Camera = "385.469147,335.746613,191.395508,15.003618,3.517841,33.39724,35.000015,564.832214,false,Manual,22.0",
-          ContentEN = "Fina — get down! (with a little defending effort)",
+          ContentEN = "Fina — get down!",
           DialogueId = 12033807,
           FinalCamera = "-93.919144,34.563732,169.15918,15.00191,-0.68209,29.795591,35.000011,564.832214,false,Manual,22.0",
           GUID = "1E201876",
@@ -82427,7 +82427,7 @@ local Data = {
         },
         [12034209] = {
           Camera = "-690.500427,676.570496,85.366211,0.000123,0.853248,-66.382408,40.0,552.772644,false,DoNotOverride,8.0",
-          ContentEN = "Fina, {性别:Mr|Miss} {nickname} (recorded as Phoxhunter) — thank you so much for saving Savio!",
+          ContentEN = "Fina, {性别:Mr|Miss} {nickname} — thank you so much for saving Savio!",
           DialogueId = 12034209,
           FinalCamera = "-706.813965,669.448181,85.366211,0.000124,1.053249,-65.382294,40.0,552.772644,false,DoNotOverride,8.0",
           GUID = "1E205A6A",
@@ -82573,7 +82573,7 @@ local Data = {
         },
         [12034218] = {
           Camera = "-483.345459,212.206177,110.855469,0.000053,-4.744741,136.205978,50.000008,321.599304,false,Manual,8.0",
-          ContentEN = "Even if there's no magic protecting me, I won't be a scaredy-cat anymore. I'll be brave — just like {性别:Mr|Miss} {nickname} (recorded as Phoxhunter) said!",
+          ContentEN = "Even if there's no magic protecting me, I won't be a scaredy-cat anymore. I'll be brave — just like {性别:Mr|Miss} {nickname} said!",
           DialogueId = 12034218,
           FinalCamera = "-484.046448,211.53949,110.855469,0.000054,-4.544739,134.205429,50.000008,321.599304,false,Manual,8.0",
           GUID = "1E205BE4",
@@ -125082,7 +125082,7 @@ local Data = {
         },
         [80002029] = {
           Camera = "-4.021118,-147.850586,140.854248,0.000064,-3.469995,89.231857,35.0,160.025635,false,Manual,12.0",
-          Content = "（好像还没有把小夜莺的羽毛收集全……要再回去找找看吗？）",
+          ContentEN = "(Still missing some feathers... Should we head back and search again?)",
           DialogueId = 80002029,
           Duration = 12,
           GUID = "C846D4B9",
@@ -125248,7 +125248,7 @@ local Data = {
         },
         [80003116] = {
           Camera = "-4.021118,-147.850586,140.854248,0.000064,-3.469995,89.231857,35.0,160.025635,false,Manual,12.0",
-          Content = "（好像还没有把小夜莺的羽毛收集全……要再回去找找看吗？）",
+          ContentEN = "(Still missing some feathers... Should we head back and search again?)",
           DialogueId = 80003116,
           Duration = 12,
           GUID = "C847870F",
@@ -125350,7 +125350,7 @@ local Data = {
         },
         [80003210] = {
           Camera = "-4.021118,-147.850586,140.854248,0.000064,-3.469995,89.231857,35.0,160.025635,false,Manual,12.0",
-          Content = "（好像还没有把小夜莺的羽毛收集全……要再回去找找看吗？）",
+          ContentEN = "(Still missing some feathers... Should we head back and search again?)",
           DialogueId = 80003210,
           Duration = 12,
           GUID = "C847967B",
@@ -125453,7 +125453,7 @@ local Data = {
         },
         [80004110] = {
           Camera = "-4.021118,-147.850586,140.854248,0.000064,-3.469995,89.231857,35.0,160.025635,false,Manual,12.0",
-          Content = "（好像还没有把小夜莺的羽毛收集全……要再回去找找看吗？）",
+          ContentEN = "(Still missing some feathers... Should we head back and search again?)",
           DialogueId = 80004110,
           Duration = 12,
           GUID = "C8482A23",
@@ -125625,7 +125625,7 @@ local Data = {
         },
         [80004254] = {
           Camera = "-4.021118,-147.850586,140.854248,0.000064,-3.469995,89.231857,35.0,160.025635,false,Manual,12.0",
-          Content = "（好像还没有把小夜莺的羽毛收集全……要再回去找找看吗？）",
+          ContentEN = "(Still missing some feathers... Should we head back and search again?)",
           DialogueId = 80004254,
           Duration = 12,
           GUID = "C8483B0D",
@@ -160852,7 +160852,7 @@ local Data = {
           bForbidSkipOptions = true
         },
         [90100601] = {
-          Content = "我听说奥特赛德先生为菲娜的生日精心准备了很久。虽然嘴上不饶人，但你其实是个很体贴的人吧？下一次菲娜生日，我可以和你们一起为她准备惊喜吗？",
+          ContentEN = "I heard you planned a great birthday celebration for Fina. I know that you possess a considerate heart, despite your sharp tongue. Can I join you next time when you prepare a big birthday surprise for her?",
           DialogueId = 90100601,
           GUID = "E18EB1DA",
           SpeakNpcId = 85301,

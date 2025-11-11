@@ -16,9 +16,7 @@ return ReadOnly("ReddotNode", {
   },
   AbyssMain = {
     Childs = {
-      "AbyssReward",
-      "AbyssEntry1",
-      "AbyssEntry2"
+      "AbyssReward"
     },
     Name = "AbyssMain"
   },
@@ -508,7 +506,8 @@ return ReadOnly("ReddotNode", {
     CacheType = 1,
     IsLeaf = true,
     Name = "JJGameTask_Challenge_Reddot",
-    Type = 0
+    Type = 0,
+    bInvokeEveryTime = true
   },
   JJGameTask_Normal_New = {
     CacheType = 1,
@@ -520,7 +519,8 @@ return ReadOnly("ReddotNode", {
     CacheType = 1,
     IsLeaf = true,
     Name = "JJGameTask_Normal_Reddot",
-    Type = 0
+    Type = 0,
+    bInvokeEveryTime = true
   },
   Map = {
     Childs = {"Dispatch"},

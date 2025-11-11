@@ -26640,7 +26640,7 @@ local Data = {
           TextMapId = "READ_TEXT_2000004"
         },
         READ_TEXT_2000005 = {
-          ContentEN = " ...\n\nSeptember 27\nHow should I put it? To be honest, I really don't understand why ... Those believers invested so much time and resources into constructing such a massive building. \nBut this is undoubtedly a good thing for us right now. A ruin of this size is enough for ... and even leaves us with a room for ...\nAlthough I can't predict the consequences of ... , I feel like there's a force driving me to ... Maybe I still have a glimmer of hope ...\nWhen ... , then ... can make contact with the villagers below ...\nForget it, what can I gain from socialising with them anyway? The Empire has long since ...\nI need to think about ...\nAnd also record life here: \nAbundant fresh water. The one thing this temple lacks the least. \n... can be found in the forest and fish can be caught by the coast. \nMost of the injuries I sustained in past battles have pretty much healed. Next, I'll try to set some traps for ...\nOh yeah, the entrance mechanism can be modified ...\n\nOctober 12\nI've modified the entrance mechanism so it won't be easy for anyone to enter. \nBut still, I should be prepared for the worst. I always feel ... won't give up easily. \nI just hope ... can escape. Although those villagers may not be very friendly, but at least I...\n\n...",
+          ContentEN = "...\n\nSeptember 27\nHow should I put it? To be honest, I really don't understand why ... Those believers invested so much time and resources into constructing such a massive building. \nBut this is undoubtedly a good thing for us right now. A ruin of this size is enough for ... and even leaves us with a room for ...\nAlthough I can't predict the consequences of ... , I feel like there's a force driving me to ... Maybe I still have a glimmer of hope ...\nWhen ... , then ... can make contact with the villagers below ...\nForget it, what can I gain from socialising with them anyway? The Empire has long since ...\nI need to think about ...\nAnd also record life here: \nAbundant fresh water. The one thing this temple lacks the least. \n... can be found in the forest and fish can be caught by the coast. \nMost of the injuries I sustained in past battles have pretty much healed. Next, I'll try to set some traps for ...\nOh yeah, the entrance mechanism can be modified ...\n\nOctober 12\nI've modified the entrance mechanism so it won't be easy for anyone to enter. \nBut still, I should be prepared for the worst. I always feel ... won't give up easily. \nI just hope ... can escape. Although those villagers may not be very friendly, but at least I...\n\n...",
           TextMapId = "READ_TEXT_2000005"
         },
         READ_TEXT_2000006 = {
@@ -41508,7 +41508,7 @@ local Data = {
           TextMapId = "TextMap_Inference_2001"
         },
         TextMap_Inference_2002 = {
-          ContentEN = "{$Huozai04Tag$|Connect the dots and uncover the hidden truth: ？？？}",
+          ContentEN = "{$Huozai04Tag$|Connect the dots and uncover the hidden truth:？？？}",
           TextMapId = "TextMap_Inference_2002"
         },
         TextMap_ResultTips_10010101 = {
@@ -44876,7 +44876,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_20030106"
         },
         UI_Achievement_Des_20030107 = {
-          ContentEN = "All Hyperborean Empire Impressions reach <highlight>100</>",
+          ContentEN = "Any Hyperborean Empire Impression reaches <highlight>100</>",
           TextMapId = "UI_Achievement_Des_20030107"
         },
         UI_Achievement_Des_2004 = {
@@ -56848,15 +56848,15 @@ local Data = {
           TextMapId = "UI_GameEvent_StarterQuest_UnlockCondition"
         },
         UI_GameEvent_TimeRemain_Day = {
-          ContentEN = "d ",
+          ContentEN = "d",
           TextMapId = "UI_GameEvent_TimeRemain_Day"
         },
         UI_GameEvent_TimeRemain_Hour = {
-          ContentEN = "h ",
+          ContentEN = "h",
           TextMapId = "UI_GameEvent_TimeRemain_Hour"
         },
         UI_GameEvent_TimeRemain_Min = {
-          ContentEN = "m ",
+          ContentEN = "m",
           TextMapId = "UI_GameEvent_TimeRemain_Min"
         },
         UI_GameEvent_TimeRemain_Sec = {

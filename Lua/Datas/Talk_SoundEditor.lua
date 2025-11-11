@@ -41441,7 +41441,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_ch_story_1002_110163_1B94028A = {
     ProgrammerSoundPath = "event:/voice/ch/story/1002",
     SelectKey = "voice_ch_story_1002_110163_1B94028A",
-    SoundLength = 4680
+    SoundLength = 6130
   },
   voice_ch_story_1002_110163_1B9402B4_f = {
     ProgrammerSoundPath = "event:/voice/ch/story/1002",
@@ -56319,7 +56319,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_ch_story_1201_120108_1E115E4E = {
     ProgrammerSoundPath = "event:/voice/ch/story/1201",
     SelectKey = "voice_ch_story_1201_120108_1E115E4E",
-    SoundLength = 11670
+    SoundLength = 9760
   },
   voice_ch_story_1201_120108_1E115E78_f = {
     ProgrammerSoundPath = "event:/voice/ch/story/1201",
@@ -65361,6 +65361,11 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_ch_story_1201_120223_1E18BBE0_m",
     SoundLength = 3280
   },
+  voice_ch_story_1201_120223_1E18BC0A = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120223_1E18BC0A",
+    SoundLength = 9790
+  },
   voice_ch_story_1201_120223_1E18BC34_f = {
     ProgrammerSoundPath = "event:/voice/ch/story/1201",
     SelectKey = "voice_ch_story_1201_120223_1E18BC34_f",
@@ -65435,6 +65440,51 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/ch/story/1201",
     SelectKey = "voice_ch_story_1201_120224_1E18C97E",
     SoundLength = 10580
+  },
+  voice_ch_story_1201_120225_1E18D992 = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18D992",
+    SoundLength = 11440
+  },
+  voice_ch_story_1201_120225_1E18D9BC = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18D9BC",
+    SoundLength = 10070
+  },
+  voice_ch_story_1201_120225_1E18D9E6 = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18D9E6",
+    SoundLength = 9770
+  },
+  voice_ch_story_1201_120225_1E18DA10 = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18DA10",
+    SoundLength = 9550
+  },
+  voice_ch_story_1201_120225_1E18DA3A = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18DA3A",
+    SoundLength = 9250
+  },
+  voice_ch_story_1201_120225_1E18DA64 = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18DA64",
+    SoundLength = 8960
+  },
+  voice_ch_story_1201_120225_1E18DA8E = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18DA8E",
+    SoundLength = 8970
+  },
+  voice_ch_story_1201_120225_1E18DAB8 = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18DAB8",
+    SoundLength = 8710
+  },
+  voice_ch_story_1201_120225_1E18DAE2 = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120225_1E18DAE2",
+    SoundLength = 9620
   },
   voice_ch_story_1201_120226_1E18E9FA_f = {
     ProgrammerSoundPath = "event:/voice/ch/story/1201",
@@ -65895,6 +65945,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/ch/story/1201",
     SelectKey = "voice_ch_story_1201_120233_1E195F9C",
     SoundLength = 10990
+  },
+  voice_ch_story_1201_120233_1E195FC6_f = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120233_1E195FC6_f",
+    SoundLength = 2820
+  },
+  voice_ch_story_1201_120233_1E195FC6_m = {
+    ProgrammerSoundPath = "event:/voice/ch/story/1201",
+    SelectKey = "voice_ch_story_1201_120233_1E195FC6_m",
+    SoundLength = 2030
   },
   voice_ch_story_1201_120233_1E195FF0_f = {
     ProgrammerSoundPath = "event:/voice/ch/story/1201",
@@ -125081,7 +125141,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_story_1201_120111_1E1DC904_f = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
     SelectKey = "voice_en_story_1201_120111_1E1DC904_f",
-    SoundLength = 21180
+    SoundLength = 11630
   },
   voice_en_story_1201_120111_1E1DC904_m = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
@@ -125351,7 +125411,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_story_1201_120111_1E1DFCB2 = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
     SelectKey = "voice_en_story_1201_120111_1E1DFCB2",
-    SoundLength = 7170
+    SoundLength = 9530
   },
   voice_en_story_1201_120111_1E1DFCDC = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",

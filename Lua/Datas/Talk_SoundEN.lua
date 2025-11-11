@@ -49223,7 +49223,7 @@ local Data = {
         voice_en_story_1201_120111_1E1DC904_f = {
           ProgrammerSoundPath = "event:/voice/en/story/1201",
           SelectKey = "voice_en_story_1201_120111_1E1DC904_f",
-          SoundLength = 21180
+          SoundLength = 11630
         },
         voice_en_story_1201_120111_1E1DC904_m = {
           ProgrammerSoundPath = "event:/voice/en/story/1201",
@@ -49493,7 +49493,7 @@ local Data = {
         voice_en_story_1201_120111_1E1DFCB2 = {
           ProgrammerSoundPath = "event:/voice/en/story/1201",
           SelectKey = "voice_en_story_1201_120111_1E1DFCB2",
-          SoundLength = 7170
+          SoundLength = 9530
         },
         voice_en_story_1201_120111_1E1DFCDC = {
           ProgrammerSoundPath = "event:/voice/en/story/1201",

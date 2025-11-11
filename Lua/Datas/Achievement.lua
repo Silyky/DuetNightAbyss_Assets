@@ -5221,9 +5221,9 @@ return ReadOnly("Achievement", {
     TargetProgress = 1
   },
   [20030102] = {
-    AchievementDescribe = "UI_Achievement_Des_20030102",
+    AchievementDescribe = "UI_Achievement_Des_20030104",
     AchievementId = 20030102,
-    AchievementName = "UI_Achievement_Name_20030102",
+    AchievementName = "UI_Achievement_Name_20030104",
     AchievementRarity = 1,
     AchievementReward = 7465,
     AchievementType = 4,
@@ -5241,9 +5241,9 @@ return ReadOnly("Achievement", {
     TargetProgress = 1
   },
   [20030104] = {
-    AchievementDescribe = "UI_Achievement_Des_20030104",
+    AchievementDescribe = "UI_Achievement_Des_20030105",
     AchievementId = 20030104,
-    AchievementName = "UI_Achievement_Name_20030104",
+    AchievementName = "UI_Achievement_Name_20030105",
     AchievementRarity = 1,
     AchievementReward = 7467,
     AchievementType = 4,
@@ -5251,9 +5251,9 @@ return ReadOnly("Achievement", {
     TargetProgress = 1
   },
   [20030105] = {
-    AchievementDescribe = "UI_Achievement_Des_20030105",
+    AchievementDescribe = "UI_Achievement_Des_20030106",
     AchievementId = 20030105,
-    AchievementName = "UI_Achievement_Name_20030105",
+    AchievementName = "UI_Achievement_Name_20030106",
     AchievementRarity = 1,
     AchievementReward = 7468,
     AchievementType = 4,
@@ -5261,21 +5261,21 @@ return ReadOnly("Achievement", {
     TargetProgress = 1
   },
   [20030106] = {
-    AchievementDescribe = "UI_Achievement_Des_20030106",
+    AchievementDescribe = "UI_Achievement_Des_20030107",
     AchievementId = 20030106,
-    AchievementName = "UI_Achievement_Name_20030106",
+    AchievementName = "UI_Achievement_Name_20030107",
     AchievementRarity = 1,
+    AchievementRequire = {20030101},
     AchievementReward = 7469,
     AchievementType = 4,
     TargetId = {200302},
     TargetProgress = 1
   },
   [20030107] = {
-    AchievementDescribe = "UI_Achievement_Des_20030107",
+    AchievementDescribe = "UI_Achievement_Des_20030102",
     AchievementId = 20030107,
-    AchievementName = "UI_Achievement_Name_20030107",
+    AchievementName = "UI_Achievement_Name_20030102",
     AchievementRarity = 1,
-    AchievementRequire = {20030101},
     AchievementReward = 7464,
     AchievementType = 4,
     TargetId = {200207},

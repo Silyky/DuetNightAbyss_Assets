@@ -19320,7 +19320,7 @@ return ReadOnly("TextMap_I18n", {
   Event_Des_105102011 = {
     ContentEN = "Midsummer night, beneath a sky of stars, a forest where violets and butterfly wings waltzed in delicate steps. A sight she had never seen.",
     ContentJP = "真夏の夜、星明かりの森、三色スミレと蝶の羽根が交じり合うメヌエット―それは彼女の知らない光景であった。",
-    ContentKR = "한여름 밤, 별빛 아래 숲, 제비꽃과 나비의 날개가 뒤엉킨 미뉴에트... 그녀가 한 번도 본 적 없는 광경",
+    ContentKR = "한여름 밤, 별빛 아래 숲, 팬지꽃과 나비의 날개가 뒤엉킨 미뉴에트... 그녀가 한 번도 본 적 없는 광경",
     ContentTC = "仲夏夜，星鬥下的森林，三色堇與蝶翼交織的小步舞曲——那是她不曾見過的光景。",
     TextMapContent = "仲夏夜，星斗下的森林，三色堇与蝶翼交织的小步舞曲——那是她不曾见过的光景。",
     TextMapId = "Event_Des_105102011"
@@ -55460,7 +55460,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "...\n\nSeptember 14\nI should be safe here. \nAfter all, ever since Brendan's expeditionary forces withdrew from here hundreds of years ago, this place has been an uninhabited island abandoned by the Church and ignored by the Empire. It's not marked .... on ordinary maps either. \nI can finally get a good night's sleep. ... must be exhausted by now as well. \nTomorrow, I need to hide ... more discreetly and thoroughly explore the island. \nIf I remember correctly, Brendan's expeditionary forces seemed to ... discover a massive temple. If I can find the ruins of that temple, then I can use it to shelter from the elements ...\n\nSeptember 15\nI only discovered this island is inhabited today. How unexpected. \nTheir accents have started to differ slightly from the common tongue, but we can still communicate in a simple manner. They claim to be descendants of fishermen from the Empire who came here to avoid conscription. \nI'm not surprised by their ... looks. They're probably worried I'll inform the Empire that ... , and attract imperial troops. \nHah! When it comes to avoiding the Empire, I... Well, it's better to steer clear of them as much as possible. It would be bad if I brought them into this mess.\n\n...",
     ContentJP = "……\n\n9月14日\nここまで逃げれば安全か。\n数百年前にブレンダンの遠征軍が撤退して、礼賛会にも放棄された無人島だからね。無論だが帝国の管轄外であるし、普通の地図にも……の記載はない場所だ。\nようやくまともな睡眠にありつけそうだ。……も疲れただろうし。\n明日は……を目立たないように隠しながら、島の調査も進めようか。\n私の記憶が正しければブレンダンの遠征軍は……に巨大な神殿の遺跡を発見していたはず。少なくとも雨風をしのげる場所は確保したいな……\n\n9月15日\n今日この島に住民がいる事実を初めて知った。本当に予想外だ。\n彼らの発する言語は共通語と少し異なる訛りがあるが、簡単なコミュニケーションを取ることは可能だった。帝国から逃れてきた漁師の子孫であると彼らは自称している。\nだからなのか私を見る目つきは…………だ。私が帝国軍に島の情報を渡すのではないかと、心配しているのだろう。\nはは、帝国軍と顔を合わせたくないという点では…………ね。いずれにせよ住民との接触はできるだけ避けるべきだろう。彼らを巻き込まないためにも。\n\n……",
     ContentKR = "...\n\n9월 14일\n여기까지 도망치면 안전할 것 같다.\n수백 년 전 브렌단의 원정군이 철수한 이후 교회는 이곳을 포기하다시피 했고, 제국도 이런 무인도를 관할하에 두지 않았으니 일반적인 지도에는... 표시되지 않을 것이다.\n드디어 푹 잘 수 있겠다. ...도 엄청 피곤하겠지.\n내일은... 좀 더 은밀하게 섬을 조사해 봐야겠다.\n내 기억이 맞다면 브렌단의 원정군은... 거대한 신전을 발견했다고 했는데, 그 신전 유적을 찾을 수 있다면 적어도 비바람은 피할 수 있을 것 같다...\n\n9월 15일\n오늘에야 이 섬에 주민이 있다는 것을 발견했는데, 정말 놀랍다.\n그들의 억양은 이미 공용어와 달랐지만, 간단한 대화는 가능했다. 그들은 제국 출신 어부의 후손으로, 병역을 피해 이곳에 왔다고 한다.\n어쩐지 날 보는 눈빛이..., 내가 제국에... 알려서 제국군을 불러올까 봐 걱정한 모양이다.\n하, 제국군과 마주치기 싫은 정도를 따지자면... 됐다, 되도록이면 그들을 멀리하는 게 좋겠다. 그들을 휘말리게 하면 안 좋을 테니까.\n\n...",
-    ContentTC = "散落的日記·其一\n\n不知誰人留下的日記，字跡清秀，但是已經殘破，有些部分難以辨認。\n\n……\n\n9月14日\n逃到這裡應該就安全了。\n畢竟自從幾百年前布倫丹的遠征軍撤走之後，這裡就一直是一座教會放棄，帝國也沒有納入管轄的無人島，一般的地圖也不會……標注出來。\n總算可以睡一個好覺了，……應該也累壞了吧。\n明天要把……藏得更隱蔽一些，再好好調查一下這座島。\n如果記得沒錯的話，布倫丹的遠征軍好像是……發現了一個巨大的神廟，如果能找到那個神廟遺跡，至少可以住進去遮風擋雨……\n\n9月15日\n今天才發現這座島上原來是有居民的，真意外。\n他們的口音已經和通用語有了一些差別，但是還能簡單交流。他們自稱是一群來自帝國的漁民的後裔，為了躲避兵役來到這裡。\n也難怪他們看我的眼神……，應該是擔心我向帝國告知……，把帝國軍引來吧。\n哈，要論起不想和帝國軍打照面的程度，……算了，還是盡可能避開他們吧，要是把他們捲進麻煩就不好了。\n\n……",
+    ContentTC = "……\n\n9月14日\n逃到這裡應該就安全了。\n畢竟自從幾百年前布倫丹的遠征軍撤走之後，這裡就一直是一座教會放棄，帝國也沒有納入管轄的無人島，一般的地圖也不會……標注出來。\n總算可以睡一個好覺了，……應該也累壞了吧。\n明天要把……藏得更隱蔽一些，再好好調查一下這座島。\n如果記得沒錯的話，布倫丹的遠征軍好像是……發現了一個巨大的神廟，如果能找到那個神廟遺跡，至少可以住進去遮風擋雨……\n\n9月15日\n今天才發現這座島上原來是有居民的，真意外。\n他們的口音已經和通用語有了一些差別，但是還能簡單交流。他們自稱是一群來自帝國的漁民的後裔，為了躲避兵役來到這裡。\n也難怪他們看我的眼神……，應該是擔心我向帝國告知……，把帝國軍引來吧。\n哈，要論起不想和帝國軍打照面的程度，……算了，還是盡可能避開他們吧，要是把他們捲進麻煩就不好了。\n\n……",
     TextMapContent = "……\n\n9月14日\n逃到这里应该就安全了。\n毕竟自从几百年前布伦丹的远征军撤走之后，这里就一直是一座教会放弃，帝国也没有纳入管辖的无人岛，一般的地图也不会……标注出来。\n总算可以睡一个好觉了，……应该也累坏了吧。\n明天要把……藏得更隐蔽一些，再好好调查一下这座岛。\n如果记得没错的话，布伦丹的远征军好像是……发现了一个巨大的神庙，如果能找到那个神庙遗迹，至少可以住进去遮风挡雨……\n\n9月15日\n今天才发现这座岛上原来是有居民的，真意外。\n他们的口音已经和通用语有了一些差别，但是还能简单交流。他们自称是一群来自帝国的渔民的后裔，为了躲避兵役来到这里。\n也难怪他们看我的眼神……，应该是担心我向帝国告知……，把帝国军引来吧。\n哈，要论起不想和帝国军打照面的程度，……算了，还是尽可能避开他们吧，要是把他们卷进麻烦就不好了。\n\n……",
     TextMapId = "READ_TEXT_2000003"
         },
@@ -55468,15 +55468,15 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "...\n\n\nSeptember 15\nI found an abandoned temple in the valley, and ... can't describe it as \"gigantic\". Maybe the expeditionary forces at the time intentionally exaggerated its size, ...\nAnyway, it's big enough for us to take shelter in. \nThis is the first time that seeing a church statue has made me feel...\nAnyway, thanks, nameless goddess. \n\nSeptember 20\nBehind the walls deep within the temple ... the sound of flowing water. Perhaps there's a hidden door here... gotta find it out.\n\n...",
     ContentJP = "……\n\n9月15日\n山中の谷に例の神殿を見つけた。神殿の……は思っていたよりも巨大でなかった。当時の遠征軍は神殿の規模を誇張した報告で………………たかったのだろうか。\nまあいい、私たちが身を置くのには十分だ。\n初めて聖像に会うのを…………………………と感じたかも。\nありがとう、名も知らぬ女神様。\n\n9月20日\n神殿の奥の壁から……水の流れる音が。もしやこの神殿には何かのトラップがあるかもしれない。調査する必要がある。\n\n……",
     ContentKR = "...\n\n9월 15일\n골짜기에서 버려진 신전을 찾았다. ...거대하다고 할 정도는 아니었다. 아마도 그 당시 원정군이 의도적으로 신전의 규모를 과장했을 수도 있겠다...\n그래도 우리 몸 하나 숨길 수 있을 정도면 충분하다.\n처음으로 교회의 신상을 보면서...한 감정을 느꼈다.\n이름 모를 여신에게 감사한다.\n\n9월 20일\n신전 깊은 곳의 벽 뒤편에서... 물 흐르는 소리가 났다. 신전에 어떤 비밀 장치가 있을지도 모르니, 한 번 찾아봐야 할 것 같다.\n\n...",
-    ContentTC = "散落的日記·其二\n\n不知誰人留下的日記，字跡清秀，但是已經殘破，有些部分難以辨認。\n\n……\n\n9月15日\n在山谷中找到了廢棄的神廟，……不能用巨大來形容，也許是當時的遠征軍故意誇大了神廟的規模，……\n算了，反正也夠我們容身了。\n頭一次覺得見到教會的神像是件……\n謝了，不知名的女神。\n\n9月20日\n神廟深處的牆壁背後……水流聲，也許這座神廟裡有什麼暗門機關，得想辦法找找看了。\n\n……",
+    ContentTC = "……\n\n9月15日\n在山谷中找到了廢棄的神廟，……不能用巨大來形容，也許是當時的遠征軍故意誇大了神廟的規模，……\n算了，反正也夠我們容身了。\n頭一次覺得見到教會的神像是件……\n謝了，不知名的女神。\n\n9月20日\n神廟深處的牆壁背後……水流聲，也許這座神廟裡有什麼暗門機關，得想辦法找找看了。\n\n……",
     TextMapContent = "……\n\n9月15日\n在山谷中找到了废弃的神庙，……不能用巨大来形容，也许是当时的远征军故意夸大了神庙的规模，……\n算了，反正也够我们容身了。\n头一次觉得见到教会的神像是件……\n谢了，不知名的女神。\n\n9月20日\n神庙深处的墙壁背后……水流声，也许这座神庙里有什么暗门机关，得想办法找找看了。\n\n……",
     TextMapId = "READ_TEXT_2000004"
         },
   READ_TEXT_2000005 = {
-    ContentEN = " ...\n\nSeptember 27\nHow should I put it? To be honest, I really don't understand why ... Those believers invested so much time and resources into constructing such a massive building. \nBut this is undoubtedly a good thing for us right now. A ruin of this size is enough for ... and even leaves us with a room for ...\nAlthough I can't predict the consequences of ... , I feel like there's a force driving me to ... Maybe I still have a glimmer of hope ...\nWhen ... , then ... can make contact with the villagers below ...\nForget it, what can I gain from socialising with them anyway? The Empire has long since ...\nI need to think about ...\nAnd also record life here: \nAbundant fresh water. The one thing this temple lacks the least. \n... can be found in the forest and fish can be caught by the coast. \nMost of the injuries I sustained in past battles have pretty much healed. Next, I'll try to set some traps for ...\nOh yeah, the entrance mechanism can be modified ...\n\nOctober 12\nI've modified the entrance mechanism so it won't be easy for anyone to enter. \nBut still, I should be prepared for the worst. I always feel ... won't give up easily. \nI just hope ... can escape. Although those villagers may not be very friendly, but at least I...\n\n...",
+    ContentEN = "...\n\nSeptember 27\nHow should I put it? To be honest, I really don't understand why ... Those believers invested so much time and resources into constructing such a massive building. \nBut this is undoubtedly a good thing for us right now. A ruin of this size is enough for ... and even leaves us with a room for ...\nAlthough I can't predict the consequences of ... , I feel like there's a force driving me to ... Maybe I still have a glimmer of hope ...\nWhen ... , then ... can make contact with the villagers below ...\nForget it, what can I gain from socialising with them anyway? The Empire has long since ...\nI need to think about ...\nAnd also record life here: \nAbundant fresh water. The one thing this temple lacks the least. \n... can be found in the forest and fish can be caught by the coast. \nMost of the injuries I sustained in past battles have pretty much healed. Next, I'll try to set some traps for ...\nOh yeah, the entrance mechanism can be modified ...\n\nOctober 12\nI've modified the entrance mechanism so it won't be easy for anyone to enter. \nBut still, I should be prepared for the worst. I always feel ... won't give up easily. \nI just hope ... can escape. Although those villagers may not be very friendly, but at least I...\n\n...",
     ContentJP = "……\n\n9月27日\nなんと語るべきかね。実際、私も理解が追いついていない……信徒たちはこの巨大な建造物のために、どれほどの人力と財力を費やしたのだろうか。\n今の私たちにとっては、間違いなく幸運なことだ。……………………には十分すぎる。ひとつ部屋を整えて……できる。\n……がどのような結果をもたらすのか未知数であるが……私の心を駆り立てる力がある。まだ少し希望があると感じられる。\n…………なったら、……をふもとの住民たちと接触させてみて…………ないと。\nとは言えど、社会の一般常識など得る価値はあるのか？今の帝国など……すでにもう………………か。\n再考する必要がある……\n別件として、ここでの生活を記録しておこう。\n淡水は十分、最も充足している。\n……は森の中で見つけられるし、海に行けば魚も捕獲できる。\n以前の戦闘で負ったケガもほぼ完治したので、次は罠の設置を考えなければ……\nそうか、入り口のトラップも改造しておくべきかも……\n\n\n10月12日\n入り口のトラップの改造を終えた。これで誰も簡単には入れなくなったはずだが。\n最悪の事態に対する心構えはしておいたほうがいい。……が諦めるわけないと、なんとなくだけど。\nただ……逃れられるように願うばかりだ。あの村人たちは必ずしも友好的であると断定できないが………………でもないだろう。\n\n……",
     ContentKR = "...\n\n9월 27일\n뭐랄까... 신도들이 왜 이렇게 큰 건물을 공들여서 지었는지 사실 이해가 잘 안 된다.\n하지만 지금의 우리에게는 분명 좋은 일이다. 이 정도로 큰 유적이면 충분히... 그리고 방 하나 정도 만들 수 있다...\n앞으로... 어떤 결과를 가져올지 예상할 수 없지만, 어떤 힘이 나를... 움직이게 하는 것 같다. 아마도 희망이 느껴져서 그런 거겠지...\n...되면 ...을 산 아래로 보내서 주민들과 어울리게 해 볼까...\n됐다, 사회 상식을 얻는다고 또 어떻게 되는 것도 아니고. 지금의 제국은 진작에 이미...\n좀 더 생각해 볼 필요가 있겠다...\n그리고 이곳에서의 생활을 기록해보려 한다.\n담수는 충분하다. 이 신전에 넘치는 게 물이다.\n... 숲에서 찾을 수 있고, 바다에 가면 물고기를 잡을 수 있다.\n이전의 전투에서 입은 상처도 거의 다 아물었으니, 이제 함정을 만들 방법을...\n맞다, 입구의 장치도 좀 개조하면...\n\n\n10월 12일\n입구의 장치를 개조했다. 이제 아무도 쉽게 쳐들어오지 못할 것이다.\n그래도 항상 최악의 상황에 대비해야한다. ...라면 가만히 있지 않을 것 같다는 생각이 든다.\n그저... 도망갈 수 있길 바랄 뿐, 마을 사람들이 꼭 우호적이진 않겠지만, 그래도...\n\n...",
-    ContentTC = "散落的日記·其三\n\n不知誰人留下的日記，字跡清秀，但是已經殘破，有些部分難以辨認。\n\n……\n\n9月27日\n該怎麼說呢，其實我很難理解……那些信徒們付出如此大的精力和財力，去修建這種體量的建築。\n但是對現在的我們來說，這無疑是一件好事。這麼大的遺跡，足夠……還能夠收拾出一個房間來……\n雖然我無法預料到……會帶來怎樣的後果，但是似乎有一股力量驅使我……也許是覺得還有一點希望吧……\n等到……，就讓……和山下的那些居民接觸接觸……\n算了，獲得社會常識又能怎麼樣呢？現在的帝國早已經不是……\n我需要再想一想……\n另外記錄一下在這裡的生活吧：\n淡水充足，這座神廟裡最不缺的就是這個。\n……，森林裡能找到一些，去海邊也能抓到魚。\n之前在戰鬥中受的傷也基本都癒合了，接下來想辦法做一些陷阱……\n哦對了，入口的機關也可以改造一下……\n\n\n10月12日\n入口的機關已經改造好了，這樣一來就不會有人輕易闖進來了。\n不過，還是做好最壞的準備吧，我總覺得……是不會善罷甘休的。\n只希望……能夠逃出去，雖然那些村民不一定會很友好，但是也不至於……\n\n……",
+    ContentTC = "……\n\n9月27日\n該怎麼說呢，其實我很難理解……那些信徒們付出如此大的精力和財力，去修建這種體量的建築。\n但是對現在的我們來說，這無疑是一件好事。這麼大的遺跡，足夠……還能夠收拾出一個房間來……\n雖然我無法預料到……會帶來怎樣的後果，但是似乎有一股力量驅使我……也許是覺得還有一點希望吧……\n等到……，就讓……和山下的那些居民接觸接觸……\n算了，獲得社會常識又能怎麼樣呢？現在的帝國早已經不是……\n我需要再想一想……\n另外記錄一下在這裡的生活吧：\n淡水充足，這座神廟裡最不缺的就是這個。\n……，森林裡能找到一些，去海邊也能抓到魚。\n之前在戰鬥中受的傷也基本都癒合了，接下來想辦法做一些陷阱……\n哦對了，入口的機關也可以改造一下……\n\n\n10月12日\n入口的機關已經改造好了，這樣一來就不會有人輕易闖進來了。\n不過，還是做好最壞的準備吧，我總覺得……是不會善罷甘休的。\n只希望……能夠逃出去，雖然那些村民不一定會很友好，但是也不至於……\n\n……",
     TextMapContent = "……\n\n9月27日\n该怎么说呢，其实我很难理解……那些信徒们付出如此大的精力和财力，去修建这种体量的建筑。\n但是对现在的我们来说，这无疑是一件好事。这么大的遗迹，足够……还能够收拾出一个房间来……\n虽然我无法预料到……会带来怎样的后果，但是似乎有一股力量驱使我……也许是觉得还有一点希望吧……\n等到……，就让……和山下的那些居民接触接触……\n算了，获得社会常识又能怎么样呢？现在的帝国早已经不是……\n我需要再想一想……\n另外记录一下在这里的生活吧：\n淡水充足，这座神庙里最不缺的就是这个。\n……，森林里能找到一些，去海边也能抓到鱼。\n之前在战斗中受的伤也基本都愈合了，接下来想办法做一些陷阱……\n哦对了，入口的机关也可以改造一下……\n\n\n10月12日\n入口的机关已经改造好了，这样一来就不会有人轻易闯进来了。\n不过，还是做好最坏的准备吧，我总觉得……是不会善罢甘休的。\n只希望……能够逃出去，虽然那些村民不一定会很友好，但是也不至于……\n\n……",
     TextMapId = "READ_TEXT_2000005"
         },
@@ -59003,7 +59003,7 @@ return ReadOnly("TextMap_I18n", {
   RESOURCE_DESC_41012 = {
     ContentEN = "A melody of midsummer and violets, plays upon the strings.",
     ContentJP = "真夏と三色スミレをめぐる詩篇を一曲奏でよう。",
-    ContentKR = "한여름 밤과 제비꽃에 관련된 시를 연주한다.",
+    ContentKR = "한여름 밤과 팬지꽃에 관련된 시를 연주한다.",
     ContentTC = "演奏一首關於仲夏與三色堇的詩篇。",
     TextMapContent = "演奏一首关于仲夏与三色堇的诗篇。",
     TextMapId = "RESOURCE_DESC_41012"
@@ -59027,7 +59027,7 @@ return ReadOnly("TextMap_I18n", {
   RESOURCE_DESC_41015 = {
     ContentEN = "A melody of midsummer and violets, plays upon the strings.",
     ContentJP = "真夏と三色スミレをめぐる詩篇を一曲奏でよう。",
-    ContentKR = "한여름 밤과 제비꽃에 관련된 시를 연주한다.",
+    ContentKR = "한여름 밤과 팬지꽃에 관련된 시를 연주한다.",
     ContentTC = "演奏一首關於仲夏與三色堇的詩篇。",
     TextMapContent = "演奏一首关于仲夏与三色堇的诗篇。",
     TextMapId = "RESOURCE_DESC_41015"
@@ -59035,7 +59035,7 @@ return ReadOnly("TextMap_I18n", {
   RESOURCE_DESC_41016 = {
     ContentEN = "A melody of midsummer and violets, plays upon the strings.",
     ContentJP = "真夏と三色スミレをめぐる詩篇を一曲奏でよう。",
-    ContentKR = "한여름 밤과 제비꽃에 관련된 시를 연주한다.",
+    ContentKR = "한여름 밤과 팬지꽃에 관련된 시를 연주한다.",
     ContentTC = "演奏一首關於仲夏與三色堇的詩篇。",
     TextMapContent = "演奏一首关于仲夏与三色堇的诗篇。",
     TextMapId = "RESOURCE_DESC_41016"
@@ -85229,9 +85229,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TextMap_Inference_2001"
         },
   TextMap_Inference_2002 = {
-    ContentEN = "{$Huozai04Tag$|Connect the dots and uncover the hidden truth: ？？？}",
-    ContentJP = "{$Huozai04Tag$｜いくつかの出来事のつながりを思い出し、隠された真実を見つける：？？？}",
-    ContentKR = "{$Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기: ???}",
+    ContentEN = "{$Huozai04Tag$|Connect the dots and uncover the hidden truth:？？？}",
+    ContentJP = "{$Huozai04Tag$|いくつかの出来事のつながりを思い出し、隠された真実を見つける:？？？}",
+    ContentKR = "{$Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기:???}",
     ContentTC = "{$Huozai04Tag$|回憶幾個事件間的聯係，找到隱藏的真相:？？？}",
     TextMapContent = "{$Huozai04Tag$|回忆几个事件间的联系，找到隐藏的真相:？？？}",
     TextMapId = "TextMap_Inference_2002"
@@ -89912,7 +89912,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Desc_80001 = {
     ContentEN = "Bearing pansies, butterflies await the star's arrival to begin the ball's grand overture.",
     ContentJP = "蝶が三色スミレをくわえ、主の到来を待ち、舞踏会の序章を奏でる。",
-    ContentKR = "제비꽃을 문 나비가 주인공의 도착을 기다리며 무도회의 서곡을 연주한다.",
+    ContentKR = "팬지꽃을 문 나비가 주인공의 도착을 기다리며 무도회의 서곡을 연주한다.",
     ContentTC = "蝴蝶銜著三色堇，等待著主人翁的到來，奏響舞會的序章。",
     TextMapContent = "蝴蝶衔着三色堇，等待着主人翁的到来，奏响舞会的序章。",
     TextMapId = "UI_Accessory_Desc_80001"
@@ -92025,11 +92025,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_20030106"
         },
   UI_Achievement_Des_20030107 = {
-    ContentEN = "All Hyperborean Empire Impressions reach <highlight>100</>",
-    ContentJP = "ヒュペリア帝国のフィーリングシステムで、すべてのフィーリングステータスを<highlight>100</>までアップする",
-    ContentKR = "휘페르보레아 제국의 인상 시스템에서 모든 인상 <highlight>100</> 달성",
-    ContentTC = "在海伯利亞帝國的印象係統中，將所有印象值提高到<highlight>100</>點",
-    TextMapContent = "在海伯利亚帝国的印象系统中，将所有印象值提高到<highlight>100</>点",
+    ContentEN = "Any Hyperborean Empire Impression reaches <highlight>100</>",
+    ContentJP = "ヒュペリア帝国のフィーリングシステムで、いずれかのフィーリングステータスを<highlight>100</>までアップする",
+    ContentKR = "휘페르보레아 제국의 인상 시스템에서 임의의 인상 <highlight>100</> 달성",
+    ContentTC = "在海伯利亞帝國的印象係統中，將任意印象值提高到<highlight>100</>點",
+    TextMapContent = "在海伯利亚帝国的印象系统中，将任意印象值提高到<highlight>100</>点",
     TextMapId = "UI_Achievement_Des_20030107"
         },
   UI_Achievement_Des_2004 = {
@@ -109614,7 +109614,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Chardata_Char_Day = {
     ContentEN = "Day",
     ContentJP = "日",
-    ContentKR = "일",
+    ContentKR = "일{空格}",
     ContentTC = "日",
     TextMapContent = "日",
     TextMapId = "UI_Chardata_Char_Day"
@@ -109646,7 +109646,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Chardata_Char_Month = {
     ContentEN = "Month",
     ContentJP = "月",
-    ContentKR = "월 ",
+    ContentKR = "월{空格}",
     ContentTC = "月",
     TextMapContent = "月",
     TextMapId = "UI_Chardata_Char_Month"
@@ -109670,7 +109670,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Chardata_Char_Year = {
     ContentEN = "Year",
     ContentJP = "年",
-    ContentKR = "년 ",
+    ContentKR = "년{空格}",
     ContentTC = "年",
     TextMapContent = "年",
     TextMapId = "UI_Chardata_Char_Year"
@@ -112257,7 +112257,7 @@ return ReadOnly("TextMap_I18n", {
   UI_DailyGoal_RemainTime_Day = {
     ContentEN = "%d day(s)",
     ContentJP = "%d日",
-    ContentKR = "%d일",
+    ContentKR = "%d일{空格}",
     ContentTC = "%d天",
     TextMapContent = "%d天",
     TextMapId = "UI_DailyGoal_RemainTime_Day"
@@ -112265,7 +112265,7 @@ return ReadOnly("TextMap_I18n", {
   UI_DailyGoal_RemainTime_Hour = {
     ContentEN = "%d hour(s)",
     ContentJP = "%d時間",
-    ContentKR = "%d시",
+    ContentKR = "%d시{空格}",
     ContentTC = "%d小時",
     TextMapContent = "%d小时",
     TextMapId = "UI_DailyGoal_RemainTime_Hour"
@@ -112273,7 +112273,7 @@ return ReadOnly("TextMap_I18n", {
   UI_DailyGoal_RemainTime_Minute = {
     ContentEN = "%d minute(s)",
     ContentJP = "%d分",
-    ContentKR = "%d분",
+    ContentKR = "%d분{空格}",
     ContentTC = "%d分鐘",
     TextMapContent = "%d分钟",
     TextMapId = "UI_DailyGoal_RemainTime_Minute"
@@ -116387,25 +116387,25 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_GameEvent_StarterQuest_UnlockCondition"
         },
   UI_GameEvent_TimeRemain_Day = {
-    ContentEN = "d ",
+    ContentEN = "d",
     ContentJP = "日",
-    ContentKR = "일",
+    ContentKR = "일{空格}",
     ContentTC = "天",
     TextMapContent = "天",
     TextMapId = "UI_GameEvent_TimeRemain_Day"
         },
   UI_GameEvent_TimeRemain_Hour = {
-    ContentEN = "h ",
+    ContentEN = "h",
     ContentJP = "時間",
-    ContentKR = "시간",
+    ContentKR = "시간{空格}",
     ContentTC = "小時",
     TextMapContent = "小时",
     TextMapId = "UI_GameEvent_TimeRemain_Hour"
         },
   UI_GameEvent_TimeRemain_Min = {
-    ContentEN = "m ",
+    ContentEN = "m",
     ContentJP = "分",
-    ContentKR = "분",
+    ContentKR = "분{空格}",
     ContentTC = "分",
     TextMapContent = "分",
     TextMapId = "UI_GameEvent_TimeRemain_Min"
@@ -132861,7 +132861,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Skin_Des_530101 = {
     ContentEN = "Midsummer night, beneath a sky of stars, a forest where violets and butterfly wings waltzed in delicate steps. A sight she had never seen.",
     ContentJP = "真夏の夜、星降る森で――三色菫と蝶の羽が織り成すステップ。それは、彼女の見知らぬ景色だった。",
-    ContentKR = "한여름 밤, 별빛 아래 숲,\n제비꽃과 나비의 날개가 뒤엉킨 미뉴에트...\n그녀가 한 번도 본 적 없는 광경.",
+    ContentKR = "한여름 밤, 별빛 아래 숲,\n팬지꽃과 나비의 날개가 뒤엉킨 미뉴에트...\n그녀가 한 번도 본 적 없는 광경.",
     ContentTC = "仲夏夜，星斗下的森林，三色堇與蝶翼交織的小步舞曲──那是她不曾見過的光景。",
     TextMapContent = "仲夏夜，星斗下的森林，三色堇与蝶翼交织的小步舞曲——那是她不曾见过的光景。",
     TextMapId = "UI_Skin_Des_530101"

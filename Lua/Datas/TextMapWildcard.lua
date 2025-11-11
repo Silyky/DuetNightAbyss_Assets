@@ -642,6 +642,18 @@ return ReadOnly("TextMapWildcard", {
     TextMapId = "UI_CHAR_SUBTITLE_160101",
     WildcardClassification = "Story"
   },
+  UI_Chardata_Char_Day = {
+    TextMapId = "UI_Chardata_Char_Day",
+    WildcardClassification = "Story"
+  },
+  UI_Chardata_Char_Month = {
+    TextMapId = "UI_Chardata_Char_Month",
+    WildcardClassification = "Story"
+  },
+  UI_Chardata_Char_Year = {
+    TextMapId = "UI_Chardata_Char_Year",
+    WildcardClassification = "Story"
+  },
   UI_Chardata_Data_Of = {
     TextMapId = "UI_Chardata_Data_Of",
     WildcardClassification = "Story"
@@ -664,6 +676,18 @@ return ReadOnly("TextMapWildcard", {
   },
   UI_DailyGoal_RemainTime = {
     TextMapId = "UI_DailyGoal_RemainTime",
+    WildcardClassification = "Story"
+  },
+  UI_DailyGoal_RemainTime_Day = {
+    TextMapId = "UI_DailyGoal_RemainTime_Day",
+    WildcardClassification = "Story"
+  },
+  UI_DailyGoal_RemainTime_Hour = {
+    TextMapId = "UI_DailyGoal_RemainTime_Hour",
+    WildcardClassification = "Story"
+  },
+  UI_DailyGoal_RemainTime_Minute = {
+    TextMapId = "UI_DailyGoal_RemainTime_Minute",
     WildcardClassification = "Story"
   },
   UI_Dispatch_Toast_CountDown_1 = {
@@ -696,6 +720,18 @@ return ReadOnly("TextMapWildcard", {
   },
   UI_Forge_Num = {
     TextMapId = "UI_Forge_Num",
+    WildcardClassification = "Story"
+  },
+  UI_GameEvent_TimeRemain_Day = {
+    TextMapId = "UI_GameEvent_TimeRemain_Day",
+    WildcardClassification = "Story"
+  },
+  UI_GameEvent_TimeRemain_Hour = {
+    TextMapId = "UI_GameEvent_TimeRemain_Hour",
+    WildcardClassification = "Story"
+  },
+  UI_GameEvent_TimeRemain_Min = {
+    TextMapId = "UI_GameEvent_TimeRemain_Min",
     WildcardClassification = "Story"
   },
   UI_HardBoss_ChancesRemain = {

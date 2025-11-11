@@ -1626,12 +1626,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1746625901645494248",
-            startPort = "Out",
-            endQuest = "1746625901645494239",
-            endPort = "Success"
-          },
-          {
             startQuest = "1746625901645494238",
             startPort = "QuestStart",
             endQuest = "1746625901645494247",
@@ -1983,6 +1977,12 @@ return {
             startQuest = "1746625901645494242",
             startPort = "Out",
             endQuest = "17592313553511865362",
+            endPort = "In"
+          },
+          {
+            startQuest = "1746625901645494248",
+            startPort = "Out",
+            endQuest = "1762758100483629694",
             endPort = "In"
           }
         },
@@ -2808,6 +2808,13 @@ return {
               ForbidTag = "ForbidDefault",
               bHidewhenForbid = true
             }
+          },
+          ["1762758100483629694"] = {
+            key = "1762758100483629694",
+            type = "SpecialQuestSuccessNode",
+            name = "成功完成特殊任务",
+            pos = {x = 923.2216117216117, y = 844.1785714285717},
+            propsData = {}
           }
         },
         commentData = {}

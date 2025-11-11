@@ -292,12 +292,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "173459366755814320",
-            startPort = "false",
-            endQuest = "17345935248467070",
-            endPort = "Success"
-          },
-          {
             startQuest = "1750319042594647649",
             startPort = "Out",
             endQuest = "1750319042594647650",
@@ -326,6 +320,12 @@ return {
             startPort = "Out",
             endQuest = "17506713367082257",
             endPort = "In"
+          },
+          {
+            startQuest = "173459366755814320",
+            startPort = "false",
+            endQuest = "17627580162905172",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -340,7 +340,7 @@ return {
             key = "17345935248467070",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1202, y = 852.6666666666665},
+            pos = {x = 72.58823529411757, y = 686.78431372549},
             propsData = {ModeType = 0}
           },
           ["17345935248467073"] = {
@@ -1435,7 +1435,7 @@ return {
             key = "17503173375082987",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 1546, y = 198},
+            pos = {x = 1546, y = 196.23529411764707},
             propsData = {}
           },
           ["1750319042594647649"] = {
@@ -1480,6 +1480,13 @@ return {
               SendMessage = "",
               FinishCondition = "cp2thea2spbattle02succ"
             }
+          },
+          ["17627580162905172"] = {
+            key = "17627580162905172",
+            type = "SpecialQuestSuccessNode",
+            name = "成功完成特殊任务",
+            pos = {x = -310.9358215314097, y = 386.70220955515066},
+            propsData = {}
           }
         },
         commentData = {}

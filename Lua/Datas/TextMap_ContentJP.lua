@@ -41507,7 +41507,7 @@ local Data = {
           TextMapId = "TextMap_Inference_2001"
         },
         TextMap_Inference_2002 = {
-          ContentJP = "{$Huozai04Tag$｜いくつかの出来事のつながりを思い出し、隠された真実を見つける：？？？}",
+          ContentJP = "{$Huozai04Tag$|いくつかの出来事のつながりを思い出し、隠された真実を見つける:？？？}",
           TextMapId = "TextMap_Inference_2002"
         },
         TextMap_ResultTips_10010101 = {
@@ -44875,7 +44875,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_20030106"
         },
         UI_Achievement_Des_20030107 = {
-          ContentJP = "ヒュペリア帝国のフィーリングシステムで、すべてのフィーリングステータスを<highlight>100</>までアップする",
+          ContentJP = "ヒュペリア帝国のフィーリングシステムで、いずれかのフィーリングステータスを<highlight>100</>までアップする",
           TextMapId = "UI_Achievement_Des_20030107"
         },
         UI_Achievement_Des_2004 = {

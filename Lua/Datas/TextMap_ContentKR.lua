@@ -8744,7 +8744,7 @@ local Data = {
           TextMapId = "Event_Des_103013"
         },
         Event_Des_105102011 = {
-          ContentKR = "한여름 밤, 별빛 아래 숲, 제비꽃과 나비의 날개가 뒤엉킨 미뉴에트... 그녀가 한 번도 본 적 없는 광경",
+          ContentKR = "한여름 밤, 별빛 아래 숲, 팬지꽃과 나비의 날개가 뒤엉킨 미뉴에트... 그녀가 한 번도 본 적 없는 광경",
           TextMapId = "Event_Des_105102011"
         },
         Event_Des_105102012 = {
@@ -28412,7 +28412,7 @@ local Data = {
           TextMapId = "RESOURCE_DESC_41011"
         },
         RESOURCE_DESC_41012 = {
-          ContentKR = "한여름 밤과 제비꽃에 관련된 시를 연주한다.",
+          ContentKR = "한여름 밤과 팬지꽃에 관련된 시를 연주한다.",
           TextMapId = "RESOURCE_DESC_41012"
         },
         RESOURCE_DESC_41013 = {
@@ -28424,11 +28424,11 @@ local Data = {
           TextMapId = "RESOURCE_DESC_41014"
         },
         RESOURCE_DESC_41015 = {
-          ContentKR = "한여름 밤과 제비꽃에 관련된 시를 연주한다.",
+          ContentKR = "한여름 밤과 팬지꽃에 관련된 시를 연주한다.",
           TextMapId = "RESOURCE_DESC_41015"
         },
         RESOURCE_DESC_41016 = {
-          ContentKR = "한여름 밤과 제비꽃에 관련된 시를 연주한다.",
+          ContentKR = "한여름 밤과 팬지꽃에 관련된 시를 연주한다.",
           TextMapId = "RESOURCE_DESC_41016"
         },
         RESOURCE_DESC_41017 = {
@@ -41516,7 +41516,7 @@ local Data = {
           TextMapId = "TextMap_Inference_2001"
         },
         TextMap_Inference_2002 = {
-          ContentKR = "{$Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기: ???}",
+          ContentKR = "{$Huozai04Tag$|사건 사이의 연관성을 떠올리고 숨겨진 진실 찾기:???}",
           TextMapId = "TextMap_Inference_2002"
         },
         TextMap_ResultTips_10010101 = {
@@ -43844,7 +43844,7 @@ local Data = {
           TextMapId = "UI_Accessory_Desc_70001"
         },
         UI_Accessory_Desc_80001 = {
-          ContentKR = "제비꽃을 문 나비가 주인공의 도착을 기다리며 무도회의 서곡을 연주한다.",
+          ContentKR = "팬지꽃을 문 나비가 주인공의 도착을 기다리며 무도회의 서곡을 연주한다.",
           TextMapId = "UI_Accessory_Desc_80001"
         },
         UI_Accessory_Desc_90001 = {
@@ -44884,7 +44884,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_20030106"
         },
         UI_Achievement_Des_20030107 = {
-          ContentKR = "휘페르보레아 제국의 인상 시스템에서 모든 인상 <highlight>100</> 달성",
+          ContentKR = "휘페르보레아 제국의 인상 시스템에서 임의의 인상 <highlight>100</> 달성",
           TextMapId = "UI_Achievement_Des_20030107"
         },
         UI_Achievement_Des_2004 = {
@@ -53496,7 +53496,7 @@ local Data = {
           TextMapId = "UI_Chardata_Char_Brithday"
         },
         UI_Chardata_Char_Day = {
-          ContentKR = "일",
+          ContentKR = "일{空格}",
           TextMapId = "UI_Chardata_Char_Day"
         },
         UI_Chardata_Char_Female = {
@@ -53512,7 +53512,7 @@ local Data = {
           TextMapId = "UI_Chardata_Char_Male"
         },
         UI_Chardata_Char_Month = {
-          ContentKR = "월 ",
+          ContentKR = "월{空格}",
           TextMapId = "UI_Chardata_Char_Month"
         },
         UI_Chardata_Char_Name = {
@@ -53524,7 +53524,7 @@ local Data = {
           TextMapId = "UI_Chardata_Char_Sex"
         },
         UI_Chardata_Char_Year = {
-          ContentKR = "년 ",
+          ContentKR = "년{空格}",
           TextMapId = "UI_Chardata_Char_Year"
         },
         UI_Chardata_Data = {
@@ -54816,15 +54816,15 @@ local Data = {
           TextMapId = "UI_DailyGoal_RemainTime"
         },
         UI_DailyGoal_RemainTime_Day = {
-          ContentKR = "%d일",
+          ContentKR = "%d일{空格}",
           TextMapId = "UI_DailyGoal_RemainTime_Day"
         },
         UI_DailyGoal_RemainTime_Hour = {
-          ContentKR = "%d시",
+          ContentKR = "%d시{空格}",
           TextMapId = "UI_DailyGoal_RemainTime_Hour"
         },
         UI_DailyGoal_RemainTime_Minute = {
-          ContentKR = "%d분",
+          ContentKR = "%d분{空格}",
           TextMapId = "UI_DailyGoal_RemainTime_Minute"
         },
         UI_DailyGoal_RemainTime_Second = {
@@ -56856,15 +56856,15 @@ local Data = {
           TextMapId = "UI_GameEvent_StarterQuest_UnlockCondition"
         },
         UI_GameEvent_TimeRemain_Day = {
-          ContentKR = "일",
+          ContentKR = "일{空格}",
           TextMapId = "UI_GameEvent_TimeRemain_Day"
         },
         UI_GameEvent_TimeRemain_Hour = {
-          ContentKR = "시간",
+          ContentKR = "시간{空格}",
           TextMapId = "UI_GameEvent_TimeRemain_Hour"
         },
         UI_GameEvent_TimeRemain_Min = {
-          ContentKR = "분",
+          ContentKR = "분{空格}",
           TextMapId = "UI_GameEvent_TimeRemain_Min"
         },
         UI_GameEvent_TimeRemain_Sec = {
@@ -64956,7 +64956,7 @@ local Data = {
           TextMapId = "UI_Skin_Des_5301"
         },
         UI_Skin_Des_530101 = {
-          ContentKR = "한여름 밤, 별빛 아래 숲,\n제비꽃과 나비의 날개가 뒤엉킨 미뉴에트...\n그녀가 한 번도 본 적 없는 광경.",
+          ContentKR = "한여름 밤, 별빛 아래 숲,\n팬지꽃과 나비의 날개가 뒤엉킨 미뉴에트...\n그녀가 한 번도 본 적 없는 광경.",
           TextMapId = "UI_Skin_Des_530101"
         },
         UI_Skin_Des_5401 = {

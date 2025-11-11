@@ -1078,7 +1078,7 @@ return ReadOnly("ShopItem", {
     PriceType = 110,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 256,
     StartTime = 1672545600,
@@ -1093,7 +1093,7 @@ return ReadOnly("ShopItem", {
     PriceType = 110,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 257,
     StartTime = 1672545600,
@@ -1108,7 +1108,7 @@ return ReadOnly("ShopItem", {
     PriceType = 110,
     PurchaseLimit = 5,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 258,
     StartTime = 1672545600,
@@ -1123,7 +1123,7 @@ return ReadOnly("ShopItem", {
     PriceType = 110,
     PurchaseLimit = 5,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 259,
     StartTime = 1672545600,
@@ -1138,7 +1138,7 @@ return ReadOnly("ShopItem", {
     PriceType = 110,
     PurchaseLimit = 5,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 255,
     StartTime = 1672545600,
@@ -1153,7 +1153,7 @@ return ReadOnly("ShopItem", {
     PriceType = 110,
     PurchaseLimit = 5,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 254,
     StartTime = 1672545600,
@@ -3353,7 +3353,7 @@ return ReadOnly("ShopItem", {
     PriceType = 99,
     PurchaseLimit = 4,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 80,
     ShowBonus = 200,
@@ -3371,7 +3371,7 @@ return ReadOnly("ShopItem", {
     PriceType = 99,
     PurchaseLimit = 4,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 79,
     ShowBonus = 200,
@@ -3389,7 +3389,7 @@ return ReadOnly("ShopItem", {
     PriceType = 99,
     PurchaseLimit = 4,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 78,
     ShowBonus = 200,
@@ -3407,7 +3407,7 @@ return ReadOnly("ShopItem", {
     PriceType = 99,
     PurchaseLimit = 4,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 77,
     ShowBonus = 200,
@@ -3425,7 +3425,7 @@ return ReadOnly("ShopItem", {
     PriceType = 99,
     PurchaseLimit = 4,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 76,
     ShowBonus = 200,
@@ -3443,7 +3443,7 @@ return ReadOnly("ShopItem", {
     PriceType = 99,
     PurchaseLimit = 4,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 75,
     ShowBonus = 200,
@@ -3461,7 +3461,7 @@ return ReadOnly("ShopItem", {
     PriceType = 99,
     PurchaseLimit = 4,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 74,
     ShowBonus = 200,
@@ -4914,7 +4914,7 @@ return ReadOnly("ShopItem", {
     PriceType = 210,
     PurchaseLimit = 20,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Require = 801126,
     Sequence = 37,
@@ -4931,7 +4931,7 @@ return ReadOnly("ShopItem", {
     PriceType = 210,
     PurchaseLimit = 20,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Require = 801127,
     Sequence = 38,
@@ -4962,7 +4962,7 @@ return ReadOnly("ShopItem", {
     PriceType = 210,
     PurchaseLimit = 20,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Require = 801129,
     Sequence = 40,
@@ -4979,7 +4979,7 @@ return ReadOnly("ShopItem", {
     PriceType = 210,
     PurchaseLimit = 20,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Require = 801130,
     Sequence = 41,
@@ -5541,7 +5541,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 100,
     StartTime = 1672545600,
@@ -5557,7 +5557,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 99,
     StartTime = 1672545600,
@@ -5573,7 +5573,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 98,
     StartTime = 1672545600,
@@ -5589,7 +5589,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 97,
     StartTime = 1672545600,
@@ -5605,7 +5605,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 96,
     StartTime = 1672545600,
@@ -5621,7 +5621,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 95,
     StartTime = 1672545600,
@@ -5637,7 +5637,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 94,
     StartTime = 1672545600,
@@ -5653,7 +5653,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 93,
     StartTime = 1672545600,
@@ -5669,7 +5669,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 92,
     StartTime = 1672545600,
@@ -5685,7 +5685,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 91,
     StartTime = 1672545600,
@@ -5701,7 +5701,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 90,
     StartTime = 1672545600,
@@ -5717,7 +5717,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 89,
     StartTime = 1672545600,
@@ -5733,7 +5733,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 88,
     StartTime = 1672545600,
@@ -5749,7 +5749,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 87,
     StartTime = 1672545600,
@@ -5765,7 +5765,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 86,
     StartTime = 1672545600,
@@ -5781,7 +5781,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 85,
     StartTime = 1672545600,
@@ -5797,7 +5797,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 84,
     StartTime = 1672545600,
@@ -5813,7 +5813,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 83,
     StartTime = 1672545600,
@@ -6045,7 +6045,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 100,
     StartTime = 1672545600,
@@ -6061,7 +6061,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 99,
     StartTime = 1672545600,
@@ -6077,7 +6077,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 98,
     StartTime = 1672545600,
@@ -6093,7 +6093,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 97,
     StartTime = 1672545600,
@@ -6109,7 +6109,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 96,
     StartTime = 1672545600,
@@ -6125,7 +6125,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 95,
     StartTime = 1672545600,
@@ -6141,7 +6141,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 94,
     StartTime = 1672545600,
@@ -6157,7 +6157,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 93,
     StartTime = 1672545600,
@@ -6173,7 +6173,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 92,
     StartTime = 1672545600,
@@ -6189,7 +6189,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 91,
     StartTime = 1672545600,
@@ -6205,7 +6205,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 90,
     StartTime = 1672545600,
@@ -6221,7 +6221,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 89,
     StartTime = 1672545600,
@@ -6237,7 +6237,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 88,
     StartTime = 1672545600,
@@ -6253,7 +6253,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 87,
     StartTime = 1672545600,
@@ -6269,7 +6269,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 86,
     StartTime = 1672545600,
@@ -6285,7 +6285,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 85,
     StartTime = 1672545600,
@@ -6301,7 +6301,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 84,
     StartTime = 1672545600,
@@ -6317,7 +6317,7 @@ return ReadOnly("ShopItem", {
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 8
+      WEEK = 4
     },
     Sequence = 83,
     StartTime = 1672545600,

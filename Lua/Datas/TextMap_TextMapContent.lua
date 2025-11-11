@@ -46199,7 +46199,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_20030106"
         },
         UI_Achievement_Des_20030107 = {
-          TextMapContent = "在海伯利亚帝国的印象系统中，将所有印象值提高到<highlight>100</>点",
+          TextMapContent = "在海伯利亚帝国的印象系统中，将任意印象值提高到<highlight>100</>点",
           TextMapId = "UI_Achievement_Des_20030107"
         },
         UI_Achievement_Des_2004 = {

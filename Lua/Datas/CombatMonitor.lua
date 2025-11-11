@@ -51,7 +51,7 @@ return ReadOnly("CombatMonitor", {
     MonitorType = "Resource",
     ServerMark = true,
     SubId = {"RougeToken"},
-    Value = 5000
+    Value = 8000
   },
   [9] = {
     MonitorId = 9,
