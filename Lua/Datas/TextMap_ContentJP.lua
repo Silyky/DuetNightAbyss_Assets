@@ -52447,7 +52447,7 @@ local Data = {
           TextMapId = "UI_COMMONPOP_TEXT_100098"
         },
         UI_COMMONPOP_TEXT_100099 = {
-          ContentJP = "製造素材に強化された魔の楔が含まれています。製造するとレベルアップに消費した素材が返却されます。\n以下の魔の楔を素材として消費して、%sを製造してよろしいですか？",
+          ContentJP = "製造素材に強化された魔の楔が含まれています。製造するとレベルアップに消費した素材が返却されません。\n以下の魔の楔を素材として消費して、%sを製造してよろしいですか？",
           TextMapId = "UI_COMMONPOP_TEXT_100099"
         },
         UI_COMMONPOP_TEXT_100099_2 = {

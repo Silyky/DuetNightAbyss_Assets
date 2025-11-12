@@ -36928,7 +36928,7 @@ local Data = {
           TextMapId = "SKILL_20501_DESC"
         },
         SKILL_20502_DESC = {
-          ContentEN = "Trigger Probability +<H>#1</>. Fires a Beam Attack that ricochets off the target and hits up to 4 enemies within range. When an Electro character triggers bonus effects with this weapon, the user gains +<H>#2</> Skill Damage for <H>#3</>s.",
+          ContentEN = "Trigger Probability +<H>#1</>. Fires a Beam Attack that ricochets off the target and hits up to 4 enemies within range. When an Electro character triggers bonus effects with this weapon, the user gains +<H>#2</> Weapon Damage for <H>#3</>s.",
           TextMapId = "SKILL_20502_DESC"
         },
         SKILL_20503_DESC = {

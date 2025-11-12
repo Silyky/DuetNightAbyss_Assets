@@ -76069,7 +76069,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_20501_DESC"
         },
   SKILL_20502_DESC = {
-    ContentEN = "Trigger Probability +<H>#1</>. Fires a Beam Attack that ricochets off the target and hits up to 4 enemies within range. When an Electro character triggers bonus effects with this weapon, the user gains +<H>#2</> Skill Damage for <H>#3</>s.",
+    ContentEN = "Trigger Probability +<H>#1</>. Fires a Beam Attack that ricochets off the target and hits up to 4 enemies within range. When an Electro character triggers bonus effects with this weapon, the user gains +<H>#2</> Weapon Damage for <H>#3</>s.",
     ContentJP = "発動確率+<H>#1</>。レーザーを発射し、敵命中後に最大4体の周囲敵へ跳弾する。雷属性キャラがこの武器で追加効果を発動すると、自身に武器ダメージアップ<H>#2</>を付与、<H>#3</>秒継続。",
     ContentKR = "발동 확률+<H>#1</>. 광선을 발사해 공격한다. 광선이 적에게 명중 시 주변 최대 4명의 적에게 반사된다. 번개 속성 캐릭터가 해당 무기로 대미지를 입혀 추가 효과 발동 시, 자신이 무기 대미지 <H>#2</> 상승 효과를 획득한다. 지속 시간 <H>#3</>초.",
     ContentTC = "觸發概率+<H>#1</>。發射射線攻擊，射線在命中敵人後可彈射至周圍的最多4名敵人。雷屬性角色使用此武器造成傷害觸發額外效果時，自身獲得武器傷害提高<H>#2</>，持續<H>#3</>秒。",
@@ -107521,7 +107521,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_COMMONPOP_TEXT_100099 = {
     ContentEN = "The materials you have selected include upgraded Demon Wedge(s), and their upgrade materials will not be returned after the forging process.\nAre you sure you want to use the following Demon Wedge(s) to forge %s?",
-    ContentJP = "製造素材に強化された魔の楔が含まれています。製造するとレベルアップに消費した素材が返却されます。\n以下の魔の楔を素材として消費して、%sを製造してよろしいですか？",
+    ContentJP = "製造素材に強化された魔の楔が含まれています。製造するとレベルアップに消費した素材が返却されません。\n以下の魔の楔を素材として消費して、%sを製造してよろしいですか？",
     ContentKR = "주조 재료 중 레벨업했던 악마의 쐐기가 있습니다. 주조 후 레벨업 재료는 반환되지 않습니다.\n다음 악마의 쐐기를 재료로 사용하여 %s을(를) 주조하시겠습니까?",
     ContentTC = "鑄造材料中存在升級過的魔之楔，鑄造後將不會返還升級材料\n\n確認將以下魔之楔作為材料，鑄造%s嗎？",
     TextMapContent = "铸造材料中存在升级过的魔之楔，铸造后将不会返还升级材料\n确认将以下魔之楔作为材料，铸造%s吗？",
