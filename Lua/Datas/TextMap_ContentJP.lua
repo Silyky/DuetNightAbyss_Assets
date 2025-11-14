@@ -6563,7 +6563,7 @@ local Data = {
           TextMapId = "Description_200101_3"
         },
         Description_200101_4 = {
-          ContentJP = "ルーナ族の鍛冶師を訪ねて「着つけ薬」を製造",
+          ContentJP = "ルーナ族の鍛冶師を訪ねて「気つけ薬」を製造",
           TextMapId = "Description_200101_4"
         },
         Description_200101_4_0 = {
@@ -16435,7 +16435,7 @@ local Data = {
           TextMapId = "ModArchive_Name_Char_1110"
         },
         ModArchive_Name_Char_1120 = {
-          ContentJP = "フェニックス III",
+          ContentJP = "フェニックス IV",
           TextMapId = "ModArchive_Name_Char_1120"
         },
         ModArchive_Name_Char_1130 = {
@@ -20699,7 +20699,7 @@ local Data = {
           TextMapId = "NpcBiography_Information_Sangni"
         },
         NpcBiography_Information_Sanxiongdi = {
-          ContentJP = "レッドバリー城からやって来た、いつも三人で行動を共にする兄弟たち。名前がないのか、それとも覚えられないのか、彼らは互いを「大兄貴」「中兄貴」「小兄貴」と呼び合っている。アウトサイダーのペテンに引っかかり、自分たちから提案して、あなたとアウトサイダーを「大大兄貴」と呼ぶようになった。",
+          ContentJP = "レッドバリー城からやって来た、いつも三人で行動を共にする兄弟たち。名前がないのか、それとも覚えられないのか、彼らは互いを「長男」「次男」「三男」と呼び合っている。アウトサイダーのペテンに引っかかり、自分たちから提案して、あなたとアウトサイダーを「おやじ」と呼ぶようになった。",
           TextMapId = "NpcBiography_Information_Sanxiongdi"
         },
         NpcBiography_Information_Shali = {
@@ -26563,7 +26563,7 @@ local Data = {
           TextMapId = "READ_NAME_20605"
         },
         READ_NAME_20608 = {
-          ContentJP = "アイスレイク城 その7",
+          ContentJP = "アイスレイク城 その1",
           TextMapId = "READ_NAME_20608"
         },
         READ_NAME_20609 = {
@@ -28429,6 +28429,10 @@ local Data = {
         RESOURCE_DESC_41018 = {
           ContentJP = "全速疾走のあと、束の間の静寂を味わう。",
           TextMapId = "RESOURCE_DESC_41018"
+        },
+        RESOURCE_DESC_41028 = {
+          ContentJP = "「特別ジェスチャー」を発動する。",
+          TextMapId = "RESOURCE_DESC_41028"
         },
         RESOURCE_DESC_5000000 = {
           ContentJP = "レア魔の楔強化用素材",
@@ -30894,6 +30898,10 @@ local Data = {
           ContentJP = "瞬速フリーズ・マリーゴールド",
           TextMapId = "RESOURCE_NAME_41018"
         },
+        RESOURCE_NAME_41028 = {
+          ContentJP = "えっほえっほ",
+          TextMapId = "RESOURCE_NAME_41028"
+        },
         RESOURCE_NAME_42001 = {
           ContentJP = "機巧制御盤",
           TextMapId = "RESOURCE_NAME_42001"
@@ -32779,7 +32787,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_415"
         },
         RLBlessing_Desc_501 = {
-          ContentJP = "スピンジャンプをしたとき、<Highlight>$2</>秒間攻撃力が<Highlight>$1</>アップし、「奈落」をHighlight>$3</>スタック獲得する。",
+          ContentJP = "スピンジャンプをしたとき、<Highlight>$2</>秒間攻撃力が<Highlight>$1</>アップし、「奈落」を<Highlight>$3</>スタック獲得する。",
           TextMapId = "RLBlessing_Desc_501"
         },
         RLBlessing_Desc_502 = {
@@ -36939,7 +36947,7 @@ local Data = {
           TextMapId = "SKILL_20504_DESC"
         },
         SKILL_20507_DESC = {
-          ContentJP = "クリティカルダメージ+<H>#1</>。弾丸が障害物に命中または一定距離飛行後、自分の元に戻る。戻ると弾丸+1。最大弾丸数が増えるたびに与ダメージ＋<H>#2</>（最大<H>#3</>増加可能）。",
+          ContentJP = "クリティカルダメージ+<H>#1</>。弾丸が障害物に命中または一定距離飛行後、自分の元に戻る。戻ると弾薬+1。武器の最大弾薬が増えるたびに与ダメージ＋<H>#2</>（最大<H>#3</>増加可能）。",
           TextMapId = "SKILL_20507_DESC"
         },
         SKILL_20509_DESC = {
@@ -42955,7 +42963,7 @@ local Data = {
           TextMapId = "UIGuide_Sojourns_06_Pad"
         },
         UIGuide_Sojourns_07 = {
-          ContentJP = "解放済みの物語は、<Highlight>光陰を止める</>をタップして確認することができます。",
+          ContentJP = "解放済みの物語は、<Highlight>移ろう時を留める</>をタップして確認することができます。",
           TextMapId = "UIGuide_Sojourns_07"
         },
         UIGuide_Sp = {
@@ -45667,7 +45675,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60103"
         },
         UI_Achievement_Des_60106 = {
-          ContentJP = "累計<highlight>#1</>体のキャラクターがLv.20に到達",
+          ContentJP = "累計<highlight>#1</>体のキャラクターがLv.60に到達",
           TextMapId = "UI_Achievement_Des_60106"
         },
         UI_Achievement_Des_60202 = {
@@ -45675,7 +45683,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60202"
         },
         UI_Achievement_Des_60206 = {
-          ContentJP = "累計<highlight>#1</>体のキャラクターが限界突破を1回達成",
+          ContentJP = "累計<highlight>#1</>体のキャラクターが限界突破を6回達成",
           TextMapId = "UI_Achievement_Des_60206"
         },
         UI_Achievement_Des_60401 = {
@@ -50795,7 +50803,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_43010204"
         },
         UI_CHAR_DATA_TEXT_43010205 = {
-          ContentJP = "「いつかこの国に平和が訪れますように」\nディズマニア郊外の古いレンガには、子供が彫ったであろう歪んだ文字が刻まれている。雨風に晒され色褪せてはいるが、確かな願いがそこに残されていた。\nシビルは軽く鼻で笑う。面白く感じたのか、軽蔑したのかは分からない。でも笑うような言葉でないはずだとあなたはシビルの反応に異議を唱えた。対してシビルは否定も肯定もしなかった。\n「私の師匠も同門も似たようなことを言っていたわ。残念ながら彼女たちは短慮に囚われたせいで時代という巨船に轢かれていった。粉々に打ち砕かれて土に還ったのよ」\nそれを聞いたあなたは押し黙ってしまう。\n「信じなくてもいいけど――私はこの理想を認めている」\nシビルは立ち止まることをやめて、古びたレンガを粉々に砕いた。刻まれていた願いは塵となって舞い落ちる。続けて風に任せて飛び去り、言葉は誰の目にも耳にも届かなくなった。\n「そしていつの日か、必ず実現してみせる」",
+          ContentJP = "かつてシビルにもひとりかふたりの友人がいた。しかし今は存在しない。昔は友人の境遇に共感して、一緒に笑ったり嘆いたりすることもあったが、今となってはそんなもの不要な感情だと考えている。",
           TextMapId = "UI_CHAR_DATA_TEXT_43010205"
         },
         UI_CHAR_DATA_TEXT_43010301 = {
@@ -51711,7 +51719,7 @@ local Data = {
           TextMapId = "UI_CMNpc_Name_Dadun"
         },
         UI_CMNpc_Name_Dage = {
-          ContentJP = "大兄貴",
+          ContentJP = "長男",
           TextMapId = "UI_CMNpc_Name_Dage"
         },
         UI_CMNpc_Name_Daiwei = {
@@ -51751,7 +51759,7 @@ local Data = {
           TextMapId = "UI_CMNpc_Name_EnlikeWill"
         },
         UI_CMNpc_Name_Erge = {
-          ContentJP = "中兄貴",
+          ContentJP = "次男",
           TextMapId = "UI_CMNpc_Name_Erge"
         },
         UI_CMNpc_Name_ExcitedAudience = {
@@ -51979,7 +51987,7 @@ local Data = {
           TextMapId = "UI_CMNpc_Name_SanXiongdi"
         },
         UI_CMNpc_Name_Sange = {
-          ContentJP = "小兄貴",
+          ContentJP = "三男",
           TextMapId = "UI_CMNpc_Name_Sange"
         },
         UI_CMNpc_Name_Sangni = {

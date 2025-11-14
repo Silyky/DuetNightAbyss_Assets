@@ -103463,7 +103463,7 @@ local Data = {
           Scripts = "SetTag{Tag{"XiAoTag"}, Value{"Value_1"}}"
         },
         [51007517] = {
-          ContentTC = "啊，請你說慢點……！那麼，誕生於淨界島·重生……誕……蛋……（本地化注意選取與該語種類似的諧音）",
+          ContentTC = "啊，請你說慢點……！那麼，誕生於淨界島·重生……誕……蛋……",
           DialogueId = 51007517,
           GUID = "7FB124C2",
           NextDialogue = 51007518,
@@ -105080,7 +105080,7 @@ local Data = {
           SpeakNpcId = 700204
         },
         [51007738] = {
-          ContentTC = "咦？！{性别:大哥哥丨大姐姐}你怎麼哭了？摸摸你，不哭不哭！",
+          ContentTC = "咦？！{性别:哥哥|姐姐}你怎麼哭了？摸摸你，不哭不哭！",
           DialogueId = 51007738,
           GUID = "7FB14904",
           NextDialogue = 51007739,

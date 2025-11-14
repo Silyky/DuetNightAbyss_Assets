@@ -16444,7 +16444,7 @@ local Data = {
           TextMapId = "ModArchive_Name_Char_1110"
         },
         ModArchive_Name_Char_1120 = {
-          ContentKR = "불사조 Ⅲ",
+          ContentKR = "불사조 Ⅳ",
           TextMapId = "ModArchive_Name_Char_1120"
         },
         ModArchive_Name_Char_1130 = {
@@ -28439,6 +28439,10 @@ local Data = {
           ContentKR = "숨 가쁜 질주 후, 찰나의 고요를 즐겨라.",
           TextMapId = "RESOURCE_DESC_41018"
         },
+        RESOURCE_DESC_41028 = {
+          ContentKR = "‘특수 전시 동작' 스킬을 시전한다.",
+          TextMapId = "RESOURCE_DESC_41028"
+        },
         RESOURCE_DESC_5000000 = {
           ContentKR = "희귀 악마의 쐐기를 강화할 수 있다.",
           TextMapId = "RESOURCE_DESC_5000000"
@@ -30902,6 +30906,10 @@ local Data = {
         RESOURCE_NAME_41018 = {
           ContentKR = "프리즈 프레임·골드",
           TextMapId = "RESOURCE_NAME_41018"
+        },
+        RESOURCE_NAME_41028 = {
+          ContentKR = "금요일 퇴근을 기다리는 모습",
+          TextMapId = "RESOURCE_NAME_41028"
         },
         RESOURCE_NAME_42001 = {
           ContentKR = "견기방추",
@@ -45676,7 +45684,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60103"
         },
         UI_Achievement_Des_60106 = {
-          ContentKR = "누적 <highlight>#1</>명의 캐릭터 20레벨 달성",
+          ContentKR = "누적 <highlight>#1</>명의 캐릭터 Lv.60 달성",
           TextMapId = "UI_Achievement_Des_60106"
         },
         UI_Achievement_Des_60202 = {
@@ -45684,7 +45692,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60202"
         },
         UI_Achievement_Des_60206 = {
-          ContentKR = "누적 <highlight>#1</>명의 캐릭터 1급 돌파",
+          ContentKR = "누적 <highlight>#1</>명의 캐릭터 6급 돌파",
           TextMapId = "UI_Achievement_Des_60206"
         },
         UI_Achievement_Des_60401 = {
@@ -50804,7 +50812,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_43010204"
         },
         UI_CHAR_DATA_TEXT_43010205 = {
-          ContentKR = ""언젠가 이 나라에 평화가 찾아오기를." \n디즈마니아 교외의 오래된 벽돌에 새겨진 조잡한 글씨다. 삐뚤빼뚤한 모양새로 보아 아이가 새긴 것 같았다. 벽돌은 비바람에 바랬지만, 아이의 소원은 충실하게 기록되어 있었다.\n시빌라는 이 문구를 보고 코웃음을 쳤다. 재미있는 듯도 하고, 경멸하는 듯도 했다. 당신은 그녀의 반응에 동의할 수 없었다. 그 말에는 비웃을 만한 게 전혀 없어 보였기 때문이다. 다만 시빌라도 당신의 의견에 가타부타하지는 않았다.\n"내 스승과 한 동문도 비슷한 말을 한 적이 있지. 안타깝게도, 모두 눈앞의 것에만 사로잡혀, 시대의 큰 물결에 휩쓸린 먼지가 되고 말았지만." \n당신은 말없이 듣고만 있었다.\n"다만, 아마 넌 믿지 않겠지만 나는 그 이상에 동의한다."\n시빌라는 더 이상 머물지 않고, 오래된 벽돌을 가루처럼 부숴버렸다. 그 속에 담긴 소원도 함께 먼지 속에 굴러떨어졌고, 나머지 한 구절만이 아무도 듣지 않는 바람 속에 흩어졌다.\n"그리고 나는 그것을 반드시 실현시킬 것이다."",
+          ContentKR = "시빌라에게도 한두 명의 친구가 있었지만, 지금은 모두 사라졌다. 예전에는 친구의 처지에 함께 웃고 울기도 했지만, 이제는 그런 감정이 불필요하다고 여긴다.",
           TextMapId = "UI_CHAR_DATA_TEXT_43010205"
         },
         UI_CHAR_DATA_TEXT_43010301 = {

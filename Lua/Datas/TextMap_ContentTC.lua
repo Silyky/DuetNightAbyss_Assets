@@ -16447,7 +16447,7 @@ local Data = {
           TextMapId = "ModArchive_Name_Char_1110"
         },
         ModArchive_Name_Char_1120 = {
-          ContentTC = "不死鳥 Ⅲ",
+          ContentTC = "不死鳥 Ⅳ",
           TextMapId = "ModArchive_Name_Char_1120"
         },
         ModArchive_Name_Char_1130 = {
@@ -28442,6 +28442,10 @@ local Data = {
           ContentTC = "極速奔馳之後，享受片刻靜謐。",
           TextMapId = "RESOURCE_DESC_41018"
         },
+        RESOURCE_DESC_41028 = {
+          ContentTC = "釋放技能「特殊展示動作」。",
+          TextMapId = "RESOURCE_DESC_41028"
+        },
         RESOURCE_DESC_5000000 = {
           ContentTC = "可用作稀有魔之楔的強化",
           TextMapId = "RESOURCE_DESC_5000000"
@@ -30905,6 +30909,10 @@ local Data = {
         RESOURCE_NAME_41018 = {
           ContentTC = "極速定格・鎏金",
           TextMapId = "RESOURCE_NAME_41018"
+        },
+        RESOURCE_NAME_41028 = {
+          ContentTC = "戰術錯亂步",
+          TextMapId = "RESOURCE_NAME_41028"
         },
         RESOURCE_NAME_42001 = {
           ContentTC = "牽機方樞",
@@ -45691,7 +45699,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60103"
         },
         UI_Achievement_Des_60106 = {
-          ContentTC = "累計<highlight>#1</>名角色達到Lv.20",
+          ContentTC = "累計<highlight>#1</>名角色達到Lv.60",
           TextMapId = "UI_Achievement_Des_60106"
         },
         UI_Achievement_Des_60202 = {
@@ -45699,7 +45707,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60202"
         },
         UI_Achievement_Des_60206 = {
-          ContentTC = "累計<highlight>#1</>名角色突破1階",
+          ContentTC = "累計<highlight>#1</>名角色突破6階",
           TextMapId = "UI_Achievement_Des_60206"
         },
         UI_Achievement_Des_60401 = {
@@ -50819,7 +50827,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_43010204"
         },
         UI_CHAR_DATA_TEXT_43010205 = {
-          ContentTC = "「希望有一天，這個國度可以迎來和平。」\n迪斯瑪尼亞城郊老舊的磚石上印刻著這樣一行粗淺的字跡，歪歪扭扭，似是孩童所刻。磚石在風吹日曬下變得有些斑駁，但仍忠實地記錄著某個孩子的心願。\n西比爾哼笑了一聲，似是覺得有趣，又像是輕蔑。你並不贊同她的反應，認為這句話裡沒有任何可笑的地方，而西比爾對你的意見不置可否。\n「我的老師和一位同門也說過類似的話。很可惜，她們被自己的短視所累，註定被時代的巨輪碾成齏土。」\n你沉默以對。\n「但是，也許你不會相信——我認可這一理想。」\n西比爾不再停留，她將老舊的磚石化為粉芥，連帶著其中的心願一同滾落在塵土中，只剩最後半句話散在風裡，無人聽清。\n「並且，我一定會實現它。」",
+          ContentTC = "西比爾也曾有過一兩個友人，但是現在早已不見。很久以前她還會因為朋友的境遇而一同笑出聲或是哀歎，但現在她更傾向認為，這是不必要的情感。",
           TextMapId = "UI_CHAR_DATA_TEXT_43010205"
         },
         UI_CHAR_DATA_TEXT_43010301 = {

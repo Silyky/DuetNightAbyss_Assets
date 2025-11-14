@@ -16436,7 +16436,7 @@ local Data = {
           TextMapId = "ModArchive_Name_Char_1110"
         },
         ModArchive_Name_Char_1120 = {
-          ContentEN = "Phoenix Ⅲ",
+          ContentEN = "Phoenix Ⅳ",
           TextMapId = "ModArchive_Name_Char_1120"
         },
         ModArchive_Name_Char_1130 = {
@@ -28431,6 +28431,10 @@ local Data = {
           ContentEN = "After a headlong sprint, savour a moment of stillness.",
           TextMapId = "RESOURCE_DESC_41018"
         },
+        RESOURCE_DESC_41028 = {
+          ContentEN = "Uses skill "Special Posture".",
+          TextMapId = "RESOURCE_DESC_41028"
+        },
         RESOURCE_DESC_5000000 = {
           ContentEN = "Used to enhance Demon Wedges with high rarity",
           TextMapId = "RESOURCE_DESC_5000000"
@@ -30894,6 +30898,10 @@ local Data = {
         RESOURCE_NAME_41018 = {
           ContentEN = "Snapfreeze: Gilt",
           TextMapId = "RESOURCE_NAME_41018"
+        },
+        RESOURCE_NAME_41028 = {
+          ContentEN = "Goofy Groove",
+          TextMapId = "RESOURCE_NAME_41028"
         },
         RESOURCE_NAME_42001 = {
           ContentEN = "Mechanical Nexus",
@@ -45668,7 +45676,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60103"
         },
         UI_Achievement_Des_60106 = {
-          ContentEN = "Have <highlight>#1</> Lv. 20 characters",
+          ContentEN = "Have <highlight>#1</> Lv. 60 character",
           TextMapId = "UI_Achievement_Des_60106"
         },
         UI_Achievement_Des_60202 = {
@@ -45676,7 +45684,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_60202"
         },
         UI_Achievement_Des_60206 = {
-          ContentEN = "Have <highlight>#1</> characters that have reached Ascension Phase 1",
+          ContentEN = "Have <highlight>#1</> characters that have reached Ascension Phase 6",
           TextMapId = "UI_Achievement_Des_60206"
         },
         UI_Achievement_Des_60401 = {
@@ -50796,7 +50804,7 @@ local Data = {
           TextMapId = "UI_CHAR_DATA_TEXT_43010204"
         },
         UI_CHAR_DATA_TEXT_43010205 = {
-          ContentEN = ""May peace someday come to this land."\nThe crude inscription was roughly etched into a weathered brick on the outskirts of Dismania, the uneven strokes suggesting it was written by a child. Despite years of exposure to the elements, the stone faithfully preserved the naive wish.\nSibylle let out a faint laugh. It was hard to tell whether she found the sentiment amusing or simply foolish. You, however, found nothing laughable about the words. When you voiced your disagreement, she merely shrugged.\n"My mentor and a fellow student once expressed similar sentiments. Sadly, their naivety took a toll on them, and they were crushed beneath the relentless march of time."\nYou remained silent.\n"That being said, and you might find this hard to believe — I actually agree with that ideal," she continued.\nWith a casual flick, she shattered the worn brick, reducing the remnants of that wish to dust. Her final words lingered faintly on the wind, barely audible:\n"And I shall fulfil it."",
+          ContentEN = "Sibylle once shared her life with a few close friends, but those days are long behind her. There was a time when she would laugh and commiserate with them, sharing in their joys and pains. But now, she has come to believe that such emotions are distractions she no longer needs.",
           TextMapId = "UI_CHAR_DATA_TEXT_43010205"
         },
         UI_CHAR_DATA_TEXT_43010301 = {

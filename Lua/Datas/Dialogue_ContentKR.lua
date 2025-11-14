@@ -71554,7 +71554,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/110191/1B95D0DE"
         },
         [11019124] = {
-          ContentKR = "(거기에는 교도소장에게조차 말하지 않았던... <Highlight>그것</>이 있어...)",
+          ContentKR = "(거기에는 교도소장에게조차 말하지 않았던... <H>그것</>이 있어...)",
           DialogueId = 11019124,
           ExStoryInfo = "EXPlayer",
           GUID = "1B9488BE",

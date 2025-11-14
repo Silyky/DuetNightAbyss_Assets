@@ -14527,7 +14527,7 @@ return ReadOnly("TextMap_I18n", {
         },
   Description_200101_4 = {
     ContentEN = "Craft a vial of Sal Volatile at Lunosmith's",
-    ContentJP = "ルーナ族の鍛冶師を訪ねて「着つけ薬」を製造",
+    ContentJP = "ルーナ族の鍛冶師を訪ねて「気つけ薬」を製造",
     ContentKR = "대장장이 루나에게서 스멜링 솔트 1개를 주조하자",
     ContentTC = "在鐵匠皎皎處鑄造一份嗅鹽",
     TextMapContent = "在铁匠皎皎处铸造一份嗅盐",
@@ -34923,10 +34923,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "ModArchive_Name_Char_1110"
         },
   ModArchive_Name_Char_1120 = {
-    ContentEN = "Phoenix Ⅲ",
-    ContentJP = "フェニックス III",
-    ContentKR = "불사조 Ⅲ",
-    ContentTC = "不死鳥 Ⅲ",
+    ContentEN = "Phoenix Ⅳ",
+    ContentJP = "フェニックス IV",
+    ContentKR = "불사조 Ⅳ",
+    ContentTC = "不死鳥 Ⅳ",
     TextMapContent = "不死鸟 Ⅳ",
     TextMapId = "ModArchive_Name_Char_1120"
         },
@@ -43584,7 +43584,7 @@ return ReadOnly("TextMap_I18n", {
         },
   NpcBiography_Information_Sanxiongdi = {
     ContentEN = "Hailing from Scarletriver, a trio of brothers so close they might as well be one. Whether they lack names or simply can't recall their own, they address each other as Bigger Bro, Big Bro, and Small Bro. Charmed by Outsider's eloquence, they've readily embraced both you and Outsider as their "Super Bros".",
-    ContentJP = "レッドバリー城からやって来た、いつも三人で行動を共にする兄弟たち。名前がないのか、それとも覚えられないのか、彼らは互いを「大兄貴」「中兄貴」「小兄貴」と呼び合っている。アウトサイダーのペテンに引っかかり、自分たちから提案して、あなたとアウトサイダーを「大大兄貴」と呼ぶようになった。",
+    ContentJP = "レッドバリー城からやって来た、いつも三人で行動を共にする兄弟たち。名前がないのか、それとも覚えられないのか、彼らは互いを「長男」「次男」「三男」と呼び合っている。アウトサイダーのペテンに引っかかり、自分たちから提案して、あなたとアウトサイダーを「おやじ」と呼ぶようになった。",
     ContentKR = "스칼렛에서 왔으며 그림자처럼 붙어 다니는 삼 형제. 이름이 없는 건지 기억을 못 하는 건지, 서로를 첫째, 둘째, 셋째로만 부른다. 아웃사이더의 속임수에 넘어간 형제들은 나와 아웃사이더를 삼 형제의 '왕형님'으로 모시기로 했다.",
     ContentTC = "從紅溪城而來，形影不離的兄弟三人。不知是沒有名字還是記不住名字，彼此之間只用大哥、二哥、三哥來稱呼，在奧特賽德的坑蒙拐騙之下，他們心甘情願地將你和奧特賽德認定為三兄弟中的「大大哥」。",
     TextMapContent = "从红溪城而来，形影不离的兄弟三人。不知是没有名字还是记不住名字，彼此之间只用大哥、二哥、三哥来称呼，在奥特赛德的坑蒙拐骗之下，他们心甘情愿地将你和奥特赛德认定为三兄弟中的“大大哥”。",
@@ -55322,7 +55322,7 @@ return ReadOnly("TextMap_I18n", {
         },
   READ_NAME_20608 = {
     ContentEN = "Icelake: Volume Ⅰ",
-    ContentJP = "アイスレイク城 その7",
+    ContentJP = "アイスレイク城 その1",
     ContentKR = "아이스레이크 시티 Ⅰ",
     ContentTC = "冰湖城·其一",
     TextMapContent = "冰湖城·其一",
@@ -59055,6 +59055,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "極速奔馳之後，享受片刻靜謐。",
     TextMapContent = "极速奔驰之后，享受片刻静谧。",
     TextMapId = "RESOURCE_DESC_41018"
+        },
+  RESOURCE_DESC_41028 = {
+    ContentEN = "Uses skill "Special Posture".",
+    ContentJP = "「特別ジェスチャー」を発動する。",
+    ContentKR = "‘특수 전시 동작' 스킬을 시전한다.",
+    ContentTC = "釋放技能「特殊展示動作」。",
+    TextMapContent = "释放技能“特殊展示动作”。",
+    TextMapId = "RESOURCE_DESC_41028"
         },
   RESOURCE_DESC_5000000 = {
     ContentEN = "Used to enhance Demon Wedges with high rarity",
@@ -63988,6 +63996,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "极速定格·鎏金",
     TextMapId = "RESOURCE_NAME_41018"
         },
+  RESOURCE_NAME_41028 = {
+    ContentEN = "Goofy Groove",
+    ContentJP = "えっほえっほ",
+    ContentKR = "금요일 퇴근을 기다리는 모습",
+    ContentTC = "戰術錯亂步",
+    TextMapContent = "技能五子棋",
+    TextMapId = "RESOURCE_NAME_41028"
+        },
   RESOURCE_NAME_42001 = {
     ContentEN = "Mechanical Nexus",
     ContentJP = "機巧制御盤",
@@ -67770,7 +67786,7 @@ return ReadOnly("TextMap_I18n", {
         },
   RLBlessing_Desc_501 = {
     ContentEN = "Helix Leap grants +<Highlight>$1</> ATK for <Highlight>$2</>s and <Highlight>$3</> stack(s) of [Umbral Devourer].",
-    ContentJP = "スピンジャンプをしたとき、<Highlight>$2</>秒間攻撃力が<Highlight>$1</>アップし、「奈落」をHighlight>$3</>スタック獲得する。",
+    ContentJP = "スピンジャンプをしたとき、<Highlight>$2</>秒間攻撃力が<Highlight>$1</>アップし、「奈落」を<Highlight>$3</>スタック獲得する。",
     ContentKR = "스파이럴 점프 시, 공격력 <Highlight>$1</> 상승 효과를 획득한다. 지속 시간 <Highlight>$2</>초. 동시에 [잠식의 그림자] <Highlight>$3</>단계를 획득한다.",
     ContentTC = "螺旋飛躍時，獲得攻擊提高<Highlight>$1</>效果，持續<Highlight>$2</>秒，並獲得<Highlight>$3</>層[噬影]。",
     TextMapContent = "螺旋飞跃时，获得攻击提高<Highlight>$1</>效果，持续<Highlight>$2</>秒，并获得<Highlight>$3</>层[噬影]。",
@@ -76094,7 +76110,7 @@ return ReadOnly("TextMap_I18n", {
         },
   SKILL_20507_DESC = {
     ContentEN = "CRIT Damage +<H>#1</>. Projectiles that hit the environment or travel a certain distance return to the user's position and increase the Ammo count by 1. For each additional Ammo count gained, the damage dealt by this weapon is increased by <H>#2</>, up to a maximum increase of <H>#3</>.",
-    ContentJP = "クリティカルダメージ+<H>#1</>。弾丸が障害物に命中または一定距離飛行後、自分の元に戻る。戻ると弾丸+1。最大弾丸数が増えるたびに与ダメージ＋<H>#2</>（最大<H>#3</>増加可能）。",
+    ContentJP = "クリティカルダメージ+<H>#1</>。弾丸が障害物に命中または一定距離飛行後、自分の元に戻る。戻ると弾薬+1。武器の最大弾薬が増えるたびに与ダメージ＋<H>#2</>（最大<H>#3</>増加可能）。",
     ContentKR = "크리티컬 대미지+<H>#1</>. 탄환이 환경에 명중하거나 일정 거리 비행 후, 자신의 위치로 돌아오며, 돌아온 후 탄약 1개를 추가한다. 무기의 최대 탄약이 1개 증가할 때마다, 입힌 대미지가 <H>#2</>만큼 상승한다. 최대 <H>#3</> 상승.",
     ContentTC = "暴擊傷害+<H>#1</>。子彈命中場景或飛行一段距離後，向自身位置返回，返回後增加1枚備彈。武器的最大彈藥每增加1枚，造成的傷害提高<H>#2</>，最大提高<H>#3</>。",
     TextMapContent = "暴击伤害+<H>#1</>。子弹命中场景或飞行一段距离后，向自身位置返回，返回后增加1枚备弹。武器的最大弹药每增加1枚，造成的伤害提高<H>#2</>，最大提高<H>#3</>。",
@@ -88142,7 +88158,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UIGuide_Sojourns_07 = {
     ContentEN = "Unlocked stories can be revisited at <Highlight>Seize the Sojourn</>.",
-    ContentJP = "解放済みの物語は、<Highlight>光陰を止める</>をタップして確認することができます。",
+    ContentJP = "解放済みの物語は、<Highlight>移ろう時を留める</>をタップして確認することができます。",
     ContentKR = "해제된 이야기는 <Highlight>멈추는 순간</>을 클릭하여 볼 수 있습니다.",
     ContentTC = "已解鎖的故事，可點擊<Highlight>停駐光陰</>進行查看。",
     TextMapContent = "已解锁的故事，可点击<Highlight>停驻光阴</>进行查看。",
@@ -93609,10 +93625,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_60103"
         },
   UI_Achievement_Des_60106 = {
-    ContentEN = "Have <highlight>#1</> Lv. 20 characters",
-    ContentJP = "累計<highlight>#1</>体のキャラクターがLv.20に到達",
-    ContentKR = "누적 <highlight>#1</>명의 캐릭터 20레벨 달성",
-    ContentTC = "累計<highlight>#1</>名角色達到Lv.20",
+    ContentEN = "Have <highlight>#1</> Lv. 60 character",
+    ContentJP = "累計<highlight>#1</>体のキャラクターがLv.60に到達",
+    ContentKR = "누적 <highlight>#1</>명의 캐릭터 Lv.60 달성",
+    ContentTC = "累計<highlight>#1</>名角色達到Lv.60",
     TextMapContent = "累计<highlight>#1</>名角色达到Lv.60",
     TextMapId = "UI_Achievement_Des_60106"
         },
@@ -93625,10 +93641,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_60202"
         },
   UI_Achievement_Des_60206 = {
-    ContentEN = "Have <highlight>#1</> characters that have reached Ascension Phase 1",
-    ContentJP = "累計<highlight>#1</>体のキャラクターが限界突破を1回達成",
-    ContentKR = "누적 <highlight>#1</>명의 캐릭터 1급 돌파",
-    ContentTC = "累計<highlight>#1</>名角色突破1階",
+    ContentEN = "Have <highlight>#1</> characters that have reached Ascension Phase 6",
+    ContentJP = "累計<highlight>#1</>体のキャラクターが限界突破を6回達成",
+    ContentKR = "누적 <highlight>#1</>명의 캐릭터 6급 돌파",
+    ContentTC = "累計<highlight>#1</>名角色突破6階",
     TextMapContent = "累计<highlight>#1</>名角色突破6阶",
     TextMapId = "UI_Achievement_Des_60206"
         },
@@ -104119,10 +104135,10 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CHAR_DATA_TEXT_43010205 = {
     ContentDE = "« Qu’un jour, ce pays connaisse enfin la paix. »\nSur une vieille brique à la périphérie de Dismania, cette phrase enfantine était gravée d’une écriture maladroite, toute tordue. Le vent et le soleil avaient terni la pierre, mais l’inscription restait là, fidèle au vœu naïf d’un enfant.\nSibylle laissa échapper un petit rire difficile à interpréter : amusement ? Mépris ?\nToi, tu ne voyais rien de risible dans ces mots, et quand tu fis part de ton opinion, elle se contenta d’un haussement d’épaules.\n« Mon professeur et une camarade ont dit à peu près la même chose. Dommage qu’elles aient été aveuglées par leur propre naïveté, destinées à être broyées sous le rouleau compresseur du temps. »\nTu restas silencieux.\n« Cela dit, tu auras du mal à le croire, mais moi, je partage cette conviction. »\nSans plus attendre, elle réduisit la vieille brique en poussière, emportant avec elle ce vœu d’enfant. Seule une demi-phrase vola dans le vent, inaudible :\n« Et je la réaliserai. »",
-    ContentEN = ""May peace someday come to this land."\nThe crude inscription was roughly etched into a weathered brick on the outskirts of Dismania, the uneven strokes suggesting it was written by a child. Despite years of exposure to the elements, the stone faithfully preserved the naive wish.\nSibylle let out a faint laugh. It was hard to tell whether she found the sentiment amusing or simply foolish. You, however, found nothing laughable about the words. When you voiced your disagreement, she merely shrugged.\n"My mentor and a fellow student once expressed similar sentiments. Sadly, their naivety took a toll on them, and they were crushed beneath the relentless march of time."\nYou remained silent.\n"That being said, and you might find this hard to believe — I actually agree with that ideal," she continued.\nWith a casual flick, she shattered the worn brick, reducing the remnants of that wish to dust. Her final words lingered faintly on the wind, barely audible:\n"And I shall fulfil it."",
-    ContentJP = "「いつかこの国に平和が訪れますように」\nディズマニア郊外の古いレンガには、子供が彫ったであろう歪んだ文字が刻まれている。雨風に晒され色褪せてはいるが、確かな願いがそこに残されていた。\nシビルは軽く鼻で笑う。面白く感じたのか、軽蔑したのかは分からない。でも笑うような言葉でないはずだとあなたはシビルの反応に異議を唱えた。対してシビルは否定も肯定もしなかった。\n「私の師匠も同門も似たようなことを言っていたわ。残念ながら彼女たちは短慮に囚われたせいで時代という巨船に轢かれていった。粉々に打ち砕かれて土に還ったのよ」\nそれを聞いたあなたは押し黙ってしまう。\n「信じなくてもいいけど――私はこの理想を認めている」\nシビルは立ち止まることをやめて、古びたレンガを粉々に砕いた。刻まれていた願いは塵となって舞い落ちる。続けて風に任せて飛び去り、言葉は誰の目にも耳にも届かなくなった。\n「そしていつの日か、必ず実現してみせる」",
-    ContentKR = ""언젠가 이 나라에 평화가 찾아오기를." \n디즈마니아 교외의 오래된 벽돌에 새겨진 조잡한 글씨다. 삐뚤빼뚤한 모양새로 보아 아이가 새긴 것 같았다. 벽돌은 비바람에 바랬지만, 아이의 소원은 충실하게 기록되어 있었다.\n시빌라는 이 문구를 보고 코웃음을 쳤다. 재미있는 듯도 하고, 경멸하는 듯도 했다. 당신은 그녀의 반응에 동의할 수 없었다. 그 말에는 비웃을 만한 게 전혀 없어 보였기 때문이다. 다만 시빌라도 당신의 의견에 가타부타하지는 않았다.\n"내 스승과 한 동문도 비슷한 말을 한 적이 있지. 안타깝게도, 모두 눈앞의 것에만 사로잡혀, 시대의 큰 물결에 휩쓸린 먼지가 되고 말았지만." \n당신은 말없이 듣고만 있었다.\n"다만, 아마 넌 믿지 않겠지만 나는 그 이상에 동의한다."\n시빌라는 더 이상 머물지 않고, 오래된 벽돌을 가루처럼 부숴버렸다. 그 속에 담긴 소원도 함께 먼지 속에 굴러떨어졌고, 나머지 한 구절만이 아무도 듣지 않는 바람 속에 흩어졌다.\n"그리고 나는 그것을 반드시 실현시킬 것이다."",
-    ContentTC = "「希望有一天，這個國度可以迎來和平。」\n迪斯瑪尼亞城郊老舊的磚石上印刻著這樣一行粗淺的字跡，歪歪扭扭，似是孩童所刻。磚石在風吹日曬下變得有些斑駁，但仍忠實地記錄著某個孩子的心願。\n西比爾哼笑了一聲，似是覺得有趣，又像是輕蔑。你並不贊同她的反應，認為這句話裡沒有任何可笑的地方，而西比爾對你的意見不置可否。\n「我的老師和一位同門也說過類似的話。很可惜，她們被自己的短視所累，註定被時代的巨輪碾成齏土。」\n你沉默以對。\n「但是，也許你不會相信——我認可這一理想。」\n西比爾不再停留，她將老舊的磚石化為粉芥，連帶著其中的心願一同滾落在塵土中，只剩最後半句話散在風裡，無人聽清。\n「並且，我一定會實現它。」",
+    ContentEN = "Sibylle once shared her life with a few close friends, but those days are long behind her. There was a time when she would laugh and commiserate with them, sharing in their joys and pains. But now, she has come to believe that such emotions are distractions she no longer needs.",
+    ContentJP = "かつてシビルにもひとりかふたりの友人がいた。しかし今は存在しない。昔は友人の境遇に共感して、一緒に笑ったり嘆いたりすることもあったが、今となってはそんなもの不要な感情だと考えている。",
+    ContentKR = "시빌라에게도 한두 명의 친구가 있었지만, 지금은 모두 사라졌다. 예전에는 친구의 처지에 함께 웃고 울기도 했지만, 이제는 그런 감정이 불필요하다고 여긴다.",
+    ContentTC = "西比爾也曾有過一兩個友人，但是現在早已不見。很久以前她還會因為朋友的境遇而一同笑出聲或是哀歎，但現在她更傾向認為，這是不必要的情感。",
     TextMapContent = "西比尔也曾有过一两个友人，但是现在早已不见。很久以前她还会因为朋友的境遇而一同笑出声或是哀叹，但现在她更倾向认为，这是不必要的情感。",
     TextMapId = "UI_CHAR_DATA_TEXT_43010205"
         },
@@ -106029,7 +106045,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Name_Dage = {
     ContentEN = "Bigger Bro",
-    ContentJP = "大兄貴",
+    ContentJP = "長男",
     ContentKR = "첫째",
     ContentTC = "大哥",
     TextMapContent = "大哥",
@@ -106109,7 +106125,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Name_Erge = {
     ContentEN = "Big Bro",
-    ContentJP = "中兄貴",
+    ContentJP = "次男",
     ContentKR = "둘째",
     ContentTC = "二哥",
     TextMapContent = "二哥",
@@ -106569,7 +106585,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Name_Sange = {
     ContentEN = "Small Bro",
-    ContentJP = "小兄貴",
+    ContentJP = "三男",
     ContentKR = "셋째",
     ContentTC = "三哥",
     TextMapContent = "三哥",
