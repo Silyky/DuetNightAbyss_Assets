@@ -21935,7 +21935,7 @@ return ReadOnly("TextMap_I18n", {
         },
   GRADEUP_5401_06 = {
     ContentEN = "When a teammate applied with [Purification Formula] deals damage to an enemy inflicted with [Decay Formula], Daphne gains 1 stack that increases Damage Dealt by #4 for #5s, up to #6 stacks. This effect can only be triggered once per second.",
-    ContentJP = "「活性処方」を持つ目標が「腐蝕処方」を持つ目標にダメージを与えた時、#5秒間ダメージが#4アップする（最大6回まで重ねがけ可）。この効果は1秒ごとに1回のみ発動可能。",
+    ContentJP = "「活性処方」を持つ目標が「腐蝕処方」を持つ目標にダメージを与えた時、#5秒間ダメージが#4アップする（最大#6回まで重ねがけ可）。この効果は1秒ごとに1回のみ発動可能。",
     ContentKR = "[정화 레시피]를 보유한 대상이 [부패 레시피]를 보유한 대상에게 대미지를 입힐 시, 1단계의 대미지 #4 상승 효과 획득한다. 지속 시간 #5초, 최대 #6단계 중첩. 해당 효과는 매초 최대 1회 발동한다.",
     ContentTC = "帶有「淨化配方」的目標對帶有「腐朽配方」的目標造成傷害時，獲得1層傷害提高#4，持續#5秒，最多疊加#6層。該效果每秒最多觸發1次。",
     TextMapContent = "带有[净化配方]的目标对带有[腐朽配方]的目标造成伤害时，获得1层伤害提高#4，持续#5秒，最多叠加#6层。该效果每秒最多触发1次。",

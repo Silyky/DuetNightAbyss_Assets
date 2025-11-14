@@ -3,7 +3,7 @@ local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
 end
 return ReadOnly("ResourceMax", {
   [100] = 5000000,
-  [102] = 100000,
+  [102] = 10000000,
   [110] = 50000,
   [111] = 50000,
   [201] = 500,

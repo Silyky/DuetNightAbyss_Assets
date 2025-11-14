@@ -1190,7 +1190,6 @@ return ReadOnly("Monster", {
     BattleRoleId = 430101,
     BloodUIParmas = {ActiveCommonUI = 1},
     Camp = "Monster",
-    DamageSource = true,
     DelayDestroyTime = 2,
     DisableTicklod = true,
     DontApplySubsidenceAdjust = true,
