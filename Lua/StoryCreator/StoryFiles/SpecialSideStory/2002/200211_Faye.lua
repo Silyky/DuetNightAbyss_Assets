@@ -126,12 +126,6 @@ return {
           {
             startQuest = "1717148878615982347",
             startPort = "Out",
-            endQuest = "1747126578546580181",
-            endPort = "In"
-          },
-          {
-            startQuest = "1747126578546580181",
-            startPort = "Out",
             endQuest = "17175746784841023445",
             endPort = "In"
           }
@@ -307,7 +301,7 @@ return {
             key = "1747126578546580181",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1063.9453727235343, y = 266.7170309667449},
+            pos = {x = 1063.9453727235343, y = 450.6300744450058},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 51003821,
@@ -326,46 +320,8 @@ return {
               EndNewTargetPointName = "",
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
-              TalkActors = {
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 700089,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 700090,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 700012,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 700088,
-                  TalkActorVisible = true
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700088},
-                {TalkActorType = "Npc", TalkActorId = 700089},
-                {TalkActorType = "Npc", TalkActorId = 700090},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 700012}
-              },
+              TalkActors = {},
+              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",

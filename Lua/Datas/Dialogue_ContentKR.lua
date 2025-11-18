@@ -96195,6 +96195,7 @@ local Data = {
           DialogueId = 51003820,
           FinalCamera = "-158.777344,280.334961,89.867432,0.000135,0.0,-68.609573,35.0,100000.0,false,DoNotOverride,2.8",
           GUID = "7FAEC638",
+          NextDialogue = 51003821,
           SpeakNpcId = 700012,
           TalkActionId = {
             [1] = "700012:Disagree"
@@ -96205,7 +96206,8 @@ local Data = {
           ContentKR = "(소녀가 귀를 막은 채 달아난다.)",
           DialogueId = 51003821,
           GUID = "7FAEC662",
-          Scripts = "MoveTo{ActorId{700012},MoveSpeed{300},TargetPoint{"QuestPoint_FayeRun"},Visibility{"Hide"}}"
+          IsBlack = 1,
+          Scripts = "SetLocation{ActorId{700012},TargetPoint{"QuestPoint_FayeRun"},Visibility{"Hide"}}"
         },
         [51003901] = {
           ContentKR = "(소녀가 고개를 숙인 채 구석에 서 있다. 기분이 안 좋아 보인다.)",

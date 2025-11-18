@@ -49938,6 +49938,10 @@ local Data = {
           TextMapContent = "特殊物件",
           TextMapId = "UI_Archive_Tab_TaskResource"
         },
+        UI_ArmoryMod_Enhance_Unequip = {
+          TextMapContent = "包含装备中的魔之楔，增幅后将会被自动卸载",
+          TextMapId = "UI_ArmoryMod_Enhance_Unequip"
+        },
         UI_Armory_AlreadyPut = {
           TextMapContent = "已出战",
           TextMapId = "UI_Armory_AlreadyPut"
@@ -60245,6 +60249,10 @@ local Data = {
         UI_ModArchive_TotalExpReward = {
           TextMapContent = "收集该系列共可获得<H>%s</>历练经验（获取时自动发放）",
           TextMapId = "UI_ModArchive_TotalExpReward"
+        },
+        UI_ModEnhance_Locked = {
+          TextMapContent = "所选魔之楔已锁定，无法作为增幅材料",
+          TextMapId = "UI_ModEnhance_Locked"
         },
         UI_ModEnhance_Max = {
           TextMapContent = "已达增幅上限",

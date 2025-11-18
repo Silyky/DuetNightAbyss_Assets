@@ -27740,7 +27740,7 @@ return ReadOnly("TextMap_I18n", {
         },
   MOD_DESC_3321 = {
     ContentEN = "When dealing CRIT damage, gains 1 stack that increases Trigger Probability by #1 for #2s, up to #3 stacks.",
-    ContentJP = "クリティカルヒットすると、1回につきクリティカル率が#1アップ、#2秒持続。最大#3回まで重ねがけ可。",
+    ContentJP = "クリティカルヒットすると、1回につき発動確率が#1アップ、#2秒持続。最大#3回まで重ねがけ可。",
     ContentKR = "크리티컬 대미지를 입힐 시 1단계의 발동 확률 #1 상승 효과 획득, 지속 시간 #2초, 최대 #3단계 중첩.",
     ContentTC = "傷害暴擊後，獲得1層觸發概率提高#1，持續#2秒，最多疊加#3層。",
     TextMapContent = "伤害暴击后，获得1层触发概率提高#1，持续#2秒，最多叠加#3层。",
@@ -99391,7 +99391,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Archive_Progress = {
     ContentEN = "%s/%s",
     ContentJP = "%s/%s",
-    ContentKR = "%/%",
+    ContentKR = "%s/%s",
     ContentTC = "%s/%s",
     TextMapContent = "%s/%s",
     TextMapId = "UI_Archive_Progress"

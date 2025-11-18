@@ -155097,9 +155097,8 @@ local Data = {
         [51003821] = {
           Operations = {
             [1] = {
-              MoveTo = {
+              SetLocation = {
                 ActorId = 700012,
-                MoveSpeed = 300,
                 TargetPoint = "QuestPoint_FayeRun",
                 Visibility = "Hide"
               }

@@ -2796,7 +2796,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 10000
     },
     RewardId = 1016,
@@ -2822,7 +2822,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2854,7 +2854,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2886,7 +2886,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2918,7 +2918,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2950,7 +2950,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2976,7 +2976,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 10000
     },
     RewardId = 1022,
@@ -3002,7 +3002,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3034,7 +3034,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3066,7 +3066,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3098,7 +3098,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3130,7 +3130,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3156,7 +3156,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 10000
     },
     RewardId = 1028,
@@ -3182,7 +3182,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3214,7 +3214,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3246,7 +3246,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3278,7 +3278,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3310,7 +3310,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3336,7 +3336,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 10000
     },
     RewardId = 1034,
@@ -3362,7 +3362,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3394,7 +3394,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3426,7 +3426,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3458,7 +3458,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3490,7 +3490,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3516,7 +3516,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 10000
     },
     RewardId = 1040,
@@ -3542,7 +3542,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3574,7 +3574,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3606,7 +3606,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3638,7 +3638,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3670,7 +3670,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10000,
+      [1] = 10001,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -39605,6 +39605,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39621,6 +39622,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39637,6 +39639,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39653,6 +39656,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39669,6 +39673,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39685,6 +39690,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39701,6 +39707,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39717,6 +39724,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39733,6 +39741,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39749,6 +39758,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39765,6 +39775,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39781,6 +39792,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39797,6 +39809,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39813,6 +39826,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39829,6 +39843,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39845,6 +39860,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39861,6 +39877,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000
@@ -39877,6 +39894,7 @@ return ReadOnly("Reward", {
     Id = {
       [1] = 70
     },
+    IsFixedByBonus = true,
     Mode = "Independent",
     Param = {
       [1] = 10000

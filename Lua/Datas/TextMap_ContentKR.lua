@@ -48560,7 +48560,7 @@ local Data = {
           TextMapId = "UI_Archive_CollectionTarget"
         },
         UI_Archive_Progress = {
-          ContentKR = "%/%",
+          ContentKR = "%s/%s",
           TextMapId = "UI_Archive_Progress"
         },
         UI_Archive_Special = {

@@ -882,7 +882,10 @@ return ReadOnly("CommonPopupUIContext", {
     Id = 100118,
     NoButtonText = "UI_PATCH_CANCEL",
     PopoverText = "UI_COMMONPOP_TEXT_100118",
-    Style = "ShortTextDefault_1",
+    Style = "ShortTextDefault_2",
+    Tip = {
+      [1] = "UI_ArmoryMod_Enhance_Unequip"
+    },
     Title = "UI_FUNC_INCREASE",
     YesButtonText = "UI_PATCH_ENSURE"
   },
@@ -890,7 +893,10 @@ return ReadOnly("CommonPopupUIContext", {
     Id = 100119,
     NoButtonText = "UI_PATCH_CANCEL",
     PopoverText = "UI_COMMONPOP_TEXT_100119",
-    Style = "ShortTextDefault_1",
+    Style = "ShortTextDefault_2",
+    Tip = {
+      [1] = "UI_ArmoryMod_Enhance_Unequip"
+    },
     Title = "UI_FUNC_INCREASE",
     YesButtonText = "UI_PATCH_ENSURE"
   },

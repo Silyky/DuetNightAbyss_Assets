@@ -12863,7 +12863,7 @@ local Data = {
           TextMapId = "MOD_DESC_3311"
         },
         MOD_DESC_3321 = {
-          ContentJP = "クリティカルヒットすると、1回につきクリティカル率が#1アップ、#2秒持続。最大#3回まで重ねがけ可。",
+          ContentJP = "クリティカルヒットすると、1回につき発動確率が#1アップ、#2秒持続。最大#3回まで重ねがけ可。",
           TextMapId = "MOD_DESC_3321"
         },
         MOD_DESC_3322 = {

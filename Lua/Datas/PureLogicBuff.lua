@@ -136,21 +136,6 @@ return ReadOnly("PureLogicBuff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
-  [1315] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "DamageRate",
-        RateZone = "BossDown",
-        Value = "#1"
-      }
-    },
-    BuffId = 1315,
-    BuffType = {
-      [1] = 6000206
-    },
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
   [1316] = {
     AddAttrs = {
       [1] = {

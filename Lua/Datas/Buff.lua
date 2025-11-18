@@ -1153,11 +1153,12 @@ return ReadOnly("Buff", {
   [1315] = {
     AddAttrs = {
       [1] = {
-        AttrName = "DamageRate",
+        AttrName = "DamagedRate",
         RateZone = "BossDown",
         Value = "#1"
       }
     },
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_1315.BP_Buff_1315",
     BuffId = 1315,
     BuffType = 6000206,
     MergeRule1 = "Global",

@@ -1056,9 +1056,7 @@ return ReadOnly("TargetFilter", {
     CampFilter = "OtherFriend",
     ID = "BossLiecheHand_FindLiecheHand",
     LuaFilter = "CheckRangeHit",
-    LuaFilterParaments = {
-      Radius = 4000, Type = "Sphere"
-    }
+    LuaFilterParaments = {Radius = 4000, Type = "Sphere"}
   },
   BossLiecheHand_Skill01 = {
     CampFilter = "Enemy",
@@ -3473,7 +3471,7 @@ return ReadOnly("TargetFilter", {
     ID = "Lise_Skill02_CharToEnemy",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      Radius = 4000, Type = "Sphere"
+      Radius = 5000, Type = "Sphere"
     }
   },
   Lise_Skill02_EnemyToEnemy = {
