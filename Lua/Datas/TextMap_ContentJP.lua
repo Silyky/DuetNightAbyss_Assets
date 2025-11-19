@@ -35839,7 +35839,7 @@ local Data = {
           TextMapId = "RL_Event310_Select_1"
         },
         RL_Event310_Select_2 = {
-          ContentJP = "ランダムな<Highlight>レジェンド</>「レリック」を獲得。",
+          ContentJP = "ランダムな<Highlight>レジェンド</>「キャンドルの芯」を獲得。",
           TextMapId = "RL_Event310_Select_2"
         },
         RL_Event311_Select_1 = {

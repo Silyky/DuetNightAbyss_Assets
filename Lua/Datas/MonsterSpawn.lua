@@ -671,7 +671,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -740,7 +740,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -809,7 +809,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -878,7 +878,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -947,7 +947,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -1017,7 +1017,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -1160,7 +1160,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1208,7 +1208,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1256,7 +1256,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1305,7 +1305,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1353,7 +1353,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1402,7 +1402,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1438,7 +1438,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1474,7 +1474,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1540,7 +1540,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1606,7 +1606,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1672,7 +1672,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1738,7 +1738,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       DefenceCore = ""
@@ -1805,7 +1805,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -1873,7 +1873,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -1941,7 +1941,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -2009,7 +2009,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -2077,7 +2077,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -2145,7 +2145,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -2334,7 +2334,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -2371,7 +2371,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -2439,7 +2439,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -3042,7 +3042,7 @@ return ReadOnly("MonsterSpawn", {
       4,
       5
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49001
@@ -3098,7 +3098,7 @@ return ReadOnly("MonsterSpawn", {
       4,
       5
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49002
@@ -3154,7 +3154,7 @@ return ReadOnly("MonsterSpawn", {
       4,
       5
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49003
@@ -3191,7 +3191,7 @@ return ReadOnly("MonsterSpawn", {
       2.7,
       3
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -3246,7 +3246,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -3282,7 +3282,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -3325,7 +3325,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -3368,7 +3368,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -3411,7 +3411,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -3454,7 +3454,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -3490,7 +3490,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -3532,7 +3532,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -3570,7 +3570,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -3606,7 +3606,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49200
@@ -4095,7 +4095,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4163,7 +4163,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4230,7 +4230,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4297,7 +4297,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4364,7 +4364,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4431,7 +4431,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4498,7 +4498,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4565,7 +4565,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4632,7 +4632,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4699,7 +4699,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4766,7 +4766,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4827,7 +4827,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4888,7 +4888,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -4949,7 +4949,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5010,7 +5010,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5071,7 +5071,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5132,7 +5132,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5193,7 +5193,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5254,7 +5254,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5315,7 +5315,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5376,7 +5376,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5443,7 +5443,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5504,7 +5504,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5571,7 +5571,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5632,7 +5632,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5699,7 +5699,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5760,7 +5760,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5827,7 +5827,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5888,7 +5888,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -5949,7 +5949,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6010,7 +6010,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6071,7 +6071,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6132,7 +6132,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6193,7 +6193,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6260,7 +6260,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 100,
     PresetTargetInfo = {
       Player = ""
@@ -6327,7 +6327,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 12000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 100,
     PresetTargetInfo = {
       Player = ""
@@ -6698,7 +6698,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 20000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6741,7 +6741,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6778,7 +6778,7 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -6827,7 +6827,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49600
@@ -6877,7 +6877,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49600
@@ -6927,7 +6927,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49600
@@ -8185,7 +8185,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8221,7 +8221,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8257,7 +8257,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8293,7 +8293,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8329,7 +8329,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8365,7 +8365,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8401,7 +8401,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8437,7 +8437,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8473,7 +8473,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8509,7 +8509,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8545,7 +8545,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8581,7 +8581,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8617,7 +8617,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8653,7 +8653,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8689,7 +8689,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8725,7 +8725,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8761,7 +8761,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8797,7 +8797,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8833,7 +8833,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8869,7 +8869,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8905,7 +8905,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8941,7 +8941,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -8977,7 +8977,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -9013,7 +9013,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -9049,7 +9049,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -12219,7 +12219,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12288,7 +12288,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12357,7 +12357,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12426,7 +12426,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12495,7 +12495,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12565,7 +12565,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12635,7 +12635,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12703,7 +12703,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12771,7 +12771,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12839,7 +12839,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12907,7 +12907,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -12975,7 +12975,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -13043,7 +13043,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -13111,7 +13111,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13179,7 +13179,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13247,7 +13247,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13315,7 +13315,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13383,7 +13383,7 @@ return ReadOnly("MonsterSpawn", {
       1.4,
       1.6
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -13432,7 +13432,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49600
@@ -13482,7 +13482,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Mechanism = 49600
@@ -13532,7 +13532,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
@@ -13802,7 +13802,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13838,7 +13838,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13874,7 +13874,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13910,7 +13910,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13946,7 +13946,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -13982,7 +13982,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -14018,7 +14018,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
@@ -14054,7 +14054,7 @@ return ReadOnly("MonsterSpawn", {
       1.8,
       2
     },
-    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""

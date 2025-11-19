@@ -11891,6 +11891,7 @@ return ReadOnly("SkillCreature", {
     },
     BoundCount = -1,
     BulletFXID = 2060302,
+    ClientOwner = true,
     CreatureId = 2060312,
     EffectMultiple = true,
     FixSpeedByWeapon = true,

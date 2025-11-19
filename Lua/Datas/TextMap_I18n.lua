@@ -73894,7 +73894,7 @@ return ReadOnly("TextMap_I18n", {
         },
   RL_Event310_Select_2 = {
     ContentEN = "Grants a random <Highlight>Purple</>-tier [Lampwick].",
-    ContentJP = "ランダムな<Highlight>レジェンド</>「レリック」を獲得。",
+    ContentJP = "ランダムな<Highlight>レジェンド</>「キャンドルの芯」を獲得。",
     ContentKR = "<Highlight>보라색</> [심지] 1개 랜덤 획득.",
     ContentTC = "獲得一個隨機<Highlight>紫色</>[燭芯]。",
     TextMapContent = "获得一个随机<Highlight>紫色</>[烛芯]。",
