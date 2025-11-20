@@ -43,30 +43,30 @@ return ReadOnly("ShopItem2RewardPack", {
   Resource = {
     [101] = {
       [1] = {
-        ShopItemId = 160102,
-        ShopType = "Shop",
-        SubTabId = 1601,
-        TypeId = 12102
-      },
-      [2] = {
         ShopItemId = 160103,
         ShopType = "Shop",
         SubTabId = 1601,
         TypeId = 12103
+      },
+      [2] = {
+        ShopItemId = 160102,
+        ShopType = "Shop",
+        SubTabId = 1601,
+        TypeId = 12102
       }
     },
     [102] = {
       [1] = {
-        ShopItemId = 160206,
-        ShopType = "Shop",
-        SubTabId = 1605,
-        TypeId = 12045
-      },
-      [2] = {
         ShopItemId = 160207,
         ShopType = "Shop",
         SubTabId = 1605,
         TypeId = 12046
+      },
+      [2] = {
+        ShopItemId = 160206,
+        ShopType = "Shop",
+        SubTabId = 1605,
+        TypeId = 12045
       }
     },
     [201] = {
@@ -95,16 +95,16 @@ return ReadOnly("ShopItem2RewardPack", {
     },
     [208] = {
       [1] = {
-        ShopItemId = 160213,
-        ShopType = "Shop",
-        SubTabId = 1605,
-        TypeId = 12056
-      },
-      [2] = {
         ShopItemId = 160212,
         ShopType = "Shop",
         SubTabId = 1605,
         TypeId = 12055
+      },
+      [2] = {
+        ShopItemId = 160213,
+        ShopType = "Shop",
+        SubTabId = 1605,
+        TypeId = 12056
       }
     },
     [209] = {
@@ -123,10 +123,10 @@ return ReadOnly("ShopItem2RewardPack", {
         TypeId = 12023
       },
       [2] = {
-        ShopItemId = 160108,
+        ShopItemId = 160110,
         ShopType = "Shop",
         SubTabId = 1601,
-        TypeId = 12024
+        TypeId = 12026
       },
       [3] = {
         ShopItemId = 160109,
@@ -135,10 +135,10 @@ return ReadOnly("ShopItem2RewardPack", {
         TypeId = 12025
       },
       [4] = {
-        ShopItemId = 160110,
+        ShopItemId = 160108,
         ShopType = "Shop",
         SubTabId = 1601,
-        TypeId = 12026
+        TypeId = 12024
       }
     },
     [1003] = {
@@ -149,10 +149,10 @@ return ReadOnly("ShopItem2RewardPack", {
         TypeId = 12023
       },
       [2] = {
-        ShopItemId = 160108,
+        ShopItemId = 160110,
         ShopType = "Shop",
         SubTabId = 1601,
-        TypeId = 12024
+        TypeId = 12026
       },
       [3] = {
         ShopItemId = 160109,
@@ -161,62 +161,62 @@ return ReadOnly("ShopItem2RewardPack", {
         TypeId = 12025
       },
       [4] = {
-        ShopItemId = 160110,
+        ShopItemId = 160108,
         ShopType = "Shop",
         SubTabId = 1601,
-        TypeId = 12026
+        TypeId = 12024
       }
     },
     [1004] = {
       [1] = {
-        ShopItemId = 160101,
+        ShopItemId = 160106,
         ShopType = "Shop",
         SubTabId = 1601,
-        TypeId = 12101
+        TypeId = 12106
       },
       [2] = {
-        ShopItemId = 160102,
-        ShopType = "Shop",
-        SubTabId = 1601,
-        TypeId = 12102
-      },
-      [3] = {
-        ShopItemId = 160103,
-        ShopType = "Shop",
-        SubTabId = 1601,
-        TypeId = 12103
-      },
-      [4] = {
-        ShopItemId = 160104,
-        ShopType = "Shop",
-        SubTabId = 1601,
-        TypeId = 12104
-      },
-      [5] = {
         ShopItemId = 160105,
         ShopType = "Shop",
         SubTabId = 1601,
         TypeId = 12105
       },
-      [6] = {
-        ShopItemId = 160106,
+      [3] = {
+        ShopItemId = 160104,
         ShopType = "Shop",
         SubTabId = 1601,
-        TypeId = 12106
+        TypeId = 12104
+      },
+      [4] = {
+        ShopItemId = 160103,
+        ShopType = "Shop",
+        SubTabId = 1601,
+        TypeId = 12103
+      },
+      [5] = {
+        ShopItemId = 160102,
+        ShopType = "Shop",
+        SubTabId = 1601,
+        TypeId = 12102
+      },
+      [6] = {
+        ShopItemId = 160101,
+        ShopType = "Shop",
+        SubTabId = 1601,
+        TypeId = 12101
       }
     },
     [20008] = {
       [1] = {
-        ShopItemId = 160208,
-        ShopType = "Shop",
-        SubTabId = 1605,
-        TypeId = 12047
-      },
-      [2] = {
         ShopItemId = 160209,
         ShopType = "Shop",
         SubTabId = 1605,
         TypeId = 12048
+      },
+      [2] = {
+        ShopItemId = 160208,
+        ShopType = "Shop",
+        SubTabId = 1605,
+        TypeId = 12047
       }
     },
     [20013] = {
@@ -235,44 +235,44 @@ return ReadOnly("ShopItem2RewardPack", {
     },
     [20023] = {
       [1] = {
-        ShopItemId = 160208,
-        ShopType = "Shop",
-        SubTabId = 1605,
-        TypeId = 12047
-      },
-      [2] = {
         ShopItemId = 160209,
         ShopType = "Shop",
         SubTabId = 1605,
         TypeId = 12048
+      },
+      [2] = {
+        ShopItemId = 160208,
+        ShopType = "Shop",
+        SubTabId = 1605,
+        TypeId = 12047
       }
     },
     [20027] = {
       [1] = {
-        ShopItemId = 160210,
-        ShopType = "Shop",
-        SubTabId = 1605,
-        TypeId = 12049
-      },
-      [2] = {
         ShopItemId = 160211,
         ShopType = "Shop",
         SubTabId = 1605,
         TypeId = 12050
+      },
+      [2] = {
+        ShopItemId = 160210,
+        ShopType = "Shop",
+        SubTabId = 1605,
+        TypeId = 12049
       }
     },
     [20028] = {
       [1] = {
-        ShopItemId = 160210,
-        ShopType = "Shop",
-        SubTabId = 1605,
-        TypeId = 12049
-      },
-      [2] = {
         ShopItemId = 160211,
         ShopType = "Shop",
         SubTabId = 1605,
         TypeId = 12050
+      },
+      [2] = {
+        ShopItemId = 160210,
+        ShopType = "Shop",
+        SubTabId = 1605,
+        TypeId = 12049
       }
     },
     [30102] = {
@@ -344,29 +344,29 @@ return ReadOnly("ShopItem2RewardPack", {
   Skin = {
     [16010010] = {
       [1] = {
-        ShopItemId = 160111,
-        ShopType = "Shop",
-        SubTabId = 1601,
-        TypeId = 12107
-      },
-      [2] = {
         ShopItemId = 160316,
         ShopType = "Shop",
         SubTabId = 1606,
+        TypeId = 12107
+      },
+      [2] = {
+        ShopItemId = 160111,
+        ShopType = "Shop",
+        SubTabId = 1601,
         TypeId = 12107
       }
     },
     [16010110] = {
       [1] = {
-        ShopItemId = 160111,
-        ShopType = "Shop",
-        SubTabId = 1601,
-        TypeId = 12107
-      },
-      [2] = {
         ShopItemId = 160316,
         ShopType = "Shop",
         SubTabId = 1606,
+        TypeId = 12107
+      },
+      [2] = {
+        ShopItemId = 160111,
+        ShopType = "Shop",
+        SubTabId = 1601,
         TypeId = 12107
       }
     }

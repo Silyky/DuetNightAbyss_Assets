@@ -1072,13 +1072,14 @@ return ReadOnly("ShopItem", {
     TypeNum = 2
   },
   [140143] = {
+    EndTime = 1766350800,
     ItemId = 140143,
     ItemType = "Resource",
     Price = 35,
     PriceType = 110,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 256,
     StartTime = 1672545600,
@@ -1087,13 +1088,14 @@ return ReadOnly("ShopItem", {
     TypeNum = 1
   },
   [140144] = {
+    EndTime = 1766350800,
     ItemId = 140144,
     ItemType = "Resource",
     Price = 25,
     PriceType = 110,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 257,
     StartTime = 1672545600,
@@ -1102,13 +1104,14 @@ return ReadOnly("ShopItem", {
     TypeNum = 1
   },
   [140145] = {
+    EndTime = 1766350800,
     ItemId = 140145,
     ItemType = "Resource",
     Price = 8,
     PriceType = 110,
     PurchaseLimit = 5,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 258,
     StartTime = 1672545600,
@@ -1117,13 +1120,14 @@ return ReadOnly("ShopItem", {
     TypeNum = 1
   },
   [140146] = {
+    EndTime = 1766350800,
     ItemId = 140146,
     ItemType = "Resource",
     Price = 8,
     PriceType = 110,
     PurchaseLimit = 5,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 259,
     StartTime = 1672545600,
@@ -1132,13 +1136,14 @@ return ReadOnly("ShopItem", {
     TypeNum = 1
   },
   [140147] = {
+    EndTime = 1766350800,
     ItemId = 140147,
     ItemType = "Resource",
     Price = 6,
     PriceType = 110,
     PurchaseLimit = 5,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 255,
     StartTime = 1672545600,
@@ -1147,7 +1152,98 @@ return ReadOnly("ShopItem", {
     TypeNum = 1
   },
   [140148] = {
+    EndTime = 1766350800,
     ItemId = 140148,
+    ItemType = "Resource",
+    Price = 6,
+    PriceType = 110,
+    PurchaseLimit = 5,
+    RefreshTime = {
+      DAY = 1086
+    },
+    Sequence = 254,
+    StartTime = 1672545600,
+    SubTabId = 1402,
+    TypeId = 30108,
+    TypeNum = 1
+  },
+  [140149] = {
+    ItemId = 140149,
+    ItemType = "Resource",
+    Price = 35,
+    PriceType = 110,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 256,
+    StartTime = 1766350800,
+    SubTabId = 1402,
+    TypeId = 201,
+    TypeNum = 1
+  },
+  [140150] = {
+    ItemId = 140150,
+    ItemType = "Resource",
+    Price = 25,
+    PriceType = 110,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 257,
+    StartTime = 1766350800,
+    SubTabId = 1402,
+    TypeId = 202,
+    TypeNum = 1
+  },
+  [140151] = {
+    ItemId = 140151,
+    ItemType = "Resource",
+    Price = 8,
+    PriceType = 110,
+    PurchaseLimit = 5,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 258,
+    StartTime = 1766350800,
+    SubTabId = 1402,
+    TypeId = 1001,
+    TypeNum = 1
+  },
+  [140152] = {
+    ItemId = 140152,
+    ItemType = "Resource",
+    Price = 8,
+    PriceType = 110,
+    PurchaseLimit = 5,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 259,
+    StartTime = 1766350800,
+    SubTabId = 1402,
+    TypeId = 1003,
+    TypeNum = 1
+  },
+  [140153] = {
+    ItemId = 140153,
+    ItemType = "Resource",
+    Price = 6,
+    PriceType = 110,
+    PurchaseLimit = 5,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 255,
+    StartTime = 1766350800,
+    SubTabId = 1402,
+    TypeId = 30101,
+    TypeNum = 1
+  },
+  [140154] = {
+    ItemId = 140154,
     ItemType = "Resource",
     Price = 6,
     PriceType = 110,
@@ -1156,7 +1252,7 @@ return ReadOnly("ShopItem", {
       WEEK = 4
     },
     Sequence = 254,
-    StartTime = 1672545600,
+    StartTime = 1766350800,
     SubTabId = 1402,
     TypeId = 30108,
     TypeNum = 1
@@ -5535,13 +5631,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002201] = {
+    EndTime = 1766350800,
     ItemId = 10002201,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 100,
     StartTime = 1672545600,
@@ -5551,13 +5648,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002202] = {
+    EndTime = 1766350800,
     ItemId = 10002202,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 99,
     StartTime = 1672545600,
@@ -5567,13 +5665,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002203] = {
+    EndTime = 1766350800,
     ItemId = 10002203,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 98,
     StartTime = 1672545600,
@@ -5583,13 +5682,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002204] = {
+    EndTime = 1766350800,
     ItemId = 10002204,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 97,
     StartTime = 1672545600,
@@ -5599,13 +5699,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002205] = {
+    EndTime = 1766350800,
     ItemId = 10002205,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 96,
     StartTime = 1672545600,
@@ -5615,13 +5716,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002206] = {
+    EndTime = 1766350800,
     ItemId = 10002206,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 95,
     StartTime = 1672545600,
@@ -5631,13 +5733,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002207] = {
+    EndTime = 1766350800,
     ItemId = 10002207,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 94,
     StartTime = 1672545600,
@@ -5647,13 +5750,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002208] = {
+    EndTime = 1766350800,
     ItemId = 10002208,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 93,
     StartTime = 1672545600,
@@ -5663,13 +5767,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002209] = {
+    EndTime = 1766350800,
     ItemId = 10002209,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 92,
     StartTime = 1672545600,
@@ -5679,13 +5784,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002210] = {
+    EndTime = 1766350800,
     ItemId = 10002210,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 91,
     StartTime = 1672545600,
@@ -5695,13 +5801,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002211] = {
+    EndTime = 1766350800,
     ItemId = 10002211,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 90,
     StartTime = 1672545600,
@@ -5711,13 +5818,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002212] = {
+    EndTime = 1766350800,
     ItemId = 10002212,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 89,
     StartTime = 1672545600,
@@ -5727,13 +5835,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002213] = {
+    EndTime = 1766350800,
     ItemId = 10002213,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 88,
     StartTime = 1672545600,
@@ -5743,13 +5852,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002214] = {
+    EndTime = 1766350800,
     ItemId = 10002214,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 87,
     StartTime = 1672545600,
@@ -5759,13 +5869,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002215] = {
+    EndTime = 1766350800,
     ItemId = 10002215,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 86,
     StartTime = 1672545600,
@@ -5775,13 +5886,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002216] = {
+    EndTime = 1766350800,
     ItemId = 10002216,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 85,
     StartTime = 1672545600,
@@ -5791,13 +5903,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002217] = {
+    EndTime = 1766350800,
     ItemId = 10002217,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 84,
     StartTime = 1672545600,
@@ -5807,13 +5920,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002218] = {
+    EndTime = 1766350800,
     ItemId = 10002218,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 83,
     StartTime = 1672545600,
@@ -6039,13 +6153,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 15
   },
   [10002301] = {
+    EndTime = 1766350800,
     ItemId = 10002301,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 100,
     StartTime = 1672545600,
@@ -6055,13 +6170,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002302] = {
+    EndTime = 1766350800,
     ItemId = 10002302,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 99,
     StartTime = 1672545600,
@@ -6071,13 +6187,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002303] = {
+    EndTime = 1766350800,
     ItemId = 10002303,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 98,
     StartTime = 1672545600,
@@ -6087,13 +6204,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002304] = {
+    EndTime = 1766350800,
     ItemId = 10002304,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 97,
     StartTime = 1672545600,
@@ -6103,13 +6221,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002305] = {
+    EndTime = 1766350800,
     ItemId = 10002305,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 96,
     StartTime = 1672545600,
@@ -6119,13 +6238,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002306] = {
+    EndTime = 1766350800,
     ItemId = 10002306,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 95,
     StartTime = 1672545600,
@@ -6135,13 +6255,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002307] = {
+    EndTime = 1766350800,
     ItemId = 10002307,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 94,
     StartTime = 1672545600,
@@ -6151,13 +6272,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002308] = {
+    EndTime = 1766350800,
     ItemId = 10002308,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 93,
     StartTime = 1672545600,
@@ -6167,13 +6289,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002309] = {
+    EndTime = 1766350800,
     ItemId = 10002309,
     ItemType = "Draft",
     Price = 7500,
     PriceType = 215,
     PurchaseLimit = 2,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 92,
     StartTime = 1672545600,
@@ -6183,13 +6306,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 55
   },
   [10002310] = {
+    EndTime = 1766350800,
     ItemId = 10002310,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 91,
     StartTime = 1672545600,
@@ -6199,13 +6323,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002311] = {
+    EndTime = 1766350800,
     ItemId = 10002311,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 90,
     StartTime = 1672545600,
@@ -6215,13 +6340,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002312] = {
+    EndTime = 1766350800,
     ItemId = 10002312,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 89,
     StartTime = 1672545600,
@@ -6231,13 +6357,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002313] = {
+    EndTime = 1766350800,
     ItemId = 10002313,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 88,
     StartTime = 1672545600,
@@ -6247,13 +6374,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002314] = {
+    EndTime = 1766350800,
     ItemId = 10002314,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 87,
     StartTime = 1672545600,
@@ -6263,13 +6391,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002315] = {
+    EndTime = 1766350800,
     ItemId = 10002315,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 86,
     StartTime = 1672545600,
@@ -6279,13 +6408,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002316] = {
+    EndTime = 1766350800,
     ItemId = 10002316,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 85,
     StartTime = 1672545600,
@@ -6295,13 +6425,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002317] = {
+    EndTime = 1766350800,
     ItemId = 10002317,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 84,
     StartTime = 1672545600,
@@ -6311,13 +6442,14 @@ return ReadOnly("ShopItem", {
     UnlockLevel = 45
   },
   [10002318] = {
+    EndTime = 1766350800,
     ItemId = 10002318,
     ItemType = "Mod",
     Price = 2000,
     PriceType = 215,
     PurchaseLimit = 6,
     RefreshTime = {
-      WEEK = 4
+      DAY = 1086
     },
     Sequence = 83,
     StartTime = 1672545600,
@@ -6541,5 +6673,581 @@ return ReadOnly("ShopItem", {
     TypeId = 25103,
     TypeNum = 1,
     UnlockLevel = 15
+  },
+  [10002337] = {
+    ItemId = 10002337,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 100,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154001,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002338] = {
+    ItemId = 10002338,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 99,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154002,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002339] = {
+    ItemId = 10002339,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 98,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154003,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002340] = {
+    ItemId = 10002340,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 97,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154004,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002341] = {
+    ItemId = 10002341,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 96,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154005,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002342] = {
+    ItemId = 10002342,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 95,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154006,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002343] = {
+    ItemId = 10002343,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 94,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154101,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002344] = {
+    ItemId = 10002344,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 93,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154102,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002345] = {
+    ItemId = 10002345,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 92,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 154103,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002346] = {
+    ItemId = 10002346,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 91,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44001,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002347] = {
+    ItemId = 10002347,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 90,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44002,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002348] = {
+    ItemId = 10002348,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 89,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44003,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002349] = {
+    ItemId = 10002349,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 88,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44004,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002350] = {
+    ItemId = 10002350,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 87,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44005,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002351] = {
+    ItemId = 10002351,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 86,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44006,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002352] = {
+    ItemId = 10002352,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 85,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44101,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002353] = {
+    ItemId = 10002353,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 84,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44102,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002354] = {
+    ItemId = 10002354,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 83,
+    StartTime = 1766350800,
+    SubTabId = 100022,
+    TypeId = 44103,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002355] = {
+    ItemId = 10002355,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 100,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155001,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002356] = {
+    ItemId = 10002356,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 99,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155002,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002357] = {
+    ItemId = 10002357,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 98,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155003,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002358] = {
+    ItemId = 10002358,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 97,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155004,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002359] = {
+    ItemId = 10002359,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 96,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155005,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002360] = {
+    ItemId = 10002360,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 95,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155006,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002361] = {
+    ItemId = 10002361,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 94,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155101,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002362] = {
+    ItemId = 10002362,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 93,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155102,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002363] = {
+    ItemId = 10002363,
+    ItemType = "Draft",
+    Price = 7500,
+    PriceType = 215,
+    PurchaseLimit = 2,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 92,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 155103,
+    TypeNum = 1,
+    UnlockLevel = 55
+  },
+  [10002364] = {
+    ItemId = 10002364,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 91,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45001,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002365] = {
+    ItemId = 10002365,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 90,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45002,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002366] = {
+    ItemId = 10002366,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 89,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45003,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002367] = {
+    ItemId = 10002367,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 88,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45004,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002368] = {
+    ItemId = 10002368,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 87,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45005,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002369] = {
+    ItemId = 10002369,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 86,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45006,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002370] = {
+    ItemId = 10002370,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 85,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45101,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002371] = {
+    ItemId = 10002371,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 84,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45102,
+    TypeNum = 1,
+    UnlockLevel = 45
+  },
+  [10002372] = {
+    ItemId = 10002372,
+    ItemType = "Mod",
+    Price = 2000,
+    PriceType = 215,
+    PurchaseLimit = 6,
+    RefreshTime = {
+      WEEK = 4
+    },
+    Sequence = 83,
+    StartTime = 1766350800,
+    SubTabId = 100023,
+    TypeId = 45103,
+    TypeNum = 1,
+    UnlockLevel = 45
   }
 })
