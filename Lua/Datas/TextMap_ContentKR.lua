@@ -44151,6 +44151,18 @@ local Data = {
           ContentKR = "한여름의 선글라스·제트 블랙",
           TextMapId = "UI_Accessory_Name_10053"
         },
+        UI_Accessory_Name_10058 = {
+          ContentKR = "꿈속의 나이팅게일·아이보리",
+          TextMapId = "UI_Accessory_Name_10058"
+        },
+        UI_Accessory_Name_10059 = {
+          ContentKR = "꿈속의 나이팅게일·벚꽃",
+          TextMapId = "UI_Accessory_Name_10059"
+        },
+        UI_Accessory_Name_10060 = {
+          ContentKR = "꿈속의 나이팅게일·오렌지",
+          TextMapId = "UI_Accessory_Name_10060"
+        },
         UI_Accessory_Name_20001 = {
           ContentKR = "동그란 안경",
           TextMapId = "UI_Accessory_Name_20001"
@@ -44351,6 +44363,18 @@ local Data = {
           ContentKR = "인형의 동화",
           TextMapId = "UI_Accessory_Name_30017"
         },
+        UI_Accessory_Name_30022 = {
+          ContentKR = "인형의 동화·벚꽃",
+          TextMapId = "UI_Accessory_Name_30022"
+        },
+        UI_Accessory_Name_30023 = {
+          ContentKR = "인형의 동화·제트 블랙",
+          TextMapId = "UI_Accessory_Name_30023"
+        },
+        UI_Accessory_Name_30024 = {
+          ContentKR = "인형의 동화·스카이 블루",
+          TextMapId = "UI_Accessory_Name_30024"
+        },
         UI_Accessory_Name_40001 = {
           ContentKR = "달의 여우 꼬리",
           TextMapId = "UI_Accessory_Name_40001"
@@ -44391,6 +44415,22 @@ local Data = {
           ContentKR = "과거의 환상",
           TextMapId = "UI_Accessory_Name_40010"
         },
+        UI_Accessory_Name_40017 = {
+          ContentKR = "달의 여우 꼬리·제트 블랙",
+          TextMapId = "UI_Accessory_Name_40017"
+        },
+        UI_Accessory_Name_40018 = {
+          ContentKR = "달의 여우 꼬리·오렌지",
+          TextMapId = "UI_Accessory_Name_40018"
+        },
+        UI_Accessory_Name_40019 = {
+          ContentKR = "달의 여우 꼬리·벚꽃",
+          TextMapId = "UI_Accessory_Name_40019"
+        },
+        UI_Accessory_Name_40020 = {
+          ContentKR = "달의 여우 꼬리·러스트 레드",
+          TextMapId = "UI_Accessory_Name_40020"
+        },
         UI_Accessory_Name_50004 = {
           ContentKR = "은촛불 화염",
           TextMapId = "UI_Accessory_Name_50004"
@@ -44403,9 +44443,33 @@ local Data = {
           ContentKR = "흔들리는 궤적",
           TextMapId = "UI_Accessory_Name_70001"
         },
+        UI_Accessory_Name_70011 = {
+          ContentKR = "흔들리는 궤적·러스트 레드",
+          TextMapId = "UI_Accessory_Name_70011"
+        },
+        UI_Accessory_Name_70012 = {
+          ContentKR = "흔들리는 궤적·제트 블랙",
+          TextMapId = "UI_Accessory_Name_70012"
+        },
+        UI_Accessory_Name_70013 = {
+          ContentKR = "흔들리는 궤적·아이보리",
+          TextMapId = "UI_Accessory_Name_70013"
+        },
         UI_Accessory_Name_80001 = {
           ContentKR = "여름밤의 초대",
           TextMapId = "UI_Accessory_Name_80001"
+        },
+        UI_Accessory_Name_80011 = {
+          ContentKR = "여름밤의 초대·러스트 레드",
+          TextMapId = "UI_Accessory_Name_80011"
+        },
+        UI_Accessory_Name_80012 = {
+          ContentKR = "여름밤의 초대·제트 블랙",
+          TextMapId = "UI_Accessory_Name_80012"
+        },
+        UI_Accessory_Name_80013 = {
+          ContentKR = "여름밤의 초대·아이보리",
+          TextMapId = "UI_Accessory_Name_80013"
         },
         UI_Accessory_Name_90001 = {
           ContentKR = "칠흑의 날개",
@@ -56334,7 +56398,7 @@ local Data = {
         UI_FREE = {
           ContentKR = "무료",
           TextMapId = "UI_FREE",
-        },
+        }
         UI_FUNC_BREAKLEVELUP = {
           ContentKR = "돌파",
           TextMapId = "UI_FUNC_BREAKLEVELUP"

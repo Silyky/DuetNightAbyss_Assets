@@ -1081,7 +1081,33 @@ return ReadOnly("EffectCreature", {
   [80001] = {
     EffectCreatureId = 80001,
     EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/DeadFx/BP_EffectCreature_BodyFx.BP_EffectCreature_BodyFx",
-    EffectCreatureTag = {"FX_Body"},
+    EffectCreatureTag = {
+      "FX_Body"
+    },
+    SocketName = "Root_Effect"
+  },
+  [80011] = {
+    EffectCreatureId = 80011,
+    EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/DeadFx/BP_EffectCreature_BodyFx_R.BP_EffectCreature_BodyFx_R",
+    EffectCreatureTag = {
+      "FX_Body"
+    },
+    SocketName = "Root_Effect"
+  },
+  [80012] = {
+    EffectCreatureId = 80012,
+    EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/DeadFx/BP_EffectCreature_BodyFx_V.BP_EffectCreature_BodyFx_V",
+    EffectCreatureTag = {
+      "FX_Body"
+    },
+    SocketName = "Root_Effect"
+  },
+  [80013] = {
+    EffectCreatureId = 80013,
+    EffectCreaturePath = "/Game/BluePrints/Combat/EffectCreature/DeadFx/BP_EffectCreature_BodyFx_W.BP_EffectCreature_BodyFx_W",
+    EffectCreatureTag = {
+      "FX_Body"
+    },
     SocketName = "Root_Effect"
   },
   [110101] = {

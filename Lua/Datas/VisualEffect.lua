@@ -771,6 +771,46 @@ return ReadOnly("VisualEffect", {
     EffectPath = "/Game/Asset/Effect/Niagara/Costume/NS_Costume_Hudietuowei.NS_Costume_Hudietuowei",
     SoundID = 3001
   },
+  [503] = {
+    EffectId = 503,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_001_R.NS_JY_Hudie_001_R",
+    SoundID = 3001
+  },
+  [504] = {
+    EffectId = 504,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_002_R.NS_JY_Hudie_002_R",
+    SoundID = 3001
+  },
+  [505] = {
+    EffectId = 505,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_001_V.NS_JY_Hudie_001_V",
+    SoundID = 3001
+  },
+  [506] = {
+    EffectId = 506,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_002_V.NS_JY_Hudie_002_V",
+    SoundID = 3001
+  },
+  [507] = {
+    EffectId = 507,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_001_W.NS_JY_Hudie_001_W",
+    SoundID = 3001
+  },
+  [508] = {
+    EffectId = 508,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_002_W.NS_JY_Hudie_002_W",
+    SoundID = 3001
+  },
+  [509] = {
+    EffectId = 509,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_001_Y.NS_JY_Hudie_001_Y",
+    SoundID = 3001
+  },
+  [510] = {
+    EffectId = 510,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/07JY/NS_JY_Hudie_001_Y.NS_JY_Hudie_002_Y",
+    SoundID = 3001
+  },
   [1000] = {
     EffectId = 1000,
     EffectParam = {
@@ -10840,6 +10880,14 @@ return ReadOnly("VisualEffect", {
     },
     EffectPath = "/Game/Asset/Effect/Niagara/Weapon/A_Common/NS_FallAttack.NS_FallAttack",
     FXPriorityType = 90
+  },
+  [1030199] = {
+    EffectId = 1030199,
+    EffectPath = "/Game/Asset/Effect/Niagara/Costume/09Weapon/Claymore/NS_Claymore_Qunx.NS_Claymore_Qunx",
+    FXPriorityType = 90,
+    PlayLocation = {
+      socket = "Root"
+    }
   },
   [1030201] = {
     ChangeColorByChar = true,

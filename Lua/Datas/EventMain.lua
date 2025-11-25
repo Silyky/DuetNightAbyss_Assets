@@ -154,7 +154,7 @@ return ReadOnly("EventMain", {
     MobileBluePrint = "/Game/UI/WBP/Activity/Mobile/ActivityJump/WBP_Activity_Jump_M.WBP_Activity_Jump_M",
     PCBluePrint = "/Game/UI/WBP/Activity/PC/ActivityJump/WBP_Activity_Jump_P.WBP_Activity_Jump_P",
     ReddotNode = "Acti_JJGame",
-    RewardEndTime = 1764018000
+    RewardEndTime = 1764104400
   },
   [103008] = {
     EventBgBPPathMobile = "/Game/UI/WBP/Activity/Widget/CommunityFollow/WBP_Activity_CommunityFollowBG.WBP_Activity_CommunityFollowBG",

@@ -6644,9 +6644,9 @@ return ReadOnly("ArmoryCameraData", {
       120
     },
     Location = {
-      27,
-      365,
-      105
+      42,
+      380,
+      85
     },
     Rotation = {
       0,
@@ -6670,10 +6670,9 @@ return ReadOnly("ArmoryCameraData", {
       115
     },
     Location = {
-      35.5,
-      330,
-      117,
-      5
+      42,
+      360,
+      85
     },
     Rotation = {
       0,
@@ -6697,8 +6696,8 @@ return ReadOnly("ArmoryCameraData", {
       85
     },
     Location = {
-      35.5,
-      270,
+      28,
+      300,
       71
     },
     Rotation = {
@@ -6710,7 +6709,7 @@ return ReadOnly("ArmoryCameraData", {
   },
   Weapon_Claymore_Dye_Man = {
     BackwardLocation = {
-      38,
+      50,
       460,
       108
     },
@@ -6724,9 +6723,9 @@ return ReadOnly("ArmoryCameraData", {
       5
     },
     Location = {
-      35,
-      390,
-      124
+      50,
+      420,
+      108
     },
     Rotation = {
       0,
@@ -6737,22 +6736,22 @@ return ReadOnly("ArmoryCameraData", {
   },
   Weapon_Claymore_Dye_Woman = {
     BackwardLocation = {
-      10,
+      50,
       450,
-      116
+      100
     },
     CameraFocal = 38.6,
     CameraName = "Weapon_Claymore_Dye_Woman",
     Ease = 14,
     ForwardLocation = {
-      11,
+      22,
       255,
-      143
+      132
     },
     Location = {
-      10,
-      350,
-      120
+      45,
+      380,
+      105
     },
     Rotation = {
       0,

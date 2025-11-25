@@ -45434,6 +45434,18 @@ local Data = {
           TextMapContent = "真夏墨镜·墨玉",
           TextMapId = "UI_Accessory_Name_10053"
         },
+        UI_Accessory_Name_10058 = {
+          TextMapContent = "梦中的夜莺·涅白",
+          TextMapId = "UI_Accessory_Name_10058"
+        },
+        UI_Accessory_Name_10059 = {
+          TextMapContent = "梦中的夜莺·白樱",
+          TextMapId = "UI_Accessory_Name_10059"
+        },
+        UI_Accessory_Name_10060 = {
+          TextMapContent = "梦中的夜莺·杏黄",
+          TextMapId = "UI_Accessory_Name_10060"
+        },
         UI_Accessory_Name_20001 = {
           TextMapContent = "圆框眼镜·本色",
           TextMapId = "UI_Accessory_Name_20001"
@@ -45658,6 +45670,18 @@ local Data = {
           TextMapContent = "玩偶的童话",
           TextMapId = "UI_Accessory_Name_30017"
         },
+        UI_Accessory_Name_30022 = {
+          TextMapContent = "玩偶的童话·白樱",
+          TextMapId = "UI_Accessory_Name_30022"
+        },
+        UI_Accessory_Name_30023 = {
+          TextMapContent = "玩偶的童话·墨玉",
+          TextMapId = "UI_Accessory_Name_30023"
+        },
+        UI_Accessory_Name_30024 = {
+          TextMapContent = "玩偶的童话·晴蓝",
+          TextMapId = "UI_Accessory_Name_30024"
+        },
         UI_Accessory_Name_40001 = {
           TextMapContent = "月舞狐的尾玉",
           TextMapId = "UI_Accessory_Name_40001"
@@ -45698,6 +45722,22 @@ local Data = {
           TextMapContent = "往日幻想",
           TextMapId = "UI_Accessory_Name_40010"
         },
+        UI_Accessory_Name_40017 = {
+          TextMapContent = "月舞狐的尾玉·墨玉",
+          TextMapId = "UI_Accessory_Name_40017"
+        },
+        UI_Accessory_Name_40018 = {
+          TextMapContent = "月舞狐的尾玉·杏黄",
+          TextMapId = "UI_Accessory_Name_40018"
+        },
+        UI_Accessory_Name_40019 = {
+          TextMapContent = "月舞狐的尾玉·白樱",
+          TextMapId = "UI_Accessory_Name_40019"
+        },
+        UI_Accessory_Name_40020 = {
+          TextMapContent = "月舞狐的尾玉·锈红",
+          TextMapId = "UI_Accessory_Name_40020"
+        },
         UI_Accessory_Name_50004 = {
           TextMapContent = "银烛焰火",
           TextMapId = "UI_Accessory_Name_50004"
@@ -45710,9 +45750,33 @@ local Data = {
           TextMapContent = "摇曳轨迹",
           TextMapId = "UI_Accessory_Name_70001"
         },
+        UI_Accessory_Name_70011 = {
+          TextMapContent = "摇曳轨迹·锈红",
+          TextMapId = "UI_Accessory_Name_70011"
+        },
+        UI_Accessory_Name_70012 = {
+          TextMapContent = "摇曳轨迹·墨玉",
+          TextMapId = "UI_Accessory_Name_70012"
+        },
+        UI_Accessory_Name_70013 = {
+          TextMapContent = "摇曳轨迹·涅白",
+          TextMapId = "UI_Accessory_Name_70013"
+        },
         UI_Accessory_Name_80001 = {
           TextMapContent = "夏夜邀约",
           TextMapId = "UI_Accessory_Name_80001"
+        },
+        UI_Accessory_Name_80011 = {
+          TextMapContent = "夏夜邀约·锈红",
+          TextMapId = "UI_Accessory_Name_80011"
+        },
+        UI_Accessory_Name_80012 = {
+          TextMapContent = "夏夜邀约·墨玉",
+          TextMapId = "UI_Accessory_Name_80012"
+        },
+        UI_Accessory_Name_80013 = {
+          TextMapContent = "夏夜邀约·涅白",
+          TextMapId = "UI_Accessory_Name_80013"
         },
         UI_Accessory_Name_90001 = {
           TextMapContent = "漆黑之翼",

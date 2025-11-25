@@ -7544,6 +7544,7 @@ return ReadOnly("Model", {
     WeaponHitedSeName = "heavysword"
   },
   [3010102] = {
+    AdditionalFXID = {1030199},
     ModelId = 3010102,
     SkeletonMeshPath = "Asset/Char/Player/Common/Weapon/Claymore/Claymore_Qunxing/Mesh/Claymore_Qunxing_SM.Claymore_Qunxing_SM",
     WeaponHitedSeName = "heavysword"

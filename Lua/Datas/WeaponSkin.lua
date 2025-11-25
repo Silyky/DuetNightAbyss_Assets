@@ -20,11 +20,12 @@ return ReadOnly("WeaponSkin", {
     UnlockOption = "UI_Accessory_Unlock_Shop"
   },
   [3010102] = {
+    ApplicationType = 103,
     BigIcon = "Texture2D'/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Qunxing.T_Bust_Claymore_Qunxing'",
     Dec = "UI_WeaponSkin_Des_3010102",
     DisplayPath = "Texture2D'/Game/UI/Texture/Dynamic/Image/Bust/Weapon/T_Bust_Claymore_Qunxing.T_Bust_Claymore_Qunxing'",
+    GoShopTypeId = 120108,
     Icon = "Texture2D'/Game/UI/Texture/Dynamic/Image/Head/Weapon/T_Head_Claymore_Qunxing.T_Head_Claymore_Qunxing'",
-    IsNotOpen = true,
     LongIcon = "Texture2D'/Game/UI/Texture/Dynamic/Image/Gacha/Weapon/T_Gacha_Claymore_Qunxing.T_Gacha_Claymore_Qunxing'",
     Name = "UI_WeaponSkin_Name_3010102",
     Rarity = 5,

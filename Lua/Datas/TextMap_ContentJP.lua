@@ -40351,7 +40351,7 @@ local Data = {
           TextMapId = "TERMEXP_1801_Passive"
         },
         TERMEXP_1801_Skill02 = {
-          ContentJP = "エリア内にいる「ティータイムのお客さま」に応じてエリア属性効果が発動（ナイチンゲール=水、猟犬=火、ユニコーン=雷、チョウ=風）。\n エリア展開および属性切り替え時、自身とその周囲の味方はエリア属性に基づいた追加属性ダメージを与えることができる。「にぎやかなお茶会」持続中、エリア内の敵に2秒ごとにエリア属性の持続ダメージを与える。",
+          ContentJP = "エリア内にいる「ティータイムのお客さま」に応じてエリア属性効果が発動（ナイチンゲール=水、猟犬=火、ユニコーン=雷、チョウ=風）。\nエリア展開および属性切り替え時、自身とその周囲の味方はエリア属性に基づいた追加属性ダメージを与えることができる。「にぎやかなお茶会」持続中、エリア内の敵に2秒ごとにエリア属性の持続ダメージを与える。",
           TextMapId = "TERMEXP_1801_Skill02"
         },
         TERMEXP_2101_Dot = {
@@ -44142,6 +44142,18 @@ local Data = {
           ContentJP = "真夏のサングラス・エメラルドグリーン",
           TextMapId = "UI_Accessory_Name_10053"
         },
+        UI_Accessory_Name_10058 = {
+          ContentJP = "夢に舞うナイチンゲール-アイボリー",
+          TextMapId = "UI_Accessory_Name_10058"
+        },
+        UI_Accessory_Name_10059 = {
+          ContentJP = "夢に舞うナイチンゲール-チェリーホワイト",
+          TextMapId = "UI_Accessory_Name_10059"
+        },
+        UI_Accessory_Name_10060 = {
+          ContentJP = "夢に舞うナイチンゲール-アンズ",
+          TextMapId = "UI_Accessory_Name_10060"
+        },
         UI_Accessory_Name_20001 = {
           ContentJP = "瓶底眼鏡",
           TextMapId = "UI_Accessory_Name_20001"
@@ -44342,6 +44354,18 @@ local Data = {
           ContentJP = "人形のおとぎ話",
           TextMapId = "UI_Accessory_Name_30017"
         },
+        UI_Accessory_Name_30022 = {
+          ContentJP = "人形のおとぎ話-桜色",
+          TextMapId = "UI_Accessory_Name_30022"
+        },
+        UI_Accessory_Name_30023 = {
+          ContentJP = "人形のおとぎ話-エメラルドグリーン",
+          TextMapId = "UI_Accessory_Name_30023"
+        },
+        UI_Accessory_Name_30024 = {
+          ContentJP = "人形のおとぎ話-スカイブルー",
+          TextMapId = "UI_Accessory_Name_30024"
+        },
         UI_Accessory_Name_40001 = {
           ContentJP = "月狐の玉尾",
           TextMapId = "UI_Accessory_Name_40001"
@@ -44382,6 +44406,22 @@ local Data = {
           ContentJP = "往日の幻想",
           TextMapId = "UI_Accessory_Name_40010"
         },
+        UI_Accessory_Name_40017 = {
+          ContentJP = "月狐の玉尾-エメラルドグリーン",
+          TextMapId = "UI_Accessory_Name_40017"
+        },
+        UI_Accessory_Name_40018 = {
+          ContentJP = "月狐の玉尾-アンズ",
+          TextMapId = "UI_Accessory_Name_40018"
+        },
+        UI_Accessory_Name_40019 = {
+          ContentJP = "月狐の玉尾-桜色",
+          TextMapId = "UI_Accessory_Name_40019"
+        },
+        UI_Accessory_Name_40020 = {
+          ContentJP = "月狐の玉尾-ペルシアンレッド",
+          TextMapId = "UI_Accessory_Name_40020"
+        },
         UI_Accessory_Name_50004 = {
           ContentJP = "銀燭の焔火",
           TextMapId = "UI_Accessory_Name_50004"
@@ -44394,9 +44434,33 @@ local Data = {
           ContentJP = "揺らめく軌跡",
           TextMapId = "UI_Accessory_Name_70001"
         },
+        UI_Accessory_Name_70011 = {
+          ContentJP = "揺らめく軌跡-ペルシアンレッド",
+          TextMapId = "UI_Accessory_Name_70011"
+        },
+        UI_Accessory_Name_70012 = {
+          ContentJP = "揺らめく軌跡-エメラルドグリーン",
+          TextMapId = "UI_Accessory_Name_70012"
+        },
+        UI_Accessory_Name_70013 = {
+          ContentJP = "揺らめく軌跡-アイボリー",
+          TextMapId = "UI_Accessory_Name_70013"
+        },
         UI_Accessory_Name_80001 = {
           ContentJP = "夏夜の招待",
           TextMapId = "UI_Accessory_Name_80001"
+        },
+        UI_Accessory_Name_80011 = {
+          ContentJP = "夏夜の招待-ペルシアンレッド",
+          TextMapId = "UI_Accessory_Name_80011"
+        },
+        UI_Accessory_Name_80012 = {
+          ContentJP = "夏夜の招待-エメラルドグリーン",
+          TextMapId = "UI_Accessory_Name_80012"
+        },
+        UI_Accessory_Name_80013 = {
+          ContentJP = "夏夜の招待-アイボリー",
+          TextMapId = "UI_Accessory_Name_80013"
         },
         UI_Accessory_Name_90001 = {
           ContentJP = "漆黒の翼",

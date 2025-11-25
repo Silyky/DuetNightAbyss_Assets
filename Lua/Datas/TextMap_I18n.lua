@@ -82917,8 +82917,8 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TERMEXP_1801_Passive"
         },
   TERMEXP_1801_Skill02 = {
-    ContentEN = "Generates an elemental field based on the type of the [Tea Party Guests] — [Nightingale] for Hydro, [Hound] for Pyro, [Unicorn] for Electro, and [Butterfly] for Anemo.\nWhen the field appears or its element shifts, Fina and allies gain bonus elemental damage matching the field's type. While [Boisterous Tea Party] is active, the field also deals elemental damage to enemies within range every 2s.",
-    ContentJP = "エリア内にいる「ティータイムのお客さま」に応じてエリア属性効果が発動（ナイチンゲール=水、猟犬=火、ユニコーン=雷、チョウ=風）。\n エリア展開および属性切り替え時、自身とその周囲の味方はエリア属性に基づいた追加属性ダメージを与えることができる。「にぎやかなお茶会」持続中、エリア内の敵に2秒ごとにエリア属性の持続ダメージを与える。",
+    ContentEN = "Generates an elemental field based on the type of the [Tea Party Guests] — [Nightingale] for Hydro, [Hound] for Pyro, [Unicorn] for Electro, and [Butterfly] for Anemo.\nWhen the field appears or its element shifts, Fina and allies gain additional elemental damage matching the field's type. While [Boisterous Tea Party] is active, the field also deals elemental damage to enemies within range every 2s.",
+    ContentJP = "エリア内にいる「ティータイムのお客さま」に応じてエリア属性効果が発動（ナイチンゲール=水、猟犬=火、ユニコーン=雷、チョウ=風）。\nエリア展開および属性切り替え時、自身とその周囲の味方はエリア属性に基づいた追加属性ダメージを与えることができる。「にぎやかなお茶会」持続中、エリア内の敵に2秒ごとにエリア属性の持続ダメージを与える。",
     ContentKR = "영역 내 [티타임 손님들]에 따라 해당 속성 효과가 적용된다. [티타임 손님들]은 각각 물, 불, 번개, 바람 속성에 해당하는 [나이팅게일], [사냥개], [유니콘], [나비]가 포함된다.\n영역 전개 및 전환 시 자신과 팀원에게 해당 속성의 추가 대미지를 부여한다. [떠들썩한 티타임] 지속 기간, 영역 내의 적에게 2초마다 해당 속성의 지속 대미지를 1회 입힌다.",
     ContentTC = "根據領域中的[下午茶的客人們]，生效對應屬性的效果。[下午茶的客人們]包括[夜鶯][獵犬][獨角獸][蝴蝶]，分別對應水、火、雷、風屬性。\n領域展開及切換時，為自身和隊友附加對應屬性的追加傷害。[喧鬧下午茶]持續期間，對領域內的敵人2秒造成1次對應屬性的持續傷害。",
     TextMapContent = "根据领域中的[下午茶的客人们]，生效对应属性的效果。[下午茶的客人们]包括[夜莺][猎犬][独角兽][蝴蝶]，分别对应水、火、雷、风属性。\n领域展开及切换时，为自身和队友附加对应属性的追加伤害。[喧闹下午茶]持续期间，对领域内的敌人2秒造成1次对应属性的持续伤害。",
@@ -90533,6 +90533,30 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "真夏墨镜·墨玉",
     TextMapId = "UI_Accessory_Name_10053"
         },
+  UI_Accessory_Name_10058 = {
+    ContentEN = "Nightingale of Dreams: Opaque White",
+    ContentJP = "夢に舞うナイチンゲール-アイボリー",
+    ContentKR = "꿈속의 나이팅게일·아이보리",
+    ContentTC = "夢中的夜鶯·涅白",
+    TextMapContent = "梦中的夜莺·涅白",
+    TextMapId = "UI_Accessory_Name_10058"
+        },
+  UI_Accessory_Name_10059 = {
+    ContentEN = "Nightingale of Dreams: White Sakura",
+    ContentJP = "夢に舞うナイチンゲール-チェリーホワイト",
+    ContentKR = "꿈속의 나이팅게일·벚꽃",
+    ContentTC = "夢中的夜鶯·白櫻",
+    TextMapContent = "梦中的夜莺·白樱",
+    TextMapId = "UI_Accessory_Name_10059"
+        },
+  UI_Accessory_Name_10060 = {
+    ContentEN = "Nightingale of Dreams: Apricot",
+    ContentJP = "夢に舞うナイチンゲール-アンズ",
+    ContentKR = "꿈속의 나이팅게일·오렌지",
+    ContentTC = "夢中的夜鶯·杏黃",
+    TextMapContent = "梦中的夜莺·杏黄",
+    TextMapId = "UI_Accessory_Name_10060"
+        },
   UI_Accessory_Name_20001 = {
     ContentEN = "Sage's Spectacles",
     ContentJP = "瓶底眼鏡",
@@ -90957,6 +90981,30 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "玩偶的童话",
     TextMapId = "UI_Accessory_Name_30017"
         },
+  UI_Accessory_Name_30022 = {
+    ContentEN = "Tale of a Plush Doll: White Sakura",
+    ContentJP = "人形のおとぎ話-桜色",
+    ContentKR = "인형의 동화·벚꽃",
+    ContentTC = "玩偶的童話·白櫻",
+    TextMapContent = "玩偶的童话·白樱",
+    TextMapId = "UI_Accessory_Name_30022"
+        },
+  UI_Accessory_Name_30023 = {
+    ContentEN = "Tale of a Plush Doll: Dark Jade",
+    ContentJP = "人形のおとぎ話-エメラルドグリーン",
+    ContentKR = "인형의 동화·제트 블랙",
+    ContentTC = "玩偶的童話·墨玉",
+    TextMapContent = "玩偶的童话·墨玉",
+    TextMapId = "UI_Accessory_Name_30023"
+        },
+  UI_Accessory_Name_30024 = {
+    ContentEN = "Tale of a Plush Doll: Celeste",
+    ContentJP = "人形のおとぎ話-スカイブルー",
+    ContentKR = "인형의 동화·스카이 블루",
+    ContentTC = "玩偶的童話·晴藍",
+    TextMapContent = "玩偶的童话·晴蓝",
+    TextMapId = "UI_Accessory_Name_30024"
+        },
   UI_Accessory_Name_40001 = {
     ContentEN = "Phoxfox Tail",
     ContentJP = "月狐の玉尾",
@@ -91037,6 +91085,38 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "往日幻想",
     TextMapId = "UI_Accessory_Name_40010"
         },
+  UI_Accessory_Name_40017 = {
+    ContentEN = "Phoxfox Tail: Dark Jade",
+    ContentJP = "月狐の玉尾-エメラルドグリーン",
+    ContentKR = "달의 여우 꼬리·제트 블랙",
+    ContentTC = "月舞狐的尾玉·墨玉",
+    TextMapContent = "月舞狐的尾玉·墨玉",
+    TextMapId = "UI_Accessory_Name_40017"
+        },
+  UI_Accessory_Name_40018 = {
+    ContentEN = "Phoxfox Tail: Apricot",
+    ContentJP = "月狐の玉尾-アンズ",
+    ContentKR = "달의 여우 꼬리·오렌지",
+    ContentTC = "月舞狐的尾玉·杏黃",
+    TextMapContent = "月舞狐的尾玉·杏黄",
+    TextMapId = "UI_Accessory_Name_40018"
+        },
+  UI_Accessory_Name_40019 = {
+    ContentEN = "Phoxfox Tail: White Sakura",
+    ContentJP = "月狐の玉尾-桜色",
+    ContentKR = "달의 여우 꼬리·벚꽃",
+    ContentTC = "月舞狐的尾玉",
+    TextMapContent = "月舞狐的尾玉·白樱",
+    TextMapId = "UI_Accessory_Name_40019"
+        },
+  UI_Accessory_Name_40020 = {
+    ContentEN = "Phoxfox Tail: Rose Red",
+    ContentJP = "月狐の玉尾-ペルシアンレッド",
+    ContentKR = "달의 여우 꼬리·러스트 레드",
+    ContentTC = "月舞狐的尾玉·銹紅",
+    TextMapContent = "月舞狐的尾玉·锈红",
+    TextMapId = "UI_Accessory_Name_40020"
+        },
   UI_Accessory_Name_50004 = {
     ContentEN = "Argent Flare",
     ContentJP = "銀燭の焔火",
@@ -91060,6 +91140,30 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "摇曳轨迹",
     TextMapId = "UI_Accessory_Name_70001"
         },
+  UI_Accessory_Name_70011 = {
+    ContentEN = "Flow of Grace: Rose Red",
+    ContentJP = "揺らめく軌跡-ペルシアンレッド",
+    ContentKR = "흔들리는 궤적·러스트 레드",
+    ContentTC = "搖曳軌跡·銹紅",
+    TextMapContent = "摇曳轨迹·锈红",
+    TextMapId = "UI_Accessory_Name_70011"
+        },
+  UI_Accessory_Name_70012 = {
+    ContentEN = "Flow of Grace: Dark Jade",
+    ContentJP = "揺らめく軌跡-エメラルドグリーン",
+    ContentKR = "흔들리는 궤적·제트 블랙",
+    ContentTC = "搖曳軌跡·墨玉",
+    TextMapContent = "摇曳轨迹·墨玉",
+    TextMapId = "UI_Accessory_Name_70012"
+        },
+  UI_Accessory_Name_70013 = {
+    ContentEN = "Flow of Grace: Opaque White",
+    ContentJP = "揺らめく軌跡-アイボリー",
+    ContentKR = "흔들리는 궤적·아이보리",
+    ContentTC = "搖曳軌跡·涅白",
+    TextMapContent = "摇曳轨迹·涅白",
+    TextMapId = "UI_Accessory_Name_70013"
+        },
   UI_Accessory_Name_80001 = {
     ContentEN = "Midsummer Rendezvous",
     ContentJP = "夏夜の招待",
@@ -91067,6 +91171,30 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "夏夜邀約",
     TextMapContent = "夏夜邀约",
     TextMapId = "UI_Accessory_Name_80001"
+        },
+  UI_Accessory_Name_80011 = {
+    ContentEN = "Midsummer Rendezvous: Rose Red",
+    ContentJP = "夏夜の招待-ペルシアンレッド",
+    ContentKR = "여름밤의 초대·러스트 레드",
+    ContentTC = "夏夜邀約·銹紅",
+    TextMapContent = "夏夜邀约·锈红",
+    TextMapId = "UI_Accessory_Name_80011"
+        },
+  UI_Accessory_Name_80012 = {
+    ContentEN = "Midsummer Rendezvous: Dark Jade",
+    ContentJP = "夏夜の招待-エメラルドグリーン",
+    ContentKR = "여름밤의 초대·제트 블랙",
+    ContentTC = "夏夜邀約·墨玉",
+    TextMapContent = "夏夜邀约·墨玉",
+    TextMapId = "UI_Accessory_Name_80012"
+        },
+  UI_Accessory_Name_80013 = {
+    ContentEN = "Midsummer Rendezvous: Opaque White",
+    ContentJP = "夏夜の招待-アイボリー",
+    ContentKR = "여름밤의 초대·아이보리",
+    ContentTC = "夏夜邀約·涅白",
+    TextMapContent = "夏夜邀约·涅白",
+    TextMapId = "UI_Accessory_Name_80013"
         },
   UI_Accessory_Name_90001 = {
     ContentEN = "The Wings of Darkness",

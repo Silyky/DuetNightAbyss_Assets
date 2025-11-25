@@ -40352,7 +40352,7 @@ local Data = {
           TextMapId = "TERMEXP_1801_Passive"
         },
         TERMEXP_1801_Skill02 = {
-          ContentEN = "Generates an elemental field based on the type of the [Tea Party Guests] — [Nightingale] for Hydro, [Hound] for Pyro, [Unicorn] for Electro, and [Butterfly] for Anemo.\nWhen the field appears or its element shifts, Fina and allies gain bonus elemental damage matching the field's type. While [Boisterous Tea Party] is active, the field also deals elemental damage to enemies within range every 2s.",
+          ContentEN = "Generates an elemental field based on the type of the [Tea Party Guests] — [Nightingale] for Hydro, [Hound] for Pyro, [Unicorn] for Electro, and [Butterfly] for Anemo.\nWhen the field appears or its element shifts, Fina and allies gain additional elemental damage matching the field's type. While [Boisterous Tea Party] is active, the field also deals elemental damage to enemies within range every 2s.",
           TextMapId = "TERMEXP_1801_Skill02"
         },
         TERMEXP_2101_Dot = {
@@ -44143,6 +44143,18 @@ local Data = {
           ContentEN = "Midsummer Shades – Dark Jade",
           TextMapId = "UI_Accessory_Name_10053"
         },
+        UI_Accessory_Name_10058 = {
+          ContentEN = "Nightingale of Dreams: Opaque White",
+          TextMapId = "UI_Accessory_Name_10058"
+        },
+        UI_Accessory_Name_10059 = {
+          ContentEN = "Nightingale of Dreams: White Sakura",
+          TextMapId = "UI_Accessory_Name_10059"
+        },
+        UI_Accessory_Name_10060 = {
+          ContentEN = "Nightingale of Dreams: Apricot",
+          TextMapId = "UI_Accessory_Name_10060"
+        },
         UI_Accessory_Name_20001 = {
           ContentEN = "Sage's Spectacles",
           TextMapId = "UI_Accessory_Name_20001"
@@ -44343,6 +44355,18 @@ local Data = {
           ContentEN = "Tale of a Plush Doll",
           TextMapId = "UI_Accessory_Name_30017"
         },
+        UI_Accessory_Name_30022 = {
+          ContentEN = "Tale of a Plush Doll: White Sakura",
+          TextMapId = "UI_Accessory_Name_30022"
+        },
+        UI_Accessory_Name_30023 = {
+          ContentEN = "Tale of a Plush Doll: Dark Jade",
+          TextMapId = "UI_Accessory_Name_30023"
+        },
+        UI_Accessory_Name_30024 = {
+          ContentEN = "Tale of a Plush Doll: Celeste",
+          TextMapId = "UI_Accessory_Name_30024"
+        },
         UI_Accessory_Name_40001 = {
           ContentEN = "Phoxfox Tail",
           TextMapId = "UI_Accessory_Name_40001"
@@ -44383,6 +44407,22 @@ local Data = {
           ContentEN = "Faded Fantasy",
           TextMapId = "UI_Accessory_Name_40010"
         },
+        UI_Accessory_Name_40017 = {
+          ContentEN = "Phoxfox Tail: Dark Jade",
+          TextMapId = "UI_Accessory_Name_40017"
+        },
+        UI_Accessory_Name_40018 = {
+          ContentEN = "Phoxfox Tail: Apricot",
+          TextMapId = "UI_Accessory_Name_40018"
+        },
+        UI_Accessory_Name_40019 = {
+          ContentEN = "Phoxfox Tail: White Sakura",
+          TextMapId = "UI_Accessory_Name_40019"
+        },
+        UI_Accessory_Name_40020 = {
+          ContentEN = "Phoxfox Tail: Rose Red",
+          TextMapId = "UI_Accessory_Name_40020"
+        },
         UI_Accessory_Name_50004 = {
           ContentEN = "Argent Flare",
           TextMapId = "UI_Accessory_Name_50004"
@@ -44395,9 +44435,33 @@ local Data = {
           ContentEN = "Flow of Grace",
           TextMapId = "UI_Accessory_Name_70001"
         },
+        UI_Accessory_Name_70011 = {
+          ContentEN = "Flow of Grace: Rose Red",
+          TextMapId = "UI_Accessory_Name_70011"
+        },
+        UI_Accessory_Name_70012 = {
+          ContentEN = "Flow of Grace: Dark Jade",
+          TextMapId = "UI_Accessory_Name_70012"
+        },
+        UI_Accessory_Name_70013 = {
+          ContentEN = "Flow of Grace: Opaque White",
+          TextMapId = "UI_Accessory_Name_70013"
+        },
         UI_Accessory_Name_80001 = {
           ContentEN = "Midsummer Rendezvous",
           TextMapId = "UI_Accessory_Name_80001"
+        },
+        UI_Accessory_Name_80011 = {
+          ContentEN = "Midsummer Rendezvous: Rose Red",
+          TextMapId = "UI_Accessory_Name_80011"
+        },
+        UI_Accessory_Name_80012 = {
+          ContentEN = "Midsummer Rendezvous: Dark Jade",
+          TextMapId = "UI_Accessory_Name_80012"
+        },
+        UI_Accessory_Name_80013 = {
+          ContentEN = "Midsummer Rendezvous: Opaque White",
+          TextMapId = "UI_Accessory_Name_80013"
         },
         UI_Accessory_Name_90001 = {
           ContentEN = "The Wings of Darkness",

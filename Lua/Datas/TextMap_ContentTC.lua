@@ -44162,6 +44162,18 @@ local Data = {
           ContentTC = "真夏墨鏡・墨玉",
           TextMapId = "UI_Accessory_Name_10053"
         },
+        UI_Accessory_Name_10058 = {
+          ContentTC = "夢中的夜鶯·涅白",
+          TextMapId = "UI_Accessory_Name_10058"
+        },
+        UI_Accessory_Name_10059 = {
+          ContentTC = "夢中的夜鶯·白櫻",
+          TextMapId = "UI_Accessory_Name_10059"
+        },
+        UI_Accessory_Name_10060 = {
+          ContentTC = "夢中的夜鶯·杏黃",
+          TextMapId = "UI_Accessory_Name_10060"
+        },
         UI_Accessory_Name_20001 = {
           ContentTC = "圓框眼鏡·本色",
           TextMapId = "UI_Accessory_Name_20001"
@@ -44362,6 +44374,18 @@ local Data = {
           ContentTC = "玩偶的童話",
           TextMapId = "UI_Accessory_Name_30017"
         },
+        UI_Accessory_Name_30022 = {
+          ContentTC = "玩偶的童話·白櫻",
+          TextMapId = "UI_Accessory_Name_30022"
+        },
+        UI_Accessory_Name_30023 = {
+          ContentTC = "玩偶的童話·墨玉",
+          TextMapId = "UI_Accessory_Name_30023"
+        },
+        UI_Accessory_Name_30024 = {
+          ContentTC = "玩偶的童話·晴藍",
+          TextMapId = "UI_Accessory_Name_30024"
+        },
         UI_Accessory_Name_40001 = {
           ContentTC = "月舞狐的尾玉",
           TextMapId = "UI_Accessory_Name_40001"
@@ -44402,6 +44426,22 @@ local Data = {
           ContentTC = "往日幻想",
           TextMapId = "UI_Accessory_Name_40010"
         },
+        UI_Accessory_Name_40017 = {
+          ContentTC = "月舞狐的尾玉·墨玉",
+          TextMapId = "UI_Accessory_Name_40017"
+        },
+        UI_Accessory_Name_40018 = {
+          ContentTC = "月舞狐的尾玉·杏黃",
+          TextMapId = "UI_Accessory_Name_40018"
+        },
+        UI_Accessory_Name_40019 = {
+          ContentTC = "月舞狐的尾玉",
+          TextMapId = "UI_Accessory_Name_40019"
+        },
+        UI_Accessory_Name_40020 = {
+          ContentTC = "月舞狐的尾玉·銹紅",
+          TextMapId = "UI_Accessory_Name_40020"
+        },
         UI_Accessory_Name_50004 = {
           ContentTC = "銀燭焰火",
           TextMapId = "UI_Accessory_Name_50004"
@@ -44414,9 +44454,33 @@ local Data = {
           ContentTC = "搖曳軌跡",
           TextMapId = "UI_Accessory_Name_70001"
         },
+        UI_Accessory_Name_70011 = {
+          ContentTC = "搖曳軌跡·銹紅",
+          TextMapId = "UI_Accessory_Name_70011"
+        },
+        UI_Accessory_Name_70012 = {
+          ContentTC = "搖曳軌跡·墨玉",
+          TextMapId = "UI_Accessory_Name_70012"
+        },
+        UI_Accessory_Name_70013 = {
+          ContentTC = "搖曳軌跡·涅白",
+          TextMapId = "UI_Accessory_Name_70013"
+        },
         UI_Accessory_Name_80001 = {
           ContentTC = "夏夜邀約",
           TextMapId = "UI_Accessory_Name_80001"
+        },
+        UI_Accessory_Name_80011 = {
+          ContentTC = "夏夜邀約·銹紅",
+          TextMapId = "UI_Accessory_Name_80011"
+        },
+        UI_Accessory_Name_80012 = {
+          ContentTC = "夏夜邀約·墨玉",
+          TextMapId = "UI_Accessory_Name_80012"
+        },
+        UI_Accessory_Name_80013 = {
+          ContentTC = "夏夜邀約·涅白",
+          TextMapId = "UI_Accessory_Name_80013"
         },
         UI_Accessory_Name_90001 = {
           ContentTC = "漆黑之翼",

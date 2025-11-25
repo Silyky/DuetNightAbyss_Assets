@@ -27,7 +27,7 @@ return ReadOnly("RewardView", {
     Id = {
       [1] = 101,
       [2] = 10101,
-      [3] = 2026
+      [3] = 2029
     },
     Quantity = {
       [1] = 10000,
@@ -52,7 +52,7 @@ return ReadOnly("RewardView", {
     Id = {
       [1] = 101,
       [2] = 10101,
-      [3] = 1007
+      [3] = 1022
     },
     Quantity = {
       [1] = 10000,
