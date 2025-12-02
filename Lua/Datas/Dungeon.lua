@@ -5555,6 +5555,7 @@ return ReadOnly("Dungeon", {
     FbdRule = {
       NoBattleWheel = 1
     },
+    FirstCompleteReward = 110104,
     GameModeOverride = "/Game/AssetDesign/GameMode/Special/Event/Feina/BP_EMGameMode_Event_Feina_Main_01.BP_EMGameMode_Event_Feina_Main_01",
     IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
@@ -5622,6 +5623,7 @@ return ReadOnly("Dungeon", {
     FbdRule = {
       NoBattleWheel = 1
     },
+    FirstCompleteReward = 110104,
     GameModeOverride = "/Game/AssetDesign/GameMode/Special/Event/Feina/BP_EMGameMode_Event_Feina_Main_02.BP_EMGameMode_Event_Feina_Main_02",
     IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
@@ -5689,6 +5691,7 @@ return ReadOnly("Dungeon", {
     FbdRule = {
       NoBattleWheel = 1
     },
+    FirstCompleteReward = 110104,
     GameModeOverride = "/Game/AssetDesign/GameMode/Special/Event/Feina/BP_EMGameMode_Event_Feina_Main_03_1.BP_EMGameMode_Event_Feina_Main_03_1",
     IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
@@ -5756,6 +5759,7 @@ return ReadOnly("Dungeon", {
     FbdRule = {
       NoBattleWheel = 1
     },
+    FirstCompleteReward = 110104,
     GameModeOverride = "/Game/AssetDesign/GameMode/Special/Event/Feina/BP_EMGameMode_Event_Feina_Main_03_2.BP_EMGameMode_Event_Feina_Main_03_2",
     IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
@@ -5823,6 +5827,7 @@ return ReadOnly("Dungeon", {
     FbdRule = {
       NoBattleWheel = 1
     },
+    FirstCompleteReward = 110104,
     GameModeOverride = "/Game/AssetDesign/GameMode/Special/Event/Feina/BP_EMGameMode_Event_Feina_Main_04_1.BP_EMGameMode_Event_Feina_Main_04_1",
     IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
@@ -5890,6 +5895,7 @@ return ReadOnly("Dungeon", {
     FbdRule = {
       NoBattleWheel = 1
     },
+    FirstCompleteReward = 110104,
     GameModeOverride = "/Game/AssetDesign/GameMode/Special/Event/Feina/BP_EMGameMode_Event_Feina_Main_04_2.BP_EMGameMode_Event_Feina_Main_04_2",
     IsGameEventDungeon = true,
     IsPlayLevelEnter = true,

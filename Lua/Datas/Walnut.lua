@@ -225,7 +225,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "Text_Abyss"
     },
     Count = {
       [1] = 10,
@@ -335,8 +336,7 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss",
-      "Text_HardBoss"
+      "Shop_Abyss"
     },
     Count = {
       [1] = 10,
@@ -891,7 +891,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_Abyss"
+      "Text_HardBoss"
     },
     Count = {
       [1] = 10,
@@ -2376,8 +2376,7 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss",
-      "Text_HardBoss"
+      "Shop_Abyss"
     },
     Count = {
       [1] = 1,
@@ -2544,7 +2543,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "Text_HardBoss"
     },
     Count = {
       [1] = 1,
